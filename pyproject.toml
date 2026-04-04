@@ -1,0 +1,14 @@
+[project]
+name = "tax-on-web4ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "crawl4ai>=0.8.6",
+    "currency>=0.1.2",
+    "fastmcp>=3.2.0",
+    "firecrawl>=4.22.0",
+    "pydantic>=2.12.5",
+]
