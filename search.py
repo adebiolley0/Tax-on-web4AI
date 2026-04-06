@@ -9,6 +9,7 @@ import tempfile
 from pathlib import Path
 from urllib.parse import quote, urljoin
 
+from async_lru import alru_cache
 from bs4 import BeautifulSoup
 from crawl4ai import (
     AsyncWebCrawler,
@@ -255,7 +256,8 @@ async def fetch_url(url: str, *, crawler: AsyncWebCrawler | None = None) -> Fetc
         shutil.rmtree(user_data_dir, ignore_errors=True)
 
 
-async def fetch_urls(urls: list[str]) -> list[FetchUrlResult]:
+@alru_cache(maxsize=256)
+async def _fetch_urls_cached(urls: tuple[str, ...]) -> tuple[FetchUrlResult, ...]:
     """Fetch each URL with one shared crawler session (same stack as :func:`fetch_url`)."""
     user_data_dir = tempfile.mkdtemp(prefix="crawl4ai-tax-urls-")
     try:
@@ -269,9 +271,13 @@ async def fetch_urls(urls: list[str]) -> list[FetchUrlResult]:
             await _session_warmup(crawler)
             for u in urls:
                 results.append(await fetch_url(u, crawler=crawler))
-        return results
+        return tuple(results)
     finally:
         shutil.rmtree(user_data_dir, ignore_errors=True)
+
+
+async def fetch_urls(urls: list[str]) -> list[FetchUrlResult]:
+    return list(await _fetch_urls_cached(tuple(urls)))
 
 
 async def fetch_all_sitemap_urls(
