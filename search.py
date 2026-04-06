@@ -255,6 +255,25 @@ async def fetch_url(url: str, *, crawler: AsyncWebCrawler | None = None) -> Fetc
         shutil.rmtree(user_data_dir, ignore_errors=True)
 
 
+async def fetch_urls(urls: list[str]) -> list[FetchUrlResult]:
+    """Fetch each URL with one shared crawler session (same stack as :func:`fetch_url`)."""
+    user_data_dir = tempfile.mkdtemp(prefix="crawl4ai-tax-urls-")
+    try:
+        browser_config = _doc_browser_config(user_data_dir=user_data_dir)
+        crawler_strategy = AsyncPlaywrightCrawlerStrategy(browser_config=browser_config)
+        results: list[FetchUrlResult] = []
+        async with AsyncWebCrawler(
+            crawler_strategy=crawler_strategy,
+            config=browser_config,
+        ) as crawler:
+            await _session_warmup(crawler)
+            for u in urls:
+                results.append(await fetch_url(u, crawler=crawler))
+        return results
+    finally:
+        shutil.rmtree(user_data_dir, ignore_errors=True)
+
+
 async def fetch_all_sitemap_urls(
     json_path: str | Path = "extracted_sitemap.json",
 ) -> list[FetchUrlResult]:
