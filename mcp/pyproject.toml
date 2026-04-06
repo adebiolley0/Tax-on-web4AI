@@ -1,0 +1,15 @@
+[project]
+name = "tax-on-web-mcp-server"
+version = "0.1.0"
+description = "MCP server (FastMCP)"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.2.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["server"]
