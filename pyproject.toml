@@ -12,7 +12,6 @@ dependencies = [
     "curl-cffi>=0.15.0",
     "currency>=0.1.2",
     "fastmcp>=3.2.0",
-    "firecrawl>=4.22.0",
     "httpx>=0.28.1",
     "pydantic>=2.12.5",
     "qdrant-client>=1.14.0",

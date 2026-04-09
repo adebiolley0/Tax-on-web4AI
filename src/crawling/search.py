@@ -16,6 +16,8 @@ from crawl4ai import (
     BrowserConfig,
     CacheMode,
     CrawlerRunConfig,
+    DefaultMarkdownGenerator,
+    PruningContentFilter,
     UndetectedAdapter,
 )
 from crawl4ai.async_crawler_strategy import AsyncPlaywrightCrawlerStrategy
@@ -134,6 +136,26 @@ def _doc_browser_config(*, user_data_dir: str) -> BrowserConfig:
 
 _WARM_FIN_URL = "https://fin.belgium.be/fr/particuliers"
 
+# Strip common CMP / cookie UI from HTML before markdown (complements remove_consent_popups).
+_COOKIE_OVERLAY_EXCLUDED = (
+    "#onetrust-banner-sdk,#onetrust-consent-sdk,.onetrust-pc-dark-filter,"
+    "#CybotCookiebotDialog,#cookiescript_injected,#qc-cmp2-container,"
+    ".cookie-banner,[class*='cookie-banner'],[id*='cookie-consent'],"
+    ".orejime-ModalPortal,.orejime-Button,.orejime-AppContainer,[class*='orejime']"
+)
+
+
+def _doc_markdown_generator() -> DefaultMarkdownGenerator:
+    """Prune boilerplate; strip inline links/images from markdown (nav URLs often live in <main>)."""
+    return DefaultMarkdownGenerator(
+        content_filter=PruningContentFilter(threshold=0.42, threshold_type="fixed"),
+        options={
+            "ignore_links": True,
+            "ignore_images": True,
+        },
+        content_source="cleaned_html",
+    )
+
 
 async def _session_warmup(crawler: AsyncWebCrawler) -> None:
     warm_cfg = CrawlerRunConfig(
@@ -159,6 +181,13 @@ def _doc_primary_fetch_config() -> CrawlerRunConfig:
         timezone_id="Europe/Brussels",
         max_retries=0,
         verbose=False,
+        markdown_generator=_doc_markdown_generator(),
+        remove_consent_popups=True,
+        remove_overlay_elements=True,
+        excluded_selector=_COOKIE_OVERLAY_EXCLUDED,
+        css_selector="main#content",
+        exclude_external_links=True,
+        exclude_internal_links=True,
     )
 
 
@@ -182,12 +211,24 @@ def _is_waf_interstitial_html(html: str) -> bool:
     return True
 
 
-def _markdown_excerpt(result) -> str | None:
+def _markdown_body(result) -> str | None:
+    """Use pruned 'fit' markdown when available to drop nav/footer/cookie noise."""
     md = result.markdown
     if md is None:
         return None
-    text = md if isinstance(md, str) else (md.raw_markdown or "")
-    text = text.strip()
+    if isinstance(md, str):
+        text = md.strip()
+        return text or None
+    fit = md.fit_markdown
+    if fit and str(fit).strip():
+        return str(fit).strip()
+    raw = md.raw_markdown or ""
+    text = raw.strip()
+    return text or None
+
+
+def _markdown_excerpt(result) -> str | None:
+    text = _markdown_body(result)
     if not text:
         return None
     return text[:2000] if len(text) > 2000 else text
@@ -334,7 +375,7 @@ async def test_fetch_all_sitemap_urls(
 async def search(query: str, page: int = 0) -> SearchResponse:
     """Run a keyword search on the French SPF Finances search page using crawl4ai.
 
-    Uses the same browser stack as ``main.py`` (UndetectedAdapter, non-headless,
+    Uses the same browser stack as ``scripts/main.py`` (UndetectedAdapter, non-headless,
     locale fr-BE). Pagination follows the site's ``page`` query parameter
     (0 = first page, 1 = second, ...).
     """
@@ -352,6 +393,13 @@ async def search(query: str, page: int = 0) -> SearchResponse:
         delay_before_return_html=12.0,
         locale="fr-BE",
         timezone_id="Europe/Brussels",
+        markdown_generator=_doc_markdown_generator(),
+        remove_consent_popups=True,
+        remove_overlay_elements=True,
+        excluded_selector=_COOKIE_OVERLAY_EXCLUDED,
+        css_selector="main#content",
+        exclude_external_links=True,
+        exclude_internal_links=True,
     )
     async with AsyncWebCrawler(
         crawler_strategy=crawler_strategy,
