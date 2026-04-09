@@ -4,9 +4,9 @@ import json
 
 from fastmcp import FastMCP
 
-from embedder import embed_texts
-from qdrant_store import ensure_collection, get_client, search_similar
-from search import SearchResponse, fetch_urls, search as site_search
+from storage.embedder import embed_texts
+from storage.qdrant_store import ensure_collection, get_client, search_similar
+from crawling.search import SearchResponse, fetch_urls, search as site_search
 
 mcp = FastMCP("Belgian Tax SPF")
 

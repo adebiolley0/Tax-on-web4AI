@@ -1,6 +1,6 @@
 """Tests for the document chunker."""
 
-from chunker import chunk_document
+from storage.chunker import chunk_document
 from models import Document, SourceType
 
 

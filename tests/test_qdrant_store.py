@@ -2,8 +2,8 @@
 
 import pytest
 
-from embedder import embed_texts
-from qdrant_store import (
+from storage.embedder import embed_texts
+from storage.qdrant_store import (
     COLLECTION_NAME,
     delete_by_document_id,
     ensure_collection,
@@ -101,8 +101,8 @@ class TestQdrantUnit:
 
     def test_delete_by_document_id(self, qdrant_with_docs, parsed_documents):
         """Test deleting chunks by document_id on a separate in-memory instance."""
-        from chunker import chunk_document
-        from embedder import embed_chunks
+        from storage.chunker import chunk_document
+        from storage.embedder import embed_chunks
 
         client = get_client(in_memory=True)
         ensure_collection(client)

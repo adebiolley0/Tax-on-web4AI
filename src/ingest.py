@@ -11,12 +11,12 @@ from pathlib import Path
 
 import httpx
 
-from chunker import chunk_document
-from content_extractor import document_from_crawl_result, load_sitemap_metadata
-from embedder import embed_chunks
-from fisconet_client import fetch_document, search_documents
+from storage.chunker import chunk_document
+from crawling.content_extractor import document_from_crawl_result, load_sitemap_metadata
+from storage.embedder import embed_chunks
+from fisconet.client import fetch_document, search_documents
 from models import Document
-from qdrant_store import ensure_collection, get_client, search_similar, upsert_chunks
+from storage.qdrant_store import ensure_collection, get_client, search_similar, upsert_chunks
 
 logging.basicConfig(
     level=logging.INFO,
