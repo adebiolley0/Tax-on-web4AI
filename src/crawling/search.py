@@ -136,12 +136,17 @@ def _doc_browser_config(*, user_data_dir: str) -> BrowserConfig:
 
 _WARM_FIN_URL = "https://fin.belgium.be/fr/particuliers"
 
-# Strip common CMP / cookie UI from HTML before markdown (complements remove_consent_popups).
-_COOKIE_OVERLAY_EXCLUDED = (
+# Removed from DOM before markdown: CMP/cookies, breadcrumbs, share widgets, common TOC shells.
+_EXCLUDED_SELECTOR = (
     "#onetrust-banner-sdk,#onetrust-consent-sdk,.onetrust-pc-dark-filter,"
     "#CybotCookiebotDialog,#cookiescript_injected,#qc-cmp2-container,"
     ".cookie-banner,[class*='cookie-banner'],[id*='cookie-consent'],"
-    ".orejime-ModalPortal,.orejime-Button,.orejime-AppContainer,[class*='orejime']"
+    ".orejime-ModalPortal,.orejime-Button,.orejime-AppContainer,[class*='orejime'],"
+    "nav[aria-label='Breadcrumb'],.breadcrumbs,"
+    "#block-ofed-social-ofed-social-block,[id^='block-ofed-social'],"
+    ".block-sharethis,.block-sharethis-sharethis-block,.sharethis-wrapper,"
+    "[class*='table-of-contents'],[id*='table-of-contents'],"
+    "nav[aria-label*='table of contents'],nav[aria-label*='Table des matières']"
 )
 
 
@@ -184,7 +189,7 @@ def _doc_primary_fetch_config() -> CrawlerRunConfig:
         markdown_generator=_doc_markdown_generator(),
         remove_consent_popups=True,
         remove_overlay_elements=True,
-        excluded_selector=_COOKIE_OVERLAY_EXCLUDED,
+        excluded_selector=_EXCLUDED_SELECTOR,
         css_selector="main#content",
         exclude_external_links=True,
         exclude_internal_links=True,
@@ -396,7 +401,7 @@ async def search(query: str, page: int = 0) -> SearchResponse:
         markdown_generator=_doc_markdown_generator(),
         remove_consent_popups=True,
         remove_overlay_elements=True,
-        excluded_selector=_COOKIE_OVERLAY_EXCLUDED,
+        excluded_selector=_EXCLUDED_SELECTOR,
         css_selector="main#content",
         exclude_external_links=True,
         exclude_internal_links=True,
