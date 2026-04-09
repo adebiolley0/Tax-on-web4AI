@@ -8,7 +8,7 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT / "src"))
 
 from crawling.search import (  # noqa: E402
-    _COOKIE_OVERLAY_EXCLUDED,
+    _EXCLUDED_SELECTOR,
     _doc_markdown_generator,
 )
 
@@ -41,7 +41,7 @@ async def crawl_tax_on_web(url: str = TAX_ON_WEB_URL) -> str:
         markdown_generator=_doc_markdown_generator(),
         remove_consent_popups=True,
         remove_overlay_elements=True,
-        excluded_selector=_COOKIE_OVERLAY_EXCLUDED,
+        excluded_selector=_EXCLUDED_SELECTOR,
         css_selector="main#content",
         exclude_external_links=True,
         exclude_internal_links=True,
