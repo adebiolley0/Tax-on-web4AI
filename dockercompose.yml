@@ -1,7 +1,0 @@
-services:
-  mcp:
-    build:
-      context: ./mcp
-      dockerfile: Dockerfile
-    ports:
-      - "8000:8000"

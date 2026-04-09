@@ -7,5 +7,12 @@ services:
     volumes:
       - qdrant_storage:/qdrant/storage
 
+  mcp:
+    build:
+      context: ./mcp
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+
 volumes:
   qdrant_storage:
