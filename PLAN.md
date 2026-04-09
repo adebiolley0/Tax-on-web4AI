@@ -26,15 +26,15 @@
                                   |   Data Sources    |
                                   +-------------------+
                                   |                   |
-                      +-----------+----------+  +-----+--------+
-                      | fin.belgium.be       |  | Fisconet+    |
-                      | finances.belgium.be  |  | (minfin SPA) |
-                      | (Drupal, 123 URLs)   |  |              |
-                      +-----------+----------+  +-----+--------+
+                      +-----------+----------+  +-----+-----------+
+                      | fin.belgium.be       |  | Fisconet+ REST  |
+                      | finances.belgium.be  |  | API (103K+ docs)|
+                      | (Drupal, 123 URLs)   |  | (minfin-rest)   |
+                      +-----------+----------+  +-----+-----------+
                                   |                    |
                       +-----------v----------+  +------v-------+
-                      | crawl4ai             |  | Playwright   |
-                      | (existing pipeline)  |  | + XHR sniff  |
+                      | crawl4ai             |  | httpx        |
+                      | (existing pipeline)  |  | (REST calls) |
                       +-----------+----------+  +------+-------+
                                   |                    |
                                   +--------+-----------+
@@ -71,12 +71,44 @@
 - Existing crawl4ai pipeline works reliably (123/123 success)
 - **Action needed**: Extract full markdown (not truncated), extract embedded PDF links, download and parse PDFs
 
-### Source 2: Fisconet+ (minfin.fgov.be/myminfin-web/pages/public/fisconet)
-- **Angular SPA** - content loads dynamically after cookie consent
-- Contains legislation texts, circulars, rulings, administrative comments
-- Likely has internal XHR/fetch API calls for document retrieval
-- **Action needed**: Reverse-engineer the SPA's API calls using Playwright network interception (`page.route()` or `page.on("response")`)
-- This is the richest source of actual tax regulation text
+### Source 2: Fisconet+ (minfin.fgov.be) — PUBLIC REST API DISCOVERED
+
+**Base URL:** `https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/`
+
+The Angular SPA is backed by a **fully public, unauthenticated REST API** returning JSON. No browser automation needed.
+
+**Scale:**
+- **FR: 103,120 documents** | NL: 105,336 | DE: 6,292 | EN: 4,301
+- 15 document types: legislation (22K), case law (16K), advance rulings (15K), parliamentary questions (15K), circulars (3.7K), etc.
+
+**Key endpoints:**
+
+| Endpoint | Method | Purpose |
+|----------|--------|---------|
+| `/search` | POST | Paginated search with filters (type, taxonomy, date range, keywords). pageSize up to 100. |
+| `/document/{guid}` | GET | Full document: base64-encoded HTML content + all metadata |
+| `/pdf?id={guid}&language={lang}` | GET | PDF download |
+| `/navigation/tree` | GET | Complete taxonomy hierarchy (907 leaf nodes) |
+| `/library/documents?language=fr` | GET | Curated key publications (Memento Fiscal, CIR 92, etc.) |
+| `/changes/searches?language=fr&month=M&year=Y` | GET | Monthly change feed (2017-2026) — ideal for incremental updates |
+| `/changes/limit-year` | GET | Available year range for changes |
+
+**Metadata per document:**
+- `guid`, `title`, `language`, `summary`
+- `documentDate`, `publicationDate`, `effectiveDate`, `lastModified`, `fisconetPlusDate`
+- `documentType` (with GUID + multilingual label)
+- `taxonomies[]` (hierarchical classification with GUIDs)
+- `keywords[]` (subject keywords with GUIDs + labels)
+- `linkedDocument` (cross-language equivalents NL/FR, previous/next in sequence)
+- `relatedDocuments[]` (title + GUID)
+- `pathItems[]` (breadcrumb in taxonomy tree)
+- `questioner[]` (for parliamentary questions)
+- `regionalisation` (regional scope)
+- `status` ("Published")
+
+**Content format:** base64-encoded UTF-8 HTML in `content.content` field. Contains internal cross-reference links (`fisconet.compare/{guid1}/{guid2}`, `fisconet.direct/{guid}`).
+
+**Action needed:** Direct HTTP calls via `httpx` — paginate through search results, fetch each document by GUID, decode base64 HTML, strip to text for embedding.
 
 ---
 
@@ -108,32 +140,39 @@
 
 **New dependencies:** `pymupdf` (for PDF parsing)
 
-### Step 2: Fisconet+ SPA Scraper
+### Step 2: Fisconet+ REST API Client
 
-**File: `fisconet_scraper.py` (new)**
+**File: `fisconet_client.py` (new)**
+
+No browser automation needed — the Fisconet+ Angular SPA is backed by a public REST API.
 
 **Tasks:**
-1. Use Playwright directly (not crawl4ai) to:
-   - Navigate to Fisconet+ URL
-   - Accept cookie consent programmatically
-   - Intercept XHR/fetch network requests using `page.on("response", ...)`
-   - Map out the API endpoint patterns for document listing and retrieval
-2. Build a document index:
-   - Discover all document categories/types available
-   - Paginate through document listings
-   - Extract document metadata from API responses (likely JSON with dates, reference numbers, categories)
-3. Fetch individual document content:
-   - Full text for HTML documents
-   - Download + parse for PDF documents
-4. Store raw results before chunking
+1. **Build document index** via `POST /search`:
+   - Paginate through all ~103K FR documents (pageSize=100, ~1,032 pages)
+   - Store metadata: guid, title, documentType, taxonomies, keywords, dates, summary
+   - Optionally repeat for NL (105K) — same content, different language
+   - Rate limit: 1-2 req/sec with exponential backoff on errors
+2. **Fetch full document content** via `GET /document/{guid}`:
+   - Decode base64 HTML from `content.content`
+   - Strip HTML tags to extract plain text for embedding
+   - Preserve internal cross-references (`fisconet.direct/{guid}`) as metadata
+   - Parse `relatedDocuments[]` for link graph
+3. **Download PDFs** for library documents:
+   - Fetch curated list from `GET /library/documents?language=fr`
+   - Download PDFs via `GET /pdf?id={guid}&language=fr`
+   - Parse with pymupdf
+4. **Fetch taxonomy tree** via `GET /navigation/tree`:
+   - Build hierarchical category mapping (guid → label path)
+   - Use for enriching chunk metadata with full taxonomy breadcrumb
 
-**Expected Fisconet document metadata** (based on typical Belgian legal DB structure):
-- `document_type`: circulaire, loi, arrêté royal, commentaire administratif, ruling
-- `reference_number`: official document reference
-- `publication_date`: date published
-- `fiscal_year`: exercise d'imposition
-- `related_articles`: CIR 92, CTVA, etc.
-- `legal_domain`: IPP, ISOC, TVA, droits d'enregistrement, etc.
+**Actual Fisconet document metadata** (confirmed from API):
+- `documentType`: Code et legislation, Jurisprudence belge, Decisions anticipees, Questions parlementaires, Commentaires, Circulaires, Forfaits, Arretes royaux, etc. (15 types)
+- `documentDate`, `publicationDate`, `effectiveDate`, `lastModified`
+- `taxonomies[]`: hierarchical fiscal domain classification
+- `keywords[]`: subject tags with multilingual labels
+- `linkedDocument`: cross-language equivalents + previous/next in legislative sequence
+- `regionalisation`: federal vs. regional scope
+- `questioner[]`: for parliamentary questions
 
 ### Step 3: Document Chunking
 
@@ -256,13 +295,18 @@ uv run python ingest.py --update           # only crawl docs newer than last_cra
 
 For future automatic update detection:
 
-1. Store `last_crawled` timestamp + `content_hash` per source URL in a local SQLite DB (`ingestion_state.db`)
-2. On `--update` runs:
-   - Re-crawl all source URLs
+1. Store `last_crawled` timestamp + `content_hash` per source URL/GUID in a local SQLite DB (`ingestion_state.db`)
+2. **Fisconet+ incremental updates** (preferred path):
+   - Use `GET /changes/searches?language=fr&month=M&year=Y` to get new/modified documents since last run
+   - Each entry has `status: "New"` or `status: "Modified"` — fetch only those GUIDs
+   - Available from 2017 onwards — covers full history
+   - Run monthly or on-demand
+3. **Drupal site updates** (content-hash based):
+   - Re-crawl all 123 source URLs
    - Compare `content_hash` of new content vs. stored hash
    - If changed: re-chunk, re-embed, replace old vectors in Qdrant (delete by `source_url` filter, then upsert new)
    - If unchanged: skip
-3. Track per-URL crawl history (date, hash, success/failure) for debugging
+4. Track per-source crawl/fetch history (date, hash, success/failure) for debugging
 
 **New dependency:** none (stdlib `sqlite3`)
 
@@ -307,7 +351,7 @@ Add to `pyproject.toml`:
 Tax-on-web4AI/
 ├── ingest.py                  # Main entry point / orchestrator
 ├── content_extractor.py       # Full HTML + PDF content extraction
-├── fisconet_scraper.py        # Fisconet+ SPA reverse-engineering + scraping
+├── fisconet_client.py         # Fisconet+ REST API client (httpx, no browser)
 ├── chunker.py                 # Semantic document chunking
 ├── embedder.py                # Embedding generation (sentence-transformers)
 ├── qdrant_store.py            # Qdrant collection management + upsert
@@ -329,17 +373,17 @@ Tax-on-web4AI/
 | Phase | Step | Description | Depends on |
 |-------|------|-------------|------------|
 | 1 | Step 5 | Qdrant collection setup + `qdrant_store.py` | docker-compose up |
-| 2 | Step 1 | Enhanced content extraction (full text + PDFs) | existing search.py |
-| 3 | Step 4 | Embedding pipeline | - |
-| 4 | Step 3 | Document chunker | - |
-| 5 | Step 6 | Ingestion orchestrator (Drupal sources only first) | Steps 1,3,4,5 |
-| 6 | Step 2 | Fisconet+ SPA scraper (can develop in parallel) | Playwright |
-| 7 | Step 7 | Freshness tracking | Step 6 |
+| 2 | Step 2 | Fisconet+ REST API client (`fisconet_client.py`) | httpx (already installed) |
+| 3 | Step 1 | Enhanced Drupal content extraction (full text + PDFs) | existing search.py |
+| 4 | Step 4 | Embedding pipeline | - |
+| 5 | Step 3 | Document chunker | - |
+| 6 | Step 6 | Ingestion orchestrator (both sources) | Steps 1-5 |
+| 7 | Step 7 | Freshness tracking (Fisconet changes API + Drupal hashes) | Step 6 |
 | 8 | Step 8 | MCP semantic search tool | Steps 5,4 |
 
-**Phase 1-5** gets us a working end-to-end pipeline for the 123 Drupal pages.
-**Phase 6** adds the richer Fisconet+ legal corpus.
-**Phase 7-8** adds automation and exposes the search to the MCP server.
+**Phase 1-2**: Qdrant + Fisconet client first — the REST API is the largest and cleanest data source (103K+ docs with rich metadata, no browser needed).
+**Phase 3-6**: Drupal extraction + chunking + embeddings + orchestration.
+**Phase 7-8**: Incremental updates + MCP semantic search.
 
 ---
 
@@ -351,6 +395,6 @@ Tax-on-web4AI/
 
 3. **Content-hash deduplication**: Avoids re-embedding unchanged content on updates. Critical for the ~30-minute crawl cycle.
 
-4. **Fisconet as a separate scraper**: The SPA architecture is fundamentally different from the Drupal sites. Keeping it isolated reduces complexity in the main pipeline.
+4. **Fisconet via REST API (no browser)**: The public REST API at `minfin.fgov.be/myminfin-rest` provides full document content (base64 HTML) and rich metadata (dates, types, taxonomies, keywords) via simple HTTP calls. This is dramatically simpler, faster, and more reliable than browser automation. ~103K French documents available.
 
 5. **Local embeddings**: No external API dependency. Runs on CPU (sentence-transformers with MiniLM is fast enough for ~10K chunks). Can upgrade to GPU or API-based embeddings later if needed.
