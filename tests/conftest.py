@@ -9,10 +9,10 @@ from pathlib import Path
 
 import pytest
 
-from chunker import chunk_document
-from embedder import embed_chunks
+from storage.chunker import chunk_document
+from storage.embedder import embed_chunks
 from models import Document, EmbeddedChunk, SourceType
-from qdrant_store import COLLECTION_NAME, ensure_collection, get_client, upsert_chunks
+from storage.qdrant_store import COLLECTION_NAME, ensure_collection, get_client, upsert_chunks
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 
@@ -34,7 +34,7 @@ def raw_fisconet_docs() -> list[dict]:
 
 def _parse_fisconet_doc(raw: dict) -> Document:
     """Convert a raw Fisconet API response dict into a Document model."""
-    from fisconet_client import _html_to_text, _parse_date, _parse_datetime
+    from fisconet.client import _html_to_text, _parse_date, _parse_datetime
 
     meta = raw.get("metadata") or raw
     content_block = raw.get("content") or {}

@@ -1,6 +1,6 @@
 """Tests for content_extractor utilities."""
 
-from content_extractor import detect_language, extract_fiscal_codes
+from crawling.content_extractor import detect_language, extract_fiscal_codes
 
 
 class TestExtractFiscalCodes:

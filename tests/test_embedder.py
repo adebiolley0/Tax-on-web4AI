@@ -1,6 +1,6 @@
 """Tests for the embedding pipeline."""
 
-from embedder import embed_chunks, embed_texts, get_model
+from storage.embedder import embed_chunks, embed_texts, get_model
 from models import Chunk, SourceType
 
 
