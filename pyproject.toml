@@ -15,4 +15,6 @@ dependencies = [
     "firecrawl>=4.22.0",
     "httpx>=0.28.1",
     "pydantic>=2.12.5",
+    "qdrant-client>=1.14.0",
+    "sentence-transformers>=4.0",
 ]
