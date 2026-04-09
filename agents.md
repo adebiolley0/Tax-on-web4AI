@@ -38,3 +38,13 @@ The server listens on port 8000 and responds to MCP protocol requests at `/mcp`.
 - **No lint/test/build scripts**: The project has no configured linter, test suite, or build step. Syntax can be verified with `uv run python -m py_compile <file>.py`.
 - **Live internet required**: All crawl/search operations hit real Belgian government sites (`finances.belgium.be`, `fin.belgium.be`). There are no mocks.
 - **No `.env` or secrets required** for the core MCP server flow.
+
+### MCP Inspector
+
+[MCP Inspector](https://github.com/modelcontextprotocol/inspector) is available for debugging/testing the MCP server interactively in a browser:
+
+```bash
+DANGEROUSLY_OMIT_AUTH=true npx @modelcontextprotocol/inspector
+```
+
+Opens at `http://localhost:6274`. Connect using **Streamable HTTP** transport with URL `http://localhost:8000/mcp` (requires the MCP server to be running).
