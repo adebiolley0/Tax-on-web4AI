@@ -18,3 +18,9 @@ dependencies = [
     "qdrant-client>=1.14.0",
     "sentence-transformers>=4.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.25",
+]

@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import date, datetime
+from datetime import UTC, date, datetime
 from enum import Enum
 
 from pydantic import BaseModel, Field
@@ -31,7 +31,7 @@ class Document(BaseModel):
     publication_date: date | None = None
     effective_date: date | None = None
     last_modified: datetime | None = None
-    last_crawled: datetime = Field(default_factory=datetime.utcnow)
+    last_crawled: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     # Classification
     audience: str | None = None  # particuliers, entreprises, independants, asbl, tous
@@ -65,7 +65,7 @@ class Chunk(BaseModel):
     language: str = "fr"
     document_date: date | None = None
     publication_date: date | None = None
-    last_crawled: datetime = Field(default_factory=datetime.utcnow)
+    last_crawled: datetime = Field(default_factory=lambda: datetime.now(UTC))
     audience: str | None = None
     tax_category: str | None = None
     document_type: str | None = None

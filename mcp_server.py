@@ -1,9 +1,11 @@
-"""MCP server exposing Belgian SPF Finances search and URL fetch tools."""
+"""MCP server exposing Belgian SPF Finances search, fetch, and semantic search tools."""
 
 import json
 
 from fastmcp import FastMCP
 
+from embedder import embed_texts
+from qdrant_store import ensure_collection, get_client, search_similar
 from search import SearchResponse, fetch_urls, search as site_search
 
 mcp = FastMCP("Belgian Tax SPF")
@@ -22,3 +24,63 @@ async def fetch_tool(urls: list[str]) -> str:
     rows = await fetch_urls(urls)
     payload = [r.model_dump() for r in rows]
     return json.dumps(payload, ensure_ascii=False)
+
+
+@mcp.tool(name="semantic_search")
+async def semantic_search_tool(
+    query: str,
+    tax_category: str | None = None,
+    audience: str | None = None,
+    document_type: str | None = None,
+    language: str = "fr",
+    limit: int = 10,
+) -> str:
+    """Semantic search over Belgian tax regulation documents stored in Qdrant.
+
+    Args:
+        query: Natural-language search query (e.g. "deduction frais professionnels").
+        tax_category: Optional filter by tax category (declaration, revenus, tva, isoc, habitation, ...).
+        audience: Optional filter by audience (particuliers, entreprises, independants, asbl, tous).
+        document_type: Optional filter by document type (Circulaires, Code et legislation, ...).
+        language: Language filter (default: "fr").
+        limit: Max results to return (default: 10).
+
+    Returns:
+        JSON array of search hits, each with score, title, chunk_text, and metadata.
+    """
+    # Embed the query
+    query_vector = embed_texts([query])[0]
+
+    # Build optional filters
+    filters: dict[str, str] = {"language": language}
+    if tax_category:
+        filters["tax_category"] = tax_category
+    if audience:
+        filters["audience"] = audience
+    if document_type:
+        filters["document_type"] = document_type
+
+    # Search Qdrant
+    client = get_client()
+    ensure_collection(client)
+    hits = search_similar(client, query_vector, limit=limit, filters=filters)
+
+    # Format results
+    results = []
+    for hit in hits:
+        payload = hit["payload"]
+        results.append({
+            "score": round(hit["score"], 4),
+            "title": payload.get("title"),
+            "chunk_text": payload.get("chunk_text"),
+            "source_url": payload.get("source_url"),
+            "document_type": payload.get("document_type"),
+            "document_date": payload.get("document_date"),
+            "tax_category": payload.get("tax_category"),
+            "audience": payload.get("audience"),
+            "taxonomies": payload.get("taxonomies"),
+            "keywords": payload.get("keywords"),
+            "fiscal_codes": payload.get("fiscal_codes"),
+        })
+
+    return json.dumps(results, ensure_ascii=False)
