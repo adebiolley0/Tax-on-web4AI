@@ -186,3 +186,31 @@ Available years: 2017-2026 (from `GET /changes/limit-year`).
 | Authentication | None | None |
 | WAF/Anti-bot | Akamai CAPTCHA (bypassed) | None |
 | Speed | ~30 min for 123 URLs | < 1 sec/request |
+
+---
+
+## 4. PDF Ingestion (pymupdf4llm)
+
+### Implemented in `src/crawling/pdf_ingestion.py`
+
+#### Fisconet+ PDF Endpoint
+- **Endpoint**: `GET /pdf?id={guid}&language={lang}` — returns raw PDF bytes
+- **Tested**: Successfully downloaded Table of Contents PDF (4.6 MB / 38 pages)
+- **Availability**: Not all documents have PDFs; some GUIDs return HTTP 503
+- **Library endpoint** (`GET /library/documents?language=fr`) was returning 503 during testing — may be intermittent
+
+#### Drupal PDF Links
+- **29 out of 123 endpoints** have `content_type` of `mixed` or `pdf` in `extracted_sitemap.json`
+- PDF links are embedded in page HTML as `<a href="...pdf">` or via `/sites/default/files/` paths
+- Direct `httpx` GET works for Drupal PDF downloads (no WAF issues for static files)
+- Tested on the tax declaration page: 7 PDFs found and downloaded (forms, preparatory docs, explanatory guides)
+
+#### Conversion Quality (pymupdf4llm)
+- Converts PDF to Markdown preserving headings, tables, lists, and form field codes
+- Images are omitted with placeholder text (`==> picture [...] intentionally omitted <==`)
+- Typical output sizes: 6K–201K chars of Markdown per PDF
+- Belgian tax form codes (e.g., `1001-66`, `1002-65`) are correctly preserved in output
+
+#### Output Locations
+- Raw PDFs: `out/pdfs/` (kept for archival)
+- Markdown: `out/pdfs_md/` (one `.md` file per PDF)
