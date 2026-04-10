@@ -20,6 +20,14 @@ Use `uv run playwright install` if you need all bundled browsers. Without this s
 
 ## Cursor Cloud specific instructions
 
+### Belgian tax websites (`WEBSITE_FINDINGS.md`)
+
+`WEBSITE_FINDINGS.md` is a **living document**: it holds everything the project has learned so far about Belgian tax websites (behavior, structure, quirks, and extraction notes).
+
+Before you work on **interacting with those sites**, **data extraction**, or **scraping**, read `WEBSITE_FINDINGS.md` first so you reuse known facts and avoid repeating mistakes.
+
+Whenever you discover something new about those sites, **append or update `WEBSITE_FINDINGS.md`** so the knowledge stays centralized.
+
 ### Services overview
 
 The main service is a **FastMCP server** (`mcp_server.py`) that exposes `search` and `fetch` tools for querying Belgian tax documentation. It wraps `search.py` (crawl4ai-based web scraping).
