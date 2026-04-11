@@ -20,6 +20,10 @@ Use `uv run playwright install` if you need all bundled browsers. Without this s
 
 ## Cursor Cloud specific instructions
 
+### Belgian tax administrative codes (`codes-administratifs.md`)
+
+`codes-administratifs.md` contains the SPF Finances reference for administrative codes used in personal tax filings (avertissement-extrait de rôle). Consult it when working with tax assessment data or interpreting code fields.
+
 ### Belgian tax websites (`WEBSITE_FINDINGS.md`)
 
 `WEBSITE_FINDINGS.md` is a **living document**: it holds everything the project has learned so far about Belgian tax websites (behavior, structure, quirks, and extraction notes).
