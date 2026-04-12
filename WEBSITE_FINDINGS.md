@@ -117,7 +117,19 @@ Returns complete document with:
 Returns PDF file. Tested: up to 4.6MB / 38 pages (CIR 92 table of contents).
 
 #### GET `/navigation/tree` — Full Taxonomy Tree
-Returns hierarchical document classification with 5 top-level categories and 907 leaf document nodes. Each node has `guid`, multilingual `label`, `documentId` per language, and `children[]`.
+Returns hierarchical document classification with 5 top-level categories and 420 navigable leaf document nodes (each leaf links to 100s–1000s of actual Fisconet documents). Each node has `guid`, multilingual `label`, `documentId` per language, and `children[]`.
+
+**The complete arborescence is documented in [`MYFIN_ARBORESCENCE.md`](./MYFIN_ARBORESCENCE.md).**
+
+Summary of the 4 active top-level branches:
+
+| Branch (FR) | Branch (NL) | Leaf nodes |
+|---|---|---|
+| DROIT EXTERNE | EXTERN RECHT | 19 |
+| Bibliothèque Publique | Openbare bibliotheek | 21 |
+| FINANCES | FINANCIËN | 97 |
+| FISCALITÉ | FISCALITEIT | 283 |
+| **Total** | | **420** |
 
 #### GET `/library/documents?language=fr` — Curated Key Publications
 Returns list of major publications (Memento Fiscal 2025, CIR 92, AR/CIR 92, Code de la TVA, etc.) with `id` (GUID), `title`, `thumbnail` (SharePoint URL), `sortWeight`.
