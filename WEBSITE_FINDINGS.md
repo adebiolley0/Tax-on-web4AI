@@ -226,3 +226,102 @@ Available years: 2017-2026 (from `GET /changes/limit-year`).
 #### Output Locations
 - Raw PDFs: `out/pdfs/` (kept for archival)
 - Markdown: `out/pdfs_md/` (one `.md` file per PDF)
+
+---
+
+## 5. Fisconet+ Document Types — Ingestion Decision
+
+Not all Fisconet+ document types contain content worth indexing for semantic search. Some are pure reference lists or index pages with no substantive prose.
+
+### Document Types That SHOULD Be Ingested
+
+| Type (FR) | Count | Reason to ingest |
+|-----------|-------|------------------|
+| **Circulaires** | 3,751 | Binding administrative interpretations; contain explanations, examples, and practical guidance. The richest source of "how to" information for taxpayers. |
+| **Code et législation** | 22,179 | Actual legal text (CIR 92, CTVA, etc.). Has legal force. |
+| **Arrêtés royaux** | 3,126 | Executive orders implementing legislation. Legally binding. |
+| **Décisions anticipées** | 15,634 | Advance rulings with reasoning; useful for understanding how rules apply to specific situations. |
+| **Communications** | 1,278 | Administrative communications with practical information. |
+| **Forfaits** | 3,222 | Lump-sum amounts used in tax calculations; factual reference. |
+| **Législation régionale et locale** | 2,469 | Regional tax legislation with legal force. |
+| **Réglementation européenne** | 4,565 | EU regulations applicable to Belgian tax. |
+| **Traités et accords internationaux** | 618 | Tax treaties. Legally binding. |
+
+### Document Types to Ingest SELECTIVELY
+
+| Type (FR) | Count | Notes |
+|-----------|-------|-------|
+| **Commentaires (dont Rép. RJ)** | 6,331 | **Two sub-types exist:** (1) "Aperçu documentaire" pages are INDEX pages that only list references — skip these. (2) Actual commentary text (e.g., "mise à jour à partir de 2010") contains substantive legal explanations — ingest these. Distinguish by taxonomy: `"Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"` = index page. |
+| **Jurisprudence belge** | 16,832 | Court decisions. Ingest rulings from Cour Constitutionnelle and Cour de Cassation. Lower court decisions may be less useful. |
+| **Jurisprudence européenne** | 2,089 | EU court decisions relevant to Belgian tax. |
+| **Questions parlementaires** | 15,395 | Parliamentary Q&A. Some contain detailed ministerial answers explaining tax rules. Others are very short. Ingest those with substantive answers. |
+
+### Document Types to SKIP
+
+| Type (FR) | Count | Reason to skip |
+|-----------|-------|----------------|
+| **Cours professionnels** | 1,771 | Training materials for civil servants, not legal texts. |
+| **Commentaires — "aperçu documentaire"** | ~6,000 | Index pages listing circulars, case law, and parliamentary questions. Contain no prose. After content cleaning, these shrink to < 200 chars. |
+
+### How to Identify Index Pages (Aperçu Documentaire)
+
+These are "Commentaire" documents with taxonomy = `"Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"`. Their structure is:
+```
+# Commentaire de l'article NNN, CIR 92
+## Législation        ← list of legal references
+## Commentaire        ← 1-2 lines linking to actual commentary
+## Circulaires        ← list of circular titles
+## Jurisprudence      ← list of court decisions
+## Questions parlementaires  ← list of parliamentary questions
+## Autres documents   ← list of other docs
+## Avis               ← list of notices
+```
+
+After content cleaning (removing reference sections), these are left with only the title and ~160 chars. They should be **excluded at ingestion time** based on their taxonomy label or by detecting post-cleaning length < 300 chars.
+
+### Fisconet+ Search API — Document Type Filter
+
+To filter by document type in `POST /search`, pass the type GUID in `documentTypes[]`:
+
+| Type | GUID |
+|------|------|
+| Circulaires | `184c188f-aa63-4b4a-b703-3a5f07a08869` |
+| Code et législation | `ba081907-ca3d-4fe6-a16d-d1fc1c9599ba` |
+| Commentaires (dont Rép. RJ) | `c2d03ba9-fd69-4359-93dd-7e2eb73515b2` |
+| Jurisprudence belge | `6e3b7e04-b338-419d-9b2f-427ca75ff0b0` |
+| Questions parlementaires | `8e6de482-93c4-4428-a988-070824aa81cb` |
+| Décisions anticipées | `d17d212c-c8a3-494d-ac40-367fbf7f8ffa` |
+| Jurisprudence européenne | `f00566eb-d014-45ab-9d23-14d15d4e32b8` |
+| Cours professionnels | `fe2b2c33-078e-4337-9781-9ac054217c65` |
+
+---
+
+## 6. Content Cleaning for Semantic Search
+
+### Problem
+
+Index-style documents (aperçu documentaire) and boilerplate sections in otherwise-substantive documents degrade semantic search quality. Reference lists containing legal terms match queries they're not actually about.
+
+### Solution: Pre-ingestion Content Cleaner
+
+`src/storage/content_cleaner.py` — called automatically by `chunk_document()` before chunking.
+
+Removes:
+- **Index/reference sections**: `## Législation`, `## Circulaires`, `## Jurisprudence`, `## Questions parlementaires`, `## Autres documents`, `## Avis` (bare headings only — does NOT strip document titles like `# Circulaire 2025/C/21 relative à ...`)
+- **Table-of-contents blocks**: `Table des matières` followed by Roman numeral / lettered lines
+- **Boilerplate metadata**: `**Source:**`, `**GUID:**`, `**Date:**`, `---`, SPF headers, Numac, M.B. publication lines
+- **Royal decree preamble**: `Vu le Code...;`, `Considérant que :`, `Sur la proposition du Ministre`, `Nous avons arrêté et arrêtons :`
+- **Signature blocks**: `Donné à Bruxelles`, `Par le Roi :`, `Le Ministre des Finances`, `PHILIPPE`
+- **Keyword/tag lines**: Semicolon-separated subject lists (e.g., `impôt des personnes physiques ; biens immobiliers ; déduction`)
+
+### Impact Measured
+
+| Document type | Content retained after cleaning |
+|---------------|-------------------------------|
+| Circulaires | 94–98% (only boilerplate removed) |
+| FAQs | 96–97% |
+| Aperçu documentaire (index) | 1–13% (correctly identified as noise) |
+
+### Ingestion Guard
+
+Documents with < 300 chars after cleaning should be skipped entirely — they have no substantive content to embed.

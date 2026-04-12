@@ -44,10 +44,21 @@ DISPLAY=:1 uv run fastmcp run mcp_server.py --transport streamable-http --host 0
 
 The server listens on port 8000 and responds to MCP protocol requests at `/mcp`.
 
+### Testing (`TESTING.md`)
+
+`TESTING.md` documents how to run tests, the validation dataset structure, document selection criteria, and key quality metrics. Read it before modifying tests or the ingestion pipeline.
+
+```bash
+# Quick: run all tests
+PYTHONPATH=src uv run python -m pytest tests/ -v
+
+# Semantic search validation only (slower)
+PYTHONPATH=src uv run python -m pytest tests/test_semantic_search_validation.py -v --tb=short
+```
+
 ### Key caveats
 
 - **Xvfb required**: The crawler runs Chromium in headed (non-headless) mode. Xvfb must be running on `:1` before starting the MCP server or running any crawl scripts. On this VM it is typically already running; if not: `Xvfb :1 -screen 0 1280x1024x24 &`
-- **No lint/test/build scripts**: The project has no configured linter, test suite, or build step. Syntax can be verified with `uv run python -m py_compile <file>.py`.
 - **Live internet required**: All crawl/search operations hit real Belgian government sites (`finances.belgium.be`, `fin.belgium.be`). There are no mocks.
 - **No `.env` or secrets required** for the core MCP server flow.
 

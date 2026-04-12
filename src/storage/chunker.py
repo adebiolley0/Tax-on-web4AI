@@ -6,6 +6,7 @@ import hashlib
 import re
 
 from models import Chunk, Document
+from storage.content_cleaner import clean_for_indexing
 
 
 def _sha256(text: str) -> str:
@@ -34,7 +35,7 @@ def chunk_document(
     3. If still too large, split on single newlines
     4. Apply overlap between consecutive chunks
     """
-    text = doc.content_text.strip()
+    text = clean_for_indexing(doc.content_text)
     if not text:
         return []
 
