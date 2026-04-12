@@ -1,5 +1,21 @@
 # Agents Guide
 
+## Project purpose
+
+This project builds an **MCP server** that citizens, companies, and accountants can use — together with an AI assistant — to:
+
+- quickly find information about Belgian tax law (personal and corporate)
+- determine how taxes should be declared and filed
+- eventually automate tax filing workflows
+
+All data scraping, ingestion, and indexing must serve this goal. Documents sourced from government websites (Fisconet+/MyMinfin, finances.belgium.be, etc.) must contain **truthful, legally meaningful information**. When in doubt about whether to ingest a document, ask: *would a citizen or accountant rely on this to make a tax decision?*
+
+## Document filtering policy
+
+Only ingest documents with **legal or substantive informational value**. See `MYFIN_ARBORESCENCE.md` § "Classification" for the full per-section breakdown. The key rule: if a document does not contain citable legal text (legislation, circulaire, ruling, court decision, treaty, official FAQ), do not ingest it.
+
+Common exclusions: Fisconet+ *aperçu documentaire* index pages (body is purely a list of circulaires/jurisprudence references, `## Commentaire` section is empty or `N/A`), training materials (*cours professionnels*), portal navigation pages (*compétences et formulaires*, *guide utilisateur*), newsletters, the *Mémento fiscal*, and any table-of-contents or help page.
+
 ## SDKs and documentation
 
 When working with SDKs or libraries, always consult the **latest official documentation** for the version in use (for example [FastMCP](https://gofastmcp.com/) and the [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)) rather than relying only on older examples or memory.
@@ -17,39 +33,6 @@ uv run playwright install chromium
 ```
 
 Use `uv run playwright install` if you need all bundled browsers. Without this step, crawls fail with "Executable doesn't exist" under `~/.cache/ms-playwright/`.
-
-## Document filtering policy
-
-Only documents with **legal or substantive informational value** should be ingested, indexed, or used in tests. Consult `MYFIN_ARBORESCENCE.md` § "Classification" for the full table; the rules below are the essentials.
-
-### Ingest ✅
-- **Legislation text**: CIR 92, AR/CIR 92, regional codes (CfF, CBPF), Code TVA, etc.
-- **Royal decrees** (arrêtés royaux d'exécution)
-- **Circulaires** — binding administrative interpretations issued by the SPF Finances
-- **Jurisprudence** (Belgian courts, CJEU)
-- **Décisions anticipées** (advance rulings)
-- **Parliamentary questions** (questions parlementaires) — official ministerial interpretations
-- **European legislation** (directives, regulations) when relevant to Belgian tax
-- **International conventions** (double-taxation treaties)
-- **Official FAQs** — only if they contain substantive developed content (not navigation pages)
-- **Preparatory documents** for the tax declaration (documents préparatoires IPP)
-
-### Do NOT ingest ❌
-- **"Aperçu documentaire" / Commentaire CIR 92 index pages** — Fisconet+ pages that merely *list* the circulars, case-law and parliamentary questions linked to an article without embedding their text. The actual commentary text is absent (shown as `N/A`). These are navigation indexes, not legal content.
-- **Cours professionnels** — internal SPF Finances training materials, not legally binding
-- **Compétences et formulaires** — portal navigation pages listing downloadable forms
-- **Guide utilisateur** — MyMinfin portal usage documentation
-- **Veille documentaire / Lettres d'information** — documentary monitoring bulletins
-- **Mémento fiscal** — didactic summary, not legally binding (useful for human reference only)
-- **Working Papers / Briefing Notes** — internal service notes, no direct legal authority
-- **Table-of-contents documents** and pure reference lists (Répertoire RJ index pages)
-- **Help / navigation pages** of any kind
-
-### Recognition heuristics
-An "aperçu documentaire" page can be identified by:
-1. Its Fisconet+ section label contains "aperçu documentaire"
-2. Its `## Commentaire` section is empty or marked `(N/A)`
-3. The document body is composed almost entirely of `## Circulaires`, `## Jurisprudence`, `## Questions parlementaires` reference lists with no substantive prose
 
 ## Cursor Cloud specific instructions
 
