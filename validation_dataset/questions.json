@@ -3,15 +3,16 @@
     "id": "Q1",
     "question": "Comment déduire mes frais de voiture professionnels dans ma déclaration d'impôt?",
     "topic": "professional_vehicle_expenses",
-    "expected_docs": [],
-    "_note": "NEEDS DOCS: download Circulaire 2023/C/99 (FAQ verdissement fiscal mobilité / fiscalité automobile) or Circulaire 2022/C/10 (limitation déduction frais voiture). The former commentaire_art65/66_cir92 docs were Fisconet+ aperçu documentaire index pages with no substantive content.",
+    "expected_docs": ["circ_2022_C10_frais_voiture"],
+    "secondary_docs": ["circ_2023_C99_fiscalite_automobile"],
     "expected_keywords": ["frais de voiture", "véhicule", "article 65", "article 66", "déduction", "frais professionnels", "limitation"]
   },
   {
     "id": "Q2",
     "question": "Quel est le montant maximum déductible pour l'épargne-pension et quelle réduction d'impôt vais-je obtenir?",
     "topic": "pension_savings",
-    "expected_docs": ["circ_2025_C21_epargne_pension"],
+    "expected_docs": ["circ_2018_C72_epargne_pension_duale"],
+    "secondary_docs": ["circ_2025_C21_epargne_pension"],
     "expected_keywords": ["épargne-pension", "réduction d'impôt", "montant maximum", "article 145"]
   },
   {
@@ -71,8 +72,8 @@
     "id": "Q10",
     "question": "Les rentes alimentaires versées à mon ex-conjoint sont-elles déductibles fiscalement?",
     "topic": "alimony_deduction",
-    "expected_docs": [],
-    "_note": "NEEDS DOCS: download a substantive circular or CIR 92 article text covering rentes alimentaires (art. 104, 118 CIR 92). The former commentaire_art143/132bis_cir92 docs were Fisconet+ aperçu documentaire index pages with no substantive content.",
+    "expected_docs": ["circ_2026_C12_rentes_alimentaires"],
+    "secondary_docs": ["circ_2023_C43_rentes_alimentaires"],
     "expected_keywords": ["rente alimentaire", "déduction", "pension alimentaire", "ressources nettes"]
   }
 ]

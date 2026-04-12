@@ -72,6 +72,71 @@ PYTHONPATH=src uv run python -m pytest tests/ -v
 PYTHONPATH=src uv run python -m pytest tests/test_semantic_search_validation.py -v --tb=short
 ```
 
+### Scraping documents from Fisconet+
+
+Fisconet+ (`minfin.fgov.be`) exposes a **public REST API** — no authentication required. The key scripts and modules for downloading documents:
+
+#### 1. Download validation dataset documents
+
+```bash
+# Downloads all documents listed in CANDIDATES → validation_dataset/md/*.md + manifest.json
+PYTHONPATH=src uv run python scripts/download_validation_pdfs.py
+```
+
+Edit `scripts/download_validation_pdfs.py` to change which documents are downloaded. Each entry is `(guid, short_name, description)`.
+
+#### 2. Search for document GUIDs
+
+Use the Fisconet+ client (`src/fisconet/client.py`):
+
+```python
+import asyncio
+from fisconet.client import search_documents
+
+# Search by keyword (returns pageContents with metadata including GUIDs)
+results = asyncio.run(search_documents(search_terms="rentes alimentaires"))
+
+# Filter by document type GUID (e.g. Circulaires only)
+CIRC_GUID = "184c188f-aa63-4b4a-b703-3a5f07a08869"
+results = asyncio.run(search_documents(
+    search_terms="voiture",
+    document_types=[CIRC_GUID],
+))
+```
+
+**Important**: The raw API returns results under the key `pageContents` (not `results`). The `search_documents()` client function returns the `data` envelope; iterate `data["pageContents"]` to get individual document metadata with GUIDs.
+
+#### 3. Fetch a single document by GUID
+
+```python
+from fisconet.client import fetch_document
+doc = asyncio.run(fetch_document("7cfec008-5ef5-4e2d-9367-213a0c66c627"))
+print(doc.title, len(doc.content_text))
+```
+
+#### 4. Document type GUIDs (for filtering searches)
+
+| Type | GUID |
+|------|------|
+| Circulaires | `184c188f-aa63-4b4a-b703-3a5f07a08869` |
+| Code et législation | `ba081907-ca3d-4fe6-a16d-d1fc1c9599ba` |
+| Commentaires | `c2d03ba9-fd69-4359-93dd-7e2eb73515b2` |
+| Jurisprudence belge | `6e3b7e04-b338-419d-9b2f-427ca75ff0b0` |
+| Questions parlementaires | `8e6de482-93c4-4428-a988-070824aa81cb` |
+| Décisions anticipées | `d17d212c-c8a3-494d-ac40-367fbf7f8ffa` |
+| Arrêtés royaux | `fb9baef6-d027-44ee-bf1d-54a7d5113250` |
+
+#### 5. PDF download (alternative)
+
+```python
+from crawling.pdf_ingestion import download_fisconet_pdf, pdf_to_markdown
+# Downloads PDF from Fisconet+ API → out/pdfs/
+pdf_path = asyncio.run(download_fisconet_pdf("GUID", "fr"))
+md = pdf_to_markdown(pdf_path)
+```
+
+**Note**: Most Fisconet+ PDFs are generic placeholders. Prefer the document API (base64 HTML) via `fetch_document()` or `download_validation_pdfs.py`.
+
 ### Key caveats
 
 - **Xvfb required**: The crawler runs Chromium in headed (non-headless) mode. Xvfb must be running on `:1` before starting the MCP server or running any crawl scripts. On this VM it is typically already running; if not: `Xvfb :1 -screen 0 1280x1024x24 &`
