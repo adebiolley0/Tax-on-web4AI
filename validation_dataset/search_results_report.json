@@ -3,80 +3,81 @@
     "id": "Q1",
     "question": "Comment déduire mes frais de voiture professionnels dans ma déclaration d'impôt?",
     "expected_docs": [
-      "commentaire_art66_cir92",
-      "commentaire_art65_cir92"
+      "circ_2022_C10_frais_voiture"
     ],
-    "secondary_docs": [],
+    "secondary_docs": [
+      "circ_2023_C99_fiscalite_automobile"
+    ],
     "hits": [
       {
         "rank": 1,
+        "score": 0.5959,
+        "document_id": "circ_2023_C99_fiscalite_automobile",
+        "section": "3. Qui est concerné ?",
+        "text_preview": "de déduction des frais professionnels lorsqu’ils appartiennent à des tiers et sont exposés par l'utilisateur final desdits véhicules. Il en va de même des frais qui sont remboursés à des tiers.\n## 3. "
+      },
+      {
+        "rank": 2,
+        "score": 0.5916,
+        "document_id": "circ_2023_C99_fiscalite_automobile",
+        "section": "I. Introduction",
+        "text_preview": "tiers qui l’utilise à des fins privées ?\n\n11. Les frais professionnels afférents aux bornes de recharge continueront-ils à être considérés comme des frais afférents à l’utilisation d’un véhicule ?\n# I"
+      },
+      {
+        "rank": 3,
         "score": 0.5786,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": "E.Réduction d’impôt fédérale pour habitation unique (bonus-logement fédéral)",
         "text_preview": " pour la réduction d’impôt fédérale pour épargne-logement (code s 1355/2355 du document préparatoire à la déclaration à l’impôt des personnes physiques) ;\n\n- à partir de l’exercice d’imposition 2026 :"
       },
       {
-        "rank": 2,
+        "rank": 4,
+        "score": 0.5638,
+        "document_id": "circ_2023_C99_fiscalite_automobile",
+        "section": "11. Les frais professionnels afférents aux bornes de recharge continueront-ils à être considérés comme des frais afférents à l’utilisation d’un véhicule?",
+        "text_preview": "l’avantage de toute nature imposable s’élève à 2.000 euros.\n\nLes frais professionnels relatif au véhicule qui sont à limiter à 75 % dans le chef de l’employeur s’élèvent à 500 euros (3.000 – 2.500).\n#"
+      },
+      {
+        "rank": 5,
+        "score": 0.5541,
+        "document_id": "circ_2022_C10_frais_voiture",
+        "section": "III. Commentaire",
+        "text_preview": "impôts sur les revenus 1992 (ci-après CIR 92).\n\n# III. Commentaire\n\n## A. Coefficient pour déterminer le pourcentage de déduction des véhicules hybrides avec un moteur électrique et un moteur diesel\n3"
+      },
+      {
+        "rank": 6,
         "score": 0.5473,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "donnée en location.\n\nLe contribuable a toujours revendiqué l’application du bonus-logement fédéral .\n\nLe montant initial à prendre en considération s’élève à :\n\n- pour l’exercice d’imposition 2025 :\nL"
       },
       {
-        "rank": 3,
+        "rank": 7,
         "score": 0.5472,
         "document_id": "circ_2020_C111_liberalites",
         "section": "III.Pour qui?",
         "text_preview": "2020, le pourcentage précité de 10 % est porté à 20 %. Le plafond absolu de 250.000 euros n ' est pas modifié. Pour l ' exercice d ' imposition 2021, ce montant indexé s ' élève à 392.200 ​​ euros.\n# "
       },
       {
-        "rank": 4,
+        "rank": 8,
+        "score": 0.5343,
+        "document_id": "circ_2023_C99_fiscalite_automobile",
+        "section": "2. Quels sont les véhicules et frais concernés ?",
+        "text_preview": "de 2026, tous les nouveaux véhicules visés ci-dessus devront rouler sans aucune émission de carbone pour que les frais professionnels résultant de leur utilisation restent fiscalement déductibles.\n## "
+      },
+      {
+        "rank": 9,
         "score": 0.5329,
         "document_id": "circ_2023_C69_coparentalite",
         "section": "IV. Entrée en vigueur",
         "text_preview": "exemptée d’impôt qui peuvent être pris en compte pour le calcul du crédit d’impôt majoré)\n\n- l’impôt sur les revenus après déduction de l’impôt sur la quotité du revenu exemptée d’impôt : 0,00 euro.\n-"
       },
       {
-        "rank": 5,
-        "score": 0.5223,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "I.Introduction",
-        "text_preview": "des dispositions diverses .\n\nimpôt des personnes physiques ; biens immobiliers ; déduction d’intérêts fédérale ; emprunts (hypothécaires) ; dépenses donnant droit à une réduction d’impôt fédérale\n# I."
-      },
-      {
-        "rank": 6,
-        "score": 0.5112,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "F.Transfert de la réduction d’impôt entre conjoints (art. 516, § 4, CIR92)",
-        "text_preview": "où ils se rapportent à la première tranche de 63.920 euros (montant indexé pour les emprunts de 2006) (code s 1358/2358 du document préparatoire à la déclaration à l’impôt des personnes physiques).\n##"
-      },
-      {
-        "rank": 7,
-        "score": 0.4979,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "b.À partir de l’exercice d’imposition2026",
-        "text_preview": "Pour entrer en considération pour la réduction d’impôt fédérale pour épargne-logement, les conditions des art. 145 1 , 2° ou 3°, 145 4 ou 145 5 et de l’art. 526, § 2, doivent être remplies .\n21. En ou"
-      },
-      {
-        "rank": 8,
-        "score": 0.4974,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": null,
-        "text_preview": "où les dépenses à prendre en considération pour la réduction se rapportent à plus d’un taux d’imposition, il y a lieu de retenir le taux d’imposition applicable à chaque partie de ces dépenses ;\n3° lo"
-      },
-      {
-        "rank": 9,
-        "score": 0.4912,
-        "document_id": "circ_2020_C60_garde_enfant",
-        "section": null,
-        "text_preview": " à la réduction d'impôt :\n\n- L ’activité de garde est annulée en raison des mesures prises dans le cadre du COVID-19 .\n\n- L es parents ont effectivement supporté des dépenses pour l'activité annulée ."
-      },
-      {
         "rank": 10,
-        "score": 0.4873,
-        "document_id": "circ_2023_C69_coparentalite",
+        "score": 0.5322,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
         "section": null,
-        "text_preview": "pour 3 enfants en coparentalité\n\n- pour Julie, qui cède la moitié du supplément à Max : 4.865 euros (= 9.730 euros – 4.865 euros)\n- pour Max, qui reçoit la moitié du supplément : 4.865 euros\n- l’impôt"
+        "text_preview": "deuxième habitation située dans l’Espace économique européen. Comment dois-je répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025 ?\nLe"
       }
     ]
   },
@@ -84,83 +85,81 @@
     "id": "Q2",
     "question": "Quel est le montant maximum déductible pour l'épargne-pension et quelle réduction d'impôt vais-je obtenir?",
     "expected_docs": [
-      "commentaire_art145_8_cir92",
-      "circ_2025_C21_epargne_pension"
+      "circ_2018_C72_epargne_pension_duale"
     ],
     "secondary_docs": [
-      "commentaire_art118_cir92",
-      "commentaire_art120_cir92"
+      "circ_2025_C21_epargne_pension"
     ],
     "hits": [
       {
         "rank": 1,
+        "score": 0.7196,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": null,
+        "text_preview": "deuxième habitation située dans l’Espace économique européen. Comment dois-je répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025 ?\nLe"
+      },
+      {
+        "rank": 2,
         "score": 0.7192,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "y afférentes visés au n° 18 pourront encore entrer en considération pour la réduction d’impôt fédérale pour épargne à long terme.\n\n( 2 4 ) Art. 145 1 , 2° et 3°, 145 4 et 145 5 , CIR 92.\n25. Les amort"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "score": 0.7163,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "et 116 précités, est diminué du montant des dépenses faites pour acquérir ou conserver l’habitation propre pour laquelle les réductions visées aux articles 145 37 et 145 39 peuvent être accordées ;\n3°"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "score": 0.7114,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": "E.Réduction d’impôt fédérale pour habitation unique (bonus-logement fédéral)",
         "text_preview": " pour la réduction d’impôt fédérale pour épargne-logement (code s 1355/2355 du document préparatoire à la déclaration à l’impôt des personnes physiques) ;\n\n- à partir de l’exercice d’imposition 2026 :"
       },
       {
-        "rank": 4,
+        "rank": 5,
+        "score": 0.6976,
+        "document_id": "circ_2018_C72_epargne_pension_duale",
+        "section": "II.Loi du 26.03.2018 relative au renforcement de la croissance économique et de la cohésion sociale",
+        "text_preview": "les contribuables qui effectuent des paiements pour l’épargne-pension de plus de 625 euros , la réduction d’impôt ne sera cependant plus octroyée à un taux de 30 % , mais au taux réduit de 25 % .\n## I"
+      },
+      {
+        "rank": 6,
         "score": 0.692,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": "b.À partir de l’exercice d’imposition2026",
         "text_preview": "Pour entrer en considération pour la réduction d’impôt fédérale pour épargne-logement, les conditions des art. 145 1 , 2° ou 3°, 145 4 ou 145 5 et de l’art. 526, § 2, doivent être remplies .\n21. En ou"
       },
       {
-        "rank": 5,
+        "rank": 7,
+        "score": 0.6824,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": null,
+        "text_preview": "répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025?\n\nVous répartissez les dépenses de votre emprunt hypothécaire comme suit :\n- les i"
+      },
+      {
+        "rank": 8,
+        "score": 0.673,
+        "document_id": "circ_2018_C72_epargne_pension_duale",
+        "section": "Article 64",
+        "text_preview": "3, » sont remplacés par les mots « par dérogation à l’article 145 8 , § 1 er , alinéa 4, ».\n\n### Article 64\n\n8. Les articles 59 à 63 produisent leurs effets à partir de l’exercice d’imposition 2019.\n#"
+      },
+      {
+        "rank": 9,
         "score": 0.6683,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "où les dépenses à prendre en considération pour la réduction se rapportent à plus d’un taux d’imposition, il y a lieu de retenir le taux d’imposition applicable à chaque partie de ces dépenses ;\n3° lo"
       },
       {
-        "rank": 6,
-        "score": 0.6285,
-        "document_id": "circ_2023_C69_coparentalite",
-        "section": "IV. Entrée en vigueur",
-        "text_preview": "exemptée d’impôt qui peuvent être pris en compte pour le calcul du crédit d’impôt majoré)\n\n- l’impôt sur les revenus après déduction de l’impôt sur la quotité du revenu exemptée d’impôt : 0,00 euro.\n-"
-      },
-      {
-        "rank": 7,
-        "score": 0.6215,
-        "document_id": "circ_2020_C111_liberalites",
-        "section": "III.Pour qui?",
-        "text_preview": "2020, le pourcentage précité de 10 % est porté à 20 %. Le plafond absolu de 250.000 euros n ' est pas modifié. Pour l ' exercice d ' imposition 2021, ce montant indexé s ' élève à 392.200 ​​ euros.\n# "
-      },
-      {
-        "rank": 8,
-        "score": 0.6144,
-        "document_id": "circ_2025_C21_epargne_pension",
-        "section": "Circulaire 2025/C/21 relative à l’attestation 281.60 épargne-pension – modification des numéros de contrats",
-        "text_preview": "# Circulaire 2025/C/21 relative à l’attestation 281.60 épargne-pension – modification des numéros de contrats\n\nCette circulaire précise ce qui doit être mentionné sur l’attestation 281.60 épargne-pens"
-      },
-      {
-        "rank": 9,
-        "score": 0.6054,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "b.À partir de l’exercice d’imposition2026",
-        "text_preview": "clus à partir du 01.01.2009 jusqu’au 31.12.2011 inclus pour financer des dépenses faites en vue d’économiser l’énergie, également appelés prêts verts.\n\n## b.À partir de l’exercice d’imposition2026\n## "
-      },
-      {
         "rank": 10,
-        "score": 0.5974,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "D.Réduction d’impôt fédérale pour épargne-logement",
-        "text_preview": " l’exercice d’imposition2026\n\n17. La réducion d'impôt fédérale pour intérêts complémentaires n 'est plus applicable à partir de l'exercice d'imposition 2026 (19).\n\n( 19 ) Art. 1 1 , 1°, L 18.12 .2025."
+        "score": 0.6618,
+        "document_id": "circ_2018_C72_epargne_pension_duale",
+        "section": "Pas de « nouveau contrat »",
+        "text_preview": "et le contribuable devra donner son accord préalable à chaque institution financière ou chaque entreprise d’assurances auprès de laquelle il souhaite épargner plus de 625 euros pour cette année.\n### P"
       }
     ]
   },
@@ -250,13 +249,9 @@
     "id": "Q4",
     "question": "Quelles sont les conditions de ressources pour qu'un enfant soit considéré comme personne à charge?",
     "expected_docs": [
-      "circ_2026_C25_personnes_charge",
-      "commentaire_art143_cir92"
+      "circ_2026_C25_personnes_charge"
     ],
-    "secondary_docs": [
-      "commentaire_art141_cir92",
-      "commentaire_art132bis_cir92"
-    ],
+    "secondary_docs": [],
     "hits": [
       {
         "rank": 1,
@@ -281,52 +276,52 @@
       },
       {
         "rank": 4,
+        "score": 0.5826,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "203bis, §4, C. civ . qu ' une distinction doit être faite entre une contribution alimentaire des parents versées sur le compte-enfant et le transfert d ' avantages sociaux revenant à l ' enfant :\n« A "
+      },
+      {
+        "rank": 5,
         "score": 0.5621,
         "document_id": "circ_2020_C60_garde_enfant",
         "section": "II. Commentaire",
         "text_preview": "ou partiellement), et que les parents ne récupèrent pas le montant déboursé, ces dépenses pourront quand même donner droit à la réduction d’impôt moyennant certaines conditions.\n\n# II. Commentaire\n## "
       },
       {
-        "rank": 5,
+        "rank": 6,
+        "score": 0.544,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "et à l ' imposition de ces contributions alimentaires (1). En d ' autres termes, l ' utilisation d ' un compte-enfant n ' affecte pas la qualification fiscale des contributions alimentaires.\n(1) Reven"
+      },
+      {
+        "rank": 7,
         "score": 0.5368,
         "document_id": "circ_2019_C108_handicapes",
         "section": "2.3. Mon enfant handicapé a été placé dans une institution. De ce fait, deux tiers des allocations familiales sont payés directement à cette institution.Puis-je bénéficier pour ce montant de la réduction d’impôt pour frais de garde d’enfants ?",
         "text_preview": "avec 7 à 9 points de degré d’autonomie ;\n\n- soit un total de 15 points au moins, établi selon l’échelle médico-sociale au sens de la réglementation des allocations familiales .\n\nPlus d’information\n###"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "score": 0.5204,
         "document_id": "circ_2026_C25_personnes_charge",
         "section": null,
         "text_preview": "(MB : 29.12.2023 – Numac : 2023048700 – et avis rectificatif au MB : 11.01.2024 – Numac : 2024000089 ). Voir également circulaire 2024/C/36 du 27.05.2024 .\n\n(6) Montant de base avant indexation.\n5. A "
       },
       {
-        "rank": 7,
+        "rank": 9,
         "score": 0.5164,
         "document_id": "circ_2026_C25_personnes_charge",
         "section": "B.Personnes bénéficiant d’un revenu d’intégration",
         "text_preview": "revenus professionnels, quels qu’ils soient, qui constituent des frais professionnels pour le contribuable (11).\n\n(11) Art. 145, al. 1 er , 1°, CIR 92 comme modifié par l’art. 40, a), L 18.12.2025.\n##"
       },
       {
-        "rank": 8,
+        "rank": 10,
         "score": 0.5085,
         "document_id": "circ_2019_C108_handicapes",
         "section": "1.6. Quelles conditions une personne (autre que mon enfant) doit-elle remplir pour être à ma charge ?",
         "text_preview": "fiscaux pour enfants à charge : voir Enfants à charge .\n\n### 1.6. Quelles conditions une personne (autre que mon enfant) doit-elle remplir pour être à ma charge ?\n\nVoir Personnes à charge – autres .\n#"
-      },
-      {
-        "rank": 9,
-        "score": 0.4941,
-        "document_id": "circ_2026_C25_personnes_charge",
-        "section": null,
-        "text_preview": "de survie non visées au 5°/1, accordées aux orphelins dans le secteur public et des rentes d'orphelin non visées au 5°/1, qui sont attribuées aux enfants, à concurrence de 1.800 euros par an .\n7° des "
-      },
-      {
-        "rank": 10,
-        "score": 0.4631,
-        "document_id": "circ_2026_C25_personnes_charge",
-        "section": "IV.Exclusions comme personne à charge",
-        "text_preview": "bourses d’études qui ne donnent pas lieu à la constitution de droits complets ou non complets en matière de sécurité sociale restent exclues des ressources.\n\n# IV.Exclusions comme personne à charge\n##"
       }
     ]
   },
@@ -334,8 +329,7 @@
     "id": "Q5",
     "question": "Quelle réduction d'impôt puis-je obtenir pour mes dons à des associations agréées?",
     "expected_docs": [
-      "circ_2020_C111_liberalites",
-      "commentaire_art145_33_cir92"
+      "circ_2020_C111_liberalites"
     ],
     "secondary_docs": [],
     "hits": [
@@ -355,59 +349,59 @@
       },
       {
         "rank": 3,
+        "score": 0.5429,
+        "document_id": "circ_2018_C72_epargne_pension_duale",
+        "section": "Accord préalable et obligation d’information",
+        "text_preview": "réellement payées en 2018 : 1.100 euros .\n\nLe contribuable opte pour le nouveau régime et paye en 2018 : 1.100 euros. Il a communiqué son choix définitif en temps utile à l’institution financière .\nLe"
+      },
+      {
+        "rank": 4,
+        "score": 0.5413,
+        "document_id": "circ_2018_C72_epargne_pension_duale",
+        "section": "II.Loi du 26.03.2018 relative au renforcement de la croissance économique et de la cohésion sociale",
+        "text_preview": "les contribuables qui effectuent des paiements pour l’épargne-pension de plus de 625 euros , la réduction d’impôt ne sera cependant plus octroyée à un taux de 30 % , mais au taux réduit de 25 % .\n## I"
+      },
+      {
+        "rank": 5,
+        "score": 0.5191,
+        "document_id": "circ_2018_C72_epargne_pension_duale",
+        "section": null,
+        "text_preview": "dont la réduction d’impôt sera calculée à partir de l’exercice d’imposition 2019.\n\nExemple 1\n\nLe contribuable opte pour le régime existant et paye en 2018 (dépenses réellement payées) : 900 euros.\nE t"
+      },
+      {
+        "rank": 6,
         "score": 0.5153,
         "document_id": "circ_2020_C60_garde_enfant",
         "section": null,
         "text_preview": " à la réduction d'impôt :\n\n- L ’activité de garde est annulée en raison des mesures prises dans le cadre du COVID-19 .\n\n- L es parents ont effectivement supporté des dépenses pour l'activité annulée ."
       },
       {
-        "rank": 4,
+        "rank": 7,
         "score": 0.5128,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "y afférentes visés au n° 18 pourront encore entrer en considération pour la réduction d’impôt fédérale pour épargne à long terme.\n\n( 2 4 ) Art. 145 1 , 2° et 3°, 145 4 et 145 5 , CIR 92.\n25. Les amort"
       },
       {
-        "rank": 5,
+        "rank": 8,
         "score": 0.5068,
         "document_id": "circ_2019_C108_handicapes",
         "section": "2.3. Mon enfant handicapé a été placé dans une institution. De ce fait, deux tiers des allocations familiales sont payés directement à cette institution.Puis-je bénéficier pour ce montant de la réduction d’impôt pour frais de garde d’enfants ?",
         "text_preview": "avec 7 à 9 points de degré d’autonomie ;\n\n- soit un total de 15 points au moins, établi selon l’échelle médico-sociale au sens de la réglementation des allocations familiales .\n\nPlus d’information\n###"
       },
       {
-        "rank": 6,
+        "rank": 9,
         "score": 0.5044,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": "E.Réduction d’impôt fédérale pour habitation unique (bonus-logement fédéral)",
         "text_preview": " pour la réduction d’impôt fédérale pour épargne-logement (code s 1355/2355 du document préparatoire à la déclaration à l’impôt des personnes physiques) ;\n\n- à partir de l’exercice d’imposition 2026 :"
       },
       {
-        "rank": 7,
+        "rank": 10,
         "score": 0.5034,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "où les dépenses à prendre en considération pour la réduction se rapportent à plus d’un taux d’imposition, il y a lieu de retenir le taux d’imposition applicable à chaque partie de ces dépenses ;\n3° lo"
-      },
-      {
-        "rank": 8,
-        "score": 0.5033,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": null,
-        "text_preview": " bien immobilier a produit des revenus immobiliers imposables.\n\nLe montant total de la déduction visée à l’alinéa 1 er , est limité aux revenus immobiliers déterminés conformément aux articles 7 à 13."
-      },
-      {
-        "rank": 9,
-        "score": 0.4977,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "F.Transfert de la réduction d’impôt entre conjoints (art. 516, § 4, CIR92)",
-        "text_preview": "où ils se rapportent à la première tranche de 63.920 euros (montant indexé pour les emprunts de 2006) (code s 1358/2358 du document préparatoire à la déclaration à l’impôt des personnes physiques).\n##"
-      },
-      {
-        "rank": 10,
-        "score": 0.4897,
-        "document_id": "circ_2020_C60_garde_enfant",
-        "section": "II. Commentaire",
-        "text_preview": "ou partiellement), et que les parents ne récupèrent pas le montant déboursé, ces dépenses pourront quand même donner droit à la réduction d’impôt moyennant certaines conditions.\n\n# II. Commentaire\n## "
       }
     ]
   },
@@ -444,52 +438,52 @@
       },
       {
         "rank": 4,
+        "score": 0.5901,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "couple divorcé en 2020 a 2 enfants communs. Les enfants sont à charge fiscalement de la mère. Les parents décident ensemble que le « Groeipakket » des enfants est payé sur le compte du père.\nEn exécut"
+      },
+      {
+        "rank": 5,
         "score": 0.5829,
         "document_id": "circ_2019_C108_handicapes",
         "section": "2.3. Mon enfant handicapé a été placé dans une institution. De ce fait, deux tiers des allocations familiales sont payés directement à cette institution.Puis-je bénéficier pour ce montant de la réduction d’impôt pour frais de garde d’enfants ?",
         "text_preview": "avec 7 à 9 points de degré d’autonomie ;\n\n- soit un total de 15 points au moins, établi selon l’échelle médico-sociale au sens de la réglementation des allocations familiales .\n\nPlus d’information\n###"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "score": 0.5824,
         "document_id": "circ_2019_C108_handicapes",
         "section": "2.Frais de garde d’enfants handicapés",
         "text_preview": " fiscale). Cette preuve reste valable aussi longtemps que la période d’incapacité n’a pas expiré.\n\nSite Internet\n\nSPF Sécurité sociale – Personnes handicapées\n\n## 2.Frais de garde d’enfants handicapés"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "score": 0.5354,
         "document_id": "circ_2023_C69_coparentalite",
         "section": "IV. Entrée en vigueur",
         "text_preview": "exemptée d’impôt qui peuvent être pris en compte pour le calcul du crédit d’impôt majoré)\n\n- l’impôt sur les revenus après déduction de l’impôt sur la quotité du revenu exemptée d’impôt : 0,00 euro.\n-"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "score": 0.5234,
         "document_id": "circ_2023_C69_coparentalite",
         "section": "B. Montant maximum",
         "text_preview": "à charge qui ne peut pas être imputé de la base imposable.\n\n(1) Art. 12 de la loi du 21.12.2022 portant des dispositions fiscales diverses (MB 29.12.2022, Numac 2022043130) (ci-après L 21.12.2022).\n##"
       },
       {
-        "rank": 8,
-        "score": 0.5048,
-        "document_id": "circ_2026_C25_personnes_charge",
-        "section": null,
-        "text_preview": "(MB : 29.12.2023 – Numac : 2023048700 – et avis rectificatif au MB : 11.01.2024 – Numac : 2024000089 ). Voir également circulaire 2024/C/36 du 27.05.2024 .\n\n(6) Montant de base avant indexation.\n5. A "
-      },
-      {
         "rank": 9,
-        "score": 0.5006,
-        "document_id": "circ_2026_C25_personnes_charge",
+        "score": 0.511,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
         "section": null,
-        "text_preview": "et qu'ils n'aient pas bénéficié personnellement, pendant la période imposable, de ressources d'un montant net supérieur à 1.800 euros (montant de base) :\n\n1° leurs enfants ;\n\n2° leurs ascendants ;\n3° "
+        "text_preview": "et à l ' imposition de ces contributions alimentaires (1). En d ' autres termes, l ' utilisation d ' un compte-enfant n ' affecte pas la qualification fiscale des contributions alimentaires.\n(1) Reven"
       },
       {
         "rank": 10,
-        "score": 0.4952,
-        "document_id": "circ_2023_C69_coparentalite",
-        "section": null,
-        "text_preview": "pour 3 enfants en coparentalité\n\n- pour Julie, qui cède la moitié du supplément à Max : 4.750 euros (= 9.500 euros – 4.750 euros)\n- pour Max, qui reçoit la moitié du supplément : 4.750 euros\n- l’impôt"
+        "score": 0.5085,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": "2.Transfert d’hypothèque",
+        "text_preview": "unique au 31.12.2024 (2).\n\nMajoration supplémentaire si vous aviez, en outre, au moins 3 enfants à charge au 1 er janvier de l’année suivant celle de la conclusion de cet emprunt (3).\n\n+ 970 euros\n+ 1"
       }
     ]
   },
@@ -500,7 +494,6 @@
       "circ_2025_C35_emprunts_hypo_flandre"
     ],
     "secondary_docs": [
-      "commentaire_art145_42_cir92",
       "circ_2026_C2_fiscalite_immobiliere"
     ],
     "hits": [
@@ -520,59 +513,59 @@
       },
       {
         "rank": 3,
+        "score": 0.7031,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": "5.Partie de l’habitation propre pour activité professionnelleindépendante",
+        "text_preview": "à sa propre société.\n\nEn 2012, elle a conclu un emprunt hypothécaire de 100.000 euros. 20.000 euros du montant emprunté ont servi au financement de la partie de l’habitation donnée en location.\nAu 01."
+      },
+      {
+        "rank": 4,
+        "score": 0.6885,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": "1.1. Emprunts hypothécaires et assurances-vie individuelles y afférentes conclus à partir du 01.01.2017",
+        "text_preview": "habitation aliénée avec transfert d’hypothèque (dénommée substitution d’immeubles). Les dépenses d’un tel emprunt hypothécaire sont traitées dans une FAQ distincte (voir 2. Transfert d’hypothèque ).\n#"
+      },
+      {
+        "rank": 5,
+        "score": 0.6856,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": null,
+        "text_preview": " dois-jerépartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025?\n\nVous répartissez les dépenses de votre emprunt hypothécaire comme suit :"
+      },
+      {
+        "rank": 6,
+        "score": 0.6854,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": null,
+        "text_preview": "répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025?\n\nVous répartissez les intérêts et les amortissements en capital comme suit :\n- le"
+      },
+      {
+        "rank": 7,
+        "score": 0.672,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": "1.1.1. J’ai conclu un emprunt de refinancement en 2024. Ai-je droit un avantage fiscal ?",
+        "text_preview": "pour l’habitation propre (bonus-logement régional,…) ont été supprimés et un abattement majoré des droits d’enregistrement pour l’acquisition d’une habitation propre a été instauré en compensation.\n##"
+      },
+      {
+        "rank": 8,
         "score": 0.6698,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": null,
         "text_preview": "d’un emprunt hypothécaire visé à l’alinéa 1 er , 1°, ou les cotisations payées en exécution d’un contrat qui sert exclusivement à la reconstitution ou à la garantie de cet emprunt hypothécaire.\nPour l"
       },
       {
-        "rank": 4,
-        "score": 0.6412,
-        "document_id": "faq_revenus_immobiliers",
-        "section": "3.2 Je suis propriétaire d’un bien immobilier bâti situéen Belgiqueque je loue à un particulier qui l’utilise (partiellement) à des fins professionnelles. Comment dois-je déclarer mes revenus immobiliers ?",
-        "text_preview": "au(x) code(s) 1106/2106 de votre déclaration d’impôt.\n\nLes revenus immobiliers imposables sont le revenu cadastral indexé (coefficient d’indexation pour les revenus 2018 : 1,7863), majoré de 40 %.\n###"
-      },
-      {
-        "rank": 5,
-        "score": 0.6298,
-        "document_id": "faq_revenus_immobiliers",
-        "section": "4.2 Je suis propriétaire d’un bien immobilier bâti situéà l’étranger. J’utilise l’habitation comme résidence secondaire. Comment dois-je déclarer mes revenus immobiliers?",
-        "text_preview": "au(x) code(s) 1106/2106 de votre déclaration d’impôt.\n\nLes revenus immobiliers imposables sont le revenu cadastral indexé (coefficient d’indexation pour les revenus 2018 : 1,7863), majoré de 40 %.\n###"
-      },
-      {
-        "rank": 6,
-        "score": 0.6084,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "b.À partir de l’exercice d’imposition2026",
-        "text_preview": " Comme prévu à l’art. 7.15.5 de l’arrêté du Gouvernement flamand du 19.11.2010 portant des dispositions générales en matière de la politique de l’énergie.\n\n## b.À partir de l’exercice d’imposition2026"
-      },
-      {
-        "rank": 7,
-        "score": 0.6053,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": null,
-        "text_preview": "aux conditions suivantes :\n\n1° le contribuable a conclu un ou plusieurs emprunts hypothécaires en vue de construire, acquérir ou transformer son habitation unique :\n\na) avant le 1 er janvier 2005 ;\nb)"
-      },
-      {
-        "rank": 8,
-        "score": 0.6026,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": null,
-        "text_preview": "du 1 er mai 1986 au 31 décembre 1988 en vue de construire ou d’acquérir à l’état neuf une maison d’habitation située en Belgique, le montant initial de 9.915,74 euros est porté à 49.578,70 euros.\nUne "
-      },
-      {
         "rank": 9,
-        "score": 0.5873,
-        "document_id": "faq_revenus_immobiliers",
-        "section": "3.3 Je suis propriétaire d’un bien immobilier bâti situéà l’étrangerque je loue. Comment dois-je déclarer mes revenus immobiliers ?",
-        "text_preview": "de l’activité professionnelle au(x) code(s) 1109/2109 ;\n\n- le loyer et les avantages locatifs de 2018 de la partie affectée à l’exercice de l’activité professionnelle au(x) code(s) 1110/2110.\n### 3.3 "
+        "score": 0.6663,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": "1. Habitation propre pendant toute l’année",
+        "text_preview": "hypothécaire en 2024 pour acquérir ma deuxième habitation. Comment dois-je répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025 ?\n6.2. "
       },
       {
         "rank": 10,
-        "score": 0.5858,
-        "document_id": "faq_revenus_immobiliers",
-        "section": "1.Généralités",
-        "text_preview": "? 4.2 Je suis propriétaire d’un bien immobilier bâti situé à l’étranger. J’utilise l’habitation comme résidence secondaire. Comment dois-je déclarer mes revenus immobiliers ?\n\n## 1.Généralités\n### 1.1"
+        "score": 0.6654,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": null,
+        "text_preview": "répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025?\n\nVous répartissez les dépenses de votre emprunt hypothécaire comme suit :\n- les i"
       }
     ]
   },
@@ -583,8 +576,7 @@
       "circ_2019_C108_handicapes"
     ],
     "secondary_docs": [
-      "circ_2026_C25_personnes_charge",
-      "commentaire_art143_cir92"
+      "circ_2026_C25_personnes_charge"
     ],
     "hits": [
       {
@@ -663,12 +655,9 @@
     "id": "Q9",
     "question": "Comment fonctionne le crédit d'impôt pour enfants en coparentalité fiscale?",
     "expected_docs": [
-      "circ_2023_C69_coparentalite",
-      "commentaire_art132bis_cir92"
+      "circ_2023_C69_coparentalite"
     ],
-    "secondary_docs": [
-      "commentaire_art141_cir92"
-    ],
+    "secondary_docs": [],
     "hits": [
       {
         "rank": 1,
@@ -707,38 +696,38 @@
       },
       {
         "rank": 6,
+        "score": 0.7064,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "et à l ' imposition de ces contributions alimentaires (1). En d ' autres termes, l ' utilisation d ' un compte-enfant n ' affecte pas la qualification fiscale des contributions alimentaires.\n(1) Reven"
+      },
+      {
+        "rank": 7,
         "score": 0.7037,
         "document_id": "circ_2023_C69_coparentalite",
         "section": null,
         "text_preview": "pour 3 enfants en coparentalité\n\n- pour Julie, qui cède la moitié du supplément à Max : 4.865 euros (= 9.730 euros – 4.865 euros)\n- pour Max, qui reçoit la moitié du supplément : 4.865 euros\n- l’impôt"
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "score": 0.6827,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "couple divorcé en 2020 a 2 enfants communs. Les enfants sont à charge fiscalement de la mère. Les parents décident ensemble que le « Groeipakket » des enfants est payé sur le compte du père.\nEn exécut"
+      },
+      {
+        "rank": 9,
         "score": 0.6664,
         "document_id": "circ_2023_C69_coparentalite",
         "section": "Circulaire 2023/C/69 relative au crédit d’impôt pour enfants en coparentalité fiscale",
         "text_preview": "# Circulaire 2023/C/69 relative au crédit d’impôt pour enfants en coparentalité fiscale\n\ncalcul de l’impôt des personnes physiques ; crédit d’impôt remboursable ; coparentalité fiscale\n\nT able des mat"
       },
       {
-        "rank": 8,
-        "score": 0.6383,
-        "document_id": "circ_2019_C108_handicapes",
-        "section": "1.4. Quelles conditions mon enfant doit-il remplir pour être à ma charge ?",
-        "text_preview": "ou psychiquement, ou en incapacité de travail de façon permanente pour au moins 66 % .\n\n### 1.4. Quelles conditions mon enfant doit-il remplir pour être à ma charge ?\n\nVoir Enfants à charge .\n### 1.5."
-      },
-      {
-        "rank": 9,
-        "score": 0.6341,
-        "document_id": "circ_2026_C25_personnes_charge",
-        "section": null,
-        "text_preview": "(MB : 29.12.2023 – Numac : 2023048700 – et avis rectificatif au MB : 11.01.2024 – Numac : 2024000089 ). Voir également circulaire 2024/C/36 du 27.05.2024 .\n\n(6) Montant de base avant indexation.\n5. A "
-      },
-      {
         "rank": 10,
-        "score": 0.6181,
-        "document_id": "circ_2019_C108_handicapes",
-        "section": "2.3. Mon enfant handicapé a été placé dans une institution. De ce fait, deux tiers des allocations familiales sont payés directement à cette institution.Puis-je bénéficier pour ce montant de la réduction d’impôt pour frais de garde d’enfants ?",
-        "text_preview": "avec 7 à 9 points de degré d’autonomie ;\n\n- soit un total de 15 points au moins, établi selon l’échelle médico-sociale au sens de la réglementation des allocations familiales .\n\nPlus d’information\n###"
+        "score": 0.6493,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "203bis, §4, C. civ . qu ' une distinction doit être faite entre une contribution alimentaire des parents versées sur le compte-enfant et le transfert d ' avantages sociaux revenant à l ' enfant :\n« A "
       }
     ]
   },
@@ -746,83 +735,81 @@
     "id": "Q10",
     "question": "Les rentes alimentaires versées à mon ex-conjoint sont-elles déductibles fiscalement?",
     "expected_docs": [
-      "commentaire_art143_cir92"
+      "circ_2026_C12_rentes_alimentaires"
     ],
     "secondary_docs": [
-      "commentaire_art132bis_cir92",
-      "commentaire_art118_cir92",
-      "commentaire_art120_cir92"
+      "circ_2023_C43_rentes_alimentaires"
     ],
     "hits": [
       {
         "rank": 1,
+        "score": 0.6308,
+        "document_id": "circ_2026_C12_rentes_alimentaires",
+        "section": null,
+        "text_preview": "déductibles à hauteur de 80 % d e l’ensemble des revenu s net s du débir entier .\n\nIl s’agit ici des rentes alimentaires suivantes qui s ont effecti v ement payées au cours de la période imposable :\n-"
+      },
+      {
+        "rank": 2,
+        "score": 0.6269,
+        "document_id": "circ_2026_C12_rentes_alimentaires",
+        "section": "III.Aperçuschématique",
+        "text_preview": "comme dépense déductible dans sa déclaration à l ’impôt des personnes physiques (exercice d’imposition 202 7 ).\n\nDans le chef de sa mère c ette rente alimentaire n’est plus imposable à l’INR/p p .\n15 "
+      },
+      {
+        "rank": 3,
+        "score": 0.5955,
+        "document_id": "circ_2026_C12_rentes_alimentaires",
+        "section": null,
+        "text_preview": "roit à la déduction des rentes alimentaires payées au cours de la période imposable pour lesquelles aucun avantage fiscal ne peut être accordé dans l’Etat de résidence en raison des faibles revenus.\nL"
+      },
+      {
+        "rank": 4,
+        "score": 0.5897,
+        "document_id": "circ_2026_C12_rentes_alimentaires",
+        "section": "B.Rentesalimentaires payées à descontribuablesqui ne sont pas desrésidentsd’unEtat membre de l’EEEou de la Suisse",
+        "text_preview": "s’appliquent à toutes les rentes alimentaires visées à l’art. 90, al . 1 er , 3° et 4° , CIR 92 , y compris celles ver sées dans le cadre d’obligations alimentaires préexistantes .\n\n12 . Exemple\nEn 20"
+      },
+      {
+        "rank": 5,
         "score": 0.5635,
         "document_id": "circ_2026_C2_fiscalite_immobiliere",
         "section": "F.Transfert de la réduction d’impôt entre conjoints (art. 516, § 4, CIR92)",
         "text_preview": "où ils se rapportent à la première tranche de 63.920 euros (montant indexé pour les emprunts de 2006) (code s 1358/2358 du document préparatoire à la déclaration à l’impôt des personnes physiques).\n##"
       },
       {
-        "rank": 2,
+        "rank": 6,
+        "score": 0.553,
+        "document_id": "circ_2023_C43_rentes_alimentaires",
+        "section": null,
+        "text_preview": "et à l ' imposition de ces contributions alimentaires (1). En d ' autres termes, l ' utilisation d ' un compte-enfant n ' affecte pas la qualification fiscale des contributions alimentaires.\n(1) Reven"
+      },
+      {
+        "rank": 7,
+        "score": 0.5492,
+        "document_id": "circ_2026_C12_rentes_alimentaires",
+        "section": null,
+        "text_preview": "mentionnées ci- dessous :\n\n* le contribuable est un résident d’un Etat membre de l’EEE ;\n\n* l’Etat de résidence accorde en principe un avantage fiscal pour les rentes alimentaires concernées ;\n* le co"
+      },
+      {
+        "rank": 8,
         "score": 0.5404,
         "document_id": "circ_2020_C60_garde_enfant",
         "section": null,
         "text_preview": " à la réduction d'impôt :\n\n- L ’activité de garde est annulée en raison des mesures prises dans le cadre du COVID-19 .\n\n- L es parents ont effectivement supporté des dépenses pour l'activité annulée ."
       },
       {
-        "rank": 3,
+        "rank": 9,
         "score": 0.5386,
         "document_id": "circ_2023_C69_coparentalite",
         "section": "IV. Entrée en vigueur",
         "text_preview": "exemptée d’impôt qui peuvent être pris en compte pour le calcul du crédit d’impôt majoré)\n\n- l’impôt sur les revenus après déduction de l’impôt sur la quotité du revenu exemptée d’impôt : 0,00 euro.\n-"
       },
       {
-        "rank": 4,
-        "score": 0.5261,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "E.Réduction d’impôt fédérale pour habitation unique (bonus-logement fédéral)",
-        "text_preview": " pour la réduction d’impôt fédérale pour épargne-logement (code s 1355/2355 du document préparatoire à la déclaration à l’impôt des personnes physiques) ;\n\n- à partir de l’exercice d’imposition 2026 :"
-      },
-      {
-        "rank": 5,
-        "score": 0.5205,
-        "document_id": "circ_2020_C60_garde_enfant",
-        "section": "II. Commentaire",
-        "text_preview": "ou partiellement), et que les parents ne récupèrent pas le montant déboursé, ces dépenses pourront quand même donner droit à la réduction d’impôt moyennant certaines conditions.\n\n# II. Commentaire\n## "
-      },
-      {
-        "rank": 6,
-        "score": 0.5194,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "B.Réduction d’impôt fédérale pour les intérêts des prêts verts",
-        "text_preview": " CIR 92 (12).\n\n(12) Art. 14, al. 1 er , CIR 92.\n\nCes indemnités restent déductibles des revenus des biens immobiliers, à condition qu’elles aient été payées ou supportées pendant la période imposable."
-      },
-      {
-        "rank": 7,
-        "score": 0.508,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "I.Introduction",
-        "text_preview": "des dispositions diverses .\n\nimpôt des personnes physiques ; biens immobiliers ; déduction d’intérêts fédérale ; emprunts (hypothécaires) ; dépenses donnant droit à une réduction d’impôt fédérale\n# I."
-      },
-      {
-        "rank": 8,
-        "score": 0.5062,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": null,
-        "text_preview": " bien immobilier a produit des revenus immobiliers imposables.\n\nLe montant total de la déduction visée à l’alinéa 1 er , est limité aux revenus immobiliers déterminés conformément aux articles 7 à 13."
-      },
-      {
-        "rank": 9,
-        "score": 0.5061,
-        "document_id": "circ_2023_C69_coparentalite",
-        "section": "II. Discussion",
-        "text_preview": "La partie non-imputée de l’impôt sur le supplément additionnel pour parents isolés avec enfants à charge et un bas revenu pouvait toujours bien être convertie en un crédit d’impôt.\n\n# II. Discussion\n#"
-      },
-      {
         "rank": 10,
-        "score": 0.4976,
-        "document_id": "circ_2026_C2_fiscalite_immobiliere",
-        "section": "b.À partir de l’exercice d’imposition2026",
-        "text_preview": " Comme prévu à l’art. 7.15.5 de l’arrêté du Gouvernement flamand du 19.11.2010 portant des dispositions générales en matière de la politique de l’énergie.\n\n## b.À partir de l’exercice d’imposition2026"
+        "score": 0.5365,
+        "document_id": "circ_2025_C33_emprunts_hypo_bruxelles",
+        "section": null,
+        "text_preview": "deuxième habitation située dans l’Espace économique européen. Comment dois-je répartir les dépenses de mon emprunt hypothécaire dans ma déclaration d’impôt relative à l’exercice d’imposition 2025 ?\nLe"
       }
     ]
   }

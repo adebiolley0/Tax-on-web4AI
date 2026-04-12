@@ -40,7 +40,7 @@ Located in `validation_dataset/`:
 
 ```
 validation_dataset/
-├── md/                   # 20 markdown documents (source material)
+├── md/                   # 16 markdown documents (substantive circulaires & FAQs)
 ├── sample_extra/         # Extra documents used to verify cleaning patterns
 ├── manifest.json         # Metadata for all downloaded documents
 ├── questions.json        # 10 test questions with ground truth
@@ -99,9 +99,7 @@ as negative-example fixtures for content-cleaner tests.
 
 | Question | Issue | Fix |
 |----------|-------|-----|
-| Q1 (vehicle expenses) | No docs in dataset — former expected docs were aperçu documentaire index pages (removed) | Download Circ. 2023/C/99 or 2022/C/10 (vehicle expense deduction) |
 | Q5 (charitable donations) | Synonym gap: query uses "dons", doc uses "libéralités" | MiniLM cannot bridge French synonym gap; needs query expansion or a denser model |
-| Q10 (alimony) | No docs in dataset — former expected docs were aperçu documentaire index pages (removed) | Download a circular on rentes alimentaires (art. 104 CIR 92) |
 
 ### Adding new documents
 
@@ -127,7 +125,7 @@ Unit tests for each cleaning function using synthetic inputs that mirror real Fi
 
 | Metric | Threshold | Description |
 |--------|-----------|-------------|
-| Recall@10 | >= 6/8 scorable | Questions with expected doc in top-10 (Q1, Q10 excluded — no docs yet) |
-| MRR | >= 0.3 | Mean Reciprocal Rank across scorable questions (Q1, Q10 excluded) |
-| Avg best-match score | >= 0.35 | Average cosine similarity of best expected-doc hit (scorable questions only) |
+| Recall@10 | >= 8/10 | Questions with expected doc in top-10 (all 10 questions scorable) |
+| MRR | >= 0.3 | Mean Reciprocal Rank across all 10 questions |
+| Avg best-match score | >= 0.35 | Average cosine similarity of best expected-doc hit |
 | Top score per question | >= 0.3 | Each question's #1 result must exceed this |

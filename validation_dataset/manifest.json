@@ -1,41 +1,40 @@
 [
   {
-    "guid": "6a88364f-fade-4427-82b0-ac3766cea13b",
-    "short_name": "commentaire_art66_cir92",
-    "description": "Commentaire de l'article 66, CIR 92 - frais professionnels forfaitaires",
-    "title": "Commentaire de l'article 66, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art66_cir92.md",
-    "md_chars": 13937,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-08-28",
+    "guid": "7cfec008-5ef5-4e2d-9367-213a0c66c627",
+    "short_name": "circ_2022_C10_frais_voiture",
+    "description": "Circulaire 2022/C/10 limitation de la déduction des frais de voiture",
+    "title": "Circulaire 2022/C/10 relative à la limitation de la déduction des frais de voiture",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2022_C10_frais_voiture.md",
+    "md_chars": 7300,
+    "document_type": "Circulaires",
+    "document_date": "2022-01-24",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des personnes physiques"
     ],
     "keywords": [
-      "impôt des personnes physiques",
-      "revenu professionnel",
       "frais professionnels",
-      "frais de voiture"
+      "frais de voiture",
+      "limite de déductibilité"
     ]
   },
   {
-    "guid": "59da0db2-12c7-471d-8fca-c4a48d2f615b",
-    "short_name": "commentaire_art65_cir92",
-    "description": "Commentaire de l'article 65, CIR 92 - frais professionnels réels",
-    "title": "Commentaire de l'article 65, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art65_cir92.md",
-    "md_chars": 6546,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-08-28",
+    "guid": "5432d72d-0c78-4a2c-a86b-a85e2310ce51",
+    "short_name": "circ_2023_C99_fiscalite_automobile",
+    "description": "Circulaire 2023/C/99 FAQ verdissement fiscal mobilité – fiscalité automobile",
+    "title": "Circulaire 2023/C/99 avec les FAQ relative au verdissement fiscal de la mobilité en ce qui concerne la fiscalité automobile",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2023_C99_fiscalite_automobile.md",
+    "md_chars": 20095,
+    "document_type": "Circulaires",
+    "document_date": "2023-12-12",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des non-résidents"
     ],
     "keywords": [
       "impôt des personnes physiques",
-      "revenu professionnel",
+      "impôt des non-résidents",
       "frais professionnels",
-      "amortissement",
-      "voiture"
+      "voiture particulière"
     ]
   },
   {
@@ -58,23 +57,25 @@
     ]
   },
   {
-    "guid": "8645a998-fbe6-4714-8042-9e67e1f44e25",
-    "short_name": "commentaire_art145_8_cir92",
-    "description": "Commentaire de l'article 145/8, CIR 92 - épargne-pension",
-    "title": "Commentaire de l'article 145^8, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art145_8_cir92.md",
-    "md_chars": 5488,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-09-06",
+    "guid": "1e2e3504-3565-43f9-8596-9a16e6d4151f",
+    "short_name": "circ_2018_C72_epargne_pension_duale",
+    "description": "Circulaire 2018/C/72 relative à l'épargne-pension duale",
+    "title": "Circulaire 2018/C/72 relative à l'épargne-pension duale",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2018_C72_epargne_pension_duale.md",
+    "md_chars": 14967,
+    "document_type": "Circulaires",
+    "document_date": "2018-06-11",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des non-résidents"
     ],
     "keywords": [
       "impôt des personnes physiques",
-      "calcul de l'IPP",
+      "impôt des non-résidents",
+      "épargne-pension",
       "réduction d'impôt",
-      "épargne à long terme",
-      "épargne-pension"
+      "condition d'octroi",
+      "remboursement"
     ]
   },
   {
@@ -173,24 +174,6 @@
     ]
   },
   {
-    "guid": "4cda982a-90c1-4876-9fa9-5130cd3bc8af",
-    "short_name": "commentaire_art268_cir92",
-    "description": "Commentaire article 268 CIR 92 - précompte mobilier et revenus mobiliers",
-    "title": "Commentaire de l'article 268, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art268_cir92.md",
-    "md_chars": 5045,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-08-26",
-    "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
-    ],
-    "keywords": [
-      "paiement de l'impôt",
-      "précompte mobilier",
-      "calcul du PrM"
-    ]
-  },
-  {
     "guid": "ad51d7c8-7925-4c14-8a4b-26f6d57e5e62",
     "short_name": "circ_2020_C111_liberalites",
     "description": "Circulaire 2020/C/111 réduction d'impôt libéralités",
@@ -205,25 +188,6 @@
     "keywords": [
       "impôt des personnes physiques",
       "impôt des non-résidents",
-      "réduction d'impôt",
-      "libéralité"
-    ]
-  },
-  {
-    "guid": "22a8c15c-5579-4500-a967-32c2e0b17392",
-    "short_name": "commentaire_art145_33_cir92",
-    "description": "Commentaire article 145/33 CIR 92 - libéralités déductibles",
-    "title": "Commentaire de l'article 145^33, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art145_33_cir92.md",
-    "md_chars": 9128,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-09-12",
-    "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
-    ],
-    "keywords": [
-      "impôt des personnes physiques",
-      "calcul de l'IPP",
       "réduction d'impôt",
       "libéralité"
     ]
@@ -263,121 +227,83 @@
     "keywords": []
   },
   {
-    "guid": "604ba298-4adf-40c8-a7db-8cfb7af69e85",
-    "short_name": "commentaire_art145_42_cir92",
-    "description": "Commentaire article 145/42 CIR 92 - bonus logement",
-    "title": "Commentaire de l'article 145^42, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art145_42_cir92.md",
-    "md_chars": 4290,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-09-12",
+    "guid": "fe3be86f-429a-446a-8300-fd5f78a39330",
+    "short_name": "circ_2025_C33_emprunts_hypo_bruxelles",
+    "description": "Circulaire 2025/C/33 avantages fiscaux emprunts hypothécaires Bruxelles-Capitale",
+    "title": "Circulaire 2025/C/33 relative aux avantages fiscaux pour les emprunts hypothécaires en Région de Bruxelles-Capitale",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2025_C33_emprunts_hypo_bruxelles.md",
+    "md_chars": 21484,
+    "document_type": "Circulaires",
+    "document_date": "2025-05-28",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des personnes physiques"
     ],
     "keywords": [
       "impôt des personnes physiques",
-      "calcul de l'IPP",
       "réduction d'impôt",
-      "habitation propre",
+      "Région de Bruxelles-Capitale",
       "emprunt hypothécaire",
-      "assurance-vie",
-      "épargne-logement"
+      "assurance-vie individuelle"
     ]
   },
   {
-    "guid": "b5104ef7-1203-4008-9ccb-7adca0b697b4",
-    "short_name": "commentaire_art141_cir92",
-    "description": "Commentaire article 141 CIR 92 - barème IPP",
-    "title": "Commentaire de l'article 141, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art141_cir92.md",
-    "md_chars": 4829,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-09-05",
+    "guid": "6613677d-6353-42f4-a793-e68511f341da",
+    "short_name": "circ_2026_C12_rentes_alimentaires",
+    "description": "Circulaire 2026/C/12 traitement fiscal des rentes alimentaires",
+    "title": "Circulaire 2026/C/12 relative aux modifications concernant le traitement fiscal des rentes alimentaires ",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2026_C12_rentes_alimentaires.md",
+    "md_chars": 17134,
+    "document_type": "Circulaires",
+    "document_date": "2026-01-07",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des non-résidents"
     ],
     "keywords": [
-      "calcul de l'IPP",
-      "quotité exemptée",
-      "enfant à charge",
-      "contribuable isolé",
-      "invalide",
-      "montant net des ressources"
-    ]
-  },
-  {
-    "guid": "395efe92-99dd-4f26-8aa3-4c3fbaffaf90",
-    "short_name": "commentaire_art132bis_cir92",
-    "description": "Commentaire article 132bis CIR 92 - suppléments personnes à charge",
-    "title": "Commentaire de l'article 132bis, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art132bis_cir92.md",
-    "md_chars": 11051,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-09-04",
-    "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
-    ],
-    "keywords": [
-      "impôt des personnes physiques",
-      "quotité exemptée",
-      "enfant à charge",
-      "co-parenté"
-    ]
-  },
-  {
-    "guid": "575b9c27-123b-4d63-874e-f611ac7ffb89",
-    "short_name": "commentaire_art118_cir92",
-    "description": "Commentaire article 118 CIR 92 - rentes alimentaires",
-    "title": "Commentaire de l'article 118, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art118_cir92.md",
-    "md_chars": 1292,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-08-22",
-    "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
-    ],
-    "keywords": [
-      "impôt des personnes physiques",
       "dépense déductible",
-      "épargne-pension"
+      "impôt des non-résidents",
+      "impôt sur les revenus",
+      "impôt des personnes physiques",
+      "rente alimentaire",
+      "revenus divers"
     ]
   },
   {
-    "guid": "aaf65b79-1c5c-472c-a3c5-6155e3246ca1",
-    "short_name": "commentaire_art143_cir92",
-    "description": "Commentaire article 143 CIR 92 - déduction rentes alimentaires",
-    "title": "Commentaire de l'article 143, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art143_cir92.md",
-    "md_chars": 10341,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-09-05",
+    "guid": "67eef234-8d87-4bd8-abea-d35a3207a85c",
+    "short_name": "circ_2023_C43_rentes_alimentaires",
+    "description": "Circulaire 2023/C/43 rentes alimentaires déductibilité et imposition",
+    "title": "Circulaire 2023/C/43 relative aux rentes alimentaires qui entrent en considération fiscalement pour la déductibilité et l'imposition",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2023_C43_rentes_alimentaires.md",
+    "md_chars": 5305,
+    "document_type": "Circulaires",
+    "document_date": "2023-04-18",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des personnes physiques"
     ],
     "keywords": [
       "impôt des personnes physiques",
-      "quotité exemptée",
-      "calcul de l'IPP",
-      "personne à charge",
-      "montant net des ressources"
+      "rente alimentaire",
+      "revenus divers",
+      "dépense déductible"
     ]
   },
   {
-    "guid": "b5540635-1ff7-4bb2-b452-4eacebdd5f7e",
-    "short_name": "commentaire_art120_cir92",
-    "description": "Commentaire article 120 CIR 92 - capitaux rentes alimentaires",
-    "title": "Commentaire de l'article 120, CIR 92",
-    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/commentaire_art120_cir92.md",
-    "md_chars": 1292,
-    "document_type": "Commentaires (dont Rép. RJ)",
-    "document_date": "2019-08-22",
+    "guid": "b95b791f-1ed2-48e2-b843-8c8ab34c46a5",
+    "short_name": "circ_2020_C21_precompte_mobilier",
+    "description": "Circulaire 2020/C/21 détermination du revenu mobilier imposable – précompte mobilier",
+    "title": "Circulaire 2020/C/21 concernant la détermination du revenu mobilier imposable en cas de non-retenue ou de retenue insuffisante du précompte mobilier",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2020_C21_precompte_mobilier.md",
+    "md_chars": 1653,
+    "document_type": "Circulaires",
+    "document_date": "2020-01-29",
     "taxonomies": [
-      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+      "Circulaires - Impôt des sociétés",
+      "Circulaires - Impôt des personnes morales",
+      "Circulaires - Impôt des personnes physiques"
     ],
     "keywords": [
-      "impôt des personnes physiques",
-      "dépense déductible",
-      "épargne-pension"
+      "revenu mobilier",
+      "base d'imposition"
     ]
   }
 ]

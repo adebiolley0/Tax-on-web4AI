@@ -1,9 +1,13 @@
 """Semantic search validation dataset test.
 
-Ingests 20 Fisconet+ documents about Belgian personal income tax (IPP)
+Ingests 16 Fisconet+ documents about Belgian personal income tax (IPP)
 into an in-memory Qdrant instance, then runs 10 realistic tax-return
 questions and asserts that the most relevant documents are retrieved
 with good cosine-similarity scores.
+
+All documents are substantive circulaires or FAQs — no aperçu
+documentaire index pages. See MYFIN_ARBORESCENCE.md for the filtering
+policy.
 
 Ground truth was built by having each document reviewed against each
 question to identify which passages are relevant.
@@ -67,12 +71,12 @@ def _load_questions() -> list[dict]:
 
 @pytest.fixture(scope="module")
 def validation_db():
-    """Chunk, embed, and store all 20 validation documents.
+    """Chunk, embed, and store all validation documents.
 
     Returns (qdrant_client, documents_dict, all_embedded_chunks).
     """
     md_files = sorted(MD_DIR.glob("*.md"))
-    assert len(md_files) >= 9, f"Expected >= 9 md files, found {len(md_files)}"
+    assert len(md_files) >= 14, f"Expected >= 14 md files, found {len(md_files)}"
 
     # Load documents in parallel
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -106,11 +110,11 @@ def validation_db():
 
 
 class TestIngestion:
-    """Verify that all 20 documents were ingested correctly."""
+    """Verify that all 16 documents were ingested correctly."""
 
     def test_all_documents_ingested(self, validation_db):
         client, docs_by_id, embedded = validation_db
-        assert len(docs_by_id) >= 9
+        assert len(docs_by_id) >= 14
 
     def test_chunks_created(self, validation_db):
         client, docs_by_id, embedded = validation_db
@@ -193,18 +197,12 @@ class TestSemanticSearch:
         )
 
     # --- Q1: Professional vehicle expenses ---
-    # NO EXPECTED DOCS: The former expected documents (commentaire_art65/66) were
-    # Fisconet+ "aperçu documentaire" index pages — they list linked circulars
-    # and case-law titles but contain no substantive legal prose and are not
-    # ingested. To fix: download Circulaire 2023/C/99 (FAQ verdissement fiscal
-    # mobilité / fiscalité automobile) or Circulaire 2022/C/10 (limitation
-    # déduction frais de voiture) and add to validation_dataset/md/.
+    # Expected: circ_2022_C10_frais_voiture (Circulaire 2022/C/10)
+    # Secondary: circ_2023_C99_fiscalite_automobile (Circulaire 2023/C/99)
 
-    @pytest.mark.xfail(reason="no vehicle-expense docs in dataset yet — download Circ. 2023/C/99 or 2022/C/10")
     def test_q1_vehicle_expenses_found(self, search_results):
         self._assert_expected_doc_found(search_results, "Q1")
 
-    @pytest.mark.xfail(reason="no vehicle-expense docs in dataset yet — download Circ. 2023/C/99 or 2022/C/10")
     def test_q1_vehicle_expenses_ranked_high(self, search_results):
         self._assert_primary_doc_ranked_high(search_results, "Q1")
 
@@ -306,17 +304,12 @@ class TestSemanticSearch:
         self._assert_score_above_threshold(search_results, "Q9")
 
     # --- Q10: Alimony deduction ---
-    # NO EXPECTED DOCS: The former expected documents (commentaire_art143/132bis)
-    # were Fisconet+ "aperçu documentaire" index pages — they list linked
-    # circulars and case-law titles but contain no substantive legal prose and
-    # are not ingested. To fix: download a substantive circular or the relevant
-    # CIR 92 article text covering rentes alimentaires (e.g. art. 104 CIR 92).
+    # Expected: circ_2026_C12_rentes_alimentaires (Circulaire 2026/C/12)
+    # Secondary: circ_2023_C43_rentes_alimentaires (Circulaire 2023/C/43)
 
-    @pytest.mark.xfail(reason="no alimony docs in dataset yet — download a circular on rentes alimentaires (art. 104 CIR 92)")
     def test_q10_alimony_found(self, search_results):
         self._assert_expected_doc_found(search_results, "Q10")
 
-    @pytest.mark.xfail(reason="no alimony docs in dataset yet — download a circular on rentes alimentaires (art. 104 CIR 92)")
     def test_q10_alimony_ranked_high(self, search_results):
         self._assert_primary_doc_ranked_high(search_results, "Q10")
 
@@ -326,29 +319,26 @@ class TestSemanticSearch:
     # --- Aggregate quality metrics ---
 
     def test_overall_recall_at_10(self, search_results):
-        """At least 6 out of 8 scorable questions should have an expected doc in top 10.
+        """At least 8 out of 10 scorable questions should have an expected doc in top 10.
 
-        Two questions (Q1, Q10) have no expected docs yet (aperçu documentaire
-        docs removed; substantive circulaires not yet downloaded).  Q5 has a
-        synonym-gap xfail. Scorable questions: Q2–Q4, Q6–Q9 = 8 questions.
-        Target: 6/8 (75 % recall).
+        All 10 questions now have expected docs. Q5 has a synonym-gap xfail
+        ('dons' vs 'libéralités'). Target: 8/10 (80 % recall).
         """
         hits = 0
         scorable = 0
         for qid, r in search_results.items():
             if not r["expected_docs"]:
-                continue  # skip questions with no expected docs (Q1, Q10)
+                continue
             scorable += 1
             top_doc_ids = {h["payload"]["document_id"] for h in r["hits"][:10]}
             if set(r["expected_docs"]) & top_doc_ids:
                 hits += 1
-        assert hits >= 6, f"Recall@10: {hits}/{scorable} scorable questions matched (need >= 6)"
+        assert hits >= 8, f"Recall@10: {hits}/{scorable} scorable questions matched (need >= 8)"
 
     def test_overall_mrr(self, search_results):
         """Mean Reciprocal Rank across scorable questions should be >= 0.3.
 
-        Questions with empty expected_docs (Q1, Q10 — no docs yet in dataset)
-        are excluded from the MRR calculation.
+        All 10 questions now have expected docs and are included.
         """
         rr_sum = 0.0
         scorable = [r for r in search_results.values() if r["expected_docs"]]
@@ -364,7 +354,7 @@ class TestSemanticSearch:
     def test_average_top_score(self, search_results):
         """Average score of the best matching expected-doc hit should be >= 0.35.
 
-        Questions with empty expected_docs (Q1, Q10) are excluded.
+        All 10 questions now have expected docs and are included.
         """
         scores = []
         for qid, r in search_results.items():

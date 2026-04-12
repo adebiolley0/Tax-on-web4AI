@@ -1,21 +1,24 @@
-"""Download 20 documents about personal income tax (IPP) from Fisconet+.
+"""Download documents about personal income tax (IPP) from Fisconet+.
 
 The Fisconet+ PDF endpoint returns a generic placeholder for most documents,
 so we use the document API (base64-encoded HTML content) and convert to markdown
 via html2text.  The raw HTML is also saved for reference.
 
+Only documents with **legal or substantive informational value** are included
+(circulaires, FAQs, legislation). Aperçu documentaire index pages, training
+materials, and portal navigation pages are excluded per MYFIN_ARBORESCENCE.md.
+
 Topics covered (diverse personal tax situations):
-- Professional expenses / flat-rate deductions
+- Vehicle / automobile expenses (frais de voiture)
 - Pension savings (épargne-pension)
 - Real estate income (revenus immobiliers)
 - Dependents (personnes à charge)
 - Disability-related FAQ
-- Investment income (revenus mobiliers)
+- Investment income (revenus mobiliers / précompte mobilier)
 - Charitable donations (libéralités)
 - Childcare expenses (garde d'enfants)
-- Mortgage / housing deductions (bonus logement)
-- Tax rates and brackets (barèmes)
-- Alimony (pension alimentaire)
+- Mortgage / housing deductions (emprunts hypothécaires)
+- Alimony (rentes alimentaires)
 - Co-parenting tax credits
 """
 
@@ -43,71 +46,52 @@ MD_DIR = OUT_DIR / "md"
 TIMEOUT = 60.0
 
 # Curated GUIDs: (guid, short_name, description)
+# ALL entries are substantive circulaires or FAQs — no aperçu documentaire.
 CANDIDATES = [
-    # Professional expenses
-    ("6a88364f-fade-4427-82b0-ac3766cea13b", "commentaire_art66_cir92",
-     "Commentaire de l'article 66, CIR 92 - frais professionnels forfaitaires"),
-    ("59da0db2-12c7-471d-8fca-c4a48d2f615b", "commentaire_art65_cir92",
-     "Commentaire de l'article 65, CIR 92 - frais professionnels réels"),
-    # Pension savings
-    ("608947c4-c518-451e-9d76-0652fda0f9e2", "circ_epargne_pension_2006",
-     "Circulaire épargne-pension AFER 8/2006"),
+    # --- Vehicle / automobile expenses (Q1) ---
+    ("7cfec008-5ef5-4e2d-9367-213a0c66c627", "circ_2022_C10_frais_voiture",
+     "Circulaire 2022/C/10 limitation de la déduction des frais de voiture"),
+    ("5432d72d-0c78-4a2c-a86b-a85e2310ce51", "circ_2023_C99_fiscalite_automobile",
+     "Circulaire 2023/C/99 FAQ verdissement fiscal mobilité – fiscalité automobile"),
+    # --- Pension savings (Q2) ---
     ("cdb7d27b-5aae-45f5-be33-adc82670cf80", "circ_2025_C21_epargne_pension",
      "Circulaire 2025/C/21 attestation 281.60 épargne-pension"),
-    ("8645a998-fbe6-4714-8042-9e67e1f44e25", "commentaire_art145_8_cir92",
-     "Commentaire de l'article 145/8, CIR 92 - épargne-pension"),
-    # Real estate income
+    ("1e2e3504-3565-43f9-8596-9a16e6d4151f", "circ_2018_C72_epargne_pension_duale",
+     "Circulaire 2018/C/72 relative à l'épargne-pension duale"),
+    # --- Real estate income (Q3) ---
     ("b079577f-8eb9-427c-803f-f96c51adaea3", "faq_revenus_immobiliers",
      "FAQ – Revenus immobiliers – Nouvelle version"),
     ("6a71f275-3f37-4cfd-95f0-9a5458fd2669", "circ_2026_C2_fiscalite_immobiliere",
      "Circulaire 2026/C/2 fiscalité immobilière fédérale"),
-    # Dependents / family
+    # --- Dependents / family (Q4, Q8, Q9) ---
     ("2a1dc887-7fde-4f76-9df9-220e7c3f9662", "circ_2026_C25_personnes_charge",
      "Circulaire 2026/C/25 personnes à charge"),
     ("e7136d0a-fea8-457d-a0e2-2fe0c6e457f6", "circ_2023_C69_coparentalite",
      "Circulaire 2023/C/69 crédit d'impôt coparentalité"),
     ("ae52f547-9a8f-42af-9a18-197bd40d3eef", "circ_2019_C108_handicapes",
      "Circulaire 2019/C/108 handicapés FAQ"),
-    # Investment income
-    ("4cda982a-90c1-4876-9fa9-5130cd3bc8af", "commentaire_art268_cir92",
-     "Commentaire article 268 CIR 92 - précompte mobilier et revenus mobiliers"),
-    # Donations
+    # --- Donations (Q5) ---
     ("ad51d7c8-7925-4c14-8a4b-26f6d57e5e62", "circ_2020_C111_liberalites",
      "Circulaire 2020/C/111 réduction d'impôt libéralités"),
-    ("22a8c15c-5579-4500-a967-32c2e0b17392", "commentaire_art145_33_cir92",
-     "Commentaire article 145/33 CIR 92 - libéralités déductibles"),
-    # Childcare
+    # --- Childcare (Q6) ---
     ("410b634a-4fd7-4398-b745-10bd50ac87fd", "circ_2020_C60_garde_enfant",
      "Circulaire 2020/C/60 réduction garde d'enfant"),
-    # Housing / mortgage
+    # --- Mortgage / housing (Q7) ---
     ("01809183-a23f-40ce-a297-08c33e3d7f21", "circ_2025_C35_emprunts_hypo_flandre",
      "Circulaire 2025/C/35 avantages fiscaux emprunts hypothécaires Flandre"),
-    ("604ba298-4adf-40c8-a7db-8cfb7af69e85", "commentaire_art145_42_cir92",
-     "Commentaire article 145/42 CIR 92 - bonus logement"),
-    # Tax rates / quotité exemptée
-    ("b5104ef7-1203-4008-9ccb-7adca0b697b4", "commentaire_art141_cir92",
-     "Commentaire article 141 CIR 92 - barème IPP"),
-    ("395efe92-99dd-4f26-8aa3-4c3fbaffaf90", "commentaire_art132bis_cir92",
-     "Commentaire article 132bis CIR 92 - suppléments personnes à charge"),
-    # Alimony
-    ("575b9c27-123b-4d63-874e-f611ac7ffb89", "commentaire_art118_cir92",
-     "Commentaire article 118 CIR 92 - rentes alimentaires"),
-    ("aaf65b79-1c5c-472c-a3c5-6155e3246ca1", "commentaire_art143_cir92",
-     "Commentaire article 143 CIR 92 - déduction rentes alimentaires"),
-    # Fallbacks
-    ("b5540635-1ff7-4bb2-b452-4eacebdd5f7e", "commentaire_art120_cir92",
-     "Commentaire article 120 CIR 92 - capitaux rentes alimentaires"),
-    ("dcf3262e-31a4-43f0-bdb6-fb99e9c53e77", "commentaire_art323_2_cir92",
-     "Commentaire article 323/2 CIR 92 - garde d'enfant attestation"),
-    ("3d952c26-db29-46be-a72c-a2e3b1cd99c9", "circ_2022_C15_garde_enfant_annexe",
-     "Circulaire 2022/C/15 réduction garde d'enfant annexe 2"),
-    ("f4124cfe-1f22-4bfe-90f1-ed7de9446f51", "commentaire_art313_cir92",
-     "Commentaire article 313 CIR 92 - précompte mobilier imputation"),
-    ("50f962e7-5b56-453b-9e99-df18d6b38a0e", "commentaire_art255_cir92",
-     "Commentaire article 255 CIR 92 - précompte immobilier"),
+    ("fe3be86f-429a-446a-8300-fd5f78a39330", "circ_2025_C33_emprunts_hypo_bruxelles",
+     "Circulaire 2025/C/33 avantages fiscaux emprunts hypothécaires Bruxelles-Capitale"),
+    # --- Alimony / rentes alimentaires (Q10) ---
+    ("6613677d-6353-42f4-a793-e68511f341da", "circ_2026_C12_rentes_alimentaires",
+     "Circulaire 2026/C/12 traitement fiscal des rentes alimentaires"),
+    ("67eef234-8d87-4bd8-abea-d35a3207a85c", "circ_2023_C43_rentes_alimentaires",
+     "Circulaire 2023/C/43 rentes alimentaires déductibilité et imposition"),
+    # --- Investment income / précompte mobilier ---
+    ("b95b791f-1ed2-48e2-b843-8c8ab34c46a5", "circ_2020_C21_precompte_mobilier",
+     "Circulaire 2020/C/21 détermination du revenu mobilier imposable – précompte mobilier"),
 ]
 
-TARGET = 20
+TARGET = 16
 
 
 def _html_to_markdown(html: str) -> str:
