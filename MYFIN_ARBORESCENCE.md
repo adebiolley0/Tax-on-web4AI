@@ -101,7 +101,9 @@ Publications curatées accessibles via `GET /library/documents?language=fr` :
 **Autres**
 
 - Memento Fiscal 2025
-- Guide utilisateur externe
+- Guide utilisateur externe *(⚠ son `id` est une URL SharePoint PDF, pas un UUID — ne pas passer à l'endpoint `/pdf?id=`)*
+
+> **Note API:** Pour la quasi-totalité des items, le champ `id` est un UUID standard utilisable avec l'endpoint `GET /pdf?id={guid}&language=fr`. Exception : *Guide utilisateur externe* dont l'`id` est directement l'URL du fichier PDF sur SharePoint (`https://minfinbe.sharepoint.com/...pdf`).
 
 ## Historique des modifications
 
