@@ -58,17 +58,23 @@ validation_dataset/
 
 ### Document selection criteria
 
-Only documents with **legal value or practical information** should be in the validation dataset:
+Only documents with **legal value or substantive informational content** should be in `validation_dataset/md/`. See `MYFIN_ARBORESCENCE.md` § "Classification" and `AGENTS.md` § "Document filtering policy" for the authoritative rules.
 
-| Include | Skip |
-|---------|------|
-| Circulaires (binding administrative interpretations) | Aperçu documentaire (index pages listing references) |
-| FAQs (practical tax filing guidance) | Table-of-contents documents |
-| Legislation text (CIR 92 articles) | "Cours professionnels" (training materials) |
-| Royal decrees (legally binding) | Pure reference lists |
-| Advance rulings (detailed reasoning) | Help/navigation pages |
+| Include ✅ | Exclude ❌ |
+|-----------|-----------|
+| Circulaires (binding administrative interpretations) | **Aperçu documentaire** / "Commentaire CIR 92" index pages (list references only, no substantive text) |
+| FAQs with developed substantive content | Table-of-contents and navigation documents |
+| Legislation text (CIR 92, AR/CIR 92, regional codes) | "Cours professionnels" (training materials, not legally binding) |
+| Royal decrees (arrêtés royaux, legally binding) | "Compétences et formulaires" (portal navigation pages) |
+| Advance rulings (décisions anticipées) | Help/navigation pages, Guide utilisateur |
+| Parliamentary questions (interpretive value) | Mémento fiscal (didactic summary, not citable) |
+| Jurisprudence (court decisions) | Working Papers, Briefing Notes |
 
-See `WEBSITE_FINDINGS.md` § 5 for the full classification of Fisconet+ document types.
+**Note on "Commentaire CIR 92" pages:** Fisconet+ exposes one index page per CIR 92 article under
+"Commentaire CIR 92 (aperçu documentaire)". These pages merely list which circulars, decisions and
+parliamentary questions relate to each article. The actual commentary text is absent (marked `N/A`).
+These documents must NOT be ingested. The moved copies in `validation_dataset/sample_extra/` serve
+as negative-example fixtures for content-cleaner tests.
 
 ### Ground truth format (`questions.json`)
 
@@ -91,11 +97,11 @@ See `WEBSITE_FINDINGS.md` § 5 for the full classification of Fisconet+ document
 
 ### Known limitations (marked `xfail`)
 
-| Question | Issue | Root cause |
-|----------|-------|------------|
-| Q1 (vehicle expenses) | Expected docs are index pages with no content | Need to replace with a substantive circular about vehicle expense deduction |
-| Q5 (charitable donations) | Synonym gap: query uses "dons", doc uses "libéralités" | MiniLM cannot bridge French synonym gap; needs query expansion |
-| Q10 (alimony) | Expected docs are index pages | Need substantive alimony content document |
+| Question | Issue | Fix |
+|----------|-------|-----|
+| Q1 (vehicle expenses) | No docs in dataset — former expected docs were aperçu documentaire index pages (removed) | Download Circ. 2023/C/99 or 2022/C/10 (vehicle expense deduction) |
+| Q5 (charitable donations) | Synonym gap: query uses "dons", doc uses "libéralités" | MiniLM cannot bridge French synonym gap; needs query expansion or a denser model |
+| Q10 (alimony) | No docs in dataset — former expected docs were aperçu documentaire index pages (removed) | Download a circular on rentes alimentaires (art. 104 CIR 92) |
 
 ### Adding new documents
 
@@ -121,7 +127,7 @@ Unit tests for each cleaning function using synthetic inputs that mirror real Fi
 
 | Metric | Threshold | Description |
 |--------|-----------|-------------|
-| Recall@10 | >= 7/10 | Questions with expected doc in top-10 |
-| MRR | >= 0.3 | Mean Reciprocal Rank across all questions |
-| Avg best-match score | >= 0.35 | Average cosine similarity of best expected-doc hit |
+| Recall@10 | >= 6/8 scorable | Questions with expected doc in top-10 (Q1, Q10 excluded — no docs yet) |
+| MRR | >= 0.3 | Mean Reciprocal Rank across scorable questions (Q1, Q10 excluded) |
+| Avg best-match score | >= 0.35 | Average cosine similarity of best expected-doc hit (scorable questions only) |
 | Top score per question | >= 0.3 | Each question's #1 result must exceed this |

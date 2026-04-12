@@ -40,6 +40,92 @@ Les GUIDs sont tronqués aux 8 premiers caractères (UUID complet disponible dan
 
 > Total FR : ~103 120 documents (NL : ~105 336 | DE : ~6 292 | EN : ~4 301)
 
+---
+
+## Classification : valeur légale et informationnelle
+
+Seuls les documents **à valeur légale ou informationnelle substantielle** doivent être ingérés et indexés. Les pages de navigation, d'index et les supports de formation sont à exclure.
+
+### Types à INGÉRER ✅
+
+| Type Fisconet+ | Exemples | Valeur |
+|----------------|---------|--------|
+| **Code et legislation** | CIR 92, AR/CIR 92, Code TVA, Codes régionaux | Texte législatif de référence — valeur légale maximale |
+| **Arrêtés royaux** | AR d'exécution du CIR 92, AR/CIR 92 annuels | Réglementation d'exécution légalement contraignante |
+| **Circulaires** | circ_2025/C/21, circ_2026/C/25, etc. | Interprétations administratives contraignantes |
+| **Jurisprudence belge** | Arrêts des cours d'appel, Cour de cassation | Précédents judiciaires applicables |
+| **Jurisprudence européenne** | Arrêts CJUE | Jurisprudence supranationale |
+| **Décisions anticipées** | Rulings SDA/DVB | Décisions individuelles faisant doctrine |
+| **Questions parlementaires** | QP à valeur interprétative | Interprétation officielle du ministre des Finances |
+| **Réglementation européenne** | Directives, Règlements UE | Droit primaire / dérivé européen |
+| **Traités et accords internationaux** | Conventions de double imposition | Droit international contraignant |
+| **Législation régionale et locale** | Code flamand de la Fiscalité (CfF), CBPF | Droit régional applicable |
+| **FAQ** (à valeur substantielle) | faq_revenus_immobiliers | Guidance pratique officielle si contenu développé |
+| **Documents préparatoires officiels** | Documents préparatoires déclaration IPP | Explications officielles du formulaire de déclaration |
+
+### Types à EXCLURE ❌
+
+| Type / Section Fisconet+ | Raison d'exclusion |
+|--------------------------|-------------------|
+| **Aperçu documentaire** ("Commentaire CIR 92") | Pages d'index uniquement : listent les circulaires/jurisprudences liées à chaque article sans contenu substantiel propre. Marquées `(N/A)` dans Fisconet+. |
+| **Cours professionnels** | Supports de formation interne SPF Finances, non contraignants |
+| **Compétences et formulaires** | Pages de navigation listant des formulaires administratifs |
+| **Guide utilisateur** | Documentation d'utilisation du portail MyMinfin |
+| **Lettres d'information** (Veille documentaire) | Bulletins de veille documentaire sans valeur normative propre |
+| **Mémento fiscal** | Résumé didactique non contraignant (utile comme référence rapide mais non citable) |
+| **Répertoire RJ** (index uniquement) | Pages listant des décisions sans contenu intégral |
+| **Working Papers / Briefing Notes** | Études et notes de service, pas de valeur légale directe |
+| **Inventaire des subventions fossiles** | Données statistiques, hors périmètre fiscal |
+| **Cahiers de loi** vides | Sections sans documents |
+| **Tables des matières** | Documents de navigation |
+
+### Sections de l'arborescence et leur valeur
+
+#### DROIT EXTERNE
+- ✅ **Code civil** (livres 1–9) — Droit civil de référence (successions, obligations, biens)
+- ✅ **Code des sociétés et des associations** — Droit des sociétés
+- ✅ **Code judiciaire, Code pénal, Constitution** — Droit public de référence
+- ⚠️ Les autres codes (Code de commerce, Code d'instruction criminelle) : pertinence indirecte
+
+#### BIBLIOTHÈQUE PUBLIQUE
+- ✅ **CIR 92** (toutes éditions et régions) — Document central, à ingérer en priorité
+- ✅ **AR/CIR 92** (toutes éditions et régions) — Arrêté d'exécution, à ingérer
+- ✅ **Code TVA, Arrêtés royaux TVA** — Si périmètre TVA inclus
+- ✅ **Codes des droits d'enregistrement / succession** par région
+- ✅ **Code flamand de la Fiscalité (CODEX), Code bruxellois de procédure fiscale**
+- ❌ **Guide utilisateur externe** — Documentation portail, pas de valeur légale
+- ⚠️ **Mémento Fiscal** — Référence pratique mais non contraignant
+
+#### FISCALITÉ — Impôts sur les revenus (section prioritaire)
+- ✅ **Législation et réglementation** : CIR 92 (toutes versions), AR/CIR 92, conventions de double imposition, réglementation européenne
+- ✅ **Circulaires** — Interprétations administratives contraignantes
+- ✅ **Fiches fiscales et avis aux débiteurs** (par exercice d'imposition) — Contenu règlementaire
+- ✅ **Bases forfaitaires de taxation** — Données normatives
+- ✅ **Indexation automatique** — Données légales de référence
+- ✅ **Calcul du précompte professionnel** — Données normatives
+- ✅ **Déclaration d'impôt** — Formulaire officiel et instructions
+- ❌ **"Commentaire CIR 92 (aperçu documentaire)"** — Index de navigation, pas de contenu substantiel
+- ❌ **Cours professionnels** — Formation interne, non contraignant
+- ❌ **FAQ - Impôts sur les revenus** (si vide ou navigation uniquement)
+- ⚠️ **Mémento fiscal** — Non contraignant
+
+#### FISCALITÉ — Autres sous-sections
+- ✅ **Taxes assimilées** : Législation et circulaires
+- ✅ **TVA** : Code TVA, circulaires, Commentaire TVA (si contenu développé)
+- ✅ **Droits d'enregistrement / Droits de succession** : Codes et circulaires
+- ✅ **Perception et recouvrement** : Code du recouvrement, législation
+- ✅ **Entités fédérées** : Codes et législation régionaux
+- ❌ **Cours professionnels** dans toutes sous-sections
+- ❌ **Compétences et formulaires** (pages de navigation)
+
+#### FINANCES
+- ✅ **Cadastre — Textes légaux** et circulaires
+- ✅ **Trésorerie — Législation** (embargo, blanchiment, etc.)
+- ✅ **Droits d'enregistrement / Droits de succession** : Législation et circulaires
+- ⚠️ **Finances publiques** (dette, EMTN, etc.) : hors périmètre IPP/TVA direct
+
+---
+
 ## Bibliothèque publique — Publications clés
 
 Publications curatées accessibles via `GET /library/documents?language=fr` :

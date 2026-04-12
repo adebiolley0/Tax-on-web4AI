@@ -18,6 +18,39 @@ uv run playwright install chromium
 
 Use `uv run playwright install` if you need all bundled browsers. Without this step, crawls fail with "Executable doesn't exist" under `~/.cache/ms-playwright/`.
 
+## Document filtering policy
+
+Only documents with **legal or substantive informational value** should be ingested, indexed, or used in tests. Consult `MYFIN_ARBORESCENCE.md` § "Classification" for the full table; the rules below are the essentials.
+
+### Ingest ✅
+- **Legislation text**: CIR 92, AR/CIR 92, regional codes (CfF, CBPF), Code TVA, etc.
+- **Royal decrees** (arrêtés royaux d'exécution)
+- **Circulaires** — binding administrative interpretations issued by the SPF Finances
+- **Jurisprudence** (Belgian courts, CJEU)
+- **Décisions anticipées** (advance rulings)
+- **Parliamentary questions** (questions parlementaires) — official ministerial interpretations
+- **European legislation** (directives, regulations) when relevant to Belgian tax
+- **International conventions** (double-taxation treaties)
+- **Official FAQs** — only if they contain substantive developed content (not navigation pages)
+- **Preparatory documents** for the tax declaration (documents préparatoires IPP)
+
+### Do NOT ingest ❌
+- **"Aperçu documentaire" / Commentaire CIR 92 index pages** — Fisconet+ pages that merely *list* the circulars, case-law and parliamentary questions linked to an article without embedding their text. The actual commentary text is absent (shown as `N/A`). These are navigation indexes, not legal content.
+- **Cours professionnels** — internal SPF Finances training materials, not legally binding
+- **Compétences et formulaires** — portal navigation pages listing downloadable forms
+- **Guide utilisateur** — MyMinfin portal usage documentation
+- **Veille documentaire / Lettres d'information** — documentary monitoring bulletins
+- **Mémento fiscal** — didactic summary, not legally binding (useful for human reference only)
+- **Working Papers / Briefing Notes** — internal service notes, no direct legal authority
+- **Table-of-contents documents** and pure reference lists (Répertoire RJ index pages)
+- **Help / navigation pages** of any kind
+
+### Recognition heuristics
+An "aperçu documentaire" page can be identified by:
+1. Its Fisconet+ section label contains "aperçu documentaire"
+2. Its `## Commentaire` section is empty or marked `(N/A)`
+3. The document body is composed almost entirely of `## Circulaires`, `## Jurisprudence`, `## Questions parlementaires` reference lists with no substantive prose
+
 ## Cursor Cloud specific instructions
 
 ### Belgian tax administrative codes (`codes-administratifs.md`)

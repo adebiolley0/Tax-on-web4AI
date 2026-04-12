@@ -3,15 +3,15 @@
     "id": "Q1",
     "question": "Comment déduire mes frais de voiture professionnels dans ma déclaration d'impôt?",
     "topic": "professional_vehicle_expenses",
-    "expected_docs": ["commentaire_art66_cir92", "commentaire_art65_cir92"],
-    "expected_keywords": ["frais de voiture", "véhicule", "article 66", "article 65", "déduction", "frais professionnels", "limitation"]
+    "expected_docs": [],
+    "_note": "NEEDS DOCS: download Circulaire 2023/C/99 (FAQ verdissement fiscal mobilité / fiscalité automobile) or Circulaire 2022/C/10 (limitation déduction frais voiture). The former commentaire_art65/66_cir92 docs were Fisconet+ aperçu documentaire index pages with no substantive content.",
+    "expected_keywords": ["frais de voiture", "véhicule", "article 65", "article 66", "déduction", "frais professionnels", "limitation"]
   },
   {
     "id": "Q2",
     "question": "Quel est le montant maximum déductible pour l'épargne-pension et quelle réduction d'impôt vais-je obtenir?",
     "topic": "pension_savings",
-    "expected_docs": ["commentaire_art145_8_cir92", "circ_2025_C21_epargne_pension"],
-    "secondary_docs": ["commentaire_art118_cir92", "commentaire_art120_cir92"],
+    "expected_docs": ["circ_2025_C21_epargne_pension"],
     "expected_keywords": ["épargne-pension", "réduction d'impôt", "montant maximum", "article 145"]
   },
   {
@@ -26,15 +26,14 @@
     "id": "Q4",
     "question": "Quelles sont les conditions de ressources pour qu'un enfant soit considéré comme personne à charge?",
     "topic": "dependent_children_conditions",
-    "expected_docs": ["circ_2026_C25_personnes_charge", "commentaire_art143_cir92"],
-    "secondary_docs": ["commentaire_art141_cir92", "commentaire_art132bis_cir92"],
+    "expected_docs": ["circ_2026_C25_personnes_charge"],
     "expected_keywords": ["personne à charge", "ressources nettes", "enfant", "montant maximum", "ménage"]
   },
   {
     "id": "Q5",
     "question": "Quelle réduction d'impôt puis-je obtenir pour mes dons à des associations agréées?",
     "topic": "charitable_donations",
-    "expected_docs": ["circ_2020_C111_liberalites", "commentaire_art145_33_cir92"],
+    "expected_docs": ["circ_2020_C111_liberalites"],
     "expected_keywords": ["libéralités", "réduction d'impôt", "dons", "45 %", "60 %", "article 145"]
   },
   {
@@ -50,7 +49,7 @@
     "question": "Quels sont les avantages fiscaux pour mon emprunt hypothécaire contracté en Région flamande?",
     "topic": "mortgage_tax_benefits",
     "expected_docs": ["circ_2025_C35_emprunts_hypo_flandre"],
-    "secondary_docs": ["commentaire_art145_42_cir92", "circ_2026_C2_fiscalite_immobiliere"],
+    "secondary_docs": ["circ_2026_C2_fiscalite_immobiliere"],
     "expected_keywords": ["emprunt hypothécaire", "bonus-logement", "habitation propre", "Région flamande", "avantages fiscaux"]
   },
   {
@@ -58,23 +57,22 @@
     "question": "Mon enfant est reconnu comme handicapé, quels avantages fiscaux supplémentaires ai-je droit?",
     "topic": "disability_tax_benefits",
     "expected_docs": ["circ_2019_C108_handicapes"],
-    "secondary_docs": ["circ_2026_C25_personnes_charge", "commentaire_art143_cir92"],
+    "secondary_docs": ["circ_2026_C25_personnes_charge"],
     "expected_keywords": ["handicapé", "quotité exemptée", "enfant", "majoration", "66 %", "supplément"]
   },
   {
     "id": "Q9",
     "question": "Comment fonctionne le crédit d'impôt pour enfants en coparentalité fiscale?",
     "topic": "coparenting_tax_credit",
-    "expected_docs": ["circ_2023_C69_coparentalite", "commentaire_art132bis_cir92"],
-    "secondary_docs": ["commentaire_art141_cir92"],
+    "expected_docs": ["circ_2023_C69_coparentalite"],
     "expected_keywords": ["coparentalité", "crédit d'impôt", "enfant", "supplément", "quotité exemptée", "moitié"]
   },
   {
     "id": "Q10",
     "question": "Les rentes alimentaires versées à mon ex-conjoint sont-elles déductibles fiscalement?",
     "topic": "alimony_deduction",
-    "expected_docs": ["commentaire_art143_cir92"],
-    "secondary_docs": ["commentaire_art132bis_cir92", "commentaire_art118_cir92", "commentaire_art120_cir92"],
+    "expected_docs": [],
+    "_note": "NEEDS DOCS: download a substantive circular or CIR 92 article text covering rentes alimentaires (art. 104, 118 CIR 92). The former commentaire_art143/132bis_cir92 docs were Fisconet+ aperçu documentaire index pages with no substantive content.",
     "expected_keywords": ["rente alimentaire", "déduction", "pension alimentaire", "ressources nettes"]
   }
 ]
