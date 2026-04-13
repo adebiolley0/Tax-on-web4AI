@@ -76,7 +76,7 @@ def validation_db():
     Returns (qdrant_client, documents_dict, all_embedded_chunks).
     """
     md_files = sorted(MD_DIR.glob("*.md"))
-    assert len(md_files) >= 14, f"Expected >= 14 md files, found {len(md_files)}"
+    assert len(md_files) >= 20, f"Expected >= 20 md files, found {len(md_files)}"
 
     # Load documents in parallel
     with ThreadPoolExecutor(max_workers=8) as pool:

@@ -89,9 +89,38 @@ CANDIDATES = [
     # --- Investment income / précompte mobilier ---
     ("b95b791f-1ed2-48e2-b843-8c8ab34c46a5", "circ_2020_C21_precompte_mobilier",
      "Circulaire 2020/C/21 détermination du revenu mobilier imposable – précompte mobilier"),
+    # --- Additional documents for semantic search (10 new) ---
+    # Professional expenses / frais professionnels
+    ("565c632d-7b74-46ce-8a98-04a369de40a2", "circ_2026_C46_frais_majores",
+     "Circulaire 2026/C/46 déduction de frais majorée pour les dépenses professionnelles"),
+    ("3aca75c0-c88b-4fad-ab7b-4153988e3a7f", "circ_2022_C86_frais_professionnels",
+     "Circulaire 2022/C/86 déductibilité de certains frais professionnels"),
+    # Self-employment / travail indépendant
+    ("490475d3-0bf0-4467-a168-1e2d2956ee1b", "circ_2020_C101_complement_entreprise",
+     "Circulaire 2020/C/101 exonération fiscale du complément d'entreprise"),
+    # Capital gains / gains en capital
+    ("e84a0d56-c9e7-451f-9fe7-a18505c06de0", "circ_2004_gains_capital",
+     "Circulaire n° AREC 6/2004 gains en capital immobilier"),
+    ("5601f462-648c-488a-91d8-88c6e5fcb708", "circ_2017_C22_gains_capital_reduction",
+     "Circulaire 2017/C/22 modifications réductions d'impôt pour gains en capital"),
+    # Non-salary benefits / avantages extralégaux
+    ("ca40e32f-4c06-47c8-8450-a89558321199", "circ_1984_avantages_extralegalux",
+     "Circulaire n° 1 du 30.01.1984 avantages extralégaux rémunération"),
+    # Training and continuing education / frais de formation
+    ("d19d1de9-a3e8-4748-a5c4-0118e457c75d", "circ_2000_frais_formation",
+     "Circulaire n° Ci.RH.241/494.326 frais de formation continue professionnelle"),
+    # Various income / revenus divers
+    ("31233ff2-390b-4dec-9739-664ca59f2ab4", "circ_1997_revenus_divers",
+     "Circulaire n° Ci.RH.241/467.430 du 08.08.1997 revenus divers prestations"),
+    # Student work / travail étudiant
+    ("7ee79498-2067-403d-96bb-22cc925c4a02", "circ_2025_C55_travail_etudiant",
+     "Circulaire 2025/C/55 modifications concernant le travail étudiant"),
+    # Rental income / revenu locatif
+    ("961b3b18-a132-47f0-a715-52416e5cc331", "circ_1997_revenu_locatif",
+     "Circulaire n° Ci.RH.241-460.408 du 26.11.1997 revenu locatif"),
 ]
 
-TARGET = 16
+TARGET = 26
 
 
 def _html_to_markdown(html: str) -> str:
