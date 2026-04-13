@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import json
 import logging
+import math
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -367,6 +368,51 @@ class TestSemanticSearch:
                     break
         avg = sum(scores) / len(scores) if scores else 0
         assert avg >= 0.35, f"Avg best-match score = {avg:.4f} (need >= 0.35)"
+
+    def test_ndcg_at_5(self, search_results):
+        """Normalized Discounted Cumulative Gain @ 5 should be >= 0.4.
+
+        nDCG@5 measures ranking quality of top-5 results using DCG.
+        Binary relevance: 1 if expected doc found, 0 otherwise.
+        """
+        ndcg_scores = []
+        for qid, r in search_results.items():
+            if not r["expected_docs"]:
+                continue
+            expected = set(r["expected_docs"])
+
+            # Binary relevance: 1 if in expected_docs, 0 otherwise
+            relevances = []
+            for hit in r["hits"][:5]:
+                doc_id = hit["payload"]["document_id"]
+                if doc_id in expected:
+                    relevances.append(1.0)
+                else:
+                    relevances.append(0.0)
+
+            # Pad to length 5
+            while len(relevances) < 5:
+                relevances.append(0.0)
+
+            # Calculate DCG@5
+            dcg = 0.0
+            for i, rel in enumerate(relevances[:5], start=1):
+                dcg += rel / math.log2(i + 1)
+
+            # IDCG@5 for binary relevance = number of relevant docs (up to 5)
+            num_relevant = min(len(expected), 5)
+            idcg = 0.0
+            for i in range(1, num_relevant + 1):
+                idcg += 1.0 / math.log2(i + 1)
+
+            # nDCG = DCG / IDCG
+            ndcg = (dcg / idcg) if idcg > 0 else 0.0
+            ndcg_scores.append(ndcg)
+
+        mean_ndcg = sum(ndcg_scores) / len(ndcg_scores) if ndcg_scores else 0
+        assert (
+            mean_ndcg >= 0.4
+        ), f"Mean nDCG@5 = {mean_ndcg:.4f} (need >= 0.4, over {len(ndcg_scores)} questions)"
 
 
 class TestSearchResultDetails:

@@ -5,6 +5,9 @@
     "expected_docs": [
       "circ_2022_C10_frais_voiture"
     ],
+    "secondary_docs": [
+      "circ_2023_C99_fiscalite_automobile"
+    ],
     "top_10_results": [
       "circ_2024_C20_impot_recent",
       "circ_2023_C99_fiscalite_automobile",
@@ -37,6 +40,9 @@
     "question": "Quel est le montant maximum déductible pour l'épargne-pension et quelle réductio",
     "expected_docs": [
       "circ_2018_C72_epargne_pension_duale"
+    ],
+    "secondary_docs": [
+      "circ_2025_C21_epargne_pension"
     ],
     "top_10_results": [
       "circ_2025_C33_emprunts_hypo_bruxelles",
@@ -71,6 +77,9 @@
     "expected_docs": [
       "faq_revenus_immobiliers"
     ],
+    "secondary_docs": [
+      "circ_2026_C2_fiscalite_immobiliere"
+    ],
     "top_10_results": [
       "faq_revenus_immobiliers",
       "faq_revenus_immobiliers",
@@ -104,6 +113,7 @@
     "expected_docs": [
       "circ_2026_C25_personnes_charge"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2019_C108_handicapes",
       "circ_2026_C25_personnes_charge",
@@ -137,6 +147,7 @@
     "expected_docs": [
       "circ_2020_C111_liberalites"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2026_C46_frais_majores",
       "circ_2024_C20_impot_recent",
@@ -169,6 +180,9 @@
     "question": "Puis-je déduire les frais de garde de mes enfants et quelles sont les conditions",
     "expected_docs": [
       "circ_2020_C60_garde_enfant"
+    ],
+    "secondary_docs": [
+      "circ_2019_C108_handicapes"
     ],
     "top_10_results": [
       "circ_2020_C60_garde_enfant",
@@ -203,6 +217,9 @@
     "expected_docs": [
       "circ_2025_C35_emprunts_hypo_flandre"
     ],
+    "secondary_docs": [
+      "circ_2026_C2_fiscalite_immobiliere"
+    ],
     "top_10_results": [
       "circ_2025_C35_emprunts_hypo_flandre",
       "circ_2025_C35_emprunts_hypo_flandre",
@@ -235,6 +252,9 @@
     "question": "Mon enfant est reconnu comme handicapé, quels avantages fiscaux supplémentaires ",
     "expected_docs": [
       "circ_2019_C108_handicapes"
+    ],
+    "secondary_docs": [
+      "circ_2026_C25_personnes_charge"
     ],
     "top_10_results": [
       "circ_2019_C108_handicapes",
@@ -269,6 +289,7 @@
     "expected_docs": [
       "circ_2023_C69_coparentalite"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2023_C69_coparentalite",
       "circ_2023_C69_coparentalite",
@@ -301,6 +322,9 @@
     "question": "Les rentes alimentaires versées à mon ex-conjoint sont-elles déductibles fiscale",
     "expected_docs": [
       "circ_2026_C12_rentes_alimentaires"
+    ],
+    "secondary_docs": [
+      "circ_2023_C43_rentes_alimentaires"
     ],
     "top_10_results": [
       "circ_2026_C12_rentes_alimentaires",
@@ -335,6 +359,9 @@
     "expected_docs": [
       "circ_2022_C86_frais_professionnels"
     ],
+    "secondary_docs": [
+      "circ_2026_C46_frais_majores"
+    ],
     "top_10_results": [
       "circ_2025_C55_travail_etudiant",
       "circ_2008_frais_medicaux",
@@ -367,6 +394,9 @@
     "question": "Comment sont imposés les gains en capital réalisés sur la vente d'un bien immobi",
     "expected_docs": [
       "circ_2004_gains_capital"
+    ],
+    "secondary_docs": [
+      "circ_2026_C2_fiscalite_immobiliere"
     ],
     "top_10_results": [
       "circ_2026_C2_fiscalite_immobiliere",
@@ -401,6 +431,7 @@
     "expected_docs": [
       "circ_1984_avantages_extralegalux"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_1989_cotisations_sociales",
       "circ_2008_frais_medicaux",
@@ -433,6 +464,9 @@
     "question": "Comment dois-je déclarer le revenu provenant de la location meublée de mon bien ",
     "expected_docs": [
       "circ_1997_revenu_locatif"
+    ],
+    "secondary_docs": [
+      "faq_revenus_immobiliers"
     ],
     "top_10_results": [
       "faq_revenus_immobiliers",
@@ -467,6 +501,7 @@
     "expected_docs": [
       "circ_1997_revenus_divers"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2018_C72_epargne_pension_duale",
       "circ_1997_revenu_locatif",
@@ -500,6 +535,7 @@
     "expected_docs": [
       "circ_2025_C55_travail_etudiant"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2020_C111_liberalites",
       "circ_2025_C55_travail_etudiant",
@@ -533,6 +569,7 @@
     "expected_docs": [
       "circ_2020_C101_complement_entreprise"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2020_C101_complement_entreprise",
       "circ_1989_cotisations_sociales",
@@ -566,6 +603,7 @@
     "expected_docs": [
       "circ_2011_travaux_renovation"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2011_travaux_renovation",
       "circ_2011_travaux_renovation",
@@ -598,6 +636,9 @@
     "question": "Quelles dépenses médicales et dentaires sont déductibles de mes impôts?",
     "expected_docs": [
       "circ_2008_frais_medicaux"
+    ],
+    "secondary_docs": [
+      "faq_revenus_immobiliers"
     ],
     "top_10_results": [
       "circ_2008_frais_medicaux",
@@ -632,6 +673,7 @@
     "expected_docs": [
       "circ_1989_cotisations_sociales"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2020_C101_complement_entreprise",
       "circ_2020_C111_liberalites",
@@ -665,6 +707,7 @@
     "expected_docs": [
       "circ_2026_C5_credit_croissance"
     ],
+    "secondary_docs": [],
     "top_10_results": [
       "circ_2023_C69_coparentalite",
       "circ_2026_C5_credit_croissance",
