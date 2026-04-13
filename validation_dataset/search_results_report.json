@@ -6,30 +6,30 @@
       "circ_2022_C10_frais_voiture"
     ],
     "top_10_results": [
+      "circ_2024_C20_impot_recent",
       "circ_2023_C99_fiscalite_automobile",
+      "circ_2024_C20_impot_recent",
       "circ_2023_C99_fiscalite_automobile",
       "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2024_C20_impot_recent",
+      "circ_2026_C5_credit_croissance",
+      "circ_2024_C20_impot_recent",
       "circ_2023_C99_fiscalite_automobile",
-      "circ_2020_C101_complement_entreprise",
-      "circ_2022_C10_frais_voiture",
-      "circ_1984_avantages_extralegalux",
-      "circ_2022_C86_frais_professionnels",
-      "circ_2026_C2_fiscalite_immobiliere",
-      "circ_2020_C111_liberalites"
+      "circ_2020_C101_complement_entreprise"
     ],
     "top_10_scores": [
+      0.601,
       0.596,
+      0.593,
       0.592,
       0.579,
+      0.571,
+      0.571,
+      0.565,
       0.564,
-      0.556,
-      0.554,
-      0.553,
-      0.552,
-      0.547,
-      0.547
+      0.556
     ],
-    "found_expected": 1,
+    "found_expected": 0,
     "found_secondary": 3
   },
   {
@@ -112,9 +112,9 @@
       "circ_2020_C60_garde_enfant",
       "circ_2023_C43_rentes_alimentaires",
       "circ_2019_C108_handicapes",
+      "circ_2024_C20_impot_recent",
       "circ_2026_C25_personnes_charge",
-      "circ_2026_C25_personnes_charge",
-      "circ_2025_C55_travail_etudiant"
+      "circ_2026_C25_personnes_charge"
     ],
     "top_10_scores": [
       0.622,
@@ -124,9 +124,9 @@
       0.562,
       0.544,
       0.537,
+      0.527,
       0.52,
-      0.516,
-      0.512
+      0.516
     ],
     "found_expected": 3,
     "found_secondary": 0
@@ -139,27 +139,27 @@
     ],
     "top_10_results": [
       "circ_2026_C46_frais_majores",
+      "circ_2024_C20_impot_recent",
+      "circ_2024_C20_impot_recent",
+      "circ_2024_C20_impot_recent",
       "circ_2019_C108_handicapes",
       "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2024_C20_impot_recent",
       "circ_2018_C72_epargne_pension_duale",
       "circ_2018_C72_epargne_pension_duale",
-      "circ_2025_C55_travail_etudiant",
-      "circ_2018_C72_epargne_pension_duale",
-      "circ_2026_C46_frais_majores",
-      "circ_2020_C60_garde_enfant",
-      "circ_2026_C2_fiscalite_immobiliere"
+      "circ_2024_C20_impot_recent"
     ],
     "top_10_scores": [
       0.623,
+      0.6,
+      0.587,
+      0.574,
       0.572,
       0.546,
+      0.545,
       0.543,
       0.541,
-      0.529,
-      0.519,
-      0.516,
-      0.515,
-      0.513
+      0.537
     ],
     "found_expected": 0,
     "found_secondary": 0
@@ -175,24 +175,24 @@
       "circ_2019_C108_handicapes",
       "circ_2019_C108_handicapes",
       "circ_2023_C43_rentes_alimentaires",
+      "circ_2008_frais_medicaux",
       "circ_2019_C108_handicapes",
       "circ_2019_C108_handicapes",
       "circ_2023_C69_coparentalite",
       "circ_2023_C69_coparentalite",
-      "circ_2023_C43_rentes_alimentaires",
-      "circ_2025_C33_emprunts_hypo_bruxelles"
+      "circ_2008_frais_medicaux"
     ],
     "top_10_scores": [
       0.662,
       0.595,
       0.591,
       0.59,
+      0.586,
       0.583,
       0.582,
       0.535,
       0.523,
-      0.511,
-      0.508
+      0.514
     ],
     "found_expected": 1,
     "found_secondary": 4
@@ -278,8 +278,8 @@
       "circ_2023_C43_rentes_alimentaires",
       "circ_2023_C69_coparentalite",
       "circ_2023_C43_rentes_alimentaires",
-      "circ_2023_C69_coparentalite",
-      "circ_2023_C43_rentes_alimentaires"
+      "circ_2026_C5_credit_croissance",
+      "circ_2023_C69_coparentalite"
     ],
     "top_10_scores": [
       0.808,
@@ -290,8 +290,8 @@
       0.706,
       0.704,
       0.683,
-      0.666,
-      0.649
+      0.671,
+      0.666
     ],
     "found_expected": 6,
     "found_secondary": 0
@@ -308,11 +308,11 @@
       "circ_2026_C12_rentes_alimentaires",
       "circ_2026_C12_rentes_alimentaires",
       "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2011_travaux_renovation",
+      "circ_2008_frais_medicaux",
       "circ_2023_C43_rentes_alimentaires",
-      "circ_2026_C12_rentes_alimentaires",
-      "circ_2020_C60_garde_enfant",
-      "circ_2023_C69_coparentalite",
-      "circ_2025_C33_emprunts_hypo_bruxelles"
+      "circ_2011_travaux_renovation",
+      "circ_2026_C12_rentes_alimentaires"
     ],
     "top_10_scores": [
       0.631,
@@ -320,11 +320,11 @@
       0.596,
       0.59,
       0.564,
+      0.557,
+      0.555,
       0.553,
-      0.549,
-      0.54,
-      0.539,
-      0.536
+      0.55,
+      0.549
     ],
     "found_expected": 5,
     "found_secondary": 1
@@ -337,27 +337,27 @@
     ],
     "top_10_results": [
       "circ_2025_C55_travail_etudiant",
+      "circ_2008_frais_medicaux",
       "circ_2025_C55_travail_etudiant",
+      "circ_2008_frais_medicaux",
       "circ_2023_C99_fiscalite_automobile",
       "circ_2023_C99_fiscalite_automobile",
       "circ_2025_C55_travail_etudiant",
       "circ_2026_C46_frais_majores",
       "circ_2026_C25_personnes_charge",
-      "circ_2025_C55_travail_etudiant",
-      "circ_2020_C111_liberalites",
-      "circ_2025_C55_travail_etudiant"
+      "circ_2008_frais_medicaux"
     ],
     "top_10_scores": [
       0.579,
+      0.57,
       0.551,
+      0.548,
       0.539,
       0.528,
       0.503,
       0.496,
       0.471,
-      0.467,
-      0.466,
-      0.463
+      0.468
     ],
     "found_expected": 0,
     "found_secondary": 1
@@ -376,9 +376,9 @@
       "faq_revenus_immobiliers",
       "circ_1997_revenu_locatif",
       "faq_revenus_immobiliers",
-      "circ_1997_revenu_locatif",
-      "circ_1997_revenu_locatif",
-      "faq_revenus_immobiliers"
+      "circ_2011_travaux_renovation",
+      "circ_2024_C20_impot_recent",
+      "circ_1997_revenu_locatif"
     ],
     "top_10_scores": [
       0.614,
@@ -388,9 +388,9 @@
       0.584,
       0.581,
       0.58,
-      0.565,
-      0.565,
-      0.559
+      0.57,
+      0.567,
+      0.565
     ],
     "found_expected": 0,
     "found_secondary": 3
@@ -402,28 +402,28 @@
       "circ_1984_avantages_extralegalux"
     ],
     "top_10_results": [
+      "circ_1989_cotisations_sociales",
+      "circ_2008_frais_medicaux",
       "circ_2020_C101_complement_entreprise",
       "circ_2025_C55_travail_etudiant",
       "circ_2025_C55_travail_etudiant",
       "circ_1997_revenu_locatif",
       "circ_1997_revenu_locatif",
+      "circ_2024_C20_impot_recent",
       "circ_2020_C101_complement_entreprise",
-      "faq_revenus_immobiliers",
-      "circ_2026_C25_personnes_charge",
-      "circ_2023_C99_fiscalite_automobile",
-      "circ_2025_C55_travail_etudiant"
+      "faq_revenus_immobiliers"
     ],
     "top_10_scores": [
+      0.574,
+      0.573,
       0.568,
       0.562,
       0.552,
       0.547,
       0.546,
+      0.537,
       0.523,
-      0.514,
-      0.508,
-      0.499,
-      0.494
+      0.514
     ],
     "found_expected": 0,
     "found_secondary": 0
@@ -471,25 +471,25 @@
       "circ_2018_C72_epargne_pension_duale",
       "circ_1997_revenu_locatif",
       "circ_2026_C12_rentes_alimentaires",
+      "circ_2026_C5_credit_croissance",
       "circ_2025_C55_travail_etudiant",
+      "circ_2024_C20_impot_recent",
+      "circ_2026_C5_credit_croissance",
       "circ_2020_C111_liberalites",
       "circ_2018_C72_epargne_pension_duale",
-      "circ_2026_C25_personnes_charge",
-      "circ_2026_C2_fiscalite_immobiliere",
-      "circ_2026_C12_rentes_alimentaires",
-      "circ_2026_C2_fiscalite_immobiliere"
+      "circ_2026_C25_personnes_charge"
     ],
     "top_10_scores": [
       0.59,
       0.588,
       0.576,
       0.573,
+      0.573,
+      0.566,
+      0.565,
       0.561,
       0.557,
-      0.555,
-      0.553,
-      0.552,
-      0.549
+      0.555
     ],
     "found_expected": 0,
     "found_secondary": 0
@@ -503,28 +503,28 @@
     "top_10_results": [
       "circ_2020_C111_liberalites",
       "circ_2025_C55_travail_etudiant",
+      "circ_2024_C20_impot_recent",
       "circ_2020_C101_complement_entreprise",
       "circ_2025_C55_travail_etudiant",
       "circ_2023_C69_coparentalite",
       "circ_2023_C69_coparentalite",
       "circ_2026_C25_personnes_charge",
       "circ_2026_C2_fiscalite_immobiliere",
-      "circ_2023_C69_coparentalite",
-      "circ_2025_C55_travail_etudiant"
+      "circ_2023_C69_coparentalite"
     ],
     "top_10_scores": [
       0.572,
       0.549,
+      0.543,
       0.535,
       0.523,
       0.516,
       0.508,
       0.505,
       0.5,
-      0.498,
-      0.487
+      0.498
     ],
-    "found_expected": 3,
+    "found_expected": 2,
     "found_secondary": 0
   },
   {
@@ -535,29 +535,161 @@
     ],
     "top_10_results": [
       "circ_2020_C101_complement_entreprise",
+      "circ_1989_cotisations_sociales",
       "circ_1997_revenu_locatif",
       "circ_2026_C46_frais_majores",
       "circ_2020_C101_complement_entreprise",
+      "circ_2024_C20_impot_recent",
       "circ_2025_C55_travail_etudiant",
       "circ_1997_revenu_locatif",
       "circ_2020_C101_complement_entreprise",
-      "circ_2026_C25_personnes_charge",
-      "circ_2025_C55_travail_etudiant",
-      "circ_2020_C101_complement_entreprise"
+      "circ_2008_frais_medicaux"
     ],
     "top_10_scores": [
       0.468,
+      0.459,
       0.453,
       0.451,
       0.451,
+      0.45,
       0.449,
       0.445,
       0.443,
-      0.425,
-      0.42,
-      0.416
+      0.438
     ],
-    "found_expected": 4,
+    "found_expected": 3,
+    "found_secondary": 0
+  },
+  {
+    "id": "Q18",
+    "question": "Quelles réductions d'impôt puis-je obtenir pour les travaux de rénovation thermi",
+    "expected_docs": [
+      "circ_2011_travaux_renovation"
+    ],
+    "top_10_results": [
+      "circ_2011_travaux_renovation",
+      "circ_2011_travaux_renovation",
+      "circ_2011_travaux_renovation",
+      "circ_2011_travaux_renovation",
+      "circ_2011_travaux_renovation",
+      "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2011_travaux_renovation",
+      "circ_2011_travaux_renovation",
+      "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2011_travaux_renovation"
+    ],
+    "top_10_scores": [
+      0.72,
+      0.642,
+      0.615,
+      0.614,
+      0.608,
+      0.586,
+      0.586,
+      0.581,
+      0.581,
+      0.58
+    ],
+    "found_expected": 8,
+    "found_secondary": 0
+  },
+  {
+    "id": "Q19",
+    "question": "Quelles dépenses médicales et dentaires sont déductibles de mes impôts?",
+    "expected_docs": [
+      "circ_2008_frais_medicaux"
+    ],
+    "top_10_results": [
+      "circ_2008_frais_medicaux",
+      "circ_2008_frais_medicaux",
+      "circ_2008_frais_medicaux",
+      "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2008_frais_medicaux",
+      "circ_2026_C2_fiscalite_immobiliere",
+      "circ_2008_frais_medicaux",
+      "circ_2020_C60_garde_enfant",
+      "circ_2024_C20_impot_recent",
+      "circ_2018_C72_epargne_pension_duale"
+    ],
+    "top_10_scores": [
+      0.636,
+      0.625,
+      0.586,
+      0.585,
+      0.581,
+      0.574,
+      0.573,
+      0.571,
+      0.571,
+      0.554
+    ],
+    "found_expected": 5,
+    "found_secondary": 0
+  },
+  {
+    "id": "Q20",
+    "question": "Quelles cotisations sociales et charges patronales puis-je déduire?",
+    "expected_docs": [
+      "circ_1989_cotisations_sociales"
+    ],
+    "top_10_results": [
+      "circ_2020_C101_complement_entreprise",
+      "circ_2020_C111_liberalites",
+      "circ_2026_C5_credit_croissance",
+      "circ_2008_frais_medicaux",
+      "circ_1997_revenu_locatif",
+      "circ_2011_travaux_renovation",
+      "circ_2023_C99_fiscalite_automobile",
+      "circ_2025_C55_travail_etudiant",
+      "circ_2008_frais_medicaux",
+      "circ_2019_C108_handicapes"
+    ],
+    "top_10_scores": [
+      0.6,
+      0.595,
+      0.581,
+      0.579,
+      0.571,
+      0.564,
+      0.561,
+      0.56,
+      0.548,
+      0.547
+    ],
+    "found_expected": 0,
+    "found_secondary": 0
+  },
+  {
+    "id": "Q21",
+    "question": "Je suis en croissance d'activité indépendante, existe-t-il un crédit d'impôt pou",
+    "expected_docs": [
+      "circ_2026_C5_credit_croissance"
+    ],
+    "top_10_results": [
+      "circ_2023_C69_coparentalite",
+      "circ_2026_C5_credit_croissance",
+      "circ_2023_C69_coparentalite",
+      "circ_2020_C111_liberalites",
+      "circ_2026_C5_credit_croissance",
+      "circ_2019_C108_handicapes",
+      "circ_2024_C20_impot_recent",
+      "circ_2018_C72_epargne_pension_duale",
+      "circ_2026_C5_credit_croissance",
+      "circ_2025_C33_emprunts_hypo_bruxelles"
+    ],
+    "top_10_scores": [
+      0.581,
+      0.562,
+      0.546,
+      0.543,
+      0.529,
+      0.52,
+      0.519,
+      0.498,
+      0.498,
+      0.497
+    ],
+    "found_expected": 3,
     "found_secondary": 0
   }
 ]

@@ -470,5 +470,123 @@
       "voiture de firme",
       "prêt sans intérêt"
     ]
+  },
+  {
+    "guid": "c828e396-9590-449b-aa2a-99c7f67360f9",
+    "short_name": "circ_2011_travaux_renovation",
+    "description": "Circulaire réductions impôt pour travaux de rénovation isolation thermique",
+    "title": "Circulaire n° Ci.RH.331/605.643 (AGFisc N° 11/2011) dd. 22.02.2011",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2011_travaux_renovation.md",
+    "md_chars": 44291,
+    "document_type": "Circulaires",
+    "document_date": "2011-02-22",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des non-résidents"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "impôt des non-résidents",
+      "montant de la taxe"
+    ]
+  },
+  {
+    "guid": "8256e11a-af82-4e3a-900e-628ea8525bbc",
+    "short_name": "circ_2008_frais_medicaux",
+    "description": "Circulaire réduction impôt dépenses frais médicaux dentistes",
+    "title": "Circulaire n° Ci.RH.243/589.859 (AFER 19/2008) du 29.05.2008",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2008_frais_medicaux.md",
+    "md_chars": 34512,
+    "document_type": "Circulaires",
+    "document_date": "2008-05-29",
+    "taxonomies": [
+      "Circulaires - Impôt des sociétés",
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "avantage de toute nature",
+      "participation à une manifestation scientifique",
+      "frais professionnels"
+    ]
+  },
+  {
+    "guid": "cfc036a7-b646-4f1f-887a-b0074826d6c2",
+    "short_name": "circ_1989_cotisations_sociales",
+    "description": "Circulaire cotisations sociales patronales charges employeur",
+    "title": "Circulaire n° Ci.RH.241/382.678 du 13.07.1989",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_1989_cotisations_sociales.md",
+    "md_chars": 1819,
+    "document_type": "Circulaires",
+    "document_date": "1989-07-13",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "dépense professionnelle",
+      "frais personnel",
+      "assurance de groupe",
+      "cotisation patronale assurance complémentaire",
+      "pension contractuelle d'anciens salariés",
+      "déduction totale sur revenus professionnels",
+      "cotisation pension extra-légale",
+      "prime d'une assurance-vie"
+    ]
+  },
+  {
+    "guid": "912bb212-2371-4ef1-a9ae-e7f402e6867b",
+    "short_name": "circ_2024_C20_impot_recent",
+    "description": "Circulaire 2024/C/20 commentant loi portant dispositions fiscales",
+    "title": "Circulaire 2024/C/20 commentant la loi du 28 décembre 2023 portant des dispositions fiscales diverses",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2024_C20_impot_recent.md",
+    "md_chars": 86258,
+    "document_type": "Circulaires",
+    "document_date": "2024-03-01",
+    "taxonomies": [
+      "Circulaires"
+    ],
+    "keywords": [
+      "taxe compensatoire",
+      "AISBL",
+      "fondation privée",
+      "établissement de la taxe",
+      "réduction",
+      "exonération",
+      "personnalité juridique",
+      "caisse de pension pour indépendants",
+      "base d'imposition",
+      "actif imposable",
+      "redevable",
+      "immeuble situé à l'étranger",
+      "succession payée à l'étranger",
+      "déclaration",
+      "dispense",
+      "ASBL",
+      "dématérialisation",
+      "plateforme électronique",
+      "taux",
+      "moyen de preuve",
+      "mesure anti-abus"
+    ]
+  },
+  {
+    "guid": "53cc4f44-548c-49c4-9fda-142c9b0d4ef8",
+    "short_name": "circ_2026_C5_credit_croissance",
+    "description": "Circulaire 2026/C/5 crédit d'impôt pour l'accroissement des revenus",
+    "title": "Circulaire 2026/C/5 relative au crédit d'impôt pour l’accroissement des fonds propres",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2026_C5_credit_croissance.md",
+    "md_chars": 7775,
+    "document_type": "Circulaires",
+    "document_date": "2026-01-06",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des non-résidents"
+    ],
+    "keywords": [
+      "crédit d'impôt",
+      "impôt des personnes physiques",
+      "cotisation sociale des indépendants",
+      "entreprise individuelle",
+      "impôt des non-résidents"
+    ]
   }
 ]
