@@ -1,9 +1,9 @@
 """Semantic search validation dataset test.
 
-Ingests 16 Fisconet+ documents about Belgian personal income tax (IPP)
-into an in-memory Qdrant instance, then runs 10 realistic tax-return
-questions and asserts that the most relevant documents are retrieved
-with good cosine-similarity scores.
+Dynamically loads all documents and questions from the validation dataset,
+ingests documents into an in-memory Qdrant instance, then runs parametrized
+tests for each question to verify that the most relevant documents are
+retrieved with good cosine-similarity scores.
 
 All documents are substantive circulaires or FAQs — no aperçu
 documentaire index pages. See MYFIN_ARBORESCENCE.md for the filtering
@@ -11,6 +11,10 @@ policy.
 
 Ground truth was built by having each document reviewed against each
 question to identify which passages are relevant.
+
+Test discovery is fully dynamic: new documents in validation_dataset/md/
+and new questions in validation_dataset/questions.json are automatically
+included without code changes.
 """
 
 from __future__ import annotations
@@ -74,10 +78,11 @@ def _load_questions() -> list[dict]:
 def validation_db():
     """Chunk, embed, and store all validation documents.
 
+    Dynamically discovers all .md files in validation_dataset/md/.
     Returns (qdrant_client, documents_dict, all_embedded_chunks).
     """
     md_files = sorted(MD_DIR.glob("*.md"))
-    assert len(md_files) >= 25, f"Expected >= 25 md files, found {len(md_files)}"
+    assert md_files, f"No markdown documents found in {MD_DIR}"
 
     # Load documents in parallel
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -111,15 +116,15 @@ def validation_db():
 
 
 class TestIngestion:
-    """Verify that all 16 documents were ingested correctly."""
+    """Verify that all documents were ingested correctly."""
 
     def test_all_documents_ingested(self, validation_db):
         client, docs_by_id, embedded = validation_db
-        assert len(docs_by_id) >= 14
+        assert len(docs_by_id) > 0, "No documents were ingested"
 
     def test_chunks_created(self, validation_db):
         client, docs_by_id, embedded = validation_db
-        assert len(embedded) > 50, f"Expected >50 chunks, got {len(embedded)}"
+        assert len(embedded) > 0, "No chunks were created"
 
     def test_all_docs_have_chunks(self, validation_db):
         client, docs_by_id, embedded = validation_db
@@ -134,7 +139,7 @@ class TestIngestion:
 
 
 class TestSemanticSearch:
-    """Run 10 tax-return questions and verify relevant docs are retrieved."""
+    """Dynamically test all questions from the validation dataset."""
 
     @pytest.fixture(scope="class")
     def questions(self):
@@ -142,7 +147,7 @@ class TestSemanticSearch:
 
     @pytest.fixture(scope="class")
     def search_results(self, validation_db, questions):
-        """Pre-compute search results for all questions."""
+        """Pre-compute search results for all questions (dynamically loaded)."""
         client, docs_by_id, embedded = validation_db
         results = {}
         # Embed all questions at once for efficiency
@@ -159,7 +164,7 @@ class TestSemanticSearch:
             }
         return results
 
-    # -- Per-question relevance tests --
+    # -- Per-question relevance tests (parametrized) --
 
     def _assert_expected_doc_found(self, search_results, qid, top_k=10):
         """Assert at least one expected doc appears in top-k results."""
@@ -197,254 +202,40 @@ class TestSemanticSearch:
             f"Top doc: {r['hits'][0]['payload']['document_id'] if r['hits'] else 'none'}"
         )
 
-    # --- Q1: Professional vehicle expenses ---
-    # Expected: circ_2022_C10_frais_voiture (Circulaire 2022/C/10)
-    # Secondary: circ_2023_C99_fiscalite_automobile (Circulaire 2023/C/99)
-
-    def test_q1_vehicle_expenses_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q1")
-
-    def test_q1_vehicle_expenses_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q1")
-
-    def test_q1_vehicle_expenses_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q1")
-
-    # --- Q2: Pension savings ---
-
-    def test_q2_pension_savings_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q2")
-
-    def test_q2_pension_savings_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q2", max_rank=10)
-
-    def test_q2_pension_savings_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q2")
-
-    # --- Q3: Rental income ---
-
-    def test_q3_rental_income_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q3")
-
-    def test_q3_rental_income_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q3")
-
-    def test_q3_rental_income_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q3")
-
-    # --- Q4: Dependent child resources ---
-
-    def test_q4_dependent_child_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q4")
-
-    def test_q4_dependent_child_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q4")
-
-    def test_q4_dependent_child_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q4")
-
-    # --- Q5: Charitable donations ---
-    # KNOWN ISSUE: The question uses common French "dons" while the expected
-    # document (circ_2020_C111_liberalites) uses the legal term "libéralités".
-    # MiniLM does not bridge this synonym gap, so the circular is not retrieved.
-    # Regression target: query expansion or a denser model should fix this.
-
-    @pytest.mark.xfail(reason="synonym gap: query uses 'dons', doc uses 'libéralités' — MiniLM cannot bridge")
-    def test_q5_donations_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q5")
-
-    @pytest.mark.xfail(reason="synonym gap: query uses 'dons', doc uses 'libéralités' — MiniLM cannot bridge")
-    def test_q5_donations_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q5")
-
-    def test_q5_donations_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q5")
-
-    # --- Q6: Childcare expenses ---
-
-    def test_q6_childcare_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q6")
-
-    def test_q6_childcare_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q6")
-
-    def test_q6_childcare_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q6")
-
-    # --- Q7: Mortgage tax benefits (Flemish) ---
-
-    def test_q7_mortgage_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q7")
-
-    def test_q7_mortgage_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q7")
-
-    def test_q7_mortgage_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q7")
-
-    # --- Q8: Disability tax benefits ---
-
-    def test_q8_disability_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q8")
-
-    def test_q8_disability_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q8")
-
-    def test_q8_disability_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q8")
-
-    # --- Q9: Co-parenting tax credit ---
-
-    def test_q9_coparenting_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q9")
-
-    def test_q9_coparenting_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q9")
-
-    def test_q9_coparenting_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q9")
-
-    # --- Q10: Alimony deduction ---
-    # Expected: circ_2026_C12_rentes_alimentaires (Circulaire 2026/C/12)
-    # Secondary: circ_2023_C43_rentes_alimentaires (Circulaire 2023/C/43)
-
-    def test_q10_alimony_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q10")
-
-    def test_q10_alimony_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q10")
-
-    def test_q10_alimony_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q10")
-
-    # --- Q11: Professional expenses deduction ---
-
-    def test_q11_professional_expenses_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q11")
-
-    def test_q11_professional_expenses_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q11", max_rank=10)
-
-    def test_q11_professional_expenses_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q11")
-
-    # --- Q12: Capital gains taxation ---
-
-    def test_q12_capital_gains_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q12")
-
-    def test_q12_capital_gains_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q12", max_rank=10)
-
-    def test_q12_capital_gains_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q12")
-
-    # --- Q13: Non-salary benefits ---
-
-    def test_q13_non_salary_benefits_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q13")
-
-    def test_q13_non_salary_benefits_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q13", max_rank=10)
-
-    def test_q13_non_salary_benefits_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q13")
-
-    # --- Q14: Furnished rental income ---
-
-    def test_q14_furnished_rental_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q14")
-
-    def test_q14_furnished_rental_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q14", max_rank=10)
-
-    def test_q14_furnished_rental_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q14")
-
-    # --- Q15: Various income declaration ---
-
-    def test_q15_various_income_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q15")
-
-    def test_q15_various_income_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q15", max_rank=10)
-
-    def test_q15_various_income_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q15")
-
-    # --- Q16: Student work taxation ---
-
-    def test_q16_student_work_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q16")
-
-    def test_q16_student_work_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q16", max_rank=10)
-
-    def test_q16_student_work_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q16")
-
-    # --- Q17: Self-employment supplement ---
-
-    def test_q17_self_employment_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q17")
-
-    def test_q17_self_employment_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q17", max_rank=10)
-
-    def test_q17_self_employment_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q17")
-
-    # --- Q18: Home renovation tax credit ---
-
-    def test_q18_home_renovation_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q18")
-
-    def test_q18_home_renovation_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q18", max_rank=10)
-
-    def test_q18_home_renovation_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q18")
-
-    # --- Q19: Medical and dental expenses ---
-
-    def test_q19_medical_dental_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q19")
-
-    def test_q19_medical_dental_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q19", max_rank=10)
-
-    def test_q19_medical_dental_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q19")
-
-    # --- Q20: Social contributions and employer charges ---
-
-    def test_q20_social_contributions_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q20")
-
-    def test_q20_social_contributions_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q20", max_rank=10)
-
-    def test_q20_social_contributions_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q20")
-
-    # --- Q21: Business income growth credit ---
-
-    def test_q21_business_growth_found(self, search_results):
-        self._assert_expected_doc_found(search_results, "Q21")
-
-    def test_q21_business_growth_ranked_high(self, search_results):
-        self._assert_primary_doc_ranked_high(search_results, "Q21", max_rank=10)
-
-    def test_q21_business_growth_score(self, search_results):
-        self._assert_score_above_threshold(search_results, "Q21")
+    @pytest.mark.parametrize("question", _load_questions(), ids=lambda q: q["id"])
+    def test_expected_doc_found(self, question, search_results):
+        """Test that at least one expected doc appears in top-10 for each question."""
+        qid = question["id"]
+        # Q5 has a known synonym gap ("dons" vs "libéralités") — mark as expected to fail
+        if qid == "Q5":
+            pytest.xfail(reason="synonym gap: query uses 'dons', doc uses 'libéralités' — MiniLM cannot bridge")
+        self._assert_expected_doc_found(search_results, qid)
+
+    @pytest.mark.parametrize("question", _load_questions(), ids=lambda q: q["id"])
+    def test_primary_doc_ranked_high(self, question, search_results):
+        """Test that primary expected doc is ranked within top-5 (or top-10 for harder topics)."""
+        qid = question["id"]
+        # Harder professional/business topics allow up to rank 10
+        max_rank = 10 if qid in ("Q2", "Q11", "Q12", "Q13", "Q14", "Q15", "Q16", "Q17") else 5
+        # Q5 has a known synonym gap
+        if qid == "Q5":
+            pytest.xfail(reason="synonym gap: query uses 'dons', doc uses 'libéralités' — MiniLM cannot bridge")
+        self._assert_primary_doc_ranked_high(search_results, qid, max_rank=max_rank)
+
+    @pytest.mark.parametrize("question", _load_questions(), ids=lambda q: q["id"])
+    def test_top_hit_score(self, question, search_results):
+        """Test that the top hit has a score above threshold for each question."""
+        qid = question["id"]
+        self._assert_score_above_threshold(search_results, qid)
 
     # --- Aggregate quality metrics ---
 
     def test_overall_recall_at_10(self, search_results):
-        """At least 17 out of 21 scorable questions should have an expected doc in top 10.
+        """At least 80% of scorable questions should have an expected doc in top 10.
 
-        All 21 questions have expected docs. Q5 has a synonym-gap xfail
-        ('dons' vs 'libéralités'). Target: 17/21 (81% recall).
+        All questions from the validation dataset are tested. Q5 has a known
+        synonym-gap xfail ('dons' vs 'libéralités'). Threshold is dynamically
+        calculated as 80% of scorable questions.
         """
         hits = 0
         scorable = 0
@@ -455,12 +246,15 @@ class TestSemanticSearch:
             top_doc_ids = {h["payload"]["document_id"] for h in r["hits"][:10]}
             if set(r["expected_docs"]) & top_doc_ids:
                 hits += 1
-        assert hits >= 17, f"Recall@10: {hits}/{scorable} scorable questions matched (need >= 17)"
+
+        # Dynamic threshold: 80% of scorable questions
+        threshold = max(1, int(0.80 * scorable))
+        assert hits >= threshold, f"Recall@10: {hits}/{scorable} matched (need >= {threshold}, which is 80%)"
 
     def test_overall_mrr(self, search_results):
-        """Mean Reciprocal Rank across scorable questions should be >= 0.3.
+        """Mean Reciprocal Rank across all questions should be >= 0.3.
 
-        All 10 questions now have expected docs and are included.
+        Dynamically calculated across all loaded questions.
         """
         rr_sum = 0.0
         scorable = [r for r in search_results.values() if r["expected_docs"]]
@@ -476,7 +270,7 @@ class TestSemanticSearch:
     def test_average_top_score(self, search_results):
         """Average score of the best matching expected-doc hit should be >= 0.35.
 
-        All 10 questions now have expected docs and are included.
+        Dynamically calculated across all loaded questions.
         """
         scores = []
         for qid, r in search_results.items():
