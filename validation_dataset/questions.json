@@ -75,5 +75,57 @@
     "expected_docs": ["circ_2026_C12_rentes_alimentaires"],
     "secondary_docs": ["circ_2023_C43_rentes_alimentaires"],
     "expected_keywords": ["rente alimentaire", "déduction", "pension alimentaire", "ressources nettes"]
+  },
+  {
+    "id": "Q11",
+    "question": "Quels frais professionnels puis-je déduire de mon revenu professionnel?",
+    "topic": "professional_expenses_deduction",
+    "expected_docs": ["circ_2022_C86_frais_professionnels"],
+    "secondary_docs": ["circ_2026_C46_frais_majores"],
+    "expected_keywords": ["frais professionnels", "déduction", "dépenses", "article 65"]
+  },
+  {
+    "id": "Q12",
+    "question": "Comment sont imposés les gains en capital réalisés sur la vente d'un bien immobilier?",
+    "topic": "capital_gains_taxation",
+    "expected_docs": ["circ_2004_gains_capital"],
+    "secondary_docs": ["circ_2026_C2_fiscalite_immobiliere"],
+    "expected_keywords": ["gain en capital", "bien immobilier", "imposition", "vente", "plus-value"]
+  },
+  {
+    "id": "Q13",
+    "question": "Quels avantages non-salariaux (voiture de fonction, téléphone, etc.) suis-je obligé de déclarer?",
+    "topic": "non_salary_benefits",
+    "expected_docs": ["circ_1984_avantages_extralegalux"],
+    "expected_keywords": ["avantages extralégaux", "rémunération", "déclaration", "avantage imposable"]
+  },
+  {
+    "id": "Q14",
+    "question": "Comment dois-je déclarer le revenu provenant de la location meublée de mon bien immobilier?",
+    "topic": "furnished_rental_income",
+    "expected_docs": ["circ_1997_revenu_locatif"],
+    "secondary_docs": ["faq_revenus_immobiliers"],
+    "expected_keywords": ["revenu locatif", "location meublée", "revenus", "immeuble"]
+  },
+  {
+    "id": "Q15",
+    "question": "Suis-je obligé de déclarer tous les revenus divers que j'ai perçus pendant l'année?",
+    "topic": "various_income_declaration",
+    "expected_docs": ["circ_1997_revenus_divers"],
+    "expected_keywords": ["revenus divers", "déclaration", "prestations accessoires"]
+  },
+  {
+    "id": "Q16",
+    "question": "Je suis étudiant et je travaille l'été, quelle est la fiscalité de mon revenu d'étudiant?",
+    "topic": "student_work_taxation",
+    "expected_docs": ["circ_2025_C55_travail_etudiant"],
+    "expected_keywords": ["travail étudiant", "revenus", "exonération", "étudiant"]
+  },
+  {
+    "id": "Q17",
+    "question": "Je suis travailleur indépendant, comment fonctionne le complément d'entreprise?",
+    "topic": "self_employment_supplement",
+    "expected_docs": ["circ_2020_C101_complement_entreprise"],
+    "expected_keywords": ["complément d'entreprise", "travail indépendant", "exonération", "revenu"]
   }
 ]

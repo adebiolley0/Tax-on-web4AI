@@ -305,5 +305,170 @@
       "revenu mobilier",
       "base d'imposition"
     ]
+  },
+  {
+    "guid": "565c632d-7b74-46ce-8a98-04a369de40a2",
+    "short_name": "circ_2026_C46_frais_majores",
+    "description": "Circulaire 2026/C/46 déduction de frais majorée pour les dépenses professionnelles",
+    "title": "Circulaire 2026/C/46 relative à la déduction de frais majorée pour les dépenses de facturation électronique",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2026_C46_frais_majores.md",
+    "md_chars": 13828,
+    "document_type": "Circulaires",
+    "document_date": "2026-03-19",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des sociétés"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "impôt des sociétés",
+      "frais professionnels",
+      "facturation électronique",
+      "déduction majorée de frais"
+    ]
+  },
+  {
+    "guid": "3aca75c0-c88b-4fad-ab7b-4153988e3a7f",
+    "short_name": "circ_2022_C86_frais_professionnels",
+    "description": "Circulaire 2022/C/86 déductibilité de certains frais professionnels",
+    "title": "Circulaire 2022/C/86 relative à la déductibilité de certains frais professionnels",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2022_C86_frais_professionnels.md",
+    "md_chars": 13014,
+    "document_type": "Circulaires",
+    "document_date": "2022-09-16",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "impôt sur les revenus",
+      "frais professionnels",
+      "frais de vêtements",
+      "frais de restaurant",
+      "pêche",
+      "frais professionnels non-déductibles",
+      "frais de réception",
+      "cadeau d'affaires",
+      "yacht",
+      "bateau"
+    ]
+  },
+  {
+    "guid": "490475d3-0bf0-4467-a168-1e2d2956ee1b",
+    "short_name": "circ_2020_C101_complement_entreprise",
+    "description": "Circulaire 2020/C/101 exonération fiscale du complément d'entreprise",
+    "title": "Circulaire 2020/C/101 relative à l'exonération fiscale du complément d'entreprise et de l'indemnité complémentaire en cas de reprise du travail – reprise du travail auprès de son employeur précédent – mesures dans le cadre de la pandémie du COVID-19",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2020_C101_complement_entreprise.md",
+    "md_chars": 8726,
+    "document_type": "Circulaires",
+    "document_date": "2020-07-15",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "prépension",
+      "régime fiscal",
+      "exonération",
+      "Covid-19",
+      "coronavirus"
+    ]
+  },
+  {
+    "guid": "e84a0d56-c9e7-451f-9fe7-a18505c06de0",
+    "short_name": "circ_2004_gains_capital",
+    "description": "Circulaire n° AREC 6/2004 gains en capital immobilier",
+    "title": "Circulaire n° AREC 6/2004 (IR/IV-4/30.008) du 10.08.2004",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2004_gains_capital.md",
+    "md_chars": 7602,
+    "document_type": "Circulaires",
+    "document_date": "2004-08-10",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "jurisprudence",
+      "arrêt de la Cour d'arbitrage",
+      "précompte immobilier",
+      "Région de Bruxelles-Capitale"
+    ]
+  },
+  {
+    "guid": "ca40e32f-4c06-47c8-8450-a89558321199",
+    "short_name": "circ_1984_avantages_extralegalux",
+    "description": "Circulaire n° 1 du 30.01.1984 avantages extralégaux rémunération",
+    "title": "Circulaire n° 1 dd. 30.01.1984",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_1984_avantages_extralegalux.md",
+    "md_chars": 15497,
+    "document_type": "Circulaires",
+    "document_date": "1984-01-30",
+    "taxonomies": [
+      "Circulaires"
+    ],
+    "keywords": [
+      "taxe sur la valeur ajoutée",
+      "régime particulier des biens d'occasion"
+    ]
+  },
+  {
+    "guid": "31233ff2-390b-4dec-9739-664ca59f2ab4",
+    "short_name": "circ_1997_revenus_divers",
+    "description": "Circulaire n° Ci.RH.241/467.430 du 08.08.1997 revenus divers prestations",
+    "title": "Circulaire n° Ci.RH.241/467.430 du 08.08.1997",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_1997_revenus_divers.md",
+    "md_chars": 1319,
+    "document_type": "Circulaires",
+    "document_date": "1997-08-08",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "revenu professionnel",
+      "profit",
+      "occupation lucrative",
+      "revenus divers",
+      "profit occasionnel"
+    ]
+  },
+  {
+    "guid": "7ee79498-2067-403d-96bb-22cc925c4a02",
+    "short_name": "circ_2025_C55_travail_etudiant",
+    "description": "Circulaire 2025/C/55 modifications concernant le travail étudiant",
+    "title": "Circulaire 2025/C/55 relative aux modifications concernant le travail étudiant",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2025_C55_travail_etudiant.md",
+    "md_chars": 12086,
+    "document_type": "Circulaires",
+    "document_date": "2025-09-05",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "ressource nette",
+      "rémunération",
+      "étudiant",
+      "précompte professionnel"
+    ]
+  },
+  {
+    "guid": "961b3b18-a132-47f0-a715-52416e5cc331",
+    "short_name": "circ_1997_revenu_locatif",
+    "description": "Circulaire n° Ci.RH.241-460.408 du 26.11.1997 revenu locatif",
+    "title": "Circulaire n° Ci.RH.241-460.408 dd. 26.11.1997",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_1997_revenu_locatif.md",
+    "md_chars": 14452,
+    "document_type": "Circulaires",
+    "document_date": "1997-11-26",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "avantage de toute nature",
+      "évaluation de l'avantage",
+      "bien immeuble",
+      "logement",
+      "automobile",
+      "voiture de firme",
+      "prêt sans intérêt"
+    ]
   }
 ]
