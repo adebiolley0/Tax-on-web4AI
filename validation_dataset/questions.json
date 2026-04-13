@@ -127,5 +127,34 @@
     "topic": "self_employment_supplement",
     "expected_docs": ["circ_2020_C101_complement_entreprise"],
     "expected_keywords": ["complément d'entreprise", "travail indépendant", "exonération", "revenu"]
+  },
+  {
+    "id": "Q18",
+    "question": "Quelles réductions d'impôt puis-je obtenir pour les travaux de rénovation thermique de ma maison?",
+    "topic": "home_renovation_tax_credit",
+    "expected_docs": ["circ_2011_travaux_renovation"],
+    "expected_keywords": ["travaux", "rénovation", "isolation thermique", "réduction d'impôt", "maison"]
+  },
+  {
+    "id": "Q19",
+    "question": "Quelles dépenses médicales et dentaires sont déductibles de mes impôts?",
+    "topic": "medical_dental_expenses",
+    "expected_docs": ["circ_2008_frais_medicaux"],
+    "secondary_docs": ["faq_revenus_immobiliers"],
+    "expected_keywords": ["dépenses médicales", "frais dentaires", "déduction", "réduction d'impôt"]
+  },
+  {
+    "id": "Q20",
+    "question": "Quelles cotisations sociales et charges patronales puis-je déduire?",
+    "topic": "social_contributions_employer_charges",
+    "expected_docs": ["circ_1989_cotisations_sociales"],
+    "expected_keywords": ["cotisations sociales", "charges patronales", "déduction", "cotisations"]
+  },
+  {
+    "id": "Q21",
+    "question": "Je suis en croissance d'activité indépendante, existe-t-il un crédit d'impôt pour l'augmentation de mes revenus?",
+    "topic": "business_income_growth_credit",
+    "expected_docs": ["circ_2026_C5_credit_croissance"],
+    "expected_keywords": ["crédit d'impôt", "croissance", "revenus", "indépendant", "augmentation"]
   }
 ]

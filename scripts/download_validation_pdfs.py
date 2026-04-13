@@ -118,9 +118,25 @@ CANDIDATES = [
     # Rental income / revenu locatif
     ("961b3b18-a132-47f0-a715-52416e5cc331", "circ_1997_revenu_locatif",
      "Circulaire n° Ci.RH.241-460.408 du 26.11.1997 revenu locatif"),
+    # --- 5 additional documents for expanded semantic search evaluation ---
+    # Home renovation and thermal improvements
+    ("c828e396-9590-449b-aa2a-99c7f67360f9", "circ_2011_travaux_renovation",
+     "Circulaire réductions impôt pour travaux de rénovation isolation thermique"),
+    # Medical and healthcare expenses
+    ("8256e11a-af82-4e3a-900e-628ea8525bbc", "circ_2008_frais_medicaux",
+     "Circulaire réduction impôt dépenses frais médicaux dentistes"),
+    # Social contributions / employer charges
+    ("cfc036a7-b646-4f1f-887a-b0074826d6c2", "circ_1989_cotisations_sociales",
+     "Circulaire cotisations sociales patronales charges employeur"),
+    # Recent general tax reduction
+    ("912bb212-2371-4ef1-a9ae-e7f402e6867b", "circ_2024_C20_impot_recent",
+     "Circulaire 2024/C/20 commentant loi portant dispositions fiscales"),
+    # Tax credit for business income increase
+    ("53cc4f44-548c-49c4-9fda-142c9b0d4ef8", "circ_2026_C5_credit_croissance",
+     "Circulaire 2026/C/5 crédit d'impôt pour l'accroissement des revenus"),
 ]
 
-TARGET = 26
+TARGET = 31
 
 
 def _html_to_markdown(html: str) -> str:
