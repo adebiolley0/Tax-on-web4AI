@@ -5,7 +5,7 @@
     "recall_at_10": 0.7097,
     "map_at_10": 0.5043,
     "avg_top_score": 16.1373,
-    "search_time_s": 8.087,
+    "search_time_s": 10.248,
     "per_question": {
       "Q1": {
         "rank_of_expected": 9,
@@ -170,7 +170,7 @@
     "recall_at_10": 0.7097,
     "map_at_10": 0.5043,
     "avg_top_score": 16.1373,
-    "search_time_s": 8.376,
+    "search_time_s": 12.056,
     "per_question": {
       "Q1": {
         "rank_of_expected": 9,
@@ -335,7 +335,7 @@
     "recall_at_10": 0.7097,
     "map_at_10": 0.5043,
     "avg_top_score": 16.1373,
-    "search_time_s": 8.494,
+    "search_time_s": 11.381,
     "per_question": {
       "Q1": {
         "rank_of_expected": 9,
@@ -500,7 +500,7 @@
     "recall_at_10": 0.6129,
     "map_at_10": 0.4866,
     "avg_top_score": 1.2726,
-    "search_time_s": 0.426,
+    "search_time_s": 0.48,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -665,7 +665,7 @@
     "recall_at_10": 0.5484,
     "map_at_10": 0.4839,
     "avg_top_score": 16.1373,
-    "search_time_s": 6.015,
+    "search_time_s": 8.431,
     "per_question": {
       "Q1": {
         "rank_of_expected": 14,
@@ -830,7 +830,7 @@
     "recall_at_10": 0.5484,
     "map_at_10": 0.4839,
     "avg_top_score": 16.1373,
-    "search_time_s": 7.07,
+    "search_time_s": 9.855,
     "per_question": {
       "Q1": {
         "rank_of_expected": 15,
@@ -995,7 +995,7 @@
     "recall_at_10": 0.5484,
     "map_at_10": 0.4839,
     "avg_top_score": 16.1373,
-    "search_time_s": 6.86,
+    "search_time_s": 9.336,
     "per_question": {
       "Q1": {
         "rank_of_expected": 15,
@@ -1160,7 +1160,7 @@
     "recall_at_10": 0.5484,
     "map_at_10": 0.4839,
     "avg_top_score": 16.1752,
-    "search_time_s": 5.897,
+    "search_time_s": 8.218,
     "per_question": {
       "Q1": {
         "rank_of_expected": 12,
@@ -1325,7 +1325,7 @@
     "recall_at_10": 0.5484,
     "map_at_10": 0.4839,
     "avg_top_score": 16.1373,
-    "search_time_s": 6.68,
+    "search_time_s": 11.978,
     "per_question": {
       "Q1": {
         "rank_of_expected": 14,
@@ -1490,7 +1490,7 @@
     "recall_at_10": 0.5484,
     "map_at_10": 0.4839,
     "avg_top_score": 16.1373,
-    "search_time_s": 6.736,
+    "search_time_s": 10.213,
     "per_question": {
       "Q1": {
         "rank_of_expected": 14,
@@ -1655,7 +1655,7 @@
     "recall_at_10": 0.5806,
     "map_at_10": 0.4879,
     "avg_top_score": 16.4852,
-    "search_time_s": 5.942,
+    "search_time_s": 8.377,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -1820,7 +1820,7 @@
     "recall_at_10": 0.7097,
     "map_at_10": 0.48,
     "avg_top_score": 2.265,
-    "search_time_s": 1.673,
+    "search_time_s": 1.879,
     "per_question": {
       "Q1": {
         "rank_of_expected": 8,
@@ -1985,7 +1985,7 @@
     "recall_at_10": 0.6129,
     "map_at_10": 0.4715,
     "avg_top_score": 15.9959,
-    "search_time_s": 6.323,
+    "search_time_s": 8.18,
     "per_question": {
       "Q1": {
         "rank_of_expected": 12,
@@ -2150,7 +2150,7 @@
     "recall_at_10": 0.6774,
     "map_at_10": 0.4616,
     "avg_top_score": 0.5568,
-    "search_time_s": 1.432,
+    "search_time_s": 1.596,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -2315,7 +2315,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.453,
     "avg_top_score": 1.844,
-    "search_time_s": 0.735,
+    "search_time_s": 0.56,
     "per_question": {
       "Q1": {
         "rank_of_expected": 11,
@@ -2480,7 +2480,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4533,
     "avg_top_score": 0.539,
-    "search_time_s": 0.461,
+    "search_time_s": 0.507,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -2645,7 +2645,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4476,
     "avg_top_score": 1.5416,
-    "search_time_s": 0.456,
+    "search_time_s": 0.504,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -2810,7 +2810,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4394,
     "avg_top_score": 0.5327,
-    "search_time_s": 0.44,
+    "search_time_s": 0.492,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -2975,7 +2975,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4377,
     "avg_top_score": 0.5373,
-    "search_time_s": 0.461,
+    "search_time_s": 0.495,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -3140,7 +3140,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4245,
     "avg_top_score": 0.6497,
-    "search_time_s": 0.78,
+    "search_time_s": 1.052,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -3305,7 +3305,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4245,
     "avg_top_score": 0.6497,
-    "search_time_s": 1.022,
+    "search_time_s": 0.939,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -3470,7 +3470,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4245,
     "avg_top_score": 0.6497,
-    "search_time_s": 0.756,
+    "search_time_s": 1.27,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -3635,7 +3635,7 @@
     "recall_at_10": 0.6452,
     "map_at_10": 0.4245,
     "avg_top_score": 0.6497,
-    "search_time_s": 0.988,
+    "search_time_s": 1.362,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -3800,7 +3800,7 @@
     "recall_at_10": 0.5806,
     "map_at_10": 0.4054,
     "avg_top_score": 0.658,
-    "search_time_s": 0.061,
+    "search_time_s": 0.063,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
@@ -3965,7 +3965,7 @@
     "recall_at_10": 0.6129,
     "map_at_10": 0.3659,
     "avg_top_score": 473.7039,
-    "search_time_s": 0.354,
+    "search_time_s": 0.465,
     "per_question": {
       "Q1": {
         "rank_of_expected": null,
