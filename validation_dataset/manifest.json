@@ -588,5 +588,1232 @@
       "entreprise individuelle",
       "impôt des non-résidents"
     ]
+  },
+  {
+    "guid": "30a23f46-df38-4a93-9339-0a27ca4d1aa9",
+    "short_name": "cir92_2022_art_275_3_precompte_pro",
+    "description": "Article 275^3 CIR 92 — précompte professionnel dispense partielles",
+    "title": "Article 275^3, CIR 92 (revenus 2026)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2022_art_275_3_precompte_pro.md",
+    "md_chars": 12815,
+    "document_type": "Code et législation",
+    "document_date": "2022-07-05",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "précompte professionnel",
+      "dispense de versement de précompte professionnel",
+      "chercheur"
+    ]
+  },
+  {
+    "guid": "70302473-5626-4207-ae20-34c6d29aadf6",
+    "short_name": "ar_cir_2024_art_95_2_precompte_pro",
+    "description": "Article 95^2 AR/CIR 92 (revenus 2026) — calcul précompte professionnel",
+    "title": "Article 95^2, AR/CIR 92 (revenus 2026)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_cir_2024_art_95_2_precompte_pro.md",
+    "md_chars": 20744,
+    "document_type": "Code et législation",
+    "document_date": "2024-12-20",
+    "taxonomies": [
+      "AR/CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt sur les revenus",
+      "précompte professionnel"
+    ]
+  },
+  {
+    "guid": "727430aa-9d41-4ecf-84e9-6a68c0f39ca3",
+    "short_name": "cir92_2022_art_147_revenus_remplacement",
+    "description": "Article 147 CIR 92 — réduction d'impôt revenus de remplacement",
+    "title": "Article 147, CIR 92 (revenus 2026)*",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2022_art_147_revenus_remplacement.md",
+    "md_chars": 4106,
+    "document_type": "Code et législation",
+    "document_date": "2022-03-17",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "calcul de l'IPP",
+      "réduction d'impôt",
+      "pension",
+      "allocation de chômage",
+      "indemnité maladie-invalidité",
+      "revenus de remplacement"
+    ]
+  },
+  {
+    "guid": "d186a5fb-100c-4b5a-a969-4661239e311f",
+    "short_name": "cir92_2015_art_146_revenus_remplacement",
+    "description": "Article 146 CIR 92 — définition revenus de remplacement",
+    "title": "Article 146, CIR 92 (revenus 2026)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2015_art_146_revenus_remplacement.md",
+    "md_chars": 1552,
+    "document_type": "Code et législation",
+    "document_date": "2015-12-26",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "calcul de l'IPP",
+      "réduction d'impôt",
+      "pension",
+      "allocation de chômage",
+      "indemnité maladie-invalidité",
+      "revenus de remplacement"
+    ]
+  },
+  {
+    "guid": "89a05d79-a2cb-408f-a45e-7e82d408e8d5",
+    "short_name": "cir92_2022_art_154_revenus_remplacement",
+    "description": "Article 154 CIR 92 — réduction complémentaire revenus remplacement",
+    "title": "Article 154, CIR 92 (revenus 2026)***",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2022_art_154_revenus_remplacement.md",
+    "md_chars": 4045,
+    "document_type": "Code et législation",
+    "document_date": "2022-07-05",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "calcul de l'IPP",
+      "réduction d'impôt",
+      "pension",
+      "revenus de remplacement",
+      "réduction supplémentaire"
+    ]
+  },
+  {
+    "guid": "60cfb413-718f-4249-85b2-70c070d30e8d",
+    "short_name": "cir92_2022_art_151_1_revenus_remplacement",
+    "description": "Article 151/1 CIR 92 — revenus de remplacement crédit d'impôt",
+    "title": "Article 151/1, CIR 92 (revenus 2026)*",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2022_art_151_1_revenus_remplacement.md",
+    "md_chars": 976,
+    "document_type": "Code et législation",
+    "document_date": "2022-03-17",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt sur les revenus",
+      "impôt des personnes physiques",
+      "calcul de l'IPP",
+      "réduction d'impôt",
+      "pension",
+      "revenus de remplacement"
+    ]
+  },
+  {
+    "guid": "24f95c9a-9a46-4ba6-8ed8-9be561861543",
+    "short_name": "qp_2016_840_van_de_velde_stock_options",
+    "description": "QP n° 840 Van de Velde 2016 — fiscalité stock options dirigeants",
+    "title": "Question parlementaire n° 840 de monsieur Robert Van de Velde du 03.03.2016",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2016_840_van_de_velde_stock_options.md",
+    "md_chars": 3833,
+    "document_type": "Questions parlementaires",
+    "document_date": "2016-03-03",
+    "taxonomies": [
+      "Questions parlementaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "tax shift",
+      "plus-value",
+      "instrument financier",
+      "spéculation",
+      "revenu imposable",
+      "revenu professionnel"
+    ]
+  },
+  {
+    "guid": "f89fc003-9bcd-42cd-a4fd-687fe0d7239c",
+    "short_name": "da_2024_0682_warrants",
+    "description": "Décision anticipée 2024.0682 — warrants attribution dirigeant",
+    "title": "Décision anticipée n° 2024.0682 du 22.10.2024",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2024_0682_warrants.md",
+    "md_chars": 20599,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2024-10-22",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "plan cafétéria"
+    ]
+  },
+  {
+    "guid": "eea32c35-5bfc-474a-9819-4100b98a064c",
+    "short_name": "da_2013_219_stock_options",
+    "description": "Décision anticipée 2013.219 — stock options imposition",
+    "title": "Décision anticipée n° 2013.219 dd. 04.06.2013",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2013_219_stock_options.md",
+    "md_chars": 10093,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2013-06-04",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "warrant",
+      "instrument financier",
+      "évaluation d'actions",
+      "avantage de toute nature"
+    ]
+  },
+  {
+    "guid": "df449701-52f8-4446-b8b0-b5b68b8a8750",
+    "short_name": "da_2016_335_telework_home_office",
+    "description": "Décision anticipée 2016.335 — télétravail frais bureau domicile",
+    "title": "Décision anticipée n° 2016.335 dd. 29.06.2016",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2016_335_telework_home_office.md",
+    "md_chars": 5984,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2016-06-29",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "frais propre à l'employeur",
+      "indemnité forfaitaire",
+      "avantage de toute nature"
+    ]
+  },
+  {
+    "guid": "d2304540-270a-4160-8d52-3d40b32d5acc",
+    "short_name": "da_2017_591_telework_frais",
+    "description": "Décision anticipée 2017.591 — télétravail frais professionnels",
+    "title": "Décision anticipée n° 2017.591 du 26.09.2017",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2017_591_telework_frais.md",
+    "md_chars": 6318,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2017-09-26",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "frais propre à l'employeur"
+    ]
+  },
+  {
+    "guid": "a7f6bb42-9717-4adb-b8fd-33cbf77ab73d",
+    "short_name": "da_2017_139_bureau_domicile",
+    "description": "Décision anticipée 2017.139 — bureau domicile frais home office",
+    "title": "Décision anticipée n° 2017.139 du 28.03.2017",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2017_139_bureau_domicile.md",
+    "md_chars": 6278,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2017-03-28",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "frais propre à l'employeur",
+      "indemnité forfaitaire"
+    ]
+  },
+  {
+    "guid": "02481efa-7ba1-4b38-8d74-908820b1fd6b",
+    "short_name": "da_2016_039_home_office",
+    "description": "Décision anticipée 2016.039 — home office télétravail",
+    "title": "Décision anticipée n° 2016.039 dd. 01.03.2016",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2016_039_home_office.md",
+    "md_chars": 4794,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2016-03-01",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "frais propre à l'employeur",
+      "indemnité forfaitaire"
+    ]
+  },
+  {
+    "guid": "0cb3bab8-f6cb-4a49-8ebf-7c0021671065",
+    "short_name": "com_2019_art_38_cir92_atn",
+    "description": "Commentaire article 38 CIR 92 — avantages de toute nature exonérés",
+    "title": "Commentaire de l'article 38, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_38_cir92_atn.md",
+    "md_chars": 31770,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-13",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "revenu professionnel",
+      "revenu exonéré",
+      "exonération à caractère social ou culturel"
+    ]
+  },
+  {
+    "guid": "ee50fb84-6935-4e40-becd-9f9b4e825281",
+    "short_name": "com_2019_art_32_cir92_remuneration",
+    "description": "Commentaire article 32 CIR 92 — rémunération dirigeant imposable",
+    "title": "Commentaire de l'article 32, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_32_cir92_remuneration.md",
+    "md_chars": 21906,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-09",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "revenu professionnel",
+      "revenu imposable",
+      "dirigeant d'entreprise"
+    ]
+  },
+  {
+    "guid": "3f5f29c8-5bf5-4d15-97c8-43c581a60a50",
+    "short_name": "da_2025_0741_avantages_nature",
+    "description": "Décision anticipée 2025.0741 — avantages de toute nature",
+    "title": "Décision anticipée n° 2025.0741 du 18.11.2025",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2025_0741_avantages_nature.md",
+    "md_chars": 33135,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2025-11-18",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "cession",
+      "concession",
+      "droit d'auteur"
+    ]
+  },
+  {
+    "guid": "b7488943-1416-4002-8d29-76c32810583a",
+    "short_name": "com_2019_art_53_cir92_frais_deductibles",
+    "description": "Commentaire article 53 CIR 92 — dépenses non déductibles",
+    "title": "Commentaire de l'article 53, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_53_cir92_frais_deductibles.md",
+    "md_chars": 21375,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-21",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "revenu professionnel",
+      "revenu net",
+      "frais professionnels",
+      "frais non déductible"
+    ]
+  },
+  {
+    "guid": "af30ddab-5d8c-43fa-b2ac-36421a291607",
+    "short_name": "jp_2024_mons_dividendes_precompte",
+    "description": "Jugement tribunal Mons 21.05.2024 — dividendes précompte mobilier",
+    "title": "Jugement du tribunal de première instance de Mons du 21.05.2024 (22/1890/A)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/jp_2024_mons_dividendes_precompte.md",
+    "md_chars": 8967,
+    "document_type": "Jurisprudence belge",
+    "document_date": "2024-05-21",
+    "taxonomies": [
+      "Jurisprudence - Précomptes/versements anticipés"
+    ],
+    "keywords": [
+      "précompte mobilier",
+      "dividende",
+      "attribution",
+      "exigibilité",
+      "acceptation",
+      "compte annuel"
+    ]
+  },
+  {
+    "guid": "97be8f74-26bd-43be-ab04-3327e94d84db",
+    "short_name": "cir92_2004_art_283_precompte_mobilier",
+    "description": "Article 283 CIR 92 — précompte mobilier dividendes",
+    "title": "Article 283, CIR 92 (revenus 2026)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2004_art_283_precompte_mobilier.md",
+    "md_chars": 1789,
+    "document_type": "Code et législation",
+    "document_date": "2004-12-15",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "précompte mobilier",
+      "imputation du précompte mobilier",
+      "dividende"
+    ]
+  },
+  {
+    "guid": "067c4b60-89c3-4fad-8cfa-937cedbf1ce2",
+    "short_name": "com_2019_art_282_cir92_precompte_mobilier",
+    "description": "Commentaire article 282 CIR 92 — précompte mobilier",
+    "title": "Commentaire de l'article 282, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_282_cir92_precompte_mobilier.md",
+    "md_chars": 2525,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-27",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "dividende",
+      "réduction de valeur sur actions",
+      "moins-value sur actions",
+      "précompte mobilier",
+      "paiement de l'impôt",
+      "imputation du précompte mobilier"
+    ]
+  },
+  {
+    "guid": "d8920c71-ca1e-48f8-b79b-12c024ddcf51",
+    "short_name": "com_2019_art_269_cir92_taux_precompte",
+    "description": "Commentaire article 269 CIR 92 — taux précompte mobilier dividendes",
+    "title": "Commentaire de l'article 269, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_269_cir92_taux_precompte.md",
+    "md_chars": 23264,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-26",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "paiement de l'impôt",
+      "précompte mobilier",
+      "taux du précompte mobilier"
+    ]
+  },
+  {
+    "guid": "575b9c27-123b-4d63-874e-f611ac7ffb89",
+    "short_name": "com_2019_art_118_cir92_epargne_lt",
+    "description": "Commentaire article 118 CIR 92 — épargne à long terme réduction impôt",
+    "title": "Commentaire de l'article 118, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_118_cir92_epargne_lt.md",
+    "md_chars": 1292,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-22",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "dépense déductible",
+      "épargne-pension"
+    ]
+  },
+  {
+    "guid": "48f79699-a347-4bcc-ad9e-05d902c533c5",
+    "short_name": "com_2019_art_117_cir92_epargne_lt",
+    "description": "Commentaire article 117 CIR 92 — assurance vie épargne long terme",
+    "title": "Commentaire de l'article 117, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_117_cir92_epargne_lt.md",
+    "md_chars": 1751,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-22",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "dépense déductible",
+      "épargne-pension"
+    ]
+  },
+  {
+    "guid": "7e32be81-787a-4b37-8d87-0651e22a3072",
+    "short_name": "com_2019_art_122_cir92_epargne_lt",
+    "description": "Commentaire article 122 CIR 92 — épargne long terme conditions",
+    "title": "Commentaire de l'article 122, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_122_cir92_epargne_lt.md",
+    "md_chars": 1292,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-22",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "dépense déductible",
+      "épargne-pension"
+    ]
+  },
+  {
+    "guid": "b5540635-1ff7-4bb2-b452-4eacebdd5f7e",
+    "short_name": "com_2019_art_120_cir92_epargne_lt",
+    "description": "Commentaire article 120 CIR 92 — épargne long terme montants",
+    "title": "Commentaire de l'article 120, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_120_cir92_epargne_lt.md",
+    "md_chars": 1292,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-22",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "dépense déductible",
+      "épargne-pension"
+    ]
+  },
+  {
+    "guid": "800a668f-5588-4f3e-b2bb-a79c1743008c",
+    "short_name": "ar_cir_2022_art_4_droits_auteur",
+    "description": "Article 4 AR/CIR 92 — droits d'auteur revenus imposables",
+    "title": "Article 4, AR/CIR 92 (revenus 2026)*",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_cir_2022_art_4_droits_auteur.md",
+    "md_chars": 1946,
+    "document_type": "Code et législation",
+    "document_date": "2022-12-26",
+    "taxonomies": [
+      "AR/CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "revenu mobilier",
+      "revenu net",
+      "impôt sur les revenus",
+      "fiche individuelle (281.45)",
+      "copyright"
+    ]
+  },
+  {
+    "guid": "91776d92-db77-4d85-82ef-5e8c5386559d",
+    "short_name": "circ_2021_C44_economie_collaborative",
+    "description": "Circulaire 2021/C/44 — FAQ économie collaborative revenus",
+    "title": "Circulaire 2021/C/44 - FAQ concernant l’économie collaborative",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2021_C44_economie_collaborative.md",
+    "md_chars": 15740,
+    "document_type": "Circulaires",
+    "document_date": "2021-05-18",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques",
+      "FAQ - Impôts sur les revenus"
+    ],
+    "keywords": [
+      "impôt sur les revenus",
+      "revenus divers",
+      "économie collaborative",
+      "frais professionnels forfaitaires",
+      "précompte professionnel",
+      "plate-forme électronique",
+      "agrément",
+      "revenu professionnel"
+    ]
+  },
+  {
+    "guid": "bffa04a9-2d97-4215-a57a-083dac23c348",
+    "short_name": "faq_2018_economie_collaborative",
+    "description": "FAQ économie collaborative revenus plateforme (à partir 2018)",
+    "title": "FAQ - Economie collaborative (à partir des revenus de l’année 2018)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/faq_2018_economie_collaborative.md",
+    "md_chars": 14556,
+    "document_type": "FAQ",
+    "document_date": "2018-10-15",
+    "taxonomies": [
+      "FAQ - Impôts sur les revenus"
+    ],
+    "keywords": [
+      "économie collaborative"
+    ]
+  },
+  {
+    "guid": "a0c75e7b-459f-4054-a911-71d69754f34c",
+    "short_name": "circ_2019_C49_remuneration_licenciement",
+    "description": "Circulaire 2019/C/49 — abrogation exonération rémunérations licenciement",
+    "title": "Circulaire 2019/C/49 relative à l’abrogation de l’exonération des rémunérations pour préavis presté et des indemnités de licenciement",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2019_C49_remuneration_licenciement.md",
+    "md_chars": 1754,
+    "document_type": "Circulaires",
+    "document_date": "2019-06-13",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "licenciement",
+      "indemnité",
+      "indemnité de dédit",
+      "exonération"
+    ]
+  },
+  {
+    "guid": "84fd7256-f70d-4ee9-a2b2-2f7d8faf9005",
+    "short_name": "da_2025_0487_indemnite_licenciement",
+    "description": "Décision anticipée 2025.0487 — indemnité licenciement préavis",
+    "title": "Décision anticipée n° 2025.0487 du 02.09.2025",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2025_0487_indemnite_licenciement.md",
+    "md_chars": 20103,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2025-09-02",
+    "taxonomies": [
+      "Décisions anticipées (L 24.12.2002)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "indemnité de dédit",
+      "convention de double imposition",
+      "Belgique",
+      "France"
+    ]
+  },
+  {
+    "guid": "2663b061-0ce0-431a-b153-a4e34d651ab7",
+    "short_name": "qp_2008_115_claes_assurance_groupe",
+    "description": "QP n° 115 Claes 2008 — assurance groupe pension complémentaire",
+    "title": "Question parlementaire n° 115 de Mme Claes du 29.04.2008",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2008_115_claes_assurance_groupe.md",
+    "md_chars": 5549,
+    "document_type": "Questions parlementaires",
+    "document_date": "2008-04-29",
+    "taxonomies": [
+      "Questions parlementaires - Impôt des personnes physiques"
+    ],
+    "keywords": []
+  },
+  {
+    "guid": "c3b98be7-daf9-42d5-8037-042f22c82b67",
+    "short_name": "qp_2009_16_claes_pension_complementaire",
+    "description": "QP n° 16 Claes 2009 — pension complémentaire EIP",
+    "title": "Question parlementaire n° 16 de madame Claes du 14.01.2009",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2009_16_claes_pension_complementaire.md",
+    "md_chars": 14811,
+    "document_type": "Questions parlementaires",
+    "document_date": "2009-01-14",
+    "taxonomies": [
+      "Questions parlementaires - Impôt des personnes physiques",
+      "Questions parlementaires - Impôt des sociétés"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "impôt des sociétés",
+      "dirigeant d'entreprise indépendant",
+      "pension complémentaire d'un indépendant",
+      "législation fiscale"
+    ]
+  },
+  {
+    "guid": "cd8c28dd-0208-415b-aeae-b399a6333fdc",
+    "short_name": "jp_2024_cour_const_54_pension_comp",
+    "description": "Cour constitutionnelle arrêt 54/2024 — pension complémentaire",
+    "title": "Arrêt de la Cour constitutionnelle du 16.05.2024 (n° 54/2024)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/jp_2024_cour_const_54_pension_comp.md",
+    "md_chars": 56180,
+    "document_type": "Jurisprudence belge",
+    "document_date": "2024-05-16",
+    "taxonomies": [
+      "Jurisprudence - Impôt des sociétés"
+    ],
+    "keywords": [
+      "frais professionnels",
+      "pension extra-légale",
+      "cotisation de l'employeur",
+      "déductibilité",
+      "cotisation et prime patronale"
+    ]
+  },
+  {
+    "guid": "3761e8e5-50e7-4152-8f6d-cbb8cb5d2be6",
+    "short_name": "jp_2024_cour_const_79_pension",
+    "description": "Cour constitutionnelle arrêt 79/2024 — pension complémentaire",
+    "title": "Arrêt de la Cour constitutionnelle du 10.07.2024 (n° 79/2024)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/jp_2024_cour_const_79_pension.md",
+    "md_chars": 58469,
+    "document_type": "Jurisprudence belge",
+    "document_date": "2024-07-10",
+    "taxonomies": [
+      "Jurisprudence - Impôt des sociétés"
+    ],
+    "keywords": [
+      "droit fiscal",
+      "frais professionnels",
+      "cotisation de l'employeur",
+      "limitation du droit à déduction",
+      "pension extra-légale"
+    ]
+  },
+  {
+    "guid": "1e6900c1-7864-450a-90c7-53fb1571dd5b",
+    "short_name": "circ_2024_C77_remboursement_electricite",
+    "description": "Circulaire 2024/C/77 — remboursement frais électricité véhicule",
+    "title": "Circulaire 2024/C/77 relative au remboursement des frais d'électricité par l'employeur pour la recharge à domicile d'une voiture d’entreprise ",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2024_C77_remboursement_electricite.md",
+    "md_chars": 21284,
+    "document_type": "Circulaires",
+    "document_date": "2024-12-05",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "avantage de toute nature",
+      "disposition gratuite d'un véhicule automobile",
+      "véhicule électrique",
+      "station de rechargement des véhicules électriques",
+      "fourniture gratuite d'électricité"
+    ]
+  },
+  {
+    "guid": "f0ddfa37-c754-4b30-a852-e0737f088466",
+    "short_name": "circ_2023_C97_faq_vehicule_electrique",
+    "description": "Circulaire 2023/C/97 — FAQ déduction frais majorée véhicule électrique",
+    "title": "Circulaire 2023/C/97 avec FAQ relatives à la déduction de frais majorée pour bornes de recharge pour véhicules électriques",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2023_C97_faq_vehicule_electrique.md",
+    "md_chars": 20695,
+    "document_type": "Circulaires",
+    "document_date": "2023-12-06",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires - Impôt des non-résidents"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "impôt des non-résidents",
+      "amortissement",
+      "déduction majorée de frais",
+      "infrastructure de recharge e-mobility"
+    ]
+  },
+  {
+    "guid": "216842e7-a396-4cc9-82bd-21100389e25c",
+    "short_name": "qp_2025_26_cloquet_emprunt_wallonie",
+    "description": "QP n° 26 Cloquet 2025 — emprunt logement avantages Wallonie",
+    "title": "Question parlementaire n° 26 de monsieur Jean-Jacques Cloquet du 29.09.2025 (Région wallonne)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_26_cloquet_emprunt_wallonie.md",
+    "md_chars": 13880,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-09-29",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "Région wallonne",
+      "droit de vente",
+      "transmission à titre onéreux",
+      "bien immeuble",
+      "habitation propre",
+      "taux",
+      "réduction",
+      "résidence principale",
+      "statistiques"
+    ]
+  },
+  {
+    "guid": "7602f639-68f8-4c8a-889f-4ec419e6bdf7",
+    "short_name": "qp_2025_mockel_emprunt_logement_wallonie",
+    "description": "QP Mockel 2025 — emprunt logement propre Région wallonne",
+    "title": "Questions parlementaires orales jointes de monsieur Freddy Mockel, de madame Christine Mauel, de monsieur Christophe Collignon et de monsieur Jori Dupont du 10.11.2025 (Région wallonne)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_mockel_emprunt_logement_wallonie.md",
+    "md_chars": 53294,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-11-10",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "droit réduit",
+      "résidence principale",
+      "secteur de l'immobilier",
+      "statistiques",
+      "Région wallonne",
+      "droit de vente",
+      "transmission à titre onéreux",
+      "bien immeuble",
+      "habitation propre"
+    ]
+  },
+  {
+    "guid": "f83fedf1-7952-4d1d-8914-807fc37facee",
+    "short_name": "ar_2026_declaration_non_residents",
+    "description": "AR 08.03.2026 — modèle déclaration impôt non-résidents",
+    "title": "08.03.2026 - Arrêté royal déterminant le modèle de formulaire de déclaration en matière d'impôt des non-résidents (sociétés, associations, etc.) pour l'exercice d'imposition 2026",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_2026_declaration_non_residents.md",
+    "md_chars": 1910,
+    "document_type": "Arrêtés royaux",
+    "document_date": "2026-03-08",
+    "taxonomies": [
+      "Dispositions autonomes"
+    ],
+    "keywords": [
+      "formulaire de déclaration",
+      "INR"
+    ]
+  },
+  {
+    "guid": "b022a047-8bf4-4f6c-b61f-b0eb208f5285",
+    "short_name": "ar_2024_declaration_non_residents",
+    "description": "AR 16.06.2024 — modèle déclaration impôt non-résidents",
+    "title": "16.06.2024 - Arrêté royal fixant le modèle de formulaire de déclaration en matière d'impôt des non-résidents (personnes physiques) pour l'exercice d'imposition 2024",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_2024_declaration_non_residents.md",
+    "md_chars": 4769,
+    "document_type": "Arrêtés royaux",
+    "document_date": "2024-06-16",
+    "taxonomies": [
+      "Dispositions autonomes"
+    ],
+    "keywords": [
+      "exercice d'imposition 2024",
+      "INR/p.p.",
+      "INR",
+      "formulaire de déclaration"
+    ]
+  },
+  {
+    "guid": "065907be-e14c-46a1-8246-9b748604111f",
+    "short_name": "ar_2025_declaration_ipr",
+    "description": "AR 02.06.2025 — modèle déclaration IPR non-résidents",
+    "title": "02.06.2025 - Arrêté royal fixant le modèle de formulaire de déclaration en matière d'impôt des non-résidents (personnes physiques) pour l'exercice d'imposition 2025",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_2025_declaration_ipr.md",
+    "md_chars": 4486,
+    "document_type": "Arrêtés royaux",
+    "document_date": "2025-06-02",
+    "taxonomies": [
+      "Dispositions autonomes"
+    ],
+    "keywords": [
+      "formulaire de déclaration",
+      "INR",
+      "INR/p.p.",
+      "exercice d’imposition 2025"
+    ]
+  },
+  {
+    "guid": "ed605bf7-f104-498a-b6c2-575ffc12436c",
+    "short_name": "ar_2025_declaration_non_residents_b",
+    "description": "AR 13.04.2025 — déclaration impôt non-résidents modèle",
+    "title": "13.04.2025 - Arrêté royal déterminant le modèle de formulaire de déclaration en matière d'impôt des non-résidents (sociétés, associations, etc.) pour l'exercice d'imposition 2025",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_2025_declaration_non_residents_b.md",
+    "md_chars": 1914,
+    "document_type": "Arrêtés royaux",
+    "document_date": "2025-04-13",
+    "taxonomies": [
+      "Dispositions autonomes"
+    ],
+    "keywords": [
+      "formulaire de déclaration",
+      "impôt des non-résidents",
+      "exercice d’imposition 2025"
+    ]
+  },
+  {
+    "guid": "edf10d91-cb13-415a-bf9e-440707064c27",
+    "short_name": "com_2019_art_215_cir92_isoc_taux",
+    "description": "Commentaire article 215 CIR 92 — taux impôt des sociétés PME",
+    "title": "Commentaire de l'article 215, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_215_cir92_isoc_taux.md",
+    "md_chars": 18324,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-08-21",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des sociétés",
+      "calcul de l'ISoc",
+      "taux de l'ISoc",
+      "régime ordinaire de taxation"
+    ]
+  },
+  {
+    "guid": "ab9202f6-0b22-45b6-9572-47b53518e14f",
+    "short_name": "com_2019_art_69_cir92_deduction_invest",
+    "description": "Commentaire article 69 CIR 92 — déduction pour investissement ISOC",
+    "title": "Commentaire de l'article 69, CIR 92",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/com_2019_art_69_cir92_deduction_invest.md",
+    "md_chars": 14167,
+    "document_type": "Commentaires (dont Rép. RJ)",
+    "document_date": "2019-09-04",
+    "taxonomies": [
+      "Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "revenu professionnel",
+      "revenu exonéré",
+      "bénéfice",
+      "profit",
+      "déduction pour investissement"
+    ]
+  },
+  {
+    "guid": "390544a1-df7b-4ffe-91d6-cb6f61c22ac6",
+    "short_name": "qp_2025_572_vanquickenborne_isoc_taux",
+    "description": "QP n° 572 Van Quickenborne 2025 — taux ISOC PME",
+    "title": "Question parlementaire n° 572 de monsieur Vincent Van Quickenborne du 20.10.2025",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_572_vanquickenborne_isoc_taux.md",
+    "md_chars": 10704,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-10-20",
+    "taxonomies": [
+      "Questions parlementaires - Impôt des sociétés"
+    ],
+    "keywords": [
+      "société de management",
+      "traitement fiscal",
+      "rendement",
+      "disposition légale",
+      "VVPRbis-regeling"
+    ]
+  },
+  {
+    "guid": "38ff7ec8-197b-4201-a0c3-f9b0df45c97e",
+    "short_name": "qp_2025_28_vanbesien_isoc_pme",
+    "description": "QP n° 28 Vanbesien 2025 — impôt sociétés PME",
+    "title": "Question parlementaire n° 28 de monsieur Dieter Vanbesien du 24.02.2025 ",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_28_vanbesien_isoc_pme.md",
+    "md_chars": 10635,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-04-01",
+    "taxonomies": [
+      "Questions parlementaires - Procédure"
+    ],
+    "keywords": [
+      "droit",
+      "erreur de fait ou de droit",
+      "infraction non intentionnelle",
+      "accroissement d'impôt",
+      "statistiques"
+    ]
+  },
+  {
+    "guid": "807c73f5-94bc-4082-b326-96ef53347663",
+    "short_name": "jp_2010_cour_const_122_isoc",
+    "description": "Cour constitutionnelle arrêt 122/2010 — impôt des sociétés",
+    "title": "Arrêt de la Cour constitutionnelle du 28.10.2010 (N° 122/2010)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/jp_2010_cour_const_122_isoc.md",
+    "md_chars": 22619,
+    "document_type": "Jurisprudence belge",
+    "document_date": "2010-10-28",
+    "taxonomies": [
+      "Jurisprudence - Impôt des sociétés"
+    ],
+    "keywords": [
+      "base d'imposition",
+      "bénéfice exonéré",
+      "réserve d'investissement",
+      "condition d'exonération",
+      "taux réduit de l'ISoc",
+      "petites et moyennes entreprises",
+      "décision anticipée"
+    ]
+  },
+  {
+    "guid": "23ba027f-54f6-4b26-aa4e-e19b7f51cb5b",
+    "short_name": "circ_2026_C33_cotisation_plus_values_actions",
+    "description": "Circulaire 2026/C/33 — cotisation distincte plus-values actions",
+    "title": "Circulaire 2026/C/33 relative à la cotisation distincte sur les plus-values réalisées sur les actions ou parts de sociétés d’investissement et de sociétés immobilières et à l’imputation du précompte mobilier afférent aux dividendes de telles sociétés",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2026_C33_cotisation_plus_values_actions.md",
+    "md_chars": 19025,
+    "document_type": "Circulaires",
+    "document_date": "2026-02-24",
+    "taxonomies": [
+      "Circulaires - Impôt des sociétés"
+    ],
+    "keywords": [
+      "SICAV RDT",
+      "cotisation distincte",
+      "imputation du précompte mobilier",
+      "société d'investissement",
+      "société immobilière"
+    ]
+  },
+  {
+    "guid": "931fe89e-d5aa-4c6a-ab96-251c8bed77b1",
+    "short_name": "cir92_2015_art_44_plus_values_exoneration",
+    "description": "Article 44 CIR 92 — exonération plus-values",
+    "title": "Article 44, CIR 92 (revenus 2026)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2015_art_44_plus_values_exoneration.md",
+    "md_chars": 1757,
+    "document_type": "Code et législation",
+    "document_date": "2015-12-26",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "revenu professionnel",
+      "revenu exonéré",
+      "plus-value",
+      "plus-value exonérée"
+    ]
+  },
+  {
+    "guid": "bc6eaf08-a0e0-4bb4-b347-7b195c1d6571",
+    "short_name": "qp_2025_97_vereeck_plus_value_actions",
+    "description": "QP n° 97 Vereeck 2025 — plus-value actions participation",
+    "title": "Question parlementaire n° 97 de monsieur Lode Vereeck du 11.03.2025 ",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_97_vereeck_plus_value_actions.md",
+    "md_chars": 1905,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-03-11",
+    "taxonomies": [
+      "Questions parlementaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "taxation de plus-value",
+      "participation",
+      "sécurité juridique",
+      "taux",
+      "placement"
+    ]
+  },
+  {
+    "guid": "34f8c5b1-90a6-4e1f-a8cc-27bfe16caf4a",
+    "short_name": "cir92_2014_art_145_38_donations",
+    "description": "Article 145^38 CIR 92 — réduction impôt dons libéralités succession",
+    "title": "Article 145^38, CIR 92 (revenus 2026)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/cir92_2014_art_145_38_donations.md",
+    "md_chars": 4631,
+    "document_type": "Code et législation",
+    "document_date": "2014-05-08",
+    "taxonomies": [
+      "CIR 92 - Revenus 2026"
+    ],
+    "keywords": [
+      "impôt des personnes physiques",
+      "calcul de l'IPP",
+      "réduction d'impôt",
+      "habitation propre",
+      "emprunt hypothécaire",
+      "assurance-vie",
+      "bonus logement"
+    ]
+  },
+  {
+    "guid": "2db3d135-6d12-4fdf-b645-1daeb4bd36b1",
+    "short_name": "jp_2025_mons_succession",
+    "description": "Jugement tribunal Mons 17.03.2025 — droits de succession",
+    "title": "Jugement du tribunal de première instance de Mons du 17.03.2025",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/jp_2025_mons_succession.md",
+    "md_chars": 24797,
+    "document_type": "Jurisprudence belge",
+    "document_date": "2025-03-17",
+    "taxonomies": [
+      "Jurisprudence nationale"
+    ],
+    "keywords": [
+      "liquidation des droits",
+      "legs de somme",
+      "obligation de faire",
+      "legs en duo",
+      "moyen de preuve",
+      "mesure anti-abus"
+    ]
+  },
+  {
+    "guid": "3760784e-657c-49b9-94c4-b07a554f1cb7",
+    "short_name": "qp_2025_103_jacob_succession",
+    "description": "QP n° 103 Jacob 2025 — droits succession Wallonie",
+    "title": "Question parlementaire n° 103 de monsieur Loïc Jacob du 28.11.2025 (Région wallonne)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_103_jacob_succession.md",
+    "md_chars": 2890,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-11-28",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "Région wallonne",
+      "legs en duo",
+      "taux",
+      "réduction",
+      "legs",
+      "organisme public",
+      "personne morale",
+      "ASBL",
+      "fondation",
+      "liquidation des droits"
+    ]
+  },
+  {
+    "guid": "8a61a8e9-b249-4ee5-b7e4-49dda2bce09f",
+    "short_name": "qp_2026_135_de_patoul_enregistrement",
+    "description": "QP n° 135 de Patoul 2026 — droits d'enregistrement achat immobilier",
+    "title": "Question parlementaire n° 135 de monsieur Jonathan de Patoul du 02.01.2026 (Région de Bruxelles-Capitale)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2026_135_de_patoul_enregistrement.md",
+    "md_chars": 3615,
+    "document_type": "Questions parlementaires",
+    "document_date": "2026-01-02",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "Région de Bruxelles-Capitale",
+      "transmission à titre onéreux",
+      "bien immeuble",
+      "droit de vente",
+      "abattement",
+      "habitation",
+      "résidence principale",
+      "abattement supplémentaire",
+      "performance énergétique",
+      "statistiques"
+    ]
+  },
+  {
+    "guid": "5f559123-4ee8-44b5-bc7f-de5b41d202d7",
+    "short_name": "qp_2025_11_de_patoul_enregistrement",
+    "description": "QP n° 11 de Patoul 2025 — droits enregistrement immobilier",
+    "title": "Question parlementaire n° 11 de monsieur Jonathan de Patoul du 04.01.2025 (Région de Bruxelles-Capitale)",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2025_11_de_patoul_enregistrement.md",
+    "md_chars": 3599,
+    "document_type": "Questions parlementaires",
+    "document_date": "2025-01-04",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "Région de Bruxelles-Capitale",
+      "droit de vente",
+      "abattement",
+      "abattement supplémentaire",
+      "investissement économiseur d'énergie",
+      "habitation propre",
+      "exonération",
+      "statistiques"
+    ]
+  },
+  {
+    "guid": "cd553ce8-a919-4346-b133-8a8ef4cc147e",
+    "short_name": "da_2009_900_345_enregistrement",
+    "description": "Décision anticipée 2009.900.345 — droits d'enregistrement",
+    "title": "Décision anticipée n° 900.345 du 08.12.2009",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/da_2009_900_345_enregistrement.md",
+    "md_chars": 14101,
+    "document_type": "Décisions anticipées (L 24.12.2002)",
+    "document_date": "2009-12-08",
+    "taxonomies": [
+      "Rulings"
+    ],
+    "keywords": [
+      "Région de Bruxelles-Capitale",
+      "transmission à titre onéreux",
+      "bien immeuble",
+      "taux",
+      "droit d'emphytéose",
+      "tréfonds",
+      "requalification"
+    ]
+  },
+  {
+    "guid": "76259552-0395-4ee7-9fa5-cec92bb730f3",
+    "short_name": "qp_2024_58_crucke_comptes_titres",
+    "description": "QP n° 58 Crucke 2024 — taxe annuelle comptes-titres",
+    "title": "Question parlementaire n° 58 de monsieur Jean-Luc Crucke du 25.10.2024",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2024_58_crucke_comptes_titres.md",
+    "md_chars": 4626,
+    "document_type": "Questions parlementaires",
+    "document_date": "2024-10-25",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "taxe sur les comptes-titres",
+      "Cour des comptes",
+      "instrument financier",
+      "compte-titres",
+      "scission",
+      "conversion",
+      "mesure de contrôle",
+      "mesure anti-abus"
+    ]
+  },
+  {
+    "guid": "17464e21-779e-45dd-8628-3c66dec6ee59",
+    "short_name": "qp_2021_584_vermeersch_comptes_titres",
+    "description": "QP n° 584 Vermeersch 2021 — taxe comptes-titres valeurs mobilières",
+    "title": "Question parlementaire n° 584 de monsieur Wouter Vermeersch du 19.08.2021",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2021_584_vermeersch_comptes_titres.md",
+    "md_chars": 4697,
+    "document_type": "Questions parlementaires",
+    "document_date": "2021-08-19",
+    "taxonomies": [
+      "Questions parlementaires"
+    ],
+    "keywords": [
+      "rendement",
+      "procédure judiciaire",
+      "taxe sur les comptes-titres",
+      "taxe annuelle",
+      "instrument financier",
+      "base d'imposition",
+      "période imposable",
+      "impact budgétaire",
+      "estimation des recettes",
+      "valeur en bourse"
+    ]
+  },
+  {
+    "guid": "defa3f7c-750c-448b-90c8-56765037e332",
+    "short_name": "qp_2017_2437_calvo_comptes_titres",
+    "description": "QP orale n° 2437 Calvo 2017 — taxe comptes-titres",
+    "title": "Question parlementaire orale n° 2437 de monsieur Kristof Calvo et question n° 2438 de monsieur Peter Vanvelthoven du 30.11.2017",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/qp_2017_2437_calvo_comptes_titres.md",
+    "md_chars": 5941,
+    "document_type": "Questions parlementaires",
+    "document_date": "2017-11-30",
+    "taxonomies": [
+      "Questions parlementaires - Impôt des personnes physiques"
+    ],
+    "keywords": [
+      "taxe sur les comptes-titres"
+    ]
+  },
+  {
+    "guid": "2273622f-bc8c-45a9-b936-aa36d7fbed21",
+    "short_name": "ar_2024_n19_tva_franchise",
+    "description": "AR TVA n° 19 du 15.12.2024 — régime franchise petite entreprise",
+    "title": "TVA, Arrêté royal n° 19, du 15 décembre 2024, relatif au régime de la franchise de taxe sur la valeur ajoutée en faveur des petites entreprises ",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_2024_n19_tva_franchise.md",
+    "md_chars": 21311,
+    "document_type": "Arrêtés royaux",
+    "document_date": "2025-12-17",
+    "taxonomies": [
+      "Arrêtés royaux - actuel/historique"
+    ],
+    "keywords": [
+      "taxe sur la valeur ajoutée",
+      "régime particulier",
+      "petite entreprise",
+      "régime d'exonération"
+    ]
+  },
+  {
+    "guid": "18a5a136-a66a-4a2c-b1a5-3990c15d8f09",
+    "short_name": "ar_2014_n19_tva_franchise",
+    "description": "AR TVA n° 19 du 29.06.2014 — franchise TVA petite entreprise",
+    "title": "TVA, Arrêté royal n° 19, du 29 juin 2014, relatif au régime de la franchise de taxe sur la valeur ajoutée en faveur des petites entreprises.",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/ar_2014_n19_tva_franchise.md",
+    "md_chars": 27349,
+    "document_type": "Arrêtés royaux",
+    "document_date": "2024-12-15",
+    "taxonomies": [
+      "Arrêtés royaux - actuel/historique"
+    ],
+    "keywords": [
+      "régime d'exonération",
+      "petite entreprise"
+    ]
+  },
+  {
+    "guid": "1fd420a6-4fb1-481c-a347-fe03b402019c",
+    "short_name": "circ_2019_C74_protection_juridique",
+    "description": "Circulaire 2019/C/74 — réduction impôt primes protection juridique",
+    "title": "Circulaire 2019/C/74 concernant la réduction d’impôt pour les primes pour un contrat d’assurance protection juridique",
+    "md_path": "/home/user/Tax-on-web4AI/validation_dataset/md/circ_2019_C74_protection_juridique.md",
+    "md_chars": 6155,
+    "document_type": "Circulaires",
+    "document_date": "2019-07-24",
+    "taxonomies": [
+      "Circulaires - Impôt des personnes physiques",
+      "Circulaires"
+    ],
+    "keywords": [
+      "assurance protection juridique"
+    ]
   }
 ]
