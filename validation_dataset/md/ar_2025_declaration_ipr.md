@@ -1,0 +1,72 @@
+# 02.06.2025 - Arrêté royal fixant le modèle de formulaire de déclaration en matière d'impôt des non-résidents (personnes physiques) pour l'exercice d'imposition 2025
+
+**Source:** Fisconet+ document `065907be-e14c-46a1-8246-9b748604111f`
+**Date:** 2025-06-02
+
+---
+
+M.B. , 16 .06.202 5 , p. 53325
+
+Numac : 202 5004324
+
+PHILIPPE, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+Vu le Code des impôts sur les revenus 1992, l'article 307, § 1er, remplacé par la loi du 25 décembre 2017 ;
+
+Vu les lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973, l'article 3, § 1er ;
+
+Vu l'urgence ;
+
+Considérant que :
+
+- le modèle de formulaire de déclaration en matière d'impôt des non-résidents (personnes physiques) pour l'exercice d'imposition 2025 doit être fixé le plus rapidement possible afin de ne pas retarder l'établissement et le recouvrement de cet impôt ;
+
+- dans le cadre de la réalisation progressive de l' Egovernment au sein du Service public fédéral Finances, un modèle de déclaration scannable est utilisé. Par le biais du scannage, l'administration d'exécution compétente pour l'établissement de l'impôt peut directement traiter les revenus et les autres données déclarés par le contribuable dans les logiciels de calcul de l'impôt des non-résidents (personnes physiques) ;
+
+- le scannage d'un formulaire n'offre une sécurité satisfaisante que si le nombre de pages et de données à scanner est limité au strict minimum. Pour cette raison, le formulaire de déclaration pour l'exercice d'imposition 2025 sera constitué :
+
+a) pour les contribuables qui remplissent exclusivement la partie 1 :
+
+1° un volet intitulé "Document préparatoire à la déclaration à l'impôt des non-résidents (personnes physiques) - Exercice d'imposition 2025 - Revenus de l'année 2024 - partie 1" qui contient toutes les mentions nécessaires pour permettre au contribuable de remplir correctement le volet visé au 2° ;
+
+2° le formulaire de déclaration (parties 1 et 2) qui sera scanné et qui forme un relevé récapitulatif des données du document préparatoire - partie 1. C'est uniquement ce volet qui doit être renvoyé au service mentionné sur le formulaire de déclaration précité ;
+
+b) pour les contribuables qui remplissent à la fois la partie 1 et la partie 2 :
+
+1° un volet intitulé "Document préparatoire à la déclaration à l'impôt des non-résidents (personnes physiques) - Exercice d'imposition 2025 - Revenus de l'année 2024 - partie 1" qui contient toutes les mentions nécessaires pour permettre au contribuable de remplir correctement le volet visé au 3° ;
+
+2° un volet intitulé "Document préparatoire à la déclaration à l'impôt des non-résidents (personnes physiques) - Exercice d'imposition 2025 - Revenus de l'année 2024 - partie 2" qui contient toutes les mentions nécessaires pour permettre au contribuable de remplir correctement le volet visé au 3° ;
+
+3° le formulaire de déclaration (parties 1 et 2) qui sera scanné et qui forme un relevé récapitulatif des données du document préparatoire - partie 1 et partie 2. C'est uniquement ce volet qui doit être renvoyé au service mentionné sur le formulaire de déclaration précité ;
+
+- cet arrêté doit dès lors être pris d'urgence ;
+
+Sur la proposition du Ministre des Finances,
+
+Nous avons arrêté et arrêtons :
+
+Article 1er. Le modèle de formulaire de déclaration en matière d'impôt des non-résidents (personnes physiques) pour l'exercice d'imposition 2025 est déterminé à l'annexe au présent arrêté.
+
+Ce formulaire consiste en trois volets :
+
+1° un volet intitulé "Document préparatoire à la déclaration à l'impôt des non-résidents (personnes physiques) - Exercice d'imposition 2025 - Revenus de l'année 2024 - partie 1" qui contient toutes les mentions nécessaires afin de remplir correctement le volet visé au 3° ;
+
+2° un volet intitulé "Document préparatoire à la déclaration à l'impôt des non-résidents (personnes physiques) - Exercice d'imposition 2025 - Revenus de l'année 2024 - partie 2" qui contient toutes les mentions nécessaires afin de remplir correctement le volet visé au 3° ;
+
+3° un volet intitulé "Déclaration à l'impôt des non-résidents (personnes physiques) - Exercice d'imposition 2025 v Revenus 2024 v partie 1 & 2" qui doit être renvoyé au service mentionné sur le formulaire de déclaration précité.
+
+Art. 2. Le ministre qui a les Finances dans ses attributions, est chargé de l'exécution du présent arrêté.
+
+Donné à Bruxelles, le 2 juin 2025.
+
+PHILIPPE
+
+Par le Roi :
+
+Le Ministre des Finances,
+
+J. JAMBON
+
+ANNEXE

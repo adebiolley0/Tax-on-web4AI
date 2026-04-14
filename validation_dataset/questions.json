@@ -156,5 +156,84 @@
     "topic": "business_income_growth_credit",
     "expected_docs": ["circ_2026_C5_credit_croissance"],
     "expected_keywords": ["crédit d'impôt", "croissance", "revenus", "indépendant", "augmentation"]
+  },
+  {
+    "id": "Q22",
+    "question": "Comment sont imposées mes allocations de chômage ou mes indemnités de maladie?",
+    "topic": "replacement_income_unemployment",
+    "expected_docs": ["cir92_2022_art_147_revenus_remplacement"],
+    "secondary_docs": ["cir92_2015_art_146_revenus_remplacement", "cir92_2022_art_154_revenus_remplacement"],
+    "expected_keywords": ["revenus de remplacement", "allocations", "chômage", "réduction d'impôt", "article 147"]
+  },
+  {
+    "id": "Q23",
+    "question": "Comment sont fiscalement traités les stock options et warrants que mon employeur m'attribue?",
+    "topic": "stock_options_warrants_taxation",
+    "expected_docs": ["qp_2016_840_van_de_velde_stock_options"],
+    "secondary_docs": ["da_2024_0682_warrants", "da_2013_219_stock_options"],
+    "expected_keywords": ["stock options", "warrants", "attribution", "avantage imposable", "rémunération"]
+  },
+  {
+    "id": "Q24",
+    "question": "Je travaille régulièrement à domicile, puis-je déduire des frais de bureau à domicile en tant que salarié?",
+    "topic": "remote_work_home_office_expenses",
+    "expected_docs": ["da_2016_335_telework_home_office"],
+    "secondary_docs": ["da_2017_591_telework_frais", "da_2017_139_bureau_domicile"],
+    "expected_keywords": ["télétravail", "bureau", "domicile", "frais professionnels", "home office"]
+  },
+  {
+    "id": "Q25",
+    "question": "J'ai une voiture de société et des chèques-repas, comment ces avantages en nature sont-ils imposés?",
+    "topic": "benefits_in_kind_company_car_meal_vouchers",
+    "expected_docs": ["com_2019_art_38_cir92_atn"],
+    "secondary_docs": ["com_2019_art_32_cir92_remuneration", "da_2025_0741_avantages_nature"],
+    "expected_keywords": ["avantages de toute nature", "chèques-repas", "voiture de société", "exonération", "rémunération"]
+  },
+  {
+    "id": "Q26",
+    "question": "Quel est le taux du précompte mobilier retenu sur mes dividendes d'actions belges?",
+    "topic": "withholding_tax_dividends",
+    "expected_docs": ["com_2019_art_269_cir92_taux_precompte"],
+    "secondary_docs": ["cir92_2004_art_283_precompte_mobilier", "com_2019_art_282_cir92_precompte_mobilier"],
+    "expected_keywords": ["précompte mobilier", "dividendes", "taux", "30 %", "article 269"]
+  },
+  {
+    "id": "Q27",
+    "question": "Puis-je déduire mes primes d'assurance-vie dans le cadre de la réduction d'impôt pour épargne à long terme?",
+    "topic": "long_term_savings_life_insurance_deduction",
+    "expected_docs": ["com_2019_art_117_cir92_epargne_lt"],
+    "secondary_docs": ["com_2019_art_118_cir92_epargne_lt", "com_2019_art_122_cir92_epargne_lt"],
+    "expected_keywords": ["épargne à long terme", "assurance vie", "réduction d'impôt", "article 145", "primes"]
+  },
+  {
+    "id": "Q28",
+    "question": "Je loue mon appartement via une plateforme collaborative, comment déclarer ces revenus?",
+    "topic": "collaborative_economy_platform_income",
+    "expected_docs": ["circ_2021_C44_economie_collaborative"],
+    "secondary_docs": ["faq_2018_economie_collaborative"],
+    "expected_keywords": ["économie collaborative", "plateforme", "revenus", "déclaration", "location"]
+  },
+  {
+    "id": "Q29",
+    "question": "Y a-t-il un impôt sur les plus-values que je réalise en vendant mes actions en Bourse?",
+    "topic": "capital_gains_shares_taxation",
+    "expected_docs": ["circ_2026_C33_cotisation_plus_values_actions"],
+    "secondary_docs": ["cir92_2015_art_44_plus_values_exoneration", "qp_2025_97_vereeck_plus_value_actions"],
+    "expected_keywords": ["plus-values", "actions", "cotisation distincte", "bourse", "article 90"]
+  },
+  {
+    "id": "Q30",
+    "question": "Mon assurance de protection juridique me donne-t-elle droit à une réduction d'impôt?",
+    "topic": "legal_protection_insurance_tax_reduction",
+    "expected_docs": ["circ_2019_C74_protection_juridique"],
+    "expected_keywords": ["protection juridique", "réduction d'impôt", "primes", "contrat", "article 145"]
+  },
+  {
+    "id": "Q31",
+    "question": "Quelle est la fiscalité applicable à mon régime de pension complémentaire ou assurance groupe via mon employeur?",
+    "topic": "group_insurance_complementary_pension",
+    "expected_docs": ["qp_2008_115_claes_assurance_groupe"],
+    "secondary_docs": ["qp_2009_16_claes_pension_complementaire", "jp_2024_cour_const_54_pension_comp"],
+    "expected_keywords": ["assurance groupe", "pension complémentaire", "EIP", "imposition", "avantage"]
   }
 ]
