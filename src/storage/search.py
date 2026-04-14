@@ -24,6 +24,8 @@ from typing import Sequence
 from qdrant_client import QdrantClient, models
 
 from models import Chunk, EmbeddedChunk
+from sentence_transformers import SentenceTransformer
+
 from storage.embedder import embed_texts, get_model
 
 logger = logging.getLogger(__name__)
@@ -226,13 +228,17 @@ def _build_filter(filters: dict | None) -> models.Filter | None:
     )
 
 
-def _encode_token_embeddings(texts: list[str]) -> list[list[list[float]]]:
+def _encode_token_embeddings(
+    texts: list[str],
+    model: SentenceTransformer | None = None,
+) -> list[list[list[float]]]:
     """Encode texts as token-level embeddings for ColBERT-style multi-vectors.
 
-    Uses the same MiniLM model as the dense embedder. Returns a list of
-    variable-length token-vector sequences (one per input text).
+    Uses *model* if provided, otherwise falls back to the default singleton.
+    Returns a list of variable-length token-vector sequences (one per input text).
     """
-    model = get_model()
+    if model is None:
+        model = get_model()
     token_embs = model.encode(
         texts,
         output_value="token_embeddings",
@@ -645,17 +651,25 @@ class FullVectorStore:
         self.bm25 = BM25Encoder()
 
     def setup_collection(
-        self, client: QdrantClient, collection_name: str
+        self,
+        client: QdrantClient,
+        collection_name: str,
+        vector_size: int = DENSE_VECTOR_SIZE,
     ) -> None:
+        """Create the Qdrant collection with dense + sparse + ColBERT vectors.
+
+        *vector_size* must match the embedding dimension of the model that
+        will be used to index and query this collection.
+        """
         client.create_collection(
             collection_name=collection_name,
             vectors_config={
                 "dense": models.VectorParams(
-                    size=DENSE_VECTOR_SIZE,
+                    size=vector_size,
                     distance=models.Distance.COSINE,
                 ),
                 "colbert": models.VectorParams(
-                    size=DENSE_VECTOR_SIZE,
+                    size=vector_size,
                     distance=models.Distance.COSINE,
                     multivector_config=models.MultiVectorConfig(
                         comparator=models.MultiVectorComparator.MAX_SIM,
@@ -677,14 +691,21 @@ class FullVectorStore:
         collection_name: str,
         chunks: Sequence[Chunk],
         embedded_chunks: Sequence[EmbeddedChunk],
+        model: SentenceTransformer | None = None,
     ) -> int:
+        """Index chunks into Qdrant with dense, sparse, and ColBERT vectors.
+
+        *model* is used for ColBERT token-level embeddings.  When omitted the
+        default singleton model is used (must match the model that produced
+        *embedded_chunks*).
+        """
         if not self.bm25._fitted:
             self.bm25.fit([c.chunk_text for c in chunks])
 
         sparse_vecs = self.bm25.encode_batch([c.chunk_text for c in chunks])
 
         texts = [c.chunk_text for c in chunks]
-        token_vecs = _encode_token_embeddings(texts)
+        token_vecs = _encode_token_embeddings(texts, model=model)
 
         points = [
             models.PointStruct(
