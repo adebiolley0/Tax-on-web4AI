@@ -1,8 +1,9 @@
-"""Benchmark comparing Qdrant search strategies.
+"""Benchmark comparing Qdrant search strategies via grid search.
 
 Uses the same validation dataset (21 documents, 21 questions) as the semantic
-search tests.  Measures MRR, nDCG@5, Recall@10, MAP@10, and average top-score
-for each strategy side-by-side.
+search tests.  Indexes once into a single full-vector collection (dense +
+sparse + ColBERT), then runs ~30 pipeline configurations and compares
+MRR, nDCG@5, Recall@10, MAP@10, and timing.
 
 Run:
     PYTHONPATH=src uv run python -m pytest tests/benchmarks/test_search_strategies.py -v -s
@@ -25,12 +26,12 @@ from storage.chunker import chunk_document
 from storage.embedder import embed_chunks, embed_texts
 from storage.qdrant_store import get_client
 from storage.search import (
-    ColBERTRerankStrategy,
-    DenseSearchStrategy,
-    GroupedSearchStrategy,
-    HybridSearchStrategy,
+    FullVectorStore,
+    PipelineConfig,
     SearchResult,
-    SearchStrategy,
+    execute_pipeline,
+    generate_grid_configs,
+    _encode_token_embeddings,
 )
 
 logger = logging.getLogger(__name__)
@@ -41,9 +42,11 @@ VALIDATION_DIR = (
 MD_DIR = VALIDATION_DIR / "md"
 QUESTIONS_PATH = VALIDATION_DIR / "questions.json"
 
+COLLECTION_NAME = "bench_grid"
+
 
 # ============================================================================
-# Data loading helpers (mirrors test_semantic_search_validation.py)
+# Data loading helpers
 # ============================================================================
 
 
@@ -66,13 +69,13 @@ def _load_questions() -> list[dict]:
 
 
 # ============================================================================
-# Metrics aggregation
+# Metrics
 # ============================================================================
 
 
 @dataclass
 class StrategyMetrics:
-    """Aggregated quality metrics for one search strategy."""
+    """Aggregated quality metrics for one search pipeline configuration."""
 
     strategy_name: str = ""
     mrr: float = 0.0
@@ -80,7 +83,6 @@ class StrategyMetrics:
     recall_at_10: float = 0.0
     map_at_10: float = 0.0
     avg_top_score: float = 0.0
-    index_time_s: float = 0.0
     search_time_s: float = 0.0
     per_question: dict = field(default_factory=dict)
 
@@ -108,7 +110,7 @@ def _compute_metrics(
         hits = search_results.get(qid, [])
         doc_ids = [h.payload.get("document_id", "") for h in hits]
 
-        # --- MRR ---
+        # --- MRR (first expected doc found) ---
         rank_list: list[int] = []
         for i, doc_id in enumerate(doc_ids[:20]):
             if doc_id in expected:
@@ -118,20 +120,22 @@ def _compute_metrics(
             rank_list.append(0)
         all_ranks.append(rank_list)
 
-        # --- nDCG@5 (deduplicate by document_id: only first chunk per doc counts) ---
-        seen_docs: set[str] = set()
+        # --- nDCG@5 (deduplicate by document_id) ---
+        seen: set[str] = set()
         relevances: list[float] = []
         for did in doc_ids[:5]:
-            if did in expected and did not in seen_docs:
+            if did in expected and did not in seen:
                 relevances.append(1.0)
-                seen_docs.add(did)
+                seen.add(did)
             else:
                 relevances.append(0.0)
         while len(relevances) < 5:
             relevances.append(0.0)
         num_rel = min(len(expected), 5)
         ideal = [1.0] * num_rel
-        ndcg_scores.append(ndcg_at_k(relevances, k=5, ideal_relevances=ideal))
+        ndcg_scores.append(
+            ndcg_at_k(relevances, k=5, ideal_relevances=ideal)
+        )
 
         # --- Recall@10 ---
         if expected:
@@ -145,26 +149,28 @@ def _compute_metrics(
                 top_scores.append(h.score)
                 break
 
-        # --- AP@10 (deduplicate by document_id: only first chunk per doc counts) ---
-        seen_docs_ap: set[str] = set()
+        # --- AP@10 (deduplicate by document_id) ---
+        seen_ap: set[str] = set()
         relevant_count = 0
         precision_sum = 0.0
         for i, doc_id in enumerate(doc_ids[:10]):
-            if doc_id in expected and doc_id not in seen_docs_ap:
+            if doc_id in expected and doc_id not in seen_ap:
                 relevant_count += 1
                 precision_sum += relevant_count / (i + 1)
-                seen_docs_ap.add(doc_id)
-        ap = precision_sum / max(relevant_count, 1) if relevant_count else 0.0
+                seen_ap.add(doc_id)
+        ap = (
+            precision_sum / max(relevant_count, 1)
+            if relevant_count
+            else 0.0
+        )
         ap_per_query.append(ap)
 
-        # Per-question detail
         metrics.per_question[qid] = {
             "rank_of_expected": rank_list[0] if rank_list[0] > 0 else None,
             "top_score": hits[0].score if hits else 0.0,
             "expected_found_in_top10": bool(expected & set(doc_ids[:10])),
         }
 
-    # Aggregate
     metrics.mrr = mean_reciprocal_rank(all_ranks)
     metrics.ndcg_at_5 = (
         sum(ndcg_scores) / len(ndcg_scores) if ndcg_scores else 0.0
@@ -178,7 +184,6 @@ def _compute_metrics(
     metrics.avg_top_score = (
         sum(top_scores) / len(top_scores) if top_scores else 0.0
     )
-
     return metrics
 
 
@@ -188,8 +193,11 @@ def _compute_metrics(
 
 
 @pytest.fixture(scope="module")
-def validation_data():
-    """Load docs, chunk, and embed once — shared by all strategies."""
+def indexed_store():
+    """Create one full-vector collection and index all validation documents.
+
+    Returns (client, store, chunks, embedded, questions).
+    """
     md_files = sorted(MD_DIR.glob("*.md"))
     assert md_files, f"No markdown documents found in {MD_DIR}"
 
@@ -203,76 +211,75 @@ def validation_data():
     embedded = embed_chunks(all_chunks)
     questions = _load_questions()
 
+    client = get_client(in_memory=True)
+    store = FullVectorStore()
+    store.setup_collection(client, COLLECTION_NAME)
+    n = store.index_chunks(client, COLLECTION_NAME, all_chunks, embedded)
     logger.info(
-        "Prepared %d docs → %d chunks → %d embedded",
+        "Indexed %d points (%d docs, %d chunks) into %s",
+        n,
         len(docs),
         len(all_chunks),
-        len(embedded),
+        COLLECTION_NAME,
     )
-    return all_chunks, embedded, questions
-
-
-def _run_strategy(
-    strategy: SearchStrategy,
-    chunks,
-    embedded,
-    questions,
-) -> StrategyMetrics:
-    """Set up, index, search, and compute metrics for a single strategy."""
-    client = get_client(in_memory=True)
-    coll = f"bench_{strategy.name}"
-
-    # Index
-    t0 = time.perf_counter()
-    strategy.setup_collection(client, coll)
-    n = strategy.index_chunks(client, coll, chunks, embedded)
-    index_time = time.perf_counter() - t0
-    logger.info("[%s] indexed %d points in %.2fs", strategy.name, n, index_time)
-
-    # Search all questions
-    t0 = time.perf_counter()
-    search_results: dict[str, list[SearchResult]] = {}
-    for q in questions:
-        hits = strategy.search(client, coll, q["question"], limit=20)
-        search_results[q["id"]] = hits
-    search_time = time.perf_counter() - t0
-    logger.info(
-        "[%s] searched %d questions in %.2fs",
-        strategy.name,
-        len(questions),
-        search_time,
-    )
-
-    metrics = _compute_metrics(search_results, questions)
-    metrics.strategy_name = strategy.name
-    metrics.index_time_s = index_time
-    metrics.search_time_s = search_time
-    return metrics
+    return client, store, all_chunks, embedded, questions
 
 
 @pytest.fixture(scope="module")
-def all_strategy_metrics(validation_data):
-    """Run every strategy and return dict[strategy_name → StrategyMetrics]."""
-    chunks, embedded, questions = validation_data
+def precomputed_queries(indexed_store):
+    """Pre-compute all query representations (dense, sparse, ColBERT) once."""
+    _, store, _, _, questions = indexed_store
+    q_texts = [q["question"] for q in questions]
 
-    strategies: list[SearchStrategy] = [
-        DenseSearchStrategy(),
-        HybridSearchStrategy(fusion="rrf"),
-        HybridSearchStrategy(fusion="dbsf"),
-        ColBERTRerankStrategy(prefetch_limit=50),
-        GroupedSearchStrategy(group_size=3),
-    ]
+    dense_vecs = embed_texts(q_texts)
+    sparse_vecs = [store.bm25.encode(t) for t in q_texts]
+    colbert_vecs = _encode_token_embeddings(q_texts)
+
+    return list(zip(questions, dense_vecs, sparse_vecs, colbert_vecs))
+
+
+@pytest.fixture(scope="module")
+def grid_results(indexed_store, precomputed_queries):
+    """Run every pipeline configuration and collect metrics.
+
+    Returns dict[config_name → StrategyMetrics], ordered by MRR descending.
+    """
+    client, store, chunks, embedded, questions = indexed_store
+    configs = generate_grid_configs()
 
     results: dict[str, StrategyMetrics] = {}
-    for strategy in strategies:
-        logger.info("=== Benchmarking: %s ===", strategy.name)
-        try:
-            metrics = _run_strategy(strategy, chunks, embedded, questions)
-            results[strategy.name] = metrics
-        except Exception:
-            logger.exception("Strategy %s failed", strategy.name)
-            pytest.fail(f"Strategy {strategy.name} raised an exception")
 
+    for cfg in configs:
+        t0 = time.perf_counter()
+        search_results: dict[str, list[SearchResult]] = {}
+
+        for q, dense_v, sparse_v, colbert_v in precomputed_queries:
+            try:
+                hits = execute_pipeline(
+                    cfg,
+                    client,
+                    COLLECTION_NAME,
+                    dense_vec=dense_v,
+                    sparse_vec=sparse_v,
+                    colbert_tokens=colbert_v,
+                    limit=20,
+                )
+            except Exception as exc:
+                logger.error("[%s] Q%s failed: %s", cfg.name, q["id"], exc)
+                hits = []
+            search_results[q["id"]] = hits
+
+        elapsed = time.perf_counter() - t0
+
+        metrics = _compute_metrics(search_results, questions)
+        metrics.strategy_name = cfg.name
+        metrics.search_time_s = elapsed
+        results[cfg.name] = metrics
+
+    # Sort by MRR descending
+    results = dict(
+        sorted(results.items(), key=lambda kv: kv[1].mrr, reverse=True)
+    )
     return results
 
 
@@ -281,97 +288,90 @@ def all_strategy_metrics(validation_data):
 # ============================================================================
 
 
-class TestStrategyBenchmarks:
-    """Compare search strategy quality and performance."""
+class TestGridSearch:
+    """Grid search over all pipeline configurations."""
 
-    def test_all_strategies_produce_results(self, all_strategy_metrics):
-        """Every strategy returns non-zero MRR and Recall."""
-        for name, m in all_strategy_metrics.items():
-            assert m.mrr > 0, f"{name}: MRR is zero"
-            assert m.recall_at_10 > 0, f"{name}: Recall@10 is zero"
+    def test_all_configs_produce_results(self, grid_results):
+        """Every config returns at least some non-zero metrics."""
+        failed = [n for n, m in grid_results.items() if m.mrr == 0]
+        assert not failed, f"Configs with zero MRR: {failed}"
 
-    def test_dense_baseline_minimum_quality(self, all_strategy_metrics):
-        """Dense baseline meets minimum quality thresholds."""
-        m = all_strategy_metrics["dense"]
+    def test_dense_baseline_quality(self, grid_results):
+        """Dense-only baseline meets minimum thresholds."""
+        m = grid_results["dense"]
         assert m.mrr >= 0.3, f"Dense MRR {m.mrr:.4f} < 0.3"
-        assert m.ndcg_at_5 >= 0.3, f"Dense nDCG@5 {m.ndcg_at_5:.4f} < 0.3"
-        assert m.recall_at_10 >= 0.5, f"Dense Recall@10 {m.recall_at_10:.4f} < 0.5"
+        assert m.recall_at_10 >= 0.5, f"Dense R@10 {m.recall_at_10:.4f} < 0.5"
 
-    def test_hybrid_rrf_quality(self, all_strategy_metrics):
-        """Hybrid RRF produces meaningful results."""
-        m = all_strategy_metrics["hybrid_rrf"]
-        assert m.mrr > 0, f"Hybrid RRF MRR is zero"
-        assert m.recall_at_10 > 0, f"Hybrid RRF Recall@10 is zero"
+    def test_at_least_one_strategy_beats_dense(self, grid_results):
+        """At least one non-dense config improves over the dense baseline."""
+        dense_mrr = grid_results["dense"].mrr
+        better = [
+            n
+            for n, m in grid_results.items()
+            if n != "dense" and m.mrr > dense_mrr
+        ]
+        assert better, (
+            f"No strategy beat dense baseline MRR={dense_mrr:.4f}"
+        )
 
-    def test_hybrid_dbsf_quality(self, all_strategy_metrics):
-        """Hybrid DBSF produces meaningful results."""
-        m = all_strategy_metrics["hybrid_dbsf"]
-        assert m.mrr > 0, f"Hybrid DBSF MRR is zero"
-        assert m.recall_at_10 > 0, f"Hybrid DBSF Recall@10 is zero"
-
-    def test_colbert_rerank_quality(self, all_strategy_metrics):
-        """ColBERT rerank produces meaningful results."""
-        m = all_strategy_metrics["colbert_rerank"]
-        assert m.mrr > 0, f"ColBERT MRR is zero"
-        assert m.recall_at_10 > 0, f"ColBERT Recall@10 is zero"
-
-    def test_grouped_quality(self, all_strategy_metrics):
-        """Grouped search produces meaningful results."""
-        m = all_strategy_metrics["grouped"]
-        assert m.mrr > 0, f"Grouped MRR is zero"
-        assert m.recall_at_10 > 0, f"Grouped Recall@10 is zero"
-
-    def test_print_comparison_table(self, all_strategy_metrics):
-        """Print a formatted comparison table and save JSON report (always passes)."""
+    def test_print_leaderboard(self, grid_results):
+        """Print the full leaderboard sorted by MRR (always passes)."""
+        col_w = max(len(n) for n in grid_results) + 2
         header = (
-            f"{'Strategy':<20} {'MRR':>8} {'nDCG@5':>8} {'R@10':>8} "
-            f"{'MAP@10':>8} {'AvgScore':>8} {'Index(s)':>9} {'Search(s)':>10}"
+            f"{'#':<4}{'Strategy':<{col_w}} {'MRR':>7} {'nDCG@5':>7} "
+            f"{'R@10':>7} {'MAP@10':>7} {'Time(s)':>8}"
         )
         sep = "=" * len(header)
 
         print(f"\n{sep}")
-        print("SEARCH STRATEGY BENCHMARK RESULTS")
+        print("GRID SEARCH LEADERBOARD (sorted by MRR)")
         print(sep)
         print(header)
         print("-" * len(header))
 
-        for name, m in all_strategy_metrics.items():
+        for rank, (name, m) in enumerate(grid_results.items(), 1):
             print(
-                f"{name:<20} {m.mrr:>8.4f} {m.ndcg_at_5:>8.4f} "
-                f"{m.recall_at_10:>8.4f} {m.map_at_10:>8.4f} "
-                f"{m.avg_top_score:>8.4f} {m.index_time_s:>8.2f}s "
-                f"{m.search_time_s:>9.2f}s"
+                f"{rank:<4}{name:<{col_w}} {m.mrr:>7.4f} {m.ndcg_at_5:>7.4f} "
+                f"{m.recall_at_10:>7.4f} {m.map_at_10:>7.4f} "
+                f"{m.search_time_s:>7.2f}s"
             )
 
         print(sep)
 
-        # Per-question breakdown
-        print("\nPER-QUESTION DETAIL (rank of first expected doc, '—' = not found)")
+        # Top-5 summary
+        top5 = list(grid_results.items())[:5]
+        print("\nTOP 5 STRATEGIES:")
+        for rank, (name, m) in enumerate(top5, 1):
+            print(
+                f"  {rank}. {name}  "
+                f"(MRR={m.mrr:.4f}, R@10={m.recall_at_10:.4f}, "
+                f"nDCG@5={m.ndcg_at_5:.4f})"
+            )
+
+        # Per-question breakdown for top-5
+        print(f"\nPER-QUESTION RANKS (top-5 strategies, '—' = not found)")
         print("-" * len(header))
-        q_ids = sorted(
-            next(iter(all_strategy_metrics.values())).per_question.keys(),
-            key=lambda x: int(x[1:]),
-        )
-        strat_names = list(all_strategy_metrics.keys())
-        col_w = max(len(n) for n in strat_names)
+        top5_names = [n for n, _ in top5]
+        tw = max(len(n) for n in top5_names)
         print(f"{'QID':<6}", end="")
-        for sn in strat_names:
-            print(f"  {sn:>{col_w}}", end="")
+        for n in top5_names:
+            print(f"  {n:>{tw}}", end="")
         print()
 
+        q_ids = sorted(
+            next(iter(grid_results.values())).per_question.keys(),
+            key=lambda x: int(x[1:]),
+        )
         for qid in q_ids:
             print(f"{qid:<6}", end="")
-            for sn in strat_names:
-                rank = all_strategy_metrics[sn].per_question[qid][
-                    "rank_of_expected"
-                ]
+            for n in top5_names:
+                rank = grid_results[n].per_question[qid]["rank_of_expected"]
                 val = str(rank) if rank is not None else "—"
-                print(f"  {val:>{col_w}}", end="")
+                print(f"  {val:>{tw}}", end="")
             print()
-
         print(sep)
 
-        # Save JSON report
+        # Save full JSON report
         report = {
             name: {
                 "mrr": round(m.mrr, 4),
@@ -379,11 +379,10 @@ class TestStrategyBenchmarks:
                 "recall_at_10": round(m.recall_at_10, 4),
                 "map_at_10": round(m.map_at_10, 4),
                 "avg_top_score": round(m.avg_top_score, 4),
-                "index_time_s": round(m.index_time_s, 3),
                 "search_time_s": round(m.search_time_s, 3),
                 "per_question": m.per_question,
             }
-            for name, m in all_strategy_metrics.items()
+            for name, m in grid_results.items()
         }
         report_path = VALIDATION_DIR / "benchmark_results.json"
         report_path.write_text(

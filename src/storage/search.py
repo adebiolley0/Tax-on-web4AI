@@ -1,15 +1,14 @@
 """Qdrant search strategies with a unified interface.
 
-Each strategy provides:
-- setup_collection(): create the Qdrant collection with appropriate vector config
-- index_chunks(): store documents with strategy-specific vectors
-- search(): execute the search and return ranked results
+Part 1 – Individual strategy classes (SearchStrategy ABC):
+    DenseSearchStrategy, HybridSearchStrategy, ColBERTRerankStrategy,
+    GroupedSearchStrategy.  Each owns its collection layout.
 
-Strategies:
-1. DenseSearchStrategy     – Baseline cosine similarity (single dense vector)
-2. HybridSearchStrategy    – Dense + BM25 sparse with RRF/DBSF fusion
-3. ColBERTRerankStrategy   – Two-stage: dense prefetch → ColBERT multi-vector rerank
-4. GroupedSearchStrategy   – Dense search grouped by document_id for diversity
+Part 2 – Composable grid-search infrastructure:
+    PipelineConfig   – declarative description of a multi-stage pipeline.
+    FullVectorStore  – single collection holding dense + sparse + ColBERT vectors.
+    execute_pipeline – builds the nested Qdrant query tree from a PipelineConfig.
+    generate_grid_configs – enumerates all valid config combinations.
 """
 
 from __future__ import annotations
@@ -19,7 +18,7 @@ import math
 import re
 from abc import ABC, abstractmethod
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Sequence
 
 from qdrant_client import QdrantClient, models
@@ -594,3 +593,362 @@ class GroupedSearchStrategy(SearchStrategy):
                         SearchResult(score=hit.score, payload=hit.payload)
                     )
         return results
+
+
+# ############################################################################
+#  Part 2 – Composable grid-search infrastructure
+# ############################################################################
+
+
+@dataclass
+class PipelineConfig:
+    """Declarative description of a multi-stage Qdrant search pipeline.
+
+    Any combination of the flags below is valid.  ``execute_pipeline``
+    translates the config into the right nested-prefetch query tree.
+    """
+
+    name: str = "dense"
+
+    # Stage 1 – retrieval branches
+    use_dense: bool = True
+    use_sparse: bool = False
+
+    # Fusion (only when both dense and sparse are active)
+    fusion: str | None = None  # "rrf" | "dbsf"
+
+    # Per-branch prefetch limit (hybrid) or dense-only prefetch
+    prefetch_limit: int = 20
+
+    # Stage 2 – ColBERT multi-vector reranking
+    use_colbert_rerank: bool = False
+    colbert_candidates: int = 50  # how many to feed into ColBERT
+
+    # Result grouping (document-level diversity)
+    use_grouping: bool = False
+    group_size: int = 3
+    group_limit: int = 10  # max distinct documents
+
+
+# ---------------------------------------------------------------------------
+# Full-vector collection (dense + sparse + colbert in one collection)
+# ---------------------------------------------------------------------------
+
+
+class FullVectorStore:
+    """Collection with all three vector types for grid-search benchmarking.
+
+    One indexing pass; many search configurations.
+    """
+
+    def __init__(self) -> None:
+        self.bm25 = BM25Encoder()
+
+    def setup_collection(
+        self, client: QdrantClient, collection_name: str
+    ) -> None:
+        client.create_collection(
+            collection_name=collection_name,
+            vectors_config={
+                "dense": models.VectorParams(
+                    size=DENSE_VECTOR_SIZE,
+                    distance=models.Distance.COSINE,
+                ),
+                "colbert": models.VectorParams(
+                    size=DENSE_VECTOR_SIZE,
+                    distance=models.Distance.COSINE,
+                    multivector_config=models.MultiVectorConfig(
+                        comparator=models.MultiVectorComparator.MAX_SIM,
+                    ),
+                    hnsw_config=models.HnswConfigDiff(m=0),
+                ),
+            },
+            sparse_vectors_config={
+                "sparse": models.SparseVectorParams(
+                    modifier=models.Modifier.IDF,
+                ),
+            },
+        )
+        _create_payload_indexes(client, collection_name)
+
+    def index_chunks(
+        self,
+        client: QdrantClient,
+        collection_name: str,
+        chunks: Sequence[Chunk],
+        embedded_chunks: Sequence[EmbeddedChunk],
+    ) -> int:
+        if not self.bm25._fitted:
+            self.bm25.fit([c.chunk_text for c in chunks])
+
+        sparse_vecs = self.bm25.encode_batch([c.chunk_text for c in chunks])
+
+        texts = [c.chunk_text for c in chunks]
+        token_vecs = _encode_token_embeddings(texts)
+
+        points = [
+            models.PointStruct(
+                id=i,
+                vector={
+                    "dense": ec.vector,
+                    "sparse": sparse_vecs[i],
+                    "colbert": token_vecs[i],
+                },
+                payload=_chunk_to_payload(ec.chunk),
+            )
+            for i, ec in enumerate(embedded_chunks)
+        ]
+        client.upsert(collection_name=collection_name, points=points)
+        logger.info("Full-vector store: indexed %d points", len(points))
+        return len(points)
+
+
+# ---------------------------------------------------------------------------
+# Pipeline executor
+# ---------------------------------------------------------------------------
+
+
+def execute_pipeline(
+    config: PipelineConfig,
+    client: QdrantClient,
+    collection_name: str,
+    dense_vec: list[float],
+    sparse_vec: models.SparseVector,
+    colbert_tokens: list[list[float]],
+    limit: int = 10,
+    filters: dict | None = None,
+) -> list[SearchResult]:
+    """Execute a search pipeline described by *config*.
+
+    Builds the appropriate nested-prefetch / fusion / rerank / group query
+    and runs it against a :class:`FullVectorStore` collection.
+    """
+    qf = _build_filter(filters)
+
+    # -- Stage 1: build retrieval query/prefetch --------------------------
+    if config.use_dense and config.use_sparse and config.fusion:
+        # Hybrid: two prefetch branches → fusion
+        retrieval_prefetch: list[models.Prefetch] | models.Prefetch | None = [
+            models.Prefetch(
+                query=sparse_vec,
+                using="sparse",
+                limit=config.prefetch_limit,
+            ),
+            models.Prefetch(
+                query=dense_vec,
+                using="dense",
+                limit=config.prefetch_limit,
+            ),
+        ]
+        fusion_enum = (
+            models.Fusion.RRF
+            if config.fusion == "rrf"
+            else models.Fusion.DBSF
+        )
+        retrieval_query = models.FusionQuery(fusion=fusion_enum)
+        retrieval_using = None
+    elif config.use_sparse and not config.use_dense:
+        retrieval_prefetch = None
+        retrieval_query = sparse_vec
+        retrieval_using = "sparse"
+    else:
+        # Dense only (default)
+        retrieval_prefetch = None
+        retrieval_query = dense_vec
+        retrieval_using = "dense"
+
+    # -- Stage 2: optional ColBERT reranking ------------------------------
+    if config.use_colbert_rerank:
+        if retrieval_prefetch is not None:
+            # Wrap hybrid fusion inside a single Prefetch so ColBERT
+            # rescores the fused candidates.
+            stage1 = models.Prefetch(
+                prefetch=retrieval_prefetch,
+                query=retrieval_query,
+                limit=config.colbert_candidates,
+            )
+        else:
+            stage1 = models.Prefetch(
+                query=retrieval_query,
+                using=retrieval_using,
+                limit=config.colbert_candidates,
+            )
+        final_prefetch: list[models.Prefetch] | models.Prefetch | None = (
+            stage1
+        )
+        final_query = colbert_tokens
+        final_using: str | None = "colbert"
+    else:
+        final_prefetch = retrieval_prefetch
+        final_query = retrieval_query
+        final_using = retrieval_using
+
+    # -- Stage 3: execute (flat or grouped) --------------------------------
+    if config.use_grouping:
+        kwargs_g: dict = dict(
+            collection_name=collection_name,
+            query=final_query,
+            group_by="document_id",
+            limit=config.group_limit,
+            group_size=config.group_size,
+            with_payload=True,
+        )
+        if final_prefetch is not None:
+            kwargs_g["prefetch"] = final_prefetch
+        if final_using is not None:
+            kwargs_g["using"] = final_using
+        if qf is not None:
+            kwargs_g["query_filter"] = qf
+
+        resp_g = client.query_points_groups(**kwargs_g)
+
+        results: list[SearchResult] = []
+        for round_idx in range(config.group_size):
+            for group in resp_g.groups:
+                if round_idx < len(group.hits):
+                    h = group.hits[round_idx]
+                    results.append(
+                        SearchResult(score=h.score, payload=h.payload)
+                    )
+        return results
+
+    # Flat (non-grouped) search
+    kwargs_q: dict = dict(
+        collection_name=collection_name,
+        query=final_query,
+        limit=limit,
+        with_payload=True,
+    )
+    if final_prefetch is not None:
+        kwargs_q["prefetch"] = final_prefetch
+    if final_using is not None:
+        kwargs_q["using"] = final_using
+    if qf is not None:
+        kwargs_q["query_filter"] = qf
+
+    resp = client.query_points(**kwargs_q)
+    return [
+        SearchResult(score=p.score, payload=p.payload) for p in resp.points
+    ]
+
+
+# ---------------------------------------------------------------------------
+# Grid configuration generator
+# ---------------------------------------------------------------------------
+
+
+def generate_grid_configs() -> list[PipelineConfig]:
+    """Enumerate all search-pipeline configurations for grid search.
+
+    Returns ~30 configs covering:
+    - retrieval method  (dense / sparse / hybrid-rrf / hybrid-dbsf)
+    - prefetch depth    (20 / 50 / 100)
+    - ColBERT reranking (off / on with 20–100 candidates)
+    - document grouping (off / group_size 1–5)
+    - full combo        (hybrid → ColBERT → grouped)
+    """
+    cfgs: list[PipelineConfig] = []
+
+    # ---- 1. Baselines ---------------------------------------------------
+    cfgs.append(PipelineConfig(name="dense"))
+    cfgs.append(
+        PipelineConfig(name="sparse_only", use_dense=False, use_sparse=True)
+    )
+
+    # ---- 2. Hybrid fusion variants --------------------------------------
+    for fusion in ("rrf", "dbsf"):
+        for pf in (20, 50, 100):
+            cfgs.append(
+                PipelineConfig(
+                    name=f"hybrid_{fusion}_pf{pf}",
+                    use_sparse=True,
+                    fusion=fusion,
+                    prefetch_limit=pf,
+                )
+            )
+
+    # ---- 3. Dense → ColBERT rerank (vary candidate pool) ----------------
+    for cc in (20, 50, 100):
+        cfgs.append(
+            PipelineConfig(
+                name=f"dense_colbert_cc{cc}",
+                use_colbert_rerank=True,
+                colbert_candidates=cc,
+            )
+        )
+
+    # ---- 4. Sparse → ColBERT rerank ------------------------------------
+    cfgs.append(
+        PipelineConfig(
+            name="sparse_colbert",
+            use_dense=False,
+            use_sparse=True,
+            use_colbert_rerank=True,
+            colbert_candidates=50,
+        )
+    )
+
+    # ---- 5. Hybrid → ColBERT (3-stage) ----------------------------------
+    for fusion in ("rrf", "dbsf"):
+        for pf in (50, 100):
+            cfgs.append(
+                PipelineConfig(
+                    name=f"hybrid_{fusion}_pf{pf}_colbert",
+                    use_sparse=True,
+                    fusion=fusion,
+                    prefetch_limit=pf,
+                    use_colbert_rerank=True,
+                    colbert_candidates=50,
+                )
+            )
+
+    # ---- 6. Grouped variants (dense retrieval) --------------------------
+    for gs in (1, 2, 3, 5):
+        cfgs.append(
+            PipelineConfig(
+                name=f"grouped_gs{gs}",
+                use_grouping=True,
+                group_size=gs,
+            )
+        )
+
+    # ---- 7. Hybrid + grouped --------------------------------------------
+    for fusion in ("rrf", "dbsf"):
+        cfgs.append(
+            PipelineConfig(
+                name=f"hybrid_{fusion}_grouped",
+                use_sparse=True,
+                fusion=fusion,
+                prefetch_limit=50,
+                use_grouping=True,
+                group_size=3,
+            )
+        )
+
+    # ---- 8. ColBERT + grouped -------------------------------------------
+    cfgs.append(
+        PipelineConfig(
+            name="colbert_grouped",
+            use_colbert_rerank=True,
+            colbert_candidates=50,
+            use_grouping=True,
+            group_size=3,
+        )
+    )
+
+    # ---- 9. Hybrid → ColBERT + grouped (full pipeline) ------------------
+    for fusion in ("rrf", "dbsf"):
+        cfgs.append(
+            PipelineConfig(
+                name=f"hybrid_{fusion}_colbert_grouped",
+                use_sparse=True,
+                fusion=fusion,
+                prefetch_limit=50,
+                use_colbert_rerank=True,
+                colbert_candidates=50,
+                use_grouping=True,
+                group_size=3,
+            )
+        )
+
+    return cfgs
