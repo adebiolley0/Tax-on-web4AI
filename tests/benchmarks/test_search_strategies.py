@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import json
 import logging
+import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
@@ -41,12 +42,20 @@ from storage.search import (
     FullVectorStore,
     PipelineConfig,
     SearchResult,
+    SpladeSparseEncoder,
     _encode_token_embeddings,
     execute_pipeline,
     generate_grid_configs,
 )
 
 logger = logging.getLogger(__name__)
+
+
+def _step(msg: str) -> None:
+    """Write a timestamped step marker to stderr — visible even under pytest capture."""
+    ts = time.strftime("%H:%M:%S")
+    sys.stderr.write(f"[{ts}] BENCH: {msg}\n")
+    sys.stderr.flush()
 
 VALIDATION_DIR = (
     Path(__file__).resolve().parent.parent.parent / "validation_dataset"
@@ -89,20 +98,18 @@ EMBEDDING_MODELS: list[EmbeddingModelSpec] = [
         hf_id="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         label="MiniLM-L12 v2 (baseline, 384D)",
     ),
-    EmbeddingModelSpec(
-        key="bge_m3",
-        hf_id="BAAI/bge-m3",
-        label="BGE-M3 (1024D)",
-        # BGE models benefit from a query-side instruction prefix; the
-        # sentence-transformers wrapper exposes prompt_name="query" when the
-        # tokenizer_config.json defines it.
-        query_prompt="query",
-    ),
-    EmbeddingModelSpec(
-        key="modernbert_be",
-        hf_id="Parallia/Fairly-Multilingual-ModernBERT-Embed-BE",
-        label="Fairly-Multilingual-ModernBERT-BE (768D)",
-    ),
+    # Commented out for local runs — too large to download in CI/testing:
+    # EmbeddingModelSpec(
+    #     key="bge_m3",
+    #     hf_id="BAAI/bge-m3",
+    #     label="BGE-M3 (1024D)",
+    #     query_prompt="query",
+    # ),
+    # EmbeddingModelSpec(
+    #     key="modernbert_be",
+    #     hf_id="Parallia/Fairly-Multilingual-ModernBERT-Embed-BE",
+    #     label="Fairly-Multilingual-ModernBERT-BE (768D)",
+    # ),
 ]
 
 
@@ -267,11 +274,15 @@ def _run_model_benchmark(
     that one broken config does not abort the entire run.
     """
     # --- Chunk and embed documents -----------------------------------------
+    _step(f"[{spec.key}] chunking {len(docs)} docs")
     all_chunks = []
     for doc in docs:
         all_chunks.extend(chunk_document(doc))
+    _step(f"[{spec.key}] {len(all_chunks)} chunks — embedding (dense)")
 
+    t0 = time.perf_counter()
     embedded = embed_chunks_with(model, all_chunks)
+    _step(f"[{spec.key}] dense embedding done in {time.perf_counter()-t0:.1f}s")
 
     # Infer vector dimension from the first embedded chunk
     vector_size = len(embedded[0].vector) if embedded else 384
@@ -281,9 +292,13 @@ def _run_model_benchmark(
     client = get_client(in_memory=True)
     store = FullVectorStore()
     store.setup_collection(client, collection_name, vector_size=vector_size)
+
+    _step(f"[{spec.key}] index_chunks: BM25 + SPLADE + ColBERT for {len(all_chunks)} chunks")
+    t0 = time.perf_counter()
     n = store.index_chunks(
         client, collection_name, all_chunks, embedded, model=model
     )
+    _step(f"[{spec.key}] index_chunks done — {n} points in {time.perf_counter()-t0:.1f}s")
     logger.info(
         "[%s] Indexed %d points (dim=%d) into %s",
         spec.key, n, vector_size, collection_name,
@@ -291,27 +306,37 @@ def _run_model_benchmark(
 
     # --- Pre-compute query representations ---------------------------------
     q_texts = [q["question"] for q in questions]
+    _step(f"[{spec.key}] encoding {len(q_texts)} query vectors")
     dense_vecs = embed_texts_with(model, q_texts, prompt_name=spec.query_prompt)
-    sparse_vecs = [store.bm25.encode(t) for t in q_texts]
+    bm25_sparse_vecs = [store.bm25.encode(t) for t in q_texts]
+    _step(f"[{spec.key}] SPLADE query encoding")
+    splade_sparse_vecs = [store.splade.encode(t) for t in q_texts]
+    sparse_vecs_list = [
+        {"bm25": b, "splade": s}
+        for b, s in zip(bm25_sparse_vecs, splade_sparse_vecs)
+    ]
     colbert_vecs = _encode_token_embeddings(q_texts, model=model)
-    precomputed = list(zip(questions, dense_vecs, sparse_vecs, colbert_vecs))
+    _step(f"[{spec.key}] all query vectors ready")
+    precomputed = list(zip(questions, dense_vecs, sparse_vecs_list, colbert_vecs))
 
     # --- Run every pipeline configuration ----------------------------------
     configs = generate_grid_configs()
     results: dict[str, StrategyMetrics] = {}
+    _step(f"[{spec.key}] running {len(configs)} pipeline configs")
 
-    for cfg in configs:
+    for i, cfg in enumerate(configs, 1):
+        _step(f"[{spec.key}] [{i}/{len(configs)}] {cfg.name}")
         t0 = time.perf_counter()
         search_results: dict[str, list[SearchResult]] = {}
 
-        for q, dense_v, sparse_v, colbert_v in precomputed:
+        for q, dense_v, sparse_v_dict, colbert_v in precomputed:
             try:
                 hits = execute_pipeline(
                     cfg,
                     client,
                     collection_name,
                     dense_vec=dense_v,
-                    sparse_vec=sparse_v,
+                    sparse_vecs=sparse_v_dict,
                     colbert_tokens=colbert_v,
                     limit=20,
                 )
@@ -362,20 +387,35 @@ def indexed_store(docs_and_questions):
     Returns (client, store, chunks, embedded, questions).
     """
     docs, questions = docs_and_questions
+    _step(f"indexed_store: loading model '{_BASELINE_SPEC.hf_id}'")
     model = get_model_by_name(_BASELINE_SPEC.hf_id)
 
+    _step(f"indexed_store: chunking {len(docs)} docs")
     all_chunks = []
     for doc in docs:
         all_chunks.extend(chunk_document(doc))
+    _step(f"indexed_store: {len(all_chunks)} chunks produced")
 
+    _step("indexed_store: embedding chunks (dense)")
+    t0 = time.perf_counter()
     embedded = embed_chunks_with(model, all_chunks)
+    _step(f"indexed_store: dense embedding done in {time.perf_counter()-t0:.1f}s")
+
     vector_size = len(embedded[0].vector) if embedded else 384
 
+    _step("indexed_store: setting up Qdrant collection")
     client = get_client(in_memory=True)
     store = FullVectorStore()
     store.setup_collection(client, f"bench_{_BASELINE_SPEC.key}", vector_size=vector_size)
+
+    _step("indexed_store: calling index_chunks (BM25 + SPLADE + ColBERT)")
+    t0 = time.perf_counter()
     n = store.index_chunks(
         client, f"bench_{_BASELINE_SPEC.key}", all_chunks, embedded, model=model
+    )
+    _step(
+        f"indexed_store: index_chunks done — {n} points in "
+        f"{time.perf_counter()-t0:.1f}s"
     )
     logger.info(
         "Baseline: indexed %d points (%d docs, %d chunks)",
@@ -386,16 +426,34 @@ def indexed_store(docs_and_questions):
 
 @pytest.fixture(scope="module")
 def precomputed_queries(indexed_store):
-    """Pre-compute all query representations (dense, sparse, ColBERT) once."""
+    """Pre-compute all query representations (dense, sparse BM25+SPLADE, ColBERT) once."""
     _, store, _, _, questions = indexed_store
     model = get_model_by_name(_BASELINE_SPEC.hf_id)
     q_texts = [q["question"] for q in questions]
+    _step(f"precomputed_queries: encoding {len(q_texts)} queries")
 
+    _step("precomputed_queries: dense encoding")
     dense_vecs = embed_texts_with(model, q_texts, prompt_name=_BASELINE_SPEC.query_prompt)
-    sparse_vecs = [store.bm25.encode(t) for t in q_texts]
-    colbert_vecs = _encode_token_embeddings(q_texts, model=model)
 
-    return list(zip(questions, dense_vecs, sparse_vecs, colbert_vecs))
+    _step("precomputed_queries: BM25 encoding")
+    bm25_sparse_vecs = [store.bm25.encode(t) for t in q_texts]
+
+    _step("precomputed_queries: SPLADE encoding (reuses cached model)")
+    t0 = time.perf_counter()
+    splade_sparse_vecs = [store.splade.encode(t) for t in q_texts]
+    _step(f"precomputed_queries: SPLADE done in {time.perf_counter()-t0:.1f}s")
+
+    _step("precomputed_queries: ColBERT encoding")
+    colbert_vecs = _encode_token_embeddings(q_texts, model=model)
+    _step("precomputed_queries: all query vectors ready")
+
+    # Each entry: (question, dense_vec, {"bm25": ..., "splade": ...}, colbert_vec)
+    return list(zip(
+        questions,
+        dense_vecs,
+        [{"bm25": b, "splade": s} for b, s in zip(bm25_sparse_vecs, splade_sparse_vecs)],
+        colbert_vecs,
+    ))
 
 
 @pytest.fixture(scope="module")
@@ -407,21 +465,23 @@ def grid_results(indexed_store, precomputed_queries):
     client, store, chunks, embedded, questions = indexed_store
     collection_name = f"bench_{_BASELINE_SPEC.key}"
     configs = generate_grid_configs()
+    _step(f"grid_results: running {len(configs)} pipeline configs")
 
     results: dict[str, StrategyMetrics] = {}
 
-    for cfg in configs:
+    for i, cfg in enumerate(configs, 1):
+        _step(f"grid_results: [{i}/{len(configs)}] {cfg.name}")
         t0 = time.perf_counter()
         search_results: dict[str, list[SearchResult]] = {}
 
-        for q, dense_v, sparse_v, colbert_v in precomputed_queries:
+        for q, dense_v, sparse_v_dict, colbert_v in precomputed_queries:
             try:
                 hits = execute_pipeline(
                     cfg,
                     client,
                     collection_name,
                     dense_vec=dense_v,
-                    sparse_vec=sparse_v,
+                    sparse_vecs=sparse_v_dict,
                     colbert_tokens=colbert_v,
                     limit=20,
                 )
@@ -464,7 +524,9 @@ def all_model_grid_results():
 
     all_results: dict[str, dict[str, StrategyMetrics]] = {}
 
+    _step(f"all_model_grid_results: {len(EMBEDDING_MODELS)} model(s) to benchmark")
     for spec in EMBEDDING_MODELS:
+        _step(f"all_model_grid_results: loading '{spec.hf_id}'")
         logger.info("=" * 60)
         logger.info("Benchmarking model: %s (%s)", spec.label, spec.hf_id)
         logger.info("=" * 60)
@@ -478,12 +540,18 @@ def all_model_grid_results():
                 type(exc).__name__,
                 exc,
             )
+            _step(f"all_model_grid_results: SKIPPED '{spec.hf_id}' — {exc}")
             continue
 
         try:
+            _step(f"all_model_grid_results: running full benchmark for '{spec.key}'")
             model_results = _run_model_benchmark(spec, model, docs, questions)
             all_results[spec.key] = model_results
             best_name, best_m = next(iter(model_results.items()))
+            _step(
+                f"all_model_grid_results: '{spec.key}' done — "
+                f"best={best_name} MRR={best_m.mrr:.4f}"
+            )
             logger.info(
                 "[%s] Best strategy: %s  MRR=%.4f  R@10=%.4f",
                 spec.key, best_name, best_m.mrr, best_m.recall_at_10,
@@ -493,6 +561,7 @@ def all_model_grid_results():
                 "Benchmark run failed for model %s: %s", spec.hf_id, exc,
                 exc_info=True,
             )
+            _step(f"all_model_grid_results: ERROR for '{spec.key}' — {exc}")
 
     assert all_results, "No models could be benchmarked — check EMBEDDING_MODELS"
     return all_results
@@ -625,11 +694,16 @@ class TestGridSearch:
 # ============================================================================
 
 
+@pytest.mark.skipif(
+    len(EMBEDDING_MODELS) < 2,
+    reason="Cross-model comparison requires at least 2 models in EMBEDDING_MODELS",
+)
 class TestEmbeddingModelComparison:
     """Compare all available embedding models on the full grid benchmark.
 
     Models listed in EMBEDDING_MODELS that are not locally cached are skipped
     automatically — only the results for successfully loaded models are shown.
+    Skipped entirely when only one model is configured (no comparison to make).
     """
 
     def test_all_available_models_produce_results(self, all_model_grid_results):

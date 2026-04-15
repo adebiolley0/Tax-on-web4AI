@@ -16,6 +16,8 @@ from __future__ import annotations
 import logging
 import math
 import re
+import sys
+import time
 from abc import ABC, abstractmethod
 from collections import Counter
 from dataclasses import dataclass, field
@@ -70,6 +72,99 @@ def _tokenize_fr(text: str) -> list[str]:
     """Simple French-aware tokenizer: lowercase, split on non-alpha, filter stopwords."""
     tokens = re.findall(r"[a-zàâäéèêëïîôùûüÿçœæ]+", text.lower())
     return [t for t in tokens if t not in _FR_STOPWORDS and len(t) > 1]
+
+
+def _print_progress(msg: str) -> None:
+    """Write a timestamped progress line directly to stderr (visible even under pytest capture)."""
+    ts = time.strftime("%H:%M:%S")
+    sys.stderr.write(f"[{ts}] {msg}\n")
+    sys.stderr.flush()
+
+
+class SpladeSparseEncoder:
+    """SPLADE++ sparse vector encoder using fastembed.
+
+    Uses ``prithivida/Splade_PP_en_v1`` — a neural sparse model that performs
+    term expansion and learns importance weights from a transformer.  The model
+    is lazy-loaded on the first :meth:`encode` call so importing this module
+    does not trigger a download.
+
+    A **class-level** model cache ensures the 532 MB model is downloaded and
+    loaded only once per process, regardless of how many ``SpladeSparseEncoder``
+    instances are created.
+
+    Requires ``fastembed`` (``uv add fastembed``).
+    """
+
+    MODEL_NAME = "prithivida/Splade_PP_en_v1"
+
+    # Class-level cache: shared across all instances in the same process.
+    _shared_model = None
+
+    def __init__(self) -> None:
+        pass  # no per-instance state; model lives on the class
+
+    def _get_model(self):
+        if SpladeSparseEncoder._shared_model is None:
+            try:
+                from fastembed import SparseTextEmbedding  # noqa: PLC0415
+            except ImportError as exc:
+                raise ImportError(
+                    "fastembed is required for SPLADE: uv add fastembed"
+                ) from exc
+            _print_progress(
+                f"SPLADE: loading model '{self.MODEL_NAME}' "
+                "(first run downloads ~532 MB — this may take a few minutes) …"
+            )
+            t0 = time.perf_counter()
+            SpladeSparseEncoder._shared_model = SparseTextEmbedding(
+                model_name=self.MODEL_NAME,
+                # fastembed prints a tqdm bar to stderr during download
+            )
+            _print_progress(
+                f"SPLADE: model loaded in {time.perf_counter() - t0:.1f}s"
+            )
+        return SpladeSparseEncoder._shared_model
+
+    def encode(self, text: str) -> models.SparseVector:
+        """Encode a single text as a SPLADE sparse vector."""
+        result = next(self._get_model().embed([text]))
+        return models.SparseVector(
+            indices=result.indices.tolist(),
+            values=result.values.tolist(),
+        )
+
+    def encode_batch(
+        self, texts: Sequence[str], batch_size: int = 64
+    ) -> list[models.SparseVector]:
+        """Encode texts in mini-batches with per-batch progress reporting."""
+        model = self._get_model()
+        texts = list(texts)
+        total = len(texts)
+        results: list[models.SparseVector] = []
+        t0 = time.perf_counter()
+
+        for start in range(0, total, batch_size):
+            batch = texts[start : start + batch_size]
+            for r in model.embed(batch):
+                results.append(
+                    models.SparseVector(
+                        indices=r.indices.tolist(),
+                        values=r.values.tolist(),
+                    )
+                )
+            done = min(start + batch_size, total)
+            elapsed = time.perf_counter() - t0
+            _print_progress(
+                f"SPLADE encode_batch: {done}/{total} texts "
+                f"({elapsed:.1f}s elapsed)"
+            )
+
+        _print_progress(
+            f"SPLADE encode_batch: done — {total} texts in "
+            f"{time.perf_counter() - t0:.1f}s"
+        )
+        return results
 
 
 class BM25Encoder:
@@ -620,6 +715,9 @@ class PipelineConfig:
     use_dense: bool = True
     use_sparse: bool = False
 
+    # Which sparse encoder to use when use_sparse=True
+    sparse_encoder: str = "bm25"  # "bm25" | "splade"
+
     # Fusion (only when both dense and sparse are active)
     fusion: str | None = None  # "rrf" | "dbsf"
 
@@ -642,13 +740,16 @@ class PipelineConfig:
 
 
 class FullVectorStore:
-    """Collection with all three vector types for grid-search benchmarking.
+    """Collection with dense + BM25 sparse + SPLADE sparse + ColBERT vectors.
 
-    One indexing pass; many search configurations.
+    One indexing pass; many search configurations.  Sparse fields:
+    - ``sparse_bm25``   – custom BM25 encoder (French-aware)
+    - ``sparse_splade`` – SPLADE++ neural sparse encoder (fastembed)
     """
 
     def __init__(self) -> None:
         self.bm25 = BM25Encoder()
+        self.splade = SpladeSparseEncoder()
 
     def setup_collection(
         self,
@@ -678,9 +779,12 @@ class FullVectorStore:
                 ),
             },
             sparse_vectors_config={
-                "sparse": models.SparseVectorParams(
+                # BM25: custom French-aware encoder; IDF applied at query time
+                "sparse_bm25": models.SparseVectorParams(
                     modifier=models.Modifier.IDF,
                 ),
+                # SPLADE++: neural sparse encoder; weights are pre-computed
+                "sparse_splade": models.SparseVectorParams(),
             },
         )
         _create_payload_indexes(client, collection_name)
@@ -699,20 +803,41 @@ class FullVectorStore:
         default singleton model is used (must match the model that produced
         *embedded_chunks*).
         """
-        if not self.bm25._fitted:
-            self.bm25.fit([c.chunk_text for c in chunks])
-
-        sparse_vecs = self.bm25.encode_batch([c.chunk_text for c in chunks])
-
         texts = [c.chunk_text for c in chunks]
+        _print_progress(
+            f"FullVectorStore.index_chunks: {len(texts)} chunks, "
+            f"collection='{collection_name}'"
+        )
+
+        t_bm25 = time.perf_counter()
+        if not self.bm25._fitted:
+            self.bm25.fit(texts)
+        bm25_vecs = self.bm25.encode_batch(texts)
+        _print_progress(
+            f"BM25 encoding done in {time.perf_counter() - t_bm25:.1f}s"
+        )
+
+        t_splade = time.perf_counter()
+        _print_progress(f"Starting SPLADE encoding for {len(texts)} chunks …")
+        splade_vecs = self.splade.encode_batch(texts)
+        _print_progress(
+            f"SPLADE encoding done in {time.perf_counter() - t_splade:.1f}s"
+        )
+
+        t_colbert = time.perf_counter()
+        _print_progress(f"Starting ColBERT token encoding for {len(texts)} chunks …")
         token_vecs = _encode_token_embeddings(texts, model=model)
+        _print_progress(
+            f"ColBERT encoding done in {time.perf_counter() - t_colbert:.1f}s"
+        )
 
         points = [
             models.PointStruct(
                 id=i,
                 vector={
                     "dense": ec.vector,
-                    "sparse": sparse_vecs[i],
+                    "sparse_bm25": bm25_vecs[i],
+                    "sparse_splade": splade_vecs[i],
                     "colbert": token_vecs[i],
                 },
                 payload=_chunk_to_payload(ec.chunk),
@@ -734,7 +859,7 @@ def execute_pipeline(
     client: QdrantClient,
     collection_name: str,
     dense_vec: list[float],
-    sparse_vec: models.SparseVector,
+    sparse_vecs: dict[str, models.SparseVector],
     colbert_tokens: list[list[float]],
     limit: int = 10,
     filters: dict | None = None,
@@ -743,8 +868,17 @@ def execute_pipeline(
 
     Builds the appropriate nested-prefetch / fusion / rerank / group query
     and runs it against a :class:`FullVectorStore` collection.
+
+    *sparse_vecs* is a mapping from encoder name to pre-computed sparse vector,
+    e.g. ``{"bm25": <SparseVector>, "splade": <SparseVector>}``.
+    ``config.sparse_encoder`` selects which entry (and which collection field)
+    to use for the sparse retrieval branch.
     """
     qf = _build_filter(filters)
+
+    # Select the sparse vector and collection field for this config
+    sparse_vec = sparse_vecs.get(config.sparse_encoder, next(iter(sparse_vecs.values())))
+    sparse_field = f"sparse_{config.sparse_encoder}"
 
     # -- Stage 1: build retrieval query/prefetch --------------------------
     if config.use_dense and config.use_sparse and config.fusion:
@@ -752,7 +886,7 @@ def execute_pipeline(
         retrieval_prefetch: list[models.Prefetch] | models.Prefetch | None = [
             models.Prefetch(
                 query=sparse_vec,
-                using="sparse",
+                using=sparse_field,
                 limit=config.prefetch_limit,
             ),
             models.Prefetch(
@@ -771,7 +905,7 @@ def execute_pipeline(
     elif config.use_sparse and not config.use_dense:
         retrieval_prefetch = None
         retrieval_query = sparse_vec
-        retrieval_using = "sparse"
+        retrieval_using = sparse_field
     else:
         # Dense only (default)
         retrieval_prefetch = None
@@ -861,8 +995,10 @@ def execute_pipeline(
 def generate_grid_configs() -> list[PipelineConfig]:
     """Enumerate all search-pipeline configurations for grid search.
 
-    Returns ~30 configs covering:
-    - retrieval method  (dense / sparse / hybrid-rrf / hybrid-dbsf)
+    Returns ~45 configs covering:
+    - retrieval method  (dense / sparse-bm25 / sparse-splade / hybrid)
+    - sparse encoder    (bm25 | splade)
+    - fusion method     (rrf | dbsf)
     - prefetch depth    (20 / 50 / 100)
     - ColBERT reranking (off / on with 20–100 candidates)
     - document grouping (off / group_size 1–5)
@@ -872,23 +1008,44 @@ def generate_grid_configs() -> list[PipelineConfig]:
 
     # ---- 1. Baselines ---------------------------------------------------
     cfgs.append(PipelineConfig(name="dense"))
+    # BM25 sparse-only
     cfgs.append(
-        PipelineConfig(name="sparse_only", use_dense=False, use_sparse=True)
+        PipelineConfig(name="sparse_bm25_only", use_dense=False, use_sparse=True,
+                       sparse_encoder="bm25")
+    )
+    # SPLADE sparse-only
+    cfgs.append(
+        PipelineConfig(name="sparse_splade_only", use_dense=False, use_sparse=True,
+                       sparse_encoder="splade")
     )
 
-    # ---- 2. Hybrid fusion variants --------------------------------------
+    # ---- 2. Hybrid fusion variants (BM25) --------------------------------
     for fusion in ("rrf", "dbsf"):
         for pf in (20, 50, 100):
             cfgs.append(
                 PipelineConfig(
-                    name=f"hybrid_{fusion}_pf{pf}",
+                    name=f"hybrid_bm25_{fusion}_pf{pf}",
                     use_sparse=True,
+                    sparse_encoder="bm25",
                     fusion=fusion,
                     prefetch_limit=pf,
                 )
             )
 
-    # ---- 3. Dense → ColBERT rerank (vary candidate pool) ----------------
+    # ---- 3. Hybrid fusion variants (SPLADE) -----------------------------
+    for fusion in ("rrf", "dbsf"):
+        for pf in (20, 50, 100):
+            cfgs.append(
+                PipelineConfig(
+                    name=f"hybrid_splade_{fusion}_pf{pf}",
+                    use_sparse=True,
+                    sparse_encoder="splade",
+                    fusion=fusion,
+                    prefetch_limit=pf,
+                )
+            )
+
+    # ---- 4. Dense → ColBERT rerank (vary candidate pool) ----------------
     for cc in (20, 50, 100):
         cfgs.append(
             PipelineConfig(
@@ -898,24 +1055,36 @@ def generate_grid_configs() -> list[PipelineConfig]:
             )
         )
 
-    # ---- 4. Sparse → ColBERT rerank ------------------------------------
+    # ---- 5. Sparse-only → ColBERT rerank --------------------------------
     cfgs.append(
         PipelineConfig(
-            name="sparse_colbert",
+            name="sparse_bm25_colbert",
             use_dense=False,
             use_sparse=True,
+            sparse_encoder="bm25",
+            use_colbert_rerank=True,
+            colbert_candidates=50,
+        )
+    )
+    cfgs.append(
+        PipelineConfig(
+            name="sparse_splade_colbert",
+            use_dense=False,
+            use_sparse=True,
+            sparse_encoder="splade",
             use_colbert_rerank=True,
             colbert_candidates=50,
         )
     )
 
-    # ---- 5. Hybrid → ColBERT (3-stage) ----------------------------------
+    # ---- 6. Hybrid → ColBERT (3-stage, BM25) ----------------------------
     for fusion in ("rrf", "dbsf"):
         for pf in (50, 100):
             cfgs.append(
                 PipelineConfig(
-                    name=f"hybrid_{fusion}_pf{pf}_colbert",
+                    name=f"hybrid_bm25_{fusion}_pf{pf}_colbert",
                     use_sparse=True,
+                    sparse_encoder="bm25",
                     fusion=fusion,
                     prefetch_limit=pf,
                     use_colbert_rerank=True,
@@ -923,7 +1092,22 @@ def generate_grid_configs() -> list[PipelineConfig]:
                 )
             )
 
-    # ---- 6. Grouped variants (dense retrieval) --------------------------
+    # ---- 7. Hybrid → ColBERT (3-stage, SPLADE) --------------------------
+    for fusion in ("rrf", "dbsf"):
+        for pf in (50, 100):
+            cfgs.append(
+                PipelineConfig(
+                    name=f"hybrid_splade_{fusion}_pf{pf}_colbert",
+                    use_sparse=True,
+                    sparse_encoder="splade",
+                    fusion=fusion,
+                    prefetch_limit=pf,
+                    use_colbert_rerank=True,
+                    colbert_candidates=50,
+                )
+            )
+
+    # ---- 8. Grouped variants (dense retrieval) --------------------------
     for gs in (1, 2, 3, 5):
         cfgs.append(
             PipelineConfig(
@@ -933,20 +1117,22 @@ def generate_grid_configs() -> list[PipelineConfig]:
             )
         )
 
-    # ---- 7. Hybrid + grouped --------------------------------------------
-    for fusion in ("rrf", "dbsf"):
-        cfgs.append(
-            PipelineConfig(
-                name=f"hybrid_{fusion}_grouped",
-                use_sparse=True,
-                fusion=fusion,
-                prefetch_limit=50,
-                use_grouping=True,
-                group_size=3,
+    # ---- 9. Hybrid + grouped (BM25 and SPLADE) --------------------------
+    for sparse_enc in ("bm25", "splade"):
+        for fusion in ("rrf", "dbsf"):
+            cfgs.append(
+                PipelineConfig(
+                    name=f"hybrid_{sparse_enc}_{fusion}_grouped",
+                    use_sparse=True,
+                    sparse_encoder=sparse_enc,
+                    fusion=fusion,
+                    prefetch_limit=50,
+                    use_grouping=True,
+                    group_size=3,
+                )
             )
-        )
 
-    # ---- 8. ColBERT + grouped -------------------------------------------
+    # ---- 10. ColBERT + grouped ------------------------------------------
     cfgs.append(
         PipelineConfig(
             name="colbert_grouped",
@@ -957,19 +1143,21 @@ def generate_grid_configs() -> list[PipelineConfig]:
         )
     )
 
-    # ---- 9. Hybrid → ColBERT + grouped (full pipeline) ------------------
-    for fusion in ("rrf", "dbsf"):
-        cfgs.append(
-            PipelineConfig(
-                name=f"hybrid_{fusion}_colbert_grouped",
-                use_sparse=True,
-                fusion=fusion,
-                prefetch_limit=50,
-                use_colbert_rerank=True,
-                colbert_candidates=50,
-                use_grouping=True,
-                group_size=3,
+    # ---- 11. Hybrid → ColBERT + grouped (full pipeline, both encoders) --
+    for sparse_enc in ("bm25", "splade"):
+        for fusion in ("rrf", "dbsf"):
+            cfgs.append(
+                PipelineConfig(
+                    name=f"hybrid_{sparse_enc}_{fusion}_colbert_grouped",
+                    use_sparse=True,
+                    sparse_encoder=sparse_enc,
+                    fusion=fusion,
+                    prefetch_limit=50,
+                    use_colbert_rerank=True,
+                    colbert_candidates=50,
+                    use_grouping=True,
+                    group_size=3,
+                )
             )
-        )
 
     return cfgs
