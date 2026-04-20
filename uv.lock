@@ -3438,7 +3438,6 @@ dependencies = [
     { name = "httpx" },
     { name = "pydantic" },
     { name = "pymupdf4llm" },
-    { name = "tax-mcp-server" },
     { name = "tax-search" },
 ]
 
@@ -3459,7 +3458,6 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "pymupdf4llm", specifier = ">=1.27.2.2" },
-    { name = "tax-mcp-server", editable = "mcp_server" },
     { name = "tax-search", editable = "tax_search" },
 ]
 

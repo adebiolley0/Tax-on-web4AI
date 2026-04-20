@@ -1,20 +1,40 @@
 import asyncio
 
-from tax_mcp.scraping import (
-    _EXCLUDED_SELECTOR,
-    _doc_markdown_generator,
-)
-
 from crawl4ai import (
     AsyncWebCrawler,
     BrowserConfig,
     CacheMode,
     CrawlerRunConfig,
+    DefaultMarkdownGenerator,
+    PruningContentFilter,
     UndetectedAdapter,
 )
 from crawl4ai.async_crawler_strategy import AsyncPlaywrightCrawlerStrategy
 
 TAX_ON_WEB_URL = "https://finances.belgium.be/fr/E-services/Tax-on-web"
+
+_EXCLUDED_SELECTOR = (
+    "#onetrust-banner-sdk,#onetrust-consent-sdk,.onetrust-pc-dark-filter,"
+    "#CybotCookiebotDialog,#cookiescript_injected,#qc-cmp2-container,"
+    ".cookie-banner,[class*='cookie-banner'],[id*='cookie-consent'],"
+    ".orejime-ModalPortal,.orejime-Button,.orejime-AppContainer,[class*='orejime'],"
+    "nav[aria-label='Breadcrumb'],.breadcrumbs,"
+    "#block-ofed-social-ofed-social-block,[id^='block-ofed-social'],"
+    ".block-sharethis,.block-sharethis-sharethis-block,.sharethis-wrapper,"
+    "[class*='table-of-contents'],[id*='table-of-contents'],"
+    "nav[aria-label*='table of contents'],nav[aria-label*='Table des matières']"
+)
+
+
+def _doc_markdown_generator() -> DefaultMarkdownGenerator:
+    return DefaultMarkdownGenerator(
+        content_filter=PruningContentFilter(threshold=0.42, threshold_type="fixed"),
+        options={
+            "ignore_links": True,
+            "ignore_images": True,
+        },
+        content_source="cleaned_html",
+    )
 
 
 async def crawl_tax_on_web(url: str = TAX_ON_WEB_URL) -> str:

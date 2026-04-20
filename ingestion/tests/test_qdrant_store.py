@@ -101,8 +101,8 @@ class TestQdrantUnit:
 
     def test_delete_by_document_id(self, qdrant_with_docs, parsed_documents):
         """Test deleting chunks by document_id on a separate in-memory instance."""
-        from storage.chunker import chunk_document
-        from storage.embedder import embed_chunks
+        from tax_ingestion.storage.chunker import chunk_document
+        from tax_search.embedder import embed_chunks
 
         client = get_client(in_memory=True)
         ensure_collection(client)

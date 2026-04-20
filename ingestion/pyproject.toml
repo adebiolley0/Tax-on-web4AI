@@ -13,7 +13,6 @@ dependencies = [
     "httpx>=0.28.1",
     "pydantic>=2.12.5",
     "pymupdf4llm>=1.27.2.2",
-    "tax-mcp-server",
     "tax-search",
 ]
 
@@ -32,7 +31,6 @@ packages = ["src/tax_ingestion"]
 
 [tool.uv.sources]
 tax-search = { workspace = true }
-tax-mcp-server = { workspace = true }
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
