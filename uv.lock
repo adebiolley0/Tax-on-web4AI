@@ -7,6 +7,14 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 
+[manifest]
+members = [
+    "tax-ingestion",
+    "tax-mcp-server",
+    "tax-on-web4ai",
+    "tax-search",
+]
+
 [[package]]
 name = "aiofile"
 version = "3.9.0"
@@ -3417,23 +3425,20 @@ wheels = [
 ]
 
 [[package]]
-name = "tax-on-web4ai"
+name = "tax-ingestion"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "ingestion" }
 dependencies = [
     { name = "aiofiles" },
-    { name = "async-lru" },
     { name = "beautifulsoup4" },
     { name = "crawl4ai" },
     { name = "curl-cffi" },
     { name = "currency" },
     { name = "fastembed" },
-    { name = "fastmcp" },
     { name = "httpx" },
     { name = "pydantic" },
     { name = "pymupdf4llm" },
-    { name = "qdrant-client" },
-    { name = "sentence-transformers" },
+    { name = "tax-search" },
 ]
 
 [package.dev-dependencies]
@@ -3445,24 +3450,80 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "aiofiles", specifier = ">=25.1.0" },
-    { name = "async-lru", specifier = ">=2.3.0" },
     { name = "beautifulsoup4", specifier = ">=4.14.3" },
     { name = "crawl4ai", specifier = ">=0.8.6" },
     { name = "curl-cffi", specifier = ">=0.15.0" },
     { name = "currency", specifier = ">=0.1.2" },
     { name = "fastembed", specifier = ">=0.6.0" },
-    { name = "fastmcp", specifier = ">=3.2.0" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "pymupdf4llm", specifier = ">=1.27.2.2" },
-    { name = "qdrant-client", specifier = ">=1.14.0" },
-    { name = "sentence-transformers", specifier = ">=4.0" },
+    { name = "tax-search", editable = "tax_search" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "pytest", specifier = ">=8.0" },
     { name = "pytest-asyncio", specifier = ">=0.25" },
+]
+
+[[package]]
+name = "tax-mcp-server"
+version = "0.1.0"
+source = { editable = "mcp_server" }
+dependencies = [
+    { name = "async-lru" },
+    { name = "beautifulsoup4" },
+    { name = "crawl4ai" },
+    { name = "fastmcp" },
+    { name = "pydantic" },
+    { name = "tax-search" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "async-lru", specifier = ">=2.3.0" },
+    { name = "beautifulsoup4", specifier = ">=4.14.3" },
+    { name = "crawl4ai", specifier = ">=0.8.6" },
+    { name = "fastmcp", specifier = ">=3.2.0" },
+    { name = "pydantic", specifier = ">=2.12.5" },
+    { name = "tax-search", editable = "tax_search" },
+]
+
+[[package]]
+name = "tax-on-web4ai"
+version = "0.1.0"
+source = { virtual = "." }
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+    { name = "pytest-asyncio" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "pytest", specifier = ">=8.0" },
+    { name = "pytest-asyncio", specifier = ">=0.25" },
+]
+
+[[package]]
+name = "tax-search"
+version = "0.1.0"
+source = { editable = "tax_search" }
+dependencies = [
+    { name = "pydantic" },
+    { name = "qdrant-client" },
+    { name = "sentence-transformers" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "pydantic", specifier = ">=2.12.5" },
+    { name = "qdrant-client", specifier = ">=1.14.0" },
+    { name = "sentence-transformers", specifier = ">=4.0" },
 ]
 
 [[package]]
