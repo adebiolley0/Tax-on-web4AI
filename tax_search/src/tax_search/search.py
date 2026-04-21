@@ -29,10 +29,9 @@ from tax_search.models import Chunk, EmbeddedChunk
 from sentence_transformers import SentenceTransformer
 
 from tax_search.embedder import embed_texts, get_model
+from tax_search.qdrant_store import VECTOR_SIZE as DENSE_VECTOR_SIZE
 
 logger = logging.getLogger(__name__)
-
-DENSE_VECTOR_SIZE = 384  # paraphrase-multilingual-MiniLM-L12-v2
 
 
 # ============================================================================
