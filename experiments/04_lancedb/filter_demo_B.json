@@ -1,6 +1,6 @@
 {
  "where": "code = 'cir92'",
- "vector_ms": 47.7,
- "hybrid_ms": 141.1,
+ "vector_ms": 25.7,
+ "hybrid_ms": 31.2,
  "all_match": true
 }

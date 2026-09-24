@@ -253,7 +253,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--corpus", default="A")
     ap.add_argument("--runs", default="vector,fts_en,fts_fr,hybrid_rrf,hybrid_ce,vector_ivf")
-    ap.add_argument("--rerankers", default="bge-reranker-v2-m3")
+    ap.add_argument("--rerankers", default="mmarco-minilm", help="comma list of RERANKERS keys (mmarco-minilm is ~6x faster than bge-reranker-v2-m3 on CPU)")
     ap.add_argument("--ce_limit", type=int, default=30, help="cross-encoder candidates (rrf top-k; with --ce_builtin: per-leg limit)")
     ap.add_argument("--ce_builtin", action="store_true", help="use lancedb.rerankers.CrossEncoderReranker instead of the custom top-k reranker")
     ap.add_argument("--rebuild", action="store_true", help="recreate the LanceDB table even if it exists")
