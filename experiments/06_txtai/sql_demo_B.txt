@@ -1,0 +1,14 @@
+-- select id, code, region, score from txtai where code = 'ctva' and similar(:q, 100, 0.5) limit 5
+--   :q = 'Quel est le taux normal de la TVA ?'   (2630 ms)
+   {"id": "ctva:38bis#0", "code": "ctva", "region": "federal", "score": 0.5687}
+   {"id": "ctva:93duodecies/5#2", "code": "ctva", "region": "federal", "score": 0.5582}
+   {"id": "ctva:38#0", "code": "ctva", "region": "federal", "score": 0.5478}
+   {"id": "ctva:38ter#0", "code": "ctva", "region": "federal", "score": 0.5445}
+   {"id": "ctva:37#0", "code": "ctva", "region": "federal", "score": 0.5406}
+-- select id, code, region, score from txtai where region = 'wal' and similar(:q, 100, 0.5) limit 5
+--   :q = 'droits de succession en ligne directe'   (2604 ms)
+   {"id": "csucc_wal:16#0", "code": "csucc_wal", "region": "wal", "score": 0.6809}
+   {"id": "csucc_wal:26#0", "code": "csucc_wal", "region": "wal", "score": 0.6803}
+   {"id": "csucc_wal:60ter#0", "code": "csucc_wal", "region": "wal", "score": 0.6398}
+   {"id": "csucc_wal:55quater#0", "code": "csucc_wal", "region": "wal", "score": 0.6382}
+   {"id": "csucc_wal:55sexies#0", "code": "csucc_wal", "region": "wal", "score": 0.6361}
