@@ -445,7 +445,7 @@
  },
  "timing": {
   "tokenize_s": 0.27,
-  "index_s": 0.05,
+  "index_s": 0.03,
   "query_s": 0.002
  }
 }

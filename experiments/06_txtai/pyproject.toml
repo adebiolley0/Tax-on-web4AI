@@ -1,0 +1,21 @@
+[project]
+name = "exp06-txtai"
+version = "0.1.0"
+description = "Experiment 06 - txtai all-in-one Embeddings database: dense / BM25 / hybrid / reranked retrieval on the shared RAG benchmark."
+requires-python = ">=3.12"
+dependencies = [
+    "txtai",
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

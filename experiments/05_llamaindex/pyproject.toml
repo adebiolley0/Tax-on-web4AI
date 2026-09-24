@@ -1,0 +1,24 @@
+[project]
+name = "exp05-llamaindex"
+version = "0.1.0"
+description = "LlamaIndex structure-aware retrievers (hierarchical/auto-merging, sentence-window, BM25 + RRF fusion) vs plain chunk retrieval on Belgian tax text."
+requires-python = ">=3.12"
+dependencies = [
+    "llama-index-core>=0.12",
+    "llama-index-embeddings-huggingface>=0.5",
+    "llama-index-retrievers-bm25>=0.5",
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "PyStemmer",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

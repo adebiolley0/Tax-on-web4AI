@@ -1,0 +1,23 @@
+[project]
+name = "exp04-lancedb"
+version = "0.1.0"
+description = "Experiment 04 - LanceDB embedded store: vector / FTS / hybrid (RRF, cross-encoder) retrieval on the shared RAG benchmark."
+requires-python = ">=3.12"
+dependencies = [
+    "lancedb",
+    "pyarrow",
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "tantivy",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
