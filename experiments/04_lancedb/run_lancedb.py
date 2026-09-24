@@ -36,7 +36,7 @@ torch.set_num_threads(2)  # the 4-core box is shared with the other experiments
 
 import lancedb  # noqa: E402
 from lancedb.index import FTS, IvfPq  # noqa: E402
-from lancedb.rerankers import CrossEncoderReranker, RRFReranker  # noqa: E402
+from lancedb.rerankers import CrossEncoderReranker, Reranker, RRFReranker  # noqa: E402
 
 from rag_eval import (EmbeddingCache, evaluate_rankings, save_result, print_leaderboard,  # noqa: E402
                       load_corpus_a, load_questions_a, load_corpus_b, load_questions_b,
@@ -52,9 +52,39 @@ MAX_SEQ = 512
 TOP_CHUNKS = 50
 
 RERANKERS = {
-    "bge-reranker-v2-m3": "BAAI/bge-reranker-v2-m3",
-    "mmarco-minilm": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "bge-reranker-v2-m3": ("BAAI/bge-reranker-v2-m3", 1024),
+    "mmarco-minilm": ("cross-encoder/mmarco-mMiniLMv2-L12-H384-v1", 512),
 }
+
+
+class TopKCrossEncoderReranker(Reranker):
+    """Custom LanceDB reranker: RRF-fuse the two legs, keep the top ``rerank_top`` fused
+    candidates, score them with a sentence-transformers CrossEncoder.
+
+    LanceDB's built-in ``CrossEncoderReranker`` scores the *union* of the vector and FTS legs
+    (up to 2 x limit rows) with the CrossEncoder defaults (no max_length / batch_size control),
+    which is too slow on CPU with a 568M-parameter reranker. This one bounds the work to exactly
+    ``rerank_top`` pairs per query. ~25 lines: this is the whole plug-in surface of LanceDB.
+    """
+
+    def __init__(self, model_name: str, rerank_top: int = 30, max_length: int = 1024,
+                 column: str = "text", batch_size: int = 8):
+        super().__init__("relevance")
+        from sentence_transformers import CrossEncoder
+        self.model_name, self.rerank_top, self.column, self.batch_size = model_name, rerank_top, column, batch_size
+        self.rrf = RRFReranker()
+        self.model = CrossEncoder(model_name, max_length=max_length, device="cpu")
+
+    def __str__(self):
+        return f"TopKCrossEncoderReranker({self.model_name}, top={self.rerank_top})"
+
+    def rerank_hybrid(self, query: str, vector_results: pa.Table, fts_results: pa.Table) -> pa.Table:
+        fused = self.rrf.rerank_hybrid(query, vector_results, fts_results).slice(0, self.rerank_top)
+        pairs = [(query, t) for t in fused[self.column].to_pylist()]
+        scores = self.model.predict(pairs, batch_size=self.batch_size, show_progress_bar=False)
+        fused = fused.drop_columns(["_relevance_score"]).append_column(
+            "_relevance_score", pa.array(np.asarray(scores, dtype=np.float32)))
+        return fused.sort_by([("_relevance_score", "descending")])
 
 # Same chunker keys / cache keys as experiment 02 so the shared EmbeddingCache is reused.
 CHUNKERS = {
@@ -202,7 +232,8 @@ def main():
     ap.add_argument("--corpus", default="A")
     ap.add_argument("--runs", default="vector,fts_en,fts_fr,hybrid_rrf,hybrid_ce,vector_ivf")
     ap.add_argument("--rerankers", default="bge-reranker-v2-m3")
-    ap.add_argument("--ce_limit", type=int, default=30, help="hybrid limit for the cross-encoder run (each leg fetches this many)")
+    ap.add_argument("--ce_limit", type=int, default=30, help="cross-encoder candidates (rrf top-k; with --ce_builtin: per-leg limit)")
+    ap.add_argument("--ce_builtin", action="store_true", help="use lancedb.rerankers.CrossEncoderReranker instead of the custom top-k reranker")
     ap.add_argument("--rebuild", action="store_true", help="recreate the LanceDB table even if it exists")
     ap.add_argument("--leaderboard", action="store_true")
     a = ap.parse_args()
@@ -271,19 +302,24 @@ def main():
             if fts_lang != "French":
                 fts_lang = "French"; fts_index(tbl, fts_lang)
             for rk_key in a.rerankers.split(","):
-                hf = RERANKERS[rk_key]
+                hf, max_len = RERANKERS[rk_key]
                 t0 = time.perf_counter()
-                ce = CrossEncoderReranker(model_name=hf, column="text", device="cpu")
-                _ = ce.model  # force load
+                if a.ce_builtin:   # LanceDB's own plug-in: reranks the union of both legs (<= 2*limit rows)
+                    ce = CrossEncoderReranker(model_name=hf, column="text", device="cpu")
+                    _ = ce.model
+                    limit, cand, rname = a.ce_limit, f"<= {2 * a.ce_limit} (union of legs)", f"hybrid+{rk_key}@union{a.ce_limit}"
+                else:              # custom plug-in: RRF top-`ce_limit` only
+                    ce = TopKCrossEncoderReranker(hf, rerank_top=a.ce_limit, max_length=max_len)
+                    limit, cand, rname = TOP_CHUNKS, f"{a.ce_limit} (rrf top-k)", f"hybrid_rrf+{rk_key}@{a.ce_limit}"
                 load_s = time.perf_counter() - t0
                 def fn(i):
                     return (tbl.search(query_type="hybrid", vector_column_name="vector", fts_columns="text")
                             .vector(qemb[i].tolist()).text(questions[i].question).distance_type("cosine")
-                            .bypass_vector_index().limit(a.ce_limit).select(sel + ["text"]).rerank(ce).to_list())
+                            .bypass_vector_index().limit(limit).select(sel + ["text"]).rerank(ce).to_list())
                 rk, lat = run_queries(questions, fn)
-                save(f"hybrid+{rk_key}@{a.ce_limit}", rk, lat,
-                     {"search": "hybrid", "fts_language": fts_lang, "reranker": f"CrossEncoderReranker({hf})",
-                      "hybrid_limit": a.ce_limit, "candidates": f"<= {2 * a.ce_limit}"},
+                save(rname, rk, lat,
+                     {"search": "hybrid", "fts_language": fts_lang, "reranker": str(ce), "hybrid_limit": limit,
+                      "candidates": cand, "max_length": None if a.ce_builtin else max_len},
                      {"reranker_load_s": round(load_s, 1)})
                 del ce
         elif run == "vector_ivf":
