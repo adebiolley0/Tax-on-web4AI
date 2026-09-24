@@ -143,7 +143,7 @@ experiments (same chunks, same harness) are quoted for context.
 | `txtai__e5-small__hybrid_bb25_w0.3` | 0.610 | 0.681 | 0.731 | 0.448 | 0.793 | 0.828 | 0.931 | 0.828 | 0.931 | 67 ms/q |
 | `txtai__e5-small__hybrid_bb25_w0.5` | 0.610 | 0.690 | 0.731 | 0.448 | 0.690 | 0.828 | 0.931 | 0.828 | 0.931 | 84 ms/q |
 | **`txtai__e5-small__hybrid_bb25_w0.7`** | **0.622** | **0.693** | 0.724 | **0.483** | 0.690 | 0.793 | 0.897 | 0.793 | 0.897 | 87 ms/q |
-| `txtai__e5-small__hybrid_w0.5+bge-reranker-v2-m3@30` | *still running when this README was written (rerank.py, PID 8336, >54 min for 870 pairs at 2 threads on the contended box); result lands in `experiments/results/06_txtai/A__txtai__e5-small__hybrid_w0.5_bge-reranker-v2-m3_30.json` and `rerank_A.log` — rerun `results_table.py` to refresh* |
+| `txtai__e5-small__hybrid_w0.5+bge-reranker-v2-m3@30` | *not completed: two attempts (untruncated/batch 1, then `rerank.py` with batch 8 / max_length 1024) each ran >55 min for 870 pairs at 2 threads on the contended box and were terminated before finishing; rerun `rerank.py --corpus A` on an idle machine (expect ~5-10 min) and `results_table.py`* |
 | *ref 01_bm25 `fixed1500+title\|max\|stem+stop+qstop+noaccent`* | 0.672 | 0.704 | | | | 0.793 | | | 0.897 | 5 ms/q |
 | *ref 01_bm25 `doc\|stem+stop+qstop+noaccent`* (whole docs) | 0.695 | 0.734 | | | | 0.897 | | | 0.897 | 2 ms/q |
 
