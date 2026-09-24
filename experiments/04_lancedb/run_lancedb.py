@@ -35,6 +35,7 @@ import torch
 torch.set_num_threads(2)  # the 4-core box is shared with the other experiments
 
 import lancedb  # noqa: E402
+from lancedb.index import FTS, IvfPq  # noqa: E402
 from lancedb.rerankers import CrossEncoderReranker, RRFReranker  # noqa: E402
 
 from rag_eval import (EmbeddingCache, evaluate_rankings, save_result, print_leaderboard,  # noqa: E402
@@ -130,8 +131,9 @@ def build_table(db, corpus: str, chunks, emb: np.ndarray, rebuild: bool):
 
 def fts_index(tbl, language: str) -> float:
     t0 = time.perf_counter()
-    kw = dict(language=language, stem=True, remove_stop_words=True, ascii_folding=True, lower_case=True)
-    tbl.create_fts_index("text", replace=True, **kw)
+    cfg = FTS(language=language, stem=True, remove_stop_words=True, ascii_folding=True, lower_case=True,
+              base_tokenizer="simple", with_position=False)
+    tbl.create_index("text", config=cfg, replace=True)  # create_fts_index(...) is deprecated since 0.25
     dt = time.perf_counter() - t0
     print(f"FTS index ({language}) built in {dt:.2f}s: {[i.name for i in tbl.list_indices()]}", flush=True)
     return round(dt, 2)
@@ -141,8 +143,8 @@ def vector_index(tbl) -> float:
     t0 = time.perf_counter()
     n = tbl.count_rows()
     parts = max(1, int(np.sqrt(n)) // 2)  # ~ sqrt(n)/2 partitions; small tables
-    tbl.create_index(metric="cosine", vector_column_name="vector", index_type="IVF_PQ",
-                     num_partitions=parts, num_sub_vectors=48, replace=True)
+    tbl.create_index("vector", config=IvfPq(distance_type="cosine", num_partitions=parts, num_sub_vectors=48),
+                     replace=True)
     dt = time.perf_counter() - t0
     print(f"IVF_PQ index (partitions={parts}, sub_vectors=48) built in {dt:.2f}s", flush=True)
     return round(dt, 2)

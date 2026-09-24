@@ -1,0 +1,6 @@
+{
+ "where": "doctype = 'Circulaires'",
+ "vector_ms": 9.1,
+ "hybrid_ms": 15.4,
+ "all_match": true
+}
