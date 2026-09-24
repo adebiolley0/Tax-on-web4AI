@@ -55,7 +55,7 @@ experiments (load average 12–15), so absolute values are pessimistic by roughl
 
 | run | MRR | nDCG@5 | nDCG@10 | hit@1 | hit@5 | hit@10 | recall@10 | query ms (mean / p95) | index / build |
 |---|---|---|---|---|---|---|---|---|---|
-BGE_ROW_A
+| `lancedb__e5-small__hybrid_rrf+bge-reranker-v2-m3@30` | **0.703** | **0.797** | 0.808 | 0.552 | 0.931 | 0.966 | 0.966 | 122,382 / 143,663 | reranker load 7 s |
 | `lancedb__e5-small__fts_fr` | 0.645 | 0.690 | 0.730 | 0.517 | 0.759 | 0.862 | 0.862 | 7 / 12 | insert 0.05 s, FTS(fr) 0.17 s |
 | `lancedb__e5-small__hybrid_rrf+mmarco-minilm@30` | 0.639 | 0.734 | 0.756 | 0.483 | 0.931 | 0.966 | 0.966 | 18,957 / 21,627 | reranker load 6 s |
 | `lancedb__e5-small__hybrid_rrf` | 0.598 | 0.672 | 0.725 | 0.448 | 0.793 | 0.966 | 0.966 | 17 / 23 | – |
@@ -97,10 +97,14 @@ would have taken > 80 min; mMiniLM (118 M) costs ~20 s per query under the same 
   configuration in the whole leaderboard for B. On A, where lexical overlap between the
   questions and the documents is high, RRF sits between the two legs in MRR but has the
   best recall@10 (0.966) – exactly the property a reranker needs.
-* **A cheap multilingual cross-encoder on the RRF top-30 is worth it**: mMiniLM-L12 lifts
-  hit@5 from 0.79 → 0.93 (A) and 0.58 → 0.70 (B), nDCG@5 +0.06 / +0.04. It costs ~20 s per
-  query on the shared CPU here (≈ 5–8 s on an idle 2-thread box; with a GPU or ONNX this is
-  sub-second) – acceptable for an MCP tool call, not for autocomplete.
+* **A multilingual cross-encoder on the RRF top-30 is worth it**: mMiniLM-L12 lifts
+  hit@5 from 0.79 → 0.93 (A) and 0.58 → 0.70 (B), nDCG@5 +0.06 / +0.04, at ~20 s per query
+  on the shared CPU here (≈ 5–8 s on an idle 2-thread box; sub-second with a GPU or ONNX).
+  `bge-reranker-v2-m3` on the same 30 candidates gives the best corpus-A result of the whole
+  leaderboard (MRR 0.703, nDCG@5 0.797, hit@1 0.552 – above the best bm25s run, 0.695) but
+  at ~2 min per query on this box (~30 s idle) it is only viable with a GPU or a much smaller
+  candidate set. Both are acceptable for an MCP tool call latency budget only if the machine
+  is not a shared 4-core CPU box.
 * **Don't build a vector index at this scale**: IVF_PQ costs recall (MRR −0.01 on A, −0.02 on B,
   recall@10 −0.03 / −0.18) and saves nothing (flat search is 7–30 ms). Brute force is exact.
 * Latency for pure vector / FTS / hybrid is 7–30 ms per query end-to-end, in-process,
@@ -206,9 +210,9 @@ would have taken > 80 min; mMiniLM (118 M) costs ~20 s per query under the same 
 
 **Bottom line**: for a medium French legal corpus behind a single FastMCP server, LanceDB
 removes essentially all of the Qdrant setup (no collection config, no separate sparse
-pipeline, no container) while giving equal-or-better retrieval than the hand-rolled
-numpy+bm25s stack of experiments 02/03, because its French FTS and hybrid fusion match
-what we wrote by hand. What it does *not* give: multi-language analyzers on one column,
+pipeline, no container) while giving retrieval on par with the hand-rolled numpy+bm25s
+stack of experiments 01–03 (French FTS within 0.03 MRR of tuned bm25s, hybrid RRF the best
+non-reranked configuration on corpus B, reranked hybrid the best configuration on corpus A). What it does *not* give: multi-language analyzers on one column,
 a long-running service with many concurrent writers, and a mature ANN story at
 million-scale on CPU – none of which this project needs today.
 
