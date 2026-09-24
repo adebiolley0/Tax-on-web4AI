@@ -137,6 +137,17 @@ md = pdf_to_markdown(pdf_path)
 
 **Note**: Most Fisconet+ PDFs are generic placeholders. Prefer the document API (base64 HTML) via `fetch_document()` or `download_validation_pdfs.py`.
 
+#### 6. Bulk download of all MyMinfin PDFs (RAG source corpus)
+
+```bash
+# Library publications + every navigation-tree leaf → myfin_pdfs/{lang}/{library,tree}/*.pdf + manifest.json
+uv run --package tax-ingestion python ingestion/scripts/download_myfin_pdfs.py            # fr only
+uv run --package tax-ingestion python ingestion/scripts/download_myfin_pdfs.py --languages fr nl
+uv run --package tax-ingestion python ingestion/scripts/download_myfin_pdfs.py --dry-run  # list targets only
+```
+
+Applies the document filtering policy (skips cours professionnels, guide utilisateur, Mémento, aperçu documentaire, …), detects generic placeholder PDFs by hash and removes them, and is resumable. Requires outbound access to `www.minfin.fgov.be`.
+
 ### Key caveats
 
 - **Xvfb required**: The crawler runs Chromium in headed (non-headless) mode. Xvfb must be running on `:1` before starting the MCP server or running any crawl scripts. On this VM it is typically already running; if not: `Xvfb :1 -screen 0 1280x1024x24 &`
