@@ -33,6 +33,13 @@ from pathlib import Path
 
 os.environ.setdefault("OMP_NUM_THREADS", "2")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+# nltk >= 3.9.2 ("pathsec") refuses to open hard-linked files; uv installs packages with
+# hardlinks, so LlamaIndex's bundled _static/nltk_cache (punkt_tab + stopwords, used by
+# SentenceSplitter / SentenceWindowNodeParser) is rejected. Use a plain copy instead:
+#   cp -rL .venv/lib/python3.12/site-packages/llama_index/core/_static/nltk_cache .nltk_data
+_NLTK = Path(__file__).resolve().parent / ".nltk_data"
+if _NLTK.exists():
+    os.environ.setdefault("NLTK_DATA", str(_NLTK))
 
 import torch  # noqa: E402
 

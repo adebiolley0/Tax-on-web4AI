@@ -1,0 +1,14 @@
+-- select id, document_type, score from txtai where document_type = 'Circulaires' and similar(:q, 100, 0.5) limit 5
+--   :q = 'rentes alimentaires déductibles'   (1024 ms)
+   {"id": "circ_2026_C12_rentes_alimentaires#4", "document_type": "Circulaires", "score": 0.7463}
+   {"id": "circ_2026_C12_rentes_alimentaires#14", "document_type": "Circulaires", "score": 0.7418}
+   {"id": "circ_2026_C12_rentes_alimentaires#12", "document_type": "Circulaires", "score": 0.7266}
+   {"id": "circ_2026_C12_rentes_alimentaires#2", "document_type": "Circulaires", "score": 0.7236}
+   {"id": "circ_2026_C12_rentes_alimentaires#7", "document_type": "Circulaires", "score": 0.7219}
+-- select id, document_type, document_date, score from txtai where document_date >= '2020' and similar(:q, 100, 0.5) limit 5
+--   :q = 'voiture de société avantage de toute nature'   (655 ms)
+   {"id": "circ_2024_C77_remboursement_electricite#3", "document_type": "Circulaires", "document_date": "2024-12-05", "score": 0.6882}
+   {"id": "circ_2024_C77_remboursement_electricite#9", "document_type": "Circulaires", "document_date": "2024-12-05", "score": 0.6755}
+   {"id": "circ_2024_C77_remboursement_electricite#11", "document_type": "Circulaires", "document_date": "2024-12-05", "score": 0.6668}
+   {"id": "circ_2024_C77_remboursement_electricite#20", "document_type": "Circulaires", "document_date": "2024-12-05", "score": 0.6392}
+   {"id": "circ_2024_C77_remboursement_electricite#4", "document_type": "Circulaires", "document_date": "2024-12-05", "score": 0.6363}
