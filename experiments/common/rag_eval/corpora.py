@@ -14,6 +14,7 @@ Two corpora are used throughout the experiments:
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -104,4 +105,63 @@ def load_corpus(name: str, **kw) -> tuple[list[Doc], list[Question]]:
         return load_corpus_a(**kw), load_questions_a()
     if name == "B":
         return load_corpus_b(**kw), load_questions_b()
+    if name == "C":
+        return load_corpus_c(**kw), load_questions_c()
     raise ValueError(name)
+
+
+# ── Corpus C: myfin_docs (21k Fisconet+ markdown documents) ─────────────────
+CORPUS_C_DIR = REPO_ROOT / "myfin_docs"
+QUESTIONS_C = DATA_DIR / "corpus_c" / "questions_c.json"
+_FM_RE = re.compile(r"^---\n(.*?)\n---\n", re.S)
+
+
+def _parse_front_matter(text: str) -> tuple[dict, str]:
+    m = _FM_RE.match(text)
+    if not m:
+        return {}, text
+    meta: dict = {}
+    for line in m.group(1).split("\n"):
+        if ":" not in line:
+            continue
+        k, v = line.split(":", 1)
+        v = v.strip()
+        if v.startswith("[") and v.endswith("]"):
+            meta[k.strip()] = [x.strip().strip('"') for x in v[1:-1].split('", "') if x.strip()] if v != "[]" else []
+        else:
+            meta[k.strip()] = v.strip('"')
+    return meta, text[m.end():]
+
+
+def load_corpus_c(doc_types: list[str] | None = None, max_chars: int | None = None,
+                  limit: int | None = None) -> list[Doc]:
+    """Load myfin_docs. ``doc_types`` restricts to folder names; ``max_chars``
+    truncates very long documents (p99 ≈ 118k chars, max 3 MB)."""
+    docs: list[Doc] = []
+    folders = sorted(p for p in CORPUS_C_DIR.iterdir() if p.is_dir())
+    for folder in folders:
+        if doc_types and folder.name not in doc_types:
+            continue
+        for p in sorted(folder.glob("*.md")):
+            raw = p.read_text(encoding="utf-8", errors="replace")
+            meta, body = _parse_front_matter(raw)
+            body = body.strip()
+            # drop the duplicated H1 title line
+            if body.startswith("# "):
+                body = body.split("\n", 1)[1] if "\n" in body else ""
+            if max_chars:
+                body = body[:max_chars]
+            docs.append(Doc(doc_id=f"{folder.name}/{p.stem}", title=meta.get("title", p.stem), text=body,
+                            meta={"document_type": meta.get("document_type", folder.name),
+                                  "document_date": meta.get("document_date"), "path": meta.get("path", []),
+                                  "guid": meta.get("guid"), "folder": folder.name}))
+            if limit and len(docs) >= limit:
+                return docs
+    return docs
+
+
+def load_questions_c() -> list[Question]:
+    qs = json.loads(QUESTIONS_C.read_text())
+    return [Question(q["id"], q["question"], q["expected"], q.get("secondary", []),
+                     {"topic": q.get("topic"), "difficulty": q.get("difficulty"), "doc_type": q.get("doc_type")})
+            for q in qs]
