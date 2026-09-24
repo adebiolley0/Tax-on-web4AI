@@ -54,6 +54,8 @@ CHUNKERS = {
     "article_ctx": lambda docs: article_chunks(docs, 2000, 150, prefix_context=True),
     "article_noctx": lambda docs: article_chunks(docs, 2000, 150, prefix_context=False),
     "article_ctx_1000": lambda docs: article_chunks(docs, 1000, 100, prefix_context=True),
+    # token-safe for 512-token encoders: 1200 chars + heading context ≈ 330-450 e5 tokens (exp 05 finding)
+    "article_ctx_1200": lambda docs: article_chunks(docs, 1200, 100, prefix_context=True),
 }
 
 
