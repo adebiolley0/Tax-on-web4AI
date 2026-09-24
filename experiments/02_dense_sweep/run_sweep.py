@@ -63,7 +63,10 @@ class Encoder:
             from sentence_transformers import SentenceTransformer
             self.m = SentenceTransformer(spec.hf_id, device="cpu", trust_remote_code=spec.trust_remote_code,
                                          **spec.st_kwargs)
-            self.m.max_seq_length = spec.max_seq
+            try:
+                self.m.max_seq_length = spec.max_seq
+            except AttributeError:  # static embedding models have no sequence limit
+                pass
         self.load_s = time.perf_counter() - t0
 
     def _enc(self, texts, prefix, kw):
