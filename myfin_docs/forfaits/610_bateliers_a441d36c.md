@@ -1,0 +1,213 @@
+---
+guid: "a441d36c-a17d-49f2-8332-cfde62292531"
+title: "610 - Bateliers"
+document_type: "Forfaits"
+language: "fr"
+document_date: "2016-10-13"
+publication_date: null
+effective_date: null
+last_modified: "2019-10-04"
+taxonomies: ["Bases forfaitaires de taxation"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Directives et commentaires administratifs", "Bases forfaitaires de taxation"]
+linked_document_nl: "6a279ae3-0794-42c7-965a-24ce56ba3ddd"
+found_via: "4c03db14-6977-4b5f-8eb4-4e8d053d1fa2"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/a441d36c-a17d-49f2-8332-cfde62292531"
+---
+
+# 610 - Bateliers
+
+Impôt sur les revenus
+
+Numéro 610
+
+Bateliers
+
+Base forfaitaire de taxation
+
+Exercice d’imposition 2016 (revenus de 2015)
+
+(version PDF)
+
+Taxation des bateliers-ressortissants pour les exercices d'imposition 2015/2016/2017 (revenus de 2014/2015/2016) - accord entériné par le Centre National de la Recherche à Bruxelles.
+
+Si des modifications sensibles sont apportées dans le courant des années 2015/2016 à l’un ou l’autre élément constitutif de la présente réglementation forfaitaire, l’administration se réserve le droit d’adapter cette réglementation pour les exercices d’imposition 2016/2017 (revenus de 2015/2016) après consultation des groupements professionnels intéressés.
+
+## I. BENEFICES SEMI-BRUTS
+
+Les bénéfices semi-bruts à la tonne et par an sont déterminés comme suit :
+
+a) Bateaux rhénans motorisés :
+
+bâtiments d'une longueur supérieure à 86 m et disposant d'un certificat de visite des « bateaux du Rhin » valable.
+
+A plein tonnage : 123,00 EUR
+
+b) Transporteurs motorisés de marchandises sèches , autres que mentionnés sous c, tonnage à calculer avec tirant d'eau de 1,90 m :
+
+1. Bâtiments jusqu'à plein tonnage de 850 tonnes : 200,00 EUR
+
+2. Bâtiments à partir d'un plein tonnage de 851 tonnes : 185,00 EUR
+
+c) Convois remorqués de bateaux rhénans :
+
+bâtiments d'une longueur supérieure à 86 m et disposant d'un certificat de visite des « bateaux du Rhin » valable + autres convois remorqués, toutes barges de poussage, y compris les bâtiments motorisés qui sont affrétés comme bateaux-magasins, ainsi que pour l’affrètement « en séjour et/ou jour de planche et en jours de surestaries » avec un minimum de 5 jours :
+
+Tonnage avec tirant d'eau de 1,90 m : 67,00 EUR
+
+REMARQUES QUANT AU CALCUL DU BENEFICE SEMI-BRUT
+
+a) Jours d'affrètement
+
+Pour la détermination des montants à la tonne susmentionnés, il a été tenu compte de tous les jours de chômage ordinaire (congés de vacance).
+
+Exemple
+
+Transporteur motorisé de marchandises sèches de 400 tonnes avec tirant d'eau de 1,9 m (catégorie b1), pas de chômage extraordinaire :
+
+La déclaration est remplie en EUR :
+
+200,00 EUR/tonne x 400 tonnes = 80.000 EUR
+
+bénéfice semi-brut = 80.000 EUR
+
+b) Frais directs
+
+Pour la détermination du bénéfice semi-brut, les recettes (total des frets bruts) ont été diminuées des frais suivants :
+
+1. la commission payée aux affréteurs;
+
+2. les droits de navigation, de bassin, de quai et de port;
+
+3. les carburants et huiles de graissage;
+
+4. les frais de déplacements, représentation et pourboires;
+
+5. les droits de pilotage et frais de remorquage;
+
+6. achat et entretien des vêtements spécifiques de travail.
+
+c) Revenus à ajouter
+
+Au bénéfice semi-brut ainsi déterminé, il faut ajouter :
+
+1. la totalité des indemnités d'avarie reçues;
+
+2. la totalité des indemnités reçues pour des dégâts subis dans le cadre de l'activité professionnelle;
+
+3. aides, primes, indemnités, subventions, etc. (exemple, aide à l'expansion, subsides en capital - article 362 du Code des impôts sur les revenus 1992, CIR 92);
+
+4. la totalité des ristournes, commissions, participations bénéficiaires, avantages de toute nature et indemnités obtenues de sociétés coopératives.
+
+## II. FRAIS PROFESSIONNELS DEDUCTIBLES
+
+Sont déductibles du bénéfice semi-brut ci-avant ( d'après les règles du régime ordinaire ) :
+
+a) les intérêts :
+
+- tous les intérêts et frais d'emprunts affectés à des fins professionnelles, conclus auprès de banques, établissements de crédit ou autres institutions financières, ou qui sont conclus par acte notarial ou par acte sous seing privé avec mention d'une date déterminée ;
+
+- les intérêts et frais propres inclus dans les redevances prévues dans les contrats de location-financement (leasing) exclusivement pour du matériel affecté à des fins professionnelles;
+
+- les intérêts et frais d'emprunts qui ont servi à effectuer les versements permettant d'éviter la majoration d'impôt prévue aux articles 157 à 168, CIR 92 et/ou à payer, à l'échéance normale, la quotité de l'impôt des personnes physiques proportionnelle aux revenus professionnels;
+
+b) toutes les rétributions aux aidants indépendants et tiers justifiées par des documents probants (relevés 325.50, factures);
+
+c) les rémunérations des membres du personnel, y compris les frais connexes prévus aux articles 52, 57 et 59, CIR 92 :
+
+- charges sociales légalement dues et cotisations d'assurance ou de prévoyance sociales dues en vertu d'obligations contractuelles;
+
+- cotisations patronales d'assurance complémentaire contre la vieillesse et le décès prématuré en vue de la constitution d'une rente ou d'un capital, en cas de vie ou en cas de décès;
+
+d) amortissements (article 61, CIR 92) :
+
+pour les bateaux affectés à la navigation intérieure pour lesquels les investissements ou opérations sont effectués à partir du 08.10.1993 , un pourcentage d'amortissement de maximum 10 % est applicable sur la valeur d'investissement ou de revient; le montant des amortissements est déterminé lors de la souscription de la déclaration à l'impôt des personnes physiques et ne peut plus être adapté par la suite;
+
+Important : l’année d’acquisition d’un actif amortissable, un plan d’amortissement doit être joint à la déclaration. Les divergences par rapport à ce plan d’amortissement doivent être justifiées.
+
+e) les cotisations versées en exécution de la législation organisant le statut social des travailleurs indépendants; ces charges sociales englobent les cotisations versées librement qui garantissent une indemnité en cas d'incapacité de travail pour cause de maladie et d'invalidité;
+
+f) les primes d'assurance relatives à l'exploitation du bâtiment, étant entendu que les indemnités obtenues pour dégâts subis dans le cadre de l'activité professionnelle doivent être ajoutées aux revenus imposables;
+
+g) les sommes versées à des groupements professionnels reconnus;
+
+h) les honoraires et frais payés à des conseillers fiscaux pour des conseils en rapport avec l'activité professionnelle;
+
+i) les impôts déductibles suivant les dispositions des articles 52 et 53, CIR 92;
+
+j) les impôts français (« Loi Morice » - paiement instauré par la loi de finances pour 1991 et pour les montants payés à la Chambre nationale de la batellerie artisanale (CNBA), par la loi de finances pour 1985), à l'exclusion des droits de navigation à concurrence de 20 % de ces taxes (« Loi Morice ») et les paiements aux Voies navigables de France (VNF) comme « droit de traction » (« Passage spécial de Riqueval »);
+
+k) les frais de délivrance des certificats de navigabilité du bâtiment;
+
+l) les frais d’entretien du bâtiment ou du moteur et l'entretien normal;
+
+m) les frais de téléphone et l’usage, à limiter à l'utilisation professionnelle;
+
+n) les frais de délivrance de certificats.
+
+## III. AUTRES DISPOSITIONS
+
+a) Le régime forfaitaire ne peut pas être revendiqué par :
+
+1. les contribuables qui tiennent une comptabilité régulière ou qui peuvent déterminer leurs bénéfices sur la base de documents probants et contrôlables;
+
+2. les armateurs, pour la période pendant laquelle le bâtiment a été loué avec bail effectif;
+
+3. tous bateaux-citernes transportant des substances liquides ;
+
+4. les contribuables qui exploitent plus de cinq bâtiments;
+
+5. les armateurs qui sont également affréteurs ou dont le conjoint exerce la profession d'affréteur ou lorsque le contribuable ou son conjoint est occupé comme dirigeant d'entreprise dans une société qui affrète des bâtiments à l’exclusion des membres ou dirigeants d’entreprise des sociétés coopératives;
+
+6. l'exploitation de bâtiments sous la forme de société ou personne morale;
+
+7. l’exploitation de bâtiments spécifiquement aménagés pour le transport de containers.
+
+b) Le bénéfice semi-brut forfaitaire a été arrêté en tenant compte de tous les jours de chômage ordinaire (jours non productifs).
+
+Afin de pouvoir tenir compte des jours de chômage extraordinaire, il a été fait usage d'un multiplicateur de 366 pour la détermination des montants retenus par tonne.
+
+Les jours de chômage extraordinaire doivent être justifiés par des documents probants et contrôlables (le service de taxation doit déterminer, sur la base des documents précités, si ces jours de chômage extraordinaire peuvent être pris en considération).
+
+Ci-après une liste non-limitative de cas de chômage extraordinaire :
+
+- réparations et entretien (avaries comprises) : elles peuvent être justifiées au moyen des factures; si celles-ci sont libellées de manière imprécise ou incomplète, elles ne sont pas conformes à la réglementation en vigueur en la matière et ne peuvent donc être retenues;
+
+- maladie : en l'espèce, il doit clairement être établi que le bateau est effectivement resté à quai (par exemple, par la confrontation de plusieurs documents tels que des attestations de « l'Institut national d'assurances sociales pour travailleurs indépendants », « Fonds des maladies professionnelles » prouvant l'incapacité de travail, des attestations d'assurance « police immobilisation », …);
+
+- interdiction de naviguer (par exemple, par la confrontation de plusieurs documents tels que les attestations du « Ministère des communications et de l'infrastructure, Administration des affaires maritimes et de la navigation, … »).
+
+Il importe, dans tous les cas, de vérifier minutieusement les documents probants en tenant compte du fait que le chômage « ordinaire » a déjà été pris forfaitairement en compte.
+
+En cas de commencement ou de cessation d'activité pendant la période imposable, à défaut de ventilation dûment justifiée, le bénéfice semi-brut est calculé prorata temporis.
+
+Exemple
+
+Transporteur motorisé de marchandises sèches de 400 tonnes avec tirant d'eau de 1,9 m (b1) – année complète et 10 jours de chômage extraordinaire prouvé à prendre en considération :
+
+La déclaration est remplie en EUR.
+
+Bénéfice semi-brut annuel :
+
+200,00 EUR/tonne x 400 tonnes = 80.000,00 EUR
+
+Jours de chômage extraordinaire :
+
+10 jours/365 jours x 200,00 EUR/tonne x 400 tonnes = 2.191,78 EUR
+
+Bénéfice semi-brut à retenir : 77.808,22 EUR
+
+## IV. APPLICATION DES BASES FORFAITAIRES DE TAXATION
+
+Les bases forfaitaires de taxation ne s'appliquent qu'à défaut d'éléments probants fournis, soit par le contribuable, soit par l'administration.
+
+Si le contribuable, dans sa déclaration, demande la taxation forfaitaire, il exprime, par le fait même, sa volonté d'adhérer à l'ensemble des règles d'application du barème arrêté d'accord avec les groupements professionnels intéressés.
+
+Par contre, s'il estime ne pouvoir s'y rallier, il doit établir et déclarer, sous le contrôle de l'administration, le montant des bénéfices qu'il a effectivement réalisés.
+
+De son côté, le taxateur peut refuser l'application du forfait :
+
+a) lorsqu'il est à même d'établir que le bénéfice réel excède sensiblement le bénéfice forfaitaire;
+
+b) lorsqu'il constate, soit que le contribuable n'a pas exigé ou délivré les documents prescrits en matière de TVA pour des opérations relatives à son activité professionnelle, soit que l'intéressé n'a pas respecté ses obligations relatives à la tenue des livres ou documents.
+
+Au cas où les dépenses déductibles individuellement dépassent le bénéfice semi-brut déterminé forfaitairement, le résultat doit être ramené à zéro.

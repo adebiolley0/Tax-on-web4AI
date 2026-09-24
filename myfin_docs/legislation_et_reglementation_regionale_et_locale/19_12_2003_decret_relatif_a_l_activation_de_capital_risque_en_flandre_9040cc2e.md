@@ -1,0 +1,383 @@
+---
+guid: "9040cc2e-7c7a-43aa-9833-89f73d418d10"
+title: "19.12.2003 - Décret relatif à l'activation de capital-risque en Flandre"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2003-12-19"
+publication_date: null
+effective_date: null
+last_modified: "2019-10-28"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Autorité flamande", "Autre législation et réglementation"]
+linked_document_nl: "953bcdd9-4da5-486d-bb76-48a206da0da8"
+found_via: "1bfab4af-9402-4169-8e6a-29c1d12ed734"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/9040cc2e-7c7a-43aa-9833-89f73d418d10"
+---
+
+# 19.12.2003 - Décret relatif à l'activation de capital-risque en Flandre
+
+(M.B., 17.02.2004 – entrée en vigueur fixée le 14.01.2005 par l'arrêté du 03.12.2004 (art. 44))
+
+Version coordonnée officieuse - dernière modification : décret du 09.11.2012 (M.B. 26.11.2012)
+
+### CHAPITRE I er - Dispositions générales
+
+Article 1
+
+Le présent décret règle une matière régionale.
+
+Article 2
+
+Au sens du présent décret on entend par :
+
+1° ARKimedes Management NV : la société anonyme créée conformément à l'article 3;
+
+2° Fonds ARKimedes : une entité qui peut être créée à l'initiative de l'ARKimedes Management NV en vue de l'octroi d'emprunts levier ou de la prise de participations de capital;
+
+3° Investissements ARK : un investissement fait par un ARKIV conformément aux conditions énoncées à l'article 15;
+
+4° ARKIV : tout bailleur de capital-risque;
+
+5° crédit d'impôt : un avantage fiscal en vertu de l'article 6, § 2, alinéa premier, 4° de la loi spéciale du 16 janvier 1989 relative au financement des Communautés et des Régions;
+
+6° décret relatif aux sociétés d'investissement flamandes : le décret du 13 juillet 1994 relatif aux sociétés d'investissement flamandes, le "Limburgfonds" et le groupe de travail permanent "Limburg";
+
+7° entreprise cible : une petite, moyenne ou micro entreprise telle que définie dans la Recommandation 2003/631/CE de la Commission européenne du 6 mai 2003 concernant la définition des micro, petites et moyennes entreprises, y compris toutes ses modifications ultérieures, qui adoptent la forme d'une association dote de la personnalité juridique et qui dispose d'un siège d'exploitation dans la Région flamande ou qui s'engage à établir son siège d'exploitation en Région flamande;
+
+8° emprunt levier : un emprunt consenti, conformément à l'article 29, par un fonds ARKimedes à un ARKIV, dans les limites de ses droits de tirage;
+
+9° participation au capital : un investissement fait par un fonds ARKimedes dans le capital d'un ARKIV;
+
+10° capital privé : le capital d'un ARKIV libéré ou promis par des parties autres qu'un fonds ARKimedes;
+
+11° bailleur de capital-risque : toute personne de droit public ou privé, quelle que soit sa nationalité, créée sous forme d'une société dont l'objet social et les activités réellement exercées concernent principalement l'apport de capital-risque a des entreprises autres que les sociétés liées telles que visées à l'article 11 du Code des Sociétés;
+
+12° droits de tirage : les droits que possède un ARKIV d'obtenir des emprunts levier d'un fonds ARKimedes.
+
+----------
+
+modifié par l'art. 48 du décret du 22.12.2006. Texte entre en vigueur le 01.01.2007
+
+### CHAPITRE II - L'ARKimedes Management NV
+
+Article 3
+
+§ 1 er . La "Participatiemaatschappij Vlaanderen NV" crée une filiale spécialisée, dénommée "ARKimedes Management NV ".
+
+§ 2. La Participatiemaatschappij Vlaanderen NV a le droit de modifier la dénomination de l'ARKimedes Management NV.
+
+Article 4
+
+L'ARKimedes Management NV a pour objet :
+
+1° la création et la gestion de fonds ARKimedes;
+
+2° l'agrément et le contrôle d'ARKIV;
+
+3° l'exécution des missions définies conformément à l'article 5, § 2 du présent décret.
+
+Article 5
+
+§ 1 er . A moins qu'expressément stipulé autrement par le présent décret, l'ARKimedes Management NV est assujettie aux dispositions du décret relatif aux sociétés flamandes d'investissement.
+
+§ 2. Par dérogation à l'article 10, § 3 et § 4, du décret relatif aux sociétés flamandes d'investissement, les missions, financement, objectifs financiers et obligations en matière de rapports de l'ARKimedes Management NV sont définis dans le cadre d'une convention entre l'ARKimedes Management NV et la Participatiemaatschappij Vlaanderen NV.
+
+§ 3. Par dérogation à l'article 12, § 1 er du décret relatif aux sociétés flamandes d'investissement, l'ARKimedes Management NV n'est pas placée sous le contrôle du Gouvernement flamand par l'intermédiaire d'un commissaire du gouvernement, mais sous le contrôle de la Participatiemaatschappij Vlaanderen NV.
+
+§ 4. Le conseil d'administration de l'ARKimedes Management NV fait périodiquement rapport au conseil d'administration de la Participatiemaatschappij Vlaanderen NV sur ses activités et sur l'exécution de la convention visée à l'article 5, § 2 entre l'ARKimedes Management NV et la Participatiemaatschappij Vlaanderen NV.
+
+Article 6
+
+Les membres du conseil d'administration de l'ARKimedes Management NV ne peuvent être administrateur, directeur, gérant, mandataire ni préposé d'un ARKIV ou de son gestionnaire.
+
+Le Gouvernement flamand peut fixer des incompatibilités et autres conditions additionnelles afin d'éviter tout conflit d'intérêts.
+
+Article 7
+
+L'ARKimedes Management NV peut demander aux candidats ARKIV, aux ARKIV ou à leurs gestionnaires tous renseignements jugés utiles à l'exécution de sa mission. La personne ou entreprise concernée fournit ces renseignements dans le délai et sous la forme fixés par l'ARKimedes Management NV.
+
+L'ARKimedes Management NV peut en outre imposer à l'ARKIV l'établissement d'un rapport, par le commissaire de l'ARKIV, au frais de ce dernier, concernant les contrôles que l'ARKimedes Management NV spécifie, au sujet notamment de la situation financière de l'ARKIV, de la situation du portefeuille, de l'appréciation de l'actif ou de certains investissements, ou de certaines opérations.
+
+Article 8
+
+Les membres du conseil d'administration et les personnes chargées de la gestion journalière de l'ARKimedes Management NV, ainsi que les personnes qui coopèrent à l'exécution des missions de l'ARKimedes Management NV sont tenus au secret professionnel et ne peuvent divulguer les informations confidentielles dont ils ont pris connaissance du chef de leurs fonctions.
+
+La disposition de l'alinéa premier n'est pas applicable aux communications faites par les personnes intéressées :
+
+1° d'informations non nominatives qui permettent notamment au Gouvernement flamand d'établir son rapport sur l'état d'avancement et les prévisions de l'application du présent décret, à établir conformément à l'article 34;
+
+2° aux autorités judiciaires en cas d'infractions constatées qui sont passibles de peine conformément à l'article 33;
+
+3° lors de convocations de témoigner en justice dans des causes pénales;
+
+4° à la Cellule de Traitement d'Informations financières;
+
+5° à la Participatiemaatschappij Vlaanderen NV en exécution de l'article 5, § 4.
+
+### CHAPITRE III - Les ARKIV
+
+Article 9
+
+Le Gouvernement flamand fixe les conditions à remplir par les bailleurs de capital-risque pour être agréés en tant qu'ARKIV. Ces conditions peuvent porter sur :
+
+1° la forme juridique et le lieu d'établissement;
+
+2° la durée;
+
+3° les qualifications professionnelles des gestionnaires;
+
+4° le capital privé minimum et l'actionnariat;
+
+5° le plan d'entreprise;
+
+6° la politique d'investissement;
+
+7° l'organisation comptable et administrative, y compris les règles d'appréciation appliquées;
+
+8° le contrôle.
+
+Article 10
+
+Pour être agréés en tant qu'ARKIV, les bailleurs de capital-risque présentent un dossier de demande à l'ARKimedes Management NV. Lors de la présentation de leur dossier de demande, les bailleurs de capital-risque précisent s'ils souhaitent une participation au capital ou des droits de tirage. Le même bailleur de capital-risque ne peut être agréé qu'en vue d'une participation au capital ou de droits de tirage.
+
+Le Gouvernement flamand fixe le contenu du dossier de demande et le mode de présentation de celui-ci à l'ARKimedes Management NV.
+
+Article 11
+
+§ 1 er . Les bailleurs de capital-risque ou leurs gestionnaires qui, au moment de la demande ne répondent pas aux conditions de qualification, peuvent introduire une demande de promesse d'agrément.
+
+Le Gouvernement arrête les conditions à remplir par les bailleurs de capital-risque ou leurs gestionnaires pour l'obtention d'une promesse d'agrément.
+
+§ 2. Une promesse d'agrément est un agrément conditionnel qui ne donne droit à une participation au capital ou à des droits de tirage que lorsque toutes les conditions d'agrément conformément à l'article 9 sont réunies. Lors de la promesse d'agrément, l'ARKimedes Management NV précise les conditions non encore remplies.
+
+§ 3. Les bailleurs de capital-risque ou leurs gestionnaires ayant obtenu une promesse d'agrément ont le droit, au cours de la préparation de leur création ou financement ou lors de la composition de leur équipe de gestion, de faire mention de leur promesse d'agrément.
+
+§ 4. Une promesse d'agrément peut être octroyée pour une période de 12 mois au maximum.
+
+Article 12
+
+L'ARKimedes Management NV est compétente pour agréer des bailleurs de capital-risque en tant qu'ARKIV, pour octroyer à des bailleurs de capital-risque ou leurs gestionnaires une promesse d'agrément, ou pour refuser l'agrément ou la promesse d'agrément.
+
+Le Gouvernement flamand arrête la procédure et le délai dans lequel l'ARKimedes Management NV est tenue de se prononcer sur une demande d'agrément ou pour une promesse d'agrément.
+
+Sauf approbation écrite préalable de l'ARKimedes Management NV, l'agrément en tant qu'ARKIV et la promesse d'agrément ne sont pas transmissibles.
+
+Article 13
+
+Le Gouvernement flamand arrête les obligations, les interdictions et les incompatibilités applicables aux ARKIV, notamment pour la gestion, les indemnités de gestion, l'actionnariat, la distribution du portefeuille et les obligations en matière de rapports.
+
+Article 14
+
+§ 1 er . Lorsque l'ARKimedes Management NV constate que l'ARKIV ne respecte pas les obligations permanentes imposées aux ARKIV, elle en avise l'ARKIV en question par lettre recommandée et lui impose un délai de réparation.
+
+Si l'ARKIV en question n'a pas réparé ou cessé l'infraction aux obligations permanentes dans le délai de réparation imparti, l'ARKimedes Management NV peut, par décision motivée :
+
+1° suspendre les droits de tirage octroyés pour la durée de l'infraction aux obligations permanentes;
+
+2° révoquer en tout ou en partie les droits de tirage octroyés;
+
+3° retirer l'agrément de l'ARKIV, ayant pour conséquence automatique la cessation des droits de tirage et l'exigibilité immédiate des emprunts levier consentis.
+
+§ 2. Le présent article est applicable sans préjudice de poursuites judiciaires éventuelles telles que visées à l'article 33, et sans préjudice des droits contractuels ou du droit de sociétés de l'ARKimedes Management NV ou des fonds ARKimedes lors de la prise d'une participation de capital ou de l'octroi de droits de tirage ou d'emprunts levier.
+
+### CHAPITRE IV - Les investissements ARK
+
+Article 15
+
+Un investissement est un investissement ARK lorsque :
+
+1° il s'agit d'un investissement dans une entreprise cible;
+
+2° l'investissement se fait par un nouvel apport financier dans une entreprise cible, soit par la souscription d'une augmentation de capital, par la souscription d'une obligation à options ou warrants ou d'une obligation convertible en capital, soit par souscription, soit par l'exercice d'options ou de warrants;
+
+3° (…)
+
+4° l'investissement ne dépasse pas un montant maximum à fixer par le Gouvernement flamand.
+
+Le Gouvernement flamand est habilité à imposer des conditions complémentaires auxquelles l'investissement ARK doit satisfaire.
+
+----------
+
+modifié par l'art. 10 du décret du 10.12.2010. Texte entre en vigueur le 23.12.2010
+
+### CHAPITRE V - L'entreprise cible
+
+#### Section I re - Dispositions générales
+
+Article 16
+
+(…)
+
+----------
+
+abrogé par l'art. 49 du décret du 22.12.2006. Texte entre en vigueur le 01.01.2007
+
+#### Section II - Critère d'indépendance
+
+Article 17
+
+(…)
+
+----------
+
+abrogé par l'art. 49 du décret du 22.12.2006. Texte entre en vigueur le 01.01.2007
+
+Article 18
+
+(…)
+
+----------
+
+abrogé par l'art. 49 du décret du 22.12.2006. Texte entre en vigueur le 01.01.2007
+
+#### Section IV - Emploi
+
+Article 19
+
+(…)
+
+----------
+
+----------
+
+abrogé par l'art. 49 du décret du 22.12.2006. Texte entre en vigueur le 01.01.2007
+
+#### Section V - Dispositions transitoires
+
+Article 20
+
+(…)
+
+----------
+
+abrogé par l'art. 49 du décret du 22.12.2006. Texte entre en vigueur le 01.01.2007
+
+Article 21
+
+Le Gouvernement flamand décide des conséquences pour les ARKIV si une entreprise portefeuille perd la qualité d'entreprise cible. Il peut les autoriser à maintenir l'investissement et à réaliser des investissements additionnels qui vaudront provisoirement comme investissements ARK.
+
+#### Section VI - Exclusions
+
+Article 22
+
+Les entreprises suivantes ne peuvent en aucun cas être considérées comme entreprise cible :
+
+1° les ARKIV;
+
+2° les entreprises dont les activités sont contraires à l'intérêt général ou l'ordre public;
+
+3° les entreprises actives dans des segments atteints par une surcapacité dans les secteurs du transport, de l'agriculture, de la pêche et de l'aquaculture, ainsi que la construction navale et les secteurs de la CECA.
+
+### CHAPITRE VI - Participations de capital
+
+Article 23
+
+L'agrément en tant qu'ARKIV d'un bailleur de capital-risque qui veut une participation de capital implique l'approbation de la participation de capital dans l'ARKIV en question.
+
+Article 24
+
+Une participation de capital n'est possible que si l'ARKIV en question s'est engagée, lors de sa demande d'agrément, à ne pas réaliser des investissements autres que des investissements ARK.
+
+Article 25
+
+La participation de capital est prise lors de la création ou dans les deux ans de la création de l'ARKIV. Si la participation de capital est prise à l'occasion d'une augmentation du capital dans les deux ans de la création n'est possible que si, simultanément, au moins un investisseur indépendant souscrit plus de 25 % de l'augmentation du capital aux mêmes conditions et appréciation, ou si un expert indépendant a émis préalablement un avis confirmant que l'appréciation proposée est conforme au marché.
+
+Article 26
+
+Le montant de la participation de capital est fixé par la s.a. ARKimedes Management NV. Le montant maximum d'une participation de capital dans une ARKIV doit être inférieur à un pourcentage, à fixer par le Gouvernement flamand, du capital privé de l'ARKIV en question. D'autre part, le Gouvernement flamand peut fixer un montant maximum de la participation de capital par ARKIV.
+
+Une participation de capital ne peut en aucun cas impliquer l'exercice du contrôle exclusif sur une ARKIV, soit directement par un fonds ARKimedes, soit par l'ARKimedes Management NV en tant que gestionnaire. Pour l'application du présent article, on entend par contrôle exclusif ce qui est défini à l'article 8 du Code des Sociétés.
+
+### CHAPITRE VII - Droits de tirage et emprunts levier
+
+Article 27
+
+L'ARKimedes Management NV octroie des droits de tirage aux ARKIV qui remplissent les conditions. Les droits de tirage ne peuvent être exercés qu'en vue de la réalisation d'investissements ARK.
+
+Article 28
+
+Les droits de tirage ont une durée de validité d'un an et sont octroyés à concurrence d'un pourcentage maximum à fixer par le Gouvernement flamand, du capital privé, déduction faite du montant de l'encours d'emprunts levier consentis à l'ARKIV en question. D'autre part, le Gouvernement flamand peut fixer un montant maximum absolu pour les droits de tirage par ARKIV.
+
+Les ARKIV qui remplissent les conditions peuvent obtenir chaque année de nouveaux droits de tirage.
+
+Article 29
+
+Dans les limites de ses droits de tirage, toute ARKIV qui remplit les conditions a droit à un ou plusieurs emprunts levier à concurrence d'un pourcentage maximum, à fixer par le Gouvernement flamand, des engagements existants à réaliser des investissements ARK. Le Gouvernement flamand peut fixer un montant maximum de l'encours d'emprunts levier par ARKIV.
+
+Article 30
+
+Lors de l'octroi de droits de tirage et de tout emprunt levier individuel, une convention écrite est conclue avec l'ARKIV en question, stipulant en tout cas le montant de l'indemnité pour les droits de tirage, l'intérêt des emprunts levier et les éventuelles sûretés.
+
+### CHAPITRE VIII - Dispositions fiscales et financières
+
+#### Section I re - Crédit d'impôt
+
+Article 31
+
+(…)
+
+----------
+
+abrogé par l'art. 18 du décret du 09.11.2012. Texte entre en vigueur le 27.11.2012
+
+#### Section II - Garantie régionale
+
+Article 32
+
+§ 1 er . Dans le cadre de l'autorisation conférée par le décret contenant le budget des Voies et Moyens de la Communauté flamande, le Gouvernement flamand peut décider d'octroyer une garantie régionale en vue de promouvoir la réalisation des objectifs du présent décret.
+
+§ 2. Une garantie régionale ne peut être octroyée que :
+
+1° dans le cadre d'un placement public d'actions ou de parts d'un fonds ARKimedes;
+
+2° pour la contraction d'emprunts par un fonds ARKimedes.
+
+§ 3. Une garantie régionale octroyée dans le cadre d'un placement public d'actions ou de parts d'un fonds ARKimedes peut concerner au maximum 90 % du prix d'émission global des actions ou parts du fonds ARKimedes en question faisant l'objet d'un placement public. Le Gouvernement flamand arrête le pourcentage exact et les modalités d'octroi de la garantie.
+
+§ 4. Une garantie régionale octroyée pour des emprunts contractés par un fonds ARKimedes peut concerner au maximum 100 % du principal et des intérêts dus contractuellement. Le Gouvernement flamand arrête le pourcentage exact et les modalités d'octroi de la garantie. Le Gouvernement flamand arrête le pourcentage exact et les modalités d'octroi de la garantie.
+
+### CHAPITRE IX - Dispositions pénales
+
+Article 33
+
+Seront punies d'un emprisonnement de huit jours à trois ans et d'une amende de 25 à 10.000 euros :
+
+1° les personnes qui fournissent consciemment des informations inexactes, incomplètes ou inopportunes à l'ARKimedes Management NV, au moment de la demande de promesse d'agrément ou après l'octroi de l'agrément;
+
+2° les personnes qui, dans une intention frauduleuse, transgressent les dispositions du présent décret ou de ses arrêtés d'exécution, en vue du détournement ou de l'usurpation des moyens mis à la disposition d'ARKIV sous forme de participations au capital ou d'emprunts levier, ou qui, en général, dans une intention frauduleuse, détournent ces moyens du but pour lequel ils sont mis à la disposition.
+
+Les dispositions du Livre 1 er du Code pénal sont applicables aux infractions visées au présent article.
+
+### CHAPITRE X - Dispositions finales
+
+Article 34
+
+Le Gouvernement flamand soumet chaque année au Parlement flamand un rapport sur l'état d'avancement et les prévisions de l'application du présent décret.
+
+Article 35
+
+Le présent décret est nommé le décret ARK.
+
+Article 36
+
+L'aide au sens de l'article 87, alinéa 1 er du Traité CE ne peut être accordée sur la base du présent décret qu'après l'entrée en vigueur des arrêtés d'exécution y afférents.
+
+Article 37
+
+Le Gouvernement flamand arrête l'entrée en vigueur du présent décret.
+
+Promulguons le présent décret, ordonnons qu'il soit publié au Moniteur belge.
+
+Bruxelles, le 19 décembre 2003.
+
+Le Ministre-Président du Gouvernement flamand,
+
+B. SOMERS
+
+Le Ministre flamand des Finances et du Budget, de l'Aménagement du Territoire, des Sciences et de l'Innovation technologique,
+
+D. VAN MECHELEN
+
+La Ministre flamande de l'Economie, de la Politique extérieure et de l'E-gouvernement,
+
+P. CEYSENS.

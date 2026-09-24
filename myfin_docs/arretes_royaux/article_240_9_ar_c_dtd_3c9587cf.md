@@ -1,0 +1,68 @@
+---
+guid: "3c9587cf-8c10-4b2e-9570-be56daa9157f"
+title: "Article 240^9, AR/C.DTD"
+document_type: "Arrêtés royaux"
+language: "fr"
+document_date: "2026-09-03"
+publication_date: "2026-09-11"
+effective_date: "2026-10-01"
+last_modified: "2026-09-11"
+taxonomies: ["Arrêté d'exécution du Code des droits et taxes divers"]
+path: ["FISCALITÉ", "Droits et taxes divers", "Législation et réglementation", "Arrêtés d’exécution", "Arrêté d'exécution du Code des droits et taxes divers"]
+linked_document_nl: "82cf7efc-679e-4834-b7cf-6e8936fafb0c"
+found_via: "998b2780-db97-4017-825b-1cc2f1914496"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/3c9587cf-8c10-4b2e-9570-be56daa9157f"
+---
+
+# Article 240^9, AR/C.DTD
+
+Article 240^9, AR/C.DTD
+
+Article 240 9
+
+(inséré par l’art. 5 de l’AR du 03.09.2026 (M.B., 11.09.2026). Texte applicable à partir du 01.10.2026 (art. 6))
+
+§ 1 er . L'échelle des amendes administratives concernant des infractions visées à l' article 206 2 du Code des droits et taxes divers est fixée comme suit :
+
+| Nature des infractions | Amende administrative |
+| --- | --- |
+| A. Infraction due à des circonstances indépendantes de la volonté du contribuable : | Néant |
+| B. Fourniture incomplète des informations : |  |
+| 1. Infraction non commise avec intention frauduleuse ou intention de nuire : |  |
+| - 1 ère infraction : | 1.250,00 EUR |
+| - 2 e infraction : | 2.500,00 EUR |
+| - 3 e infraction : | 5.000,00 EUR |
+| - 4 e infraction : | 10.000,00 EUR |
+| Infractions suivantes : | 12.500,00 EUR |
+| 2. Infraction commise avec intention frauduleuse ou intention de nuire : |  |
+| - 1 ère infraction : | 2.500,00 EUR |
+| - 2 e infraction : | 5.000,00 EUR |
+| - 3 e infraction : | 10.000,00 EUR |
+| - 4 e infraction : | 20.000,00 EUR |
+| Infractions suivantes : | 25.000,00 EUR |
+| C. Absence d'informations ou informations fournies tardivement : |  |
+| 1. Infraction non commise avec intention frauduleuse ou intention de nuire : |  |
+| - 1 ère infraction : | 5.000,00 EUR |
+| - 2 e infraction : | 12.500,00 EUR |
+| - 3 e infraction : | 31.250,00 EUR |
+| Infractions suivantes : | 50.000,00 EUR |
+| 2. Infraction commise avec intention frauduleuse ou intention de nuire : |  |
+| - 1 ère infraction : | 12.500,00 EUR |
+| - 2 e infraction : | 37.500,00 EUR |
+| Infractions suivantes : | 100.000,00 EUR |
+
+§ 2. S'il existe des circonstances atténuantes, l'amende administrative peut être réduite par le juge compétent sans pour autant être réduite à un montant inférieur à 40% du montant prévu dans l'échelle déterminée au § 1 er , pour une infraction déterminée.
+
+§ 3. Le juge peut décider qu'il sera sursis à l'exécution de la décision infligeant une amende administrative, en tout ou en partie, pour autant que le contribuable ne s'est pas vu infliger une amende administrative de même nature et n'a pas été condamné à une sanction pénale fiscale durant les cinq années qui précèdent la nouvelle infraction.
+
+Le délai d'épreuve ne peut être inférieur à une année ni excéder trois années, à compter de la date du jugement ou de l'arrêt coulé en force de chose jugée concernant le litige.
+
+§ 4. Le sursis est révoqué de plein droit en cas de nouvelle infraction commise pendant le délai d'épreuve et ayant entraîné l'application d'une amende administrative de même nature que celle antérieurement assortie du sursis.
+
+§ 5. Le sursis peut être révoqué en cas de nouvelle infraction commise pendant le délai d'épreuve et ayant entraîné l'application d'une amende administrative de nature différente à celle de l'amende administrative antérieurement assortie du sursis.
+
+§ 6. Le sursis est révoqué dans la même décision que celle par laquelle est infligée l'amende administrative pour la nouvelle infraction commise dans le délai d'épreuve.
+
+La mention de la révocation du sursis dans la décision se fait tant lorsque la révocation a lieu de plein droit que dans le cas où elle est laissée à l'appréciation de l'administration compétente.
+
+§ 7. L'amende administrative qui devient exécutoire par suite de la révocation du sursis est cumulée sans limite avec celle infligée du chef de la nouvelle infraction.

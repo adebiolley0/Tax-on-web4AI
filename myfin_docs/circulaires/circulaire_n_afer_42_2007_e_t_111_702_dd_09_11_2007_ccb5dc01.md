@@ -1,0 +1,1578 @@
+---
+guid: "ccb5dc01-5208-45ed-b9ee-0cb36e97b7f4"
+title: "Circulaire n° AFER 42/2007 (E.T.111.702) dd. 09.11.2007"
+document_type: "Circulaires"
+language: "fr"
+document_date: "2007-11-09"
+publication_date: "1900-12-31"
+effective_date: null
+last_modified: "2019-10-05"
+taxonomies: ["Circulaires"]
+path: ["FISCALITÉ", "Taxe sur la valeur ajoutée", "Directives et commentaires administratifs", "Circulaires"]
+linked_document_nl: "00c74d58-7c6b-4655-80a5-4771c320404b"
+found_via: "80bdf46a-4705-42f0-a579-d2f9e2890278"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/ccb5dc01-5208-45ed-b9ee-0cb36e97b7f4"
+---
+
+# Circulaire n° AFER 42/2007 (E.T.111.702) dd. 09.11.2007
+
+CIRC 42/2007
+
+CIRC 42/2007
+
+Circulaire n° AFER 42/2007 (E.T.111.702) dd. 09.11.2007
+
+ASSUJETTI Unité TVA UNITE TVA Opérations internes Opérations externes Membre d'une unité TVA Entreprises étroitement liées Fiction légale OBLIGATIONS Sous-numéro d'identification à la TVA DROIT A DEDUCTION BASE D'IMPOSITION
+
+Table des matières
+
+1. INTRODUCTION
+
+|  | 1.1. Cadre européen |
+| --- | --- |
+|  | 1.2. Cadre belge |
+
+2. NOTION D'UNITE TVA
+
+|  | 2.1. Définition |
+| --- | --- |
+|  | 2.2. Caractère optionnel |
+|  | 2.3. Solidarité |
+
+3. QUI PEUT FAIRE PARTIE D'UNE UNITE TVA ?
+
+|  | 3.1. Lien financier |
+| --- | --- |
+
+|  | 3.1.1. Principe |
+| --- | --- |
+|  | 3.1.2. Présomptions |
+
+|  | 3.1.2.1. Contrôle de droit |
+| --- | --- |
+|  | 3.1.2.2. Contrôle de fait |
+|  | 3.1.2.3. Influence notable |
+|  | 3.1.2.4. Lien de contrôle direct ou indirect |
+
+|  | 3.1.3. Exclusions |
+| --- | --- |
+|  | 3.1.4. Problématique des personnes autres que les personnes morales au capital social représenté par des actions ou parts |
+
+|  | 3.2. Lien organisationnel |
+| --- | --- |
+|  | 3.3. Lien économique |
+
+4. QUI DOIT FAIRE PARTIE D'UNE UNITE TVA ?
+
+5. LES ASSUJETTIS DOIVENT ETRE ETABLIS EN BELGIQUE
+
+|  | 5.1. Mesure anti-évasion fiscale |
+| --- | --- |
+
+6. FORMATION ET DISSOLUTION DE L'UNITE TVA - ENTREE ET SORTIE D'UN MEMBRE - CONSEQUENCES EN MATIERE DE DEDUCTIONS - REVISIONS
+
+|  | 6.1. Formation d'une unité TVA - entrée d'un assujetti dans une unité TVA |
+| --- | --- |
+
+|  | 6.1.1. Révision dans le chef de l'assujetti qui entre dans l'unité TVA |
+| --- | --- |
+|  | 6.1.2. Révision dans le chef de l'unité TVA |
+|  | 6.1.3. Exemple |
+
+|  | 6.2. Dissolution d'une unité TVA - sortie d'un membre |
+| --- | --- |
+
+|  | 6.2.1. Révision dans le chef de l'unité TVA |
+| --- | --- |
+|  | 6.2.2. Révision dans le chef du membre sortant |
+
+|  | 6.3. Moment où doivent s'opérer les révisions - Mesure compensatoire |
+| --- | --- |
+
+|  | 6.3.1. Moment où doivent s'opérer les révisions |
+| --- | --- |
+|  | 6.3.2. Mesure compensatoire entre les révisions à opérer |
+
+7. REGIME FISCAL APPLICABLE A L'UNITE TVA
+
+|  | 7.1. Généralités |
+| --- | --- |
+|  | 7.2. Opérations internes |
+
+|  | 7.2.1. Opérations à l'intérieur du pays |
+| --- | --- |
+
+|  | 7.2.1.1. Principe |
+| --- | --- |
+
+|  | 7.2.1.1.1. Application de l'article 19, § 1er, du Code de la TVA |
+| --- | --- |
+|  | 7.2.1.1.2. Application de l'article 19, § 2, 1°, du Code de la TVA |
+|  | 7.2.1.1.3. Application de l'article 12, § 1er, 3°, du Code de la TVA |
+|  | 7.2.1.1.4. Application de l'article 12, § 1er, 4°, du Code de la TVA |
+|  | 7.2.1.1.5. Application de l'article 5, 3°, de l'arrêté royal n° 3 du 10 décembre 1969 relatif aux déductions pour l'application de la taxe sur la valeur ajoutée |
+|  | 7.2.1.1.6. Application de l'article 19 de l'arrêté royal n° 3, relatif aux déductions en matière de taxe sur la valeur ajoutée |
+
+|  | 7.2.1.2. Exportation |
+| --- | --- |
+|  | 7.2.1.3. Livraisons intracommunautaires |
+
+|  | 7.2.1.3.1. Livraisons intracommunautaires entres membres effectuées en Belgique |
+| --- | --- |
+|  | 7.2.1.3.2. Transfert de biens effectué par un membre de Belgique vers un autre Etat membre |
+
+|  | 7.2.1.4. Importation |
+| --- | --- |
+
+|  | 7.2.1.4.1. Généralités |
+| --- | --- |
+|  | 7.2.1.4.2. Destinataire |
+|  | 7.2.1.4.3. Redevable |
+
+|  | 7.2.1.5. Acquisitions intracommunautaires |
+| --- | --- |
+
+|  | 7.2.1.5.1. Acquisition intracommunautaire en Belgique dans le cadre d'une livraison entre membres effectuée dans un autre Etat membre |
+| --- | --- |
+|  | 7.2.1.5.2. Affectation assimilée à une acquisition intracommunautaire dans le cadre d'un transfert effectué par un membre d'un autre Etat membre vers la Belgique |
+
+|  | 7.2.2. En dehors du territoire belge |
+| --- | --- |
+
+|  | 7.3. Opérations externes |
+| --- | --- |
+
+|  | 7.3.1. Opérations à l'intérieur du pays |
+| --- | --- |
+
+|  | 7.3.1.1. Principe |
+| --- | --- |
+
+|  | 7.3.1.1.1. Application de l'article 20 de l'arrêté royal n° 1 du 29 décembre 1992, relatif aux mesures tendant à assurer le paiement de la taxe sur la valeur ajoutée |
+| --- | --- |
+|  | 7.3.1.1.2. Exemptions de l'article 44 du Code de la TVA |
+|  | 7.3.1.1.3. Qualité de constructeur professionnel |
+|  | 7.3.1.1.4. Unité TVA et régime des agences de voyage |
+|  | 7.3.1.1.5. Qualité d'entrepreneur enregistré |
+|  | 7.3.1.1.6. Organismes au sens des rubriques XXIIIbis et XXXV du tableau A de l'annexe à l'arrêté royal n° 20 relatif aux taux de TVA |
+|  | 7.3.1.1.7. Exemption visée par l'article 42, § 4, du Code de la TVA |
+
+|  | 7.3.1.2. Exportation, importation et transports internationaux |
+| --- | --- |
+
+|  | 7.3.1.2.1. Exportation |
+| --- | --- |
+|  | 7.3.1.2.2. Importation |
+|  | 7.3.1.2.3. Transports internationaux |
+
+|  | 7.3.1.3. Opérations intracommunautaires |
+| --- | --- |
+
+|  | 7.3.1.3.1. Membres exonérés par l'article 44 du code de la TVA pour la totalité de leur activité |
+| --- | --- |
+|  | 7.3.1.3.2. Ventes à des particuliers ou à des personnes non tenues de soumettre à la TVA leurs acquisitions intracommunautaires - dépassement du seuil des ventes à distance |
+|  | 7.3.1.3.3. Opérations triangulaires |
+|  | 7.3.1.3.4. Ventes en chaîne entre deux membres et un assujetti établi dans un autre Etat membre |
+
+|  | 7.3.2. En dehors du territoire belge |
+| --- | --- |
+
+8. DROIT A DEDUCTION
+
+|  | 8.1. Examen préalable |
+| --- | --- |
+|  | 8.2. Le régime du prorata général de déduction |
+|  | 8.3. Le régime de l'affectation réelle |
+
+|  | 8.3.1. Principe |
+| --- | --- |
+|  | 8.3.2. Conditions de principe pour l'application de l'affectation réelle |
+|  | 8.3.3. L'affectation réelle et l'unité TVA |
+
+|  | 8.3.3.1. Opérations à prendre en compte pour la détermination du droit à déduction |
+| --- | --- |
+|  | 8.3.3.2. Détermination du droit à déduction au moment de l'acquisition des biens et des services |
+
+|  | 8.3.3.2.1. Les biens et les services sont fournis à un membre de l'unité TVA qui les destine exclusivement à la réalisation par lui-même d'opérations externes ouvrant ou non droit à déduction |
+| --- | --- |
+|  | 8.3.3.2.2. Les biens et les services sont acquis par un membre de l'unité TVA, mais en vue d'être fournis par celui-ci, en tant que tels, à un autre membre de l'unité TVA, qui ne les utilise que pour des opérations externes |
+|  | 8.3.3.2.3. Les biens et les services sont acquis auprès de fournisseurs ou de prestataires externes par un membre de l'unité TVA qui les utilise pour effectuer à la fois des opérations externes et internes identiques |
+|  | 8.3.3.2.4. Les biens et les services sont acquis auprès de fournisseurs ou prestataires tiers à l'unité TVA par des membres qui les utilisent pour réaliser des opérations externes et des opérations internes au profit d'un (ou plusieurs) membre(s) qui réalise(nt) lui (eux)-même(s) des opérations externes et des opérations internes au profit les uns des autres |
+
+9. Dispositions particulières
+
+|  | 9.1. Report de perception lors de l'importation (article 5, § 3, de l'arrêté royal n° 7) |
+| --- | --- |
+
+|  | 9.1.1. Généralités |
+| --- | --- |
+
+|  | 9.1.2. Formalités à accomplir à l'importation |
+| --- | --- |
+
+|  | 9.1.3. Application particulière : constitution d'une unité TVA dans laquelle des membres sont titulaires d'autorisation |
+| --- | --- |
+
+|  | 9.2. Régime de la restitution mensuelle |
+| --- | --- |
+
+|  | 9.2.1. Autorisation accordée précédemment à un membre qui entre dans l'unité TVA |
+| --- | --- |
+
+|  | 9.2.2. Autorisation demandée par l'unité TVA |
+| --- | --- |
+
+|  | 9.3. Option pour la taxation des opérations de paiement et d'encaissement |
+| --- | --- |
+
+A tous les services du secteur Taxation (secteur TVA)
+
+1. INTRODUCTION
+
+Conformément à la déclaration du gouvernement fédéral du 17 octobre 2006, l'introduction d'un système d'unité TVA en Belgique s'inscrit dans un contexte économique où les entreprises sont confrontées à une concurrence internationale croissante qui les contraint à la recherche permanente de l'efficience pour rester compétitives.
+
+Tous les opérateurs économiques, quels que soient leurs régimes TVA et le secteur d'activités auquel ils appartiennent, sont actuellement contraints d'adopter des stratégies permettant de rationaliser les coûts de leur gestion administrative et d'optimaliser l'utilisation de leurs moyens financiers.
+
+Parmi les stratégies couramment développées par les entreprises, l'externalisation et la centralisation de certaines fonctions (notamment celles de support administratif, informatique, back office, call center, etc.) faisant appel à une main-d'œuvre importante via, par exemple, la création de « centres d'excellence » ou de centres de services constitue l'une des plus utilisées car elle permet aux groupes d'entreprises d'une part de réaliser des économies d'échelle importantes sur ces services et d'autre part de se concentrer pleinement sur leur « core business ».
+
+Le système de l'unité TVA qui permet de considérer que des personnes indépendantes du point de vue juridique mais étroitement liées sur les plans financier, économique et de l'organisation ne forment qu'un seul assujetti pour l'application de la TVA, constitue une solution efficace, prévue par la législation européenne et reconnue au niveau international, à ces obstacles.
+
+En effet, l'unité TVA implique que les opérations effectuées entre les personnes membres ne sont pas soumises à la TVA. Le système permet donc la création de « centres d'excellence » ou de centres de services sans risquer de créer de charge de TVA non-déductible supplémentaire.
+
+Il permet également de simplifier et de rationaliser considérablement les obligations administratives des entreprises en ce sens que l'unité TVA étant un assujetti unique, elle assume en tant que telle, tous les droits et toutes les obligations de ses membres.
+
+Pour cette raison notamment, le régime de l'unité TVA existe déjà dans 13 des 25 États membres de l'Union Européenne et est actuellement à l'étude chez certains autres.
+
+L'unité TVA constitue par ailleurs actuellement un critère de choix d'implantation extrêmement important pour attirer et maintenir en Belgique de tels « centres d'excellence », quartiers généraux, fonctions de groupe et autres centres de financement (tels que les centres de coordination).
+
+Dans cette perspective, l'introduction de l'unité TVA en Belgique peut donc être vue comme une mesure de modernisation et d'adaptation de l'environnement fiscal belge destinée à attirer et maintenir ces activités en Belgique.
+
+1.1. Cadre européen
+
+Le système de l'unité TVA est prévu à l'article 11, alinéa 1er, de la directive 2006/112/CE du Conseil du 28 novembre 2006 relative au système commun de la taxe sur la valeur ajoutée (article 4, paragraphe 4, alinéa 2, de la sixième directive 77/388/CEE du Conseil du 17 mai 1977) qui laisse aux États membres la possibilité de considérer comme un assujetti unique les personnes établies sur leur territoire qui, bien qu'indépendantes du point de vue juridique sont liées entre elles sur les plans financier, économique et de l'organisation.
+
+Conformément toutefois à l'article 11, alinéa 2, de la directive 2006/112/CE, un Etat membre qui fait usage de la faculté prévue ci-avant peut prendre toutes les mesures utiles pour éviter que l'application de cette disposition rende la fraude ou l'évasion fiscale possibles.
+
+1.2. Cadre belge
+
+L'article 4, § 2, du Code de la TVA est la transposition quasi littérale de l'article 11, alinéa 1er, de la directive 2006/112/CE du 28 novembre 2006.
+
+Conformément à cette disposition, l'introduction de l'unité TVA requiert de fixer par arrêté royal les modalités selon lesquelles des personnes établies en Belgique qui sont indépendantes du point de vue juridique mais qui sont liées entre elles sur les plans financier, économique et de l'organisation, ne constituent qu'un seul assujetti pour l'application du Code de la TVA.
+
+L'arrêté royal n° 55 du 9 mars 2007 (M.B. du 15 mars 2007), relatif au régime des assujettis formant une unité TVA, pris en exécution de l'article 4, § 2, du Code, fixe les modalités d'application de ce régime. Cet arrêté entre en vigueur le 1er avril 2007.
+
+L'unité TVA doit, sur base des règles normales, être considérée comme un assujetti soumis aux même droits et aux mêmes obligations que n'importe quel autre assujetti et toutes les dispositions de la directive 2006/112/CE lui sont applicables mutatis mutandis.
+
+Partant, l'introduction de l'unité TVA ne peut pas non plus, en soi, entraîner de modification (réduction ou augmentation) concernant les principes régissant l'étendue du droit à déduction de la TVA de ses membres ou quelque autre obligation additionnelle mises à part celles liées à l'identification de l'unité en tant que telle.
+
+2. NOTION D'UNITE TVA
+
+2.1. Définition
+
+L'unité TVA consiste à considérer comme un seul assujetti des personnes établies à l'intérieur du pays qui sont indépendantes du point de vue juridique mais étroitement liées entre elles sur les plans financier, économique et de l'organisation.
+
+L'unité TVA est en quelque sorte une fiction légale, sur le plan de la TVA, à laquelle s'appliquent les dispositions du Code de la TVA.
+
+L'article 1er, § 1er, de l'arrêté royal n° 55 précité stipule ainsi que dans la mesure où ils sont établis en Belgique, peuvent être considérés comme un seul assujetti, conformément à l'article 4, § 2, du Code, les assujettis au sens de l'article 4, § 1er, du Code qui remplissent les conditions cumulatives suivantes :
+
+- être étroitement liés sur le plan financier;
+- être étroitement liés sur le plan de l'organisation;
+- être étroitement liés sur le plan économique.
+
+L'ensemble des assujettis qui sont ainsi considérés comme un seul assujetti est qualifié d'unité TVA. Un assujetti qui fait partie d'une unité TVA est qualifié de membre d'une unité TVA.
+
+Un assujetti ne peut appartenir à plus d'une unité TVA à la fois. Compte tenu de la mesure prévue à l'article 19bis (nouveau) du Code de la TVA (v. point 5.1. ci-après), la circonstance qu'un assujetti établi à l'étranger fasse partie d'une unité TVA reconnue comme telle dans l' Etat membre d'établissement de cet assujetti, n'a pas pour conséquence qu'un établissement stable en Belgique de cet assujetti ne puisse quant à lui faire partie d'une unité TVA en Belgique.
+
+A compter de sa création et pendant la durée de son existence, l'unité TVA se substitue à ses membres pour tous leurs droits et obligations mentionnés dans le Code de la TVA et ses arrêtés d'exécution.
+
+2.2. Caractère optionnel
+
+Le régime de l'unité TVA est, sous réserve de ce qui est repris ci-après au point 4, optionnel. Il ne peut être mis en œuvre que par l'exercice d'une option tant par l'ensemble des assujettis qui ont décidé de constituer une unité TVA, qu'en principe individuellement par chacun des membres.
+
+Il convient de préciser, pour autant que de besoin, que l'option exercée par l'assujetti établi en Belgique vaut pour l'entièreté de cette entité juridique, en ce compris donc pour tous ses établissements stables (sièges d'exploitation, succursales) situés en Belgique.
+
+Il va de soi que ce principe est applicable à tous les établissements stables en Belgique d'une société assujettie établie à l'étranger.
+
+2.3. Solidarité
+
+Enfin, l'unité TVA étant un assujetti en tant que tel, titulaire des droits et obligations prévus par le Code de la TVA et ses arrêtés d'exécution, il s'ensuit que les membres de l'unité TVA sont, vis-à-vis de l'État, solidairement responsables de toutes les dettes TVA de l'unité.
+
+Un article 51ter nouveau du Code de la TVA (entrée en vigueur : 1er avril 2007) prévoit ainsi que « les personnes qui ne constituent qu'un seul assujetti par application de l'article 4, § 2, sont solidairement tenues vis-à-vis de l'Etat du paiement de la taxe, des intérêts, des amendes et des frais exigibles du fait des opérations qui se rapportent à la période pendant laquelle ces personnes constituent un seul assujetti pour l'application du présent Code ».
+
+3. QUI PEUT FAIRE PARTIE D'UNE UNITE TVA ?
+
+L'unité TVA ne peut être formée que par des membres ayant un statut d'assujetti établi en Belgique.
+
+En sont donc exclus :
+
+- les holdings passifs ;
+- les autorités et établissements publics, dans la mesure où ils n'agissent pas dans le cadre d'une activité économique leur conférant la qualité d'assujetti ;
+- les personnes physiques n'ayant pas en tant que telles la qualité d'assujetti, même si elles exercent des fonctions de gérant ou administrateur des sociétés dont elles détiennent tout ou partie du capital.
+- les assujettis établis à l'étranger ; cependant, les établissements stables en Belgique de ces assujettis peuvent faire partie d'une unité TVA belge ; dans la mesure où ces établissements stables ne peuvent pas être considérés comme des personnes distinctes des assujettis établis à l'étranger, c'est dans le chef de ces derniers que le lien sur les plans financier, économique et de l'organisation dont il question ci-après, doit être apprécié, même si ces assujettis établis à l'étranger ne peuvent être intégrés dans l'unité TVA belge.
+
+Pour faire partie d'une unité TVA, les assujettis au sens de l'article 4, § 1er, du Code de la TVA doivent être étroitement liés sur les plans financier, économique et de l'organisation.
+
+Les notions de lien étroit sur les plans financier, économique et de l'organisation sont des concepts communautaires et ils doivent, à ce titre recevoir une définition communautaire. Néanmoins, dans la mesure où la directive 2006/112/CE précitée ne les définit pas et que la Cour de justice des Communautés européennes n'a pas encore eu à se prononcer en la matière, l'administration a décidé d'en donner sa propre définition en recourant à des concepts et à des normes connus en droit interne (p. ex. le Code des sociétés) mais qui seront limités pour respecter les finalités et l'économie de la directive précitée.
+
+Par ailleurs, les liens étroits sur les plans financier, économique et de l'organisation sont cumulatifs et ils doivent être satisfaits par les assujettis souhaitant former une unité TVA . Les liens entre les assujettis qui veulent former une unité de TVA peuvent également être démontrés par les assujettis ou non assujettis qui eux-mêmes ne veulent ou ne peuvent pas faire partie de l'unité TVA.
+
+En outre, ces liens étroits doivent présenter un caractère de permanence , ce qui signifie que ces liens doivent être maintenus pendant toute la durée de vie de l'unité TVA.
+
+3.1. Lien financier
+
+3.1.1. Principe
+
+L'article 1er, § 1er, 1°, de l'AR 55 prévoit que pour pouvoir bénéficier du régime de l'unité TVA, les assujettis doivent être étroitement liés sur le plan financier .
+
+L'administration considère que ce lien étroit sur le plan financier est établi dès qu'un assujetti détient directement ou indirectement , dans une autre société avec laquelle il souhaite former une unité TVA , une quotité de droits sociaux de 10% ou plus .
+
+Pour autant qu'un assujetti via plusieurs intermédiaires possède cumulativement 10% ou plus des droits sociaux d'une autre société avec laquelle il souhaite former une unité TVA, cette condition est également présumée remplie.
+
+L'administration accepte également que cette condition soit remplie lorsque 10% ou plus des droits sociaux des assujettis qui veulent faire partie de l'unité TVA sont détenus, directement ou indirectement, par le même actionnaire. Par ailleurs, le fait que ledit actionnaire fasse ou non partie de l'unité TVA est irrelevant en l'espèce. En d'autres termes, la condition est également remplie lorsque l'actionnaire opte pour ne pas faire partie de l'unité TVA ou n'est pas autorisé à en faire partie.
+
+En cas de participation indirecte (A détient une participation indirecte dans C lorsqu'il détient des droits sociaux dans B qui détient lui-même des droits sociaux dans C), il convient alors d'appliquer une double limitation pour le calcul de la quotité des droits sociaux (d'abord, en fonction de la quotité de droits sociaux détenue par A dans B et ensuite, en fonction de la quotité de droits sociaux détenue par B dans C).
+
+Pour autant qu'il ne puisse pas faire appel à ces principes, l'assujetti peut établir le lien financier sur la base de présomptions mentionnées ci-dessous (voir 3.1.2).
+
+Exemple 1 (voir schéma ci-dessous) : la société A détient une participation dans la société B à concurrence de 40% et B détient 20% dans la société C et une participation de 30% dans la société D. L'administration accepte dans tous les cas que la condition concernant le lien financier soit remplie entre A, B, C et D. Pour autant que B n'opte pas pour faire partie d'une unité TVA avec A ou si B ne peut pas en faire partie (c'est le cas notamment lorsque B n'est pas établi en Belgique et/ou si B est un holding passif), l'administration accepte dans tous les cas que les conditions relatives au lien financier soient remplies entre la société A et la société D. En effet, A détient dans ce cas une participation indirecte de 12% dans D. En ce qui concerne la société C, sur base des principes mentionnés ci-dessus, la condition relative au lien financier n'est pas présumée être remplie. La société C peut encore faire appel aux présomptions mentionnées ci-dessous afin d'établir le lien financier (voir 3.1.2).
+
+Exemple 2 (voir schéma ci-dessous) : le holding passif A (qui n'est pas établi à l'étranger) détient des participations dans le holding passif B à concurrence de 99%, des participations dans la société C à concurrence de 60%, des participations dans la société D à concurrence de 15% et des participations dans la société E à concurrence de 9%. L'administration accepte dans tous les cas que la condition relative au lien financier soit remplie entre C et D dans la mesure où plus de 10% des droits sociaux de C et D appartiennent à A. La société B ne peut, quant à elle, faire partie de l'unité TVA étant donné qu'elle n'est pas assujettie. En ce qui concerne la société E, la condition relative au lien financier n'est pas présumée remplie sur la base des principes susmentionnés. La société E peut encore faire appel aux présomptions mentionnées ci-dessous afin d'établir le lien financier (voir 3.1.2)
+
+Exemple 3 (voir schéma ci-dessous) : la société A (établie à l'étranger) détient des participations dans la société belge B à concurrence de 99% ainsi que dans la société belge C à concurrence de 80%. La société C détient une participation de 20% dans la société D et une participation de 12% dans la société E. La société C opte pour ne pas faire partie de l'unité TVA. L'administration accepte dans tous les cas que la condition relative au lien financier entre B et D soit remplie étant donné que A détient (in)directement plus de 10% des droits sociaux de B et D. En ce qui concerne la société E, sur base des principes cités précédemment, le lien financier n'est pas présumé établi puisque A détient indirectement seulement 9,6% des droits sociaux. A peut faire appel aux présomptions mentionnées ci-dessous afin d'établir le lien financier (voir 3.1.2).
+
+3.1.2. Présomptions
+
+En dehors de l'hypothèse de détention de droits sociaux dont il est question ci-avant, l'arrêté royal n° 55 établit une présomption selon laquelle la condition de liaison étroite sur le plan financier est en tous cas remplie lorsqu'il existe entre eux, en droit ou en fait, directement ou indirectement, un lien de contrôle .
+
+Le lien de contrôle au sens de cette disposition est établi dans les cas suivants.
+
+Par ailleurs, il est précisé que, même si celui qui exerce le contrôle, de droit ou de fait, directement ou indirectement, opte pour ne pas faire partie de l'unité TVA ou ne peut pas en faire partie, ces présomptions restent en tout cas d'application.
+
+3.1.2.1. Contrôle de droit
+
+Le lien de contrôle existe lorsqu'il y a contrôle de droit au sens de l'article 5, §§ 1 et 2, du Code des sociétés.
+
+Aux termes de cette disposition, le contrôle est de droit :
+
+- lorsqu'il résulte de la détention de la majorité des droits de vote attachés à l'ensemble des actions, parts ou droits d'associés de la société en cause ;
+
+L'attention est attirée sur le fait qu'il s'agit ici de la majorité des droits de vote liés aux actions, parts ou droits d'associés, et non pas de la détention de la majorité des actions ou parts. Certaines actions ou parts peuvent en effet être émises sans droit de vote, ou avec un droit de vote simple ou même dans certains cas, avec des droits de vote double.
+
+- lorsqu'un associé a le droit de nommer ou de révoquer la majorité des administrateurs ou des gérants;
+- lorsqu'un associé dispose du pouvoir de contrôle en vertu des statuts de la société ou de conventions conclues avec celle-ci ;
+- lorsque, par l'effet de conventions conclues avec d'autres associés de la société, un associé dispose de la majorité des droits de vote attachés à l'ensemble des actions, parts ou droits d'associés de celle-ci ;
+- en cas de contrôle conjoint ;
+
+Est visé ici le contrôle exercé ensemble par un nombre limité d'associés lorsque ceux-ci ont convenu que les décisions relatives à l'orientation de la gestion ne pourraient être prises que de leur commun accord. Dans cette hypothèse, il n'est cependant pas requis que tous les associés qui exercent ensemble ce contrôle conjoint fassent partie de l'unité TVA.
+
+3.1.2.2. Contrôle de fait
+
+Le lien de contrôle existe également lorsqu'il y a contrôle de fait, au sens de l'article 5, §§ 1 et 3, du Code des sociétés.
+
+Pour l'application du régime des assujettis formant une unité TVA, l'une des situations de contrôle de fait admise entre autres par l'administration est celle où un associé, qui pourrait être minoritaire en termes de détention de droits de vote mais qui se trouve face à une multitude de petits porteurs non représentés à l'assemblée générale, a exercé lors des deux dernières assemblées générales, des droits de vote représentant la majorité des voix attachées aux titres représentés à ces assemblées.
+
+3.1.2.3. Influence notable
+
+Le lien de contrôle existe également lorsque des sociétés sont associées au sens de l'article 12 du Code des sociétés.
+
+Le lien de contrôle peut s'apprécier par la détention de participations directes ou indirectes permettant à une société d'exercer une influence notable sur l'orientation de la gestion de la société contrôlée.
+
+Pour l'application du régime des assujettis formant une unité TVA, l'une des situations où cette influence notable peut être établie est entre autres celle où les droits de vote attachés à cette participation représentent un cinquième ou plus des droits de vote des actionnaires ou associés.
+
+L'administration étudiera par ailleurs les cas spécifiques qui lui seront soumis à l'effet de décider si un tel lien existe ou pas.
+
+3.1.2.4. Lien de contrôle direct ou indirect
+
+La notion de lien de contrôle direct ne nécessite pas de commentaire particulier.
+
+Le lien de contrôle indirect est celui qui est exercé par une société sur une autre par l'intermédiaire d'une troisième société (nonobstant le fait que cette société intervenante fasse ou non partie et/ou puisse faire partie ou non de l'unité TVA) :
+
+A -> contrôle B -> contrôle C
+
+Dans cet exemple, A contrôle indirectement C.
+
+Il convient encore de préciser que les dispositions des articles 6 à 9 du Code des sociétés sont applicables pour définir ou préciser les concepts énoncés ci-dessus.
+
+S'agissant de la présomption contenue à l'article 7, § 1er, du Code des sociétés, relatif à la détermination du pouvoir de contrôle, selon laquelle « le pouvoir de contrôle détenu par une personne servant d'intermédiaire à une autre personne est censé détenu exclusivement par cette dernière personne » peut, pour l'appréciation du lien de contrôle, être renversée. L'intermédiaire doit alors, en l'espèce, établir que l'exercice de son pouvoir de contrôle résulte de la volonté de son « mandant » de lui abandonner sans réserve et de manière durable les droits de vote liés aux actions et parts que ce mandant détient.
+
+3.1.3. Exclusions
+
+La circonstance que des sociétés forment un consortium au sens de l'article 10 du Code des sociétés n'est absolument pas relevante pour l'appréciation de l'existence d'un lien financier entre ces sociétés. Le cas échéant, les mêmes principes et présomptions que ceux exposés sous 3.1.1. et 3.1.2. peuvent toutefois être appliqués.
+
+Dans le même ordre d'idées, le lien de contrôle ne sera, en toute hypothèse, pas considéré comme établi lorsque deux sociétés, dont l'une ne détient pas de l'autre des actions ou parts, concluent une convention en vertu de laquelle une de ces sociétés confie à l'autre sa gestion ou son management, même si cette convention permet à la société gestionnaire de prendre toute décision, de quelque domaine qu'elle relève (politique commerciale, sociale, etc…).
+
+3.1.4. Problématique des personnes autres que les personnes morales au capital social représenté par des actions ou parts
+
+Pour ces personnes (établissements publics, associations sans but lucratif, groupements d'intérêt économique, sociétés momentanées, sociétés internes, sociétés de droit commun, caisses communes d'assurances, associations d'assurance mutuelle,…), la notion de lien financier telle qu'elle est développée ci-avant, n'est a priori pas relevante.
+
+Néanmoins, il peut être fait appel par analogie aux principes fondamentaux sur lesquels cette notion repose (détention de 10% du patrimoine et influence notable ou déterminante sur la gestion des organismes). Ainsi, le lien étroit sur le plan financier est censé exister entre deux personnes lorsque l'une d'entre elles a apporté la majorité des actifs investis pour les besoins de l'activité économique de l'autre.
+
+Enfin, dans la mesure où l'administration éprouve certaines difficultés à dégager des critères généraux justifiant l'existence de liens étroits sur le plan financier entre ces personnes, elle examinera les situations concrètes qui lui seront présentées et statuera sur l'existence ou non de tels liens financiers dans chacune de ces situations.
+
+3.2. Lien organisationnel
+
+L'article 1er, § 1er, 2°, de l'AR 55 prévoit que pour pouvoir bénéficier du régime de l'unité TVA, les assujettis doivent être étroitement liés sur le plan de l'organisation.
+
+Cette condition est en tous cas remplie lorsque :
+
+- ils sont, en droit ou en fait, directement ou indirectement, sous une direction commune
+
+Tel est notamment le cas lorsque les conseils d'administration ou les comités de direction sont constitués des mêmes personnes, et, plus généralement, le cas des consortiums, au sens de l'article 10 du Code des sociétés ;
+
+- ils organisent leurs activités totalement ou partiellement en concertation ou
+- ils sont, en droit ou en fait, directement ou indirectement, sous le pouvoir de contrôle d'une seule personne.
+
+3.3. Lien économique
+
+L'article 1er, § 1er, 3°, de l'AR 55 prévoit que pour pouvoir bénéficier du régime de l'unité TVA, les assujettis doivent être étroitement liés sur le plan économique.
+
+Cette condition est en tous cas remplie lorsque :
+
+- l'activité principale de chacun d'entre eux est de même nature ou
+- leurs activités se complètent ou s'influencent ou s'inscrivent dans la recherche d'un objectif économique commun ou
+- l'activité d'un assujetti est exercée en totalité ou en partie au profit des autres.
+
+4. QUI DOIT FAIRE PARTIE D'UNE UNITE TVA ?
+
+En ce qui concerne les personnes morales, dès lors qu'une société membre d'une unité TVA détient une participation directe de plus de 50% dans une autre société, les 3 conditions cumulatives de participation, requises pour se joindre à une unité TVA existante sont présumées remplies et cette dernière doit, en principe en faire partie.
+
+Seules les participations directes supérieures à 50% sont prises en compte. Par exemple la présomption ne s'applique pas à une société filiale détenue à concurrence de 33% par ses trois sociétés-mère, fussent-elles toutes les trois membres de l'unité TVA.
+
+Par ailleurs, compte tenu du fait que seules des entités établies en Belgique peuvent être membres d'une unité TVA, il va de soi que la présomption n'a pas de sens à l'égard d'une filiale qui n'est établie qu'à l'étranger.
+
+Elle s'applique en revanche à cette filiale établie à l'étranger dès lors que celle-ci possède un établissement stable en Belgique.
+
+La présomption et l'obligation qui en est le corollaire s'appliquent « en cascade ». Il convient de vérifier en fait, de manière individuelle, si la ou les filiale(s) directe(s) se trouve(nt) dans la situation visée.
+
+La combinaison du système optionnel et de la présomption peut être illustrée de la façon suivante : un groupe de sociétés dont le holding principal A détient deux filiales directes B et C (à plus de 50% chacune) lesquelles détiennent directement (également à plus de 50%) et respectivement les filiales D et E. Si toutes les sociétés sont établies en Belgique, les cas de figure suivants peuvent se présenter :
+
+- A opte pour constituer une unité TVA avec un autre groupe de sociétés vis-à-vis duquel les conditions cumulatives sont remplies : la présomption s'applique « en cascade » à B et C et ensuite à D et E;
+- B opte pour constituer une unité TVA avec C : la présomption joue pour leur filiale, D et E. Il va de soi que B et C doivent remplir les 3 conditions explicitées ci-avant, étant entendu que la condition du lien financier peut se déduire de la circonstance que B et C soient détenues par A, qui ne fait pas partie de l'unité TVA.
+- B et/ou C forment deux unités TVA séparées : la présomption joue pour leurs filiales respectives.
+
+La présomption qu'une filiale détenue à plus de 50% satisfait aux conditions de liens financiers, économiques et organisationnels requis pour former une unité TVA est réfragable, en ce sens que nonobstant ce lien de participation, les personnes morales concernées peuvent démontrer qu'il n'y a pas, ou seulement de façon ténue, de liens économiques ou organisationnels entre eux ou qu'il existe d'autres circonstances susceptibles de justifier le maintien de la filiale en dehors de l'unité.
+
+A titre d'exemples, peuvent être mentionnés :
+
+- le fait que la filiale poursuit un but ou des activités très différentes de celles du reste du groupe et/ou s'adresse à une clientèle distincte;
+- Le fait que le contrôle de droit n'est pas exercé dans la pratique ;.
+- le fait que la filiale est en passe d'être cédée, liquidée ou autrement restructurée.
+
+Lorsqu'une filiale est effectivement laissée en dehors de l'unité TVA à la suite d'une telle demande, la présomption cesse de s'appliquer aux sous-filiales de celle-ci, sans préjudice toutefois du droit de ces dernières de démontrer qu'en ce qui les concerne, elles peuvent faire partie de l'unité TVA.
+
+Par contre, les circonstances suivantes ne sont pas de nature à renverser la présomption d'appartenance automatique à l'unité TVA :
+
+- le fait que la filiale n'est pas reprise dans le périmètre de consolidation (validé par les réviseurs d'entreprises);
+- le fait que le chiffre d'affaires de la filiale est négligeable par rapport au chiffre d'affaires total de l'unité TVA;
+- le fait que la règle de solidarité aurait des conséquences dommageables pour la filiale (par exemple pour le « rating » international de l'entreprise).
+
+L'administration étudiera par ailleurs les cas spécifiques qui lui seront soumis à l'effet de décider si les assujettis en question peuvent être exclus.
+
+5. LES ASSUJETTIS DOIVENT ETRE ETABLIS EN BELGIQUE
+
+Conformément au principe de territorialité de la loi fiscale, l'unité TVA ne peut être formée que par des membres ayant un statut d'assujetti établi en Belgique.
+
+Pour l'application des dispositions du Code de la TVA et des arrêtés royaux pris en son exécution, un assujetti est considéré comme établi en Belgique lorsqu'il a en Belgique :
+
+a) son domicile (s'il s'agit d'une personne physique);
+
+b) son siège social ou statutaire (s'il s'agit d'une personne morale);
+
+c) ou un établissement stable (p.ex. une succursale).
+
+Il est renvoyé à cet égard aux points 8 et 9 de la circulaire n° 4/2003 relative aux assujettis non établis en Belgique.
+
+Par ailleurs, dans son arrêt du 23 mars 2006, affaire C-210/04, FCE Bank, la Cour de justice des Communautés européennes a dit pour droit que « Les articles 2, paragraphe 1er, et 9, paragraphe 1er, de la sixième directive 77/388/CEE du Conseil, du 17 mai 1977, en matière d'harmonisation des législations des États membres relatives aux taxes sur le chiffre d'affaires - Système commun de taxe sur la valeur ajoutée: assiette uniforme, doivent être interprétés en ce sens qu'un établissement stable, qui n'est pas une entité juridique distincte de la société dont il relève, établi dans un autre État membre et auquel la société fournit des prestations de services, ne doit pas être considéré comme un assujetti en raison des coûts qui lui sont imputés au titre desdites prestations».
+
+Dans cette même affaire, l'Avocat général relève dans ses conclusions que la circonstance qu'un établissement stable comporte …, de manière durable, un ensemble de moyens humains et matériels qui permettent la fourniture des prestations de services aux clients de l'entreprise ne justifie pas de considérer qu'il exerce ses activités de manière indépendante de sa société mère, au sens de l'article 4, paragraphes 1 et 4, de la sixième directive et qu'il devrait être considéré comme un assujetti distinct, mais permet le rattachement de cette entreprise à l'Etat d'accueil, c'est-à-dire d'être soumis à l'impôt dans ce pays. L'Avocat général commentant l'article 4, paragraphe 4, alinéa 2 de la sixième directive 77/388/CE du Conseil du 17 mai 1977 (actuellement article 11, alinéa 1er, de la directive 2006/112/CE du Conseil du 28 novembre 2006) considère que cette disposition peut être comprise, a contrario, en ce sens qu'une même personne juridique ne peut constituer qu'un seul assujetti.
+
+Dans le cadre du régime de l'unité TVA en Belgique, un établissement stable d'une entreprise étrangère peut faire partie d'une unité TVA belge mais les établissements étrangers d'entreprises étrangères ou belges sont par contre exclus.
+
+5.1. Mesure anti-évasion fiscale
+
+Sans qu'il n'appartienne à l'administration d'apprécier l'opportunité pour les entreprises d'organiser l'externalisation de leurs activités, force est de craindre que la constitution d'unités TVA ne soit génératrice de scénarios de cross-border de services.
+
+L'application des principes arrêtés par la CJCE dans l'affaire FCE Bank précitée conduit, s'agissant d'unités TVA, à des phénomènes d'évasion fiscale.
+
+La notion d'évasion fiscale, introduite par le législateur Communautaire, correspond à un phénomène purement objectif qui entraîne un évitement de la taxe indépendamment de toute intention de l'assujetti de se procurer un avantage fiscal.
+
+Cette situation d'évasion fiscale est ainsi rencontrée lorsque par exemple l'assujetti organise ses activités selon certaines modalités sans intention de se procurer un avantage fiscal, mais pour des raisons d'ordre commercial, et qu'il en résulte un évitement de la taxe dommageable au Trésor (pour la notion d'évasion fiscale, voir l'arrêt du 12 juillet 1988 de la CJCE, affaires jointes 138/86 et 139/86 - Direct Cosmetic Ltd et Laughtons, et les conclusions de l'Avocat général dans ces mêmes affaires).
+
+A côté de l'évitement du paiement de TVA en Belgique par des structures d'outsourcing à l'étranger (problématique maison-mère et succursale), des techniques de channeling qui relèvent quant à elles davantage de la pratique abusive, sont également à craindre.
+
+Le channeling peut être défini comme la situation où une entreprise qui est établie en Belgique et fait partie d'une unité TVA possède un établissement stable à l'étranger et acquiert des services auprès de tiers par l'intermédiaire de son établissement stable situé à l'étranger, dans le but d'utiliser ces services dans l'unité TVA sans que ces services soient utilisés effectivement par cet établissement. Cet établissement ne sert alors que d'intermédiaire dans le but d'obtenir un avantage fiscal (services fournis sans TVA à l'unité TVA).
+
+Or sur base de l'article 11, deuxième alinéa, de la directive 2006/112/CE du Conseil du 28 novembre 2006 relative au système commun de taxe sur la valeur ajoutée, des mesures utiles peuvent être prises pour éviter que l'application d'un régime d'unité TVA rende la fraude ou l'évasion fiscale possibles.
+
+C'est ainsi qu'un nouvel article 19bis, est introduit dans le Code de la TVA pour éviter que l'application de l'unité TVA rende la fraude ou l'évasion fiscales possibles, et qu'ainsi l'appartenance à une unité TVA puisse donner lieu à des avantages ou à des économies d'impôts injustifiés en matière de TVA.
+
+Il va de soi que cette mesure ne fait pas obstacle à l'application des exonérations prévues par l'article 44 du Code de la TVA, et notamment celles visées à l'article 44, § 3, 4° à 11° de ce Code.
+
+Art. 19bis
+
+« Est également assimilée à une prestation de services effectuée à titre onéreux, la fourniture d'un service tel que défini à l'article 21, § 3, 7°, par un assujetti établi en dehors de la Belgique, pour les besoins d'un de ses établissements qui est membre d'une unité TVA au sens de l'article 4, § 2, en Belgique. »
+
+Ainsi, la fourniture d'un tel service par un assujetti à partir d'un établissement situé en dehors de la Belgique, pour les besoins d'un de ses établissements qui est membre d'une unité TVA en Belgique, est assimilée à une prestation de services effectuée à titre onéreux.
+
+Pour cette opération, la base d'imposition est alors constituée par la valeur normale de la prestation de services telle que cette valeur est déterminée conformément à l'article 32 du Code de la TVA.
+
+Sur la base de la réponse du secrétaire d'état Hervé Jamar à la question parlementaire posée par Monsieur Bart Tommelein au Vice Premier Ministre et Ministre des Finances à propos du « projet d'article 19bis du CTVA » (n° 15082) cet article vise seulement les cas d'évasion tels qu'ils sont décrits dans l'exposé des motifs dudit article et est donc applicable aux prestations qui sont délivrées à une unité TVA belge, par un établissement étranger via son établissement belge dont il n'est pas juridiquement indépendant, aux seules fins de répercuter ces prestations, par l'intermédiaire de ce dernier, à un autre membre de l'unité sans application de la TVA (voir aussi annexe à la présente circulaire).
+
+Exemple : Les services informatiques fournis par une succursale établie à l'étranger à son principal établissement en Belgique, membre d'une unité TVA, pourront être soumis à la taxe sur base de cette disposition dans la mesure où cet établissement n'utilise pas lui-même ces mêmes services mais les répercute vers un ou plusieurs membres de l'unité TVA . Il en est de même si le service est fourni par une société établie à l'étranger à sa succursale située en Belgique, membre d'une unité TVA.
+
+6. FORMATION ET DISSOLUTION DE L'UNITE TVA - ENTREE ET SORTIE D'UN MEMBRE - CONSEQUENCES EN MATIERE DE DEDUCTIONS - REVISIONS
+
+6.1. Formation d'une unité TVA - entrée d'un assujetti dans une unité TVA
+
+Lors de la formation d'une unité TVA ou de l'entrée d'un assujetti dans une telle unité, une révision des taxes initialement déduites, ayant grevé les biens d'investissement, s'opère tant dans le chef de l'assujetti entrant ou formant cette unité, que dans le chef de l'unité TVA elle-même.
+
+Aucune révision ne doit en revanche être opérée pour les biens autres que les biens d'investissement.
+
+6.1.1. Révision dans le chef de l'assujetti qui entre dans l'unité TVA
+
+Conformément aux règles normales et précisées dorénavant, pour éviter toute ambiguïté, à l'article 10, § 1er, alinéa 1er, 5°, (nouveau) de l'arrêté royal n° 3 du 10 décembre 1969 relatif aux déductions, l'assujetti qui entre dans une unité TVA doit opérer la révision, en faveur du Trésor, de la taxe initialement déduite, relative aux biens d'investissement qu'il détient encore, pour autant, bien entendu, que la période de révision ne soit pas expirée.
+
+La disposition précitée ne concerne toutefois que les biens immeubles par nature et les droits réels sujets à révision.
+
+Par conséquent, à l'égard des biens meubles, c'est l'article 12, § 1er, 5° du Code de la TVA qui est normalement applicable dans la situation visée.
+
+Néanmoins, dans la mesure où la taxe qui serait ainsi due sur le prélèvement ne serait déductible ni par l'assujetti pris individuellement, ni par l'unité TVA, il a été décidé, afin de respecter le principe de neutralité de la taxe, que la révision telle que celle prévue ci-dessus serait aussi appliquée aux biens meubles.
+
+6.1.2. Révision dans le chef de l'unité TVA
+
+Concomitamment à la révision prévue ci-avant, l'unité TVA peut, conformément à l'article 10, § 2 (nouveau), deuxième tiret, de l'arrêté royal n° 3, opérer la révision, en sa faveur, des taxes ayant grevé les biens d'investissement meubles ou immeubles appartenant à l'assujetti qui devient membre de cette unité, en tenant compte, bien entendu, de l'utilisation qui sera faite de ces biens d'investissement au sein de l'unité TVA et du régime de déduction applicable à cette unité.
+
+La double révision dont il est ici question reste sans influence sur le point de départ du délai de révision de chaque bien d'investissement.
+
+6.1.3. Exemple
+
+La société A a acheté dans le courant de l'année 2002 une nouvelle construction avec application de la TVA (100.000 € + 21.000 € de TVA = 121.000 €). Sa seule activité consiste en la location de cet immeuble à la société B (opération exemptée en vertu de l'article 44, § 3, 2°, du Code de la TVA). La TVA n'a par conséquent pas été déduite. L'immeuble est le seul bien d'investissement de A.
+
+La société B est une entreprise qui a comme unique activité l'achat et la vente d'ordinateurs (assujetti avec droit à déduction totale). Dans le courant de l'année 2001, B a acheté des nouveaux meubles de bureau (10.000 € + 2.100 € de TVA = 12.100 €). Dans le courant de l'année 2004, B a acheté un nouveau camion (20.000 € + 4.200 € de TVA = 24.200 €). L'inventaire clôturé au 1er juillet 2007 fait apparaître un stock de biens pour une valeur de 5.000 € (hors TVA). B ne dispose pas d'autres biens d'investissements.
+
+Depuis le 1er juillet 2007, A et B forment une unité TVA (avec droit à déduction totale).
+
+Révision dans le chef de la société A :
+
+- l'immeuble est un bien d'investissement (période de révision 01/01/2002 31/12/2016) mais aucune TVA n'a été déduite et donc aucune révision en faveur du Trésor
+
+Révision dans le chef de la société B :
+
+- les biens en stock ne sont pas des biens d'investissements, la TVA ne doit par conséquent pas être revue
+- les meubles de bureau sont des biens d'investissements mais la période de révision est expirée (01/01/2001 - 31/12/2005), la TVA ne doit pas par conséquent être revue
+- le camion est un bien d'investissement dont la période de révision n'est pas encore expirée (01/01/2004 - 31/12/2008), la TVA doit être revue en faveur du Trésor de la manière suivante : 4.200 x 2/5 = 1.680 euros
+
+Révision dans le chef de l'unité TVA (assujetti avec droit à déduction totale) :
+
+- immeuble : la TVA peut être revue en faveur de l'unité TVA de la manière suivante : 21.000 x 10/15 = 14.000 euros
+- biens en stock : pas de révision car ce ne sont pas des biens d'investissements
+- meubles de bureau : pas de révision car la période de révision est expirée
+- amion : la TVA peut être revue en faveur de l'unité TVA de la manière suivante : 4.200 x 2/5 = 1.680 euros
+
+6.2. Dissolution d'une unité TVA - sortie d'un membre
+
+Lors de la dissolution d'une unité TVA ou de la sortie d'un membre d'une telle unité, une révision des taxes initialement déduites, ayant grevé les biens d'investissement, s'opère tant dans le chef de l'unité TVA que dans le chef du membre sortant.
+
+Aucune révision ne doit en revanche être opérée pour les biens autres que les biens d'investissement.
+
+6.2.1. Révision dans le chef de l'unité TVA
+
+Conformément à l'article 10, § 1er, 4°, (nouveau), de l'arrêté royal n° 3, une révision des taxes initialement déduites, ayant grevé les biens d'investissement, doit être opérée par l'unité TVA lorsque ces biens d'investissement ne sont plus affectés par l'unité TVA à son usage en raison de la sortie d'un de ses membres.
+
+6.2.2. Révision dans le chef du membre sortant
+
+Concomitamment à la révision prévue ci-avant, le membre sortant peut, conformément à l'article 10, § 2 (nouveau), premier tiret, de l'arrêté royal n° 3, opérer la révision, en sa faveur, des taxes ayant grevé les biens d'investissement qui lui appartiennent en tenant compte, bien entendu, de l'utilisation qu'il fera de ces biens d'investissement après sa sortie de l'unité TVA et du régime de déduction qui lui sera applicable.
+
+La double révision dont il est ici question reste sans influence sur le point de départ du délai de révision de chaque bien d'investissement.
+
+6.3. Moment où doivent s'opérer les révisions -- Mesure compensatoire
+
+6.3.1. Moment où doivent s'opérer les révisions
+
+Les révisions prévues ci-avant doivent s'opérer :
+
+- en cas de formation d'une unité TVA:
+
+dans la dernière déclaration périodique à déposer par le membre et dans la première déclaration périodique à déposer par l'unité TVA.
+
+- en cas de dissolution d'une unité TVA :
+
+dans la dernière déclaration périodique à déposer par l'unité TVA et dans la première déclaration périodique à déposer par le membre.
+
+- en cas d'entrée d'un membre dans une unité TVA :
+
+dans la dernière déclaration périodique à déposer par le membre et dans la déclaration relative à la même période de l'unité TVA
+
+- en cas de sortie d'un membre d'une unité TVA :
+
+dans la déclaration périodique de l'unité TVA relative à la période au cours de laquelle le membre est sorti dans la première déclaration périodique à déposer par le membre après sa sortie de l'unité TVA.
+
+6.3.2. Mesure compensatoire entre les révisions à opérer
+
+Les révisions prédécrites étant susceptibles de générer un important préfinancement d'impôt, l'article 10, § 3, (nouveau) de l'arrêté royal n° 3 organise une mesure compensatoire entre les taxes à verser et à récupérer.
+
+Conformément à cette disposition, le montant des sommes qui sont dues suite aux révisions visées à l'article 10, § 1er, 4° et 5°, (nouveau) de l'arrêté royal n° 3, dans le cadre de l'unité TVA, peut se compenser avec le montant des taxes qui peuvent être portées en déduction par application de la révision prévue à l'article 10, § 2, (nouveau) de l'arrêté royal n° 3.
+
+Cette compensation requiert l'accord écrit du (ou des) membre(s) concerné(s) et du représentant de l'unité TVA.
+
+Elle doit être exercée dans le chef de l'unité TVA.
+
+Cette mesure compensatoire est subordonnée à l'établissement et à l'envoi, aux offices de contrôle de la TVA, dont relèvent respectivement l'unité TVA et le (ou les) membre(s) concerné(s), d'un inventaire des biens d'investissement sujets à révision.
+
+Cet inventaire reprend, par membre, lorsque plusieurs membres sont concernés (dans le cas de la formation d'une unité TVA, par exemple), pour chaque bien d'investissement ou pour chaque groupe de biens d'investissement d'un même type et dont la période de révision est identique :
+
+- la nature du ou des bien(s) d'investissement;
+- la référence aux factures d'achat et au tableau des biens d'investissement;
+- le point de départ de la période de révision;
+- la base de perception de la taxe;
+- le montant de la taxe due;
+- le montant de la taxe déduite;
+- le montant de la révision à opérer par l'unité TVA ;
+- le résultat de la compensation.
+
+A cet inventaire est joint une copie de l'accord intervenu entre l'unité TVA et son (ou ses) membre(s) relatif à l'application de la mesure compensatoire.
+
+Le résultat final est repris, par l'unité TVA :
+
+- en cas de formation d'une unité : dans la première déclaration périodique à déposer par cette unité ;
+- en cas d'entrée d'un nouveau membre dans l'unité : dans la déclaration périodique relative à la période au cours de laquelle le nouveau membre est entré dans l'unité ;
+- en cas de dissolution de l'unité : dans la dernière déclaration périodique à déposer par l'unité ;
+- en cas de sortie d'un membre de l'unité : dans la déclaration relative à la période au cours de laquelle le membre est sorti de l'unité.
+
+7. REGIME FISCAL APPLICABLE A L'UNITE TVA
+
+7.1. Généralités
+
+Les personnes, membres d'une unité TVA, constituent un seul assujetti pour l'application du Code de la TVA.
+
+L'unité TVA est donc un assujetti unique tant en ce qui concerne les biens et les services obtenus de tiers qu'en ce qui concerne les opérations effectuées vis-à-vis de ceux-ci. Il en résulte que :
+
+- les livraisons de biens et les prestations de services réalisées entre les membres d'une unité TVA (ci-après dénommées « opérations internes ») n'entrent pas dans le champ d'application de la TVA;
+- les livraisons de biens et les prestations de services par des tiers à chaque membre sont faites, pour l'application de la TVA, à l'unité TVA;
+- les importations et les acquisitions intracommunautaires de biens réalisées par chaque membre sont réalisées par l'unité TVA;
+- les livraisons de biens et les prestations de services faites par chaque membre à des tiers à l'unité TVA (ci-après dénommées « opérations externes ») sont faites par l'unité TVA.
+
+Ces conséquences s'appliquent à toutes les livraisons de biens et toutes les prestations de services sans exception.
+
+L'unité TVA, considérée comme un seul assujetti, est donc identifiée sous un numéro de TVA propre à l'unité TVA. Ce numéro vaut pour le dépôt de la déclaration périodique de l'unité TVA, pour la tenue du compte courant TVA de l'unité, pour l'établissement éventuel de comptes spéciaux, pour toutes les taxations additionnelles et pour tous les actes de perception et de recouvrement émanant de l'administration.
+
+Pour des raisons pratiques (opérations intracommunautaires notamment), les membres de l'unité TVA gardent leur numéro d'identification à la TVA ou se voient attribuer un tel numéro. Ce numéro d'identification constitue un sous-numéro d'identification à la TVA de l'unité TVA.
+
+On se réfèrera utilement à la circulaire relative aux obligations TVA des unités TVA et des assujettis formant une unité TVA, pour ce qui concerne les circonstances dans lesquelles les assujettis-membres continuent à utiliser leur ancien numéro de TVA.
+
+7.2. Opérations internes
+
+7.2.1. Opérations à l'intérieur du pays
+
+7.2.1.1. Principe
+
+Ainsi que précisé ci-avant, toutes les livraisons de biens et les prestations de services, sans exception, réalisées entre les membres d'une unité TVA sortent du champ d'application de la taxe. Ces opérations peuvent en quelque sorte être comparées à celles qui auraient lieu entre les différents départements d'une même entreprise.
+
+Il en résulte notamment :
+
+- que la cession d'un bâtiment neuf, la constitution, la cession ou la rétrocession d'un droit réel sur un tel bâtiment, par un membre d'une unité TVA à un autre membre de cette unité, ne permet pas au cédant de lever l'option prévue par l'article 44, § 3, 1°, a), deuxième tiret ou b), deuxième tiret, du Code de la TVA.
+- que les articles 11 et 18, § 3, du Code de la TVA ne trouvent pas à s'appliquer entre les membres d'une unité TVA.
+
+Sans vouloir se monter exhaustif, les points suivants envisagent plusieurs situations ou les opérations entre les membres ne sont pas sans conséquence sur le plan de la TVA.
+
+7.2.1.1.1. Application de l'article 19, § 1er, du Code de la TVA
+
+Lorsqu'une unité TVA utilise un bien meuble affecté par un de ses membres à son entreprise, pour les besoins privés de ses membres ou ceux de leur personnel ou, plus généralement, à des fins étrangères à son activité économique et que ce bien a ouvert droit à déduction complète ou partielle de la taxe, cette utilisation est assimilée à un prestation de services par l'article 19, § 1er, du Code de la TVA.
+
+Conformément à l'article 33, § 1er, 2°, du Code, la base d'imposition de cette opération est constituée par le montant des dépenses engagées.
+
+7.2.1.1.2. Application de l'article 19, § 2, 1°, du Code de la TVA
+
+Lorsqu'un membre d'une unité TVA effectue des travaux immobiliers pour un autre membre, l'article 19, § 2, 1°, du Code de la TVA est, dans les situations qu'il vise, applicable à ces travaux.
+
+Conformément à l'article 33, § 1er, 3°, du Code, la base d'imposition de ces travaux est constituée par la valeur normale de ceux-ci, telle que cette valeur est déterminée conformément à l'article 32 du Code.
+
+En l'espèce, le prix réclamé par le membre prestataire peut être considéré comme la valeur normale des travaux pour autant, bien entendu que ce prix corresponde aux prix habituellement pratiqués par ce prestataire pour ce genre de travaux.
+
+7.2.1.1.3. Application de l'article 12, § 1er, 3°, du Code de la TVA
+
+Cette disposition soumet à la taxe, par le mécanisme de l'assimilation à une livraison à titre onéreux, l'utilisation par un assujetti, comme bien d'investissement, d'un bien qu'il a construit, fait construire, fabriqué, fait fabriquer, acquis ou importé autrement que comme bien d'investissement ou pour lequel, avec application de la taxe, des droits réels au sens de l'article 9, alinéa 2, 2°, du Code de la TVA ont été constitués à son profit ou lui ont été cédés ou rétrocédés, lorsque ce bien ou les éléments qui le composent ont ouvert droit à la déduction complète ou partielle de la taxe.
+
+Cette disposition trouvera notamment à s'appliquer lorsque, au sein d'une unité TVA, un membre, qui détient en stock des biens destinés à faire l'objet de livraisons ouvrant droit déduction, réputées faites par l'unité TVA (autrement dit, des livraisons externes ouvrant droit à déduction), livre certains de ces biens à un autre membre de l'unité TVA et que ces biens constitueront, dans le chef de l'unité TVA, des biens d'investissement.
+
+La base d'imposition de cette opération est déterminée conformément à l'article 33, § 1er, 1°, du Code de la TVA par le prix d'achat des biens ou de biens similaires, ou, à défaut de prix d'achat, par le prix de revient, déterminés au moment où s'effectuent ces opérations et en tenant compte, le cas échéant, des articles 26, alinéas 2 et 3, et 28 du Code de la TVA.
+
+Dans un souci de simplification et afin de ne pas forcer le membre vendeur à divulguer au membre acheteur le prix d'achat ou le prix de revient du bien, l'administration accepte que la base d'imposition de ce prélèvement soit égale au prix de vente qui a été réellement réclamé par le membre vendeur au membre acheteur
+
+Exemple : une unité TVA comprend, entre autres, une société active dans le domaine de l'informatique. Cette dernière société détient en stock des ordinateurs (prix d'achat unitaire hors TVA de 1000 €) destinés à la revente. Cette société vend 10 ordinateurs, au prix unitaire de 1200 €, à un autre membre de l'unité TVA qui va les utiliser comme moyens d'exploitation. Ces ordinateurs doivent être considérés comme des biens d'investissement dans le chef de l'unité TVA.
+
+L'unité TVA est tenue d'établir le document prévu par l'article 3 de l'arrêté royal n° 1 du 29 décembre 1992 relatif aux mesures tendant à assurer le paiement de la taxe sur la valeur ajoutée. La taxe due en raison du prélèvement se calcule en principe sur le prix d'achat des ordinateurs lors de leur « entrée » dans l'unité TVA soit sur une base égale, en l'espèce, à 10.000 €. Toutefois, si le membre vendeur le souhaite, la taxe peut être calculée sur une base d'imposition correspondant au prix de vente réel.
+
+7.2.1.1.4. Application de l'article 12, § 1er, 4°, du Code de la TVA
+
+Cette disposition soumet à la taxe l'utilisation par un assujetti, pour effectuer des opérations ne permettant pas la déduction complète de la taxe, d'un bien meuble, autre qu'un bien d'investissement, qu'il a fabriqué et dont les éléments constitutifs ont ouvert droit à déduction totale ou partielle de la taxe.
+
+Exemple : une unité TVA est composée, notamment, d'un membre dont l'activité consiste en la fabrication et la vente de contenants spéciaux (flacons, bouteilles, poches, etc…) destinés à être utilisés dans le domaine médical, et d'un autre membre dont l'activité consiste en livraisons de produits pharmaceutiques, de sérums à usage thérapeutique ou prophylactique, de sang humain et de lait maternel.
+
+L'essentiel de l'activité commerciale des membres consiste en opérations externes. Le premier membre vend au second 10.000 poches destinées à contenir du sang humain. Le coût de revient unitaire de ces poches est de 0.50 €. Elles sont vendues au second membre pour le prix unitaire de 1.20 €.
+
+L'unité TVA est également tenue dans ce cas d'établir le document prévu par l'article 3 de l'arrêté royal n° 1, précité.
+
+La base d'imposition du prélèvement est constituée par le coût de revient des poches, et s'élève par conséquent à 5.000 €.
+
+Dans un souci de simplification et afin de ne pas forcer le membre vendeur à divulguer au membre acheteur le prix d'achat ou le prix de revient du bien, l'administration accepte que la base d'imposition de ce prélèvement soit égale au prix de vente qui a été réellement réclamé par le membre vendeur au membre acheteur
+
+Remarque : il est rappelé, à toutes fins utiles, que si l'assujetti qui doit opérer le prélèvement prévu, selon le cas, par l'article 12, § 1er, 3° ou 4°, du Code de la TVA n'a pas pu déduire entièrement la taxe ayant grevé l'acquisition du bien ou des éléments constitutifs de son prix de revient, cet assujetti est autorisé à revoir la déduction initialement opérée. Les biens sont rétroactivement considérés comme ayant été acquis en vue de réaliser une opération permettant la déduction totale de la taxe qui les grevait au moment de leur acquisition. (Déc. n° T 4973 du 29 juillet 1971).
+
+Quant à la taxe due en raison du prélèvement, elle est bien entendu déductible selon le système de déduction applicable à l'unité TVA.
+
+7.2.1.1.5. Application de l'article 5, 3°, de l'arrêté royal n° 3 du 10 décembre 1969 relatif aux déductions pour l'application de la taxe sur la valeur ajoutée.
+
+Conformément à l'article 5, 3° précité, l'assujetti procède à la révision de la déduction initialement opérée lorsque des variations sont intervenues dans les éléments pris en considération pour le calcul des taxes déduites.
+
+Au moment où il opère la déduction initiale, l'assujetti tient compte de la destination probable des biens et des services reçus. Si l'affectation réelle ne correspond pas, ultérieurement, à celle qui avait été présumée et que, en définitive, les biens et les services reçus sont affectés à une destination qui ne permet pas la déduction ou ne la permet que dans une moindre mesure, l'assujetti doit procéder à la révision des déductions.
+
+Cette disposition trouvera notamment à s'appliquer lorsqu'au sein d'une unité TVA assujettie avec droit à déduction totale, un membre cède un bien (autre qu'un bien d'investissement) qu'il détenait en stock, dégrevé de toute taxe, à un autre membre de l'unité TVA qui va utiliser ce bien pour effectuer une opération ponctuelle externe n'ouvrant pas droit à déduction.
+
+7.2.1.1.6. Application de l'article 19 de l'arrêté royal n° 3, relatif aux déductions en matière de taxe sur la valeur ajoutée.
+
+Similaire, quant à ses effets, à l'article 5, 3°, de l'arrêté royal n° 3, précité, cette disposition vise plus particulièrement le cas de l'assujetti avec droit à déduction partielle qui opère la déduction selon la règle de l'affectation réelle des biens et des services en vertu de l'article 46, § 2, du Code de la TVA.
+
+Cette disposition prévoit que l'assujetti qui opère la déduction selon cette règle, doit procéder à une révision lorsque les biens et les services ne sont pas affectés au secteur d'exploitation auquel ils étaient destinés.
+
+Cette révision donne lieu à un reversement des taxes initialement déduites, lorsque les biens et les services sont, en tout ou pour partie, transférés d'un secteur d'opérations permettant la déduction à un secteur d'opérations ne la permettant pas. Elle donne lieu à une déduction supplémentaire dans le cas inverse.
+
+Cette disposition s'appliquera notamment lorsqu'au sein d'une unité TVA qui opère la déduction selon la règle de l'affectation des biens et des services, un membre dont les opérations externes ouvrent à l'unité TVA un droit à déduction totale des taxes en amont, cède des biens à un autre membre, qui va les utiliser pour effectuer des opérations externes n'ouvrant à l'unité TVA aucun droit à déduction.
+
+Alors que l'article 12, § 1er, 4° du Code (voir ci-avant) s'applique aux biens fabriqués par un des membres de l'unité TVA, l'article 19 de l'arrêté royal n° 3, s'applique aux biens acquis comme tels par l'unité TVA et initialement destinés par un membre à un secteur d'activités ouvrant droit à déduction totale de la taxe.
+
+Exemple :
+
+Reprenons l'exemple de l'unité TVA ci-avant. Supposons que le membre qui commercialise les contenants spéciaux ne les fabrique pas lui-même, mais les acquiert auprès de tiers à l'unité TVA. Lors de l'acquisition des poches destinées à contenir du sang humain, l'unité TVA, soumise au régime de l'affectation réelle, avait opéré la déduction totale de la taxe ayant grevé l'acquisition parce que ces poches étaient destinées à faire l'objet de livraisons externes (ouvrant droit à déduction). Lors de la cession des 10.000 poches par ce membre à l'autre membre qui va les utiliser pour effectuer des livraisons de sang humain, n'ouvrant à l'unité TVA aucun droit à déduction, l'unité TVA est tenue de reverser au Trésor la taxe déduite relative aux 10.000 poches cédées.
+
+7.2.1.2. Exportation
+
+La livraison de biens qui est réputée avoir lieu en Belgique, qui est effectuée par un membre de l'unité à un autre membre, et pour laquelle les biens sont expédiés ou transportés par ou pour le compte d'une de ces personnes en dehors la Communauté, reste en dehors du champ d'application de la taxe.
+
+Une telle livraison n'est par conséquent pas visée à l'article 39 du Code de la TVA et n'est de ce fait pas concernée par les conditions d'application de cet article.
+
+Cependant, il y a lieu de remarquer que pour un tel mouvement de biens, les formalités douanières doivent être remplies.
+
+Etant donné qu'un sous-numéro d'identification (du numéro de l'unité TVA) est attribué à chaque membre de l'unité, qui correspond au numéro d'identification à la TVA individuel existant, ce numéro d'identification à la TVA individuel, ainsi que le nom et l'adresse du membre de l'unité TVA qui transporte les biens ou qui les fait transporter pour son compte doivent être mentionnés dans la case 2 de la déclaration d'exportation à déposer à la douane.
+
+L'expédition des biens propres d'un membre de l'unité vers un lieu situé en dehors de la Communauté ne rend pas non plus la TVA exigible. Les formalités douanières rappelées ci-dessus sont applicables mutatis mutandis.
+
+7.2.1.3. Livraisons intracommunautaires
+
+7.2.1.3.1. Livraisons intracommunautaires entres membres effectuées en Belgique.
+
+Comme précisé au point 7.2.1.1., toutes les livraisons de biens réalisées en Belgique entre les membres d'une unité TVA sortent du champ d'application de la taxe.
+
+Toutefois lorsqu'une livraison s'opère en Belgique entre deux membres (A et B) et que, dans le cadre de cette livraison, les biens font l'objet d'un transport vers un autre Etat membre, l'opération doit être analysée de la manière suivante (1) :
+
+[(1) Dans la situation où le membre A livre directement des marchandises à un siège/établissement étranger du membre B situé dans un autre Etat membre sans la moindre intervention du (ou d'un des) siège(s)/établissement(s) belge(s) du membre B, il est admis que l'opération soit analysée comme une livraison intracommunautaire directe entre le membre A et l'établissement étranger (B'). Les règles énoncées au point 7.3.1.3. ci-après seront alors applicables. Si, par contre, le (ou l'un des) siège(s)/établissement(s) belge(s) du membre B est intervenu dans l'opération, seule l'analyse reprise au présent point 7.2.1.3.1. est d'application. ]
+
+Application de l'article 12bis du Code de la TVA
+
+Conformément à l'article 12bis du Code de la TVA « est assimilé à une livraison de biens à titre onéreux, le transfert par un assujetti d'un bien de son entreprise à destination d'un autre Etat membre.
+
+Est considéré comme transféré à destination d'un autre Etat membre, tout bien corporel expédié ou transporté, par l'assujetti ou pour son compte, en dehors de la Belgique, mais à l'intérieur de la Communauté, pour les besoins de son entreprise … ».
+
+L'opération effectuée en Belgique entre A et B sort du champ d'application de la taxe. Par contre, l'envoi du bien vers l'autre Etat membre dans le cadre de cette livraison sera analysé comme un transfert de biens assimilé à une livraison intracommunautaire de biens à titre onéreux réalisé par l'unité TVA, via le sous-numéro d'identification de B, au sens de l'article 12bis, alinéa 1er, du Code de la TVA.
+
+Ce transfert sera exempté de la TVA sur la base de l'article 39bis, alinéa 1er, 4°, du Code.
+
+Parallèlement, B effectue dans l'Etat membre de destination une opération qui sera normalement analysée par les autorités fiscales de cet Etat membre comme une acquisition intracommunautaire de biens. Pour effectuer cette opération, il a l'obligation de se faire identifier à la TVA dans cet Etat membre (B') et de disposer par conséquent d'un numéro d'identification à la TVA sous lequel il réalise cette acquisition intracommunautaire de façon à remplir ses obligations en matière de dépôt de déclarations, de paiement et de déduction de la TVA due sur cette opération taxable.
+
+Obligations
+
+L'unité TVA a l'obligation d'établir le document particulier prévu à l'article 53, § 3, du Code.
+
+En outre, l'unité TVA doit, via le sous-numéro d'identification à la TVA de B, établir le document de transfert visé à l'article 2 de l'arrêté royal n° 1 du 29 décembre 1992 relatif aux mesures tendant à assurer le paiement de la taxe sur la valeur ajoutée. Ce document doit comporter les mentions obligatoires visées à l'article 5, § 1er, de l'arrêté royal n° 1.
+
+Pour assurer le suivi des biens, à l'intérieur et à l'extérieur de l'unité TVA, le document devra mentionner le nom ou la dénomination sociale de B, son sous-numéro d'identification à la TVA belge, l'adresse de son siège administratif ou social ainsi que le numéro d'identification à la TVA attribué à B dans l'Etat membre de destination des biens (B').
+
+Base d'imposition
+
+Conformément à l'article 33bis du Code de la TVA, la base d'imposition pour les livraisons de biens visées à l'article 12bis est constituée par le prix d'achat des biens ou de biens similaires, ou, à défaut de prix d'achat, par le prix de revient, déterminés au moment où s'effectuent ces opérations.
+
+La base d'imposition du transfert sera par conséquent composée du prix d'achat des marchandises par B (c'est-à-dire le prix convenu entre A et B).
+
+7.2.1.3.2. Transfert de biens effectué par un membre de Belgique vers un autre Etat membre.
+
+La même solution s'applique mutatis mutandis lorsqu'un membre de l'unité TVA transfère un bien de son entreprise vers un autre Etat membre.
+
+Exemple : A (membre de l'unité TVA) envoie des biens en France chez un travailleur à façon. Les biens travaillés seront ensuite vendus par ce membre à un client français tenu au dépôt de déclarations périodiques.
+
+L'unité TVA, via le sous-numéro d'identification à la TVA de A, effectue un transfert de biens assimilé à une livraison intracommunautaire de biens à titre onéreux au sens de l'article 12bis, alinéa 1er, du Code de la TVA.
+
+Ce transfert sera exempté de la TVA sur la base de l'article 39bis, alinéa 1er, 4°, du Code.
+
+Parallèlement, A effectue dans l'Etat membre de destination une opération qui sera en principe analysée par les autorités fiscales de cet Etat membre comme une affectation assimilée à une acquisition intracommunautaire de biens à titre onéreux au sens de l'article 21 de la directive 2006/112/CE (anciennement l'article 28bis, § 6, alinéa 1er, de la 6ème directive). Pour effectuer cette opération, il a l'obligation de se faire identifier à la TVA dans cet Etat membre et de disposer par conséquent d'un numéro d'identification à la TVA sous lequel il réalise cette acquisition intracommunautaire (A') de façon à remplir ses obligations en matière de dépôt de déclarations, de paiement et de déduction de la TVA due sur cette opération taxable.
+
+Obligations
+
+L'unité TVA a l'obligation, via l'utilisation du sous-numéro d'identification à la TVA de A, d'établir le document de transfert prévu à l'article 2 de l'arrêté royal n° 1. Ce document doit comporter les mentions obligatoires visées à l'article 5, § 1er, de l'AR n° 1.
+
+Pour assurer le suivi des biens, à l'intérieur et à l'extérieur de l'unité TVA, le document devra mentionner le nom ou la dénomination sociale de A, son sous-numéro d'identification à la TVA belge, l'adresse de son siège administratif ou social ainsi que le numéro d'identification à la TVA attribué à A dans l'Etat membre de destination des biens (A').
+
+Base d'imposition
+
+Conformément à l'article 33bis du Code de la TVA, la base d'imposition pour les livraisons de biens visées à l'article 12bis est constituée par le prix d'achat des biens ou de biens similaires, ou, à défaut de prix d'achat, par le prix de revient, déterminés au moment où s'effectuent ces opérations.
+
+7.2.1.4. Importation
+
+7.2.1.4.1. Généralités
+
+Toutes les dispositions en matière d'importation contenues dans le Code de la TVA ou dans les arrêtés royaux pris en exécution de celui-ci, sont applicables à l'unité TVA.
+
+En vertu de l'article 3 du Code de la TVA, l'importation de biens par une unité TVA est soumise à la taxe lorsqu'elle a lieu en Belgique.
+
+Par importation d'un bien, il y a lieu d'entendre, pour l'application de la TVA, le simple fait matériel d'introduire un bien sur le territoire de la Communauté tel qu'il est décrit à l'article 1er du Code de la TVA.
+
+7.2.1.4.2. Destinataire
+
+La TVA due en matière d'importation doit être acquittée dans le chef de la personne qui, conformément à l'article 6, §§ 2 et 3 de l'arrêté royal n° 7 du 29 décembre 1992 relatif aux importations de biens pour l'application de la taxe sur la valeur ajoutée, est considérée comme le destinataire.
+
+L'unité TVA est considérée comme un seul assujetti, tant du point de vue des biens qui lui sont livrés par des tiers que du point de vue de la livraison de biens entre ses membres.
+
+Par conséquent, les importations de biens effectuées par un membre sont censées être réalisées par l'unité TVA elle-même, peu importe que ces importations aient lieu à l'occasion d'un achat auprès de tiers ou auprès d'autres membres, ou encore suite à un transfert de biens d'un établissement dont dispose un des membres en dehors de la Communauté. Cette unité TVA doit par conséquent être considérée comme le destinataire pour les importations qui sont effectuées en Belgique par un membre qui, sur base de l'article 6, §§ 2 et 3 de l'arrêté royal n° 7, devrait être le destinataire des biens importés s'il n'était pas membre de cette unité.
+
+Etant donné qu'un sous-numéro d'identification (du numéro de l'unité TVA) est attribué à chaque membre de l'unité, qui correspond au numéro d'identification à la TVA existant, il y a lieu de mentionner dans la case 8 du document unique par lequel les biens importés sont déclarés à la consommation le numéro de TVA individuel, ainsi que le nom et l'adresse sous lesquels est enregistré le membre qui effectue l'importation ou pour le compte duquel l'importation est effectuée.
+
+Le fait que l'unité TVA agisse comme destinataire des biens importés ne modifie rien aux principes relatifs à la détermination du lieu de la livraison entre des membres de l'unité TVA qui a donné lieu à cette importation. C'est uniquement lorsque la livraison dont il s'agit est réputée avoir lieu en Belgique qu'elle tombe sous l'application des règles en matière d'unité TVA.
+
+7.2.1.4.3. Redevable
+
+Le destinataire est le redevable de la TVA due en raison de l'importation de biens. Il s'agit en l'espèce de l'unité T.V.A. pour les importations effectuées par un membre de l'unité, en la personne de son représentant tel qu'il est visé à l'article 1er, § 3, dernier alinéa de l'arrêté royal n° 55.
+
+7.2.1.5. Acquisitions intracommunautaires
+
+7.2.1.5.1. Acquisition intracommunautaire en Belgique dans le cadre d'une livraison entre membres effectuée dans un autre Etat membre
+
+Comme précisé au point 7.2.2, les livraisons de biens qui sont réalisées dans un autre Etat membre entre les membres d'une unité TVA sont soumises aux règles en vigueur dans l'Etat membre dans lequel elles sont réputées avoir lieu.
+
+Toutefois lorsqu'une livraison s'opère dans un autre Etat membre entre deux membres (prénommés A et B) et que, dans le cadre de cette livraison, les biens font l'objet d'un transport de cet Etat membre vers la Belgique, l'opération doit être analysée de la manière suivante (1):
+
+[(1) Dans la situation où un siège/établissement étranger du membre A situé dans un autre Etat membre livre directement des marchandises au membre B sans la moindre intervention du (ou d'un des) siège(s)/établissement(s) belge(s) du membre A, il est admis que l'opération soit analysée comme une livraison intracommunautaire directe entre l'établissement étranger (A') et le membre B. Les règles énoncées au point 7.3.1.3. ci-après seront alors applicables. Si, par contre, le (ou l'un des) siège(s)/établissement(s) belge(s) du membre A est intervenu dans l'opération, seule l'analyse reprise au présent point 7.2.1.5.1. est d'application.]
+
+Application de l'article 25ter, § 1er, alinéa 1er du Code de la TVA
+
+L'opération effectuée dans l'autre Etat membre entre A et B est en principe analysée par les autorités fiscales de cet Etat membre comme une livraison intracommunautaire de biens. Pour effectuer cette opération, A a l'obligation d'être identifié à la TVA dans cet Etat membre (A').
+
+Cette livraison intracommunautaire sera exemptée de la TVA sur la base de l'article 138, § 1er, de la directive 2006/112/CE (anciennement l'article 28quater, titre A, a), alinéa 1er de la 6ème directive).
+
+Parallèlement, l'unité TVA, via le sous-numéro d'identification de B, effectue en Belgique une acquisition intracommunautaire de biens à titre onéreux au sens de l'article 25ter, § 1er, alinéa 1er, du Code de la TVA.
+
+Obligations
+
+A doit, via le numéro d'identification à la TVA qui lui a été attribué dans l'Etat membre à partir duquel les biens sont expédiés ou transportés (A'), établir une facture délivrée conformément aux dispositions légales en vigueur dans cet Etat membre.
+
+Pour pouvoir opérer la déduction de la TVA belge due sur l'affectation assimilée à une acquisition intracommunautaire de biens, l'unité TVA doit détenir la facture ou, à défaut d'une telle facture, le document visé à l'article 9, § 1er, de l'arrêté royal n° 1.
+
+Base d'imposition
+
+Conformément à l'article 26bis du Code de la TVA, la base d'imposition pour les acquisitions intracommunautaires de biens est constituée par les mêmes éléments que ceux retenus pour déterminer la base d'imposition de la livraison de ces mêmes biens à l'intérieur du pays.
+
+Il y a par conséquent lieu de reprendre comme base d'imposition le montant facturé par A à B.
+
+7.2.1.5.2. Affectation assimilée à une acquisition intracommunautaire dans le cadre d'un transfert effectué par un membre d'un autre Etat membre vers la Belgique
+
+La même solution s'applique mutatis mutandis lorsque A, membre de l'unité TVA transfère un bien de son entreprise d'un autre Etat membre vers la Belgique.
+
+Exemple : A, membre de l'unité TVA a précédemment envoyé des biens pour stockage chez un entrepositaire aux Pays-Bas. Quelques mois après, A rapatrie son stock en Belgique.
+
+A effectue dans l'Etat membre de départ, via le numéro d'identification attribué par cet Etat membre (A'), une opération qui sera en principe analysée par les autorités fiscales de cet Etat membre comme un transfert de biens assimilé à une livraison intracommunautaire de biens à titre onéreux au sens de l'article 17, § 1er de la directive 2006/112/CE (anciennement l'article 28bis, § 5, b), alinéa 1er de la 6ème directive).
+
+Ce transfert est exempté de la TVA sur la base de l'article 138, § 2, c), de la directive 2006/112/CE (anciennement l'article 28quater, titre A, d), de la 6ème directive).
+
+Parallèlement, l'unité TVA, via le sous-numéro d'identification à la TVA de A, effectue en Belgique une affectation assimilée à une acquisition intracommunautaire de biens à titre onéreux au sens de l'article 25quater, § 1er du Code de la TVA.
+
+Obligations
+
+A doit, via le numéro d'identification à la TVA qui lui a été attribué dans l'Etat membre à partir duquel les biens sont expédiés ou transportés (A'), établir un document conformément aux dispositions légales en vigueur dans cet Etat membre.
+
+Pour pouvoir opérer la déduction de la TVA belge due sur l'affectation assimilée à une acquisition intracommunautaire de biens, l'unité TVA doit détenir ce document.
+
+Base d'imposition
+
+Conformément à l'article 33bis du Code de la TVA, la base d'imposition pour les acquisitions intracommunautaires de biens visées à l'article 25quater est constituée par le prix d'achat des biens ou de biens similaires, ou, à défaut de prix d'achat, par le prix de revient, déterminés au moment où s'effectuent ces opérations.
+
+7.2.2. En dehors du territoire belge
+
+Le régime particulier des opérations réalisées entre deux membres d'une unité TVA n'est évidemment applicable que lorsque ces opérations sont réputées avoir lieu sur le territoire belge.
+
+Lorsque de telles opérations sont réputées avoir lieu en dehors du territoire belge, par application des articles 15 et 21 du Code, elles sont soumises aux règles en vigueur dans le pays dans lequel elles sont réputées avoir lieu.
+
+7.3. Opérations externes
+
+7.3.1. Opérations à l'intérieur du pays
+
+7.3.1.1. Principe
+
+Les opérations, tant à l'entrée qu'à la sortie, qui sont effectuées par un membre d'une unité TVA sont considérées, pour l'application de la TVA, comme étant faites par l'unité TVA elle-même.
+
+Il en résulte que lorsque le régime applicable à certaines livraisons de biens ou certaines prestations de services faites par un membre ou rendues à un membre dépend de la qualité ou de la situation fiscale du fournisseur (ou prestataire) ou de l'acquéreur (ou preneur), cette qualité ou cette situation fiscale doit s'apprécier dans le chef de l'unité TVA.
+
+7.3.1.1.1. Application de l'article 20 de l'arrêté royal n° 1 du 29 décembre 1992, relatif aux mesures tendant à assurer le paiement de la taxe sur la valeur ajoutée.
+
+Cette disposition trouve à s'appliquer aux travaux immobiliers et aux opérations y assimilées qui sont fournis à un membre d'une unité TVA, même si les activités externes de ce membre n'ouvrent aucun droit à déduction à l'unité TVA, dès lors que cette unité TVA est tenue au dépôt de déclarations périodiques à la TVA en raison de l'activité d'un ou de plusieurs autres de ses membres.
+
+7.3.1.1.2. Exemptions de l'article 44 du Code de la TVA.
+
+Certaines dispositions de l'article 44 du Code de la TVA subordonnent l'exemption à la condition que le prestataire soit un organisme sans but de lucre dont les recettes ne servent qu'à couvrir les frais d'exploitation (voir article 44, § 2, 3°, 6°, 7° et 9°, du Code de la TVA). Lorsqu'un tel organisme entre dans une unité TVA, les conditions d'absence de but de lucre doivent être rencontrées dans le chef de chacun des membres de l'unité TVA puisque celle-ci ne forme plus qu'un seul assujetti pour l'application de la TVA.
+
+De même, pour l'application de l'exemption prévue par l'article 44, § 1er, 1°, du Code et qui concerne les prestations de services exécutées dans l'exercice de l'activité habituelle des notaires, des avocats et des huissiers de justice, il est nécessaire que chaque membre de l'unité TVA exerce de telles professions pour que l'unité puisse bénéficier de l'exemption.
+
+7.3.1.1.3. Qualité de constructeur professionnel
+
+Lorsqu'une unité TVA est notamment composée d'un membre dont l'activité économique consiste à céder, d'une manière habituelle, des bâtiments neufs ou à constituer des droits réels sur de tels bâtiments, l'unité TVA doit être considérée comme un constructeur professionnel pour toutes ses livraisons externes de bâtiments neufs ou les droits réels qu'elle constitue avec des tiers sur de tels bâtiments.
+
+7.3.1.1.4. Unité TVA et régime des agences de voyage
+
+Lorsque, au sein d'une unité TVA, se trouve une entreprise dont l'activité est visée par l'article 1er, § 7, 2° du Code de la TVA, le régime particulier des agences de voyages n'est pas applicable aux opérations internes que cette entreprise effectue au profit des autres entreprises de l'unité TVA.
+
+Il en résulte notamment que l'exclusion du droit à déduction, prévue par l'article 45, § 4, du Code n'est pas applicable aux taxes ayant grevé les biens et les services que d'autres assujettis ont fournis à cette entreprise pour les voyages que celle-ci organise au profit des autres entreprises de l'unité TVA, et qui profitent directement au voyageur.
+
+Pour les biens et services visés à l'alinéa précédent, l'unité TVA exerce son droit à déduction selon les règles normales de déduction, sans préjudice bien entendu des autres exclusions du droit à déduction prévues par le Code. Cette unité TVA exerce donc son droit à déduction comme le ferait toute entreprise, autre qu'une agence de voyages, qui a recours, pour les besoins de son activité économique, aux services de transporteurs, hôteliers, restaurateurs, etc…
+
+Le régime des agences de voyages et notamment l'article 45, § 4, du Code reste en revanche d'application pour les biens et services visés par cette disposition que cette entreprise utilise pour effectuer des opérations externes. Les pourcentages déterminant la base d'imposition forfaitaire visés par l'arrêté royal n°35 sont définis et appliqués pour ces opérations externes par membre sur la base des opérations que ce membre de l'unité TVA effectue.
+
+7.3.1.1.5 Qualité d'entrepreneur enregistré
+
+En ce qui concerne l'application des taux réduits prévus par les rubriques XXXI, XXXII, XXXIII, XXXVI, XXXVII du tableau A et la rubrique X du tableau B de l'annexe à l'arrêté royal n° 20 relatif aux taux de TVA, il est requis que chaque membre de l'unité TVA dispose de la qualité d'entrepreneur enregistré dans une catégorie d'activité donnée pour que l'unité puisse elle-même revendiquer l'application de ce taux réduit dans la catégorie d'activité en question.
+
+7.3.1.1.6. Organismes au sens des rubriques XXIIIbis et XXXV du tableau A de l'annexe à l'arrêté royal n° 20 relatif aux taux de TVA
+
+En ce qui concerne l'application des taux réduits prévus par les rubriques XXIIIbis et XXXV du tableau A de l'annexe à l'arrêté royal n° 20 relatif aux taux de TVA, il est requis que chaque membre de l'unité TVA respecte les conditions prévues sous les paragraphes 2 et 3 des rubriques concernées.
+
+7.3.1.1.7. Exemption visée par l'article 42, § 4, du Code de la TVA
+
+L'article 42, § 4, du Code de la TVA exempte de la taxe les livraisons de perles fines et pierres gemmes et similaires, faites à des personnes qui sont exclusivement négociants en ces biens ainsi que les prestations de services se rapportant à ces biens, fournies à ces mêmes personnes. L'application de cette exemption est soumise à un certain nombre de conditions (v. circulaire n°108 du 6 juillet 1971).
+
+L'exemption visée par l'article 42, § 4, du Code de la TVA n'est applicable aux livraisons de biens et aux prestations de services fournies aux unités TVA qu'à la condition que tous ses membres satisfassent aux conditions d'application de cette exemption.
+
+Exemple : La société A est un commerçant en perles fines et pierres gemmes qui bénéficie de l'exemption visée par l'article 42, § 4, du Code de la TVA. La société B est un commerçant en bijoux. Si les deux sociétés forment une unité TVA, l'application de l'exemption concernée est exclue pour la totalité des opérations externes de l'unité TVA.
+
+7.3.1.2. Exportation, importation et transports internationaux
+
+7.3.1.2.1. Exportation
+
+Les dispositions prévues à l'article 39, § 1er du Code de la TVA sont entièrement d'application à l'égard de la livraison réputée se situer en Belgique, qui est effectuée par un membre de l'unité à un tiers, et pour laquelle les biens livrés sont transportés ou expédiés par ou pour le compte de ce membre ou par ou pour le compte du tiers non établi en Belgique vers un lieu situé en dehors de la Communauté.
+
+En ce qui concerne la manière de compléter la case 2 de la déclaration d'exportation, il est renvoyé au point 7.2.1.2. ci-dessus.
+
+7.3.1.2.2. Importation
+
+Ce qui est dit au numéro 7.2.1.4. est applicable mutatis mutandis.
+
+7.3.1.2.3. Transports internationaux
+
+Les exemptions prévues à l'article 42, §§ 1er et 2, du Code de la TVA, ne peuvent pas être invoquées par l'unité TVA, via un de ses membres pour les achats de biens ou de prestations de services, visés par ledit article.
+
+7.3.1.3. Opérations intracommunautaires
+
+Les opérations intracommunautaires (livraisons et acquisitions intracommunautaires) qui sont effectuées par un membre d'une unité TVA sont considérées, pour l'application de la TVA, comme étant faites par l'unité TVA elle-même.
+
+Il est renvoyé à la circulaire n° 38 du 28 août 2006 en ce qui concerne le régime général applicable en matière d'opérations intracommunautaires.
+
+7.3.1.3.1. Membres exonérés par l'article 44 du code de la TVA pour la totalité de leur activité
+
+Le régime dérogatoire prévoyant un seuil de 11.200 EUR en dessous duquel certains assujettis exonérés sont dispensés de soumettre à la TVA leurs acquisitions intracommunautaires de biens (article 25ter, § 1er, 2ème alinéa du Code de la TVA) qui était applicable pour certains membres exonérés par l'article 44 pour la totalité de leur activité en ce qui concerne les opérations intracommunautaires avant leur entrée dans l'unité TVA est d'office caduque.
+
+Par son entrée dans une unité TVA avec d'autres assujettis qui n'étaient pas exonérés par l'article 44 du Code pour la totalité de leur activité, l'assujetti exonéré devient membre d'une unité TVA tenue au dépôt de déclarations périodiques. L'unité TVA doit soumettre à la taxe les acquisitions intracommunautaires de biens effectuées par l'ensemble de ses membres. Chaque membre a par conséquent l'obligation lorsqu'il effectue des achats dans d'autres Etats membres de communiquer son sous-numéro d'identification à la TVA et l'unité TVA a l'obligation de déclarer l'acquisition de ces biens dans sa déclaration périodique.
+
+Par contre, si l'unité TVA est constituée exclusivement de membres exonérés par l'article 44 du Code pour la totalité de leur activité, l'unité TVA n'est pas tenue au dépôt de déclarations périodiques. Dans cette situation, le régime dérogatoire prévoyant un seuil de 11.200 EUR en dessous duquel certains assujettis exonérés sont dispensés de soumettre à la TVA leurs acquisitions intracommunautaires de biens (article 25ter, § 1er, 2ème alinéa, du Code de la TVA) peut trouver à s'appliquer. Pour le calcul du seuil, il sera tenu compte des acquisitions intracommunautaires de biens effectuées par l'ensemble des membres. Dès dépassement du seuil ou en cas d'option par l'unité TVA, chaque membre aura alors l'obligation lorsqu'il effectue des achats dans d'autres Etats membres de communiquer son sous-numéro d'identification à la TVA et l'unité TVA aura l'obligation de déclarer l'acquisition de ces biens dans une déclaration spéciale.
+
+7.3.1.3.2. Ventes à des particuliers ou à des personnes non tenues de soumettre à la TVA leurs acquisitions intracommunautaires - dépassement du seuil des ventes à distance
+
+- Généralités
+
+Les livraisons de biens autres que des moyens de transport neufs effectuées par un membre à un particulier établi dans un autre Etat membre sont analysées comme des livraisons de biens effectuées par l'unité TVA localisées en principe à l'endroit où commence l'expédition ou le transport à destination de l'acquéreur et rendent la TVA belge exigible.
+
+Il en est de même pour les livraisons de biens autres que des moyens de transport neufs et des produits soumis à accises effectuées par un membre de l'unité TVA à un membre du groupe des 4 qui ne dispose pas d'un numéro d'identification à la TVA valable (un assujetti ou à une personne morale non assujettie qui ne sont pas tenus de soumettre à la TVA toutes leurs acquisitions intracommunautaires dans leur Etat membre).
+
+- Régime des ventes à distance
+
+Dans la situation où le transport des biens à destination du particulier ou du membre du groupe des 4 qui n'est pas tenu de soumettre à la TVA toutes ses acquisitions intracommunautaires de biens est effectué par ou pour le compte du membre de l'unité TVA, il y a lieu de déterminer si le seuil des ventes à distance fixé par l'Etat membre de destination est dépassé.
+
+Si ce seuil est dépassé, la livraison est réputée se situer dans l'Etat membre de destination et rend la TVA de cet Etat membre exigible. Il en est de même lorsqu'il y a eu option pour la taxation dans l'Etat membre de destination.
+
+Les règles pour déterminer s'il y a dépassement du seuil sont fixées par les autorités fiscales de l'Etat membre de destination. A ce sujet, étant donné qu'elles ne connaissent pas en tant que telle l'unité, les autorités fiscales de l'Etat membre de destination effectueront en principe le calcul de manière individuelle pour chaque membre et non de manière globale dans le chef de l'unité TVA.
+
+S'il y a dépassement du seuil ou option, l'opération sera alors analysée comme une livraison de biens localisée dans l'Etat membre de destination. Pour effectuer cette opération, le membre sera tenu de se faire identifier dans cet Etat membre.
+
+Il est rappelé que le seuil n'est pas applicable pour les livraisons à un particulier de produits soumis à accise pour lesquelles le transport est effectué par le fournisseur ou pour son compte; dans cette situation, l'opération est automatiquement réputée se situer dans l'Etat membre de destination.
+
+7.3.1.3.3. Opérations triangulaires
+
+- La Belgique est l'Etat membre 1
+
+L'application du régime simplifié prévu en matière d'opérations triangulaires (voir nos 140 à 151 de la circulaire n° 38 du 28 août 2006) peut être envisagée dans la situation où un des membres de l'unité TVA (appelé A) est le fournisseur initial des biens (la Belgique est l'Etat membre 1).
+
+Dans cette situation, l'unité TVA est réputée effectuer, via le sous-numéro d'identification de A, une livraison intracommunautaire.
+
+- La Belgique est l'Etat membre 3
+
+Le régime triangulaire simplifié peut également être envisagé dans la situation où un des membres de l'unité TVA (appelé C) est l'acquéreur final des biens (la Belgique est l'Etat membre 3).
+
+Dans cette situation, l'unité TVA est considérée, pour l'application de la TVA, via la communication du sous-numéro d'identification de C, comme redevable de la livraison subséquente à l'acquisition intracommunautaire effectuée en Belgique par B, l'acheteur-revendeur intermédiaire identifié à la TVA dans l'Etat membre 2.
+
+- La Belgique est l'Etat membre 2
+
+Dans la situation où le membre de l'unité TVA (appelé B) est l'acheteur intermédiaire revendeur (la Belgique est l'Etat membre 2), celui-ci intervient uniquement dans des opérations réalisées à l'étranger puisqu'il n'effectue ni une livraison intracommunautaire ni une acquisition intracommunautaire de biens en Belgique.
+
+En principe, ces opérations sont réputées être effectuées par B lui-même et non par l'unité TVA dont il fait partie.
+
+Il est admis toutefois que B communique malgré tout son sous-numéro d'identification à la TVA belge à son fournisseur, à condition que les autorités fiscales de l'Etat membre de départ et de l'Etat membre d'arrivée ne s'opposent pas dans cette situation à l'application du régime triangulaire simplifié.
+
+L'unité TVA devra alors remplir les obligations prévues aux nos 148 et 149 de la circulaire n° 38 du 28 août 2006 (au niveau de la facturation, de la reprise dans la déclaration périodique et de la mention particulière dans le relevé intracommunautaire).
+
+7.3.1.3.4. Ventes en chaîne entre deux membres et un assujetti établi dans un autre Etat membre
+
+Comme précisé au point 7.2.1.1, toutes les livraisons de biens réalisées en Belgique entre les membres d'une unité TVA sortent du champ d'application de la taxe.
+
+Toutefois en cas de vente en chaîne entre deux membres de l'unité TVA (A et B) et un assujetti (C) établi dans un autre Etat membre, les opérations doivent être analysées de la manière suivante :
+
+Situation 1 : A, membre de l'unité TVA vend des biens à B, autre membre de l'unité TVA, qui les revend à C, assujetti (ou personne morale non assujettie) établi(e) et identifié(e) à la TVA dans un autre Etat membre; les biens sont directement expédiés ou transportés des entrepôts de A en Belgique chez C dans l'autre Etat membre.
+
+La manière de traiter une telle opération dépend de savoir à quelle livraison (A-B ou B-C) le transport des biens de A chez X est rattaché.
+
+Le transport a lieu dans la relation A-B
+
+L'opération effectuée en Belgique entre A et B sort du champ d'application de la taxe. Par contre, l'envoi du bien vers l'autre Etat membre dans le cadre de cette livraison sera analysée comme un transfert de biens assimilé à une livraison intracommunautaire de biens à titre onéreux réalisé par l'unité TVA, via le sous-numéro d'identification de B, au sens de l'article 12bis, alinéa 1er, du Code de la TVA.
+
+Ce transfert sera exempté de la TVA sur la base de l'article 39bis, alinéa 1er, 4°, du Code.
+
+Parallèlement, B effectue dans l'Etat membre de destination une opération qui sera normalement analysée par les autorités fiscales de cet Etat membre comme une acquisition intracommunautaire de biens. Pour effectuer cette opération, il a l'obligation de se faire identifier à la TVA dans cet Etat membre (B'). B effectue ensuite, via son numéro d'identification à la TVA de l'Etat membre de destination (B'), une livraison sans transport, qui conformément à l'article 31 de la D 2006/112/CE (anciennement l'article 8, § 1er, b), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 1er) est réputée se situer à l'endroit où le bien se trouve au moment de la livraison, c'est-à-dire dans l'autre Etat membre.
+
+Il est renvoyé au 7.2.1.3.1. de la présente circulaire en ce qui concerne les obligations à remplir par l'unité TVA pour les opérations effectuées en Belgique et la base d'imposition du transfert de biens.
+
+B doit se conformer aux règles fixées par les autorités fiscales de l'Etat membre de destination en ce qui concerne les opérations qu'il y effectue.
+
+Le transport a lieu dans la relation B-C
+
+L'opération effectuée en Belgique entre A et B qui est une livraison sans transport sort du champ d'application de la taxe.
+
+La livraison effectuée par B est analysée comme une livraison intracommunautaire de biens réalisée par l'unité TVA, via le sous-numéro d'identification à la TVA de B, qui sera exemptée sur la base de l'article 39bis, alinéa 1er, 1°, du Code.
+
+C effectue ensuite dans l'Etat membre de destination une acquisition intracommunautaire de biens.
+
+Comment déterminer dans quelle relation a lieu le transport ?
+
+Si le transport est effectué par A ou pour son compte, le transport a forcément lieu dans la relation A-B.
+
+Si le transport est effectué par C ou pour son compte, le transport a forcément lieu dans la relation B-C.
+
+Si le transport est effectué par B ou pour son compte, sauf dans la situation où B communiquerait à A un numéro d'identification à la TVA dans un autre Etat membre que la Belgique, le transport sera présumé avoir lieu dans la relation B-C, pour des raisons pratiques visant à éviter que B doive se faire identifier à la TVA dans l'Etat membre de destination.
+
+Situation 2 : A, assujetti établi et identifié à la TVA dans un autre Etat membre, vend des biens à B, membre de l'unité TVA qui les revend à C, autre membre de l'unité TVA; les biens sont directement expédiés ou transportés des entrepôts de A chez C en Belgique.
+
+La manière de traiter une telle opération dépend de savoir à quelle livraison (A-B ou B-C) le transport des biens de A chez C est rattaché.
+
+Le transport a lieu dans la relation A-B
+
+A effectue une livraison avec transport qui, conformément à l'article 32, § 1er, de la directive 2006/112/CE (anciennement l'article 8, § 1er, a), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 2, 1°), est réputée se situer à l'endroit où le bien se trouve au moment du départ de l'expédition ou du transport à destination de l'acquéreur, c'est-à-dire dans l'autre Etat membre. Cette livraison intracommunautaire est exemptée de la TVA sur la base de l'article 138, § 1er, de la directive 2006/112/CE (anciennement l'article 28quater, titre A, a), alinéa 1er de la 6ème directive).
+
+Parallèlement, l'unité TVA, via le sous-numéro d'identification à la TVA de B, effectue en Belgique une acquisition intracommunautaire de biens à titre onéreux au sens de l'article 25ter, § 1er, alinéa 1er, du Code.
+
+L'opération effectuée en Belgique entre B et C qui est une livraison sans transport sort du champ d'application de la taxe.
+
+Le transport a lieu dans la relation B-C
+
+A effectue une livraison sans transport, qui conformément à l'article 31 de la directive 2006/112/CE (anciennement l'article 8, § 1er, b), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 1er) est réputée se situer à l'endroit où le bien se trouve au moment de la livraison, c'est-à-dire dans l'autre Etat membre. Cette livraison doit être soumise à la TVA de cet Etat membre.
+
+B effectue ensuite une livraison avec transport qui, conformément à l'article 32, § 1er, de la directive 2006/112/CE (anciennement l'article 8, § 1er, a), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 2, 1°), est réputée se situer à l'endroit où le bien se trouve au moment du départ de l'expédition ou du transport à destination de l'acquéreur, c'est-à-dire dans l'autre Etat membre. Cette livraison intracommunautaire est exemptée de la TVA sur la base de l'article 138, § 1er, de la directive 2006/112/CE (anciennement l'article 28quater, titre A, a), alinéa 1er de la 6ème directive). Pour effectuer cette opération, B a l'obligation de se faire identifier à la TVA dans cet autre Etat membre (B').
+
+Enfin, l'unité TVA, via le sous-numéro d'identification à la TVA de C, effectue en Belgique une acquisition intracommunautaire de biens à titre onéreux au sens de l'article 25ter, § 1er, alinéa 1er, du Code.
+
+Il est renvoyé au 7.2.2.3.1. de la présente circulaire en ce qui concerne les obligations à remplir par l'unité TVA pour les opérations effectuées en Belgique et la base d'imposition de l'acquisition intracommunautaire de biens.
+
+B doit se conformer aux règles fixées par les autorités fiscales de l'Etat membre de départ en ce qui concerne les opérations qu'il y effectue.
+
+Comment déterminer dans quelle relation a lieu le transport ?
+
+Si le transport est effectué par A ou pour son compte, le transport a forcément lieu dans la relation A-B.
+
+Si le transport est effectué par C ou pour son compte, le transport a forcément lieu dans la relation B-C.
+
+Si le transport est effectué par B ou pour son compte, sauf dans la situation où B communiquerait à A un numéro d'identification à la TVA de l'Etat membre de départ, le transport sera présumé avoir lieu dans la relation A-B, pour des raisons pratiques visant à éviter que B doive se faire identifier à la TVA dans l'Etat membre de départ.
+
+Situation 3 : A, assujetti établi et identifié à la TVA dans un autre Etat membre, vend des biens à B, membre de l'unité TVA qui les revend à C, autre membre de l'unité TVA; C les revend à D, assujetti établi et identifié à la TVA en Belgique ; les biens sont directement expédiés ou transportés des entrepôts de A chez D en Belgique.
+
+La manière de traiter une telle opération dépend de savoir à quelle livraison (A-B, B-C ou C-D) le transport des biens de A chez D est rattaché.
+
+Le transport a lieu dans la relation A-B
+
+En ce qui concerne les livraisons A-B et B-C, il est renvoyé à la situation 2 ci-avant.
+
+La livraison C-D est analysée comme une livraison sans transport réalisée par l'unité TVA, via le sous-numéro d'identification à la TVA de C, qui rend la TVA belge exigible.
+
+Le transport a lieu dans la relation B-C
+
+En ce qui concerne les livraisons A-B et B-C, il est renvoyé à la situation 2 ci-avant.
+
+La livraison C-D est analysée comme une livraison sans transport réalisée par l'unité TVA, via le sous-numéro d'identification à la TVA de C, qui rend la TVA belge exigible.
+
+Le transport a lieu dans la relation C-D
+
+A effectue une livraison sans transport, qui conformément à l'article 31 de la directive 2006/112/CE (anciennement l'article 8, § 1er, b), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 1er) est réputée se situer à l'endroit où le bien se trouve au moment de la livraison, c'est-à-dire dans l'autre Etat membre. Cette livraison doit être soumise à la TVA de cet Etat membre.
+
+B effectue également une livraison sans transport qui est réputée se situer à l'endroit où le bien se trouve au moment de la livraison, c'est-à-dire dans l'autre Etat membre. Cette livraison rend la TVA de cet Etat membre exigible.
+
+C effectue ensuite une livraison avec transport qui, conformément à l'article 32, § 1er, de la directive 2006/112/CE (anciennement l'article 8, § 1er, a), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 2, 1°), est réputée se situer à l'endroit où le bien se trouve au moment du départ de l'expédition ou du transport à destination de l'acquéreur, c'est-à-dire dans l'autre Etat membre. Cette livraison intracommunautaire est exemptée de la TVA sur la base de l'article 138, § 1er, de la directive 2006/112/CE (anciennement l'article 28quater, titre A, a), alinéa 1er de la 6ème directive). Pour effectuer cette opération, C a l'obligation de se faire identifier à la TVA dans cet autre Etat membre (C').
+
+Enfin, D effectue en Belgique une acquisition intracommunautaire de biens taxable sur la base de l'article 25ter, § 1er du Code de la TVA.
+
+Les membres B et C de l'unité TVA interviennent uniquement dans des opérations réalisées à l'étranger puisqu'ils n'effectuent en Belgique ni une livraison ni une acquisition intracommunautaire.
+
+Il appartient par conséquent uniquement aux autorités fiscales de l'Etat membre de départ de déterminer les obligations qui incombent à B et à C.
+
+Comment déterminer dans quelle relation a lieu le transport ?
+
+Si le transport est effectué par A ou pour son compte, le transport a forcément lieu dans la relation A-B.
+
+Si le transport est effectué par D ou pour son compte, le transport a forcément lieu dans la relation C-D.
+
+Si le transport est effectué par B ou pour son compte, sauf dans la situation où B communiquerait à A un numéro d'identification à la TVA de l'Etat membre de départ, le transport sera présumé avoir lieu dans la relation A-B, pour des raisons pratiques visant à éviter que B doive se faire identifier à la TVA dans l'Etat membre de départ.
+
+Si le transport est effectué par C ou pour son compte, sauf dans la situation où C communiquerait à B un numéro d'identification à la TVA de l'Etat membre de départ, le transport sera présumé avoir lieu dans la relation B-C, pour des raisons pratiques visant à éviter que C doive se faire identifier à la TVA dans l'Etat membre de départ.
+
+Situation 4 : A, assujetti établi et identifié à la TVA dans l'Etat membre 1, vend des biens à B, membre de l'unité TVA qui les revend à C, autre membre de l'unité TVA; C les revend à D, assujetti établi et identifié à la TVA dans l'Etat membre 3; les biens sont directement expédiés ou transportés des entrepôts de A chez D dans l'Etat membre 3.
+
+Les membres B et C de l'unité TVA interviennent uniquement dans des opérations réalisées à l'étranger (selon le cas dans l'Etat membre 1 ou dans l'Etat membre 3) puisqu'ils n'effectuent en Belgique ni une livraison ni une acquisition intracommunautaire de biens.
+
+Il appartient par conséquent uniquement aux autorités fiscales de l'Etat membre de départ et de l'Etat membre d'arrivée de déterminer les obligations qui incombent aux membres B et C. Il appartient également à ces autorités fiscales de déterminer si un régime de simplification entre trois des opérateurs est possible et si, dans cette situation, selon le cas B ou C peuvent communiquer à leur fournisseur leur sous-numéro d'identification à la TVA belge.
+
+Si le régime triangulaire simplifié est admis, l'unité TVA devra alors remplir selon le cas, via le sous-numéro d'identification à la TVA de B ou via le sous-numéro d'identification à la TVA de C, les obligations prévues pour ce régime (voir n° 7.3.1.3.3).
+
+Situation 5 : A, membre de l'unité TVA vend des biens à B, autre membre de l'unité TVA, qui les revend à C, assujetti établi et identifié à la TVA dans l'Etat membre 2; C revend ces biens à D, assujetti (ou personne morale non assujettie) établi(e) et identifié(e) à la TVA dans l'Etat membre 3; les biens sont directement expédiés ou transportés des entrepôts de A en Belgique chez D dans l'Etat membre 3.
+
+La manière de traiter une telle opération dépend de savoir à quelle livraison (A-B, B-C ou C-D) le transport des biens de A chez D est rattaché.
+
+Le transport a lieu dans la relation A-B
+
+L'opération effectuée en Belgique entre A et B sort du champ d'application de la taxe. Par contre, l'envoi du bien vers l'autre Etat membre dans le cadre de cette livraison sera analysé comme un transfert de biens assimilé à une livraison intracommunautaire de biens à titre onéreux réalisé par l'unité TVA, via le sous-numéro d'identification de B, au sens de l'article 12bis, alinéa 1er, du Code de la TVA.
+
+Ce transfert sera exempté de la TVA sur la base de l'article 39bis, alinéa 1er, 4°, du Code.
+
+Parallèlement, B effectue dans l'Etat membre 3 une opération qui sera normalement analysée par les autorités fiscales de cet Etat membre comme une acquisition intracommunautaire de biens. Pour effectuer cette opération, il a l'obligation de se faire identifier à la TVA dans l'Etat membre 3 (B').
+
+B effectue ensuite, via son numéro d'identification à la TVA attribué par l'Etat membre 3 (B'), une livraison sans transport, qui conformément à l'article 31 de la directive 2006/112/CE (anciennement l'article 8, § 1er, b), de la 6ème directive) (cfr. Code, art. 15, § 2, alinéa 1er) est réputée se situer à l'endroit où le bien se trouve au moment de la livraison, c'est-à-dire dans l'autre Etat membre.
+
+Enfin, C effectue également une livraison sans transport qui est localisée dans l'Etat membre 3.
+
+Il est renvoyé au 7.2.1.3.1. de la présente circulaire en ce qui concerne les obligations à remplir par l'unité TVA pour les opérations effectuées en Belgique et la base d'imposition du transfert de biens.
+
+B doit se conformer aux règles fixées par les autorités fiscales de l'Etat membre de destination en ce qui concerne les opérations qu'il y effectue.
+
+Le transport a lieu dans la relation B-C
+
+L'opération effectuée en Belgique entre A et B qui est une livraison sans transport sort du champ d'application de la taxe.
+
+La livraison effectuée par B est analysée comme une livraison intracommunautaire de biens réalisée par l'unité TVA, via le sous-numéro d'identification à la TVA de B, qui sera exemptée sur la base de l'article 39bis, alinéa 1er, 1°, du Code.
+
+C effectue ensuite dans l'Etat membre de destination une acquisition intracommunautaire de biens suivie d'une livraison sans transport à D.
+
+Entre l'unité TVA, via le sous-numéro d'identification à la TVA de B, et les opérateurs C et D, le régime triangulaire simplifié peut être envisagé (voir point 7.3.1.3.3).
+
+Le transport a lieu dans la relation C-D
+
+L'opération effectuée en Belgique entre A et B qui est une livraison sans transport sort du champ d'application de la taxe.
+
+L'opération effectuée en Belgique entre B et C est analysée comme une livraison sans transport effectuée par l'unité TVA, via le sous-numéro d'identification à la TVA de B, qui rend la TVA belge exigible.
+
+La livraison effectuée par C est une livraison intracommunautaire avec transport qui sera exemptée sur la base de l'article 39bis, alinéa 1er, 1°, du Code.
+
+D effectue enfin dans l'Etat membre de destination une acquisition intracommunautaire de biens.
+
+Etant donné qu'il effectue à partir de la Belgique une livraison intracommunautaire, C a l'obligation de se faire identifier à la TVA en Belgique.
+
+Comment déterminer dans quelle relation a lieu le transport ?
+
+Si le transport est effectué par A ou pour son compte, le transport a forcément lieu dans la relation A-B.
+
+Si le transport est effectué par D ou pour son compte, le transport a forcément lieu dans la relation C-D.
+
+Si le transport est effectué par B ou pour son compte, sauf dans la situation où B communiquerait à A un numéro d'identification à la TVA de l'Etat membre de départ, le transport sera présumé avoir lieu dans la relation A-B, pour des raisons pratiques visant à éviter que B doive se faire identifier à la TVA dans l'Etat membre de départ.
+
+Si le transport est effectué par C ou pour son compte, sauf dans la situation où C communiquerait à B un numéro d'identification à la TVA de l'Etat membre de départ, le transport sera présumé avoir lieu dans la relation B-C, pour des raisons pratiques visant à éviter que C doive se faire identifier à la TVA dans l'Etat membre de départ.
+
+7.3.2. En dehors du territoire belge
+
+Les opérations effectuées par un membre d'une unité TVA à l'étranger sont réputées avoir lieu en dehors du territoire belge, par application des articles 15 et 21 du Code, et sont soumises aux règles en vigueur dans le pays dans lequel elles sont réputées avoir lieu.
+
+Ces opérations sont réputées être effectuées par le membre lui-même et non par l'unité TVA dont le membre fait partie (voir toutefois les nos 7.3.1.3.3. et 7.3.1.3.4., situation 5).
+
+8. DROIT A DEDUCTION
+
+L'unité TVA ne forme donc qu'un seul assujetti qui se substitue à ses membres pour exercer collectivement leurs droits et obligations en matière de TVA. C'est dès lors elle qui opère la déduction de la taxe ayant grevé les biens et les services qui sont fournis à ses membres pendant son existence. Les articles 45 à 49 du Code de la TVA ainsi que les règles de l'arrêté royal n° 3 du 10 décembre 1969 relatif aux déductions pour l'application de la taxe sur la valeur ajoutée, sont applicables à l'unité TVA.
+
+8.1. Examen préalable
+
+L'examen du régime applicable, en matière de déduction, à une unité TVA requiert, dans une première phase, de considérer les opérations externes réalisées par ses membres.
+
+Si les opérations externes consistent exclusivement en livraisons de biens ou en prestations de services ouvrant droit à déduction, l'unité TVA doit être considérée, dans sa globalité, comme un assujetti avec droit à déduction totale. La nature des opérations internes est alors sans la moindre influence sur le droit à déduction de l'unité puisque ces opérations concourent, au sein de l'unité considérée dans son ensemble, à la réalisation d'opérations externes ouvrant droit à déduction. Il n'y a dès lors pas lieu, pour la détermination du droit à déduction de l'unité TVA, d'examiner si ces opérations internes auraient ou non ouvert droit à déduction si elles avaient eu lieu en externe : hormis les exceptions et limitations prévues par la loi, l'unité TVA peut déduire toutes les taxes grevant les biens et les services fournis à ses membres.
+
+Exemple 1 : une unité TVA est composée de quatre sociétés A, B, C, D.
+
+- A a une activité de production et de vente de produits de brasserie. Elle n'effectue que des livraisons de biens à des tiers à l'unité TVA.
+- B produit des bouteilles en verre. Elle vend 10 pc de sa production à A, le reste est vendu à des tiers à l'unité TVA.
+- C fabrique des bacs en plastique spécialement conçus pour le transport de bouteilles. Elle vend 20 pc de sa production à A et le reste à des tiers à l'unité TVA.
+- D est une société patrimoniale détenant les immeubles de l'unité TVA, qu'elle met à la disposition des trois premières sociétés en vertu de contrats de location immobilière.
+
+Cette unité TVA doit être considérée comme un assujetti avec droit à déduction totale de la taxe. Il en résulte que l'unité TVA pourra déduire, selon les règles normales et sous réserve des exclusions prévues par le Code, la taxe ayant grevé tous les biens et les services acquis par ses quatre membres.
+
+Même la taxe ayant grevé les immeubles que la société D acquiert pour les donner en location aux autres sociétés de l'unité TVA est déductible. La circonstance que la location immobilière est une opération exemptée qui ne permettrait à D aucune déduction des taxes en amont, si elle était réalisée hors du cadre particulier d'une unité TVA, est sans aucune influence sur le droit à déduction de l'unité TVA.
+
+Lorsqu'en revanche, les opérations externes des membres de l'unité TVA consistent à la fois en opérations ouvrant droit à déduction et en opérations exemptées, l'unité TVA, appréciée dans sa globalité, est un assujetti avec droit à déduction partielle.
+
+Dans ce cas, deux régimes de déduction sont possibles : le régime du prorata général et le régime de l'affectation réelle.
+
+8.2. Le régime du prorata général de déduction
+
+Pour l'unité TVA, le prorata général de déduction est déterminé par une fraction comportant,
+
+- au numérateur , le montant total, déterminé par année civile, des opérations externes, effectuées par les membres de l'unité TVA et permettant la déduction, ainsi que des opérations assimilées à des livraisons de biens ou à des prestations de services par les articles 12, § 1er, 1°, 2° et 5° et 19, § 1er et § 2, 2°, du Code.
+- et au dénominateur, le montant total, déterminé par année civile, tant des opérations figurant au numérateur que des opérations externes, effectuées par les membres, pour lesquelles il n'existe aucun droit à déduction.
+
+En revanche, les opérations internes, quelle que soit leur nature, n'exercent aucune influence sur ce droit à déduction puisque le principe du prorata général est d'appliquer à toutes les taxes ayant grevé les biens et services acquis auprès de tiers à l'unité TVA, le pourcentage de déduction calculé exclusivement sur base des opérations externes à l'unité TVA. Il n'y a donc pas lieu d'examiner si ces opérations internes, auraient ou non ouvert droit à déduction si elles avaient été effectuées en externe.
+
+Les opérations assimilées à des prestations de services à titre onéreux par le nouvel article 19bis ne doivent être reprises ni au numérateur, ni au dénominateur du prorata général.
+
+Exemple 2 : une unité TVA est composée de deux sociétés A et B
+
+- A est une société dont l'unique activité consiste en opérations de crédit réalisées avec des tiers à l'unité TVA. Chiffre d'affaires : 10 millions d'euros.
+- B est une société de gestion de crédits. Son activité consiste à gérer les crédits de A, à concurrence de 40 pc de son chiffre d'affaires, le reste de son activité s'adresse à des entreprises de crédit ne faisant pas partie de l'unité TVA. Chiffre d'affaires (interne + externe) : 5 millions d'euros.
+
+L'octroi de crédits est une opération exemptée de la TVA, par l'article 44, § 3, 5° du Code. En revanche, la gestion de crédits effectuée par une personne qui ne les a pas octroyés est une prestation de services exclue du bénéfice de l'exemption prévue par cet article 44, § 3, 5°. Cette unité TVA est donc, au regard de ses opérations externes, un assujetti avec droit à déduction partielle.
+
+- Le numérateur du prorata général s'élève à 60 pc (opérations externes) de 5 millions (CA de B), soit 3 millions.
+- Le dénominateur du prorata général s'élève à 3 millions (opérations externes de B) + 10 millions (opérations externes de A) = 13 millions.
+- Le prorata général, arrondi à l'unité supérieure, s'élève dans ce cas à 23 p.c.
+
+Exemple 3 : une unité TVA est composée de deux sociétés A et B.
+
+- A est une société spécialisée dans la vente d'appareils électroménagers. Elle vend exclusivement à des tiers à l'unité TVA. Chiffre d'affaires : 20 millions d'euros.
+- B est une société de crédit. Son chiffre d'affaires est de 15 millions d'euros. Son activité consiste, à concurrence de 80 pc de son chiffre d'affaires, à accorder des crédits aux clients de A. Le reste de son activité consiste à accorder des crédits à A pour financer l'achat de ses investissements et de ses stocks.
+
+Cette unité TVA est un assujetti avec droit à déduction partielle.
+
+- Le numérateur du prorata général s'élève à 20 millions (chiffre d'affaires externe de A, ouvrant droit à déduction).
+- Le dénominateur du prorata général s'élève à : 20 millions (chiffre d'affaires externe de A) + 12 millions (80 p.c de 15 millions, ce qui représente le chiffre d'affaire externe de B), soit au total 32 millions.
+- Le prorata général de déduction s'élève dans ce cas à 63 p.c.
+
+Remarque : l'attention est attirée sur le fait que le prorata général de déduction de l'unité TVA doit, en revanche, comprendre le montant des opérations réalisées à partir des sièges étrangers de ses membres, dès lors que les dépenses relatives à ces opérations sont facturées au siège situé en Belgique.
+
+8.3. Le régime de l'affectation réelle
+
+8.3.1. Principe
+
+Conformément à l'article 46, § 2, du Code de la TVA, le Ministre des Finances ou son délégué peuvent autoriser l'assujetti, à sa demande, à opérer la déduction suivant l'affectation réelle de tout ou partie des biens ou des services. Ils peuvent l'obliger à procéder de la sorte lorsque l'application du prorata général de déduction aboutit à créer des inégalités dans l'application de la taxe.
+
+Ces inégalités dans l'application de la taxe peuvent notamment provenir :
+
+- de la disproportion flagrante entre les montants à reprendre en tant que chiffres d'affaires, au prorata général de déduction. Tel pourrait être le cas d'une unité TVA composée de deux membres dont l'un aurait pour activité l'achat et la revente en l'état d'immeubles anciens, et dont l'autre membre aurait une activité de simple intermédiaire (courtier ou mandataire) dans la vente d'immeubles. La disproportion entre, d'une part, le montant des seules commissions perçues et, d'autre part, le prix de vente des immeubles anciens vendus (comprenant la marge bénéficiaire du membre) aboutirait, sans que l'importance des moyens mis en œuvre pour exercer ces deux activités respectives diffère aussi fondamentalement, à restreindre le droit à déduction de manière injustifiée.
+- de la disproportion entre les taxes grevant les biens et les services nécessaires à l'exercice de deux activités distinctes, lorsque cette disproportion ne se traduit pas dans les chiffres d'affaires respectifs. Tel serait le cas d'une unité TVA composée de deux membres dont l'un aurait pour activité la construction et la vente de bâtiments neufs et l'autre l'achat et la revente en l'état de bâtiments anciens. Encore que, dans ce cas, les chiffres d'affaires à reprendre pour le calcul du prorata général de déduction (prix de vente des bâtiments dans les deux cas) ne soient pas de nature à trahir l'esprit du prorata général, c'est cette fois la disproportion entre les moyens mis en œuvre pour chacune des activités respectives qui aboutirait, avec l'application de ce prorata général à toutes les taxes en amont, à restreindre injustement le droit à déduction des taxes, nettement plus importantes, relatives aux coûts liés à la construction des bâtiments neufs. Dans ces deux situations, l'administration autoriserait l'application de l'affectation réelle. Dans les situations inverses, où l'application du prorata général de déduction aboutit à une déduction trop importante, l'administration peut imposer l'affectation réelle.
+
+8.3.2. Conditions de principe pour l'application de l'affectation réelle
+
+En ce que le régime de l'affectation réelle entend régler le sort des déductions en opérant une distinction selon la destination donnée aux biens et aux services fournis à l'assujetti, ce régime présuppose certaines conditions :
+
+- l'existence de secteurs d'activités bien distincts, pour lesquels sinon l'ensemble, à tout le moins la majeure partie des biens et des services fournis à l'assujetti peuvent être isolés, secteur par secteur; dans le cas de l'unité TVA, cette affectation doit, dans une première phase, pouvoir s'opérer membre par membre.
+- l'assujetti doit pouvoir établir, notamment sur base des documents constatant leur acquisition, que les biens et les services affectés directement à un secteur d'activité déterminé ne pouvaient, eu égard à leur nature, qu'être effectivement affectés à ce secteur d'activité;
+- les biens et services qui ne peuvent être isolés et affectés à un secteur d'activité bien déterminé, doivent être affectés aux différents secteurs d'activité sur base de clés de répartition (prorata spéciaux d'affectation) précises, dont la réalité peut encore être établie ultérieurement, en vue de permettre leur contrôle par l'administration fiscale.
+
+La simple affectation des biens et des services à des centres de coûts n'est certes pas suffisante à cet égard. Les données (comptables et extra-comptables) tirées de la comptabilité analytique peuvent déjà constituer un commencement de preuve, mais elles ne sont certainement pas suffisantes à cet égard.
+
+En toute hypothèse, doivent être exclues les clés de répartition basées sur l'importance du personnel, ou encore sur le nombre d'heures prestées par le personnel.
+
+En ce qui concerne les frais informatiques, un programme enregistrant le temps utilisé par opération (CPU Time) peut être utilisé comme base d'une clé de répartition des coûts informatiques, selon les dispositions prévues au point 19 de la circulaire 95/010 du 26 juillet 1995.
+
+8.3.3. L'affectation réelle et l'unité TVA
+
+8.3.3.1. Opérations à prendre en compte pour la détermination du droit à déduction
+
+Le régime de la déduction sur base de l'affectation réelle impose à l'unité TVA de connaître l'utilisation finale que fera chacun de ses membres des biens et des services que ce membre a acquis.
+
+A cet égard, l'utilisation finale doit prendre en considération :
+
+- les opérations externes, qui ouvrent ou non droit à déduction, en fonction de leur nature,
+- mais également les opérations internes, qui doivent être elles-mêmes examinées, non en fonction de leur nature, mais en fonction de l'usage qu'en fera le membre auquel ces opérations sont rendues.
+
+Deux exemples permettront de mieux appréhender cette problématique quant à son principe.
+
+Exemple 4 : Une unité TVA est composée de deux sociétés A et B.
+
+- A est une société spécialisée dans la vente d'appareils électroménagers. Elle effectue exclusivement des opérations externes.
+- B est une société de crédit. Son activité consiste à concurrence de 80 pc de son chiffre d'affaires, à accorder des crédits aux clients de A. Le reste de son activité consiste à accorder des crédits à A pour financer l'achat de ses investissements et de ses stocks.
+
+Cette unité TVA est donc un assujetti avec droit à déduction partielle.
+
+Sur le plan des principes, l'unité TVA peut déduire, sous réserve des exclusions et limitations légales prévues :
+
+- les taxes ayant grevé les biens et les services fournis par les tiers à A;
+- et les taxes ayant grevé les biens et les services fournis par les tiers à B, à due concurrence de 20 pc (proportion des crédits consentis par A à B, qui les utilise pour effectuer des opérations ouvrant droit à déduction à l'unité TVA).
+
+L'unité TVA n'est en revanche pas autorisée à déduire, à due concurrence de 80 pc, les taxes grevant les biens et les services fournis à B, étant donné qu'à concurrence de ce pourcentage, B effectue des opérations externes de crédit qui n'ouvrent à l'unité aucun droit à déduction.
+
+Exemple 5 : une unité TVA est composée de deux sociétés A et B.
+
+- A est une entreprise dont l'unique activité consiste en opérations externes de crédit.
+- B est une société de gestion de crédits. Son activité consiste à gérer les crédits de A, à concurrence de 40 pc de son chiffre d'affaires, le reste de son activité s'adresse à des entreprises de crédit ne faisant pas partie de l'unité TVA.
+
+Cette unité TVA est un assujetti avec droit à déduction partielle.
+
+Sur le plan des principes, cette unité TVA peut déduire uniquement les taxes ayant grevé les biens et les services fournis à B, à concurrence de 60 pc (chiffre d'affaires externe réalisé par B). La gestion de crédits par une entreprise n'ayant pas accordé ce crédit est en effet une opération soumise à la taxe, ouvrant droit à déduction.
+
+Aucune déduction n'est en revanche permise :
+
+- pour les taxes ayant grevé les biens et les services qui ont été fournis à A (opérations externes de crédit exemptées).
+- pour les taxes ayant grevé les biens et les services qui ont été fournis à B et au moyen desquels B a géré les crédits de A, soit à concurrence de 40 p.c. des taxes en amont.
+
+8.3.3.2. Détermination du droit à déduction au moment de l'acquisition des biens et des services
+
+Pour rappel, le régime de l'affectation réelle impose à l'assujetti de distinguer :
+
+- les taxes ayant grevé les biens et les services destinés exclusivement à la réalisation d'opérations ouvrant droit à déduction, pour lesquelles il opère la déduction selon les règles applicables à un assujetti avec droit à déduction totale;
+- les taxes ayant grevé les biens et les services destinés exclusivement à la réalisation d'opérations n'ouvrant pas droit à déduction, pour lesquelles toute déduction est écartée;
+- les taxes ayant grevé les biens et les services destinés à être utilisés à la fois au secteur d'activité ouvrant droit à déduction et au secteur d'activité n'ouvrant pas droit à déduction.
+
+Dans le cas de l'unité TVA, les biens et les services sont fournis aux membres et c'est l'unité TVA qui, sur base de l'affectation qui va être donnée à ces biens et à ces services, va opérer la déduction, cette affectation s'opérant en principe de la façon hiérarchique suivante :
+
+- par membre,
+- par secteur d'activité ou type d'opérations réalisées par ce membre
+- en fonction du caractère externe ou interne de ses opérations
+- et enfin, en fonction de l'utilisation que font les autres membres des opérations réalisées pour eux.
+
+Quelques situations sont examinées ci-après.
+
+8.3.3.2.1. Les biens et les services sont fournis à un membre de l'unité TVA qui les destine exclusivement à la réalisation par lui-même d'opérations externes ouvrant ou non droit à déduction;
+
+Dans ce cas, le droit à déduction de l'unité TVA est déterminé par la nature de ces opérations externes.
+
+Exemple 6 : Un établissement de crédit, membre d'une unité TVA, achète à un fournisseur externe à l'unité TVA des ordinateurs destinés à la gestion des crédits qu'il a octroyés à ses clients externes à l'unité TVA.
+
+La TVA grevant l'acquisition de ces ordinateurs n'est pas déductible par l'unité TVA.
+
+Exemple 7 : une société de leasing, membre d'une unité TVA, fait construire un bâtiment destiné à être donné en leasing, avec application de la taxe, à une autre société, non membre de l'unité TVA.
+
+La TVA grevant les coûts de construction du bâtiment est déductible par l'unité TVA.
+
+8.3.3.2.2. Les biens et les services sont acquis par un membre de l'unité TVA, mais en vue d'être fournis par celui-ci, en tant que tels, à un autre membre de l'unité TVA, qui ne les utilise que pour des opérations externes.
+
+Si, au moment où des biens et des services sont acquis par un membre d'une unité TVA, il est certain que ces biens et ces services sont destinés à être fournis, en interne, à un autre membre de l'unité TVA, qui va les utiliser pour effectuer des opérations externes, c'est l'utilisation que ce dernier membre entend donner aux biens et aux services qui va déterminer le droit à déduction de l'unité TVA.
+
+Tel sera le cas pour les biens acquis par un membre de l'unité TVA et que ce membre,
+
+- va revendre,
+- va louer ou sur lequel il va consentir des droits de jouissance,
+- ou encore sur lequel ce membre va constituer des droits réels,
+
+au profit d'un autre membre.
+
+Tel sera également le cas des prestations de services, fournies par un tiers à l'unité TVA à un des membres, et refacturées comme telles par ce membre à un autre membre.
+
+Exemple 8 : soit A, société de leasing, et B, établissement de crédit, appartenant tous deux à la même unité TVA. B n'effectue que des opérations de crédit en externe. A conclut un contrat de leasing avec B, pour un bâtiment que ce dernier va utiliser dans le cadre de ses opérations de crédit en externe.
+
+L'unité TVA ne peut pas déduire les taxes ayant grevé les coûts de construction du bâtiment.
+
+Exemple 9 : Une unité TVA est composée d'une société A, prestataire ICT, une société B, établissement de crédit et une société C, entreprise de leasing immobilier. B et C ne réalisent que des opérations externes.
+
+B et C commandent respectivement à A 200 et 100 ordinateurs destinés à leur activité. A se fait livrer ces ordinateurs par un fournisseur externe à l'unité TVA.
+
+Comme, au moment de la livraison de ces ordinateurs, leur destination finale est connue, A disposant de bons de commande émanant de B et C, l'unité TVA pourra déduire la taxe ayant grevé les 100 ordinateurs livrés à A et destinés à C (il est supposé que C n'effectue que des opérations externes) et ne pourra pas déduire la taxe ayant grevé les 200 ordinateurs destinés à B.
+
+- Remarque importante :
+
+Si, dans l'exemple donné, A disposait d'ordinateurs en stock, initialement destinés à la revente en externe et ayant donc donné lieu à déduction intégrale de la taxe grevant leur acquisition, leur vente à B et C entraînerait, dans le chef de l'unité TVA, le prélèvement prévu par l'article 12, § 1er, 3°, du Code de la TVA.
+
+L'unité TVA pourrait, dans ce cas, déduire la taxe due sur le prélèvement de ces ordinateurs pour le montant correspondant aux 100 ordinateurs destinés à C, la société de leasing.
+
+8.3.3.2.3. Les biens et les services sont acquis auprès de fournisseurs ou de prestataires externes par un membre de l'unité TVA qui les utilise pour effectuer à la fois des opérations externes et internes identiques.
+
+Les exemples 4 et 5 exposés ci-avant illustrent cette situation.
+
+Dans cette situation, les opérations externes et les opérations internes, identiques, ne constituent pas des secteurs d'activité distincts. Les moyens mis en œuvre étant en principe strictement identiques, l'unité TVA détermine le droit à déduction des taxes ayant grevé les biens et les services utilisés par le membre par un prorata spécial ,
+
+- au numérateur duquel on retrouve le montant des opérations externes ouvrant droit à déduction ainsi que le montant des opérations internes ouvrant droit à déduction compte tenu de l'utilisation qu'ont fait les autres membres de ces opérations,
+- au dénominateur duquel on retrouve le montant total des opérations externes et internes.
+
+Ainsi, dans l'exemple 4, le prorata spécial applicable aux taxes ayant grevé les biens et les services acquis par B et utilisés pour effectuer ses opérations de crédit se détermine de la manière suivante :
+
+- dénominateur : 100 (par hypothèse);
+- numérateur : opérations de crédit réalisées pour A, qui n'effectue que des opérations externes ouvrant droit à déduction : 20;
+- d'où un prorata spécial de 20 p.c.
+
+Dans l'exemple 5, le prorata spécial applicable aux taxes ayant grevé les biens et les services acquis par B et utilisés pour effectuer ses opérations de gestion de crédits se détermine de la manière suivante :
+
+- dénominateur : total des opérations externes et internées réalisées par B : 100 (par hypothèse);
+- numérateur : opérations externes de gestion de crédits réalisées par B : 60; les opérations internes de gestion de crédits n'ouvrent pas droit à déduction car elles sont utilisées par A dans le cadre de ses opérations de crédit externes, exemptées;
+- d'où un prorata spécial de 60 p.c..
+
+Exemple 10 : une unité TVA est composée de 3 sociétés. Par hypothèse, leur chiffre d'affaires est de 100.
+
+- A est une société de crédit; toutes ses opérations de crédit sont effectuées en externe.
+- B est une société de gestion de crédits; 80 pc de ses opérations sont effectuées en externe, et 20 p.c. au profit de A.
+- C est une société de factoring; 70 pc de ses opérations de recouvrement de créances (soumises à la taxe) sont effectuées en externe, 20 pc au profit de B et 10 pc au profit de A.
+
+Le droit à déduction de l'unité TVA s'établit comme suit :
+
+- Pour les acquisitions de biens et de services faites par A
+
+A n'effectuant que des opérations externes de crédit, exemptées, les biens et services acquis par A auprès de tiers à l'unité n'ouvrent à celle-ci aucun droit à déduction;
+
+- Pour les acquisitions de biens et de services faites par B
+
+Le droit à déduction de l'unité TVA pour les acquisitions de biens et services faites par B est déterminé par un prorata spécial de déduction fixé comme suit :
+
+- au numérateur : les opérations externes, soit 80 (Les opérations internes ne lui ouvrent aucun droit à déduction car elles sont utilisées par A pour effectuer des opérations externes exemptées);
+- au dénominateur : le total des opérations externes et internes, soit 100;
+- d'où un prorata spécial de 80 pc .
+
+- Pour les acquisitions de biens et de services faites par C
+
+Le calcul du numérateur du prorata spécial applicable à C doit englober :
+
+- les opérations réalisées par C en externe , soit 70;
+- les opérations réalisées par C pour B, dans la mesure où ce dernier les utilise pour l'exécution d'opérations ouvrant droit à déduction, en l'espèce donc, dans la mesure où B utilise ces prestations pour effectuer des opérations externes, ce qui donne 80 p.c de 20, soit 16;
+- soit au total 86.
+
+Ne peuvent en revanche pas être prises en considération au numérateur :
+
+- les opérations réalisées par C au profit de A, puisque ce dernier les utilise dans le cadre de son activité externe exemptée;
+- les opérations réalisées par C au profit de B, dans la mesure où B les utilise pour effectuer des opérations pour A, qui lui-même ne réalise que des opérations externes exemptées
+
+Avec un dénominateur de 100, le prorata spécial s'établit donc à 86 pc.
+
+8.3.3.2.4. Les biens et les services sont acquis auprès de fournisseurs ou prestataires tiers à l'unité TVA par des membres qui les utilisent pour réaliser des opérations externes et des opérations internes au profit d'un (ou plusieurs) membre(s) qui réalise(nt) lui (eux)-même(s) des opérations externes et des opérations internes au profit les uns des autres
+
+Dans cette situation particulière, où les membres d'une unité TVA nouent entre eux des relations « croisées », le calcul d'un prorata spécial, de la manière décrite dans les exemples précédents, souffre, à tout le moins pour partie, de l'interdépendance de certaines inconnues. Dans ce cas, le calcul du prorata spécial s'arrête aux seules données connues.
+
+Un exemple permettra de comprendre le problème.
+
+Exemple 11 : soit une unité TVA composée de deux sociétés.
+
+- A, dont l'activité consiste à octroyer des crédits ; son chiffre d'affaires se répartit en 100 en opérations internes en faveur de B et 100 en opérations externes.
+- B, dont l'activité consiste en opérations de paiement et d'encaissement pour lesquelles elle a opté pour la taxation ; son chiffre d'affaires se répartit en 50 en opérations internes pour A et 50 en opérations externes.
+
+On constate :
+
+- que l'unité TVA n'a aucun droit à déduction pour les opérations externes réalisées par A;
+- mais qu'en revanche, elle dispose d'un droit à déduction pour les opérations réalisées par A, dans la mesure où elles sont utilisées par B pour effectuer des opérations en externe ouvrant droit à déduction;
+- que l'unité TVA a droit à déduction pour les opérations externes réalisées par B;
+- qu'en revanche, elle n'a aucun droit à déduction pour les opérations internes réalisées par B pour A dans la mesure où A les utilise pour effectuer des opérations en externe exemptées.
+
+On constate par ailleurs qu'il est impossible de déterminer le droit à déduction de B, pour les opérations qu'il réalise pour A, dans la mesure où A en réalise une partie pour B et vice versa.
+
+Prorata spécial applicable aux acquisitions de biens et de services faites par B :
+
+- dénominateur de B : 100;
+- numérateur : 50 (opérations externes de B) + 50 (opérations internes) x 50 pc (opérations internes de A réalisées pour B) x prorata de B, ce qui est impossible.
+
+Prorata applicable aux acquisitions faites par A :
+
+- dénominateur de A : 200;
+- numérateur de A : 100 (opérations internes effectuées pour B) x 50 pc (pourcentage d'utilisation par B pour effectuer des opérations externes ouvrant droit à déduction) + 100 x 50 pc x ? (pourcentage d'utilisation par B pour effectuer des opérations pour A qui en utilise une partie pour B…).
+
+Plusieurs solutions s'offrent alors en l'espèce dont les deux plus évidentes sont :
+
+- l'utilisation par l'unité TVA du prorata général de déduction en l'occurrence fixé comme suit :
+
+numérateur : 50 (opérations externes de B ouvrant droit à déduction); dénominateur : 100 + 50 (total des opérations en externe); soit 34 pc.
+
+- ou, si celui-ci devait aboutir à créer de trop grandes inégalités, on arrête le calcul exposé ci-avant aux seuls chiffres connus :
+
+ce qui donne pour B :
+
+- numérateur: 50;
+- dénominateur : 100;
+- d'où un prorata spécial de 50pc.
+
+et ce qui donne pour A :
+
+- numérateur : (100 x 50 pc) = 50;
+- dénominateur : 200;
+- d'où un prorata spécial de : 25 pc.
+
+9. Dispositions particulières
+
+9.1. Report de perception lors de l'importation (article 5, § 3, de l'arrêté royal n° 7)
+
+9.1.1. Généralités
+
+Conformément à l'article 5, § 3 de l'arrêté royal n° 7 du 29 décembre 1992 et à la circulaire n° 3 du 11 janvier 1973, modifiée en dernier lieu par la circulaire AFER n° 1 du 2 janvier 2006, les assujettis tenus au dépôt de déclarations périodiques à la TVA (à l'exclusion des assujettis visés à l'article 55, § 3, dernier alinéa, du Code de la TVA) peuvent obtenir une autorisation pour ne pas payer la TVA due à l'importation au moment de la déclaration de mise en consommation, à condition d'en reporter le paiement dans les déclarations périodiques précitées.
+
+Conformément à l'article 1er, § 1er de l'arrêté royal n° 55, l'unité TVA est considérée comme un seul assujetti pour l'application de la TVA.
+
+Le régime du report de paiement de TVA due à l'importation, tel qu'il est prévu à la circulaire n° 3/1973 précitée, doit par conséquent être appliqué au niveau de l'unité TVA., qui est, de facto, tenue au dépôt de déclarations périodiques à la TVA., et non au niveau de chacun de ses membres individuellement.
+
+L'application du régime de report de paiement a dès lors un certain nombre de conséquences pour une unité TVA :
+
+- seule l'unité TVA peut obtenir l'autorisation susvisée, après que son représentant en ait sollicité l'octroi. L'autorisation est délivrée à l'unité TVA et porte un numéro propre distinct. Ce numéro doit être utilisé par chaque membre de l'unité lorsqu'un membre importe des biens;
+- étant donné que les membres de l'unité ne déposent plus de déclarations périodiques à la TVA en leur nom propre, l'autorisation individuelle du membre (des membres) de l'unité TVA devient d'office caduque au moment de leur entrée dans l'unité. Cette autorisation ne peut plus être invoquée valablement ni par le membre, ni par l'unité TVA elle-même pour une importation qu'un membre de l'unité TVA effectuerait. Inversement, en cas de sortie d'un membre de l'unité TVA ou de cessation de l'unité TVA, ce membre doit demander une nouvelle autorisation de manière à pouvoir poursuivre l'application du régime dans son chef. En cas de cessation de l'unité TVA, l'autorisation accordée à l'unité TVA est en outre d'office caduque;
+- les conditions fixées pour l'obtention de l'autorisation, et qui sont reprises aux numéros 7 à 9 et 20 à 24 de la circulaire n° 3 de 1973 - mise à jour 2006 - doivent être remplies dans le chef de l'unité TVA;
+- pour le calcul du montant de la TVA que l'unité TVA doit payer anticipativement pour obtenir l'autorisation (v. n° 16 et 20 de la circulaire n° 3 de 1973 - mise à jour 2006), il y a lieu de prendre en compte les importations de tous les membres de l'unité TVA, y compris, le cas échéant, les importations effectuées par un membre dont l'activité est exonérée par application de l'article 44 du Code de la TVA;
+- les conditions relatives au fonctionnement du régime, fixées aux numéros 15 et suivants de la circulaire n° 3 de 1973 - mise à jour 2006, doivent être observées par l'unité TVA en la personne du représentant de l'unité TVA;
+- l'unité TVA titulaire d'une autorisation de report de la TVA due à l'importation est tenue d'appliquer ce mode particulier de paiement pour tous ses membres qui importent des biens pour lesquels la TVA est exigible en Belgique.
+
+9.1.2. Formalités à accomplir à l'importation
+
+Conformément au n° 34, deuxième alinéa de la circulaire n° 3 de 1973 - mise à jour 2006, la case 48 de la déclaration de mise en consommation doit mentionner le numéro de l'autorisation attribué à l'unité TVA, quel que soit le membre de l'unité qui importe des biens.
+
+9.1.3. Application particulière : constitution d'une unité TVA dans laquelle des membres sont titulaires d'autorisation
+
+Lorsqu'un assujetti titulaire d'une autorisation de report de paiement de la TVA due à l'importation entre dans une unité TVA à l'occasion de sa constitution, l'autorisation du membre est, comme mentionné précédemment, d'office caduque au moment de son entrée dans l'unité. Le membre ne rentre, en effet, plus de déclarations périodiques à la TVA sous son numéro d'identification à la TVA individuel pour les opérations effectuées à partir de ce moment.
+
+Dans ce cas, le membre entrant peut, conformément aux dispositions prévues au n° 32 de la circulaire n° 3 de 1973 -mise à jour 2006, obtenir le remboursement du paiement anticipé fait dans le cadre de l'autorisation devenue caduque (v. n° 16 de la circulaire n° 3 de 1973 - mise à jour 2006), en imputant ce montant en grille 62 de la dernière déclaration TVA périodique à la TVA que ce membre a déposée.
+
+Lorsque le membre entrant n'a pas exercé son droit à restitution dans cette dernière déclaration, il peut, avant l'expiration du délai de prescription du droit à restitution, introduire une demande de remboursement auprès du bureau de contrôle TVA dont il dépendait avant son entrée dans l'unité TVA.
+
+Si l'unité TVA sollicite une autorisation à son nom pour appliquer le régime de report de paiement de la TVA due à l'importation, l'administration accepte que le montant payé par anticipation de(s) l'autorisation(s) d'office caduque(s) du (ou des) membre(s) entrant(s) dans l'unité, tel qu'il existait à ce moment, soit affecté à la constitution du montant à payer par anticipation par l'unité TVA pour obtenir l'autorisation. Ce choix peut exclusivement être exercé par le membre entrant qui a fait le paiement par anticipation à transférer, et non pas par le représentant de l'unité TVA lui-même. Le membre titulaire de l'autorisation caduque doit notifier ce choix par pli recommandé à l'administration, à l'adresse mentionnée au n° 7 de la circulaire n° 3 de 1973 -mise à jour 2006. Dans le courrier par lequel l'option est levée, le membre entrant doit renoncer expressément et définitivement à son droit au remboursement du paiement par anticipation qui a été fait dans le cadre de l'autorisation devenue caduque et doit également identifier l'unité T.V.A. (numéro d'unité TVA, nom et adresse) qui utilisera le montant payé par anticipation pour l'obtention de l'autorisation de report de la TVA due à l'importation délivrée à son nom.
+
+Ce montant est ensuite considéré comme employé par l'unité TVA dans le cadre des révisions annuelles à effectuer dont il est question aux numéros 25 et suivants de la circulaire n° 3 de 1973 -mise à jour 2006.
+
+9.2. Régime de la restitution mensuelle
+
+9.2.1. Autorisation accordée précédemment à un membre qui entre dans l'unité TVA
+
+L'autorisation de restitution mensuelle des crédits d'impôt, prévue par l'article 81, § 2, 3°, de l'arrêté royal n° 4 du 29 décembre 1969 relatif aux restitutions en matière de taxe sur la valeur ajoutée accordée à un assujetti à la TVA est d'office caduque dès le moment où cet assujetti entre dans une unité TVA, puisque cet assujetti n'est plus en tant que tel tenu au dépôt de déclarations périodiques à la TVA.
+
+9.2.2. Autorisation demandée par l'unité TVA
+
+L'unité TVA aura la possibilité de solliciter elle-même l'autorisation de restitution mensuelle de ses crédits d'impôt. Il est renvoyé à ce sujet à la circulaire n° 24 du 4 septembre 2003.
+
+Si dès sa création, l'unité TVA désire bénéficier de ce régime, elle pourra introduire sa demande en se basant sur des prévisions.
+
+Il est rappelé que pour pouvoir bénéficier du régime de la restitution mensuelle, un assujetti doit réaliser, au cours de l'année civile, pour au moins trente pour cent de son chiffre d'affaires, des livraisons de biens et des prestations de services exemptées par les articles 39, 39bis et 39quater du Code, et, dans les limites et conditions à fixer par le Ministre des Finances ou son délégué, par les articles 40, 41 et 42 du Code, et bénéficier, pour la même période, d'un excédent d'impôt d'au moins 12.390 EUR.
+
+Pour calculer le chiffre d'affaires total et le chiffre d'affaires exempté, l'unité TVA devra tenir compte, lors de ses prévisions, de l'ensemble du chiffre d'affaires réalisé en Belgique par chaque membre avant son entrée au cours de l'année civile précédente. Pour déterminer ces montants, il ne sera pas tenu compte des opérations réalisées entre les membres qui, à partir de l'entrée dans l'unité TVA, ne tomberont plus sous le champ de la réglementation en matière de TVA.
+
+9.3. Option pour la taxation des opérations de paiement et d'encaissement
+
+L'option pour la taxation des opérations de paiement et d'encaissement prévue par l'article 44, § 3, 8°, du Code de la TVA qui aurait été exercée par un assujetti, devient caduque dès que cet assujetti entre dans une unité TVA.
+
+L'unité TVA peut néanmoins exercer l'option pour la taxation de ses opérations de paiement et d'encaissement en respectant les modalités prévues par la circulaire n° 18 du 26 octobre 1979. Cette option est irrévocable et vaut à l'égard de toutes les opérations de paiement et d'encaissement effectuées par l'unité TVA.
+
+Le Ministre qui a les Finances dans ses attributions
+
+Didier REYNDERS
+
+Annexe
+
+Question orale n° 15082 de M. Tommelein dd. 23.04.2007
+
+Compte Rendu Analytique, Commission des Finances de la Chambre, Com 1285, p. 1-2
+
+L'unité de TVA
+
+QUESTION
+
+Le nouvel article 19bis du Code de la TVA, qui concerne la lutte contre les abus au sein d'une unité TVA, manque son objectif parce qu'une disposition plus générale en la matière est déjà incluse à l'article 1er § 10 de ce code. Il convient dès lors de mieux décrire la portée de l'article 19bis pour ne pas s'inscrire en porte-à-faux avec la directive TVA européenne et la jurisprudence de la Cour de Justice.
+
+Il ressort de l'exposé des motifs que l'article viserait à éviter que la TVA ne soit éludée lorsque les opérations d'une implantation étrangère au sein d'une unité TVA belge sont facturées par le biais d'une implantation belge d'une même personne morale à d'autres membres de l'unité. Le secrétaire d'État pourrait-il clarifier la situation?
+
+REPONSE (de M. Jamar, secrétaire d'État)
+
+L'article 11 de la directive 2006/112 permet de prendre des mesures pour éviter que le régime de l'unité de TVA soit utilisé abusivement aux fins d'éluder l'impôt.
+
+L'article 19bis traite de services visés au point 7 de l'article 21, §3. Il s'agit de services pour un contribuable établi à l'étranger pour les besoins de son établissement et qui est membre d'une unité TVA en Belgique. Aux termes de l'article 32, la valeur normale du service est prise en considération pour le calcul de la taxe dans le cas de ces opérations.
+
+L'article 19bis vise en effet exclusivement à empêcher d'éluder la taxe comme décrit dans l'exposé des motifs. Il s'agit de services soumis à la TVA mais qui ne seraient pas taxés en Belgique en raison du fonctionnement de l'unité TVA.
+
+L'incident est clos.

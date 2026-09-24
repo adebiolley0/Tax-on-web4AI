@@ -1,0 +1,35 @@
+---
+guid: "589cac2f-c27e-42e6-bffb-b3e6beb3b4e0"
+title: "Article 146ter du Code des droits de succession - Région de Bruxelles-Capitale"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2013-08-17"
+publication_date: "2013-09-05"
+effective_date: "2013-01-01"
+last_modified: "2025-09-01"
+taxonomies: ["Région de Bruxelles-Capitale"]
+path: ["FISCALITÉ", "Droits de succession", "Législation et réglementation", "Code des droits de succession", "Région de Bruxelles-Capitale"]
+linked_document_nl: "d7d417cb-f27e-43de-8cc8-380d935ade83"
+found_via: "7553a630-5078-4b62-9bfc-b6b1414db49c"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/589cac2f-c27e-42e6-bffb-b3e6beb3b4e0"
+---
+
+# Article 146ter du Code des droits de succession - Région de Bruxelles-Capitale
+
+Article 146ter du Code des droits de succession - Région de Bruxelles-Capitale
+
+Chapitre XVIII - Dispositions communes à tous les impôts
+
+(inséré par l’art. 8 de la loi du 17.08.2013 (M.B., 05.09.2013). Texte applicable à partir du 01.01.2013 (art. 21))
+
+Article 146 ter ( applicable à partir du 01.01.2013)
+
+(inséré par l’art. 9 de la loi du 17.08.2013 (M.B., 05.09.2013). Texte applicable à partir du 01.01.2013 (art. 21))
+
+Toutes les administrations qui ressortissent du Service public fédéral Finances sont tenues de mettre à disposition de tous les agents dudit Service public régulièrement chargés de l'établissement ou du recouvrement des impôts tous les renseignements adéquats, pertinents et non excessifs en leur possession, qui contribuent à la poursuite de la mission de ces agents en vue de l'établissement ou du recouvrement de n'importe quel impôt établi par l'Etat.
+
+Tout agent du Service public fédéral Finances, régulièrement chargé d'effectuer un contrôle ou une enquête, est de plein droit habilité à prendre, rechercher ou recueillir les renseignements adéquats, pertinents et non excessifs, qui contribuent à assurer l'établissement ou le recouvrement de n'importe quel autre impôt établi par l'Etat.
+
+Tout renseignement, pièce, procès-verbal ou acte, découvert ou obtenu dans l'exercice de ses fonctions par un agent du Service public fédéral Finances, soit directement, soit par l'entremise d'un service administratif de l'Etat, y compris les parquets et les greffes des cours et tribunaux, les administrations des Communautés et des Régions de l'Etat belge, des provinces, des agglomérations et des communes, ainsi que les établissements et organismes publics, peut être invoqué par l'Etat pour la recherche de toute somme due en vertu des lois d'impôts.
+
+Par établissements et organismes publics, il faut entendre les institutions, sociétés, associations, établissements et offices à l'administration desquels l'Etat, une Communauté ou une Région participe, auxquels l'Etat, une Communauté ou une Région fournit une garantie, sur l'activité desquels l'Etat, une Communauté ou une Région exerce une surveillance ou dont le personnel de direction est désigné par le gouvernement fédéral ou un gouvernement de Communauté ou de Région, sur sa proposition ou moyennant son approbation.

@@ -1,0 +1,1171 @@
+---
+guid: "825daab8-4fcc-4a6c-9cf5-b2f65d8b18f5"
+title: "28.01.2021 - Arrêté du Collège réuni de la Commission communautaire commune portant exécution de l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2021-01-28"
+publication_date: "2021-02-10"
+effective_date: "2021-01-01"
+last_modified: "2026-02-20"
+taxonomies: ["Réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "COCOM", "Réglementation"]
+linked_document_nl: "99cb35bb-4b49-48d3-9516-5171093407b9"
+found_via: "669441b9-9df5-480f-b3cf-2f07739847f6"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/825daab8-4fcc-4a6c-9cf5-b2f65d8b18f5"
+---
+
+# 28.01.2021 - Arrêté du Collège réuni de la Commission communautaire commune portant exécution de l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées
+
+28.01.2021 - Arrêté du Collège réuni de la Commission communautaire commune portant exécution de l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées
+
+( M.B. 10.02.2021 - Numac : 2021040498 )
+
+( Version coordonnée officieuse )
+
+Dernière mise à jour le 12.02.2026 . Pour consulter la mise à jour, voir ici .
+
+Le Collège réuni de la Commission communautaire commune,
+
+Vu l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées, article 3, § 2, alinéa 2, article 4, alinéa 3, article 5, alinéas 3 à 5 inclus, article 8, § 2, alinéa 2, article 9, alinéa 2, 1° à 7° inclus, article 10, alinéas 2 et 3, article 11, alinéa 2, article 12, alinéa 1er, article 13, alinéa 2, article 14, article 15, alinéas 1er et 2, article 16, alinéa 2, article 17, alinéa 2, article 20, alinéa 4, article 21, § 3, alinéa 5, article 22, alinéa 3 ;
+
+Vu l'avis n° 30/2020 de l'Autorité de protection des données concernant l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées, donné le 3 avril 2020, en application des articles 23 et 26 de la loi du 3 décembre 2017 portant création de l'Autorité de protection des données ;
+
+Vu l'avis du Conseil de gestion de la santé et de l'aide aux personnes de l'Office bicommunautaire de la santé, de l'aide aux personnes et des prestations familiales, donné le 23 juin 2020 ;
+
+Vu l'avis de l'Inspecteur des Finances, donné le 8 juillet 2020 ;
+
+Vu l'accord des membres du Collège réuni compétents pour le Budget, donné le 10 septembre 2020 ;
+
+Vu l'avis n° 68.353 du Conseil d'Etat, donné le 24 décembre 2020, en application de l'article 84, § 1er, alinéa 1er, 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973 ;
+
+Vu l'évaluation au regard du principe de handistreaming , réalisée le 10 septembre 2020 ;
+
+Vu l'évaluation de l'impact sur la situation respective des femmes et des hommes, réalisée le 10 septembre 2020 ;
+
+Sur la proposition des membres du Collège réuni compétents pour l'Action sociale et la Santé,
+
+Après délibération,
+
+Arrête :
+
+CHAPITRE Ier. - DISPOSITIONS INTRODUCTIVES
+
+Article 1er.
+
+Dans le présent arrêté, on entend par :
+
+1° " Organismes assureurs bruxellois " : les organismes assureurs bruxellois, tels que visés à l'article 2, 7° de l'ordonnance du 21 décembre 2018 relative aux organismes assureurs bruxellois dans le domaine des soins de santé et de l'aide aux personnes ;
+
+2° " Ordonnance " : l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées ;
+
+3° " Communication d'un changement impactant l'allocation " : la communication, telle que visée à l'article 10 de l'ordonnance ;
+
+4° " Ministres " : les membres du Collège réuni compétents pour la politique de l'Aide aux personnes ;
+
+5° [ ... ]
+
+6° " Garantie de revenus aux personnes âgées " : la garantie de revenus aux personnes âgées, telle que visée par la loi du 22 mars 2001 instituant la garantie de revenus aux personnes âgées ;
+
+7° " Ménage " : le ménage, tel que visé à l'article 4 ;
+
+8° " Centre " : le Centre d'évaluation de l'autonomie et du handicap de l'Office ;
+
+9° " Fonctionnaire dirigeant " : le fonctionnaire dirigeant de l'Office, tel que visé à l'article 15 de l'ordonnance du 23 mars 2017 portant création de l'Office bicommunautaire de la santé, de l'aide aux personnes et des prestations familiales. ;
+
+10° " Professionnel des soins de santé " : le professionnel des soins de santé au sens de la loi coordonnée du 10 mai 2015 relative à l'exercice des professions des soins de santé ;
+
+11° " Médecin " : le professionnel des soins de santé au sens de l'article 3 de la loi coordonnée du 10 mai 2015 relative à l'exercice des professions des soins de santé ;
+
+12° " Psychologue " : le professionnel des soins de santé au sens de l'article 68/1 de la loi coordonnée du 10 mai 2015 relative à l'exercice des professions des soins de santé ;
+
+13° " Logopède " : le professionnel des soins de santé au sens de l'article 1er, 7°, de l'arrêté royal du 2 juillet 2009 établissant la liste des professions paramédicales.
+
+----------
+
+- Modifié par l’ art. 1 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE II. - REDUCTION D'AUTONOMIE
+
+Article 2.
+
+§ 1. La détermination du degré de réduction d'autonomie se fait au moyen d'un guide établi par les Ministres, qui tient compte des facteurs suivants :
+
+- possibilités de se déplacer ;
+
+- possibilités de se nourrir ou de préparer sa nourriture ;
+
+- possibilité d'assurer son hygiène personnelle et de s'habiller ;
+
+- possibilité d'entretenir son habitat et d'accomplir des tâches ménagères ;
+
+- possibilité de vivre sans surveillance, d'être conscient des dangers et d'être en mesure d'éviter les dangers ;
+
+- possibilités de communiquer et d'avoir des contacts sociaux.
+
+§ 2. Pour chacun des facteurs mentionnés au § 1er, un nombre de points est octroyé en fonction du degré de réduction d'autonomie du bénéficiaire, comme suit :
+
+- pas de difficultés, pas d'effort spécial ni de moyens auxiliaires spéciaux : 0 point ;
+
+- difficultés limitées ou effort supplémentaire limité ou usage limité de moyens auxiliaires spéciaux : 1 point ;
+
+- difficultés importantes ou effort supplémentaire important ou usage important de moyens auxiliaires spéciaux : 2 points ;
+
+- impossible sans l'aide d'une tierce personne, sans accueil dans un établissement approprié ou sans environnement entièrement adapté : 3 points.
+
+Les points octroyés sont totalisés et, selon ce total, le bénéficiaire appartient à l'une des catégories mentionnées à l'article 8 de l'ordonnance.
+
+----------
+
+- Modifié par l’ art. 2 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3.
+
+Le degré de réduction d'autonomie est déterminé par une équipe multidisciplinaire composée d'un médecin et, le cas échéant, d'autres professionnels des soins de santé.Les membres de l'équipe sont membres du personnel de l'Office ou sont désignés par l'Office.
+
+----------
+
+- Modifié par l’ art. 3 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/1
+
+§ 1er. Un médecin qui n'est pas membre du personnel de l'Office ne peut être désigné que s'il a au moins trois ans d'expérience professionnelle pertinente en tant que professionnel des soins de santé.
+
+§ 2. Un psychologue qui n'est pas membre du personnel de l'Office ne peut être désigné que s'il a au moins trois ans d'expérience professionnelle pertinente en tant que professionnel des soins de santé.
+
+§ 3. Un logopède qui n'est pas membre du personnel de l'Office ne peut être désigné que s'il a au moins trois ans d'expérience professionnelle pertinente en tant que professionnel des soins de santé.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/2
+
+Sans préjudice des conditions visées à l'article 3/1, les conditions suivantes s'appliquent aux personnes qui y sont visées :
+
+1° disposer d'un extrait de casier judiciaire, modèle 596-2, tel que visé à l'article 596, alinéa 2, du Code d'instruction criminelle, vierge ;
+
+2° ne pas être en état de faillite ou de liquidation, ne pas avoir fait l'objet de réorganisation judiciaire ou avoir fait un aveu de faillite, ne pas faire l'objet d'une procédure de liquidation ou de réorganisation judiciaire, ou se trouver dans toute situation similaire résultant d'une procédure de même nature ;
+
+3° ne pas avoir commis de faute professionnelle grave pouvant mettre en cause leur intégrité ;
+
+4° ne pas faire l'objet d'un conflit d'intérêts direct ou indirect ;
+
+5° ne pas avoir démontré de manquements importants ou persistants lors de l'exécution d'une obligation essentielle pendant une mission similaire, ayant conduit à la prise de mesures d'office, indemnités ou autres sanctions similaires ;
+
+6° ne pas se rendre coupable de fausses déclarations, de fournir des informations trompeuses, de dissimuler des informations ou d'indûment influencer le processus décisionnel de l'Office ;
+
+7° s'abstenir de confier tout ou partie de la détermination du degré de réduction d'autonomie à un tiers ;
+
+8° être suffisamment couvert par une assurance contre les accidents du travail et une assurance en responsabilité civile vis-à-vis de tiers ;
+
+9° être lié par une déclaration de confidentialité fournie par l'Office et une déclaration visant à garantir l'indépendance et l'objectivité ;
+
+10° être lié par une convention fournie par l'Office, dans laquelle il consent au traitement des données à caractère personnel visées dans le présent arrêté, aux fins de l'application du présent arrêté et de la mise en oeuvre de la détermination du degré de réduction d'autonomie.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/3
+
+.§ 1er. Les personnes visées à l'article 3/1 ne peuvent être désignées que si elles ont introduit une demande recevable à cet effet au moyen d'un formulaire fourni par l'Office.
+
+§ 2. Sous peine d'irrecevabilité, le dossier de demande du médecin visé à l'article 3/1 § 1er doit contenir les documents suivants :
+
+1° un curriculum vitae ;
+
+2° une copie du diplôme de master ou de docteur en médecine ou de docteur en médecine, chirurgie et obstétrique, préalablement délivré et homologué conformément aux lois coordonnées sur la collation des grades académiques et le programme des examens universitaires ou une reconnaissance d'équivalence pour un diplôme étranger ;
+
+3° le visa du Service public fédéral Santé publique, qui permet d'exercer la profession de médecin ;
+
+4° le certificat d'inscription à l'Ordre des médecins ;
+
+5° une liste de prestations, qui démontre une expérience professionnelle pertinente d'au moins trois ans en tant que professionnel des soins de santé ;
+
+6° un extrait de casier judiciaire vierge, modèle 596-2, tel que visé à l'article 596, alinéa 2, du Code d'instruction criminelle ;
+
+7° une déclaration sur l'honneur par laquelle le médecin visé à l'article 3/1, § 1er, déclare se conformer au Code de déontologie médicale, ne pas se trouver dans l'une des situations visées à l'article 3/2, 2° à 7°, ou s'en abstenir, et souscrire une assurance contre les accidents du travail et une assurance en responsabilité civile vis-à-vis de tiers suffisamment couvrantes ;
+
+8° la déclaration de confidentialité fournie par l'Office et signée par le médecin visé à l'article 3/1, § 1er, et la déclaration visant à garantir l'indépendance et l'objectivité.
+
+§ 3. Sous peine d'irrecevabilité, le dossier de demande du psychologue visé à l'article 3/1 § 2 doit contenir les documents suivants :
+
+1° un curriculum vitae ;
+
+2° une copie du diplôme de master en psychologie clinique ou en neuropsychologie ou une reconnaissance d'équivalence pour un diplôme étranger ;
+
+3° un visa du Service public fédéral Santé publique, qui permet d'exercer la profession de psychologue clinicien ;
+
+4° une preuve de la reconnaissance en tant que psychologue clinicien ou neuropsychologue en Belgique ;
+
+5° une liste de prestations, qui démontre une expérience professionnelle pertinente d'au moins trois ans en tant que professionnel des soins de santé ;
+
+6° un extrait de casier judiciaire vierge, modèle 596-2, tel que visé à l'article 596, alinéa 2, du Code d'instruction criminelle ;
+
+7° une déclaration sur l'honneur par laquelle le psychologue visé à l'article 3/1, § 2, déclare se conformer à l'arrêté royal du 2 avril 2014 fixant les règles de déontologie du psychologue, ne pas se trouver dans l'une des situations visées à l'article 3/2, 2° à 7°, ou s'en abstenir, et souscrire une assurance contre les accidents du travail et une assurance en responsabilité civile vis-à-vis de tiers suffisamment couvrantes ;
+
+8° la déclaration de confidentialité fournie par l'Office et signée par le psychologue visé à l'article 3/1, § 2, et la déclaration visant à garantir l'indépendance et l'objectivité.
+
+§ 4. Sous peine d'irrecevabilité, le dossier de demande du logopède visé à l'article 3/1 § 3 doit contenir les documents suivants :
+
+1° un curriculum vitae ;
+
+2° une copie du diplôme de master en logopédie ou une reconnaissance d'équivalence pour un diplôme étranger ;
+
+3° la preuve de la reconnaissance en tant que logopède en Belgique ;
+
+4° une liste de prestations, qui démontre une expérience professionnelle pertinente d'au moins trois ans en tant que professionnel des soins de santé ;
+
+5° un extrait de casier judiciaire vierge, modèle 596-2, tel que visé à l'article 596, alinéa 2, du Code d'instruction criminelle ;
+
+6° une déclaration sur l'honneur par laquelle le logopède visé à l'article 3/1, § 3, déclare se conformer au Code éthique et déontologique des logopèdes, ne pas se trouver dans l'une des situations visées à l'article 3/2, 2° à 7°, ou s'en abstenir, et souscrire une assurance contre les accidents du travail et une assurance en responsabilité civile vis-à-vis de tiers suffisamment couvrantes ;
+
+7° la déclaration de confidentialité fournie par l'Office et signée par le logopède visé à l'article 3/1, § 3, et la déclaration visant à garantir l'indépendance et l'objectivité.
+
+§ 5. Sans préjudice des paragraphes précédents, le dossier de demande contient, sous peine d'irrecevabilité, les informations suivantes concernant le demandeur :
+
+1° le nom et le prénom ;
+
+2° la situation professionnelle ;
+
+3° la nationalité ;
+
+4° le domicile ;
+
+5° la signature et la date ;
+
+6° le numéro d'immatriculation complet du demandeur à la Banque-carrefour des entreprises ;
+
+7° le numéro et le nom du compte du demandeur, ouvert auprès d'un établissement de crédit comme défini à l'article 1er, § 3, de la loi du 25 avril 2014 relative au statut et au contrôle des établissements de crédit ;
+
+8° une adresse de contact en Belgique.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/4
+
+Après réception de la demande par l'Office, celui-ci délivre un accusé de réception à la personne visée à l'article 3/1.
+
+Dans un délai de 30 jours calendrier à compter de la date de réception, l'Office informe la personne visée à l'article 3/1 de la recevabilité de la demande.
+
+Si la demande est irrecevable en raison de l'absence d'un ou plusieurs des documents ou informations visés à l'article 3/3, l'Office les demande à la personne visée à l'article 3/1. Le délai de présentation des informations ou des documents est de 15 jours calendrier. Pendant cette période, le délai de décision de recevabilité visé au deuxième alinéa est suspendu. Si aucune information ou document n'est fourni à l'Office dans ce délai, la demande est irrecevable.
+
+§ 2. L'Office statue sur la demande recevable dans un délai de 90 jours calendrier à compter de la notification de la recevabilité de la demande à la personne visée à l'article 3/1.
+
+§ 3. L'Office peut demander des informations complémentaires à la personne visée à l'article 3/1. Elle fournit à l'Office les informations demandées dans un délai de 30 jours calendrier. Pendant cette période, le délai de décision pour la recevabilité visé au § 1er, alinéa 2, et le délai de décision visé au § 2 sont suspendus. Si la personne visée à l'article 3/1 ne fournit pas les informations complémentaires pendant plus de 30 jours calendrier, l'Office peut décider sur la base des documents, données et/ou informations dont il dispose.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/5
+
+L'Office transmet la décision relative à la demande à la personne visée à l'article 3/1 au plus tard à l'expiration du délai visé à l'article 3/4, § 2, et couvre :
+
+1° la décision de désignation, ou ;
+
+2° le refus de désignation.
+
+La décision visée à l'alinéa premier, 1°, est notifiée à la personne visée à l'article 3/1 par courrier recommandé et détermine la date d'effet du délai visé à l'article 3/6.
+
+La décision visée à l'alinéa premier, 2°, est notifiée à la personne visée à l'article 3/1 par courrier recommandé.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/6
+
+La désignation a une durée d'un an et est renouvelable. La désignation est renouvelée de plein droit si, sur la base du contrôle visé à l'article 3/7 § 1er, il n'y a pas d'indication que la personne visée à l'article 3/1 ne remplit pas les conditions visées aux articles 3/1 et 3/2.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/7
+
+L'Office vérifie le respect des conditions visées aux articles 3/1 et 3/2 et peut demander aux personnes visées à l'article 3/1 toutes les informations et tous les documents nécessaires à cet effet.
+
+§ 2. S'il est constaté qu'une personne visée à l'article 3/1 ne respecte pas les conditions visées aux articles 3/1 et 3/2, ou qu'il est difficile ou impossible de le contrôler, cette personne est, sauf en cas d'urgence, invitée à un entretien avec l'Office. L'Office avertit la personne visée à l'article 3/1 de la possibilité de suspendre ou de révoquer sa désignation en cas de non-respect persistant.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/8
+
+§ 1er. Dans les cas suivants, l'Office peut suspendre la désignation de la personne visée à l'article 3/1 :
+
+1° en cas de non-respect des conditions visées aux articles 3/1 et 3/2, lorsque l'Office détermine qu'il peut y être remédié dans un bref délai ;
+
+2° si la personne visée à l'article 3/1 rend difficile ou impossible de contrôler les conditions visées aux articles 3/1 et 3/2 ;
+
+3° si l'Office estime que la mission ne peut être exécutée correctement.
+
+§ 2. L'Office notifie à la personne visée à l'article 3/1 sa décision de suspension. La personne visée à l'article 3/1 est entendue dans un délai de cinq jours ouvrables. Sur cette base, l'Office prend une décision qui couvre :
+
+1° la levée de la suspension, le cas échéant avec le respect des dispositions prises pour assurer le respect des conditions visées aux articles 3/1 et 3/2, ou ;
+
+2° l'intention de révoquer la désignation, telle que visée à l'article 3/9.
+
+L'Office informe la personne visée à l'article 3/1 de la décision mentionnée au paragraphe précédent.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/9
+
+.Dans les cas suivants, l'Office peut formuler une décision de révoquer la désignation à la personne visée à l'article 3/1 :
+
+1° en cas de non-respect des conditions visées aux articles 3/1 et 3/2, lorsque l'Office détermine qu'il n'est pas possible d'y remédier dans un bref délai ;
+
+2° s'il n'a pas été remédié au manquement qui a motivé la suspension de la désignation dans le délai prévu par la décision de suspension ;
+
+3° si la personne visée à l'article 3/1 a été désignée sur la base de données inexactes.
+
+La décision de révocation est notifiée par courrier recommandé à la personne visée à l'article 3/1 et indique la possibilité, les conditions et la procédure de recours.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/10
+
+La personne visée à l'article 3/1 qui souhaite mettre fin à la désignation en informe l'Office par courrier recommandé dans les meilleurs délais. L'Office met fin à la désignation dans un délai de 45 jours calendrier.
+
+----------
+
+- Inséré par l’ art. 1 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/11
+
+Les personnes désignées conformément aux articles 3/1 à 3/6 déterminent le degré de réduction d'autonomie en fonction des besoins de l'Office et de la disponibilité de celles-ci.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 3/12.
+
+§ 1er. Pour la détermination du degré de réduction d'autonomie, les personnes visées à l'article 3/1 reçoivent l'intervention prévue au § 2, qui comprend tous les frais, mesures et charges inhérents à cette mission.
+
+§ 2. L'intervention visée au § 1er s'élève à :
+
+1° pour un rapport remis à l'Office contenant la décision relative à la détermination du degré de réduction d'autonomie, suite à l'examen du bénéficiaire visé à l'article 29, § 3, alinéa 3 : 105 EUR ;
+
+2° pour un rapport remis à l'Office contenant la décision sur la détermination du degré de réduction d'autonomie, sans que le bénéficiaire ait été examiné : 45 EUR ;
+
+3° pour le cas où le bénéficiaire, malgré la convocation, ne se présente pas à l'examen visé à l'article 29 § 3, alinéa 3 : 40 EUR ;
+
+4° pour la participation à une réunion de service d'au moins une heure : 55 EUR par heure entière ;
+
+5° pour la participation à une formation théorique sur le manuel, telle que visée à l'article 2 § 1er : 55 EUR par jour ouvrable entier.
+
+Les montants visés à l'alinéa premier, 1° et 2°, sont réduits de 10 % si le rapport n'a pas été reçu par l'Office dans un délai de quatorze jours calendrier à compter de la date de l'examen visé à l'article 29, § 3, alinéa 3, ou de la demande de l'Office de déterminer le degré de réduction d'autonomie sans que l'examen précité soit nécessaire à sa détermination.
+
+Le montant visé à l'alinéa premier, 5°, n'est dû qu'une seule fois après la première désignation de la personne visée à l'article 3/1. Il ne peut être facturé que pour un maximum de 10 jours ouvrables et n'est versé qu'après que la personne visée à l'article 3/1 a effectué 20 examens, tels que visés à l'article 29, § 3, alinéa 3, pour le compte de l'Office.
+
+§ 3. L'intervention est calculée par bénéficiaire et est obtenue en multipliant les avantages visés au § 2 par les quantités effectivement prestées.
+
+§ 4. Les montants, tels que mentionnés au § 2, sont liés à l'indice pivot 123,14 (base 2013 = 100). Ils varient conformément aux dispositions de la loi du 2 août 1971 organisant un régime de liaison à l'indice des prix à la consommation des traitements, salaires, pensions, allocations et subventions à charge du trésor public, de certaines prestations sociales, des limites de rémunération à prendre en considération pour le calcul de certaines cotisations de sécurité sociale des travailleurs, ainsi que des obligations imposées en matière sociale aux travailleurs indépendants.
+
+§ 5. Les montants visés au § 2 sont hors taxe sur la valeur ajoutée.
+
+§ 6. L'Office fournit à la personne visée à l'article 3/1 un bilan pour chaque mois au cours duquel les services visés au § 2 ont été fournis, sur la base duquel cette personne peut facturer les prestation à l'Office en euros. La facture doit être datée, signée et accompagnée des documents justifiant et attestant l'exécution des prestations visées au § 2 :
+
+1° le numéro des dossiers des bénéficiaires auxquels la facture se rapporte ;
+
+2° le nombre d'examens visés à l'article 29, § 3, alinéa 3, et les dates auxquelles ils ont eu lieu, ainsi que le nombre de rapports soumis à l'Office contenant la décision relative à la détermination du degré de réduction d'autonomie et les dates de ces soumissions ;
+
+3° le nombre de rapports soumis à l'Office contenant la décision relative à la détermination du degré de réduction d'autonomie, sans l'examen du bénéficiaire visé à l'article 29, § 3, alinéa 3 et les dates de ces soumissions ;
+
+4° le nombre de cas où et les dates auxquelles le bénéficiaire, malgré la convocation, ne se présente pas à l'examen visé à l'article 29 § 3, troisième alinéa :
+
+5° les dates et le nombre d'heures de participation à une réunion de service d'au moins une heure ;
+
+6° les dates et le nombre d'heures pendant lesquelles la formation théorique sur le manuel, telle que visée à l'article 2, § 1er, a été suivie.
+
+----------
+
+- Inséré par l’ art. 4 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE III. - LE MENAGE
+
+Article 4
+
+§ 1. Il convient d'entendre par ménage, toute forme de cohabitation de deux personnes qui ne sont pas parents ou alliées au premier, deuxième ou troisième degré.
+
+§ 2. L'existence d'un ménage est présumée lorsqu'au moins deux personnes qui ne sont pas parents ou alliées au premier, deuxième ou troisième degré, ont leur résidence principale à la même adresse. La preuve contraire peut être fournie par tous les moyens possibles par le bénéficiaire.
+
+§ 3. Lorsqu'un des membres du ménage est détenu dans un établissement pénitentiaire ou est pris en charge dans un établissement ou une section de défense sociale, organisé par l'autorité fédérale, dans un centre de psychiatrie légale, organisé par l'autorité fédérale, ou dans une autre institution à vocation similaire, le ménage cesse d'exister.
+
+CHAPITRE IV. - LE REVENU
+
+Article 5
+
+§ 1. Sans préjudice de l'application art. 6, § 1, tous les revenus, quelle qu'en soit la nature ou l'origine, dont disposent le bénéficiaire et éventuellement la personne avec laquelle il forme un ménage, sont pris en considération.
+
+§ 2. Si le bénéficiaire et la personne avec laquelle il forme un ménage, ont tous deux droit à une allocation, il est tenu compte pour chacune des deux personnes de la moitié du revenu du ménage.
+
+Article 6.
+
+§ 1. Pour le calcul des revenus, il n'est pas tenu compte :
+
+1° des prestations familiales ;
+
+2° des prestations qui relèvent de l'assistance publique ou privée ;
+
+3° des rentes alimentaires entre ascendants et descendants ;
+
+4° des rentes de chevrons de front et de captivité ainsi que des rentes attachées à un ordre national pour fait de guerre ;
+
+5° des allocations suivantes octroyées à la personne avec laquelle le bénéficiaire forme un ménage :
+
+a) une allocation d'intégration ou une allocation de remplacement de revenus telle que visée dans la loi du 27 février 1987 relative aux allocations aux personnes handicapées ;
+
+b) une allocation ordinaire ou une allocation spéciale en vertu de la loi du 27 juin 1969 relative à l'octroi d'allocations aux handicapés ;
+
+c) une allocation pour aide de tiers, conformément à l'article 2 de la loi du 27 juin 1969 relative à l'octroi d'allocations aux handicapés ;
+
+d) une allocation complémentaire ou une allocation complémentaire du revenu garanti pour personnes âgées ou la garantie de revenus aux personnes âgées ;
+
+6° du pécule de vacances et du pécule complémentaire payés à charge du régime de pension des travailleurs salariés, l'allocation spéciale payée à charge du régime de pension des travailleurs indépendants ainsi que du pécule de vacances à charge du régime de pension du secteur public ;
+
+7° des indemnités qui sont accordées dans le cadre des agences locales pour l'emploi à la personne avec laquelle le bénéficiaire forme un ménage ;
+
+8° de la partie de la pension qui correspond au montant de la rente alimentaire payée au conjoint ou l'ex-conjoint par le bénéficiaire séparé de corps, séparée de fait ou divorcée qui jouit d'une pension lorsque l'obligation de payer la rente alimentaire a été fixée par décision judiciaire ;
+
+9° des indemnités payées par les autorités allemandes en dédommagement de la détention durant la Seconde Guerre mondiale ;
+
+10° des allocations octroyées en application des articles 10 et 11 de la loi du 3 juillet 2005 relative aux droits des volontaires, pour autant que ces allocations satisfassent aux conditions visées à l'article 10, alinéas 1er et 3, et à l'article 11.
+
+11° les allocations octroyées en application de la loi du 18 juillet 2017 relative à la création du statut de solidarité nationale, à l'octroi d'une pension de dédommagement et au remboursement des soins médicaux à la suite d'actes de terrorisme.
+
+12° la garantie de revenus aux personnes âgées octroyée au bénéficiaire ne formant pas un ménage.
+
+§ 2. Pour l'application du présent article, les revenus à prendre en considération sont les revenus auxquels le bénéficiaire a droit à la date de prise de cours de la décision sur demande, telle que visée à l'article 35, § 1er, la date de prise de cours de la décision sur demande de révision, telle que visée à l'article 38, alinéas 6 et 7, ou le premier jour du mois qui suit la révision d'office, visée aux articles 39 et 40.
+
+En vue de la déduction de ces revenus du montant de l'allocation, montant de l'allocation, les montants des revenus visés dans le présent arrêté sont calculés sur une base annuelle.
+
+----------
+
+- Modifié par l’ art. 5 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 7
+
+§ 1. Pour l'application du présent article, on entend par année de référence l'année -2, autrement dit la deuxième année civile qui précède :
+
+1° la date de prise d'effet de la décision sur demande, telle que visée à l'article 35, § 1er, de la prise d'effet de la décision sur demande de révision, telle que visée à l'article 38, alinéas 6 et 7 ;
+
+2° le mois qui suit le fait qui donne lieu à une révision d'office, visée aux articles 39 et 40.
+
+§ 2. Lorsque le bénéficiaire ou la personne avec laquelle il forme un ménage exerce une activité professionnelle en tant que travailleur salarié, il est tenu compte, lors du calcul du revenu, du revenu imposable de l'année de référence.
+
+§ 3. Pour un travailleur indépendant, le revenu professionnel à prendre en considération est le montant du revenu tel que visé à l'article 11 de l'arrêté royal n° 38 du 27 juillet 1967 organisant le statut social des travailleurs indépendants, afférant à l'année de référence.
+
+§ 4. En cas de début ou de reprise d'une activité professionnelle en qualité de travailleur indépendant, aussi longtemps qu'il ne peut être fait application du § 3, et dans tous les cas où il ne peut être fait référence à des revenus professionnels déterminés par l'Administration des Contributions directes, il est tenu compte des revenus professionnels déclarés par le bénéficiaire ou, le cas échéant, par la personne avec laquelle il forme un ménage. Ces revenus peuvent être vérifiés et, le cas échéant, rectifiés sur la base d'éléments recueillis auprès de l'Administration des Contributions directes.
+
+Lorsque le bénéficiaire poursuit l'activité professionnelle de travailleur indépendant de la personne décédée avec laquelle il formait un ménage, les revenus acquis par cette dernière au cours de l'année de référence qui doit être retenue pour l'établissement des revenus sont censés acquis par le bénéficiaire.
+
+§ 5. Lorsque, à la date visée au § 1er, 1° ou 2°, le bénéficiaire ou la personne avec laquelle il forme un ménage a cessé l'activité professionnelle en vue d'obtenir une pension ou une garantie de revenu aux personnes âgées, il n'est plus tenu compte d'aucun revenu professionnel.
+
+§ 6. Lorsque le revenu professionnel de l'année -2 provient d'une activité exercée tandis que le bénéficiaire ou la personne avec laquelle il forme un ménage n'étaient pas encore pensionnés, et lorsque au moment de la prise de cours, cette ou ces personnes bénéficiaient d'une pension tout en exerçant une activité professionnelle autorisée, le montant du revenu professionnel à prendre en considération est ce dernier montant, calculé sur une base annuelle.
+
+§ 7. Lorsque, à la date visée au § 1er, 1° ou 2°, le bénéficiaire ou la personne avec laquelle il forme un ménage touche un revenu de remplacement, à l'exception des revenus de pension visés à l'article 8, il est tenu compte lors du calcul du revenu du montant de l'année de référence. Le montant imposable est pris en compte.
+
+§ 8. Le revenu provenant d'une cession d'entreprise est porté en compte en application des articles 17 à 22 inclus.
+
+----------
+
+- Modifié par l’ art. 6 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 8
+
+§ 1. Pour le calcul du revenu, un montant égal à 90 % des pensions octroyées au bénéficiaire ou à la personne avec laquelle il forme un ménage est pris en considération. Le précompte professionnel, la cotisation pour l'assurance maladie et invalidité et la cotisation de solidarité ne sont pas pris en compte dans la pension.
+
+§ 2. Les avantages suivants sont considérés comme une pension : les avantages accordés soit en application d'un régime de pension obligatoire belge, soit par ou en vertu d'une loi, d'un règlement provincial ou par la Société nationale des chemins de fer belges, soit en application d'un régime de pension obligatoire étranger, soit en application d'un régime de pension obligatoire pour le personnel d'une institution de droit international, soit par voie de rémunérations, de compléments ou de pensions accordés en réparation ou à titre de dommages-intérêts aux victimes de guerre ou à leurs ayants droit.
+
+§ 3. Le montant visé au § 1er est le montant réellement versé, le cas échéant majoré du montant correspondant à la réduction :
+
+1° en raison de la récupération d'un paiement indu ;
+
+2° en raison d'une suspension à titre de sanction.
+
+Article 9
+
+Pour le calcul du revenu, il est déduit un montant de 1.500,00 EUR du revenu cadastral total des biens immobiliers bâtis que le bénéficiaire ou la personne avec laquelle il forme un ménage possède en pleine propriété ou en usufruit. Ce montant est majoré de 250,00 EUR pour chaque enfant à charge.
+
+Article 10
+
+Lorsque le bénéficiaire ou la personne avec laquelle il forme un ménage ne possèdent la pleine propriété ou l'usufruit que de biens immobiliers non bâtis, il est tenu compte, pour le calcul du revenu, du montant des revenus cadastraux de ces biens, diminué de 60,00 EUR.
+
+Article 11
+
+Pour le calcul du revenu, il est tenu compte :
+
+1° en ce qui concerne les biens immobiliers bâtis : du montant du revenu cadastral non exonéré, multiplié par 3 ;
+
+2° en ce qui concerne les biens immobiliers non bâtis : du montant du revenu cadastral non exonéré, multiplié par 9.
+
+Article 12.
+
+Les biens immobiliers situés à l'étranger sont pris en considération conformément aux dispositions applicables aux biens immobiliers situés en Belgique.
+
+[ ... ]
+
+----------
+
+- Modifié par l’ art. 7 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 13
+
+Le revenu cadastral d'une partie d'un bien immobilier est égal au revenu cadastral du bien immobilier, multiplié par la fraction représentant la partie de ce bien immobilier.
+
+Article 14
+
+Lorsque le bénéficiaire ou la personne avec laquelle il forme un ménage possède la qualité de propriétaire ou d'usufruitier indivis, le revenu cadastral est, avant qu'il ne soit fait application des articles 9 à 13 inclus, multiplié par la fraction exprimant l'importance des droits, en pleine propriété ou en usufruit, du bénéficiaire ou de la personne avec laquelle il forme un ménage.
+
+Article 15
+
+Lorsque le bien immobilier est grevé d'hypothèque, le montant pris en considération pour la détermination du revenu peut être diminué du montant annuel des intérêts hypothécaires, pour autant que :
+
+1° la dette ait été contractée par le bénéficiaire ou la personne avec laquelle il forme un ménage pour des besoins propres, et que la destination donnée au capital emprunté soit prouvée ;
+
+2° la preuve soit fournie que les intérêts hypothécaires étaient exigibles et ont été réellement acquittés pour l'année précédant celle de la prise de cours de la décision.
+
+Le montant de la réduction ne peut toutefois pas être supérieur à la moitié du montant à prendre en considération.
+
+Lorsque l'immeuble a été acquis moyennant le paiement d'une rente viagère, le montant pris en considération pour l'établissement du revenu est diminué du montant de la rente viagère payée effectivement par le bénéficiaire ou la personne avec laquelle il forme un ménage. L'alinéa 2 est applicable à cette réduction.
+
+Article 16
+
+Pour les capitaux mobiliers, placés ou non, il est porté en compte une somme égale à 6 % des capitaux.
+
+Article 17
+
+Il est porté en compte un revenu forfaitaire établi en appliquant à la valeur vénale des biens au moment de la cession les modalités de calcul visées à l'article 16 lorsque le bénéficiaire ou la personne avec laquelle il forme un ménage a cédé à titre gratuit ou à titre onéreux des biens immobiliers ou mobiliers au cours des dix années qui précèdent :
+
+1° la date de prise de cours de la décision sur demande, telle que visée à l'article 35, § 1er, de la date de prise de cours de la décision sur demande de révision, telle que visée à l'article 38, alinéas 6 et 7 ;
+
+2° le mois qui suit le fait donnant lieu à une révision d'office, visée aux articles 39 et 40 ;
+
+Article 18
+
+Pour l'application de l'article 17, la valeur vénale des biens meubles ou immeubles cédés, dont le bénéficiaire ou la personne avec laquelle il forme un ménage, était propriétaire ou usufruitier en indivision, est multipliée par la fraction qui exprime l'importance des droits du bénéficiaire, de son conjoint ou de la personne avec laquelle il forme un ménage.
+
+Pour l'application de ces dispositions, la valeur respective de l'usufruit et de la nue-propriété sera évaluée comme en matière de droits de succession.
+
+Article 19
+
+En cas de cession à titre onéreux de biens meubles ou immeubles, les dettes personnelles du bénéficiaire ou de la personne avec laquelle il forme un ménage, antérieures à la cession et éteintes à l'aide du produit de la cession, sont déduites de la valeur vénale des biens cédés au moment de la cession.
+
+Article 20
+
+En cas de cession à titre onéreux de biens meubles ou immeubles, et sans préjudice des dispositions de l'article 19, il est déduit de la valeur vénale des biens, en vue de l'application de l'article 17, un abattement annuel de 1.500,00 EUR.
+
+L'abattement déductible est calculé proportionnellement au nombre de mois compris entre le premier du mois qui suit la date de la cession et la date de prise de cours de la décision sur demande, telle que visée à l'article 35, § 1er.
+
+Si le bénéficiaire ou la personne avec laquelle il forme un ménage a procédé à plusieurs cessions, l'abattement ne peut être appliqué qu'une seule fois pour une même période.
+
+Article 21
+
+Les dispositions des articles 17 à 20 ne sont pas applicables au produit de la cession, dans la mesure où ce produit se retrouve encore entièrement ou en partie dans le patrimoine pris en considération. A ce produit sont applicables, selon le cas, les dispositions des articles 9 à 16.
+
+----------
+
+- Modifié par l’ art. 8 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 22
+
+Lorsqu'un bien mobilier ou immobilier est mis en rente viagère, il est porté en compte un montant qui, pendant les dix premières années qui suivent la cession, est calculé conformément aux dispositions des articles 17 à 21. Ce montant ne peut toutefois pas être inférieur à celui de la rente viagère. Après la période de dix ans susvisée, ce montant est égal au montant de la rente viagère.
+
+Article 23.
+
+Lorsqu'une prestation, visée à l'article 6, alinéa 1er, de l'ordonnance, est liquidée sous forme de capitaux ou de valeurs de rachat, leur contre-valeur en prestation périodique est prise en compte, qu'elle soit imposable ou non, à concurrence de la rente viagère résultant de leur conversion suivant le pourcentage indiqué au tableau ci-après en regard de l'âge révolu du bénéficiaire à la date du fait qui a donné lieu à la liquidation :
+
+[. ..]
+
+La régularisation a lieu dès la date de prise de cours du droit à l'allocation.
+
+Dans les cas où le jugement ou le règlement à l'amiable ne précise pas la part du capital affectée à l'indemnisation de la réduction d'autonomie, la conversion en rente viagère se fait sur 30 % du capital affecté à la compensation de la réduction d'autonomie du bénéficiaire.
+
+----------
+
+- Modifié par l’ art. 9 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 24.
+
+§ 1. Suivant que le bénéficiaire fait partie de la catégorie A ou de la catégorie B, les parties suivantes du revenu ne sont pas prises en compte : respectivement 14.214,53 EUR et 17.762,27 EUR.
+
+§ 2. Font partie de :
+
+1° la catégorie A : les personnes handicapées qui ne font pas partie de la catégorie B ;
+
+2° la catégorie B : les personnes handicapées qui forment un ménage.
+
+§ 3. Les montants mentionnés dans cet article sont liés aux fluctuations de l'indice santé lissé. Ils sont rattachés à l'indice pivot 107,20 (base 2013 = 100). Ils varient conformément aux dispositions de la loi du 2 août 1971 organisant un régime de liaison à l'indice des prix à la consommation des traitements, salaires, pensions, allocations et subventions à charge du trésor public, de certaines prestations sociales, des limites de rémunération à prendre en considération pour le calcul de certaines cotisations de sécurité sociale des travailleurs, ainsi que des obligations imposées en matière sociale aux travailleurs indépendants.
+
+Le nouveau montant s'obtient en multipliant le montant de base par un multiplicateur égal à 1,0200, élevé à la puissance n (1,0200n), dans lequel n correspond au rang de l'indice pivot atteint. L'indice pivot suivant celui mentionné à l'alinéa 3 est considéré comme rang 1. Le multiplicateur est exprimé en unités, suivies de quatre chiffres. Le cinquième chiffre après la virgule est supprimé et donne lieu à l'augmentation d'une unité du chiffre précédent s'il atteint 5 au moins.
+
+Lorsque par suite de l'application du présent paragraphe, les montants adaptés se terminent par une fraction de cent, la fraction de cent est arrondie au cent supérieur ou inférieur selon que cette fraction atteint ou non 0,5.
+
+----------
+
+- Modifié par l’ art. 10 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE V. - LA DEMANDE
+
+Article 25
+
+§ 1. Le bénéficiaire ou la personne habilitée à cet effet introduit la demande auprès de l'Office.
+
+§ 2. Les organismes assureurs bruxellois et les centres publics d'action sociale peuvent introduire une demande au nom et pour le compte du bénéficiaire.
+
+Article 26
+
+La demande peut être introduite au plus tôt le jour où le bénéficiaire atteint l'âge auquel il ne peut plus demander l'allocation de remplacement de revenus ou l'allocation d'intégration, telles que mentionnées à l'article 1 er de la loi du 27 février 1987 relative à l'allocation pour personnes handicapées .
+
+----------
+
+- modifié par l’art. 9 de l’ordonnance du 12.02.2026 (M.B., 20.02.2026). Entrée en vigueur : 20.02.2026
+
+Article 27.
+
+§ 1. Le bénéficiaire, la personne habilitée à cet effet, les organismes assureurs bruxellois ou les centres publics d'action sociale introduisent la demande :
+
+1° à l'aide d'un formulaire mis à disposition par l'Office et envoyé ou remis à l'Office par courrier postal ;
+
+2° à l'aide d'une application informatique créée à cet effet.
+
+§ 2. L'Office remet au bénéficiaire un accusé de réception mentionnant la date de réception.
+
+Est considérée comme date de réception la date à laquelle la demande est cachetée pour réception par l'Office ou la date à laquelle l'Office a reçu la demande au moyen de l'application informatique créée pour l'introduction de la demande.
+
+----------
+
+- Modifié par l’ art. 11 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE VI. - TRAITEMENT DE LA DEMANDE
+
+Article 28
+
+§ 1er. L'Office doit s'adresser au Registre national des personnes physiques pour obtenir les informations visées à l'article 3, alinéas 1er et 2, de la loi du 8 août 1983 organisant un registre national des personnes physiques ou lorsqu'il vérifie l'exactitude de ces informations.
+
+Le recours à une autre source est uniquement autorisé si les données nécessaires ne peuvent être obtenues auprès du Registre national des personnes physiques.
+
+§ 2. Les copies photographiques, microphotographiques ou électroniques des documents conservés par l'Office pour l'allocation font foi comme les originaux, si elles ont été établies par l'Office ou sous son contrôle.
+
+Article 29.
+
+§ 1. L'Office examine la demande sur la base des informations fournies par le bénéficiaire et des informations qu'il recueille directement auprès de l'instance ou la personne qui dispose de ces informations.
+
+Les informations, documents et pièces justificatives fournis par le bénéficiaire sont considérés comme véridiques, sans préjudice de la compétence de contrôle de l'Office.
+
+§ 2. En vue de l'examen administratif, l'Office recueille notamment les informations suivantes auprès de l'instance qui en dispose :
+
+1° les données d'identification légales, reprises dans le Registre national des personnes physiques ;
+
+2° le revenu professionnel et le revenu de remplacement de l'année de référence, visée à l'article 7 ;
+
+3° le revenu de pension, visé à l'article 8 ;
+
+4° les revenus découlant de l'application de la législation relative aux victimes de la guerre ;
+
+5° les données relatives aux biens immobiliers, visées aux articles 9 à 15.
+
+Les données visées à l'alinéa 1er, 2° à 5°, sont considérées comme véridiques jusqu'à preuve du contraire. Le bénéficiaire peut fournir cette preuve par tous les moyens de droit.
+
+§ 3. [13. Lorsque l'Office ou l'équipe multidisciplinaire, telle que visée à l'article 3, demande des informations complémentaires auprès du bénéficiaire, ce dernier est tenu de les fournir dans un délai de trente jours calendrier.
+
+Si les informations complémentaires ne sont pas fournies dans un délai de trente jours calendrier, le bénéficiaire reçoit un rappel de l'Office ou du Centre par lequel il est à nouveau invité à fournir ces informations complémentaires.
+
+Si cela est nécessaire pour l'établissement du degré de la réduction d'autonomie, le bénéficiaire est convoqué pour un examen. Conformément à l'article 7, § 2, alinéa 3, de la loi du 22 août 2002 relative aux droits des patients, le bénéficiaire peut être assisté par une personne de confiance.
+
+Si la nature de la réduction d'autonomie l'exige, l'examen de celle-ci est effectué sur le lieu de résidence effectif du bénéficiaire, pour autant que l'équipe multidisciplinaire, telle que visée à l'article 3, l'estime opportun, et avec l'accord du bénéficiaire.
+
+Si le bénéficiaire omet de se présenter à l'examen, il reçoit une deuxième convocation.
+
+Si, malgré le rappel visé à l'alinéa 2, le bénéficiaire omet de fournir les informations demandées pendant plus de trente jours calendrier, l'Office ou l'équipe multidisciplinaire, telle que visée à l'article 3, prend une décision sur la base des éléments dont il ou elle dispose, sauf si le bénéficiaire fait connaître un motif qui justifie un délai de réponse plus long. L'Office ou le Centre, tel que visé à l'article 3, détermine la durée du délai de réponse plus long, sans préjudice des délais visés à l'article 31.
+
+Si, malgré le second rappel, tel que visé à l'alinéa 5, le bénéficiaire omet de se présenter à l'examen, l'équipe multidisciplinaire, telle que visée à l'article 3, prend une décision sur la base des éléments dont elle dispose, sauf si le bénéficiaire fait connaître un motif qui justifie que l'examen ait lieu à une date ultérieure. Le Centre détermine la date de l'examen, sans préjudice des délais visés à l'article 31 .
+
+----------
+
+- Modifié par l’ art. 12 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 30
+
+L'allocation peut être refusée sans examen complémentaire s'il apparaît, sur la base d'éléments suffisants, que le bénéficiaire ne remplit pas les conditions pour obtenir l'allocation.
+
+Article 31.
+
+§ 1. Le délai entre la date de réception de la demande, visée à l'article 27, § 2, ou la date de prise de connaissance du fait donnant lieu à un examen d'office, et la date de la décision ne peut être supérieur à six mois.
+
+Lorsque l'Office ne peut pas prendre de décision dans le délai mentionné à l'article précédent, il en informe le bénéficiaire par écrit en indiquant les raisons. Dans cette communication écrite, l'Office indique le délai probable de sa décision, qui ne peut être supérieur à dix mois à compter de la date de réception, telle que visée à l'article 27, § 2, alinéa 2, ou de la date de prise de connaissance du fait donnant lieu à un examen d'office.
+
+Si l'intervention d'une institution de sécurité sociale est requise pour qu'une décision puisse être prise, l'Office interroge cette institution.
+
+§ 2. Les délais, tels que visés au § 1er, sont suspendus entre le jour de l'envoi de la demande d''informations complémentaires, telle que visée à l'article 29, § 3, alinéa 1er, et le jour de la réception de toutes les informations demandées. Les délais, tels que visés au § 1er, sont également suspendus entre le jour de l'envoi de la convocation, telle que visée à l'article 29, § 3, alinéa 3, et le jour où l'examen a eu lieu. Ces suspensions ne peuvent excéder le délai maximal probable de décision de l'Office, tel que visé au § 1er, alinéa 2. Dans ce cas, à l'issue de ce délai maximal, une décision sera prise sur la base des données disponibles.
+
+La demande d'informations complémentaires auprès du bénéficiaire, telle que visée à l'article 29, § 3, alinéa 1er, ne suspend toutefois pas le délai, à condition que le bénéficiaire fournisse les données demandées dans un délai de trente jours calendrier après l'envoi de la demande par l'Office ou le Centre. .
+
+§ 3. Les allocations produisent de plein droit des intérêts moratoires à partir de leur exigibilité, mais au plus tôt à partir de l'expiration du délai visé au § 1er.
+
+Les intérêts visés à l'alinéa précédent sont calculés au taux légal. Ils s'appliquent aux mensualités ainsi qu'aux arriérés éventuels.
+
+Au § 3, alinéa 2, on entend par arriérés : les sommes qui auraient dû être liquidées au bénéficiaire à titre de mensualités après l'expiration du délai tel que visé au § 1er.
+
+Le nombre de jours pour lesquels des intérêts doivent être payés est calculé comme suit :
+
+1° pour les mensualités : le nombre de jours entre la date de fin du délai visé au § 1er et le premier jour du mois suivant la décision de l'Office ;
+
+2° pour les arriérés : le nombre de jours entre le 15 du mois auquel l'allocation se rapporte et le premier jour du mois suivant la décision de l'Office.
+
+§ 4. Il n'est pas payé d'intérêts de retard, comme visés au § 3, pour la période pour laquelle des intérêts judiciaires doivent être payés.
+
+----------
+
+- Modifié par l’ art. 13 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 32
+
+Si le bénéficiaire perçoit, au moment de la demande, telle que visée à l'article 25, une allocation d'intégration ou une allocation de remplacement de revenus, telle que visée dans la loi du 27 février 1987 relative aux allocations aux personnes handicapées, l'Office vérifie si celle est plus avantageuse pour le bénéficiaire que l'allocation.
+
+Si l'allocation est plus avantageuse, l'Office prend une décision positive quant à cette allocation. Si l'allocation n'est pas plus avantageuse, elle n'est pas octroyée.
+
+CHAPITRE VII. LES DECISIONS, L'OUVERTURE DU DROIT A L'ALLOCATION ET LA PRISE DE COURS DE LA DECISION SUR DEMANDE
+
+----------
+
+- Modifié par l’ art. 14 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 33.
+
+§ 1. [ ... ]
+
+§ 2. L'Office communique par écrit sa décision au sujet de l'allocation au bénéficiaire.
+
+§ 3. Sous peine de nullité, la décision est motivée et contient les mentions suivantes :
+
+1° la possibilité d'introduire un recours devant le tribunal compétent ;
+
+2° l'adresse du tribunal compétent ;
+
+3° le délai prévu pour introduire un recours, ainsi que la procédure à suivre ;
+
+4° les articles 728 et 1017, du Code judiciaire ;
+
+5° la référence du dossier et du service qui le gère ;
+
+6° la possibilité d'obtenir des explications concernant la décision auprès de l'Office.
+
+Si la décision ne contient pas les mentions énumérées à l'alinéa précédent, le délai d'introduction d'un recours ne prend pas cours.
+
+§ 4. Sans préjudice de l'application des paragraphes précédents, la décision relative à l'établissement du degré de réduction d'autonomie est communiquée par écrit au bénéficiaire.
+
+----------
+
+- Modifié par l’ art. 15 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 34
+
+Le droit à l'allocation s'ouvre le premier jour du mois qui suit celui au cours duquel le bénéficiaire remplit les conditions fixées par l'ordonnance, et au plus tôt le premier jour du mois qui suit le mois de la date de réception visée à l'article 27, § 2.
+
+Article 35
+
+§ 1. La décision sur demande prend cours à la date d'ouverture du droit à allocation, telle que visée à l'article 34.
+
+§ 2. Lorsque l'Office notifie une décision après sa date de prise de cours, il tient compte de plein droit des faits qui se sont produits et des éléments qui ont été soumis entre la date de prise de cours de la décision et la date à laquelle elle a été notifiée, pour autant qu'il ait été informé de ces faits et éléments avant la date de notification de la décision.
+
+§ 3. Par dérogation au § 1er, la décision sur la demande introduite par le bénéficiaire après qu'il ait déménagé d'une autre région linguistique vers la région bilingue de Bruxelles-Capitale et qu'il bénéficiait au moment du déménagement d'une forme comparable d'allocation, prend effet à partir du premier jour du mois suivant le déménagement, à condition que la demande soit introduite dans les trois mois suivant le déménagement. Par déménagement, on entend l'inscription du bénéficiaire dans le registre de la population ou dans le registre des étrangers, tel que visé à l'article 1er, § 1er, alinéa 1er, 1°, de la loi du 19 juillet 1991 relative aux registres de la population, aux cartes d'identité, aux cartes des étrangers et aux documents de séjour, selon les données du Registre national.
+
+Article 36.
+
+Sans préjudice de l'application des articles 37 à 40, la décision de l'Office est valable pour une durée indéterminée, sauf si :
+
+1° la décision est prise sur la base d'éléments provisoires ou évolutifs ;
+
+2° la décision est valable jusqu'à la date de fin de la réduction d'autonomie dans l'établissement du degré de réduction d'autonomie .
+
+----------
+
+- Modifié par l’ art. 16 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE VIII. - LE RETRAIT ET LA REVISION DE LA DECISION
+
+Section 1re. - Le retrait
+
+Article 37
+
+L'Office peut retirer sa décision et prendre une nouvelle décision dans le délai d'introduction d'un recours auprès du tribunal du travail compétent ou, si le recours a déjà été introduit, jusqu'à la clôture des débats, si :
+
+1° à la date de prise de cours de l'allocation, le droit a été modifié par une disposition légale ou réglementaire ;
+
+2° un nouveau fait ou un nouvel élément de preuve ayant une influence sur les droits du demandeur a été invoqué durant l'instance ;
+
+3° l'on constate que la décision administrative est entachée d'irrégularité ou d'une erreur matérielle.
+
+Section 2. - La demande de révision
+
+Article 38.
+
+Une demande de révision peut être introduite si, selon le bénéficiaire, des modifications se produisent qui justifient l'octroi ou l'augmentation de l'allocation.
+
+Les demandes de révision peuvent avoir pour objet la révision ou l'évaluation soit de les revenus ou du degré de réduction d'autonomie du bénéficiaire en raison d'un changement de son état physique ou psychique, soit le fait de remplir les autres conditions d'application et d'octroi.
+
+La demande de révision est introduite auprès de l'Office conformément aux articles 25 à 27.
+
+La demande de révision est examinée et traitée conformément aux articles 28 à 31.
+
+Lorsque la demande de révision ne concerne pas l'évaluation du degré de réduction d'autonomie, il n'est pas procédé à un nouvel établissement de celui-ci .
+
+La décision qui est prise suite à une demande de révision prend cours le premier jour du mois qui suit la date de réception visée à l'article 27, § 2.
+
+Par dérogation à l'alinéa précédent, lorsque la date de réception visée à l'article 27, § 2, n'est pas située au-delà des trois mois qui suivent la date à laquelle s'est produit un fait qui justifie l'octroi ou l'augmentation de l'allocation ou la date à laquelle le bénéficiaire en a eu connaissance, la nouvelle décision peut prendre cours le premier jour du mois qui suit la date du fait et au plus tôt à la même date que la décision à modifier.
+
+----------
+
+- Modifié par l’ art. 17 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Section 3. - La révision d'office
+
+Article 39
+
+Lorsqu'il est constaté que la décision est entachée d'une erreur juridique ou matérielle, l'Office prend d'office une nouvelle décision, qui prend cours le jour où la décision corrigée aurait dû prendre cours.
+
+Sans préjudice de l'application de l'article 37, si l'erreur est due à l'Office et si le droit à l'allocation est inférieur au droit initialement octroyé, la nouvelle décision prend cours le premier jour du mois qui suit sa notification au bénéficiaire.
+
+Article 40.
+
+§ 1. Il peut être procédé d'office à une révision du droit à l'allocation :
+
+1° lorsque le bénéficiaire ne remplit plus l'une des deux ou les deux conditions visées à l'article 3, 1° de l'ordonnance ;
+
+2° lorsque se produit une modification de la composition du ménage qui a une influence sur le droit à l'allocation ;
+
+3° à la date d'une décision précédente si celle-ci a été prise sur la base d'éléments provisoires ou évolutifs ;
+
+4° lorsque se produit une modification du degré de réduction d'autonomie du bénéficiaire,
+
+5° lorsque l'Office constate que les revenus ont diminué par rapport à la décision précédente ;
+
+6° lorsque l'Office constate que les revenus ont augmenté par rapport à la décision précédente ;
+
+7° lorsque l'Office constate une incidence sur le montant de l'allocation, comme visée à l'article 42, par la méthode de contrôle par échantillonnage.
+
+8° lorsque le bénéficiaire décède
+
+§ 2. La nouvelle décision prend cours le premier jour du mois qui suit celui au cours duquel le bénéficiaire se trouve dans une des situations visées au § 1er, 1°, 2°, 6° ou 8°.
+
+Si la nouvelle décision a toutefois pour conséquence une réduction de l'allocation et si l'événement visé au § 1er, 6° a été communiqué ou constaté durant les trois mois suivant sa survenance ou a été déclaré dans les trois mois suivant la date de notification au bénéficiaire, la nouvelle décision prend cours le premier jour du mois qui suit la date de la notification de la décision.
+
+Dans les cas visés au § 1er, 3°, 4° et 5°, la nouvelle décision prend cours le premier jour du mois qui suit la date de notification de la décision. Si le montant de l'allocation octroyée en vertu de la décision visée au § 1er, 3° est supérieure au montant initialement octroyé, cette décision prend cours à partir du premier jour du mois qui suit la date de révision prévue.
+
+Dans le cas visé au § 1er, 7°, une nouvelle décision prend cours le premier jour du mois suivant la constatation de la différence entre le montant de l'allocation qui fait l'objet d'une décision de refus, d'octroi, de retrait ou de révision et le montant de l'allocation à laquelle le bénéficiaire a droit, comme visé à l'article 42, 4°.
+
+§ 3. La nouvelle décision ne peut pas prendre cours avant la date d'entrée en vigueur de la décision selon laquelle une allocation est octroyée pour la première fois.
+
+§ 4. La révision d'office est examinée et traitée conformément aux articles 28 à 31. Lorsque la révision d'office ne concerne pas l'évaluation du degré de réduction d'autonomie, il n'est pas procédé à un nouvel établissement de celui-ci
+
+----------
+
+- Modifié par l’ art. 18 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE IX. - LA COMMUNICATION D'UNE MODIFICATION AYANT UNE INCIDENCE SUR L'ALLOCATION
+
+Article 41
+
+§ 1. La communication d'une modification ayant une incidence sur l'allocation se fait immédiatement et par écrit à l'Office.
+
+Le bénéficiaire y mentionne les nouvelles données ayant une incidence sur l'allocation.
+
+§ 2. Par dérogation au § 1er, le bénéficiaire n'est toutefois pas tenu de communiquer la modification lorsque :
+
+1° il s'agit de modifications des informations visées à l'article 3, alinéa 1er, de la loi du 8 août 1983 organisant un registre national des personnes physiques, pour autant que cette modification ait été communiquée à l'Office ;
+
+2° il s'agit d'un élément qui a déjà été communiqué à une autre autorité dans le cadre de la réglementation qui y est en vigueur et si les ministres ont repris cet élément dans une liste spécifiquement rédigée à cet effet.
+
+CHAPITRE X. - CONTROLE
+
+Article 42
+
+Afin de vérifier si le montant de l'allocation qui fait l'objet d'une décision de refus, d'octroi, de retrait ou de révision correspond au montant de l'allocation auquel le bénéficiaire a droit, l'Office peut faire usage d'une méthode de contrôle par échantillonnage.
+
+Cette méthode consiste à :
+
+1° établir la base de sondage en identifiant et en définissant un ensemble de cas indépendants qui seront examinés ;
+
+2° effectuer un tirage aléatoire dans cette base de sondage pour constituer un échantillon ;
+
+3° analyser les cas de cet échantillon et calculer, pour chaque cas de cet échantillon, le montant de l'allocation auquel il a droit, conformément aux dispositions de l'ordonnance et de ses arrêtés d'exécution ;
+
+4° calculer, pour chaque cas de cet échantillon, la différence entre le montant de l'allocation qui fait l'objet d'une décision de refus, d'octroi, de suppression ou de révision et le montant de l'allocation, résultat du calcul, comme visé au 3°.
+
+En cas de différence entre les montants visés à l'alinéa précédent, l'Office procède à une révision d'office, conformément à l'article 40, § 1er, 7°.
+
+CHAPITRE XI. - MODALITES ET CONDITIONS DE PAIEMENT
+
+Article 43.
+
+§ 1. L'allocation est payée par mois et par douzièmes.
+
+Elle s'élève au minimum à 0,12 EUR sur une base annuelle.
+
+§ 2. Le paiement de l'allocation est effectué par virement sur un compte de paiement ouvert au nom du bénéficiaire ou dont il est cotitulaire.
+
+Sans préjudice de l'application de l'alinéa précédent, l'allocation peut être payée, à partir du 1er juin 2023, sur une carte prépayée, émise par un établissement de crédit, délivrée au bénéficiaire par l'Office et offre la possibilité d'effectuer des opérations par carte de débit au sens de l'article 2, 4) du Règlement (UE) 2015/751 du Parlement européen et du Conseil du 29 avril 2015 relatif aux commissions d'interchange pour les opérations de paiement liées à une carte, si le bénéficiaire en fait la demande.
+
+Sans préjudice de l'application du premier ou des premier et deuxième alinéas, l'allocation peut être payée par chèque circulaire jusqu'au 1er janvier 2024 si, pour des raisons techniques ou sociales, elle ne peut être payée par virement bancaire ou par carte de paiement et si le bénéficiaire en fait la demande.
+
+Le virement sur le compte de paiement, le paiement sur la carte de paiement ou l'émission d'un chèque circulaire a lieu le 23 du mois. Toutefois, si ce jour est un samedi, un dimanche ou un jour férié, le virement, l'émission ou le paiement aura lieu le jour ouvrable précédent.
+
+Par établissement de crédit, tel que visé à l'alinéa précédent, on entend l'établissement de crédit établi en Belgique, comme visé à l'article 1er, § 3, de la loi du 25 avril 2014 relative au statut et au contrôle des établissements de crédit et des sociétés de bourse.
+
+§ 3. Le paiement de l'allocation est effectué par un établissement de crédit avec lequel l'Office a conclu un contrat.
+
+Par établissement de crédit, visé à l'alinéa précédent, il convient d'entendre un établissement de crédit établi en Belgique, tel que visé à l'article 1er, § 3 de la loi du 25 avril 2014 relative au statut et au contrôle des établissements de crédit et des sociétés de bourse.
+
+§ 4. L'Office conclut un accord avec les établissements de crédit des bénéficiaires des allocations payées.
+
+Par établissements de crédit, visés à l'alinéa précédent, il convient d'entendre les établissements de crédit établis en Belgique, tels que visés à l'article 1er, § 3 de la loi du 25 avril 2014 relative au statut et au contrôle des établissements de crédit et des sociétés de bourse.
+
+Le contrat visé à l'alinéa 1er fixe les responsabilités respectives de l'Office et de l'établissement de crédit afin d'assurer la régularité du transfert des allocations au bénéficiaire ou à l'établissement de crédit choisi par ce bénéficiaire.
+
+----------
+
+- Modifié par l’ art. 1 d e l’arrêté du 22.06.2023 (M.B., 24.08.2023 ). En vigueur le 03.09.2023 .
+
+Article 44
+
+L'article 43 s'applique par analogie au paiement de l'allocation pendant la phase de transition, visée à l'article 22 de l'ordonnance.
+
+CHAPITRE XII. - LE PAIEMENT DES AVANCES
+
+Article 45
+
+En cas d'application de l'article 13 de l'ordonnance, le bénéficiaire doit indiquer, en tant que bénéficiaire de l'avance, sur quelles allocations ou indemnités il souhaite obtenir une avance, par qui celles-ci sont dues selon lui et pour quelle période.
+
+Il doit également communiquer si les instances qui doivent ces allocations ou indemnités ont octroyé des avances.
+
+Le bénéficiaire doit en outre avertir l'Office dès qu'il perçoit ces allocations ou indemnités.
+
+L'avance n'est pas octroyée pour des périodes antérieures à la demande.
+
+Elle est accordée à concurrence des montants de l'allocation à laquelle le bénéficiaire peut prétendre.
+
+CHAPITRE XIII. - LE PAIEMENT DES ALLOCATIONS ECHUES, NON PAYEES LORS DU DECES DU BENEFICIAIRE
+
+Article 46.
+
+En cas de décès du bénéficiaire, les allocations échues n'ayant pas encore été payées, y compris l'allocation pour le mois du décès, sont payées dans l'ordre suivant :
+
+1° au conjoint ou à la conjointe, inscrit(e) à la même adresse que le bénéficiaire ;
+
+2° à la personne avec laquelle le bénéficiaire formait un ménage au moment de son décès ;
+
+3° aux enfants avec lesquels le bénéficiaire vivait au moment de son décès ;
+
+4° au père et à la mère avec lesquels le bénéficiaire vivait au moment de son décès ;
+
+5° à toute personne avec laquelle le bénéficiaire vivait au moment de son décès ;
+
+6° à la personne qui intervenait dans les frais d'hospitalisation ;
+
+7° à la personne qui a payé les frais funéraires ;
+
+8° au conjoint ou à la conjointe séparé(e) de fait du bénéficiaire au moment du décès.
+
+Les attributaires visés à l'alinéa premier, 5° à 8° introduisent une demande de paiement auprès de l'Office.
+
+La demande datée et signée est introduite au moyen d'un formulaire dont le modèle est établi par l'Office.
+
+Sous peine de déchéance, les demandes de paiement de périodes doivent être introduites dans un délai de six mois.
+
+Ce délai débute le jour du décès du bénéficiaire ou le jour de l'envoi de la notification de la décision si celle-ci a été envoyée après le décès.
+
+----------
+
+- Modifié par l’ art. 19 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE XIV. - SUSPENSION DE L'ALLOCATION EN CAS DE DETENTION OU PRISE EN CHARGE
+
+Article 47
+
+L'allocation n'est pas payée pour la durée de sa détention ou de sa prise en charge au bénéficiaire qui est détenu dans un établissement pénitentiaire ou pris en charge dans un établissement ou une section de défense sociale, organisée par l'autorité fédérale, dans un centre de psychiatrie légale, organisé par l'autorité fédérale, ou dans une autre institution ayant des visées comparables.
+
+Le bénéficiaire peut cependant prétendre aux allocations qui se rapportent à la période de sa détention provisoire à condition qu'il ait été acquitté du délit ayant donné lieu à cette détention, par décision judiciaire passée en force de chose jugée. Il en est de même pour les cas de non-lieu ou de mise hors de cause.
+
+CHAPITRE XV. - LE REMBOURSEMENT ET LE RECOUVREMENT DES PAIEMENTS INDUS
+
+Article 48
+
+Le bénéficiaire peut demander un plan d'apurement auprès de l'Office en vue du remboursement des paiements indus. L'Office décide de ce plan d'apurement. L'Office transmet au bénéficiaire un plan d'apurement adapté ou non ou fait savoir au bénéficiaire que le plan d'apurement ne peut être accepté.
+
+Si le bénéficiaire décède pendant l'exécution du plan d'apurement, les recouvrements cessent sauf en cas de dol ou de fraude.
+
+Article 49
+
+Sous peine de nullité, les débiteurs sont informés par lettre recommandée de la décision de récupérer ou de déduire les paiements indus.
+
+Ce courrier mentionne :
+
+1° la constatation et le montant total de l'indu, ainsi que son mode de calcul ;
+
+2° le contenu et les références des dispositions en infraction desquelles les paiements ont été effectués ;
+
+3° le délai de prescription pris en considération et, lorsqu'il est inférieur à trois ans, sa justification ;
+
+4° la possibilité d'introduire un recours auprès du Tribunal du travail compétent dans les trois mois suivant la réception de la décision contestée ;
+
+5° la possibilité de demander à l'Office un plan d'apurement comme visé à l'article 48 ;
+
+6° la possibilité, pour l'Office, de renoncer d'office ou à la demande du bénéficiaire, à la récupération des allocations payées indûment ;
+
+7° la possibilité, pour l'Office, de déduire les allocations payées indûment des futures allocations qui seront payées au bénéficiaire ou des allocations échues n'ayant pas encore été payées.
+
+Si la décision ne contient pas les mentions énumérées à l'alinéa 1er, le délai d'introduction d'un recours ne prend pas cours.
+
+Article 50.
+
+Le fonctionnaire dirigeant peut renoncer d'office au recouvrement d'allocations payées indûment :
+
+1° en cas de décès du bénéficiaire ;
+
+2° si le montant des allocations payées indûment est inférieur à 750,00 EUR ;
+
+3° si les allocations payées indûment résultent uniquement d'une erreur de l'Office, dont le bénéficiaire ne peut normalement pas se rendre compte et dont l'Office n'a pas fait mention au bénéficiaire dans les deux mois ;
+
+4° en cas de décès de la personne avec laquelle le bénéficiaire forme un ménage si ceci a pour effet que le bénéficiaire reçoit une pension de survie.
+
+Il ne peut pas y être renoncé d'office :
+
+1° en cas de dol ou de fraude ;
+
+2° s'il existe des allocations échues n'ayant pas encore été versées lors du décès du bénéficiaire. Dans ce cas, les allocations payées indûment sont récupérées en les déduisant des allocations échues n'ayant pas encore été payées.
+
+Dans tous les cas autres que ceux visés aux premier et deuxième alinéas, le fonctionnaire dirigeant peut, sur demande motivée du bénéficiaire, renoncer à la récupération des allocations payées indûment. Cette demande est faite par courrier recommandé adressé au fonctionnaire dirigeant.
+
+----------
+
+- Modifié par l’ art. 20 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 51.
+
+La décision de procéder au recouvrement peut uniquement être exécutée après expiration d'un délai de trois mois après la notification.
+
+Quand le bénéficiaire a introduit une demande visée à l'article 50, alinéa 3 avant l'expiration de ce délai de 3 mois, le recouvrement est suspendu jusqu'à ce que le fonctionnaire dirigeant se soit prononcé à ce sujet.
+
+Si la demande visée à l'article 50, alinéa 3, est introduite après le délai de trois mois, le recouvrement des montants indus est entamé ou poursuivi jusqu'à ce que le fonctionnaire dirigeant ait pris une décision contraire.
+
+Pour l'application des alinéas 2 et 3, la date de l'introduction est la date de dépôt de la lettre recommandée par laquelle la demande a été introduite.
+
+----------
+
+- Modifié par l’ art. 21 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+CHAPITRE XVI. - CUMUL
+
+Article 52
+
+Dans le formulaire mis à disposition par l'Office ou l'application informatique, visés à l'article 27, § 1er, 1° et 2°, le bénéficiaire mentionne s'il a reçu et reçoit une forme similaire de l'allocation en vertu d'autres lois, décrets, ordonnances ou dispositions réglementaires, ou en vertu de législation étrangère, telle que visée à l'article 20, alinéa 1er de l'ordonnance et en mentionne également le montant.
+
+CHAPITRE XVII. - MODALITES DE L'INDEXATION, VISEES A L'ARTICLE 8, § 2, ALINEA 3, DE L'ORDONNANCE
+
+Article 53
+
+Afin de calculer la liaison du montant de l'allocation aux fluctuations de l'indice santé lissé, tel que visé à l'article 8, § 2, de l'ordonnance, le montant de base, tel que visé au § 1er du même article, doit être multiplié par un multiplicateur égal à 1,0200, élevé à la puissance n (1,0200n), dans lequel n correspond au rang de l'indice pivot atteint. L'indice pivot suivant celui mentionné au § 2 de l'article précité est considéré comme rang 1. Le multiplicateur est exprimé en unités, suivies de quatre chiffres. Le cinquième chiffre après la virgule est supprimé et donne lieu à l'augmentation d'une unité du chiffre précédent s'il atteint 5 au moins.
+
+Lorsque par suite de l'application du présent article, les montants adaptés se terminent par une fraction de cent, la fraction de cent est arrondie au cent supérieur ou inférieur selon que cette fraction atteint ou non 0,5.
+
+CHAPITRE XVIII. - RESIDENCE DE MANIERE PERMANENTE ET EFFECTIVE
+
+Article 54
+
+Sont assimilés à une résidence permanente et effective en Belgique, telle que visée à l'article 3, § 1er, de l'ordonnance :
+
+1° le séjour à l'étranger pendant maximum 90 jours, consécutifs ou non, par année civile ;
+
+2° le séjour à l'étranger, suite à l'admission en traitement dans un hôpital ou dans un autre établissement de soins ;
+
+3° le séjour à l'étranger pour des raisons professionnelles ;
+
+4° le séjour chez un parent ou allié qui est obligé, ou dont le conjoint ou la personne avec laquelle le parent ou allié cohabite, est obligé de séjourner temporairement à l'étranger pour y effectuer une mission ou y exercer des fonctions au service de l'Etat belge ;
+
+5° le séjour à l'étranger pendant plus de 90 jours, consécutifs ou non, par année civile, pour autant que des circonstances exceptionnelles justifient celui-ci et à condition que l'Office ait donné l'autorisation pour ce séjour.
+
+La personne handicapée qui s'absente du territoire de l'Etat belge est obligée d'en aviser l'Office, au moins un mois avant son départ, en indiquant la durée présumée du séjour à l'étranger et, pour les cas visés sous les points 2° à 5° inclus, les raisons de ce séjour.
+
+CHAPITRE XIV. - MESURES TRANSITOIRES ET ENTREE EN VIGUEUR
+
+Article 55.
+
+§ 1. Par dérogation à l'article 2 et 3, l'établissement du degré de réduction d'autonomie se fait, pendant une période transitoire, par un médecin désigné par les médecins ou les équipes multidisciplinaires qui, avant l'entrée en vigueur de l'ordonnance, menaient ces établissements pour le compte de la Commission communautaire commune et selon les modalités prévues par les conventions de coopération entre l'Etat fédéral et la Commission communautaire de Bruxelles-Capitale, ou entre le Service public fédéral Sécurité sociale et l'Office. Cet établissement est réalisée sur la base du guide annexé à l'arrêté ministériel du 30 juillet 1987 fixant les catégories et du guide pour l'établissement du degré d'autonomie en vue de l'examen du droit à l'allocation d'intégration. Ce guide tient compte des facteurs suivants :
+
+1° possibilités de se déplacer ;
+
+2° possibilités d'absorber ou de préparer sa nourriture ;
+
+3° possibilités d'assurer son hygiène personnelle et de s'habiller ;
+
+4° possibilités d'entretenir son habitat et d'accomplir des tâches ménagères ;
+
+5° possibilités de vivre sans surveillance, d'être conscient des dangers et d'être en mesure d'éviter les dangers ;
+
+6° possibilités de communiquer et d'avoir des contacts sociaux.
+
+§ 2. Pour chacun des facteurs mentionnés au § 1er, un nombre de points est octroyé en fonction du degré de réduction d'autonomie du bénéficiaire, comme suit :
+
+1° pas de difficultés, pas d'effort spécial ni de moyens auxiliaires spéciaux : 0 point ;
+
+2° difficultés limitées ou effort supplémentaire limité ou usage limité de moyens auxiliaires spéciaux : 1 point ;
+
+3° difficultés importantes ou effort supplémentaire important ou usage important de moyens auxiliaires spéciaux : 2 points ;
+
+4° impossible sans l'aide d'une tierce personne, sans accueil dans un établissement approprié ou sans environnement entièrement adapté : 3 points.
+
+Les points octroyés sont totalisés et, selon ce total, le bénéficiaire appartient à une des catégories mentionnées à l'article 8 de l'ordonnance.
+
+§ 3. La période transitoire, visée au § 1er prends cours le 1er janvier 2021 et prend fin au plus tard :
+
+1° le 1er janvier 2022 pour l'établissement du degré de réduction d'autonomie suite à une demande, visée à l'article 25 ;
+
+2° le 1er janvier 2024 pour l'établissement du degré de réduction d'autonomie suite à une demande de révision, visée à l'article 38, ou une révision d'office, visée aux articles 39 et 40.
+
+----------
+
+- Modifié par l’ art. 14 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 55/1
+
+Par dérogation aux articles 2 et 3, un établissement du degré de réduction d'autonomie qui a été effectuée par d'autres entités fédérées belges ou par le Service public fédéral Sécurité sociale peut être considérée comme un établissement du degré de réduction d'autonomie, tel que visé à l'article 2, à condition que l'équipe multidisciplinaire, telle que visée à l'article 3, considère que l'établissement du degré de réduction d'autonomie remplit les conditions prévues à l'article 2.
+
+----------
+
+- Inséré par l’ art. 23 d e l’arrêté du 18.01.2024 (M.B., 29.01.2024 ). En vigueur le 08.02.2024.
+
+Article 56
+
+Le présent arrêté produit ses effets à partir du 1er janvier 2021.
+
+Article 57
+
+Les membres du Collège réuni compétents pour l'Action sociale et la Santé sont chargés de l'exécution du présent arrêté.
+
+Bruxelles, le 28 janvier 2021.
+
+Les membres du Collège
+
+réuni en charge de l'Action sociale et de la Santé,
+
+A. MARON
+
+Mise à jour par:
+
+12.02.2026. - Ordonnance portant des dispositions diverses en matière de Santé, d'Aide aux personnes et de Prestations familiales ( M.B. , 20.02.2026 – Numac : 2026001204 ). Art. modifié : 26. En vigueur le 20.02.2026
+
+18.01.2024 - Arrêté du Collège réuni de la Commission communautaire commune modifiant l’arrêté du Collège réuni de la Commission communautaire commune du 28 janvier 2021 portant exécution de l’ordonnance du 10 décembre 2020 relative à l’allocation pour l’aide aux personnes âgées ( M.B. 29.01.2024 - Numac : 2024000625 ). Art. modifié s : 1; 2; 3; 3/1-3/12; 6; 7; 12; 21; 23; 24; 27; 29; 31; 33; 36; 38; 46; 50; 51; 55; 55/1 . En vigueur le 08.02.2024.
+
+22.06.2023 - Arrêté du Collège réuni de la Commission communautaire commune modifiant l'arrêté du Collège réuni de la Commission communautaire commune du 28 janvier 2021 portant exécution de l'ordonnance du 10 décembre 2020 relative à l'allocation pour l'aide aux personnes âgées ( M.B. 24.08.2023 - Numac : 2023043248 ). Art. modifié : 43 . En vigueur le 03.09.2023.

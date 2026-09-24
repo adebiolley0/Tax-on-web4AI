@@ -1,0 +1,157 @@
+---
+guid: "81415dbe-06de-4da3-9eee-1fed2fb38008"
+title: "Circulaire n° 29 dd. 12.10.1973"
+document_type: "Circulaires"
+language: "fr"
+document_date: "1973-10-11"
+publication_date: "1900-12-31"
+effective_date: null
+last_modified: "2019-10-04"
+taxonomies: ["Circulaires"]
+path: ["FISCALITÉ", "Taxe sur la valeur ajoutée", "Directives et commentaires administratifs", "Circulaires"]
+linked_document_nl: "7d3278fe-1859-4e45-8de4-926d1a30fe67"
+found_via: "80bdf46a-4705-42f0-a579-d2f9e2890278"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/81415dbe-06de-4da3-9eee-1fed2fb38008"
+---
+
+# Circulaire n° 29 dd. 12.10.1973
+
+CIRCULAIRE 73/029
+
+Circulaire n° 29 dd. 12.10.1973
+
+Contrôle des transports par route
+
+Objet.
+
+1. La présente circulaire qui remplace la circulaire n o 82, du 13 mai 1971, a pour objet de préciser le régime applicable en matière de taxe sur la valeur ajoutée aux conventions qui interviennent entre les utilisateurs d'appareils automatiques et les exploitants de ces appareils et entre ceux-ci et les personnes qui mettent un emplacement à leur disposition pour l'exploitation des appareils.
+
+2. On notera que la présente circulaire ne s'applique pas lorsque les exploitants des appareils sont des forains soumis au régime forfaitaire prévu par l'article 56, ° 1er, du Code de la T.V A.
+
+Section 1ère -Considérations préliminaires.
+
+Les appareils automatiques visés.
+
+3. Par appareil automatique, on entend tout appareil qui contient une partie mécanique, électrique ou électronique, servant à sa mise en marche, à son fonctionnement ou à son utilisation et dont le déclenchement est provoqué par l'introduction d'une pièce de monnaie, d'un jeton ou par tout autre moyen qui lui serait substitué.
+
+Certains de ces appareils, appelés appareils automatiques de divertissement, sont destinés à récréer l'utilisateur, étant entendu que par là on vise tant les jeux ou les exercices d'adresse que les auditions de musique. mais il existe, à côté de ces appareils automatiques de divertissement, de nombreux autres appareils automatiques qui procurent à l'utilisateur des biens ou des services de nature diverse.
+
+Les appareils automatiques distributeurs de biens ou de services sont également visés par la présente circulaire.
+
+L'exploitation d'un appareil automatique.
+
+4. L'exploitation d'un appareil automatique met toujours en rapport au moins deux personnes, l'exploitant de l'appareil et l'utilisateur de celui-ci.
+
+L'exploitant est la personne qui dispose de la recette trouvée dans l'appareil. Est réputé disposer de la recette celui qui détient la clef permettant de relever la recette, même s'il est convenu qu'un certain pourcentage de cette recette revient à une autre personne.
+
+L'utilisateur est la personne qui introduit la pièce ou le jeton dans le mécanisme mettant l'appareil automatique en marche. Il peut aussi être la personne au profit de laquelle l'exploitant ou le tenancier du local où se trouve l'appareil introduit la pièce ou le jeton dans l'appareil.
+
+L'exploitation d'un appareil automatique concerne souvent aussi une troisième personne. celle-ci peut être l'exploitant ou le tenancier du local où l'appareil est mis à la disposition de l'utilisateur.
+
+Elle peut encore être le propriétaire d'un emplacement immobilier, tel un mur, un quai de gare, etc.
+
+Enfin, l'exploitant de l'appareil automatique peut ne pas en être le propriétaire. Il peut avoir pris l'appareil en location. On trouve alors, à côté de l'exploitant de l'appareil, le propriétaire qui le donne en location à l'exploitant.
+
+Ces diverses situations peuvent du reste se combiner. L'exploitant peut prendre l'appareil en location pour le mettre à la disposition des utilisateurs dans un local appartenant à une autre personne.
+
+Dans la deuxième section, on précise le régime auquel sont soumis les rapports entre l'exploitant de l'appareil et l'utilisateur. Dans une troisième section, on détermine le régime applicable aux autres rapports que fait naître l'exploitation d'un appareil automatique.
+
+Section 2.- L'exploitation de l'appareil.
+
+Nature des opérations.
+
+5. L'exploitation d'un appareil automatique donne lieu à des opérations de trois types, à savoir :
+
+a. Des contacts de jeu
+
+6. Lorsque l'utilisateur a, moyennant une mise, la chance de gagner une somme d'argent ou un objet quelconque, le contrat intervenant entre l'utilisateur et l'exploitant est un contrat de jeu (v. les n o s 13 à 16 au sujet des appareils automatiques de jeu).
+
+b. Des livraisons de biens
+
+7. Lorsqu'un bien est fourni à l'utilisateur en contrepartie de la somme introduite dans l'appareil, l'opération conclue entre l'exploitant et l'utilisateur est une livraison de biens au sens du code de la T.V.A. (v. les n o s 17 à 21 en ce qui concerne les appareils distributeurs automatiques).
+
+c. Des prestations de services.
+
+8. Lorsqu'un service visé à l'article 18, ° 1er, du Code est fourni à l'utilisateur en contrepartie de la somme introduite dans l'appareil, l'opération est une prestation de services au sens du code (v. les n o s 22 à 26 au sujet des autres appareils automatiques).
+
+Qualité de l'exploitant.
+
+9. Lorsque l'exploitation d'un appareil automatique donne lieu à des opérations qui échappent à la taxe sur la valeur ajoutée, comme c'est le cas pour l'exploitation des appareils automatiques de jeu (v. le n o 14), l'exploitant n'acquiert pas la qualité d'assujetti en raison de cette activité .Il ne doit donc pas être immatriculé à la T.V.A. s'il n'exerce aucune autre activité imposable et les recettes ne sont pas soumises à la taxe. Le non assujettissement de l'exploitant a du reste comme conséquence que celui-ci ne peut pas déduire les taxes ayant grevé les biens et les services qui lui ont été fournis et les biens qu'il a importes, dans la mesure ou il les utilise pour l'exploitation des appareils automatiques de jeu. Ainsi, l'exploitant ne peut pas opérer la déduction de la taxe qui grève l'achat, l'importation ou la location de l'appareil automatique de jeu. [Il ne peut pas davantage déduire la taxe qu'il doit payer pour l'entretien et la préparation de l'appareil.] (les passages entre [] sont les passages de la circulaire n o 82, du 13 mai 1971, qui sont modifiés ou des passages nouveaux
+
+10. En revanche, lorsque l'exploitation de l'appareil donne lieu à des opérations visées par le Code, comme c'est le cas en règle pour les appareils automatiques autres que les appareils automatiques de jeu (v. les n o s 18 et 23), l'exploitant de l'appareil acquiert, en raison de cette exploitation, la qualité d'assujetti. Il doit être immatriculé à la T.V.A. et payer la taxe due sur la recette recueillie dans l'appareil. mais il peut déduire de la taxe due sur les recettes les taxes ayant grevé les biens et les services qui lui ont été fournis et les biens qu'il a importés, dans la mesure où il les utilise pour l'exploitation des appareils dont les recettes sont imposables. L'exploitant peut notamment opérer la déduction de la taxe payée lors de l'achat ou de l'importation de l'appareil, sous réserve de l'application de l'article 100 du Code. Il peut également déduire la taxe acquittée lors de l'achat des marchandises vendues par l'intermédiaire de l'appareil.
+
+[Il peut encore opérer la déduction de la taxe à laquelle sont soumises les réparations de l'appareil.]
+
+11. L'exploitant d'un appareil automatique autre qu'un appareil de jeu (v. les n o s 18 et 23) peut être une personne dont l'activité principale est exonérée par l'article 44 du Code ou sort du champ d'application de la taxe. Tel est notamment le cas lorsque l'exploitant de l'appareil est un établissement d'enseignement, un établissement hospitalier ou une compagnie d'assurances. Si cet exploitant n'exerce aucune autre activité qui lui donne la qualité d'assujetti, son immatriculation ne sera pas requise pour les appareils qu'elle exploite dans ses propres locaux professionnels. Il va de soi que, si les appareils sont exploités ailleurs, l'immatriculation est imposée. Par suite du non-assujettissement l'exploitant ne peut pas déduire la taxe qui grève l'achat et l'exploitation de l'appareil.
+
+12. Le régime prévu à l'alinéa précédent est applicable aux associations et groupements qui ne poursuivent aucun but de lucre, pour autant que ces associations et groupements n'aient pas la qualité d'assujetti en raison d'une autre activité ou qu'ils n'aient pas opté, à un titre quelconque, pour l'assujettissement à la taxe.
+
+Les appareils automatiques de jeu.
+
+13. Par appareils-automatiques de jeu, on entend les appareils visés à l'article 80 ° 1er, lettre A, et 2, du Code des taxes assimilées aux impôts sur les revenus. Le signe distinctif fiscal apposé sur ces appareils pour attester le paiement de la taxe assimilée aux impôts sur les revenus contient notamment l'indication de la catégorie dans laquelle l'appareil est rangé pour la perception de cette taxe : mention "G. 1" pour les appareils visés à l'article 80, ° 2, et mention "A" suivie du chiffre 1, 2 ou 3, correspondant à la catégorie de la commune dans laquelle l'appareil est placé, pour les appareils visés à l'article 80, ° 1er, lettre A.
+
+Sont notamment visés par l'une ou l'autre de ces dispositions les appareils dénommés Additor (Astra), Addomat, Beachcomber (Crompton), Bell-fruit, Bingo, Derby, Duplomat, Euromat, Florida Surf Race, Greyhound Derby Race, Jackpot, Jamboree, Match I, Mazzoma Bell, Mint-Record, Mississipi Gambler, Monte-Carlo (A.C.E.), Novomat, One Ball, Ovamat, Penny drop (Crompton), Penny-Falls, Penny-Lanes, Pools Scoop (Crompton), Ringon, Rotafruit (Pasch), Rotamat, Rot~mint, Rotomat, . Spinner (Rotamint), Super-Jumbo, Super-Six, Super Treble Chance (Bally), Tinky, Tooty-Fruity, Track-Odds, Union, Upright, Vikings (Whittaker Bros), Wheel 'em in et Wheel of Fortune.
+
+14. L'opération qui intervient entre l'exploitant de tels appareils et l'utilisateur est un contrat de jeu. Comme ce contrat sort du champ d'application de la taxe sur la valeur ajoutée, l'exploitant n'acquiert pas, en raison de cette activité, la qualité d'assujetti et les recettes recueillies dans l'appareil ne sont pas imposables à cette taxe (v. le n o 9).
+
+15. On notera que le régime applicable aux appareils de divertissement visés par l'article 80 ° 1er, lettres B à F, du Code des taxes assimilées aux impôts sur les revenus est précisé aux numéros 22 à 26.
+
+16. [On notera également que certains appareils automatiques de divertissement qui sont en principe rangés dans l'une des catégories C à F, de l'article 80, ° 1er, précité, doivent néanmoins être rangés sous la lettre A de cette même disposition lorsqu'ils présentent certaines caractéristiques en raison desquelles ils doivent être considérés comme des appareils automatiques de jeu pour l'application du Code des taxes assimilées aux impôts sur les revenus. Dans ce cas, la lettre inscrite sur le signe distinctif fiscal (v. n o 13) est la lettre A.]
+
+Les appareils automatiques distributeurs de biens .
+
+17. [Sont visés ici les appareils automatiques qui procurent des biens a l'utilisateur, à l'exclusion de nourriture ou de boissons destinées à être consommées sur place.]
+
+18. Les recettes recueillies dans les appareils représentent le prix de livraisons de biens.
+
+L'exploitant a la qualité d'assujetti et les recettes sont soumises à la taxe sur la valeur ajoutée.
+
+19. Le taux de la taxe applicable à la recette varie d'après la nature des biens fournis à l'utilisateur. Ainsi, la taxe est due au taux de 6 p.c. lorsque l'appareil distribue des bonbons, du chocolat ou d'autres produits de la confiserie, au taux de 14 p.c. lorsque l'appareil fournit des bas à l'utilisateur, ou au taux de 18 p.c. lorsqu'il s'agit d'un appareil automatique distributeur de photos.
+
+20. La taxe se calcule sur le montant total de la recette trouvée dans l'appareil, même si l'exploitant doit abandonner un pourcentage de la recette au tenancier du local où l'appareil est exploité ou au propriétaire de l'emplacement où se trouve l'appareil (v. le n o 27). mais il faut tenir compte du fait que la recette recueillie comprend la taxe sur la valeur ajoutée.
+
+21. On remarquera toutefois qu'aucune taxe n'est due sur les recettes recueillies dans les appareils automatiques distributeurs de cigarettes en raison du régime spécial qui s'applique aux tabacs fabriqués. Les exploitants de tels appareils n'en ont pas moins la qualité d'assujetti.
+
+Les autres appareils automatiques.
+
+22. Il y a d'autres appareils automatiques de nature très variée, tels que les appareils automatiques de divertissement visés à l'article 80, ° 1er, lettres B à F, du Code des taxes assimilées aux impôts sur les revenus, à l'exclusion des appareils de jeu (v. les n o s 13 à 16), les appareils automatiques distributeurs de nourriture ou de boissons destinées à être consommées sur place, les balances automatiques, les longues-vues munies d'un dispositif automatique, les appareils automatiques diffusant des sons (juke-boxes) ou projetant des films et les appareils automatiques destinés au divertissement des enfants et appelés "Kiddie-rides".
+
+23. Les recettes recueillies dans ces appareils représentent le prix de services visés par le Code. L'exploitant a la qualité d'assujetti et ses recettes sont, par conséquent, soumises à la taxe sur la valeur ajoutée.
+
+24. [La taxe est due en règle au taux de 18 p.c. Toutefois ce taux est ramené à 6 p.c. :
+
+1 o pour les recettes recueillies dans les appareils automatiques distributeurs de nourriture ou de boissons destinées à être consommées sur place (v. rubrique XXX, chiffre 2, du tableau A de l'annexe à l'arrêté royal n o 20);
+
+2 o pour les recettes recueillies dans les appareils automatiques de divertissement (v. rubrique XXVIII, chiffre 1, du tableau A de l'annexe à l'arrêté royal n o 20). Par appareils de divertissement, on entend notamment les appareils automatiques de divertissement visés à l'article 80, ° 1er, lettres B à F du Code des taxes assimilées aux impôts sur les revenus, à l'exclusion des appareils automatiques de divertissement qui présentent certaines caractéristiques en raison desquelles ils sont considérés comme des appareils automatiques de jeu pour l'application du Code précité (v. n o 16), les longues-vues munies d'un dispositif automatique, les appareils automatiques diffusant des sons ou projetant des films et les appareils automatiques destinés au divertissement des enfants ("Kiddie-rides").
+
+25. Pour certains appareils automatiques, tels les grues, qui permettent à l'utilisateur d'obtenir des objets, la distinction suivante doit être faite. Lorsque l'appareil est rangé parmi les appareils automatiques de divertissement pour l'application du Code des taxes assimilées aux impôts sur les revenus, les recettes recueillies dans l'appareil sont soumises à la taxe au taux de 6 p.c. En revanche, lorsque l'appareil n'est pas rangé parmi les appareils automatiques de divertissement, le taux de la taxe applicable aux recettes recueillies dans l'appareil varie selon la nature des biens fournis à l'utilisateur.]
+
+26. La taxe se calcule sur le montant total de la recette relevée dans l'appareil même si l'exploitant doit abandonner un pourcentage de la recette au tenancier du local où l'appareil est exploité ou au propriétaire de l'emplacement où se trouve l'appareil. mais cette recette comprend la taxe sur la valeur ajoutée.
+
+Section 3.- Les autres opérations.
+
+Redevances payées par l'exploitant.
+
+27. [L'exploitant de l'appareil automatique est souvent tenu de payer une redevance à la personne qui est propriétaire ou locataire du local ou de l'emplacement où se trouve l'appareil.
+
+28. Les intéressés peuvent considérer que cette redevance ne constitue pas le prix d'un service au sens du Code de la T.V A. et qu'elle échappe par conséquent à la taxe. mais, dans ce cas, la taxe qui grève les biens ou services utilisés exclusivement par le propriétaire ou le locataire du local ou de l'emplacement pour faire face aux engagements pris à l'égard de l'exploitant de l'appareil automatique, ne peut pas être déduite.
+
+Location des appareils automatiques.
+
+29. Le propriétaire de l'appareil automatique peut donner l'appareil en location à une autre personne qui en assure l'exploitation.
+
+30. Cette location constitue un service visé par l'article 18, ° 1er, 4 o , du Code. Le taux applicable s'élève en règle à 18 p.c. Il est toutefois ramené à 6 p.c. lorsque la location porte sur des appareils automatiques de divertissement (v. n o 24, 2 o ).
+
+Elle est due lorsque la jouissance s'exerce dans le pays et que la location est consentie par un assujetti. A ce propos, on notera qu'acquiert la qualité d'assujetti même la personne qui ne donne en location qu'un seul appareil, pour autant que la location ait une certaine durée.
+
+31. La taxe est due sur la location même si l'appareil donné en location est un appareil automatique de jeu, visé à l'article 80, ° 1er, lettre A, et ° 2, du Code des taxes assimilées aux impôts sur les revenus (v. n o s 13 à 16). On notera que la personne qui prend en location un appareil automatique de jeu en vue de faire des opérations de jeu, ne peut pas déduire la taxe qui grève la location.]
+
+Disposition abrogatoire.
+
+32. La présente circulaire abroge la circulaire n o 82, du 13 mai 1971.
+
+Au nom du Ministre :
+
+Le Directeur général,
+
+C. SCAILTEUR

@@ -1,0 +1,189 @@
+---
+guid: "63eec9b0-4f40-471f-a989-93ff255869fa"
+title: "26.06.2002 - Arrêté royal relatif aux conventions de concession conclues entre les communes et les candidats exploitants d'un établissement de jeux de hasard de classe I"
+document_type: "Arrêtés royaux"
+language: "fr"
+document_date: "2002-06-26"
+publication_date: "2002-06-29"
+effective_date: "2002-06-29"
+last_modified: "2022-09-15"
+taxonomies: ["Autre législation"]
+path: ["FISCALITÉ", "Taxes assimilées aux impôts sur les revenus", "Législation et réglementation", "Autre législation"]
+linked_document_nl: "e86b1554-0560-4b2f-8362-fe089e590158"
+found_via: "bb893ee3-5a69-4442-ba25-8572f6489d4a"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/63eec9b0-4f40-471f-a989-93ff255869fa"
+---
+
+# 26.06.2002 - Arrêté royal relatif aux conventions de concession conclues entre les communes et les candidats exploitants d'un établissement de jeux de hasard de classe I
+
+26.06.2002 - Arrêté royal relatif aux conventions de concession conclues entre les communes et les candidats exploitants d'un établissement de jeux de hasard de classe I
+
+( M.B. , 29.06.2002, p. 29599 - Numac : 2002009605 )
+
+ALBERT II, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+Vu la loi du 7 mai 1999 sur les jeux de hasard, les établissements de jeux de hasard et la protection des joueurs, notamment l'article 29, dernier alinéa;
+
+Vu l'avis de la commission des jeux de hasard, donné le 7 mars 2001;
+
+Vu l'avis de l'Inspecteur des Finances, donné le 4 avril 2001;
+
+Vu l'avis du Conseil d'Etat, donné le 5 septembre 2001;
+
+Sur la proposition de Notre Ministre de la Santé publique, de Notre Ministre de l'Intérieur, de Notre Ministre de la Justice, de Notre Ministre des Finances et de Notre Ministre de l'Economie, et de l'avis de Nos Ministres qui en ont délibéré en Conseil,
+
+Nous avons arrêté et arrêtons :
+
+Article 1
+
+Une convention de concession reprenant les conditions minimales exigées, contenues dans le présent arrêté, doit être conclue entre la commune et le candidat exploitant d'un établissement de jeux de hasard de classe I.
+
+Article 2
+
+La convention de concession mentionne l'objet de la convention qui correspond à celui faisant l'objet de la description notariale des biens immobiliers annexée à celle-ci ainsi que la durée de la convention de concession.
+
+Le concessionnaire est tenu de verser au crédit du compte bancaire de la commune concédante, une somme annuelle fixée dans la convention au titre de concession. Le paiement a lieu en trois échéances trimestrielles dont les montants respectifs sont fixés également dans la convention.
+
+En cas de paiement tardif, un intérêt au taux légal est automatiquement dû, sans mise en demeure préalable.
+
+Le montant de la concession est adapté annuellement à la date anniversaire de la convention sur base des fluctuations de l'index des prix à la consommation et ce, selon la formule suivante :
+
+" Le montant de la concession est multiplié par le nouvel indice et le résultat est divisé par l'ancien indice. "
+
+L'ancien indice correspond à celui du mois précédant celui de la conclusion de la convention de concession.
+
+Le nouvel indice correspond à celui du mois précédent la date anniversaire de la convention de concession.
+
+Article 3
+
+La convention de concession mentionne le montant de la garantie bancaire devant être versée par le concessionnaire, la date du versement ainsi que le nom de l'établissement bancaire reconnu par le concédant auprès duquel la garantie doit être versée sur un compte bloqué.
+
+La garantie est indexée annuellement en fonction de l'évolution de l'indice des prix à la consommation, selon la formule visée à l'article 2 du présent arrêté, et doit être complétée dans le mois suivant l'indexation.
+
+A l'expiration de la convention de concession, la garantie est libérée en faveur du concessionnaire à condition qu'il ait exécuté l'ensemble des obligations lui incombant en application de la convention de concession conclue.
+
+En cas de non-paiement des montants échus dans le cadre de la convention de concession conclue, le concédant pourra récupérer les sommes dues à concurrence du même montant, sur la garantie et ce, sur demande par lettre recommandée adressée à l'organisme bancaire dont une copie accompagnée d'un courrier motivé sera adressée au concessionnaire.
+
+Dans ce cas, la garantie devra être reconstituée par le concessionnaire dans un délai d'un mois suivant le prélèvement des montants dus par l'autorité concédante.
+
+Article 4
+
+Préalablement à l'entrée dans les lieux du concessionnaire, un état des lieux d'entrée, contenant également l'inventaire de tous les biens présents appartenant au concédant est dressé contradictoirement.
+
+Cet état des lieux est annexé à la convention de concession après avoir été daté et signé par le concessionnaire et le représentant de l'autorité concédante et approuvé par décision du Collège des bourgmestre et échevins.
+
+A l'échéance de la convention de concession, un état des lieux de sortie est établi, daté, signé et approuvé selon les mêmes règles.
+
+Le concessionnaire a l'obligation de restituer les biens mis à sa disposition par le concédant tel que constaté dans la description de l'état des lieux d'entrée.
+
+Article 5
+
+Il incombe au concessionnaire d'effectuer tous les travaux d'entretien nécessaires pendant la durée de la convention de concession y compris les grosses réparations qui doivent être approuvées préalablement par décision du Collège des bourgmestre et échevins.
+
+La preuve écrite du contrôle des installations de chauffage, de conditionnement d'air, des ascenseurs, des installations sanitaires ainsi que de toute autre installation dont l'entretien nécessite l'intervention d'un professionnel ou d'un organisme agréé doit être fournie dans le mois suivant la date anniversaire de la convention au concédant.
+
+Article 6
+
+La convention mentionne les transformations que le concessionnaire est autorisé à réaliser dans les lieux. Le montant de ces travaux justifié par un ou plusieurs devis dressés par un professionnel du secteur concerné ainsi que la date de la décision du Collège des Bourgmestre et Echevins autorisant préalablement l'exécution de ces travaux et en approuvant le plan et l'estimation.
+
+En cas d'absence d'autorisation préalable, le concédant peut exiger la restitution en pristin état des lieux par simple mise en demeure recommandée adressée au concessionnaire.
+
+En cas d'acceptation des travaux non autorisés préalablement, le concédant ne sera tenu à l'égard du concessionnaire d'aucun dédommagement du fait de la plus-value connue par les biens donnés en concession.
+
+Article 7
+
+Les services d'inspection technique de la commune concédante procéderont à un contrôle bisannuel des lieux et dresseront la liste des travaux à effectuer.
+
+Article 8
+
+Le concessionnaire s'engage à souscrire pour la durée de la convention de concession, dans le mois de la conclusion de la convention, une police d'assurance couvrant les risques d'incendie, d'explosion, de tempête, de dégâts des eaux, ou tout autre dommage et ce pour la valeur complète de remplacement, auprès d'une compagnie d'assurance reconnue par le concédant.
+
+Une copie de cette police est annexée à la convention de concession dès sa souscription.
+
+Article 9
+
+La convention de concession fixe le nombre de jours de mise à disposition gratuite au concédant, des locaux du concession, à l'exception des salles de jeux, en-dehors des mois de juillet et août.
+
+Le droit d'utilisation du concédant ne peut empêcher l'exploitation normale du bien donné en concession, en tenant compte de la programmation établie par le concessionnaire, et soumise au concédant.
+
+A cette fin, le personnel au service du concessionnaire sera mis gratuitement à disposition.
+
+Article 10
+
+Le concessionnaire s'engage, en principe, à reprendre le personnel employé par l'exploitant précédent, à l'exception du personnel de direction. Ce personnel garde ses droits et privilèges acquis.
+
+Article 11
+
+Sont à charge du concessionnaire toutes les taxes et charges, de nature quelconque, quelle que soit l'autorité par laquelle elles sont exigées ou seront exigées dans le futur. De même tous les frais inhérents aux biens donnés en concession sont à la charge du concessionnaire.
+
+Article 12
+
+Le concessionnaire ne peut sous-louer le bien donné en concession ni en entier ni pour partie, ni transmettre la convention de concession en entier ou en parties, ni s'associer avec des tiers pour exécuter la convention sans avis préalable du concédant.
+
+Article 13
+
+Le concessionnaire déclare formellement être d'accord avec le fait que le Collège des bourgmestre et échevins et ses fonctionnaires contrôlent la stricte application de la présente convention. Dans cette optique il sera donné accès sans entraves aux biens donnés en concession aux membres du collège et aux fonctionnaires désignés par celui-ci. Le concessionnaire transmettra toutes informations utiles pour l'exercice du droit de contrôle au concédant.
+
+Article 14
+
+A. La convention se termine de plein droit à l'expiration du délai prévu pour la licence de classe A attribuée par la Commission des jeux de hasard.
+
+B. Le droit de concession se termine de plein droit lorsque la société détentrice de la licence est dissoute ou est déclarée en faillite.
+
+C. L'arrêt, même temporaire, de l'exploitation du casino engendre la résiliation de plein droit de la convention de concession. Le concédant pourra dans ce cas exiger une indemnisation équivalente à la caution établie, sans tenir compte des autres exigences sur lesquelles le concédant garde ses droits. La convention de concession n'est pas résiliée de plein droit si l'arrêt temporaire est indépendant de la volonté du concessionnaire.
+
+D. Le non-respect des conditions décrites, ou le fait de commettre des négligences graves, tant en ce qui concerne l'usage des biens donnés en concession qu'en ce qui concerne le paiement des montants dus au concédant, donne au concédant le droit de résilier la concession et d'exiger le paiement de tous les dommages subis ou encore à subir. Le constat du non-respect des conditions ou des négligences graves est signifié par lettre recommandée par le concédant au concessionnaire. En cas de non exécution , par le concessionnaire, de ses obligations dans un délai de quinze jours après réception du courrier recommandé, le concédant peut mettre fin unilatéralement à l'accord, sans possibilité de recours. La signification est donc valable comme résiliation définitive de la concession.
+
+E. Le retrait de la licence par la Commission des jeux de hasard a pour conséquence la rupture de l'accord de concession.
+
+Article 15
+
+Tous les frais d'enregistrement, de droit de timbre, d'amendes éventuelles ou autres, concernant la convention sont à charge du concessionnaire.
+
+Article 16
+
+Pour l'exécution de la convention le concédant élit domicile à la maison communale du lieu où les biens mis en concession sont situés.
+
+Article 17
+
+Toute contestation qui résulte, soit directement, soit indirectement de la convention de concession, tombe sous la compétence des tribunaux de l'arrondissement du lieu où les biens mis en concession sont situés.
+
+Article 18
+
+La convention est conclue sous la condition suspensive formelle d'attribution de licence de classe A au concessionnaire par la Commission des jeux de hasard.
+
+Article 19
+
+Le présent arrêté entre en vigueur dans le mois de sa publication au Moniteur belge.
+
+Article 20
+
+Notre Ministre de la Santé publique, Notre Ministre de l'Intérieur, Notre Ministre de la Justice, Notre Ministre des Finances et Notre Ministre de l'Economie sont chargés, chacun en ce qui le concerne, de l'exécution du présent arrêté.
+
+Donné à Bruxelles, le 26 juin 2002.
+
+ALBERT
+
+Par le Roi :
+
+La Ministre de la Santé publique,
+
+Mme M. AELVOET
+
+Le Ministre de l'Intérieur,
+
+A. DUQUESNE
+
+Le Ministre de la Justice,
+
+M. VERWILGHEN
+
+Le Ministre des Finances,
+
+D. REYNDERS
+
+Le Ministre de l'Economie,
+
+Ch. PICQUE

@@ -217,6 +217,15 @@ Available years: 2017-2026 (from `GET /changes/limit-year`).
 - `/library/documents?language=fr` lists 35 items: 34 Fisconet GUIDs + *Guide utilisateur externe* (SharePoint URL, skipped).
 - One item (*Code des droits d'enregistrement - Région de Bruxelles-Capitale*) is an **HTML table of contents**; its `[PDF]` link is a `https://fisconet.direct/{guid}` href pointing to a separate document whose content is the PDF. Follow `fisconet.direct` links to find it.
 - All 450 navigation-tree leaf documents (`/navigation/tree`) are `HTML`, not PDF.
+
+#### Fisconet+ tables of contents — link structure (2026-09-24)
+- 202 of the 450 tree documents are *Table des matières* pages. They link to the actual documents with `https://fisconet.direct/{guid}` and `https://fisconet.compare/{guid}[/{guid2}]` hrefs (`&#58;` HTML-escaped colon). The first GUID is the target document; `compare/{a}/{b}` is a version diff.
+- Year-specific codes (CIR 92 / AR-CIR 92 "Revenus YYYY", federal + 3 regions) are one TOC per income year × region, each linking ~800 article documents: following every year yields ~21k mostly duplicate articles.
+- Ordinary documents (articles, circulars) also link to older versions and related texts: only follow links from tree documents and TOCs, otherwise the crawl explodes.
+- *Répertoire RJ* (via "N° de RJ par date de publication") and *Recueil par concept* (C. enr., C. succ., CTA) are second-level TOCs leading to ~9k administrative decisions, case law, parliamentary questions and advance rulings.
+- Fisconet HTML often wraps a whole document in a single-cell layout `<table>`; converters must walk such cells as normal content instead of emitting a Markdown table.
+- A few TOC links contain malformed GUIDs (extra character) or return HTTP 400.
+- Script: `ingestion/scripts/download_myfin_docs.py` → `myfin_docs/` (21,259 Markdown documents for income years 2025–2027, ~284 MB).
 - Script: `ingestion/scripts/download_myfin_pdfs.py` → `myfin_pdfs/*.pdf` + `myfin_pdfs/manifest.json` (34 PDFs, ~107 MB, ~11.6k pages).
 
 #### Drupal PDF Links

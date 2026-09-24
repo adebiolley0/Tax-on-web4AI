@@ -1,0 +1,927 @@
+---
+guid: "165cfccf-8755-410a-afd0-d584b86e0f91"
+title: "27.04.1995 - Ordonnance relative aux services de taxis et aux services de location de voitures avec chauffeur"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "1995-04-27"
+publication_date: "1995-06-01"
+effective_date: null
+last_modified: "2024-10-15"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région de Bruxelles-Capitale", "Autre législation et réglementation"]
+linked_document_nl: "3dfc6edc-6448-420c-acef-476510682842"
+found_via: "6efe3bb8-1c0b-4a54-82de-9efc3b783687"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/165cfccf-8755-410a-afd0-d584b86e0f91"
+---
+
+# 27.04.1995 - Ordonnance relative aux services de taxis et aux services de location de voitures avec chauffeur
+
+(M.B. 01.06.1995 - dernière modification : arrêt de la Cour Constitutionnelle n°98/2022 du 14.07.2022 annule une partie de l'art. 34bis)
+
+NOTE : Selon les art. 2 et 3 de l'ordonnance du 28.10.2021 (M.B. 22.11.2021) "La taxe visée aux articles 13 et 26 § 1 er n'est pas due pour l'exercice d'imposition 2021."
+
+NOTE : Selon l'art. 52 de l'ordonnance du 09.06.2022 (M.B. 07.07.2022) " § 1 er . Sans préjudice de l'hypothèse visée au paragraphe 2, l'ordonnance du 27 avril 1995 relative aux services de taxis et aux services de location de voitures avec chauffeur est abrogée. § 2. Les procédures de sanction des infractions visées à l'article 35 de la même ordonnance et constatées en application de celle-ci poursuivent leur instruction conformément aux dispositions du chapitre V de cette ordonnance."
+
+Le Conseil de la Région de Bruxelles-Capitale a adopté et Nous, Gouvernement, sanctionnons ce qui suit :
+
+#### CHAPITRE I - Dispositions générales
+
+Article 1
+
+La présente ordonnance règle une matière visée aux articles 39 et 134 de la Constitution.
+
+Article 1 bis
+
+Le Code bruxellois de procédure fiscale est d’application aux taxes citées dans la présente ordonnance, ainsi qu’à leurs accessoires.
+
+-----------
+
+- inséré par l’art. 136, § 1 er de l’ord. du 06.03.2019. Entrée en vigueur à partir de l'exercice d'imposition 2022 (art. 2 de l'arr. du 16.12.2021 - M.B. 27.12.2021)
+
+Article 2
+
+Pour l'application de la présente ordonnance, on entend par :
+
+1° services de taxis : ceux qui assurent, avec chauffeur, le transport rémunéré de personnes par véhicules automobiles et qui réunissent les conditions ci-après :
+
+a) le véhicule, de type voiture, voiture mixte ou minibus, au sens de l'arrêté royal du 15 mars 1968 portant règlement général sur les conditions techniques auxquelles doivent répondre les véhicules automobiles et leurs remorques, leurs éléments ainsi que les accessoires de sécurité, est, d'après son type de construction et son équipement, apte à transporter au maximum neuf personnes - le chauffeur compris - et est destiné à cet effet ;
+
+b) le véhicule est mis à la disposition du public, soit à un point de stationnement déterminé sur la voie publique au sens du règlement général sur la police de la circulation routière, soit en tout autre endroit non ouvert à la circulation publique ;
+
+c) la mise à la disposition porte sur le véhicule et non sur chacune des places lorsque le véhicule est utilisé comme taxi, ou sur chacune des places du véhicule et non sur le véhicule lui-même lorsque le véhicule est utilisé comme taxi collectif avec l'autorisation du Gouvernement de la Région de Bruxelles-Capitale ;
+
+d) la destination est fixée par le client ;
+
+2° services de location de voitures avec chauffeur : tous services de transport rémunéré de personnes par véhicules automobiles qui ne sont pas des services de taxis et qui sont assurés au moyen de véhicules de type voiture, voiture mixte ou minibus, à l'exception des véhicules aménagés en ambulance ;
+
+3° Gouvernement : le Gouvernement de la Région de Bruxelles-Capitale ;
+
+4° Parlement : le Parlement de la Région de Bruxelles-Capitale.
+
+-----------
+
+- modifié par l’art. 2 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par l’art. 2 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+#### CHAPITRE II - Dispositions relatives aux services de taxis
+
+##### Section 1 - De l'autorisation
+
+Article 3
+
+Nul ne peut, sans autorisation du Gouvernement, exploiter un service de taxis au moyen d'un ou de plusieurs véhicules au départ d'une voie publique ou de tout autre endroit non ouvert à la circulation publique, qui se situe sur le territoire de la Région de Bruxelles-Capitale.
+
+L'autorisation d'exploiter emporte celle de stationner sur n'importe quel point de stationnement réservé aux taxis et situé sur la voie publique, aux conditions déterminées par le Gouvernement.
+
+Article 4
+
+§ 1. Les conditions d'exploitation des services de taxis sont fixées par le Gouvernement.
+
+L'autorisation d'exploiter un service de taxis est délivrée par le Gouvernement. Celui-ci détermine la procédure d'introduction et d'instruction des demandes d'autorisation ainsi que la forme des autorisations et les mentions qui doivent y figurer.
+
+Il ne peut être délivré qu'une seule autorisation par exploitant. L'autorisation mentionne le nombre de véhicules pour lesquels elle est délivrée.
+
+§ 2. (...)
+
+-----------
+
+- modifié par l’art. 3 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 5
+
+L'autorisation est délivrée en fonction de l'utilité publique du service et aux conditions fixées à l'article 6.
+
+Compte tenu de l'utilité publique du service, le nombre de véhicules pouvant être utilisés dans le cadre d'autorisations d'exploiter un service de taxis sur le territoire de la Région de Bruxelles-Capitale est limité.
+
+Le Gouvernement fixe le nombre maximum de véhicules pour lesquels des autorisations d'exploiter peuvent être délivrées notamment en fonction des besoins. A cette occasion, le Gouvernement peut énumérer différentes catégories de véhicules en rapport avec des besoins particuliers et fixer, pour chacune de ces catégories, le nombre maximum de véhicules pour lesquels des autorisations d'exploiter peuvent être délivrées.
+
+Lorsque ce nombre maximum n'est pas atteint, le Gouvernement publie au Moniteur belge un avis à destination du public en précisant le nombre de véhicules pour lesquels une ou plusieurs nouvelles autorisations d'exploiter sont susceptibles d'être délivrées à de nouveaux exploitants ou à concurrence desquels une ou des autorisations d'exploiter déjà délivrées sont susceptibles d'être étendues.
+
+Le Gouvernement est habilité à préciser les conditions et les critères auxquels les projets présentés par les candidats doivent répondre pour être recevables puis examinés ainsi que la forme et le contenu de l'avis à publier au Moniteur belge , le délai dans lequel les projets doivent être introduits et la procédure relative à la décision à prendre au terme de l'examen de ces projets.
+
+-----------
+
+- modifié par les art. 3 et 4 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par l’art. 2 de l’ord. du 21.11.2013. Texte entre en vigueur le 01.02.2014
+
+Article 6
+
+§ 1 er L'autorisation est délivrée par le Gouvernement par adjudication publique au candidat ayant remis une offre régulière sur la base d'une comparaison qualitative des offres et sur la base du prix de l'offre. Après une enquête portant sur les garanties morales, la qualification professionnelle et la solvabilité des candidats, seules les offres des candidats répondant à ces trois critères seront examinées.
+
+Le gouvernement en fixe les modalités.
+
+§ 2. L'enquête portant sur les critères de sélection préalable comme prescrit au § 1 er est menée par l'Administration sur la base des renseignements qu'elle possède lorsque le candidat est déjà titulaire d'une autorisation d'exploiter ainsi que des renseignements fournis par le candidat dans son offre.
+
+Lorsque soit le domicile de l'exploitant soit le siège social ou le siège d'exploitation d'une entreprise de taxis est établi sur le territoire d'une des communes faisant partie de la Région de Bruxelles-Capitale, des devoirs d'enquête peuvent être confiés aux services administratifs de la commune intéressée.
+
+-----------
+
+- modifié par l’art. 3 de l’ord. du 21.11.2013. Texte entre en vigueur le 01.02.2014
+
+Article 6 bis
+
+Le Gouvernement peut fixer les conditions de moralité, de qualification professionnelle et de solvabilité requises des exploitants en vertu de l'article 6 ainsi que les conditions de moralité et de qualification professionnelle requises des chauffeurs.
+
+Lorsque l'autorisation d'exploiter est délivrée à une personne morale, les conditions mises à charge des personnes physiques pour être titulaires de l'autorisation doivent être réunies durant toute la durée de l'exploitation par l'organe statutaire de cette personne morale qui est chargée de la gestion journalière.
+
+-----------
+
+- inséré par l’art. 4 de l’ord. du 21.11.2013. Texte entre en vigueur le 01.02.2014
+
+Article 7
+
+1 er La durée de l'autorisation d'exploiter un service de taxis est de sept ans.
+
+§ 2. Entre le 1 er janvier et le 31 mars de chaque année, chaque exploitant est tenu de communiquer à l'Administration un certificat de bonnes vie et mœurs, modèle 1, datant de moins de trois mois, établissant qu'il rencontre toujours les conditions de moralité au sens de l'article 6 bis . A défaut, l'autorisation d'exploiter est suspendue ou retirée conformément à l'article 12.
+
+§ 3. L'autorisation est renouvelable pour des termes de même durée. L'autorisation peut être accordée ou renouvelée pour une durée inférieure à sept ans, si des circonstances particulières inscrites dans l'acte d'autorisation ou de renouvellement justifient cette dérogation.
+
+§ 4. Le renouvellement de l'autorisation (peut être refusé) pour tous ou certains des véhicules dans les cas suivants :
+
+1° si l'exploitant n'a pas respecté les dispositions de la présente ordonnance, des arrêtés pris en exécution de celle-ci ou des conditions de l'autorisation d'exploiter ;
+
+2° si l'exploitant n'a pas respecté les dispositions de la loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur ;
+
+3° si le véhicule n'a pas été valablement assuré durant toute la période couverte par l'autorisation dont le renouvellement est demandé ;
+
+4° si le véhicule n'a pas été suffisamment mis à la disposition du public durant toute la période couverte par l'autorisation dont le renouvellement est demandé, sauf si l'exploitant peut faire valoir des motifs économiques ou sociaux exceptionnels dûment justifiés.
+
+5° si, compte tenu de l'utilité publique du service, l'exploitation n'est pas rentable. Le Gouvernement peut arrêter des critères de rentabilité ;
+
+6° si l'exploitant n'a pas respecté la législation sociale et la législation comptable durant la période de validité de son autorisation ;
+
+7° si l'exploitant ne répond plus aux conditions de moralité, de qualification professionnelle ou de solvabilité;
+
+8° si l'exploitant ne réserve aucune suite à une convocation ou à une demande de renseignements de l'Administration malgré un rappel adressé par courrier recommandé à la poste avec accusé de réception.
+
+La demande de renouvellement de l'autorisation doit être introduite neuf mois au plus et six mois au moins avant l'expiration de l'autorisation en cours.
+
+Le Gouvernement détermine la procédure d'introduction et d'instruction des demandes de renouvellement ainsi que les annexes qui doivent y être jointes et fixe la forme des autorisations et les mentions qui doivent y figurer.
+
+-----------
+
+- modifié par l’art. 5 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par les art. 4 et 5 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+- modifié par l’art. 5 de l’ord. du 21.11.2013. Texte entre en vigueur le 01.02.2014
+
+Article 8
+
+§ 1 er L'autorisation d'exploiter ne peut être délivrée qu'à une personne physique ou morale qui soit est propriétaire du ou des véhicules, soit en a la disposition en vertu d'un contrat de vente à tempérament, d'un contrat de location-financement ou d'un contrat de location-vente.
+
+§ 2. Les exploitants de services de taxis peuvent être autorisés à disposer pour l'exploitation de leur service de véhicules de réserve dont ils sont propriétaires ou dont ils ont la disposition en vertu d'un contrat de vente à tempérament, d'un contrat de location-financement ou d'un contrat de location-vente.
+
+Les véhicules de réserve ne peuvent être utilisés que lorsqu'un véhicule exploité dans le cadre de l'autorisation est momentanément indisponible ensuite d'un accident, d'une panne mécanique grave, d'incendie ou de vol et uniquement durant le temps de cette indisponibilité. L'exploitant ne peut utiliser un véhicule de réserve qu'après en avoir préalablement informé l'Administration par un pli ayant date certaine indiquant la cause de l'indisponibilité du véhicule exploité, la durée probable de cette indisponibilité ainsi que le lieu de stationnement du véhicule indisponible durant la période d'indisponibilité. Le Gouvernement précise les modes de communication ainsi que le délai de cette information préalable.
+
+Les véhicules de réserve doivent au moins répondre aux conditions suivantes :
+
+1° être équipés pour assurer un service de taxis dans les mêmes conditions que le véhicule momentanément indisponible;
+
+2° être enregistrés à l'administration en qualité de " voiture de réserve " au moment de leur utilisation;
+
+3° être munis à l'avant-gauche d'une plaque spéciale d'identification portant la mention " réserve ";
+
+4° être munis à l'avant-droit de la plaque d'identification du véhicule normalement mis en service et auquel le véhicule de réserve se substitue.
+
+Ces véhicules ne peuvent être donnés en location au sens de l'article 9.
+
+L'autorisation d'exploiter mentionne, le cas échéant, le nombre de véhicules de réserve que peut posséder l'exploitant. Ce nombre ne peut dépasser 20 % du nombre des véhicules affectés normalement à l'exploitation du service lorsque celui-ci exploite plus de dix véhicules.
+
+§ 3. Par dérogation au paragraphe 1 er , le titulaire d'une autorisation dont un véhicule est momentanément indisponible, par suite d'accident, de panne mécanique grave, d'incendie ou de vol peut être autorisé à titre exceptionnel à assurer son service avec un véhicule de remplacement dont il n'est pas propriétaire ou dont il n'a pas la disposition en vertu d'un contrat de vente à tempérament, d'un contrat de location-financement ou d'un contrat de location-vente. La décision sur la demande est prise par l'Administration lorsqu'elle l'accueille et par le Gouvernement lorsqu'elle la rejette.
+
+Cette autorisation ne peut être accordée que pour une période maximale de trois mois et ne peut être renouvelée.
+
+Les véhicules de remplacement doivent au moins répondre aux conditions suivantes :
+
+a) être équipés pour assurer un service de taxis (dans les mêmes conditions que le véhicule momentanément indisponible);
+
+b) être enregistrés au service des taxis du Ministère de la Région de Bruxelles-Capitale en qualité de "véhicule de remplacement" au moment de leur utilisation ;
+
+c) être munis à l'avant-gauche d'une plaque spéciale d'identification portant la mention "R-V" ;
+
+d) être munis à l'avant-droit de la plaque d'identification du véhicule normalement mis en service et auquel le véhicule de remplacement se substitue.
+
+Ces véhicules ne peuvent être donnés en location au sens de l'article 9.
+
+Le Gouvernement détermine la procédure d'introduction et d'instruction de la demande d'autorisation ainsi que les annexes qui doivent y être jointes et fixe la forme de celle-ci et les mentions qui doivent y figurer.
+
+-----------
+
+- modifié par l’art. 8 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par l’art. 7, 1°, 2° et 3° de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 9
+
+La location par l'exploitant, sous quelque forme que ce soit, du ou des véhicules à toute personne qui en assure ou en fait assurer la conduite, est interdite.
+
+Article 10
+
+Moyennant l'autorisation préalable du Gouvernement, l'exploitation d'un service de taxi peut être poursuivie sous le bénéfice et dans les conditions de l'autorisation d'exploiter et sans préjudice du droit au renouvellement visé à l'article 7, dans les cas suivants :
+
+1° le conjoint, le cohabitant légal, ou les parents ou alliés jusqu'au deuxième degré peuvent, en cas de décès ou d'incapacité permanente du titulaire de l'autorisation, poursuivre l'exploitation du service dans les mêmes conditions jusqu'au terme de l'autorisation en cours;
+
+2° une personne morale peut poursuivre l'exploitation d'une personne physique titulaire d'une autorisation dans le seul cas où celle-ci en fait apport à cette personne morale qu'elle crée et tant qu'elle en est l'associé majoritaire ainsi que l'organe statutaire chargé de la gestion journalière.
+
+Toute décision de refus est motivée.
+
+-----------
+
+- modifié par l’art. 7 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+Article 10 bis
+
+Le titulaire d'une autorisation qui a exploité un service de taxis sans interruption pendant au moins les dix années civiles qui précèdent celle de la demande peut, dans les conditions qui suivent et moyennant autorisation du Gouvernement, céder, à titre gratuit ou à titre onéreux, pour tous ou certains des véhicules exploités et à un ou plusieurs cessionnaires, son autorisation d'exploiter :
+
+1° le demandeur doit avoir rempli toutes ses obligations, dont la revalidation annuelle de son autorisation, durant dix ans au moins;
+
+2° le projet de cession ne peut porter que sur une autorisation ou sur la partie de l'autorisation exploitée depuis au moins dix ans, cet élément étant concrétisé par la durée de détention de la ou des plaquette(s) d'identification du ou des véhicule(s) exploité(s) en relation avec cette autorisation ou cette partie de l'autorisation;
+
+3° la personne présentée comme candidat cessionnaire doit remplir toutes les conditions visées aux articles 6 bis et 8 et répondre en outre aux critères fixés par le Gouvernement en relation avec ceux que le Gouvernement est habilité à préciser en application du dernier alinéa de l'article 5;
+
+4° le projet de cession doit être préalablement avisé favorablement par une commission dont le Gouvernement précise les modalités relatives à son fonctionnement, sa composition, ses attributions et à la procédure à suivre et composée :
+
+- pour un quart, par un ou plusieurs représentant(s) des exploitants de services de taxis, choisi(s) par le Ministre parmi les membres du Comité consultatif régional visé à l'article 34, qui représentent les exploitants de services de taxis;
+
+- pour un quart, par un ou plusieurs représentant(s) des usagers des transports publics;
+
+- pour un quart, par un ou plusieurs représentant(s) de l'administration;
+
+- pour un quart, par un ou plusieurs expert(s) désigné(s) par le Ministre après avis du Comité consultatif régional parmi des réviseurs d'entreprises ou des experts-comptables après appel à candidats.
+
+Cette commission est présidée par un représentant de l'administration et statue à la majorité des voix, celle du président étant, en cas d'égalité, prépondérante.
+
+La commission émet son avis en examinant la demande au regard des conditions visées aux 1° à 3° ainsi qu'au regard du montant de la transaction précisée dans la demande conformément au 5°, d). Sur ce dernier point, la commission se prononce quant au caractère raisonnable du montant déclaré dans la demande par rapport à la valeur économique de l'autorisation ou de la partie de l'autorisation dont la cession est envisagée au moment où elle se prononce;
+
+5° la demande de cession précise notamment :
+
+a) les coordonnées relatives au cédant;
+
+b) les coordonnées relatives au(x) candidat(s) cessionnaire(s);
+
+c) le nombre de véhicules exploités par le cédant et concernés par le projet de cession, les numéros de plaquettes d'identification des véhicules concernés par ce projet et, en cas de pluralité de cessionnaires, la répartition des véhicules concernés entre ceux-ci;
+
+d) le montant de la transaction.
+
+Le Gouvernement ne peut délivrer l'autorisation de céder qu'en cas d'avis favorable de la commission visée au 4°. La décision refusant la cession de l'autorisation est spécialement motivée lorsqu'elle s'écarte d'un avis favorable émis par la commission.
+
+Lorsque le cédant ne cesse pas son activité mais la poursuit au moyen des véhicules exploités non concernés par la cession, l'autorisation dont il reste titulaire est modifiée pour mentionner le nombre restant de véhicules que l'exploitant demeurera autorisé à exploiter jusqu'au terme de son autorisation, sans préjudice du renouvellement de celle-ci conformément à l'article 7.
+
+Lorsque le cessionnaire est déjà titulaire d'une autorisation d'exploiter, l'autorisation dont il est déjà titulaire est modifiée pour mentionner le nombre total de véhicules que l'exploitant sera désormais autorisé à exploiter, le terme de cette autorisation demeurant inchangé.
+
+En cas de cessation volontaire d'activité ou de faillite prononcée par le tribunal compétent, les autorisations d'exploiter qui n'auraient pas fait l'objet d'une demande d'autorisation de cession par l'exploitant ou le curateur désigné par le tribunal dans un délai de six mois prenant cours à la date de la cessation volontaire d'activité ou du jugement déclaratif de la faillite, sont frappées de plein droit de caducité. Dans ce cas, l'exploitant ou son représentant est tenu de restituer à l'Administration et dans les dix jours à dater de la déclaration de cessation volontaire ou du jugement déclaratif de faillite, les documents et matériels appartenant à la Région. Lorsqu'au terme de l'examen d'une demande de cession introduite dans l'hypothèse de la cessation volontaire d'activité ou de la faillite, une décision de refus d'autorisation de céder est adoptée par le Gouvernement, les autorisations d'exploiter concernées par cette procédure sont frappées de plein droit de caducité à compter de cette décision de refus. Dans ce cas, les documents et matériels appartenant à la Région doivent être restitués à l'Administration dans les quinze jours de la notification de cette décision. Durant l'examen d'une demande de cession introduite en application du présent alinéa, les autorisations d'exploiter concernées par cette demande sont suspendues de plein droit jusqu'à la décision du Gouvernement.
+
+Le titulaire d'une autorisation d'exploiter un service de taxis concerné par une mesure de réorganisation judiciaire prononcée par le tribunal conformément à la loi du 31 janvier 2009 relative à la continuité des entreprises peut introduire une demande d'autorisation de céder conformément au présent article, sans être tenu par les deux conditions visées à l'alinéa 1 er , 1° et 2°. Dans ce cas, la demande visée à l'alinéa 1 er , 5°, est accompagnée d'une copie du jugement octroyant la réorganisation judiciaire ainsi que de l'extrait de ce jugement publié aux annexes du Moniteur belge. Le créancier de l'exploitant concerné et qui a introduit auprès du tribunal la demande de transfert conformément à l'article 59, § 2, de la loi du 31 janvier 2009 peut également introduire une demande de cession dans les mêmes conditions.
+
+-----------
+
+- inséré par l’art. 6 de l’ord. du 21.11.2013. Texte entre en vigueur le 01.02.2014
+
+- modifié par l’art. 2 de l’ord. du 08.05.2014. Texte entre en vigueur le 11.06.2014
+
+Article 10 ter
+
+A la demande de plusieurs personnes morales ayant les mêmes associés ou actionnaires majoritaires et gérants ou administrateurs délégués, titulaires d'une autorisation d'exploiter un service de taxis, le Gouvernement peut autoriser un regroupement d'autorisations dans le cadre de la fusion ou de l'absorption de ces personnes morales.
+
+Lorsqu'il est fait droit à la demande, le terme de l'autorisation demeure celui de l'autorisation précédemment accordée à la personne morale regroupant différentes autorisations, le nombre de véhicules pouvant être exploités sous le bénéfice de cette autorisation étant modifié à due concurrence. En cas de fusion, le terme de l'autorisation regroupée est celui de l'autorisation qui avait été délivrée aux personnes morales fusionnées dont l'échéance vient en premier lieu.
+
+-----------
+
+- inséré par l’art. 9 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+Article 11
+
+§ 1. Le titulaire d'une autorisation d'exploiter peut demander à tout moment au Gouvernement de diminuer à titre définitif le nombre de véhicules pouvant être exploités sous le bénéfice de l'autorisation dont il dispose. En ce cas, l'exploitant restitue au moment de l'introduction de sa demande à l'Administration les documents et matériels appartenant à la Région et concernant le ou les véhicules que l'exploitant renonce définitivement et irrévocablement à encore exploiter.
+
+§ 2. Pour des motifs économiques ou sociaux exceptionnels dûment justifiés, le titulaire d'une autorisation d'exploiter peut demander à tout moment au Gouvernement de suspendre, pour un terme qui ne peut être inférieur à un mois et qui ne peut excéder douze mois, l'exploitation d'un ou de plusieurs véhicules faisant l'objet de son autorisation d'exploiter, sans préjudice de son obligation de payer les taxes et autres charges afférentes à l'autorisation.
+
+Pareille faculté ne peut être utilisée par le titulaire d'une autorisation d'exploitation qu'une fois par année civile et sans que la durée totale des suspensions puisse excéder douze mois de la durée totale de l'autorisation.
+
+§ 2 bis . Si l'Administration constate qu'au vu du nombre de chauffeurs auxquels un exploitant lui signale avoir recours, celui-ci ne peut assurer la mise à disposition suffisante de ses véhicules au public, le Gouvernement peut diminuer d'office le nombre de véhicules au moyen desquels l'exploitant est autorisé à exploiter son service jusqu'à ce que l'exploitant apporte la preuve de l'engagement des chauffeurs nécessaires à la conduite des véhicules exploités. En ce cas, l'exploitant est tenu de restituer à l'Administration les documents et matériels appartenant à la Région et concernant le ou les véhicules visé(s) par la décision de diminution.
+
+Le Gouvernement est habilité à fixer la durée maximale endéans laquelle l'exploitant doit faire la preuve de l'engagement des chauffeurs nécessaires à la conduite des véhicules exploités. Au terme de cette période, le Gouvernement peut diminuer à titre définitif le nombre de véhicules pouvant être exploités par l'exploitant concerné.
+
+§ 3. Les décisions prises en application du présent article le sont en fonction de l'utilité publique du service selon la procédure et les conditions applicables à la demande d'autorisation d'exploiter un service de taxis.
+
+-----------
+
+- modifié par l’art. 9 de l’ord. Du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par les art. 10 à 12 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+Article 12
+
+Par décision motivée du Gouvernement, l'autorisation prévue à l'article 4 peut être retirée ou suspendue pour une durée déterminée en cas de violation des dispositions de la présente ordonnance, des arrêtés pris en exécution de celle-ci ou des conditions de l'autorisation, ainsi qu'en cas d'abandon total de l'exploitation pendant une durée de deux ans.
+
+Le Gouvernement peut préciser la procédure de retrait et de suspension des autorisations d'exploiter. Par dérogation à l'alinéa premier, le Gouvernement peut habiliter le fonctionnaire désigné à cette fin à prendre les décisions de suspension d'une durée n'excédant pas un mois.
+
+-----------
+
+- modifié par l’art. 10 de l’ord. Du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+Article 13
+
+Les autorisations délivrées sur la base de l'article 4 donnent lieu à la perception d'une taxe annuelle et indivisible à charge de la personne physique ou morale bénéficiant de l'autorisation.
+
+-----------
+
+NOTE : Selon l'art. 2 de l'ordonnance du 28.10.2021 (M.B. 22.11.2021) "La taxe visée à l'article 13 (...) n'est pas due pour l'exercice d'imposition 2021."
+
+Article 14
+
+La taxe mentionnée à l'article 13 est fixée à 575 euros par an et par véhicule visé dans l'acte d'autorisation.
+
+Par dérogation au premier alinéa, la taxe pour l'année 2014 mentionnée à l'article 13 est fixée à 200 euros par an et par véhicule visé dans l'acte d'autorisation, pour les exploitants qui auront procédé, au plus tard le 31 décembre 2014, à l'achat d'un nouveau taximètre numérique dont les modalités sont fixées par le gouvernement.
+
+Par dérogation au premier alinéa, la taxe pour l'année 2015 mentionnée à l'article 13 est fixée à 200 euros par an et par véhicule visé dans l'acte d'autorisation, pour les exploitants qui auront procédé, au plus tard le 31 décembre 2015, à l'achat d'un nouveau taximètre numérique, dont les modalités sont fixées par le gouvernement.
+
+La taxe est due pour l'année entière, quel que soit le moment auquel l'autorisation d'exploiter a été délivrée. Elle est payable annuellement et indivisiblement à charge du titulaire de l'autorisation recensé au 1 er janvier de l'année civile ou au moment de la délivrance de l'autorisation.
+
+Elle est recouvrée et poursuivie suivant les règles déterminées par les chapitres 4 et 5 du titre 2 du Code bruxellois de procédure fiscale.
+
+La réduction du nombre de voitures ou la suspension de l'exploitation d'un ou de plusieurs véhicules ne donne lieu à aucune réduction de taxe. Il en est de même en ce qui concerne la suspension ou le retrait d'une autorisation ou la mise hors d'usage d'un ou plusieurs véhicules pour quelque raison que ce soit.
+
+L’introduction d’une réclamation ne suspend pas l’exigibilité de la taxe, conformément à l’article 34 du Code bruxellois de procédure fiscale.
+
+-----------
+
+- modifié par l’art. 13 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+- modifié par l’art. 54 de l’ord. du 21.12.2012. Texte entre en vigueur le 01.01.2013 (voir également l’art. 70)
+
+- modifié par l’art. 2 de l’ord. du 19.12.2013. Texte entre en vigueur le 01.01.2014
+
+- modifié par l’art. 10 de l’ord. du 18.12.2015. Texte entre en vigueur le 01.01.2015
+
+- alinéa 5 remplacé par l’art. 136, § 2 de l’ord. du 06.03.2019. Entrée en vigueur à partir de l'exercice d'imposition 2022 (art. 2 de l'arr. du 16.12.2021 - M.B. 27.12.2021)
+
+- alinéa 7 remplacé par l’art. 136, § 3 de l’ord. du 06.03.2019. Entrée en vigueur à partir de l'exercice d'imposition 2022 (art. 2 de l'arr. du 16.12.2021 - M.B. 27.12.2021)
+
+##### Section 2 - Du stationnement
+
+Article 15
+
+Tout exploitant autorisé par le Gouvernement à exploiter un service de taxis est autorisé à faire occuper, par ses véhicules pour lesquels l'autorisation d'exploiter a été délivrée, n'importe quel point de stationnement réservé aux taxis situé sur la voie publique et qui est inoccupé ou tout lieu de stationnement non situé sur la voie publique dont il est propriétaire.
+
+Toutefois, sur demande dûment justifiée, le Gouvernement peut autoriser un exploitant à faire occuper par ses véhicules des emplacements particuliers dont il aurait l'entière jouissance à condition que ces emplacements se trouvent à l'intérieur de bâtiments ou de garages destinés à l'exploitation d'un service de transport rémunéré de personnes. Le Gouvernement peut préciser les critères minimaux auxquels ces aires de stationnement et ces emplacements doivent répondre.
+
+En aucun cas, le nombre de voitures présentes à un point de stationnement situé sur la voie publique ne peut dépasser le nombre d'emplacements qui y sont prévus.
+
+-----------
+
+- modifié par l’art. 14 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+#### CHAPITRE III - Dispositions relatives aux services de location de voitures avec chauffeur
+
+##### Section 1 - De l'autorisation
+
+Article 16
+
+Nul ne peut, sans autorisation du Gouvernement, exploiter sur le territoire de la Région de Bruxelles-Capitale un service de location de voitures avec chauffeur au moyen d'un ou de plusieurs véhicules.
+
+Seuls les exploitants titulaires d'une autorisation délivrée par le Gouvernement peuvent effectuer des prestations de services dont le point de départ pour l'usager est situé sur le territoire de la Région de Bruxelles-Capitale.
+
+L'autorisation d'exploiter n'emporte aucune autorisation de stationner sur des points particuliers de la voie publique.
+
+-----------
+
+- modifié par l’art. 15 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 17
+
+§ 1. Les conditions d'exploitation des services de location de voitures avec chauffeur sont fixées par le Gouvernement. Elles consacrent au moins l'application des principes suivants :
+
+1° Le véhicule affecté à l'exploitation du service doit être un véhicule de luxe et offrir aux passagers les conditions de confort et les aménagements intérieurs réclamés par la clientèle. Ces critères peuvent être précisés par le Gouvernement ;
+
+2° Le véhicule doit être soumis à un contrôle périodique destiné à vérifier que le véhicule continue à remplir toutes les conditions d'exploitation ;
+
+3° Toute location de véhicule donne lieu à une inscription sur un registre tenu au siège de l'exploitation et dans lequel doivent figurer la date et l'heure de la commande ainsi que l'objet précis du contrat de location et son prix ; ce registre peut être organisé sous une forme informatisée ;
+
+4° Le véhicule ne peut être mis qu'au service d'une personne physique ou morale déterminée en vertu d'un contrat écrit conforme au modèle arrêté par le Gouvernement, dont un exemplaire se trouve au siège de l'exploitation et une copie à bord du véhicule lorsque la signature du contrat précède la prise en charge des passagers ou dont l'original se trouve à bord du véhicule dans les autres cas. Le contrat écrit mentionne en tout cas que le véhicule est mis au service de la personne pour une durée de trois heures au moins.
+
+En toute hypothèse, le service ne peut être rémunéré qu'après réception de la facture au siège du client ;
+
+5° Le véhicule ne peut ni stationner ni circuler sur la voie publique ou sur une voie privée accessible au public, s'il n'a fait l'objet d'une location préalable au siège de l'entreprise ;
+
+6° Le contrat de location ne peut porter que sur le véhicule et non sur des places dans le véhicule ;
+
+7° Le véhicule doit être équipé d'un signe distinctif apposé à l'avant et à l'arrière du véhicule et avoir à son bord au moins les documents d'autorisation d'exploiter un service de location de voitures avec chauffeur et un document de bord propre au véhicule loué ;
+
+8° Il ne peut porter aucun signe extérieur ni intérieur caractérisant ou rappelant les véhicules affectés à l'exploitation d'un service de taxis tels que taximètres, voyant lumineux et mentions ;
+
+9° Il ne peut pas être équipé d'un appareil émetteur ou récepteur de radiocommunication au sens de l'article 1 er , 4°, de la loi du 30 juillet 1979 relative aux radiocommunications.
+
+§ 2. L'autorisation d'exploiter un service de location de voitures avec chauffeur est délivrée par le Gouvernement.
+
+Celui-ci détermine la procédure d'introduction et d'instruction des demandes d'autorisation ainsi que les annexes qui doivent y être jointes et fixe la forme des autorisations et les mentions qui doivent y figurer.
+
+Il ne peut être délivré qu'une seule autorisation par exploitant.
+
+L'autorisation mentionne le nombre de véhicules pour lesquels elle est délivrée.
+
+-----------
+
+- modifié par les art. 16 et 17 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 18
+
+Aux conditions fixées à l'article 19, l'autorisation d'exploiter un service de location de voitures avec chauffeur est délivrée à toute personne physique ou morale qui en fait la demande, sans limitation du nombre total d'autorisations d'exploiter un service de location de voitures qui ont été délivrées.
+
+Article 19
+
+L'autorisation est délivrée après une enquête portant sur les garanties morales, la qualification professionnelle et la solvabilité du requérant ainsi que sur la qualité des véhicules.
+
+Lorsque soit le domicile de l'exploitant soit le siège social ou le siège d'exploitation de l'entreprise de location de voitures avec chauffeur est établi sur le territoire d'une des communes faisant partie de la Région de Bruxelles-Capitale, des devoirs d'enquête peuvent être confiés aux services administratifs de la commune intéressée.
+
+Le Gouvernement peut fixer les conditions de moralité, de qualification professionnelle et de solvabilité requises des exploitants en vertu de l'alinéa 1 er ainsi que les conditions de moralité et de qualification professionnelle requises des chauffeurs.
+
+Lorsque l'autorisation d'exploiter est délivrée à une personne morale, les conditions mises à charge des personnes physiques pour être titulaires de l'autorisation doivent être réunies durant toute la durée de l'exploitation par l'organe statutaire de cette personne morale qui est chargé de la gestion journalière.
+
+Article 20
+
+§ 1. La durée de l'autorisation d'exploiter un service de location de voitures avec chauffeur est de cinq ans. L'autorisation est renouvelable pour des termes de même durée.
+
+L'autorisation peut être accordée ou renouvelée pour une durée inférieure à cinq ans, si des circonstances particulières inscrites dans l'acte d'autorisation ou de renouvellement justifient cette dérogation.
+
+§ 2. Le renouvellement de l'autorisation sera refusé pour tous ou certains des véhicules dans les cas suivants :
+
+1° si l'exploitant n'a pas respecté les dispositions de la présente ordonnance, des arrêtés pris en exécution de celle-ci ou des conditions de l'autorisation d'exploiter ;
+
+2° si l'exploitant n'a pas respecté les dispositions de la loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur ;
+
+3° si le véhicule n'a pas été valablement assuré durant toute la période couverte par l'autorisation dont le renouvellement est demandé ;
+
+4° si l'exploitant n'a pas respecté la législation sociale ou la législation comptable ;
+
+5° si l'exploitant ne répond plus aux conditions de moralité, de qualification professionnelle ou de solvabilité.
+
+La demande de renouvellement de l'autorisation doit être introduite neuf mois au plus et six mois au moins avant l'expiration de l'autorisation en cours.
+
+Le Gouvernement détermine la procédure d'introduction et d'instruction des demandes de renouvellement ainsi que les annexes qui doivent y être jointes et fixe la forme des autorisations et les mentions qui doivent y figurer.
+
+Article 21
+
+L'autorisation d'exploiter un service de location de voitures avec chauffeur ne peut être délivrée qu'à une personne physique ou morale qui soit est propriétaire du ou des véhicules, soit en a la disposition en vertu d'un contrat de vente à tempérament, d'un contrat de location-financement ou d'un contrat de location-vente.
+
+Par dérogation à l'alinéa 1 er , le titulaire d'une autorisation dont un véhicule est momentanément indisponible, par suite d'accident, de panne mécanique grave, d'incendie ou de vol peut être autorisé à titre exceptionnel à assurer son service avec un véhicule de remplacement dont il n'est pas propriétaire ou dont il n'a pas la disposition en vertu d'un contrat de vente à tempérament, d'un contrat de location-financement ou d'un contrat de location-vente. Cette autorisation ne peut être accordée que pour une période maximale de trois mois et ne peut être renouvelée.
+
+Le Gouvernement détermine la procédure d'introduction et d'instruction des demandes d'autorisation visées â l'alinéa 2 ainsi que la forme de celles-ci et les mentions qui doivent y figurer.
+
+Article 22
+
+La location par l'exploitant, sous quelque forme que ce soit, du ou des véhicules à toute personne qui en assure ou en fait assurer la conduite, est interdite.
+
+Article 23
+
+L'autorisation d'exploiter est personnelle, indivisible et incessible.
+
+Article 24
+
+Si l'exploitant souhaite réduire ou augmenter le nombre de véhicules utilisés durant la période de validité de son autorisation, le Gouvernement modifie, à sa demande et pour le terme restant à courir jusqu'à l'expiration de l'autorisation, le nombre de véhicules figurant dans l'acte d'autorisation.
+
+La décision est prise selon la procédure et les conditions applicables à la demande d'autorisation.
+
+Article 25
+
+Par décision motivée du Gouvernement, l'autorisation prévue à l'article 17 peut être retirée ou suspendue pour une durée déterminée en cas de violation des dispositions de la présente ordonnance, des arrêtés pris en exécution de celles-ci ou des conditions de l'autorisation ainsi qu'en cas d'abandon total de l'exploitation pendant une durée de deux ans.
+
+Le Gouvernement peut préciser la procédure de retrait et de suspension des autorisations d'exploiter.
+
+Article 26
+
+§ 1. Les autorisations délivrées sur la base de l'article 17 donnent lieu à la perception d'une taxe annuelle et indivisible à charge de la personne physique ou morale bénéficiant de l'autorisation.
+
+§ 2. La taxe mentionnée au § 1 er est fixée à 682,00 EUR par an et par véhicule visé dans l'acte d'autorisation.
+
+La taxe est due pour l'année entière, quel que soit le moment auquel l'autorisation d'exploiter a été délivrée. Elle est payable annuellement et indivisiblement à charge du titulaire de l'autorisation recensé au 1 er janvier de l'année civile ou au moment de la délivrance de l'autorisation.
+
+Elle est recouvrée et poursuivie suivant les règles déterminées par les chapitres 4 et 5 du titre 2 du Code bruxellois de procédure fiscale.
+
+La réduction du nombre de voitures ou la suspension de l'exploitation d'un ou de plusieurs véhicules ne donne lieu à aucune réduction de taxe. Il en est de même en ce qui concerne la suspension ou le retrait d'une autorisation ou la mise hors d'usage d'un ou de plusieurs véhicules pour quelque raison que ce soit.
+
+L'introduction d'une réclamation ne suspend pas l'exigibilité de la taxe.
+
+-----------
+
+- modifié par l’art. 10 de l’arr. du 13.12.2001. Texte entre en vigueur le 01.01.2002
+
+- modifié par l’art. 55 de l’ord. du 21.12.2012. Texte entre en vigueur le 01.01.2013 (voir également l’art. 70)
+
+- modifié par l’art. 11 de l’ord. du 18.12.2015. Texte entre en vigueur le 01.01.2015
+
+- § 2, alinéa 3 remplacé par l’art. 136, § 4 de l’ord. du 06.03.2019. Entrée en vigueur à partir de l'exercice d'imposition 2022 (art. 2 de l'arr. du 16.12.2021 - M.B. 27.12.2021)
+
+NOTE : Selon l'art. 3 de l'ordonnance du 28.10.2021 (M.B. 22.11.2021) "La taxe visée à l'article 26 § 1 er (...) n'est pas due pour l'exercice d'imposition 2021."
+
+##### Section 2 - Du stationnement
+
+Article 27
+
+L'exploitant autorisé par le Gouvernement à exploiter un service de location de voitures avec chauffeur ne peut faire occuper par ses véhicules qui ne sont pas en service que des points de stationnement non situés sur la voie publique qui se trouvent à l'intérieur d'un bâtiment ou d'un garage destiné à l'exploitation d'un service de transport rémunéré de personnes dont l'exploitant du service est propriétaire ou en a la jouissance et qui constitue le siège de l'exploitation de l'entreprise.
+
+#### CHAPITRE IV - Dispositions communes aux services de taxis et aux services de location de voitures avec chauffeur
+
+Article 28
+
+Le Gouvernement arrête le règlement général relatif à l'exploitation des services de taxis et des services de location de voitures avec chauffeur.
+
+Ce règlement comprend notamment des dispositions relatives aux obligations et à la surveillance des chauffeurs.
+
+Le Gouvernement arrête également les dispositions relatives aux véhicules exploités comme taxis ou comme voitures de location avec chauffeur en consacrant au moins l'application des principes suivants :
+
+1° (...) les vehicules exploités comme taxis ne peuvent avoir une ancienneté de plus de sept ans à compter de la première mise en circulation telle qu'elle est indiquée sur le certificat d'immatriculation;
+
+2° les véhicules affectés par un exploitant à un service de taxis doivent avoir la couleur imposée par arrêté du Gouvernement ou revêtir la livrée dont les caractéristiques sont fixées par arrêté du Gouvernement pour permettre une reconnaissance aisée et rapide dans la circulation des véhicules exploités comme taxis.
+
+3° les véhicules affectés pour la première fois par un exploitant à un service de taxis doivent être équipés de moteurs dont les émissions respectent les normes de droit européen directement applicables, ainsi que les normes arrêtées par l'autorité fédérale compétente en la matière.
+
+-----------
+
+- modifié par l’art. 12 de l’arr. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par les art. 18 et 19 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+- modifié par l’art. 11 de l’ord. du 18.12.2015. Texte entre en vigueur le 01.01.2015
+
+Article 28 bis
+
+Il est créé un conseil de discipline régional chargé de proposer au ministre compétent des mesures de suspension ou de retrait des certificats de capacité de chauffeurs de taxis.
+
+Ce conseil est présidé par un magistrat ou magistrat honoraire désigné par le ministre et comprend en outre mais de manière paritaire :
+
+- un ou plusieurs représentant(s) de l'Administration;
+
+- un ou plusieurs représentant(s) des exploitants de services de taxis choisi(s) par le ministre après appel à candidats parmi d'anciens exploitants de services de taxis ayant eu une expérience d'au moins dix ans en la matière;
+
+- un ou plusieurs représentant(s) des chauffeurs de taxis désigné(s) par les organisations syndicales représentatives de ces chauffeurs.
+
+Les mandats de membre de ce conseil sont d'une durée d'un an, renouvelable.
+
+Le conseil de discipline propose au ministre d'adopter une mesure de suspension ou de retrait du certificat de capacité d'un chauffeur de taxi après avoir donné à celui-ci l'occasion de préparer son audition, après l'avoir entendu et après avoir motivé sa proposition. Le ministre ne peut s'écarter de la proposition que par une décision motivée.
+
+Le Gouvernement précise la composition et le fonctionnement du conseil de discipline ainsi que la procédure à suivre.
+
+-----------
+
+- inséré par l’art. 20 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+Article 29
+
+Le Gouvernement fixe les tarifs applicables aux services de taxis. Il peut décider de tarifs diversifiés en fonction notamment de l'heure, du jour ou du fait que le client a des bagages ou non ou décider de tarifs forfaitaires pour certains types de courses qu'il détermine et réglementer les tarifs applicables lorsque le véhicule est utilisé comme taxi collectif.
+
+Le Gouvernement peut créer des zones tarifaires distinctes au sein d'un même périmètre.
+
+Le Gouvernement fixe les tarifs minima applicables aux services de location de voitures avec chauffeur.
+
+Le Gouvernement peut décider d'intervenir, dans les cas qu'il détermine, dans le prix de la course.
+
+-----------
+
+- modifié par l’art. 13 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+Article 30
+
+Les tarifs en vigueur sont affichés à l'intérieur des taxis de manière apparente dans chaque véhicule.
+
+-----------
+
+- modifié par l’art. 21 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 31
+
+(…)
+
+-----------
+
+- abrogé par l’art. 22 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 32
+
+§ 1. Sauf autorisation préalable du Gouvernement, dans les conditions et selon les modalités que celui-ci arrête, la dénomination "taxi" et tout vocable rappelant ce mot ainsi que leur usage commercial sont exclusivement réservés aux exploitants de services de taxis disposant d'une autorisation d'exploiter.
+
+§ 2. Il est interdit aux exploitants de services de location de voitures avec chauffeur de faire en faveur de ceux-ci de la publicité sous la dénomination "taxi" ou sous un vocable rappelant ce mot.
+
+§ 3. Suivant les modalités déterminées par arrêté du Gouvernement, un exploitant peut être autorisé à faire de la publicité dans ou sur les véhicules affectés à l'exploitation d'un service de taxis ou d'un service de location de voitures avec chauffeur.
+
+-----------
+
+- modifié par l’art. 23 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 33
+
+§ 1. Donnent lieu à la perception d'une taxe à charge du candidat exploitant, de l'exploitant, du candidat chauffeur ou du chauffeur, aux taux précisés ci-après, les actes suivants :
+
+1. inscription aux examens ouvrant accès à la profession de chauffeur de taxi :
+
+a) inscription à l'examen : 19 eur ;
+
+b) participation au cours du centre de formation pour chauffeurs : 38 EUR.
+
+La gratuité de l'inscription aux examens est garantie pour les personnes dont les moyens d'existence sont inférieurs ou égaux aux moyens définis en vertu de la loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence ;
+
+1 bis . inscription aux tests comportementaux 20 euros
+
+2. a) délivrance du certificat de capacité : 5,00 EUR ;
+
+b) délivrance d'un duplicata du même certificat : 30,00 EUR ;
+
+3. a) délivrance d'un extrait d'une décision administrative en matière de transport rémunéré de personnes : 5,00 EUR ;
+
+b) delivrance d'un duplicata de la même décision : 20,00 EUR ;
+
+4 a) delivrance d'une plaquette d'identification : 37,50 EUR ;
+
+b) délivrance d'une plaquette
+
+"RESERVE" : 37,50 EUR ;
+
+"R-V" remplacement : 37,50 EUR ;
+
+c) délivrance d'une nouvelle plaquette suite à la destruction, la perte ou le vol de la première plaquette :
+
+titulaire : 100,00 EUR ;
+
+Réserve ou "R-V" : 100,00 EUR ;
+
+5. délivrance de la brochure contenant la réglementation régionale en matière de taxi ou de voiture de location : 0,00 EUR ;
+
+6. dépôt d'une demande d'autorisation : 75,00 EUR ;
+
+7. dépôt d'une demande de cession : 250,00 EUR ;
+
+8. dépôt d'une demande basée sur l'article 10, alinéa 2, 2° : 250,00 EUR ;
+
+9. dépôt d'une modification imposée par la réglementation : 12,50 EUR;
+
+10. délivrance d'un duplicata de la carte d'identification du chauffeur : 30 euros;
+
+11. délivrance d'un duplicata de la carte d'autorisation d'exploiter par véhicule : 30 euros;
+
+12. délivrance d'un nouveau répétiteur lumineux en cas de perte, vol ou destruction : au prix coûtant;
+
+13. délivrance des feuilles de route : à prix coûtant.
+
+Le Gouvernement est habilité à adapter au maximum tous les deux ans, les montants visés à l'alinéa 1 er à l'évolution du coût de la vie.
+
+Cette adaptation est réalisée à l'aide du coefficient qui est obtenu en divisant l'indice des prix du mois de décembre de l'année qui précède l'exercice par l'indice des prix de décembre 2006. Après application du coefficient, les montants sont arrondis au multiple inférieur de 50 cents.
+
+§ 2. Afin de permettre à l'administration d'appliquer les dispositions de la présente ordonnance et d'en contrôler le respect ainsi que celui des arrêtés d'exécution et des autorisations d'exploiter, tout exploitant d'une entreprise de services de taxis ou de location de voitures avec chauffeur doit fournir les renseignements concernant son entreprise qui lui sont demandés par les autorités chargées de la délivrance des autorisations.
+
+-----------
+
+- modifié par l’art. 10 de l’arr. du 13.12.2001. Texte entre en vigueur le 01.01.2002
+
+- modifié par l’art. 15 de l’ord. du 11.07.2002. Texte entre en vigueur le 31.08.2002
+
+- modifié par l’art. 24 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+Article 34
+
+Il est crée un comité consultatif régional.
+
+Le comité est chargé de donner un avis au Gouvernement, à la demande de celui-ci ou de sa propre initiative, sur toute question relative aux taxis et aux services de location de voitures avec chauffeur.
+
+Le Gouvernement règle la composition, le fonctionnement et les attributions de ce comité.
+
+#### CHAPITRE IVBIS - Régime dérogatoire transitoire
+
+-----------
+
+- inséré par l'art. 2 de l'ord. du 10.12.2021 (M.B. 24.12.2021). Entrée en vigueur le 11.12.2021
+
+Article 34 bis
+
+Le régime dérogatoire transitoire prévu au présent chapitre est mis en place exclusivement pour les chauffeurs qui répondent à l'ensemble des conditions suivantes :
+
+1° être titulaire d'une autorisation d'exploiter un service de location de voitures avec chauffeur délivrée sur la base d'une demande adressée à l'administration au plus tard le 15 janvier 2021 ou travailler pour le titulaire d'une telle autorisation, dans le cadre d'un contrat de travail ou de collaboration indépendante, en qualité de chauffeur ;
+
+2° travailler à titre principal, pour l'exploitant-chauffeur, ou au minimum vingt heures par semaine, pour le chauffeur non exploitant, comme chauffeur du véhicule ou de l'un des véhicules identifiés dans l'autorisation visée au 1°.
+
+-----------
+
+- inséré par l'art. 2 de l'ord. du 10.12.2021 (M.B. 24.12.2021). Entrée en vigueur le 11.12.2021
+
+- l'arrêt de la Cour Constitutionnelle n°60/2022 du 21.04.2022 suspend les mots "délivrée sur la base d'une demande adressée à l'administration au plus tard le 15 janvier 2021"
+
+- l'arrêt de la Cour Constitutionnelle n°98/2022 du 14.07.2022 annule les mots "délivrée sur la base d'une demande adressée à l'administration au plus tard le 15 janvier 2021"
+
+Article 34 ter
+
+Le régime dérogatoire transitoire prévu au présent chapitre cesse d'être applicable après le 22 juillet 2022. Toutefois, le Gouvernement peut décider, au plus tard à cette date, de prolonger de trois mois maximum l'application du régime dérogatoire transitoire prévu au présent chapitre. Cette décision ne peut être prise qu'une seule fois.
+
+-----------
+
+- inséré par l'art. 2 de l'ord. du 10.12.2021 (M.B. 24.12.2021). Entrée en vigueur le 11.12.2021
+
+Article 34 quater
+
+En dérogation à l'article 3, les chauffeurs visés à l'article 34 bis sont exceptionnellement autorisés à prester des services de taxis, dans les limites suivantes et moyennant le strict respect des obligations suivantes :
+
+1° ils ne peuvent prester des services de taxis que dans le cadre d'une réservation préalable effectuée via une plateforme électronique ;
+
+2° ils ne peuvent pas occuper un point de stationnement réservé aux taxis situé sur la voie publique ;
+
+3° ils ne peuvent ni faire usage de la dénomination « taxi » ou de tout vocable rappelant ce mot, ni équiper leur véhicule de dispositifs de quelque nature que ce soit pouvant prêter à confusion avec la livrée réglementaire des véhicules de taxis.
+
+-----------
+
+- inséré par l'art. 2 de l'ord. du 10.12.2021 (M.B. 24.12.2021). Entrée en vigueur le 11.12.2021
+
+Article 34 quinquies
+
+Lorsqu'ils prestent des services de taxis, les chauffeurs visés à l'article 34 bis sont exceptionnellement dispensés du respect des dispositions suivantes :
+
+1° l'article 28, alinéa 3, 2°, qui impose une livrée réglementaire aux véhicules de taxis ;
+
+2° l'article 30, qui impose l'affichage dans les véhicules de taxis des tarifs en vigueur ;
+
+3° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 26 août 2010 relatif à la fixation des tarifs applicables aux services de taxis.
+
+-----------
+
+- inséré par l'art. 2 de l'ord. du 10.12.2021 (M.B. 24.12.2021). Entrée en vigueur le 11.12.2021
+
+Article 34 sexies
+
+§ 1 er . Pour pouvoir offrir ses services aux chauffeurs visés à l'article 34 bis qui souhaitent prester des services de taxis, une plateforme de réservation électronique doit avoir été agréée temporairement par le Ministre-Président.
+
+§ 2. Pour obtenir l'agrément temporaire visé au § 1 er , la plateforme de réservation électronique doit répondre aux conditions minimales suivantes :
+
+1° avoir, en Belgique, une unité d'établissement enregistrée à la Banque-Carrefour des Entreprises ;
+
+2° mettre à la disposition du public un service de réservation électronique de services de taxis ;
+
+3° permettre à la direction Transport de Personnes de Bruxelles Mobilité d'accéder électroniquement aux informations suivantes, mises à jour en permanence :
+
+a) les données d'identification des exploitants et des chauffeurs enregistrés sur la plateforme ;
+
+b) les conditions générales d'affiliation à la plateforme applicables aux exploitants et aux chauffeurs, lesquelles ne peuvent ni leur interdire de s'affilier également à d'autres plateformes de leur choix, ni imposer de surcoût à ceux qui s'affilient à plusieurs plateformes ;
+
+c) les conditions générales d'utilisation de la plateforme applicables aux clients.
+
+§ 3. L'agrément temporaire visé au § 1 er est délivré dans les dix jours ouvrables de l'envoi, au Ministre-Président, des documents attestant du respect des exigences visées au § 2.
+
+§ 4. S'il constate que l'ensemble des conditions visées au § 2 ne sont plus remplies, le Ministre-Président notifie à l'exploitant de la plateforme concernée son intention de suspendre son agrément à compter du dixième jour ouvrable qui suit cette notification s'il n'est pas remédié dans ce délai aux manquements constatés.
+
+Si le Ministre-Président décide d'une suspension de l'agrément au terme du délai visé à l'alinéa précédent, il lève cette suspension dès que l'exploitant concerné a pu démontrer que l'ensemble des conditions visées au § 2 sont à nouveau remplies.
+
+§ 5. Les sanctions prévues à l'article 35, § 1 er , de l'ordonnance du 27 avril 1995 relative aux services de taxis et aux services de location de voitures avec chauffeur sont applicables à toute personne offrant les services de réservation visés au § 1 er en violation des conditions visées au § 2.
+
+-----------
+
+- inséré par l'art. 2 de l'ord. du 10.12.2021 (M.B. 24.12.2021). Entrée en vigueur le 10.01.2022
+
+#### CHAPITRE V - Des infractions et des sanctions
+
+Article 35
+
+§ 1. Sans préjudice des dommages-intérêts s'il y a lieu, sont punis d'un emprisonnement de huit jours à trois mois et d'une amende de 500 francs à 10 000 francs ou d'une de ces peines seulement, ceux qui exploitent sans autorisation un service de taxis ou un service de location de voitures avec chauffeur.
+
+Est punie des mêmes peines, toute personne qui aura donné les apparences d'un taxi ou d'une voiture de location avec chauffeur à un véhicule soumis aux dispositions de la présente ordonnance et de ses arrêtés d'application alors que ce véhicule n'a pas fait l'objet, selon le cas, d'une autorisation d'exploiter un service de taxis ou un service de location de voitures avec chauffeur.
+
+Dans tous ces cas, le juge ordonne la confiscation du ou des véhicules à l'aide duquel ou desquels l'infraction aura été commise.
+
+§ 2. Sont punis d'un emprisonnement de huit jours à trois mois et d'une amende de 26 francs à 10 000 francs ou d'une de ces peines seulement, sans préjudice des dommages-intérêts s'il y a lieu, ceux qui commettent une autre infraction à la présente ordonnance, aux arrêtés pris en exécution de celle-ci ou aux conditions de l'autorisation d'exploiter.
+
+En outre, le juge peut ordonner la confiscation du ou des véhicules appartenant au condamné et à l'aide duquel ou desquels l'infraction aura été commise.
+
+§ 3. Les dispositions du livre Ier du Code pénal, y compris le chapitre VII et l'article 85, sont applicables à ces infractions.
+
+Toutefois, sans préjudice de l'article 56 du Code pénal, la peine ne peut, en cas de récidive dans les deux ans à partir de la condamnation, être inférieure au double de la peine prononcée antérieurement du chef de la même infraction.
+
+§ 4. Les dommages-intérêts alloués à la personne préjudiciée par l'infraction sont privilégiés sur le véhicule qui a servi à commettre l'infraction quand la propriété en appartient à l'auteur, au coauteur ou au complice de l'infraction. Ce privilège prend rang immédiatement après celui qui est prévu à l'article 20, 5°, de la loi du 16 décembre 1851.
+
+Les tribunaux de police connaissent des infractions prévues par le présent article.
+
+Article 36
+
+Des amendes administratives peuvent être infligées par le fonctionnaire délégué à cette fin par le Gouvernement pour toute infraction d'ordre administratif commise par les personnes visées par la présente ordonnance ou ses arrêtés d'exécution.
+
+Dans les mêmes conditions, des amendes administratives peuvent être mises à charge de toute personne dont le véhicule occupe, sans autorisation un emplacement réservé aux taxis.
+
+Un exemplaire du procès-verbal constatant l'infraction est transmis au fonctionnaire délégué et une copie au contrevenant.
+
+La décision du fonctionnaire délégué fixe le montant de l'amende administrative et est motivée.
+
+Le Gouvernement fixe le montant des amendes administratives pouvant être infligées par le fonctionnaire délégué visé à l'alinéa 1 er en rapport avec les infractions d'ordre administratif constatées, en respectant les conditions suivantes :
+
+- le montant des amendes visées à l'alinéa 1 er ne peut dépasser 500 euros et doit être fixé en rapport avec la gravité de l'infraction d'ordre administratif commise;
+
+- le montant des amendes visées à l'alinéa 2 ne peut être inférieur à 50 euros ni supérieur a 100 euros.
+
+La décision est notifiée au contrevenant par lettre recommandée à la poste en même temps qu'une invitation à acquitter l'amende.
+
+Si le contrevenant demeure en défaut de payer l'amende, le Gouvernement peut suspendre l'autorisation d'exploiter ou le certificat de capacité.
+
+Le Gouvernement détermine le délai et les modalités de paiement des amendes administratives.
+
+Le Gouvernement statue sur les requêtes ayant pour objet la remise ou la réduction des amendes visées au présent article.
+
+-----------
+
+- modifié par l’art. 25 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 37
+
+Sans préjudice des pouvoirs conférés à d'autres officiers de police judiciaire, le Gouvernement accorde la qualité d'agent ou d'officier de police judiciaire aux fonctionnaires et agents assermentés de la Région qu'il désigne pour rechercher et constater par procès-verbal les infractions à la présente ordonnance, aux arrêtés pris en exécution de celle-ci ou aux conditions des autorisations délivrées en vertu de celle-ci.
+
+Les fonctionnaires et agents préqualifiés sont également habilités pour constater et dresser procès-verbal et prendre toute mesure nécessaire dès qu'un véhicule occupe sans autorisation un emplacement réservé aux taxis.
+
+Les fonctionnaires et agents préqualifiés constatent les infractions par des procès-verbaux faisant foi jusqu'à inscription de faux. Copie des procès-verbaux est adressée au délinquant dans les dix jours de la constatation des infractions.
+
+Les fonctionnaires et agents préqualifiés sont habilités à retirer à tout moment la plaquette d'identification du véhicule et le document relatif à l'autorisation d'exploiter celui-ci en cas de constat de défaut d'assurances régulières du véhicule ou de non-conformité de celui-ci au regard du contrôle technique ainsi que lorsque l'exploitant n'a pas restitué volontairement ces éléments à l'Administration, nonobstant notification d'un arrêté de suspension ou de retrait de l'autorisation d'exploiter au sens des articles 12 ou 25.
+
+-----------
+
+- modifié par l’art. 26 de l’ord. du 20.07.2006 (err. M.B. 25.05.2007). Texte entre en vigueur le 01.11.2006
+
+- modifié par l’art. 8 de l’ord. du 21.11.2013. Texte entre en vigueur le 01.02.2014
+
+#### CHAPITRE VI - Dispositions transitoires, abrogatoires et finales
+
+##### Section 1 - Dispositions transitoires
+
+Article 38
+
+(…)
+
+-----------
+
+- abrogé par l’art. 27 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 39
+
+(…)
+
+-----------
+
+- abrogé par l’art. 27 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 40
+
+(…)
+
+-----------
+
+- abrogé par l’art. 16 de l’ord. du 11.07.2002. Texte entre en vigueur le 01.08.2003
+
+Article 41
+
+(…)
+
+-----------
+
+- abrogé par l’art. 27 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+Article 42
+
+Toutes les dispositions des arrêtés et règlements d'agglomération pris en exécution de la loi du 27 décembre 1974 relative aux services de taxis restent en vigueur dans la mesure où elles ne sont pas en contradiction avec les dispositions de la présente ordonnance et tant qu'elles n'ont pas été abrogées par le Gouvernement.
+
+-----------
+
+- modifié par l’art. 27 de l’ord. du 20.07.2006. Texte entre en vigueur le 01.11.2006
+
+##### Section 2 - Dispositions abrogatoires
+
+Article 43
+
+Sans préjudice de l'application de l'article 42, à compter du jour de l'entrée en vigueur des dispositions de la présente ordonnance, les dispositions de la loi du 27 décembre 1974 relative aux services de taxis qui seraient en contradiction avec les dispositions de la présente ordonnance cesseront d'être applicables sur le territoire de la Région de Bruxelles-Capitale, à l'exception de l'article 21, § 2 et § 3 de ladite loi.
+
+Article 44
+
+Le Comité consultatif régional visé à l'article 23 de la loi du 27 décembre 1974 relative aux services de taxis est supprimé.
+
+##### Section 3 - Disposition finale
+
+Article 45
+
+La présente ordonnance entre en vigueur le jour de sa publication au Moniteur belge, à l'exception de l'article 10 qui entre en vigueur le 1 er juillet 1996 et des articles 13, 14, 26, 31 et 33, § 1 er , qui entrent en vigueur à la date fixée par le Gouvernement.
+
+Sanctionnons la présente ordonnance, ordonnons qu'elle soit publiée au Moniteur belge.
+
+Bruxelles, le 27 avril 1995.
+
+Par le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Président du Gouvernement de la Région de Bruxelles-Capitale et Ministre de l'Aménagement du Territoire, des Pouvoirs locaux et de l'Emploi,
+
+Ch. PICQUE
+
+Le Ministre des Finances, du Budget, de la Fonction publique et des Relations extérieures,
+
+J. CHABERT
+
+Le Ministre du Logement, de l'Environnement, de la Conservation de la Nature et de la Politique de l'Eau,
+
+D. GOSUIN
+
+Le Ministre de l'Economie,
+
+R. GRIJP
+
+Le Ministre des Travaux publics, des Communications et de la Rénovation des Sites d'Activités économiques désaffectés,
+
+D. HARMEL

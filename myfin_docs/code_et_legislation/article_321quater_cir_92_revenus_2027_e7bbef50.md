@@ -1,0 +1,117 @@
+---
+guid: "e7bbef50-20da-437c-93c9-9f094d308473"
+title: "Article 321quater, CIR 92 (revenus 2027)"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2026-03-16"
+publication_date: "2026-04-01"
+effective_date: "2026-04-11"
+last_modified: "2026-08-26"
+taxonomies: ["CIR 92 - Revenus 2027"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Code des impôts sur les revenus", "CIR 92 par année de revenus", "CIR 92 - Revenus 2027"]
+linked_document_nl: "829c5634-076a-4194-8fec-397c475ac88d"
+found_via: "11967b44-d9e3-448e-97eb-b54ba7c2f693"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/e7bbef50-20da-437c-93c9-9f094d308473"
+---
+
+# Article 321quater, CIR 92 (revenus 2027)
+
+Art. 321quater, 26° (inséré), est applicable 10 jours après publication de la loi au Moniteur belge (11.04.2026) (art. 5, L 16.03.2026 - M.B. 01.04.2026; Numac: 2026002394 )
+
+[La présente loi assure la transposition de la directive 2023/2226 (UE) du Conseil du 17.10.2023 modifiant la directive 2011/16 (UE) relative à la coopération administrative dans le domaine fiscal (art. 2, L 16.03.2026 - M.B. 01.04.2026; Numac: 2026002394). Les Institutions financières déclarantes, les intermédiaires, les opérateurs de plateformes déclarants, les prestataires de services sur crypto-actifs déclarants et l'autorité compétente belge sont considérés comme des responsables du traitement agissant seuls ou conjointement. Lorsqu'elle traite des données à caractère personnel aux fins de la présente loi (art. 21, L 16.03.2026 - M.B. 01.04.2026; Numac: 2026002394)]
+
+Pour l'application de la présente section les termes suivants sont définis comme suit:
+
+1° "Plateforme": le terme "plateforme" désigne tout logiciel, y compris tout ou partie d'un site internet, ainsi que les applications, y compris les applications mobiles, qui sont accessibles aux utilisateurs et qui permettent aux vendeurs d'être connectés à d'autres utilisateurs afin d'exercer, directement ou indirectement, une activité concernée destinée à ces autres utilisateurs. Il inclut également tout mécanisme de perception et de paiement d'une contrepartie pour l'activité concernée.
+
+Le terme "plateforme" n'englobe pas les logiciels qui, sans intervenir autrement dans l'exercice d'une activité concernée, permettent exclusivement:
+
+a) de traiter les paiements liés à l'activité concernée;
+
+b) aux utilisateurs, de répertorier une activité concernée ou d'en faire la publicité;
+
+c) de rediriger ou de transférer les utilisateurs vers une plateforme;
+
+2° "Opérateur de plateforme": désigne une entité concluant un contrat avec des vendeurs pour mettre à la disposition de ces derniers tout ou partie d'une plateforme;
+
+3° "Opérateur de plateforme exclu": désigne un opérateur de plateforme qui a démontré d'avance et démontre sur une base annuelle que l'ensemble du modèle commercial de ladite plateforme est tel qu'il ne compte aucun vendeur à déclarer, et ce à la satisfaction de l'autorité compétente à laquelle, conformément aux règles énoncées à l'article 321sexies, il aurait dû communiquer des informations;
+
+4° "Opérateur de plateforme déclarant": désigne tout opérateur de plateforme, autre qu'un opérateur de plateforme exclu, se trouvant dans l'une des situations suivantes:
+
+a) il est résident fiscal belge ou, lorsque ledit opérateur de plateforme n'a pas de résidence fiscale en Belgique mais remplit l'une des conditions suivantes:
+
+i) il est constitué conformément à la législation belge;
+
+ii) son siège de direction (y compris son siège de direction effective) se trouve en Belgique;
+
+iii) il possède un établissement stable en Belgique et n'est pas un opérateur de plateforme qualifié hors Union;
+
+b) il n'est ni résident fiscal d'un Etat membre, ni constitué ou géré dans un Etat membre, ni ne possède d'établissement stable dans un Etat membre, mais il facilite l'exercice d'une activité concernée par des vendeurs à déclarer ou une activité concernée consistant en la location de biens immobiliers situés dans un Etat membre et n'est pas un opérateur de plateforme qualifié hors Union;
+
+5° "Opérateur de plateforme qualifié hors Union": désigne un opérateur de plateforme facilitant des activités concernées qui sont toutes également des activités concernées qualifiées et qui est résident fiscal d'une juridiction qualifiée hors Union ou, s'il n'a pas de résidence fiscale dans une juridiction qualifiée hors Union, qui remplit l'une des conditions suivantes:
+
+a) il est constitué conformément à la législation d'une Juridiction qualifiée hors Union; ou
+
+b) son siège de direction (y compris son siège de direction effective) se trouve dans une juridiction qualifiée hors Union;
+
+6° "Juridiction qualifiée hors Union": désigne une juridiction hors Union qui a conclu un accord éligible en vigueur entre autorités compétentes avec les autorités compétentes de tous les Etats membres identifiés comme étant des juridictions devant faire l'objet d'une déclaration dans une liste publiée par la juridiction hors Union;
+
+7° "Accord éligible en vigueur entre autorités compétentes": désigne un accord entre les autorités compétentes d'un Etat membre et une juridiction hors Union et qui impose l'échange automatique et obligatoire d'informations équivalentes à celles spécifiées à l'article 321sexies, § 5, confirmé par un acte d'exécution conformément à l'article 8 bis quater, paragraphe 7, de la directive 2011/16, telle que modifiée par la directive 2021/514;
+
+8° "Activité concernée": désigne une activité exercée en échange d'une contrepartie et consistant en:
+
+a) la location de biens immobiliers, y compris à usage résidentiel et commercial, ainsi que tout autre bien immeuble et emplacement de stationnement;
+
+b) un service personnel;
+
+c) la vente de biens;
+
+d) la location de tout mode de transport;
+
+Le terme "activité concernée" n'inclut pas les activités exercées par un vendeur agissant en qualité d'employé de l'opérateur de plateforme déclarant ou d'une entité liée à l'opérateur de plateforme.
+
+9° "Activité concernée qualifiée": désigne toute activité concernée soumise à l'échange automatique en vertu d'un accord éligible en vigueur entre autorités compétentes;
+
+10° "Contrepartie": désigne une compensation, sous quelque forme que ce soit, hors frais, commissions ou taxes retenues ou prélevées par l'opérateur de plateforme déclarant, qui est versée ou créditée à un vendeur dans le cadre de l'activité concernée, dont le montant est connu ou peut être raisonnablement connu de l'opérateur de plateforme;
+
+11° "Service personnel": désigne un service correspondant à un travail à l'heure ou à la tâche qui est exécuté par une ou plusieurs personnes physiques agissant soit de manière indépendante soit pour le compte d'une entité, et qui est fourni à la demande d'un utilisateur, soit en ligne soit physiquement hors ligne, après avoir été facilité par l'intermédiaire d'une plateforme;
+
+12° "Vendeur": désigne un utilisateur de plateforme, qu'il s'agisse d'une personne physique ou d'une entité, qui est enregistré sur la plateforme à tout moment au cours de la période de déclaration et qui exerce l'activité concernée;
+
+13° "Vendeur actif": désigne tout vendeur qui fournit une activité concernée au cours de la période de déclaration ou à qui est versée ou créditée une contrepartie pour une activité concernée au cours de la période de déclaration;
+
+14° "Vendeur à déclarer": désigne tout vendeur actif, autre qu'un vendeur exclu, qui est résident d'une juridiction soumise à déclaration ou qui a donné en location des biens immobiliers situés dans une juridiction soumise à déclaration;
+
+15° "Vendeur exclu": désigne tout vendeur:
+
+a) qui est une entité publique;
+
+b) qui est une entité dont les actions font l'objet de transactions régulières sur un marché boursier réglementé ou une entité liée à une entité dont les actions font l'objet de transactions régulières sur un marché boursier réglementé;
+
+c) qui est une entité pour laquelle l'opérateur de la plateforme a facilité, au moyen de la location de biens immobiliers, plus de 2.000 activités concernées en lien avec un lot au cours de la période de déclaration; ou
+
+d) pour lequel l'opérateur de plateforme a facilité, au moyen de la vente de biens, moins de 30 activités concernées, pour lesquelles le montant total de la contrepartie versée ou créditée n'a pas dépassé 2.000 euros au cours de la période de déclaration;
+
+Le caractère d'exclusion d'un vendeur visé au point d) s'apprécie à la fin de la période pour laquelle la communication à l'autorité compétente belge doit être faite.
+
+16° "Entité": désigne une personne morale ou une construction juridique, telle qu'une société de capitaux, une société de personnes, un trust ou une fondation. Une entité est une entité liée à une autre entité si l'une des deux entités contrôle l'autre ou si ces deux entités sont placées sous un contrôle conjoint. A ce titre, le contrôle comprend la participation directe ou indirecte supérieure à 50 % des droits de vote ou de la valeur d'une entité. Dans le cas d'une participation indirecte, le respect de l'exigence relative à la détention de plus de 50 % du droit de propriété dans le capital de l'autre entité est déterminé en multipliant les taux de détention successivement aux différents niveaux. Une personne détenant plus de 50 % des droits de vote est réputée détenir 100 % de ces droits;
+
+17° "Entité publique": désigne le gouvernement d'un Etat membre ou d'une autre juridiction, une subdivision politique d'un Etat membre ou d'une autre juridiction (ce qui comprend un Etat, une communauté, une région, une province ou une commune) ou tout établissement ou organisme détenu intégralement par les entités précitées;
+
+18° "NIF": désigne un numéro d'identification fiscale, ou un équivalent fonctionnel en l'absence d'un numéro d'identification fiscale, délivré par un Etat membre ou par la juridiction de résidence du vendeur;
+
+19° "Numéro d'identification T.V.A.": désigne le numéro unique qui identifie un assujetti ou une entité juridique non assujettie qui sont enregistrés aux fins de la taxe sur la valeur ajoutée;
+
+20° "Adresse principale": désigne l'adresse de la résidence principale d'un vendeur ayant la qualité de personne physique et l'adresse du siège social d'un vendeur ayant la qualité d'entité;
+
+21° "Période de déclaration": désigne l'année civile pour laquelle la déclaration est effectuée conformément à l'article 321sexies;
+
+22° "Lot": désigne toutes les unités immobilières situées à la même adresse, appartenant au même propriétaire et proposées à la location sur une plateforme par le même vendeur;
+
+23° "Identifiant du compte financier": désigne le numéro ou la référence d'identification unique du compte bancaire, ou de tout autre compte de services de paiement similaire, sur lequel la contrepartie est versée ou créditée, dont dispose l'opérateur de plateforme;
+
+24° "Bien": désigne tout bien corporel;
+
+25° "Juridiction soumise à déclaration" désigne tous les Etats membres et toute juridiction hors Union identifiée telle quelle sur une liste publiée par la Belgique.
+
+26° "Service d'identification" désigne un processus électronique mis gratuitement à la disposition d'un opérateur de plateforme déclarant par une juridiction ou par l'Union Européenne afin d'établir l'identité et la résidence fiscale d'un vendeur.

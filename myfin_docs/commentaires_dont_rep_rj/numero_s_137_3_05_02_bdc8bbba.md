@@ -1,0 +1,54 @@
+---
+guid: "bdc8bbba-920c-4ed3-bc83-ab579eee0336"
+title: "Numéro S 137, 3°/05-02"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2011-10-10"
+publication_date: "2012-10-01"
+effective_date: null
+last_modified: "2020-10-15"
+taxonomies: ["Droits de succession"]
+path: ["FISCALITÉ", "Droits de succession", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits de succession"]
+linked_document_nl: "158aa636-6fd1-4104-af90-2d8a7f18b615"
+found_via: "8b51bd0c-f291-4868-9ff8-de9b84a2af9d"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/bdc8bbba-920c-4ed3-bc83-ab579eee0336"
+---
+
+# Numéro S 137, 3°/05-02
+
+Numéro S 137, 3°/05-02
+
+R épertoire RJ – D roits de successio n
+
+Numéro S 137, 3°/05-02
+
+05. – Titres appartenant à la défunte et détenus par un tiers - Transaction quant à la propriété des biens litigieux.
+
+02. - Le 9 mai 1994, la défunte décède, ayant institué J.M. comme légataire universel.
+
+Par ordonnance du 12 septembre 1994, un administrateur provisoire (C.H.) est désigné. En 1996, C.H. introduit une procédure de dépossession involontaire de titres au porteur.
+
+En 1997, J.M. dépose plainte contre X du chef de vol simple et de recel de titres, estimés à 85.100.000 BEF. Par jugement du 14 décembre 2004, le tribunal correctionnel de Charleroi constate que des titres au porteur appartenant à la défunte ont été soustraits avant son décès par un agent d'affaires (décédé) et condamne un des enfants à payer à J.M. une somme de 2.387.282 EUR .
+
+Le 15 mars 2005, une transaction est conclue entre J.M. et les deux enfants de l'agent d'affaires quant à la propriété des biens litigieux, moyennant paiement à J.M. d'une somme de 2.517.482 EUR .
+
+Le 30 mars 2005, les sommes dues ont été payées.
+
+Aucune déclaration complémentaire n'étant déposée, le receveur décerne contrainte, laquelle est signifiée le 6 juin 2007.
+
+La succession forme opposition.
+
+Suivant la thèse de l'administration, le tribunal considère :
+
+- que la transaction constituait un fait nouveau au sens de l' article 37, 2°, C. succ . ;
+- qu'une déclaration complémentaire devait être déposée dans les cinq mois à compter de la date de la transaction, ce que J.M. s'est abstenu de faire ;
+- que le délai de prescription de 10 ans ( art . 137, 3°, C. succ . ) n'a commencé à courir qu'à partir de cette date ;
+- qu'en conséquence la prescription n'était pas acquise et que la contrainte est fondée.
+
+( Jugement du tribunal de première instance de Mons du 23.03.2010 confirmé par un arrêt de la Cour d'appel de Mons du 10.10.2011 - EE /97.612)
+
+----------
+
+Date de publication : OCTOBRE 2012
+
+Voir aussi : S 137, 3°/05- 02 - Version(s) historique(s)

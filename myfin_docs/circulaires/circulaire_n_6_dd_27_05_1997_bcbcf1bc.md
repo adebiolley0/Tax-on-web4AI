@@ -1,0 +1,318 @@
+---
+guid: "bcbcf1bc-f2dd-407f-b514-ca032a95a9ab"
+title: "Circulaire n° 6 dd. 27.05.1997"
+document_type: "Circulaires"
+language: "fr"
+document_date: "1997-05-27"
+publication_date: "1900-12-31"
+effective_date: null
+last_modified: "2019-10-04"
+taxonomies: ["Circulaires"]
+path: ["FISCALITÉ", "Taxe sur la valeur ajoutée", "Directives et commentaires administratifs", "Circulaires"]
+linked_document_nl: "84940569-062e-4c71-9bcd-e114f0fdc4c7"
+found_via: "80bdf46a-4705-42f0-a579-d2f9e2890278"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/bcbcf1bc-f2dd-407f-b514-ca032a95a9ab"
+---
+
+# Circulaire n° 6 dd. 27.05.1997
+
+CIRCULAIRE 97/006
+
+Circulaire n° 6 dd. 27.05.1997
+
+Mesures en matière de taxe sur la valeur ajoutée en vue d'une meilleure perception de l'impôt. Aperçu succinct
+
+Objet : Présentation et premier commentaire des dispositions de l'arrêté royal du 27 mai 1997 modifiant le Code de la taxe sur la valeur ajoutée.
+
+Nouveau régime de taxation des services de télécommunications.
+
+La présente circulaire a pour objet de présenter, en annexe 1, un résumé et un premier commentaire des dispositions contenues dans l'arrêté royal du 27 mai 1997 modifiant le Code de la taxe sur la valeur ajoutée en application des articles 2, ° 1er, et 3, ° 1er, 2 o et 3 o , de la loi du 26 juillet 1996 visant à réaliser les conditions budgétaires de la participation de la Belgique à l'Union économique monétaire européenne (Moniteur belge du 31 mai 1997).
+
+Cet arrêté royal, qui est entré en vigueur le 1er juin 1997, modifie les articles 18, ° 1er, alinéa 2, 14 o , 21, ° 3 et 22 du Code de la taxe sur la valeur ajoutée.
+
+Il transpose en droit belge la décision 97/200/CE du Conseil de l'Union européenne du 17 mars 1997 autorisant le royaume de Belgique à appliquer une mesure dérogatoire à l'article 9 de la sixième directive 77/388/CEE en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires.
+
+Le texte de l'arrêté royal est joint en annexe 2 et celui de la décision en annexe 3.
+
+| L'administrateur général adjoint des impôts, |
+| --- |
+| J.-M. Delporte. |
+
+Annexe 1
+
+Taxe sur la valeur ajoutée
+
+I. Contexte de l'arrêté royal
+
+1. L'arrêté royal commenté ci-dessous a été pris en exécution de l'article 3, ° 1er, 2 o et 3 o , de la loi du 26 juillet 1996 visant à réaliser les conditions budgétaires de la participation de la Belgique à l'Union économique et monétaire européenne, qui attribue au Roi certains pouvoirs, notamment celui de prendre des mesures pour:
+
+- adapter, abroger, modifier ou remplacer les impôts, taxes, droits, rétributions, accises, amendes et autres recettes, et, en particulier, la base, le taux, les modalités de prélèvement et de perception et la procédure, à l'exclusion des procédures juridictionnelles;
+
+- lutter contre toute forme d'usage impropre et d'abus et garantir une perception correcte des recettes et un contrôle efficace des recettes et des dépenses.
+
+2. Cet arrêté royal fait suite à la décision 97/200/CE du Conseil de l'Union européenne du 17 mars 1997 autorisant la Belgique à appliquer une mesure dérogatoire à l'article 9 de la sixième directive 77/388/CEE en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires (ci-après, appelée, la décision).
+
+Une décision similaire a été prise en faveur de chacun des quatorze autres Etats membres de l'Union européenne.
+
+Cette décision, ainsi que l'arrêté royal qui en assure la transposition dans la législation belge sur la T.V.A., a pour objet de modifier les règles de localisation des prestations de services de télécommunications et partant, le régime de taxation de ces services.
+
+II. Fondements et objectif de la décision.
+
+3. Sous le régime ancien applicable avant le 1er juin 1997, le lieu des prestations de services de télécommunications se situait au lieu d'établissement du prestataire de services selon le critère général de l'article 21, ° 2, du Code de la taxe sur la valeur ajoutée (ci-après, appelé Code). Cette règle générale de localisation des prestations de services énonce que le lieu d'une prestation de services est réputé se situer à l'endroit où le prestataire de services a établi le siège de son activité économique ou un établissement stable à partir duquel la prestation de services est rendue ou, à défaut d'un tel siège ou d'un tel établissement stable, au lieu de son domicile ou de sa résidence habituelle. Cette disposition est la transposition de l'article 9, ° 1er, de la sixième directive 77/388/CEE du Conseil, du 17 mai 1977, en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires - Système commun de taxe sur la valeur ajoutée: assiette uniforme (1). Par conséquent, les prestations de télécommunication étaient situées et, en principe, taxées à l'endroit où le prestataire avait établi le siège de son activité économique ou un établissement stable à partir duquel elles étaient rendues.
+
+4. Comme indiqué dans le Rapport du Roi publié dans le Moniteur belge en même temps que l'avis du Conseil d'Etat et l'arrêté royal précité, cette règle a été adoptée au moment où (fin des années '70) les services de télécommunications étaient en général rendus par des organismes émanant des Etats (Administrations des Postes, RTT, ...) qui étaient normalement établis dans le même pays que celui de l'utilisateur ou du consommateur.
+
+La mondialisation de l'industrie des télécommunications et l'évolution foudroyante que celle-ci a connue ces dernières années, tant au niveau technique que commercial, a eu notamment comme résultat que:
+
+- moyennant l'usage de techniques modernes (transmission par satellite, GSM, ...), les prestataires pouvaient rendre des services de télécommunications sans être établis dans le pays de consommation,
+
+- les consommateurs avaient à leur disposition une très large gamme de services et des sources alternatives pour se les procurer.
+
+Cette situation permettait l'utilisation effective de services de télécommunications dans l'Union européenne et donc en Belgique sans paiement de la taxe, puisque ces prestations étaient considérées comme se situant en dehors du champ d'application de la T.V.A. communautaire dès lors que le prestataire était établie dans un pays tiers à l'Union européenne.
+
+Certaines catégories d'utilisateurs, qui auraient dû en principe supporter de manière définitive la taxe sur ces prestations (particuliers, personnes morales non assujetties, assujettis sans droit à déduction totale de la taxe en amont), pouvaient éviter le paiement de la T.V.A. en s'adressant à des prestataires qui offraient leurs services dans la Communauté, mais qui n'y étaient pas établis.
+
+Cette situation, qui créait de graves distorsions de concurrence entre les opérateurs communautaires et non communautaires et générait de surcroît une évasion fiscale et une perte de recettes budgétaires croissante, nécessitait une modification de la législation nationale compatible avec le droit communautaire.
+
+5. C'est pour ces raisons que la Belgique, ainsi que les autres Etats membres, ont, sur proposition d'ailleurs de la Commission européenne, introduit auprès de ladite Commission, une demande visant à simplifier la perception de la taxe et à éviter l'évasion fiscale en ce qui concerne les prestations de télécommunications.
+
+6. S'inspirant des mêmes considérations, la décision du Conseil, du 17 mars 1997, permet à la Belgique ainsi qu'aux autres Etats membres de l'U.E. de recourir désormais à la règle subsidiaire du lieu d'établissement du preneur de services visée à l'article 9, ° 2, e, de la sixième directive pour situer le lieu des prestations de services de télécommunications. Cette décision s'accompagne en outre de certains dispositifs qui permettent de renforcer ce nouvel axe de taxation et qui seront évoqués ci-après lors du développement de la matière.
+
+Mais cette dérogation est temporaire: elle ne peut être appliquée que jusqu'au 31 décembre 1999 ou jusqu'à la date de l'entrée en vigueur d'une directive modifiant le lieu d'imposition des services de télécommunications, si cette date est antérieure au 31 décembre 1999.
+
+III. Nouveau régime de taxation des prestations de services de télécommunications.
+
+A. Définition des services de télécommunications.
+
+7. L'article 1er de l'arrêté royal du 27 mai 1997 adapte l'article 18, ° 1er, alinéa 2, 14 o , du Code de la T.V.A. afin d'y reproduire textuellement la définition des services de télécommunications donnée par l'article premier, alinéa 2, de la décision.
+
+En l'occurrence, sont considérés comme services de télécommunications, les services ayant pour objet la transmission, émission et réception de signaux, écrits, images et sons ou informations de toute nature, par fils, par radio, par moyens optiques ou par d'autres moyens électromagnétiques, y compris la cession et concession d'un droit d'utilisation de moyens pour une telle transmission, émission ou réception.
+
+Même si un commentaire plus étoffé permettrait une meilleure appréhension des services concernés, cette définition présente au moins l'avantage d'être admise au niveau international puisqu'elle résulte de la Convention de Melbourne, traité qui a été conclu entre les sociétés nationales de télécommunications afin de régler la télécommunication au plan international.
+
+Il importe en tout cas de préciser que cette définition ne concerne que la partie "transmission" des services de télécommunications (le contenant) et non le "contenu" qui est transmis. Ce dernier aspect, et plus particulièrement le traitement de données et la fourniture d'informations relève déjà de l'article 21, ° 3, 7 o , sous d, du Code (critère de localisation basé sur le lieu d'établissement du preneur).
+
+Enfin, il convient d'ajouter que cette définition couvre également les provisions d'accès à Internet, tel que ce réseau de télécommunications existe aujourd'hui, à l'exclusion des services complémentaires qui peuvent être offerts à travers ce réseau.
+
+B. Localisation des services de télécommunications.
+
+a. Règle générale: lieu d'établissement du prestataire de services.
+
+8. Sous le nouveau régime applicable à dater du 1er juin 1997, le lieu des services de télécommunication est encore réputé se situer, en principe, au lieu d'établissement du prestataire de services (Code, art. 21, ° 2).
+
+Ainsi, lorsque le prestataire et le preneur de services sont tous deux établis en Belgique, la règle générale est applicable comme auparavant et le lieu de la prestation de services est réputé se situer en Belgique.
+
+b. Règle particulière: lieu d'établissement du preneur de services.
+
+9. Toutefois, l'application de la règle exposée au point 8 est limitée par l'introduction, au 1er juin 1997, de deux critères dérogatoires dont la caractéristique commune est le lieu d'établissement du preneur de services.
+
+10. En effet, fort de l'autorisation prévue à l'article premier, alinéa 1er, 1ère phrase, de la décision précitée, l'article 2, A de l'arrêté royal modificatif a d'abord inclu les services de télécommunications dans le champ d'application de l'article 21, ° 3, 7 o du Code, sous la lettre i nouvelle. A partir du 1er juin 1997, le lieu des prestations de services de télécommunications est réputé se situer au lieu d'établissement du preneur, lorsque ces prestations sont rendues:
+
+- à un preneur établi en dehors de la Communauté européenne, sans autre condition;
+
+- à un preneur établi dans cette Communauté mais en dehors du pays du prestataire de services, à la condition que le preneur utilise les services pour les besoins de son activité économique.
+
+Dans le premier cas, la qualité du preneur importe peu tandis que, dans le second cas, ne sont visés que les assujettis agissant pour les besoins de leur activité économique.
+
+11. La seconde dérogation à la règle générale de l'article 21, ° 2, du Code est introduite par l'article 2, B et C de l'arrêté royal modificatif. Cette mesure, inscrite dans l'article 21, ° 3, 9 o , nouveau, du Code, a pour effet de situer en Belgique, les services de télécommunications effectués par des prestataires de services établis en dehors de la Communauté et rendues à des preneurs qui ont en Belgique leur siège, un établissement stable, leur domicile ou leur résidence habituelle et qui n'agissent pas en qualité d'assujetti pour les besoins d'une activité économique.
+
+Il s'agit d'une application aux services de télécommunications de l'article 9, ° 3, b, de la sixième directive 77/388/CEE, auquel renvoie expressément l'article premier, alinéa 1er, 2e phrase, de la décision. Le texte de l'article 9, ° 3, de la sixième directive 77/388/CEE, figure d'ailleurs dans l'article 21, ° 4, du Code, qui donne au Roi la possibilité d'accorder des dérogations pour les prestations de services visées au ° 3, 7 o , de cet article 21. La dérogation a cependant été inscrite directement dans la loi.
+
+Tandis que l'article 21, ° 3, 7 o , i, nouveau, du Code, s'applique aux assujettis qui agissent dans le cadre de leur activité économique, l'article 21, ° 3, 9 o , nouveau, vise les personnes que la disposition précitée n'atteint pas, à savoir les non-assujettis, personnes morales ou personnes physiques, comme du reste les assujettis qui n'agissent pas en cette qualité pour les besoins d'une activité économique. Par la conjonction des points 7 o et 9 o de l'article 21, ° 3, chacun est traité, quelle que soit sa qualité, sur un pied d'égalité, ce qui rencontre l'un des objectifs de la décision précitée.
+
+IV. Détermination du lieu des services de télécommunications lors du changement de régime. Fait générateur de la taxe: disposition dérogatoire et temporaire.
+
+12. Pour apprécier si le lieu du service doit être déterminé lors du changement de régime, compte tenu du critère ancien ou des critères nouveaux, il y a lieu de se placer à la date à laquelle interviennent le fait générateur et les causes d'exigibilité de la taxe éventuellement due sur les services de télécommunications. C'est à ce moment en effet que, en fonction du lieu des services, se pose le problème de la taxation de la prestation.
+
+13. En vertu de l'article 22, ° 1er, du Code, le fait générateur de la taxe intervient au moment où la prestation de services est parfaite. Les prestations de services de télécommunications sont, en règle, à considérer comme achevés ou parfaites au moment où le prestataire a rempli ses obligations principales.
+
+Toutefois,lorsque les services de télécommunications sont des prestations à caractère continu donnant lieu à des décomptes ou paiements successifs, ces prestations de services sont à considérer comme parfaites à l'expiration de chaque période à laquelle se rapporte un décompte ou un paiement (Code, art. 22 ° 1er, al. 2).
+
+A s'en tenir au fait générateur, il y a donc lieu de considérer que les nouveaux critères de localisation sont applicables dès lors que, selon le cas, soit le service est achevé, soit la période expire, après le 31 mai 1997.
+
+14. Comme indiqué ci-avant, l'article 22, ° , alinéas 2 et 3, du Code, prévoit également des causes subsidiaires d'exigibilité de la taxe (facturation, encaissement ou échéance de tout ou partie du prix), lorsque celles-ci surviennent avant le fait générateur. Si ces causes se produisent à une date antérieure au fait générateur, c'est en principe à cette date qu'il faut se placer pour situer le lieu de la prestation de service, en fonction des critères en vigueur à cette date, et déterminer si doit être taxée la prestation de services à due concurrence des sommes facturées, encaissées ou échues.
+
+Toutefois, l'article 3 de l'arrêté royal modificatif a ajouté un nouveau ° 4 à l'article 22 du Code, à l'effet d'introduire une dérogation aux règles d'exigibilité de la T.V.A. qui font l'objet du ° 2, alinéas 2 et 3, de cet article. Cette nouvelle disposition, basée sur l'article 2, 2e phrase, de la décision précitée, énonce en l'occurrence que: "pour les prestations de services de télécommunications effectuées après le 31 mai 1997, la taxe ne devient exigible, par dérogation au ° 2, alinéas 2 et 3, qu'au moment où intervient le fait générateur, lorsque le prix des prestations a été facturé ou encaissé avant le 1er juin 1997 ou que le moment fixé contractuellement pour le paiement de tout ou partie du prix s'est situé avant cette dernière date".
+
+Cette disposition dérogatoire écarte ainsi, pour l'application des nouvelles règles exposées ci-dessus en vertu desquelles le lieu de la prestation des services de télécommunications est réputé se situer en Belgique, la possibilité d'échapper à la TVA belge en raison d'une facturation, d'un encaissement ou de la survenance d'une échéance avant le 1er juin 1997.
+
+V. Quelques conséquences du nouveau régime de taxation.
+
+A. Redevable de la taxe.
+
+15. Conformément à l'article 51, ° 1er, 1 o , du Code, la taxe est due, en règle, par l'assujetti qui effectue une prestation de services imposables qui a lieu en Belgique, c.-à-d, par le prestataire de services.
+
+16. Toutefois, la taxe est due par le preneur de services, par dérogation à la règle rappelée ci-dessus, lorsque le prestataire de services est un assujetti établi en dehors de la Belgique et que lieu de la prestation des services est réputé se situer en Belgique en vertu de l'article 21, ° 3, 7 o , du Code (Code, art. 51, ° 2, 1 o , a).
+
+Les prestations de télécommunications étant désormais visées à l'article 21, ° 3, 7 o sous i, nouveau, du Code, cette dérogation s'impose au preneur de services établi en Belgique lorsque, sur la base de ce nouveau critère de localisation de la prestation visée, le lieu de celle-ci est situé en Belgique.
+
+Il convient cependant d'observer que le cocontractant (le prestataire de services) de la personne (le preneur de services) qui devient ainsi redevable de la taxe, reste solidairement tenu avec cette personne au paiement de la taxe dans les situations visées à l'article 51bis, ° 1er, 1 o et 4 o , du Code.
+
+17. Par contre, le preneur de services n'est pas le redevable de la taxe lorsque la prestation de services de télécommunications est réputée se situer en Belgique conformément à l'article 21, ° 3, 9 o , nouveau, du Code. En effet, dans ce cas, la règle générale concernant la détermination de la personne redevable de la taxe s'applique: la taxe est due par le prestataire de services, même si, pour l'hypothèse considérée, celui-ci est établi en dehors de la Communauté européenne.
+
+A ce propos, il y a lieu d'observer que le prestataire de services n'est pas considéré comme établi dans la Communauté lorsqu'il n'a pas, dans la Communauté, établi le siège de son activité économique ou un établissement stable à partir duquel la prestation de services est rendue ou, à défaut d'un tel siège ou d'un tel établissement stable, son domicile ou sa résidence habituelle (Sixième directive 77/388/CEE, art. 9, ° 1).
+
+Dans ce cas, le paiement de la taxe est, en principe, assuré par l'intermédiaire d'un représentant responsable établi en Belgique que cet assujetti a fait agréer au préalable, conformément à l'article 55 du Code. Pour plus de détails, il est renvoyé à l'arrêté royal n o 31 du 29 décembre 1992 relatif aux modalités d'application de la taxe sur la valeur ajoutée, en ce qui concerne les opérations effectuées par les assujettis qui ne sont pas établis en Belgique, et aux nos 85 à 89, 108 à 110 et 113 à 115 de la circulaire n o 30/1975 de l'Administration de la T.V.A., de l'enregistrement et des domaines.
+
+Si Toutefois, le prestataire de services a établi, dans la Communauté, un établissement stable à partir duquel des prestations de services de télécommunications sont rendues à des preneurs en Belgique qui n'agissent pas en qualité d'assujetti pour les besoins d'une activité économique, le lieu de ces prestations de services se détermine conformément à la règle générale prévue par l'article 21, ° 2, du Code. Dans ce cas, la taxe est due dans l'Etat membre où le prestataire de services a cet établissement, selon les règles applicables dans cet Etat.
+
+B. Prestations de services de télécommunications réputées se situer en Belgique en vertu de l'article 21, ° 3, 7 o , i, du Code. Paiement de la taxe par le preneur.
+
+18. Lorsque des prestations de services de télécommunications sont réputées se situer en Belgique en vertu de l'article 21, ° 3, 7 o , i, du Code, le redevable de la taxe est le preneur de services (v. point 16). En vertu des règles générales applicables en matière de T.V.A., il appartient à cette personne notamment de déclarer l'opération imposable et de verser la taxe due au Trésor.
+
+Comme rappelé ci-avant également, le preneur dont il s'agit est un assujetti au sens de l'article 4 du Code, sans distinguer selon qu'il est tenu ou non au dépôt de déclarations périodiques.
+
+Cette distinction revêt toutefois son importance à l'égard des obligations de déclaration de l'opération et de paiement de la taxe.
+
+19. Dans la première hypothèse, étant un assujetti tenu au dépôt de déclarations périodiques, le preneur dit, d'une part, mentionner le montant des service de télécommunications reçus pour lesquels il est redevable de la taxe, dans la déclaration périodique à remettre au plus tard le vingtième jour du mois qui suit la période de déclaration concernée et, d'autre part, acquitter dans ce délai la taxe qui est due (Code, art. 53, al. 1er, 3 o et 4 o ; arr. roy. n o 1, art.18).
+
+20. Dans la seconde hypothèse, il s'agit d'un assujetti qui n'est pas tenu au dépôt de déclarations périodiques, soit:
+
+- un assujetti qui ne réalise que des livraisons de biens ou des prestations de services exemptées par l'article 44 du Code, ne lui ouvrant aucun droit à déduction;
+
+- un assujetti qui bénéficie du régime de la franchise de la taxe prévu à l'article 56, ° 2, du Code;
+
+- un assujetti qui bénéficie du régime particulier applicable aux exploitants agricoles (Code, art. 57).
+
+Ces assujettis, qui ne sont pas tenus au dépôt de déclarations périodiques, doivent néanmoins, en tant que redevables de la taxe due sur les prestations de services réputées se situer en Belgique que leur fournissent des prestataires de services établis en dehors de la Belgique, mentionner le montant de ces prestations de services dans une déclaration spéciale à la T.V.A. à remettre au plus tard le vingtième jour du mois qui suit le trimestre civil concerné et acquitter dans ce délai la taxe qui est due (Code, art. 53ter, 1 o et 2 o ; arr. roy. n o 1, art.18). Cette déclaration spéciale ne doit être remise, en principe, que si des opérations imposables ont été réalisées au cours d'un trimestre civil.
+
+VI. Taux de la T.V.A. applicable aux services de télécommunications.
+
+21. Les prestations de services de télécommunications sont soumise au taux normal de la T.V.A., qui s'élève actuellement à 21 p.c.
+
+VII. Exemptions.
+
+22. Le nouveau régime de taxation des prestations de services de télécommunications ne fait pas obstacle à l'application à ces services des exemptions prévues par l'article 42 du Code.
+
+VIII. Entrée en vigueur.
+
+23. L'arrêté royal du 27 mai 1907 est entré en vigueur le 1er juin 1997. Les dispositions qu'il contient expirent au plus tard le 31 décembre 1999, à moins que le Conseil n'adopte avant cette date une modification de la sixième directive 77/388/CEE.
+
+IX. Remarque finale;
+
+24. Le nouveau régime de taxation des prestations de télécommunications est entré en vigueur le 1er janvier 1997 en France et en Allemagne et le 1er avril 1997, en Autriche et en Italie. Il sera en principe introduit dans les autres Etats membres le 1er juillet 1997.
+
+La transposition dans leur législation par certains Etats membres, avant le 1er juillet 1997, de l'autorisation concernant les services de télécommunications peut aboutir à une double taxation au titre d'une même prestation. Lorsqu'il en est ainsi, l'Etat membre qui a transposé l'autorisation avant le 1er juillet 1997 ne perçoit pas la T.V.A.
+
+(1) v. Rev. T.V.A. 30/257
+
+Annexe 2
+
+27 mai 1997 - Arrêté royal modifiant le Code de la taxe sur la valeur ajoutée, en application des articles 2,° 1er, et 3, ° 1er, 2 o et 3 o , de la loi du 26 juillet 1996 visant à réaliser les conditions budgétaires de la participation de la Belgique à l'Union économique et monétaire européenne (M.B., 31 mai 1997, n o 101, pp 14460 - 14464).
+
+Albert II, Roi des Belges.
+
+A tous, présents et à venir, Salut.
+
+Vu la loi du 26 juillet 1996 visant à réaliser les conditions budgétaires de la participation de la Belgique à l'Union économique et monétaire européenne, notamment les articles 2, ° 1er, et 3, ° 1er, 2 o et 3 o ;
+
+Vu le Code de la taxe sur la valeur ajoutée, notamment l'article 18, ° 1er alinéa 2, 1 o , modifié par la loi du 28 décembre 1992, l'article 21, modifié par la loi du 28 décembre 1992 et par l'arrêté royal du 22 décembre 1995, et l'article 22, modifié par la loi du 28 décembre 1992;
+
+Vu la décision 97/200/CE du Conseil de l'Union européenne du 17 mars 1997 autorisant le royaume de Belgique à appliquer une mesure dérogatoire à l'article 9 de la sixième directive 77/388/CEE en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires;
+
+Vu l'avis de l'Inspecteur des Finances émis le 26 mars 1997;
+
+Vu l'accord du Ministre du Budget donné le 3 avril 1997;
+
+Vu l'urgence motivée par la circonstance que les mesures proposées doivent entrer en vigueur le plus tôt possible afin d'enrayer sans délai l'évasion fiscale dans le secteur des télécommunications et la perte de recettes fiscales qu'elle génère, et de mettre fin, dans le même délai, aux distorsions de concurrence très graves qui découlent du maintien du régime actuel de taxation exclusive dans le pays du prestataire des services de télécommunications, y compris dans les cas où celui-ci est établi en dehors de l'Union européenne;
+
+Vu l'avis du Conseil d'Etat, donné le 30 avril 1997, en application de l'article 84, alinéa 1er, 2 o , des lois coordonnées sur le Conseil d'Etat;
+
+Vu les lois coordonnées sur le Conseil d'Etat, notamment l'article 3bis, ° 1er;
+
+Sur la proposition de Notre Ministre des Finances et de l'avis de Nos Ministres qui en ont délibéré en Conseil,
+
+Nous avons arrêté et arrêtons:
+
+Article 1. L'article 18, ° 1er, alinéa 2, 14 o , du Code de la taxe sur la valeur ajoutée, modifié par la loi du 28 décembre 1992, est remplacé par la disposition suivante:
+
+"14 o des services de radiodistribution, de télédistribution ou de télécommunications. Sont considérés comme services de télécommunications, les services ayant pour objet la transmission, émission et réception de signaux, écrits, images et sons ou informations de toute nature, par fils, par radio, par moyens optiques ou par d'autres moyens électromagnétiques, y compris la cession et concession d'un droit d'utilisation de moyens pour une telle transmission, émission ou réception;".
+
+Art. 2. A l'article 21, du même Code, modifié par la loi du 28 décembre 1992 et par l'arrêté royal du 22 décembre 1995, sont apportées les modifications suivantes:
+
+A) le ° 3, 7 o , est complété comme suit:
+
+"i) des services de télécommunications;";
+
+B) à la fin du ° 3, 8 o , le point est remplacé par un point-virgule;
+
+C) le ° 3 est complété comme suit:
+
+"9 o en Belgique, lorsqu'il s'agit de prestations de services de télécommunications effectuées par des prestataires de services établis en dehors de la Communauté et rendues à des preneurs qui ont en Belgique leur siège, un établissement stable, leur domicile ou leur résidence habituelle et qui n'agissent pas en qualité d'assujetti pour les besoins d'une activité économique".
+
+Art. 3. L'article 22, du même Code, modifié par la loi du 28 décembre 1992, est complété comme suit:
+
+"° 4.Pour les prestations de services de télécommunications effectuées après le 31 mai 1997, la taxe ne devient exigible, par dérogation au ° 2, alinéas 2 et 3, qu'au moment où intervient le fait générateur, lorsque le prix des prestations n'a été facturé ou encaissé avant le 1er juin 1997 ou que le moment fixé contractuellement pour le paiement de tout ou partie du prix s'est situé avant cette dernière date.".
+
+Art. 4. Le présent arrêté entre en vigueur le 1er juin 1997.
+
+Art. 5. Notre Ministre des Finances est chargé de l'exécution du présent arrêté.
+
+Donné à Bruxelles, le 27 mai 1997.
+
+| Albert |
+| --- |
+| Par le Roi: |
+| Le Ministre des Finances, Ph. Maystadt |
+
+Annexe 3
+
+Décision du conseil du 17 mars 1997
+
+autorisant le royaume de Belgique à appliquer une mesure dérogatoire à l'article 9 de la sixième directive 77/388/CEE en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires
+
+(97/200/CE)
+
+Le conseil de l'Union européenne,
+
+vu le traité instituant la Communauté européenne,
+
+vu la sixième directive 77/388/CEE du Conseil, du 17 mai 1977, en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires - Système commun de taxe sur la valeur ajoutée: assiette uniforme (1), et notamment son article 27,
+
+vu la proposition de la Commission,
+
+considérant que, aux termes de l'article 27 paragraphe 1 de la directive 77/388/CEE, le Conseil statuant à l'unanimité sur proposition de la Commission, peut autoriser tout Etat membre à introduire des mesures particulières dérogatoires à cette directive afin de simplifier la perception de la taxe ou d'éviter certaines fraudes ou évasions fiscales;
+
+considérant que, par lettre enregistrée à la Commission le 10 septembre 1996, le royaume de Belgique a sollicité l'autorisation d'introduire une mesure dérogatoire à l'article 9 de la directive 77/388/CEE;
+
+considérant que les autres Etats membres ont été informés le 20 décembre 1996 de la demande introduite par le royaume de Belgique;
+
+considérant que la mesure est nécessaire pour contrer les effets d'évasion fiscale ayant conduit à ce qu'un nombre croissant d'assujettis et de non-assujettis communautaires s'approvisionnent en services de télécommunications en dehors de la Communauté dans le seul but d'éviter le paiement de la taxe sur la valeur ajoutée (TVA); que la mesure est en outre nécessaire pour décourager les prestataires de services de télécommunications établis dans un Etat membre de s'établir en dehors de la Communauté;
+
+considérant que la mesure est aussi nécessaire pour simplifier la perception de la taxe en ce qu'elle impose les mêmes obligations fiscales aux preneurs de services de télécommunications, que les prestataires de ces services soient établis dans ou en dehors de la Communauté;
+
+considérant que la mesure dérogatoire ne peut influer, sauf de façon négligeable, sur le montant de la taxe due au stade de la consommation finale et n'aura donc pas d'incidence négative sur les ressources propres des Communautés européennes provenant de la taxe sur la valeur ajoutée;
+
+considérant qu'il est nécessaire d'accorder cette mesure à compter du 1er janvier 1997 afin de remédier aussi vite que possible à une situation qui affecte la compétitivité des compagnies de télécommunications européennes; que, depuis le 1er janvier 1997, les preneurs et les prestataires de services de télécommunications ne peuvent plus s'attendre légitiment au maintien de la législation en vigueur à cette date;
+
+considérant qu'il est souhaitable que la dérogation soit accordée jusqu'au 31 décembre 1999 ou jusqu'à la date de l'entrée en vigueur d'une directive modifiant le lieu d'imposition des services de télécommunications si cette date est antérieure au 31 décembre 1999, afin de permettre au Conseil d'adopter une solution générale et définitive au niveau communautaire sur la base de la proposition de la Commission,
+
+A arrêté la présente décision:
+
+Article premier
+
+Par dérogation à l'article 9 paragraphe 1 de la directive 77/388/CEE, le royaume de Belgique est autorisé à inclure les services de télécommunications dans le champ d'application de l'article 9 paragraphe 2 point e) de ladite directive. Dans le cas où cet Etat membre fait usage de cette faculté, il applique également à ces services la disposition prévue à l'article 9 paragraphe 3 point b) de ladite directive.
+
+Sont considérés comme services de télécommunications, les services ayant pour objet la transmission, émission et réception de signaux, écrits, images et sons ou informations de toute nature, par fils, par radio, par moyens optiques ou par d'autres moyens électromagnétiques, y compris la cession et concession d'un droit d'utilisation de moyens pour une telle transmission, émission ou réception.
+
+Article 2
+
+La présente décision peut être appliquée aux services de télécommunications dans le cadre desquels le fait générateur a eu lieu à partir du 1er janvier 1997. Elle s'appliquera aussi aux avances pour services de télécommunications payées avant la date à laquelle la présente décision est mise en oeuvre par l'Etat membre, dans la mesure où ces avances couvrent la prestation de services de télécommunications rendue après la date de la mise en oeuvre.
+
+Article 3
+
+L'autorisation visée à la présente décision vaut jusqu'au 31 décembre 1999 ou jusqu'à la date de l'entrée en vigueur d'une directive modifiant le lieu d'imposition des services de télécommunication, si cette date est antérieure au 31 décembre 1999.
+
+Article 4
+
+Le royaume de Belgique est destinataire de la présente décision.
+
+(1) JO n o L 145 du 13.6.1997, p. 1 Directive modifiée en dernier lieu par la directive 96/95/CE (JO n o 1, 338 du 18.12.1996, p.89)
+
+Fait à Bruxelles, le 17 mars 1997.
+
+Par le Conseil
+
+Le président
+
+G. Zalm

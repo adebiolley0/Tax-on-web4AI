@@ -1,0 +1,25 @@
+---
+guid: "66c33590-dc7d-4cbe-afbe-66c07f67c2ec"
+title: "Article 188 du Code des droits d'enregistrement - Région de Bruxelles-Capitale"
+document_type: "Code et législation"
+language: "fr"
+document_date: "1939-11-29"
+publication_date: "1939-11-30"
+effective_date: "1940-01-31"
+last_modified: "2019-10-07"
+taxonomies: ["Région de Bruxelles-Capitale"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Législation et réglementation", "Code des droits d'enregistrement, d'hypothèque et de greffe", "Région de Bruxelles-Capitale"]
+linked_document_nl: "c7afba50-4f33-4e30-be08-ef7125feb57b"
+found_via: "3eecf30d-9ff9-4aec-be55-f149653ef5ae"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/66c33590-dc7d-4cbe-afbe-66c07f67c2ec"
+---
+
+# Article 188 du Code des droits d'enregistrement - Région de Bruxelles-Capitale
+
+Article 188 du Code des droits d'enregistrement - Région de Bruxelles-Capitale
+
+Article 188 ( applicable depuis le 01.02.1940 )
+
+Est considérée comme ayant acheté pour son propre compte et ne peut exciper de la qualité de mandataire ou de commissionnaire du vendeur, toute personne qui négocie la vente d’un immeuble, lorsqu’il est établi que, dès avant la réalisation de cette vente, elle a payé ou s’est engagée à payer au propriétaire le prix ou toute somme à provenir de la vente.
+
+L’intermédiaire est réputé avoir acquis l’immeuble à la date du paiement ou de l’engagement de payer.
