@@ -1,0 +1,24 @@
+[project]
+name = "exp09-corpus-c"
+version = "0.1.0"
+description = "Corpus C (myfin_docs, 21k Fisconet+ documents): BM25 / dense / hybrid / reranking at medium scale."
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "model2vec>=0.5",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "numpy",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
