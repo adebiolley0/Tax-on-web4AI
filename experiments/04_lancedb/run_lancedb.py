@@ -227,6 +227,26 @@ def filter_demo(tbl, corpus, questions, qemb):
             "all_match": ok}
 
 
+def print_table(corpus: str) -> None:
+    """Markdown table of the latest 04_lancedb runs (plus reference rows from 01/02/03/06)."""
+    from rag_eval.results import LEADERBOARD
+    rows = [json.loads(l) for l in LEADERBOARD.read_text().splitlines() if l.strip()]
+    latest: dict = {}
+    for r in rows:
+        if r["corpus"] == corpus:
+            latest[(r["experiment"], r["run"])] = r
+    print("| run | MRR | nDCG@5 | nDCG@10 | hit@1 | hit@5 | hit@10 | recall@10 | query ms (mean / p95) | index / build |")
+    print("|---|---|---|---|---|---|---|---|---|---|")
+    for (exp, run), r in sorted(latest.items(), key=lambda kv: -kv[1]["mrr"]):
+        if exp != EXP:
+            continue
+        t = r.get("timing", {}); q = t.get("query", {})
+        build = ", ".join(f"{k.replace('_s', '')} {v}s" for k, v in t.items()
+                          if k in ("encode_docs_s", "insert_s", "fts_index_s", "vector_index_s", "reranker_load_s") and v)
+        print(f"| `{run}` | {r['mrr']:.3f} | {r['ndcg@5']:.3f} | {r['ndcg@10']:.3f} | {r['hit@1']:.3f} | {r['hit@5']:.3f} | "
+              f"{r['hit@10']:.3f} | {r['recall@10']:.3f} | {q.get('mean_ms', '')} / {q.get('p95_ms', '')} | {build} |")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--corpus", default="A")
@@ -236,9 +256,12 @@ def main():
     ap.add_argument("--ce_builtin", action="store_true", help="use lancedb.rerankers.CrossEncoderReranker instead of the custom top-k reranker")
     ap.add_argument("--rebuild", action="store_true", help="recreate the LanceDB table even if it exists")
     ap.add_argument("--leaderboard", action="store_true")
+    ap.add_argument("--table", action="store_true", help="print the markdown results table for this corpus (README)")
     a = ap.parse_args()
     if a.leaderboard:
         print_leaderboard(a.corpus); return
+    if a.table:
+        print_table(a.corpus); return
     runs = a.runs.split(",")
 
     docs, questions = load(a.corpus)
