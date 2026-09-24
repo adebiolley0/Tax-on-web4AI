@@ -22,9 +22,12 @@ import sys
 import time
 from pathlib import Path
 
+import os
+
 import torch
 
-torch.set_num_threads(2)
+# 2 threads by default (task spec); TXTAI_THREADS=4 was used for corpus B to fit the time budget.
+torch.set_num_threads(int(os.environ.get("TXTAI_THREADS", "2")))
 
 from txtai import Embeddings  # noqa: E402
 from txtai.pipeline import Reranker, Similarity  # noqa: E402
