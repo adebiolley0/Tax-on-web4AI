@@ -81,7 +81,61 @@ normalize=True, embed_batch_size=32)`. `torch.set_num_threads(2)` (shared 4-core
 
 ## Results
 
-RESULTS_PLACEHOLDER
+### Corpus A – 91 Fisconet+ documents, 29 questions, document-level ground truth
+
+| run | nodes embedded | index build s | query mean ms | MRR | nDCG@5 | hit@1 | hit@5 | recall@10 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| `llamaindex__bm25` | 1075 | 0.3 | 5.4 | 0.669 | 0.677 | 0.586 | 0.724 | 0.862 |
+| `llamaindex__fusion_rrf__e5-small` | 1075 | 316.9 | 711.0 | 0.605 | 0.676 | 0.448 | 0.759 | 0.862 |
+| `llamaindex__hierarchical_leaf_128__e5-small` | 4415 | 451.3 | 582.7 | 0.540 | 0.589 | 0.345 | 0.724 | 0.828 |
+| `llamaindex__sentence_splitter_400__e5-small` | 1075 | 316.9 | 376.5 | 0.530 | 0.616 | 0.345 | 0.690 | 0.862 |
+| `llamaindex__hierarchical_automerge_2048_512_128__e5-small` | 4415 | 451.3 | 529.7 | 0.509 | 0.564 | 0.345 | 0.690 | 0.828 |
+| `llamaindex__sentence_window_3__e5-small` | 7481 | 1545.1 | 1702.1 | 0.469 | 0.552 | 0.310 | 0.690 | 0.828 |
+
+Like-for-like references (same model, same 29 questions; experiments 04/06 use the
+harness `fixed1500_title` chunker, 01 uses a hand-built accent-stripping analyser):
+
+| experiment | run | MRR | nDCG@5 | hit@1 | hit@5 | recall@10 |
+|---|---|---:|---:|---:|---:|---:|
+| 04_lancedb | `lancedb__e5-small__vector` | 0.541 | 0.629 | 0.379 | 0.759 | 0.862 |
+| 06_txtai | `txtai__e5-small__dense` | 0.541 | 0.629 | 0.379 | 0.759 | 0.862 |
+| 04_lancedb | `lancedb__e5-small__fts_fr` | 0.645 | 0.690 | 0.517 | 0.759 | 0.862 |
+| 06_txtai | `txtai__e5-small__bm25` | 0.565 | 0.640 | 0.379 | 0.759 | 0.862 |
+| 04_lancedb | `lancedb__e5-small__hybrid_rrf` | 0.598 | 0.672 | 0.448 | 0.793 | 0.966 |
+| 06_txtai | `txtai__e5-small__hybrid_w0.7` | 0.607 | 0.671 | 0.448 | 0.793 | 0.897 |
+| 01_bm25 | `fixed1500+title|max|stem+stop+qstop+noaccent` | 0.672 | 0.704 | 0.552 | 0.793 | 0.897 |
+| 01_bm25 | `doc|stem+stop+qstop+noaccent` | 0.695 | 0.734 | 0.586 | 0.897 | 0.897 |
+
+Timings: 2 torch threads on a 4-core VM with load average 11–15 (three other experiments
+embedding at the same time); `query mean ms` includes the ~130 ms query embedding.
+
+Observations (A):
+
+* **Plain `SentenceSplitter` (0.530) ≈ the harness's own chunker (0.541).** LlamaIndex's
+  splitter is a fair baseline; the small gap is chunk boundaries (400 e5 tokens vs 1 500
+  chars, paragraph separator `\n\n\n` vs heading-aware splitting).
+* **Hierarchical leaves without merging (0.540) ≈ baseline; `AutoMergingRetriever`
+  makes it worse (0.509).** Merging changes the rank of the expected document on 8 of 29
+  questions: better on 1 (Q4), worse on 5 (Q6, Q19, Q25, Q26, Q30), because a merged
+  parent takes the *mean* score of its retrieved children, which drags a document whose
+  best leaf was rank 1 below documents that were retrieved as a single, high-scoring leaf.
+  Small leaves also crowd the candidate list: with top-50 128-token leaves the expected
+  document disappears from the list entirely on Q12/Q14/Q27, where 400-token chunks still
+  found it at ranks 9–17 (hence recall@10 0.828 vs 0.862).
+* **`SentenceWindowNodeParser` is the worst dense variant (0.469)** and the most expensive
+  index (7 481 single-sentence nodes, 1 545 s, 123 MB JSON). Single sentences of legal French
+  ("Ce montant est indexé conformément à l'article 178.") are poor retrieval units; the
+  window only helps the *reader* after retrieval, not the ranking, and our metric is the
+  ranking.
+* **`BM25Retriever` with `Stemmer("french")` + French stopwords is the best single
+  retriever (0.669)**, within noise of the hand-tuned BM25 of experiment 01 (0.672 on the
+  same chunk granularity, 0.695 at whole-document level). Query latency 5 ms.
+* **`QueryFusionRetriever` RRF (0.605)** lands between its two inputs, as RRF does when
+  one input (dense, 0.530) is much weaker than the other; it improves hit@5 (0.759) but
+  loses hit@1 vs BM25 alone (0.448 vs 0.586). LanceDB's hybrid RRF (experiment 04) shows
+  the same pattern (0.598).
+
+RESULTS_B_PLACEHOLDER
 
 ## Workarounds and pitfalls
 
