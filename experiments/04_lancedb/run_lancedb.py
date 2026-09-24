@@ -128,7 +128,7 @@ def build_table(db, corpus: str, chunks, emb: np.ndarray, rebuild: bool):
     """Create (or reuse) the LanceDB table for a corpus. Returns (table, timing)."""
     name = f"chunks_{corpus}"
     timing: dict = {}
-    if not rebuild and name in db.list_tables():
+    if not rebuild and name in db.table_names():  # list_tables() returns a ListTablesResponse object in 0.39, not a list
         tbl = db.open_table(name)
         if tbl.count_rows() == len(chunks):
             print(f"reusing table {name} ({tbl.count_rows()} rows)")
@@ -209,7 +209,9 @@ def run_queries(questions, fn, warmup=True) -> tuple[dict, list[float]]:
 
 def filter_demo(tbl, corpus, questions, qemb):
     """Sanity check of metadata filtering (SQL-ish where clause) on vector / hybrid queries."""
-    meta_key, val = ("doctype", "Circulaires") if corpus == "A" else ("code", "tva")
+    meta_key = "doctype" if corpus == "A" else "code"
+    # take the metadata value of the first expected doc of the first question so the filter is non-empty
+    val = tbl.search().where(f"doc_id = '{questions[0].expected[0]}'").limit(1).select([meta_key]).to_list()[0][meta_key]
     q, v = questions[0].question, qemb[0].tolist()
     t0 = time.perf_counter()
     rows = (tbl.search(v, vector_column_name="vector").distance_type("cosine")
@@ -262,7 +264,7 @@ def main():
         print_leaderboard(a.corpus); return
     if a.table:
         print_table(a.corpus); return
-    runs = a.runs.split(",")
+    runs = [r for r in a.runs.split(",") if r and r != "none"]
 
     docs, questions = load(a.corpus)
     ck, chunker = CHUNKERS[a.corpus]
