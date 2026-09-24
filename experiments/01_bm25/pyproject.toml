@@ -1,0 +1,13 @@
+[project]
+name = "exp01-bm25"
+version = "0.1.0"
+description = "Experiment 01: BM25 lexical baselines (doc-level, chunk-level, stemming, k1/b grid) on corpora A and B."
+requires-python = ">=3.12"
+dependencies = [
+    "bm25s>=0.2",
+    "PyStemmer",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }

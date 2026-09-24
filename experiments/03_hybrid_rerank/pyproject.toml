@@ -1,0 +1,23 @@
+[project]
+name = "exp03-hybrid-rerank"
+version = "0.1.0"
+description = "Hybrid dense+BM25 fusion and cross-encoder reranking on top of cached embeddings."
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "einops",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

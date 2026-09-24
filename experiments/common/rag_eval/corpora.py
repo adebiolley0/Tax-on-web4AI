@@ -1,0 +1,107 @@
+"""Corpus and question loaders.
+
+Two corpora are used throughout the experiments:
+
+* **Corpus A** – the 91 Fisconet+ markdown documents in
+  ``ingestion/validation_dataset/md`` (circulaires, FAQs, rulings, PQs, code
+  excerpts) with the 31 questions in ``questions.json``.  Ground truth is at
+  document level.
+* **Corpus B** – the article-level corpus parsed from the MyMinfin library PDFs
+  (CIR 92, AR/CIR 92, Code TVA, regional codes …) by
+  ``experiments/00_pdf_parsing``.  Each *article* is a "document"; ground truth
+  is at article level (``experiments/data/corpus_b/questions_b.json``).
+"""
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass, field
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[3]
+DATA_DIR = REPO_ROOT / "experiments" / "data"
+CORPUS_A_MD = REPO_ROOT / "ingestion" / "validation_dataset" / "md"
+CORPUS_A_MANIFEST = REPO_ROOT / "ingestion" / "validation_dataset" / "manifest.json"
+QUESTIONS_A = REPO_ROOT / "ingestion" / "validation_dataset" / "questions.json"
+CORPUS_B_JSONL = DATA_DIR / "corpus_b" / "articles.jsonl"
+QUESTIONS_B = DATA_DIR / "corpus_b" / "questions_b.json"
+
+
+@dataclass
+class Doc:
+    doc_id: str
+    title: str
+    text: str
+    meta: dict = field(default_factory=dict)
+
+
+@dataclass
+class Chunk:
+    chunk_id: str
+    doc_id: str
+    text: str
+    title: str = ""
+    meta: dict = field(default_factory=dict)
+
+
+@dataclass
+class Question:
+    qid: str
+    question: str
+    expected: list[str]
+    secondary: list[str] = field(default_factory=list)
+    meta: dict = field(default_factory=dict)
+
+
+def load_corpus_a(clean: bool = False) -> list[Doc]:
+    """Load the 91 validation markdown docs. ``clean=True`` applies the repo's
+    content cleaner (requires tax_ingestion importable)."""
+    manifest = {m["short_name"]: m for m in json.loads(CORPUS_A_MANIFEST.read_text())}
+    docs: list[Doc] = []
+    for p in sorted(CORPUS_A_MD.glob("*.md")):
+        text = p.read_text(encoding="utf-8")
+        if clean:
+            from tax_ingestion.storage.content_cleaner import clean_for_indexing  # type: ignore
+            text = clean_for_indexing(text)
+        m = manifest.get(p.stem, {})
+        docs.append(Doc(doc_id=p.stem, title=m.get("title", p.stem), text=text,
+                        meta={k: m.get(k) for k in ("document_type", "document_date", "taxonomies", "keywords")}))
+    return docs
+
+
+def load_questions_a(include_skipped: bool = False) -> list[Question]:
+    """Questions flagged ``skip: true`` in questions.json (Q13, Q15: invalid ground
+    truth, see experiments/EXPERIMENTS.md) are excluded unless ``include_skipped``."""
+    qs = json.loads(QUESTIONS_A.read_text())
+    return [Question(q["id"], q["question"], q["expected_docs"], q.get("secondary_docs", []),
+                     {"topic": q.get("topic"), "keywords": q.get("expected_keywords", [])})
+            for q in qs if include_skipped or not q.get("skip")]
+
+
+def load_corpus_b(codes: list[str] | None = None) -> list[Doc]:
+    """Load the article-level PDF corpus. ``codes`` optionally restricts to a
+    subset of code identifiers (e.g. ["cir92", "tva"])."""
+    if not CORPUS_B_JSONL.exists():
+        raise FileNotFoundError(f"{CORPUS_B_JSONL} missing – run experiments/00_pdf_parsing first")
+    docs: list[Doc] = []
+    with CORPUS_B_JSONL.open(encoding="utf-8") as fh:
+        for line in fh:
+            r = json.loads(line)
+            if codes and r["code"] not in codes:
+                continue
+            docs.append(Doc(doc_id=r["id"], title=r["title"], text=r["text"],
+                            meta={k: r.get(k) for k in ("code", "article", "heading_path", "source_file", "page")}))
+    return docs
+
+
+def load_questions_b() -> list[Question]:
+    qs = json.loads(QUESTIONS_B.read_text())
+    return [Question(q["id"], q["question"], q["expected"], q.get("secondary", []),
+                     {"topic": q.get("topic"), "notes": q.get("notes")}) for q in qs]
+
+
+def load_corpus(name: str, **kw) -> tuple[list[Doc], list[Question]]:
+    if name == "A":
+        return load_corpus_a(**kw), load_questions_a()
+    if name == "B":
+        return load_corpus_b(**kw), load_questions_b()
+    raise ValueError(name)

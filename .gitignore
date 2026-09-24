@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# RAG experiments: regenerable data (run experiments/00_pdf_parsing/parse_pdfs.py) and caches
+experiments/data/corpus_b/articles.jsonl
+experiments/data/corpus_b/md/
+experiments/data/emb_cache/
+experiments/*/sync.log
+experiments/*/lancedb_data/
+experiments/*/txtai_index/
+experiments/*/storage/

@@ -1,0 +1,13 @@
+[project]
+name = "exp00-pdf-parsing"
+version = "0.1.0"
+description = "Step 1: parse + clean the MyMinfin legal-code PDFs into an article-level corpus (Corpus B)."
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf>=1.26",
+    "pymupdf4llm>=0.0.27",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
