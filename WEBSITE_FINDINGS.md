@@ -209,7 +209,15 @@ Available years: 2017-2026 (from `GET /changes/limit-year`).
 - **Endpoint**: `GET /pdf?id={guid}&language={lang}` — returns raw PDF bytes
 - **Tested**: Successfully downloaded Table of Contents PDF (4.6 MB / 38 pages)
 - **Availability**: Not all documents have PDFs; some GUIDs return HTTP 503
-- **Library endpoint** (`GET /library/documents?language=fr`) was returning 503 during testing — may be intermittent
+- **Library endpoint** (`GET /library/documents?language=fr`) was returning 503 during testing — may be intermittent (worked reliably on 2026-09-24)
+- **⚠ `/pdf?id=` returns a generic placeholder**: for library GUIDs (e.g. CIR 92 Fédéral) it returns the 38-page *Handleiding Externe gebruiker* (Fisconet+ user guide), not the requested document. The "Table of Contents PDF (4.6 MB / 38 pages)" above is that placeholder.
+
+#### Fisconet+ library PDFs — real source (2026-09-24)
+- The actual PDF is embedded base64 in `GET /document/{guid}` → `data.content.content` when `data.content.type == "PDF"`.
+- `/library/documents?language=fr` lists 35 items: 34 Fisconet GUIDs + *Guide utilisateur externe* (SharePoint URL, skipped).
+- One item (*Code des droits d'enregistrement - Région de Bruxelles-Capitale*) is an **HTML table of contents**; its `[PDF]` link is a `https://fisconet.direct/{guid}` href pointing to a separate document whose content is the PDF. Follow `fisconet.direct` links to find it.
+- All 450 navigation-tree leaf documents (`/navigation/tree`) are `HTML`, not PDF.
+- Script: `ingestion/scripts/download_myfin_pdfs.py` → `myfin_pdfs/*.pdf` + `myfin_pdfs/manifest.json` (34 PDFs, ~107 MB, ~11.6k pages).
 
 #### Drupal PDF Links
 - **29 out of 123 endpoints** have `content_type` of `mixed` or `pdf` in `extracted_sitemap.json`
