@@ -1,0 +1,23 @@
+---
+guid: "749475cf-be96-4e6c-aa88-4feff28be07d"
+title: "Article 341, CIR 92 (revenus 2027)"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2014-04-25"
+publication_date: "2014-05-16"
+effective_date: "2014-05-16"
+last_modified: "2026-08-26"
+taxonomies: ["CIR 92 - Revenus 2027"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Code des impôts sur les revenus", "CIR 92 par année de revenus", "CIR 92 - Revenus 2027"]
+linked_document_nl: "a0ac34ca-0217-4e32-a04d-1a48a98589f2"
+found_via: "11967b44-d9e3-448e-97eb-b54ba7c2f693"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/749475cf-be96-4e6c-aa88-4feff28be07d"
+---
+
+# Article 341, CIR 92 (revenus 2027)
+
+Art. 341, alinéa 2, entre en vigueur le jour de sa publication au Moniteur belge (art. 16 et 99, al. 1, L 25.04.2014 - M.B. 16.05.2014; Numac: 2014003219 )
+
+Sauf preuve contraire, l'évaluation de la base imposable peut être faite, pour les personnes morales comme pour les personnes physiques, d'après des signes ou indices d'où résulte une aisance supérieure à celle qu'attestent les revenus déclarés.
+
+Lorsque la preuve contraire fournie par le contribuable se rapporte à des ventes de valeurs mobilières ou d'autres instruments financiers qu'il a acquis au titre de placement, les bordereaux ou documents d'achat et de vente invoqués ne font preuve à l'égard de l'administration en charge de l'établissement des impôts sur les revenus que s'ils portent la mention "nominatif" et sont établis au nom du contribuable ou des personnes dont il est l'ayant-droit.

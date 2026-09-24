@@ -1,0 +1,269 @@
+---
+guid: "cddf2fc3-dcee-4aa3-8e39-90d4f87246a9"
+title: "20.11.2022 - Loi portant des mesures concernant la pénurie de personnel dans le secteur des soins"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2022-11-20"
+publication_date: "2022-11-30"
+effective_date: null
+last_modified: "2025-09-15"
+taxonomies: ["Dispositions autonomes"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Autre législation", "Dispositions autonomes"]
+linked_document_nl: "6c5dd7d8-841e-4051-b48f-531eb9caf5bf"
+found_via: "92f58d9e-6de9-4f59-9f0b-34ad6b892bee"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/cddf2fc3-dcee-4aa3-8e39-90d4f87246a9"
+---
+
+# 20.11.2022 - Loi portant des mesures concernant la pénurie de personnel dans le secteur des soins
+
+20.11.2022 - Loi portant des mesures concernant la pénurie de personnel dans le secteur des soins
+
+M . B ., 30.11.2022, p. 88171
+
+Numac : 2022042675
+
+(version coordonnée officieuse)
+
+PHILIPPE, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+La Chambre des représentants a adopté et Nous sanctionnons ce qui suit :
+
+TITRE 1er. - Dispositions générales et champ d'application
+
+Article 1er. La présente loi règle une matière visée à l'article 74 de la Constitution.
+
+Art. 2. Pour l'application de la présente loi, on entend par le secteur des soins: les services et les organisations de soins publics ou privés, d'accueil et d'assistance aux personnes, aux personnes âgées, aux mineurs, aux personnes handicapées et aux personnes vulnérables y compris les victimes de violences intra-familiales.
+
+Pour le secteur privé, ces services ou organisations relèvent des commissions paritaires suivantes:
+
+-318 Commission paritaire pour les services des aides familiales et des aides seniors;
+
+- 319 Commission paritaire des établissements et services d'éducation et d'hébergement;
+
+- 330 Commission paritaire des établissements et des services de santé;
+
+- 331 Commission paritaire pour le secteur flamand de l'aide sociale et des soins de santé;
+
+- 332 Commission paritaire pour le secteur francophone et germanophone de l'aide sociale et des soins de santé;
+
+- 322 Commission paritaire pour le travail intérimaire et les entreprises agréées fournissant des travaux ou services de proximité, pour autant que le travailleur intérimaire soit occupé chez un utilisateur ressortissant à une des commissions paritaires susmentionnées.
+
+Par secteur des soins public, on entend les établissements ou services publics dont le code NACE est 86101, 86102, 86103, 86104, 86109, 86210, 86901, 86903, 86904, 86905, 86906, 86909, 87101, 87109, 87201, 87202, 87203, 87204, 87205, 87209, 87301, 87302, 87303, 87304, 87309, 87901, 87902, 87909, 88101, 88102, 88103, 88104, 88109, 88911, 88912, 88919, 88991, 88992, 88993, 88994, 88996 et 88999.
+
+Pour l'application de la présente loi, on entend également par le secteur des soins:
+
+- les établissements et les centres privés et publics qui sont chargés de la recherche des contacts afin de limiter la propagation du coronavirus COVID-19;
+
+- les établissements ou les services privés et publics qui sont chargés de l'exploitation des centres de vaccination dans le cadre de la lutte contre le coronavirus COVID-19 et ce pour toutes les activités qui sont liées à l'exploitation d'un centre de vaccination.
+
+TITRE 2. - Affaires sociales
+
+CHAPITRE 1er. - Elargissement des possibilités de travail
+
+des étudiants dans le secteur des soins
+
+Art. 3. Par dérogation à l'article 17 bis , §§ 1er et 3, de l'arrêté royal du 28 novembre 1969 pris en exécution de la loi du 27 juin 1969 révisant l'arrêté-loi du 28 décembre 1944 concernant la sécurité sociale des travailleurs, les heures prestées lors du troisième et quatrième trimestre 2022 et du premier trimestre 2023 dans le secteur des soins tel que défini à l'article 2, ne sont pas prises en compte dans le calcul du contingent annuel de 475 heures en 2022 et de 600 heures en 2023 .
+
+[Modifié par l'art. 151, LP 26.12.2022 (B.S. 30.12.2022); Entrée en vigueur: 09.01.2023]
+
+CHAPITRE 2. - Diminution des cotisations des travailleurs
+
+pour les pensionnés travaillant dans le secteur des soins
+
+Art. 4. L'intitulé de la loi du 20 décembre 1999 visant à octroyer un bonus à l'emploi sous la forme d'une réduction des cotisations personnelles de sécurité sociale aux travailleurs salariés ayant un bas salaire, à certains travailleurs qui ont été victimes d'une restructuration et aux sportifs rémunérés, est remplacé par ce qui suit:
+
+"Loi visant à octroyer un bonus à l'emploi aux travailleurs salariés ayant un bas salaire et d'autres réductions des cotisations personnelles de sécurité sociale.".
+
+Art. 5 . Dans la même loi, dont l'intitulé a été remplacé par l'article 4, il est inséré un article 3 bis /3 rédigé comme suit:
+
+"Art. 3 bis /3. Par dérogation aux articles 38, § 2, et 23, alinéa 9, de la loi du 29 juin 1981 établissant les principes généraux de la sécurité sociale des travailleurs salariés, les pensionnés bénéficient d'une dispense de cotisations personnelles de sécurité sociale sur la rémunération payée en raison de leur emploi en tant que pensionné auprès d'un employeur du secteur des soins.
+
+Cette dispense de cotisations personnelles intervient après application du bonus à l'emploi visé à l'article 2 et ne peut pas être cumulée avec les réductions de cotisations personnelles visées aux articles 3 bis et 3 bis /2.
+
+Pour l'application du présent article, il faut entendre par:
+
+1° "employeurs du secteur des soins": les employeurs appartenant au secteur des soins tel que défini à l'article 2;
+
+2° "pensionné": un bénéficiaire effectif d'une pension de retraite ou de survie à la date du 1er juillet 2022 ou un bénéficiaire effectif d'une pension de retraite ou de survie qui a atteint l'âge de 65 ans avant le premier jour du mois concerné.".
+
+CHAPITRE 3. - Extension temporaire du champ d'application de la loi du 3 juillet 2005 relative aux droits des volontaires aux organisations agréées par l'autorité compétente pour l'aide et les soins aux personnes âgées ainsi que pour l'accueil et l'hébergement des personnes âgées du secteur privé commercial
+
+Art. 6. § 1er. La définition du terme "organisation" telle que mentionnée à l'article 3, 3°, de la loi du 3 juillet 2005 relative aux droits des volontaires est étendue aux organisations qui ne sont pas constituées sous la forme d'une association sans but lucratif et qui sont agréées par l'autorité compétente pour l'aide et les soins aux personnes âgées ainsi que pour l'accueil et l'hébergement des personnes âgées.
+
+§ 2. Les organisations visées au paragraphe 1er sont exclues du champ d'application de la loi du 3 juillet 2005 précitée pour les périodes au cours desquelles elles remplacent un travailleur placé en chômage temporaire dans le poste qu'il occupe par un volontaire.
+
+TITRE 3. - Travail
+
+CHAPITRE 1er. - Dispositions de droit du travail relatives à l'emploi
+
+des pensionnés dans le secteur des soins
+
+Art. 7. Par dérogation à l'article 6, § 1er, 1°, alinéa 3, d), de la loi du 8 avril 1965 instituant les règlements de travail, le délai de communication des horaires individuels de travail est de trois jours ouvrables pour les travailleurs visés à l'article 3 bis /3 de la loi du 20 décembre 1999 visant à octroyer un bonus à l'emploi aux travailleurs salariés ayant un bas salaire et d'autres réductions des cotisations personnelles de sécurité sociale.
+
+Art. 8. Par dérogation à l'article 11 bis , alinéa 5, de la loi du 3 juillet 1978 relative aux contrats de travail, la durée hebdomadaire de travail des travailleurs visés à l'article 3 bis /3 de la loi précitée du 20 décembre 1999 travaillant à temps partiel peut être inférieure au tiers de la durée hebdomadaire de travail des travailleurs à temps plein qui, dans l'entreprise, relèvent de la même catégorie.
+
+Art. 9. L'employeur procède à une concertation avec le conseil d'entreprise ou à défaut, avec le comité pour la prévention et la protection au travail, ou à défaut, avec la délégation syndicale quant aux mesures prévues dans le présent chapitre.
+
+L'employeur qui recourt aux mesures visées par la présente loi en informe le conseil d'entreprise ou, à défaut, le comité pour la prévention et la protection au travail, ou, à défaut, la délégation syndicale, et inscrit la discussion à l'ordre du jour de la réunion qui suit la première utilisation. La discussion au sein de l'organe de participation concerné est inscrite chaque mois à l'ordre du jour, tant que l'utilisation se poursuit, et pour la dernière fois lors de la réunion suivant la fin de l'utilisation.
+
+CHAPITRE 2. - Emploi temporaire auprès d'employeurs
+
+du secteur des soins
+
+Art. 10 . Pour l'application du présent chapitre, on entend par:
+
+1° prépensionné: le chômeur qui bénéficie d'allocations en application de l'arrêté royal du 7 décembre 1992 relatif à l'octroi d'allocations de chômage en cas de prépension conventionnelle;
+
+2° chômeur temporaire: le chômeur qui bénéficie d'allocations en application des articles 106 à 108 bis de l'arrêté royal du 25 novembre 1991 portant réglementation du chômage;
+
+3° chômeur avec complément d'entreprise: le chômeur qui bénéfice d'allocations en application de l'arrêté royal du 3 mai 2007 fixant le régime de chômage avec complément d'entreprise;
+
+4° le facteur X: le nombre de jours, à l'exception des dimanches, dans un mois calendrier donné, qui sont situés dans la période calendrier couverte par une occupation dans les secteurs des soins, tel que déclaré en application de l'arrêté royal du 5 novembre 2002 instaurant une déclaration immédiate de l'emploi, en application de l'article 38 de la loi du 26 juillet 1996 portant modernisation de la sécurité sociale et assurant la viabilité des régimes légaux des pensions.
+
+Art. 11 . § 1er. Un travailleur, occupé par un employeur du secteur des soins, qui interrompt ou qui a réduit ses prestations de travail dans le cadre du chapitre IV, section 5, de la loi de redressement du 22 janvier 1985 contenant des dispositions sociales, peut convenir avec son employeur de suspendre temporairement l'interruption ou la réduction des prestations de travail. A l'issue de la suspension temporaire, l'interruption ou la réduction initiale des prestations de travail est poursuivie aux conditions initiales pour la durée restante.
+
+La suspension temporaire de l'interruption ou de la réduction des prestations de travail n'est possible que pendant la période courant jusqu'à la date à laquelle le présent chapitre cesse d'être en vigueur.
+
+Le travailleur communique la suspension de l'interruption ou de la réduction des prestations de travail par écrit à l'Office National de l'Emploi. Cet Office national peut prévoir un modèle de formulaire visant à réaliser cette communication.
+
+§ 2. Par dérogation aux dispositions de divers arrêtés royaux pris en exécution de la loi de redressement du 22 janvier 1985 précitée, le travailleur conserve le droit à l'allocation d'interruption pendant la suspension de l'interruption ou la réduction des prestations de travail.
+
+Toutefois, le montant de ces allocations d'interruption est réduit d'un quart.
+
+Art. 12. § 1er. Un travailleur qui interrompt ou qui réduit ses prestations de travail dans le cadre du chapitre IV, section 5, de la loi de redressement du 22 janvier 1985 contenant des dispositions sociales, peut, pendant la durée de cette interruption ou de cette réduction des prestations de travail, être occupé temporairement auprès d'un autre employeur du secteur des soins.
+
+Le contrat de travail auprès de l'autre employeur est établi par écrit et contient une date de fin qui ne dépasse pas la date à laquelle la présente loi cesse d'être en vigueur.
+
+Le travailleur informe par écrit l'Office National de l'Emploi de chaque nouvelle occupation. Cet Office national peut prévoir un modèle de formulaire visant à réaliser cette communication.
+
+§ 2. Par dérogation aux dispositions de divers arrêtés royaux pris en exécution de la loi de redressement du 22 janvier 1985 précitée, le travailleur conserve son droit aux allocations d'interruption, si en application du paragraphe 1er, il commence une nouvelle occupation auprès d'un autre employeur du secteur des soins.
+
+Toutefois, le montant de ces allocations d'interruption est réduit d'un quart pendant la durée du contrat de travail.
+
+Art. 13 . Quand un chômeur temporaire reprend temporairement le travail chez un autre employeur du secteur des soins, le nombre d'allocations par mois calendrier reçues en application des articles 106 à 108 bis de l'arrêté royal du 25 novembre 1991 portant réglementation du chômage est, par dérogation aux articles 44, 45, 46 et 106 à 108bis du même arrêté royal, diminué d'un quart du facteur X.
+
+Lorsque la fraction décimale du résultat de la division de X par quatre est inférieure à 0,25, le résultat est arrondi à l'unité inférieure; lorsque cette fraction est égale ou supérieure à 0,25 sans atteindre 0,75, le résultat est arrondi à 0,50; lorsque cette fraction est égale ou supérieure à 0,75, le résultat est arrondi à l'unité supérieure.
+
+Le régime visé à l'alinéa 1er est uniquement d'application aux occupations situées dans la période allant jusqu'à la date à laquelle le présent article cesse d'être en vigueur.
+
+Art. 14 . § 1er. Quand un prépensionné ou un chômeur avec complément d'entreprise reprend temporairement le travail chez un employeur du secteur des soins, le nombre d'allocations par mois calendrier est, par dérogation aux articles 44, 45 et 46 de l'arrêté royal du 25 novembre 1991 portant réglementation du chômage, diminué d'un quart du facteur X.
+
+Lorsque la fraction décimale du résultat de la division de X par quatre est inférieure à 0,25, le résultat est arrondi à l'unité inférieure; lorsque cette fraction est égale ou supérieure à 0,25 sans atteindre 0,75, le résultat est arrondi à 0,50; lorsque cette fraction est égale ou supérieure à 0,75, le résultat est arrondi à l'unité supérieure.
+
+Le régime visé à alinéa 1er est uniquement d'application aux occupations situées dans la période allant jusqu'à la date à laquelle le présent article cesse d'être en vigueur.
+
+§ 2. Le paragraphe 1er s'applique également si un prépensionné ou un chômeur avec complément d'entreprise reprend temporairement le travail dans un secteur ou une institution qui tombe sous le champ d'application de la présente loi, chez l'employeur qui est le débiteur de l'allocation complémentaire dans le cadre du régime de chômage avec complément d'entreprise.
+
+Art. 15. Pour l'application de l'arrêté royal du 29 mars 2010 portant exécution du chapitre 6 du Titre XI de la loi du 27 décembre 2006 portant des dispositions diverses (I), relatif aux cotisations de sécurité sociale et retenues dues sur des régimes de chômage avec complément d'entreprise, sur des indemnités complémentaires à certaines allocations de sécurité sociale et sur des indemnités d'invalidité, une occupation visée à l'article 14, § 2, est, par dérogation à l'article 3 de l'arrêté du 29 mars 2010 précité, considérée comme une reprise d'emploi de type 1 et non de type 2.
+
+TITRE 4. – Pensions
+
+CHAPITRE 1er. - Mesures exceptionnelles
+
+en matière de pensions légales
+
+Art. 16 . Par dérogation à l'article 2, le champ d'application du présent titre est étendu au champ d'application de l'article 3/1 de la loi du 7 mai 2020 portant des mesures exceptionnelles dans le cadre de la pandémie COVID-19 en matière de pensions, pension complémentaire et autres avantages complémentaires en matière de sécurité sociale, à l'exception de l'alinéa 1er, 4°, de l'article précité.
+
+Art. 17 . Le présent chapitre est d'application aux prestations suivantes et à leurs avantages accessoires:
+
+1° les pensions de retraite et de survie visées à l'article 38 de la loi du 5 août 1978 de réformes économiques et budgétaires et à l'article 80 de la loi du 3 février 2003 apportant diverses modifications à la législation relative aux pensions du secteur public;
+
+2° les pensions de retraite et de survie des travailleurs salariés visées par l'arrêté royal n° 50 du 24 octobre 1967 relatif à la pension de retraite et de survie des travailleurs salariés;
+
+3° les pensions de retraite et de survie et les pensions de conjoint divorcé des travailleurs indépendants, aidants et conjoints aidants visées par l'arrêté royal n° 72 du 10 novembre 1967 relatif à la pension de retraite et de survie des travailleurs indépendants;
+
+4° la garantie de revenus aux personnes âgées visée par la loi du 22 mars 2001 instituant la garantie de revenus aux personnes âgées;
+
+5° le revenu garanti aux personnes âgées visé par la loi du 1er avril 1969 instituant un revenu garanti aux personnes âgées.
+
+Art. 18. Pour l'application du cumul des prestations visées à l'article 17, 1° à 3°, avec les revenus provenant d'une activité professionnelle, il n'est pas tenu compte des revenus provenant d'une activité professionnelle exercée par le bénéficiaire de la prestation ou son conjoint, pour autant que ces revenus proviennent d'une activité professionnelle qui a été entamée ou étendue en application de la présente loi ou la loi du 7 mai 2020 portant des mesures exceptionnelles dans le cadre de la pandémie COVID-19 en matière de pensions, pension complémentaire et autres avantages complémentaires en matière de sécurité sociale et pour autant que ces revenus proviennent d'une activité professionnelle qui est exercée dans l'un des secteurs, établissements ou services déterminés dans l'article 2 de cette loi ou de l'article 3/1, alinéa 1er, 1°, 2° et 3°, de la loi du 7 mai 2020 précitée.
+
+Les revenus provenant d'une activité professionnelle exercée par le bénéficiaire ou toute autre personne dont les ressources et pensions sont prises en considération pour les prestations visées à l'article 17, 4° et 5°, sont, pour la détermination de ces prestations, considérés comme des revenus entièrement exonérés, pour autant que ces revenus proviennent d'une activité professionnelle qui a été entamée ou étendue en application de la présente loi ou de la loi du 7 mai 2020 portant des mesures exceptionnelles dans le cadre de la pandémie COVID-19 en matière de pensions, pension complémentaire et autres avantages complémentaires en matière de sécurité sociale et pour autant que ces revenus proviennent d'une activité professionnelle qui est exercée dans l'un des secteurs, établissements ou services déterminés dans l'article 2 de cette loi ou de l'article 3/1, alinéa 1er, 1°, 2° et 3°, de la loi du 7 mai 2020 précitée.
+
+TITRE 5. - Dispositions fiscales
+
+CHAPITRE 1er. - Ressources issues du travail des étudiants
+
+dans le secteur des soins
+
+Art. 19. Dans l'article 16, § 3, alinéa 2, de la loi du 29 mai 2020 portant diverses mesures fiscales urgentes en raison de la pandémie du COVID-19, modifié en dernier lieu par la loi du 8 mai 2022, les mots "et du premier et deuxième trimestre 2022" sont remplacés par les mots "et en 2022" et les mots "ou l'article 13 de la loi du 8 mai 2022 portant diverses mesures sur le plan du droit du travail au bénéfice des secteurs des soins et de l'enseignement dans le cadre de la lutte contre la propagation du coronavirus COVID-19, concernant la suspension du délai de préavis donné par l'employeur pendant une période de chômage temporaire pour cause de force majeure résultant de la situation de guerre en Ukraine et concernant la clause d'écolage." sont remplacés par les mots ", l'article 13 de la loi du 8 mai 2022 portant diverses mesures sur le plan du droit du travail au bénéfice des secteurs des soins et de l'enseignement dans le cadre de la lutte contre la propagation du coronavirus COVID-19, concernant la suspension du délai de préavis donné par l'employeur pendant une période de chômage temporaire pour cause de force majeure résultant de la situation de guerre en Ukraine et concernant la clause d'écolage ou l'article 3 de la loi du 20 novembre 2022 portant des mesures concernant la pénurie de personnel dans le secteur des soins.".
+
+CHAPITRE 2. - Régime fiscal des rémunérations des pensionnés
+
+qui travaillent dans le secteur des soins
+
+Art. 20. Sous réserve de l'application de l'article 171, 5°, b), du Code des impôts sur les revenus 1992, et par dérogation aux articles 130 à 145 et 146 à 156 du même Code, les rémunérations dans le secteur des soins qui sont exonérées de cotisations personnelles de sécurité sociale en application de l'article 3 bis /3 de la loi du 20 décembre 1999 visant à octroyer un bonus à l'emploi aux travailleurs salariés ayant un bas salaire et d'autres réductions des cotisations personnelles de sécurité sociale, et qui sont payées ou attribuées au plus tard le 31 décembre 2025, sont imposables distinctement au taux visé à l'article 171, 1°, du Code précité, sauf si la somme de l'impôt ainsi calculé et de l'impôt calculé conformément à l'article 171 du même Code sur les revenus qui y sont mentionnés, majorée de l'impôt Etat afférent aux autres revenus, est supérieure à l'impôt calculé conformément aux articles 130 à 145 et 146 à 156 précités, afférent aux revenus visés aux articles 17, § 1er, 1° à 3° et 90, alinéa 1er, 6° et 9°, du même Code, et aux plus-values sur valeurs et titres mobiliers imposables sur base de l'article 90, alinéa 1er, 1°, du même Code, majoré de l'impôt Etat afférent à l'ensemble des autres revenus imposables.
+
+Pour l'application du présent article, il faut entendre par rémunérations dans le secteur des soins, les rémunérations des travailleurs visées à l'article 30, 1°, du Code des impôts sur les revenus 1992 pour des prestations dans le secteur des soins tel que visé à l'article 2, en ce compris le pécule de vacances, mais à l'exclusion des indemnités obtenues en réparation totale ou partielle d'une perte temporaire de rémunérations et des indemnités payées contractuellement ou non suite à la cessation de travail ou à la rupture d'un contrat de travail.
+
+[Modifié par l'art. 2, L 21.12.2023 (M.B. 10.01.2024); Entrée en vigueur: 30.09.2023]
+
+[Modifié par l'art. 3, L 15.12.2024 (M.B. 24.12.2024); Entrée en vigueur: 30.09.2024]
+
+TITRE 6. - Entrée en vigueur et application dans le temps
+
+Art. 21 . La présente loi produit ses effets le 1 er juillet 2022.
+
+Les articles 3, 6 et 10 à 18, cessent d'être en vigueur le 31 mars 2023.
+
+Les articles 7, 8 et 9, cessent d'être en vigueur le 31 décembre 2025.
+
+L'article 20 cesse d'être en vigueur le 31 décembre 2025.
+
+L'article 3bis/3 de la loi du 20 décembre 1999 visant à octroyer un bonus à l'emploi aux travailleurs salariés ayant un bas salaire et d'autres réductions des cotisations personnelles de sécurité sociale, inséré par l'article 5 de la présente loi, cesse d'être en vigueur le 31 décembre 2025.
+
+Le Roi peut, à deux reprises au maximum, par arrêté délibéré en Conseil des ministres, prolonger les mesures prévues par l'alinéa 3 et l'alinéa précédent pour une période de maximum trois mois en modifiant les dates de fin de vigueur.
+
+[Modifié par l'art. 3, 1°, L 21.12.2023 (M.B. 10.01.2024); Entrée en vigueur: 30.09.2023] [Modifié par l'art. 2, 1°, LP 04.07.2023 (M.B. 11.07.2023); Entrée en vigueur: 31.03.2023]
+
+[Modifié par l'art. 152, LP 26.12.2022 (M.B. 30.12.2022); Entrée en vigueur: 09.01.2023]
+
+[Remplacé par l'art. 4, L 15.12.2024 (M.B. 24.12.2024); Entrée en vigueur: 30.09.2024]
+
+[Modifié par l'art. 1, AR 12.01.2025 (M.B. 17.01.2025); Entrée en vigueur: 31.12.2024]
+
+[Modifié par l'art. 1, AR 12.05.2025 (M.B. 16.05.2025); Entrée en vigueur: 31.03.2025]
+
+[Modifié par l'art. 3, L 18.07.2025 (M.B. 29.07.2025); Entrée en vigueur: 30.06.2025]
+
+Promulguons la présente loi, ordonnons qu'elle soi revêtue du sceau de l'Etat et publiée par le Moniteur belge .
+
+Donné à Bruxelles, le 20 novembre 2022.
+
+PHILIPPE
+
+Par le Roi :
+
+Le Ministre du Travail,
+
+P-Y. DERMAGNE
+
+Le Ministre des Finances,
+
+V. VAN PETEGHEM
+
+Le Ministre des Affaires sociales,
+
+F. VANDENBROUCKE
+
+La Ministre des Pensions,
+
+K. LALIEUX
+
+Scellé du sceau de l'Etat :
+
+Le Ministre de la Justice,
+
+V. VAN QUICKENBORNE
+
+_______
+
+Note
+
+(1) Chambre des représentants (www.lachambre.be)
+
+Documents : 55K2888/6
+
+Compte rendu intégral : 27 octobre 2022

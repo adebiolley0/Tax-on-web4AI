@@ -1,0 +1,43 @@
+---
+guid: "6f13a4fb-3e65-4fe2-8f65-14a54e0e2a26"
+title: "Numéro E 60-HM/14-10"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2006-01-12"
+publication_date: "2006-04-01"
+effective_date: null
+last_modified: "2021-10-15"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "d00830db-a017-4ffe-b301-d431c64a2da5"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/6f13a4fb-3e65-4fe2-8f65-14a54e0e2a26"
+---
+
+# Numéro E 60-HM/14-10
+
+Numéro E 60-HM/14-10
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+Numéro E 60, HM/14-10
+
+14. – Obligation d'inscription - Transformation de l'habitation après acquisition.
+
+10. - Acquisition avec application de l' article 53, 2° d'une habitation qui va être démolie pour construire un immeuble de rapport (appartements). L'acquéreur ne va lui-même habiter qu'un seul appartement.
+
+Pour l'application de l' article 53 il faut tenir compte du revenu cadastral des biens acquis le jour de l'acte d'acquisition. Il n'est pas tenu compte de la révision du RC lorsque celle-ci est due à des circonstances nées après l'acquisition.
+
+Ce que l'acquéreur entreprend après l'acquisition avec le bien acquis n'est également pas pris en considération. L'acte est immédiatement enregistré au tarif réduit pour les habitations modestes pour autant que le bien acquis réponde à la date de l'acquisition à la notion d '« habitation » juridiquement et dans les faits, soit immédiatement soit suite à des travaux normaux de rénovation ou d'entretien.
+
+Néanmoins l' article 60 C. enr . prescrit que le tarif réduit ne peut être maintenu que si l'acquéreur est inscrit au registre de la population à l'adresse du bien immeuble acquis et ce dans les trois ans à compter de la date de l'acte authentique d'acquisition.
+
+La loi n'impose aucune obligation d'inscription exclusive.
+
+Pour autant que l'acquéreur soit inscrit dans les trois ans à l'adresse de l'habitation acquise et maintient l'inscription pendant une durée ininterrompue de trois ans au moins, il satisfait à son obligation et il peut conserver la réduction.
+
+(Décision du 12.01.2006 - EE/BW 5156)
+
+----------
+
+Date de publication : AVRIL 2006

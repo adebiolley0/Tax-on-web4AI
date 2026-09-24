@@ -1,0 +1,53 @@
+---
+guid: "cad8b4d4-5498-4dda-9d90-552f0cca0bd9"
+title: "Numéro E 44-BR/02-01"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2025-09-03"
+publication_date: "2025-10-11"
+effective_date: null
+last_modified: "2025-10-11"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "29dd2a07-fba3-436b-b22d-c8b997e1ef76"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/cad8b4d4-5498-4dda-9d90-552f0cca0bd9"
+---
+
+# Numéro E 44-BR/02-01
+
+Numéro E 44-BR/02-01
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+RÉGION DE BRUXELLE-CAPITALE
+
+Numéro E 44 -BR /0 2 -0 1
+
+02 . – Prolongation de la durée pour laquelle le droit d’usufruit est établi ou transféré .
+
+01. - La Cour de cassation a jugé dans son arrêt du 24 janvier 2025 qu’un contrat de prolongation d’usufruit modifie uniquement la durée du droit d’usufruit initial et, par conséquent, n’entraîne pas un transfert supplémentaire de droit réel.
+
+Sur cette base, l’arrêt de la Cour d’appel de Gand, qui décide que la prolongation du droit d’usufruit pendant la durée de l’usufruit constitué initialement ne procède pas d’un contrat de transfert d’usufruit au sens de l’ article 2.9.1.0.1 du Code flamand de la fiscalité , est juridiquement fondé, selon la Cour de cassation.
+
+( Cass. (1 e ch.) 24.01.2025, F.22.0125.N , www.juridat.be, confirmant (sur une autre motivation) l’arrêt de la Cour d’appel de Gand du 30.11.2021)
+
+Position de l’Administration suite à l’arrêt précité :
+
+En suivant le raisonnement de l’arrêt précité de la Cour de cassation du 24 janvier 2025, la simple prolongation dans les délais de la durée pour laquelle le droit d’usufruit a été initialement constitué ou transféré n’est pas un “transfert” (terme qui englobe traditionnellement tant le transfert que la constitution par démembrement selon le droit civil) d’un nouveau droit d’usufruit au sens de l’ article 44 C. enr .
+
+Selon la Cour de cassation, cela exige que le contrat de prolongation se limite en réalité à une simple (et donc pure) prolongation de la durée initiale (et éventuellement déjà prolongée) pour laquelle le droit d'usufruit est constitué ou transféré, et que cette prolongation intervienne pendant la durée du droit d'usufruit initialement constitué ou transféré.
+
+Si ce n’est pas le cas, le « droit de vente » est dû. Par exemple, si en plus de la durée du droit d’usufruit, d’autres modalités du contrat sont modifiées.
+
+Si la prolongation de cette durée intervient après l’expiration de la durée initiale, il s’agit selon le droit civil d’un renouvellement et non d’une prolongation. En cas de renouvellement, il s’agit fiscalement d’un « transfert » d’un nouveau droit d’usufruit au sens de l’ article 44 C. enr .
+
+La preuve de la date de la prolongation, et plus précisément le fait que la prolongation ait été conclue avant l’expiration de la durée de l’usufruit en cours, doit être apportée (par exemple via la présentation d’un acte notarié contenant cette prolongation passé avant l’expiration de la durée en cours). La sincérité de la date de la prolongation doit être prouvée conformément à l’ article 18, § 1 er C. enr. (y compris la position souple de l’Administration, voir Circulaire n° 11 du 16.03.1956, Répertoire RJ, E 18/01-01 , www.fisconetplus.be). La charge de la preuve de la date de prolongation repose en premier lieu sur les parties contractantes. Si la sincérité de la date de prolongation avant l’expiration de la durée initiale pour laquelle le droit d'usufruit a été établi ou transféré n’est pas prouvée, l’Administration est en droit de considérer que la date est postérieure à l’expiration de cette durée initiale. Dans ce cas, aucune preuve de la ponctualité de la prolongation n'est présentée, ce qui signifie que celle-ci doit être considérée comme un nouveau « transfert » d'un droit d'usufruit au sens de l' article 44 C. enr .
+
+Un ensemble d’actes juridiques, y compris une ou plusieurs prolongations de la durée pour laquelle un droit d'usufruit est constitué ou transféré, ne peut dans certains cas bien précis être opposé à l’Administration sur la base de l’ article 18, § 2 C. enr . (disposition anti-abus). En effet, la constitution ou le transfert d’un droit d’usufruit suivi d’une ou plusieurs prolongations de cette constitution ou de ce transfert peut, dans certains cas, contrevenir à certaines dispositions du Code des droits d’enregistrement, d’hypothèque et de greffe, par exemple les dispositions relatives à la base imposable. En outre, le contribuable doit pouvoir démontrer que son choix d'opter pour une prolongation plutôt que pour une nouvelle constitution ou transfert ou renouvellement, ne repose pas uniquement sur des motifs fiscaux.
+
+(Décision du 03.09.2025 - EE/L/II/181)
+
+----------
+
+Date de publication : 11 . 10.2025

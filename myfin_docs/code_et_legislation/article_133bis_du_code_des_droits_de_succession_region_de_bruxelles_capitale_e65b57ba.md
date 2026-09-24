@@ -1,0 +1,27 @@
+---
+guid: "e65b57ba-bd32-4f3e-b44a-b4c8eb5b319a"
+title: "Article 133bis du Code des droits de succession - Région de Bruxelles-Capitale"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2017-07-13"
+publication_date: "2017-07-18"
+effective_date: "2017-07-01"
+last_modified: "2025-08-21"
+taxonomies: ["Région de Bruxelles-Capitale"]
+path: ["FISCALITÉ", "Droits de succession", "Législation et réglementation", "Code des droits de succession", "Région de Bruxelles-Capitale"]
+linked_document_nl: "c04ff5f9-be11-456d-bdf6-55f585f3ce23"
+found_via: "7553a630-5078-4b62-9bfc-b6b1414db49c"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/e65b57ba-bd32-4f3e-b44a-b4c8eb5b319a"
+---
+
+# Article 133bis du Code des droits de succession - Région de Bruxelles-Capitale
+
+Article 133bis du Code des droits de succession - Région de Bruxelles-Capitale
+
+Article 133 bis ( applicable à partir du 01.07.2017)
+
+(modifié par l’art. 15 de l’ordonnance du 13.07.2017 (M.B., 18.07.2017). Texte applicable à partir du 01.07.2017 (art. 17))
+
+Sera puni d'un emprisonnement d'un mois à cinq ans et d'une amende de 250 à 500.000 EUR ou de l'une de ces peines seulement, celui qui, en vue de commettre une des infractions visées à l' article 133 , aura commis un faux en écritures publiques, de commerce ou privées, ou qui aura fait usage d'un tel faux. Dans le cas où ce faux certificat aura été établi ou utilisé dans le cadre d'une infraction à une règle de procédure, le maximum de l'amende est fixé à 12.500 euros.
+
+Celui qui, sciemment, établira un faux certificat pouvant compromettre les intérêts du Trésor ou fera usage de pareil certificat, sera puni d'un emprisonnement de huit jours à deux ans et d'une amende de 250 à 500.000 EUR ou de l'une de ces peines seulement. Dans le cas où ce faux certificat aura été établi ou utilisé dans le cadre d'une infraction à une règle de procédure, le maximum de l'amende est fixé à 12.500 euros.

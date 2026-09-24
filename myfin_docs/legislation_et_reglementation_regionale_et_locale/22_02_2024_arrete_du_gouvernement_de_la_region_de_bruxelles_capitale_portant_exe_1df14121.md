@@ -1,0 +1,443 @@
+---
+guid: "1df14121-5605-45b0-935a-a8596c6a4662"
+title: "22.02.2024 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2024-02-22"
+publication_date: "2024-03-15"
+effective_date: "2024-03-26"
+last_modified: "2024-09-03"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région de Bruxelles-Capitale", "Autre législation et réglementation"]
+linked_document_nl: "25ca6f5d-49f0-495b-ad98-94bc89d716fd"
+found_via: "6efe3bb8-1c0b-4a54-82de-9efc3b783687"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/1df14121-5605-45b0-935a-a8596c6a4662"
+---
+
+# 22.02.2024 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises
+
+22.02.2024 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises
+
+( M.B., 15.03.2024 . - n° Numac : 2024002026 )
+
+(Version coordonnée officieuse)
+
+Dernière mise à jour le 18.07.2024 . Pour consulter la liste des mises à jour, voir ici .
+
+Le Gouvernement de la Région de Bruxelles-Capitale,
+
+Vu la loi spéciale du 12 janvier 1989 relative aux Institutions bruxelloises, l'article 8, combiné avec la loi spéciale du 8 août 1980 de réformes institutionnelles, l'article 20 ;
+
+Vu l'ordonnance du 12 décembre 1991 créant des fonds budgétaires, l'article 2, 1° ;
+
+Vu l'ordonnance du 22 avril 1999 modifiant la loi du 4 août 1978 de réorientation économique et portant création du Fonds bruxellois de garantie, l'article 21 ;
+
+Vu l'ordonnance du 3 mai 2018 relative aux aides pour le développement économique des entreprises, les articles 2, 4°, 17, 23, 25, 26, 30, §§ 2 et 3, 37, alinéa 1er, 39, alinéa 1er, 41, alinéa 2, 42, 45, alinéa 1er, et 49 ;
+
+Vu l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises, les articles 3, alinéa 2, 5, §§ 6 et 7, 6, § 1er, 3°, 11, alinéa 2, 13, alinéa 2, 14, alinéa 2, 31, alinéa 2, 3°, 35, alinéa 1er, 36, § 4, 39, alinéa 3, 40 ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 11 octobre 2018 portant exécution de l'ordonnance du 3 mai 2018 relative aux aides pour le développement économique des entreprises ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 11 octobre 2018 déterminant les zones d'économie urbaine stimulée ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 31 janvier 2019 relatif à la reconnaissance des entreprises impliquées dans l'économie circulaire dans le cadre des aides pour le développement économique des entreprises ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 31 janvier 2019 relatif à l'aide au recrutement dans les Zones d'Economie Urbaine Stimulée ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 28 mars 2019 relatif aux aides aux micro, petites et moyennes entreprises pour l'occupation de places en milieu d'accueil de la petite enfance ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 27 juin 2019 relatif à l'aide à l'implantation dans les Zones d'Economie Urbaine Stimulée.
+
+Vu l'arrêté ministériel du 11 mars 2019 relatif à la reconnaissance des entreprises impliquées dans l'économie circulaire dans le cadre des aides pour le développement économique des entreprises ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 25 mai 2022 portant le règlement général relatif à la gestion et au fonctionnement du Fonds bruxellois de Garantie ;
+
+Vu le test d'égalité des chances, établi le 5 juin 2023 conformément à l'article 2, § 1er, 1°, de l'ordonnance du 4 octobre 2018 tendant à l'introduction du test d'égalité des chances ;
+
+Vu l'avis de l'Inspecteur des Finances, donné le 23 juin 2023 ;
+
+Vu l'accord du Ministre du Budget, donné le 21 août 2023 ;
+
+Vu l'avis de Brupartners , donné le 1er décembre 2023 ;
+
+Vu la demande d'avis dans un délai de 30 jours, adressée au Conseil d'Etat le 10 janvier 2024, en application de l'article 84, § 1er, alinéa 1er, 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973 ;
+
+Vu la décision du Conseil d'Etat du 12 janvier 2024 de radier du rôle cette demande, référencée 75.323/1, en application de l'article 84, § 5, des mêmes lois ;
+
+Vu l'avis du conseil d'administration du Fonds bruxellois de Garantie, donné le 6 février 2024 à propos des articles 15 à 18 ;
+
+Sur la proposition du Ministre du Gouvernement de la Région de Bruxelles-Capitale qui a l'Economie dans ses attributions,
+
+Après délibération,
+
+Arrête :
+
+Article 1er.
+
+Pour l'application du présent arrêté, on entend par :
+
+1° ordonnance : l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises ;
+
+2° ministre : le ministre du Gouvernement de la Région de Bruxelles-Capitale qui a l'Economie dans ses attributions.
+
+Art. 2.
+
+Sauf disposition contraire, les demandes, notifications et communications dans le cadre de la procédure d'instruction des dossiers de demande d'aide et de liquidation de l'aide se font par l'application de demande en ligne mise à disposition par BEE.
+
+BEE peut restreindre l'accès à l'application de demande en ligne aux entreprises qui remplissent certaines conditions d'éligibilité, sur la base des données provenant de sources authentiques.
+
+Art. 3.
+
+Les délais fixés en application de l'ordonnance sont comptés de minuit à minuit. Ils sont comptés à partir du jour suivant celui de l'acte ou de l'événement qui y donne cours et comprennent tous les jours.
+
+Le jour de l'échéance est compris dans le délai. Toutefois lorsque ce jour est un samedi, un dimanche ou un jour férié légal, le jour de l'échéance est reporté au plus prochain jour ouvrable.
+
+Le délai établi en mois ou en années se compte de quantième à veille de quantième.
+
+Art. 4.
+
+Sauf disposition contraire, le respect des critères et conditions d'aide est vérifié sur la base de la situation à la date de réception de la demande d'aide.
+
+Art. 5.
+
+Pour l'application de l'article 6, § 1er, 3°, de l'ordonnance :
+
+1° constitue une entreprise publique :
+
+a) une entreprise au sein de laquelle 25% ou plus du droit de vote dans les organes décisionnels est contrôlé, directement ou indirectement, par un ou plusieurs organismes publics ou collectivités publiques, à titre individuel ou conjointement ;
+
+b) une entreprise dont 25% ou plus du capital est détenu, directement ou indirectement, par un ou plusieurs organismes publics ou collectivités publiques, à titre individuel ou conjointement ;
+
+2° la mission d'intérêt général s'entend d'une mission explicitement confiée à une ou plusieurs entreprises directement dans une loi, un décret ou une ordonnance, et pour l'accomplissement de laquelle ces entreprises reçoivent des fonds publics ou bénéficient d'une position protégée sur le marché. Ne constitue dès lors pas une mission d'intérêt général le service d'intérêt économique général confié à une entreprise par la Région ou toute autre autorité publique dans le cadre de ses politiques économiques, environnementales ou sociales, en ce compris les politiques d'insertion socio-professionnelle et de soutien à l'économie circulaire ;
+
+3° sont considérées avoir un objet social à caractère économique et commercial ;
+
+a) les sociétés et les entreprises personne physique ;
+
+b) les entreprises qui sont soumises à l'impôt des sociétés ;
+
+c) les entreprises dont le chiffre d'affaires, pour l'exercice comptable précédant celle de la demande d'aide, est supérieur ou égal à 25.000 euros ;
+
+d) les entreprises qui ne répondent pas aux conditions visées aux, a), b) et c) et qui démontrent soit que leur objet social statutaire a un caractère économique et commercial, soit, par toute voie de droit, que leur activité réelle a un caractère économique et commercial ;
+
+4° les entreprises dont le financement d'origine public pour l'exercice comptable précédant celle de la demande d'aide, à savoir les revenus d'origine publique à l'exception du chiffre d'affaires, dépasse 75%, ne sont pas éligibles aux aides.
+
+En dérogation à l'alinéa 1er, 1°, n'est pas considérée comme une entreprise publique une entreprise qui rencontre les conditions des articles 3, § 2, alinéa 2, et § 4, de l'annexe à la recommandation de la Commission du 6 mai 2003 concernant la définition des micro, petites et moyennes entreprises.
+
+----------
+
+ alinéa 2 inséré par l’ art. 1 d e l’arrêté du 18.07.2024 . ( M.B. , 30.08.2024.) . En vigueur le 02.09.2024.;
+
+NOTE: « Le présent arrêté (18.07.2024) s'applique aux demandes d'aide introduites à partir de cette date. Toutefois, les articles 1 à 3 et 15 s'appliquent également aux demandes d'aide en cours de traitement à cette date. » (voir l’art. 26 de l’arrêté du 18.07.2024 . ( M.B. , 30.08.2024.) )
+
+Art. 6.
+
+Conformément à l'article 3 de l'ordonnance, par exercice budgétaire, si les projections budgétaires indiquent que les crédits disponibles sur l'allocation budgétaire ne seront pas suffisants, le ministre peut :
+
+1° déterminer une date ultime d'introduction des demandes d'aides pour chacune des mesures aides ;
+
+2° prolonger les délais de décision.
+
+En cas d'épuisement des crédits budgétaires disponibles sur l'allocation budgétaire de la mesure d'aide, l'ordre chronologique d'introduction de la demande d'aide, ou de la demande de l'autorisation préalable selon le cas, est déterminant pour l'octroi de l'aide.
+
+Art. 6/1.
+
+Par dérogation aux dispositions suivantes, le Ministre peut déterminer qu'une aide d'un montant supérieur à 1.000 euros est liquidée en plusieurs tranches :
+
+1° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février 2024 relatif à l'aide aux investissements généraux, article 25 ;
+
+2° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février 2024 relatif aux aides de mise en conformité aux normes et de sécurisation, article 23 ;
+
+3° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février 2024 aux aides pour les investissements en soutien à la transition économique, article 29 ;
+
+4° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février 2024 relatif aux aides à la consultance, à la transition économique et à la digitalisation, article 21 ;
+
+5° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février relatif à l'aide à la formation, article 16 ;
+
+6° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février relatif à l'aide pour la cession ou la reprise d'une entreprise, article 15 ;
+
+7° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février relatif à l'aide au coworking, article 17 ;
+
+8° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février relatif à l'aide aux entrepreneurs actifs en coopérative d'emploi, article 17.
+
+Le montant de l'aide est déterminé sur la base de la décision d'octroi telle que notifiée.
+
+----------
+
+ inséré par l’art. 2 d e l’arrêté du 18.07.2024 . ( M.B. , 30.08.2024.). En vigueur le 02.09.2024.;
+
+NOTE: « Le présent arrêté (18.07.2024) s'applique aux demandes d'aide introduites à partir de cette date. Toutefois, les articles 1 à 3 et 15 s'appliquent également aux demandes d'aide en cours de traitement à cette date. » (voir l’art. 26 de l’arrêté du 18.07.2024 . ( M.B. , 30.08.2024.) )
+
+Art. 7.
+
+Le caractère exemplaire au niveau social ou environnemental d'une entreprise ou d'une unité d'établissement, tel que visé à l'article 4, § 3, alinéa 1er, 2° et 3°, et à l'article 5 de l'ordonnance, est déterminé sur la base de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 6 juillet 2023 relatif à l'exemplarité au niveau social et environnemental des entreprises.
+
+Pour l'application des majorations d'aide visées à l'article 4, § 3, alinéa 1er, 2° et 3°, de l'ordonnance aux aides aux investissements visées aux articles 16 à 19 de l'ordonnance :
+
+1° jusqu'au 31 décembre 2026, l'entreprise dans son ensemble est considérée comme exemplaire au niveau social ou environnemental, selon le cas, si une de ses unités d'établissement située en Région est reconnue comme exemplaire au niveau social ou environnemental ;
+
+2° à partir du 1er janvier 2027, et sous réserve de l'article 5, §§ 1er et 4 de l'ordonnance, seuls les investissements réalisés dans une unité d'établissement reconnue comme exemplaire au niveau social ou environnemental ou par une entreprise reconnue comme exemplaire au niveau social ou environnemental peuvent bénéficier de la majoration d'aide.
+
+Pour l'application des majorations d'aide visées à l'article 4, § 3, alinéa 1er, 2° et 3°, de l'ordonnance aux aides visées aux articles 20 à 28 de l'ordonnance, les entreprises dont toutes les unités d'établissement situées en Région sont exemplaires au niveau social ou environnemental, sont également réputées exemplaires au niveau social ou environnemental.
+
+Art. 8.
+
+Conformément à l'article 11, alinéa 2, de l'ordonnance, le bénéficiaire qui perçoit une aide supérieure à 20.000 euros dans le cadre d'un même dossier s'engage à faire appel au service gratuit d' Actiris pour les procédures de présélection et de pré-recrutement des postes vacants pour lesquels le lieu de travail se situe en Région.
+
+Art. 9.
+
+Le délai maximal visé à l'article 13, alinéa 2, de l'ordonnance pour soumettre un plan de diversité pour approbation est d'un an à partir de la date de l'attestation d' Actiris .
+
+Si la procédure de demande de l'aide concernée prévoit une demande d'autorisation préalable, le bénéficiaire satisfait à la condition relative à la diversité déterminée à l'article 13 de l'ordonnance au moment de l'introduction du dossier de demande d'aide.
+
+Art. 10.
+
+Les infractions qui sont prises en considération pour l'application des cas d'exclusion définitive visés à l'article 14, alinéa 1er, 1°, de l'ordonnance sont les suivantes :
+
+1° participation à une organisation criminelle telle que définie à l'article 324bis du Code pénal ;
+
+2° infractions terroristes ou infractions liées aux activités terroristes, telles que définies à l'article 137 du Code pénal ;
+
+3° blanchiment de capitaux ou financement du terrorisme tels que définis à l'article 5 de la loi du 11 janvier 1993 relative à la prévention de l'utilisation du système financier aux fins du blanchiment de capitaux et du financement du terrorisme ;
+
+4° travail des enfants tel que défini aux articles 134 à 137 du Code pénal social et autres formes de traite des êtres humains tels que définis à l'article 433quinquies du Code pénal.
+
+Les infractions qui sont prises en considération pour l'application des cas d'exclusion de cinq ans visés à l'article 14, alinéa 1er, 2°, de l'ordonnance sont les suivantes :
+
+1° corruption, telle que définie aux articles 246 et 250 du Code pénal ;
+
+2° fraude au sens de l'article 496 du Code pénal ;
+
+3° occupation de ressortissants de pays tiers en séjour illégal au sens de la loi du 30 avril 1999 relative à l'occupation des travailleurs étrangers ou de l'article 175 du Code pénal social ;
+
+4° discrimination au sens de la loi du 30 juillet 1981 tendant à réprimer certains actes inspirés par le racisme ou la xénophobie, la loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination, la loi du 10 mai 2007 tendant à lutter contre la discrimination entre les femmes et les hommes, le décret flamand du 10 juillet 2008 portant le cadre de la politique flamande de l'égalité des chances et de traitement, l'ordonnance du 4 septembre 2008 relative à la lutte contre la discrimination et à l'égalité de traitement en matière d'emploi, le décret de la Région wallonne du 6 novembre 2008 relatif à la lutte contre certaines formes de discrimination, le décret de la Communauté française du 12 décembre 2008 relatif à la lutte contre certaines formes de discrimination, le décret de la Commission communautaire française du 9 juillet 2010 relatif à la lutte contre certaines formes de discrimination et à la mise en oeuvre du principe de l'égalité de traitement ou le décret de la Communauté germanophone du 19 mars 2012 visant à lutter contre certaines formes de discrimination ;
+
+5° manquements aux obligations internationales applicables dans les domaines du droit environnemental, social, fiscal et du travail figurant à l'annexe 1, ainsi qu'aux réglementations nationales en découlant.
+
+Art. 11.
+
+Les fonctionnaires visés à l'article 32, alinéa 1er, de l'ordonnance sont les inspecteurs de la Direction de l'Inspection économique de Bruxelles Economie et Emploi du Service public régional de Bruxelles affectés à l'exercice de fonctions d'inspection.
+
+Le modèle de la carte de légitimation visée à l'article 32, alinéa 2, de l'ordonnance figure à l'annexe 2.
+
+Art. 12.
+
+Le bénéficiaire ne rembourse qu'une partie de l'aide si, en contradiction de l'ordonnance et de ses arrêtés d'exécution, il :
+
+1° transfère une partie des investissements subsidiés hors de la région, pour autant que cette partie ne soit pas essentielle à l'activité exercée dans la Région ;
+
+2° transfère les investissements subsidiés hors de la zone de développement visée à l'article 4, § 3, alinéa 1er, 4°, de l'ordonnance ;
+
+3° vend ou loue le bien immobilier subsidié dans un délai supérieur ou égal à deux ans après la date de l'acte d'achat du bien ;
+
+4° utilise le bien immobilier subsidié à des fins professionnelles à un pourcentage inférieur à celui fixé lors de la décision d'octroi ;
+
+5° vend ou loue le matériel subsidié dans un délai supérieur ou égal à deux ans après la date d'émission de la dernière facture relative à l'achat de ce matériel ;
+
+6° cède son fonds de commerce dans un délai supérieur ou égal à deux ans après la fin de la réalisation de l'investissement ;
+
+7° concernant les aides visées au chapitre 4, section 1ère, de l'ordonnance, cesse les activités dans un délai supérieur ou égal à deux ans après la fin de la réalisation de l'investissement ou de l'acte notarié s'il s'agit d'un bien immobilier ;
+
+8° concernant les aides prévues au chapitre 4, sections 2 et 3, et aux chapitres 5 et 6, de l'ordonnance, cesse les activités dans un délai supérieur ou égal à un an après la date d'octroi de l'aide ;
+
+9° change son objet social avec pour conséquence qu'il n'exerce plus aucune activité dans un secteur admis ;
+
+10° introduit plusieurs demandes de subvention, justifiées par des pièces identiques, auprès des différentes entités régionales.
+
+Le bénéficiaire qui cesse ses activités en tant qu'entreprise personne physique ou est en état de faillite est exonéré du remboursement de l'aide qui lui est octroyée sur la base de l'article 31 de l'ordonnance, sous réserve de l'alinéa 3, 1° et 3°, du présent article.
+
+Le bénéficiaire rembourse malgré tout l'aide complète si :
+
+1° dans le cadre du contrôle, il ne communique pas les informations demandées, communique des données incomplètes ou incorrectes, dissimule des informations pertinentes ou trompe les inspecteurs visés à l'article 11 ;
+
+2° à l'échéance du délai fixé par l'ordonnateur compétent, il ne rembourse pas la partie de l'aide qui lui a été réclamée ;
+
+3° la règlementation européenne en matière d'aides d'Etat applicable impose le remboursement total de l'aide ;
+
+4° dans le cas visé au 9° de l'alinéa 1er, le montant des factures admises après contrôle est inférieur au montant minimum admissible pour l'obtention de l'aide.
+
+Le montant qui est remboursé sur la base de l'alinéa 1er est calculé en fonction de la période pendant laquelle le bénéficiaire a respecté l'ordonnance et ses arrêtés d'exécution et les dépenses sur lesquelles portent le manquement.
+
+Art. 13.
+
+Les remboursements s'effectuent par versement au Fonds d'aide aux entreprises visé à l'article 2, 1°, de l'ordonnance du 12 décembre 1991 créant des fonds budgétaires.
+
+Art. 14.
+
+Bruxelles Economie et Emploi du Service public régional de Bruxelles est le responsable des traitements de données à caractère personnel visés à l'article 36 de l'ordonnance et est autorisé à solliciter les numéros de registre national et à les utiliser, conformément au paragraphe 4 de cet article.
+
+Art. 15.
+
+Dans l'article 1er de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 25 mai 2022 portant le règlement général relatif à la gestion et au fonctionnement du Fonds bruxellois de Garantie, les modifications suivantes sont apportées :
+
+1° le 3° est remplacé par ce qui suit:
+
+« 3° Règlement concernant les aides de minimis : Règlement (UE) 2023/2831 de la Commission du 13 décembre 2023 concernant l'application des articles 107 et 108 du traité sur le fonctionnement de l'Union européenne aux aides de minimis ; »
+
+2° il est complété par les 16° et 17° rédigés comme suit :
+
+« 16° Arrêté exemplarité : l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 6 juillet 2023 relatif à l'exemplarité au niveau social et environnemental des entreprises ;
+
+17° BEE : Bruxelles Economie et Emploi du Service public régional de Bruxelles. ».
+
+Art. 16.
+
+L'article 8, § 1er, alinéa 3, du même arrêté est remplacé par ce qui suit :
+
+« L'entreprise déclare dans sa demande toute autre aide relevant du Règlement concernant les aides de minimis ou d'autres règlements de minimis qu'elle a reçue, en tant qu'entreprise unique au sens de ce règlement, au cours des deux années précédentes et de l'année en cours, jusqu'au moment où le registre central des aides de minimis couvre une période de 3 années. »
+
+Art. 17.
+
+L'article 11 du même arrêté est remplacé par ce qui suit :
+
+« Art. 11. § 1er. Par dérogation à l'article 10, le Fonds garantit 80 % du montant en principal d'un crédit amortissable ou non amortissable dès lors qu'est exemplaire au plan social ou environnemental :
+
+1° l'entreprise emprunteuse,
+
+2° l'unité ou les unités d'établissement pour lesquelles un ou plusieurs crédits sont sollicités par l'entreprise, ou
+
+3° le projet de l'entreprise pour la réalisation duquel un ou plusieurs crédits à couvrir sont sollicités par l'entreprise.
+
+Le caractère exemplaire au niveau social ou environnemental d'une entreprise, d'une unité d'établissement ou d'un projet est déterminé sur la base de l'Arrêté exemplarité.
+
+Jusqu'à l'entrée en vigueur du chapitre 4 de l'Arrêté exemplarité, la garantie majorée prévue à l'alinéa 1er est également accordée si les conditions cumulatives suivantes sont réunies :
+
+1° soit les activités de l'entreprise, soit celles de l'unité ou des unités d'établissement situées en Région de Bruxelles-Capitale pour lesquelles un ou plusieurs crédits à couvrir sont sollicités, soit le projet de l'entreprise pour lequel un ou plusieurs crédits à couvrir sont sollicités s'inscrivent dans les thèmes d'investissement définis par finance&invest.brussels , lesquels incluent les objectifs environnementaux de la taxonomie européenne des activités économiques durables prévus à l'article 9 du règlement 2020/852 du Parlement européen et du Conseil du 18 juin 2020 sur l'établissement d'un cadre visant à favoriser les investissements durables et modifiant le règlement (UE) 2019/2088 ;
+
+2° l'objectif en vue duquel un ou plusieurs crédits à couvrir sont sollicités ne peut avoir pour effet de réduire le niveau d'emploi en Région de Bruxelles-Capitale ni la qualité de l'emploi ;
+
+3° et cet objectif ne nuit pas significativement aux objectifs environnementaux de la taxonomie européenne des activités économiques durables, prévus à l'article 9 du règlement 2020/852 du parlement européen et du conseil du 18 juin 2020 sur l'établissement d'un cadre visant à favoriser les investissements durables et modifiant le règlement (UE) 2019/2088.
+
+§ 2. L'organisme de crédit qui souhaite bénéficier de la majoration de garantie visée au paragraphe premier en formule la demande auprès du Fonds préalablement à la demande de garantie directe ou de garantie sur demande.
+
+Le Fonds détermine les documents qui sont nécessaires à l'examen de ces demandes et, en particulier, ceux qui permettent de s'assurer que les conditions visées au paragraphe premier sont rencontrées.
+
+Si la base de données tenue en application de l'Arrêté exemplarité indique que, au moment de la demande préalable visée à l'alinéa 1er, l'entreprise, l'unité d'établissement ou le projet, selon le cas, est exemplaire conformément au paragraphe 1er, alinéa 2, l'exemplarité ne doit pas autrement être démontrée.
+
+Dans le cas contraire, le Fonds évalue l'exemplarité conformément au paragraphe 1er, alinéa 2, sur la base des documents que lui communique l'organisme de crédit.
+
+Si le Fonds conclut, après examen, à l'exemplarité de l'entreprise, de l'unité d'établissement ou du projet, au plan environnemental, social ou les deux, selon le cas, il en informe BEE. ».
+
+Art. 18.
+
+Dans l'article 12 du même arrêté, les modifications suivantes sont apportées :
+
+1° le paragraphe 1er est remplacé par ce qui suit :
+
+« § 1er. Lorsqu'elle s'appuie sur le critère visé à l'article 11, § 1er, alinéa 3, la demande préalable visée à l'article 11, § 2, est de la compétence d'un Comité garantie majorée, qui statue sur le respect des conditions de ce critère. » ;
+
+2° l'article est complété par un paragraphe 8 rédigé comme suit :
+
+« § 8. Le Comité garantie majorée cesse de plein droit d'exister une fois traitée la dernière demande préalable visée à l'article 11, § 2, s'appuyant sur le critère visé à l'article 11, § 1er, alinéa 3, introduite avant l'entrée en vigueur du chapitre 4 de l'Arrêté exemplarité. »
+
+Art. 19.
+
+Sont abrogés :
+
+1° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 11 octobre 2018 portant exécution de l'ordonnance du 3 mai 2018 relative aux aides pour le développement économique des entreprises ;
+
+2° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 11 octobre 2018 déterminant les zones d'économie urbaine stimulée ;
+
+3° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 31 janvier 2019 relatif à la reconnaissance des entreprises impliquées dans l'économie circulaire dans le cadre des aides pour le développement économique des entreprises ;
+
+4° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 31 janvier 2019 relatif à l'aide au recrutement dans les Zones d'Economie Urbaine Stimulée ;
+
+5° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 28 mars 2019 relatif aux aides aux micro, petites et moyennes entreprises pour l'occupation de places en milieu d'accueil de la petite enfance ;
+
+6° l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 27 juin 2019 relatif à l'aide à l'implantation dans les Zones d'Economie Urbaine Stimulée.
+
+7° l'arrêté ministériel du 11 mars 2019 relatif à la reconnaissance des entreprises impliquées dans l'économie circulaire dans le cadre des aides pour le développement économique des entreprises.
+
+L'arrêté visé à l'alinéa 1er, 1°, reste d'application aux aides accordées sur la base de l'ordonnance du 3 mai 2018 relative aux aides pour le développement économique des entreprises.
+
+Les arrêtés visés à l'alinéa 1er, 2° à 7°, restent d'application pour les demandes introduites avant l'entrée en vigueur du présent arrêté.
+
+Art. 20.
+
+Entrent en vigueur le 26 mars 2024 :
+
+1° l'article 48 de l'ordonnance du 3 mai 2018 relative aux aides pour le développement économique des entreprises ;
+
+2° les chapitres 1er, 2, 9 et 10 et l'article 40 de l'ordonnance ;
+
+3° le présent arrêté.
+
+Art. 21.
+
+Le ministre est chargé de l'exécution du présent arrêté.
+
+Bruxelles, le 22 février 2024.
+
+Pour le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Ministre-Président,
+
+R. VERVOORT
+
+Le Ministre ayant l'Economie dans ses attributions,
+
+A. MARON
+
+Annexe 1. - Liste des conventions internationales dans le domaine social et environnemental visées à l'article 10, alinéa 2, 5°
+
+- Convention n° 87 de l'OIT concernant la liberté syndicale et la protection du droit syndical ;
+
+- Convention n° 98 de l'OIT sur le droit d'organisation et de négociation collective ;
+
+- Convention n° 29 de l'OIT sur le travail forcé ;
+
+- Convention n° 105 de l'OIT sur l'abolition du travail forcé ;
+
+- Convention n° 138 de l'OIT concernant l'âge minimum d'admission à l'emploi ;
+
+- Convention n° 111 de l'OIT concernant la discrimination (emploi et profession) ;
+
+- Convention n° 100 de l'OIT sur l'égalité de rémunération ;
+
+- Convention n° 182 de l'OIT sur les pires formes de travail des enfants ;
+
+- Convention de Vienne pour la protection de la couche d'ozone et son protocole de Montréal relatif à des substances qui appauvrissent la couche d'ozone ;
+
+- Convention de Bâle sur le contrôle des mouvements transfrontières de déchets dangereux et de leur élimination (convention de Bâle) ;
+
+- Convention de Stockholm sur les polluants organiques persistants ;
+
+- Convention de Rotterdam du 10 septembre 1998 sur la procédure de consentement préalable en connaissance de cause applicable à certains produits chimiques et pesticides dangereux qui font l'objet du commerce international (PNUE/FAO) (Convention PIC), et ses trois protocoles régionaux.
+
+Vu pour être annexé à l'arrêté du Gouvernement de la Région de Bruxelles Capitale du 22 février 2024 portant exécution de l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises,
+
+Bruxelles, le 22 février 2024.
+
+Pour le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Ministre-Président,
+
+R. VERVOORT
+
+Le Ministre ayant l'Economie dans ses attributions,
+
+A. MARON
+
+Annexe 2. - Modèle de la carte de légitimation
+
+1 – Recto
+
+Taille réelle : 85,60 x 54 mm
+
+Vu pour être annexé a l'arrêté du Gouvernement de la Région de Bruxelles Capitale du 22 février 2024 portant exécution de l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises,
+
+Bruxelles, le 22 février 2024.
+
+Pour le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Ministre-Président,
+
+R. VERVOORT
+
+Le Ministre ayant l'Economie dans ses attributions ,
+
+A. MARON
+
+Mise à jour par :
+
+18.07.2024 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant modification de différents arrêtés d'exécution de l'ordonnance du 13 octobre 2023 relative aux aides pour le développement et la transition économique des entreprises ( M.B., 30.08.2024 . - n° Numac : 2024007486 ). Art. modifiés : 5 ; 6/1 . En vigueur le 02.09.2024 .

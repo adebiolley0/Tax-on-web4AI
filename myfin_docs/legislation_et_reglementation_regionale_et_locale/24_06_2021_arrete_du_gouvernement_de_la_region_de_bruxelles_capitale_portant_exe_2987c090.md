@@ -1,0 +1,661 @@
+---
+guid: "2987c090-a90b-4756-9096-84c7540ce936"
+title: "24.06.2021 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2021-06-24"
+publication_date: "2021-07-05"
+effective_date: "2019-01-01"
+last_modified: "2026-07-09"
+taxonomies: ["Code bruxellois de procédure fiscale - CBPF"]
+path: ["FISCALITÉ", "Entités fédérées", "Région de Bruxelles-Capitale", "Code bruxellois de procédure fiscale - CBPF"]
+linked_document_nl: "c60ceda6-4981-4a6b-a06c-e66def4cbaed"
+found_via: "7fc8e30c-ae9f-4482-9700-a5127bcd2a47"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/2987c090-a90b-4756-9096-84c7540ce936"
+---
+
+# 24.06.2021 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale
+
+24.06.2021 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale
+
+(M.B.,05.07.2021 - Numac : 2021042531 - dernière modification : arrêté du 25.06.2026 - M.B. 09.07.2026)
+
+Le Gouvernement de la Région de Bruxelles-Capitale,
+
+Vu la loi spéciale du 8 août 1980 de réformes institutionnelles, l'article 20;
+
+Vu la loi spéciale du 12 janvier 1989 relative aux Institutions bruxelloises, l'article 8;
+
+Vu l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale, les articles 6, 8, 17, 19, 22, 25, 31, 42, 51, 68, 69, 72, 80, 107, 109, 115, 118, 119, 120, 121, 122, 123 et 145;
+
+Vu le test d'égalité des chances réalisé le 15 janvier 2019 en application de l'article 2 de l'ordonnance du 4 octobre 2018 tendant à l'introduction du test d'égalité des chances;
+
+Vu l'avis de l'Inspection des Finances, donné le 18 mars 2019;
+
+Vu l'accord du Ministre du Budget de la Région de Bruxelles-Capitale du 2 avril 2019;
+
+Vu l'avis 66.164/4 du Conseil d'Etat, donné le 19 juin 2019, en application de l'article 3, § 1er, et de l'article 84, § 1er, alinéa 1er, 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973;
+
+Considérant la remarque formulée par le Conseil d'Etat dans son avis 66.164/4 invitant le Gouvernement à demander l'avis de l'Autorité de protection des données conformément à l'article 36, paragraphe 4, du règlement (UE) n° 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE ;
+
+Considérant que cette remarque du Conseil d'Etat portant sur certains articles est devenue sans objet suite à la suppression de ces articles du projet d'arrêté qui est devenu le présent arrêté, articles qui ont été repris dans des arrêtés du Gouvernement de la Région de Bruxelles-Capitale du 26 mars 2020, sur lesquels l'Autorité de protection des données a rendu l'avis 24/2020 du 13 mars 2020;
+
+Considérant que l'article 55 du présent arrêté, dans la mesure où il se borne à exécuter l'article 121 du Code sans apporter de précisions complémentaires quant aux modalités des éventuels traitements de données à caractère personnel réalisés par l'administration fiscale régionale, ne se rapporte pas à un traitement de données à caractère personnel au sens de l'article 36, paragraphe 4, du règlement (UE) n° 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE;
+
+Considérant en effet que la législation se rapportant à de tels traitements est contenue directement dans les dispositions fondant les impôts dont les règles de procédure sont établies par l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale;
+
+Considérant dès lors qu'il n'y pas lieu, pour l'élaboration du présent arrêté, de demander l'avis préalable de l'Autorité de protection des données ;
+
+Considérant l'ordonnance organique du 23 février 2006 portant les dispositions applicables au budget, à la comptabilité et au contrôle ;
+
+Sur la proposition du Ministre des Finances et du Budget, après délibération,
+
+Arrête :
+
+### TITRE 1er. - Dispositions générales
+
+Article 1er
+
+Le présent arrêté est dénommé : l'arrêté Code bruxellois de procédure fiscale.
+
+Article 2
+
+Dans le cadre de l'application du présent arrêté, les notions reprises ci-après doivent être comprises comme suit :
+
+1° le Code : l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale ;
+
+2° le Ministre : le ministre qui a les Finances dans ses attributions ;
+
+3° l'administration fiscale régionale : le Service public régional de Bruxelles Fiscalité.
+
+4° eBox : le service visé à l'article 2, 3°, de la loi du 27 février 2019 relative à l'échange électronique de messages par le biais de l' eBox .
+
+-----------
+
+4° inséré par l'art. 11 de l'arrêté du 25.06.2026 (M.B. 09.07.2026). Entrée en vigueur le 15.07.2026
+
+### TITRE 2. - Procédure fiscale
+
+CHAPITRE 1er. - Déclarations
+
+Article 3
+
+Le formulaire de déclaration est mis à la disposition du contribuable par l'administration fiscale régionale :
+
+- soit par courrier postal simple ;
+
+- soit par voie électronique via la plateforme désignée par l'administration fiscale régionale.
+
+Article 4
+
+La déclaration est effectuée sur un formulaire dont le modèle est arrêté par le Ministre. Elle doit être renvoyée à l'administration fiscale régionale :
+
+- lorsque l'envoi est effectué par courrier postal simple, à l'adresse indiquée sur le formulaire;
+
+- lorsque l'envoi est effectué de la manière visée à l' article 8, § 2 , du Code, via la plateforme désignée par l'administration fiscale régionale.
+
+#### CHAPITRE 2. - Etablissement de la taxe
+
+##### Section 1re. - Rôles
+
+Article 5
+
+Les impositions sont portées aux rôles au nom du ou des contribuables intéressés.
+
+Quant aux impositions établies à charge de contribuables décédés, elles sont enrôlées au nom de ceux-ci précédé du mot « Succession ».
+
+Lorsque l'objet d'une taxe appartient à plusieurs propriétaires en indivision, la taxe est portée au rôle au nom d'un ou plusieurs propriétaires suivi des mots « en indivision ».
+
+Article 6
+
+Pour le calcul des taxes et de leurs accessoires, la base imposable est fixée en euro et est arrondie au cent supérieur ou au cent inférieur selon que le chiffre des millièmes d'euro atteint ou non le chiffre cinq.
+
+Article 7
+
+Les diverses taxes, y compris les centimes additionnels, sont à chaque stade du calcul établies en euro et arrondies au cent supérieur ou inférieur selon que le chiffre des millièmes d'euro atteint ou non cinq.
+
+##### Section 2. - Avertissement-extrait de rôle
+
+Article 8
+
+§ 1er. Lorsque le contribuable a marqué explicitement son accord sur le procédé exposé à l'article 19, alinéa 2 , du Code, son avertissement-extrait de rôle et ses éventuels rappels sont mis à sa disposition via l' eBox en application de l'article 54.
+
+-----------
+
+modifié par l'art. 12 de l'arrêté du 25.06.2026 (M.B. 09.07.2026). Entrée en vigueur le 15.07.2026
+
+Article 9
+
+§ 1er. En cas de taxation commune, l'accord visé à l' article 8, § 1er , doit être donné par chaque conjoint ou cohabitant légal.
+
+Dans le cas prévu à l'alinéa 1er, chaque conjoint ou cohabitant légal reçoit l'avertissement-extrait de rôle et les éventuels rappels.
+
+§ 2. La mise à disposition de l'avertissement-extrait de rôle, et les éventuels rappels, uniquement par voie électronique, en cas de taxation commune, cesse dès que :
+
+1° les deux conjoints ou cohabitants légaux décèdent;
+
+2° un conjoint ou cohabitant légal révoque son accord;
+
+3° les conjoints ou cohabitants légaux sont séparés de fait;
+
+4° le divorce est transcrit dans les registres de l'état civil après le 1er janvier de l'exercice d'imposition;
+
+5° La cohabitation légale prend fin en application de l'article 1476 du Code civil après le 1er janvier de l'exercice d'imposition.
+
+A partir de ce moment, l'avertissement-extrait de rôle et les éventuels rappels sont transmis au contribuable exclusivement sous pli fermé.
+
+##### Section 3. - Solidarités
+
+Article 10
+
+Le contribuable qui, en application de l' article 25 du Code, doit procéder à une notification à l'agent compétent peut effectuer cette notification par courrier postal simple ou par courrier électronique à l'adresse déterminée par l'administration fiscale régionale.
+
+#### CHAPITRE 3. - Paiement de la taxe
+
+Article 11
+
+Les taxes et leurs accessoires doivent être payés sur le compte bancaire communiqué par l'agent compétent.
+
+Font foi de paiement sauf preuve contraire en ce qui concerne les virements, les extraits de compte et les annexes y relatives.
+
+Article 12
+
+Le paiement des taxes et de leurs accessoires produit ses effets :
+
+1° pour les moyens de paiements visés à l'article 11, à la date où le compte bancaire de l'administration fiscale régionale a été crédité;
+
+2° pour les paiements visés à l' article 35, alinéa 2 du Code, à la date de la remise des fonds entre les mains de l'huissier de justice.
+
+#### CHAPITRE 4. - Recouvrement
+
+##### Section 1re. - Sûretés
+
+Article 13
+
+La garantie visée à l' article 42 du Code est fixée par l'agent compétent. Le montant doit être égal au montant présumé des obligations qui peuvent incomber, pour une année à la personne physique ou morale en cause. Le montant précité est cependant calculé après déduction de la valeur vénale nette de ses biens qui constituent le gage de la Région et qui sont situés:
+
+a) en Belgique;
+
+b) dans un pays avec lequel la Belgique a conclu une convention organisant une assistance réciproque pour le recouvrement des taxes auxquelles est assujetti l'intéressé;
+
+c) dans un pays qui relève de la Directive 2010/24/UE du Conseil du 16 mars 2010 concernant l'assistance mutuelle en matière de recouvrement des créances relatives aux taxes, impôts, droits et autres mesures.
+
+Toutefois, la garantie ne peut en aucun cas être inférieure à 750 euros.
+
+Article 14
+
+La garantie à fournir s'entend soit d'une garantie réelle consistant en un cautionnement en numéraire ou en fonds publics ou en une constitution d'hypothèque, soit d'une caution personnelle.
+
+L'agent compétent peut accepter d'autres modes de garantie.
+
+Les divers modes susmentionnés peuvent, au besoin, être employés simultanément pour fournir la garantie totale.
+
+Article 15
+
+Les biens immobiliers offerts en garantie hypothécaire doivent être situés en Belgique.
+
+S'il s'agit de biens immobiliers bâtis, il est justifié, préalablement à l'acceptation de l'affectation, d'une assurance suffisante contre l'incendie. L'acte devra stipuler qu'il sera justifié annuellement du paiement régulier de la prime d'assurance sous peine de caducité de l'acceptation.
+
+Dans tous les cas, il est justifié de la propriété et de l'état hypothécaire du bien immobilier et la valeur de celui-ci est établie, aux frais du contribuable, par les moyens propres à donner tous apaisements, notamment par une estimation d'un expert d'une compétence notoire si l'agent compétent l'exige.
+
+Article 16
+
+Les cautionnements en numéraire sont versés ou virés au compte ouvert au nom de la Caisse des dépôts et consignations. Ils sont assimilés en tous points, notamment en ce qui concerne les intérêts dus aux déposants, aux dépôts effectués à la Caisse des dépôts et consignations.
+
+Article 17
+
+Les titres dématérialisés inscrits en compte-titre auprès d'un organisme de liquidation ou d'un teneur de comptes agréé qui est habilité à détenir des tels titres sont bloqués par l'agent compétent ; il est signalé dans ce compte que ces effets ne peuvent être aliénés ou réalisés sans le consentement écrit de l'agent compétent.
+
+Article 18
+
+La caution personnelle doit avoir la capacité de contracter d'après la loi belge et être agréée par l'agent compétent.
+
+Article 19
+
+Si la garantie réelle ou la solvabilité de la caution personnelle est reconnue insuffisante pour une cause quelconque, telle que la dépréciation de la valeur des biens immobiliers ou des fonds publics affectés ou une diminution notable de la fortune de la caution, le contribuable est tenu de fournir, à la première demande de l'agent compétent, une nouvelle garantie ou une nouvelle caution personnelle.
+
+##### Section 2. - Poursuites
+
+###### Sous-section 1re. - Généralités
+
+Article 20
+
+Les dispositions concernant la teneur et la signification des exploits sont applicables aux actes de poursuites judiciaires en matière de taxes régionales.
+
+###### Sous-section 2. - Poursuites directes
+
+Article 21
+
+Les poursuites directes comprennent :
+
+1° la contrainte ;
+
+2° la saisie-exécution mobilière ;
+
+3° la saisie-exécution sur fruits pendants par racines ou saisie-brandon ;
+
+4° la saisie-exécution sur navires et bateaux ;
+
+5° la saisie-exécution immobilière.
+
+Ces poursuites sont judiciaires et leur validité est de la compétence des tribunaux ordinaires.
+
+Article 22
+
+Lorsqu'un contribuable ne s'est pas acquitté de ses taxes dans les délais prévus à l' article 32 du Code, l'agent compétent lui fait signifier une contrainte avec injonction de payer dans les 24 heures, à peine d'exécution par voie de saisie.
+
+Article 23
+
+Les versements partiels effectués à la suite de la signification d'une contrainte ne font pas obstacle à la continuation des poursuites.
+
+Article 24
+
+Dès lors que le délai prévu à l'article 22 expire, l'agent compétent fait procéder à la saisie-exécution mobilière.
+
+Article 25
+
+A l'égard des contribuables qui, par enlèvement d'objets mobiliers ou autrement, tenteraient de faire disparaitre ou simplement de diminuer les garanties de la Région, l'agent compétent peut faire procéder directement à la saisie-exécution mobilière sans signification préalable d'une contrainte
+
+Dans ce cas, l'exploit de saisie contiendra la contrainte avant la saisie et portera les motifs qui justifient la non-signification préalable d'une contrainte.
+
+Article 26
+
+Il est défendu aux agents compétents de s'adjuger ou de se faire adjuger soit directement, soit indirectement, aucun des objets dont ils poursuivent la vente, à peine de nullité de celle-ci et de destitution de leur poste.
+
+Article 27
+
+S'il n'y a pas d'autres créanciers saisissants ou opposants, le produit brut de la vente est versé entre les mains de l'administration fiscale régionale.
+
+Toutefois, l'huissier de justice déduit préalablement les frais de poursuites qui lui reviennent.
+
+S'il y a d'autres créanciers saisissants ou opposants, l'huissier de justice procède à la distribution par contribution de la manière établie par les articles 1627 à 1638 du Code judiciaire .
+
+Article 28
+
+L'administration fiscale régionale impute les sommes qui lui sont versées suivant les règles fixées à l' article 36 du Code, et restitue l'excédent éventuel au contribuable.
+
+###### Sous-section 3. - Poursuites indirectes
+
+Article 29
+
+§ 1er. L'agent compétent peut faire procéder, par pli recommandé, à la saisie-arrêt exécution entre les mains d'un tiers sur les sommes et effets dus ou appartenant au contribuable, jusqu'à concurrence de tout ou partie du montant dû par ce dernier au titre des taxes et leurs accessoires.
+
+Cette saisie sort ses effets à compter de la remise de la pièce au destinataire.
+
+§ 2. A partir de la date d'entrée en vigueur de l'accord conclu à cette fin entre le tiers saisi et l'administration fiscale régionale, l'agent compétent peut effectuer la saisie-arrêt visée au paragraphe 1er au moyen d'une procédure utilisant les techniques de l'informatique.
+
+L'accord reste d'application tant que le tiers saisi ne l'a pas expressément dénoncé par pli recommandé. La dénonciation prend effet à partir du premier jour du troisième mois qui suit la réception de sa notification par l'administration fiscale régionale.
+
+Dans les cas où il est fait usage de la faculté prévue à l'alinéa 1er, la saisie-arrêt sort ses effets à compter de la date de l'accusé de réception de la saisie-arrêt communiqué par le tiers saisi.
+
+Lorsqu'une même saisie-arrêt est adressée successivement selon les procédures prévues respectivement à l'alinéa 1er et au paragraphe 1er, alinéa 1er, la saisie-arrêt adressée conformément au paragraphe 1er, alinéa 1er, ne prévaut que lorsque la date de remise de la pièce au destinataire visée au paragraphe 1er, alinéa 2, est antérieure à la date de l'accusé de réception de la saisie communiqué par le tiers saisi visée à l'alinéa 3.
+
+Les informations reprises dans la notification de saisie visée aux paragraphes 1er et 2 sont les mêmes, qu'elles soient communiquées au moyen d'une procédure utilisant les techniques de l'informatique ou par pli recommandé.
+
+L'origine et l'intégrité du contenu de la notification de saisie visées au paragraphe 2 en cas d'envoi au moyen d'une procédure utilisant les techniques de l'informatique doivent être assurées au moyen de techniques de protection adaptées.
+
+Pour que la notification de saisie soit valable comme saisie-arrêt, un certificat électronique doit être utilisé.
+
+Quelle que soit la technique appliquée, il est garanti que seules les personnes habilitées ont accès aux moyens avec lesquels le certificat électronique est créé.
+
+Les procédures suivies doivent par ailleurs permettre à la personne physique responsable de l'envoi d'être identifiée correctement, ainsi que d'identifier correctement le moment de l'envoi.
+
+§ 3. La saisie-arrêt doit également être dénoncée au contribuable par pli recommandé. Lorsque le redevable n'a plus de domicile connu, la dénonciation de la saisie est faite par pli recommandé au procureur du Roi de Bruxelles.
+
+Le contribuable peut faire opposition à la saisie-arrêt par pli recommandé adressé à l'agent compétent dans les quinze jours à compter du septième jour qui suit la remise au prestataire du service postal universel de la dénonciation de la saisie. Le contribuable doit en informer le tiers saisi dans le même délai par pli recommandé.
+
+Lorsque la saisie porte sur des revenus visés aux articles 1409, §§ 1er et 1erbis, et 1410 du Code judiciaire , la dénonciation contient, à peine de nullité, le formulaire de déclaration d'enfant à charge suivant le modèle mentionné à l' article 1409ter, § 1er, alinéa 1er, du Code judiciaire .
+
+§ 4. La saisie-arrêt visée aux paragraphes 1er et 2 donne lieu à l'établissement et à l'envoi, par l'agent compétent, d'un avis de saisie comme prévu à l' article 1390 du Code judiciaire .
+
+§ 5. Sous réserve de ce qui est prévu aux paragraphes 1er, 2 et 3, les dispositions des articles 1539, 1540, 1542, alinéas 1er et 2, et 1543 du Code judiciaire sont applicables à cette saisie-arrêt étant entendu que :
+
+1° le tiers saisi peut également faire la déclaration des sommes ou effets, objets de la saisie, au moyen d'une procédure utilisant les techniques de l'informatique à l'agent compétent concerné lorsque la saisie-arrêt est adressée selon la procédure prévue au paragraphe 2, alinéa 1er ; dans ce cas, la date de la déclaration des sommes ou effets, objets de la saisie, est la date de l'accusé de réception communiqué par l'administration fiscale régionale;
+
+2° le tiers saisi est tenu de vider ses mains conformément à l' article 1543 du Code judiciaire , sur production d'une copie de la dénonciation de la saisie visée au paragraphe 3, alinéa 1er. Lorsque la saisie-arrêt est adressée selon la procédure prévue au paragraphe 2, alinéa 1er, la production d'une copie de la dénonciation de la saisie est réputée accomplie par la communication au tiers saisi de la date de la remise au prestataire de service postal universel de la dénonciation de la saisie. Dans ce cas, cette communication s'effectue également au moyen d'une procédure utilisant les techniques de l'informatique;
+
+3° la remise du montant de la saisie se fait entre les mains de l'agent compétent.
+
+§ 6. Les frais des plis recommandés visés aux paragraphes précédents sont à charge du contribuable.
+
+§ 7. Le contribuable est avisé de la destination des paiements et du solde restant après ces paiements.
+
+§ 8. Aux fins de la mise en oeuvre des dispositions visées au présent article, le contribuable saisi peut être identifié sur base :
+
+1° du numéro d'identification mentionné à l'article III.17 du Code de droit économique; ou
+
+2° du numéro de registre national; ou
+
+3° du numéro d'identification mentionné à l'article 8 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale.
+
+Article 30
+
+La saisie-arrêt exécution doit être pratiquée par exploit d'huissier, de la manière prévue aux articles 1539 à 1544 du Code judiciaire , lorsqu'il apparait:
+
+1° que le contribuable s'oppose à la saisie-arrêt visée à l'article 29, §§ 1er et 2;
+
+2° que le tiers saisi conteste sa dette à l'égard du contribuable;
+
+3° que les sommes et effets font l'objet, de la part d'autres créanciers, d'une opposition ou d'une saisie-arrêt antérieure à la saisie visée à l'article 29, §§ 1er et 2;
+
+4° que les effets doivent être réalisés.
+
+Dans ces cas, la saisie-arrêt pratiquée par l'agent compétent en application de l'article 29, §§ 1er et 2, garde ses effets conservatoires si l'agent compétent fait procéder par exploit d'huissier, comme prévu à l' article 1539 du Code judiciaire , à une saisie-arrêt exécution entre les mains du tiers dans le mois qui suit :
+
+- soit la remise au prestataire du service postal universel de l'opposition du contribuable prévue à l'article 29, § 3, alinéa 2, ou de la déclaration prévue à l' article 1452 du Code judiciaire ;
+
+- soit l'accusé de réception de cette déclaration si elle a été transmise au moyen d'une procédure utilisant les techniques de l'informatique comme prévu à l'article 29, § 5.
+
+###### Sous-section 4. - Personnes chargées des poursuites
+
+Article 31
+
+Les poursuites en matière de taxes régionales sont exercées par les huissiers de justice ou les agents compétents.
+
+Ils signifient, en cette qualité, les contraintes et pratiquent les saisies et les ventes.
+
+Du chef de l'exercice des poursuites en matière de taxes régionales, les huissiers de justice ne peuvent prétendre à des droits ou frais plus élevés ou autres que ceux qui sont fixés à l'article 33 à peine de restitution, de dommages et intérêts.
+
+Article 32
+
+En aucun cas et sous aucun prétexte, les agents compétents ne peuvent, sous peine de destitution, recevoir aucune somme des contribuables, soit pour leur salaire, soit pour le paiement des taxes.
+
+Le contribuable qui leur confierait des fonds s'expose à devoir payer deux fois.
+
+###### Sous-section 5. - Des frais de poursuites
+
+Article 33
+
+Les frais de poursuites sont déterminés suivant les règles établies pour les actes accomplis par les huissiers de justice en matière civile et commerciale.
+
+Article 34
+
+Les frais de poursuites sont à charge des contribuables.
+
+Ces frais reviennent intégralement aux huissiers de justice. Ils reviennent à la Région s'ils sont relatifs à des poursuites effectuées par des agents compétents.
+
+Article 35
+
+Ne sont pas admis en liquidation :
+
+1° les frais d'actes non justifiés par la production des originaux;
+
+2° les frais résultant de poursuites exercées arbitrairement, sans contrainte ou dans un ordre contraire à celui qui est indiqué par le présent règlement;
+
+3° les frais faits contre les contribuables notoirement insolvables.
+
+#### CHAPITRE 5. - Obligations d'information des tiers
+
+Article 36
+
+L'agent compétent est habilité pour rechercher les infractions et dresser, même seul, les procès-verbaux en matière de taxes régionales.
+
+Article 37
+
+La délivrance de l'attestation visée à l' article 68 du Code est subordonnée à l'introduction, par la personne physique ou morale intéressée, d'une demande en trois exemplaires. La demande et l'attestation sont établies suivant le modèle fixé par le directeur général de l'administration fiscale régionale.
+
+L'attestation est délivrée dans les 8 jours de l'introduction de la demande.
+
+Article 38
+
+Les établissements et organismes de crédit, ainsi que les administrations, établissements et organismes publics qui octroient des subsides d'un montant supérieur à 2.000 euros, visés à l' article 68 du Code ne doivent, en principe, être en possession que d'une attestation par crédit, prêt ou avance pour lequel un avantage est demandé en matière d'expansion économique.
+
+La date de délivrance de l'attestation ne peut être antérieure de plus d'un mois à compter de la date de la demande d'octroi de l'avantage, ni postérieure à cette même date.
+
+Toutefois, lorsque la décision d'octroi de l'avantage n'est pas intervenue dans les six mois de la date de l'attestation, une nouvelle attestation doit être produite.
+
+Article 39
+
+Un exemplaire de l'attestation visée à l' article 68 du Code est expédié par l'agent compétent à l'autorité mentionnée dans la demande d'attestation.
+
+Lorsqu'il ressort de l'attestation que le montant d'une ou plusieurs taxes, assorties ou non de leurs accessoires, est dû par la personne physique ou morale qui a fait la demande d'un avantage en matière d'expansion économique, la décision d'octroi dudit avantage stipule que l'établissement ou l'organisme de crédit, ou les administrations, établissements et organismes publics qui octroient des subsides d'un montant supérieur à 2.000 euros, ne libère l'intégralité des fonds que si l'intéressé s'acquitte de sa dette fiscale.
+
+Article 40
+
+§ 1er. Lorsqu'il ressort de l'attestation produite à l'établissement ou à l'organisme de crédit, ou les administrations, établissements et organismes publics qui octroient des subsides d'un montant supérieur à 2.000 euros, qu'un montant est exigible, à titre de taxes ou de leurs accessoires, dans le chef de la personne physique ou morale à laquelle est accordé un crédit, prêt ou avance pour lequel un avantage en matière d'expansion économique est demandé, les fonds à provenir du crédit, du prêt ou de l'avance ne sont libérés à concurrence de ce montant qu'à condition que la personne physique ou morale intéressée produise une attestation par laquelle l'agent compétent déclare que les taxes et ses accessoires en cause sont payés.
+
+Toutefois, avec l'accord du contribuable, l'établissement ou l'organisme de crédit peut verser directement ces fonds au bureau de recette compétent.
+
+§ 2. Dans le cas visé à l'article 38, alinéa 3, l'établissement ou l'organisme de crédit ne doit tenir compte des données de la nouvelle attestation que dans la mesure où les fonds n'ont pas encore été libérés avant l'expiration du délai de six mois visé par cette disposition.
+
+#### CHAPITRE 6. - Sanctions
+
+##### Section 1re. - Perte du droit de représentation
+
+Article 41
+
+Dans le cadre de la procédure visée à l' article 80 du Code, le mandataire peut se faire assister d'un avocat.
+
+Procès-verbal de l'audition visée à l' article 80, alinéa 2 , du Code est dressé. Le procès-verbal est, après lecture, signé par l'agent compétent et le mandataire. Leur signature est précédée des mots manuscrits : « Lu et approuvé ». Si l'intéressé refuse de signer, mention en est faite au procès-verbal qui précise les motifs du refus.
+
+Une copie certifiée conforme du procès-verbal est notifiée au mandataire dans les huit jours de sa date.
+
+##### Section 2. - Sanctions administratives
+
+Article 42
+
+La personne à qui une amende administrative a été infligée en application du Titre 2, Chapitre 6, Section 2 du Code peut faire valoir ses observations par écrit conformément à la procédure du recours préjudiciaire visée à l' article 101 du Code.
+
+Dans le cadre du recours préjudiciaire , la personne peut demander à être entendue si elle le souhaite, le cas échéant à travers son représentant ou avec l'aide de la personne choisie pour l'assister. Dans les 30 jours à dater de la réception du recours par l'administration fiscale régionale, celle-ci transmet au contrevenant la date et le lieu de l'audition sollicitée.
+
+### TITRE 3. - Collaboration entre la Région et les communes
+
+#### CHAPITRE 1er. - Centimes additionnels sur les taxes régionales
+
+Article 43
+
+§ 1er. Le Collège des Bourgmestre et Echevins de la commune qui souhaite voir le service des centimes additionnels communaux repris par la Région doit le notifier au directeur général de l'administration fiscale régionale avant le 30 juin de l'année qui précède l'exercice d'imposition pour lequel la commune souhaite bénéficier de ce service. Cette notification est effectuée par courrier recommandé.
+
+La notification visée à l'alinéa 1er contient :
+
+1° une copie de la décision du Conseil communal visée à l' article 107, § 2, alinéa 1er, 4°, du Code;
+
+2° un dossier permettant à l'administration fiscale régionale d'effectuer un premier examen visant à s'assurer que les conditions prévues à l' article 107, § 2 , du Code seront remplies au moment de l'enrôlement.
+
+§ 2. Après la réception de la notification visée au paragraphe 1er, l'administration fiscale régionale invite la commune concernée afin de l'informer des modalités de reprise du service des centimes additionnels communaux.
+
+Si la commune en fait la demande par écrit, cette information peut se faire par l'envoi de documents explicatifs à la commune.
+
+Article 44
+
+En cas de reprise du service par l'administration fiscale régionale, la commune met tout en oeuvre pour faciliter la prise en charge du service par l'administration fiscale régionale.
+
+Lorsqu'une contestation relative à l'établissement, à la perception ou au recouvrement des centimes additionnels est portée devant une juridiction, l'administration fiscale régionale en informe la commune. L'administration fiscale régionale transmet à la commune la copie de toute décision rendue par les juridictions.
+
+Article 45
+
+§ 1er. En cas de décision de retrait, par le Conseil communal, du règlement communal visé à l' article 107, § 2, alinéa 1er, 3°, du Code, et, plus généralement, en cas d'adoption, par la commune, de tout acte susceptible d'influer sur le service des centimes additionnels communaux, la commune, en avise immédiatement l'administration fiscale régionale.
+
+§ 2. L'avis susmentionné est suivi de la notification, par courrier recommandé adressé au directeur général de l'administration fiscale régionale, de la décision de retrait ou de l'acte visés au paragraphe 1er. La commune est chargé de cette notification.
+
+Cette notification intervient dans les 10 jours ouvrables à compter du jour où la décision de retrait ou l'acte visés au paragraphe 1er a été adopté.
+
+Article 46
+
+Les rôles des centimes additionnels aux taxes régionales visées à l' article 107 du Code sont formés selon les modalités fixées par le directeur général de l'administration fiscale régionale.
+
+Les centimes additionnels sont portés aux rôles attachés à l'année budgétaire en cours à la date de leur exécutoire ; il est fait application des taux afférents aux exercices d'imposition respectifs.
+
+#### CHAPITRE 2. - La reprise du service des taxes communales
+
+Article 47
+
+§ 1er. Conformément à l' article 109, § 1er , du Code, la commune notifie à l'administration fiscale régionale la décision du Conseil communal de lancer la procédure de négociation du protocole d'accord. Cette notification est faite par courrier recommandé adressé au directeur général de l'administration fiscale régionale.
+
+Cette notification contient une copie de la décision du Conseil communal de lancer la procédure de négociation d'un protocole d'accord et, le cas échéant, une copie du règlement communal ayant établi la taxe pour laquelle la reprise du service par l'administration fiscale régionale est envisagée.
+
+Cette notification est faite au plus tard le 30 juin de l'année précédant l'exercice d'imposition à partir duquel le service de la taxe communale sera assuré par l'administration fiscale régionale, le cachet de la poste faisant foi.
+
+§ 2. Le protocole d'accord est conclu au plus tard le dernier jour du quatrième mois qui précède le début de la période imposable à partir de laquelle le service de la taxe communale est repris par l'administration fiscale régionale.
+
+Le protocole d'accord est signé, pour ce qui concerne la commune, par l'organe compétent en vertu de la nouvelle loi communale du 24 juin 1988 et, pour ce qui concerne l'administration fiscale régionale, par le Ministre et par le directeur général de l'administration fiscale régionale.
+
+§ 3. Une fois le protocole d'accord conclu dans le respect des modalités visées au paragraphe 2, la commune notifie à l'administration fiscale régionale sa décision de transférer à l'administration fiscale régionale le service de la taxe communale visée dans le protocole d'accord. Cette notification est faite par courrier recommandé adressé au directeur général de l'administration fiscale régionale.
+
+Cette notification contient une copie de la décision du Conseil communal de transférer à l'administration fiscale régionale le service de la taxe communale, ainsi qu'une copie du règlement communal établissant la taxe dont le service fait l'objet de la reprise.
+
+Cette notification est faite au plus tard le dernier jour du mois qui précède le début de la période imposable à partir de laquelle le service de la taxe communale sera assuré par l'administration fiscale régionale, le cachet de la poste faisant foi.
+
+§ 4. La décision du Ministre de mettre fin à la reprise du service d'une taxe communale visée à l' article 109, § 4 , du Code est notifiée par courrier recommandé adressé à la commune concernée.
+
+La décision du Conseil communal de mettre fin à la reprise du service d'une taxe communale visée à l' article 109, § 5, alinéa 1er , du Code est notifiée par la commune. Cette décision est notifiée par courrier recommandé adressé au Ministre ayant les Finances dans ses attributions ainsi qu'au directeur général de l'administration fiscale régionale.
+
+Article 48
+
+§ 1er. En cas de décision de retrait, par le Conseil communal, des règlements communaux visés à l'article 47, § 3, alinéa 2, et § 4, alinéa 2, et, plus généralement, en cas d'adoption, par la commune, de tout acte susceptible d'influer sur le service de la taxe communale par l'administration fiscale régionale, la commune, en avise immédiatement l'administration fiscale régionale.
+
+§ 2. L'avis susmentionné est suivi de la notification, par courrier recommandé de la commune adressé au directeur général de l'administration fiscale régionale, de la décision de retrait ou de l'acte visés au paragraphe 1er.
+
+Cette notification intervient dans les 10 jours ouvrables à compter du jour où la décision de retrait ou l'acte visés au paragraphe 1er ont été adoptés.
+
+#### CHAPITRE 3. - La reprise du service des primes communales
+
+Article 49
+
+§ 1er. Conformément à l' article 115, § 1er , du Code, la commune notifie à l'administration fiscale régionale la décision du Conseil communal de lancer la procédure de négociation du protocole d'accord. Cette notification est faite par courrier recommandé adressé au directeur général de l'administration fiscale régionale.
+
+Cette notification contient une copie de la décision du Conseil communal de lancer la procédure de négociation d'un protocole d'accord et, le cas échéant, une copie du règlement communal ayant établi la prime pour laquelle la reprise du service par l'administration fiscale régionale est envisagée.
+
+Cette notification est faite au plus tard le 30 juin de l'année précédant l'année à partir de laquelle le service de la prime communale sera assuré par l'administration fiscale régionale, le cachet de la poste faisant foi.
+
+§ 2. Le protocole d'accord est signé, pour ce qui concerne la commune, par l'organe compétent en vertu de la nouvelle loi communale du 24 juin 1988 et, pour ce qui concerne l'administration fiscale régionale, par le Ministre et par le directeur général.
+
+§ 3. Une fois le protocole d'accord conclu dans le respect des modalités visées au paragraphe 2, la commune notifie à l'administration fiscale régionale sa décision de transférer à l'administration fiscale régionale le service de la prime communale visée dans le protocole d'accord. Cette notification est faite par courrier recommandé adressé au directeur général de l'administration fiscale régionale.
+
+Cette notification contient une copie de la décision du Conseil communal de transférer à l'administration fiscale régionale le service de la prime communale, ainsi qu'une copie du règlement communal établissant la prime faisant l'objet de la reprise dudit service.
+
+§ 4. La décision du Ministre de mettre fin à la reprise du service d'une prime communale visée à l' article 115, § 4, alinéa 1er , du Code est notifiée par courrier recommandé adressé à la commune concernée.
+
+La décision du Conseil communal de mettre fin à la reprise du service d'une prime communale visée à l' article 115, § 5, alinéa 1er , du Code est notifiée par la commune. Cette décision est notifiée par courrier recommandé adressé au Ministre ainsi qu'au directeur général de l'administration fiscale régionale.
+
+Article 50
+
+§ 1er. En cas de décision de retrait, par le Conseil communal, des règlements communaux visés à l'article 49, § 3, alinéa 2, et, plus généralement, en cas d'adoption, par la commune, de tout acte susceptible d'influer sur le service de la prime communale par l'administration fiscale régionale, la commune, en avise immédiatement l'administration fiscale régionale.
+
+§ 2. L'avis susmentionné est suivi de la notification, par courrier recommandé par la commune adressé au directeur général de l'administration fiscale régionale, de la décision de retrait ou de l'acte visés au paragraphe 1er.
+
+Cette notification intervient dans les 10 jours ouvrables à compter du jour où la décision de retrait ou l'acte visés au paragraphe 1er ont été adoptés.
+
+#### CHAPITRE 4. - Le recouvrement forcé des montants dus aux communes
+
+Article 51
+
+Conformément à l' article 118, § 1er, alinéa 4 , du Code, le recouvrement des montants dus aux communes peut être poursuivi conformément aux dispositions du Titre 2, Chapitre 4 du présent arrêté, ainsi que du Titre 2, Chapitre 4 du Code et de la section 3 du Chapitre 5 du Titre 2 du Code.
+
+Article 52
+
+§ 1er. Conformément à l' article 118, § 2, alinéa 2 , du Code, la commune notifie à l'administration fiscale régionale la décision du Conseil communal de lancer la procédure de négociation du protocole d'accord. Cette notification est faite par courrier recommandé adressé au directeur général de l'administration fiscale régionale.
+
+Cette notification contient une copie de la décision du Conseil communal de lancer la procédure de négociation.
+
+§ 2. Le protocole d'accord est signé, pour ce qui concerne la commune, par l'organe compétent en vertu de la nouvelle loi communale du 24 juin 1988 et, pour ce qui concerne l'administration fiscale régionale, par le Ministre et par le directeur général de l'administration fiscale régionale.
+
+§ 3. Une fois le protocole d'accord conclu dans le respect des modalités visées au paragraphe 2, la commune notifie à l'administration fiscale régionale sa décision de confier à l'administration fiscale régionale le recouvrement forcé des montants qui lui sont dus. Cette notification est faite par courrier recommandé adressé au directeur général de l'administration fiscale régionale.
+
+Cette notification contient une copie de la décision du Conseil communal de confier à l'administration fiscale régionale le recouvrement forcé des montants qui lui sont dus.
+
+§ 4. La décision du Ministre de mettre fin à la prise en charge du recouvrement forcé des montants dus à la commune visée à l' article 118, § 5, alinéa 1er , du Code est notifiée par courrier recommandé adressé au conseil communal de la commune concernée.
+
+La décision du Conseil communal de mettre fin à la prise en charge, par l'administration fiscale régionale, du recouvrement forcé des montants qui lui sont dus visée à l' article 118, § 6, alinéa 1er , du Code est notifiée par la commune. Cette décision est notifiée par courrier recommandé adressé au Ministre ainsi qu'au directeur général de l'administration fiscale régionale.
+
+### TITRE 4. - Fonctionnement de l'administration fiscale régionale
+
+#### CHAPITRE 1er. - Assistance mutuelle entre Etats en matière de recouvrement
+
+Article 53
+
+§ 1er. Nulle amende administrative ne peut être infligée par application de l' article 119, § 3 , du Code lorsque la personne concernée invoque son droit au silence et de ne pas participer à sa propre incrimination, tel qu'il se déduit de l'article 6 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, signée à Rome le 4 novembre 1950.
+
+§ 2. L'échelle des amendes administratives est fixée comme suit :
+
+- 1re infraction : 10.000 euros;
+
+- 2e infraction : 25.000 euros;
+
+- infractions subséquentes : 50.000 euros.
+
+Par dérogation à l'alinéa 1er, si le contrevenant prouve que l'infraction est manifestement non imputable à la mauvaise foi ou à l'intention d'éluder la taxe ou d'obstruer son recouvrement, l'amende est fixée selon l'échelle suivante :
+
+- 1re infraction : 125 euros;
+
+- 2e infraction : 1.000 euros;
+
+- infractions subséquentes : 1.500 euros.
+
+Par dérogation aux alinéas 1er et 2, si le contrevenant prouve que l'infraction est due à des circonstances indépendantes de sa volonté, l'amende est annulée.
+
+§ 3. Il y a deuxième infraction ou infraction subséquente si, au moment où une nouvelle infraction est commise par un contrevenant, il a été donné connaissance à ce contrevenant de l'amende administrative qui a sanctionné l'infraction antérieure.
+
+Pour l'application de l'alinéa 1er, le contrevenant est présumé, de manière réfragable, avoir pris connaissance de l'amende administrative le septième jour qui suit la date d'envoi de la décision telle qu'elle figure sur la lettre de notification de la décision d'infliction de l'amende administrative.
+
+§ 4. La décision par laquelle l'amende susmentionnée est infligée est envoyée par envoi postal recommandé au contrevenant.
+
+La décision indique l'intitulé et le numéro du compte de la Région sur lequel le paiement doit être effectué.
+
+#### CHAPITRE 2. - Gestion électronique
+
+Article 54
+
+Sans préjudice des modalités de mise à disposition des formulaires de déclaration visées à l'article 3, les notifications émanant de l'administration fiscale régionale sont réalisées via l' eBox du destinataire lorsque celui-ci a consenti à la réception électronique de messages via l' eBox .
+
+Les notifications via l' eBox produisent les mêmes effets juridiques que les notifications non électroniques.
+
+Les notifications via l' eBox cessent lorsque le destinataire retire son consentement à la réception de messages via l' eBox ou lorsque son eBox est désactivée en application de l'article 6, alinéa 5, de la loi du 27 février 2019 relative à l'échange électronique de messages par le biais de l' eBox .
+
+-----------
+
+remplacé par l'art. 13 de l'arrêté du 25.06.2026 (M.B. 09.07.2026). Entrée en vigueur le 15.07.2026
+
+Article 55
+
+La gestion électronique des dossiers visés à l' article 121 du Code se fait par les applications informatiques implémentées au sein de l'administration fiscale régionale ou au sein des partenaires avec lesquels l'administration fiscale régionale collabore.
+
+La sécurisation de l'enregistrement, la conservation, la reproduction et la transmission des données personnelles recueillies par l'administration fiscale régionale s'opèrent en conformité avec le Règlement 2016/679/UE du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE.
+
+-----------
+
+modifié par l'art. 2 de l'arrêté du 28.10.2021. Texte entre en vigueur le 01.11.2021
+
+Article 56
+
+L'administration fiscale régionale peut, conformément à l' article 122 du Code, signer des documents de façon électronique au moyen de l'e-ID de la personne ou des applications similaires qui signent le document.
+
+L'administration fiscale régionale peut offrir au contribuable la possibilité de signer des documents par voie de signature électronique. Cette signature se fait au moyen de l'e-ID ou des applications similaires du contribuable concerné. Par l'envoi d'un document à l'administration fiscale via la plateforme désignée par l'administration fiscale, le redevable signe ce document électroniquement.
+
+Les procédures liées aux signatures électroniques susmentionnées seront implémentées dans les applications informatiques visées à l'article précédent.
+
+La signature électronique ne doit pas être certifiée pour être valable dans le cadre du fonctionnement de l'administration fiscale régionale, à moins que la signature électronique ne contienne des indices sérieux d'usurpation de l'identité ou de contrefaçon.
+
+------------
+
+- alinéa 2 complété par l'art. 1 de l'arrêté du 10.03.2022 (M.B. 11.04.2022). Entrée en vigueur le 21.04.2022
+
+Article 57
+
+Lorsqu'un article du présent arrêté prévoit l'envoi par envoi recommandée, le Ministre peut prévoir la possibilité de le réaliser par envoi recommandé électronique.
+
+### TITRE 5. - Dispositions modificatives et d'entrée en vigueur
+
+Article 58
+
+Dans les articles 6 et 7 de l' arrêté du Gouvernement de la Région de Bruxelles-Capitale du 22 février 2018 exécutant l'ordonnance du 23 novembre 2017 effectuant les adaptations législatives en vue de la reprise du service du précompte immobilier par la Région de Bruxelles-Capitale, les mots « nonante-trois jours » sont remplacés par les mots « 186 jours ».
+
+Article 59
+
+Le présent arrêté produit ses effets le 1er janvier 2019.
+
+Par dérogation à l'alinéa 1er, l'article 37, le Chapitre 4 du Titre 2 et Chapitre 6 du Titre 2 et le Titre 4 produisent ses effets le 19 mars 2019.
+
+Par dérogation aux alinéas qui précèdent, l'article 10 entre en vigueur à la date de publication du présent arrêté.
+
+Bruxelles, le 24 juin 2021.
+
+Pour le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Ministre-Président,
+
+R. VERVOORT
+
+Le Ministre des Finances,
+
+S. GATZ

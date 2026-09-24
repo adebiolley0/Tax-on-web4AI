@@ -1,0 +1,47 @@
+---
+guid: "4bb3f95b-0010-4896-93cd-0f57a7ee13b8"
+title: "Numéro E 55/15-01"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2007-06-06"
+publication_date: "2007-10-01"
+effective_date: null
+last_modified: "2021-10-11"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "1818ced4-b1f4-4c63-83ce-65c9b40743c9"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/4bb3f95b-0010-4896-93cd-0f57a7ee13b8"
+---
+
+# Numéro E 55/15-01
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+Numéro E 55/15-01
+
+15. – Question préjudicielle.
+
+01. - Convention sous seing privé de vente concernant la clause suivante, « si l'une des sommes prévues soit à titre d'arrhes, soit en paiement du prix de vente n'était pas payée à son échéance, la présente convention serait résolue de plein droit, à charge de l'acquéreur, et ce sans mise en demeure ni aucune formalité. Dans ce cas, les arrhes seront acquises de plein droit au vendeur ».
+
+En l'espèce, il s'agit d'un pacte commissoire exprès et non d'une condition résolutoire. En effet, il n'est pas permis d'ériger en condition résolutoire une obligation découlant du contrat, à savoir le paiement du prix.
+
+En ce qui concerne la perception des droits d'enregistrement, la qualification (condition résolutoire ou pacte commissoire exprès) n'a pas d'incidence ; dans l'un et l'autre cas, le droit est dû sans possibilité ultérieure de restitution, à défaut de résolution judiciaire de la convention, l'action en résolution devant être introduite dans un délai d'un an à dater de la convention.
+
+En appel, la Cour estime que ne justifie pas le recours à une question préjudicielle l' article 55, alinéa 2, C. enr ., interprété comme interdisant aux parties, à une opération translative de propriété au sens de l' article 44 du même Code, d'apporter la preuve de la réalisation des conditions de patrimoine immobilier, par tout autre moyen de preuve que la déclaration de l'acquéreur ou du candidat acquéreur au pied de l'acte, dans la mesure où serait violé le principe d'égalité contenu dans les articles 10 et 11 de la Constitution en limitant à certaines personnes tenues au paiement de la taxe, la possibilité d'apporter la preuve de la réalisation des conditions de patrimoine des candidats acquéreurs et ce, à l'exclusion d'autres personnes pourtant également tenues à ce paiement par les dispositions légales.
+
+Les appelants (vendeurs) perdent de vue que le droit d'enregistrement est en règle à charge des acheteurs. Dès lors, ce sont ces derniers qui doivent fournir la preuve des conditions d'octroi au taux réduit.
+
+Les appelants sont simplement tenus indivisiblement du droit en vertu de l' article 35 C. enr . et la situation dénoncée n'est nullement discriminatoire puisqu'elle soumet au même régime acheteur et vendeur.
+
+De même, la Cour estime que ne justifie pas le recours à une question préjudicielle l' article 212 C enr ., interprété comme limitant la possibilité de restitution des 3/5 des droits fixés par l' article 44 du même Code, aux seuls vendeurs, ou à leurs auteurs, ayant acquis par un acte ayant subi le droit fixé par l'article 44 et ayant revendu par acte authentique passé dans les deux ans de l'acte authentique d'acquisition, à l'exclusion des autres personnes également tenues au paiement du droit fixé par l' article 44 sur le premier acte d'acquisition, dans la mesure où serait violé le principe d'égalité contenu dans les articles 10 et 11 de la Constitution en limitant le droit d'obtenir restitution d'une partie des droits d'enregistrement à certaines personnes tenues au paiement de la taxe et ce, à l'exclusion d'autres personnes pourtant également tenues au paiement de la taxe par les dispositions légales.
+
+Les conditions légales pour obtenir la restitution d'un droit régulièrement perçu ne sont pas réunies, d'autant qu'en l'espèce, ce n'est pas l'acquéreur qui a revendu le bien mais le vendeur qui, vu l'échec de sa première vente, a trouvé de nouveau amateurs et opéré une nouvelle vente.
+
+L' article 212 n'étant manifestement pas applicable à l'hypothèse déférée à la C our, il n'y a pas lieu de saisir la C our constitutionnelle d'une question préjudicielle.
+
+(Jugement du tribunal de première instance de Liège, cinquième chambre , du 21 .05. 1999 confirmé par un arrêt de la Cour d'appel de Liège du 06.06.2007 - EE/95.288)
+
+----------
+
+Date de publication : OCTOBRE 2007

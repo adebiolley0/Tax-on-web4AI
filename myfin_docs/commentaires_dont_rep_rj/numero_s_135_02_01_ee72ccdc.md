@@ -1,0 +1,33 @@
+---
+guid: "ee72ccdc-f415-45ff-b5b6-ae586f59e1ca"
+title: "Numéro S 135/02-01"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "1998-09-10"
+publication_date: "2000-01-01"
+effective_date: null
+last_modified: "2021-03-03"
+taxonomies: ["Droits de succession"]
+path: ["FISCALITÉ", "Droits de succession", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits de succession"]
+linked_document_nl: "8526b39f-ff46-4538-ac3c-2fce3c076a69"
+found_via: "8b51bd0c-f291-4868-9ff8-de9b84a2af9d"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/ee72ccdc-f415-45ff-b5b6-ae586f59e1ca"
+---
+
+# Numéro S 135/02-01
+
+Numéro S 135/02-01
+
+Répertoire RJ – Droits de succession
+
+Numéro S 135/02-01
+
+02. – Paiement sous réserve.
+
+01. - Il ne peut être tenu compte du fait que les droits complémentaires, amendes et intérêts ont été payés sous réserve de recouvrer ceux-ci ultérieurement. Un paiement avec réserve n'a aucun sens quand les droits de succession payés ont été calculés sur base d'une déclaration complémentaire déposée qui n'est plus susceptible de modification. Un paiement avec réserve ne peut faire naître un droit à restitution que dans les cas où le Code des droits de succession prévoit une possibilité de restitution, c'est-à-dire, quand la possibilité existe encore de revoir la déclaration après que les délais de dépôt soient déjà écoulés.
+
+(Jugement du tribunal de première instance de Gand du 10.09.1998 - EE/95.195)
+
+----------
+
+Date de publication : JANVIER 2000

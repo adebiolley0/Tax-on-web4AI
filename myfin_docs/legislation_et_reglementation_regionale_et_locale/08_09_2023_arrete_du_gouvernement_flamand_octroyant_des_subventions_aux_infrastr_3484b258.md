@@ -1,0 +1,315 @@
+---
+guid: "3484b258-195a-4d85-82c1-44b713b74087"
+title: "08.09.2023 - Arrêté du Gouvernement flamand octroyant des subventions aux infrastructures d'alimentation électrique à quai dans les ports maritimes par le biais d'une procédure d'appel dans le cadre du plan REPowerEU"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2023-09-08"
+publication_date: "2024-04-18"
+effective_date: "2023-09-15"
+last_modified: "2024-04-30"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Autorité flamande", "Autre législation et réglementation"]
+linked_document_nl: "47b73aad-553a-438b-8bc1-69cc62c57744"
+found_via: "1bfab4af-9402-4169-8e6a-29c1d12ed734"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/3484b258-195a-4d85-82c1-44b713b74087"
+---
+
+# 08.09.2023 - Arrêté du Gouvernement flamand octroyant des subventions aux infrastructures d'alimentation électrique à quai dans les ports maritimes par le biais d'une procédure d'appel dans le cadre du plan REPowerEU
+
+08.09.2023 - Arrêté du Gouvernement flamand octroyant des subventions aux infrastructures d'alimentation électrique à quai dans les ports maritimes par le biais d'une procédure d'appel dans le cadre du plan REPowerEU
+
+( M.B. , 18.04.2024 . – n ° Numac : 2024003632 )
+
+Fondement juridique
+
+Le présent arrêté est fondé sur :
+
+- le décret du 16 mars 2012 relatif à la politique d'aide économique, article 38, alinéa 3, remplacé par l'arrêté du Gouvernement flamand du 20 mars 2015.
+
+Formalités
+
+Les formalités suivantes ont été remplies :
+
+- Le ministre flamand qui a la politique budgétaire dans ses attributions a donné son accord le 12 juillet 2023.
+
+- Le 18 juillet 2023, une demande d'avis dans les trente jours a été introduite auprès du Conseil d'Etat, en application de l'article 84, § 1er, alinéa 1er, 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973. L'avis n'a pas été communiqué dans le délai imparti. C'est pourquoi l'article 84, § 4, alinéa 2, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973, s'applique.
+
+Motivation
+
+Le présent arrêté est fondé sur le motif suivant :
+
+- Face aux perturbations du marché mondial de l'énergie provoquées par l'invasion de l'Ukraine par la Russie, la Commission européenne a lancé le plan REPowerEU au printemps 2022. Le plan REPowerEU vise à mettre fin à la dépendance de l'Union européenne à l'égard des combustibles fossiles russes, et à faire face à la crise climatique. Outre un plan d'action à cet effet, la Commission européenne a également augmenté l'enveloppe financière de la facilité pour la reprise et la résilience de 20 milliards d'euros sous forme de subventions. Le présent arrêté, qui concerne une mesure de subvention visant à réduire la consommation de combustibles fossiles par l'électrification des infrastructures portuaires (alimentation électrique à quai), est à la base de l'une des mesures prises par l'Autorité flamande dans le cadre du plan REPowerEU .
+
+Cadre juridique
+
+Le présent arrêté fait suite à la réglementation suivante :
+
+- le règlement (UE) n° 651/2014 de la Commission du 17 juin 2014 déclarant certaines catégories d'aides compatibles avec le marché intérieur en application des articles 107 et 108 du Traité ;
+
+- le règlement (UE) n° 2021/241 du Parlement européen et du Conseil du 12 février 2021 établissant la facilité pour la reprise et la résilience.
+
+Initiateur
+
+Le présent arrêté est proposé par le ministre flamand de l'Economie, de l'Innovation, de l'Emploi, de l'Economie sociale et de l'Agriculture.
+
+Après délibération,
+
+LE GOUVERNEMENT FLAMAND ARRETE :
+
+## CHAPITRE 1er. - Définitions
+
+Article 1er.
+
+Dans le présent arrêté, on entend par :
+
+1° Agence de l'Innovation et de l'Entrepreneuriat : l'agence créée par l'arrêté du Gouvernement flamand du 7 octobre 2005 relatif à l'« Agentschap Innoveren en Ondernemen » ;
+
+2° règlement général d'exemption par catégorie : règlement (UE) n° 651/2014 de la Commission du 17 juin 2014 déclarant certaines catégories d'aides compatibles avec le marché intérieur en application des articles 107 et 108 du Traité (Journal officiel du 26 juin 2014, L 187), et ses modifications ultérieures ;
+
+3° règlement de reprise et de résilience : règlement (UE) n° 2021/241 du Parlement européen et du Conseil du 12 février 2021 établissant la facilité pour la reprise et la résilience (Journal officiel du 18 février 2021, L 57), et ses modifications ultérieures ;
+
+4° cessation des dépenses : la date de la dernière facture des dépenses subventionnables ;
+
+5° ministre : le ministre flamand qui a l'économie dans ses attributions ;
+
+6° dépenses subventionnables : les dépenses éligibles à une subvention sur la base du présent arrêté ;
+
+7° dépenses : coûts et investissements.
+
+## CHAPITRE 2. - Règlementation européenne
+
+Art. 2.
+
+Le présent arrêté relève de l'application du règlement général d'exemption par catégorie et du règlement de reprise et de résilience.
+
+Art. 3.
+
+Les conditions européennes relatives à la transparence, visées à l'article 9 du règlement général d'exemption par catégorie, sont respectées et le montant de subvention octroyé est introduit dans le site web européen dédié à la Transparence.
+
+## CHAPITRE 3. - Conditions
+
+#### Section 1re. - Conditions pour le demandeur de subvention
+
+Art. 4.
+
+Les entreprises suivantes sont éligibles à une subvention :
+
+1° North Sea Port Flanders (BCE : 0218843678) ;
+
+2° Port d'Anvers - Bruges (BCE : 0248399380) ;
+
+3° Port d'Ostende (BCE: 0259978212) ;
+
+4° l'entreprise qui remplit l'une des conditions suivantes :
+
+a) l'entreprise est une personne physique exerçant une activité professionnelle en tant qu'indépendant ;
+
+b) l'entreprise est une société dotée de la personnalité juridique de droit privé ;
+
+c) l'entreprise est une entreprise étrangère ayant un statut équivalent au statut visé au point 4°, a) et b).
+
+Art. 5.
+
+L'entreprise dispose d'un siège d'exploitation en Région flamande.
+
+Art. 6. A la date d'introduction de la demande de subvention, l'entreprise ne peut être une entreprise en difficultés telle que visée à l'article 2, point 18, du règlement général d'exemption par catégorie et ne peut pas faire l'objet d'une procédure de droit européen, national ou régional visant le recouvrement de l'aide octroyée.
+
+Aucune subvention n'est octroyée aux entreprises qui ne répondent pas à la réglementation applicable en Région flamande. L'entreprise continue à répondre à la réglementation précitée jusqu'à cinq ans après la cessation des dépenses subventionnables.
+
+Art. 7.
+
+Une autorité administrative telle que visée à l'article 14 des lois coordonnées sur le Conseil d'Etat ou une autorité administrative étrangère similaire n'exerce, à la date d'introduction de la demande de subvention, pas d'influence dominante sur les entreprises, visées à l'article 4, 4°. Il y a présomption d'influence dominante lorsque 50 % ou plus du capital, de l'apport ou des droits de vote de l'entreprise sont directement ou indirectement détenus par l'autorité administrative précitée.
+
+La présomption d'influence dominante peut être réfutée si l'entreprise peut démontrer que l'autorité administrative, visée à l'alinéa 1er, n'exerce en réalité aucune influence dominante sur la politique de l'entreprise. Le ministre prend une décision sur la présomption précitée.
+
+#### Section 2. - Conditions pour les dépenses subventionnables
+
+Art. 8.
+
+Les dépenses subventionnables commencent au plus tôt le premier jour du mois qui suit le mois auquel la demande de subvention est introduite.
+
+La subvention est entièrement annulée lorsque les dépenses subventionnables prennent cours avant le jour, visé à l'alinéa 1er.
+
+Art. 9.
+
+Les investissements sont conservés pendant cinq ans après la cessation des dépenses par l'entreprise.
+
+Art. 10.
+
+Les dépenses subventionnables commencent dans les six mois après la décision d'octroi de la subvention et sont cessées avant le 1er mai 2026.
+
+Art. 11.
+
+Les dépenses subventionnables répondent aux dispositions des Orientations techniques sur l'application du principe consistant « à ne pas causer de préjudice important » (2021/C58/01) de la Commission européenne.
+
+## CHAPITRE 4. - Subvention
+
+Art. 12.
+
+L'enveloppe subventionnelle pour l'appel est fixée à 10 000 000 euros maximum. Ce montant peut être majoré une seule fois par le ministre de 9 000 000 euros maximum.
+
+Art. 13.
+
+La subvention s'élève à 50 % des dépenses subventionnables.
+
+Art. 14.
+
+Les dépenses pour l'aménagement, la mise en place, l'amélioration ou l'extension d'une installation d'alimentation électrique à quai qui est principalement utilisée par des navires de mer dans un port maritime en Flandre, sont subventionnables.
+
+Dans l'alinéa 1er, on entend par :
+
+1° installation d'alimentation électrique à quai : une installation à quai permettant à un navire d'utiliser le réseau d'électricité ;
+
+2° port maritime : le port, visé à l'article 2, point 155, du règlement général d'exemption par catégorie ;
+
+3° navires de mer : les navires, visés à l'article 2, point 163, du règlement général d'exemption par catégorie.
+
+Les dépenses visées à l'alinéa 1er peuvent comprendre les éléments suivants :
+
+1° l'infrastructure de recharge et l'équipement technique correspondant, y compris des installations fixes, mobiles ou flottantes ;
+
+2° l'installation ou l'amélioration de composants électriques ou autres, y compris les câbles électriques et les transformateurs de puissance, nécessaires pour connecter l'infrastructure de recharge ou de ravitaillement au réseau, y compris les dépenses liées au renforcement du réseau, ou à une installation locale de production ou de stockage d'électricité ou d'hydrogène ;
+
+3° les travaux de génie civil ;
+
+4° les adaptations de terrains ou de routes ;
+
+5° les dépenses d'installation et les dépenses de permis qui y sont liées.
+
+Art. 15.
+
+Les investissements suivants ne sont pas subventionnables :
+
+1° les investissements auparavant activés et repris dans le tableau d'amortissement, acquis :
+
+a) d'une entreprise à laquelle l'entreprise demandant la subvention participe directement ou indirectement ;
+
+b) d'une entreprise qui participe directement ou indirectement dans l'entreprise demandant la subvention ;
+
+c) d'une société patrimoniale apparentée ;
+
+2° les investissements acquis d'un gérant, d'un administrateur ou d'un actionnaire de l'entreprise demandant la subvention ;
+
+3° les investissements relatifs à des activités non liées au transport, les installations de production industrielle, les bureaux ou commerces et les superstructures portuaires.
+
+Dans l'alinéa 1er, 3°, on entend par superstructure portuaire : la superstructure portuaire, visée à l'article 2, point 158, du règlement général d'exemption par catégorie.
+
+Art. 16.
+
+La subvention s'élève à 4 000 000 euros au maximum.
+
+Les dépenses subventionnables s'élèvent à 1 000 000 euros au minimum.
+
+## CHAPITRE 5. - Procédure
+
+#### Section 1re. - La demande de subvention
+
+Art. 17.
+
+La subvention est octroyée via une procédure d'appel.
+
+Art. 18.
+
+La demande de subvention est introduite auprès de l'Agence de l'Innovation et de l'Entrepreneuriat à l'aide du formulaire de demande mis à disposition à cet effet sur le site web de l'Agence de l'Innovation et de l'Entrepreneuriat, conformément aux conditions mentionnées sur ce site web.
+
+Le délai d'introduction de la demande de subvention est fixé sur le site web de l'Agence de l'Innovation et de l'Entrepreneuriat. L'Agence de l'Innovation et de l'Entrepreneuriat peut prolonger la date limite d'introduction à condition que l'entreprise introduise une demande motivée auprès de l'agence précitée, en indiquant que le retard s'explique par des facteurs, temporaires ou non, imprévus, indépendants de leur volonté.
+
+#### Section 2. - Recevabilité et évaluation
+
+Art. 19.
+
+Le fonctionnaire dirigeant de l'Agence de l'Innovation et de l'Entrepreneuriat décide de la recevabilité des demandes de subvention conformément aux conditions de recevabilité visées aux articles 4, 5, 6, 7, 11 et à l'article 16, alinéa 2.
+
+Le fonctionnaire dirigeant de l'Agence de l'Innovation et de l'Entrepreneuriat informe le demandeur de subvention de l'irrecevabilité de sa demande de subvention.
+
+Art. 20.
+
+L'Agence de l'Innovation et de l'Entrepreneuriat évalue les demandes de subvention recevables conformément à l'article 19 sur la base des critères d'évaluation suivants :
+
+1° le calendrier de mise en oeuvre des dépenses subventionnables ;
+
+2° la réduction potentielle de CO2 par an ;
+
+3° la superficie des sites Natura 2000 dans un rayon de 25 kilomètres autour des dépenses subventionnables.
+
+L'Agence de l'Innovation et de l'Entrepreneuriat garantit une répartition régionale équilibrée des subventions accordées sur la base du présent arrêté.
+
+L'Agence de l'Innovation et de l'Entrepreneuriat attribue un score aux critères d'évaluation visés à l'alinéa 1er, et sur la base de ce score, les demandes de subvention sont classées et l'Agence de l'Innovation et de l'Entrepreneuriat décide de l'octroi de la subvention.
+
+L'Agence de l'Innovation et de l'Entrepreneuriat informe le demandeur de subvention de la décision d'octroi de la subvention.
+
+## CHAPITRE 6. - Paiement
+
+Art. 21.
+
+Le paiement de la subvention est demandé conformément aux règles, mentionnées sur le site web de l'Agence de l'Innovation et de l'Entrepreneuriat.
+
+Art. 22.
+
+La subvention est payée dans les 3 tranches suivantes :
+
+1° une première tranche de 30 %, au plus tôt trente jours après la décision d'octroi de la subvention, à condition que le demandeur de subvention remplisse les deux conditions suivantes :
+
+a) l'entreprise demande le paiement de la tranche ;
+
+b) l'entreprise a réalisé 30 % des dépenses subventionnables ;
+
+2° une deuxième tranche de 30 %, au plus tôt trente jours après la décision d'octroi de la subvention, à condition que le demandeur de subvention remplisse les deux conditions suivantes :
+
+a) l'entreprise demande le paiement de la tranche ;
+
+b) l'entreprise a réalisé 60 % des dépenses subventionnables ;
+
+3° une troisième tranche de 40 %, au plus tôt trente jours après la décision d'octroi de la subvention, et après la fin des dépenses, à condition que le demandeur de subvention remplisse les trois conditions suivantes :
+
+a) l'entreprise demande le paiement de la tranche ;
+
+b) l'entreprise a réalisé la totalité des dépenses ;
+
+c) l'entreprise remplit toutes les conditions du présent arrêté, du règlement général d'exemption par catégorie et du règlement de reprise et de résilience.
+
+Art. 23.
+
+Les demandes de paiement sont introduites dans les trente jours suivant la fin des dépenses subventionnables. Si les dépenses subventionnables ont déjà pris fin avant la décision d'octroi de la subvention, les demandes de paiement précitées sont introduites dans un délai de 12 mois à compter de la décision précitée.
+
+Art. 24.
+
+Aucune subvention ne sera versée si l'entreprise fait l'objet d'une procédure de droit européen, national ou régional visant la récupération de l'aide octroyée. Si une procédure de récupération est en cours, le versement de la subvention est suspendu jusqu'à ce que l'entreprise apporte la preuve que le montant récupéré a été remboursé ou que la procédure de récupération est terminée.
+
+## CHAPITRE 7. - Contrôle et récupération
+
+Art. 25.
+
+L'Agence de l'Innovation et de l'Entrepreneuriat peut contrôler, à tout moment à partir de l'introduction de la demande de subvention, sur la base des documents demandés ou sur place, si les conditions du présent arrêté, du règlement général d'exemption par catégorie et du règlement de reprise et de résilience sont remplies.
+
+Si le contrôle visé à l'alinéa 1er révèle que les conditions visées à l'alinéa 1er ne sont pas respectées, l'Agence de l'Innovation et de l'Entrepreneuriat décide, selon que l'aide a été octroyée ou non :
+
+1° du refus de l'aide ;
+
+2° du non-paiement ou de la récupération de l'aide octroyée.
+
+Art. 26.
+
+Sans préjudice de l'application de la loi du 16 mai 2003 fixant les dispositions générales applicables aux budgets, au contrôle des subventions et à la comptabilité des communautés et des régions, ainsi qu'à l'organisation du contrôle de la Cour des comptes, du Code flamand des Finances publiques du 29 mars 2019 et de l'Arrêté relatif au Code flamand des Finances publiques du 17 mai 2019, la subvention sera récupérée si les conditions du présent arrêté, du règlement général d'exemption par catégorie et du règlement de reprise et de résilience ne sont pas respectées.
+
+En cas de récupération, le taux d'intérêt de référence européen pour la récupération des aides d'Etat illégalement octroyées est d'application.
+
+## CHAPITRE 8. - Dispositions finales
+
+Art. 27.
+
+Le présent arrêté entre en vigueur le 15 septembre 2023.
+
+Art. 28.
+
+Le ministre flamand qui a l'économie dans ses attributions est chargé de l'exécution du présent arrêté.
+
+Bruxelles, le 8 septembre 2023.
+
+Le ministre-président du Gouvernement flamand,
+
+J. JAMBON
+
+Le ministre flamand de l'Economie, de l'Innovation, de l'Emploi, de l'Economie sociale et de l'Agriculture,
+
+J. BROUNS

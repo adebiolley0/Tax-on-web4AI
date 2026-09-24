@@ -1,0 +1,25 @@
+---
+guid: "d01cccd6-4622-4f6e-b1ef-7a9315afbb69"
+title: "Article 365, CIR 92 (revenus 2025)"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2019-03-17"
+publication_date: "2019-05-10"
+effective_date: "2019-05-01"
+last_modified: "2025-02-10"
+taxonomies: ["CIR 92 - Revenus 2025"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Code des impôts sur les revenus", "CIR 92 par année de revenus", "CIR 92 - Revenus 2025"]
+linked_document_nl: "9a6273b2-e92c-4987-a39d-ab8819c319d7"
+found_via: "228824fd-0704-49ab-b2b6-852d5da3ac27"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/d01cccd6-4622-4f6e-b1ef-7a9315afbb69"
+---
+
+# Article 365, CIR 92 (revenus 2025)
+
+Art. 365 est applicable à partir du 01.05.2019 (art. 74 et 119, § 1, al. 1, L 17.03.2019 - M.B. 10.05.2019; Numac: 2019012297 )
+
+[Aussi longtemps que, conformément au chapitre IV, section II, de la loi du 23 mars 2019, le Code des sociétés et des associations ne s'applique pas à une société, association ou fondation, toute référence à une disposition du Code des sociétés et des associations ou de son arrêté d'exécution qui figure dans une disposition du Code des impôts sur les revenus 1992, du Code des droits d'enregistrement, d'hypothèque et de greffe, du Code des droits de succession, du Code des droits et taxes divers, du Code de la taxe sur la valeur ajoutée, de la législation particulière relative à ces impôts ou des arrêtés pris pour leur exécution doit se lire, pour ce qui concerne cette société, association ou fondation, comme une référence à la disposition du Code des sociétés, de son arrêté d'exécution ou autre législation particulière qui figurait dans cette disposition fiscale avant l'entrée en vigueur de la présente loi (art. 119, § 2, L 17.03.2019 - M.B. 10.05.2019; Numac: 2019012297 )]
+
+[Aussi longtemps que, conformément au chapitre IV, section II, de la loi du 23 mars 2019, une société, association ou fondation régie par le droit belge conserve une forme légale que le Code des sociétés et des associations ne reconnaît pas, les dispositions du Code des impôts sur les revenus 1992, du Code des droits d'enregistrement, d'hypothèque et de greffe, du Code des droits de succession, du Code des droits et taxes divers, du Code de la taxe sur la valeur ajoutée, de la législation particulière relative à ces impôts ou des arrêtés pris pour leur exécution qui mentionnaient cette forme légale avant l'entrée en vigueur de la présente loi sont réputées continuer à la mentionner comme avant l'entrée en vigueur de la présente loi pour ce qui concerne cette société, association ou fondation (art. 119, § 3, L 17.03.2019 - M.B. 10.05.2019; Numac: 2019012297 )]
+
+Dans l'éventualité où une société est absorbée ou scindée dans le cadre d'une fusion, d'une opération assimilée à une fusion ou d'une scission, ou a fait l'objet d'une autre dissolution sans partage total de l'avoir social, l'imposition relative aux revenus imposables recueillis par la société ayant fait l'objet de l'opération jusque et y compris l'opération précitée, peut aussi être établie dans les délais prévus dans le présent chapitre dans le chef de la société absorbante ou bénéficiaire ou des sociétés bénéficiaires, à partir du moment où la société ayant fait l'objet de l'opération n'existe plus en tant que personne morale.

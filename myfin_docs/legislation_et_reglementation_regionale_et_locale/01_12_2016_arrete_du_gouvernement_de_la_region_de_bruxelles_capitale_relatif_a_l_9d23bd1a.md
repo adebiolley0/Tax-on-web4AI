@@ -1,0 +1,7054 @@
+---
+guid: "9d23bd1a-1d67-4f9b-84ac-829c56f3ec0c"
+title: "01.12.2016 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale relatif à la gestion des déchets"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2016-12-01"
+publication_date: "2017-01-13"
+effective_date: "2017-01-23"
+last_modified: "2026-06-30"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région de Bruxelles-Capitale", "Autre législation et réglementation"]
+linked_document_nl: "7228053b-e927-4ee8-9ec8-89c1042d1aec"
+found_via: "6efe3bb8-1c0b-4a54-82de-9efc3b783687"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/9d23bd1a-1d67-4f9b-84ac-829c56f3ec0c"
+---
+
+# 01.12.2016 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale relatif à la gestion des déchets
+
+Version coordonnée officieuse – dernière modification : Arrêté du 24.10.2024 (M.B. 13.12.2025 - Numac : 2024010433 )
+
+TITRE Ier - Dispositions générales
+
+CHAPITRE 1 er - Définitions et champ d'application
+
+CHAPITRE 2 - Traçabilité, registre et rapportage
+
+Section 1re - Dispositions relatives à la traçabilité des déchets et des matériaux
+
+Section 2 - Registre et rapport de déchets et de matériaux
+
+CHAPITRE 3 - Liste de déchets
+
+CHAPITRE 4 - Traitement des données à caractère personnel
+
+Section 1re - Utilisation des données
+
+Section 2 - Responsable du traitement des données et durée de conservation
+
+Section 3 - Transparence
+
+TITRE II - Dispositions relatives à la responsabilité élargie du producteur de produits
+
+CHAPITRE 1 er - Dispositions communes
+
+Section 1re - Objectif et champ d'application
+
+Section 2. - Des personnes soumises à la responsabilité élargie du producteur
+
+CHAPITRE 2 - Des obligations générales liées à la responsabilité élargie du producteur
+
+Section 1re - De l'obligation de reprise
+
+Sous-section 1re - Dispositions générales
+
+Sous-section 2 - De la reprise des déchets
+
+Sous-section 3 - Du financement de la reprise des déchets ménagers
+
+Sous-section 4 - De la collaboration avec les entreprises à finalité sociale
+
+Section 2 - Du traitement des déchets
+
+Section 3 - Du plan de prévention et de gestion
+
+Section 4 - De l'information et du rapportage
+
+Sous-section 1re - Du rapportage
+
+Sous-section 2 - De l'information des consommateurs
+
+CHAPITRE 3 - Délégations
+
+Section 1re - De l'organisme agréé
+
+Section 2 - De l'organisme de gestion
+
+Section 3 - Du contenu minimal de la convention environnementale
+
+Section 4 - De l'identification des coûts
+
+Section 5 - De l'approbation et de l'avis de l'Institut
+
+CHAPITRE 4 - Obligations par flux
+
+Section 1re - Déchets de piles et accumulateurs
+
+Sous-section 1re - Définitions et champ d'application
+
+Sous-section 2 - Obligation de reprise
+
+Sous-section 3 - Traitement
+
+Sous-section 4 - Financement
+
+Sous-section 5 - Taux
+
+Sous-section 6 - Rapportage
+
+Sous-section 7 - Plan de prévention et de gestion
+
+Sous-section 8 - Information du consommateur
+
+Sous-section 9 - Registre de producteurs
+
+Section 2 - Des pneus usés
+
+Sous-section 1re - Définitions et champ d'application
+
+Sous-section 2 - Obligation de reprise
+
+Sous-section 3 - Traitement
+
+Sous-section 4 - Financement
+
+Sous-section 5 - Taux
+
+Sous-section 6 - Rapportage
+
+Sous-section 7 - Plan de prévention et de gestion
+
+Sous-section 8 - Information du consommateur
+
+Section 3 - Des huiles usagées
+
+Sous-section 1re - Définitions et champ d'application
+
+Sous-section 2 - Obligation de reprise
+
+Sous-section 3 - Traitement
+
+Sous-section 4 - Financement
+
+Sous-section 5 - Taux
+
+Sous-section 6 - Rapportage
+
+Sous-section 7 - Plan de prévention et de gestion
+
+Sous-section 8 - Information du consommateur
+
+Section 4 - Des véhicules hors d'usage
+
+Sous-section 1re - Définitions et champ d'application
+
+Sous-section 2 - Obligation de reprise
+
+Sous-section 3- Traitement
+
+Sous-section 4 - Financement
+
+Sous-section 5 - Taux
+
+Sous-section 6 - Rapportage
+
+Sous-section 7 - Plan de prévention et de gestion
+
+Sous-section 8 - Information du consommateur
+
+Section 5 - Des déchets d'équipements électriques et électroniques
+
+Sous-section 1re - Définitions et champ d'application
+
+Sous-section 2 - Obligation de reprise
+
+Sous-section 3- Traitement
+
+Sous-section 4 - Financement
+
+Sous-section 6 - Rapportage
+
+Sous-section 7 - Plan de prévention et de gestion
+
+Sous-section 8 - Information du consommateur et des installations de traitement
+
+Sous-section 9 - Registre des producteurs
+
+Sous-section 10 - Du mandataire
+
+Section 6 - Déchets de matelas
+
+Sous-section 1re. - Définitions et champ d'application
+
+Sous-section 2. - Obligation de reprise
+
+Sous-section 3. - Traitement
+
+Sous-section 4. - Financement
+
+Sous-section 5. - Taux
+
+Sous-section 6. - Rapportage
+
+Sous-section 7. - Prévention
+
+Sous-section 8. - Information des utilisateurs et des opérateurs
+
+TITRE III - Dispositions relatives aux opérations et aux opérateurs de gestion de déchets
+
+CHAPITRE 1 er - Enregistrement, agrément et permis d'environnement liés aux opérations de gestion de déchets
+
+Section 1re - Dispositions générales
+
+Section 2 - Dispositions communes aux procédures d'enregistrement, d'agrément et de demande de permis d'environnement
+
+CHAPITRE 2 - Transporteur, transport et transfert de déchets
+
+Section 1re - Transporteur
+
+Sous-section 1re - Enregistrement de plein droit
+
+Sous-section 2 - Conditions générales pour l'exercice de l'activité
+
+Section 2 - Transport
+
+Section 3 - Transfert transfrontalier de déchets
+
+CHAPITRE 3 - Collecteur, négociant et courtier de déchets non dangereux
+
+Section 1re - Demande d'enregistrement
+
+Section 2 - Conditions générales pour l'exercice de l'activité
+
+CHAPITRE 4 - Collecteur, négociant et courtier de déchets dangereux
+
+Section 1re - Demande d'agrément
+
+Section 2 - Conditions générales pour l'exercice de l'activité
+
+CHAPITRE 5 - Installation de collecte ou de traitement des déchets et points de collecte complémentaires
+
+Section 1re - Demande de permis d'environnement
+
+Section 2 - Conditions générales d'exploitation
+
+Section 3 - Dispositions relatives à certaines installations de collecte des déchets
+
+Section 4 - Dispositions relatives aux points de collecte complémentaires
+
+CHAPITRE 6 - Fin du statut de déchet
+
+CHAPITRE 7 - Collecte séparée des déchets autre que ménagers
+
+CHAPITRE 8 - Incinération de déchets
+
+Section 1re - Du rendement énergétique
+
+Section 2 - De la taxe à l'incinération des déchets
+
+Sous-section 1re - Définitions
+
+Sous-Section 2 - Rôles
+
+Sous-Section 3 - Perception et recouvrement
+
+Sous-Section 4 - Solution de difficultés
+
+CHAPITRE 9. - Compostage
+
+Section 1re. - Compostage de quartier et compostage en entreprise
+
+Sous-section 1re. - Champ d'application et dérogations
+
+Sous-section 2. - Généralités
+
+Sous-section 3. - Exploitation
+
+Section 2. - Compostage de petite taille
+
+Sous-section 1re. - Champ d'application
+
+Sous-section 2. - Généralités
+
+Sous-section 3. - Exploitation
+
+Section 3. - Compostage de grande taille
+
+Sous-section 1re. - Champ d'application
+
+Sous-section 2. - Généralités
+
+Sous-section 3. - Exploitation
+
+TITRE IV - Dispositions relatives à certains flux de déchets
+
+CHAPITRE 1 er - Des déchets d'équipements électriques et électroniques
+
+Section 1re - Définitions
+
+Section 2 - Des opérations de gestion des DEEE
+
+Sous-section 1 er - De la préparation en vue du réemploi et du réemploi
+
+Sous-section 2 - Collecte et traitement
+
+Sous-section 3 - Du transfert transfrontalier d'EEE usagés
+
+Section 3 - Des opérateurs de gestion des DEEE
+
+Sous-Section 1re - Le site de dépôt et de collecte
+
+Sous-section 2 - Le site de traitement
+
+Section 4 - Rapportage relatif aux opérations de gestion des DEEE
+
+CHAPITRE 2 - (...)
+
+Section 1re - (...)
+
+Section 2 - (...)
+
+Section 3 - (...)
+
+Section 4 - (...)
+
+Section 5 - (...)
+
+CHAPITRE 3 - Des déchets de médicaments
+
+Section 1re - Généralités
+
+Section 2 - Gestion des déchets de médicaments
+
+Section 3 - Rapportage
+
+Section 4 - Information du consommateur
+
+CHAPITRE 4 - Véhicules hors d'usage
+
+CHAPITRE 5. - Sous-produits animaux et produits dérivés
+
+Section 1re. - Dispositions générales
+
+Section 2. - Opérations de gestion des sous-produits animaux
+
+Section 3. - Opérateurs de gestion des sous-produits animaux
+
+Section 4. - Règles spécifiques
+
+Sous-section 1re. - Lisier
+
+Sous-section 2. - Déchets d'huiles et graisses alimentaires
+
+CHAPITRE VI - Déchets d'emballages
+
+Section Ire - Des sacs plastiques
+
+Section 2 - Produits à usage unique
+
+CHAPITRE 7. - Des déchets d'activités de soins de santé
+
+Section 1re. - Champ d'application et définitions
+
+Section 2. - Opérations de gestion des déchets de soins
+
+Sous-section 1re. - Prévention
+
+Sous-section 2. - Tri
+
+Sous-section 3. - Conditionnement et dépôt
+
+Sous-section 4. - Collecte
+
+Sous-section 5. - Traitement et valorisation
+
+CHAPITRE 8 - Granulats recyclés
+
+Section 1 re . - Généralités
+
+Section 2 - Autorisations de production de granulats recyclés à l'aide d'un concasseur
+
+DROIT FUTUR 13.08.2027 : Section 3 - Production de granulats recyclés
+
+DROIT FUTUR 13.08.2027 : Section 4 - Conditions d'utilisation des granulats recyclés
+
+DROIT FUTUR 13.08.2027 : Sous-section 1 re - Critères de qualité et d'utilisation pour l'obtention de la fin du statut de déchet des granulats recyclés
+
+DROIT FUTUR 13.08.2027 : Sous-section 2 - Contrôle des granulats recyclés
+
+DROIT FUTUR 13.08.2027 : Sous-section 3 - Approvisionnement et transport des granulats recyclés
+
+DROIT FUTUR 13.08.2027 : Section 5 - Procédure de traçabilité
+
+DROIT FUTUR 13.08.2027 : Sous-section 1 re - Généralités
+
+DROIT FUTUR 13.08.2027 : Sous-section 2 - Déclaration de conformité et rapport de gestion de granulats
+
+Section 6 - Organisme de gestion de granulats recyclés
+
+Sous-section 1 re - Demande d'enregistrement
+
+Sous-section 2 - Conditions générales pour l'exercice de l'activité
+
+CHAPITRE 9 - Terres et granulats recyclés utilisés dans ou sur le sol
+
+Section 1 re - Généralités
+
+Section 2 - Conditions d'utilisation
+
+Sous-section 1 re - Généralités
+
+Sous-section 2 - Utilisation générale
+
+Sous-section 3 - Utilisation de terres sur une même parcelle ou une zone de travail
+
+Sous-section 4 - Autre utilisation de terres
+
+DROIT FUTUR 13.08.2027 : Section 3 - Procédure de traçabilité
+
+DROIT FUTUR 13.08.2027 : Sous-section 1 re - Généralités
+
+DROIT FUTUR 13.08.2027 : Sous-section 2 - Procédure administrative
+
+Section 4 - Organisme de gestion de terres
+
+TITRE V - Dispositions modificatives abrogatoires, transitoires et finales
+
+CHAPITRE 1 er - Dispositions modificatives
+
+CHAPITRE 2 - Dispositions abrogatoires
+
+Section 1re - Abrogation partielle
+
+Section 2 - Abrogation complète
+
+CHAPITRE 3 - Dispositions transitoires et finales
+
+Section 1re - Entrée en vigueur
+
+Section 2 - Disposition finale
+
+ANNEXES
+
+Le Gouvernement de la Région de Bruxelles-Capitale,
+
+Vu la loi spéciale de réformes institutionnelles du 8 août 1980, l'article 20;
+
+Vu la loi spéciale du 12 janvier 1989 relative aux institutions bruxelloises, l'article 8;
+
+Vu l'arrêté royal du 8 mars 1989 créant l'Institut bruxellois pour la gestion de l'environnement, article 3, § 3, confirmé par la loi du 16 juin 1989;
+
+Vu l'ordonnance du 14 juin 2012 relative aux déchets, les articles 9, 10, 16, 19, 22, 23, 26, 27, 32, 33, 35, 38, 39, 45, 46, en 56 ;
+
+Vu l'ordonnance du 5 juin 1997 relative aux permis d'environnement, les articles 4, 6, 10, 13, 70, 71, 78, 78/1;
+
+Vu l'ordonnance du 5 mars 2009 relative à la gestion et à l'assainissement des sols pollués, l'article 3, 3° ;
+
+Vu l'arrêté du 18 juillet 2002 instaurant une obligation de reprise de certains déchets en vue de leur valorisation ou de leur élimination;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 3 juin 2004 relatif aux gestionnaires de déchets d'équipements électriques et électroniques;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 25 avril 2002 établissant la liste de déchets et de déchets dangereux ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles Capitale du 30 janvier 1997 relatif au registre de déchets ;
+
+Vu l'arrêté du 21 novembre 2002 du Gouvernement de la Région de Bruxelles-Capitale relatif à l'incinération des déchets, les articles 15 et 16 ;
+
+Vu l'arrêté de l'Exécutif de la Région de Bruxelles-Capitale du 19 septembre 1991 réglant l'élimination des déchets dangereux ;
+
+Vu l'arrêté de l'Exécutif de la Région de Bruxelles-Capitale du 19 septembre 1991 réglant l'élimination des huiles usagées ;
+
+Vu l'arrêté de l'Exécutif de la Région de Bruxelles-Capitale du 19 septembre 1991 réglant l'élimination des PCB ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 7 juillet 1994 relatif à l'importation et à l'exportation internationale de déchets ;
+
+Vu l'arrêté ministériel du 15 septembre 1994 portant diverses mesures d'exécution de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 7 juillet 1994 relatif à l'importation et à l'exportation internationales de déchets ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 21 juin 2012 relatif à l'enregistrement des collecteurs et des transporteurs de déchets non dangereux autres que ménagers ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 21 juin 2012 déterminant les règles de mise en oeuvre de l'obligation de tri pour les détenteurs de déchets autres que ménagers ;
+
+Vu le règlement (CE) n° 1013/2006 du parlement européen et du conseil du 14 juin 2006 concernant les transferts de déchets ;
+
+Vu l'avis de l'inspection des Finances, donné le 2/05/2016;
+
+Vu l'accord du Ministre du Budget donné le 2/06/2016 ;
+
+Vu le test genre exécuté tel que prévu par l'article 3 de Ordonnance du 29 mars 2012 portant intégration de la dimension de genre dans les lignes politiques de la Région de Bruxelles-Capitale
+
+Vu l'avis du Conseil de l'Environnement de la Région de Bruxelles-Capitale, donné le 29 juin 2016 ;
+
+Vu l'avis du Conseil Economique et Social de la Région de Bruxelles-Capitale, donné le 7 juillet 2016;
+
+Vu l'avis n° 60/161/1 du Conseil d'Etat, donné le 28 octobre 2016 en application de l'article 84, § 1 er , alinéa 1 er , 1° des lois coordonnées sur le Conseil d'Etat ;
+
+Sur la proposition de la Ministre de l'Environnement ;
+
+Après délibération,
+
+Arrête :
+
+### TITRE Ier - Dispositions générales
+
+#### CHAPITRE 1 er - Définitions et champ d'application
+
+Article 1.1 er Définitions
+
+§ 1 er . Pour l'application du présent arrêté, on entend par :
+
+1° « liste de déchets » : la liste de déchets visée par l'article 10 de l'ordonnance du 14 juin 2012 relative aux déchets ;
+
+2° « transport » : l'ensemble des opérations de chargement, de déchargement et de déplacement des déchets d'un endroit à un autre ;
+
+3° « contrat de financement » : tout contrat ou accord de prêt, de leasing, de location ou de vente différée concernant un équipement quelconque, qu'il soit prévu ou non, dans les conditions de ce contrat ou accord ou de tout contrat ou accord accessoire, qu'un transfert de propriété de cet équipement aura ou pourra avoir lieu ;
+
+4° « mise sur le marché » : la première mise à disposition d'un produit sur le marché, à titre professionnel, sur le territoire belge ;
+
+5° « mise à disposition sur le marché » : toute fourniture d'un produit destiné à être distribué, consommé ou utilisé sur le marché belge dans le cadre d'une activité commerciale, à titre onéreux ou gratuit ;
+
+6° "distributeur" : toute personne dans la chaîne d'approvisionnement, qui met un produit à disposition sur le marché ;
+
+7° « détaillant » : toute personne qui offre en vente au consommateur un produit ;
+
+8° « consommateur » : la personne physique ou morale qui acquiert les produits, à titre privé ou professionnel, afin de les consommer ou de les utiliser ;
+
+9° « responsabilité élargie du producteur » : responsabilité du producteur impliquant des obligations matérielles et/ ou financières de reprendre ou de faire reprendre, de collecter ou de faire collecter, de gérer ou faire gérer les déchets qui résultent de la mise sur le marché de ses produits ainsi que des obligations de rapportage, de planification et d'information pour stimuler la prévention et le réemploi, le recyclage et toute autre valorisation en matière de déchets ;
+
+10° « producteur » : parmi les producteurs de produits au sens de l'article 3, 13° de l'ordonnance déchets, toute personne physique ou morale qui, quelle que soit la technique de vente utilisée, y compris par communication à distance :
+
+a) est établie en Belgique et fabrique un produit sous son propre nom ou sa propre marque, ou le fait concevoir ou fabriquer et le commercialise sous son propre nom ou sa propre marque sur le territoire belge ;
+
+b) est établie en Belgique et revend, en Belgique, sous son propre nom ou sa propre marque, un produit fabriqué par d'autres fournisseurs, le revendeur ne devant pas être considéré comme producteur lorsque la marque du producteur figure sur le produit, conformément au point a) ;
+
+c) est établie en Belgique et met sur le marché sur le territoire belge, à titre professionnel, un produit provenant d'un pays tiers ou d'un autre Etat membre de l'Union européenne ;
+
+d) est établie en Belgique et fabrique ou importe un produit et l'affecte à son propre usage, à titre professionnel ;
+
+e) est établie en dehors de la Belgique et vend un produit par communication à distance, au sens de l'article I.8.15° du Code de droit économique, directement aux ménages ou à des utilisateurs autres que les ménages en Belgique.
+
+La personne qui assure exclusivement un financement en vertu de, ou conformément à un contrat de financement, n'est pas considérée comme "producteur", à moins qu'elle n'agisse aussi comme producteur au sens des points a) à e) ;
+
+11° « obligation de reprise » : obligation mise à charge du producteur de reprendre ou de faire reprendre, de collecter ou de faire collecter, les déchets qui résultent de la mise sur le marché de ses produits ;
+
+12° « convention environnementale » : la convention régie par l'ordonnance du 29 avril 2004 relative aux conventions environnementales ;
+
+13° « information environnementale »: l'information telle que définie par l'ordonnance du 18 mars 2004 sur l'accès à l'information relative à l'environnement ;
+
+14° « piles et accumulateurs » : toute source d'énergie électrique obtenue par transformation directe d'énergie chimique, constituée d'un ou de plusieurs éléments primaires (non rechargeables) ou d'un ou de plusieurs éléments secondaires (rechargeables) ;
+
+15° « déchets de piles ou accumulateurs » : toute pile ou accumulateur dont le détenteur se défait ou a l'intention ou l'obligation de se défaire et qui constitue un déchet au sens de l'ordonnance déchets, quel que soit son poids, sa forme, son volume, sa composition ou son utilisation ;
+
+16° « pneu » : tout pneu en caoutchouc, pneumatique ou plein, en ce compris les bandages et à l'exception de pneus de vélo ;
+
+17° « pneu usé » : tout pneu qu'il n'est pas ou plus possible d'utiliser conformément à sa destination initiale sans préparation en vue du réemploi et dont le détenteur se défait, a l'intention ou l'obligation de se défaire ;
+
+18° « équipements électriques et électroniques » (EEE) : les équipements fonctionnant grâce à des courants électriques ou à des champs électromagnétiques et les équipements de production, de transfert et de mesure de ces courants et champs, conçus pour être utilisés à une tension ne dépassant pas 1 000 volts en courant alternatif et 1 500 volts en courant continu ;
+
+19° « déchets d'équipements électriques et électroniques » (DEEE) : les équipements électriques et électroniques, y compris tous les composants, sous-ensembles et produits consommables faisant partie intégrante du produit au moment de la mise au rebut, dont le détenteur se défait ou a l'intention ou l'obligation de se défaire et qui constituent des déchets au sens de l'ordonnance déchets ;
+
+20° « DEEE domestiques » : les DEEE provenant des ménages et les DEEE d'origine commerciale, industrielle, institutionnelle et autre qui, en raison de leur nature et de leur quantité, sont similaires à ceux des ménages. Les déchets provenant d'EEE qui sont susceptibles d'être utilisés à la fois par les ménages et par des utilisateurs autres que les ménages sont en tout état de cause considérés comme étant des DEEE domestiques. En cas de doute quant au caractère domestique ou professionnel d'un appareil, la décision est soumise à l'approbation de l'Institut;
+
+21° « entreprises à finalité sociale » : associations sans but lucratif et sociétés à finalité sociale agréées conformément à l'arrêté du 16 juillet 2010 du Gouvernement de la Région de Bruxelles-Capitale relatif à l'agrément et au subventionnement des associations sans but lucratif et des sociétés à finalité sociale actives dans le secteur du réemploi et du recyclage agréées au sens de l'arrêté ;
+
+22° « matériaux valorisables" » : déchets qui peuvent perdre leur statut de déchets en Région de Bruxelles-Capitale :
+
+- s'ils ont cessé d'être des déchets en Région flamande conformément à l'article 36 du décret du 23 décembre 2011 relatif à la gestion durable de cycles de matériaux et de déchets ou
+
+- s'ils ont cessé d'être des déchets en Région wallonne conformément à l'article 4 ter du décret du 27 juin 1996 relatif aux déchets ou s'ils peuvent être valorisés selon l'arrêté Wallon du 14 juin 2001 favorisant la valorisation de certains déchets;
+
+23° « ordonnance permis d'environnement » : l'ordonnance du 5 juin 1997 relative aux permis d'environnement ;
+
+24° « ordonnance déchets » : l'ordonnance du 14 juin 2012 relative aux déchets ;
+
+25° « ordonnance sol » : l'ordonnance du 5 mars 2009 relative à la gestion et à l'assainissement des sols pollués ;
+
+26° « code de l'inspection » : le code de l'inspection, la prévention, la constatation et la répression des infractions et de la responsabilité environnementale, tel qu'institué par l'Ordonnance du 8 mai 2014 modifiant l'ordonnance du 25 mars 1999 relative à la recherche, la constatation, la poursuite et la répression des infractions en matière d'environnement et instituant un Code de l'inspection, la prévention, la constatation et la répression des infractions en matière d'environnement et de la responsabilité environnementale ;
+
+27° « Ministre » : le ministre ayant l'environnement dans ses attributions.
+
+28° « Règlement (CE) N° 1013/2006 » : Règlement (CE) N° 1013/2006 du Parlement Européen et du Conseil du 14 juin 2006 concernant les transferts de déchets ;
+
+29° « Règlement (CE) N° 1069/2009 » : Règlement (CE) N° 1069/2009 du Parlement Européen et du Conseil du 21 octobre 2009 établissant des règles sanitaires applicables aux sous-produits animaux et produits dérivés non destinés à la consommation humaine et abrogeant le Règlement (CE) N° 1774/2002 ;
+
+30° « Règlement (UE) N° 142/2011 » : Règlement (UE) N° 142/2011 de la Commission du 25 février 2011, portant application du Règlement (CE) N° 1069/2009 du Parlement européen et du Conseil établissant des règles sanitaires applicables aux sous-produits animaux et produits dérivés non destinés à la consommation humaine et portant application de la directive 97/78/CE du Conseil en ce qui concerne certains échantillons et articles exemptés des contrôles vétérinaires effectués aux frontières en vertu de cette directive ;
+
+31° « compostage » : une décomposition aérobie maîtrisée des matières biodégradables, qui, du fait d'un dégagement de chaleur biologique, permet d'obtenir des températures propices au développement de bactéries thermophiles ;
+
+32° « point de collecte complémentaire » : l'installation de collecte de déchets visée au point 14 ajouté à la suite du tableau de l'annexe de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, IC, ID, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement ;
+
+33° « matelas » : produit destiné au couchage et au repos, pouvant être utilisé par toute personne pendant une longue période, constitué d'une housse solide, rembourrée de matériaux de base, et susceptible d'être mis sur une structure de lit de support, ainsi que des surmatelas qui sont posés sur les matelas ;
+
+34° « déchets de matelas »: tout matelas couvert par la définition de « déchets » qui figure à l'article 3, 1°, de l'ordonnance déchets, quel que soit son poids, sa forme, son volume, sa composition ou son utilisation ;
+
+35° « plastique » : un matériau constitué d'un polymère tel que défini à l'article 3, point 5), du Règlement (CE) N° 1907/2006, auquel des additifs ou d'autres substances peuvent avoir été ajoutés, et qui peut jouer le rôle de composant structurel principal de produits finaux, à l'exception des polymères naturels qui n'ont pas été chimiquement modifiés ;
+
+36° « produit à usage unique » : un produit qui n'est pas conçu, créé ou mis sur le marché pour accomplir, pendant sa durée de vie, plusieurs trajets ou rotations en étant retourné à un producteur pour être rempli à nouveau ou réutilisé pour un usage identique à celui pour lequel il a été conçu ;
+
+37° « produit en plastique à usage unique » : un produit fabriqué entièrement ou partiellement à partir de plastique et qui n'est pas conçu, créé ou mis sur le marché pour accomplir, pendant sa durée de vie, plusieurs trajets ou rotations en étant retourné à un producteur pour être rempli à nouveau ou réutilisé pour un usage identique à celui pour lequel il a été conçu ;
+
+38° « engin de pêche » : tout élément ou toute pièce d'équipement qui est utilisé(e) dans le cadre de la pêche ou de l'aquaculture pour cibler, capturer ou élever des ressources biologiques de la mer, ou qui flotte à la surface de la mer, et est déployé(e) dans le but d'attirer et de capturer ou d'élever de telles ressources biologiques de la mer ;
+
+39° « déchets d'engin de pêche » : tout engin de pêche couvert par la définition de « déchets » qui figure à l'article 3, 1°, de l'ordonnance déchets, y compris tous les composants, les substances ou les matériaux séparés qui faisaient partie de l'engin de pêche ou qui y étaient attachés lors de son rejet, y compris lorsqu'il a été abandonné ou perdu ;
+
+40° « lingettes humides » : toutes lingettes pré-imbibées pour usages corporels et domestiques ;
+
+41° « ballons de baudruche » : tous ballons de baudruche, à l'exception des ballons de baudruche utilisés pour des usages et applications industriels ou professionnels et qui ne sont pas distribués aux consommateurs à titre privé ;
+
+42° « produits du tabac » : des produits pouvant être consommés et composés, même partiellement, de tabac, qu'il soit ou non génétiquement modifié ;
+
+43° « mégots » : tous déchets de produits du tabac avec filtres en plastique à usage unique et tous déchets de filtres en plastique à usage unique commercialisés lorsqu'ils étaient des produits pour être utilisés en combinaison avec des produits à base de tabac ;
+
+44° « matériel de restauration » : tout matériel utilisé pour l'offre et la consommation d'aliments et de boissons, à l'exception de boissons ou d'aliments préemballés ;
+
+45° « matériel de restauration à usage unique » : matériel de restauration constituant un produit un usage unique ;
+
+46° « aliments préparés » : aliments qui sont préparés, composés, arrangés, réchauffés, régénérés ou décongelés sur les lieux ;
+
+47° « entité publique » : toute personne morale qui relève d'une des catégories visées à l'article 1.3.1, 4°, de l'ordonnance du 2 mai 2013 portant le Code bruxellois de l'Air, du Climat et de la Maîtrise de l'Energie, à l'exception des autorités fédérales et communautaires et des institutions européennes et internationales.
+
+48° « voirie » : une voirie telle que définie à l'article 2, 18° de l'ordonnance du 3 juillet 2008 relative aux chantiers en voirie ;
+
+49° « construction » : un bâtiment, un ouvrage d'art, un ouvrage d'art hydraulique ou une route ;
+
+50° « lot » : une quantité séparée et identifiable de maximum 5.000 tonnes de déchets, substances ou matériaux de qualité environnementale homogène ;
+
+51° « utilisateur final » : le propriétaire, l'exploitant ou l'utilisateur de la parcelle réceptrice qui a donné l'ordre d'utiliser le granulat recyclé ou la terre, ou à défaut l'entrepreneur en charge de ces travaux ;
+
+52° « gravats » : la fraction granulométrique pierreuse et sableuse et la fraction bitumineuse des déchets de construction, rénovation ou démolition de constructions ;
+
+53° « granulat recyclé » : la fraction granulométrique pierreuse et sableuse et la fraction bitumineuse issue du traitement des gravats ;
+
+54° « concasseur » : une installation ou un équipement pour le traitement mécanique de gravats en granulats recyclés.
+
+§ 2. Sans préjudice des définitions figurant dans le présent article, les définitions figurant dans
+
+- l'ordonnance permis d'environnement,
+
+- l'ordonnance déchets,
+
+- l'ordonnance sol,
+
+- les règlements européens visés au paragraphe 1 er
+
+sont d'application dans le présent arrêté.
+
+------------
+
+- 1.1 er , § 1 er , 6° remplacé par l’art. 1 de l’arrêté du 06.06.2019 (M.B. 05.08.2019). Entrée en vigueur le 15.08.2019
+
+- § 1 er , 10° remplacé par l'art. 1.1, a) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 1 er , 28° à 47° insérés par l'art. 1.1, b) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 2 remplacé par l'art. 1.2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 1 er , 48° à 54° insérés par l'art. 1.1 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 art. 8
+
+Article 1.2. Champ d'application
+
+§ 1 er . Le présent arrêté régit la gestion des déchets.
+
+§ 2. Cet arrêté transpose les directives suivantes:
+
+1. la directive 2006/66/CE du Parlement Européen et du Conseil du 6 septembre 2006 relative aux piles et accumulateurs ainsi qu'aux déchets de piles et d'accumulateurs et abrogeant la Directive 91/157/CEE ;
+
+2. la directive 2000/53/CE du Parlement européen et du Conseil du 18 septembre 2000 relative aux véhicules hors d'usage ;
+
+3. la directive 2012/19/UE du Parlement européen et du Conseil du 4 juillet 2012 relative aux déchets d'équipements électriques et électroniques (DEEE) ;
+
+4. la directive 2008/98/CE du Parlement européen et du Conseil relative aux déchets et abrogeant certaines directives.
+
+5. les articles 4 et 8 de la directive (UE) 2019/904 du Parlement européen et du Conseil du 5 juin 2019 relative à la réduction de l'incidence de certains produits en plastique sur l'environnement.
+
+6. l'article 16.2, al. 2, c) de la directive (UE) 2020/2184 du Parlement européen et du Conseil du 16 décembre 2020 relative à la qualité des eaux destinées à la consommation humaine.
+
+------------
+
+- § 2, 5. et 6. insérés par l'art. 1.3 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+#### CHAPITRE 2 - Traçabilité, registre et rapportage
+
+##### Section 1re - Dispositions relatives à la traçabilité des déchets et des matériaux
+
+------------
+
+- intitulé remplacé par l'art. 1.2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 art. 8
+
+Article 1.3
+
+La traçabilité des déchets au sens de l'article 46 de l'ordonnance déchets est assurée par le document de traçabilité. Cette traçabilité ne s'applique pas aux déchets produits par les ménages tant que leur collecte, leur élimination ou leur valorisation n'a pas été acceptée par une installation ou entreprise autorisée.
+
+Article 1.4 Document de traçabilité
+
+§ 1 er . Le document de traçabilité relatif aux déchets non dangereux comporte au minimum les données suivantes :
+
+1. la date du transport, de remise ou, s'il y a lieu, la fréquence de collecte ;
+
+2. le nom, l'adresse et le numéro d'entreprise du détenteur de déchets ainsi que l'adresse de prise en charge des déchets, si celle-ci est différente ;
+
+3. le nom, l'adresse et le numéro d'enregistrement ou d'agrément du collecteur, du négociant ou du courtier, s'il y a lieu ;
+
+4. le nom, l'adresse et le numéro d'enregistrement du ou des transporteur(s), s'il y a lieu ;
+
+5. le nom, le numéro d'entreprise et l'adresse du siège d'exploitation de l'entreprise où les déchets sont remis ;
+
+6. la nature du traitement conformément aux listes reprises aux annexes 1 et 2 de l'ordonnance déchets (code D ou R) ;
+
+7. la quantité en tonnes, en kilogrammes, en m³, ou s'il y a lieu, le récapitulatif des quantités collectées ;
+
+8. la description de déchets ;
+
+9. le code repris sur la liste de déchets.
+
+§ 2. Outre les informations figurant au § 1 er , le document de traçabilité relatif aux déchets dangereux comporte les données suivantes :
+
+1. la composition et les caractéristiques physiques des déchets ;
+
+2. le type et le nombre d'emballages ;
+
+3. les instructions spéciales relatives au transport, s'il y a lieu.
+
+§ 3. La facture comportant les informations visées aux paragraphes 1 et 2 peut faire office de document de traçabilité.
+
+§ 4. L'Institut peut mettre à disposition du public un modèle de document de traçabilité.
+
+§ 5.
+
+1. En cas de transfert transfrontalier de déchets visé par le Règlement (CE) N° 1013/2006, les documents imposés par ce règlement font office de document de traçabilité au sens du présent arrêté.
+
+2. En cas de transfert de sous-produits animaux, à l'exception de transfert des déchets de cuisine et de table de catégorie 3, le document commercial visé à l'annexe VIII, chapitre III, point 6 du Règlement (UE) N° 142/2011 fait office de document de traçabilité au sens du présent arrêté.
+
+§ 6. En dérogation aux informations des paragraphes 1 et 2, le document de traçabilité concernant les granulats recyclés destinés à ne pas être utilisés dans ou sur le sol contient les données mentionnées dans la déclaration de conformité telle que visée aux articles 4.8.15 et 4.8.16 du présent arrêté et confirmées dans le rapport de gestion de granulats délivré.
+
+§ 7. Outre les informations visées aux paragraphes 1 et 2, le document de traçabilité concernant les terres et les granulats recyclés destinés à être utilisés dans ou sur le sol contient le cas échéant, les données suivantes :
+
+1. la référence et la date de l'approbation du rapport technique et l'autorisation de déplacement des terres ;
+
+2. la référence et la date de la déclaration de conformité du projet d'assainissement ou de gestion du risque ;
+
+3. la référence et la date de la notification de traitement de durée limitée.
+
+------------
+
+- § 5 inséré par l'art. 1.4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- §§ 6 et 7 insérés par l'art. 1.3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.5 Traçabilité pendant le transport
+
+§ 1 er . Sauf les cas prévus au § 2, un document de traçabilité, dûment complété, accompagne en permanence le transport des déchets.
+
+§ 2. Dans les cas suivants, le transport des déchets peut s'effectuer sans document de traçabilité :
+
+1. la collecte en une seule tournée auprès des producteurs initiaux à condition que la liste des points de collecte soit disponible dans le véhicule :
+
+- des déchets non dangereux, ou
+
+- des déchets de cuisine et de table de catégorie 3 ;
+
+2. la collecte des déchets de marchés et déchets provenant du nettoyage des égouts en une seule tournée ;
+
+3. le transport de déchets soumis à la responsabilité élargie du producteur par le détaillant vers son siège d'exploitation ;
+
+4. le transport effectué par la personne qui n'est pas exploitant d'une installation de collecte ou de traitement, de ses propres déchets vers :
+
+- une installation de collecte ou de traitement des déchets, pour autant que la quantité de déchets transportée ne dépasse pas 500 kg et que les déchets ne sont pas des sous-produits animaux ou produits dérivés visé par le Règlement (CE) N° 1069/2009, ou
+
+- une installation visée à l'article 3.5.15.
+
+5. le transport du lisier entre deux points situés au sein d'une même exploitation agricole.
+
+§ 3. Le document de traçabilité, dûment complété, est présent dans le moyen de transport ou peut être mis immédiatement à disposition des autorités habilitées à effectuer des contrôles.
+
+En cas d'utilisation d'un document de traçabilité sous forme électronique, ce document et le logiciel de support sont approuvés au préalable par l'Institut.
+
+§ 4. (...)
+
+§ 5. Le document de traçabilité est complété et signé avant que ne débute le transport de déchets par :
+
+- le détenteur de déchets qui transporte ou fait transporter ses propres déchets, ou
+
+- le collecteur, le négociant ou le courtier.
+
+Il est responsable du suivi du document et conserve le document intégralement complété.
+
+Le document est remis au transporteur.
+
+§ 6. Le document de traçabilité des granulats recyclés est rempli et signé, avant le transport, par le producteur de granulats recyclés.
+
+Il est responsable pour la notification du document sur la plateforme numérique de l'organisme de gestion enregistré auprès duquel il est affilié.
+
+Le document est transmis au transporteur.
+
+------------
+
+- § 2 modifié par l'art. 1.5, a) à c) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 4 abrogé par l'art. 1.5, d) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 6 inséré par l'art. 1.4 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.6 Traçabilité en cas de remise de déchets
+
+§ 1 er . Sauf les cas prévus aux paragraphes 2 et 3, toute remise de déchets est justifiée par un document de traçabilité, signée par la personne qui accepte les déchets.
+
+§ 2. La remise de déchets à une installation visée à l'article 3.5.15, 1° par le détenteur de déchets peut s'effectuer sans document de traçabilité.
+
+§ 3. Dans les cas suivants, la remise de déchets peut s'effectuer contre délivrance, au moins une fois par an, d'un document de traçabilité au détenteur de déchets :
+
+1. la remise de déchets non dangereux non ménagers, à l'exclusion des sous-produits animaux visés par le Règlement (CE) N° 1069/2009, collectés auprès du producteur initial de déchets ;
+
+2. la remise de déchets à une installation visée au point 3° de l'article 3.5.15 ;
+
+3. par dérogation au point 1, la remise de déchets de cuisine et de table de catégorie 3 collectés auprès du producteur initial de déchets.
+
+§ 4. Le producteur de déchets qui produit des déchets dans le cadre de son activité professionnelle sur une installation ou le site d'un tiers, délivre un document de traçabilité au propriétaire et/ou gestionnaire de l'installation ou du site où les déchets sont produits, s'il prend la responsabilité de l'enlèvement des déchets.
+
+------------
+
+- § 2 remplacé par l'art. 1.6, a) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 3 remplacé par l'art. 1.6, b) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+##### Section 2 - Registre et rapport de déchets et de matériaux
+
+------------
+
+- intitulé remplacé par l'art. 1.5, § 1. de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.7. Registre de déchets et de matériaux
+
+§ 1 er . Le registre de déchets est tenu par :
+
+1. le détenteur de déchets autres que ménagers, pour les déchets qu'il produit ou détient ;
+
+2. le transporteur de déchets pour les déchets qu'il transporte ;
+
+3. le collecteur, négociant et courtier pour les déchets dont il assure la collecte, le négoce ou le courtage ;
+
+4. l'exploitant d'une installation de collecte ou de traitement pour les déchets qu'il collecte et/ou traite. Il tient également un registre de déchets en tant que détenteur de déchets.
+
+5. le producteur de granulats recyclés ;
+
+6. l'utilisateur final de granulats recyclés et terres.
+
+§ 2. Le registre de déchets comporte, le cas échéant :
+
+1. les documents de traçabilité, et
+
+2. des informations relatives aux déchets traités par le producteur de déchets lui-même, reprenant la quantité, la description et le code repris sur la liste de déchets, et
+
+3. la preuve de gestion des déchets autre que ménagers visée à l'article 23 paragraphe 4 de l'ordonnance déchets, et
+
+4. les documents démontrant la production, la gestion et l'utilisation des granulats recyclés destinés à ne pas être utilisés dans ou sur le sol, et
+
+5. les documents démontrant la production, la gestion et l'utilisation des terres et des granulats recyclés destinés à être utilisés dans ou sur le sol.
+
+§ 3. Le registre de déchets et de matériaux est conservé au siège d'exploitation et, pour les bateliers, à bord du bateau. Cette disposition ne s'applique pas au siège d'exploitation dont les déchets sont transportés vers une installation visée aux points 1° et 3° de l'article 3.5.15.
+
+§ 4. Le registre de déchets et de matériaux est présenté sur simple demande aux autorités habilitées à exercer des contrôles.
+
+§ 5. La personne visée aux points 1 à 3 et 5 et 6 du paragraphe 1 er ajoute régulièrement les pièces justificatives au registre de déchets et de matériaux. L'exploitant de l'installation de collecte ou de traitement ajoute quotidiennement les pièces justificatives.
+
+§ 6. Le gestionnaire de déchets vérifie les données reprises sur les documents de traçabilité.
+
+En cas de sous-produits animaux visés par le Règlement (CE) N° 1069/2009, le détenteur de déchets informe Bruxelles Environnement par écrit si des mentions décrivant les déchets et prouvant qu'ils ont été manipulés, rassemblés, transformés ou utilisés sont manquantes sur les documents de traçabilité.
+
+------------
+
+- § 6 inséré par l'art. 1.7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- modifié par l'art. 1.5, § 2. de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.8. Rapport relatif aux déchets
+
+§ 1 er Le rapport relatif aux déchets contient, au minimum, les quantités totales annuelles de chaque flux de déchets repris dans le registre sur l'année civile écoulée et opère une distinction :
+
+1. selon les codes de la liste de déchets et
+
+2. entre d'une part les déchets ménagers, les balayures et déchets de nettoyage de rues, les déchets provenant des poubelles publiques et les déchets abandonnés qui ne peuvent être attribués au détenteur de déchets, et d'autre part les déchets autres que ménagers et
+
+3. sur base du nom, de l'adresse et du numéro d'entreprise du détenteur de déchets à l'exclusion du détenteur de déchets ménagers, ainsi que l'adresse de prise en charge des déchets, si celle-ci est différente et
+
+4. sur base du nom, de l'adresse et du numéro d'enregistrement ou d'agrément du collecteur, négociant ou courtier, s'il y a lieu et
+
+5. sur base du nom, du numéro d'entreprise et de l'adresse du siège d'exploitation de l'entreprise où sont remis les déchets, s'il y a lieu et
+
+6. sur base de la nature du traitement conformément aux listes reprises aux annexes 1 et 2 de l'ordonnance déchets (code D ou R).
+
+Le rapport relatif aux déchets du détenteur de déchets n'opère une distinction que selon les points 1, 4, 5 et 6 du présent paragraphe.
+
+§ 2. Le rapport relatif aux déchets est transmis chaque année à l'Institut, avant le 15 mars de l'année suivant l'exercice faisant l'objet du rapport, par :
+
+1. le collecteur, négociant et courtier de déchets;
+
+2. l'exploitant d'une installation de collecte ou de traitement de déchets soumise à l'obtention d'un permis d'environnement, à l'exception de l'exploitant d'une installation visée à l'article 3.5.15, concernant les déchets qu'il collecte et/ou traite et comme producteur de déchets concernant les déchets qu'il produit ou détient.
+
+§ 3. Le rapport relatif aux déchets est effectué par :
+
+- siège social dans le chef du collecteur, négociant et courtier ;
+
+- siège d'exploitation dans le chef de l'exploitant de l'installation de collecte ou de traitement de déchets.
+
+§ 4. L'Institut peut exiger le rapport de déchets de chaque personne visée à l'article 1.7 paragraphe 1 er , notamment en vue de collecter des données sur la production et la gestion de déchets.
+
+Le cas échéant, l'Institut sélectionne les personnes qui doivent lui transmettre le rapport de déchets.
+
+Il publie sur son site Internet au plus tard le 31 décembre de l'année précédant l'exercice faisant l'objet du rapport :
+
+- les personnes sélectionnées ;
+
+- les modalités du rapport de déchets ;
+
+- la date du rapportage.
+
+§ 5. Le rapport relatif aux déchets est transmis à l'Institut par voie électronique selon la forme et les modalités définies par l'Institut.
+
+§ 6. L'Institut peut mettre à disposition du public un modèle de rapport relatif au déchet.
+
+------------
+
+- § 1 er , 3. modifié par l'art. 1.8, a) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 5 modifié par l'art. 1.8, b) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+#### CHAPITRE 3 - Liste de déchets
+
+Article 1.9.
+
+La liste de déchets visée par l'article 10 de l'ordonnance déchets est la liste établie par la décision de la Commission 2000/532/CE du 3 mai 2000 établissant une liste de déchets.
+
+#### CHAPITRE 4 - Traitement des données à caractère personnel
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+##### Section 1re - Utilisation des données
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.10.1.
+
+Les données visées à l'article 2.2.9, 1° sont utilisées dans le cadre de l'évaluation du plan de prévention et de gestion des déchets pour identifier le producteur ayant introduit ledit plan.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.10.2.
+
+Les données visées à l'article 2.3.1, § 2, 2° sont utilisées postérieurement à la délivrance de l'agrément en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.10.3.
+
+Les données visées aux articles 3.3.2, 3.4.2, 3.5.2, 4.7.5, § 3, 4.8.20, 4.9.17 et 4.9.21 sont utilisées dans le cadre de la demande d'enregistrement, d'agrément ou de permis d'environnement pour vérifier si le demandeur de l'enregistrement, de l'agrément ou du permis d'environnement est compétent ou dispose d'un personnel compétent en matière de gestion de déchets.
+
+Ces données sont également utilisées postérieurement à la délivrance de l'enregistrement, de l'agrément ou du permis d'environnement en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- modifié par l'art. 1.6 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.10.4.
+
+§ 1 er . Les données visées à l'article 3.9.9 § 2 sont utilisées pour vérifier si l'exploitant d'un site de compostage de quartier ou la personne désignée par lui est compétent en matière de compostage.
+
+Ces données sont utilisées en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+Les données visées à l'article 3.9.9, § 3 sont utilisées dans le cadre de la gestion de l'accès au site de compostage de quartier et à l'organisation de la gestion journalière par le gestionnaire du site de compostage pour vérifier la provenance des déchets.
+
+Ces données sont également utilisées en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+§ 2. Les données visées à l'article 3.9.10, § 2 à § 4 sont utilisées en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance pour vérifier si l'exploitant d'un site de compostage en entreprise ou la personne désignée par lui est compétent en matière de compostage ainsi que dans le cadre de la gestion de l'accès au site de compostage en entreprise et à l'organisation de la gestion journalières par le gestionnaire du site de compostage pour vérifier la provenance des déchets.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.10.5.
+
+Les données visées à l'article 4.7.5, § 2 sont utilisées dans le cadre de la demande de permis d'environnement pour vérifier si le demandeur du permis d'environnement dispose d'un personnel formé à la gestion des déchets de soins.
+
+Ces données sont également utilisées postérieurement à la délivrance du permis d'environnement en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.10.6.
+
+Les données aux articles 4.8.3, § 5 et 4.8.6 sont utilisées dans le cadre de la demande d'enregistrement ou de permis pour s'assurer que le demandeur de l'enregistrement ou du permis est bien affilié à un organisme de gestion enregistré en application du présent arrêté, et de ce fait qu'il a bien mis en place son système de gestion de la qualité et d'autocontrôle en matière de traçabilité des déchets.
+
+Ces données sont également utilisées postérieurement à la délivrance de l'enregistrement ou du permis en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+------------
+
+- inséré par l'art. 1.7 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.10.7.
+
+Les données visées à l'article 4.8.4 sont utilisées par l'organisme de gestion visé à l'article 4.8.18 afin de vérifier où et quand sont produits les granulats recyclés de manière à assurer le contrôle de leur traçabilité.
+
+Ces données sont également utilisées postérieurement en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+------------
+
+- inséré par l'art. 1.8 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.10.8.
+
+Les données visées à l'article 4.8.20 sont utilisées dans le cadre de la demande d'enregistrement pour vérifier si le demandeur de l'enregistrement dispose d'un personnel formé dans des matières liées aux recyclage de granulats.
+
+Ces données sont également utilisées postérieurement en vue du contrôle du respect du présent arrêté par les agents chargés de la surveillance.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.10.9.
+
+Les données visées à l'article 4.8.28 sont publiées afin de permettre aux personnes devant faire appel à un concasseur autorisé de savoir à qui s'adresser.
+
+------------
+
+- inséré par l'art. 1.10 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### Section 2 - Responsable du traitement des données et durée de conservation
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.11.1.
+
+Le responsable du traitement des données visées à l'article 2.2.9, 1° est Bruxelles Environnement.
+
+Ces données sont conservées durant la durée de validité du plan de prévention et de gestion des déchets.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.11.2.
+
+Le responsable du traitement des données visées aux articles 2.3.1, § 2, 2° et 3°, 4.8.3, § 5, 4.8.6 et 4.8.20 est Bruxelles Environnement.
+
+Ces données sont conservées durant la période de validité de l'agrément.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- modifié par l'art. 1.11 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 1.11.3.
+
+Le responsable du traitement des données visées aux articles 3.3.2, 3.4.2, 3.5.2 et 4.7.5, § 3 est Bruxelles Environnement.
+
+Ces données sont conservées durant la période de validité de l'enregistrement, de l'agrément ou du permis d'environnement.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.11.4.
+
+§ 1 er . Les responsables du traitement des données visées aux articles 3.9.9, § 2 et 3.9.9, § 3 sont le gestionnaire du site de compostage de quartier et Bruxelles Environnement.
+
+Ces données sont conservées pendant un an après la fin de la participation au compostage de quartier.
+
+§ 2. Les responsables du traitement des données visées aux articles 3.9.10, § 2 à § 4 sont le gestionnaire du site de compostage en entreprise et Bruxelles Environnement.
+
+Ces données sont conservées cinq ans après la fin de la participation au compostage en entreprise.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.11.5.
+
+Les responsables du traitement des données visées à l'article 4.7.5, § 2 sont le titulaire du permis d'environnement et Bruxelles Environnement.
+
+Ces données sont conservées un an après la fin de la collaboration avec le membre du personnel ayant suivi la formation.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.11.6.
+
+Le responsable du traitement des données visées aux articles 4.8.4 et 4.8.28 est l'organisme de gestion visé à l'article 4.8.18.
+
+Les données visées à l'article 4.8.4 sont conservées durant trois ans.
+
+Les données visées à l'article 4.8.28 sont publiées durant la durée de l'enregistrement.
+
+------------
+
+- inséré par l'art. 1.12 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### Section 3 - Transparence
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 1.12.1.
+
+Bruxelles Environnement prend des mesures appropriées afin de transmettre à la personne concernée les informations visées aux articles 13 et 14 du Règlement (UE) 2016/679 du Parlement Européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données) et la communication visée aux articles 15 à 22 et à l'article 34 du même règlement en ce qui concerne le traitement de ses données à caractère personnel aux fins visées aux articles 1.10.1 à 1.10.9 du présent arrêté, en des termes clairs et simples, sous une forme concise, transparente, compréhensible et aisément accessible.
+
+------------
+
+- inséré par l'art. 1.9 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- modifié par l'art. 1.13 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+### TITRE II - Dispositions relatives à la responsabilité élargie du producteur de produits
+
+#### CHAPITRE 1 er - Dispositions communes
+
+##### Section 1re - Objectif et champ d'application
+
+Article 2.1.1.
+
+§ 1 er . Le présent titre établit un régime de responsabilité élargie du producteur dont l'objectif est de renforcer la prévention des déchets, leur réemploi, leur préparation au réemploi, leur recyclage ou leur valorisation, dans le respect de la protection de l'environnement et dans une perspective d'utilisation responsable des ressources naturelles.
+
+§ 2. Le régime de responsabilité élargie du producteur instauré par le présent arrêté se traduit, selon le type de déchet visé, par une ou plusieurs des obligations suivantes:
+
+1. une obligation de reprise des déchets ;
+
+2. une obligation d'assurer que le traitement des déchets soit effectué dans le respect de l'ordonnance déchets ;
+
+3. une obligation de financement de la gestion des déchets ;
+
+4. une obligation d'atteindre des taux de collecte, de réemploi, de recyclage et de valorisation ;
+
+5. une obligation de rapportage auprès de l'Institut ;
+
+6. une obligation d'adopter un plan de prévention et de gestion ;
+
+7. une obligation d'information du consommateur.
+
+8. une obligation liée à la propreté publique.
+
+§ 3. Le régime de responsabilité élargie du producteur instauré par le présent titre s'applique à l'égard des déchets suivants :
+
+1. les déchets de piles et accumulateurs ;
+
+2. les pneus usés ;
+
+3. les huiles usagées ;
+
+4. les véhicules hors d'usage ;
+
+5. les déchets d'équipements électriques et électroniques.
+
+6. les déchets de matelas ;
+
+7. les déchets de lingettes humides ;
+
+8. les déchets de ballons de baudruche ;
+
+9. les déchets d'engins de pêche contenant du plastique ;
+
+10. les mégots.
+
+§ 4. Les régimes de responsabilité élargie du producteur instaurés pour les flux visés aux points 7° à 10° du paragraphe 3 se traduisent par les obligations suivantes :
+
+1. l'obligation visée au paragraphe 2, 5° conformément aux articles 2.2.12. et 2.2.13. ;
+
+2. l'obligation visée au paragraphe 2, 6° conformément aux articles 2.2.9. à 2.2.11. ;
+
+3. l'obligation visée au paragraphe 2, 7° conformément à l'article 2.2.14. ;
+
+4. l'obligation visée au paragraphe 2, 8° ;
+
+5. la prise en charge des coûts relatifs aux obligations visées au 1. à 4. ainsi que les coûts visés à l'article 26/1, § 4, 1°, d) et e), de l'ordonnance déchets.
+
+------------
+
+- § 2, 8. inséré par l'art. 1.10, a) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 3, 6° à 10° insérés par l'art. 1.10, b) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022. Les régimes de responsabilité élargie du producteur instaurés pour les flux visés aux 7° à 10° sont d'application à une date fixée par le Gouvernement et au plus tard à partir du 5 janvier 2023 (art. 15, § 2.)
+
+- § 4, inséré par l'art. 1.10, c) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+##### Section 2. - Des personnes soumises à la responsabilité élargie du producteur
+
+Article 2.1.2.
+
+§ 1 er . Le régime de responsabilité élargie du producteur s'adresse au producteur dont les produits qu'il a mis sur le marché sont à l'origine des déchets qui sont visés à l'article 2.1.1, dans les conditions fixées au présent titre.
+
+§ 2. Le producteur peut :
+
+1° soit remplir lui-même ses obligations, conformément au chapitre 2 du présent titre, le cas échéant en contractant avec un tiers ;
+
+2° soit faire exécuter ses obligations par un organisme agréé conformément au chapitre 3, section 1ère, du présent titre et confier dans ce cadre l'exécution de tout ou partie des obligations à un organisme agréé auquel il a adhéré, auquel cas il est réputé satisfaire à ses obligations dès et tant qu'il établit avoir contracté avec l'organisme agréé directement ou par l'intermédiaire d'une personne habilitée à le représenter ;
+
+3° soit exécuter une convention environnementale conclue conformément au chapitre 3, section 2 du présent titre et confier dans ce cadre l'exécution de tout ou partie des obligations à un organisme de gestion auquel il a adhéré, auquel cas il est réputé satisfaire à ses obligations dès et tant qu'il établit être membre d'une organisation signataire de la convention, ou adhérent de l'organisme de gestion.
+
+§ 3. Dans les cas 2° et 3° du paragraphe 2 du présent article, et sauf disposition contraire dans le présent titre ou en vertu de celui-ci, l'organisme agréé ou l'organisme de gestion est tenu des obligations qui lui ont été déléguées par le producteur.
+
+#### CHAPITRE 2 - Des obligations générales liées à la responsabilité élargie du producteur
+
+##### Section 1re - De l'obligation de reprise
+
+###### Sous-section 1re - Dispositions générales
+
+Article 2.2.1.
+
+§ 1 er . L'obligation de reprise impose au producteur l'obligation de reprendre ou de faire reprendre à sa charge les déchets issus, en Région de Bruxelles-Capitale, de ses produits.
+
+§ 2. Le producteur garantit le respect des taux visés au chapitre 4 du présent titre et prend toutes les dispositions nécessaires pour qu'ils soient atteints dans les délais prescrits.
+
+§ 3. Afin de stimuler la remise des déchets soumis à l'obligation de reprise, le producteur peut assortir les produits qu'il met sur le marché d'une consigne.
+
+###### Sous-section 2 - De la reprise des déchets
+
+Article 2.2.2.
+
+§ 1 er . Les déchets visés à l'article 2.1.1., § 3, 1° à 6° du présent titre sont soumis à l'obligation de reprise.
+
+§ 2. Pour ce qui concerne les déchets issus des produits destinés aux ménages, le producteur met gratuitement les conditionnements et autres moyens de collecte nécessaires à la disposition de tous les points de collecte avec lesquels un contrat est conclu en vue de la reprise des déchets. Les moyens de collecte tiennent notamment compte des capacités maximales de stockage des détaillants et des parcs à conteneurs, et veillent à optimiser la sécurité des stockages, la préparation en vue du réemploi et le réemploi.
+
+------------
+
+- modifié par l'art. 1.11 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.2.3.
+
+§ 1 er . Le producteur est tenu, à ses frais, de collecter de manière régulière tous les déchets soumis à l'obligation de reprise et issus de ses produits, lorsque ces déchets sont rapportés auprès des distributeurs et des détaillants en Région de Bruxelles-Capitale.
+
+§ 2. Le distributeur ou le producteur le cas échéant, est tenu d'accepter gratuitement du détaillant, les déchets issus des produits qu'il met à disposition sur le marché et qui sont soumis à l'obligation de reprise.
+
+§ 3. Le détaillant est tenu d'accepter gratuitement du consommateur, tout déchet issu d'un produit remplissant les mêmes fonctions que celui qu'il met à disposition sur le marché et qui est soumis à l'obligation de reprise, à condition que celui-ci se procure ou se soit procuré au maximum trente jours calendrier auparavant, auprès dudit détaillant un produit remplissant les mêmes fonctions.
+
+§ 4. Le distributeur et le détaillant visés au présent article sont tenus de remettre au producteur les déchets qu'ils ont acceptés conformément aux paragraphes 2 et 3, sauf les dérogations prévues au chapitre 4. Dans l'hypothèse d'une dérogation à cette obligation de remise, le distributeur et le détaillant sont tenus de faire traiter ces déchets dans des installations autorisées, conformément aux règles prescrites par ou en vertu de l'ordonnance déchets.
+
+Article 2.2.4.
+
+Sans préjudice de l'article 2.2.3 du présent titre, les déchets soumis à l'obligation de reprise peuvent faire l'objet d'une collecte séparée, à l'initiative et à charge du producteur, impliquant leur remise à des collecteurs, négociants, courtiers autorisés, installations de collecte ou de traitement autorisées.
+
+Article 2.2.5.
+
+Sauf convention contraire entre le producteur et les personnes morales de droit public, le producteur est tenu de reprendre de manière périodique et sans exiger de rétribution les déchets soumis à l'obligation de reprise qui le concerne, collectés par les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers, soit en porte à porte, soit auprès des parcs à conteneurs ou d'autres points de collecte.
+
+###### Sous-section 3 - Du financement de la reprise des déchets ménagers
+
+Article 2.2.6.
+
+Le producteur couvre le coût réel et complet de la collecte, du tri et du traitement des déchets soumis à l'obligation de reprise qui le concerne, pris en charge par les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers. La couverture des coûts et le partage des éventuelles recettes sont convenus de commun accord.
+
+Sont pris en considération, pour l'établissement des coûts visés au présent article: les coûts afférents aux conteneurs, à l'infrastructure, au personnel affecté à la gestion des installations de collecte et de tri, en ce compris pour la gestion administrative, aux frais généraux liés à la gestion des installations et à la formation du personnel desdites installations portant sur la catégorie de déchets concernés. Ils sont déterminés sur le modèle établi de commun accord entre les personnes morales de droit public concernées et les producteurs.
+
+Le partage des éventuelles recettes avec les personnes morales de droit public ne vaut que si les coûts imputés au producteur pour l'exécution de la responsabilité élargie du producteur à laquelle il est soumis, sont couverts par la revente des matériaux collectés.
+
+Lorsqu'aucun accord n'est obtenu, le Ministre peut, après avis de l'Institut, édicter des règles contraignantes pour l'imputation des coûts et des recettes. Ces règles contraignantes doivent inclure une liste des frais à payer. Elles sont établies après avoir recueilli l'avis des producteurs concernés et des personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers.
+
+###### Sous-section 4 - De la collaboration avec les entreprises à finalité sociale
+
+Article 2.2.7.
+
+Le producteur est tenu de reprendre de manière périodique et sans exiger de rétribution les déchets soumis à l'obligation de reprise qui le concerne collectés par les entreprises à finalité sociale avec lesquelles il a conclu un contrat.
+
+Le producteur couvre le coût réel et complet de la collecte des déchets soumis à l'obligation de reprise qui le concerne, pris en charge par les entreprises à finalité sociale. La couverture des coûts est convenue dans ledit contrat.
+
+§ 2. Sans préjudice du paragraphe 3, l'entreprise à finalité sociale remet au producteur l'ensemble des déchets complets et non réemployables auxquels il a accédé via les canaux de collecte du producteur.
+
+§ 3. Pour augmenter la préparation en vue du réemploi des déchets issus des produits soumis à responsabilité élargie du producteur, l'entreprise à finalité sociale peut extraire des pièces nécessaires à la réparation des déchets soumis à responsabilité élargie du producteur. L'extraction ne peut avoir pour but le recyclage de ladite pièce.
+
+##### Section 2 - Du traitement des déchets
+
+Article 2.2.8.
+
+§ 1 er . Tous les déchets soumis à l'obligation de reprise et collectés conformément aux articles 2.2.2 à 2.2.7 du présent titre sont traités, à charge du producteur, dans des installations autorisées, conformément aux règles prescrites par ou en vertu de l'ordonnance déchets.
+
+§ 2. Afin de favoriser la préparation en vue du réemploi et le réemploi, le producteur garantit l'accès au gisement des déchets collectés dans le cadre de l'obligation de reprise aux centres de préparation en vue du réemploi. Les entreprises à finalité sociale et/ou les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers sont les partenaires privilégiés des producteurs. Les modalités d'accès au gisement sont convenues de commun accord entre les producteurs et les centres de préparation en vue du réemploi et les entreprises à finalité sociale concernés.
+
+§ 3. Le producteur assure que les déchets collectés sont traités en utilisant les meilleures techniques disponibles en termes de protection de la santé et de l'environnement. Le producteur est tenu d'assurer que les obligations en matière de traitement et de recyclage sont atteintes.
+
+##### Section 3 - Du plan de prévention et de gestion
+
+Article 2.2.9.
+
+Endéans les 6 mois suivant l'entrée en vigueur de la responsabilité élargie le concernant, le producteur est tenu de réaliser un plan de prévention et de gestion des déchets, contenant les éléments et engagements suivants :
+
+1° données d'identification:
+
+a) les noms, forme juridique, siège et numéro de registre de commerce ou un enregistrement correspondant et le numéro T.V.A. du producteur pour les déchets correspondants;
+
+b) le domicile et l'adresse du producteur et, le cas échéant, des sièges social, administratif et d'exploitation, dont une adresse en Belgique, qui peut être celle d'un mandataire;
+
+c) le numéro de téléphone du domicile ou du siège où le producteur ou son mandataire peuvent être contactés;
+
+d) le nom et la fonction du signataire du plan de prévention et de gestion des déchets soumis à la responsabilité élargie du producteur.
+
+2° objet :
+
+a) la nature des déchets soumis à la responsabilité élargie du producteur régis par le plan de prévention et de gestion des déchets ;
+
+b) l'estimation des quantités de produits mis sur le marché et des déchets issus de ces produits visées par la responsabilité élargie du producteur.
+
+3° un plan de prévention comprenant la description des mesures visant à :
+
+a) améliorer le potentiel de réemploi et la recyclabilité des produits que le producteur met sur le marché;
+
+b) diminuer la quantité de déchets dangereux et de matériaux potentiellement nuisibles pour la santé humaine et/ou l'environnement dans les produits mis sur le marché;
+
+c) diminuer la quantité de déchets occasionnés du fait de la mise sur le marché des produits soumis à la responsabilité élargie du producteur;
+
+d) limiter les nuisances environnementales tant lors de la conception du produit que lors de son utilisation, en ce compris les mesures d'information visées à l'article 2.2.14.
+
+4° un plan de gestion précisant les modalités de l'acquittement des obligations de la responsabilité élargie du producteur, compte tenu des prescriptions spécifiques applicables à ces déchets, visées au chapitre 4 et assurant la reprise maximale des déchets. Ce plan comprend notamment les données suivantes :
+
+a) les dispositions prises en vue de couvrir les coûts de l'obligation de reprise, conformément aux articles 2.2.2 à 2.2.7, et de toutes autres actions requises en application du présent titre;
+
+b) les modalités de l'acquittement de l'obligation de reprise, en ce compris lorsque les déchets concernés sont détenus par des tiers tels que des détaillants et distributeurs;
+
+c) lorsque le plan concerne des déchets provenant des ménages, les modalités de collaboration avec les personnes morales de droit public responsables de la gestion des déchets ménagers;
+
+d) les dispositions prises pour maintenir et développer, les emplois à finalité sociale dans les entreprises à finalité sociale concernées par le plan;
+
+e) les modalités de collaboration avec les gestionnaires de déchets intervenant dans le système de collecte et de traitement auquel il recourt ;
+
+f) les mesures d'information et de sensibilisation des détenteurs des déchets en vue d'atteindre les objectifs fixés par le présent titre;
+
+g) les mesures de traçabilité des déchets résultant des produits mis sur le marché et concernés par le plan;
+
+h) les mesures afférentes au traitement des déchets collectés dans le cadre de l'obligation de reprise;
+
+i) les mesures destinées à assurer le rapportage annuel à l'Institut, conformément à l'article 2.2.12.
+
+5° la durée proposée de validité du plan de prévention et/ou de gestion des déchets soumis à la responsabilité élargie du producteur;
+
+6° un plan financier et un budget pour la durée du plan;
+
+7° la copie de la sûreté constituée conformément à l'article 2.2.11;
+
+8° l'engagement écrit, daté et signé par le producteur ou, le cas échéant, par une personne physique qui peut engager la société, par lequel il atteste que les déchets qui sont régis par le plan de prévention et de gestion des déchets et qui lui sont présentés par des tiers, en application du présent titre, en particulier des détaillants et des distributeurs, seront acceptés gratuitement par lui et traités dans le respect des prescriptions du présent titre;
+
+9° une description du réseau de collecte en Région de Bruxelles-Capitale où les détenteurs des déchets concernés peuvent les remettre gratuitement.
+
+Article 2.2.10.
+
+§ 1 er . Le projet de plan de prévention et de gestion des déchets, est introduit, auprès de l'Institut, par lettre recommandé à la poste ou par voie électronique à l'adresse et selon les modalités précisées par le Ministre.
+
+§ 2. Dans les trente jours de la réception du projet de plan de prévention et de gestion, l'Institut vérifie si celui-ci contient les indications et documents prévus au présent article et, endéans ce même délai :
+
+1° lorsque le dossier est complet, adresse à l'auteur du projet, un accusé de réception précisant que le dossier est complet;
+
+2° lorsque le dossier n'est pas complet, en informe l'auteur du projet et lui indique les pièces ou les renseignements complémentaires à fournir, qu'il estime utiles à l'examen du projet, ainsi que le délai dans lequel ces éléments doivent lui être communiqués. Lorsqu'il estime le dossier complet, l'Institut en informe l'auteur du projet dans un délai de vingt jours à compter de la réception des derniers éléments.
+
+La notification, attestant du caractère complet du projet, fait courir le délai fixé au § 3 du présent article.
+
+En cas de silence de l'Institut au terme du délai imparti pour déclarer le dossier complet, la procédure est poursuivie.
+
+§ 3. L'Institut évalue la conformité du projet de plan de prévention et de gestion avec les dispositions réglementaires applicables et approuve ou refuse le projet. Il impose la durée de validité du plan, qui ne peut excéder huit ans.
+
+La décision est prise dans un délai de quatre mois à compter de la notification du caractère complet du projet de plan de prévention et de gestion. La décision est notifiée à l'auteur du projet endéans ce délai par lettre recommandée à la poste ou par voie électronique selon les modalités arrêtées par le Ministre. En cas de silence au terme de ce délai, l'auteur du projet peut envoyer un rappel à l'Institut, par lettre recommandée ou par voie électronique selon les modalités arrêtées par le Ministre. L'absence de notification d'une décision dans les trente jours qui suivent l'envoi de la lettre recommandée de rappel vaut acceptation du projet de plan.
+
+Par la même décision, l'Institut fixe une sûreté dont le montant est équivalent aux frais estimés pour la prise en charge, pendant une période de six mois, de la responsabilité élargie du producteur par la Région pour les déchets issus de produits destinés aux ménages.
+
+Le plan de prévention et de gestion n'est exécutoire qu'à partir du moment où l'Institut confirme, par lettre recommandée à la poste ou par voie électronique selon les modalités arrêtées par le Ministre, que la sûreté a été constituée régulièrement par le producteur, dans le respect des conditions fixées à l'article 2.2.11.
+
+Article 2.2.11.
+
+§ 1 er . La sûreté est constituée par le producteur dans un délai de trente jours ouvrables à compter de la date de notification visée à l'article 2.2.10, § 3 ou à compter de l'acceptation tacite du plan de prévention et de gestion, selon les conditions visées au même paragraphe.
+
+La sûreté financière est constituée soit par un versement au compte de la Caisse des Dépôts et Consignations, soit par une garantie bancaire. Le producteur précise que la sûreté est libérable sur simple demande de l'Institut motivée par le cas de non-exécution des obligations.
+
+Dans le cas où la sûreté financière consiste en une garantie bancaire, celle-ci est obligatoirement émise par un établissement de crédit agréé, soit auprès de la Commission bancaire et financière, soit auprès d'une autorité d'un Etat membre de la Communauté européenne qui est habilitée à contrôler les établissements de crédits.
+
+§ 2. Si un producteur n'exécute pas correctement tout ou partie de ses obligations, l'Institut sollicite la libération de la sûreté financière pour couvrir les frais liés à l'inexécution de ses obligations.
+
+§ 3. La sûreté est restituée après que l'Institut a dûment constaté qu'au terme du plan de prévention et de gestion, le renouvellement de celui-ci n'est pas sollicité.
+
+Dans les six mois suivant l'expiration du plan de prévention et de gestion, l'Institut statue sur la restitution de la sûreté visée au § 1 er . Il notifie sa décision à la Caisse des Dépôts et Consignations ou à l'organisme bancaire ayant constitué la sûreté, ainsi qu'au producteur.
+
+##### Section 4 - De l'information et du rapportage
+
+###### Sous-section 1re - Du rapportage
+
+Article 2.2.12.
+
+§ 1 er . Le producteur fournit annuellement à l'Institut, avant le 31 mai de chaque année, un rapport portant sur :
+
+1° la manière dont il remplit les obligations découlant de la responsabilité élargie du producteur;
+
+2° la quantité totale, exprimée en kilos, de produits qui ont été mis sur le marché durant l'année faisant l'objet du rapportage;
+
+3° les systèmes de collecte et de recyclage auxquels il recourt;
+
+4° la liste des installations au sein desquels sont traités les déchets, ainsi que les résidus de leur traitement et les modes de traitement;
+
+5° les quantités collectées et gérées telles que définies au chapitre 4 du présent titre, en distinguant s'il y a lieu les quantités de déchets ménagers des déchets autres que ménagers;
+
+6° les prévisions de la quantité totale, exprimée en kilogramme, de produits qui seront mis sur le marché durant l'année en cours, sauf dérogation prévue au chapitre 4.
+
+7° en cas de délégation à un organisme agréé ou à un organisme de gestion, la ou les cotisations versées à cet organisme, avec les modalités de calcul et la liste des membres adhérents à l'organisme.
+
+§ 2. L'Institut peut exiger de tout producteur de lui fournir toute information pertinente pour l'appréciation de la réalisation des objectifs visés par le présent titre et le contrôle de leur mise en oeuvre , moyennant respect de la confidentialité des données transmises.
+
+§ 3. Toutes les données chiffrées transmises à l'Institut sont certifiées par un réviseur d'entreprises ou par un bureau de contrôle indépendant, de la manière établie par l'Institut.
+
+Les données techniques de recyclage sont certifiées de la manière établie par l'Institut par un bureau de contrôle indépendant accrédité à cet effet.
+
+En cas d'exportation des déchets, toutes les données communiquées sont certifiées de la manière établie par l'Institut par un bureau de contrôle indépendant accrédité à cet effet.
+
+Le Ministre, ou l'Institut sur délégation, peut désigner un contrôleur externe aux frais du producteur.
+
+§ 4. L'information environnementale rapportée en vertu du présent article, dont le producteur établit que la confidentialité relève de la nécessité de protéger un intérêt économique légitime et que la publication est de nature à lui causer un préjudice, peut bénéficier de restrictions d'accès à l'information dans le respect des exigences fixées à l'article 11, §§ 2 à 5, de l'ordonnance du 18 mars 2004 sur l'accès à l'information relative à l'environnement dans la Région de Bruxelles-Capitale.
+
+§ 5. Le rapport annuel visé au premier paragraphe du présent article est présenté et communiqué conformément aux modalités fixées par l'Institut. L'Institut peut autoriser ou exiger, aux conditions qu'il fixe, le dépôt en tout ou partie de ce rapport annuel sous forme électronique
+
+Article 2.2.13.
+
+§ 1 er . Les collecteurs, négociants, courtiers et les opérateurs de traitement gérant les déchets pour les producteurs remettent, à première demande et dans un délai raisonnable, au producteur ou, en cas de système collectif, à l'organisme agréé ou à l'organisme de gestion, les informations nécessaires à l'établissement des obligations de rapportage prévues à l'article 2.2.12.
+
+§ 2. Le producteur ou, en cas de système collectif, l'organisme agréé ou l'organisme de gestion communique aux personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers les données afférentes aux déchets collectés.
+
+###### Sous-section 2 - De l'information des consommateurs
+
+Article 2.2.14.
+
+§ 1 er . Les producteurs veillent, notamment par des campagnes d'information, à ce que les consommateurs, en ce compris les utilisateurs professionnels, soient informés:
+
+1° de l'intérêt du réemploi et de l'importance de ne pas éliminer les déchets de leurs produits comme des déchets non triés et de prendre part à leur collecte séparée de manière à en faciliter le réemploi, traitement et le recyclage;
+
+2° de l'utilisation écologiquement rationnelle de leurs produits et de la manière dont le produit peut faire l'objet d'un réemploi, être préparé au réemploi, recyclé ou autrement valorisé;
+
+3° des systèmes de collecte et de gestion mis à leur disposition;
+
+4° du rôle qu'ils ont à jouer dans le recyclage des déchets de leurs produits;
+
+§ 2. Les producteurs veillent à l'efficacité de la filière de reprise des déchets, notamment par une information et une sensibilisation des collecteurs et transporteurs, des distributeurs, des détaillants et des installations de traitement.
+
+§ 3. Le détaillant veille à ce que les consommateurs soient informés de la possibilité de remettre les déchets soumis à la responsabilité élargie du producteur à leurs points de vente.
+
+Il appose, à un endroit visible, un avis dans lequel il est stipulé, sous l'intitulé "OBLIGATION DE REPRISE", de quelle manière ils répondent aux dispositions du présent titre, en ce compris la manière dont le consommateur peut se défaire du déchet concerné.
+
+§ 4. Les paragraphes 2 et 3 ne s'appliquent pas aux déchets visés à l'article 2.1.1., § 3, 7° à 10°.
+
+------------
+
+- § 4. inséré par l'art. 1.12 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+#### CHAPITRE 3 - Délégations
+
+##### Section 1re - De l'organisme agréé
+
+Article 2.3.1.
+
+§ 1 er . L'agrément d'un organisme, chargé par des producteurs de remplir tout ou partie des obligations qui leurs incombent en vertu du présent arrêté, ne peut être accordé qu'aux personnes morales qui remplissent les conditions suivantes :
+
+1° être constitué en association sans but lucratif en conformité avec la loi du 27 juin 1921 sur les associations sans but lucratif, les associations internationales sans but lucratif et les fondations;
+
+2° avoir, comme objet statutaire, la prise en charge pour le compte de ses contractants d'une ou de plusieurs obligations de la responsabilité élargie du producteur qui leur incombe(nt);
+
+3° ne compter, parmi ses administrateurs ou parmi les personnes pouvant engager l'association, que des personnes jouissant de leurs droits civils et politiques;
+
+4° ne compter, parmi ses administrateurs ou parmi les personnes pouvant engager l'association, aucune personne qui ait été condamnée par une décision coulée en force de chose jugée pour une infraction à la législation environnementale en vigueur en Région de Bruxelles-Capitale et à ses arrêtés d'exécution ou à toute autre législation équivalente d'un Etat membre de l'Union européenne;
+
+5° disposer des garanties financières et des moyens techniques et humains suffisants pour assurer les obligations liées à la responsabilité élargie du producteur;
+
+6° présenter une comptabilité conforme aux dispositions du livre III, titre III, chapitre II du Code de droit économique ;
+
+7° faire examiner ses comptes d'exploitation par un réviseur d'entreprise;
+
+§ 2. La demande d'agrément contient les indications et documents suivants :
+
+1° une copie de l'acte de constitution, des statuts et modifications éventuelles de ceux-ci publiés au Moniteur belge;
+
+2° la liste des administrateurs et personnes pouvant engager l'association;
+
+3° une déclaration sur l'honneur que les administrateurs et les personnes pouvant engager l'association répondent aux conditions fixées au § 1 er , 3° et 4° du présent article ;
+
+4° la nature des déchets et des opérations pour lesquels l'agrément est sollicité;
+
+5° un plan financier et un budget pour la durée de l'agrément demandé, comportant au moins les éléments suivants :
+
+a) les modalités de calcul et d'évaluation des contributions des producteurs ainsi que les conditions et les modalités de révision de ces contributions;
+
+b) l'estimation des coûts du réemploi, de la collecte et du traitement des déchets, incluant les recettes éventuelles du recyclage;
+
+c) l'affectation d'éventuels excédents au fonctionnement du système;
+
+d) les modalités de calcul et d'évaluation des contributions des consommateurs ainsi que les conditions et les modalités de révision de ces contributions;
+
+e) l'estimation des dépenses inhérentes aux mesures de prévention, au développement du réemploi, à la communication et à la sensibilisation nécessaires pour atteindre les objectifs impartis;
+
+f) le financement d'éventuelles pertes.
+
+§ 3. Conformément aux articles 2.2.10 et 2.2.11, l'agrément impose la constitution d'une sûreté ou la conclusion d'une assurance qui garantisse la couverture des frais résultant de l'exécution des obligations liées à la responsabilité élargie du producteur, en cas d'inexécution ou de mauvaise exécution de ces obligations.
+
+§ 4. L'agrément est octroyé, suspendu et retiré conformément aux articles 70 et suivants de l'ordonnance du 5 juin 1997 relative aux permis d'environnement.
+
+------------
+
+- § 2., 3° remplacé par l'art. 1.13 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.3.2.
+
+L'organisme agréé est tenu de :
+
+1° se conformer aux conditions fixées dans l'agrément ;
+
+2° atteindre, pour l'ensemble des producteurs ayant contracté avec lui, dans les délais prévus, les obligations prescrites par le présent titre qui lui ont été délégués par ces producteurs, en ce compris celles qui sont énoncées dans son plan de prévention et de gestion des déchets ;
+
+3° conclure un contrat d'assurance couvrant les dommages susceptibles d'être causés par son activité ;
+
+4° percevoir, de manière non discriminatoire, auprès de ses contractants les cotisations indispensables pour couvrir les coûts de l'ensemble des obligations qui lui incombent ;
+
+5° organiser la collecte des déchets soumis à la responsabilité élargie du producteur de façon homogène sur l'intégralité du territoire de la Région de Bruxelles-Capitale, le cas échéant en concertation avec les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers et les entreprises à finalité sociale pour ce qui concerne la préparation en vue du réemploi, s'il est responsable d'organiser la collecte pour les producteurs ayant contracté avec lui;
+
+6° conclure des contrats uniformes avec les opérateurs de collecte et de traitement, avec les personnes morales de droit public territorialement compétente pour la gestion des déchets ménagers et les entreprises à finalité sociale, approuvés par l'Institut, s'il échet;
+
+7° déposer chaque année, auprès de l'Institut, ses bilans et comptes de résultats pour l'année écoulée, qui auront au préalable été examinés par un réviseur d'entreprises ou par un bureau de contrôle indépendant, de la manière établie par l'Institut;
+
+8° faire attester par un bureau de contrôle indépendant, de la manière établie par l'Institut, les taux de collecte, de recyclage et de valorisation des déchets au regard des produits mis sur le marché;
+
+9° agir en toute transparence et traiter dans le respect du principe d'égalité et de concurrence, de manière non discriminatoire, les entrepreneurs, les fournisseurs et les prestataires de services auxquels il fait appel pour l'exécution des obligations dont il est chargé.
+
+##### Section 2 - De l'organisme de gestion
+
+Article 2.3.3.
+
+§ 1 er . Le producteur, par le biais d'un ou plusieurs organismes représentatifs, peut conclure avec la Région de Bruxelles-Capitale une convention environnementale par laquelle il satisfait aux obligations de la responsabilité élargie du producteur en déléguant à un organisme de gestion des obligations identiques à celles qui incombent à un organisme agréé, en vertu de l'article 2.3.2, à l'exception du 1° de cet article, qui est remplacé par l'obligation suivante : "1° se conformer aux conditions fixées dans la convention environnementale".
+
+§ 2. La qualité d'organisme de gestion ne peut être accordée qu'aux personnes morales qui remplissent les conditions fixées par l'article 2.3.1 § 1 er .
+
+§ 3. L'organisme de gestion invite les représentants de l'Institut, en tant qu'observateurs, à toutes les réunions de son conseil d'administration et de ses assemblées générales et leur transmet les procès-verbaux des réunions.
+
+§ 4. Endéans les 6 mois suivant la signature de la convention environnementale, à l'exercice des obligations qui lui sont confiées par ses membres dans le cadre de la responsabilité élargie du producteur, l'organisme de gestion est tenu de soumettre à l'Institut pour approbation les documents visées à l'article 2.3.1 § 2, 5°.
+
+##### Section 3 - Du contenu minimal de la convention environnementale
+
+Article 2.3.4.
+
+Outre la mise en place de l'organisme de gestion visé à l'article 2.3.3 et des obligations mises à sa charge, la convention environnementale prévoit au minimum les dispositions nécessaires pour :
+
+1° favoriser la prévention des déchets, le réemploi, la préparation au réemploi et le recyclage ;
+
+2° favoriser le développement des emplois à finalité sociale dans les entreprises à finalité sociale;
+
+3° préciser les obligations dont sont redevables les producteurs et les organismes de gestion;
+
+4° préciser les actes qui doivent être soumis à l'avis ou à l'approbation de l'Institut.
+
+##### Section 4 - De l'identification des coûts
+
+Article 2.3.5.
+
+§ 1 er . Dans le cas de systèmes collectifs impliquant une contribution financière directement ou indirectement portée à la charge des consommateurs, les coûts afférents à l'exécution de la responsabilité élargie du producteur sont identifiés et imputés exclusivement à la catégorie de déchets soumis à ladite obligation pour lesquels ils sont exposés.
+
+Lorsque des coûts sont exposés relativement à plusieurs catégories de déchets à la fois, ils doivent être imputés à chacune des catégories concernées sur la base de critères objectifs et justifiés au regard des objectifs poursuivis par la responsabilité élargie du producteur.
+
+Lorsque les cotisations sont supportées par le consommateur, les modalités de calcul et de révision des contributions sont soumises à l'approbation de l'Institut.
+
+§ 2. Pour ce qui concerne les déchets ménagers, les cotisations des producteurs à un organisme agréé ou un organisme de gestion tiennent compte:
+
+1° des coûts imputables à chacune des catégories de déchets ménagers ;
+
+2° des recettes émanant de la vente des matériaux collectés et triés;
+
+3° de la contribution de chaque matériau à la réalisation des objectifs de recyclage et de valorisation incombant au producteur, le cas échéant.
+
+Ces cotisations visent à financer, déduction faite de la valeur de revente des matériaux, le coût réel et complet des obligations qui leurs incombent en vertu du présent titre, et notamment :
+
+a) des collectes séparées existantes et à créer;
+
+b) du réemploi, du recyclage et de la valorisation;
+
+c) de l'information opérationnelle au niveau régional et local et de la sensibilisation auprès des consommateurs;
+
+d) du tri des déchets collectés;
+
+e) de l'élimination des résidus du tri, du recyclage et de la valorisation des déchets.
+
+§ 3. L'organisme de gestion opère une distinction dans sa comptabilité entre les coûts afférents à des produits ménagers et ceux afférents à des produits autres que ménagers.
+
+##### S ection 5 - De l'approbation et de l'avis de l'Institut
+
+Article 2.3.6.
+
+§ 1 er . Sont soumis à l'approbation de l'Institut aux conditions fixées au présent article, les actes ou documents suivants :
+
+1° les documents reprenant les mesures financières visé à l'article 2.3.1, § 2, 5° a), c) et d);
+
+2° les contrats uniformes conclus par les organismes visés à l'article 2.3.1 et l'article 2.3.3, avec les opérateurs de collecte et de traitement, avec les personnes morales de droit public territorialement compétentes pour la gestion des déchets ménagers et les entreprises à finalité sociale;
+
+3° la stratégie de communication destinée à remplir les obligations d'information visées à l'article 2.2.14;
+
+4° le rapport annuel visé à l'article 2.2.12
+
+5° les critères de distinction entre les produits considérés comme destinés aux ménages et les produits considérés comme destinés aux utilisateurs professionnels;
+
+6° tout acte soumis à approbation en vertu de cet arrêté ou de la convention environnementale ;
+
+7° tout acte soumis à approbation en vertu du chapitre 4 du présent titre.
+
+§ 2. L'Institut dispose d'un délai de 60 jours ouvrables à compter du jour de la réception de la demande pour approuver ou non les documents qui lui sont proposés. Si aucune décision n'est prise durant ce laps de temps, les documents sont réputés refusés.
+
+Article 2.3.7.
+
+§ 1 er . Sont soumis à l'avis préalable de l'Institut aux conditions fixées au présent article, les actes ou documents suivants :
+
+1° les documents reprenant les mesures financières visé à l'article 2.3.1, § 2, 5°, b), e) et f);
+
+2° tout acte soumis à avis en vertu de la convention environnementale ;
+
+3° tout acte soumis à avis en vertu du chapitre 4 du présent titre.
+
+§ 2. L'Institut dispose d'un délai de 45 jours à compter du jour de la réception de la demande pour émettre un avis motivé. L'organisme de gestion veille à prendre cet avis en considération.
+
+A défaut d'avis dans ce délai, l'avis est réputé défavorable.
+
+#### CHAPITRE 4 - Obligations par flux
+
+Article 2.4.1.
+
+Les dispositions du présent chapitre sont complémentaires aux dispositions des chapitres 1 à 3 du présent titre.
+
+##### Section 1re - Déchets de piles et accumulateurs
+
+###### Sous-section 1re - Définitions et champ d'application
+
+Article 2.4.2.
+
+§ 1 er . Au sens de la présente section, on entend par :
+
+1° « pile bouton » : toute pile ou accumulateur portable de petite taille et de forme ronde, dont le diamètre est plus grand que la hauteur et qui est utilisé pour des applications spéciales telles que les appareils auditifs, les montres, les petits appareils portatifs ou comme énergie de réserve;
+
+2° « pile ou accumulateur portable » : toute pile, pile bouton, assemblage en batterie ou accumulateur qui:
+
+a) est scellé, et
+
+b) peut être porté à la main, et
+
+c) n'est pas une pile ou un accumulateur industriel, ni une pile ou un accumulateur automobile;
+
+3° « pile ou accumulateur automobile »: toute pile ou accumulateur destiné à alimenter les systèmes de démarrage, d'éclairage ou d'allumage;
+
+4° « pile ou accumulateur industriel »: toute pile ou accumulateur conçu à des fins exclusivement industrielles ou professionnelles ou utilisé dans tout type de véhicule électrique;
+
+5° « assemblage-batteries » : toute série de piles ou d'accumulateurs interconnectés et/ou enfermés dans un boîtier pour former une seule et même unité complète que le consommateur n'est pas censé démanteler ou ouvrir;
+
+6° « taux de collecte »: le pourcentage obtenu en divisant le poids des déchets de piles et d'accumulateurs portables collectés pendant une année calendrier par le poids moyen des piles et accumulateurs portables que les producteurs soit vendent directement aux consommateurs, soit livrent à des tiers afin que ceux-ci les vendent à des consommateurs pendant ladite année civile et les deux années calendrier précédentes;
+
+§ 2. Pour les piles et accumulateurs incorporés dans les EEE ou véhicules neufs, le producteur est le producteur desdits EEE ou véhicules.
+
+§ 3. Par dérogation à l'article 2.1.1 du présent titre, le régime de responsabilité élargie du producteur n'est pas applicable :
+
+1° aux piles et accumulateurs utilisés dans les équipements liés à la protection des intérêts essentiels de la Belgique, les armes, les munitions et le matériel de guerre, à l'exception des produits qui ne sont pas destinés à des fins spécifiquement militaires ;
+
+2° aux équipements destinés à être lancés dans l'espace.
+
+###### Sous-section 2 - Obligation de reprise
+
+Article 2.4.3.
+
+Tout détenteur de déchets de piles et d'accumulateurs portables est tenu, soit de les remettre à un collecteur autorisé pour la collecte de déchets dangereux, soit de les déposer dans un des points de collecte prévus à cet effet par le producteur et les personnes morales de droit public territorialement responsables de la gestion des déchets ménagers.
+
+Le réseau de collecte doit être conçu de manière à ce que, compte tenu de la densité de population, les points de collecte soient proches et accessibles.
+
+Le détaillant est tenu de reprendre gratuitement tout déchet de piles et d'accumulateurs portables issus des produits qu'il met à disposition sur le marché que les consommateurs lui présentent, même lorsque ces consommateurs ne se procurent pas de produit remplissant les mêmes fonctions.
+
+Le producteur est tenu de collecter, à ses frais, de manière régulière, tous les déchets de piles et d'accumulateurs portables repris auprès des détaillants, des distributeurs, des personnes morales de droit public et des autres points de collecte en vue de les faire traiter à ses frais dans une installation autorisée. Dans ce cas, les collecteurs ne peuvent facturer des frais de traitement aux utilisateurs finaux.
+
+Le producteur est en outre tenu de reprendre l'ensemble des déchets de piles et d'accumulateurs portables provenant des installations de démantèlement ou de dépollution de déchets d'équipements électriques ou électroniques et de véhicules hors d'usage.
+
+Article 2.4.4.
+
+Le producteur veille à ce que tous les déchets de piles et accumulateurs industriels ou automobiles puissent être collectés séparément des autres flux de déchets, quelles que soient leur composition chimique et leur origine.
+
+Tout détenteur de déchets de piles et d'accumulateurs industriels ou automobiles est tenu, soit de les remettre à un collecteur autorisé pour la collecte de déchets dangereux, soit de les déposer dans un des points de collecte prévus à cet effet par le producteur.
+
+Le détaillant est tenu de reprendre gratuitement tout déchet de piles ou d'accumulateurs industriels ou automobiles issus des produits qu'il met à disposition sur le marché que les consommateurs lui présentent, même lorsque ces consommateurs ne se procurent pas de produit remplissant les mêmes fonctions. Les détaillants effectuant un service d'entretien, de réparation et de remplacement des piles et accumulateurs automobiles sont tenus de reprendre, gratuitement, tout déchet de pile ou d'accumulateur automobile qui leur sont présentés par les consommateurs, même lorsque ces consommateurs ne se procurent pas de produit remplissant les mêmes fonctions.
+
+Le distributeur est tenu de reprendre, à ses frais, de manière régulière et sur place, auprès des détaillants tous les déchets de piles et d'accumulateurs industriels ou automobiles réceptionnés en application des alinéas précédents et les présenter au producteur.
+
+Le producteur est tenu, à ses frais, de collecter de manière régulière tous les déchets de piles et d'accumulateurs industriels ou automobiles, quelles que soient leur composition chimique et leur origine, acceptés auprès des distributeurs ou, à défaut, auprès des détaillants visés aux alinéas précédents en vue de les faire traiter dans une installation autorisée.
+
+Le producteur est tenu de reprendre l'ensemble des déchets de piles et accumulateurs industriels ou automobiles provenant des installations de démantèlement ou de dépollution de déchets d'équipements électriques ou électroniques et de véhicules hors d'usage.
+
+Le producteur ne peut refuser de reprendre les déchets de piles et accumulateurs industriels, quelles que soient leur composition chimique et leur origine, que les consommateurs leur présentent.
+
+Conformément à l'article 2.2.3 § 4, pour ce qui concerne les piles automobiles, il peut être dérogé à l'obligation de remise des déchets collectés par les détaillants et les distributeurs visée aux alinéas 3 et 4 du présent article dans une convention environnementale.
+
+###### Sous-section 3 - Traitement
+
+Article 2.4.5.
+
+§ 1 er . Le traitement des piles et accumulateurs s'effectue dans une installation de traitement autorisée. Il est interdit d'éliminer les déchets de piles ou d'accumulateurs sans traitement préalable visant le recyclage total ou partiel. Il est interdit de vider les accumulateurs au plomb de leur acide en dehors d'une installation de traitement autorisée.
+
+§ 2. Le traitement consistera, au minimum, en l'extraction de tous les fluides et acides.
+
+§ 3. Le traitement et tout stockage, y compris temporaire, dans les installations de traitement a lieu sur des sites offrant des surfaces imperméables et un recouvrement résistant aux intempéries ou dans des conteneurs appropriés.
+
+###### Sous-section 4 - Financement
+
+Article 2.4.6.
+
+§ 1 er . Les producteurs des piles et accumulateurs sont responsables du financement de la collecte, du traitement et du recyclage des déchets de toutes les piles et de tous les accumulateurs, quelle que soit la date de leur mise sur le marché.
+
+Ils doivent prendre en charge les coûts des campagnes d'information des consommateurs concernant la prévention, la collecte, le traitement et le recyclage des déchets de piles et accumulateurs.
+
+§ 2. Les producteurs et utilisateurs de piles et d'accumulateurs industriels et automobiles peuvent conclure des accords fixant d'autres méthodes de financement que celles visées au paragraphe 1.
+
+###### Sous-section 5 - Taux
+
+Article 2.4.7.
+
+§ 1 er . Pour les déchets de piles et accumulateurs portables, le producteur doit atteindre un taux de collecte minimum de 50%.
+
+§ 2. Le producteur doit reprendre tous les déchets de piles et accumulateurs industriels et automobiles qui lui sont présentés.
+
+Article 2.4.8.
+
+Pour les déchets de piles et accumulateurs portables, industriels et automobiles, le producteur s'assure que les processus de recyclage atteignent les rendements minimaux de recyclage suivants et les obligations connexes:
+
+1° un recyclage d'au moins 65 % du poids moyen des piles et des accumulateurs plomb-acide, y compris un recyclage du contenu en plomb qui soit techniquement le plus complet possible tout en évitant les coûts excessifs, et avec une valorisation qui soit la plus complète possible des matières synthétiques tout en évitant les coûts excessifs
+
+2° un recyclage de 75 % du poids moyen des piles et des accumulateurs nickel-cadmium, y compris un recyclage du contenu en cadmium qui soit techniquement le plus complet possible tout en évitant les coûts excessifs; et
+
+3° un recyclage d'au moins 50 % du poids moyen des autres déchets de piles et d'accumulateurs.
+
+4° Les rendements de recyclage sont calculés conformément au Règlement (UE) no 493/2012 de la Commission du 11 juin 2012 établissant, conformément à la directive 2006/66/CE du Parlement européen et du Conseil, les modalités de calcul des rendements de recyclage des processus de recyclage des déchets de piles et d'accumulateurs.
+
+5° Les déchets de piles et d'accumulateurs exportés hors de la Communauté conformément aux législations en vigueur, ne sont comptabilisés aux fins des obligations et rendements prévus au présent article que s'il existe des preuves tangibles que l'opération de recyclage s'est déroulée dans des conditions équivalentes aux exigences imposées par le présent arrêté.
+
+###### Sous-section 6 - Rapportage
+
+Article 2.4.9.
+
+Dans le cadre des obligations de rapportage visées à l'article 2.2.12, le producteur fournit à l'Institut, avant le 30 avril de chaque année, notamment les données suivantes, afférentes à l'année précédente et par type de piles, portables, industrielles et automobiles:
+
+1° la quantité totale, exprimée en kilos, de déchets de piles et d'accumulateurs collectés en Région de Bruxelles-Capitale, de la manière établie par l'Institut;
+
+2° la quantité totale, exprimée en kilos, par système chimique et en nombre, des piles et d'accumulateurs mis sur le marché;
+
+3° la quantité totale de déchets de piles et d'accumulateurs, exprimés en kilos, ayant été confiés aux installations autorisées pour leur traitement, par type de traitement et par catégorie;
+
+4° la liste des collecteurs, négociants, courtiers et des opérateurs de traitement ayant procédé à la gestion des déchets de piles et accumulateurs;
+
+5° le mode de traitement des déchets de piles et d'accumulateurs par procédé de traitement en ce compris la description qualitative et quantitative des opérations, par processus de traitement;
+
+6° les quantités exprimées en kilos de déchets de piles et accumulateurs en provenance des centres de démantèlement ou de dépollution de déchets d'équipements électriques et électroniques et de véhicules hors d'usage.
+
+###### Sous-section 7 - Plan de prévention et de gestion
+
+Article 2.4.10.
+
+Le producteur stimule les actions de prévention en organisant des campagnes de sensibilisation promouvant une utilisation adéquate des piles et accumulateurs en vue d'optimaliser leur durée de vie et, le cas échéant, en promouvant l'utilisation de piles et accumulateurs portables rechargeables.
+
+###### Sous-section 8 - Information du consommateur
+
+Article 2.4.11.
+
+§ 1 er . Les producteurs de piles et accumulateurs veillent, notamment par des campagnes d'information, à ce que les consommateurs soient parfaitement informés :
+
+1. des effets potentiels des substances utilisées dans les piles et les accumulateurs sur l'environnement et la santé humaine ;
+
+2. de l'intérêt de ne pas éliminer les déchets de piles et d'accumulateurs comme des déchets non triés et de prendre part à leur collecte séparée de manière à en faciliter le traitement et le recyclage ;
+
+3. des systèmes de collecte et de recyclage mis à leur disposition ;
+
+4. du rôle qu'ils ont à jouer dans le recyclage des déchets de piles et d'accumulateurs.
+
+5. De la signification du symbole de la poubelle sur roues barrée d'une croix visé à l'annexe 3 et des symboles chimiques Hg, Cd et Pb
+
+§ 2. Les détaillants veillent à ce que les consommateurs soient informés de la possibilité de se débarrasser des déchets de piles ou accumulateurs portables à leurs points de vente.
+
+§ 3. Les coûts générés par la collecte, le traitement et le recyclage ne sont pas communiqués séparément aux utilisateurs finaux lors de la vente de nouvelles piles et de nouveaux accumulateurs portables.
+
+###### Sous-section 9 - Registre de producteurs
+
+Article 2.4.12.
+
+Chaque producteur de piles ou accumulateurs doit être enregistré au registre des producteurs conformément aux exigences procédurales relatives à l'enregistrement visé à l'annexe 5. L'Institut peut préciser les modalités pratiques de l'enregistrement des producteurs.
+
+##### Section 2 - Des pneus usés
+
+###### Sous-section 1re - Définitions et champ d'application
+
+Article 2.4.13.
+
+§ 1 er . Au sens de la présente section, on entend par :
+
+1° « taux de collecte pour le marché de remplacement » : le pourcentage obtenu en divisant le poids total des pneus usés collectés par le poids total des pneus neufs mis sur le marché durant l'année calendrier concernée, déduction faite du taux d'usure;
+
+2° « taux de collecte des pneus équipant les véhicules neufs » : le pourcentage obtenu en divisant le poids total de pneus usés remis dans les centres enregistrés de démontage ou des centres enregistrés de destruction et de recyclage de véhicules hors d'usage par le poids total des pneus équipant les véhicules neufs mis sur le marché durant l'année calendrier concernée, déduction faite du taux d'usure;
+
+3° « taux global cumulé de réemploi, rechapage et recyclage des pneus usés collectés » : le pourcentage obtenu en divisant le poids total des pneus effectivement réemployés, rechapés et recyclés par le poids total des pneus usés collectés;
+
+4° « taux de recyclage »: le pourcentage obtenu en divisant le poids des pneus usés recyclés par le poids total des pneus usés collectés;
+
+5° « pneu rechapable » : tout pneu usé qui dans l'état où il se trouve ne peut plus être réemployé et dont la bande de roulement peut être remplacée pour qu'il soit réaffecté à son utilisation d'origine;
+
+§ 2. Pour les pneus équipant les véhicules neufs, le producteur est le producteur desdits véhicules.
+
+§ 3. La responsabilité élargie des producteurs s'applique aux pneus usés.
+
+§ 4. L'impact du taux d'usure, visé aux points 1° et 2° du paragraphe 1 er , sur le poids des pneus usés est déterminé sur la base d'une étude menée de manière objective et contradictoire par le producteur, et dont les conclusions sont approuvées par l'Institut.
+
+###### Sous-section 2 - Obligation de reprise
+
+Article 2.4.14.
+
+§ 1 er . Le détaillant reprend gratuitement tout pneu usé présenté par le consommateur à l'achat d'un pneu neuf. Si ce dernier ne remet pas de pneu usé au moment de l'achat, il dispose d'un délai de douze mois pour en remettre avec présentation de la preuve d'achat. De commun accord avec le producteur, le détaillant peut reprendre tout pneu usé qui lui est présenté, sans nécessité d'achat concomitant, dans la limite des quantités qu'il a lui-même achetées durant l'année calendrier précédente.
+
+§ 2. Le distributeur reprend à ses frais, de manière régulière, auprès des détaillants tous les pneus usés réceptionnés, dans la limite des quantités qu'il a lui-même achetées auprès des producteurs durant l'année calendrier précédente.
+
+§ 3. Le producteur reprend à ses frais, de manière régulière, auprès des distributeurs ou à défaut auprès des détaillants et des collecteurs autorisés, tous les pneus usés acceptés, dans la limite des quantités de pneus qu'il a mis à disposition sur le marché.
+
+Il met en place un réseau de collecte gratuite qui comporte un nombre suffisant de points de reprise répartis sur la Région de Bruxelles-Capitale de manière géographiquement équilibrée.
+
+§ 4. Le producteur collecte à ses frais et de manière régulière, tous les pneus usés ménagers collectés par les personnes morales de droit public territorialement responsables de la gestion des déchets ménagers, dans la limite des quantités de pneus qu'il a mis à disposition sur le marché, et les fait traiter dans une installation autorisée.
+
+Une convention entre le producteur et lesdites personnes morales de droit public détermine les conditions d'acceptation et de reprise des pneus usés, notamment le nombre maximum de pneus pouvant être déposés par les ménages dans les parcs à conteneurs.
+
+Le producteur couvre le coût réel et complet de la collecte des pneus usés, pris en charge par les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers.
+
+###### Sous-section 3 - Traitement
+
+Article 2.4.15.
+
+§ 1 er . Les pneus identifiés comme techniquement rechapables soit par le détaillant préalablement à la collecte ou par le collecteur lors du tri obligatoire après collecte sont orientés prioritairement vers des filières de rechapage.
+
+Les pneus repris par les détaillants ainsi que les pneus incorporés dans les véhicules hors d'usage remis dans les centres agréés de démantèlement des véhicules hors d'usage et qui ne sont ni réemployables ni rechapables sont orientés prioritairement vers les filières de recyclage.
+
+§ 2. Les pneus collectés et non réemployés, rechapés ou recyclés sont valorisés énergétiquement.
+
+###### Sous-section 4 - Financement
+
+Article 2.4.16.
+
+Les producteurs des pneus sont responsables du financement de la collecte, du rechapage, du traitement et du recyclage des pneus usés collectés conformément au présent titre.
+
+Ils doivent prendre en charge les coûts des campagnes d'information des consommateurs concernant la prévention, le rechapage, la collecte, le traitement et le recyclage des pneus usés.
+
+###### Sous-section 5 - Taux
+
+Article 2.4.17.
+
+Le producteur est tenu d'atteindre un taux minimum de collecte de 85 %.
+
+Le producteur des pneus équipant les véhicules neufs est tenu de collecter tous les pneus usés des véhicules hors d'usage remis aux installations de démantèlement et de dépollution de véhicules hors d'usage.
+
+Article 2.4.18.
+
+§ 1 er . Le producteur est tenu d'atteindre chaque année un taux global cumulé de minimum 55% de réemploi, rechapage et/ou recyclage des pneus collectés.
+
+§ 2. Le taux de réemploi et le taux de rechapage est de minimum 10%.
+
+###### Sous-section 6 - Rapportage
+
+Article 2.4.19.
+
+Dans le cadre des obligations de rapportage visées à l'article 2.2.12, le producteur fournit à l'Institut, avant le 31 mai de chaque année, notamment les données suivantes, afférentes à l'année précédente:
+
+1° la quantité totale, exprimée en kilos, en unités et par catégorie, de pneus mis sur le marché en distinguant la quantité de pneus respectivement mis sur le marché du remplacement et équipant les véhicules neufs mis sur le marché;
+
+2° la quantité totale, exprimée en kilos et en unités, de pneus usés collectés en Région de Bruxelles-Capitale en faisant la distinction entre les pneus usés collectés via le réseau des personnes morales de droit public, les pneus usés collectés via le réseau de distribution et les pneus usés collectés via les centres autorisés de démantèlement de véhicules hors d'usage;
+
+3° les installations dans lesquelles les pneus usés collectés ont été traités, la description de leur mode de traitement, et le taux de déchets éliminés à l'issue de ces traitements;
+
+4° les quantités totales, exprimées en kilos et en unités, de pneus usés respectivement réemployés, rechapés, recyclés et valorisés énergétiquement;
+
+5 la quantité totale de pneus usés, exprimée en kilos et en unités, provenant des centres de démantèlement de véhicules hors d'usage.
+
+###### Sous-section 7 - Plan de prévention et de gestion
+
+Article 2.4.20.
+
+Les producteurs sont tenus d'établir des mesures de prévention qualitative et quantitative en vue de réduire les nuisances environnementales sans porter atteinte à la sécurité.
+
+###### Sous-section 8 - Information du consommateur
+
+Article 2.4.21.
+
+§ 1 er . Le producteur promeut l'utilisation de pneus présentant un faible impact environnemental, rechapables ou à bande de roulement recreusable et informe les utilisateurs des avantages environnementaux d'acquérir de tels pneus.
+
+§ 2. Les producteurs veillent, notamment par des campagnes d'information, à :
+
+1° la sensibilisation des consommateurs concernant le dispositif de collecte et le traitement des pneus usés;
+
+2° l'information des consommateurs notamment concernant les systèmes de collecte et de recyclage mis à leur disposition, et du rôle qu'ils ont à jouer dans la collecte;
+
+§ 3. Les producteurs veillent à l'efficacité de la filière de reprise des pneus usés, notamment par une information et une sensibilisation des collecteurs et transporteurs, des détaillants et des installations de traitement autorisées.
+
+§ 4. Les initiatives visées aux paragraphes 1 et 2 ont notamment pour objectif de contribuer à :
+
+1° l'utilisation durable des pneus par les utilisateurs;
+
+2° la prolongation de la durée de vie des pneus;
+
+3° la réduction de l'émission de CO2 par l'utilisation adéquate du pneu;
+
+4° la prévention qualitative, par exemple sur la composition du pneu et sa résistance à l'usure;
+
+5° l'information des consommateurs sur les avantages environnementaux liés à l'acquisition de pneus rechapés.
+
+##### Section 3 - Des huiles usagées
+
+###### Sous-section 1re - Définitions et champ d'application
+
+Article 2.4.22.
+
+§ 1 er . Au sens de la présente section, on entend par :
+
+1° « taux de collecte » : le pourcentage obtenu en divisant le poids total des huiles usagées collectées par le poids total des huiles collectables durant l'année calendrier visée;
+
+2° « taux de valorisation par régénération ou autres réemplois »: le pourcentage obtenu en divisant le poids des huiles usagées effectivement valorisées par régénération ou autres réemplois par le poids total des huiles collectées durant l'année calendrier visée;
+
+§ 2. Pour les huiles incorporées dans les véhicules neufs, le producteur est le producteur desdits véhicules.
+
+§ 3. Les quantités d'huiles usagées collectables sont déterminées annuellement sur la base des quantités d'huiles neuves mises sur le marché, en tenant compte des huiles neuves réexportées, des huiles contenues dans les véhicules d'occasion exportés et des pertes lors de l'utilisation des huiles. Le taux de perte lors de l'utilisation des huiles est déterminé à l'issue d'une étude menée de manière objective et contradictoire par le producteur, et dont les conclusions sont approuvées par l'Institut. Les quantités d'huiles contenues dans les véhicules d'occasion exportés sont déterminées sur la base d'une estimation annuelle du nombre de véhicules exportés par le producteur de véhicules.
+
+Article 2.4.23.
+
+La responsabilité élargie des producteurs s'applique aux huiles usagées ménagères et autres que ménagères.
+
+###### Sous-section 2 - Obligation de reprise
+
+Article 2.4.24.
+
+§ 1 er . Le producteur est tenu de reprendre gratuitement les huiles usagées remises aux distributeurs et aux détaillants.
+
+Il met en place un réseau de collecte gratuite qui comporte un nombre suffisant de points de reprise répartis sur la Région de Bruxelles-Capitale de manière géographiquement équilibrée.
+
+§ 2. Par dérogation à l'article 2.2.3 du présent titre, les détaillants d'huiles neuves qui affichent à un endroit visible de chacun de leurs points de vente un avis clairement lisible qui informe les consommateurs du réseau de points de collecte mis en place par les producteurs, ne sont pas tenus de reprendre les huiles usagées ménagères qui leur sont présentées par un consommateur.
+
+§ 3. Le producteur est tenu de reprendre gratuitement et de faire traiter, dans une installation autorisée, les huiles usagées ménagères et qui sont collectées par les personnes morales de droit public territorialement responsables de la gestion des déchets ménagers.
+
+§ 4. Par dérogation à l'article 2.2.3 § 1 er , le distributeur et le détaillant visés au présent article ne sont pas tenus de remettre au producteur les déchets qu'ils ont acceptés.
+
+§ 5. La collecte des huiles usagées professionnelles est effectuée par leur remise par les utilisateurs autres que les ménages à des collecteurs autorisés, installations de collecte ou de traitement autorisées.
+
+§ 6. Le producteur est tenu de reprendre l'ensemble des huiles usagées collectées auprès des centres de démontage et des centres de destruction et de recyclage de véhicules hors d'usage.
+
+###### Sous-section 3 - Traitement
+
+Article 2.4.25.
+
+Le producteur garantit que les huiles usagées sont valorisées en priorité par régénération ou réemploi, dans le respect du taux visé à l'article 2.4.29.
+
+Pour le surplus, les huiles usagées sont traitées par voie de valorisation énergétique dans une installation autorisée.
+
+###### Sous-section 4 - Financement
+
+Article 2.4.26.
+
+§ 1 er . Les producteurs d'huiles sont responsables du financement de la collecte, du traitement et du recyclage de toutes les huiles usagées.
+
+Ils doivent prendre en charge les coûts des campagnes d'information des consommateurs concernant la prévention, la collecte, le traitement et le recyclage des huiles usagées.
+
+Le producteur couvre le coût réel et complet de la collecte, du tri et du traitement des déchets d'huiles usagées, pris en charge par les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers.
+
+§ 2. Le producteur rembourse de manière forfaitaire aux utilisateurs autres que les ménages les frais éventuels exposés dans le cadre de la reprise des déchets visée à l'article 2.4.24.
+
+Le producteur peut rembourser aux collecteurs, négociants, courtiers et/ou aux opérateurs de traitement les frais de fourniture des données nécessaires au rapportage.
+
+Article 2.4.27.
+
+Lorsque les huiles usagées ménagères et collectées par les personnes morales de droit public sont contaminées avec des PCB's ou d'autres substances indésirables, le surcoût de traitement de ce liquide est supporté par les producteurs au prorata des quantités qu'ils mettent sur le marché et à concurrence d'un volume maximal annuel convenu par les producteurs et l'Institut ou les personnes morales de droit public territorialement responsables de la gestion des déchets ménagers
+
+Une contribution financière de l'utilisateur professionnel ou du détenteur d'huiles usagées autres que ménagères peut être exigée si les huiles usagées ont été mélangées avec des solvants, produits de nettoyage, détergents, antigel, PCB/PCT, d'autres combustibles ou matières. La contribution est limitée au surcoût de gestion.
+
+###### Sous-section 5 - Taux
+
+Article 2.4.28.
+
+Le producteur est tenu d'atteindre un taux de collecte de minimum 90%.
+
+Article 2.4.29.
+
+Le producteur est tenu d'atteindre un taux minimum de 85% de régénération, recyclage ou autres réemplois des huiles usagées.
+
+Les huiles collectées sont traitées afin d'atteindre un taux maximum de 15% comme utilisation principale comme combustible ou autre moyen de produire de l'énergie.
+
+###### Sous-section 6 - Rapportage
+
+Article 2.4.30.
+
+Le producteur fournit à l'Institut avant le 31 mai de chaque année, conformément à l'article 2.2.12et en ce qui concerne l'année civile écoulée :
+
+1° la quantité totale, exprimée en kilos, des huiles mises sur le marché, en faisant la distinction entre les huiles destinées aux ménages et les huiles destinées à des utilisateurs professionnels et suivant une ventilation déterminée par l'Institut ;
+
+2° une estimation des pertes découlant de l'utilisation des huiles;
+
+3° la quantité totale, exprimée en kilos, d'huiles usagées collectées en Région de Bruxelles-Capitale, en faisant la distinction entre les huiles destinées aux ménages et les huiles destinées aux utilisateurs professionnels et suivant une ventilation déterminée par l'Institut;
+
+4° les installations dans lesquelles les huiles usagées collectées ont été traitées et la description de leur mode de traitement;
+
+5° les quantités totales, exprimées en kilos, d'huiles usagées entrant respectivement dans des filières de régénération, d'autres réemplois des huiles et de valorisation énergétique;
+
+6° les quantités totales, exprimées en kilos, d'huiles de base et des autres composants issus respectivement de la régénération et des autres réemplois des huiles usagées;
+
+7° la quantité totale, exprimée en kilos, de déchets issus du traitement d'huiles usagées, qui doivent être éliminés;
+
+8° les données nécessaires à l'évaluation des actions de prévention et au calcul des indicateurs de résultats.
+
+###### Sous-section 7 - Plan de prévention et de gestion
+
+Article 2.4.31.
+
+§ 1 er . Le producteur contribue à l'efficacité des activités de collecte et de traitement des huiles usagées, notamment par une sensibilisation des garagistes, des collecteurs, des transporteurs et des installations de traitement.
+
+§ 2. Le producteur est tenu d'établir et de mettre en oeuvre des mesures de prévention des déchets incluant notamment le développement et la promotion de l'utilisation d'huiles biodégradables pour les applications en lubrification perdue telles que les huiles de décoffrage, les huiles de tronçonneuse et les bio-lubrifiants dans les applications liées aux eaux de surface.
+
+§ 3. Le producteur met en oeuvre des mesures promouvant la remise des huiles usagées aux points de collecte et la nécessité de ne pas les mélanger à d'autres matières.
+
+###### Sous-section 8 - Information du consommateur
+
+Article 2.4.32.
+
+Les producteurs informent les consommateurs, notamment par des campagnes d'information, sur :
+
+1. les effets potentiels des huiles usagées sur l'environnement et la santé humaine;
+
+2. les modes d'utilisation optimale des huiles;
+
+3. l'interdiction de mélanger des huiles usagées avec des PCB's ou avec d'autres déchets dangereux, d'ajouter ou de mélanger à des huiles usagées toute substance étrangère;
+
+4. les systèmes de collecte et de valorisation mis à leur disposition et du rôle qu'ils ont à jouer dans la valorisation des huiles usagées
+
+5. les avantages et possibilités d'utiliser des huiles biodégradables.
+
+##### Section 4 - Des véhicules hors d'usage
+
+###### Sous-section 1re - Définitions et champ d'application
+
+Article 2.4.33.
+
+Au sens de la présente section, on entend par:
+
+1° « taux de réemploi et de recyclage » : le pourcentage obtenu en divisant le poids relatif des composants des véhicules hors d'usage réemployés et recyclés par le poids total des véhicules hors d'usage collectés;
+
+2° « taux de réemploi et de valorisation » : le pourcentage obtenu en divisant le poids relatif des composants des véhicules hors d'usage réemployés et valorisés par le poids total des véhicules hors d'usage collectés;
+
+3 « traitement »: toute activité intervenant après que le véhicule hors d'usage ait été remis à une installation de dépollution, de démontage, de découpage, de broyage, de valorisation ou de préparation à l'élimination des déchets broyés ainsi que toute autre opération effectuée en vue de la valorisation et/ou de l'élimination du véhicule hors d'usage et de ses composants;
+
+4° « broyage »: dispositif utilisé pour couper en morceaux ou fragmenter les véhicules hors d'usage, y compris en vue d'obtenir des ferrailles directement utilisables;
+
+5° « véhicule »: tout véhicule au sens de l'arrêté du 15 avril 2004 relatif à la gestion des véhicules hors d'usage.
+
+Article 2.4.34.
+
+La responsabilité élargie des producteurs s'applique aux véhicules et aux véhicules hors d'usage, y compris leurs composants et matériaux. Pour les produits soumis à responsabilité élargie du producteur en vertu du présent arrêté incorporés dans les véhicules neufs au moment de leur mise sur le marché, le producteur est le producteur desdits véhicules.
+
+###### Sous-section 2 - Obligation de reprise
+
+Article 2.4.35.
+
+§ 1 er . Le propriétaire ou détenteur d'un véhicule hors d'usage est tenu de remettre son véhicule hors d'usage à un point de reprise conformément au § 2 du présent article.
+
+§ 2. Le réseau de points de reprise comporte un nombre de points de reprise suffisant et réparti sur la Région de Bruxelles-Capitale de manière géographiquement équilibrée.
+
+Ce réseau est détaillé dans le plan individuel de prévention et de gestion, la demande d'agrément ou la convention environnementale.
+
+Ce réseau est composé de garages, de centres de démantèlement et de dépollution et d'installations de collecte, tri ou récupération de véhicules hors d'usage, autorisés par la Région de Bruxelles-Capitale.
+
+Article 2.4.36.
+
+§ 1 er . Le détaillant est tenu soit de reprendre gratuitement tout véhicule hors d'usage qui lui est présenté et provenant d'une marque qu'il met à disposition sur le marché, soit de désigner au détenteur le point de reprise, lorsqu'il n'assure pas lui-même celle-ci.
+
+Le détaillant est tenu de reprendre gratuitement tout véhicule hors d'usage quelle qu'en soit la marque, qui lui est présenté, en cas d'acquisition d'un véhicule de remplacement.
+
+§ 2. Le détaillant délivre un certificat d'acceptation sur le modèle établi par l'Institut, en échange du véhicule hors d'usage accompagné du certificat d'immatriculation, de la plaquette d'identification et, s'il échet, du dernier certificat de contrôle technique. Dans l'attente dudit modèle, le bordereau d'achat ou la facture mentionnant la reprise tient lieu de certificat.
+
+Article 2.4.37.
+
+Le distributeur est tenu de reprendre, à ses frais, de manière régulière auprès des détaillants, tous les véhicules hors d'usage réceptionnés en application de l'article 2.4.36 et de les présenter au producteur.
+
+Article 2.4.38.
+
+§ 1 er . Dans les trois mois de leur reprise par les détaillants, le producteur est tenu de reprendre, à ses frais et de manière régulière, tous les véhicules hors d'usage réceptionnés auprès des distributeurs ou des détaillants, et de les faire traiter dans un centre enregistré de démontage ou un centre enregistré de destruction et de recyclage de véhicules hors d'usage.
+
+§ 2. La reprise d'un véhicule hors d'usage est gratuite pour le détenteur et/ou le propriétaire du véhicule pour autant que les conditions cumulatives suivantes soient rencontrées :
+
+1° le véhicule hors d'usage contient tous les composants indispensables au fonctionnement d'un véhicule;
+
+2° le véhicule hors d'usage ne contient pas de déchets étrangers au véhicule hors d'usage. A défaut, des frais peuvent être réclamés sans pouvoir excéder les frais exposés par le producteur du fait du non-respect desdites conditions;
+
+3° le véhicule hors d'usage est accompagné du certificat d'immatriculation, de la plaquette d'identification et, s'il échet, du dernier certificat de contrôle technique;
+
+4° le véhicule hors d'usage est déposé aux points de reprise indiqués par le détaillant ou par le producteur.
+
+§ 3. Le producteur stimule, par tous les moyens en sa possession, la remise des véhicules hors d'usage dans le réseau de points de reprise visés à l'article 2.4.35.
+
+Article 2.4.39.
+
+Dans la mesure où cela est techniquement possible, les producteurs mettent en place des systèmes de collecte des pièces usagées qui constituent des déchets et qui sont retirées des voitures de passagers lorsqu'elles sont réparées.
+
+###### Sous-section 3- Traitement
+
+Article 2.4.40.
+
+§ 1 er . Le traitement des véhicules hors d'usage est régi par l'arrêté du 15 avril 2004 relatif à la gestion des véhicules hors d'usage.
+
+§ 2. Le producteur veille à intensifier le réemploi des composants qui peuvent être réemployés et la valorisation des composants qui ne peuvent être réemployés, en donnant la préférence au recyclage.
+
+§ 3. Les producteurs mettent gratuitement à disposition des centres de dépollution et de démantèlement de véhicules hors d'usage autorisés toutes les informations nécessaires pour permettre le traitement approprié et compatible avec l'environnement des véhicules hors d'usage. Ces informations concernent les différentes pièces et les différents matériaux des véhicules et l'emplacement de toutes les substances dangereuses, et en particulier des métaux lourds, et une indication des outillages nécessaires à leur élimination.
+
+Ces informations sont mises à la disposition des installations de traitement autorisées, par les constructeurs de véhicules et par les producteurs de composants sous forme de manuels ou sous forme électronique.
+
+Les producteurs de pièces de véhicules fournissent, à la demande des centres, des informations à propos du démontage, du stockage et des tests des pièces qui peuvent être réemployées, en tenant compte de la confidentialité des données commerciales et industrielles.
+
+§ 4. Pour les composants suivants des véhicules hors d'usage, les règles décrites ci-dessous sont d'application :
+
+1° Les piles et accumulateurs sont recyclés et valorisés suivant les objectifs et les dispositions de la section 1ère du présent chapitre;
+
+2° Les pneus usés sont recyclés et valorisés suivant les objectifs et les dispositions de la section 2 du présent chapitre;
+
+3° Les huiles usagées sont recyclées et valorisées suivant les objectifs et les dispositions de la section 3 du présent chapitre.
+
+###### Sous-section 4 - Financement
+
+Article 2.4.41.
+
+Les producteurs des véhicules sont responsables du financement de la collecte, du traitement et du recyclage de tous les véhicules hors d'usage.
+
+Ils doivent prendre en charge les coûts des campagnes d'information des consommateurs concernant la prévention, la collecte, le traitement et le recyclage des véhicules hors d'usage.
+
+###### Sous-section 5 - Taux
+
+Article 2.4.42.
+
+Les objectifs suivants sont atteints par les producteurs en matière de traitement des véhicules hors d'usage :
+
+a) taux de réemploi et de valorisation de 95 %;
+
+b) taux de réemploi et de recyclage de 85 %.
+
+###### Sous-section 6 - Rapportage
+
+Article 2.4.43.
+
+§ 1 er . Le producteur fournit à l'Institut avant le 31 mai de chaque année, conformément à l'article 2.2.12 du présent titre et en ce qui concerne l'année civile écoulée:
+
+1° la quantité totale, exprimée en kilos et en nombre, des véhicules hors d'usage qui ont été collectés dans le cadre de l'obligation de reprise;
+
+2° les installations au sein desquelles sont traités les véhicules hors d'usage ainsi que les résidus de leur traitement et les modes de traitement;
+
+3° des données permettant à l'Institut d'évaluer le réemploi des pièces usagées qui ont été démontées des véhicules hors d'usage ;
+
+4° les quantités, exprimées en kilos, de déchets respectivement réemployés, recyclés, valorisés et éliminés, et attestées par les certificats des installations visés au 2° ;
+
+§ 2. L'Institut peut réclamer au détaillant, au distributeur et au producteur toute information complémentaire qu'il juge utile pour l'appréciation des objectifs définis conformément à la présente section.
+
+§ 3. Le producteur peut établir un seul rapport pour tous les flux de déchets liés aux véhicules qu'il met sur le marché. Ce rapport tient compte des obligations spécifiques à chacun de ces flux.
+
+###### Sous-section 7 - Plan de prévention et de gestion
+
+Article 2.4.44.
+
+Les producteurs sont tenus d'établir des mesures de prévention qualitative et quantitative en vue de réduire les nuisances environnementales sans porter atteinte à la sécurité.
+
+###### Sous-section 8 - Information du consommateur
+
+Article 2.4.45.
+
+§ 1 er . Les producteurs veillent, notamment par des campagnes régulières d'information et des actions de sensibilisation, à ce que les utilisateurs, détaillants et distributeurs soient informés des systèmes de collecte et de traitement mis en place, et du rôle qu'ils ont à jouer dans la gestion des véhicules hors d'usage.
+
+§ 2. Les producteurs veillent à l'efficacité et la sécurité des activités de collecte et de traitement des véhicules hors d'usage, notamment par des actions de sensibilisation vis-à-vis des opérateurs.
+
+Les producteurs peuvent établir des mesures de communication globales pour tous les flux apparentés aux véhicules.
+
+§ 3. Les producteurs mettent gratuitement à disposition de tous les centres de traitement autorisés, les informations nécessaires au traitement et à la dépollution des véhicules hors d'usage, y compris la localisation des substances dangereuses et des métaux lourds à éliminer et une indication des outillages nécessaires et toutes les informations concernant les substances dangereuses et plus particulièrement les métaux lourds.
+
+##### Section 5 - Des déchets d'équipements électriques et électroniques
+
+###### Sous-section 1re - Définitions et champ d'application
+
+Article 2.4.46.
+
+§ 1 er . Au sens de la présente section, on entend par :
+
+1° « producteur » : le producteur au sens de l'article 1.1, § 1, 10°, à l'exception du point d) de cette définition, qui est remplacé de la manière suivante : " d) vend des produits par communication à distance directement aux ménages et à des utilisateurs autres que les ménages, en Belgique, et est établie dans un autre Etat membre ou un pays tiers";
+
+2° « gros outils industriels fixes » : un ensemble de grande ampleur de machines, d'équipements et/ou de composants, qui fonctionnent ensemble pour une application spécifique, installés de façon permanente et démontés par des professionnels dans un lieu donné, et utilisés et entretenus par des professionnels dans un centre de fabrication industrielle ou un établissement de recherche et développement;
+
+3° « grosse installation fixe » : une combinaison de grande ampleur de plusieurs types d'appareils et, le cas échéant, d'autres dispositifs, qui :
+
+i. sont assemblés, installés et démontés par des professionnels;
+
+ii. sont destinés à être utilisés de façon permanente comme partie intégrante d'une construction ou d'une structure à un endroit prédéfini et dédié; et
+
+iii. ne peuvent être remplacés que par le même équipement spécifiquement conçu.
+
+4° « engins mobiles non routiers » : engins disposant d'un bloc d'alimentation embarqué, dont le fonctionnement nécessite soit la mobilité, soit un déplacement continu ou semi- continu entre une succession d'emplacements de travail fixes pendant le travail;
+
+5° « dispositif médical » : un dispositif médical ou accessoire d'un dispositif médical au sens de l'article 1 er , § 2, 1° de l'arrêté royal du 18 mars 1999 relatif aux dispositifs médicaux et qui est un Equipement Eléctrique et Electronique (EEE);
+
+6° « dispositif médical de diagnostic in vitro » : un dispositif médical de diagnostic in vitro ou accessoire d'un dispositif médical de diagnostic in vitro au sens de l'article 1 er , § 2, 2° de l'arrêté royal du 14 novembre 2001 relatif aux dispositifs médicaux de diagnostic in vitro et qui est un EEE;
+
+7° « dispositif médical implantable actif » : un dispositif médical implantable actif au sens de l'article 1 er , § 1 er , alinéa 2, 3° de l'arrêté royal du 15 juillet 1997 relatif aux dispositifs médicaux implantables actifs et qui est un EEE;
+
+8° « DEEE de très petite dimension » : DEEE dont toutes les dimensions extérieures sont inférieures ou égales à 25 cm;
+
+§ 2. La présente section s'applique aux DEEE issus, en Région de Bruxelles-Capitale, des EEE mis sur le marché et de la manière définie dans le présent article.
+
+Jusqu'au 14 août 2018, les appareils auxquels s'applique la présente section sont à classer dans les catégories suivantes :
+
+1. gros appareils ménagers
+
+2. petits appareils ménagers
+
+3. équipements informatiques et de télécommunications
+
+4. matériel grand public et panneaux photovoltaïques
+
+5. matériel d'éclairage
+
+6. outils électriques et électroniques (à l'exception des gros outils industriels fixes)
+
+7. jouets, équipements de loisir et de sport
+
+8. dispositifs médicaux (à l'exception de tous les produits implantés ou infectés)
+
+9. instruments de surveillance et de contrôle
+
+10. distributeurs automatiques
+
+L'annexe 1recontient une liste indicative d'EEE relevant des catégories énumérées au présent paragraphe.
+
+§ 3. A compter du 15 août 2018, la présente section s'applique à tous les EEE. Ceux-ci sont classés dans les catégories suivantes :
+
+1. équipements d'échange thermique
+
+2. écrans, moniteurs et équipements comprenant des écrans d'une surface supérieure à 100 cm2
+
+3. lampes
+
+4. gros équipements
+
+5. petits équipements (dont toutes les dimensions extérieures sont inférieures ou égales à 50 cm).
+
+6. petits équipements informatiques et de télécommunications (dont toutes les dimensions extérieures sont inférieures ou égales à 50 cm)
+
+L'annexe 2 contient une liste indicative d'EEE relevant des catégories énumérées au présent paragraphe.
+
+§ 4. Le régime de responsabilité élargie du producteur ne s'applique pas aux EEE suivants :
+
+1. les équipements qui sont nécessaires à la protection des intérêts essentiels de sécurité des Etats membres, y compris les armes, les munitions et le matériel de guerre destinés à des fins spécifiquement militaires ;
+
+2. les équipements qui sont spécifiquement conçus et installés pour s'intégrer dans un autre type d'équipement exclu du champ d'application de la présente section ou n'en relevant pas, et qui ne peuvent remplir leur fonction que s'ils font partie de cet équipement ;
+
+3. les ampoules à filament ;
+
+4. les équipements destinés à être envoyés dans l'espace ;
+
+5. les gros outils industriels fixes ;
+
+6. les grosses installations fixes, à l'exception de tout équipement qui est présent dans de telles installations, mais n'est pas spécifiquement conçu et monté pour s'intégrer dans lesdites installations tels que par exemple le matériel d'éclairage ou les panneaux photovoltaïques ;
+
+7. les moyens de transport de personnes ou de marchandises, à l'exception des véhicules électriques à deux roues qui ne sont pas homologués ;
+
+8. les engins mobiles non routiers destinés exclusivement à un usage professionnel ;
+
+9. les équipements spécifiquement conçus aux seules fins de recherche et de développement, et qui sont disponibles uniquement dans un contexte interentreprises ;
+
+10. les dispositifs médicaux et les dispositifs médicaux de diagnostic in vitro, lorsque ces dispositifs deviennent normalement infectieux avant la fin de leur cycle de vie, ainsi que les dispositifs médicaux implantables actifs.
+
+§ 5. (...)
+
+------------
+
+- § 4 remplacé par l'art. 1.14, a) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 5 abrogé par l'art. 1.14, b) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.47.
+
+La présente section s'applique sans préjudice des exigences de la législation en matière de sécurité et de santé, et de produits chimiques, en particulier le règlement (CE) n° 1907/2006 du Parlement européen et du Conseil du 18 décembre 2006 concernant l'enregistrement, l'évaluation et l'autorisation des substances chimiques, ainsi que les restrictions applicables à ces substances (REACH).
+
+Article 2.4.48.
+
+La présente section a pour but de réduire au minimum l'élimination des DEEE sous la forme de déchets non triés, à assurer le traitement adéquat de tous les DEEE collectés et atteindre un niveau élevé de collecte séparée des DEEE, notamment, et en priorité, pour les équipements d'échange thermique qui contiennent des substances appauvrissant la couche d'ozone et des gaz fluorés à effet de serre, les lampes fluorescentes contenant du mercure, les panneaux photovoltaïques et les petits équipements électriques et électroniques tel que visés aux catégories 5 et 6 de l'annexe 2.
+
+###### Sous-section 2 - Obligation de reprise
+
+Article 2.4.49.
+
+§ 1 er . Le détaillant est tenu de reprendre gratuitement et sur la base d'un pour un du consommateur tout DEEE domestique qu'il lui présente, pour autant que ce déchet corresponde à un appareil remplissant des fonctions équivalentes que celui acheté par ce consommateur ou assurant les mêmes fonctions, et ce quels que soient les modalités de vente et le mode de livraison/d'enlèvement de l'équipement.
+
+En vue d'atteindre les objectifs de collecte définis à l'article 2.4.59, les détaillants assurent, dans les magasins de détail disposant d'espaces de vente consacrés aux EEE d'une surface d'au moins 400 m2, la reprise des DEEE de très petite dimension gratuitement pour les consommateurs et sans obligation d'acheter des EEE remplissant les mêmes fonctions. Le détaillant place son récipient de collecte à un endroit suffisamment visible dans son espace de vente ou dans sa proximité immédiate.
+
+L'obligation visée à l'alinéa précédent peut être levée si une étude, approuvée par l'Institut, démontre que des alternatives peuvent permettre d'atteindre les mêmes performances en termes de collecte de petits DEEE à moindre coût. Ces évaluations sont rendues publiques.
+
+§ 2. Le détaillant conserve les DEEE tels qu'ils lui ont été remis par les consommateurs, en vue de les confier au distributeur ou au producteur. Il ne peut démonter les appareils et/ou en séparer les différentes parties, sauf pour fournir occasionnellement des pièces de rechange à ses clients dans le cadre d'un service de réparation qu'il procure.
+
+§ 3. Le distributeur ou le producteur le cas échéant, est tenu de reprendre à ses frais, de manière régulière et sur place, auprès des détaillants tous les DEEE repris en application du paragraphe 1 er . le distributeur présente les déchets repris au producteur.
+
+§ 4. Les DEEE domestiques sont repris gratuitement dans les parcs à conteneurs.
+
+§ 5. Le producteur est tenu de reprendre à ses frais et de manière régulière tous les DEEE collectés par les détaillants, les distributeurs, les entreprises à finalité sociale et les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers.
+
+Il met gratuitement les conditionnements et autres moyens de collecte nécessaires à la disposition de tous les points de collecte avec lesquels un contrat est conclu en vue de la reprise des DEEE domestiques. Les moyens de collecte tiennent compte des capacités de stockage des détaillants, distributeurs et parcs à conteneurs, et veillent à optimiser la sécurité des stockages, la préparation en vue du réemploi et le réemploi.
+
+§ 6. Par dérogation aux paragraphes 1 à 6 du présent article, la reprise des DEEE domestiques peut être refusée par le producteur, le distributeur ou le détaillant, si :
+
+1° les équipements ne comprennent pas tous les composants essentiels au fonctionnement de ceux-ci;
+
+2° les équipements contiennent des déchets étrangers aux équipements ;
+
+3° les équipements contiennent des éléments qui, à la suite d'une contamination, présentent un risque pour la santé ou la sécurité de son personnel.Dans ce cas, le producteur, le distributeur ou le détaillant informent le détenteur du DEEE domestique refusé des solutions alternatives de reprise auprès de collecteurs, négociants, courtiers ou d'installations de traitement autorisés pour la gestion des déchets dangereux, conformément aux règles prescrites par ou en vertu de l'ordonnance déchets.
+
+------------
+
+- § 6, 3° complété par l’art. 2 de l’arrêté du 06.06.2019 (M.B. 05.08.2019). Entrée en vigueur le 15.08.2019
+
+Article 2.4.50.
+
+Les producteurs assurent la collecte des DEEE professionnels.
+
+Article 2.4.51.
+
+§ 1 er . Les DEEE collectés séparément sont triés en équipements réemployables et équipements non réemployables. Les producteurs garantissent l'accès au gisement de DEEE aux centres de préparation en vue du réemploi avec lesquels ils ont conclu un contrat définissant les modalités entourant le réemploi et la préparation en vue du réemploi des DEEE.
+
+La priorité est donnée au réemploi et à la préparation en vue du réemploi des DEEE, si ces équipements satisfont aux critères de réemploi définis à l'article 4.1.2 et à l'annexe 4.
+
+Un modèle de contrat conclu avec les centres de préparation en vue du réemploi est soumis à l'approbation de l'Institut.
+
+§ 2. Les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers stimulent le réemploi et la préparation en vue du réemploi des DEEE, notamment en concluant une convention avec une ou plusieurs entreprises à finalité sociale et avec l'accord préalable des producteurs. Cette convention contient au minimum des dispositions relatives à la sensibilisation du consommateur au réemploi et à l'accès au gisement collecté. Une sélection en vue du réemploi est opérée sur l'ensemble des déchets collectés par les personnes morales de droit public.
+
+§ 3. En collaboration avec les personnes morales de droit public et/ou avec une ou plusieurs entreprises à finalité sociale, les producteurs, peuvent organiser des canaux de collecte complémentaires visant à améliorer la sensibilisation du consommateur, la collecte séparée, le réemploi et la préparation en vue du réemploi des DEEE en Région de Bruxelles-Capitale.
+
+Article 2.4.52.
+
+Le producteur est tenu d'assurer que la collecte et le transport des DEEE, collectés séparément conformément à la présente section, soient réalisés de manière à assurer des conditions optimales de préparation en vue du réemploi, de recyclage et de confinement des substances dangereuses.
+
+###### Sous-section 3- Traitement
+
+Article 2.4.53.
+
+§ 1 er . Le producteur est tenu d'assurer que les DEEE qu'il collecte dans le cadre de la présente section soient stockés, triés, valorisés, recyclés et traités dans une installation autorisée, dans le respect des exigences du chapitre 1 du titre IV du présent arrêté.
+
+§ 2. L'opération de traitement peut également être entreprise en dehors de l'Etat belge, pour autant que le transfert des DEEE soit conforme au règlement (CE) n° 1013/2006.
+
+###### Sous-section 4 - Financement
+
+Article 2.4.54.
+
+§ 1 er . S'agissant d'EEE domestiques et qui auront été mis sur le marché après le 13 août 2005, chaque producteur sera responsable de la collecte auprès des parcs à conteneurs, des distributeurs ou des détaillants et du traitement des déchets de ses propres produits.
+
+§ 2. S'agissant d'EEE domestiques et qui ont été mis sur le marché avant le 13 août 2005 (« déchets historiques »), la gestion sera assurée par un ou plusieurs systèmes auxquels cotiseront tous les producteurs présents sur le marché au moment de la naissance des coûts concernés, et ce proportionnellement à leur part de marché respective par type d'équipements concernés.
+
+Article 2.4.55.
+
+§ 1 er . Les frais de gestion des DEEE professionnels issus de produits mis sur la marché avant le 13 août 2005, sont assurés de la manière suivante:
+
+1° par le producteur lorsqu'ils font l'objet d'un remplacement par un produit équivalent ou par un produit assurant les mêmes fonctions. A titre supplétif, le gouvernement peut déterminer que les utilisateurs professionnels prennent aussi en charge tout ou partie de ces frais;
+
+2° par l'utilisateur professionnel, dans les autres cas.
+
+§ 2. Les frais de gestion des DEEE professionnels mis sur le marché après le 13 août 2005 sont pris en charge par le producteur.
+
+§ 3. Les producteurs et les utilisateurs de DEEE professionnels peuvent conclure des accords stipulant d'autres méthodes de financement.
+
+Article 2.4.56.
+
+Les producteurs prennent les mesures nécessaires pour garantir que des mécanismes ou procédures appropriés sont mis en place pour le remboursement aux producteurs de leurs contributions lorsque des EEE sont transférés en vue de leur mise sur le marché en dehors du territoire belge.
+
+Article 2.4.57.
+
+Lorsqu'il met un produit sur le marché, chaque producteur fournit une garantie montrant que la gestion de l'ensemble des DEEE sera financée. L'objectif de cette garantie est d'assurer que les opérations de collecte, de traitement, de valorisation et d'élimination respectueuse de l'environnement des DEEE domestiques déposés dans les installations de collecte, et relatives à ce produit seront financées. La garantie peut prendre la forme d'une participation du producteur à des systèmes appropriés de financement de la gestion des DEEE, d'une assurance-recyclage ou d'un compte bancaire bloqué.
+
+Article 2.4.58.
+
+Sauf dérogation expresse approuvée par l'Institut, les producteurs informent les détaillants et les distributeurs, lors de la vente de nouveaux produits, du coût de la collecte, du traitement et de l'élimination respectueuse de l'environnement en indiquant ce coût sur la facture.
+
+Sous-section 5 - Taux
+
+Article 2.4.59.
+
+Le producteur atteint les objectifs suivants, portant sur la collecte des DEEE:
+
+1° Le taux de collecte minimal est fixé à 4 kilos de DEEE domestiques par habitant et par an;
+
+2° A partir de 2016, le taux de collecte minimal est fixé à 45 % et calculé sur la base du poids total de DEEE collectés sur le territoire et exprimé en pourcentage du poids moyen des équipements mis sur le marché au cours des trois années précédentes.
+
+Les producteurs veillent à ce que le volume de DEEE collectés progresse graduellement pendant la période de 2016 à 2019, à moins que le taux de collecte visé au paragraphe 3 n'ait déjà été atteint.
+
+3° A partir de 2019, le taux de collecte minimal des DEEE à atteindre annuellement est de 65 % du poids moyen d'EEE mis sur le marché au cours des trois années précédentes ou de 85 % des DEEE produits sur le territoire, en poids.
+
+Les quantités rapportées par les collecteurs, négociants, courtiers, les centres de préparation au réemploi, les notifiant au sens du règlement (CE) n° 1013/2006, qui gèrent des DEEE en dehors des canaux de collecte mis en place par le producteur, conformément aux articles 4.1.9 à 4.1.14, sont pris en compte pour l'atteinte des objectifs visés au présent article.
+
+Article 2.4.60.
+
+§ 1 er . Le producteur atteint les objectifs de valorisation, de réemploi et de recyclage suivants:
+
+1° Du 13 août 2012 au 14 août 2018, les objectifs minimaux applicables par catégorie pour les catégories énumérées à l'article 2.4.46, § 2:
+
+a. pour les DEEE relevant des catégories 1 ou 10 de l'annexe 1re:
+
+- 85 % sont valorisés, et
+
+- 80 % sont préparés en vue du réemploi et recyclés;
+
+b. pour les DEEE relevant des catégories 3 ou 4 de l'annexe 1re:
+
+- 80 % sont valorisés, et
+
+- 70 % sont préparés en vue du réemploi et recyclés;
+
+c. pour les DEEE relevant des catégories 2, 5, 6, 7, 8 ou 9 de l'annexe 1re:
+
+- 75 % sont valorisés, et
+
+- 55 % sont préparés en vue du réemploi et recyclés;
+
+d. pour les lampes à décharge, 80 % sont recyclés.
+
+2° A compter du 15 août 2018, les objectifs minimaux applicables par catégorie pour les catégories énumérées à l'article 2.4.46, § 3 :
+
+a. pour les DEEE relevant des catégories 1 ou 4 de l'annexe 2:
+
+- 85 % sont valorisés, et
+
+- 80 % sont préparés en vue du réemploi et recyclés;
+
+b. pour les DEEE relevant de la catégorie 2 de l'annexe 2:
+
+- 80 % sont valorisés, et
+
+- 70 % sont préparés en vue du réemploi et recyclés;
+
+c. pour les DEEE relevant des catégories 5 ou 6 de l'annexe 2 :
+
+- 75 % sont valorisés, et
+
+- 55 % sont préparés en vue du réemploi et recyclés;
+
+pour les DEEE relevant de la catégorie 3 de l'annexe 2, 80 % sont recyclés.
+
+§ 2. Les taux de réemploi et de recyclage des composants issus du démontage et du traitement repris dans le tableau ci-dessous doivent par ailleurs être atteints :
+
+Composant Recyclage
+
+Métaux ferreux 95 %.
+
+Métaux non ferreux 95 %.
+
+Matières synthétiques 50 %
+
+Les matières synthétiques sont valorisées à 80%.
+
+Les piles et accumulateurs sont recyclés et valorisés suivant les objectifs et les dispositions du chapitre 4, section 1ère du présent titre.
+
+§ 3. La réalisation de ces objectifs est calculée, pour chaque catégorie, en divisant le poids des DEEE valorisés recyclés ou préparés en vue du réemploi, après un traitement approprié conformément à l'article 4.1.3 à 4.1.4 en ce qui concerne la valorisation ou le recyclage, par le poids de l'ensemble des DEEE collectés séparément pour cette catégorie.
+
+Les activités préliminaires comme le tri et le stockage préalables à la valorisation ne sont pas comptabilisées pour la réalisation de ces objectifs.
+
+§ 4. Les DEEE exportés hors de l'Union ne sont comptabilisés pour l'exécution des obligations et la réalisation des objectifs énoncés de la présente section que si, en conformité avec les règlements (CE) n° 1013/2006 et (CE) n° 1418/2007, l'exportateur est en mesure de prouver que le traitement s'est déroulé dans des conditions équivalentes aux exigences définies dans le titre III du présent arrêté.
+
+§ 5. En vue de calculer ces objectifs, les producteurs sont tenus d'assurer que soient consignés dans des registres le poids des DEEE, de leurs composants, matériaux ou substances lorsqu'ils quittent (output) les installations de collecte, lorsqu'ils entrent (input) dans les installations de traitement et lorsqu'ils les quittent (output), lorsqu'ils entrent (input) dans l'installation de valorisation ou de recyclage/de préparation en vue du réemploi et lorsqu'ils les quittent (output).
+
+###### Sous-section 6 - Rapportage
+
+Article 2.4.61.
+
+Dans le cadre des obligations de rapportage visées à l'article 2.2.12, le producteur fournit à l'Institut, avant le 31 mai de chaque année, notamment les données suivantes, afférentes à l'année précédente:
+
+1° la quantité totale, exprimée en kilogrammes et en nombre, d'EEE mis sur le marché, par catégorie et par sorte (domestique ou professionnel);
+
+2° la quantité totale, exprimée en kilogrammes et en nombre, par catégorie conformément à l'article 2.4.46 et par sorte (domestique ou professionnel), de DEEE collectés en Région de Bruxelles-Capitale dans le cadre de la responsabilité élargie du producteur ;
+
+3° la quantité totale, exprimée en kilogrammes et en nombre, par catégorie et par sorte, de DEEE, de leurs composants, matières ou substances qui entrent (input) et qui sortent (output) des installations de pré-traitement et de traitement, de recyclage ou de valorisation;
+
+4° la quantité totale, exprimée en kilogrammes et en nombre, par catégorie et par sorte (domestique ou professionnel), de DEEE préparés au réemploi par les centres de préparations en vue du réemploi visés à l'article 2.4.65;
+
+5° les quantités totales valorisées et éliminées, par flux de matériaux (ferreux, non ferreux, plastiques, autres) provenant du traitement des DEEE, exprimées en kilogrammes, par catégorie et par sorte (domestique ou professionnel);
+
+6° la quantité totale de déchets dangereux par catégorie et par sorte (domestique ou professionnel), exprimée en poids et en type;
+
+7° une évaluation de la composition moyenne des équipements, en ce compris les substances et composants dangereux utilisés;
+
+8° la liste des opérateurs de collecte et de traitement, des centres de préparation en vue du réemploi, ainsi que les modes de traitement et leur description à l'exception des données à caractère confidentiel;
+
+9° les mesures mises en oeuvre pour assurer la traçabilité des flux traités et le respect des objectifs environnementaux et sociaux;
+
+10° le ou les installations au sein desquelles sont traités les DEEE ainsi que les résidus de leurs traitements et le mode de traitement appliqué;
+
+11° les mesures de prévention qui ont été prises en vue :
+
+a) d'améliorer, la réemployabilité , la réparabilité et la recyclabilité des produits mis sur le marché;
+
+b) de diminuer le recours à des matériaux comprenant des substances dangereuses;
+
+c) de recourir à des techniques de production les moins nuisibles possible pour l'environnement;
+
+d) d'encourager les économies de ressources naturelles et d'énergie que ce soit au niveau de la production ou de l'utilisation des équipements;
+
+12° les prévisions de la quantité exprimée en kilogrammes d'EEE mis sur le marché au cours de l'année.
+
+Article 2.4.62.
+
+Les producteurs déterminent les modalités de rapportage en concertation avec les autres acteurs soumis à un rapportage en matière de gestion des DEEE visés aux articles 4.1.9 à 4.1.14. Ces modalités garantissent la confidentialité des données fournies et assurent, l'accès aux informations aux autorités habilitées à exercer des contrôles. Les modalités de rapportage sont soumises à l'approbation de l'Institut qui désigne, sur cette base, une organisation auprès de laquelle ce rapportage doit être effectué.
+
+###### Sous-section 7 - Plan de prévention et de gestion
+
+Article 2.4.63.
+
+§ 1 er . Dans son plan de prévention et de gestion visé à l'article 2.2.9, le producteur est tenu d'élaborer et mettre en oeuvre des mesures de prévention des DEEE, de préparation au réemploi et de réemploi des EEE, visant notamment à:
+
+1° favoriser la conception d'équipements facilement réparables ainsi que la disponibilité des pièces détachées ;
+
+2° assurer la fourniture d'informations nécessaires à la réparation et au réemploi des équipements, notamment aux centres de préparation en vue du réemploi, à première demande du ou des centres concernés;
+
+3° fournir aux acteurs concernés la composition des différents éléments et matériaux des équipements, notamment concernant les substances dangereuses;
+
+4° développer la collaboration en matière de préparation en vue du réemploi et de réemploi avec les opérateurs concernés, notamment les entreprises à finalité sociale;
+
+5° faciliter l'accès au gisement des équipements réemployables afin de favoriser la préparation en vue du réemploi et le réemploi, notamment pour les centres de préparation au réemploi des entreprises à finalité sociale.
+
+§ 2. Le producteur favorise la conception et la production d'EEE en vue de faciliter leur réemploi, leur démantèlement, ainsi que la valorisation des DEEE et de leurs composants et matériaux.
+
+§ 3. Le producteur ne peut empêcher le réemploi des EEE par des caractéristiques de conception particulières ou des procédés de fabrication particuliers, à moins que ces caractéristiques de conception particulières ou ces procédés de fabrication particuliers présentent des avantages déterminants, par exemple en ce qui concerne la protection de l'environnement et/ou les exigences en matière de sécurité.
+
+###### Sous-section 8 - Information du consommateur et des installations de traitement
+
+Article 2.4.64.
+
+Les producteurs, les distributeurs et les détaillants donnent, au moyen de la notice d'utilisation, au point de vente ou dans le cadre de campagnes de sensibilisation, les informations nécessaires au consommateur sur :
+
+1° l'obligation de ne pas se débarrasser des DEEE avec les déchets non triés et de procéder à la collecte séparée des DEEE ;
+
+2° les systèmes de reprise et de collecte mis à leur disposition, encourageant la coordination des informations sur les points de collecte à disposition, quel que soit le producteur ou l'opérateur qui les met en place;
+
+3° leur rôle dans le réemploi, le recyclage et les autres formes de valorisation des DEEE;
+
+4° les effets potentiels sur l'environnement et la santé humaine en raison de la présence de substances dangereuses dans les EEE;
+
+5° la signification du symbole figurant à l'annexe 3.
+
+Article 2.4.65.
+
+§ 1 er . Le producteur communique sur demande et gratuitement, aux centres de préparation en vue du réemploi et aux installations de traitement, les informations relatives à la préparation en vue du réemploi et au traitement des EEE qui relèvent de sa responsabilité.
+
+Pour chaque type de nouvel EEE mis sur le marché, le producteur fournit, gratuitement, dans un délai d'un an après la mise sur le marché de l'équipement, les informations relatives à la préparation au réemploi et au traitement à la disposition des centres de préparation en vue du réemploi et des installations de traitement et de recyclage. Ces informations mentionnent, dans la mesure où cela est nécessaire pour que ces centres puissent se conformer au présent arrêté, les différents composants et matériaux présents dans les EEE, les labels énergétiques, ainsi que l'emplacement des substances ou mélanges dangereux dans ces équipements.
+
+Ces informations sont transmises notamment au moyen de manuels ou de médias électroniques.
+
+Les logiciels de diagnostic et de réinitialisation des EEE, ainsi que leurs mises à jour, sont également mis à disposition par les producteurs. Les producteurs donnent accès aux pièces de rechange.
+
+§ 2. Les producteurs d'EEE organisent au minimum 2 fois par an une concertation avec les installations de traitement, les centres de préparation en vue du réemploi et leurs fédérations en vue de promouvoir le réemploi et d'améliorer la recyclabilité des EEE.
+
+###### Sous-section 9 - Registre des producteurs
+
+Article 2.4.66.
+
+§ 1 er . Chaque producteur, y compris les producteurs qui fournissent des EEE par des moyens de communication à distance, doit être enregistré dans le registre mis à sa disposition par l'organisation désignée à cet effet conformément à l'article 2.4.62. Les producteurs qui fournissent des EEE par des moyens de communication à distance s'enregistrent par l'intermédiaire de leurs mandataires tels que visés à l'article 2.4.67.
+
+§ 2. Le registre visé au paragraphe 1 er du présent article contient toutes les informations utiles, rendant compte des activités du producteur en Belgique, dont notamment les données suivantes :
+
+1. nom et adresse du producteur ou nom et adresse du mandataire lorsqu'il est désigné en vertu du présent article (code postal et localité, rue et numéro, pays, numéros de téléphone et de télécopieur, adresse de courrier électronique, ainsi que personne de contact). Dans le cas d'un mandataire, également les coordonnées du producteur qu'il représente;
+
+2. numéro d'identification national du producteur, y compris numéro d'identification fiscal européen ou national;
+
+3. catégorie de l'EEE, conformément à l'article 2.4.46;
+
+4. type d'EEE (domestique ou destiné à des utilisateurs autres que les ménages);
+
+5. dénomination commerciale de l'EEE;
+
+6. informations relatives à la manière dont le producteur assume ses responsabilités: dans le cadre d'un système individuel ou collectif, y compris informations sur les garanties financières;
+
+7. méthode de vente utilisée (par exemple, vente à distance);
+
+8. déclaration certifiant que les informations fournies sont conformes à la réalité.
+
+§ 3. Le registre visé au paragraphe 1 er est disponible en ligne et des liens y sont mentionnés vers les autres registres nationaux afin de faciliter l'enregistrement des producteurs et mandataires.
+
+------------
+
+- § 3 inséré par l’art. 3 de l’arrêté du 06.06.2019 (M.B. 05.08.2019). Entrée en vigueur le 15.08.2019
+
+###### Sous-section 10 - Du mandataire
+
+Article 2.4.67.
+
+§ 1 er . Le producteur établi dans un autre Etat membre peut désigner une personne physique ou morale établie en Belgique en tant que mandataire chargé d'assurer le respect des obligations qui incombent au producteur en vertu des titres II et IV du présent arrêté.
+
+Tout producteur tel que défini à l'article 1.1, § 1, 10°, d) et par l'article 2.4.46, § 1, 1°, et établi dans un autre Etat membre, qui vend des EEE directement aux ménages et à des utilisateurs autres que les ménages, en Belgique, désigne une personne physique ou morale établie en Belgique en tant que mandataire chargé d'assurer le respect des obligations qui incombent au producteur en vertu des titres II et IV du présent arrêté.
+
+§ 2. La désignation d'un mandataire se fait par mandat écrit. Si le mandat prend fin, le mandataire et le producteur préviennent par écrit l'Institut dans le mois qui suit la fin du mandat.
+
+§ 3. Tout producteur établi sur le territoire de la Région de Bruxelles-Capitale, qui vend des EEE dans un autre Etat-Membre dans lequel il n'est pas établi, désigne un mandataire dans ledit Etat membre chargé d'assurer le respect des obligations qui incombent audit producteur sur le territoire de cet Etat membre en vertu de la législation qui y est applicable.
+
+##### Section 6 - Déchets de matelas
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 1re. - Définitions et champ d'application
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.68.
+
+Au sens de la présente section, on entend par :
+
+1° « taux de collecte » : le pourcentage obtenu en divisant le poids total des déchets de matelas collectés par le poids total des matelas neufs mis sur le marché durant l'année calendrier concernée ;
+
+2° « taux de recyclage » : le pourcentage obtenu en divisant le poids des déchets de matelas recyclés par le poids total des déchets de matelas collectés durant l'année calendrier concernée.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 2. - Obligation de reprise
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.69.
+
+§ 1 er . Le producteur reprend gratuitement les déchets de matelas remis aux distributeurs et aux détaillants.
+
+Il met en place un réseau de collecte gratuite qui comporte un nombre suffisant de points de reprise répartis sur la Région de Bruxelles-Capitale de manière géographiquement équilibrée.
+
+§ 2. Par dérogation à l'article 2.2.3, les détaillants de matelas neufs qui affichent à un endroit visible de chacun de leurs points de vente un avis clairement lisible qui informe les consommateurs du réseau de points de collecte mis en place par les producteurs, ne sont pas tenus de reprendre les déchets de matelas ménagers.
+
+§ 3. Le producteur reprend gratuitement et fait traiter à ses frais, dans une installation autorisée, les déchets de matelas ménagers et qui sont collectés par les personnes morales de droit public territorialement responsables de la gestion des déchets ménagers.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.70.
+
+A partir du 1 er janvier 2023 au plus tard, les personnes morales de droit public organisent la collecte sélective et le stockage des déchets de matelas dans des conteneurs adaptés ou autres moyens appropriés en vue de les protéger des intempéries et d'éviter les risques sanitaires. Les matelas sont collectés, entreposés et transportés au sec.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.71.
+
+Une entreprise à finalité sociale peut reprendre gratuitement et à ses frais, de manière volontaire, les déchets de matelas qui lui sont déposés par les ménages.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.72.
+
+La collecte des déchets de matelas autres que ménagers est effectuée par leur remise à un collecteur, négociant ou courtier de déchets non dangereux, ou à une installation de collecte ou de traitement.
+
+Pour la collecte volontaire de déchets de matelas ménagers et de déchets de matelas autres que ménagers, le producteur développe des mesures incitatives.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 3. - Traitement
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.73.
+
+Les déchets de matelas collectés sont traités en utilisant les meilleures techniques disponibles en termes de protection de la santé et de l'environnement. Le producteur garantit que les matelas sont recyclés ou réutilisés, dans le respect des taux visés à la sous-section 5.
+
+Une opération d'élimination conformément à l'annexe 1 er de l'ordonnance déchets n'est pas autorisée pour les déchets de matelas.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 4. - Financement
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.74.
+
+Le producteur est responsable du financement de la prévention, de la collecte et du traitement de tous les déchets de matelas collectés conformément au présent titre.
+
+Il prend en charge les coûts des campagnes d'information des consommateurs concernant la prévention, la collecte et le traitement des déchets de matelas.
+
+Le producteur rembourse aux collecteurs, négociants et courtiers les frais de fourniture des données nécessaires au rapportage visé à l'article 2.4.80.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.75.
+
+Lorsque les déchets de matelas ménagers, qui sont collectés sélectivement au moyen du réseau d'infrastructures publiques, sont traités dans le cadre d'un marché public passé par les personnes morales de droit public territorialement responsables de la gestion des déchets ménagers, le producteur rembourse le coût réel et complet de gestion des déchets résultant dudit marché, frais de gestion administrative inclus, selon les modalités convenues avec lesdites personnes morales de droit public.
+
+A cette fin, le producteur conclut une convention avec les personnes morales de droit public susmentionnées dans les 3 mois à dater de l'entrée en vigueur du présent article.
+
+La convention règle au minimum les modalités de collecte et de traitement des déchets de matelas ménagers et le montant des indemnités.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.76.
+
+Le producteur conclut une convention avec le(s) représentant(s) des entreprises à finalité sociale portant sur les matelas ménagers et réglant au minimum les points suivants :
+
+1. la compensation financière que le producteur octroie par matelas repris. Cette dernière est au moins égale à celle octroyée aux détaillants.
+
+2. l'organisation et le financement d'une campagne d'information annuelle vers les différents public-cibles, à savoir les ménages, les détaillants et les utilisateurs professionnels, en faveur du réemploi des matelas via les entreprises à finalité sociale de réemploi.
+
+3. l'organisation d'une réunion annuelle d'évaluation, de coordination et d'adaptation du système et des mesures pris en faveur de la préparation en vue du réemploi.
+
+4. l'organisation et le financement du rapportage des performances annuelles des entreprises à finalité sociale de préparation en vue du réemploi.
+
+5. la mise à disposition au frais du producteur pour l'ensemble des points d'apport des entreprises à finalité sociale de préparation en vue du réemploi d'un conteneur d'une taille suffisante au stockage des matelas non-réemployables afin de faciliter la collecte par un collecteur, négociant ou courtier ayant conclu une convention avec le producteur.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.77.
+
+Le producteur soumet les conventions visées aux articles 2.4.75 et 2.4.76 pour approbation préalable à Bruxelles Environnement ainsi que toute modification de celles-ci.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 5. - Taux
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.78.
+
+§ 1 er . Le producteur atteint un taux minimum global de collecte de :
+
+1° 50 % au 1 er janvier 2023,
+
+2° 65 % au 1 er janvier 2025,
+
+3° 80 % au 1 er janvier 2030.
+
+§ 2. En Région de Bruxelles-Capitale, les objectifs suivants sont également atteints :
+
+1° un poids de 0,60 kg/habitant au 1 er janvier 2023,
+
+2° un poids de 0,70 kg/habitant au 1 er janvier 2025,
+
+3° un poids de 0,80 kg/habitant au 1 er janvier 2030.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.79.
+
+§ 1 er . Pour le traitement des déchets de matelas, les taux minimums de recyclage suivants sont atteints pour les quantités collectées :
+
+1° 35 % au 1 er janvier 2023,
+
+2° 50 % au 1 er janvier 2025,
+
+3° 75 % au 1 er janvier 2030.
+
+§ 2. Les objectifs de réemploi suite à la préparation en vue du réemploi par entreprises à finalité sociale sont :
+
+1° 200 matelas au 1 er janvier 2023,
+
+2° 300 matelas au 1 er janvier 2025,
+
+3° 500 matelas au 1 er janvier 2030.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 6. - Rapportage
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.80.
+
+Le producteur fournit à Bruxelles Environnement avant le 31 mai de chaque année, conformément à l'article 2.2.12 et en ce qui concerne l'année civile écoulée :
+
+1° la quantité totale, exprimée en kilogramme et en unités, des matelas mis sur le marché ;
+
+2° la quantité totale, exprimée en kilogramme, des déchets de matelas collectés en Région de Bruxelles-Capitale et en Belgique, par canal de collecte, avec une distinction entre les matelas ménagers et autres que ménagers ;
+
+3° les installations dans lesquelles les déchets de matelas collectés ont été traités, la description de leur mode de traitement et le taux de déchets éliminés à l'issue de ces traitements ;
+
+4° la quantité totale, exprimée en kilogramme, des déchets de matelas qui :
+
+a. ont été préparés en vue du réemploi ;
+
+b. ont été recyclés ;
+
+c. ont été valorisés énergétiquement ;
+
+5° la quantité totale, exprimée en kilogramme, des matériaux provenant du traitement des déchets de matelas qui :
+
+a. ont été recyclés ;
+
+b. ont été valorisés énergétiquement ;
+
+c. ont été éliminés ;
+
+6° les données nécessaires à l'évaluation des actions de prévention et au calcul des indicateurs de résultats ;
+
+7° en cas de délégation à un organisme agréé ou à un organisme de gestion, les cotisations versées à cet organisme, avec les modalités de calcul et la liste des membres adhérents à l'organisme ;
+
+8° la liste des études, projets pilotes et autres initiatives prises ainsi que la liste des parties prenantes et des montants.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 7. - Prévention
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.81.
+
+§ 1 er . Le producteur établit et met en oeuvre un plan de prévention visant à diminuer les quantités de déchets et à faciliter le recyclage des déchets de matelas à travers notamment le principe d'éco-modulation, afin d'inciter les producteurs de matelas à rechercher des alternatives pour l'assemblage et la composition des matelas, en vue de mettre sur le marché des matelas dont le désassemblage et le recyclage sont facilités.
+
+§ 2. Le producteur informe les ménages et les utilisateurs professionnels des avantages et des possibilités d'acquérir de tels matelas.
+
+§ 3. Le producteur évalue annuellement son action et en informe Bruxelles Environnement en même temps avec le rapportage visé à l'article 2.4.80.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 8. - Information des utilisateurs et des opérateurs
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 2.4.82.
+
+§ 1 er . A partir du 1 er janvier 2023 au plus tard, le producteur veille, notamment par des campagnes d'information, à ce que les consommateurs et les utilisateurs professionnels soient parfaitement informés :
+
+1° des systèmes de collecte et de recyclage mis à leur disposition ;
+
+2° du rôle qu'ils ont à jouer dans la collecte et le traitement des déchets de matelas.
+
+§ 2. Le producteur veille à l'efficacité et la sécurité de la collecte et du traitement des déchets de matelas, notamment par des actions de sensibilisation vis-à-vis des opérateurs de collecte et de traitement.
+
+------------
+
+- inséré par l'art. 1.15 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+### TITRE III - Dispositions relatives aux opérations et aux opérateurs de gestion de déchets
+
+#### CHAPITRE 1 er - Enregistrement, agrément et permis d'environnement liés aux opérations de gestion de déchets
+
+##### Section 1re - Dispositions générales
+
+Article 3.1.1. Enregistrement
+
+§ 1 er . Se fait enregistrer conformément aux dispositions prévues dans l'ordonnance permis d'environnement et aux conditions prévues dans le présent titre, la personne effectuant des activités de :
+
+1° transporteur de déchets, à l'exception :
+
+a) du producteur de déchets qui transporte ses propres déchets vers une installation de collecte visée à l'article 3.5.15. ou ;
+
+b) du producteur de déchets qui transporte ses propres déchets dont la quantité ne dépasse pas 500 kg ;
+
+2° collecteur, négociant ou courtier de déchets non dangereux.
+
+§ 2. N'est pas soumis à un enregistrement pour les activités de collecte ayant lieu sur son site :
+
+1° le titulaire d'un permis d'environnement pour une installation de collecte et/ou de traitement de déchets non dangereux ;
+
+2° l'exploitant d'une installation de collecte visée à l'article 3.5.15.
+
+------------
+
+- remplacé par l'art. 1.16 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.1.2. Agrément
+
+§ 1 er . Se fait agréer conformément aux dispositions prévues dans l'ordonnance permis d'environnement et aux conditions prévues dans le présent titre, la personne physique ou morale effectuant des activités de collecteur, négociant ou courtier de déchets dangereux.
+
+§ 2. N'est pas soumis à l'agrément pour l'activité de collecte ayant lieu sur son site :
+
+1° le titulaire d'un permis d'environnement pour une installation de collecte et/ou de traitement de déchets dangereux ;
+
+2° l'exploitant d'une installation de collecte visée à l'article 3.5.15.
+
+------------
+
+- remplacé par l'art. 1.17 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+##### Section 2 - Dispositions communes aux procédures d'enregistrement, d'agrément et de demande de permis d'environnement
+
+Article 3.1.3.
+
+A l'exception des transporteurs, le demandeur d'un enregistrement, agrément ou permis d'environnement visés au titre III, remplit les conditions suivantes:
+
+1° la personne morale :
+
+- est établie conformément à la législation d'un Etat membre de l'Espace économique européen ;
+
+- est inscrite à la Banque Carrefour des Entreprises, au registre du commerce ou au registre des métiers, conformément aux exigences formulées par le pays où elle est établie ;
+
+- ne compte, parmi ses dirigeants, gérants, personnes habilitées à engager la société ou responsables pour la gestion de déchets, que des personnes n'ayant pas été déchues de leurs droits civils ou politiques ;
+
+- ne compte, parmi ses dirigeants, gérants, personnes habilitées à engager la société ou responsables pour la gestion de déchets, que des personnes n'ayant pas, pendant les dix dernières années, été condamnées, par un jugement ou un arrêt définitif, pour un délit qui, par sa nature, porte atteinte à sa moralité professionnelle ;
+
+2° la personne physique :
+
+- est ressortissante d'un Etat membre de l'Espace économique européen ;
+
+- est inscrite à la Banque Carrefour des Entreprises, au registre du commerce ou au registre des métiers, conformément aux exigences formulées par le pays où elle est établie ;
+
+- n'est pas déchue de ses droits civils ou politiques ;
+
+- pendant les dix dernières années, n'a pas été condamnée, par un jugement ou un arrêt définitif, pour un délit qui, par sa nature, porte atteinte à sa moralité professionnelle.
+
+------------
+
+- 1° modifié par l'art. 1.18 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.1.4.
+
+§ 1 er . La demande d'enregistrement et d'agrément s'effectuent à l'aide d'un formulaire que Bruxelles Environnement met à disposition. Le contenu minimal du formulaire est précisé aux annexes 6, 7 et 8 du présent arrêté.
+
+§ 2. Le demandeur d'un permis d'environnement ou de sa prolongation pour une installation de collecte et/ou de traitement de déchets, joint à sa demande le formulaire complémentaire mis à disposition par Bruxelles Environnement. Le contenu minimal du formulaire est précisé à l'annexe 9 du présent arrêté.
+
+§ 3. Bruxelles Environnement est en droit de demander, en cours d'instruction de la demande, toute information complémentaire relative au projet.
+
+§ 4. Bruxelles Environnement peut adapter ces formulaires aux progrès techniques et scientifiques ou aux modifications de la réglementation européenne.
+
+------------
+
+- remplacé par l'art. 1.19 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.1.5.
+
+§ 1 er . L'Institut évalue si le demandeur de l'enregistrement, de l'agrément ou du permis d'environnement satisfait aux conditions exigées pour l'obtention d'un enregistrement, d'un agrément ou d'un permis d'environnement.
+
+§ 2. L'Institut met à disposition du public :
+
+- une liste des transporteurs, collecteurs, négociants et courtiers enregistrés et agréés ;
+
+- une liste des enregistrements et agréments comme transporteurs, collecteurs, négociants et courtiers ayant fait l'objet d'une suspension ou d'un retrait ;
+
+- une liste des installations de collecte et de traitement de déchets autorisées ;
+
+- une liste des entreprises agréées conformément à l'article 24 du Règlement (CE) N° 1069/2009.
+
+- une liste des exploitants enregistrés de concasseurs et des concasseurs autorisés pour la production de granulats recyclés conformément au chapitre 8 du titre IV ;
+
+- une liste des organismes de gestion enregistrés conformément aux chapitres 8 et 9 du titre IV.
+
+------------
+
+- § 2 complété par l'art. 1.20 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 2 complété par l'art. 1.14 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 3.1.6.
+
+Dans le cadre de l'examen, l'Institut peut exiger la production de données et/ou documents complémentaires d'où il ressort que le demandeur satisfait aux conditions exigées pour l'obtention d'un enregistrement ou d'un agrément. Le demandeur est tenu de fournir ces données et/ou documents complémentaires.
+
+#### CHAPITRE 2 - Transporteur, transport et transfert de déchets
+
+##### Section 1re - Transporteur
+
+###### Sous-section 1re - Enregistrement de plein droit
+
+Article 3.2.1.
+
+§ 1 er . Le transporteur agréé ou enregistré dans l'une des Régions de l'Etat belge ou dans un autre pays membre de l'Espace économique européen en vertu de l'article 26 de la directive 2008/98/CE ou l'article 23 du Règlement (CE) N° 1069/2009 est enregistré de plein droit comme transporteur pour les déchets qui font l'objet de leur agrément ou enregistrement d'origine.
+
+§ 2. Est enregistré de plein droit comme transporteur, pour le transport de déchets produits dans le cadre de son activité :
+
+1. l'entrepreneur en assainissement du sol enregistré conformément à l'ordonnance sol ;
+
+2. le technicien frigoriste, enregistré conformément à l'arrêté du 22 mars 2012 du Gouvernement de la Région de Bruxelles-Capitale relatif à la fixation des exigences de qualification minimale des techniciens frigoristes et à l'enregistrement des entreprises en technique du froid et à l'agrément des centres d'examen ;
+
+3. l'installateur de chauffage enregistré conformément à l'arrêté du 3 juin 2010 du Gouvernement de la Région de Bruxelles-Capitale relatif aux exigences PEB applicables aux systèmes de chauffage pour le bâtiment lors de leur installation et pendant leur exploitation.
+
+------------
+
+- § 1 er remplacé par l'art. 1.21 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+###### Sous-section 2 - Conditions générales pour l'exercice de l'activité
+
+Article 3.2.2.
+
+Le transporteur veille à ce que le personnel soit suffisamment qualifié et dispose d'une information suffisante pour exécuter les tâches liées au transport de déchets.
+
+Article 3.2.3.
+
+Le transporteur travaille pour le compte d'un collecteur, négociant ou courtier enregistré ou agréé, ou du détenteur de déchets. La destination est déterminée par le donneur d'ordre du transport.
+
+Article 3.2.4.
+
+Le transporteur informe sans délai l'Institut de toute modification intervenant au niveau de l'un des éléments du dossier relatif à son enregistrement, notamment :
+
+- les déchets transportés ;
+
+- le nom et l'adresse du transporteur.
+
+Article 3.2.5.
+
+Tous les cinq ans, au plus tard à la date anniversaire de l'enregistrement, le transporteur signale à l'Institut s'il souhaite poursuivre son activité de transport. Si le transporteur n'a pas signalé qu'il souhaite poursuivre l'activité, ou s'il signale qu'il souhaite cesser ses activités, l'enregistrement est suspendu ou retiré.
+
+Article 3.2.6.
+
+Le transporteur respecte pendant toute la durée de validité de son enregistrement, les dispositions de l'ordonnance déchets et de ses arrêtés d'exécution et les conditions particulières relatives à l'exercice de son activité.
+
+##### Section 2 - Transport
+
+Article 3.2.7.
+
+§ 1 er . Le donneur d'ordre pour le transport, transporte ou fait transporter les déchets jusqu'à une destination autorisée.
+
+Par donneur d'ordre pour le transport, on entend :
+
+1. tout détenteur de déchets autre que ménagers qui transporte ses déchets ou qui fait appel à un transporteur ;
+
+2. tout collecteur, négociant et courtier.
+
+§ 2. Les déchets sont emballés de telle manière que toute perte de contenu soit impossible et transportés de telle manière que tout risque pour l'environnement et la santé ou la sécurité de la population et toute pollution résultant du transport soient exclus.
+
+§ 3. Les moyens de transport et les récipients satisfont aux conditions suivantes :
+
+1. ils conviennent techniquement pour contenir les déchets transportés et sont, le cas échéant, munis des attestations et certificats de contrôle nécessaires ;
+
+2. ils sont maintenus en bon état de fonctionnement ;
+
+3. ils sont nettoyés de manière appropriée, à l'intérieur comme à l'extérieur, afin d'éviter tout mélange de types de déchets différents.
+
+§ 4. Les flux de déchets visé à l'article 3.7.1 ayant fait l'objet d'un tri sont transportés séparément.
+
+§ 5. Le donneur d'ordre pour le transport et le transporteur contrôlent la conformité visuelle des déchets et leur conditionnement.
+
+§ 6. Le donneur d'ordre pour le transport évalue les risques d'incident qui pourraient, durant le transport, mettre en danger la santé humaine et nuire à l'environnement et établit une liste de mesures à mettre en oeuvre en cas d'incident.
+
+§ 7. En cas d'incident, des mesures efficaces sont prises immédiatement pour prévenir et limiter les risques de nuisances pouvant être causées à la santé humaine et à l'environnement.
+
+Article 3.2.8.
+
+Assurance pour le transport et la collecte de déchets dangereux
+
+§ 1 er . Chaque collecteur, négociant ou courtier des déchets dangereux est en possession d'un contrat d'assurance valable de type responsabilité civile exploitation qui porte expressément sur le transport et la collecte des déchets dangereux.
+
+§ 2. Le contrat d'assurance couvre la responsabilité civile extracontractuelle pour les dommages causés aux tiers par un accident qui s'est produit à l'occasion ou par l'exercice de ces activités.
+
+Le contrat d'assurance couvre au moins les dommages suivants :
+
+1. les dommages corporels y compris le décès et les dommages immatériels consécutifs ;
+
+2. la perte ou le dommage à un bien, y compris les dommages immatériels consécutifs;
+
+3. la perte de revenus découlant directement d'un intérêt économique dans l'utilisation de l'environnement, suite à une atteinte à l'environnement, compte-tenu des économies et des frais et qui sont la conséquence d'une atteinte à l'environnement en question ;
+
+4. les frais des mesures de restauration de l'environnement affecté, limités aux frais effectivement engagés ou qui seront engagés;
+
+5. les frais de sauvetage visés à l'article 106 de la loi du 4 avril 2014 relative aux assurances.
+
+§ 3. La hauteur de la couverture est déterminée de manière à ce que le contrat d'assurance couvre les dégâts causés aux tiers par un accident s'étant produit à l'occasion de l'exercice de ces activités et respecte au minimum les montants suivants :
+
+1. 2.500.000 EUR par sinistre impliquant des déchets dangereux;
+
+2. 250.000 EUR par sinistre impliquant des déchets dangereux pour lesquels il existe un système de reprise dans le cadre du régime de responsabilité élargie des producteurs de produits conformément aux dispositions de l'article 26 de l'ordonnance déchets.
+
+Lorsque les moyens de transport utilisés ont une capacité de chargement inférieure à 3,5 tonnes, la hauteur de la couverture visée à l'alinéa précédent, est réduite de moitié.
+
+§ 4. A la demande d'une personne morale ou physique, l'Institut peut accorder une dérogation à la hauteur de la couverture exigée dans le paragraphe 3, alinéa 1 er si cette personne est spécialisée dans une catégorie de déchets.
+
+La demande de dérogation, dûment motivée, est introduite à l'Institut au plus tard un mois avant le transport.
+
+§ 5. Le contrat d'assurance prévoit les dispositions suivantes :
+
+1. aucune nullité, exception ni déchéance ne sera opposée aux tiers lésés ;
+
+2. les activités des transporteurs sont également couvertes par cette assurance ;
+
+§ 6. Les moyens de transports utilisés pour le transport des déchets dangereux par la route devront être assurés conformément à la loi du 21 novembre 1989 relative à l'assurance obligatoire de la responsabilité en matière de véhicules automoteurs ou aux législations étrangères couvrant le même type de risque.
+
+##### Section 3 - Transfert transfrontalier de déchets
+
+Article 3.2.9. Dispositions générales
+
+§ 1 er . Ces dispositions s'appliquent au transfert transfrontalier de déchets soumis aux dispositions du règlement (CE) n° 1013/2006 et pour lequel la Région de Bruxelles-Capitale est compétente.
+
+§ 2. L'Institut est désigné comme autorité compétente au sens de l'article 53 du règlement (CE) n° 1013/2006.
+
+Article 3.2.10. Notification
+
+§ 1 er . Les frais administratifs liés à une notification prévue par l'article 29 du règlement (CE) n° 1013/2006 s'élèvent à 400 EUR pour chaque notification, indépendamment du fait que la Région de Bruxelles-Capitale soit la région d'expédition ou de destination.
+
+Ce montant peut être adapté par l'Institut et est publié sur son site internet.
+
+§ 2. Le montant des frais administratifs, libre de tous frais bancaires, doit être versé sur le compte de l'Institut préalablement à l'introduction de la notification, avec mention du numéro de notification.
+
+§ 3. Cette notification est réalisée par l'introduction des informations et des documents prévus ci-dessous :
+
+1. les informations et documents supplémentaires visés à l'article 4.3 du règlement (CE) n° 1013/2006, décrits aux points 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12 et 13 de l'annexe II, section 3 dudit règlement ;
+
+2. une copie du contrat conclu entre le notifiant et le destinataire, en vertu de l'article 4.4. du règlement (CE) n° 1013/2006 ;
+
+3. la caution ou l'assurance similaire, en vertu de l'article 4.5 du règlement (CE) n° 1013/2006 ;
+
+4. la preuve du paiement des frais administratifs tel qu'indiqué au paragraphe 1 er .
+
+§ 4. Toute communication résultant des obligations prévues par le règlement (CE) n° 1013/2006 s'effectue conformément aux dispositions de l'article 26 dudit règlement et peut être définie plus précisément par l'Institut.
+
+§ 5. L'Institut met à disposition du public un contenu type du dossier de notification.
+
+Article 3.2.11. Caution
+
+§ 1 er . Le montant de la caution ou d'une assurance équivalente est déterminé par l'Institut conformément aux dispositions stipulées à l'article 6 du règlement (CE) n° 1013/2006, sauf dispositions contraires suivant l'article 59 dudit règlement.
+
+§ 2. La caution ou l'assurance équivalente est constituée au profit de l'Institut.
+
+#### CHAPITRE 3 - Collecteur, négociant et courtier de déchets non dangereux
+
+##### Section 1re - Demande d'enregistrement
+
+Article 3.3.1.
+
+Le demandeur de l'enregistrement en tant que collecteur, négociant et courtier de déchets non dangereux, conformément aux dispositions du présent titre, remplit les conditions de la présente section.
+
+Article 3.3.2. Formation professionnelle
+
+§ 1 er . Le collecteur, le négociant ou le courtier désigne une personne possédant une connaissance suffisante de la législation sur les déchets et de la gestion des déchets.
+
+Une personne répondant aux conditions précitées est disponible en permanence.
+
+§ 2. La connaissance de la législation sur les déchets et de la gestion des déchets est attestée par la production de diplômes, certificats ou attestations de formation prouvant la connaissance de cette matière.
+
+Une dérogation à cette exigence peut être accordée par l'Institut, si le demandeur ou son délégué possède la preuve d'une expérience professionnelle équivalente. Toute demande de dérogation est motivée dans la demande.
+
+§ 3. L'Institut détermine les éléments essentiels que doivent contenir les formations permettant d'attester d'une connaissance suffisante de la législation sur les déchets et de la gestion des déchets.
+
+##### Section 2 - Conditions générales pour l'exercice de l'activité
+
+Article 3.3.3. Système de gestion de la qualité
+
+§ 1 er . Le collecteur, le négociant ou le courtier dispose d'un système de gestion de la qualité, basé sur le principe de l'autocontrôle. Il est daté et est régulièrement mis à jour (au minimum une fois par an) au regard de la situation actuelle de l'installation ou de l'activité.
+
+§ 2. Dans chaque exploitation concernée par l'activité, un exemplaire de ce système de gestion de la qualité est mis à disposition du personnel.
+
+Les agents chargés de la surveillance suivant les dispositions de l'article 5 du code de l'inspection peuvent demander la production et la consultation du système de gestion de la qualité, ainsi qu'en imposer la modification à tout moment.
+
+§ 3. Le système de gestion de la qualité comporte au minimum les éléments suivants :
+
+- les conditions à respecter, imposées par la législation et l'agrément ou l'enregistrement ;
+
+- un manuel clair et exhaustif relatif à l'exécution de l'activité.
+
+§ 4. L'Institut met à disposition du public une liste des éléments qui doivent figurer dans le système de gestion de la qualité.
+
+------------
+
+- § 2 renuméroté § 4 par l'art. 1.22 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.3.4.
+
+Le collecteur, le négociant ou le courtier dispose en permanence d'un personnel qualifié en nombre suffisant pour assurer efficacement la surveillance et le contrôle des déchets dont il assure la collecte, le négoce ou le courtage.
+
+Le collecteur, le négociant ou le courtier met tout en oeuvre pour assurer la formation suffisante du personnel et pour qu'il dispose d'informations suffisantes pour exécuter les tâches spécifiques liées à la gestion des déchets.
+
+Article 3.3.5.
+
+§ 1 er . Le collecteur, le négociant ou le courtier fait appel à un transporteur enregistré conformément au présent titre.
+
+§ 2. Il s'assure que ce dernier dispose des moyens techniques et du personnel formé pour transporter ces déchets conformément à l'ordonnance déchets et à ses arrêtés d'exécution.
+
+§ 3. Il veille également à ce que les récipients soient clairement identifiables par leur couleur, leur logo, la mention qu'ils portent ou tout autre moyen adapté au moment de la collecte sur la voie publique.
+
+Article 3.3.6.
+
+Le collecteur, le négociant ou le courtier ne peut assurer la collecte, le négoce et le courtage que des déchets repris dans son dossier d'enregistrement.
+
+Article 3.3.7.
+
+Le collecteur, le négociant ou le courtier informe sans délai l'Institut de toute modification intervenant au niveau de l'un des éléments du dossier relatif à son enregistrement, notamment :
+
+- les déchets pour lesquels il assure la collecte, le négoce ou le courtage ;
+
+- le personne désignée visée à l'article 3.3.2, § 1 er ;
+
+- le nom et l'adresse du collecteur, négociant ou courtier.
+
+Article 3.3.8.
+
+Tous les cinq ans, au plus tard à la date anniversaire de l'enregistrement, le collecteur, le négociant ou le courtier signale à l'Institut s'il souhaite poursuivre son activité.
+
+S'il n'a pas signalé qu'il souhaite poursuivre l'activité, ou s'il signale qu'il souhaite cesser ses activités, l'enregistrement est suspendu ou retiré.
+
+Article 3.3.9.
+
+Le collecteur, le négociant ou le courtier respecte pendant toute la durée de validité de son enregistrement les conditions de l'ordonnance déchets et de ses arrêtés d'exécution ainsi que les conditions particulières relatives à l'exercice de son activité.
+
+#### CHAPITRE 4 - Collecteur, négociant et courtier de déchets dangereux
+
+##### Section 1re - Demande d'agrément
+
+Article 3.4.1.
+
+Le demandeur de l'agrément en tant que collecteur, négociant ou courtier de déchets dangereux, conformément aux dispositions du présent titre, remplit les conditions de la présente section.
+
+Article 3.4.2. Formation professionnelle
+
+§ 1 er . Le demandeur est soumis aux obligations contenues dans l'article 3.3.2.
+
+§ 2. Le demandeur désigne également une personne possédant une connaissance suffisante des caractéristiques et dangers des déchets, de l'emballage adéquat et des prescriptions de sécurité y afférentes, y compris lors du transport.
+
+Cette personne est disponible en permanence.
+
+§ 3. La connaissance des caractéristiques et dangers des déchets est attestée par la production d'un diplôme de l'enseignement supérieur ou d'un autre diplôme y assimilé (en ce compris les diplômes étrangers reconnus équivalents) prouvant la connaissance de cette matière.
+
+Une dérogation à cette exigence peut être accordée par l'Institut, si le demandeur est spécialisé dans une seule catégorie de déchets ou si le demandeur ou son délégué possède la preuve d'une expérience professionnelle équivalente. Toute demande de dérogation est motivée dans la demande.
+
+------------
+
+- § 3, alinéa 2 modifié par l'art. 1.23 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.4.3. Capacité financière
+
+Le demandeur possède la capacité financière suffisante pour effectuer ses activités conformément aux dispositions de la législation en vigueur, notamment de l'ordonnance déchets et de ses arrêtés d'exécution.
+
+Article 3.4.4.
+
+L'agrément est octroyé pour une durée maximale de dix ans. L'autorité compétente peut octroyer l'agrément pour une période plus courte, moyennant une décision dûment motivée.
+
+##### Section 2 - Conditions générales pour l'exercice de l'activité
+
+Article 3.4.5. Système de gestion de la qualité
+
+Le collecteur, le négociant ou le courtier est soumis aux obligations contenues dans l'article 3.3.3.
+
+Article 3.4.6.
+
+Le collecteur, le négociant ou le courtier respecte pendant toute la durée de validité de son agrément les conditions de l'ordonnance déchets et de ses arrêtés d'exécution et les conditions particulières de la décision portant sur l'agrément.
+
+Article 3.4.7.
+
+Le collecteur, le négociant ou le courtier informe l'Institut dans les huit jours de la souscription de la police d'assurance définie à l'article 3.2.8.
+
+Le collecteur, le négociant ou le courtier envoie à la date anniversaire de l'agrément une attestation d'assurance à l'Institut avec, outre le renouvellement des risques couverts et le montant maximal des dommages intérêts, également la mention des changements éventuels dans le contrat ainsi que la durée de validité de cette attestation.
+
+Article 3.4.8.
+
+Le collecteur, le négociant ou le courtier dispose en permanence d'un personnel qualifié en nombre suffisant pour assurer efficacement la surveillance et le contrôle des déchets dont il a assuré la collecte, le négoce ou le courtage.
+
+Le collecteur, le négociant ou le courtier met tout en oeuvre pour assurer la formation suffisante du personnel et pour que ce dernier dispose d'informations suffisantes pour exécuter les tâches spécifiques liées à la gestion des déchets.
+
+Article 3.4.9.
+
+Le collecteur, le négociant ou le courtier fait appel à un transporteur enregistré dans la Région de Bruxelles-Capitale. Il s'assure que ce dernier dispose des moyens techniques et du personnel formé pour transporter ces déchets conformément à l'ordonnance déchets et à ses arrêtés d'exécution.
+
+Article 3.4.10.
+
+Le collecteur, le négociant ou le courtier ne peut assurer la collecte, le négoce et le courtage que des déchets repris dans son agrément.
+
+Article 3.4.11. Modification de l'agrément
+
+Sans préjudice de l'article 76bis de l'ordonnance permis d'environnement, l'autorité compétente peut modifier l'agrément de sa propre initiative.
+
+Article 3.4.12. Suspension et retrait de l'agrément
+
+§ 1 er . L'autorité compétente peut à tout moment suspendre l'agrément lorsque le titulaire de l'agrément souhaite interrompre temporairement ses activités.
+
+§ 2. L'autorité compétente peut, sur requête du collecteur, négociant ou courtier, retirer l'agrément lorsque le titulaire de l'agrément met un terme à ses activités en tant que collecteur, négociant ou courtier.
+
+§ 3. L'autorité compétente peut retirer l'agrément lorsque le titulaire de l'agrément n'a pas fait usage de l'agrément d'une manière démontrable durant deux années consécutives.
+
+#### CHAPITRE 5 - Installation de collecte ou de traitement des déchets et points de collecte complémentaires
+
+------------
+
+- intitulé complété par l'art. 1.24 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+##### Section 1re - Demande de permis d'environnement
+
+Article 3.5.1.
+
+En vue de l'obtention d'un permis d'environnement, l'installation de collecte ou de traitement de déchets est soumise aux dispositions de la présente section.
+
+Article 3.5.2. Formation du personnel et désignation d'un responsable « gestion des déchets »
+
+§ 1 er . L'installation dispose d'un personnel qualifié et en nombre suffisant pour assurer efficacement la surveillance et le contrôle des déchets apportés.
+
+L'exploitant met tout en oeuvre pour assurer la formation suffisante du personnel et met à disposition des informations suffisantes pour exécuter les tâches liées à la gestion des déchets.
+
+§ 2. L'exploitant désigne une personne possédant une connaissance suffisante de la législation sur les déchets et de la gestion des déchets.
+
+Si l'installation accepte des déchets dangereux, le demandeur désigne également une personne possédant une connaissance suffisante des caractéristiques et dangers des déchets, de l'emballage adéquat et des prescriptions de sécurité y afférentes.
+
+Les personnes répondant aux conditions précitées sont disponibles en permanence.
+
+§ 3. La démonstration de cette connaissance est attestée conformément à l'article 3.3.2, paragraphe 2 et l'article 3.4.2 paragraphe 3.
+
+Article 3.5.3. Capacité financière
+
+Le titulaire du permis d'environnement est soumis aux obligations contenues à l'article 3.4.3.
+
+##### Section 2 - Conditions générales d'exploitation
+
+Article 3.5.4. Système de gestion de la qualité
+
+§ 1 er . Un système de gestion de la qualité conforme aux paragraphes 1 er et 2 de l'article 3.3.3. est présent au sein de chaque installation de collecte ou de traitement de déchets.
+
+§ 2. Le système de gestion de la qualité comporte au minimum les éléments suivants :
+
+1. les conditions d'exploitation à respecter, imposées par la législation et le permis d'environnement ;
+
+2. un manuel clair et exhaustif relatif à l'exploitation de l'installation ;
+
+3. un plan phasé visant à respecter les dispositions de l'article 22 de l'ordonnance déchets.
+
+§ 3. En plus des éléments repris aux paragraphes 1 et 2, le titulaire du permis d'environnement, qui vaut agrément conformément à l'article 24 du Règlement N° 1069/2009, reprend dans le système de gestion de la qualité les points de contrôle et les mesures mentionnées dans les articles 28 et 29 du Règlement (CE) N° 1069/2009.
+
+------------
+
+- § 1 er remplacé par l'art. 1.25, a) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+- § 3 inséré par l'art. 1.25, b) de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.5.5. Infrastructure
+
+§ 1 er . Le site est entièrement clôturé afin d'éviter efficacement que des personnes ou des véhicules ne puissent pénétrer dans son enceinte en dehors des heures d'ouverture.
+
+§ 2. Sauf dispositions contraires prévues dans le permis d'environnement, la mise en place et l'utilisation d'un appareil de pesage étalonné avec enregistrement automatique sont obligatoires. L'étalonnage de l'appareil de pesage est effectué conformément à la législation en vigueur.
+
+§ 3. Le site dispose des signalisations nécessaires pour permettre l'acheminement des déchets vers l'endroit adéquat.
+
+Article 3.5.6. Apport, stockage et traitement des déchets
+
+§ 1 er . Le permis d'environnement détermine les déchets qui peuvent être apportés, stockés et traités dans l'enceinte du site.
+
+Seuls les déchets autorisés et techniquement aptes à être traités par l'installation y sont acceptés. Si cela s'avère nécessaire et pertinent, des analyses et/ou des tests sont effectués régulièrement sur les déchets.
+
+§ 2. Les flux de déchets ayant fait l'objet d'un tri sont maintenus séparément afin de pouvoir satisfaire à l'obligation de tri.
+
+§ 3. L'incinération de tout déchet ou matériau sur le site est strictement interdite sauf si l'exploitation dispose des autorisations nécessaires.
+
+Article 3.5.7. Surveillance et contrôle par l'exploitant
+
+§ 1 er . L'acceptation, l'enlèvement et le stockage de déchets ne sont autorisés que sous la surveillance de l'exploitant ou de son représentant habilité qui prend les mesures nécessaires pour contrôler la composition, l'origine et la quantité des déchets. Chaque chargement doit au minimum faire l'objet d'une inspection visuelle.
+
+§ 2. L'accès au site est strictement déterminé par l'exploitant.
+
+Article 3.5.8. Horaires d'exploitation
+
+§ 1 er . Aucune activité liée à l'installation ne peut se dérouler en dehors des horaires d'exploitation prévus dans le permis d'environnement.
+
+§ 2. En dehors des heures d'exploitation, l'accès au site est fermé.
+
+Article 3.5.9. Activité
+
+§ 1 er . Le déchet est directement acheminé vers l'endroit de stockage ou de traitement destiné à l'accueillir. L'accès au site des véhicules acheminant les déchets se fait obligatoirement par l'appareil de pesage en service.
+
+§ 2. Le déchet n'est stocké que dans des récipients adaptés et correctement entretenus. Une indication clairement lisible est apposée sur chaque récipient, précisant quels déchets il contient. Les déchets sont entreposés de façon appropriée.
+
+§ 3. Aucun stockage de déchets ne peut se faire en dehors de l'enceinte du site.
+
+§ 4. Le stockage des déchets s'effectue sur un sol dur et adapté.
+
+§ 5. L'exploitant prend les dispositions nécessaires pour effectuer toutes les réparations le plus rapidement possible en cas de défectuosité de l'installation. Il veille à obtenir rapidement les pièces de rechange nécessaires.
+
+------------
+
+- § 4 modifié par l'art. 1.26 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.5.10. Vibrations
+
+L'exploitant prend les dispositions nécessaires pour éviter que les vibrations inhérentes à l'exploitation ne portent préjudice à la stabilité des constructions ou ne constituent une source de désagrément pour le voisinage. Les vibrations des équipements ne peuvent être transmises au bâtiment ni à l'environnement. A cet effet, les parties des équipements pouvant constituer une source de vibrations sont équipées d'un système d'amortissement des vibrations.
+
+Article 3.5.11. Air, sol et eau
+
+§ 1 er . Toutes les précautions sont prises pour éviter toute pollution du sol, de l'air ou des eaux. Des matières absorbantes en quantité suffisante sont présentes dans l'installation afin de pouvoir réagir rapidement et efficacement en cas de fuite ou d'épanchement.
+
+§ 2. Sauf dispositions contraires prévues dans le permis d'environnement, les eaux usées produites dans l'installation sont recueillies. Les eaux usées sont toujours traitées de façon appropriée afin de permettre leur réutilisation dans la mesure du possible ou leur déversement dans les autres cas.
+
+Article 3.5.12 Propreté de l'installation
+
+§ 1 er . L'installation, y compris l'entrée, la sortie et les espaces de stationnement, est correctement entretenue et régulièrement nettoyée en profondeur. Les déchets éventuellement abandonnés le long de la clôture, à l'entrée, à la sortie ainsi que sur le site sont régulièrement enlevés.
+
+§ 2. Toutes les précautions sont prises afin que l'installation n'occasionne pas de nuisances pour le voisinage du fait de l'odeur, de la poussière, de la boue, du bruit, de la fumée, des gaz et autres émanations et pour éviter la propagation d'insectes ou d'autres animaux nuisibles. Durant l'exploitation ainsi que lors de l'apport et de l'enlèvement des déchets, toutes les précautions sont prises pour éviter la dispersion des déchets.
+
+§ 3. L'accès au site ne peut être gêné par des animaux circulant en liberté durant les heures d'exploitation.
+
+Article 3.5.13. Prévention contre l'incendie
+
+Les moyens nécessaires à la prévention, à la détection et à l'extinction des incendies sont présents et en parfait état de fonctionnement. Le cas échéant, ce matériel est prévu en concertation avec les services d'incendie.
+
+Article 3.5.14. Tableau d'information
+
+Sauf dispositions contraires prévues dans le permis d'environnement et dans le cas où seuls sont traités dans l'installation des déchets provenant des activités propres à celle-ci, un tableau d'information mesurant au minimum 1 m² est installé à l'entrée. Les mentions suivantes doivent y être apposées de façon clairement lisible :
+
+1. un descriptif des activités de l'installation ;
+
+2. le nom, l'adresse, le numéro d'entreprise et le numéro de téléphone de l'exploitant ;
+
+3. la date d'expiration du permis : "Autorisé jusqu'au..." ;
+
+4. les heures normales d'ouverture ;
+
+5. en cas d'incendie ou d'incident : le numéro de téléphone des services d'incendie.
+
+##### Section 3 - Dispositions relatives à certaines installations de collecte des déchets
+
+Article 3.5.15.
+
+Les dispositions de la présente section ne s'appliquent qu'aux installations énumérées ci-dessous, situées en Région de Bruxelles Capitale qui exercent leurs activités de collecte de déchets à titre accessoire :
+
+1° L'installation de collecte de déchets en provenance de différents sièges d'exploitation d'une même personne morale ou physique, respectant les conditions suivantes :
+
+1. l'installation et les différents sièges d'exploitation disposent d'un seul et même numéro d'entreprise ;
+
+2. une liste des sites d'exploitation pour lesquels les déchets sont collectés est tenue à jour.
+
+2° [...]
+
+3° L'installation de collecte de déchets en provenance de différentes personnes morales ou physiques situées sur une même zone d'activités, respectant les conditions suivantes :
+
+1. les déchets sont non dangereux ou sont des sous-produits animaux visés à l'article 4.5.1. § 3 ;
+
+2. une liste des personnes morales ou physiques pour lesquelles les déchets sont collectés est tenue à jour.
+
+4° L'installation de collecte de déchets en provenance d'autres détenteurs de déchets, respectant les conditions suivantes :
+
+1. les déchets collectés sont de même nature et proviennent du même secteur d'activité que celui de l'installation ou les déchets collectés sont des cadavres d'animaux visés à l'article 4.5.1. § 3 ;
+
+2. la quantité de déchets collectés ne dépasse pas 500 kg par apport ;
+
+3. une liste des personnes morales ou physiques pour lesquelles les déchets sont collectés est tenue à jour.
+
+5° Le siège d'exploitation du détaillant où des déchets soumis à responsabilité élargie du producteur conformément au titre II sont repris. Les déchets sont apportés par le consommateur.
+
+6° Le siège d'exploitation du détaillant où des déchets sont collectés en dehors du cadre de la responsabilité élargie du producteur. Les déchets sont de la même nature que les produits vendus et sont apportés par le consommateur.
+
+------------
+
+- remplacé par l'art. 1.27 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.5.16.
+
+§ 1. Sans préjudice de l'obligation d'obtenir une autorisation pour le dépôt de déchets, l'installation visée par cette section est exemptée de l'obligation d'obtenir une autorisation en tant qu'installation de collecte de déchets.
+
+§ 2. Cette installation n'est pas soumise aux dispositions des sections 1 et 2 du présent chapitre.
+
+Article 3.5.17.
+
+Les déchets collectés dans une installation visée par cette section ne peuvent être transportés vers une autre installation visée par cette section.
+
+##### Section 4 - Dispositions relatives aux points de collecte complémentaires
+
+------------
+
+- inséré par l'art. 1.28 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.5.18. Champ d'application
+
+§ 1 er . La section s'applique aux points de collecte.
+
+§ 2. Les sections 1, 2 et 3 du présent chapitre ne s'appliquent pas aux points de collecte.
+
+------------
+
+- inséré par l'art. 1.28 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Article 3.5.19. Exploitation
+
+§ 1 er . Le point de collecte complémentaire satisfait aux conditions suivantes :
+
+1. les déchets sont repris par un collecteur, négociant ou courtier autorisé,
+
+2. la collecte se fait de manière régulière et organisée.
+
+§ 2. Le point de collecte complémentaire mentionne :
+
+1. le nom du collecteur, négociant ou courtier et/ou du gestionnaire du site et/ou de l'organisme de gestion ;
+
+2. le type de déchets acceptés ;
+
+3. que seuls les déchets des ménages sont acceptés.
+
+§ 3. Les récipients d'un point de collecte complémentaire sont conçus de manière à éviter tout débordement et à optimiser la sécurité des dépôts, le confinement des substances dangereuses, la préparation en vue du réemploi et le réemploi. L'installation et ses alentours sont maintenus propres.
+
+§ 4. La collecte via les points de collecte complémentaires des déchets encombrants et des déchets dangereux, autres que les DEEE de très petites dimensions et les déchets de piles et accumulateurs, est interdite.
+
+§ 5. La collecte via les points de collecte complémentaires des déchets de piles et accumulateurs est interdite dans les écoles maternelles et primaires, sauf si elles disposent d'un récipient de collecte en métal avec un couvercle et une ouverture qui ne laisse pas passer les piles d'un diamètre supérieur à 47 mm.
+
+§ 6. Les points de collecte de DEEE de très petites dimensions visés à l'article 4.1.4. ne sont pas soumis au présent article.
+
+§ 7. Les points de collecte de déchets d'huiles et graisses alimentaires visés à l'article 4.5.14. ne sont pas soumis au présent article.
+
+------------
+
+- inséré par l'art. 1.28 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+#### CHAPITRE 6 - Fin du statut de déchet
+
+Article 3.6.1. Obtention de la fin du statut de déchet au sein d'une installation classée
+
+§ 1 er . L'exploitant d'une installation qui a obtenu la fin du statut de déchets pour un flux conformément à l'article 9 § 1 de l'ordonnance déchets, le notifie à l'Institut.
+
+§ 2. L'exploitant d'une installation de valorisation de déchets qui souhaite obtenir la fin du statut de déchets de certains déchets conformément à l'article 9. § 3.3° de l'ordonnance déchets, remplit les exigences imposées par le cadre VI de l'annexe 9.
+
+§ 3. L'Institut met à disposition sur son site Internet une liste des installations ayant obtenu la fin de statut de déchets conformément aux § 1 et § 2.
+
+Article 3.6.2 Utilisation de matériaux valorisables
+
+§ 1 er . L'utilisation de matériaux valorisables est soumise à une autorisation pour la rubrique 178, conformément à l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, IC, ID, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement.
+
+§ 2. Les matériaux valorisables ne sont plus des déchets sur le site pour lequel l'autorisation visée au paragraphe 1 a été obtenu et pour le transport vers le site.
+
+§ 3. La demande s'effectue à l'aide du formulaire dont le contenu est précisé à l'annexe 10.
+
+L'Institut peut adapter ce formulaire aux progrès techniques et scientifiques ou aux modifications de la réglementation européenne.
+
+§ 4. Le ministre peut établir une liste des flux de déchets pour lequel l'autorisation requise en article 3.6.2. § 1 n'est pas nécessaire et l'Institut le publie sur son site internet.
+
+DROIT FUTUR 13.08.2027 : Sans préjudice de l'alinéa précédent, l'autorisation requise en vertu du paragraphe 1 er n'est pas nécessaire pour les flux suivants :
+
+1. un granulat recyclé ou une terre qui remplit les obligations du chapitre 8 du titre IV ;
+
+2. une terre ou un granulat recyclé qui remplit les obligations du chapitre 9 du titre IV.
+
+------------
+
+- DROIT FUTUR : § 4 complété par l'art. 1.16 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.4)
+
+DROIT FUTUR 13.08.2027 : Article 3.6.3.
+
+§ 1. Conformément à l'article 9 de l'ordonnance relative aux déchets, a obtenu la fin du statut de déchet :
+
+1. un granulat recyclé qui a rempli les obligations du chapitre 8 du titre IV, à l'exception d'un granulat recyclé dans une application temporaire telle que visée à l'article 4.8.1 § 4 ;
+
+2. une terre ou un granulat recyclé qui a rempli les obligations du chapitre 9 du titre IV.
+
+§ 2. Les granulats recyclés et les terres n'ayant pas été utilisés conformément au rapport de gestion de granulats ou terres pour le lot concerné et rédigé par l'exploitant du concasseur, perdent la fin du statut de déchet.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 1.15 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.4)
+
+#### CHAPITRE 7 - Collecte séparée des déchets autre que ménagers
+
+Article 3.7.1.
+
+§ 1 er . Conformément à l'article 19 de l'ordonnance déchets, le détenteur de déchets autre que ménagers trie les flux suivants : 1. les déchets d'emballages PMC vides de leur contenu et d'un volume maximum de 8 litres : les emballages en plastique, les emballages métalliques et les cartons à boissons ; 2. les déchets de papier et carton, sec et propre ; 3. les déchets de verre d'emballage blanc et de couleur ; 4. les biodéchets, comprenant les fractions suivantes : a) les déchets biodégradables de jardin ou de parc ; b) les déchets alimentaires ou de cuisine provenant des bureaux, des restaurants, du commerce de gros, des cantines, des traiteurs ou des magasins de vente au détail, ainsi que les déchets comparables provenant des usines de transformation de denrées alimentaires ; 5. les déchets dangereux ; 6. les déchets qui doivent être collectés sélectivement dans le cadre de l'obligation de la responsabilité élargie du producteur conformément au titre II du présent arrêté et les déchets d'huiles et graisses alimentaires ; 7. les déchets de textile ; 8. les déchets métalliques ; 9. les déchets de bois ; 10. les déchets de plastiques rigides ; 11. les déchets de polystyrène expansé ; 12. les déchets de films plastiques autres que les déchets visés au point 1 ; 13. les déchets de liens de cerclage en plastique ; 14. les sous-produits animaux autres que les déchets visés sous les points 4 et 6, conformément aux exigences du chapitre 5 du titre IV ; 15. les déchets de soins à risque, conformément aux exigences du chapitre 7 du titre IV ; 16. les gravats.
+
+§ 2. Le détenteur de déchets trie les déchets repris sous le chapitre 17 de la liste de déchets ou transporte ou fait transporter ceux-ci vers une installation de traitement autorisée dans le but de les trier.
+
+§ 3. Le détenteur de déchets produits sur des chantiers de construction et de démolition qui ne sont pas soumis à déclaration ou à permis d'environnement au sens de l'ordonnance permis d'environnement, n'est pas soumis aux dispositions du § 1 er à l'exception du tri des déchets dangereux.
+
+§ 4. Le détenteur de déchets produits à bord de véhicules, de trains, d'avions et de navires, n'est pas soumis aux dispositions du § 1 er à l'exception du tri des déchets dangereux.
+
+------------
+
+- § 1 er remplacé par l'art. 1.29 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022. § 1 er , 4° b) et 8° à 13° entre en vigueur le 01.05.2023 et le § 1 er , 7° entre en vigueur le 01.01.2025 (art. 15, § 3)
+
+Article 3.7.2.
+
+Les différents flux de déchets visés par l'article 3.7.1 § 1 et réceptionnés dans la Région de Bruxelles-Capitale peuvent être regroupés dans le même conteneur ou dans le même moyen de transport, à condition que ces flux soient séparés les uns des autres dans des contenants distincts.
+
+------------
+
+- remplacé par l'art. 1.17 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+#### CHAPITRE 8 - Incinération de déchets
+
+##### Section 1re - Du rendement énergétique
+
+Article 3.8.1.
+
+La valeur donnée par la formule relative au rendement énergétique visée en note de bas de page (*) de l'annexe II de l'ordonnance déchets sera multipliée par un facteur de correction climatique (FCC) établi conformément à l'annexe 11.
+
+##### Section 2 - De la taxe à l'incinération des déchets
+
+###### Sous-section 1re - Définitions
+
+Article 3.8.2.
+
+Pour l'application de la présente section, il y a lieu d'entendre par :
+
+1° ordonnance du 21 décembre 2012 : l'ordonnance du 21 décembre 2012 établissant la procédure fiscale en Région de Bruxelles-Capitale;
+
+2° Agence : Agence régionale pour la Propreté, créée par l'ordonnance du 19 juillet 1990 portant création de l'Agence régionale pour la Propreté ;
+
+3° receveur : le comptable de recettes chargé de matières fiscales ;
+
+4° déchet de soins de santé : déchet résultant d'activités de soins de santé au sens de l'article 4.7.2., 2°.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+------------
+
+- 4° remplacé par l'art. 1.30 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 3.8.3.
+
+§ 1 er . Les fonctionnaires visés à article 44, § 1 er , alinéa 3 de l'ordonnance déchets, aux articles 7, 8 et 9 de l'ordonnance du 21 décembre 2012, chargés respectivement d'adresser, de recevoir et de vérifier les déclarations, et, le cas échéant, de procéder à la taxation d'office dans le cadre de la taxe visée aux articles 40 et 41 de l'ordonnance déchets, sont les fonctionnaires dirigeants de Bruxelles Environnement.
+
+§ 2. Les données de la personne de contact pour les entreprises concernées qui seront traitées par les fonctionnaires visés au § 1 er sont :
+
+1° les nom et prénom ;
+
+2° la langue de communication ;
+
+3° le numéro de téléphone professionnel ;
+
+4° le numéro de fax professionnel, si existant ;
+
+5° l'adresse e-mail professionnelle, si existante ;
+
+6° l'adresse professionnelle ;
+
+7° la fonction.
+
+Ces données seront conservées pour une durée de 5 ans à partir de leur réception par les fonctionnaires visés au § 1 er .
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+Article 3.8.4.
+
+§ 1 er . Le modèle de formulaire de déclaration visé à l'article 40, alinéa 2, de l'ordonnance déchets est établi :
+
+1° à l'annexe 13 du présent arrêté en ce qui concerne les déchets incinérés en Région de Bruxelles-Capitale ;
+
+2° à l'annexe 14 du présent arrêté en ce qui concerne les déchets incinérés hors de la Région de Bruxelles-Capitale.
+
+§ 2. Le modèle de formulaire de déclaration visé à l'article 41, § 1 er , alinéa 3, de l'ordonnance déchets est établi à l'annexe 17 du présent arrêté.
+
+Le formulaire est rempli en tenant compte du contenu des annexes 15 et 16.
+
+§ 3. Le formulaire de déclaration visé à l'article 41 de l'ordonnance déchets envoyé au redevable, reprend les données pour les cases C, D et E, pour autant que Bruxelles Environnement disposent de données complètes. En annexe au formulaire de déclaration, Bruxelles Environnement joint les informations par sous-catégorie (C1, C2,..., D1, D2,... et E1, E2...) qui ont permis d'obtenir les calcul des tonnages globaux C, D et E. Bruxelles Environnement indique les données dont il ne dispose pas à l'envoi de la déclaration.
+
+Si le détail des informations en sous-catégories peut résulter en la divulgation d'informations confidentielles protégeant un intérêt économique légitime, Bruxelles Environnement est dispensé de détailler les quantités par sous-catégories.
+
+§ 4. Si un flux de déchet repris dans les références C1, C2,..., D1, D2,... et E1, E2... est composé de sous-flux collectés séparément, Bruxelles Environnement indique les sous-flux repris sans toutefois en mentionner le poids.
+
+§ 5. Pour le tonnage repris en F, l'année à laquelle correspondent les données est indiquée.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+Article 3.8.5
+
+§ 1 er . Les déclarations remplies et signées sont adressées par le redevable à Bruxelles Environnement dans les quarante-cinq jours de leur mise à disposition par Bruxelles Environnement pour les taxes visées aux articles 40 et 41 de l'ordonnance déchets.
+
+Bruxelles Environnement accuse réception de la déclaration dans les dix jours de sa réception.
+
+§ 2. Les redevables qui, au 1 er juillet de chaque année, n'ont pas reçu de formulaire de déclaration pour l'exercice d'imposition précédent, sont tenus d'en réclamer un avant le 1 er août de l'année suivant l'exercice d'imposition concerné.
+
+Si le redevable ne respecte pas cette obligation il peut être procédé à la taxation d'office suivant la procédure décrite dans l'article 9 de l'ordonnance du 21 décembre 2012.
+
+§ 3. Le Ministre peut autoriser, aux conditions qu'il fixe, le dépôt en tout ou en partie des déclarations et des documents ou renseignements dont la production est prévue par le modèle par voie électronique.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+Article 3.8.6.
+
+Les fonctionnaires visés à l'article 3.8.3 calculent le montant de la taxe et adressent au fonctionnaire visé à l'article 3.8.7, pour chaque déclaration ou taxe établie d'office, les informations visées à l'article 10, § 2, de l'ordonnance du 21 décembre 2012, au plus tard le 15 septembre de l'année qui suit l'exercice d'imposition ou, en cas de taxation d'office, au plus tard le 15 septembre de la troisième année qui suit l'exercice d'imposition pour lequel la taxe est due.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+###### Sous-Section 2 - Rôles
+
+Article 3.8.7.
+
+§ 1 er . Les rôles visés à l'article 10 de l'ordonnance du 21 décembre 2012 sont, en application de l'article 44 de l'ordonnance déchets dans le cadre des taxes prévues aux 'articles 40 et 41 de l'ordonnance déchets, formés et rendus exécutoires par le Directeur de la Direction de l'Enrôlement du Service public régional de Bruxelles Fiscalité.
+
+§ 2. Dans le cas où l'emploi de Directeur de la Direction de l'Enrôlement n'est pas occupé, ces compétences sont exercées par le premier attaché ou l'attaché qui a l'ancienneté de service la plus grande au sein de cette Direction.
+
+En cas d'absence du Directeur de la Direction de l'Enrôlement, ces compétences sont exercées par le premier attaché ou l'attaché qui a l'ancienneté de service la plus grande au sein de cette Direction.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+###### Sous-Section 3 - Perception et recouvrement
+
+Article 3.8.8.
+
+La taxe doit être payée au receveur par versement ou par virement effectué sur le compte courant du receveur.
+
+La taxe dont le paiement est poursuivi par un huissier de justice, par application de l'article 16 de l'ordonnance du 21 décembre 2012, peut être payée entre les mains de cet huissier de justice.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+Article 3.8.9.
+
+Le paiement de la taxe produit ses effets à la date de l'extrait de compte du receveur portant crédit de paiement.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+Article 3.8.10.
+
+§ 1 er . Le receveur est, en application de l'article 44 de l'ordonnance du 14 juin 2012 dans le cadre des taxes prévues par les articles 40 et 41 de l'ordonnance déchets, chargé du recouvrement de la taxe régionale prévue par l'article 15 de l'ordonnance du 21 décembre 2012. Il est compétent pour décerner, viser et rendre exécutoire les contraintes prévue par l'article susmentionné, conformément à l'article 15, § 1 er de l'ordonnance du 21 décembre 2012.
+
+§ 2. En cas d'absence du receveur, les compétences visées au paragraphe précédent sont exercées par le comptable de recettes suppléant chargé de matières fiscales.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+###### Sous-Section 4 - Solution de difficultés
+
+Article. 3.8.11.
+
+§ 1 er . Le directeur général du Service public régional de Bruxelles Fiscalité, est, en l'application de l'article 44 de l'ordonnance déchets dans le cadre des taxes prévues par les articles 40 et 41 de l'ordonnance déchets, compétent pour la solution des difficultés qui peuvent s'élever relativement à la perception des taxes, comme prévu par l'article 23 de l'ordonnance du 21 décembre 2012.
+
+§ 2. Dans le cas où l'emploi de directeur général du Service public régional de Bruxelles Fiscalité n'est pas occupé, les compétences accordées à ce fonctionnaire sont exercées par le directeur général adjoint du Service public régional de Bruxelles Fiscalité.
+
+En cas d'absence du directeur général du Service public régional de Bruxelles Fiscalité les compétences accordées à ce fonctionnaire sont exercées par le directeur général adjoint du Service public régional de Bruxelles Fiscalité.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+Article 3.8.12.
+
+§ 1 er . Les réclamations écrites, prévues par l'article 23/1 de l'ordonnance du 21 décembre 2012, doivent être introduites auprès du Directeur général du Service public régional de Bruxelles Fiscalité, en l'application de l'article 44 de l'ordonnance déchets dans le cadre des taxes prévues aux articles 40 et 41 de l'ordonnance déchets.
+
+§ 2. Dans le cas où l'emploi de directeur général du Service public régional de Bruxelles Fiscalité n'est pas occupé, les compétences accordées à ce fonctionnaire sont exercées par le directeur général adjoint du Service public régional de Bruxelles Fiscalité.
+
+En cas d'absence du Directeur général du Service public régional de Bruxelles Fiscalité les compétences accordées à ce fonctionnaire sont exercées par le directeur général adjoint du Service public régional de Bruxelles Fiscalité.
+
+------------
+
+- inséré par l’art. 1 de l’arrêté du 25.04.2019 (M.B. 20.05.2019). Entrée en vigueur à partir de l’exercice d’imposition 2017 en ce qui concerne la « taxe sur l'incinération des déchets », et à partir de l’exercice d’imposition 2018 en ce qui concerne la « taxe sur les déchets collectés de manière non sélective par l'Agence ».
+
+#### CHAPITRE 9. - Compostage
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+##### Section 1re. - Compostage de quartier et compostage en entreprise
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 1re. - Champ d'application et dérogations
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.1. Champ d'application et dérogations
+
+§ 1 er . Au sens de la présente section, on entend par :
+
+- « compostage de quartier » : l'opération de compostage effectuée par un groupe de ménages ;
+
+- « compostage en entreprise » : l'opération de compostage effectuée par une entreprise ou un groupement d'entreprises ;
+
+- « gestionnaire du site de compostage » : une personne physique ou morale désignée comme responsable de la bonne gestion du site de compostage ;
+
+- « groupement d'entreprises » : les entreprises d'une même zone d'activités qui sont liées par un contrat pour la gestion du site de compostage dans leur zone d'activités.
+
+§ 2. La présente section s'applique au compostage de quartier et au compostage en entreprise.
+
+La présente section ne s'applique pas aux installations de compostage domestiques individuelles, présentes chez les ménages et dont le compost est utilisé pour leur propre compte.
+
+Sauf dispositions contraires, le titre I, les chapitres 1 à 8 du présent titre et le chapitre 5 du titre IV, ne s'appliquent pas au compostage de quartier et au compostage en entreprise.
+
+§ 3. Le compostage de quartier et le compostage en entreprise ne sont pas soumis à permis d'environnement.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 2. - Généralités
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.2. Apports
+
+§ 1 er . Seuls les déchets de cuisine et de table de catégorie 3, les déchets de fruits et légumes ainsi que les déchets de jardins et de parcs peuvent faire l'objet d'un compostage.
+
+§ 2. Seuls les déchets de cuisine et de table et les déchets de fruits et légumes produits par le groupe de ménages, l'entreprise ou le groupement d'entreprises peuvent être apportés sur leur propre site de compostage.
+
+Un ménage n'apporte pas ces déchets sur un site de compostage en entreprise et une entreprise ne les apporte pas sur un site de compostage de quartier.
+
+§ 3. Les déchets de jardins et de parcs peuvent être apportés par les tiers suivants :
+
+1° la personne morale de droit public gestionnaire d'espaces verts et ;
+
+2° le professionnel de service d'aménagement paysager.
+
+§ 4. Le volume de compostage et de dépôt n'excède pas 25 m³.
+
+§ 5. Lorsque le site de compostage a atteint la capacité maximale de traitement, l'apport de déchets n'est plus autorisé.
+
+Dans ce cas, le gestionnaire du site de compostage en informe les personnes ayant accès au site visées à l'article 3.9.5. § 1 er , interdit les apports supplémentaires de déchets jusqu'à nouvel ordre et fournit des informations sur les alternatives d'élimination des déchets.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+- modifié par l'art. 1.18 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 23.02.2025 (art. 8.1)
+
+Article 3.9.3. Localisation
+
+§ 1 er . La localisation du site de compostage respecte les critères suivants :
+
+1. il est implanté de manière à limiter les risques de nuisances pour l'environnement et le voisinage ;
+
+2. il est implanté à minimum 4 mètres des crêtes des berges de cours d'eau non navigables classés et des étangs au sens de l'ordonnance du 16 mai 2019 relative à la gestion et à la protection des cours d'eau non navigables et des étangs ;
+
+3. il n'est pas implanté dans les zones de captage et de protection des captages d'eau souterraine.
+
+§ 2. Aucun stockage de déchets ne se fait en dehors des aires prévues pour le compostage reprises à l'article 3.9.4.
+
+§ 3. L'article 3.5.5. § 1 et 3 est d'application.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.4. Infrastructure
+
+§ 1 er . A tout moment, le site de compostage dispose au minimum de :
+
+1. une aire de transformation où s'effectuent la décomposition aérobie et la maturation ;
+
+2. une aire de stockage de matière structurante ;
+
+3. une aire de stockage des composts.
+
+§ 2. Les aires sont bien délimitées dans l'espace.
+
+§ 3. Un équipement technique qui accélère le processus de compostage ou qui n'est pas une installation de conversion biologique aérobie est interdit sur le site de compostage de quartier ou en entreprise.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.5. Contrôle de l'accès au site de compostage
+
+§ 1 er . Seules les personnes ayant reçu l'accord préalable du gestionnaire du site de compostage ont accès au site de compostage.
+
+§ 2. Un tableau d'information est installé à l'entrée du site de compostage, à un endroit visible depuis l'extérieur du site.
+
+Ce tableau d'information contient :
+
+1. les informations permettant d'identifier et de contacter le gestionnaire du site de compostage ;
+
+2. les heures d'ouverture du site de compostage ;
+
+3. les consignes concernant les conditions de remise des déchets ;
+
+4. la liste des déchets acceptés.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.6. Contrôle et suivi du compostage
+
+Tous les déchets apportés font l'objet d'un compostage.
+
+La décomposition et l'hygiénisation correctes des déchets, sont assurées par un approvisionnement pérenne en matière carbonée structurante en quantité suffisante et par des retournements réguliers sur l'ensemble des déchets avec déplacement de ceux-ci afin de les homogénéiser.
+
+Les tas de déchets en cours de compostage ont une hauteur maximale de 2 mètres et un volume minimum de 1 m³.
+
+L'article 3.5.6. § 3 est d'application.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.7. Prévention des nuisances
+
+L'article 3.5.12. est d'application.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.8. Utilisation du compost
+
+§ 1 er . Seuls les ménages, l'entreprise ou les entreprises du groupement d'entreprises apportant les déchets de cuisine et de table peuvent utiliser le compost issu de leur propre site de compostage.
+
+Lors de la distribution du compost, le gestionnaire du site de compostage rappelle les risques sanitaires liés à l'utilisation du compost et les bonnes pratiques d'hygiène pour sa manipulation.
+
+Le compost ne peut être utilisé que pour son propre usage et sous sa propre responsabilité. Le compost ne peut être ni donné, ni vendu.
+
+§ 2. Par dérogation au paragrahe 1 er , le compost peut être utilisé par la personne morale de droit public gestionnaire d'espaces verts ayant accès à un site de compostage conformément à l'article 3.9.5. § 1 er , sur ses propres espaces verts.
+
+Dans ce cas, l'utilisation du compost sur des terres consacrées à la production des fruits et légumes, sur des pâturages ou sur des terres consacrées à la production de plantes fourragères destinées à l'alimentation animale est interdite.
+
+§ 3. Les quantités excédentaires de compost sont transportées vers une installation de collecte et/ou de traitement autorisée. Ces quantités excédentaires ne peuvent pas être transférées entre différents sites de compostage de quartier et/ou sites de compostage en entreprise.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 3. - Exploitation
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.9. Gestionnaire du site de compostage de quartier
+
+§ 1 er . Une personne physique, le gestionnaire du site de compostage, est désignée comme responsable de la bonne gestion du site de compostage.
+
+§ 2. Le gestionnaire du site de compostage, ou une personne désignée par lui, suit une formation relative à la réglementation et aux règles du guide de bonnes pratiques sur le compostage.
+
+§ 3. Le gestionnaire du site de compostage donne son accord préalable aux ménages ayant accès au site et tient à jour la liste des ménages et leur adresse.
+
+Il donne son accord préalable, écrit et daté, à la personne morale de droit public gestionnaire d'espaces verts et/ou le professionnel de service d'aménagement paysager qui apporte des déchets de jardins et de parcs et tient à jour, au minimum une fois par an, la liste des coordonnées de ceux-ci.
+
+Les listes sont présentées sur simple demande aux agents chargés de la surveillance suivant les dispositions de l'article 5 du code de l'inspection.
+
+§ 4. Le gestionnaire du site de compostage et les personnes visées au paragraphe 3 s'organisent pour assurer une bonne gestion du site de compostage.
+
+§ 5. Bruxelles Environnement rédige un guide de bonnes pratiques sur le compostage et le publie sur son site internet.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.10. Gestionnaire du site de compostage en entreprise
+
+§ 1 er . Une personne physique ou morale est désignée comme gestionnaire du site de compostage et est responsable de la bonne gestion du site de compostage.
+
+§ 2. Le gestionnaire du site de compostage ou une personne désignée par lui, suit une formation relative à la réglementation et aux règles du guide de bonnes pratiques sur le compostage.
+
+§ 3. L'entreprise consigne dans un registre interne à l'entreprise au minimum les informations suivantes :
+
+- les coordonnées de la personne désignée comme gestionnaire du site de compostage ;
+
+- la preuve que le gestionnaire du site de compostage ou une personne désignée par lui, a suivi la formation visée au paragraphe 2 ;
+
+- la liste des collaborateurs de l'entreprise ayant accès au site de compostage ;
+
+- l'ensemble des accords préalable, écrits et datés, avec la personne morale de droit public gestionnaire d'espaces verts et/ou le professionnel de service d'aménagement paysager ayant accès au site, qui apportent des déchets de jardins et de parcs et une liste des coordonnées de ceux-ci.
+
+§ 4. En cas de groupement d'entreprises, les entreprises désignent l'entreprise du groupement sur le terrain de laquelle le site de compostage est installé. Un contrat est établi entre les entreprises qui utilisent ce site et chacune d'entre elles garde une copie du contrat. Le contrat reprend au minimum les informations suivantes :
+
+- les coordonnées des entreprises participant dans le groupement d'entreprises ;
+
+- le lieu exact du site de compostage ;
+
+- les coordonnées de la personne designée comme gestionnaire du site de compostage;
+
+- la preuve que le gestionnaire du site de compostage ou une personne désignée par lui, a suivi la formation visée au paragraphe 2.
+
+Le gestionnaire du site de compostage consigne dans un registre au minimum les informations suivantes :
+
+- la copie du contrat visé à l'alinéa 1 er ;
+
+- la liste des collaborateurs des entreprises ayant accès au site de compostage ;
+
+- l'ensemble des accords préalable, écrits et datés, avec les tiers ayant accès au site, qui apportent des déchets de jardins et de parcs et une liste des coordonnées de ceux-ci.
+
+§ 5. Les accords, les contrats et les registres sont datés et sont régulièrement mis à jour, au minimum une fois par an, au regard de l'évolution de la situation du site de compostage.
+
+§ 6. Le registre peut servir comme preuve de gestion de déchets visé par l'article 1.7. § 2, 3. du Brudalex à condition que le site de compostage en entreprise respecte les conditions reprises dans la présente section.
+
+Le registre est présenté sur simple demande aux agents chargés de la surveillance suivant les dispositions de l'article 5 du code de l'inspection.
+
+§ 7. Le gestionnaire du site de compostage s'organise pour assurer une bonne gestion du site de compostage.
+
+§ 8. Bruxelles Environnement rédige et publie sur son site internet un guide de bonnes pratiques sur le compostage.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+##### Section 2. - Compostage de petite taille
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 1re. - Champ d'application
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.11. Champ d'application
+
+§ 1 er . La présente section s'applique aux installations de compostage visées à la rubrique 41-1A sauf s'il s'agit d'installations de compostage de quartier soumises à la section 1re.
+
+Sauf dispositions contraires, le titre I, les chapitres 1 à 8 du présent titre et le chapitre 5 du titre IV, s'appliquent au compostage de petite taille.
+
+§ 2. Cette section s'applique sans préjudice du Règlement (CE) N° 1069/2009.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 2. - Généralités
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.12. Apports
+
+§ 1 er . Seuls les déchets biodégradables peuvent faire l'objet d'un compostage. Sans préjudice d'autres règlementations, l'apport des déchets suivants est interdit :
+
+1. les déchets dangereux tels que repris dans la liste des déchets visée par l'article 1.9. du présent arrêté ;
+
+2. les bois traités.
+
+Le permis d'environnement précise les déchets pouvant être traités dans l'installation de compostage.
+
+§ 2. Les additifs de compostage chimiques et/ou biologiques sont interdits.
+
+Le permis d'environnement peut octroyer une dérogation à l'utilisation des additifs de compostage pour autant que l'exploitant démontre l'innocuité de l'utilisation des additifs sur l'environnement ainsi que le respect de la règlementation.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.13. Localisation
+
+§ 1. La localisation de l'installation de compostage est conforme à l'article 3.9.3. § 1.
+
+§ 2. Aucun stockage de déchets ne se fait en dehors des aires prévues pour le compostage reprises à l'article 3.9.14.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.14. Infrastructure
+
+§ 1 er . L'installation de compostage comprend au minimum :
+
+1. une aire ou un équipement dédié à la réception, le tri éventuel et le contrôle des déchets ;
+
+2. une aire ou un équipement dédié au stockage des déchets, adapté à la nature de ceux-ci, le cas échéant ;
+
+3. une aire ou un équipement dédié au prétraitement des déchets, le cas échéant ;
+
+4. une aire ou un équipement dédié à la décomposition aérobie ;
+
+5. une aire ou un équipement dédié à la maturation ;
+
+6. une aire ou un équipement dédié à l'affinage, le criblage, la formulation le cas échéant ;
+
+7. une aire de stockage du compost avant expédition, le cas échéant.
+
+§ 2. Les aires se composent de tous les équipements et constructions utiles au compostage et sont dimensionnées de manière à garantir un temps de séjour suffisant pour assurer l'obtention d'un compost respectant les normes définies à l'article 3.9.17.
+
+§ 3. Les aires sont bien délimitées et permettent d'éviter le contact entre les déchets et le compost.
+
+§ 4. Le sol des aires visées au paragraphe 1 er , 1° à 5° est recouvert ou composé d'un matériau imperméable. Il est pourvu d'une pente suffisante afin de récolter les lixiviats et les eaux de ruissellement.
+
+§ 5. L'installation est pourvue d'un système de récupération et de réutilisation des lixiviats et eaux de ruissellement pour l'arrosage de la matière en décomposition durant le traitement par compostage.
+
+§ 6. Le permis d'environnement peut octroyer une dérogation aux paragraphes 4 et 5 pour autant que l'exploitant démontre l'absence de risque pour le sol et les eaux.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 3. - Exploitation
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.15. Demande de permis d'environnement
+
+§ 1 er . Lors de l'introduction de la demande de permis d'environnement, les documents requis par les articles 3.5.2., 3.5.3. et 3.5.4 ne sont pas exigés.
+
+§ 2. L'exploitant, ou une personne désignée par lui, suit une formation relative à la réglementation et aux règles du guide de bonnes pratiques sur le compostage telles que définies à l'article 3.9.9. § 2.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.16. Contrôle et suivi du compostage
+
+§ 1 er . L'exploitant est tenu de tout mettre en oeuvre pour le bon déroulement du compostage, notamment, l'organisation, le planning des opérations et le bon fonctionnement du matériel.
+
+§ 2. Si l'installation est munie d'un système d'épuration de l'air, celui-ci est entretenu conformément aux instructions du fournisseur ou de l'installateur.
+
+§ 3. L'occupation de l'espace permet l'organisation du compostage et des dépôts.
+
+§ 4. L'exploitant instaure une gestion par lot de déchets. Il s'assure que les déchets composant le lot subissent des conditions de compostage identiques. Chaque lot est identifié.
+
+§ 5. L'exploitant s'assure que des conditions anaérobies n'apparaissent pas au niveau des déchets lors des phases de décomposition et de maturation.
+
+§ 6. Dans les 24 heures de leur livraison, les déchets apportés sont incorporés dans le processus du compostage.
+
+§ 7. Les déchets sont déposés en andains dont la hauteur maximale en cours de compostage est limitée à 3 mètres.
+
+§ 8. La décomposition et l'hygiénisation correcte des déchets est assurée par retournement régulier et homogène de la matière ou par ventilation forcée.
+
+Les retournements répondent aux conditions suivantes :
+
+1. ils sont réguliers sur l'ensemble de la matière avec déplacement de celle-ci afin d'homogénéiser la matière ;
+
+2. le temps de séjour des matières en cours de décomposition aérobie dans l'aire correspondante est au minimum de trois semaines ;
+
+3. pendant la phase de décomposition aérobie, la matière subit au minimum trois retournements.
+
+En cas de ventilation forcée, le temps de séjour des matières en cours de décomposition aérobie dans l'aire correspondante est au minimum de deux semaines.
+
+§ 9. Une dérogation au paragraphe 8, points 2 et 3 peut être octroyée par le permis d'environnement si l'exploitant établit, sur base d'une expertise, que l'alternative utilisée assure de manière équivalente la protection de l'environnement et l'hygiénisation du compost.
+
+§ 10. A l'issue de la phase de décomposition aérobie, la matière est dirigée vers la zone de maturation.
+
+§ 11. La température de la matière en cours de compostage est contrôlée quotidiennement.
+
+§ 12. Pendant le compostage, toutes les parties de la matière présentent une variation de la température en fonction du temps qui correspond à l'une des situations suivantes :
+
+1. 60 ° C ou plus pendant au moins 4 jours,
+
+2. 55 ° C ou plus pendant au moins 12 jours.
+
+§ 13. Le personnel dispose sur le site de compostage de toutes les informations nécessaires pour assurer le respect des procédures.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.17. Composition du compost
+
+§ 1 er . Sauf pour le paramètre Zn, le compost respecte les normes d'assainissement pour le sol reprises dans l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 29 mars 2018 fixant les normes d'intervention et les normes d'assainissement. Pour le paramètre Zn, le seuil maximum est de 400 mg de Zn/kg de matière sèche.
+
+§ 2. Des analyses sont au minimum réalisées au niveau des métaux lourds et métalloïdes, hydrocarbures aromatiques polycycliques et huiles minérales.
+
+§ 3. Le permis d'environnement peut fixer des paramètres supplémentaires à analyser en tenant compte des apports.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.18. Echantillonage et analyse
+
+§ 1 er . L'exploitant procède à une prise d'échantillons selon les codes de bonnes pratiques relatifs à la prise d'échantillons et publiés sur le site de Bruxelles Environnement.
+
+§ 2. L'analyse du compost est réalisée par un laboratoire agréé en Région de Bruxelles-Capitale, dans le domaine du sol, en application de l'arrêté du 23 juin 1994 relatif aux conditions générales et à la procédure d'agrément de laboratoires.
+
+§ 3. L'analyse du compost est réalisée selon les codes de bonnes pratiques publiés sur le site de Bruxelles Environnement et relatifs aux méthodes d'analyse.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.19. Prévention des nuisances
+
+§ 1 er . Toutes les mesures sont prises pour limiter au maximum les nuisances dues aux odeurs, notamment lors des retournements et du criblage.
+
+§ 2. En cas d'impossibilité d'incorporer les déchets apportés dans le processus de compostage, ceux-ci sont évacués le plus vite possible afin d'éviter toutes nuisances.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.20. Rapport d'activités
+
+§ 1 er . L'exploitant tient un rapport d'activités contenant les informations suivantes :
+
+1. les informations datées sur les opérations effectuées, les résultats d'analyse et paramètres mesurés notamment, la température, les retournements, le criblage et le stockage du compost ;
+
+2. les quantités de compost produites ;
+
+3. les informations contenues dans le registre de déchets visé à l'article 1.7.
+
+§ 2. Le rapport d'activités est présenté sur simple demande aux autorités habilitées à exercer des contrôles.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.21. Fin de statut de déchet en Région de Bruxelles-Capitale et utilisation du compost
+
+Sans préjudice des obligations complémentaires du Règlement (CE) N° 1069/2009, le compost issu d'un processus de compostage conforme à l'article 3.9.17. et 3.9.18. cesse d'être un déchet conformément à l'article 9 de l'ordonnance déchets.
+
+Le compost peut être utilisé comme amendement du sol.
+
+Le compost réalisé en Région flamande ou en Région wallonne obtient la fin de statut de déchet en Région de Bruxelles-Capitale, pour autant qu'il soit conforme aux exigences de l'article 3.9.17. § 1 er et de l'article 3.9.18. Ce compost n'est pas soumis à l'autorisation pour la rubrique 178.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+##### Section 3. - Compostage de grande taille
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 1re. - Champ d'application
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.22. Champ d'application
+
+§ 1 er . La présente section s'applique aux installations de compostage visées à la rubrique 41-1B.
+
+Sauf dispositions contraires, le titre I, les chapitres 1 à 8 du présent titre et le chapitre 5 du titre IV, s'appliquent au compostage de grande taille.
+
+§ 2. Cette section s'applique sans préjudice du Règlement (CE) N° 1069/2009.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 2. - Généralités
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.23. Apports
+
+L'article 3.9.12. est d'application.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.24. Localisation
+
+§ 1 er . La localisation de l'installation de compostage est conforme à l'article 3.9.3. § 1.
+
+§ 2. Aucun stockage de déchets ne se fait en dehors des aires prévues pour le compostage reprises à l'article 3.9.14.
+
+§ 3. Les aires et équipements répondent aux conditions suivantes :
+
+1. ils sont situés à au moins 50 mètres des habitations occupées par des tiers, des zones destinées à l'habitation, des établissements recevant du public, à l'exception de ceux en lien avec la collecte ou le traitement des déchets. Cette distance est portée à au moins 200 mètres s'ils ne sont pas munis d'un système de collecte et de traitement des effluents gazeux ;
+
+2. l'installation ne surmonte pas ou n'est pas surmontée de locaux habités, occupés par des tiers ou à usage de bureaux, à l'exception de locaux techniques nécessaires au fonctionnement de l'installation.
+
+§ 4 Les clôtures et autres dispositifs empêchant l'intrusion sont maintenus en bon état.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.25. Infrastructure
+
+L'article 3.9.14. est d'application à l'exception de la dérogation prévue au paragraphe 6.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+###### Sous-section 3. - Exploitation
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+Article 3.9.26.
+
+§ 1 er . L'article 3.9.16. est d'application à l'exception de son paragraphe 9.
+
+§ 2. Les articles 3.9.17. à 3.9.21. sont d'application.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022 et entrée en vigueur le 29.07.2023 pour ce qui concerne les dispositions relatives aux installations de compostage de quartier existantes et aux installations de compostage en entreprise existantes et pour les dispositions relatives au contrôle et suivi du compostage, à la composition du compost, à l'échantillonnage et l'analyse ainsi qu'à la fin de statut de déchet en Région de Bruxelles-Capitale et à l'utilisation du compost (art. 15 § 4)
+
+### TITRE IV - Dispositions relatives à certains flux de déchets
+
+#### CHAPITRE 1 er - Des déchets d'équipements électriques et électroniques
+
+##### Section 1re - Définitions
+
+Article. 4.1.1
+
+§ 1 er . Au sens du présent chapitre, on entend par :
+
+« Extraction »: un traitement manuel, mécanique, chimique ou métallurgique à l'issue duquel les substances, mélanges et composants dangereux se trouvent rassemblés en un flux identifiable ou dans une partie identifiable d'un flux au cours du processus de traitement. Une substance, un mélange ou un composant est identifiable s'il est possible de le contrôler pour vérifier que son traitement est respectueux de l'environnement.
+
+§ 2. Les définitions de « producteur », « détaillant », « distributeur », « organisme agréé » et « organisme de gestion » qui sont énoncées à l'article 1.1 et à l'article 2.4.46 sont applicables au présent chapitre.
+
+##### Section 2 - Des opérations de gestion des DEEE
+
+###### Sous-section 1 er - De la préparation en vue du réemploi et du réemploi
+
+Article 4.1.2.
+
+§ 1 er La priorité est donnée au réemploi des EEE usagés et à la préparation en vue du réemploi des DEEE.
+
+Le réemploi et la préparation en vue du réemploi sont interdits pour les appareils suivants :
+
+1. des écrans ménagers utilisant des tubes cathodiques (CRT) ;
+
+2. des appareils contenant des CFC ou des HCFC visé par le Règlement (CE) N° 1005/2009 du parlement européen et du conseil du 16 septembre 2009 relatif à des substances qui appauvrissent la couche d'ozone. S'il n'y a pas d'indication du gaz de refroidissement utilisé sur l'appareil, la présence de CFC ou d'HCFC dans l'appareil est présumée.
+
+§ 2. Pour le réemploi des EEE usagés, les règles suivantes sont d'application :
+
+1. l'appareil est en bon état ;
+
+2. tous les composants essentiels sont présents ;
+
+3. le boîtier est complet.
+
+§ 3. Pour la préparation en vue du réemploi des DEEE, les règles suivantes sont d'application :
+
+1. Un appareil n'est préparé en vue du réemploi que s'il existe un marché régulier pour cet appareil.
+
+2. Le logiciel protégé par des droits d'auteur et pour lequel il n'y a pas de licence, est supprimé.
+
+3. La sécurité électrique de l'appareil est testée. Le test comprend également, le cas échéant, un mesurage d'isolation, un mesurage de terre et un contrôle de court-circuit. Uniquement l'appareil qui est sûr d'un point de vue électrique peut être réemployé.
+
+4. La fonctionnalité de l'appareil est testée. Uniquement l'appareil qui est pleinement fonctionnel peut être réemployé. Un appareil est pleinement fonctionnel lorsque le test révèle que les fonctions d'origine peuvent être pleinement remplies.
+
+Les dispositions spécifiques établies à l'annexe 4 s'appliquent pour les équipements qui y sont visés.
+
+§ 4. Chaque appareil qui a fait l'objet d'une préparation en vue d'être réemployé dispose d'une étiquette et d'une fiche de réemploi répondant aux obligations définies dans le présent paragraphe.
+
+L'étiquette mentionne au moins :
+
+1. le numéro d'identification de l'équipement ou un autre code d'identification unique ;
+
+2. le nom du centre de préparation au réemploi qui a préparé l'appareil au réemploi où l'équipement a été préparé au réemploi.
+
+L'étiquette est solidement fixée à l'équipement et est visible et lisible.
+
+La fiche de réemploi mentionne au minimum :
+
+1. le numéro d'identification de l'équipement ou un autre code d'identification unique ;
+
+2. le nom du centre de préparation en vue du réemploi où l'équipement a été préparé au réemploi ;
+
+3. la dénomination de l'appareil ;
+
+4. la catégorie de l'appareil au sens de l'article 2.4.46. ;
+
+5. le résultat des différents tests effectués et la date à laquelle ils ont été effectués.
+
+La fiche de réemploi peut prendre la forme d'une fiche papier, d'une fiche digitale ou d'un enregistrement dans une base de données.
+
+La fiche de réemploi est présentée sur simple demande aux autorités habilitées à exercer des contrôles.
+
+La fiche de réemploi est conservée pendant au moins 5 ans par le centre de préparation au réemploi.
+
+------------
+
+- remplacé par l'art. 3.1 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 2 - Collecte et traitement
+
+Article 4.1.3.
+
+§ 1 er . L'élimination des DEEE collectés séparément qui n'ont pas encore fait l'objet d'un traitement conformément à la présente section, est interdite.
+
+§ 2. La collecte et le transport des DEEE collectés séparément, sont réalisés de manière à assurer des conditions optimales de préparation en vue du réemploi, de recyclage et de confinement des substances dangereuses.
+
+§ 3. Les DEEE sont collectés dans des endroits secs. Les frigos et les congélateurs sont déplacés manuellement sans endommagement et sans écoulement des fluides et des gaz. Ils sont entreposés de façon telle à ce que leur circuit de refroidissement ne soit pas endommagé. Les écrans sont collectés de façon telle qu'ils soient intacts à la sortie du dépôt.
+
+§ 4. Une présélection des DEEE collectés séparément est opérée en vue d'écarter les appareils qui ne peuvent visiblement pas être réemployés.
+
+Les éléments suivants sont pris en considération:
+
+1. mauvais état général de l'appareil
+
+2. nombreux dégâts cosmétiques (par ex. bosses, fêlures, trous, etc.)
+
+3. appareils interdits pour le réemploi et pour la préparation en vue de réemploi conformément à l'article 4.1.2. § 1.
+
+Cette présélection peut être opérée sur le site où les DEEE sont collectés.
+
+------------
+
+- § 4, 3. remplacé par l'art. 3.2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.1.4.
+
+§ 1 er . Moyennant respect des obligations contenues aux paragraphes 2 à 5 de cet article, le collecteur, négociant ou courtier autorisé peut organiser des collectes complémentaires de DEEE de très petites dimensions, à l'exception des lampes et des détecteurs de fumée, auprès de points de collecte complémentaires. Le producteur peut également organiser des collectes complémentaires pour autant qu'il fasse appel à un collecteur autorisé.
+
+§ 2. Pour les collectes complémentaires de DEEE de très petites dimensions, les conditions suivantes sont d'application :
+
+1. Le nom du collecteur, négociant et courtier, ou du producteur, est indiqué sur le récipient de collecte ;
+
+2. Les récipients de collecte se trouvent dans un endroit sûr et surveillé ;
+
+3. Les DEEE sont collectés de manière régulière et organisée ;
+
+4. Les DEEE ne sont pas collectés sur la voie publique ;
+
+5. Le site de collecte et ses alentours sont maintenus propres ;
+
+6. Ces collectes s'inscrivent dans le cadre d'actions plus larges de sensibilisation en matière de prévention, de réemploi et de gestion appropriée des DEEE ;
+
+7. Les récipients de collecte sont conçus de manière à optimiser la sécurité des stockages, le confinement des substances dangereuses, la préparation en vue du réemploi et le réemploi;
+
+8. L'installation de collecte complémentaire a une surface totale destinée à la collecte de maximum 2 m². Au moins le tiers de cette surface est destiné à la collecte en vue du réemploi des DEEE.
+
+9. La collecte des points de collecte complémentaires est effectuée endéans les trois jours ouvrables suivants la demande de collecte par le gestionnaire du site où se trouve le récipient.
+
+§ 3. Les collectes complémentaires doivent préalablement être approuvées par l' Instiut . La demande introduite par le collecteur négociant courtier contient au minimum :
+
+1. Une description du système de collecte mis en place, y compris une description des récipients et du matériel de sensibilisation utilisés ;
+
+2. Les responsabilités des acteurs impliqués dans la gestion des DEEE collectés ;
+
+3. La liste des points de collecte complémentaires.
+
+L'Institut dispose d'un délai de 30 jours à compter du jour de la réception de la demande pour approuver ou non les documents qui lui sont proposés. L'Institut peut déroger à l'obligation de destiner au moins le tiers de la surface de collecte à de la collecte en vue du réemploi. L'approbation est valable maximum 5 ans.
+
+Si aucune décision n'est prise durant ce laps de temps, la demande est réputée refusée.
+
+§ 4. La liste des points de collecte, les quantités collectées et les acteurs impliqués dans la gestion des DEEE de très petites dimensions collectées est transmise sur demande à l'Institut.
+
+§ 5. En ce qui concerne la collecte des DEEE de très petites dimensions au sein des établissements scolaires, les règles suivantes sont, en outre, d'application:
+
+1. Les collectes sont interdites dans les écoles maternelles ou primaires;
+
+2. Les actions ne peuvent durer plus de 3 jours et ne peuvent avoir lieu plus de deux fois dans la même année calendrier ;
+
+3. Les DEEE collectés sont retirés endéans les 3 jours ouvrables suivant la fin de l'action.
+
+Article 4.1.5.
+
+§ 1 er . Les DEEE collectés séparément sont triés et démontés en plusieurs fractions:
+
+1° équipements et pièces destinés à être réemployés ;
+
+2° pièces et substances dangereuses, tels les condensateurs contenant des PCB, les interrupteurs à mercure, les batteries, les tubes cathodiques, les substances visées par le protocole de Montréal, les HFC, les PFC et les SF6 et éventuellement d'autres composants contenant des substances dangereuses ;
+
+3° pièces et matériaux destinés à être recyclés ;
+
+4° pièces et matériaux non réemployables et non recyclables ;
+
+5° piles et accumulateurs usagés.
+
+Les panneaux photovoltaïques collectés séparément sont démontés en plusieurs fractions:
+
+1° le cadre en aluminium, si d'application ;
+
+2° le verre ;
+
+3° les matières synthétiques ;
+
+4° les métaux non-ferreux y compris le tableau de distribution.
+
+§ 2. Au minimum les substances, mélanges et composants ci-après sont extraits de tout DEEE :
+
+1° condensateurs contenant du polychlorobiphényle (PCB) conformément à l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 relatif à la planification de l'élimination des polychlorobiphényles (PCB) et des polychloroterphényles (PCT);
+
+2° composants contenant du mercure, tels que les interrupteurs ou les lampes à rétroéclairage ;
+
+3° piles et accumulateurs ;
+
+4° cartes de circuits imprimés des téléphones mobiles, d'une manière générale, et d'autres dispositifs si la surface de la carte de circuit imprimé est supérieure à 10 cm2 ;
+
+5° cartouches de toner, liquide ou en pâte, ainsi que les toners de couleur ;
+
+6° matières plastiques contenant des retardateurs de flamme bromés ;
+
+7° déchets d'amiante et composants contenant de l'amiante ;
+
+8° tubes cathodiques ;
+
+9° chlorofluorocarbones (CFC), hydrochlorofluorocarbone (HCFC) ou hydrofluorocarbone (HFC), hydrocarbures (HC);
+
+10° lampes à décharge ;
+
+11° écrans à cristaux liquides (ainsi que leur boîtier le cas échéant) d'une surface supérieure à 100 cm2 et les écrans rétroéclairés par des lampes à décharge ;
+
+12° câbles électriques extérieurs ;
+
+13° composants contenant des fibres céramiques réfractaires tels que décrits à l'annexe VI, troisième partie, du Règlement (CE) n° 1272/2008 du parlement européen et du Conseil du 16 décembre 2008 relatif à la classification, à l'étiquetage et à l' embalage des substances et des mélanges ;
+
+14° composants contenant des substances radioactives à l'exception des composants en quantités ne dépassant pas les valeurs d'exemption fixées par l'arrêté royal du 20 juillet 2001 portant règlement général de la protection de la population, des travailleurs et de l'environnement contre le danger des rayonnements ionisants;
+
+15° condensateurs électrolytiques contenant des substances dangereuses (hauteur > 25 mm, diamètre > 25 mm ou volume proportionnellement similaire).
+
+§ 3. Les composants ci-après de DEEE ayant fait l'objet d'une collecte séparée sont traités de la manière indiquée ci-dessous :
+
+1° tubes cathodiques : la couche fluorescente est extraite ;
+
+2° équipements contenant des gaz préjudiciables à la couche d'ozone ou présentant un potentiel de réchauffement de la planète (PRP) supérieur à 15, présents par exemple dans les mousses et les circuits de réfrigération : ces gaz sont enlevés et traités selon une méthode adaptée. Les gaz préjudiciables à la couche d'ozone sont traités conformément au règlement (CE) n° 1005/2009 ;
+
+3° lampes à décharge : le mercure est extrait ;
+
+4° les piles et accumulateurs : les piles et accumulateurs, à l'exception de celles qui sont fixées par une connexion permanente, sont démontées manuellement.
+
+§ 4. Les substances, mélanges et composants visés au présent article sont remis à un collecteur, négociant, courtier autorisé en Région de Bruxelles-Capitale.
+
+§ 5 Compte tenu de considérations environnementales et de l'utilité de la préparation en vue du réemploi et du recyclage, les paragraphes 1 à 3 sont appliqués de manière à ne pas entraver la préparation en vue du réemploi et le recyclage respectueux de l'environnement de composants ou d'appareils entiers.
+
+###### Sous-section 3 - Du transfert transfrontalier d'EEE usagés
+
+------------
+
+- intitulé remplacé par l'art. 3.3 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.1.6.
+
+§ 1 er . Le transfert transfrontalier d'EEE usagés n'est autorisé que si les EEE usagés sont protégés de manière appropriée contre les dommages pouvant survenir lors du transport, lors du chargement et du déchargement, en particulier au moyen d'un emballage suffisant et d'un empilement approprié du chargement.
+
+§ 2. Afin de pouvoir faire la distinction entre des « équipements électriques et électroniques usagés » et des « déchets d'équipements électriques et électroniques », lorsque le détenteur de l'objet en question déclare qu'il a l'intention de transférer ou qu'il transfère des EEE usagés et non des DEEE, leur détenteur met à disposition des services qui établissent les formulaires douaniers et des autorités habilitées à effectuer des contrôles les documents suivants à l'appui de cette déclaration :
+
+1. une copie de la facture et du contrat relatif à la vente et/ou au transfert de propriété de l'EEE, indiquant que celui-ci est destiné à être réemployé directement et qu'il est totalement fonctionnel ;
+
+2. une preuve d'évaluation ou d'essais, comme décrit au paragraphe 4, sous la forme d'une copie des documents (certificat d'essais, preuve du bon fonctionnement) pour chaque appareil du lot ;
+
+3. une déclaration du détenteur qui organise le transport des EEE, indiquant que le lot ne contient aucun matériel ou équipement constituant un déchet au sens de l'article 3 de l'ordonnance déchets.
+
+§ 3. Par dérogation, les points 1° et 2° du paragraphe 2, et le paragraphe 4 ne s'appliquent pas lorsque des preuves concluantes attestent que le transfert a lieu dans le cadre d'un accord de transfert entre entreprises et que :
+
+a) des EEE sont renvoyés au producteur ou à un tiers agissant pour le compte du producteur pour défaut pour une réparation sous garantie en vue de leur réemploi ; ou
+
+b) des EEE destinés à un usage professionnel, usagés, sont renvoyés au producteur ou à un tiers agissant pour le compte du producteur ou à l'installation d'un tiers dans des pays dans lesquels s'applique la décision C(2001)107/final du Conseil de l'OCDE concernant la révision de la décision C(92)39/final sur le contrôle des mouvements transfrontières de déchets destinés à des opérations de valorisation, pour remise à neuf ou réparation dans le cadre d'un contrat valide, en vue de leur réemploi ; ou
+
+c) des EEE destinés à un usage professionnel, usagés et défectueux, tels que des dispositifs médicaux ou des parties de ceux-ci, sont renvoyés au producteur ou à un tiers agissant pour le compte du producteur pour analyse des causes profondes dans le cadre d'un contrat valide, dans les cas où une telle analyse ne peut être effectuée que par le producteur ou un tiers agissant pour le compte du producteur.
+
+§ 4. Afin de démontrer que les appareils transférés constituent des EEE usagés et non des DEEE, les essais et l'établissement de procès-verbaux d'essai pour les EEE usagés doivent être réalisés dans une installation autorisée pour la préparation en vue du réemploi, selon les étapes suivantes :
+
+Etape n° 1 : essais pour contrôler si les appareils répondent aux dispositions de l'article 4.1.2. paragraphes 1, 2 et 3.
+
+a) le bon fonctionnement est testé, et la présence de substances dangereuses est évaluée. Les essais à réaliser dépendent du type d'EEE. Pour la plupart des EEE usagés, un test de bon fonctionnement des fonctions essentielles est suffisant ;
+
+b) les résultats des évaluations et des essais sont consignés dans la fiche de préparation en vue du réemploi.
+
+Etape n° 2 : procès-verbal d'essai
+
+a) le procès-verbal d'essai est fixé solidement, mais de manière non permanente, soit sur l'EEE lui-même, s'il n'est pas emballé, soit sur l'emballage, de façon à pouvoir être lu sans déballer l'équipement ;
+
+b) le procès-verbal contient les informations suivantes :
+
+- le numéro d'identification de l'équipement ou un autre code d'identification unique ;
+
+- le nom, l'adresse et le numéro d'entreprise du centre de préparation en vue du réemploi où l'équipement a été préparé au réemploi ;
+
+- le nom de l'article (nom de l'équipement, et mention de la catégorie à laquelle il appartient conformément à l'article 2.4.46.) ;
+
+- l'année de production, si connue ;
+
+- les résultats des essais décrits à l'étape 1, y compris la date de l'essai de bon fonctionnement ;
+
+- le type d'essais réalisés.
+
+§ 5. En plus des documents requis aux paragraphes 2, 3 et 4, chaque chargement d'EEE usagés (par exemple, conteneur ou camion) est accompagné:
+
+a) d'un document de transport pertinent, par exemple un document CMR ou lettre de transport ;
+
+b) d'une déclaration de la personne habilitée sur sa responsabilité.
+
+§ 6. En l'absence de preuve qu'un objet est un EEE usagé et non un DEEE au moyen des documents appropriés requis aux paragraphes 2, 3, 4 et 5 et en l'absence d'une protection appropriée contre les dommages pouvant survenir lors du transport, du chargement et du déchargement, en particulier au moyen d'un emballage suffisant et d'un empilement approprié du chargement, qui relèvent des obligations du détenteur qui organise le transport, un article est un DEEE et le chargement constitue un transfert illégal. Dans ces circonstances, le chargement sera traité conformément aux articles 24 et 25 du règlement (CE) n° 1013/2006.
+
+§ 7. Les coûts des analyses et inspections appropriées, y compris les coûts de stockage, des EEE usagés suspectés d'être des DEEE peuvent être facturés aux producteurs, aux tiers agissant pour le compte des producteurs ou à d'autres personnes organisant le transfert d'EEE usagés suspectés d'être des DEEE.
+
+------------
+
+- §§ 1 er à 4 remplacés par l'art. 3.4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 3 - Des opérateurs de gestion des DEEE
+
+###### Sous-Section 1re - Le site de dépôt et de collecte
+
+Article 4.1.7.
+
+Le site de dépôt et de collecte de DEEE comporte les équipements suivants :
+
+1° des surfaces imperméables pour les aires appropriées avec dispositifs de collecte des fuites et, le cas échéant, décanteurs et séparateurs d'hydrocarbures/épurateurs-dégraisseurs ;
+
+2° une couverture/un recouvrement résistant aux intempéries pour les aires appropriées.
+
+###### Sous-section 2 - Le site de traitement
+
+Article 4.1.8.
+
+Le site de traitement de DEEE recourt aux meilleures techniques de traitement disponibles et remplit au minimum aux exigences de la sous-section 2 de la section 2 du présent chapitre.
+
+A l'exclusion du centre de préparation en vue du réemploi, le site de traitement comporte au minimum les équipements suivants :
+
+1° une zone exclusivement réservée au stockage (y compris le stockage temporaire) des DEEE non dépollués ;
+
+2° un atelier de dépollution et de démantèlement des DEEE ;
+
+3° des dépôts destinés à recueillir tous les déchets retirés des DEEE conformément à l'article 4.1.5 § 2 ;
+
+4° une zone de stockage appropriée pour les pièces détachées démontées ;
+
+5° une zone de stockage des déchets non dangereux ;
+
+6° un ou des conteneurs appropriés pour le stockage des piles et accumulateurs, des condensateurs contenant du PCB/PCT et autres déchets dangereux, tels que des déchets radioactifs ;
+
+7° des balances pour mesurer le poids des déchets traités ;
+
+8° des surfaces imperméables et recouvrement résistant aux intempéries pour les aires appropriées, avec dispositifs de collecte des fuites et, le cas échéant, décanteurs et épurateurs-dégraisseurs ;
+
+9° des équipements pour le traitement de l'eau, conformément à la réglementation en matière de santé et d'environnement.
+
+##### Section 4 - Rapportage relatif aux opérations de gestion des DEEE
+
+Article 4.1.9.
+
+Le détaillant, le distributeur ou le tiers qui reprend les DEEE pour son compte, fournit annuellement à l'organisation désignée conformément à l'article 2.4.62, avant le 31 mai, un rapport relatif à la manière dont il exécute ses obligations en matière de reprise des DEEE, qui contient au moins les informations suivantes :
+
+1° la période couverte par le rapport ;
+
+2° nom du détaillant/distributeur, numéro d'entreprise, adresse, numéros de téléphone et de fax, email et personne de contact ;
+
+3° la quantité de DEEE, exprimée en kilogramme et en unités, par sorte (domestiques et professionnels) et par catégorie conformément à l'article 2.4.46, qui a été :
+
+a) collectée ou faite collectée par un collecteur, négociant ou courtier en déchets ;
+
+b) remis à un producteur d'EEE;
+
+c) préparée au réemploi;
+
+d) réemployées.
+
+Article 4.1.10.
+
+Le collecteur, négociant, ou le courtier qui collecte ou fait collecter des DEEE, met à disposition de l'organisation désignée conformément à l'article 2.4.62, un rapport relatif à la manière dont il exécute ses obligations en matière de gestion des DEEE.
+
+Ce rapport contient au moins les informations suivantes :
+
+1° la période couverte par le rapport;
+
+2° la quantité de DEEE, exprimée en kilogramme et en unités, par sorte, (domestiques et professionnels), et par catégorie conformément à l'article 2.4.46, qui a été, sur le territoire,
+
+a) collectée ou faite collectée dans le cadre de l'obligation de reprise, au nom du producteur;
+
+b) collectée ou faite collectée en dehors de l'obligation de reprise ;
+
+c) remise à un autre collecteur, négociant ou courtier;
+
+d) remise à une installation de traitement;
+
+3° la quantité de DEEE, exprimée en kilogramme et en unités, par catégorie, par sorte (domestiques et professionnels) et par flux de matériaux (ferreux, non ferreux, plastiques, autres) qui a été, sur le territoire :
+
+a) préparée en vue du réemploi par un centre de réemploi;
+
+b) réemployée;
+
+c) recyclée;
+
+d) valorisée;
+
+e) éliminée dans des installations d'incinérations;
+
+f) mise en décharge
+
+Article 4.1.11.
+
+Le centre de préparation en vue du réemploi qui prépare des DEEE en vue du réemploi, met à disposition de l'organisation désignée à cet effet conformément à l'article 2.4.62, un rapport relatif à la manière dont il exécute ses obligations en matière de gestion des DEEE.
+
+Il contient au moins les informations suivantes:
+
+1° la période couverte par le rapport;
+
+2° la quantité de DEEE, exprimée en kilogramme et en unités, par catégorie conformément à l'article 2.4.46 par sorte (domestiques et professionnels) qui a été, sur le territoire,
+
+a) préparée en vue du réemploi ;
+
+b) réemployée;
+
+Article 4.1.12.
+
+L'installation de traitement met à disposition de l'organisation désignée à cet effet conformément à l'article 2.4.62 un rapport relatif à la manière dont il exécute ses obligations en matière de gestion des DEEE.
+
+1° la période couverte par le rapport;
+
+2° la quantité de DEEE, exprimée en kilogramme et en unités, par sorte (domestiques et professionnels) et par catégorie conformément à l'article 2.4.46 qui a lui a été confiée par canal de collecte, sur le territoire.
+
+3° la quantité de DEEE, exprimée en kilogramme et en unités, par catégorie conformément à l'article 2.4.46, par sorte (domestiques et professionnels) et par flux de matériaux (ferreux, non ferreux, plastiques, autres) qui a été sur le territoire,
+
+a) préparée en vue du réemploi;
+
+b) réemployée;
+
+c) recyclée ;
+
+d) valorisée ;
+
+e) éliminée dans des installations d'incinérations ;
+
+f) mis en décharge.
+
+Article 4.1.13.
+
+Le notifiant au sens du Règlement (CE) N° 1013/2006, qui a transféré des DEEE, met à disposition de l'organisation désignée à cet effet, conformément à l'article 2.4.62. un rapport contenant au moins les informations suivantes :
+
+1. la période couverte par le rapport ;
+
+2. la quantité de DEEE, exprimée en kilogramme et en unités, par catégorie conformément à l'article 2.4.46 et par sorte (domestiques et professionnels) qui a été transférée.
+
+------------
+
+- remplacé par l'art. 3.5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.1.14.
+
+§ 1 er . Si pour l'une des activités de gestion des DEEE qui font l'objet des rapports visés aux articles 4.1.9 à 4.1.13, il a été fait appel à un tiers, les informations de contact de ce tiers doivent être mentionnées (nom de la firme, numéro d'entreprise, adresse, numéro de téléphone, adresse e-mail, personne de contact).
+
+§ 2. Les données chiffrées mises à disposition de l'organisation désignée à cet effet conformément à l'article 2.4.62 et à la présente section sont validées par un organisme de certification indépendant accrédité selon la norme ISO 17020. Les coûts de certification des données fournies par les producteurs, les collecteurs, négociants, courtiers et centres de préparation en vue du réemploi et des centres de traitement qui ont conclu un contrat avec les producteurs ou le tiers agissant pour son compte sont à charge du producteur. Si des variations importantes sont constatées, les coûts de certification sont portées à la charge du contractant.
+
+§ 3. Par dérogation au paragraphe 2, les données transmises par les détaillants et les distributeurs sont validées à la demande de l'Institut par une institution de contrôle accréditée selon la norme ISO 17020.
+
+§ 4. Les données transmises par les notifiants au sens du règlement (CE) n° 1013/2006 doivent être validées par une institution de contrôle accréditée selon la norme ISO 17020.
+
+§ 5. Les données transmises par les centres de préparation en vue du réemploi sont validées par une institution de contrôle accréditée selon la norme ISO 17020 sur demande de l'Institut et maximum une fois tous les 4 ans.
+
+§ 6. Les données transmises par les collecteurs, négociants et courtiers en vertu de la présente section sont validées par une institution de contrôle accréditée selon la norme ISO 17020 au moins tous les 5 ans.
+
+§ 7. Les données transmises par les installations de traitement en vertu de la présente section sont validées par une institution de contrôle accréditée selon la norme ISO 17020 au moins tous les 2 ans.
+
+§ 8. L'organisme de gestion ou l'organisme agréé peut exécuter ou faire exécuter la certification des données chiffrées transmises par les producteurs, à condition que tous les producteurs soient au moins contrôlés tous les 3 ans et que cet organisme rapporte annuellement sur ces contrôles à l'organisation désignée à cet effet conformément à l'article 2.4.62.
+
+§ 9. L'Institut peut demander aux personnes soumises à rapportage en vertu de la présente section, toutes informations supplémentaires qu'il juge nécessaire pour assurer la bonne gestion et la traçabilité des DEEE.
+
+§ 10. La ministre peut déterminer des seuils en dessous desquels la certicification ISO 17020 imposée en vertu de la présente section n'est pas requise.
+
+§ 11. La ministre peut établir une liste de certification apportant des garanties de conformité équivalentes à la certification ISO 17020.
+
+#### CHAPITRE 2 - (...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 1re - (...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.2.1.
+
+(...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 2 - (...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.2.2.
+
+(...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.2.3.
+
+(...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 3 - (...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.2.4.
+
+(...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 4 - (...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.2.5.
+
+(...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 5 - (...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.2.6.
+
+(...)
+
+------------
+
+- abrogé par l'art. 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+#### CHAPITRE 3 - Des déchets de médicaments
+
+##### Section 1re - Généralités
+
+Article 4.3.1.
+
+§ 1 er . Au sens du présent chapitre, on entend par :
+
+1° « détaillant » : pharmacien titulaire d'une officine pharmaceutique ouverte au public au sens de l'article 1 de l'arrêté royal du 21 janvier 2009 portant instructions pour les pharmaciens ;
+
+2° « distributeur » : grossiste-répartiteur au sens de l'article 1/20 de la loi sur les médicaments du 25 mars 1964.
+
+3° « médicaments » : toute substance ou composition présentée comme possédant des propriétés curatives ou préventives à l'égard des maladies humaines ou animales, qui est préparée d'avance et est commercialisée, dans un emballage particulier, sous une dénomination spéciale ou sous sa dénomination commune internationale ;
+
+4° « déchet de médicaments » : tout médicament dont le détenteur se défait ou a l'intention ou l'obligation de se défaire et qui constitue un déchet au sens de l'ordonnance déchets, que la date de validité soit dépassée ou que le médicament soit inutilisé.
+
+§ 2. Le présent chapitre s'applique aux déchets de médicaments repris sous le code déchets suivant :
+
+20 01 32 Médicaments autres que ceux visés à la rubrique 20 01 31.
+
+##### Section 2 - Gestion des déchets de médicaments
+
+Article 4.3.2.
+
+§ 1 er . Tout détenteur de déchets de médicament est tenu de les présenter à la collecte séparée des déchets résiduels.
+
+§ 2. Le détaillant reprend gratuitement tout déchet de médicament qui lui est présenté par le consommateur, sans obligation d'achat d'un autre produit.
+
+Avant l'enlèvement des déchets qui lui ont été remis, le détaillant appose sur chaque récipient une étiquette d'identification ou son cachet, de manière lisible.
+
+§ 3. Le distributeur reprend à ses frais et de manière régulière auprès des détaillants, tous les déchets de médicaments repris. Il tient ces déchets à la disposition du producteur et assure le cas échéant, de commun accord avec le producteur, leur acheminement vers les installations de traitement autorisées désignées par ledit producteur, dans le respect des dispositions réglementaires relatives au transport et à la collecte des déchets.
+
+§ 4. Le producteur est tenu de collecter de manière régulière et à ses frais les déchets de médicaments auprès des distributeurs ou, à défaut, auprès des détaillants.
+
+§ 5. Le producteur fait traiter les déchets de médicaments, à ses frais, dans une installation d'incinération autorisée.
+
+La totalité des déchets de médicaments est valorisée énergétiquement.
+
+§ 6. Les opérations de collecte et de traitement sont effectuées aux frais du producteur.
+
+##### Section 3 - Rapportage
+
+Article 4.3.3.
+
+§ 1 er . Le producteur fournit à l'Institut avant le 31 mai de chaque année, en ce qui concerne l'année civile écoulée :
+
+1. le nombre de détaillants établis en Région de Bruxelles-Capitale ainsi que le nombre de détaillants ayant effectivement participé à la collecte séparée des déchets de médicaments;
+
+2. la liste des distributeurs ayant participé, à la collecte séparée des déchets de médicaments;
+
+3. un descriptif des modalités de conditionnement, de collecte, de transport et de valorisation des déchets de médicaments;
+
+4. le poids total exprimé en kilos, des déchets de médicaments collectés et traités;
+
+5. les données relatives aux actions de sensibilisation et de prévention entreprises, à l'évaluation de ces actions et au calcul des indicateurs de résultats;
+
+6. le ou les modes de financement de la collecte et du traitement des déchets de médicaments.
+
+§ 2. L'Institut peut exiger de tout producteur de lui fournir toute autre information pertinente pour l'appréciation de la réalisation des objectifs visés par le présent chapitre et le contrôle de leur mise en oeuvre .
+
+##### Section 4 - Information du consommateur
+
+Article 4.3.4.
+
+Les producteurs veillent, notamment par des campagnes d'information et un système adéquat de traitement des demandes, à ce que les consommateurs et les détaillants soient informés des systèmes de collecte et de traitement mis en place ainsi que du rôle qu'ils ont à jouer dans la gestion des déchets de médicaments.
+
+#### CHAPITRE 4 - Véhicules hors d'usage
+
+Article 4.4.1.
+
+L'article 2. 2° de l'arrêté du 15 avril 2004 relatif à la gestion des véhicules hors d'usage est remplacé par la disposition suivante :
+
+« Véhicule hors d'usage :
+
+(...) Tout véhicule qui n'est plus ou qui ne peut plus être utilisé conformément à sa destination originale et dont le détenteur se défait, a l'intention ou l'obligation de se défaire, ou dont le titulaire ne peut pas montrer dans un délai d'un mois, l'ensemble des documents de bords suivants :
+
+- le certificat d'immatriculation valide de l'autorité compétente pour l'immatriculation des véhicules ou de l'autorité compétente pour l'immatriculation des véhicules d'un Etat membre de l'Union européenne ;
+
+- le certificat de contrôle technique valide, délivré par une institution de contrôle technique d'un Etat membre de l'Union européenne, à moins que le véhicule ne doive pas en disposer selon l'Arrêté Royal du 15 mars 1986 portant réglement général sur les conditions techniques auxquelles doivent répondre les véhicules automobiles et leurs remorques, leurs éléments ainsi que les accessoires de sécurité.
+
+(...) Tout véhicule, dont le certificat de contrôle technique est non valable, à moins que le véhicule ne doive pas en disposer, périmé depuis au moins deux ans, ou pour lequel au moins deux ans se sont écoulés depuis la date à laquelle il aurait dû être passé pour la première fois, ou qui se trouve dans un état de perte totale technique, est un véhicule hors d'usage.
+
+(...) Ne sont pas considérés comme des véhicules hors d'usage :
+
+- les véhicules d'époque inscrits au répertoire des véhicules à moteur et des remorques ;
+
+- les véhicules gardés comme objet de collection entreposés dans un local fermé qui leur est réservé ;
+
+- les véhicules utilisés à des fins didactiques;
+
+- les véhicules réservés aux activités d'exposition ou de commémoration ;
+
+- les véhicules faisant l'objet d'une instruction judiciaire ou d'une saisie et non encore libérés. »
+
+Article 4.4.2.
+
+Dans le même arrêté, l'article 7 § 2 est remplacé par la disposition suivante :
+
+« Le détenteur d'un véhicule hors d'usage qui n'est pas en mesure de présenter les documents de bord dans le mois, ou qui concerne une perte totale technique et dont le détenteur ne démarre pas la procédure de réhabilitation dans le mois ou le détenteur du véhicule dont le certificat de contrôle technique est périmé depuis au moins deux ans ou pour lequel au moins deux ans se sont écoulés depuis la date à laquelle il aurait dû être passé pour la première fois au contrôle technique, est tenu de remettre sans délai ledit véhicule à l'une des destinations suivantes :
+
+- le détaillant qui répond au moins aux conditions de l'article 8,
+
+- l'exploitant d'un centre enregistré de démontage de véhicules hors d'usage,
+
+- l'exploitant d'un centre enregistré de démontage de véhicules hors d'usage et habilité à délivrer un certificat de destruction,
+
+- l'exploitant d'un centre enregistré de destruction et de recyclage de véhicules hors d'usage et habilité à délivrer un certificat de destruction,
+
+- tout centre autorisé dans les autres Régions et habilité à délivrer un certificat de destruction. »
+
+Article 4.4.3.
+
+Les véhicules hors d'usage ne sont pas soumis aux dispositions des titres I et III.
+
+#### CHAPITRE 5. - Sous-produits animaux et produits dérivés
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 1re. - Dispositions générales
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.1. Champ d'application
+
+§ 1 er . Ce chapitre est d'application sans préjudice du Règlement (CE) N° 1069/2009 et du Règlement (UE) N° 142/2011.
+
+Ce chapitre s'applique aux sous-produits animaux et produits dérivés qui sont des déchets au sens de l'ordonnance déchets ou qui sont classés en rubrique 106.1, 106.2 ou 106.3. Les dispositions du présent chapitre s'appliquent mutatis mutandis aux produits dérivés.
+
+Conformément à l'article 15 du Règlement (UE) N° 142/2011, ce chapitre ne s'applique pas aux anciennes denrées alimentaires visées à l'article 10. f) du Règlement (CE) N° 1069/2009 si le volume de ces sous-produits animaux n'excède pas les 20 kilogrammes par semaine pour le détenteur.
+
+§ 2. Sauf dispositions contraires ou spécifiques, les titres I et III s'appliquent.
+
+§ 3. L'article 3.5.15. ne s'applique que pour les sous-produits animaux suivants :
+
+- déchets de cuisine et de table de catégorie 3 ;
+
+- cadavres d'animaux découverts par le gestionnaire du site où ils ont été trouvés, à l'exception des animaux d'élevage ;
+
+- cadavres d'animaux produits par et apportés chez les vétérinaires, cliniques vétérinaires et dans les centres d'accueil pour animaux sauvages.
+
+§ 4. Les sous-produits animaux sont soumis aux dispositions relatives aux déchets s'ils sont contaminés par d'autres matières ou d'autres déchets dans une mesure qui empêche que ces sous-produits animaux ou produits dérivés soient gérés conformément le Règlement (CE) N° 1069/2009 et le Règlement (UE) N° 142/2011.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 2. - Opérations de gestion des sous-produits animaux
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.2. Conditionnement
+
+§ 1 er . Les sous-produits animaux sont conditionnés dans un emballage, un conteneur et/ou un véhicule permettant d'identifier la catégorie des sous-produits animaux lors de leur transport et entreposage, de leur production à leur élimination, en respectant le code couleur et les mentions obligatoires prévus à l'annexe VIII, chapitre II du Règlement (UE) N° 142/2011.
+
+La surface ou une partie de la surface de l'emballage, du conteneur ou du véhicule, ou une étiquette apposée sur ceux-ci a la couleur prévue.
+
+§ 2. La couleur de l'emballage ou du conteneur ne peut pas créer une confusion du code couleur de l'étiquette.
+
+§ 3. L'emballage ou le conteneur est identifié avec le nom et les coordonnées du producteur de sous-produits animaux. Ce paragraphe ne s'applique pas à l'emballage ou le conteneur des sous-produits animaux apporté par le producteur initial vers une installation de collecte à titre accessoire visée à l'article 3.5.15.
+
+§ 4. Les dispositions relatives au code couleur ne s'appliquent pas à l'emballage ou au conteneur de déchets de cuisine et de table de catégorie 3.
+
+§ 5. Cet article ne s'applique pas :
+
+- au lisier transporté entre deux points situés au sein d'une même exploitation, ou au lisier entreposé au sein de l'exploitation où il a été produit ;
+
+- aux déchets d'huiles et graisses alimentaires collectés aux points de collecte visés à l'article 4.5.14. ;
+
+- à l'emballage ou au récipient des déchets de cuisine et de table de catégorie 3 collectés auprès des ménages.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.3. Contrat et notification de collecte
+
+§ 1 er . Pour faire collecter ses sous-produits animaux, le détenteur dispose d'un contrat avec un collecteur, négociant et courtier enregistré ou notifie la production des sous-produits animaux dans les 24 heures à un collecteur, négociant et courtier enregistré.
+
+§ 2. Le contrat visé au paragraphe 1 er précise la fréquence de collecte des sous-produits animaux, établie de manière à éviter toute nuisance sur l'environnement ou la santé humaine ou animale.
+
+§ 3. Par dérogation au paragraphe 1 er , le contrat ou la notification n'est pas obligatoire lorsqu'il s'agit :
+
+1° de cadavres d'animaux provenant des ménages, dont le poids total est inférieur à 1 kg ;
+
+2° de sous-produits animaux destinés à une installation visée à l'article 3.5.15. ;
+
+3° de sous-produits animaux collectés dans un point de collecte visé à l'article 4.5.14.
+
+§ 4. Par dérogation au paragraphe 1 er , la notification dans les 24 heures n'est pas obligatoire pour les sous-produits animaux dont la production est occasionnelle, tels que :
+
+- les sous-produits animaux générés chez les vétérinaires, cliniques vétérinaires et dans les centres d'accueil pour animaux sauvages ;
+
+- les sous-produits animaux générés dans un établissement commercial pour animaux ou un élevage d'animaux ;
+
+- les cadavres d'animaux provenant des ménages, dont le poids est supérieur à 1 kg.
+
+Cette dérogation ne s'applique pas si des nuisances ont été constatées chez le détenteur par un agent chargé de la surveillance suivant les dispositions de l'article 5 du code de l'inspection.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.4. Conservation et transport
+
+§ 1 er Les sous-produits animaux sont directement transportés vers une installation autorisée pour le dépôt, la collecte ou le traitement de sous-produits animaux.
+
+§ 2. En attente de la collecte des sous-produits animaux entreposés, toutes les mesures sont prises pour que les risques de transmission d'une maladie à l'homme, les risques de pollution de l'environnement et les nuisances soient limités, en particulier une zone de stockage dédié et un refroidissement adapté en fonction de la température ambiante.
+
+§ 3. Le cadavre d'animal d'élevage notifié par le détenteur conformément à l'article 4.5.3. § 1 est collecté par un collecteur, négociant et courtier enregistré, dans les 2 jours ouvrables qui suivent la notification.
+
+§ 4. La collecte des sous-produits animaux visés à l'article 4.5.3. § 4, a lieu :
+
+- dans les 2 jours ouvrables après notification si les sous-produits animaux sont conservés à une température ambiante de plus de 5 ° C ;
+
+- dans les 2 semaines après notification, si les sous-produits animaux sont conservés dans un endroit refroidi activement ou dans un récipient où la température ambiante maximale est de 5 ° C ;
+
+- sur demande si les sous-produits animaux sont conservés à une température ambiante de maximum -18 ° C.
+
+§ 5. Les véhicules, conteneurs y compris leur bâche qui peuvent être réutilisés pour le transport de sous-produits animaux sont nettoyés et désinfectés à l'aide d'un désinfectant autorisé par le SPF Santé publique, Sécurité de la Chaîne alimentaire et Environnement après chaque utilisation jusqu'au degré nécessaire, à empêcher toute contamination croisée et les risques de pollution de l'environnement et les nuisances.
+
+Les agents chargés de la surveillance suivant les dispositions de l'article 5 du code de l'inspection peuvent ordonner le nettoyage et la désinfection des véhicules et conteneurs si cela s'avère nécessaire.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.5. Elimination et utilisation
+
+§ 1 er . L'élimination et l'utilisation des sous-produits animaux est réalisée conformément aux dispositions du Règlement (CE) N° 1069/2009.
+
+§ 2. L'utilisation des sous-produits animaux pour l'alimentation des animaux sauvages est autorisée par accord écrit préalable de Bruxelles Environnement, tel que prévu par l'article 18 paragraphe 1, point e) et paragraphe 2, point b) du Règlement (CE ) N° 1069/2009.
+
+§ 3. Une autre méthode d'élimination peut être autorisée par accord écrit préalable, tel que prévu par l'article 19 du Règlement (CE) N° 1069/2009 :
+
+1° par l'autorité compétente communale, notamment l'enfouissement des animaux familiers morts sur un terrain d'enfouissement pour animaux, aménagé conformément à la réglementation environnementale ou les prescriptions en vigueur ;
+
+2° par Bruxelles Environnement, notamment l'incinération sur place en cas d'apparition d'une maladie à déclaration obligatoire, dans l'éventualité où le transport vers l'entreprise agréée la plus proche en vue de leur transformation ou élimination aggraverait le danger de propagation des risques sanitaires ;
+
+3° par Bruxelles Environnement, notamment l'incinération en cas d'apparition d'une épizootie de grande ampleur qui entraînerait un manque de capacité d'élimination dans les installations de traitement prévues à cet effet.
+
+§ 4. Les méthodes d'élimination suivantes sont autorisées de plein droit, sans accord par écrit, tel que prévu par l'article 19 du Règlement (CE) N° 1069/2009 :
+
+1° l'incinération ou l'enfouissement sur place, d'abeilles et des sous-produits issus de l'apiculture, dans des conditions empêchant la propagation des risques pour la santé publique ou animale ;
+
+2° l'élimination de sous-produits animaux dans l'établissement agricole, à l'exception des matériaux de la catégorie 1, provenant d'interventions chirurgicales sur des animaux vivants ou de la naissance d'animaux dans cet établissement ;
+
+3° l'élimination, par des moyens autres que ceux autorisés par le Règlement (CE) N° 1069/2009, de matériaux des catégories 2 et 3 provenant d'établissements autorisés à les utiliser à des fins de recherche et à d'autres fins spécifiques, si la quantité hebdomadaire ne dépasse pas les 20 kg ;
+
+4° l'élimination, par des moyens autres que ceux autorisés par le Règlement (CE) N° 1069/2009, de matériaux animaux collectés lors du procédé de prétraitement des eaux usées dans des entreprises ne recevant que des matériaux de catégorie 3, si la quantité hebdomadaire ne dépasse pas les 20 kg.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 3. - Opérateurs de gestion des sous-produits animaux
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.6. Enregistrement
+
+§ 1 er . L'exploitant visé à l'article 23, point 1. a) du Règlement (CE) N° 1069/2009 se fait enregistrer conformément à l'article 3.1.1. du présent arrêté.
+
+§ 2. L'exception visée à l'article 3.1.1. 1° b) ne s'applique pas aux sous-produits animaux.
+
+§ 3. Le collecteur, négociant ou courtier des sous-produits animaux qui sont des déchets dangereux n'est pas soumis à l'agrément de l'article 3.1.2. pour ces mêmes déchets.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.7. Agrément
+
+§ 1 er . Le permis d'environnement autorisant les rubriques 40, 41, 50, 106.2, 212 et/ou 219 pour des établissements où sont effectuées les activités visées à l'article 24 point 1. du Règlement (CE) N° 1069/2009 vaut agrément.
+
+§ 2. L'agrément n'est valable que lorsqu'une visite par l'autorité compétente sur place, préalable au démarrage de toute activité, a démontré que les prescriptions pertinentes arrêtées conformément à l'article 27 du Règlement (CE) N° 1069/2009 sont respectées.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.8. En cas de crise sanitaire
+
+A la demande de l'autorité compétente pour la sécurité de la chaine l'alimentaire, dans le cas d'une gestion de crise sanitaire, Bruxelles Environnement peut accorder une dérogation temporaire aux articles 4.5.6. et 4.5.7.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 4. - Règles spécifiques
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 1re. - Lisier
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.9. Stockage
+
+§ 1 er . L'exploitation soumise à la rubrique 66 respecte les conditions suivantes :
+
+- toutes les mesures sont prises pour limiter au maximum les nuisances dues aux odeurs ;
+
+- le stockage se fait dans un récipient étanche ou sur une zone construite à cet effet ;
+
+- les jus d'écoulement tels que le purin et les lixiviats sont récupérés dans une cuve étanche et sans trop-plein.
+
+- le sol de la zone de stockage et de transbordement est en matériaux durs et imperméables.
+
+- la zone de stockage est entourée sur trois de ses côtés, de parois rigides, étanches, d'une hauteur suffisante pour éviter tout débordement. Le quatrième côté est construit de manière à ce qu'aucun lixiviat ou aucune eau de ruissellement ne puisse s'écouler en dehors du dépôt.
+
+§ 2. Le présent article s'applique sauf si le permis d'environnement en dispose autrement.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.10. Gestion
+
+Le lisier peut être épandu sur le sol sans transformation préalable, lorsqu'il n'y a pas de risque de propagation d'une maladie grave transmissible, et ceci, sans préjudice de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 19 novembre 1998 relatif à la protection des eaux contre la pollution par les nitrates à partir de sources agricoles.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 2. - Déchets d'huiles et graisses alimentaires
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.11. Dispositions générales
+
+§ 1 er . Pour l'application de la présente sous-section, on entend par :
+
+1° « huiles et graisses alimentaires » : toutes les huiles et graisses végétales et animales comestibles pouvant être utilisées lors de la friture de denrées alimentaires ;
+
+2° « déchets d'huiles et graisses alimentaires » : toutes les huiles et graisses alimentaires dont le détenteur se défait ou a l'intention ou l'obligation de se défaire et qui constituent des déchets au sens de l'ordonnance déchets, y compris les huiles de cuisson usagées visées par le Règlement (UE) N° 142/2011 ;
+
+3° « déchets d'huiles et graisses alimentaires autres que ménagères » : déchets d'huiles et graisses alimentaires en provenance des utilisateurs professionnels, à savoir toute personne qui gère une installation de restauration permanente, mobile ou temporaire telle que restaurant, hôtel, café, fast-food, snackbar, friterie, traiteur, collectivité, notamment, un hôpital, cantine, catering et installation similaire où des denrées alimentaires sont préparées ou emballées pour être consommées, et installation similaire, qui dans le cadre de son activité professionnelle utilise des huiles et graisses de friture pour la friture de denrées alimentaires.
+
+§ 2. La présente sous-section s'applique aux déchets d'huiles et graisses alimentaires ménagères. Les critères de distinction entre les huiles et graisses alimentaires considérées comme ménagères et les huiles et graisses alimentaires considérées comme autres que ménagères sont soumis à l'approbation de Bruxelles Environnement conformément à l'article 2.3.6.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.12. Gestion des déchets d'huiles et graisses alimentaires
+
+§ 1 er . Tout détenteur de déchets d'huiles et graisses alimentaires est tenu de les présenter à la collecte séparée des déchets résiduels.
+
+§ 2. Les déchets d'huiles et graisses alimentaires ménagères sont collectées par :
+
+- des personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers, notamment via des systèmes de collecte mobiles et en parc à conteneurs, ou
+
+- des collecteurs, négociants ou courtiers enregistrés dans les systèmes de collecte visés aux articles 4.5.13. et 4.5.14.
+
+Pour les déchets d'huiles et graisses alimentaires ménagères, les producteurs, en collaboration avec les personnes morales de droit public, sont tenus d'augmenter les quantités collectées de 20 % au plus tard pour fin 2020, par rapport aux quantités collectées en 2011. Au plus tard, pour fin 2023 et fin 2025, les quantités collectées doivent augmenter avec respectivement 15 % et 20 % des quantités collectées en 2018. Les quantités collectées conformément à l'article 4.5.13. et 4.5.14. sont prises en considération dans l'évaluation de ces objectifs.
+
+§ 3. Les producteurs instituent un comité d'accompagnement ayant pour mission le suivi de la gestion du flux des déchets d'huiles et graisses alimentaires. Le comité d'accompagnement se compose au minimum de représentants des personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers et de Bruxelles Environnement. Il se réunit au minimum une fois par an.
+
+§ 4. Les producteurs concluent un contrat avec les personnes morales de droit public définissant au minimum les éléments suivants :
+
+- les modalités de calcul de l'indemnisation des points de collecte, en ce compris la couverture des coûts d'infrastructure et de fonctionnement des parcs à conteneurs ;
+
+- les modalités d'organisation et de financement des campagnes d'information visées à l'article 4.5.17.
+
+Ce contrat est soumis pour avis à Bruxelles Environnement conformément à l'article 2.3.6.
+
+§ 5. Les déchets d'huiles et graisses alimentaires collectés séparément sont entièrement recyclés ou valorisés.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.13. Installation de collecte à titre accessoire
+
+§ 1 er . Conformément à l'article 3.5.15. 6°, le détaillant d'huiles et graisses alimentaires peut reprendre les déchets d'huiles et graisses alimentaires ménagères. Si le détaillant les reprend, il notifie ou fait notifier aux producteurs le système de collecte mis en place notamment en définissant les responsabilités des acteurs participants.
+
+§ 2. Le collecteur, négociant ou courtier qui collecte des déchets d'huiles et graisses alimentaires auprès du détaillant visé au paragraphe 1 communique aux producteurs, au plus tard pour le 30 avril de chaque année les informations suivantes :
+
+- la quantité de déchets d'huiles et graisses alimentaires collectées ;
+
+- le procédé de traitement des déchets d'huiles et graisses alimentaires collectées.
+
+§ 3. La reprise des déchets d'huiles et graisses alimentaires auprès de détaillant satisfait aux conditions suivantes :
+
+- les déchets d'huiles et graisses alimentaires repris ne sont pas stockés sur la voie publique ;
+
+- le stockage a lieu de telle manière qu'il ne pourra causer aucun dommage à la santé humaine ou à l'environnement ;
+
+- les déchets d'huiles et graisses alimentaires sont collectés régulièrement par un collecteur, négociant ou courtier enregistré ;
+
+- le site de stockage et ses alentours sont maintenus propres ;
+
+- les récipients doivent être tenus propres et contenir une étiquette bilingue indiquant « Catégorie 3 : pas pour consommation humaine - niet voor menselijke consumptie » ;
+
+- un produit de désinfection autorisé doit être présent sur le site.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.14. Point de collecte des déchets d'huiles et graisses alimentaires
+
+§ 1 er . Moyennant le respect des obligations contenues aux paragraphes 2 à 4, le collecteur, négociant ou courtier enregistré peut organiser des collectes complémentaires de déchets d'huiles et graisses alimentaires provenant des ménages, auprès d'un point de collecte.
+
+§ 2. Le point de collecte de déchets d'huiles et graisses alimentaires satisfait aux conditions suivantes :
+
+1. Le collecteur, négociant ou courtier enregistré signe une convention avec le gestionnaire du site. Cette convention reprend au minimum :
+
+a. l'adresse ou, à défaut, la localisation exacte du point de collecte ;
+
+b. la description des récipients de collecte ;
+
+c. les coordonnées du gestionnaire du site et du collecteur, négociant ou courtier enregistré ;
+
+d. la fréquence de collecte ;
+
+e. la durée de la convention ;
+
+f. la répartition des responsabilités.
+
+2. Les récipients sont tenus propres et contiennent une étiquette indiquant :
+
+a. le nom du collecteur, négociant ou courtier ;
+
+b. les mentions bilingues :
+
+- « Catégorie 3 : pas pour consommation humaine - niet voor menselijke consumptie »,
+
+- « Pour les déchets d'huiles et graisses alimentaires issus exclusivement des ménages - Voor afgewerkte voedingsolie en - vetten van huishoudelijke oorsprong ».
+
+3. Les récipients de collecte sont conçus de manière à optimiser la sécurité des stockages et à éviter tout écoulement. Ils se trouvent dans un endroit sûr.
+
+4. Le point de collecte et ses alentours sont maintenus propres.
+
+5. Le point de collecte a une capacité maximale de 1000 kg.
+
+6. L'enlèvement auprès d'un point de collecte est effectuée de façon régulière et suffisante et conformément aux paragraphes 1, 2 et 5 de l'article 4.5.4. du présent chapitre.
+
+§ 3. La collecte des déchets d'huiles et graisses alimentaires via un point de collecte est interdite dans les écoles maternelles et primaires.
+
+§ 4. Le collecteur, négociant ou courtier enregistré qui reprend des déchets d'huiles et graisses alimentaires auprès des points de collecte communique aux producteurs, au plus tard pour le 30 avril de chaque année, les informations suivantes :
+
+1. la quantité de déchets d'huiles et graisses alimentaires collectés durant l'année, pour chaque point de collecte ;
+
+2. le procédé de traitement des déchets d'huiles et graisses alimentaires collectés.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.15. Financement
+
+§ 1 er . Le producteur couvre le coût réel et complet de la collecte, du tri et du traitement des déchets d'huiles et graisses alimentaires ménagères pris en charge par les personnes morales de droit public territorialement responsables pour la gestion des déchets ménagers.
+
+§ 2. La couverture des coûts visés au paragraphe 1 er et le partage des éventuelles recettes sont convenus de commun accord entre les producteurs et les personnes morales de droit public.
+
+§ 3. Le partage des éventuelles recettes avec les personnes morales de droit public ne vaut que si l'entièreté des coûts imputés au producteur pour la réalisation des campagnes de communication visées à l'article 4.5.17 sont couverts par la revente des déchets huiles et graisses alimentaires collectés.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.16. Rapportage
+
+§ 1 er . Les producteurs fournissent à Bruxelles Environnement pour le 31 mai de chaque année, en ce qui concerne l'année civile écoulée :
+
+1° la quantité totale exprimée en kilos des huiles et graisses alimentaires destinées aux ménages mises sur le marché ;
+
+2° la quantité totale, exprimée en kilos, des déchets d'huiles et graisses alimentaires ménagères collectés en Région de Bruxelles-Capitale, par mode de collecte ;
+
+3° l'identification et le nombre d'installations de collecte en Région de Bruxelles-Capitale, en distinguant les installations de collecte des personnes morales de droit public et les autres installations de collecte ;
+
+4° les installations où les déchets d'huiles et graisses alimentaires collectés ont été traités, avec mention de la quantité traitée et la description de leur mode de traitement ;
+
+5° la quantité totale, exprimée en kilos, des déchets d'huiles et graisses alimentaires ménagères valorisés ou recyclés ;
+
+6° les données relatives aux actions de sensibilisation et de prévention entreprises, à l'évaluation de ces actions et au calcul des indicateurs de résultats.
+
+§ 2. Bruxelles Environnement peut exiger de tout producteur de lui fournir toute autre information pertinente pour l'appréciation de la réalisation des objectifs visés par la présente sous-section et le contrôle de leur mise en oeuvre .
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.5.17. Information du consommateur
+
+§ 1 er . Afin d'atteindre les objectifs visés à l'article 4.5.12., les producteurs, en collaboration avec les personnes morales de droit public, mènent au moins une fois par an des campagnes d'information et de sensibilisation à destination des ménages à l'échelle régionale et locale.
+
+§ 2. Les campagnes visées au paragraphe 1 er sont financées au moyen des recettes générées par la revente des déchets d'huiles et graisses alimentaires collectés par la personne morale de droit public, déduction faite des coûts de collecte visé à l'article 4.5.15. Lorsque lesdites recettes ne sont pas suffisantes pour financer les campagnes visées au paragraphe précédent, le producteur paie le solde nécessaire pour les financer.
+
+§ 3. Les modalités des campagnes de communication sont convenues de commun accord entre les producteurs et les personnes morales de droit public.
+
+------------
+
+- remplacé par l'art. 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+#### CHAPITRE VI - Déchets d'emballages
+
+##### Section Ire - Des sacs plastiques
+
+Article 4.6.1. Définitions
+
+Au sens de la présente section, on entend par :
+
+1° « sacs de caisse » : les sacs mis à disposition, à titre onéreux ou gratuit, dans les points de vente pour l'emballage des marchandises des clients lors du passage en caisse. Les sacs fournis comme emballage primaire pour les denrées alimentaires en vrac ne sont pas considérés comme des sacs de caisse.
+
+Article 4.6.2.
+
+§ 1. L'usage de sacs en plastique à usage unique est interdit dans l'espace de vente des détaillants.
+
+L'interdiction ne s'applique pas aux sacs plastiques réemployables qui répondent aux exigences des emballages réemployables définis à l'annexe 12.
+
+§ 2. L'interdiction visée au paragraphe 1 er est d'application à partir du 1 er septembre 2017 pour les sacs de caisse et à partir du 1 er septembre 2018 pour tous les autres sacs destinés à l'emballage de marchandises utilisés dans l'espace de vente des détaillants.
+
+§ 3. Par dérogation au paragraphe précédent, le Ministre détermine les types de sacs plastiques pour lesquels les dates visées au paragraphe précédent ne sont pas applicables. Le Ministre précise la liste des exonérations.
+
+##### Section 2 - Produits à usage unique
+
+------------
+
+- inséré par l'art. 6 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.6.3.
+
+§ 1 er . La présente section transpose la directive (UE) 2019/904 du Parlement européen et du Conseil du 5 juin 2019 relative à la réduction de l'incidence de certains produits en plastique sur l'environnement, article 4 ainsi que la directive 2020/2184 du Parlement européen et du Conseil du 16 décembre 2020 relative à la qualité des eaux destinées à la consommation humaine, article 16.2, al. 2, c.
+
+§ 2. Il est interdit à une entité publique dans le cadre de ses propres activités ainsi que dans le cadre des évènements organisés par elle :
+
+a) à partir du 1 er janvier 2023, de servir des boissons avec du matériel de restauration à usage unique, à l'exception des emballages de vin et spiritueux ;
+
+b) à partir du 1 er juillet 2023, de servir des aliments préparés dans du matériel de restauration à usage unique ;
+
+c) à partir du 1 er juillet 2023, de servir de l'eau autre que de l'eau distribuée par réseau.
+
+§ 3. Les obligations visées au paragraphe 2 ne sont pas applicables dans les cas suivants :
+
+1° lorsque les entités publiques réalisent des activités de soins de santé visées à l'article 4.7.2, 1° ;
+
+2° lors de situations d'urgence ;
+
+3° lors de travail de rue et maraude visé à l'article 2, 8°, de l'ordonnance de la Commission communautaire commune du 14 juin 2018 relative à l'aide d'urgence et à l'insertion des personnes sans abri.
+
+§ 4. Bruxelles Environnement peut octroyer une dérogation à l'interdiction visée au paragraphe 2, c) dans le cas où l'accès à l'eau distribuée par réseau est impossible.
+
+§ 5. Bruxelles Environnement peut octroyer une dérogation à toutes ou partie des interdictions visées au paragraphe 2 :
+
+1° dans le cadre d'un évènement lorsque les interdictions sont manifestement disproportionnées compte tenu des spécificités de l'évènement;
+
+2° lorsque le respect des délais visés au paragraphe 2 ne peut être raisonnablement assuré compte tenu des coûts et des modalités opérationnelles engendrés.
+
+§ 6. Les demandes de dérogation sont motivées et transmises à Bruxelles Environnement selon la forme et les modalités définies par Bruxelles Environnement.
+
+La demande de dérogation visée au paragraphe 5, 2° de la présente disposition contient un plan progressif de mise en oeuvre des interdictions qui ne peut dépasser le 1 er janvier 2025 et qui doit être introduite au plus tard dans les 6 mois de l'entrée en vigueur du présent article.
+
+Les dérogations sont proportionnées et visent à préserver un niveau élevé de protection de l'environnement.
+
+------------
+
+- inséré par l'art. 6 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+#### CHAPITRE 7. - Des déchets d'activités de soins de santé
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 1re. - Champ d'application et définitions
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.1. Champ d'application
+
+§ 1 er . Ce chapitre s'applique aux déchets produits lors d'activités de soins de santé telles que définies à l'article 4.7.2. 1°.
+
+§ 2. Ce chapitre ne s'applique pas aux déchets de soins produits par les ménages tant que leur collecte, leur élimination ou leur valorisation n'a pas été acceptée par une installation autorisée.
+
+§ 3. Ce chapitre ne s'applique pas aux déchets de soins vétérinaires, excepté les déchets piquants, coupants, tranchants. Les déchets de soins vétérinaires autres que les déchets piquants, coupants, tranchants sont soumis au chapitre 5 du titre IV du présent arrêté.
+
+§ 4. Ce chapitre ne s'applique pas aux déchets de soins produits par les laboratoires visés par l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 8 novembre 2001 relatif à l'utilisation confinée d'organismes génétiquement modifiés et/ou pathogènes.
+
+§ 5. Sauf dispositions contraires ou spécifiques, les titres I et III s'appliquent.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.2. Définitions
+
+Pour l'application du présent chapitre, on entend par :
+
+1° « activités de soins de santé » : activités de diagnostic, de suivi et de traitement préventif, curatif ou palliatif, dans les domaines de la médecine humaine et vétérinaire. Sont assimilées à ces activités de soins de santé: les activités d'enseignement, de recherche et de production industrielle dans les domaines de la médecine humaine ou vétérinaire, les activités de thanatopraxie, de chirurgie esthétique, de tatouage et de cosmétologie ;
+
+2° « déchets de soins » : déchets de soins à risque et déchets de soins non à risque provenant des activités de soins de santé ;
+
+3° « déchets de soins à risque » :
+
+a) déchets à risque infectieux, c'est-à-dire contenant des pathogènes pouvant causer la maladie chez l'être humain ou animal et n'appartenant pas à la flore commensale humaine ou animale respectivement ;
+
+b) déchets piquants, coupants, tranchants ;
+
+c) déchets anatomiques humains y compris le sang et dérivés de sang ;
+
+d) déchets ayant des propriétés cytotoxiques et cytostatiques ;
+
+4° « déchets de soins non à risque » : déchets provenant d'activités de soins de santé autres que les déchets de soins à risque ;
+
+5° « traitement par désinfection » : procédé de réduction du nombre de pathogènes viables par méthodes physique et/ou chimique afin d'en réduire le risque à un niveau acceptable pour l'environnement et la santé publique, combiné à une modification de l'apparence des déchets de soins afin de les rendre non reconnaissables, et permettant de faire passer un déchet de soins à risque à un déchet non dangereux ;
+
+6° « crise sanitaire » : crise déclarée par Conseil National de Sécurité tel que visé à l'article 3, 1° de la loi organique du 30 novembre 1998 des services de renseignement et de sécurité, affectant la santé d'un grand nombre de personnes, suite à l'exposition d'un pathogène.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+##### Section 2. - Opérations de gestion des déchets de soins
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 1re. - Prévention
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.3. Dispositions générales
+
+Le producteur de déchets de soins prend les dispositions nécessaires pour limiter la quantité de déchets produits.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.4. Plan de prévention et de gestion des déchets
+
+§ 1 er . Le responsable de la gestion des déchets de soins de l'exploitation soumise à la rubrique 79-A met en place un plan de prévention et de gestion des déchets et veille à son exécution.
+
+§ 2. Le plan de prévention et de gestion des déchets concerne aussi bien les déchets de soins que les autres déchets produits par l'exploitation.
+
+§ 3. Le plan de prévention et de gestion des déchets est joint à la demande de permis d'environnement ou de prolongation de permis d'environnement. Ce plan est daté et régulièrement mis à jour et au minimum une fois par an, au regard de la situation actuelle de l'installation ou de l'activité.
+
+§ 4. Le plan de prévention et de gestion des déchets est transmis sur demande à Bruxelles Environnement.
+
+§ 5. Le volet prévention du plan de prévention et de gestion des déchets comporte au minimum :
+
+1. une analyse de la situation existante;
+
+2. de nouveaux objectifs à atteindre pour chaque période de 5 ans.
+
+§ 6. Bruxelles Environnement met à disposition du public une liste des éléments essentiels qui figurent dans le plan prévention et de gestion des déchets.
+
+§ 7. Le titulaire de permis d'environnement ou l'exploitant soumis à la rubrique 79-B dispose d'un système de gestion de la qualité conformément à l'article 3.5.4.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.5. Formation du personnel
+
+§ 1 er . L'exploitation soumise à la rubrique 79-A ou 79-B dispose d'une personne responsable de la gestion des déchets de soins.
+
+§ 2. Pour l'exploitation soumise à la rubrique 79-A, la personne responsable de la gestion des déchets de soins :
+
+1. établit et affiche la procédure de tri et/ou de traitement des déchets de soins aux endroits de tri et/ou de traitement, de manière à ce qu'elle soit visible pour le personnel ;
+
+2. s'assure que le personnel connait et applique cette procédure ;
+
+3. tient un registre de formations relatives à la gestion des déchets et de présences à ces formations. Le registre est mis à jour régulièrement, au minimum une fois par an.
+
+§ 3. Pour l'exploitation soumise à la rubrique 79-B, la personne responsable de la gestion des déchets de soins possède une connaissance suffisante de la législation et de la gestion de ces déchets. La démonstration de ces connaissances est attestée conformément à l'article 3.3.2. § 2 et § 3.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 2. - Tri
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.6. Dispositions générales
+
+§ 1 er . Les déchets produits en dehors des zones où sont effectuées les activités de soins de santé sont triés conformément à l'article 3.7.1.
+
+§ 2. Les déchets de soins non à risque sont triés conformément à l'article 3.7.1. Les déchets de cuisine et de table produits dans les zones où sont effectuées les activités de soins de santé peuvent être triés en vue de leur compostage et de leur biométhanisation dans une installation disposant de l'agrément prévu par l'article 24 point 1 du Règlement (CE) N° 1069/2009.
+
+§ 3. Immédiatement après leur production, les déchets de soins à risque sont placés dans les conditionnements prévus à cet effet.
+
+§ 4. Si un déchet de soins non à risque est rentré en contact ou mélangé avec un déchet de soins à risque, l'ensemble de ces déchets est géré comme des déchets de soins à risque.
+
+§ 5. Les déchets de soins à risque destinés au traitement par désinfection sont séparés des déchets visés à l'article 4.7.13. § 1.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 3. - Conditionnement et dépôt
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.7. Dispositions générales
+
+§ 1 er . Les déchets de soins non à risque sont conditionnés comme des déchets non dangereux non ménagers.
+
+§ 2. Les déchets de soins à risque sont conditionnés selon les modalités reprises dans le tableau de l'annexe 18.
+
+§ 3. Lorsque la limite de remplissage garantissant la fermeture correcte du conditionnement est atteinte, celui-ci est fermé, conformément aux instructions du fabricant.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.8. Emballage externe des déchets de soins à risque
+
+§ 1 er . L'emballage externe est identifié avec le nom, l'adresse du siège d'exploitation, le numéro d'entreprise du producteur des déchets.
+
+§ 2. Le dispositif de fermeture de l'emballage externe permet une fermeture complète et étanche.
+
+§ 3. L'emballage externe réutilisable est lavable et facile à désinfecter. Les parois intérieures et extérieures sont nettoyées et désinfectées après chaque déchargement.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.9. Dépôt
+
+§ 1 er . Les déchets de soins sont stockés dans un local ou une zone réservée uniquement à cet usage et ne pouvant pas servir au stockage de conditionnements neufs.
+
+§ 2. Le local ou la zone de dépôt de déchets de soins à risque présente une signalisation indiquant le risque infectieux à son entrée via le symbole « danger biologique » repris à l'annexe 18.
+
+§ 3. Le local de dépôt de déchets de soins à risque satisfait aux critères suivants :
+
+1. les parois, sols et plafonds ont une résistance au feu d'au moins EI 60 ;
+
+2. chaque porte d'accès dans une paroi intérieure de ce local est à fermeture automatique et a une résistance au feu EI 30.
+
+§ 4. L'accès en local ou à la zone de dépôt de déchets de soins à risque est interdit au public.
+
+§ 5. La capacité du local ou de la zone de dépôt de déchets de soins est adaptée à la quantité de déchets produite et à la fréquence de collecte.
+
+§ 6. Les conditionnements sont entreposés de façon à éviter les accidents et à pouvoir être chargés facilement, rapidement et en toute sécurité, nécessitant un minimum de manipulations par le collecteur.
+
+§ 7. En cas de dépôt à l'extérieur :
+
+1. les emballages externes rigides sont fermés en permanence ;
+
+2. la zone est clairement délimitée et non accessible au public ;
+
+3. la zone est protégée des intempéries.
+
+§ 8. Le stockage de déchets de soins à risque sur la voie publique n'est pas autorisé.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 4. - Collecte
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.10. Transport interne
+
+Le transport interne de déchets soins à risque s'effectue au moyen de chariots facilement lavables.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.11. Collecte
+
+§ 1 er . Les déchets de soins non à risque sont collectés comme des déchets non dangereux non ménagers.
+
+§ 2. Les déchets de soins à risque sont considérés comme des déchets dangereux et sont gérés comme tel.
+
+§ 3. La collecte des déchets de soins à risque a lieu dans un délai qui permet d'éviter toute nuisance pour l'environnement et la santé publique.
+
+§ 4. A l'exception des déchets piquants, coupants, tranchants, les déchets de soins à risque sont traités vingt-quatre heures au plus tard après leur collecte.
+
+§ 5. Le producteur de déchets de soins à risque peut transporter ses propres déchets conformément à l'article 3.1.1. 1°, pour autant que la quantité de déchets transportée ne dépasse pas 20 kg.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+###### Sous-section 5. - Traitement et valorisation
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.12. Dispositions générales
+
+§ 1 er . Les déchets de soins à risque sont soit incinérés, soit soumis à un traitement par désinfection conformément à la présente sous-section.
+
+§ 2. Les déchets de soins non à risque et les déchets de soins à risque ayant été soumis à un traitement par désinfection selon les dispositions de la présente sous-section sont soit incinérés, soit valorisés pour autant que cela ne nuise pas à l'environnement, conformément à l'article 17 de l'ordonnance déchets.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.13. Valorisation des déchets de soins à risque
+
+§ 1 er . Les déchets de soins à risque peuvent faire l'objet d'un traitement par désinfection, à l'exception des déchets :
+
+a) radioactifs ;
+
+b) susceptibles de renfermer des prions ;
+
+c) susceptibles d'endommager les appareils de broyage, ou d'en perturber le processus ;
+
+d) cytostatiques et cytotoxiques ;
+
+e) susceptibles de renfermer des agents biologiques de classe de risque 4 selon l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 8 novembre 2001 relatif à l'utilisation confinée d'organismes génétiquement modifiés et/ou pathogènes.
+
+§ 2. En application de l'article 13 de l'ordonnance permis d'environnement, l'avis du Service de Biosécurité et Biotechnologie de Sciensano est sollicité au cours de l'instruction des demandes de certificats et de permis d'environnement pour la rubrique 79-B. Cet avis contrôle le respect des exigences minimales de l'article 4.7.14.
+
+§ 3. Le Service de Biosécurité et Biotechnologie de Sciensano peut demander des informations complémentaires afin d'élaborer son avis.
+
+§ 4. Les déchets de soins à risque ayant subi un traitement par désinfection sont gérés comme des déchets non dangereux autres que ménagers.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+Article 4.7.14. Installation de traitement par désinfection
+
+§ 1 er . L'installation de traitement par désinfection répond au minimum aux exigences suivantes :
+
+1. l'abattement du nombre de microorganismes, mesuré par la numération de la flore bactérienne aérobie revivifiable, est égal ou supérieur à 5 log10;
+
+2. le prélèvement ne contient pas d'indicateurs bactériens spécifiques tels que les entérobactéries, Staphylococcus aureus, Pseudomonas aeruginosa , et d'autres microorganismes indicateurs s'il y lieu;
+
+3. si la modification de l'apparence des déchets se fait par broyage, au moins 80 % des déchets traités a une granulométrie inférieure à 30 mm.
+
+§ 2. L'installation de traitement par désinfection est dotée de moyens de contrôle en continu du bon déroulement du processus. Un système d'alarme signale toute anomalie. En cas d'anomalie et/ou si le résultat du traitement par désinfection ne peut être garanti, les déchets sont traités comme des déchets de soins à risque.
+
+§ 3. L'installation de traitement par désinfection ne peut recevoir des déchets de soins à risque que s'ils sont emballés conformément à l'annexe 18.
+
+§ 4. Le traitement par désinfection des déchets de soins à risque a lieu dans un délai qui permet d'éviter toute nuisance pour l'environnement et la santé publique.
+
+§ 5. Un registre de traitement des déchets de soins à risque est tenu à jour et reprend pour chaque cycle de traitement par désinfection :
+
+1. l'enregistrement des données détaillées concernant les paramètres critiques pour la maitrise du traitement;
+
+2. le compte rendu des problèmes techniques rencontrés et des réparations éventuellement effectuées.
+
+Les données sont enregistrées pour chaque cycle et conservées de manière à ce que l'exploitant et l'autorité compétente puisse contrôler le fonctionnement de l'installation.
+
+------------
+
+- inséré par l'art. 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022.
+
+#### CHAPITRE 8 - Granulats recyclés
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### Section 1 re . - Généralités
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.1.
+
+§ 1 er . Ce chapitre s'applique à la production et à l'utilisation des granulats recyclés qui sont utilisés de manière durable et qui :
+
+1. sont intégrés à d'autres matériaux à l'aide d'un liant, ou ;
+
+2. ne se mélangent pas avec le sol.
+
+§ 2. La nature du liant des granulats recyclés utilisés conformément au paragraphe 1 er , 1°, empêche le mélange et le lessivage des granulats recyclés dans le sol ou l'eau souterraine. Le liant lui-même utilisé lors de l'application des granulats recyclés ne doit pas se mélanger avec, ou causer de lessivage dans le sol ou les eaux souterraines.
+
+§ 3. Les granulats recyclés utilisés conformément au paragraphe 1 er , 2°, respectent les conditions cumulatives suivantes :
+
+1. ils n'entrainent pas de pollution du sol et de l'eau souterraine au sens de l'ordonnance sols ;
+
+2. ils n'entrent pas en contact avec les eaux de ruissellement et l'eau souterraine. Le revêtement ou la couverture sont agencés de manière à maximiser l'écoulement de l'eau hors de la zone d'application ;
+
+3. ils sont intégrés distinctement du sol sous-jacent et adjacent, afin de pouvoir les extraire aisément et séparément en cas de perte de fonction ;
+
+4. ils ont un rôle de stabilisation ou de support pour la construction ;
+
+5. ils ont une application fonctionnelle et dont l'épaisseur est justifiée dans la demande de permis d'urbanisme, de permis d'environnement ou, le cas échéant, dans le cahier spécial des charges ;
+
+6. ces conditions seront inscrites dans le cahier spécial des charges s'il en existe un.
+
+§ 4. Celui qui veut recourir à une application non reprise au paragraphe 2 ou 3 en fait la demande par écrit auprès de Bruxelles Environnement. La demande contient une description détaillée de l'application projetée des granulats recyclés et une argumentation démontrant que l'application n'entraine pas de pollution des sols et eaux souterraines. Bruxelles Environnement dispose d'un délai de 30 jours pour autoriser ou refuser la demande.
+
+§ 5. Une application temporaire de granulats recyclés sur un chantier est autorisée à condition que :
+
+1. les granulats recyclés répondent aux conditions de la section 4 et 5 de ce chapitre ;
+
+2. l'utilisation est fonctionnellement nécessaire pour le déroulement du chantier et décrite clairement dans la demande de permis d'urbanisme, de permis d'environnement ou d'autorisation de chantier ;
+
+3. l'utilisation est limitée à la durée du chantier et pour une durée maximale de trois ans. Cette durée n'est pas renouvelable ;
+
+4. les granulats recyclés sont complètement évacués à la fin du chantier, et au plus tard trois ans après leur mise en place.
+
+§ 6. Les granulats recyclés trouvant leur application conformément aux dispositions du chapitre 9 du titre IV répondent au présent chapitre, à l'exception de la sous-section 1re de la section 4 et des articles 4.8.16 et 4.8.17, et au chapitre 9.
+
+§ 7. Sauf dispositions contraires ou spécifiques, les titres I et III s'appliquent.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### Section 2 - Autorisations de production de granulats recyclés à l'aide d'un concasseur
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.2.
+
+§ 1 er . L'exploitation d'un concasseur fixe dans la Région de Bruxelles-Capitale est soumise à permis d'environnement pour la rubrique 48 conformément à l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, IC, ID, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement.
+
+§ 2. Se fait enregistrer conformément aux dispositions de l'ordonnance relative aux permis d'environnement et aux conditions de l'article 4.8.3, la personne physique ou morale qui :
+
+1. exploite un concasseur mobile sur un chantier de construction et de démolition en Région de Bruxelles-Capitale ;
+
+2. exploite un concasseur mobile ou fixe en dehors de la Région de Bruxelles-Capitale et qui veut obtenir la fin du statut de déchet des granulats recyclés pour une utilisation en Région de Bruxelles-Capitale.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+- NOTE : Selon l'article 6, § 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025) : "Avant le 01.02.2027, le titulaire d'un permis d'environnement autorisant l'installation visée à l'article 4.8.2 § 1 er transmet à Bruxelles Environnement le formulaire dûment complété visé à la nouvelle annexe 20 ."
+
+- NOTE : Selon l'article 6, § 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025) : "L'enregistrement requis en vertu du nouvel article 4.8.2 § 2 (...) est obtenu au plus tard le 01.08.2027. Pendant ce délai, l'activité peut être poursuivie sans enregistrement."
+
+- NOTE : Selon l'article 6, § 4 de l'arrêté du 24.10.2024 (M.B. 13.02.2025) : « Les conditions d'exploiter relatives aux granulats recyclés reprises dans les permis d'environnement et les déclarations existant avant le 01.08.2025 sont abrogées. »
+
+Article 4.8.3. Demande d'autorisation
+
+§ 1 er . Le demandeur d'un permis d'environnement ou de sa prolongation visé à l'article 4.8.2, § 1 er joint à sa demande le formulaire complémentaire mis à disposition par Bruxelles Environnement.
+
+§ 2. Le demandeur de l'enregistrement visé à l'article 4.8.2, § 2, joint à sa demande le formulaire complémentaire mis à disposition par Bruxelles Environnement.
+
+§ 3. Le contenu minimal du formulaire prévu aux paragraphes 1 et 2 est précisé à l'annexe 20 du présent arrêté.
+
+§ 4. Le demandeur d'un permis d'environnement ou d'un enregistrement en vue d'activités de concassage de granulats recyclés respecte les dispositions visées à l'article 3.1.3. Les paragraphes 1 et 2 de l'article 3.1.4 ne s'appliquent pas.
+
+§ 5. L'exploitant d'un concasseur est affilié, préalablement à la demande de permis d'environnement ou d'enregistrement, à un organisme de gestion enregistré. Le système de gestion de la qualité tel que défini à l'article 4.8.5 est approuvé préalablement par l'organisme de gestion enregistré.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### DROIT FUTUR 13.08.2027 : Section 3 - Production de granulats recyclés
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.4.
+
+§ 1 er . Le concasseur dispose d'un système d'information en ligne relié à un système de localisation GPS qui transmet les informations de manière autonome et sans fil à un serveur central surveillé par l'organisme de gestion enregistré. Ces informations indiquent au moins :
+
+1. la position exacte de l'installation ;
+
+2. le statut d'activité de l'installation;
+
+3. la période de production.
+
+§ 2. Bruxelles Environnement peut à tout moment consulter les données de ce serveur central.
+
+§ 3. Un concasseur mobile sur un chantier de construction ou de démolition ne traite que les gravats du chantier concerné.
+
+§ 4. Seuls les gravats non nocifs pour l'environnement et la santé et qui après traitement constituent des matières qui cessent d'être des déchets, à la fois en termes de qualité environnementale et de techniques constructives, sont acceptés par l'exploitant du concasseur.
+
+Les gravats d'asphalte sont, lors de l'acceptation auprès de l'exploitant du concasseur, également contrôlés à l'aide du test de détection d'HAP. Bruxelles Environnement peut déterminer les détails techniques de ce test dans un code de bonnes pratiques.
+
+§ 5. Les gravats ne contiennent pas les substances et matériaux suivants :
+
+1. asphalte contenant du goudron ;
+
+2. roofing ;
+
+3. ballast de chemin de fer ;
+
+4. cendres volantes, mâchefers et scories.
+
+Les gravats ne sont pas :
+
+1. visuellement ou organoleptiquement contaminés par des fibres d'amiante ou des matériaux susceptibles de contenir de l'amiante, du goudron ou d'autres déchets dangereux et/ou polluants tels que suie, peinture à base de plomb, huiles minérales,... ;
+
+2. originaires de sites où un incendie s'est produit ;
+
+3. issus de travaux d'assainissement des sols conformément à l'ordonnance sols ;
+
+4. contaminés par une pollution physique de plus de 5 % (masse/masse) de plâtre, verre, bois, béton cellulaire et plastique.
+
+La pollution physique des gravats en terre et sable ne peut pas entraver la production de granulats recyclés conformes dans l'installation. Les critères sont fixés dans le système de gestion de la qualité.
+
+§ 6. D'autres substances en quantité susceptible de compromettre la qualité des granulats recyclés, telles que déterminé à l'article 4.8.7, sont interdites.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.5. Système de gestion de la qualité
+
+§ 1 er . L'exploitant du concasseur dispose d'un système de gestion de la qualité tel que défini à l'article 3.5.4 et qui contient également les éléments suivants :
+
+1. critères et procédure d'acceptation ;
+
+2. stratégie d'échantillonnage et analyses ;
+
+3. procédure en cas de livraison de déchets ne satisfaisant pas aux critères d'acceptation.
+
+§ 2. Les critères d'acceptation sont à la disposition du détenteur de déchets à tout moment et sont joints à toute offre.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.6. Conditions générales
+
+§ 1 er . Le concasseur est conforme à l'article 3.5.2.
+
+§ 2. L'exploitant du concasseur est toujours affilié à un organisme de gestion enregistré.
+
+§ 3. L'exploitant du concasseur dispose du personnel suffisant et qualifié afin de :
+
+1. reconnaitre l'amiante et autres substances dangereuses ;
+
+2. pouvoir superviser et contrôler efficacement la production des granulats recyclés.
+
+§ 4. L'exploitant du concasseur dispose du certificat visé à l'article 4.8.28 pour produire des granulats recyclés destinés à être utilisés en Région de Bruxelles-Capitale.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+##### DROIT FUTUR 13.08.2027 : Section 4 - Conditions d'utilisation des granulats recyclés
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 1 re - Critères de qualité et d'utilisation pour l'obtention de la fin du statut de déchet des granulats recyclés
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.7. Qualité
+
+§ 1 er . Il est interdit de mélanger un lot de granulats recyclés à des déchets ou avec des matériaux de meilleure qualité afin de répondre aux conditions visées aux points 1 à 5 du paragraphe 2.
+
+§ 2. Chaque lot de granulats recyclés respecte les conditions cumulatives suivantes :
+
+1. les concentrations en métaux lourds respectent les normes de lixiviation reprises dans le tableau de l'annexe 22. Toutefois, lorsque la concentration totale respecte la norme reprise dans cette annexe, le test de lixiviation n'est pas nécessaire ;
+
+2. les concentrations des autres contaminants sont inférieures aux normes de l'annexe 22 ;
+
+3. les concentrations totales en hydrocarbures aromatiques polycycliques (HAP) relatives aux flux de granulats d'asphalte, de granulats recyclés bitumineux et de sables tamisés d'asphalte dérogent au point 2 ci-dessus. Les normes spécifiques aux HAP sont d'application. De plus, ces trois flux ne doivent pas respecter la norme concernant la concentration totale en huiles minérales reprise à l'annexe 22 ;
+
+4. les contaminants dont l'exploitant soupçonne la présence ou dont il a connaissance sur la base d'études antérieures, de l'autocontrôle ou d'inventaires, et qui ne figurent pas dans le tableau de l'annexe 22, doivent respecter les normes d'intervention pour la zone d'habitat de l'ordonnance sols ;
+
+5. contient les niveaux de pollution physique maximum suivants :
+
+a. polluants flottants : 5,0 cm3/kg de matière sèche ;
+
+b. polluants non-flottants : 1,0 % (masse/masse) ;
+
+c. verre : 2,0 % (masse/masse).
+
+§ 3. Par dérogation aux conditions du § 2 points 1 à 4, des granulats recyclés qui sont utilisés en contact direct avec les eaux souterraines respectent les normes d'assainissement de l'ordonnance sols.
+
+§ 4. Le ministre peut adapter le tableau de l'annexe 22 aux avancements techniques et scientifiques ou aux règlementations européennes et régionales par un arrêté ministériel.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.8. Utilisation
+
+§ 1 er . L'utilisation de granulats recyclés dans une « Zone particulière », telle que déterminée dans l'annexe 3 de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 29 mars 2018 déterminant les normes d'intervention et les normes d'assainissement, est interdite.
+
+§ 2. L'épaisseur de la couche de granulats recyclés appliquée est limitée à celle strictement nécessaire au projet de construction visé.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 2 - Contrôle des granulats recyclés
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.9. Echantillonnage
+
+§ 1 er . L'échantillonnage et l'analyse des granulats recyclés sont réalisés conformément au Code de bonnes pratiques mis à disposition du public par Bruxelles Environnement sur son site internet.
+
+§ 2. Si les stratégies d'échantillonnage ne permettent pas d'obtenir une représentativité suffisante de la qualité des granulats recyclés, des échantillons supplémentaires sont prélevés et analysés.
+
+§ 3. L'organisme de gestion peut demander des prélèvements et analyses complémentaires si les stratégies d'échantillonnage ne sont pas considérées comme suffisamment représentatives.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.10. Analyse
+
+§ 1 er . Un échantillon est analysé suivant les paramètres repris à l'annexe 22.
+
+§ 2. L'organisme de gestion peut demander des analyses portant sur des paramètres complémentaires.
+
+§ 3. Les échantillons sont également analysés pour les paramètres dont l'exploitant soupçonne la présence ou dont il a connaissance sur la base d'études antérieures, de l'autocontrôle ou d'inventaires.
+
+§ 4. Lorsqu'il y a des indices quant à la présence de substances volatiles, l'exploitant fournit des analyses de ces substances sur des échantillons uniques.
+
+§ 5. Les analyses sont réalisées par un laboratoire agréé ou considéré comme reconnu par la Région de Bruxelles-Capitale. L'application du test de détection d'HAP et la détermination de pollution physique peuvent être effectuées par l'exploitant.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.11. Rapport d'analyse
+
+§ 1 er . Les rapports d'analyse sont conservés de manière électronique en vue d'un échange entre l'organisme de gestion et l'exploitant concerné du concasseur. Les spécificités techniques auxquelles répondent les rapports d'analyse et les spécificités techniques liées à l'échange de données sont reprises dans le système de gestion de la qualité visé à l'article 4.8.5.
+
+§ 2 Le rapport d'analyse contient :
+
+1. le rapport d'échantillonnage ;
+
+2. les certificats d'analyses ;
+
+3. la comparaison des résultats d'analyses aux normes à respecter avec l'indication des dépassements.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 3 - Approvisionnement et transport des granulats recyclés
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.12. Approvisionnement de granulats recyclés
+
+L'approvisionnement de granulats recyclés se fait uniquement dans les concasseurs autorisés conformément aux dispositions du présent arrêté.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.13. Transport des granulats recyclés
+
+§ 1 er . Seuls les lots de granulats recyclés de même qualité environnementale peuvent être regroupés dans le même conteneur ou dans le même moyen de transport, à condition que ces flux soient séparés les uns des autres dans des contenants distincts de manière à éviter les contaminations physico-chimiques croisées.
+
+§ 2. Les granulats recyclés sont transportés vers le site récepteur en vue de l'utilisation prévue, sans stockage intermédiaire.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+##### DROIT FUTUR 13.08.2027 : Section 5 - Procédure de traçabilité
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 1 re - Généralités
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.14.
+
+§ 1 er . L'échange des documents visés dans la présente section se fait via la plateforme numérique mise à disposition par l'organisme de gestion auquel l'exploitant visé à l'article 4.8.2 est affilié.
+
+§ 2. La déclaration de conformité, mentionnée à la sous-section 2, est constituée de deux volets. Le contenu minimal de celle-ci est précisé à l'annexe 19 du présent arrêté.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 2 - Déclaration de conformité et rapport de gestion de granulats
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.15. Déclaration de conformité - Volet 1
+
+§ 1 er . Pour chaque lot de granulats recyclés, l'exploitant d'une installation visée à l'article 4.8.2 établit le premier volet de la déclaration de conformité.
+
+§ 2. Le volet 1 de la déclaration de conformité dispose d'un code d'identification unique par lot.
+
+§ 3. Le volet 1 de la déclaration de conformité, accompagné en annexe du rapport d'analyse, est soumis à l'organisme de gestion.
+
+§ 4. La déclaration de conformité des granulats recyclés utilisés dans ou sur le sol est accompagnée du rapport technique approuvé, tel que décrit aux articles 4.9.10 et 4.9.11.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.16. Déclaration de conformité - Volet 2
+
+§ 1 er . Préalablement au transfert de granulats recyclés vers l'utilisateur final, l'exploitant du concasseur notifie ce transfert auprès de l'organisme de gestion enregistré auquel il est affilié, à l'aide du volet 2 de la déclaration de conformité dûment complété.
+
+§ 2. Si un lot est constitué de sous-lots, le code d'identification unique du lot, tel que mentionné à l'article 4.8.15 § 2, est complété par un ajout pour chaque sous-lot.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+DROIT FUTUR 13.08.2027 : Article 4.8.17. Rapport de gestion de granulats
+
+§ 1 er . Sur la base de la déclaration de conformité, l'organisme de gestion enregistré délivre, dans un délai de cinq jours, un rapport de gestion de granulats à l'exploitant visé à l'article 4.8.2 et à l'utilisateur final. Ce rapport de gestion de granulats reprend à minima le code d'identification unique du lot, complété par l'ajout du sous-lot le cas échéant.
+
+§ 2. Les granulats recyclés ne sont utilisés que conformément aux données transmises dans les volets 1 et 2 de la déclaration de conformité. En cas de modification d'une donnée, le volet 2 de la déclaration de conformité est à nouveau dûment complété et transmise à l'organisme de gestion enregistré. L'organisme de gestion délivre un nouveau rapport de gestion de granulats conformément au paragraphe ci-dessus.
+
+§ 3. Le rapport de gestion de granulats confirme que les granulats recyclés ne sont pas utilisés dans ou sur le sol, et que l'utilisation prévue satisfait aux conditions du présent chapitre.
+
+§ 4. Les volets 1 et 2 de la déclaration de conformité, ainsi que le rapport d'analyse, sont transmis sur simple demande à l'utilisateur final.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.2)
+
+##### Section 6 - Organisme de gestion de granulats recyclés
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+###### Sous-section 1 re - Demande d'enregistrement
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.18.
+
+§ 1. Pour pouvoir prétendre à un enregistrement au titre d'organisme de gestion enregistré de granulats recyclés pour la Région de Bruxelles-Capitale, le demandeur doit introduire une demande d'enregistrement.
+
+§ 2. La demande d'enregistrement se fait à l'aide du formulaire mis à disposition par Bruxelles Environnement. Le contenu minimal du formulaire est précisé à l'annexe 21 du présent arrêté.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+- NOTE : Selon l'article 6, § 1 er de l'arrêté du 24.10.2024 (M.B. 13.02.2025) : "Les enregistrements requis sont obtenus au plus tard 01.09.2026"
+
+Article 4.8.19. Identification du demandeur
+
+§ 1 er . Afin de pouvoir répondre au titre d'organisme de gestion de granulats recyclés, le demandeur d'un enregistrement remplit les conditions suivantes :
+
+1. être constitué en association sans but lucratif conformément aux dispositions du Code des sociétés et des associations ;
+
+2. être suffisamment représentatif des différents secteurs impliqués dans l'utilisation de granulats recyclés ;
+
+3. le fonctionnement et la structure de l'activité sont conformes à la norme NBN EN ISO/IEC 17065 et sont accrédités à cet effet par BELAC ou un autre membre de la European Accreditation (EA). L'accréditation porte sur les activités à mener ;
+
+4. avoir comme statut d'exécuter les tâches qui lui sont attribuées par le présent chapitre, d'effectuer des études sur les granulats recyclés et d'émettre des avis et informations à ce sujet.
+
+§ 2. L'organisme de gestion est indépendant, impartial et expert dans son domaine d'activité.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.20. Formation professionnelle
+
+Le demandeur dispose, au sein de son personnel, d'une ou plusieurs personnes physiques qui, ensemble, remplissent les conditions suivantes :
+
+1. avoir une connaissance approfondie des disciplines de la pédologie, géologie et chimie ;
+
+2. avoir une connaissance approfondie des Codes de bonnes pratiques et de la législation environnementale de la Région de Bruxelles-Capitale, en particulier de la législation relative aux permis d'environnement, à la gestion des sols et des déchets ;
+
+3. avoir une expérience professionnelle d'au moins trois ans, acquise au cours des six années précédant la date de la demande d'enregistrement, dans le domaine du recyclage de granulats.
+
+Les connaissances mentionnées aux points 1 et 2 sont démontrées par des diplômes universitaires, des diplômes d'enseignement supérieur de type long ou équivalents y compris les diplômes étrangers reconnus comme équivalents.
+
+L'expérience professionnelle mentionnée au point 3 est attestée par un curriculum vitae, un certificat, une liste de référence ou une description de l'expérience pertinente acquise, par exemple dans le cadre d'un enregistrement similaire accordé par les autorités compétentes d'une autre région ou un autre pays.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.21. Moyens techniques et informatiques
+
+§ 1 er . Le demandeur dispose des moyens techniques et informatiques nécessaires pour assurer ses obligations.
+
+§ 2. Le demandeur dispose au moins des moyens permettant de mettre en place :
+
+1. un serveur central permettant de réceptionner et traiter les informations provenant des systèmes de localisation GPS des exploitants visés à l'article 4.8.2 ;
+
+2. un système de traçabilité des granulats recyclés qui ne sont pas utilisés dans ou sur le sol ;
+
+3. une procédure permettant d'établir le bilan volumétrique des granulats recyclés ;
+
+4. un registre des plaintes ;
+
+5. un registre des rapports d'analyse, des déclarations de conformité et des documents de traçabilité.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.22. Capacité financière
+
+§ 1 er . Le demandeur dispose d'une capacité financière suffisante afin d'assurer ses obligations.
+
+§ 2. Le demandeur dispose d'un contrat d'assurance couvrant sa responsabilité professionnelle en qualité d'organisme de gestion dans les trente jours suivant la décision d'octroi de l'enregistrement et pour la durée de celui-ci.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.23. Procédure d'enregistrement
+
+La procédure d'enregistrement se déroule conformément aux dispositions du titre IV bis de l'ordonnance permis d'environnement.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.24. Enregistrement d'office
+
+Les organismes de gestion en possession d'un enregistrement ou d'un titre équivalent délivré dans une autre Région, sont enregistrés d'office s'ils respectent les conditions de l'arrêté.
+
+Les organismes de gestion qui souhaitent être enregistrés d'office le notifient à Bruxelles Environnement.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+###### Sous-section 2 - Conditions générales pour l'exercice de l'activité
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.25. Système de gestion de la qualité
+
+L'organisme de gestion enregistré dispose d'un système de gestion de la qualité tel que visé à l'article 3.3.3.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.26. Plateforme numérique
+
+§ 1 er . L'organisme de gestion enregistré met en place une plateforme numérique pour l'échange des documents administratifs.
+
+§ 2. La plateforme numérique est accessible à Bruxelles Environnement.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.27. Contrôle périodique
+
+§ 1 er . L'organisme de gestion enregistré procède à des contrôles périodiques des exploitants visés à l'article 4.8.2 qui lui sont affiliés.
+
+§ 2. L'objectif des contrôles périodiques est de vérifier l'autocontrôle, tel que décrit dans le système de gestion de la qualité, des exploitants visés à l'article 4.8.2.
+
+§ 3. Un contrôle périodique est effectué pour chaque quantité de granulats recyclés de 10.000 tonnes, avec un maximum de huit contrôles périodiques par an. Pour une production annuelle inférieure à 10.000 tonnes, un minimum de deux contrôles périodiques est effectué.
+
+L'organisme de gestion enregistré propose une méthodologie de périodicité dans son système de gestion de la qualité tel que visé à l'article 4.8.25.
+
+§ 4. Une irrégularité au présent chapitre constatée par l'organisme de gestion enregistré est notifiée à Bruxelles Environnement dans un délai de cinq jours ouvrables.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.28. Certificat
+
+§ 1. L'organisme de gestion enregistré délivre un certificat confirmant que l'exploitant du concasseur est habilité à produire des granulats recyclés conformément au présent arrêté jusqu'au prochain contrôle périodique.
+
+§ 2. L'organisme de gestion enregistré détermine les modalités de délivrance des certificats et les inclut dans le système de gestion de la qualité visé à l'article 4.8.25.
+
+§ 3. L'organisme de gestion enregistré met les certificats à disposition du public.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.29. Contrôle supplémentaire
+
+L'organisme de gestion enregistré contrôle annuellement le système de gestion de la qualité de l'exploitant visé à l'article 4.8.2 qui lui est affilié.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.8.30. Rapportage à Bruxelles Environnement
+
+L'organisme de gestion enregistré fournit annuellement à Bruxelles Environnement, avant le 15 mars suivant l'année d'exercice, un rapport contenant au moins les informations suivantes :
+
+1. la quantité de granulats recyclés produite pour une utilisation autre que dans ou sur le sol de la Région de Bruxelles Capitale, par concasseur, sur la base des déclarations de conformité et du lieu de production ;
+
+2. la quantité de granulats recyclés utilisée autre que dans ou sur le sol de la Région de Bruxelles Capitale sur la base des notifications de réception et des applications visées à l'article 4.8.1 ;
+
+3. le rapport annuel de fonctionnement de l'organisme de gestion enregistré, y compris le nombre de contrôles périodiques effectués par concasseur.
+
+La forme et les modalités de ce rapportage sont déterminées par Bruxelles Environnement.
+
+------------
+
+- inséré par l'art. 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+#### CHAPITRE 9 - Terres et granulats recyclés utilisés dans ou sur le sol
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### Section 1 re - Généralités
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.1.
+
+§ 1 er . Au sens du présent chapitre, on entend par :
+
+1° « terre » : la matière solide constitutive du sol, qui est dégagée suite à des actions d'excavation ou de traitement du sol et dont la teneur en matières pierreuses étrangères au sol n'excède pas vingt-cinq pourcents en masse et dont la teneur en autres matières étrangères au sol n'excède pas un pourcent en masse et en volume.
+
+Ce même type de matériau provenant d'un centre de traitement des terres, d'un dépôt temporaire ou d'une extraction est compris dans cette définition ;
+
+2° « utilisation dans ou sur le sol » : une application en contact avec le sol, ayant pour but le remblaiement d'excavations, le nivellement, la stabilisation ou le rehaussement des terrains et où l'application ne fait pas partie d'une construction ;
+
+3° « matières étrangères au sol » : substances ou déchets qui ne sont pas présents dans un sol naturel, non perturbé, parmi lesquels :
+
+- pierres étrangères au sol telles que les gravats de maçonnerie, gravats de béton, pierres concassées ;
+
+- matières pierreuses étrangères au sol telles que les gravats d'asphalte, asphalte broyé, scories, cendres, braises, verre, carreaux, céramique, ardoises artificielles, béton cellulaire, argile expansée ;
+
+- matières non-pierreuses étrangères au sol telles que le plastique, le plâtre, la chaux, le roofing, le bitume, le caoutchouc, les matériaux isolants (tels que le polystyrène), les métaux (tels que boulons, écrous, ferraille), le bois (traité ou non traité), les matériaux suspectés de contenir de l'amiante, le papier, le liège, le textile ;
+
+4° « remblai préexistant » : une couche de sol qui a été mise en place par l'homme avant le 20 janvier 2005, dans le but de modifier la topographie en fonction de ses besoins. Cette couche est caractérisée par une composition hétérogène (limons, sables, argile, briques, béton, gravats de maçonnerie) et peut potentiellement être polluée par des métaux lourds et/ou des hydrocarbures aromatiques polycycliques (HAP) ;
+
+5° « zone de travail » : la zone établie dans le cadre d'un même projet et constituée d'un ensemble de parcelles attenantes aux caractéristiques similaires. Il s'agit de caractéristiques qui présentent une incidence significative sur l'environnement ou un risque significatif pour la santé publique.
+
+§ 2. Sans préjudice de l'article 3, 8° de l'ordonnance déchets, dans ce chapitre est entendu par « détenteur de déchets », dans l'ordre indiqué :
+
+1. le donneur d'ordre des terrassements sur le lieu d'excavation, tel qu'un maître d'ouvrage, un développeur de projet, un titulaire de droits réels, ou;
+
+2. l'entrepreneur responsable des terrassements sur le lieu d'excavation, ou;
+
+3. le collecteur, négociant ou courtier des déchets, ou;
+
+4. l'installation de collecte ou de traitement de déchets autorisée à cet effet.
+
+§ 3. Ce chapitre s'applique à l'utilisation :
+
+1. de terres ;
+
+2. de granulats recyclés qui sont utilisés dans ou sur le sol, contrairement aux granulats recyclés traités dans le chapitre 8.
+
+§ 4. Sauf dispositions contraires ou spécifiques, les titres I et III s'appliquent.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### Section 2 - Conditions d'utilisation
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+###### Sous-section 1 re - Généralités
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.2.
+
+§ 1 er . Il est interdit de mélanger différents lots de terres ou de granulats recyclés ayant des qualités environnementales différentes, ou avec d'autres matériaux, dans le but ou ayant pour résultat que le lot mélangé puisse être utilisé pour un usage non autorisé pour les lots non-mélangés.
+
+§ 2. Afin de pouvoir respecter les conditions du présent chapitre, des terres ou des granulats recyclés peuvent subir un traitement physique, chimique ou biologique.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.3.
+
+§ 1. Une irrégularité par rapport au présent chapitre, constatée par un expert en pollution du sol, est déclarée à un organisme de gestion de terres enregistré dans un délai de cinq jours ouvrables.
+
+Une irrégularité au niveau du présent chapitre constatée par un organisme de gestion de terres enregistré est déclarée à Bruxelles Environnement, dans un délai de cinq jours ouvrables.
+
+§ 2. Lorsque des terres ou des granulats recyclés sont utilisés dans ou sur le sol, en contradiction aux dispositions du présent chapitre, la parcelle concernée est inscrite en catégorie 0 de l'inventaire de l'état du sol, sauf si elle est déjà inscrite en catégorie 4.
+
+L'élimination de ces terres ou de ces granulats recyclés est réalisée conformément aux dispositions de l'ordonnance sols.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+###### Sous-section 2 - Utilisation générale
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.4.
+
+Des terres ou des granulats recyclés dont les concentrations en polluants sont inférieures ou égales aux normes d'assainissement de l'ordonnance sols peuvent être utilisées dans ou sur le sol, ou dans un autre matériau tel que visé par l'article 4.8.1 § 1, 1.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.5.
+
+§ 1 er . Sans préjudice de l'article 4.9.4, des terres peuvent uniquement être utilisées dans ou sur le sol, aux conditions cumulatives suivantes :
+
+1. la teneur en pierres ou matériaux pierreux étrangers au sol n'excède pas cinq pour cent en masse ;
+
+2. la granulométrie des pierres ou matériaux pierreux étrangers au sol n'est pas supérieure à cinquante millimètres ;
+
+3. la teneur en matériaux étrangers au sol, autres que les matériaux pierreux, n'excède pas un pour cent en masse et en volume ;
+
+4. elles ne contiennent pas de déchets dangereux ;
+
+5. elles ne contiennent pas d'espèces animales ou végétales invasives au sens de l'ordonnance du 1 er mars 2012 relative à la conservation de la nature et du règlement (UE) n° 1143/2014 du Parlement Européen et du Conseil du 22 octobre 2014 relatif à la prévention et à la gestion de l'introduction et de la propagation des espèces exotiques envahissantes.
+
+§ 2. Sans préjudice de l'article 4.9.4, des granulats recyclés peuvent uniquement être utilisés dans ou sur le sol, aux conditions cumulatives suivantes :
+
+1. la teneur en déchets autres que les granulats recyclés même n'excède pas un pour cent en masse et en volume ;
+
+2. l'épaisseur de la couche de granulats recyclés est limitée à celle strictement nécessaire au projet de construction visé ;
+
+3. la granulométrie est inférieure à 4 mm si les granulats recyclés sont utilisés sur une parcelle classée dans la classe de sensibilité « zone habitat » au sens de l'ordonnance sol, à l'exception des granulats recyclés utilisés pour des applications spécifiques tel que prévu dans le Code de bonnes pratiques ;
+
+4. ils ne sont pas utilisés sur une parcelle qui est classée dans la classe de sensibilité « zone particulière » telle que déterminée dans l'annexe 3 de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 29 mars 2018 déterminant les normes d'intervention et les normes d'assainissement.
+
+§ 3. Sans préjudice de l'article 4.9.4 et des paragraphes 1 et 2, des terres ou des granulats recyclés qui ne sont pas utilisés en-dessous d'une construction remplissent au minimum les conditions cumulatives suivantes, afin de préserver au maximum les fonctions écosystémiques :
+
+1. le taux de matière organique dans une zone racine est de minimum 2 % ;
+
+2. la préservation du potentiel d' infiltrabilité du sol est garantie ;
+
+3. l'érosion est évitée ;
+
+4. la préservation de la biodiversité originelle du sol et du terrain avant le démarrage des travaux est garantie.
+
+§ 4. Bruxelles Environnement peut déterminer les détails techniques de ces conditions dans un code de bonnes pratiques.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+###### Sous-section 3 - Utilisation de terres sur une même parcelle ou une zone de travail
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.6.
+
+§ 1 er . Par dérogation aux conditions de l'article 4.9.4, des terres qui sont utilisées dans ou sur le sol sur la même parcelle d'où elles ont été excavées peuvent être utilisées si les concentrations en polluants sont inférieures à 80 % des normes d'intervention telles que définies dans l'ordonnance sols, et ceci aux conditions cumulatives suivantes:
+
+1. les terres ne peuvent pas induire un accroissement de pollution au sens de l'article 3, 25° de l'ordonnance sols. A ce titre sont exclusivement concernés les (groupes de) polluants i) qui dépassent les normes d'assainissement dans le sol en place en périphérie immédiate de la fouille sur la zone d'utilisation et ii) qui ne font pas partie des (groupes de) polluants à assainir ;
+
+2. les polluants ne constituent pas des substances devant être traitées par assainissement, en vertu de l'ordonnance sols.
+
+§ 2. Par dérogation aux conditions des articles 4.9.4 et 4.9.5 § 1, un remblai préexistant faisant l'objet d'une excavation et qui présente exclusivement une pollution orpheline en hydrocarbures aromatiques polycycliques ou métaux lourds peut être réutilisé dans ou sur le sol, sur une même parcelle d'où il a été excavé, aux conditions cumulatives suivantes :
+
+1. la teneur en matériaux étrangers au sol, autres que les matériaux pierreux, n'excède pas un pour cent en masse et en volume ;
+
+2. il ne contient pas de déchets dangereux et il n'est lui-même pas un déchet dangereux ;
+
+3. il ne génère pas de risque ou de restriction d'usage telle que définie par l'ordonnance sols ;
+
+4. il est réutilisé dans une zone de la parcelle où un remblai préexistant de même nature est présent et dont les concentrations maximales et moyennes en HAP et métaux lourds sont égales ou supérieures ;
+
+5. il ne dépasse pas les limites horizontales et la profondeur du remblai préexistant.
+
+§ 3. Par dérogation aux conditions de l'article 4.9.4, un remblai préexistant faisant l'objet d'une excavation et qui présente exclusivement une pollution orpheline en hydrocarbures aromatiques polycycliques ou métaux lourds peut être utilisé dans ou sur le sol, dans une zone de travail, si les concentrations en ces polluants sont inférieures à 80 % des normes d'intervention telles que définies dans l'ordonnance sols, et ceci aux conditions cumulatives suivantes :
+
+1. il n'entraine pas d'inscription d'une parcelle ou la modification de la catégorie d'une parcelle dans l'inventaire de l'état du sol ;
+
+2. il ne génère pas de risque ou de restriction d'usage telle que définie par l'ordonnance sols ;
+
+3. il n'induit pas un accroissement de pollution au sens de l'article 3, 25° de l'ordonnance sols ;
+
+4. il est réutilisé dans une zone où un remblai préexistant de même nature est présent ;
+
+5. il ne dépasse pas les limites horizontales et la profondeur du remblai préexistant.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+###### Sous-section 4 - Autre utilisation de terres
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.7.
+
+Par dérogation aux conditions de l'article 4.9.4, des terres qui sont utilisées dans un autre matériau peuvent être utilisées selon les conditions de l'article 4.8.7.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+##### DROIT FUTUR 13.08.2027 : Section 3 - Procédure de traçabilité
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 1 re - Généralités
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.8.
+
+L'échange des documents prévus par cette procédure administrative est réalisé par voie électronique.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.9.
+
+Le détenteur de déchets et l'utilisateur final reprennent, dans les documents d'appel d'offre, la demande de prix ou les documents contractuels, les clauses garantissant l'application des dispositions du présent chapitre.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+###### DROIT FUTUR 13.08.2027 : Sous-section 2 - Procédure administrative
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.10. Rapport technique
+
+§ 1 er . Le rapport technique détermine la qualité environnementale des terres et des granulats recyclés avec une utilisation prévue dans ou sur le sol.
+
+§ 2. Le rapport technique est rédigé par un expert en pollution du sol, selon les Codes de bonnes pratiques mis à disposition par Bruxelles Environnement.
+
+§ 3. Un rapport relatif à l'utilisation de terres, rédigé en vertu des dispositions d'une autre Région belge, peut être assimilé à un rapport technique, conformément aux dispositions de cet arrêté, aux conditions cumulatives suivantes :
+
+1. il est rédigé par un expert en pollution du sol agréé selon l'ordonnance sols ;
+
+2. il comprend une évaluation des conditions d'utilisation telles que prévues par les articles 4.9.4, 4.9.5 et 4.9.6.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.11. Exécution, notification et approbation du rapport technique
+
+§ 1 er . Avant l'utilisation de terres ou de granulats recyclés dans ou sur le sol, un rapport technique est rédigé, sauf dans les cas suivants :
+
+1. les terres proviennent d'une parcelle qui n'est pas reprise à l'inventaire de l'état du sol ou qui est reprise uniquement en catégorie 1, et dont le volume de terres qui est excavé sur cette parcelle est de moins de 250 m3, ou;
+
+2. les terres proviennent d'une excavation dans le cadre d'un traitement du sol et elles sont utilisées selon les conditions de la déclaration de conformité du projet d'assainissement ou de gestion du risque, ou selon les conditions d'un traitement de durée limitée, conformément aux dispositions de l'ordonnance sols, ou;
+
+3. les terres sont réutilisées sur place en voirie et les travaux n'ont pas lieu sur une parcelle en catégorie 0 de l'inventaire de l'état du sol, ou;
+
+4. les terres proviennent d'un terrain en dehors de la Région de Bruxelles-Capitale, le volume total est de moins de 250 m3 et il n'y a pas d'indice qu' elles sont polluées selon les critères applicables à ces terres.
+
+§ 2. L'élaboration du rapport technique est à charge du détenteur initial de déchets.
+
+§ 3. Le rapport technique est notifié à l'organisme de gestion de terres enregistré avant l'utilisation de la terre ou des granulats recyclés.
+
+§ 4. Suite à la réception du rapport technique, l'organisme de gestion de terres enregistré dispose de 30 jours pour :
+
+- soit l'approuver ou non conformément aux dispositions du présent chapitre ;
+
+- soit imposer des compléments, dans un délai raisonnable qu'il fixe. Après réception des compléments, l'organisme de gestion de terres dispose de quinze jours pour approuver le rapport technique ou non conformément aux dispositions du présent chapitre.
+
+§ 5. Dans le document d'approbation du rapport technique, l'organisme de gestion de terres enregistré confirme, le cas échéant, sur la base des conclusions du rapport technique, sous quelles conditions les terres ou les granulats recyclés peuvent être utilisés.
+
+§ 6. L'approbation du rapport technique est notifiée aux personnes suivantes :
+
+- le détenteur initial de déchets ayant l'obligation d'élaborer le rapport technique ;
+
+- le titulaire de droits réels de la parcelle sur laquelle les terres seront excavées.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.12. Transport et autorisation de transport
+
+§ 1 er . Pour l'exécution des travaux du sol et pour le transport de terres ou de granulats recyclés avec une utilisation prévue dans ou sur le sol, le donneur d'ordre du transport tel que défini à l'article 3.2.7 § 1 et le transporteur sont inscrits auprès d'un organisme de gestion de terres enregistré.
+
+§ 2. Avant le transport de terres ou de granulats recyclés dont l'utilisation prévue s'effectue dans ou sur le sol, le donneur d'ordre du transport transmet une déclaration d'envoi préalable à l'organisme de gestion de terres.
+
+§ 3. Avant l'utilisation de terres sur la même parcelle d'où elles ont été excavées, le détenteur de déchets transmet une déclaration d'utilisation à l'organisme de gestion des terres.
+
+§ 4. Suite à la réception de la déclaration préalable telle que prévue aux paragraphes 2 et 3, l'organisme de gestion de terres enregistré transmet au déclarant, dans un délai de cinq jours :
+
+- soit une décision indiquant que la déclaration est incomplète et dans laquelle il est demandé de la compléter. La procédure recommence à dater de la réception des compléments conformément au présent paragraphe ;
+
+- soit une décision qui s'oppose au transport et à l'utilisation de la terre ou des granulats recyclés, suite à un non-respect des conditions du présent chapitre ;
+
+- soit une autorisation de transport ou une autorisation d'utilisation.
+
+§ 5. L'autorisation de transport confirme l'utilisation prévue et autorise que les terres ou les granulats recyclés soient déplacés vers un lieu de stockage, de traitement ou d'utilisation prévu.
+
+§ 6. Le donneur d'ordre du transport transmet, dans un délai de cinq jours après chaque transport les documents de traçabilité à l'organisme de gestion de terres.
+
+§ 7. Seuls les lots de terres ou de granulés recyclés de même qualité environnementale peuvent être regroupés dans le même conteneur ou dans le même moyen de transport, à condition que ces flux soient séparés les uns des autres dans des contenants distincts de manière à éviter les contaminations physico-chimiques croisées.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.13. Déclaration de réception
+
+Après la réception de terres ou de granulats recyclés dont l'utilisation est prévue dans ou sur le sol, soit l'utilisateur final, soit l'entrepreneur ou le sous-traitant qu'il a mandaté, transmet dans un délai de quinze jours, une déclaration de réception à l'organisme de gestion de terres.
+
+Par cette déclaration de réception, soit l'utilisateur final, soit l'entrepreneur ou le sous-traitant qu'il a mandaté, confirme la quantité livrée et l'utilisation prévue conformément aux dispositions du présent chapitre.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+DROIT FUTUR 13.08.2027 : Article 4.9.14. Rapport de gestion de terres
+
+§ 1 er . Sur la base de la déclaration d'utilisation ou de la déclaration de réception, l'organisme de gestion de terres enregistré délivre un rapport de gestion de terres au producteur de déchets et à l'utilisateur final, ou à l'entrepreneur ou le sous-traitant qu'il a mandaté.
+
+Le rapport de gestion de terres confirme l'utilisation prévue des terres et des granulats recyclés dans ou sur le sol, et confirme que cette utilisation satisfait aux conditions de l'approbation du rapport technique et de l'autorisation de transport.
+
+§ 2. Par dérogation au paragraphe 1 er , un rapport de gestion des terres ne doit pas être délivré si les terres ont été utilisées dans le cadre d'un traitement autorisé par Bruxelles Environnement.
+
+Dans ce cas, la déclaration finale confirme que cette utilisation satisfait aux conditions du présent chapitre.
+
+------------
+
+- DROIT FUTUR : inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 13.08.2027 (art. 8.3)
+
+##### Section 4 - Organisme de gestion de terres
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.15.
+
+§ 1. Pour pouvoir prétendre à un enregistrement au titre d'organisme de gestion de terres enregistré pour la Région de Bruxelles-Capitale, le demandeur doit introduire une demande d'enregistrement.
+
+§ 2. La demande d'enregistrement se fait à l'aide du formulaire que Bruxelles Environnement met à disposition. Le contenu minimal du formulaire est précisé à l'annexe 21 du présent arrêté.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+- NOTE : Selon l'article 6, § 1 er de l'arrêté du 24.10.2024 (M.B. 13.02.2025) : "Les enregistrements requis sont obtenus au plus tard 01.09.2026"
+
+Article 4.9.16. Identification du demandeur
+
+§ 1 er . Le demandeur d'un enregistrement en qualité d'organisme de gestion de terres remplit les conditions suivantes :
+
+1. les conditions mentionnées à l'article 3.1.3 ;
+
+2. il est constitué en association sans but lucratif conformément à la loi du 23 mars 2019 introduisant le Code des sociétés et des associations et portant des dispositions diverses ;
+
+3. être suffisamment représentatif des différents secteurs impliqués dans l'utilisation de terres et de granulats recyclés avec une utilisation prévue dans ou sur le sol. Un organisme de gestion de terres est représentatif si dans le Conseil d'Administration, sont mandatés au moins deux organisations professionnelles qui sont suffisamment représentatives des secteurs impliqués dans l'utilisation de terres ou de granulats recyclés avec une utilisation prévue dans ou sur le sol ;
+
+4. avoir dans ses statuts d'exécuter les tâches qui lui sont attribuées par ce chapitre, et d'effectuer des études et émettre des avis concernant la terre et les granulats recyclés avec une utilisation prévue dans ou sur le sol.
+
+§ 2. L'organisme de gestion de terres est indépendant, impartial et expert dans son domaine d'activité.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.17. Formation professionnelle
+
+§ 1 er . Le demandeur d'enregistrement emploie une ou plusieurs personnes physiques remplissant ensemble les conditions suivantes :
+
+1. avoir une connaissance approfondie des disciplines de la pédologie, géologie, chimie, biologie et microbiologie ;
+
+2. avoir une connaissance approfondie des Codes de bonnes pratiques et de la législation environnementale de la Région de Bruxelles-Capitale, en particulier de la législation relative aux permis d'environnement et à la gestion des sols et des déchets ;
+
+3. avoir une expérience professionnelle d'au moins trois ans, acquise au cours des six années précédant la date de la demande d'enregistrement, en lien avec les études ou le traitement de la pollution du sol.
+
+Les connaissances, mentionnées aux points 1° et 2° sont démontrées par des diplômes universitaires ou des diplômes de l'enseignement supérieur de type long ou équivalents y compris des diplômes étrangers reconnus comme équivalents.
+
+L'expérience professionnelle mentionnée au point 3° est attestée par un curriculum vitae, un certificat, une liste de références ou une description de l'expérience pertinente acquise, par exemple dans le cadre d'un enregistrement similaire accordé par les autorités compétentes d'une autre région ou un autre pays.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.18. Moyens techniques et informatiques
+
+§ 1 er . Le demandeur doit disposer des moyens techniques et informatiques nécessaires afin d'assurer ses obligations.
+
+Le demandeur dispose a minima des moyens permettant de mettre en place :
+
+1. un système de traçabilité des terres et granulats recyclés faisant l'objet d'une utilisation prévue dans ou sur le sol ;
+
+2. une procédure permettant de constituer un bilan volumique fermé pour les terres et les granulats recyclés utilisés dans ou sur le sol ;
+
+3. un registre de plaintes ;
+
+4. un registre des rapports techniques, y compris les approbations prévues à l'article 4.9.11, § 4 ;
+
+5. un registre des autorisations de transport telles que prévues à l'article 4.9.12, § 4 ;
+
+6. un registre des rapports de gestion de terres tels que prévus à l'article 4.9.14.
+
+§ 2. Les données rassemblées par ces moyens sont numériques et sont transmises à Bruxelles Environnement, selon la forme et les modalités déterminées par Bruxelles Environnement.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.19. Capacité financière
+
+§ 1 er . Le demandeur dispose d'une capacité financière suffisante pour assurer ses obligations.
+
+§ 2. Le demandeur dispose d'un contrat d'assurance couvrant sa responsabilité professionnelle en qualité d'organisme de gestion dans les trente jours suivant la décision d'octroi de l'enregistrement et pour la durée de celui-ci.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.20. Système de gestion de la qualité
+
+L'organisme de gestion de terres enregistré dispose d'un système de gestion de la qualité, tel que visé à l'article 3.3.3.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.21. Procédure d'enregistrement
+
+§ 1 er . La procédure d'enregistrement se déroule conformément au titre IV bis de l'ordonnance permis d'environnement.
+
+§ 2. En plus des éléments prévus à l'annexe 21, les pièces suivantes sont jointes à la demande :
+
+1. une copie des diplômes et curriculum vitae tels que mentionnés à l'article 4.9.17 ;
+
+2. un engagement inconditionnel dans lequel le demandeur déclare gérer les données dont il dispose de manière à les rendre accessibles aux autorités sur simple demande ;
+
+3. un engagement inconditionnel dans lequel le demandeur déclare qu'il souscrira, dans les trente jours après l'obtention de son enregistrement, à une assurance de responsabilité civile professionnelle telle que mentionnée à l'article 4.9.19 § 2, et qu'il informera Bruxelles Environnement de la police d'assurance conclue ;
+
+4. une attestation récente confirmant que le demandeur a rempli toutes ses obligations sociales et fiscales.
+
+§ 3. La demande est soumise à un examen par Bruxelles Environnement.
+
+Dans le cadre de cet examen, Bruxelles Environnement peut demander la production de données et/ou documents complémentaires établissant que le demandeur remplit les conditions imposées aux articles 4.9.16 à 4.9.20 afin de pouvoir prétendre à un enregistrement. Le demandeur est tenu de communiquer la totalité de ces données et/ou documents complémentaires.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.22.
+
+Bruxelles Environnement peut, en cas de suspension ou retrait de l'enregistrement d'un organisme de gestion de terres, reprendre les tâches suivantes :
+
+1. approuver les rapports techniques, tels que prévus à l'article 4.9.11, § 4 ;
+
+2. prendre des décisions en lien au transport, tel que prévu à l'article 4.9.12, § 4 ;
+
+3. délivrer des rapports de gestion de terres, tel que prévu à l'article 4.9.14.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Article 4.9.23. Enregistrement d'office
+
+Les organismes de gestion de terres qui sont en possession d'un enregistrement ou d'un titre équivalent délivré dans une autre Région, sont enregistrés d'office s'ils respectent les conditions de l'arrêté.
+
+Les organismes de gestion de terres qui souhaitent être enregistrés d'office le notifient à Bruxelles Environnement.
+
+------------
+
+- inséré par l'art. 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+### TITRE V - Dispositions modificatives abrogatoires, transitoires et finales
+
+#### CHAPITRE 1 er - Dispositions modificatives
+
+Article 5.1. Modification de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, IC, ID, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement
+
+§ 1 er . Les rubriques n° 22, n° 28, n° 33, n° 41, n° 44, n° 45, n° 46, n° 47, n° 48, n° 49, n° 50, n° 51, n° 103 de l'annexe de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, IC, ID, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement d'environnement sont remplacées respectivement par les rubriques suivantes :
+
+| N° rubrique | Dénomination | Classe | Mot-clé |
+| --- | --- | --- | --- |
+| 22.1 | Dépôts de boues dont la surface totale destinée au stockage est inférieure ou égale à 100 m² | 1C | Boues, terres excavées (dépôt) |
+| 22.2 | Dépôts de boues et/ou de terres excavées dont la surface totale destinée au stockage est supérieure à 100 m² | 1B |  |
+| 22.3 | Installation de traitement, y compris la collecte, de boues et/ou de terres excavées |  | Boues, terres excavées |
+|  | A inférieure ou égale à 1000 t/an | 2 |  |
+|  | B supérieure à 1000 t/an | 1B |  |
+| 28.1 | Chantier de : - construction, transformation ou démolition de bâtiments hors voirie ou d'ouvrages d'art mettant en oeuvre des installations ayant une force motrice totale de plus de 50 kW ; - transformation ou démolition d'une surface brute de plus de 500 m² d'un bâtiment, d'un ouvrage d'art ou d'une conduite, dont le permis d'urbanisme autorisant la construction a été délivré avant le 1 er octobre 1998 ; y compris les installations reprises à d'autres rubriques à l'exception de : - l'élimination de déchets in-situ, - dépôt d'explosifs, - chantiers d'assainissement | 3 | Chantiers |
+| 28.2 | Chantiers de chemisage ou coating des égouts, utilisant des polymères (à l'exception des chantiers relatifs à la réfection des branchements) | 3 |  |
+| 33 | Installations pour le nettoyage et le reconditionnement de fûts, conteneurs et citernes ayant contenu des substances dangereuses (substances caractérisées par une mention de danger "H" ) | 1B | Citernes (nettoyage)/ Tanken ( schoonmaak ) |
+| 41.1 | Centres de compostage d'une capacité : |  | Compostage/Biométhanisation |
+|  | A de 10 à 1000 t/an | 2 |  |
+|  | B supérieure à 1000 t/an | 1B |  |
+| 41.2 | Centres de biométhanisation | 1B |  |
+| 44 | Installations de tri et/ou de préparation en vue du réemploi des déchets d'une capacité : |  | Déchets (Centre de tri/ Réemploi) |
+|  | A inférieure ou égale à 10 t/an | 3 |  |
+|  | B supérieure à 10 et jusqu'à 1000 t/an | 2 |  |
+|  | C supérieure à 1000 et jusqu'à 100.000 t/an | 1B |  |
+| 45.1 | Dépôts de déchets dangereux, à l'exception des dépôts repris à d'autres rubriques, dont la surface totale destinée au stockage est : |  | Déchets dangereux (dépôt) |
+|  | A comprise entre 1 et 5 m² | 2 |  |
+|  | B supérieure à 5 m² | 1B |  |
+| 45.2 | Dépôts de déchets dangereux liquides dont le point d'éclair est inférieur à 21° C d'une capacité : |  | Déchets dangereux liquides inflammables (dépôt) |
+|  | A comprise entre 50 et 500 l | 2 |  |
+|  | B supérieure à 500 l | 1B |  |
+| 45.3 | Dépôts de déchets dangereux liquides non repris à la rubrique 45.2 d'une capacité : |  | Déchets dangereux liquides (dépôt) |
+|  | A comprise entre 100 et 5.000 l | 2 |  |
+|  | B supérieure à 5.000 l | 1B |  |
+| 45.4 | Dépôts de déchets d'équipements électriques et électroniques d'une superficie totale destinée au stockage : |  | DEEE (dépôt) |
+|  | A - entre 5 et 25 m² ; | 3 |  |
+|  | B supérieure à 25 m² | 1B |  |
+| 46 | Installations ou équipements pour le traitement de déchets dangereux à l'exception des installations reprises à d'autres rubriques | 1B | Déchets dangereux (traitement) |
+| 47 | Dépôts de déchets non dangereux, à l'exception des dépôts repris à d'autres rubriques, dont la surface totale destinée au stockage est : |  | Déchets non dangereux (dépôt) |
+|  | A comprise entre 100 et 2000 m² | 2 |  |
+|  | B supérieure à 2000 m² | 1B |  |
+| 48 | Installations ou équipements pour le traitement mécanique de déchets non dangereux, à l'exception des installations reprises à la rubrique 44, dont la force motrice totale est : |  | Déchets non dangereux (traitement mécanique) |
+|  | A comprise entre 2 et 20 kW | 2 |  |
+|  | B supérieure à 20 kW | 1B |  |
+| 49 | Installations ou équipements pour le traitement de déchets non dangereux, à l'exception des installations reprises à d'autres rubriques, d'une capacité |  | Déchets non dangereux (traitement) |
+|  | A de 0 à 100 t/an | 2 |  |
+|  | B supérieure à 100 t/an | 1B |  |
+| 50 | Installations d'incinération de déchets non dangereux d'une capacité inférieure ou égale à 12 t/jour | 1B | Déchets non dangereux (incinération) |
+| 51 | Installations de collecte de déchets, y compris le dépôt de ces déchets et à l'exception des installations reprises aux rubriques 44 et 220, d'une capacité : |  | Déchets (collecte) |
+|  | A inférieure ou égale à 1000 t/an | 2 |  |
+|  | B supérieure à 1000 et jusqu' à 100.000 t/an | 1B |  |
+| 103 | - Installations destinées à la production de métaux bruts non ferreux à partir de minerais ou de concentrés de minerais ou autre matériau (à l'exception des déchets) selon des procédés métallurgiques ou électrolytiques et dont la capacité est inférieure ou égale à 100.000 t/an de métaux bruts non ferreux ; - Installations de calcination et de frittage de minerais métalliques | 1B | Minerais (traitement) |
+
+§ 2. La rubrique suivante est ajoutée à l'annexe de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, IC, ID, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement :
+
+| N° rubrique | Dénomination | Classe | Mot-clé |
+| --- | --- | --- | --- |
+| 178 | Utilisation de matériaux valorisables | 1D | Matériaux valorisables |
+
+§ 3. Les rubriques n° 80 et n° 81 de l'annexe de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 4 mars 1999 fixant la liste des installations de classe IB, II et III en exécution de l'article 4 de l'ordonnance du 5 juin 1997 relative aux permis d'environnement sont supprimées.
+
+Article 5.2. Modification de l'arrêté du 20 mai 1999 du Gouvernement de la Région de Bruxelles-Capitale imposant l'avis du Service Incendie et d'Aide Médicale Urgente en Région de Bruxelles-Capitale pour certaines installations classées
+
+§ 1. Les rubriques n° 44, n° 45, n° 46, n° 47, n° 48, n° 49, n° 50, n° 51 et n° 103 de l'annexe I de l'arrêté du 20 mai 1999 du Gouvernement de la Région de Bruxelles-Capitale imposant l'avis du Service Incendie et d'Aide Médicale Urgente en Région de Bruxelles-Capitale pour certaines installations classées sont remplacées respectivement par les rubriques suivantes :
+
+| N° rubrique | Dénomination | Classe | Mot-clé |
+| --- | --- | --- | --- |
+| 44 | Installations de tri et/ou de préparation en vue du réemploi des déchets d'une capacité : |  | Déchets (Centre de tri/Réemploi) |
+|  | C supérieure à 1000 et jusqu' à 100.000 t/an | 1B |  |
+| 45.1 | Dépôts de déchets dangereux, à l'exception du dépôt repris à d'autres rubriques, dont la surface totale destinée au stockage sur le site est : |  | Déchets dangereux (dépôt) |
+|  | B supérieure à 5 m² | 1B |  |
+| 45.2 | Dépôts de déchets dangereux liquides dont le point d'éclair est inférieur à 21° C d'une capacité : |  | Déchets dangereux liquides inflammables (dépôt) |
+|  | A comprise entre 50 et 500 l | 2 |  |
+|  | B supérieure à 500 l | 1B |  |
+| 45.3 | Dépôts de déchets dangereux liquides non repris à la rubrique 45.2 d'une capacité : |  | Déchets dangereux liquides (dépôt) |
+|  | A comprise entre 100 et 5.000 l | 2 |  |
+|  | B supérieure à 5.000 l | 1B |  |
+| 46 | Installations ou équipements pour le traitement de déchets dangereux à l'exception des installations reprises à d'autres rubriques | 1B | Déchets dangereux (traitement) |
+| 47 | Dépôts de déchets non dangereux, à l'exception des dépôts repris à d'autres rubriques, dont la surface totale destinée au stockage sur le site est : |  | Déchets non dangereux (dépôt) |
+|  | A comprise entre 100 et 2000 m² | 2 |  |
+|  | B supérieure à 2000 m² | 1B |  |
+| 48 | Installations ou équipements pour le traitement mécanique de déchets non dangereux, à l'exception des installations reprises à la rubrique 44, dont la force motrice totale est : |  | Déchets non dangereux (traitement mécanique) |
+|  | B supérieure à 20 kW | 1B |  |
+| 49 | Installations ou équipements pour le traitement de déchets non dangereux, à l'exception des installations reprises à d'autres rubriques |  | Déchets non dangereux (traitement) |
+|  | B supérieure à 100 t/an | 1B |  |
+| 50 | Installations d'incinération de déchets non dangereux d'une capacité inférieure ou égale à 12 t/jour | 1B | Déchets non dangereux (incinération) |
+| 51 | Installations de collecte de déchets, y compris le dépôt de ces déchets et à l'exception des installations reprises sous rubriques 44 et 220, d'une capacité : |  | Déchets (collecte) |
+|  | B supérieure à 1000 et jusqu' à 100.000 t/an | 1B |  |
+| 103 | - Installations destinées à la production de métaux bruts non ferreux à partir de minerais ou de concentrés de minerais ou autre matériau (à l'exception des déchets) selon des procédés métallurgiques ou électrolytiques et dont la capacité est inférieure ou égale à 100.000 t/an de métaux bruts non ferreux ; - Installations de calcination et de frittage de minerais métalliques | 1B | Minerais (traitement) |
+
+§ 2. La rubrique suivante est ajoutée à l'annexe I de l'arrêté du 20 mai 1999 du Gouvernement de la Région de Bruxelles-Capitale imposant l'avis du Service Incendie et d'Aide Médicale Urgente en Région de Bruxelles-Capitale pour certaines installations classées :
+
+| N° rubrique | Dénomination | Classe | Mot-clé |
+| --- | --- | --- | --- |
+| 41.1 | Centres de compostage d'une capacité : |  | Compostage/ Biométhanisation |
+|  | B supérieure à 1000 t/an | 1B |  |
+| 41.2 | Centres de biométhanisation | 1B |  |
+
+§ 3. Les rubriques n° 80 et n° 81 de l'annexe I de l'arrêté du 20 mai 1999 du Gouvernement de la Région de Bruxelles-Capitale imposant l'avis du Service Incendie et d'Aide Médicale Urgente en Région de Bruxelles-Capitale pour certaines installations classées sont supprimées.
+
+Article 5.3. Modification de l'arrêté du 17 décembre 2009 du Gouvernement de la Région de Bruxelles-Capitale fixant la liste des activités à risque
+
+§ 1. Les rubriques n° 22, n° 33, n° 45, n° 46 et n° 103 de l'annexe de l'arrêté du 17 décembre 2009 du Gouvernement de la Région de Bruxelles-Capitale fixant la liste des activités à risque sont remplacées respectivement par les rubriques suivantes :
+
+| N° rubrique | Dénomination | Classe | Mot-clé | Limitations |
+| --- | --- | --- | --- | --- |
+| 22.1 | Dépôts de boues dont la surface totale destinée au stockage sur le site est inférieure ou égale à 100 m² | 1C | Boues, terres excavées (dépôt) | Ne sont pas considérées comme activité à risque : les dépôts de et le traitement de boues et/ou de terres excavées ne dépassant pas les normes d'intervention |
+| 22.2 | Dépôts de boues et/ou de terres excavées dont la surface totale destinée au stockage sur le site est supérieure à 100 m² | 1B |  |  |
+| 22.3 | Installation de traitement, y compris la collecte, de boues et/ou de terres excavées |  | Boues, terres excavées (traitement) |  |
+|  | A inférieure ou égale à 1000 t/an | 2 |  |  |
+|  | B supérieure à 1000 à 1000 t/an | 1B |  |  |
+| 33 | Installations pour le nettoyage et le reconditionnement de fûts, conteneurs et citernes ayant contenu des substances dangereuses (substances caractérisées par une mention de danger "H" ) | 1B | Citernes (nettoyage) | Sont des activités à risque si les substances visées sont classées selon le règlement CLP comme présentant un risque ou un danger envers la santé autre que corrosif et irritant, ou envers l'environnement autre que pour la couche d'ozone* |
+| 41.2 | Centres de biométhanisation | 1B | Compostage/ Biométhanisation | Ne sont pas considérées comme activité à risque : les centres de biométhanisation ne traitant que des déchets ou des produits d'origine végétale |
+| 45.1 | Dépôts de déchets dangereux, à l'exception des dépôts repris à d'autres rubriques, dont la surface totale destinée au stockage sur le site est : |  | Déchets dangereux (dépôt) |  |
+|  | B supérieure à 5 m² | 1B |  |  |
+| 45.2 | Dépôts de déchets dangereux liquides dont le point d'éclair est inférieur à 21° C d'une capacité : |  | Déchets dangereux liquides inflammables (dépôt) | Sont exclusivement considérés comme activités à risque : les dépôts de déchets dangereux liquides inflammables si les substances visées sont classées selon le règlement CLP comme présentant un risque ou un danger envers la santé autre que corrosif et irritant, ou envers l'environnement autre que pour la couche d'ozone* |
+|  | B supérieure à 500 l | 1B |  |  |
+| 45.3 | Dépôts de déchets dangereux liquides à l'exception du dépôt repris à la rubrique 45.2 d'une capacité : |  | Déchets dangereux liquides (dépôt) | Sont exclusivement considérés comme activités à risque : les dépôts de déchets dangereux liquides de plus de 2000 litres et si les substances visées sont classées selon le règlement CLP comme présentant un risque ou un danger envers la santé autre que corrosif et irritant, ou envers l'environnement autre que pour la couche d'ozone* |
+|  | A comprise entre 100 et 5.000 l | 2 |  |  |
+|  | B supérieure à 5.000 l | 1B |  |  |
+| 46 | Installations ou équipements pour le traitement de déchets dangereux à l'exception des installations reprises à d'autres rubriques | 1B | Déchets dangereux (traitement) | Ne sont pas considérées comme des activités à risque : appareils de distillation de solvants usagés d'une capacité totale inférieure à 250 litres et destinés exclusivement au traitement des solvants provenant de l'établissement |
+| 47 | Dépôts de déchets non dangereux, à l'exception des dépôts repris à d'autres rubriques, dont la surface totale destinée au stockage sur le site est : |  | Déchets non dangereux (dépôt) | Ne sont pas considérés comme des activités à risque : les dépôts de déchets non dangereux inertes |
+|  | B supérieure à 2000 m² | 1B |  |  |
+| 103 | - Installations destinées à la production de métaux bruts non ferreux à partir de minerais ou de concentrés de minerais ou autre matériau (à l'exception de déchets) selon des procédés métallurgiques ou électrolytiques et dont la capacité est inférieure ou égale à 100.000 t/an de métaux bruts non ferreux;- Installations de calcination et de frittage de minerais métalliques | 1B | Minerais (traitement) |  |
+
+§ 2. La rubrique suivante est ajoutée à l'annexe de l'arrêté du 17 décembre 2009 du Gouvernement de la Région de Bruxelles-Capitale fixant la liste des activités à risque :
+
+| N° rubrique | Dénomination | Classe | Mot-clé | Limitations |
+| --- | --- | --- | --- | --- |
+| 51 | Installation de collecte de déchets, y compris le dépôt de ces déchets et à l'exception des installations reprises sous rubriques 44 et 220, d'une capacité : |  | Déchets (collecte) | Ne sont pas considérées comme activité à risque : les installations de collecte destinées exclusivement aux déchets non dangereux, déchets ménagers ou déchets d'équipements électriques et électroniques |
+|  | B supérieure à 1000 et jusqu' à 100.000 t/an | 1B |  |  |
+
+§ 3. Les rubriques n° 80 et n° 81 de l'annexe de l'arrêté du 17 décembre 2009 du Gouvernement de la Région de Bruxelles-Capitale fixant la liste des activités à risque sont supprimées.
+
+#### CHAPITRE 2 - Dispositions abrogatoires
+
+##### Section 1re - Abrogation partielle
+
+Article 5.4.
+
+Les articles 15 et 16 de l'arrêté du 21 novembre 2002 du Gouvernement de la Région de Bruxelles-Capitale relatif à l'incinération des déchets sont abrogés au jour de l'entrée en vigueur du présent arrêté.
+
+##### S ection 2 - Abrogation complète
+
+Article 5.5.
+
+Les arrêtés suivants sont abrogés à l'entrée en vigueur du présent arrêté :
+
+- l'arrêté de l'Exécutif de la Région de Bruxelles-Capitale du 19 septembre 1991 réglant l'élimination des déchets dangereux ;
+
+- l'arrêté de l'Exécutif de la Région de Bruxelles-Capitale du 19 septembre 1991 réglant l'élimination des huiles usagées ;
+
+- l'arrêté de l'Exécutif de la Région de Bruxelles-Capitale du 19 septembre 1991 réglant l'élimination des PCB ;
+
+- l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 7 juillet 1994 relatif à l'importation et à l'exportation internationale de déchets ;
+
+- l'arrêté ministériel du 15 septembre 1994 portant diverses mesures d'exécution de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 7 juillet 1994 relatif à l'importation et à l'exportation internationales de déchets ;
+
+- l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 21 juin 2012 relatif à l'enregistrement des collecteurs et des transporteurs de déchets non dangereux autres que ménagers ;
+
+- l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 21 juin 2012 déterminant les règles de mise en oeuvre de l'obligation de tri pour les détenteurs de déchets autres que ménagers.
+
+- l'arrêté du 18 juillet 2002 instaurant une obligation de reprise de certains déchets en vue de leur valorisation ou de leur élimination tel que modifié par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 15 Avril 2004, par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 3 Juin 2004, par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 23 Mars 2006, par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 23 Octobre 2008, par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 10 Décembre 2009 et par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 03 mars 2011, à l'exception de l' article 2 alinéa 4, 4°, des articles 3, 4 et 6, pour ce qui concerne les huiles et graisses alimentaires ménagères, qui sont abrogés à partir du 1 er janvier 2019;
+
+- l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 3 juin 2004 relatif aux gestionnaires de déchets d'équipements électriques et électroniques tel que modifié par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 28 octobre 2010 et par l'Arrêté du Gouvernement de la Région de Bruxelles-Capitale du 18 mars 2011;
+
+- l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 25 avril 2002 établissant la liste de déchets et de déchets dangereux ;
+
+Article 5.6.
+
+L'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 30 janvier 1997 relatif au registre de déchets est abrogé le 1 er janvier 2018.
+
+#### CHAPITRE 3 - Dispositions transitoires et finales
+
+##### Section 1re - Entrée en vigueur
+
+Article 5.7.
+
+§ 1 er Le présent arrêté entre en vigueur 10 jours après sa publication au Moniteur belge.
+
+§ 2. L'article 1.8 entre en vigueur le 1 er janvier 2018.
+
+§ 3. A l'exception de l'article 4.2.3 qui entre en vigueur 10 jours après la publication du présent arrêté au Moniteur belge, le titre IV, chapitre II entre en vigueur le 1 er janvier 2019.
+
+Article 5.8. Enregistrements et agréments actuels
+
+§ 1. La personne enregistrée en tant que transporteur de déchets non dangereux autres que ménagers conformément aux dispositions de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 21 juin 2012 relatif à l'enregistrement des collecteurs et des transporteurs de déchets non dangereux autres que ménagers est enregistrée de plein droit en tant que transporteur.
+
+§ 2. La personne enregistrée en tant que collecteur de déchets non dangereux autres que ménagers conformément aux dispositions de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 21 juin 2012 relatif à l'enregistrement des collecteurs et des transporteurs de déchets non dangereux autres que ménagers est enregistrée de plein droit en tant que collecteur, négociant ou courtier de déchets non dangereux.
+
+§ 3. Le titulaire d'un agrément délivré conformément aux dispositions :
+
+- de l'arrêté du 19 septembre 1991 de l'Exécutif de la Région de Bruxelles-Capitale réglant l'élimination des déchets dangereux ;
+
+- de l'arrêté du 19 septembre 1991 de l'Exécutif de la Région de Bruxelles-Capitale réglant l'élimination des huiles usagées ;
+
+- de l'arrêté du 19 septembre 1991 de l'Exécutif de la Région de Bruxelles-Capitale réglant l'élimination des PCB ;
+
+est agréé de plein droit en tant que collecteur, négociant ou courtier de déchets dangereux pour la durée précisée dans l'arrêté lui octroyant l'agrément.
+
+§ 4. La personne enregistrée visée aux paragraphes 1 à 2 et le titulaire de l'agrément visé au paragraphe 3 exercent leurs activités conformément au présent arrêté, nonobstant toute dispositions contraires dans leur enregistrement ou leur agrément.
+
+§ 5. Le titulaire de l'agrément obtenu en vertu de l'arrêté du 3 juin 2004 du Gouvernement de la Région de Bruxelles-Capitale relatif aux gestionnaires de déchets d'équipements électriques et électroniques transmet à l'Institut le formulaire de l'annexe 9 dûment complété.
+
+Article 5.9.
+
+Le producteur qui n'exécute pas ses obligations découlant de la responsabilité élargie du producteur via un organisme agréé ou via une convention environnementale est tenu d'introduire son premier plan de prévention et de gestion visé à l'article 2.2.9 dans un délai d'un mois à dater de l'entrée en vigueur de la responsabilité élargie du producteur auquel il est soumis en vertu de l'article 2.1.1.
+
+##### Section 2 - Disposition finale
+
+Article 5.10.
+
+Le Ministre qui a l'Environnement dans ses attributions est chargé de l'exécution du présent arrêté.
+
+Bruxelles, le 1 er décembre 2016.
+
+Pour le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Ministre-Président,
+
+R. VERVOORT
+
+La Ministre du Gouvernement de la Région de Bruxelles-Capitale, chargée de l'Environnement,
+
+Mme C. FREMAULT
+
+### ANNEXES
+
+Annexe 1 : Liste indicative des EEE relevant des catégories énumérées à l'article 2.4.46 §2
+
+Annexe 2 : Liste non exhaustive d'EEE relevant des catégories énumérées à l'article 2.4.46 §3
+
+Annexe 3 : Symbole pour le marquage des EEE
+
+Annexe 4 : De la préparation en vue du réemploi et du réemploi
+
+------------
+
+- remplacé par l'annexe 1 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 5 : Exigences procédurales relatives à l'enregistrement visé à l'article 2.4.12
+
+Annexe 6 : Formulaire d'enregistrement transporteur de déchets
+
+------------
+
+- remplacé par l'annexe 2 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 7 : Formulaire d'enregistrement collecteur, négociant et courtier en déchets non dangereux
+
+------------
+
+- remplacé par l'annexe 3 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 8 : Formulaire d'agrément collecteur, négociant et courtier en déchets dangereux
+
+------------
+
+- remplacé par l'annexe 4 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 9 : Annexe au formulaire de demande de permis d'environnement pour une installation de collecte et de traitement de déchets
+
+------------
+
+- remplacé par l'annexe 5 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 10 : Annexe au formulaire de demande de permis d'environnement pour une installation de la rubrique 178 pour l'utilisation de matériaux valorisables
+
+Annexe 11 : Du facteur de correction climatique visé a l'article 3.8.1
+
+Annexe 12 : Exigences portant sur le caractère réemployable d'un emballage
+
+Annexe 13 : Déclaration dans le régime de la taxe sur l'incinération des déchets dans la Région de Bruxelles-Capitale
+
+Annexe 14 : Déclaration dans le régime de la taxe des déchets collectés en Région de Bruxelles-Capitale incinérés hors de la Région
+
+Annexe 15 : Inventaire des déchets pris en considération pour le calcul de la taxe à l'incinération de l'art. 41 de l'ord. 14.06.2012 relative aux déchets et leurs caractéristiques statistiques
+
+Annexe 16 : Méthode de calcul de la taxe à l'incinération de l'article 41 de l'Ordonnance du 14 juin 2012 relative aux déchets
+
+------------
+
+- remplacé par l'annexe 6 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 17 : Déclaration dans le régime de la taxe sur les déchets collectés de manière non sélective par l'Agence
+
+Annexe 18 : Conditionnements des déchets de soins à risque
+
+------------
+
+- inséré par l'annexe 7 de l'arrêté du 23.06.2022 (M.B. 29.07.2022). Entrée en vigueur le 08.08.2022
+
+Annexe 19 : Contenu minimum pour la déclaration de conformité
+
+------------
+
+- inséré par l'annexe 1 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Annexe 20 : Contenu minimum pour la demande d'enregistrement en tant qu'exploitant enregistré d'un concasseur pour la production de granulats recyclés et pour la demande de permis d'environnement pour l'exploitation d'un concasseur autorisé pour la production de granulats recyclés
+
+------------
+
+- inséré par l'annexe 2 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Annexe 21 : Contenu minimum pour la demande d'enregistrement en tant qu'organisme de gestion enregistré des granulats recyclés (1) ou terres (2)
+
+------------
+
+- inséré par l'annexe 3 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)
+
+Annexe 22 : Normes pour l'utilisation de granulats recyclés selon l'article 4.8.1 § 1
+
+------------
+
+- inséré par l'annexe 4 de l'arrêté du 24.10.2024 (M.B. 13.02.2025). Entrée en vigueur le 01.08.2025 (art. 8)

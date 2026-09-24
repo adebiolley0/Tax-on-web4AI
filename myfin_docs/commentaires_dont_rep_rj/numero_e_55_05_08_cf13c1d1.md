@@ -1,0 +1,73 @@
+---
+guid: "cf13c1d1-3b7b-4766-957c-31be1cb0b0a2"
+title: "Numéro E 55/05-08"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2005-02-10"
+publication_date: "2005-10-01"
+effective_date: null
+last_modified: "2021-09-22"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "e2844410-48cb-46d7-a85d-218a79d9dc1e"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/cf13c1d1-3b7b-4766-957c-31be1cb0b0a2"
+---
+
+# Numéro E 55/05-08
+
+Numéro E 55/05-08
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+Numéro E 55/05-08
+
+05. – Revenu cadastral - Modification.
+
+08. - Les demandeurs ont acquis, par acte authentique du 29 janvier 1999, la pleine propriété d'une maison d'habitation.
+
+Au vu des déclarations faites par les demandeurs au pied de l'acte authentique et compte tenu de l'extrait de la matrice cadastrale du bien vendu qui y était annexé, l'acte a été enregistré au taux réduit de 6 %, conformément à l' article 53, 2°, C. enr .
+
+L'extrait de la matrice cadastrale, délivré au vendeur par l'administration du cadastre le 25 novembre 1998, se fondait sur la situation au 1 er janvier 1998 et indiquait un revenu cadastral de 572,63 EUR (23.100 BEF ), soit un montant inférieur au maximum autorisé par le Roi en exécution de l' article 53, 2°, précité , du C. enr.
+
+Le 24 mars 1999, à la demande de l'administration du cadastre, le vendeur, qui était encore inscrit en qualité de propriétaire à la matrice cadastrale au 1 er janvier 1999, a complété une déclaration de transformation de la maison comme prescrit par l' article 473 du Code des impôts sur les revenus 1992 (CIR 92) .
+
+C'est à la lumière de cette déclaration, mentionnant l'existence de « transformations antérieures à l'acquisition en 1991 », que l'administration du cadastre a procédé à la réévaluation du revenu cadastral sur pied de l' article 494 CIR 92 et a notifié au vendeur le revenu cadastral attribué à la maison concernée à compter du 1 er janvier 1999, d'un montant de 877,54 EUR (35.400 BEF ).
+
+Aucune réclamation n'a été introduite contre ce nouveau revenu cadastral.
+
+Par lettre recommandée, l'administration de l'enregistrement a averti les demandeurs que le revenu (cadastral) de 23.100 BEF ne correspond pas à la situation réelle du bien à la date d'acquisition, qu'eu égard au revenu cadastral de 35.400 BEF fixé au 1 er janvier 1999, ils ont bénéficié à tort du tarif réduit propre à la vente d'habitations modestes, qu'ils auraient dû supporter le droit de vente au taux plein de 12,5 % et qu'ils sont en conséquence redevables d'un droit de vente supplémentaire.
+
+Par une requête contradictoire, le tribunal de céans a été saisi d'une demande de dire pour droit que le droit de vente ordinaire de 12,5 % ne s'appliquait pas en l'espèce.
+
+Il n'est pas contesté que la maison d'habitation concernée a fait l'objet de transformations qui justifiaient la révision du revenu cadastral sur pied de l' article 494, § 1 er , 2° CIR 92 et que l'administration n'a pas été avisée de l'achèvement de ces travaux en temps voulu.
+
+Les parties ne contestent pas davantage qu'il y a lieu d'apprécier le respect du plafond prescrit par l' article 53, 2°, C. enr . à la date de l'acquisition de la maison.
+
+En revanche, les parties ne s'accordent pas sur le montant du revenu cadastral à prendre en considération dans cette perspective : les demandeurs s'en tiennent au revenu cadastral tel qu'il ressortait de l'extrait de la matrice cadastrale joint à l'acte, alors que le défendeur se réfère au revenu cadastral après révision, dont le montant refléterait fidèlement l'état de la maison à la date de l'acquisition.
+
+Les demandeurs invoquent principalement à l'appui de leur thèse « qu'aucun texte légal ne permet à l'administration fiscale d'appliquer un nouveau revenu cadastral avec effet rétroactif, ainsi que l'a confirmé la C our d'appel de Mons dans son arrêt du 24.05.1991 (…R.G.E.N. n° 24.103…) ».
+
+C'est toutefois perdre de vue que, depuis une loi du 19 juillet 1979, l' article 494, § 5, alinéa 1 er , CIR 92, issu de l' article 383, § 5, alinéa 1 er , CIR (1964) , dispose que « les revenus cadastraux résultant d'une réévaluation sont censés exister à partir du premier jour du mois qui suit l'événement dont la déclaration est prescrite par l' article 473 (…) ».
+
+La C our d'appel de Mons l'a d'ailleurs fait observer elle-même dans l'arrêt auquel les demandeurs se réfèrent, en soulignant que, dans le cas d'espèce qui lui était soumis, « l' article 383, § 5 , [CIR (1964)] n'était pas d'application, en ses termes actuels, lorsque l'administration a procédé à la réévaluation du revenu cadastral qui est à l'origine du présent litige (. . .) », ce qui l'a déterminé à conclure qu'à l'époque, « aucun texte précis n'autoris (ait) l'interprétation de l'administration et la rétroactivité qu'elle invoque » (Mons, 24 mai 1991, Rec. gén. enr. not. , n° 24.103, spéc. p. 221).
+
+Dans le présent litige, les transformations qui ont justifié la réévaluation du revenu cadastral étaient bien antérieures à l'année de l'achat, de sorte que le revenu cadastral réévalué en fonction de ces transformations était légalement présumé exister au 1 er janvier 1999, et d'ailleurs bien avant déjà, en vertu de l' article 494, § 5, alinéa 1 er , CIR 92.
+
+Le fait que l'administration du cadastre ait notifié le nouveau revenu cadastral au vendeur, plutôt qu'aux demandeurs, s'explique par le fait que le tiers vendeur était encore le propriétaire inscrit à la matrice cadastrale au 1 er janvier 1999 et reste dès lors sans incidence sur la mise en œuvre de la présomption légale de l' article 494, § 5, alinéa 1 er , précité.
+
+C'est en conséquence à bon droit que le défendeur a réclamé aux demandeurs le droit de vente au taux plein de 12,5 %, puisque le revenu cadastral réévalué, censé exister au moment de l'acquisition, dépassait le maximum autorisé par le Roi en vertu de l' article 53, 2°, C. enr .
+
+Les demandeurs invoquent encore les principes généraux de bonne administration, qui comprennent notamment le droit à la sécurité juridique.
+
+En vertu de ces principes, le contribuable doit pouvoir se fier à ce qu'il ne peut concevoir autrement que comme règle de conduite ou de politique établie de l'autorité et les attentes légitimes du contribuable suscitées par l'autorité doivent en principe être honorées.
+
+Dans la présente espèce, toutefois, les demandeurs n'ont pu être trompés sur la portée des dispositions légales et réglementaires rappelées ci-dessus, qui sont d'ordre public.
+
+La confiance des demandeurs n'a pu légitimement se fonder sur le seul extrait de la matrice cadastrale joint à l'acte de vente, alors que cet extrait avait été notifié au vendeur et que les demandeurs ne s'étaient pas fait confirmer par celui-ci que le revenu cadastral ainsi notifié reflétait bien l'état de la maison au 1 er janvier 1998. L'extrait du 25 novembre 1998 indiquait en outre, à l'intention du tiers vendeur, qui - à l'inverse de l'administration - n'ignorait pas l'existence des transformations effectuées avant 1991, qu'il se pourrait notamment que le revenu cadastral mentionné dans l'extrait ne tienne pas compte de modifications récentes apportées au bien.
+
+( Jugement du tribunal de première instance de Bruxelles du 08.03.2002, confirmé par l' arrêt de la Cour d'appel de Bruxelles du 10.02.2005 - EE/97.813 )
+
+----------
+
+Date de publication : OCTOBRE 2005

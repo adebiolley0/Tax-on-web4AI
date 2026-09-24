@@ -1,0 +1,745 @@
+---
+guid: "df926219-67d6-433e-aa79-152e969ab9b8"
+title: "23.05.2024 - Arrêté du Gouvernement wallon relatif aux aides à l'investissement en faveur des grandes entreprises (...)"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2024-05-23"
+publication_date: "2024-10-17"
+effective_date: "2025-01-01"
+last_modified: "2026-01-23"
+taxonomies: ["Législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région wallonne", "Législation et réglementation"]
+linked_document_nl: "581007dc-952d-4c11-83a6-a5bf2bbcaf11"
+found_via: "18b075e8-cf19-44e2-838b-817735120208"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/df926219-67d6-433e-aa79-152e969ab9b8"
+---
+
+# 23.05.2024 - Arrêté du Gouvernement wallon relatif aux aides à l'investissement en faveur des grandes entreprises (...)
+
+23.05.2024 - Arrêté du Gouvernement wallon relatif aux aides à l'investissement en faveur des grandes entreprises (...)
+
+23.05.2024 - Arrêté du Gouvernement wallon relatif aux aides à l'investissement en faveur des grandes entreprises et abrogeant l'arrêté du Gouvernement wallon du 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises
+
+(M.B. 17.10.2024 – Numac : 2024009619 )
+
+(Version coordonnée officieuse)
+
+Dernière mise à jour le 10.07.2025 . Pour consulter la mise à jour, voir ici .
+
+Le Gouvernement wallon,
+
+Vu le règlement (UE) n° 651/2014 de la Commission du 17 juin 2014 déclarant certaines catégories d'aides compatibles avec le marché intérieur en application des articles 107 et 108 du traité ;
+
+Vu le décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises, l'article 1er, les articles 2, alinéa 2, 3, § 1er et § 3, 4, alinéas 2 et 3, 5 et 6, modifiés par le décret du 25 avril 2024, l'article 7, remplacé par le décret du 25 avril 2024, l'article 8, modifié par le décret du 25 avril 2024, les articles 9, 11, 12, 15, 17 et 18, modifiés par le décret du 25 avril 2024, l'article 19, remplacé par le décret du 25 avril 2024, les articles 19/1 et 19/3, insérés par le décret du 25 avril 2024, et l'article 20, remplacé par le décret du 25 avril 2024 ;
+
+Vu l'arrêté du Gouvernement wallon 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises ;
+
+Vu l'avis de l'Inspecteur des Finances, donné le 30 novembre 2023 ;
+
+Vu l'accord du Ministre du Budget, donné le 7 décembre 2023 ;
+
+Vu le rapport du 24 novembre 2023 établi conformément à l'article 3, 2°, du décret du 11 avril 2014 visant à la mise en oeuvre des résolutions de la Conférence des Nations unies sur les femmes à Pékin de septembre 1995 et intégrant la dimension du genre dans l'ensemble des politiques régionales ;
+
+Vu l'avis standard n° 65/2023 du 24 mars 2023 de l'Autorité de protection des données, auquel l'Autorité renvoie par décision du 19 janvier 2024 dans le dossier CO-A-2023-581 cm ;
+
+Vu l'avis n° 1581 du Conseil économique, social et environnemental de Wallonie, donné le 6 février 2024 ;
+
+Vu la demande d'avis au Conseil d'Etat dans un délai de 30 jours, en application de l'article 84, § 1 er, alinéa 1er, 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973 ;
+
+Considérant que la demande d'avis a été inscrite le 25 avril 2024 au rôle de la section de législation du Conseil d'Etat sous le numéro 76.261/2 ;
+
+Vu la décision de la section de législation du 29 avril 2024 de ne pas donner d'avis dans le délai demandé, en application de l'article 84, § 5, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973 ;
+
+Sur la proposition du Ministre de l'Economie ;
+
+Après délibération,
+
+Arrête :
+
+#### CHAPITRE 1 er - Champ d'application et définitions
+
+Article 1 er
+
+Les incitants octroyés en vertu du décret du 11 mars 2004 visé à l'article 2, 7°, et en vertu du présent arrêté sont conformes au Règlement (UE) no 651/2014 de la Commission du 17 juin 2014 visé à l'article 2, 14°.
+
+Les incitants octroyés en vertu du décret du 11 mars 2004 visé à l'article 2, 7°, et en vertu du présent arrêté le sont conformément à l'arrêté du Gouvernement wallon du 1er décembre 2022 visé à l'article 2, 2°.
+
+Article 2
+
+Pour l'application du présent arrêté, l'on entend par :
+
+1° l'administration : le Service public de Wallonie Economie, Emploi, Recherche ;
+
+2° l'arrêté du Gouvernement wallon du 1er décembre 2022 : l'arrêté du Gouvernement wallon du 1er décembre 2022 déterminant les zones de développement et les plafonds d'aides à finalité régionale pour la période 2022-2027 ;
+
+3° le Code NACE-BEL : la nomenclature d'activités économiques élaborée par l'Institut national des Statistiques (NACE-BEL 2008) dans un cadre européen harmonisé, imposé par le règlement (CEE) n° 3037/90 du 9 octobre 1990 du Conseil relatif à la nomenclature statistique des activités économiques dans la Communauté européenne ;
+
+4° la création d'emploi : l'emploi supplémentaire créé par rapport à l'effectif d'emploi visé au 8°, sauf si l'entreprise est soumise à un objectif d'emploi plus élevé dans le cadre d'un dossier précédent auquel cas cet objectif d'emploi est pris comme effectif d'emploi ;
+
+5° la création d'entreprise : la première implantation d'une entreprise ou d'une unité d'établissement sur le territoire de la Région wallonne ;
+
+6° le début des travaux : soit le début des travaux de construction liés à l'investissement, soit le premier engagement juridiquement contraignant de commande d'équipement ou tout autre engagement rendant l'investissement irréversible, selon l'événement qui se produit en premier ;
+
+7° le décret du 11 mars 2004 : le décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises ;
+
+8° l'effectif d'emploi : la moyenne annuelle du nombre de travailleurs occupés dans les liens d'un contrat de travail dans l'unité d'établissement ou dans l'ensemble des unités d'établissement concerné par la demande correspondant au nombre d'unités de travail (UTA), calculée sur base des déclarations multifonctionnelles à la Banque-Carrefour de la Sécurité Sociale des quatre trimestres précédant l'introduction de la demande ;
+
+9° l'entreprise : la grande entreprise telle que visée à l'article 3, § 2, du décret du 11 mars 2004 ;
+
+10° l'exonération du précompte immobilier : l'incitant tel que visé à l'article 8 du décret du 11 mars 2004 ;
+
+11° le fonctionnaire délégué : le directeur général, un inspecteur général, un directeur, un premier attaché ou un attaché de l'administration, délégué sur la base de l'article 3 de l'arrêté du Gouvernement wallon du 23 mai 2019 relatif aux délégations de pouvoirs au Service public de Wallonie, sans préjudice des articles 4 et 5 dudit arrêté ;
+
+12° le Ministre : le Ministre qui a l'économie dans ses attributions ;
+
+13° la prime à l'investissement : l'incitant tel que visé à l'article 6 du décret du 11 mars 2004 ;
+
+14° le règlement (UE) n° 651/2014 du 17 juin 2014 : le règlement (UE) n° 651/2014 de la commission du 17 juin 2014 déclarant certaines catégories d'aides compatibles avec le marché intérieur en application des articles 107 et 108 du traité ;
+
+15° (…) ;
+
+16° l'unité d'établissement : l'unité d'établissement telle que visée à l'article I.2, 16°, du Livre Ier, du Code de droit économique ;
+
+17° les zones de développement : les zones de développement définies, en vertu de l'article 3, § 1er, alinéa 2, du décret du 11 mars 2004 et visées aux articles 1er et 2 de l'arrêté du Gouvernement wallon du 1er décembre 2022 ;
+
+Le Ministre peut préciser les notions visées à l'alinéa 1er.
+
+----------
+
+- Al. 1 er , 15° abrogé par l’art. 1 er de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 3
+
+L'administration est responsable du traitement des données au sens de l'article 19/1 du décret du 11 mars 2004.
+
+#### CHAPITRE 2 - Dispositions relatives à l'introduction de la demande de prime à l'investissement
+
+Article 4
+
+L'entreprise introduit une demande de prime à l'investissement auprès de l'administration avant le début des travaux liés au programme d'investissement.
+
+La demande de prime, dont le modèle est déterminé par l'administration, contient, au moins, les informations suivantes :
+
+1° le nom et la taille de l'entreprise ;
+
+2° une description du programme d'investissement, en ce compris ses dates de début et de fin ;
+
+3° la localisation du programme d'investissement ;
+
+4° la liste des coûts du programme d'investissement ;
+
+5° le type d'aide et le montant du financement public nécessaire pour réaliser le programme d'investissement.
+
+L'administration accuse réception de la demande de prime dans les quinze jours de la réception de la demande et fixe la date de prise en considération du programme d'investissements qui correspond à la date d'envoi de la demande.
+
+Dans un délai de six mois à compter de la date de la réception de l'accusé de réception visée à l'alinéa 3, l'entreprise introduit auprès de l'administration un dossier sur base d'un formulaire type que l'administration détermine.
+
+Le Ministre ou le fonctionnaire délégué peut, sur demande préalable de l'entreprise et pour des raisons dûment justifiées, augmenter le délai visé à l'alinéa 4.
+
+Dans le cas où l'administration peut obtenir auprès des sources authentiques les données nécessaires à l'examen de la demande, l'entreprise est dispensée de les transmettre à l'administration.
+
+Article 5
+
+L'administration peut adresser à l'entreprise, dans un délai de deux mois à compter de la date de réception du dossier, une demande relative aux renseignements manquants à l'entreprise en lui accordant un délai d'un mois afin de compléter son dossier ou notifie à l'entreprise la complétude du dossier.
+
+Si l'entreprise n'a pas transmis, dans le mois visé à l'alinéa 1er, les renseignements sollicités par l'administration, un envoi permettant de conférer date certaine lui est adressé lui octroyant un nouveau délai d'un mois. Passé ce délai, le Ministre ou le fonctionnaire délégué prend une décision de refus de l'octroi de la prime à l'investissement. L'administration notifie cette décision à l'entreprise, par toute modalité conférant date certaine à l'envoi.
+
+Article 6
+
+Avant toute décision d'octroi de la prime à l'investissement et sur demande justifiée de l'entreprise, le Ministre ou le fonctionnaire délégué peut accepter des investissements complémentaires au programme d'investissements ou autoriser une modification du programme d'investissements admis si le montant de ces investissements ou de cette modification est inférieur ou égal à vingt pour cent du montant des investissements présentés lors de la première demande de prime.
+
+Article 7
+
+Dans les quatre mois qui suivent, selon le cas, soit la réception du dossier visée à l'article 4, alinéa 4, soit des renseignements manquants visés à l'article 5, alinéa 2, soit de la nouvelle situation financière visée à l'article 8, § 2, le Ministre ou le fonctionnaire délégué prend une décision d'octroi ou de refus de la prime à l'investissement. S'il s'agit d'une décision d'octroi, celle-ci est matérialisée par une convention. S'il s'agit d'une décision de refus, l'administration notifie la décision à l'entreprise par toute modalité conférant date certaine à l'envoi.
+
+#### CHAPITRE 3 - Conditions d'octroi de l'aide à l'investissement
+
+##### Section 1 ère - Dispositions relatives à la recevabilité et à l'admissibilité des demandes d'aides
+
+###### Sous-section 1 ère - Recevabilité du demandeur
+
+Article 8
+
+§ 1er. L'entreprise qui sollicite le bénéfice de la prime à l'investissement remplit les conditions suivantes :
+
+1° attester par une déclaration sur l'honneur du responsable de l'entreprise que l'entreprise respecte les conditions visées à l'article 10 du décret du 11 mars 2004 ;
+
+2° attester par une déclaration sur l'honneur du responsable de l'entreprise que l'entreprise assure un minimum de vingt-cinq pour cent du financement du programme d'investissements sans faire l'objet d'aucun soutien public ;
+
+3° ne pas être une entreprise en difficulté au sens de l'article 2, point 18, du règlement (UE) n° 651/2014 du 17 juin 2014 ;
+
+4° ne pas faire l'objet d'une injonction de récupération conformément à l'article 1er, paragraphe 4, 4., a), du règlement (UE) n° 651/2014 du 17 juin 2014 ;
+
+5° disposer d'un Passeport Entreprise, conformément à l'article 6 du décret du 30 novembre 2023 portant création d'un Passeport Entreprise déterminant la qualification des entreprises ;
+
+6° introduire une demande de prime avant le début des travaux liés au programme d'investissement selon les modalités visées à l'article 4 ;
+
+7° ne pas avoir cessé une activité identique ou similaire dans l'espace économique européen dans les deux ans qui précèdent la demande de prime ou, au moment de l'introduction de la demande de prime, ne pas envisager concrètement de cesser une telle activité dans les deux ans suivant l'achèvement du programme d'investissement ;
+
+8° présenter des investissements admis pour un montant de minimum 1.000.000 euros ;
+
+9° (…) ;
+
+10° assurer le maintien ou la création d'emplois.
+
+En complément des critères définis à l'alinéa 1er, pour l'entreprise située en zone de développement visée à l'article 2 de l'arrêté du Gouvernement wallon du 1er décembre 2022, l'entreprise réalise un programme d'investissement en faveur d'une nouvelle activité économique, tel que définie à l'article 2, 51., du règlement (UE) n° 651/2014 du 17 juin 2014.
+
+En complément des critères définis à l'alinéa 1er, pour l'entreprise située en zone de développement visée à l'article 1er de l'arrêté du Gouvernement wallon du 1er décembre 2022, l'entreprise réalise un programme d'investissement en faveur d'un investissement initial tel que défini à l'article 2, 49., du règlement (UE) n° 651/2014 du 17 juin 2014.
+
+Pour l'application de l'alinéas 1er, 1° et 2°, l'administration peut inviter l'entreprise à produire les documents et les preuves nécessaires lorsque le dossier est reconnu éligible au terme de la réglementation.
+
+Pour l'application de l'alinéa 1er, 7°, l'on entend par l'activité identique ou similaire, toute activité relevant de la même catégorie soit le code à quatre chiffres du Code NACE-BEL.
+
+(…)
+
+§ 2. Si l'entreprise ne respecte pas la condition visée au paragraphe 1er, alinéa 1er, 3°, le Ministre ou le fonctionnaire délégué prend une décision de suspension de la prime. L'administration notifie cette décision à l'entreprise par toute modalité conférant date certaine à l'envoi.
+
+La décision de suspension commence à courir à dater de sa notification à l'entreprise et prend fin à dater de la réception par l'administration d'une nouvelle situation financière portant sur l'un des deux exercices comptables subséquents d'où il ressort que l'entreprise satisfait à la condition susmentionnée.
+
+Si l'entreprise ne produit pas une nouvelle situation financière répondant à la condition prévue au paragraphe 1er, alinéa 1er, 3°, dans un délai de vingt-quatre mois prenant cours à dater de la décision de suspension visée à l'alinéa 1er, le Ministre ou le fonctionnaire délégué prend une décision de refus de la prime à l'investissement. L'administration notifie cette décision par toute modalité conférant date certaine à l'envoi.
+
+----------
+
+- al. 1 er , 9° et al. 6 abrogés par l’art. 2 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 9
+
+Le Ministre peut octroyer une prime à l'investissement à l'entreprise :
+
+1° qui remplit les conditions visées à l'article 3, §§ 1er et 2, du décret du 11 mars 2004, telles que précisées à l'article 4 ;
+
+2° dont les activités ne relèvent pas de secteurs ou parties de secteurs exclus visés à l'article 4 du décret du 11 mars 2004, telles que précisées à l'article 10 ;
+
+3° remplissant les conditions visées à l'article 8 ;
+
+4° présentant un programme d'investissements visé à l'article 5, § 1er, du décret du 11 mars 2004 :
+
+a) qui n'est pas exclu conformément à l'article 10 ;
+
+b) poursuivant un des objectifs visés à l'article 5, § 1er, 1°, du décret du 11 mars 2004 ;
+
+5° qui a une cotation minimale de trente pour cent suivant les grilles reprises à l'article 12.
+
+6° qui répond à minimum deux catégories de critères visés dans la grille d'évaluation reprise à l'annexe.
+
+----------
+
+- 6° inséré par l’art. 3 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 10
+
+L'entreprise et le programme d'investissements afférents aux domaines d'activités exclus du bénéfice de la prime en vertu de l'article 4 du décret du 11 mars 2004 sont précisés par rapport aux secteurs ou aux parties de secteurs repris aux divisions, classes et sous-classes suivantes :
+
+1° 01.1 à 01.6 du Code NACE-BEL sauf, pour le code NACE_BEL 01.6, si l'entreprise n'a pas accès aux aides régionales à l'agriculture et si le programme d'investissement n'est pas subsidié par les aides régionales à l'agriculture ;
+
+2° 03. du Code NACE-BEL ;
+
+3° 05.100 à 06.200 du Code NACE-BEL ;
+
+4° 07.210 du Code NACE-BEL ;
+
+5° 08.920 du Code NACE-BEL ;
+
+6° 09.100 du Code NACE-BEL ;
+
+7° 09.900 du Code NACE-BEL pour les services de soutien exécutés pour le compte de tiers liés à l'extraction de houille et de lignite ;
+
+8° 12.00 du Code NACE-BEL ;
+
+9° 19.200 du Code NACE-BEL pour la fabrication de briquettes de tourbe et la fabrication de briquettes de houille et de lignite ;
+
+10° 20.130 du Code NACE-BEL pour l'enrichissement de minerais d'uranium et de thorium ;
+
+11° 24.46 du Code NACE-BEL ;
+
+12° (…) ;
+
+13° 35 à 36 du Code NACE-BEL ;
+
+14° 38.12 du Code NACE-BEL pour la collecte de déchets nucléaires ;
+
+15° 38.222 du Code NACE-BEL pour le traitement, l'élimination et le stockage de déchets radioactifs nucléaires sauf s'il s'agit de traitement et d'élimination de déchets radioactifs transitoires des hôpitaux, c'est-à-dire qui se dégradent au cours du transport ;
+
+16° 41.1 et les activités immobilières reprises au Code 42 du Code NACE-BEL ;
+
+17° 45.11 à 45.40 du Code NACE-BEL ;
+
+18° 46.11 à 46.19 du Code NACE-BEL ;
+
+19° 46.215 du Code NACE-BEL ;
+
+20° 46.350 du Code NACE-BEL ;
+
+21° 47 du Code NACE-BEL ;
+
+22° 49.10 à 49.41 du Code NACE-BEL ;
+
+23° 50.10 à 51.22 du Code NACE-BEL ;
+
+24° 52.21 du Code NACE-BEL pour l'exploitation d'aires de stationnement, de parcs à voitures ou à vélos ;
+
+25° 53.10 du Code NACE-BEL ;
+
+26° 55 à 56.3 du Code NACE-BEL ;
+
+27° 59, à l'exception des classes 59.11 et 59.12 et des sous-classes 59.202, 59.203 et 59.209, du Code NACE-BEL ;
+
+28° 60 du Code NACE-BEL ;
+
+29° 63.9 du Code NACE-BEL ;
+
+30° 64 à 68 du Code NACE-BEL ;
+
+31° 69 du Code NACE-BEL ;
+
+32° 70.00 du Code NACE-BEL ;
+
+33° 71.11 du Code NACE-BEL ;
+
+34° 71.122 du Code NACE-BEL ;
+
+35° 74.202 du Code NACE-BEL ;
+
+36° 74.9 du Code NACE BEL ;
+
+37° 75 du Code NACE-BEL ;
+
+38° 77 du Code NACE-BEL ;
+
+39° 79 du Code NACE-BEL ;
+
+40° 81.100 du Code NACE-BEL ;
+
+41° 82.00 du Code NACE-BEL, à l'exception des sous-classes 82.20 et du 82.92, du Code NACE-BEL ;
+
+42° 85 à 88 du Code NACE-BEL, ainsi que les activités qui consistent en la délivrance de cours de formation ;
+
+43° 90 à 93, à l'exception des sous-classes 91.041, 91.042 et 93.212, du Code NACE-BEL ainsi que des exploitations de curiosités touristiques ;
+
+44° 94 à 98, à l'exception de la sous-classe 96.011, du Code NACE-BEL ;
+
+45° (…) ;
+
+46° le secteur de la sidérurgie tel que défini à l'article 2, point 43, du règlement (UE) 651/2014 du 17 juin 2014 ;
+
+47° le secteur de la construction navale ;
+
+48° la grande distribution.
+
+Pour l'application de l'alinéa 1er, 1°, l'on entend par :
+
+1° « les produits agricoles » : les produits, à l'exclusion des produits de la pêche, énumérés à l'annexe I du Traité sur le fonctionnement de l'Union européenne, et le coton ;
+
+2° « les investissements qui ne sont pas subsidiés par des aides régionales agricoles » : les investissements qui ne sont pas repris dans la liste des investissements agricoles admissibles repris dans l'arrêté ministériel du 23 février 2023 exécutant l'arrêté du Gouvernement wallon du 23 février 2023 relatif aux aides à l'installation et aux investissements concernant les secteurs agricole et horticole, ainsi que les coopératives et autres entreprises dans la transformation et commercialisation dans le secteur agro-alimentaire et dans la première transformation et commercialisation dans le secteur sylvicole tel qui est en vigueur au 1er juillet 2025.
+
+Le Ministre peut préciser le contenu des divisions, des classes ou des sous-classes exclus ainsi que les notions visées à l'alinéa 1er et les modalités pour déterminer la proportion du chiffre d'affaires permettant d'exclure les activités inéligibles lorsque l'entreprise exercice plusieurs activités dont l'une peut être éligible et d'autres inéligibles.
+
+La référence au Code NACE-BEL constitue une présomption d'appartenance de l'entreprise ou de son programme d'investissements aux domaines d'activités. L'entreprise peut établir que le Code NACE-BEL qui lui est attribué ne correspond pas à son domaine d'activités ou au programme d'investissements projeté et qu'elle a effectué auprès de la Banque-Carrefour des Entreprises des démarches en vue de se voir attribuer un ou plusieurs autres Codes.
+
+----------
+
+- al. 1 er , 1° et 26° et al. 2 remplacés et al. 1 er , 12° et 45° abrogés par l’art. 4 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+###### Sous-section 2 - Les investissements admissibles
+
+Article 11
+
+§ 1er. Sont admis les investissements à leur valeur d'achat hors taxe sur la valeur ajoutée portés en immobilisé :
+
+1° portant sur :
+
+a) des immeubles et leurs frais accessoires, à l'exception des terrains, qui figurent à l'actif du bilan dans la rubrique « immobilisés » ou ceux qui figurent à l'actif du bilan d'une société patrimoniale ;
+
+b) la construction de bâtiments ainsi que l'acquisition de bâtiments au sens de l'article 2, 49., b), ou 51., b), du règlement (UE) n° 651/2014 du 17 juin 2014 qui n'ont pas fait l'objet d'une prime antérieurement ;
+
+c) du matériel acquis à l'état neuf et aux frais accessoires y afférents à l'exception des frais d'établissement ;
+
+d) des dépenses liées au transfert de technologie sous forme d'acquisition, de dépôt ou de maintien de brevets, de licences d'exploitation ou de connaissances techniques brevetées, à l'exception des licences informatiques ou de connaissances techniques non-brevetées ;
+
+2° excédant d'au moins deux cents pour cent de la valeur comptable des actifs réutilisés telle qu'enregistrée au cours de l'exercice précédent le début des travaux, s'il s'agit de la diversification des activités de l'entreprise ;
+
+3° s'élevant, à l'exception de l'entreprise qui n'a pas clôturé trois exercices comptables au moment de l'introduction de la demande, à cent pour cent de la moyenne des amortissements, éventuellement recalculés sur le mode linéaire au taux normal, des trois exercices comptables clôturés précédant l'introduction de la demande.
+
+La société patrimoniale visée à l'alinéa 1er, 1°, a), se définit comme la société qui :
+
+a) met à disposition des immeubles à des sociétés d'exploitation liées, au sens prévu par la définition de la petite ou moyenne entreprise reprise à l'annexe I du Règlement (UE) n° 651/2014 du 17 juin 2014 ;
+
+b) dispose d'une unité d'établissement sur le même site qu'une de ses sociétés d'exploitation, sur le territoire de la Région wallonne ;
+
+c) détient exclusivement le patrimoine des sociétés d'exploitation liées et n'exerce que des activités de gestion de ce patrimoine et de service financier ou administratif aux entreprises liées.
+
+Les investissements visés à l'alinéa 1er, 1°, d), sont acquis aux conditions du marché auprès d'un tiers à l'entreprise, sont exploités exclusivement dans l'entreprise, et font l'objet, le cas échéant, de garanties contractuelles d'une durée correspondant à la période d'amortissement de l'investissement concerné.
+
+La moyenne des amortissements visée à l'alinéa 1er, 3° :
+
+1° peut être calculé sur base des amortissements réalisés par une unité d'établissement concernés par le programme d'investissements ;
+
+2° les amortissements sur les immobilisations incorporelles peuvent ne pas être pris en compte.
+
+§ 2. Sont exclus les investissements :
+
+1° comportant des investissements en immeubles qui ne sont pas affectés à l'activité de l'entreprise dans les six mois qui suivent leur achat ou leur achèvement ;
+
+2° concourant au maintien de l'effectif d'emploi de l'unité d'établissement de l'entreprise concernée par le programme d'investissements sauf si celui-ci présente un intérêt majeur pour le développement durable de la Région wallonne ;
+
+3° relatifs :
+
+a) à la marque, au stock, au goodwill, à la clientèle, à l'enseigne, au pas-de-porte, à la reprise de bail, à l'acquisition de participations ;
+
+b) au matériel ou mobilier d'occasion ;
+
+c) au matériel ou mobilier d'exposition ou de démonstration ;
+
+d) au matériel roulant dont la charge utile est égale ou inférieure à trois tonnes et demi et le matériel de transport de personnes ;
+
+e) au matériel de transport dans les secteurs visés aux classes 49.10 à 52.29 du code NACE-BEL ;
+
+f) aux aéronefs à l'exception des drones ;
+
+g) aux immeubles acquis par l'entreprise à un de ses administrateurs, actionnaires ou à une personne juridique faisant partie du même groupe que l'entreprise ;
+
+h) aux bâtiments intégrés ou annexés à un bâtiment à usage privé ;
+
+i) aux emballages consignés ;
+
+j) aux pièces de rechange ;
+
+k) aux conciergeries ;
+
+l) aux villas et appartements témoins et à leur mobilier ;
+
+m) au matériel, au mobilier ou à l'immobilier destiné à la location à l'exception de l'immobilier donné partiellement en location ou partagé avec des sociétés liées exerçant une activité éligible aux aides ;
+
+n) au matériel, au mobilier ou à l'immobilier de remplacement ;
+
+o) aux infrastructures liées aux activités du secteur de transport défini à l'article 2, point 45, du règlement n° 651/2014 du 17 juin 2014 ;
+
+p) au bien immobilier qui a déjà fait l'objet d'une aide antérieurement ;
+
+4° les investissements dans les filières de production d'énergie renouvelable non éligibles dans le cadre des aides sur base du décret du 11 mars 2004 relatif aux incitants destinés à favoriser la protection de l'environnement et l'utilisation durable de l'énergie ;
+
+5° les investissements relatifs à la cogénération fossile et les chaudières à énergie fossile.
+
+Pour l'application de l'alinéa 1er, 3°, c), l'on entend par « le matériel d'exposition ou de démonstration » : le matériel destiné à l'exposition ou à la démonstration, tels que des meubles, marchandise exposée qui représente une dépense susceptible de retourner dans le stock.
+
+Pour le point visé à l'alinéa 1er, 3°, n), l'on entend par « le matériel, au mobilier ou à l'immobilier de remplacement » : l'investissement destiné à compenser l'obsolescence, l'usure ou la destruction sans augmenter la capacité ou l'efficacité.
+
+Le Ministre peut préciser les investissements visés aux paragraphes 1er et 2.
+
+----------
+
+- § 1 er , al. 1 er , phrase liminaire remplacé par l’art. 5 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+###### Sous-section 3 - Les critères d'évaluation et les montant octroyés
+
+Article 12
+
+L'administration analyse le dossier de demande de primes à l'investissement recevable et admissible visé à l'article 4, alinéa 3, au moyen d'une grille d'évaluation basée sur les critères d'évaluation suivants :
+
+1° l'innovation ;
+
+2° la contribution à la stratégie de développement régional ;
+
+3° la création d'entreprises ou la première installation sur le territoire de la Région wallonne ;
+
+4° le maintien de l'emploi ;
+
+5° la création d'emploi ;
+
+6° la décarbonation ;
+
+7° la mise en oeuvre des principes d'économie circulaire.
+
+Le nombre de points attribués aux critères visés à l'alinéa 1er est défini dans l'annexe.
+
+Le Ministre peut préciser les critères d'évaluation basés sur la grille.
+
+Sous réserve du respect de l'article 9, 6°, les points obtenus par chaque critère sont globalisés afin de déterminer un taux de prime à l'investissement :
+
+|  | Zone de développement visée à l'article 2, § 1er, 4°, de l'arrêté du Gouvernement wallon du 1er décembre 2022 | Zone de développement visée à l'article 2, § 1er, 2° et 3°, de l'arrêté du Gouvernement wallon du 1er décembre 2022 | Zone de développement visée à l'article 1er de l'arrêté du Gouvernement wallon du 1er décembre 2022 |  |
+| --- | --- | --- | --- | --- |
+| a) | pour une cotation de 30 à 49 p oints inclus | 5 pour cent du montant total des investissements admis | 10 pour cent du montant total des investissements admis | 1 2 pour cent du montant total des investissements admis |
+| b) | pour une cotation de 50 à 69 po ints inclus | 8 pour cent du montant total des investissements admis | 1 3 pour cent du montant total des investissements admis | 1 5 pour cent du montant total des investissements admis |
+| c) | pour une cotation de 70 à 100 points inclus | 10 pour cent du montant total des investissement admis | 15 pour cent du montant total des investissement admis | 17 pour cent du montant total des investissement admis |
+
+----------
+
+- remplacé par l’art. 6 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 13
+
+(…)
+
+----------
+
+- abrogé par l’art. 7 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 14
+
+Pour chaque dossier, l'administration établit un rapport reprenant son analyse, le nombre de points obtenus et le taux d'aide octroyé conformément à l'article 12 et le soumet au Ministre ou au fonctionnaire délégué.
+
+Le plafond de la prime à l'investissement est fixé à 7.500.000,00 euros.
+
+Dans le cas où le programme d'investissement est considéré comme stratégique pour le développement économique de la Région wallonne, le plafond visé à l'alinéa 2 peut être dépassé dans les limites autorisées par le Règlement (UE) n° 651/2014 du 17 juin 2014. Dans ce cas, le programme d'investissement fait l'objet d'une décision du Gouvernement wallon sur proposition du Ministre.
+
+----------
+
+- al. 1 er modifié, al. 2 remplacé et al. 3 inséré par l’art. 8 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+##### Section 2 - La liquidation
+
+Article 15
+
+Sauf cas dûment justifié, l'entreprise qui réalise moins de quatre-vingts pour cent du programme d'investissements perd le bénéfice de la prime. Sous réserve de l'application de l'article 25, l'administration récupère la prime conformément aux dispositions de l'article 26.
+
+Le Ministre peut préciser la dérogation prévue à l'alinéa 1 er .
+
+----------
+
+- al. 2 inséré par l’art. 9 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 16
+
+§ 1er. Au plus tard trois ans après la date de fin de programme d'investissement prévue dans la convention, l'entreprise introduit, auprès de l'administration, une demande de liquidation de la prime à l'investissement qui comprend la preuve :
+
+1° de la réalisation et du paiement du programme d'investissements ;
+
+2° du respect des législations et réglementations fiscales et sociales ;
+
+3° du respect des législations et réglementations environnementales ;
+
+4° du respect de la condition visée à l'article 8, § 1er, alinéa 1er, 3°, pendant l'exercice comptable clôturé précédant la demande de liquidation de la prime à l'investissement ;
+
+5° du respect de la règle visée à l'article 8, § 1er, alinéa 1er, 2°.
+
+Si la condition prévue à l'alinéa 1er, 1°, est incomplète, l'administration, dans un délai de deux mois à partir de la demande de liquidation, réclame les renseignements manquants. L'entreprise dispose alors d'un délai d'un mois pour compléter son dossier. Passé ce délai, l'administration traite la demande sur base des informations en sa possession.
+
+§ 2. A défaut d'apporter les preuves du respect des législations et des réglementations ainsi que des conditions visées au paragraphe 1er, alinéa 1er, 2° à 5°, le Ministre ou le fonctionnaire délégué prend une décision de suspension de la liquidation de la prime à l'investissement. L'administration notifie cette décision à l'entreprise par toute modalité conférant date certaine à l'envoi en lui enjoignant de se conformer, dans un délai de vingt-quatre mois de la décision de suspension ou selon des modalités et délais convenus avec l'administration compétente.
+
+§ 3. Passé le délai prévu aux paragraphes 1er et 2, le Ministre ou le fonctionnaire délégué peut procéder au retrait de la décision d'octroi. L'administration notifie cette décision par toute modalité conférant date certaine à l'envoi.
+
+Article 17
+
+§ 1er. Sauf dispositions contraires prévues dans la convention, la liquidation de la prime à l'investissement peut s'effectuer en trois tranches comme suit :
+
+1° une première tranche représentant quarante pour cent du montant de la prime à l'investissement, (…) si l'entreprise produit la preuve qu'elle a réalisé et payé au moins trente pour cent du programme d'investissements admis ;
+
+2° une deuxième tranche représentant trente-cinq pour cent du montant de la prime à l'investissement, (…) si l'entreprise produit la preuve qu'elle a réalisé et payé au moins septante-cinq pour cent du programme d'investissements admis ;
+
+3° une troisième tranche représentant vingt-cinq pour cent de la prime à l'investissement, si l'entreprise produit la preuve qu'elle a réalisé et payé la totalité du programme d'investissements admis, ainsi que l'atteinte des objectifs visés à l'article 12, alinéa 1er, 4°, 5° ou 6°, au plus tard jusqu'à deux ans après la fin du programme d'investissements, s'ils ont été activés.
+
+La liquidation de chaque tranche de la prime à l'investissement est subordonnée au respect des formalités visées à l'article 16, § 1er, alinéa 1er.
+
+Toutefois, la preuve de la réalisation et du paiement du programme d'investissements visée à l'alinéa 1er, 1° peut être remplacée par une attestation type disponible auprès de l'administration et certifiée sincère et exacte par un réviseur d'entreprises.
+
+§ 2. (…)
+
+L'objectif d'emploi visé à l'article 12, alinéa 1er, 4° ou 5° est :
+
+1° atteint, durant un trimestre fixé par l'entreprise, au plus tard deux ans après la fin du programme d'investissements ;
+
+2° maintenu en moyenne durant seize trimestres.
+
+L'opération résultant de changement de statut juridique d'une entreprise existante n'est pas considérée comme une création d'emplois. Sont visées les opérations de fusion, de scission, d'absorption et de filialisation. Dans ce cas, des membres du personnel transférés des entreprises préexistantes à l'opération de constitution de la nouvelle entité juridique sont exclus.
+
+Les membres du personnel occupés antérieurement par une entreprise détenant au moins vingt-cinq pour cent du capital ou exerçant un pouvoir de contrôle au sein de l'entreprise sollicitant la prime ainsi que des membres du personnel transférés d'une entreprise faisant partie du même groupe sont exclus.
+
+§ 3. (…)
+
+----------
+
+- § 1 er , al. 1 er , 1° et 2°, et § 2, al. 2 modifiés, § 1 er , al. 1 er , 3° remplacé, et § 2, al. 1 er et § 3 abrogés par l’art. 10 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+#### CHAPITRE 4 - L'exonération du précompte immobilier
+
+Article 18
+
+Le Ministre ou le fonctionnaire délégué peut octroyer l'exonération du précompte immobilier, visée à l'article 8 du décret du 11 mars 2004, à l'entreprise qui remplit les conditions visées aux articles 8 et 9.
+
+L'exonération du précompte immobilier est accordée pour autant que le montant minimum d'investissements admissibles visé à l'article 8, paragraphe 1er, 8°, soit atteint.
+
+Article 19
+
+L'entreprise sollicite le bénéfice de l'exonération de précompte immobilier selon la procédure visée aux articles 4 à 7. Toute décision d'exonération du précompte immobilier est notifiée au service public compétent qui en assure l'exécution.
+
+Article 20
+
+En cas de non-respect des conditions d'octroi de l'exonération, le Ministre ou le fonctionnaire délégué prend une décision de retrait de la décision d'octroi de l'exonération du précompte immobilier. L'administration notifie cette décision à l'entreprise et au service public compétent qui en assure l'exécution.
+
+#### CHAPITRE 5 - Du contrôle et des sanctions
+
+Article 21
+
+Dans le cadre du contrôle, l'administration vérifie que les critères prévus dans la décision d'octroi sont atteints.
+
+Article 22
+
+En cas de non-respect d'un ou plusieurs critères d'évaluation visés à l'article 12, un nouveau calcul des points est effectué sur base de la grille d'évaluation reprise à l'annexe , conduisant à la possibilité de diminuer le montant de la prime octroyée, voire de retirer la décision d'octroi.
+
+(…)
+
+----------
+
+- al. 1 er modifié et al. 2 abrogé par l’art. 11 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 23
+
+Si le non-respect des critères repris à l'article 12, alinéa 1er et mentionnés dans la convention d'octroi conduit à un calcul des points inférieur à trente pour cent, l'entreprise, sur base d'une demande dûment justifiée, peut obtenir un délai supplémentaire d'une année pour atteindre les objectifs visés à l'article 12, alinéa 1er, 5° ou 6 . Dans ce cas, la décision d'octroi est maintenue mais le solde de la prime à l'investissement de vingt-cinq pour cent (…) n'est pas liquidé.
+
+Dans le cas visé à l'alinéa 1er, l'administration soumet la décision au Ministre .
+
+Si les critères mentionnés dans la décision d'octroi ne sont pas atteints dans le délai visé à l'alinéa 1er, la prime à l'investissement fait l'objet d'une décision de retrait.
+
+Par dérogation à l'alinéa 3, en cas de force majeure ou d'évènements exceptionnels, le Ministre peut maintenir tout ou partie de la décision d'octroi.
+
+----------
+
+- al. 1 er , 2 et 4 modifiés par l’art. 12 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Article 24
+
+La prime à l'investissement est suspendue si l'entreprise fait l'objet d'une injonction de récupération conformément à l'article 1er, paragraphe 4, a), du règlement (UE) n° 651/2014 du 17 juin 2014.
+
+Article 25
+
+Le Ministre ou le fonctionnaire délégué peut maintenir la décision d'octroi de la prime à l'investissement :
+
+1° en cas de non-respect, dû à un cas de force majeure définie à l'article 17 du décret du 11 mars 2004, des conditions visées à l'article 10 du décret du 11 mars 2004 et à l'article 8 ou définies dans la décision d'octroi de la prime à l'investissement ;
+
+2° dans les cas visés à l'article 17 du décret du 11 mars 2004 à condition :
+
+a) que l'activité économique de l'entreprise soit poursuivie sur le territoire de la Région wallonne ;
+
+b) que les investissements afférents à la prime soient transférés dans la nouvelle entité juridique et soient maintenus dans la destination pour laquelle ils avaient été octroyés ;
+
+c) qu'en cas de licenciement, des mesures d'accompagnement soient mises en oeuvre ;
+
+3° en cas de demande préalable de l'entreprise relative à la cession ou à la modification de la destination ou des conditions d'utilisation des investissements.
+
+Article 26
+
+En cas de retrait de la décision d'octroi ou en cas de révision de celle-ci conformément aux articles 15, 22 et 23, alinéa 3, la récupération du montant indu s'effectue à l'initiative de l'administration par toutes voies de droit.
+
+Le Ministre ou le fonctionnaire délégué peut renoncer à tout ou partie de la récupération de la prime à l'investissement lorsque le coût lié à cette récupération risque d'être supérieur au montant à récupérer.
+
+Article 27
+
+Le recours prévu à l'article 19 du décret du 11 mars 2004 est introduit auprès de l'administration.
+
+Si l'entreprise demande à être entendue, l'administration convoque celle-ci dans un délai d'un mois à dater de la réception de la demande d'être entendue, par tout moyen conférant une date certaine à l'envoi.
+
+Article 28
+
+§ 1er. L'administration effectue une évaluation des aides octroyées en vertu du présent arrêté en se basant sur des données agrégées portant sur :
+
+1° la répartition des budgets alloués et liquidés selon :
+
+a) le nombre de demandes ;
+
+b) la taille des bénéficiaires ;
+
+c) le type d'aide ;
+
+d) la localisation ;
+
+e) les critères visés par le régime ;
+
+f) tout autre paramètre ;
+
+2° le nombre et les motifs de refus ;
+
+3° le monitoring de l'encours budgétaire.
+
+Le Ministre peut préciser les indicateurs sur base desquels le suivi est réalisé.
+
+Les indicateurs relatifs à la liquidation des aides sont établis en regard des projets clôturés au cours d'une année civile complète.
+
+Les indicateurs se rapportant à une année civile font l'objet d'une publication sur le Portail Economie au plus tard le 30 juin de l'année civile suivante.
+
+L'évaluation visée à l'alinéa 1er est réalisée une première fois trois ans après l'entrée en vigueur du présent arrêté et ensuite tous les deux ans. Les résultats de l'évaluation sont communiqués au Gouvernement.
+
+§ 2. Au terme de cinq années civiles complètes de mise en oeuvre des incitants, le Ministre fait procéder à une évaluation de l'impact des incitants par un ou plusieurs experts indépendants.
+
+L'évaluation est réalisée au cours de l'année civile qui suit la période visée à l'alinéa 1er. Elle porte sur l'efficacité et l'efficience des incitants au cours de la période considérée.
+
+Pour l'application de l'alinéa 2, l'on entend par :
+
+1° l'efficacité : la mesure dans laquelle les objectifs et les résultats de la prime à l'investissement ont été atteints ;
+
+2° l'efficience : la mesure du rapport coût-efficacité de la prime à l'investissement.
+
+Le Ministre communique un rapport écrit qui comprend le résultat de l'évaluation au Gouvernement. Les données diffusées sont anonymisées.
+
+#### CHAPITRE 6 - Dispositions abrogatoires, transitoires et finales
+
+Article 29
+
+L'arrêté du Gouvernement wallon 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises est abrogé.
+
+Article 30
+
+Les demandes de prime à l'investissement introduites en application de l'article 11, alinéa 1er, de l'arrêté du Gouvernement wallon 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises restent soumises aux dispositions de cet arrêté.
+
+Article 31
+
+Le présent arrêté entre en vigueur le 1er juillet 2025.
+
+----------
+
+- Remplacé par art. 2 de l’arrêté du 05.12.2024 (M.B., 20.12.2024). En vigueur le 31.12.2024.
+
+Article 32
+
+Le Ministre qui a l'Economie dans ses attributions est chargé de l'exécution du présent arrêté.
+
+Namur, le 23 mai 2024.
+
+Pour le Gouvernement :
+
+Le Ministre-Président,
+
+E. DI RUPO
+
+Le Ministre de l'Economie, du Commerce extérieur, de la Recherche et de l'Innovation, du Numérique, de l'Aménagement du territoire, de l'Agriculture, de l'IFAPME et des Centres de compétences,
+
+W. BORSUS
+
+#### Annexe - La grille d'évaluation
+
+|  | Catégories et critères | Pondération |
+| --- | --- | --- |
+|  | Catégorie « Economie » : | 40 points |
+| 1. | Innovation | 10 points |
+| 2. | Contribution à la stratégie de développement régional | 15 points |
+| 3. | Création d'entreprises ou première installation sur le territoire de la Région wallonne | 15 points |
+|  | Catégorie « Emploi » : | 30 points |
+| 4. | Maintien de l'emploi | 10 points |
+| 5. | Création d'emploi avec un minimum de 15 emplois et 20 pour cent de croissance | 20 points |
+|  | Catégorie « Eco-performance industrielle » : | 30 points |
+| 6. | Décarbonation | 20 points |
+| 7. | Mise en oeuvre des principes d'économie circulaire | 10 points |
+|  | Total nombre de points | 100 points |
+
+Vu pour être annexé à l'arrêté du Gouvernement wallon du 10 juillet 2025 modifiant l'arrêté du Gouvernement wallon du 23 mai 2024 relatif aux aides à l'investissement en faveur des grandes entreprises et abrogeant l'arrêté du Gouvernement wallon du 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises.
+
+Namur, le 10 juillet 2025.
+
+Pour le Gouvernement :
+
+Le Ministre-Président et Ministre du Budget, des Finances, de la Recherche et du Bien-être animal,
+
+A. DOLIMONT
+
+Le Ministre de l'Economie, de l'Industrie, du Numérique, de l'Emploi et de la Formation,
+
+P.-Y. JEHOLET
+
+----------
+
+- remplacé par l’art. 13 de l’arrêté du 10.07.2025 (M.B., 01.08.2025). En vigueur le 01.07.2025
+
+Mise à jour par :
+
+10.07.2025. - Arrêté du Gouvernement wallon modifiant l'arrêté du Gouvernement wallon du 23 mai 2024 relatif aux aides à l'investissement en faveur des grandes entreprises et abrogeant l'arrêté du Gouvernement wallon du 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises ( M.B. , 01.08.2025 – n° Numac : 2025005783 ). Articles modifiés : 2, 8, 9, 10, 11, 12, 13, 14, 15, 17, 22, 23, et l’annexe. En vigueur le 01.07.2025.
+
+05.12.2024 - Arrêté du Gouvernement wallon modifiant l'arrêté du Gouvernement wallon du 23 mai 2024 relatif aux aides à l'investissement en faveur des petites ou moyennes entreprises et abrogeant l'arrêté du Gouvernement wallon du 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des petites ou moyennes entreprises et modifiant l'arrêté du Gouvernement wallon du 23 mai 2024 relatif aux aides à l'investissement en faveur des grandes entreprises et abrogeant l'arrêté du Gouvernement wallon du 6 mai 2004 portant exécution du décret du 11 mars 2004 relatif aux incitants régionaux en faveur des grandes entreprises ( M.B. 20.12.2024 - Numac : 2024206072 ). Art. modifié : 31 . En vigueur le 31.12.2024 .

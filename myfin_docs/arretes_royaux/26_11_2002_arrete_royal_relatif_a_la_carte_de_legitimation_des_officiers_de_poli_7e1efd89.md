@@ -1,0 +1,141 @@
+---
+guid: "7e1efd89-7640-4ad4-9c5c-7edee124e6d9"
+title: "26.11.2002 - Arrêté royal relatif à la carte de légitimation des officiers de police judiciaire, officiers auxiliaires du procureur du Roi, de la commission des jeux de hasard et de son secrétariat"
+document_type: "Arrêtés royaux"
+language: "fr"
+document_date: "2002-06-26"
+publication_date: "2002-12-19"
+effective_date: "2002-12-19"
+last_modified: "2022-09-15"
+taxonomies: ["Autre législation"]
+path: ["FISCALITÉ", "Taxes assimilées aux impôts sur les revenus", "Législation et réglementation", "Autre législation"]
+linked_document_nl: "67c8e374-3983-4962-a5e3-f7ff82e00984"
+found_via: "bb893ee3-5a69-4442-ba25-8572f6489d4a"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/7e1efd89-7640-4ad4-9c5c-7edee124e6d9"
+---
+
+# 26.11.2002 - Arrêté royal relatif à la carte de légitimation des officiers de police judiciaire, officiers auxiliaires du procureur du Roi, de la commission des jeux de hasard et de son secrétariat
+
+26.11.2002 - Arrêté royal relatif à la carte de légitimation des officiers de police judiciaire, officiers auxiliaires du procureur du Roi, de la commission des jeux de hasard et de son secrétariat
+
+( M.B. , 19.12.2002, p. 57202 - Numac : 2002010112 )
+
+Annexe 1 - C arte de légitimation des officiers de police judiciaire, officiers auxiliaires du procureur du Roi, de la commission des jeux de hasard et de son secrétariat
+
+Annexe 2 - C arte de légitimation des officiers de police judiciaire, officiers auxiliaires du procureur du Roi, de la commission des jeux de hasard et de son secrétariat
+
+ALBERT II, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+Vu la loi du 7 mai 1999 sur les jeux de hasard, les établissements de jeux de hasard et la protection des joueurs, notamment l'article 15;
+
+Vu les avis de la commission des jeux de hasard, donnés les 6 décembre 2000 et 12 septembre 2001;
+
+Vu l'avis de l'Inspecteur des finances, donné le 14 décembre 2000;
+
+Vu l'accord du Ministre du Budget, donné le 22 décembre 2000;
+
+Vu l'avis de la Commission permanente de contrôle linguistique, donné le 10 mai 2001;
+
+Vu l'avis 33.625/2/V du Conseil d'Etat, donné le 14 août 2002;
+
+Sur la proposition de Notre Ministre de la Santé publique, de Notre Ministre de l'Intérieur, de Notre Ministre de la Justice, de Notre Ministre des Finances et de Notre Ministre de l'Economie,
+
+Nous avons arrêté et arrêtons :
+
+Article 1
+
+Le Ministre de la Justice délivre au président de la commission des jeux de hasard une carte de légitimation, dont le modèle est joint en annexe I au présent arrêté, prouvant sa qualité d'officier de police judiciaire, officier auxiliaire du procureur du Roi.
+
+Le président de la commission des jeux de hasard délivre aux membres de la commission et de son secrétariat visés à l'article 15, alinéa 2 de la loi du 7 mai 1999, une carte de légitimation, dont le modèle est joint en annexe II au présent arrêté, prouvant leur qualité d'officier de police judiciaire, officier auxiliaire du procureur du Roi.
+
+Article 2
+
+La carte de légitimation est conforme aux modèles figurant en annexe 1 et 2 au présent arrêté. Elle a la forme d'un rectangle de 100 mm de longueur et de 70 mm de largeur et est plastifiée.
+
+Article 3
+
+Toutes les mentions visées à l'article 4 sont établies en français, en néerlandais et en allemand. La priorité est accordée à la langue du titulaire de la carte.
+
+Article 4
+
+§ 1 er . La carte de légitimation dont l'encadré est des trois couleurs nationales, porte au recto les mentions suivantes :
+
+1° dans la partie supérieure, sur fond blanc, un en-tête " ROYAUME DE BELGIQUE ";
+
+2° sous le 1°, sur fond vert clair, le texte suivant : " Le Ministre de la Justice certifie que ";
+
+3° sur la partie gauche, sur un encadré vert foncé, une photographie d'identité en couleur, du titulaire, d'un format minimum de 25 mm sur 33 mm;
+
+Le sceau sec " Service public fédéral Justice " est apposé sur la photographie d'identité;
+
+4° dans la partie inférieure gauche, sous la photographie, le numéro d'ordre de la carte;
+
+5° à droite de la photographie d'identité, le texte suivant :
+
+" M............... (nom, prénom et grade du titulaire en caractères italiques) a été désigné(e) en qualité d'officier de police judiciaire, officier auxiliaire du procureur du Roi par arrêté royal du......... ";
+
+6° dans la partie inférieure droite, un cadre blanc dans lequel figure la signature du titulaire.
+
+§ 2. La carte de légitimation dont l'encadré est des trois couleurs nationales, porte au verso les mentions suivantes :
+
+1° dans la partie supérieure, sur fond blanc un en-tête " COMMISSION DES JEUX DE HASARD ";
+
+2° sous le 1°, sur fond vert clair, le texte suivant :
+
+" En vertu de la loi du 7 mai 1999 sur les jeux de hasard, les établissements de jeux de hasard et la protection des joueurs, le titulaire de cette carte de légitimation a le droit d'intervenir sur l'ensemble du territoire du Royaume de Belgique en qualité d'officier de police judiciaire, officier auxiliaire du procureur du Roi. Dans l'accomplissement des ses missions, il peut requérir la force publique. "
+
+3° sous ce texte, la formule :
+
+" Au nom du Ministre, le Président, "
+
+Cette formule est suivie de la signature et du nom du président de la commission des jeux de hasard.
+
+Article 5
+
+§ 1 er . La carte de légitimation est restituée au président de la commission des jeux de hasard, ou à une autre personne désignée par celui-ci, lorsque :
+
+1° la carte est abîmée;
+
+2° une ou plusieurs données qui figurent sur la carte sont modifiées ou lorsque la photo n'est plus ressemblante;
+
+3° le titulaire n'est plus capable d'exercer sa fonction ou n'y est plus autorisé.
+
+§ 2. Le président ou la personne désignée par celui-ci retire temporairement la carte de légitimation du titulaire suspendu ou démis de sa fonction, quelle que soit la durée de la mesure, ou dont l'exercice de la fonction est interrompu pendant plus de quarante cinq jours pour toute autre raison statutaire. La carte est restituée au titulaire dès qu'il exerce à nouveau sa fonction.
+
+§ 3. La perte ou la destruction de la carte de légitimation est communiquée immédiatement au président. Lorsque cette carte est retrouvée après renouvellement, elle est remise immédiatement au président ou à la personne désignée par celui-ci, pour être détruite.
+
+Article 6
+
+Le présent arrêté entre en vigueur le jour de sa publication au Moniteur belge .
+
+Article 7
+
+Notre Ministre qui a la Santé publique dans ses attributions, Notre Ministre qui a l'Intérieur dans ses attributions, Notre Ministre qui a la Justice dans ses attributions, Notre Ministre qui a les Finances dans ses attributions et Notre Ministre qui a l'Economie dans ses attributions sont chargés, chacun en ce qui le concerne, de l'exécution du présent arrêté.
+
+Donné à Bruxelles, le 26 novembre 2002.
+
+ALBERT
+
+Par le Roi :
+
+Le Ministre de la Santé publique,
+
+J. TAVERNIER
+
+Le Ministre de l'Intérieur,
+
+A. DUQUESNE
+
+Le Ministre de la Justice,
+
+M. VERWILGHEN
+
+Le Ministre des Finances,
+
+D. REYNDERS
+
+Le Ministre de l'Economie,
+
+Ch. PICQUE

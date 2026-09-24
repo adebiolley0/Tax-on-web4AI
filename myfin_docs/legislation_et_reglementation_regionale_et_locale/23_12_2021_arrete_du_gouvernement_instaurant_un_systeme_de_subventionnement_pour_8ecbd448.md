@@ -1,0 +1,369 @@
+---
+guid: "8ecbd448-10e9-44b3-906a-b46c2f44d463"
+title: "23.12.2021 - Arrêté du Gouvernement instaurant un système de subventionnement pour les projets pilotes des communes dans le cadre de la mise en oeuvre du plan intégré pour l'énergie et le climat"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2021-12-23"
+publication_date: "2022-04-07"
+effective_date: "2022-01-01"
+last_modified: "2025-03-25"
+taxonomies: ["Communauté germanophone"]
+path: ["FISCALITÉ", "Entités fédérées", "Communauté germanophone"]
+linked_document_nl: "690b2bd0-4303-4cf8-bcdf-5d2156ca3708"
+found_via: "922a67b8-3c86-4fc7-af8a-78f8a8997989"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/8ecbd448-10e9-44b3-906a-b46c2f44d463"
+---
+
+# 23.12.2021 - Arrêté du Gouvernement instaurant un système de subventionnement pour les projets pilotes des communes dans le cadre de la mise en oeuvre du plan intégré pour l'énergie et le climat
+
+23.012.2021 - Arrêté du Gouvernement instaurant un système de subventionnement pour les projets pilotes des communes dans le cadre de la mise en oeuvre du plan intégré pour l'énergie et le climat
+
+(M.B. 07.04.202 2 – Numac : 2022201191 – dernière modification : arrêté du 14.11.2024 - M.B. 25 . 03 .20 25 )
+
+Le Gouvernement de la Communauté germanophone,
+
+Vu la loi spéciale du 8 août 1980 de réformes institutionnelles, l'article 20, modifié par la loi spéciale du 16 juillet 1993;
+
+Vu la loi du 31 décembre 1983 de réformes institutionnelles pour la Communauté germanophone, l'article 7;
+
+Vu le décret de la Région wallonne du 9 décembre 1993 relatif à la promotion de l'utilisation rationnelle de l'énergie, des économies d'énergie et des énergies renouvelables, les articles 7 et 8;
+
+Vu l'avis de l'Inspecteur des Finances, donné le 9 juillet 2021;
+
+Vu l'accord du Ministre-Président, compétent en matière de Budget, donné le 15 juillet 2021;
+
+Vu l'avis du conseil consultatif du Logement et de l'Energie, donné le 13 septembre 2021;
+
+Vu l'avis n° 193/2021 de l'Autorité de protection des données, donné le 25 octobre 2021;
+
+Vu la demande d'avis dans un délai de trente jours, déposée au Conseil d'Etat le 18 novembre 2021 en application de l'article 84, § 1 er , alinéa 1 er , 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973;
+
+Considérant que l'avis demandé n'a pas été rendu dans ce délai;
+
+Vu l'article 84, § 4, alinéa 2, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973;
+
+Considérant que tant les neuf communes de la région de langue allemande que la Communauté germanophone elle-même adhèrent à la Convention des Maires pour le Climat et l'Energie et que, par conséquent, elles ont élaboré un plan intégré pour l'énergie et le climat; que ce plan a pour objectif de réduire de 40 % les émissions de gaz à effet de serre d'ici 2030 ainsi que de mettre en place des stratégies pour la protection du climat et l'adaptation au changement climatique; que la Communauté germanophone souhaite, sous certaines conditions, soutenir les communes dans la mise en place de ce plan pour l'énergie et le climat et la concrétisation des objectifs;
+
+Sur la proposition du Ministre compétent en matière d'Energie;
+
+Après délibération,
+
+Arrête :
+
+#### CHAPITRE 1 er - Dispositions générales
+
+Article 1 er
+
+Pour l'application du présent arrêté, il faut entendre par :
+
+1° plan intégré pour l'énergie et le climat : l'ensemble des projets pilotes élaborés par les communes et visant à influer soit sur la consommation et la production d'énergie, soit sur les moyens de locomotion, soit sur les questions d'adaptation au changement climatique. Ces projets visent également, de manière plus générale, à réduire les émissions de CO2;
+
+2° projets pilotes : les projets qui sont distincts des autres systèmes de subvention de la Communauté germanophone dans le domaine de l'énergie, qui ont un objectif clairement défini et qui ont une durée de projet limitée à deux ans maximum;
+
+3° projet pilote supracommunal : tout projet pilote mené conjointement par deux ou plusieurs communes;
+
+4° dépense d'investissement : toute installation et tout équipement acquis par la commune dans le but d'économiser l'énergie;
+
+5° outil d'aide à la planification des mesures visant à protéger le climat (Tool Klimaschutzplaner) : l'outil en ligne permettant aux communes d'indiquer l'état d'avancement de leurs actions dans le cadre du plan intégré pour l'énergie et le climat;
+
+6° règlement sur la protection des données : le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE;
+
+7° administration : le département du Ministère de la Communauté germanophone compétent en matière de Développement régional.
+
+#### CHAPITRE 2 - Subsides pour les projets pilotes des communes visant à mettre en œuvre le plan intégré pour l'énergie et le climat
+
+##### Section 1 re - Champ d'application
+
+Art icle 2
+
+Peuvent être subventionnées les communes qui disposent d'un plan intégré pour l'énergie et le climat et qui souhaitent le mettre en oeuvre, ainsi que leurs régies communales autonomes respectives.
+
+Dans la mesure du possible, les communes privilégient la concrétisation de projets pilotes supracommunaux.
+
+A l'exception de l'article 1er, 3°, de l'article 2, alinéas 1er et 2, de l'article 3, § 1er, 2°, de l'article 6, alinéa 1er, de l'article 7, § 2, alinéas 1er et 3, de l'article 9, alinéa 2, et de l'article 11, § 1er, alinéa 2, 9°, il y a lieu dans ce cas d'entendre également par « commune » la régie communale autonome pour l'application du présent arrêté.
+
+----------
+
+- modifié par l'art. 1 er de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+Art icle 3
+
+§ 1 er - Moyennant le respect des conditions prévues dans le présent arrêté et dans la limite des crédits budgétaires disponibles, le Gouvernement peut :
+
+1° octroyer à une commune des subsides en vue du déploiement de projets pilotes visant la mise en œuvre du plan intégré pour l'énergie et le climat;
+
+2° si le projet pilote est déployé au niveau supracommunal, octroyer aux communes y prenant part des subsides en vue du déploiement de projets pilotes visant la mise en œuvre du plan intégré pour l'énergie et le climat.
+
+§ 2 - Les subsides octroyés en vertu du présent arrêté ne peuvent l'être qu'une seule fois pour les mêmes projets pilotes et ne peuvent être cumulés avec une autre aide accordée par la Communauté germanophone.
+
+Font exception à cette règle les projets de suivi qui conduisent à un élargissement ou à un approfondissement dudit projet, dans la mesure où ils apportent une valeur ajoutée justifiée. Ces projets peuvent obtenir un autre subside qui ne peut être cumulé avec d'autres subsides de la Communauté germanophone.
+
+Les subsides octroyés en vertu du présent arrêté peuvent être cumulés avec d'autres subventions ou aides d'autres administrations, le cas échéant par le recours à un cofinancement. Ces subsides sont déduits de l'ensemble des couts avant de calculer les subsides octroyés en application du présent arrêté.
+
+##### Section 2 - Projets pilotes éligibles
+
+###### Sous-section 1 re - Frais de personnel et de fonctionnement
+
+Art icle 4
+
+§ 1 er - Aux fins de conception et de déploiement de projets pilotes spécifiques à une commune ou supracommunaux dans le cadre des champs d'action du plan intégré pour l'énergie et le climat, les frais de personnel et de fonctionnement des communes peuvent être pris en compte pour la mise en place des mesures suivantes et en vue de leur subventionnement : 1° études;
+
+2° élaboration de concepts;
+
+3° développement d'outils et/ou d'instruments de monitoring;
+
+4° actions de sensibilisation;
+
+5° mesures de formation;
+
+6° coordination, élaboration et développement de plans d'action spécifiques à la commune.
+
+§ 2 - Les frais de personnel et de fonctionnement éligibles comprennent :
+
+1° les frais de traitement bruts;
+
+2° les dépenses de bureau et les dépenses administratives ainsi que les frais de fonctionnement, dont les équipements de bureau, les frais de déplacement et les loyers, évalués de manière forfaitaire à 15 % des frais de traitement;
+
+3° les frais de sensibilisation et de communication;
+
+4° les frais pour les prestataires et conseillers externes.
+
+Art icle 5
+
+La conception et la mise en œuvre des projets pilotes spécifiques à une commune ou supracommunaux, mentionnés à l'article 4, § 1 er , s'étalent au maximum sur deux ans.
+
+Art icle 6
+
+Le montant du subside annuel s'élève, par demande, à 30 000 euros au maximum pour chaque commune et ses régies communales autonomes.
+
+Seuls les frais approuvés dus à partir du 1er janvier 2022 sont admissibles.
+
+----------
+
+- alinéa 1 er remlacé par l'art. 2 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+###### Sous-section 2 - Dépenses d'investissement en vue de la mise en œuvre du plan intégré pour l'énergie et le climat
+
+Art icle 7
+
+§ 1er - Un subside peut être octroyé notamment pour les dépenses d'investissement spécifiques à la commune ou supracommunales dans les domaines suivants :
+
+1° mobilité durable ; 2° chaleur renouvelable ; 3° utilisation rationnelle de l'énergie ; 4° mesures d'adaptation aux conséquences inévitables du changement climatique.
+
+§ 2 - Dans le cadre des projets pilotes spécifiques à une commune, celle-ci engage les dépenses d'investissement uniquement :
+
+1° sur les biens immobiliers ou les terrains de la commune mentionnés à l'article 12 du décret sur l'infrastructure du 18 mars 2002, y compris la propriété privée de la commune accessible au public;
+
+2° sur la propriété de son centre public d'action sociale ou de sa régie communale autonome, à condition que ceux-ci aient marqué leur accord à cet égard.
+
+Dans le cadre des projets pilotes des régies communales autonomes, celles-ci engagent les dépenses d'investissement uniquement sur les biens immobiliers ou les terrains des communes parties prenantes mentionnés à l'article 12 du décret du 18 mars 2002 relatif à l'Infrastructure, y compris la propriété privée desdites communes accessible au public.
+
+Dans le cadre des projets pilotes supracommunaux, les communes parties prenantes engagent les dépenses d'investissement uniquement :
+
+1° sur les biens immobiliers ou les terrains des communes parties prenantes mentionnés à l'article 12 du décret sur l'infrastructure du 18 mars 2002, y compris la propriété privée desdites communes accessible au public;
+
+2° sur la propriété des centres publics d'action sociale ou des régies communales autonomes des communes parties prenantes, à condition que ceux-ci aient marqué leur accord à cet égard.
+
+§ 3 - Pour pouvoir bénéficier d'un subside pour dépenses d'investissement destinées à la mise en œuvre du plan intégré pour l'énergie et le climat, les communes satisfont aux conditions mentionnées aux articles 4, § 1 er , 5, alinéa 1 er , 6 et 13 du décret du 18 mars 2002 sur l'infrastructure.
+
+Pour pouvoir bénéficier d'un subside pour dépenses d'investissement dans le domaine de la mobilité douce, les dépenses d'investissements effectuées par les communes doivent être accessibles au public.
+
+----------
+
+- modifié par l'art. 3 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+Art icle 8
+
+La conception et la mise en oeuvre des dépenses d'investissement mentionnées à l'article 7, § 1 er , sont menées dans un délai de deux ans.
+
+Art icle 9
+
+Les dépenses d'investissement sont subsidiées à concurrence de 80 % des dépenses admissibles.
+
+Les subsides annuels par commune s'élèvent à :
+
+1° 2 500 euros minimum et 75 000 euros maximum pour les communes comptant moins de 9 000 habitants et leurs régies communales autonomes respectives;
+
+2° 2 500 euros minimum et 125 000 euros maximum pour les communes comptant au moins 9 000 habitants et leurs régies communales autonomes respectives.
+
+Seuls les frais approuvés dus à partir du 1er janvier 2022 sont admissibles.
+
+----------
+
+- modifié par l'art. 4 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+Art icle 10
+
+Les dépenses d'investissement subsidiées dans le cadre des projets pilotes, mentionnées à l'article 9, sont déduites, le cas échéant, à concurrence des recettes générées par la mise en œuvre desdits projets pilotes.
+
+##### Section 3 - Procédure de demande
+
+Art icle 11
+
+§ 1 er - Les communes introduisent leurs demandes de subsides auprès de l'administration au moyen du formulaire ad hoc, et ce, avant le 1 er janvier ou le 1 er juin de chaque année, selon le cas.
+
+La demande de subsides reprend les informations suivantes :
+
+1° la nature et l'étendue du projet pilote;
+
+2° la dénomination de la commune;
+
+3° les données de contact de la personne responsable du projet pilote au niveau de la commune;
+
+4° le numéro de compte de la commune;
+
+5° la description du projet pilote à subsidier qui établit, entre autres, un lien clair avec la mise en œuvre du plan intégré pour l'énergie et le climat;
+
+6° la description du train de mesures concerné découlant du plan intégré pour l'énergie et le climat ainsi que la contribution apportée à sa mise en œuvre ;
+
+7° le plan des couts et du financement du projet pilote et le montant du subside demandé;
+
+8° la période de mise en œuvre ;
+
+9° l'aperçu des partenaires du projet pilote et, si celui-ci est spécifique à la commune, la raison pour laquelle il n'est pas mené à un niveau supracommunal;
+
+10° la description du personnel, ainsi que de ses missions, qui sera chargé de mettre le projet pilote en œuvre si le subventionnement des frais de personnel et de fonctionnement est demandé;
+
+11° les données relatives aux critères d'évaluation énumérés à l'article 12, § 1 er ;
+
+12° la confirmation attestant que le projet pilote n'est pas subsidié par le biais d'autres aides au niveau de la Communauté germanophone;
+
+13° la confirmation qui atteste que la commune a inscrit ce projet pilote en tant qu'action dans l'outil d'aide à la planification des mesures visant à protéger le climat.
+
+Pour être considérée comme complète, la demande doit être accompagnée des documents suivants :
+
+1° le formulaire de demande signé;
+
+2° un plan des couts et du financement, accompagné d'un aperçu des dépenses et des recettes réparties sur toute la durée du projet;
+
+3° la confirmation signée attestant que la condition mentionnée au § 1 er , alinéa 2, 12°, est remplie.
+
+Dans des cas particulièrement motivés, le Gouvernement peut prolonger le délai mentionné à l'alinéa 1 er .
+
+§ 2 - L'administration examine les demandes de subsides admissibles introduites par les communes et vérifie si elles sont complètes, si les projets peuvent être soutenus et s'il est opportun de le faire, et les transmet au Gouvernement pour approbation.
+
+Le Gouvernement examine les demandes d'approbation et statue sur les subventionnements deux fois par an.
+
+Dans les nonante jours qui suivent sa décision relative au subventionnement, le Gouvernement la transmet aux communes.
+
+§ 3 - La décision du Gouvernement fixe la date de début du projet pilote approuvé. Ledit projet pilote ne peut commencer qu'à partir de cette date.
+
+----------
+
+- modifié par l'art. 5 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+Art icle 12
+
+§ 1 er - L'évaluation portant sur l'opportunité d'être subventionné mentionnée à l'article 11, § 2, s'appuie sur un système de points basé sur les critères suivants :
+
+1° projet pilote supracommunal;
+
+2° description adéquate du projet et faisabilité;
+
+3° contribution directe ou indirecte à la réduction des émissions de CO2;
+
+4° caractère pérenne du projet pilote;
+
+5° caractère novateur du projet pilote;
+
+6° autres effets positifs relatifs au caractère durable et aux facteurs socio-économiques;
+
+7° participation civique.
+
+Les régies communales autonomes sont dispensées du critère d'évaluation prévu à l'alinéa 1er, 1°. Il en sera tenu compte dans le calcul du nombre total de points.
+
+§ 2 - Si plusieurs projets qui excèdent les moyens budgétaires disponibles sont en concurrence, les projets présentant le nombre de points le plus élevé sont privilégiés.
+
+----------
+
+- §1 er complété par l'art. 6 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+##### Section 4 - Liquidation
+
+###### Sous-section 1 re - Frais de personnel et de fonctionnement
+
+Art icle 13
+
+§ 1 er - Au plus tard avant le 31 mars de l'année suivant leur engagement, les communes introduisent auprès de l'administration le décompte des frais de personnel et de fonctionnement. Pour être considéré comme complet, le décompte doit être accompagné des documents suivants :
+
+1° la liste des couts admissibles, y compris les pièces comptables et les preuves de paiement, une attestation de déductibilité de la TVA permettant de communiquer des informations sur le fait que l'impôt a été déduit pour les pièces produites;
+
+2° les contrats de travail et les fiches de paie des personnes concernées.
+
+3° un rapport sur les résultats.
+
+Au moment du décompte des frais de personnel et des frais administratifs, le rapport concernant le projet pilote est mis à jour dans l'outil d'aide à la planification des mesures visant à protéger le climat.
+
+Dans des cas particulièrement motivés, le Gouvernement peut prolonger le délai mentionné à l'alinéa 1 er .
+
+§ 2 - Les frais de traitement, les dépenses de bureau et les dépenses administratives ainsi que les frais de fonctionnement, dont les équipements de bureau, les frais de déplacement et les loyers, mentionnés à l'article 4, § 2, 1° et 2°, sont liquidés conformément à l'article 104, § 1 er , du décret du 25 mai 2009 relatif au règlement budgétaire de la Communauté germanophone.
+
+Le montant liquidé en douzièmes mensuels est estimé en se basant sur le plan des couts et du financement mentionné à l'article 11, § 1 er , alinéa 2, 7°, et, le cas échéant, corrigé en vertu du décompte annuel mentionné au § 1 er .
+
+§ 3 - La liquidation des subsides octroyés pour des frais de sensibilisation et de communication ainsi que pour les frais pour les prestataires et conseillers externes, destinés à la mise en œuvre du plan intégré pour l'énergie et le climat, s'opère chaque année, à concurrence des couts effectivement engagés et sur la base des preuves de dépenses.
+
+----------
+
+- modifié par l'art. 7 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+##### Sous-section 2 - Dépenses d'investissement
+
+Art icle 14
+
+§ 1 er - Au plus tard avant le 31 mars de l'année suivant leur engagement, les communes introduisent auprès de l'administration le décompte des dépenses d'investissement. Pour être considéré comme complet, le décompte doit être accompagné d'une liste des couts admissibles, y compris les pièces comptables et les preuves de paiement, ainsi que d'un rapport sur les résultats, une attestation de déductibilité de la TVA permettant de communiquer des informations sur le fait que l'impôt a été déduit pour les pièces produites.
+
+Au moment du décompte des dépenses d'investissement, le rapport concernant le projet pilote est mis à jour dans l'outil d'aide à la planification des mesures visant à protéger le climat. Parallèlement, il faudra introduire notamment une énumération justifiée de toutes les dérogations aux dépenses d'investissement figurant dans la demande de subsides.
+
+Dans des cas particulièrement motivés, le Gouvernement peut prolonger le délai mentionné à l'alinéa 1 er .
+
+La commune transmet à l'administration la demande de liquidation accompagnée des documents mentionnés à l'alinéa 1er au plus tard le 31 mars de l'année qui suit l'année calendrier qui fait l'objet du subside.
+
+----------
+
+- modifié par l'art. 8 de l' arrêté du 14.11.2024 (M.B. 25.03.2025). Entrée en vigueur le 01.01.2025
+
+Art icle 15
+
+La liquidation des subsides octroyés pour des dépenses d'investissement destinées à la mise en œuvre du plan intégré pour l'énergie et le climat s'opère chaque année, à concurrence des couts effectivement engagés et sur la base des preuves de dépenses.
+
+#### CHAPITRE 3 - Contrôle
+
+Art icle 16
+
+Le contrôle de l'utilisation des subsides octroyés en vertu du présent arrêté s'opère conformément aux dispositions de la loi du 16 mai 2003 fixant les dispositions générales applicables aux budgets, au contrôle des subventions et à la comptabilité des communautés et des régions, ainsi qu'à l'organisation du contrôle de la Cour des comptes.
+
+#### CHAPITRE 4 - Protection des données
+
+Art icle 17
+
+L'administration est responsable du traitement des données à caractère personnel mentionnées à l'article 13, § 1 er , 2°. Elle est réputée responsable du traitement de ces données au sens de l'article 4, 7), du règlement général sur la protection des données.
+
+L'administration traite les données à caractère personnel nécessaires pour l'octroi des subsides, à savoir la vérification de la conformité de la demande aux conditions d'octroi, l'octroi des subsides ainsi que, le cas échéant, la récupération des subsides indument liquidés.
+
+L'administration ne peut utiliser les données collectées à d'autres fins que celles de l'exercice de ses missions légales, décrétales ou fixées par le présent arrêté.
+
+Art icle 18
+
+La durée maximale de conservation n'excède pas le 31 décembre de l'année au cours de laquelle intervient la prescription de toutes les prétentions relatives à l'octroi de subsides ou à leur utilisation qui relèvent de la compétence des responsables du traitement conformément à l'article 17 et, le cas échéant, le paiement intégral de tous les montants y liés, ainsi que la cessation définitive des procédures et recours administratifs et judiciaires y liés, entamés relativement à l'octroi ou à l'utilisation des subsides.
+
+#### CHAPITRE 5 - Dispositions finales
+
+Art icle 19
+
+Le présent arrêté entre en vigueur le 1 er janvier 2022.
+
+Art icle 20
+
+Le Ministre compétent en matière d'Energie est chargé de l'exécution du présent arrêté.
+
+Eupen, le 23 décembre 2021.
+
+Pour le Gouvernement de la Communauté germanophone,
+
+Le Ministre-Président, Ministre des Pouvoirs locaux et des Finances
+
+O. PAASCH
+
+Le Vice-Ministre-Président, Ministre de la Santé et des Affaires sociales, de l'Aménagement du territoire et du Logement
+
+A. ANTONIADIS

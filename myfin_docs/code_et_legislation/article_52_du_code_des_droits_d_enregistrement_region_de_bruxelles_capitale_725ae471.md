@@ -1,0 +1,29 @@
+---
+guid: "725ae471-f188-48dd-9551-a8027915952c"
+title: "Article 52 du Code des droits d'enregistrement - Région de Bruxelles-Capitale"
+document_type: "Code et législation"
+language: "fr"
+document_date: "1989-12-22"
+publication_date: "1989-12-29"
+effective_date: "1990-01-01"
+last_modified: "2019-10-07"
+taxonomies: ["Région de Bruxelles-Capitale"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Législation et réglementation", "Code des droits d'enregistrement, d'hypothèque et de greffe", "Région de Bruxelles-Capitale"]
+linked_document_nl: "b63bfd85-9f1c-4dbc-80fb-724206e09782"
+found_via: "3eecf30d-9ff9-4aec-be55-f149653ef5ae"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/725ae471-f188-48dd-9551-a8027915952c"
+---
+
+# Article 52 du Code des droits d'enregistrement - Région de Bruxelles-Capitale
+
+Article 52 du Code des droits d'enregistrement - Région de Bruxelles-Capitale
+
+§ 3. Ventes aux acheteurs b é n é ficiaires de la prime gouvernementale
+
+Article 52 (applicable depuis le 01.01.1990 )
+
+(modifié par l’art. 146 de la loi du 22 déc. 1989 (M.B., 29.12.1989). Texte applicable depuis le 1 er janv. 1990 (art. 244) )
+
+Le droit est réduit à 1.50 p.c. pour les ventes d'habitations consenties par la Soci é t é nationale du Logement, Soci é t é nationale terrienne, les sociétés agréées par elles ou par les Sociétés Régionales créées en exécution de la loi du 28 décembre 1984 portant suppression ou restructuration de certains organismes d’intérêt public, le s administrations ou établissements publics, à une personne bénéficiant de la prime à l'achat accordée par l’Etat.
+
+Le retrait éventuel de cette prime entraîne l'obligation pour l'acquéreur de compléter le paiement du droit à concurrence du taux fixé par l' article 44 .

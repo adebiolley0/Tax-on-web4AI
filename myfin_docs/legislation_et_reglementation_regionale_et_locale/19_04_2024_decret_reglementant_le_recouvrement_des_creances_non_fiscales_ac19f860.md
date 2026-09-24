@@ -1,0 +1,391 @@
+---
+guid: "ac19f860-7fc2-4c9d-b2ef-3ecddb3c19a8"
+title: "19.04.2024 - Décret réglementant le recouvrement des créances non fiscales"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2024-04-19"
+publication_date: "2024-05-31"
+effective_date: "2024-12-08"
+last_modified: "2026-05-27"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Autorité flamande", "Autre législation et réglementation"]
+linked_document_nl: "33d6b938-a0b2-4f65-808e-ee4d25c0006f"
+found_via: "1bfab4af-9402-4169-8e6a-29c1d12ed734"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/ac19f860-7fc2-4c9d-b2ef-3ecddb3c19a8"
+---
+
+# 19.04.2024 - Décret réglementant le recouvrement des créances non fiscales
+
+19.04.2024 - Décret réglementant le recouvrement des créances non fiscales
+
+( M.B ., 31.05.2024 . – nr. Numac : 2024005001 – dernière modification : décret du 03.04.2026 – M.B. 23 . 04 .20 26 )
+
+Le PARLEMENT FLAMAND a adopté et Nous, GOUVERNEMENT, ratifions ce qui suit :
+
+Décret réglementant le recouvrement des créances non fiscales
+
+#### CHAPITRE 1er - Dispositions générales
+
+##### Section 1 re - Disposition introductive et définitions
+
+Article 1 er
+
+Le présent décret règle des matières communautaire et régionale.
+
+Article 2
+
+Dans le présent décret, on entend par :
+
+1° règlement général sur la protection des données : le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données) ;
+
+2° créances non fiscales : les sommes de nature non fiscale perçues ou recouvrées par les instances publiques appliquant les dispositions du présent décret, y compris, le cas échéant, les amendes administratives ;
+
+3° créances non fiscales incontestées : les créances non fiscales qui sont certaines et définitivement dues ;
+
+4° créances non fiscales exigibles : les créances non fiscales dont le délai de paiement a expiré ;
+
+5° frais accessoires : intérêts, frais de recouvrement, indemnités de procédure, frais de justice et frais de signification.
+
+##### Section 2 - Champ d'application
+
+Article 3
+
+§ 1er. Les instances publiques suivantes peuvent appliquer les dispositions du présent décret à tout ou partie des créances non fiscales incontestées et exigibles et aux frais accessoires :
+
+1° l'administration flamande, visée à l'article I.3, 2°, du Décret de gouvernance du 7 décembre 2018.
+
+2° les organismes publics flamands qui ne font pas partie de l'administration flamande, visés à l'article I.3, § 4°, du décret précité ;
+
+3° les services autonomes placés sous le contrôle du Parlement flamand, visés à l'article I.3, 1°, b), du décret précité ;
+
+4° les autorités locales, visées à l'article I.3, 5°, du décret précité, chargées d'exercer les matières déléguées ;
+
+5° l'asbl Sociale Dienst voor het Vlaams Overheidspersoneel.
+
+Par dérogation à l'alinéa 1er, 1°, les instances publiques suivantes sont tenues d'appliquer les dispositions du présent décret, à moins que ces instances publiques ne veuillent ou ne puissent être soumises aux dispositions du présent décret pour tout ou partie des créances non fiscales incontestées et exigibles et des frais accessoires, à condition d'en déclarer les motifs :
+
+1° les départements, visés à l'article I.3, 2°, a), du décret précité ;
+
+2° les agences autonomisées internes sans personnalité juridique, visées à l'article I.3,2°, b), du décret précité ;
+
+3° les agences autonomisées internes dotées de la personnalité juridique, visées à l'article I.3, 2°, c) du décret précité.
+
+Dans la mesure où la déclaration visée à l'alinéa 2 est faite par écrit, les dispositions du présent décret ne s'appliquent pas.
+
+Le Gouvernement flamand arrête les modalités relatives à la déclaration visée à l'alinéa 2.
+
+§ 2. Le site internet de l'entité compétente de l'administration flamande donne un aperçu actualisé :
+
+1° des instances publiques appliquant les dispositions du présent décret ;
+
+2° des créances non fiscales perçues ou récupérées par les instances publiques visées au point 1°, et recouvrées conformément aux dispositions du présent décret.
+
+#### CHAPITRE 2. - Recouvrement
+
+##### Section 1re. - Généralités
+
+Article 4.
+
+Le Gouvernement flamand désigne les membres du personnel de l'entité compétente de l'administration flamande et les charge de recouvrer les créances non fiscales incontestées et exigibles et les frais accessoires.
+
+Les membres du personnel visés à l'alinéa 1er agissent pour le compte des instances publiques appliquant les dispositions du présent décret.
+
+Article 5.
+
+Les membres du personnel visés à l'article 4 du présent décret peuvent utiliser le numéro d'identification, visé à l'article III.17 du Code de droit économique, pour identifier le débiteur lorsqu'il s'agit d'une personne morale.
+
+Les membres du personnel visés à l'article 4 du présent décret peuvent utiliser le numéro du registre national ou, à défaut, le numéro d'identification, visé à l'article 8 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale, pour identifier le débiteur lorsqu'il s'agit d'une personne physique.
+
+Article 6.
+
+Les membres du personnel visés à l'article 4 sont habilités à émettre un avis de contrainte.
+
+L'avis de contrainte, figurant à l'alinéa 1er, est visé et déclaré exécutoire par les membres du personnel, figurant à l'article 4.
+
+Article 7.
+
+Le Gouvernement flamand peut régler la manière d'agir des membres du personnel visés à l'article 4 et déterminer les modalités du recouvrement des créances non fiscales incontestées et exigibles et des frais accessoires, visés dans le présent chapitre.
+
+##### Section 2. - Poursuites directes
+
+Article 8.
+
+§ 1er. Sur la base de l'avis de contrainte, visé à l'article 6, une contrainte peut être signifiée par exploit d'huissier pour paiement dans les vingt-quatre heures sous peine d'exécution par saisie.
+
+La contrainte visée à l'alinéa 1er fait référence à l'avis de contrainte visé à l'article 6, qui est signifié en même temps que la contrainte.
+
+Sauf disposition contraire, la contrainte est régie par les dispositions de la partie V du Code judiciaire relative à la saisie conservatoire et aux voies d'exécution.
+
+Les paiements partiels effectués après la signification d'une contrainte n'empêchent pas la continuation des poursuites.
+
+§ 2. Le Gouvernement flamand peut arrêter des modalités en vue de l'application et de l'élaboration des poursuites directes, visées à la présente section.
+
+##### Section 3. - Poursuites indirectes
+
+Article 9
+
+L'avis de contrainte, visé à l'article 6, est notifié au débiteur avant l'application des poursuites indirectes. Si le débiteur n'a pas de domicile connu en Belgique ou à l'étranger, l'avis de contrainte est envoyé par lettre recommandée au Procureur du Roi de Bruxelles.
+
+Le Gouvernement flamand peut modaliser les poursuites indirectes, visées à la présente section.
+
+----------
+
+- alinéa 1 er complété par l’art. 30 du décret du 03.04.2026 (M.B. 23.04.2026). Entrée en vigueur le 03.05.2026
+
+##### Section 4. - Frais de recouvrement
+
+Article 10
+
+Le Gouvernement flamand peut modaliser les frais des poursuites directes et indirectes.
+
+##### Section 5. - Compétences d'enquête et secret professionnel
+
+Sous-section 1re. - Compétences d'enquête
+
+Article 11
+
+§ 1er. Les membres du personnel, visés à l'article 4 du présent décret, disposent des compétences d'enquête, visées aux articles 3.13.1.2.1 à 3.13.1.2.3, 3.13.1.2.5, 3.13.1.2.6, 3.13.1.3.1 à 3.13.1.3.6, 3.13.1.4.1 et 3.13.1.4.2 du Code flamand de la Fiscalité du 13 décembre 2013, pour déterminer la situation patrimoniale du débiteur en vue de recouvrer les créances non fiscales incontestées et exigibles et les frais accessoires.
+
+Les compétences des membres du personnel, visées à l'alinéa 1er, sont également exercées sans les restrictions à l'égard des institutions, visées aux articles 3.13.1.2.5, 3.13.1.3.1, §§ 2 à 5, et 3.13.1.4.1 du Code flamand de la Fiscalité du 13 décembre 2013.
+
+§ 2. Le Gouvernement flamand peut modaliser l'exercice des compétences d'enquête, visées à la présente sous-section.
+
+Sous-section 2. - Secret professionnel et obligation de secret
+
+Article 12.
+
+L'article 3.19.0.0.1 du Code flamand de la Fiscalité du 13 décembre 2013 s'applique mutatis mutandis.
+
+Article 13.
+
+Les informations dont dispose l'entité compétente de l'administration flamande en application de l'article 11 du présent décret sont soumises à l'obligation de secret, visée à l'article 3.19.0.0.2 du Code flamand de la Fiscalité du 13 décembre 2013.
+
+##### Section 6. - Modalités de paiement
+
+Article 14.
+
+Nonobstant l'application des dispositions spécifiques des lois, décrets et règlements, les membres du personnel visés à l'article 4 peuvent, à la demande du débiteur, accorder un étalement ou un report de paiement des créances non fiscales incontestées et exigibles et des frais accessoires.
+
+En cas de difficultés de paiement, le débiteur peut bénéficier d'un étalement ou d'un report de paiement, visés à l'alinéa 1er.
+
+Le débiteur motive la demande visée à l'alinéa 1er et joint les pièces justificatives nécessaires concernant ses difficultés de paiement.
+
+Article 15.
+
+Les membres du personnel, visés à l'article 4, peuvent accorder une exonération totale ou partielle des intérêts si le débiteur est manifestement insolvable.
+
+Article 16.
+
+L'imputation des paiements effectués par le débiteur ou par un tiers s'effectue dans l'ordre suivant :
+
+1° sur les frais de toute nature ;
+
+2° sur les intérêts ;
+
+3° sur la créance non fiscale incontestée et exigible.
+
+Article 17.
+
+Le Gouvernement flamand peut arrêter les modalités et conditions des paiements visés à la présente section.
+
+##### Section 7 - Interruption de la prescription
+
+----------
+
+- inséré par l’art. 3 1 du décret du 03.04.2026 (M.B. 23.04.2026). Entrée en vigueur le 03.05.2026
+
+Article 17/1
+
+Sans préjudice de l'application des dispositions spécifiques prévues par les lois, décrets et règlements, la prescription des créances non fiscales incontestées et exigibles peut être interrompue par l'envoi au moyen d'une lettre recommandée, de toute sommation de paiement reprenant de manière complète et sans ambiguïté les données de la créance. Les membres du personnel visés à l'article 4, envoient la sommation de paiement par courrier recommandé.
+
+La prescription est interrompue à compter de l'envoi de la sommation de paiement par lettre recommandée visée à l'alinéa 1er, la date du cachet de la poste figurant sur la preuve d'envoi faisant foi. Si le débiteur n'a pas de domicile connu en Belgique ou à l'étranger, la sommation de paiement est envoyée par lettre recommandée au Procureur du Roi de Bruxelles.
+
+Si l'avis de contrainte visé à l'article 6, n'a pas encore été notifié au débiteur, il peut être envoyé par courrier recommandé, accompagné de la sommation de paiement visée à l'alinéa 1er.
+
+----------
+
+- inséré par l’art. 3 2 du décret du 03.04.2026 (M.B. 23.04.2026). Entrée en vigueur le 03.05.2026
+
+#### CHAPITRE 3. - Traitement des données à caractère personnel
+
+Article 18.
+
+L'entité compétente de l'administration flamande peut traiter des données à caractère personnel si cela est nécessaire à l'accomplissement d'une tâche d'intérêt public, à savoir pour assurer, conformément au présent décret, le recouvrement des créances non fiscales incontestées et exigibles et des frais accessoires.
+
+Article 19.
+
+L'entité compétente de l'administration flamande est le responsable du traitement tel que visé à l'article 4, 7), du règlement général sur la protection des données, pour le traitement des données à caractère personnel visées à l'article 18 du présent décret.
+
+Article 20.
+
+Les catégories suivantes de données à caractère personnel peuvent être traitées aux fins de l'article 18 du présent décret :
+
+1° le numéro du registre national ou le numéro d'identification, figurant à l'article 8 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale ;
+
+2° le numéro d'identification, visé à l'article III.17 du Code de droit économique ;
+
+3° les données d'identification personnelles ;
+
+4° les caractéristiques personnelles, à savoir âge, date de naissance, lieu de naissance, état civil et nationalité ;
+
+5° les particularités financières, y compris les données relatives au recouvrement ;
+
+6° profession et emploi ;
+
+7° composition du ménage ;
+
+8° les caractéristiques du bâtiment et du logement ;
+
+9° les habitudes de vie et de consommation, en particulier les données sur la propriété de biens immobiliers ;
+
+10° données judiciaires ;
+
+11° données relatives aux affaires fiscales.
+
+Article 21.
+
+Les données à caractère personnel des catégories suivantes de personnes concernées peuvent être traitées aux fins de l'article 18 du présent décret :
+
+1° la personne physique dans le chef de laquelle les créances non fiscales et les frais accessoires sont nés ;
+
+2° la personne physique redevable des créances non fiscales et des frais accessoires en vertu du présent décret ou du droit commun ;
+
+3° les représentants légaux des personnes physiques visées aux points 1° et 2°, ou les représentants légaux de la personne morale dans le chef de laquelle les créances non fiscales et les frais accessoires sont nés, ou de la personne morale redevable des créances non fiscales et des frais accessoires en vertu du présent décret ou du droit commun ;
+
+4° les mandataires des personnes physiques visées aux points 1° et 2°, ou les mandataires de la personne morale dans le chef de laquelle les créances non fiscales et les frais accessoires sont nés, ou de la personne morale redevable des créances non fiscales et des frais accessoires en vertu du présent décret ou du droit commun ;
+
+5° les personnes physiques, visées aux articles 3.13.1.3.1 à 3.13.1.3.6 du Code flamand de la Fiscalité du 13 décembre 2013, auxquelles l'entité compétente de l'administration flamande peut s'adresser dans le cadre de l'exercice des compétences d'enquête, visées à l'article 11 du présent décret ;
+
+6° les personnes physiques auxquelles l'entité compétente de l'administration flamande s'adresse dans le cadre des poursuites indirectes, visées à l'article 9 du présent décret ;
+
+7° les tiers auxquels l'entité compétente de l'administration flamande a confié l'exécution des actes nécessaires à l'accomplissement des tâches dont elle est chargée en vertu du présent décret.
+
+Article 22.
+
+§ 1er. Sous réserve du paragraphe 2, les données à caractère personnel, visées à l'article 20 du présent décret, peuvent être échangées avec les catégories suivantes de destinataires aux fins de l'article 18 du présent décret :
+
+1° des instances publiques appliquant les dispositions du présent décret ;
+
+2° la personne physique ou morale dans le chef de laquelle les créances non fiscales et les frais accessoires sont nés ;
+
+3° la personne physique ou la personne morale redevable des créances non fiscales et des frais accessoires en vertu du présent décret ou du droit commun ;
+
+4° les représentants légaux des personnes physiques ou morales, visées aux points 2° et 3° ;
+
+5° les mandataires des personnes physiques ou morales, visées aux points 2° et 3° ;
+
+6° les tiers, visés aux articles 3.13.1.3.1 à 3.13.1.3.6 du Code flamand de la Fiscalité du 13 décembre 2013, ainsi que les organismes et structures publics, visés aux articles 3.13.1.4.1 et 3.13.1.4.2 du code précité, auxquels l'entité compétente de l'administration flamande s'adresse dans le cadre de l'exercice des compétences d'enquête, visées à l'article 11 du présent décret ;
+
+7° les tiers auxquels l'entité compétente de l'administration flamande s'adresse dans le cadre des poursuites indirectes, visées à l'article 9 du présent décret.
+
+§ 2. Lorsque l'entité compétente de l'administration flamande confie à un tiers l'exécution des actes nécessaires à l'accomplissement des tâches dont elle est chargée conformément au présent décret, cette entité est autorisée, uniquement aux fins de l'exécution de ces actes, à communiquer à ce tiers les données à caractère personnel, visées à l'article 20, nécessaires à l'exécution de ces actes.
+
+Le tiers, visé à l'alinéa 1er, ne peut disposer des données à caractère personnel concernées que pour le temps nécessaire à l'exécution de ces actes, et il ne peut utiliser ces données à caractère personnel qu'à cette fin et à des fins qui ne sont pas incompatibles avec la finalité précitée.
+
+Article 23.
+
+Nonobstant l'application de leur conservation nécessaire en vue du traitement ultérieur, à des fins archivistiques dans l'intérêt public, à des fins de recherche scientifique ou historique ou à des fins statistiques, telles que visées dans l'article 89 du règlement général sur la protection des données, les données à caractère personnel, visées à l'article 20 du présent décret, sont conservées pendant la durée nécessaire aux finalités visées à l'article 18 du présent décret, avec un délai maximum de conservation de dix ans après la clôture du dossier.
+
+Article 24.
+
+Le Gouvernement flamand peut arrêter les modalités relatives au traitement des données personnelles et les garanties appropriées pour les droits et libertés des personnes concernées.
+
+#### CHAPITRE 4. - Dispositions modificatives
+
+##### Section 1re. - Modification du décret du 30 avril 2004 relatif au contrôle des lois sociales.
+
+Article 25.
+
+Dans l'article 17, § 8, alinéa 1er du décret du 30 avril 2004 relatif au contrôle des lois sociales, le membre de phrase « des décrets du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales, respectivement pour la Communauté flamande et la Région flamande et les organismes qui en relèvent » est remplacé par le membre de phrase « du décret du 19 avril 2024 réglementant le recouvrement des créances non fiscales ».
+
+##### Section 2. - Modification du décret du 7 juin 2013 relatif à la politique flamande d'intégration et d'insertion civique
+
+Article 26.
+
+Dans l'article 40, § 2, alinéa 7 du décret du 7 juin 2013 relatif à la politique flamande d'intégration et d'insertion civique, le membre de phrase « du décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Communauté flamande et les organismes qui en relèvent, et du décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Région flamande et les organismes qui en relèvent » est remplacé par le membre de phrase « du décret du 19 avril 2024 réglementant le recouvrement des créances non fiscales ».
+
+##### Section 3. - Modifications du décret Panier de croissance de 2018
+
+Article 27.
+
+Dans l'article 150, 5°, a), l'article 163, 7°, a), et l'article 169 du décret Panier de croissance de 2018, modifié par le décret du 1er juillet 2022, le membre de phrase « à l'article 2 du décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Communauté flamande et les organismes qui en relèvent » est remplacé par le membre de phrase « au décret du 19 avril 2024 réglementant le recouvrement des créances non fiscales ».
+
+Article 28.
+
+Dans l'article 187 du même décret, remplacé par le décret du 1er juillet 2022, le membre de phrase « à l'article 2 du décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Communauté flamande et les organismes qui en relèvent » est remplacé par le membre de phrase « au décret du 19 avril 2024 réglementant le recouvrement des créances non fiscales ».
+
+##### Section 4. - Modification du décret Gouvernance du 7 décembre 2018
+
+Article 29.
+
+L'article III.21 du décret Gouvernance du 7 décembre 2018 est abrogé.
+
+##### Section 5. - Modification du décret Navigation du 21 janvier 2022
+
+Article 30.
+
+Dans l'article 79, § 3, alinéa 2 du décret Navigation du 21 janvier 2022, modifié par le décret du 31 mars 2023, le membre de phrase « du décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Région flamande et les organismes qui en relèvent » est remplacé par le membre de phrase « du décret du 19 avril 2024 réglementant le recouvrement des créances non fiscales ».
+
+#### CHAPITRE 5. - Dispositions finales
+
+##### Section 1re. - Disposition dérogatoire et disposition transitoire
+
+Article 31.
+
+Les règlements suivants sont abrogés :
+
+1° le décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Communauté flamande et les organismes qui en relèvent, modifié par les décrets des 16 juin 2006, 23 décembre 2016 et 8 décembre 2017 ;
+
+2° le décret du 22 février 1995 fixant les règles relatives au recouvrement des créances non fiscales pour la Région flamande et les organismes qui en relèvent, modifié par les décrets des 16 juin 2006, 23 décembre 2016 et 8 décembre 2017.
+
+Article 32.
+
+La Communauté flamande, la Région flamande et les organismes qui en relèvent n'appliquent pas les dispositions du présent décret au recouvrement des créances non fiscales et des frais accessoires qu'ils ont introduits avant la date d'entrée en vigueur du présent décret pour recouvrement auprès de l'administration du Service public fédéral Finances chargée de la perception et du recouvrement des créances non fiscales.
+
+Dans ce cas, les créances non fiscales et frais accessoires, visés à l'alinéa 1er, sont recouvrés en vertu de :
+
+1° la loi domaniale du 22 décembre 1949 ;
+
+2° la loi du 18 décembre 1986 habilitant l'administration du Service public fédéral Finances en charge de la perception et du recouvrement des créances non fiscales à effectuer le recouvrement des créances non fiscales pour le compte des Communautés, des Régions, ainsi que des organismes d'intérêt public qui en dépendent ;
+
+3° le décret du 23 décembre 1986 habilitant l'Administration de la taxe sur la valeur ajoutée, de l'enregistrement et des domaines, à réaliser certaines opérations patrimoniales, pour compte de la Communauté flamande et des institutions qui en relèvent ;
+
+4° le décret du 23 décembre 1986 habilitant l'Administration de la taxe sur la valeur ajoutée, de l'enregistrement et des domaines, à réaliser certaines opérations patrimoniales, pour compte de la Région flamande et des institutions qui en relèvent ;
+
+5° le Code du recouvrement amiable et forcé des créances fiscales et non fiscales du 13 avril 2019.
+
+##### Section 2. - Disposition d'entrée en vigueur
+
+Article 33.
+
+Le présent décret entre en vigueur à une date à fixer par le Gouvernement flamand.
+
+----------
+
+- l’art. 20 de l’arrêté du 08.11.2024 fixe l’ entrée en vigueur au 08.12.2024
+
+Promulguons le présent décret, ordonnons qu'il soit publié au Moniteur belge.
+
+Bruxelles, le 19 avril 2024.
+
+Le ministre-président du Gouvernement flamand,
+
+J. JAMBON
+
+Le ministre flamand des Finances et du Budget, du Logement et du Patrimoine immobilier,
+
+M. DIEPENDAELE
+
+_______
+
+Note
+
+(1) Session 2023-2024
+
+Documents : - Projet de décret : 2037 - N° 1
+
+- Rapport : 2037 - N° 2
+
+- Texte adopté en séance plénière : 2037 - N° 3
+
+Annales - Discussion et adoption : Session du 17 avril 2024.

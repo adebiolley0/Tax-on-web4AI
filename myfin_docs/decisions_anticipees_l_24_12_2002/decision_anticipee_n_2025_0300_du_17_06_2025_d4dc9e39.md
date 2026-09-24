@@ -1,0 +1,271 @@
+---
+guid: "d4dc9e39-90b1-427f-9305-35119ade5b81"
+title: "Décision anticipée n° 2025.0300 du 17.06.2025"
+document_type: "Décisions anticipées (L 24.12.2002)"
+language: "fr"
+document_date: "2025-06-17"
+publication_date: null
+effective_date: null
+last_modified: "2025-07-23"
+taxonomies: ["Décisions anticipées (L 24.12.2002)", "Rulings", "Rulings"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Rulings", "Décisions anticipées (L 24.12.2002)"]
+linked_document_nl: "e37e008e-9b22-413f-9f3f-d858d82e15ca"
+found_via: "d81185c5-2d22-4218-bac7-bc39fe2f3d1b"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/d4dc9e39-90b1-427f-9305-35119ade5b81"
+---
+
+# Décision anticipée n° 2025.0300 du 17.06.2025
+
+Décision anticipée n° 2025.0300 du 17.06.2025
+
+TVA
+
+Assujettissement
+
+Exemption
+
+Notion de but lucratif
+
+Régie Communale Autonome
+
+Droit à déduction
+
+IMPOT DES SOCIETES
+
+Capital fiscal libéré
+
+DROITS D’ENREGISTREMENT
+
+Droit de superficie en faveur d’une régie communale autonome
+
+Résumé
+
+Une Régie Communale Autonome qui exploite des infrastructures sportives au moyen de son propre personnel et dont les statuts prévoient que ses bénéfices nets seront versés annuellement à la caisse communale, est en principe un organisme à but lucratif et a par conséquent la qualité d’assujetti avec droit à déduction, pour autant que le but de lucre revendiqué se concrétise par la réalisation de bénéfices et par la distribution effective de ceux-ci à la Commune. Par ailleurs, cette régie peut être considérée comme assujettie à l’ISOC au sens des articles 2, § 1 er , 5°, 179 et 182, 3°, du CIR 92. Les apports en numéraire réalisés par la Commune pourront être qualifiés de capital fiscal libéré au sens de l’article 184 du CIR 92. Enfin, la constitution d’un droit de superficie par la Commune en faveur de cette régie bénéficie de l’enregistrement gratuit dans la mesure où les conditions prévues par l’article 161, 2° du Code des droits d’enregistrement, d’hypothèque et de greffe sont remplies.
+
+I. Objet de la demande
+
+1. La demande vise en particulier à obtenir les confirmations suivantes :
+
+1.1. la RCA peut déduire la TVA portant sur les énergies, les fluides, les travaux d’entretien et de réparation, les investissements et les futurs investissements ainsi que les différentes charges en amont relatives aux activités et parties des infrastructures exploitées par cette dernière avec application de la TVA ;
+
+1.2. la RCA est assujettie à l’impôt des sociétés au sens des articles 2, § 1 er , 5° et 179 du Code des Impôts sur les Revenus 1992 (ci-après : CIR 92) ; dans ce cadre, le capital de la RCA constitue du capital libéré au sens de l’article 184 du CIR 92 ;
+
+1.3. la RCA peut bénéficier de l’enregistrement gratuit d’un acte de constitution d’un droit de superficie portant sur la parcelle cadastrale sur laquelle sera construit le futur Complexe sportif conformément à l’article 161, 2° du Code des Droits d’Enregistrement , d’hypothèque et de greffe applicable en Région wallonne (ci-après : C . enr . ).
+
+II. Description des faits
+
+Description du projet
+
+2. La Commune est propriétaire d’un terrain qu’elle souhaite transférer à la Régie Communale Autonome. Sur ce terrain sera construit le futur complexe sportif.
+
+Le futur Complexe sportif
+
+3. Ce site sportif est situé à X.
+
+4. Préalablement à la construction du futur Complexe sportif, la Commune octroiera un droit réel démembré sur le terrain au profit de la RCA qui procèdera à la construction.
+
+5. Le futur Complexe sportif sera composé notamment d’une grande salle multisports, d’une petite salle multisports, d’une salle d’arts martiaux, une salle de danse et un espace accueil/bureau.
+
+6. Les disciplines sportives qui y sont pratiquées sont principalement l’escrime, le volley, le tennis de table, le badminton, le fitness, le volley, le yoga, la danse, le renforcement musculaire, le judo et le Krav Maga.
+
+7. Les utilisateurs seront différents clubs, associations, bénéficiaires du CPAS, particuliers et les écoles communales.
+
+8. L’investissement est actuellement évalué à X Mio EUR TVAC hors honoraires de l’auteur de projet qui s’élèvent à Y K EUR TVAC. La durée des travaux est estimée à 18 mois. Ils débuteront idéalement en 202X.
+
+Divers
+
+9. La RCA exploitera également les infrastructures suivantes : la plaine des sports, 3 salles culturelles.
+
+10. La plaine des sports sera transférée dans le patrimoine de la RCA par le biais d’un droit de superficie.
+
+11. Les salles culturelles seront exploitées par la RCA moyennant une convention de mise à disposition et resteront par conséquent la propriété de la Commune.
+
+12. Toutefois, ces infrastructures ne seront pas exploitées par la RCA avec application de la TVA. Les opérations y effectuées seront en effet soit hors-champs de la TVA, soit exemptées de TVA (mise à disposition gratuite ou exemptée de TVA).
+
+13. Elle ne déduira pas la TVA relative à ces opérations. La présente demande ne porte dès lors pas sur ces infrastructures.
+
+Description de la demande
+
+Transfert du terrain de la Commune dans le patrimoine de la RCA
+
+14. Le terrain sur lequel sera érigé le nouveau Complexe sportif fera l’objet d’un transfert par la Commune dans le patrimoine de la RCA par le biais d’un droit de superficie.
+
+15. Le Conseil communal fixera les conditions de constitution du droit de superficie conformément au Titre 8 du Livre 3 du Code civil.
+
+16. Le droit de superficie sur ce terrain sera consenti par la Commune au bénéfice de la RCA en exemption de la TVA par application de l’article 44, § 3, 1°, b), al. 1 C.TVA .
+
+Construction du Complexe sportif
+
+17. La RCA sera maître d’ouvrage de la construction du nouveau Complexe sportif. La construction n’a pas encore débuté. Le début des travaux est prévu pour l’année 202X.
+
+18. Concernant ces travaux de construction, la RCA, en tant qu’assujetti identifié à la TVA, se verra adresser les factures par les entrepreneurs sans TVA et paiera et déduira la TVA due sur lesdits travaux par le biais d’un report dans sa déclaration TVA périodique conformément à l’article 51, § 2, 5° du C.TVA .
+
+19. Toutefois, elle se fera adresser des factures avec application de la TVA en ce qui concerne les travaux immatériels (honoraires des auteurs de projet).
+
+20. Une fois la construction de cette infrastructure achevée, la RCA l’exploitera directement de la manière décrite ci-dessous.
+
+Futur Complexe sportif
+
+21. En qualité d’exploitante directe, la RCA recevra à son nom l’ensemble des factures qui y sont relatives et émettra à son nom l’ensemble des factures relatives aux recettes.
+
+22. Dans le cadre de l’exploitation de ces infrastructures sportives, les clubs sportifs, écoles, bénéficiaires du CPAS, associations et particuliers qui viennent y pratiquer du sport paieront, à la RCA, un droit d’accès aux infrastructures sportives.
+
+23. La RCA sera responsable des plannings d’occupation de sorte qu’aucun utilisateur ne pourra bénéficier d’un droit d’accès exclusif.
+
+24. La RCA conclura, avec les différents utilisateurs souhaitant pratiquer la culture physique ou sportive dans les installations sportives, une convention leur accordant le droit de pénétrer dans les installations et d’en user conformément à leur destination conjointement avec d’autres utilisateurs moyennant rémunération.
+
+25. La RCA est tenue de soumettre à la TVA toutes les recettes provenant de l’exploitation des infrastructures sportives.
+
+III. Décision
+
+26. La demande respecte le prescrit des articles 21 et 22 de la loi du 24 décembre 2002 modifiant le régime des sociétés en matière d’impôts sur les revenus et instaurant un système de décision anticipée en matière fiscale.
+
+Impôts sur les Revenus
+
+Assujettissement à l’impôt des sociétés
+
+27. L’article 2, § 1 er , 5°, du CIR 92 précise que « pour l'application du présent Code, des dispositions légales particulières relatives aux impôts sur les revenus et des arrêtés pris pour leur exécution, les termes suivants ont le sens défini dans le présent article.
+
+5° Sociétés
+
+On entend par :
+
+a) société : toute société, association, établissement ou organisme quelconque qui se livre à une exploitation ou à des opérations de caractère lucratif et qui :
+
+- soit possède la personnalité juridique en vertu du droit, belge ou étranger, qui le régit ;
+
+- soit est régie par un droit étranger qui ne lui accorde pas la personnalité juridique mais a une forme juridique analogue à celle d’une société de droit belge dotée de la personnalité juridique en vertu du droit belge et répond à la définition de société résidente visée au b) ci-dessous ;
+
+Les organismes de droit belge possédant la personnalité juridique qui, pour l'application des impôts sur les revenus, sont censés être dénués de la personnalité juridique, ne sont pas considérés comme des sociétés ».
+
+28. L’article 179 du CIR 92 prévoit que « sont assujetties à l'impôt des sociétés, les sociétés résidentes et les organismes de financement de pensions visés à l'article 8 de la loi du 27 octobre 2006 relative au contrôle des institutions de retraite professionnelle ».
+
+29. L’article 182, 3°, du CIR 92 stipule que « dans le chef des associations sans but lucratif et des autres personnes morales qui ne poursuivent pas un but lucratif, ne sont pas considérées comme des opérations de caractère lucratif :
+
+3° les opérations qui constituent une activité ne comportant qu'accessoirement des opérations industrielles, commerciales ou agricoles ou ne mettant pas en œuvre des méthodes industrielles ou commerciales ».
+
+30. Comme précisé par le demandeur, la RCA aura comme activité principale l’exploitation d’infrastructures affectées à des activités sportives.
+
+31 . Cette activité constitue l’une des activités à caractère industriel ou commercial pour lesquelles le conseil communal peut créer une RCA (article 1 er de l’AR du 10 avril 1995 déterminant les activités à caractère industriel ou commercial pour lesquelles le conseil communal peut créer une RCA dotée de la personnalité juridique).
+
+32. Par ailleurs, selon les dispositions régionales applicables, la gestion des RCA se fait selon des méthodes industrielles ou commerciales et les bénéfices nets sont versés annuellement à la caisse communale.
+
+33. Sur la base de ce qui précède, la RCA peut être considérée comme se livrant principalement à des opérations de caractère lucratif et par conséquent sera assujettie à l’impôt des sociétés.
+
+Capital libéré au sens de l’article 184 du CIR 92
+
+34. L’article 2, § 1 er , 6°, du CIR 92 précise qu’on entend par :
+
+« a) "Capital", dans le chef d'une société :
+
+1) le capital d'une société anonyme, tel que prévu par le Code des sociétés et des associations, ou, pour une société ayant une autre forme juridique pour laquelle le droit belge ou étranger qui la régit prévoit une notion analogue, cette notion telle que prévue dans ce droit ;
+
+2) pour les formes de sociétés pour lesquelles le droit belge ou étranger qui régit la société ne prévoit pas une notion analogue, les capitaux propres de la société tels que prévus par le droit belge ou étranger qui régit la société, dans la mesure où ils sont formés par des apports en numéraire ou en nature, autres que des apports en industrie.
+
+b) Capital libéré :
+
+Tant pour une société résidente que pour une société étrangère, le capital réellement libéré au sens de ce qui est prévu en matière d'impôt des sociétés. »
+
+35. L’article 184 du CIR 92 stipule que « le capital libéré est le capital dans la mesure où celui-ci est formé par des apports réellement libérés en numéraire ou en nature, autres qu’en industrie, et où il n’a fait l’objet d’aucun remboursement ou réduction.
+
+Dans la mesure où elles ne sont pas visées par l’alinéa 1 er , les primes d’émission et autres sommes souscrites par des apports réellement libérés en numéraire ou en nature, autres qu’en industrie, à l’occasion de l’émission d’actions ou parts ou de parts bénéficiaires sont assimilées au capital libéré à la condition d’être portées et maintenues à un ou plusieurs comptes distincts dans les capitaux propres au passif du bilan.
+
+Dans les associations, fondations, sociétés et autres organismes possédant la personnalité juridique qui poursuivent un but désintéressé, les alinéas 1 er et 2 s’appliquent uniquement à la partie des apports qui peuvent être légalement repris par l’apporteur ou ses ayants droit ».
+
+36 . L’article 1:8 du Code des sociétés et des associations précise que :
+
+« § 1 er . L'apport est l'acte par lequel une personne met quelque chose à disposition d'une société à constituer ou d'une société existante pour en devenir associé ou accroître sa part d'associé, et dès lors participer aux bénéfices.
+
+§ 2. L'apport en numéraire est l'apport d'une somme d'argent.
+
+(…) ».
+
+37. En l’espèce, conformément aux articles L1231-4 à 1231-13 du Code de la Démocratie Locale et de la Décentralisation, la Régie communale autonome est une structure juridique dotée d’une personnalité juridique distincte de la commune qui permet à cette dernière de gérer certaines de ses activités à caractère commercial et industriel de manière décentralisée.
+
+38. Comme précisé par le demandeur, la Commune mettra à disposition de la RCA des moyens financiers afin de lui permettre de financer ses activités. Ces sommes seront comptabilisées sous la rubrique « Capital ».
+
+39. Conformément à l’article 2, § 1 er , 6°, b), du CIR 92, les apports en numéraires réalisés par la Commune constitueront des capitaux propres dans le chef de la RCA et, dans la mesure où ils n’auront fait l’objet d’aucun remboursement ou réduction, qualifieront de capital fiscal libéré au sens de l’article 184 du CIR 92.
+
+TVA
+
+Existence d’un but lucratif dans le chef de la RCA
+
+40. Les RCA dotées de la personnalité juridique et visées aux articles L 1231-4 à L 1231-11 du Code de la Démocratie Locale et de la Décentralisation ne relèvent pas de l’article 6 du C.TVA mais du régime de droit commun de l’assujettissement visé à l’article 4 du C.TVA .
+
+41. En l’espèce, la RCA étant donc bien un assujetti au sens de l’article 4 du C.TVA , reste à déterminer si ses activités futures lui conféreront ou non la qualité d’assujetti avec droit à déduction de la taxe.
+
+42. A cet égard, en ce qui concerne l’exploitation d’infrastructures sportives telle qu’envisagée par la RCA, l’article 44, § 2, 3°, du C.TVA exempte de la taxe « les prestations de services fournies par les exploitants d’établissements d’éducation physique ou d’installations sportives aux personnes qui y pratiquent la culture physique ou une activité sportive, lorsque ces exploitants sont des organismes qui ne poursuivent pas un but lucratif et que les recettes qu'ils retirent des activités exemptées servent exclusivement à en couvrir les frais ».
+
+43. Pour que cette exemption soit applicable, il est donc requis que les prestations de services soient effectuées par un organisme qui ne poursuit pas de but lucratif.
+
+44. Sur ce point, dans l’arrêt qu’elle a rendu le 21 mars 2002 dans l’affaire C-174/00, Kennemer Golf & Country Club c. Staatssecretaris van Financiën , la Cour de Justice des Communautés européennes (CJCE) a précisé qu’un organisme peut être qualifié comme étant « sans but lucratif » aussi longtemps qu’il ne distribue pas ses bénéfices à titre de profit à ses membres et qu’il les affecte à l’exécution de ses prestations et ce, même s’il cherche systématiquement à générer des excédents (v. point 28 et dispositif de cet arrêt).
+
+45. En l’espèce, dans la mesure où les statuts de la RCA prévoient que les bénéfices nets de la RCA seront versés annuellement à la caisse communale, il convient de considérer que celle-ci a, a priori, un but lucratif et que l’exemption prévue par l’article 44, § 2, 3°, du C . TVA ne lui sera donc pas applicable.
+
+46. Cette position ressort d’ailleurs de la réponse apportée par M. Jamar , Ministre de la Modernisation des finances et de la Lutte contre la fraude fiscale, à une question parlementaire orale de M. le représentant Peeters. Dans cette réponse, le Ministre confirme qu’en ce qui concerne les RCA dont les statuts font apparaître qu’elles ont un but lucratif et qu’elles entendent distribuer leurs bénéfices, l’assujettissement avec droit à déduction n’est pas contestable.
+
+47. Toutefois, dans une réponse à une question parlementaire de Mme V. Warzée - Caverenne , M. Geens, Ministre des Finances, précise que les RCA qui développent des activités dont l'exemption est subordonnée à l'absence de but lucratif, tombent en dehors du champ d'application de ces exemptions lorsque leurs statuts prévoient que les bénéfices éventuels seront distribués aux membres, et que cela s'est effectivement produit.
+
+48. En outre, dans sa réponse à une question parlementaire de M. Dispa , M. Van Overtveldt , Ministre des Finances, précise qu’il convient encore d’examiner si les dispositions statutaires ne sont pas purement théoriques et si, le cas échéant, on peut en conclure qu’une exemption est d’application. Ce sera le cas lorsqu’un déficit survient dans le chef de la RCA parce que les prix réclamés au public de l’organisme ne suffisent pas à couvrir les frais d'exploitation et que, par conséquent, il est de facto impossible de distribuer des bénéfices. Pour ce faire, c'est le résultat opérationnel de l'activité globale de la RCA qui doit être pris en compte. A cet égard, les subsides de fonctionnement mis à la disposition de la RCA par la commune, compte tenu du lien étroit qui unit celles-ci, ne doivent pas être considérés comme des recettes de la RCA. Les subventions directement liées au prix attribuées à la RCA par la commune (et qui sont incluses dans la base d’imposition des services prestés, conformément à l’article 26 du C.TVA ) doivent par contre être ajoutées aux recettes de la RCA afin de déterminer si les dispositions statutaires relatives au but de lucre et à l’objectif visant à distribuer des bénéfices sont ou non théoriques.
+
+49. Dans le même ordre d’idées, toujours compte tenu du lien étroit qui unit la Commune et sa RCA, les subsides en capital mis à disposition de la RCA par la Commune ne doivent pas non plus être considérés comme des recettes de la RCA lorsqu’il s’agit d’apprécier l’existence d’un but lucratif dans son chef.
+
+50. La manière de fonctionner décrite aux points 50.1. à 50.5. ci-après permet d’éviter toute confusion entre les subsides de fonctionnement ou en capital, qui ne sont pas considérés comme des recettes de la RCA pour l’appréciation de son but lucratif, et les subsides liés au prix, qui font partie de la base d’imposition des services prestés par la RCA et qui sont considérés comme des recettes de la RCA pour l’appréciation de son but lucratif :
+
+50.1. avant le début de ses activités ou avant le début d’un nouvel exercice comptable, la RCA déterminera le prix de chacune des prestations de services qu’elle fournira (le cas échéant, pour chacune de ces prestations, un prix différent sera fixé en fonction de la nature du preneur de ces prestations (résident de la commune ou non, membre d’un club, école, ...)) ;
+
+50.2. de la même manière, la Commune fixera, avant le début des activités de la RCA ou avant le début d’un nouvel exercice comptable de la RCA, le montant du subside lié au prix qu’elle entend attribuer à chaque prestation de services fournie par la RCA (le cas échéant, en distinguant selon la nature du preneur des prestations) ; il est donc requis que le montant des subsides liés au prix soit déterminé avant toute fourniture de prestations par la RCA ;
+
+50.3. les montants des subsides liés au prix, individualisés conformément au point 50.2. ci-avant, ne pourront être revus que deux fois par an (à nouveau, l'attention est attirée sur le fait que les subsides liés au prix seront exclusivement adaptés pour les futures prestations) ; la charge de la preuve de la date d’entrée en vigueur de ces nouveaux montants de subsides et du fait qu’ils ne sont pas utilisés rétroactivement incombera à la RCA ;
+
+50.4. les montants des subsides liés au prix, individualisés conformément aux points 50.2. et 50.3. ci-avant, sont calculés sur le nombre réel de prestations fournies par la RCA et non sur un nombre estimé en début d’activité ou en début d’exercice comptable ;
+
+50.5. la TVA sur les subsides liés au prix deviendra exigible en fonction des règles applicables aux recettes auxquelles ils sont liés ; ces règles diffèrent en fonction de la qualité du preneur de ces services (assujetti exempté ou non (art. 22 et 22 bis , § 1 er , du C.TVA ), particulier (art. 22 bis , § 3, du C.TVA ) ou organisme public visé par l’article 6 du C.TVA (art. 22 bis , § 4)) ; la taxe due sur ces subsides sera reprise dans la déclaration TVA relative à la période où la TVA est devenue exigible.
+
+51. Ceci étant, compte tenu des réponses fournies à ces questions parlementaires et du plan financier transmis par la RCA (v. annexe 1), il convient donc de considérer que les opérations qu’elle effectuera dans le cadre de l’exploitation d’infrastructures sportives ne seront normalement pas couvertes par l’article 44, § 2, 3°, du C . TVA et qu’elles lui conféreront donc en principe la qualité d’assujetti avec droit à déduction, à condition évidemment que, sauf circonstances exceptionnelles, les lignes directrices du plan financier transmis se concrétisent, que les règles relatives aux subsides liés au prix soient respectées et que la RCA puisse effectivement réaliser des bénéfices et les distribuer à la Commune.
+
+Droit à déduction de la RCA
+
+52. Comme précisé par le demandeur, la RCA exploitera directement les infrastructures sportives, les infrastructures du Racing Club et le terrain multisports et que ces infrastructures ne seront utilisées que pour les besoins d’opérations soumises à la taxe. Par conséquent, s’il en est bien ainsi, la RCA bénéficiera d’un droit à déduction totale, conformément à l’article 45, § 1 er , du C.TVA .
+
+53. Par ailleurs, vous précisez que la RCA exploitera également la plaine des sports et 3 salles culturelles et que les opérations y effectuées seront soit hors-champs de la TVA, soit exemptées de TVA ( mise à disposition gratuite ou exemptée de TVA).
+
+54. Par conséquent, puisqu’elle effectuera des opérations ouvrant droit à déduction et d’autres n’ouvrant pas ce droit, la RCA aura la qualité d’assujetti avec droit à déduction partielle des taxes grevant les achats de biens et services qu’elle effectuera dans le cadre de son activité économique.
+
+55. Conformément à l’article 46, § 2 , du C.TVA et à l’article 18 bis , § 1 er , de l’AR n°3, la RCA sera autorisée, sur base d'une notification préalable à l'administration en charge de la taxe sur la valeur ajoutée, à opérer la déduction selon l’affectation réelle de tout ou partie de ces biens et services.
+
+56. Pour les taxes ayant grevé les biens et les services destinés exclusivement au secteur d’activité permettant la déduction, la RCA opèrera la déduction selon les règles normales applicables à un assujetti avec droit à déduction totale.
+
+57. Pour les taxes ayant grevé les biens et les services destinés exclusivement au secteur d’activité ne permettant pas la déduction (opération exemptée ou hors champ), toute déduction sera écartée.
+
+58. Pour les taxes ayant grevé les biens et les services destinés à servir aux deux secteurs, conformément à l’article 18 bis § 2 de l’AR n°3, la RCA communiquera en outre lors de la notification préalable dont question au point 55 ci-dessus, les proratas spéciaux déterminés en fonction de la nature des biens et des services concernés.
+
+59. Enfin, il va de soi que si certains locaux ou certaines infrastructures, destinés initialement, selon les indications du demandeur, à l’exécution d’opérations taxables, devaient néanmoins être mis à disposition de tiers dans des conditions répondant à la notion de location immobilière exemptée, conformément à l’article 44, § 3, 2°, du C.TVA ou gratuitement, le droit à déduction de la RCA devrait être revu et limité en conséquence.
+
+Droits d’enregistrement
+
+60. L’opération juridique consiste en la constitution d’un droit de superficie sur le terrain sur lequel sera érigé le futur Complexe sportif.
+
+61. De façon générale, les articles 83 et 84 du C . enr . s’appliquent à toute constitution d’un droit d’emphytéose et de superficie. Toutefois, le C . enr . stipule, en son article 161, 2°, l’enregistrement gratuit « pour les cessions amiables d’immeubles pour cause d’utilité publique à l’Etat, aux provinces, aux communes, aux établissements publics et à tous autres organismes ou personnes ayant le droit d’exproprier … ».
+
+62. Il convient par conséquent de vérifier si les conditions sont réunies afin de bénéficier de l’enregistrement gratuit.
+
+63. Il doit d’abord s’agir d’un acte amiable ; ce qui est le cas en l’espèce.
+
+64. Ensuite, il doit s’agir d’un acte de cession d’immeuble.
+
+65. Dans sa décision du 17 mars 1958 (numéro E. 161, 2°/05-01), l’administration a admis que « l'acte par lequel une commune prend à bail un immeuble devant être affecté à une destination d'utilité publique, jouit de la gratuité de l'enregistrement à la seule condition qu'il mentionne expressément le caractère d'utilité publique de la location, étant donné que cet acte n’est pas sujet à l’autorisation ou l’approbation de l’autorité supérieure ». Elle a également admis dans une décision administrative du 29 mai 1989 (n° E.E./91.822) que, « conformément à l'article 83, un contrat constitutif de droit d'emphytéose est assimilé à un bail. Par conséquent, la décision précitée est également applicable à un contrat d'emphytéose ».
+
+66. Tout comme le contrat constitutif de droit d’emphytéose, le contrat constitutif du droit de superficie est assimilé à un contrat de bail en droit d’enregistrement.
+
+67. La notion de « cession d’immeubles » comprend donc également les constitutions d’emphytéose et de superficie, comme en l’espèce.
+
+68. La cession doit avoir lieu pour cause d’utilité publique. La cession amiable doit donc être réalisée au profit de la communauté par opposition aux acquisitions qui ne servent que les intérêts privés.
+
+69. En outre, il suffit que le caractère d’utilité publique soit stipulé dans l’acte de constitution du droit de superficie, pour que la cause d’utilité publique soit retenue. En d’autres termes, le cessionnaire doit déclarer que l’acquisition est faite pour cause d’utilité publique.
+
+70. Enfin, la cession doit se faire à un organisme expropriant ou à une personne de droit public ayant le droit d’exproprier, même si cette personne n’est pas un établissement public.
+
+71. Le Code wallon de l’aménagement du territoire, de l’urbanisme et du patrimoine stipule en son article 58 : « Peuvent agir comme pouvoir expropriant : la Région, les provinces, les communes, les régies communales autonomes, les intercommunales ayant dans leur objet social l’aménagement du territoire ou le logement et les établissements publics et organismes habilités par la loi ou le décret à exproprier pour cause d’utilité publique … ».
+
+72. Il résulte de ce qui précède que les conditions d’application de l’article 161, 2°, du C . enr . sont remplies si l’acte de constitution du droit de superficie contient la mention « d’utilité publique ».
