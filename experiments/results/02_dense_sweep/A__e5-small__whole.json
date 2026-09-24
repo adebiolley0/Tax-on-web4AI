@@ -5,22 +5,23 @@
   "model": "intfloat/multilingual-e5-small",
   "chunker": "whole",
   "max_seq": 512,
+  "clean": false,
   "n_chunks": 91,
   "dim": 384,
   "q_prefix": "query: ",
   "d_prefix": "passage: "
  },
  "metrics": {
-  "mrr": 0.5254,
-  "ndcg@5": 0.575,
-  "ndcg@10": 0.6126,
-  "hit@1": 0.3871,
-  "hit@3": 0.5806,
-  "hit@5": 0.6129,
-  "hit@10": 0.7419,
-  "recall@5": 0.6129,
-  "recall@10": 0.7419,
-  "n_questions": 31
+  "mrr": 0.5601,
+  "ndcg@5": 0.6147,
+  "ndcg@10": 0.6549,
+  "hit@1": 0.4138,
+  "hit@3": 0.6207,
+  "hit@5": 0.6552,
+  "hit@10": 0.7931,
+  "recall@5": 0.6552,
+  "recall@10": 0.7931,
+  "n_questions": 29
  },
  "per_question": {
   "Q1": {
@@ -191,20 +192,6 @@
     "circ_2004_gains_capital"
    ]
   },
-  "Q13": {
-   "rank": 44,
-   "rr": 0.0227,
-   "top5": [
-    "com_2019_art_38_cir92_atn",
-    "circ_2004_gains_capital",
-    "da_2024_0682_warrants",
-    "qp_2016_840_van_de_velde_stock_options",
-    "cir92_2004_art_283_precompte_mobilier"
-   ],
-   "expected": [
-    "circ_1984_avantages_extralegalux"
-   ]
-  },
   "Q14": {
    "rank": 19,
    "rr": 0.0526,
@@ -217,20 +204,6 @@
    ],
    "expected": [
     "circ_1997_revenu_locatif"
-   ]
-  },
-  "Q15": {
-   "rank": 45,
-   "rr": 0.0222,
-   "top5": [
-    "qp_2016_840_van_de_velde_stock_options",
-    "faq_revenus_immobiliers",
-    "cir92_2015_art_146_revenus_remplacement",
-    "cir92_2004_art_283_precompte_mobilier",
-    "qp_2025_28_vanbesien_isoc_pme"
-   ],
-   "expected": [
-    "circ_1997_revenus_divers"
    ]
   },
   "Q16": {
@@ -459,10 +432,10 @@
   }
  },
  "timing": {
-  "encode_docs_s": 10.0,
-  "encode_queries_s": 0.24,
-  "search_s": 0.011,
-  "model_load_s": 5.7,
-  "cached": false
+  "encode_docs_s": 0.0,
+  "encode_queries_s": 0.2,
+  "search_s": 0.007,
+  "model_load_s": 5.2,
+  "cached": true
  }
 }

@@ -5,22 +5,23 @@
   "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "chunker": "fixed1500",
   "max_seq": 512,
+  "clean": false,
   "n_chunks": 1072,
   "dim": 384,
   "q_prefix": "",
   "d_prefix": ""
  },
  "metrics": {
-  "mrr": 0.4492,
-  "ndcg@5": 0.4909,
-  "ndcg@10": 0.5052,
-  "hit@1": 0.3548,
-  "hit@3": 0.5161,
-  "hit@5": 0.5484,
-  "hit@10": 0.5806,
-  "recall@5": 0.5484,
-  "recall@10": 0.5806,
-  "n_questions": 31
+  "mrr": 0.4802,
+  "ndcg@5": 0.5247,
+  "ndcg@10": 0.5401,
+  "hit@1": 0.3793,
+  "hit@3": 0.5517,
+  "hit@5": 0.5862,
+  "hit@10": 0.6207,
+  "recall@5": 0.5862,
+  "recall@10": 0.6207,
+  "n_questions": 29
  },
  "per_question": {
   "Q1": {
@@ -191,20 +192,6 @@
     "circ_2004_gains_capital"
    ]
   },
-  "Q13": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "faq_revenus_immobiliers",
-    "circ_1989_cotisations_sociales",
-    "faq_2018_economie_collaborative",
-    "jp_2024_cour_const_54_pension_comp",
-    "cir92_2015_art_146_revenus_remplacement"
-   ],
-   "expected": [
-    "circ_1984_avantages_extralegalux"
-   ]
-  },
   "Q14": {
    "rank": 3,
    "rr": 0.3333,
@@ -217,20 +204,6 @@
    ],
    "expected": [
     "circ_1997_revenu_locatif"
-   ]
-  },
-  "Q15": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "circ_2026_C2_fiscalite_immobiliere",
-    "circ_2021_C44_economie_collaborative",
-    "circ_2020_C101_complement_entreprise",
-    "qp_2021_584_vermeersch_comptes_titres",
-    "circ_1997_revenu_locatif"
-   ],
-   "expected": [
-    "circ_1997_revenus_divers"
    ]
   },
   "Q16": {
@@ -459,10 +432,10 @@
   }
  },
  "timing": {
-  "encode_docs_s": 97.8,
-  "encode_queries_s": 0.2,
-  "search_s": 0.016,
-  "model_load_s": 20.3,
-  "cached": false
+  "encode_docs_s": 0.0,
+  "encode_queries_s": 0.18,
+  "search_s": 0.012,
+  "model_load_s": 4.4,
+  "cached": true
  }
 }

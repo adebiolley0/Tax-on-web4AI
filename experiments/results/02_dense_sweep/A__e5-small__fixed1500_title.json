@@ -5,22 +5,23 @@
   "model": "intfloat/multilingual-e5-small",
   "chunker": "fixed1500_title",
   "max_seq": 512,
+  "clean": false,
   "n_chunks": 1072,
   "dim": 384,
   "q_prefix": "query: ",
   "d_prefix": "passage: "
  },
  "metrics": {
-  "mrr": 0.5077,
-  "ndcg@5": 0.5881,
-  "ndcg@10": 0.6202,
-  "hit@1": 0.3548,
-  "hit@3": 0.6129,
-  "hit@5": 0.7097,
-  "hit@10": 0.8065,
-  "recall@5": 0.7097,
-  "recall@10": 0.8065,
-  "n_questions": 31
+  "mrr": 0.5427,
+  "ndcg@5": 0.6287,
+  "ndcg@10": 0.663,
+  "hit@1": 0.3793,
+  "hit@3": 0.6552,
+  "hit@5": 0.7586,
+  "hit@10": 0.8621,
+  "recall@5": 0.7586,
+  "recall@10": 0.8621,
+  "n_questions": 29
  },
  "per_question": {
   "Q1": {
@@ -191,20 +192,6 @@
     "circ_2004_gains_capital"
    ]
   },
-  "Q13": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "com_2019_art_38_cir92_atn",
-    "com_2019_art_32_cir92_remuneration",
-    "da_2025_0741_avantages_nature",
-    "circ_2023_C97_faq_vehicule_electrique",
-    "com_2019_art_53_cir92_frais_deductibles"
-   ],
-   "expected": [
-    "circ_1984_avantages_extralegalux"
-   ]
-  },
   "Q14": {
    "rank": 5,
    "rr": 0.2,
@@ -217,20 +204,6 @@
    ],
    "expected": [
     "circ_1997_revenu_locatif"
-   ]
-  },
-  "Q15": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "faq_revenus_immobiliers",
-    "qp_2009_16_claes_pension_complementaire",
-    "qp_2025_572_vanquickenborne_isoc_taux",
-    "circ_2024_C20_impot_recent",
-    "qp_2008_115_claes_assurance_groupe"
-   ],
-   "expected": [
-    "circ_1997_revenus_divers"
    ]
   },
   "Q16": {
@@ -459,10 +432,10 @@
   }
  },
  "timing": {
-  "encode_docs_s": 133.5,
-  "encode_queries_s": 0.35,
-  "search_s": 0.024,
-  "model_load_s": 5.7,
-  "cached": false
+  "encode_docs_s": 0.0,
+  "encode_queries_s": 0.21,
+  "search_s": 0.009,
+  "model_load_s": 5.2,
+  "cached": true
  }
 }

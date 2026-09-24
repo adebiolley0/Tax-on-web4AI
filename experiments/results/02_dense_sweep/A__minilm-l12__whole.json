@@ -5,22 +5,23 @@
   "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "chunker": "whole",
   "max_seq": 512,
+  "clean": false,
   "n_chunks": 91,
   "dim": 384,
   "q_prefix": "",
   "d_prefix": ""
  },
  "metrics": {
-  "mrr": 0.1652,
-  "ndcg@5": 0.1681,
-  "ndcg@10": 0.2202,
-  "hit@1": 0.0323,
-  "hit@3": 0.2581,
-  "hit@5": 0.2903,
-  "hit@10": 0.4516,
-  "recall@5": 0.2903,
-  "recall@10": 0.4516,
-  "n_questions": 31
+  "mrr": 0.1756,
+  "ndcg@5": 0.1797,
+  "ndcg@10": 0.2354,
+  "hit@1": 0.0345,
+  "hit@3": 0.2759,
+  "hit@5": 0.3103,
+  "hit@10": 0.4828,
+  "recall@5": 0.3103,
+  "recall@10": 0.4828,
+  "n_questions": 29
  },
  "per_question": {
   "Q1": {
@@ -191,20 +192,6 @@
     "circ_2004_gains_capital"
    ]
   },
-  "Q13": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "cir92_2022_art_151_1_revenus_remplacement",
-    "da_2024_0682_warrants",
-    "circ_1989_cotisations_sociales",
-    "cir92_2022_art_154_revenus_remplacement",
-    "ar_cir_2024_art_95_2_precompte_pro"
-   ],
-   "expected": [
-    "circ_1984_avantages_extralegalux"
-   ]
-  },
   "Q14": {
    "rank": null,
    "rr": 0.0,
@@ -217,20 +204,6 @@
    ],
    "expected": [
     "circ_1997_revenu_locatif"
-   ]
-  },
-  "Q15": {
-   "rank": 34,
-   "rr": 0.0294,
-   "top5": [
-    "cir92_2022_art_151_1_revenus_remplacement",
-    "qp_2025_11_de_patoul_enregistrement",
-    "da_2024_0682_warrants",
-    "circ_2026_C5_credit_croissance",
-    "qp_2026_135_de_patoul_enregistrement"
-   ],
-   "expected": [
-    "circ_1997_revenus_divers"
    ]
   },
   "Q16": {
@@ -459,10 +432,10 @@
   }
  },
  "timing": {
-  "encode_docs_s": 9.7,
-  "encode_queries_s": 0.3,
-  "search_s": 0.012,
-  "model_load_s": 20.3,
-  "cached": false
+  "encode_docs_s": 0.0,
+  "encode_queries_s": 0.47,
+  "search_s": 0.009,
+  "model_load_s": 4.4,
+  "cached": true
  }
 }
