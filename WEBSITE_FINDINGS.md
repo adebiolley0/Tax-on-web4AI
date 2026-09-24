@@ -58,32 +58,32 @@ Fisconet+ is the Belgian Federal Ministry of Finance's legal database containing
 - **Authentication**: None required — all endpoints are public and unauthenticated
 - **Response format**: JSON
 
-### Scale
+### Scale (as of 2026-09-24; totals = sum of `/search` `pageFilters.documentTypes` counts)
 | Language | Document Count |
 |----------|---------------|
-| French (fr) | 103,120 |
-| Dutch (nl) | 105,336 |
-| German (de) | 6,292 |
-| English (en) | 4,301 |
+| French (fr) | 104,095 |
+| Dutch (nl) | 106,448 |
+| German (de) | 6,692 |
+| English (en) | 4,447 |
 
-### Document Types (15 categories, French counts)
+### Document Types (15 categories, French counts as of 2026-09-24)
 | Type | FR Label | Count |
 |------|----------|-------|
-| Legislation | Code et legislation | 22,179 |
-| Belgian case law | Jurisprudence belge | 16,832 |
-| Advance rulings | Decisions anticipees (L 24.12.2002) | 15,634 |
-| Parliamentary questions | Questions parlementaires | 15,395 |
-| Administrative comments | Commentaires (dont Rep. RJ) | 6,331 |
-| EU regulation | Reglementation europeenne | 4,565 |
-| Circulars | Circulaires | 3,751 |
-| Lump sums | Forfaits | 3,222 |
-| Royal decrees | Arretes royaux | 3,126 |
-| Regional/local legislation | Legislation regionale et locale | 2,469 |
-| EU case law | Jurisprudence europeenne | 2,089 |
+| Legislation | Code et legislation | 23,388 |
+| Belgian case law | Jurisprudence belge | 17,700 |
+| Advance rulings | Decisions anticipees (L 24.12.2002) | 16,053 |
+| Parliamentary questions | Questions parlementaires | 15,877 |
+| Administrative comments | Commentaires (dont Rep. RJ) | 6,353 |
+| EU regulation | Reglementation europeenne | 4,683 |
+| Circulars | Circulaires | 3,786 |
+| Lump sums | Forfaits | 3,237 |
+| Royal decrees | Arretes royaux | 3,140 |
+| Regional/local legislation | Legislation regionale et locale | 2,476 |
+| EU case law | Jurisprudence europeenne | 2,218 |
 | Professional courses | Cours professionnels | 1,771 |
 | Decisions | Decisions | 1,504 |
-| Communications | Communications | 1,278 |
-| Treaties | Traites et accords internationaux | 618 |
+| Communications | Communications | 1,290 |
+| Treaties | Traites et accords internationaux | 619 |
 
 ### REST API Endpoints
 
@@ -117,19 +117,19 @@ Returns complete document with:
 Returns PDF file. Tested: up to 4.6MB / 38 pages (CIR 92 table of contents).
 
 #### GET `/navigation/tree` — Full Taxonomy Tree
-Returns hierarchical document classification with 5 top-level categories and 420 navigable leaf document nodes (each leaf links to 100s–1000s of actual Fisconet documents). Each node has `guid`, multilingual `label`, `documentId` per language, and `children[]`.
+Returns hierarchical document classification with 5 top-level categories and 451 document nodes (as of 2026-09-24; 420 on 2026-04-12) (each leaf links to 100s–1000s of actual Fisconet documents). Each node has `guid`, multilingual `label`, `documentId` per language, and `children[]`.
 
-**The complete arborescence is documented in [`MYFIN_ARBORESCENCE.md`](./MYFIN_ARBORESCENCE.md).**
+**The complete arborescence is documented in [`MYFIN_ARBORESCENCE.md`](./MYFIN_ARBORESCENCE.md)** — regenerate it with `ingestion/scripts/build_myfin_arborescence.py`.
 
 Summary of the 4 active top-level branches:
 
-| Branch (FR) | Branch (NL) | Leaf nodes |
+| Branch (FR) | Branch (NL) | Document nodes |
 |---|---|---|
-| DROIT EXTERNE | EXTERN RECHT | 19 |
-| Bibliothèque Publique | Openbare bibliotheek | 21 |
-| FINANCES | FINANCIËN | 97 |
-| FISCALITÉ | FISCALITEIT | 283 |
-| **Total** | | **420** |
+| DROIT EXTERNE | EXTERN RECHT | 20 |
+| Bibliothèque Publique | Openbare bibliotheek | 47 |
+| FINANCES | FINANCIËN | 98 |
+| FISCALITÉ | FISCALITEIT | 286 |
+| **Total** | | **451** |
 
 #### GET `/library/documents?language=fr` — Curated Key Publications
 Returns list of major publications (Memento Fiscal 2025, CIR 92, AR/CIR 92, Code de la TVA, etc.) with `id` (GUID), `title`, `thumbnail` (SharePoint URL), `sortWeight`.
@@ -245,24 +245,24 @@ Not all Fisconet+ document types contain content worth indexing for semantic sea
 
 | Type (FR) | Count | Reason to ingest |
 |-----------|-------|------------------|
-| **Circulaires** | 3,751 | Binding administrative interpretations; contain explanations, examples, and practical guidance. The richest source of "how to" information for taxpayers. |
-| **Code et législation** | 22,179 | Actual legal text (CIR 92, CTVA, etc.). Has legal force. |
-| **Arrêtés royaux** | 3,126 | Executive orders implementing legislation. Legally binding. |
-| **Décisions anticipées** | 15,634 | Advance rulings with reasoning; useful for understanding how rules apply to specific situations. |
-| **Communications** | 1,278 | Administrative communications with practical information. |
-| **Forfaits** | 3,222 | Lump-sum amounts used in tax calculations; factual reference. |
-| **Législation régionale et locale** | 2,469 | Regional tax legislation with legal force. |
-| **Réglementation européenne** | 4,565 | EU regulations applicable to Belgian tax. |
-| **Traités et accords internationaux** | 618 | Tax treaties. Legally binding. |
+| **Circulaires** | 3,786 | Binding administrative interpretations; contain explanations, examples, and practical guidance. The richest source of "how to" information for taxpayers. |
+| **Code et législation** | 23,388 | Actual legal text (CIR 92, CTVA, etc.). Has legal force. |
+| **Arrêtés royaux** | 3,140 | Executive orders implementing legislation. Legally binding. |
+| **Décisions anticipées** | 16,053 | Advance rulings with reasoning; useful for understanding how rules apply to specific situations. |
+| **Communications** | 1,290 | Administrative communications with practical information. |
+| **Forfaits** | 3,237 | Lump-sum amounts used in tax calculations; factual reference. |
+| **Législation régionale et locale** | 2,476 | Regional tax legislation with legal force. |
+| **Réglementation européenne** | 4,683 | EU regulations applicable to Belgian tax. |
+| **Traités et accords internationaux** | 619 | Tax treaties. Legally binding. |
 
 ### Document Types to Ingest SELECTIVELY
 
 | Type (FR) | Count | Notes |
 |-----------|-------|-------|
-| **Commentaires (dont Rép. RJ)** | 6,331 | **Two sub-types exist:** (1) "Aperçu documentaire" pages are INDEX pages that only list references — skip these. (2) Actual commentary text (e.g., "mise à jour à partir de 2010") contains substantive legal explanations — ingest these. Distinguish by taxonomy: `"Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"` = index page. |
-| **Jurisprudence belge** | 16,832 | Court decisions. Ingest rulings from Cour Constitutionnelle and Cour de Cassation. Lower court decisions may be less useful. |
-| **Jurisprudence européenne** | 2,089 | EU court decisions relevant to Belgian tax. |
-| **Questions parlementaires** | 15,395 | Parliamentary Q&A. Some contain detailed ministerial answers explaining tax rules. Others are very short. Ingest those with substantive answers. |
+| **Commentaires (dont Rép. RJ)** | 6,353 | **Two sub-types exist:** (1) "Aperçu documentaire" pages are INDEX pages that only list references — skip these. (2) Actual commentary text (e.g., "mise à jour à partir de 2010") contains substantive legal explanations — ingest these. Distinguish by taxonomy: `"Commentaire du code des impôts sur les revenus 1992 (aperçu documentaire)"` = index page. |
+| **Jurisprudence belge** | 17,700 | Court decisions. Ingest rulings from Cour Constitutionnelle and Cour de Cassation. Lower court decisions may be less useful. |
+| **Jurisprudence européenne** | 2,218 | EU court decisions relevant to Belgian tax. |
+| **Questions parlementaires** | 15,877 | Parliamentary Q&A. Some contain detailed ministerial answers explaining tax rules. Others are very short. Ingest those with substantive answers. |
 
 ### Document Types to SKIP
 
