@@ -1,0 +1,539 @@
+{
+ "name": "txtai__e5-small__hybrid_bb25_w0.5",
+ "corpus": "A",
+ "config": {
+  "model": "intfloat/multilingual-e5-small",
+  "n_chunks": 1072,
+  "top": 50,
+  "dense_weight": 0.5,
+  "fusion": "bb25",
+  "txtai_scoring": {
+   "method": "bm25",
+   "terms": true,
+   "normalize": "bb25",
+   "tokenizer": {
+    "regexp": "\\p{L}+|\\d+",
+    "stopwords": [
+     "a",
+     "ainsi",
+     "alors",
+     "au",
+     "aussi",
+     "autre",
+     "autres",
+     "aux",
+     "avec",
+     "avoir",
+     "c",
+     "car",
+     "ce",
+     "ces",
+     "cet",
+     "cette",
+     "chez",
+     "comme",
+     "d",
+     "dans",
+     "de",
+     "des",
+     "donc",
+     "dont",
+     "du",
+     "elle",
+     "elles",
+     "en",
+     "entre",
+     "est",
+     "et",
+     "il",
+     "ils",
+     "je",
+     "l",
+     "la",
+     "le",
+     "les",
+     "leur",
+     "leurs",
+     "lorsqu",
+     "lorsque",
+     "ma",
+     "mais",
+     "mes",
+     "mon",
+     "même",
+     "n",
+     "ne",
+     "ni",
+     "nos",
+     "notre",
+     "nous",
+     "on",
+     "ont",
+     "or",
+     "ou",
+     "où",
+     "par",
+     "pas",
+     "plus",
+     "pour",
+     "qu",
+     "que",
+     "qui",
+     "quoi",
+     "s",
+     "sa",
+     "sans",
+     "se",
+     "ses",
+     "si",
+     "son",
+     "sont",
+     "sous",
+     "sur",
+     "ta",
+     "tes",
+     "ton",
+     "tous",
+     "tout",
+     "toute",
+     "toutes",
+     "tu",
+     "un",
+     "une",
+     "vers",
+     "vos",
+     "votre",
+     "vous",
+     "y",
+     "à",
+     "été",
+     "être"
+    ]
+   }
+  }
+ },
+ "metrics": {
+  "mrr": 0.6095,
+  "ndcg@5": 0.6904,
+  "ndcg@10": 0.7309,
+  "hit@1": 0.4483,
+  "hit@3": 0.6897,
+  "hit@5": 0.8276,
+  "hit@10": 0.931,
+  "recall@5": 0.8276,
+  "recall@10": 0.931,
+  "n_questions": 29
+ },
+ "per_question": {
+  "Q1": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "circ_2023_C99_fiscalite_automobile",
+    "circ_2022_C10_frais_voiture",
+    "com_2019_art_38_cir92_atn",
+    "circ_2024_C77_remboursement_electricite",
+    "circ_2019_C108_handicapes"
+   ],
+   "expected": [
+    "circ_2022_C10_frais_voiture"
+   ]
+  },
+  "Q2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2018_C72_epargne_pension_duale",
+    "qp_2008_115_claes_assurance_groupe",
+    "qp_2009_16_claes_pension_complementaire",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "com_2019_art_32_cir92_remuneration"
+   ],
+   "expected": [
+    "circ_2018_C72_epargne_pension_duale"
+   ]
+  },
+  "Q3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "faq_revenus_immobiliers",
+    "faq_2018_economie_collaborative",
+    "circ_2021_C44_economie_collaborative",
+    "circ_2004_gains_capital",
+    "circ_2025_C33_emprunts_hypo_bruxelles"
+   ],
+   "expected": [
+    "faq_revenus_immobiliers"
+   ]
+  },
+  "Q4": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "circ_2019_C108_handicapes",
+    "circ_2026_C25_personnes_charge",
+    "circ_2023_C69_coparentalite",
+    "circ_2023_C43_rentes_alimentaires",
+    "circ_2025_C55_travail_etudiant"
+   ],
+   "expected": [
+    "circ_2026_C25_personnes_charge"
+   ]
+  },
+  "Q5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2020_C111_liberalites",
+    "circ_2019_C108_handicapes",
+    "circ_2024_C20_impot_recent",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "qp_2009_16_claes_pension_complementaire"
+   ],
+   "expected": [
+    "circ_2020_C111_liberalites"
+   ]
+  },
+  "Q6": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "circ_2019_C108_handicapes",
+    "circ_2020_C60_garde_enfant",
+    "circ_2023_C97_faq_vehicule_electrique",
+    "circ_2023_C43_rentes_alimentaires",
+    "circ_2023_C69_coparentalite"
+   ],
+   "expected": [
+    "circ_2020_C60_garde_enfant"
+   ]
+  },
+  "Q7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2025_C35_emprunts_hypo_flandre",
+    "circ_2025_C33_emprunts_hypo_bruxelles",
+    "faq_revenus_immobiliers",
+    "circ_2026_C2_fiscalite_immobiliere",
+    "cir92_2014_art_145_38_donations"
+   ],
+   "expected": [
+    "circ_2025_C35_emprunts_hypo_flandre"
+   ]
+  },
+  "Q8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2019_C108_handicapes",
+    "circ_2025_C33_emprunts_hypo_bruxelles",
+    "circ_2023_C43_rentes_alimentaires",
+    "com_2019_art_38_cir92_atn",
+    "com_2019_art_32_cir92_remuneration"
+   ],
+   "expected": [
+    "circ_2019_C108_handicapes"
+   ]
+  },
+  "Q9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2023_C69_coparentalite",
+    "circ_2019_C108_handicapes",
+    "circ_2023_C43_rentes_alimentaires",
+    "circ_2026_C5_credit_croissance",
+    "qp_2025_572_vanquickenborne_isoc_taux"
+   ],
+   "expected": [
+    "circ_2023_C69_coparentalite"
+   ]
+  },
+  "Q10": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2026_C12_rentes_alimentaires",
+    "circ_2023_C43_rentes_alimentaires",
+    "circ_2026_C25_personnes_charge",
+    "jp_2024_cour_const_54_pension_comp",
+    "com_2019_art_53_cir92_frais_deductibles"
+   ],
+   "expected": [
+    "circ_2026_C12_rentes_alimentaires"
+   ]
+  },
+  "Q11": {
+   "rank": 12,
+   "rr": 0.0833,
+   "top5": [
+    "circ_2021_C44_economie_collaborative",
+    "circ_2025_C55_travail_etudiant",
+    "faq_2018_economie_collaborative",
+    "circ_2026_C25_personnes_charge",
+    "com_2019_art_38_cir92_atn"
+   ],
+   "expected": [
+    "circ_2022_C86_frais_professionnels"
+   ]
+  },
+  "Q12": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "da_2009_900_345_enregistrement",
+    "faq_revenus_immobiliers",
+    "cir92_2015_art_44_plus_values_exoneration",
+    "circ_2026_C2_fiscalite_immobiliere",
+    "cir92_2014_art_145_38_donations"
+   ],
+   "expected": [
+    "circ_2004_gains_capital"
+   ]
+  },
+  "Q14": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "faq_revenus_immobiliers",
+    "circ_2021_C44_economie_collaborative",
+    "faq_2018_economie_collaborative",
+    "circ_1997_revenu_locatif",
+    "circ_2011_travaux_renovation"
+   ],
+   "expected": [
+    "circ_1997_revenu_locatif"
+   ]
+  },
+  "Q16": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2025_C55_travail_etudiant",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "faq_revenus_immobiliers",
+    "circ_2021_C44_economie_collaborative",
+    "qp_2009_16_claes_pension_complementaire"
+   ],
+   "expected": [
+    "circ_2025_C55_travail_etudiant"
+   ]
+  },
+  "Q17": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2020_C101_complement_entreprise",
+    "circ_2021_C44_economie_collaborative",
+    "qp_2009_16_claes_pension_complementaire",
+    "faq_2018_economie_collaborative",
+    "com_2019_art_38_cir92_atn"
+   ],
+   "expected": [
+    "circ_2020_C101_complement_entreprise"
+   ]
+  },
+  "Q18": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2011_travaux_renovation",
+    "cir92_2014_art_145_38_donations",
+    "circ_2019_C108_handicapes",
+    "qp_2009_16_claes_pension_complementaire",
+    "qp_2025_mockel_emprunt_logement_wallonie"
+   ],
+   "expected": [
+    "circ_2011_travaux_renovation"
+   ]
+  },
+  "Q19": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "com_2019_art_53_cir92_frais_deductibles",
+    "circ_2008_frais_medicaux",
+    "circ_2011_travaux_renovation",
+    "qp_2009_16_claes_pension_complementaire",
+    "circ_2025_C55_travail_etudiant"
+   ],
+   "expected": [
+    "circ_2008_frais_medicaux"
+   ]
+  },
+  "Q20": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "qp_2009_16_claes_pension_complementaire",
+    "jp_2024_cour_const_54_pension_comp",
+    "jp_2024_cour_const_79_pension",
+    "com_2019_art_32_cir92_remuneration",
+    "da_2025_0741_avantages_nature"
+   ],
+   "expected": [
+    "circ_1989_cotisations_sociales"
+   ]
+  },
+  "Q21": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "faq_revenus_immobiliers",
+    "com_2019_art_215_cir92_isoc_taux",
+    "circ_2026_C5_credit_croissance",
+    "circ_2023_C69_coparentalite"
+   ],
+   "expected": [
+    "circ_2026_C5_credit_croissance"
+   ]
+  },
+  "Q22": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92_2015_art_146_revenus_remplacement",
+    "cir92_2022_art_154_revenus_remplacement",
+    "cir92_2022_art_147_revenus_remplacement",
+    "circ_2020_C101_complement_entreprise",
+    "com_2019_art_38_cir92_atn"
+   ],
+   "expected": [
+    "cir92_2022_art_147_revenus_remplacement"
+   ]
+  },
+  "Q23": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "qp_2016_840_van_de_velde_stock_options",
+    "da_2013_219_stock_options",
+    "da_2024_0682_warrants",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "cir92_2015_art_44_plus_values_exoneration"
+   ],
+   "expected": [
+    "qp_2016_840_van_de_velde_stock_options"
+   ]
+  },
+  "Q24": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "com_2019_art_38_cir92_atn",
+    "circ_2024_C77_remboursement_electricite",
+    "circ_2023_C99_fiscalite_automobile",
+    "jp_2024_cour_const_54_pension_comp",
+    "circ_2026_C46_frais_majores"
+   ],
+   "expected": [
+    "da_2016_335_telework_home_office"
+   ]
+  },
+  "Q25": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "com_2019_art_32_cir92_remuneration",
+    "com_2019_art_38_cir92_atn",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "circ_2024_C77_remboursement_electricite",
+    "com_2019_art_53_cir92_frais_deductibles"
+   ],
+   "expected": [
+    "com_2019_art_38_cir92_atn"
+   ]
+  },
+  "Q26": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "com_2019_art_269_cir92_taux_precompte",
+    "cir92_2004_art_283_precompte_mobilier",
+    "com_2019_art_282_cir92_precompte_mobilier",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "circ_2026_C33_cotisation_plus_values_actions"
+   ],
+   "expected": [
+    "com_2019_art_269_cir92_taux_precompte"
+   ]
+  },
+  "Q27": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "qp_2009_16_claes_pension_complementaire",
+    "circ_2025_C33_emprunts_hypo_bruxelles",
+    "qp_2008_115_claes_assurance_groupe",
+    "circ_2019_C74_protection_juridique",
+    "circ_2026_C2_fiscalite_immobiliere"
+   ],
+   "expected": [
+    "com_2019_art_117_cir92_epargne_lt"
+   ]
+  },
+  "Q28": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "faq_2018_economie_collaborative",
+    "faq_revenus_immobiliers",
+    "circ_2021_C44_economie_collaborative",
+    "circ_2011_travaux_renovation",
+    "circ_2025_C33_emprunts_hypo_bruxelles"
+   ],
+   "expected": [
+    "circ_2021_C44_economie_collaborative"
+   ]
+  },
+  "Q29": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "qp_2016_840_van_de_velde_stock_options",
+    "cir92_2015_art_44_plus_values_exoneration",
+    "qp_2025_97_vereeck_plus_value_actions",
+    "qp_2025_572_vanquickenborne_isoc_taux",
+    "circ_2026_C33_cotisation_plus_values_actions"
+   ],
+   "expected": [
+    "circ_2026_C33_cotisation_plus_values_actions"
+   ]
+  },
+  "Q30": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circ_2019_C74_protection_juridique",
+    "com_2019_art_53_cir92_frais_deductibles",
+    "circ_2025_C33_emprunts_hypo_bruxelles",
+    "circ_2011_travaux_renovation",
+    "qp_2009_16_claes_pension_complementaire"
+   ],
+   "expected": [
+    "circ_2019_C74_protection_juridique"
+   ]
+  },
+  "Q31": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "qp_2009_16_claes_pension_complementaire",
+    "jp_2024_cour_const_79_pension",
+    "jp_2024_cour_const_54_pension_comp",
+    "qp_2008_115_claes_assurance_groupe",
+    "com_2019_art_120_cir92_epargne_lt"
+   ],
+   "expected": [
+    "qp_2008_115_claes_assurance_groupe"
+   ]
+  }
+ },
+ "timing": {
+  "search_s": 2.44,
+  "per_query_ms": 84.2
+ }
+}
