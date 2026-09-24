@@ -107,7 +107,10 @@ default tokenizer BM25 scores MRR 0.462 on A vs 0.565 with the regexp+stop-words
   `model_kwargs` (`HFPipeline.parseargs`), and `CrossEncoder.__call__` fixes `batch_size=1`
   and passes no truncation. The first rerank attempt (29 queries x 30 chunks, untruncated,
   batch 1, 2 threads) had not finished after 55 minutes and was killed. `rerank.py` patches
-  the private `pipeline._batch_size` / `_preprocess_params` after construction.
+  the private `pipeline._batch_size` / `_preprocess_params` after construction. The patched
+  second attempt was also stopped after 55 min on the shared 4-core box, so **no txtai reranker
+  number was recorded**; the same model on the same top-30 hybrid candidates is measured in
+  experiment 04 (LanceDB, MRR 0.703 on corpus A) and experiment 03.
 * **Fusion strategy is chosen implicitly** by `scoring.normalize`, not by an explicit option
   (`normalize: True` = convex, `False` = RRF with `1/rank`, `"bb25"` = log-odds). Because
   normalisation is applied at query time, the same on-disk index can be reloaded with
