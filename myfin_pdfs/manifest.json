@@ -1,0 +1,950 @@
+{
+  "source": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/library/documents?language=fr",
+  "count": 34,
+  "documents": [
+    {
+      "guid": "7a948c29-7150-40f4-bf80-c9f6f71f92f4",
+      "pdf_guid": "7a948c29-7150-40f4-bf80-c9f6f71f92f4",
+      "file": "ar_cir_92_edition_2026_version_coordonnee_bilingue_pdf_mis_a_jour_jusqua_la_r_du_22_07_2026_version_bilingue.pdf",
+      "library_title": "AR/CIR 92 (Edition 2026 – Version coordonnée bilingue PDF (mis à jour jusqu’à l’A.R. du 22.07.2026) (version bilingue)",
+      "title": "AR/CIR 92 (Edition 2026)– Version coordonnée bilingue PDF (mis à jour jusqu’à l’A.R. du 22.07.2026) (version bilingue)",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "AR/CIR 92 (Edition 2026) – Version coordonnée bilingue PDF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Arrêté royal d'exécution du CIR 92",
+        "AR/CIR 92 - Version coordonnée bilingue PDF",
+        "AR/CIR 92 (Edition 2026) – Version coordonnée bilingue PDF"
+      ],
+      "document_date": "2026-07-22",
+      "last_modified": "2026-08-07",
+      "linked_document_nl": "f33cc1e7-a042-48a9-9cc7-2fb74aa66791",
+      "pages": 1139,
+      "size_bytes": 9860874,
+      "sha256": "b6364d120dd74a72e2d3c68ff32690f60ef85564ba64960214c705c062fc87ad",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/7a948c29-7150-40f4-bf80-c9f6f71f92f4",
+      "ingest": true
+    },
+    {
+      "guid": "217baba5-fe15-4500-89bb-bf090efd8253",
+      "pdf_guid": "217baba5-fe15-4500-89bb-bf090efd8253",
+      "file": "ar_cir_92_revenus_2026_exercice_d_imposition_2027_federal.pdf",
+      "library_title": "AR/CIR 92 - Revenus 2026 (exercice d'imposition 2027) - Fédéral",
+      "title": "AR/CIR 92 - Revenus 2026 PDF",
+      "summary": "AR/CIR 92 - Revenus 2026 (exercice d'imposition 2027) - Fédéral - PDF mis à jour jusqu'au Moniteur belge du 05.08.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "AR/CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Arrêté royal d'exécution du CIR 92",
+        "AR/CIR 92 par année de revenus",
+        "AR/CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "c4c5bc3d-5839-4129-a0d5-4631fbce5b87",
+      "pages": 374,
+      "size_bytes": 4073313,
+      "sha256": "ebcb3b070edc18518dd1a853166b2b5c6c125b97bada6120729df3d15600f3fa",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/217baba5-fe15-4500-89bb-bf090efd8253",
+      "ingest": true
+    },
+    {
+      "guid": "62e41610-d576-413a-93ed-fe62d363794c",
+      "pdf_guid": "62e41610-d576-413a-93ed-fe62d363794c",
+      "file": "ar_cir_92_revenus_2026_exercice_d_imposition_2027_region_de_bruxelles_capitale.pdf",
+      "library_title": "AR/CIR 92 - Revenus 2026 (exercice d'imposition 2027) - Région de Bruxelles-capitale",
+      "title": "AR/CIR 92 - Revenus 2026 - Région Bruxelles-Capitale PDF",
+      "summary": "PDF mis à jour jusqu'au Moniteur belge du 05.08.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "AR/CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Arrêté royal d'exécution du CIR 92",
+        "AR/CIR 92 par année de revenus",
+        "AR/CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "55b39929-3cd9-4410-bf9d-21021b4a7a44",
+      "pages": 374,
+      "size_bytes": 4071318,
+      "sha256": "c72980b2f898377f365ed10f173a91f0c657bdaf4cca81f4b010aa298abfcf3f",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/62e41610-d576-413a-93ed-fe62d363794c",
+      "ingest": true
+    },
+    {
+      "guid": "c2fd33f0-d0ee-488c-92c1-574dc9eeaa49",
+      "pdf_guid": "c2fd33f0-d0ee-488c-92c1-574dc9eeaa49",
+      "file": "ar_cir_92_revenus_2026_exercice_d_imposition_2027_region_flamande.pdf",
+      "library_title": "AR/CIR 92 - Revenus 2026 (exercice d'imposition 2027) - Région flamande",
+      "title": "AR/CIR 92 - Revenus 2026 - Région flamande PDF",
+      "summary": "PDF mis à jour jusqu'au Moniteur belge du 05.08.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "AR/CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Arrêté royal d'exécution du CIR 92",
+        "AR/CIR 92 par année de revenus",
+        "AR/CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "067d94c8-f706-47dc-9925-43a48ed5581e",
+      "pages": 364,
+      "size_bytes": 4043849,
+      "sha256": "8c529fb025ef77fa607d205338f008ae442b9104d28a626bfcff67ab4b4d05df",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/c2fd33f0-d0ee-488c-92c1-574dc9eeaa49",
+      "ingest": true
+    },
+    {
+      "guid": "5870e65b-ae47-46c0-bc78-c690e4e9b727",
+      "pdf_guid": "5870e65b-ae47-46c0-bc78-c690e4e9b727",
+      "file": "ar_cir_92_revenus_2026_exercice_d_imposition_2027_region_wallonne.pdf",
+      "library_title": "AR/CIR 92 - Revenus 2026 (exercice d'imposition 2027) - Région wallonne",
+      "title": "AR/CIR 92 - Revenus 2026 - Région wallonne PDF",
+      "summary": "PDF mis à jour jusqu'au Moniteur belge du 05.08.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "AR/CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Arrêté royal d'exécution du CIR 92",
+        "AR/CIR 92 par année de revenus",
+        "AR/CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "d8a3eaca-fc92-4067-bde2-0f613ef8ed74",
+      "pages": 374,
+      "size_bytes": 4071605,
+      "sha256": "397b5cef9c2dee36f7961cc8d98837afbbd88dfecbbd4a4dc6ed549c96a92c4f",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/5870e65b-ae47-46c0-bc78-c690e4e9b727",
+      "ingest": true
+    },
+    {
+      "guid": "e846e1da-7cda-4ce6-8eed-6d0997fab260",
+      "pdf_guid": "e846e1da-7cda-4ce6-8eed-6d0997fab260",
+      "file": "arrete_du_gouvernement_de_la_region_de_bruxelles_capitale_portant_execution_de_l_ordonnance_du_6_mars_2019_rel.pdf",
+      "library_title": "Arrêté du gouvernement de la région de Bruxelles-Capitale portant exécution de l'ordonnance du 6 mars 2019 relative au code bruxellois de procédure fiscale",
+      "title": "Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale - PDF",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Législation et règlementation régionale et locale",
+      "taxonomies": [
+        "Code bruxellois de procédure fiscale - CBPF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Entités fédérées",
+        "Région de Bruxelles-Capitale",
+        "Code bruxellois de procédure fiscale - CBPF"
+      ],
+      "document_date": "2021-06-24",
+      "last_modified": "2026-07-10",
+      "linked_document_nl": "d49ba4b2-db9e-42f1-998d-d10bb91c52cf",
+      "pages": 25,
+      "size_bytes": 530537,
+      "sha256": "fe78702e2b1f7d02aa457061c04e354ecec974bb915327dde82c7ed57ff90887",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/e846e1da-7cda-4ce6-8eed-6d0997fab260",
+      "ingest": true
+    },
+    {
+      "guid": "7be3c942-64d5-4080-bcf0-9bde3d8af2a6",
+      "pdf_guid": "7be3c942-64d5-4080-bcf0-9bde3d8af2a6",
+      "file": "arrete_du_gouvernement_flamand_portant_execution_du_code_flamand_de_la_fiscalite_du_13_decembre_2013.pdf",
+      "library_title": "Arrêté du Gouvernement flamand portant exécution du Code flamand de la Fiscalité du 13 décembre 2013",
+      "title": "Arrêté du Gouvernement flamand portant exécution du Code (Codex) flamand de la Fiscalité (BVCF) - Version coordonnée officieuse - PDF",
+      "summary": "Région flamande - Code flamand de la Fiscalité (Codex) - Arrêté",
+      "language": "fr",
+      "document_type": "Législation et règlementation régionale et locale",
+      "taxonomies": [
+        "Code flamand de la Fiscalité – CfF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Entités fédérées",
+        "Autorité flamande",
+        "Code flamand de la Fiscalité – CfF"
+      ],
+      "document_date": "2013-12-20",
+      "last_modified": "2026-09-03",
+      "linked_document_nl": "c5716e8b-eed1-4495-a713-9451b33ba81e",
+      "pages": 110,
+      "size_bytes": 1597191,
+      "sha256": "d614501953573e587cfea3de9bd821b2728ba6b96a6ab4b680b65d87ca4fb9c2",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/7be3c942-64d5-4080-bcf0-9bde3d8af2a6",
+      "ingest": true
+    },
+    {
+      "guid": "5d5bccd3-e59d-4fa0-b96e-50a57184aeed",
+      "pdf_guid": "5d5bccd3-e59d-4fa0-b96e-50a57184aeed",
+      "file": "arrete_royal_du_11_01_1940_relatif_a_l_execution_du_code_des_droits_d_enregistrement_d_hypotheque_et_de_greffe.pdf",
+      "library_title": "Arrêté royal du 11.01.1940 relatif à l'exécution du Code des droits d'enregistrement, d'hypothèque et de greffe",
+      "title": "11.01.1940 - Arrêté royal relatif à l'exécution du Code des droits d'enregistrement, d'hypothèque et de greffe - Version consolidée (PDF)",
+      "summary": "11.01.1940 - Arrêté royal relatif à l'exécution du Code des droits d'enregistrement, d'hypothèque et de greffe - Version consolidée (PDF)",
+      "language": "fr",
+      "document_type": "Arrêtés royaux",
+      "taxonomies": [
+        "A.R. du 11.01.1940 relatif à l’exécution du Code"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits d'enregistrement, d'hypothèque et de greffe",
+        "Législation et réglementation",
+        "A.R. du 11.01.1940 relatif à l’exécution du Code"
+      ],
+      "document_date": "1940-01-10",
+      "last_modified": "2026-09-11",
+      "linked_document_nl": "927ec5f4-2069-4253-9d8c-9bc6e75dc968",
+      "pages": 14,
+      "size_bytes": 381038,
+      "sha256": "90170ae2a6d47d09f661f0819b03315f9dff58a4e4a1a62d4ae3394469df52ac",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/5d5bccd3-e59d-4fa0-b96e-50a57184aeed",
+      "ingest": true
+    },
+    {
+      "guid": "732636fb-ea6d-470e-827e-a777bf3c8e92",
+      "pdf_guid": "732636fb-ea6d-470e-827e-a777bf3c8e92",
+      "file": "arrete_royal_du_31_03_1936_portant_reglement_general_des_droits_de_succession_region_de_bruxelles_capitale_et.pdf",
+      "library_title": "Arrêté royal du 31.03.1936 portant règlement général des droits de succession - Région de Bruxelles-Capitale et Région wallonne",
+      "title": "Arrêté royal du 31 mars 1936 portant règlement général des droits de succession - Rég. de Bruxelles-Capitale et Rég. wallonne (coordination officieuse)",
+      "summary": "Version PDF",
+      "language": "fr",
+      "document_type": "Arrêtés royaux",
+      "taxonomies": [
+        "A.R. du 31.03.1936 portant règlement général des droits de succession"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits de succession",
+        "Législation et réglementation",
+        "A.R. du 31.03.1936 portant règlement général des droits de succession"
+      ],
+      "document_date": "1936-03-30",
+      "last_modified": "2026-09-11",
+      "linked_document_nl": "62b125b8-5eb6-4319-8098-c472c3193ca0",
+      "pages": 12,
+      "size_bytes": 350085,
+      "sha256": "e921d137d27254f2eb26a20ee9d523fb4a34ed38df9ea617523562b6326c3710",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/732636fb-ea6d-470e-827e-a777bf3c8e92",
+      "ingest": true
+    },
+    {
+      "guid": "aef18a55-5a30-46db-916e-3460568fadbd",
+      "pdf_guid": "aef18a55-5a30-46db-916e-3460568fadbd",
+      "file": "arrete_royal_du_31_03_1936_portant_reglement_general_des_droits_de_succession_region_flamande.pdf",
+      "library_title": "Arrêté royal du 31.03.1936 portant règlement général des droits de succession - Région flamande",
+      "title": "Arrêté royal du 31 mars 1936 portant règlement général des droits de succession - Rég. flamande (coordination officieuse)",
+      "summary": "Version PDF",
+      "language": "fr",
+      "document_type": "Arrêtés royaux",
+      "taxonomies": [
+        "A.R. du 31.03.1936 portant règlement général des droits de succession"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits de succession",
+        "Législation et réglementation",
+        "A.R. du 31.03.1936 portant règlement général des droits de succession"
+      ],
+      "document_date": "1936-03-30",
+      "last_modified": "2024-07-29",
+      "linked_document_nl": null,
+      "pages": 11,
+      "size_bytes": 316183,
+      "sha256": "aca0c77a649eb0189f21b336a9dcfb53ee1cd63b303fbf5f3a0187c94f1d4828",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/aef18a55-5a30-46db-916e-3460568fadbd",
+      "ingest": true
+    },
+    {
+      "guid": "f348b0ec-73b7-4aad-b405-116551160473",
+      "pdf_guid": "f348b0ec-73b7-4aad-b405-116551160473",
+      "file": "arrete_royal_du_3_mars_1927_portant_execution_du_code_des_droits_et_taxes_divers.pdf",
+      "library_title": "Arrêté royal du 3 mars 1927 portant exécution du code des droits et taxes divers",
+      "title": "Arrêté Royal du 3 mars 1927 portant exécution du Code des droits et taxes divers (coordination officieuse) (PDF)",
+      "summary": "Arrêté Royal du 3 mars 1927 portant exécution du Code des droits et taxes divers",
+      "language": "fr",
+      "document_type": "Arrêtés royaux",
+      "taxonomies": [
+        "Arrêté d'exécution du Code des droits et taxes divers"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits et taxes divers",
+        "Législation et réglementation",
+        "Arrêtés d’exécution",
+        "Arrêté d'exécution du Code des droits et taxes divers"
+      ],
+      "document_date": "1927-03-02",
+      "last_modified": "2026-09-11",
+      "linked_document_nl": "99fe7827-c20d-4ef9-bb51-2f96ada161d3",
+      "pages": 54,
+      "size_bytes": 703159,
+      "sha256": "3960fd15f75263666dcd64442815fe8de6dc4af99dda39f572540cb29646f5c1",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/f348b0ec-73b7-4aad-b405-116551160473",
+      "ingest": true
+    },
+    {
+      "guid": "e914b68b-3ed0-40b3-8361-913cad20c0ce",
+      "pdf_guid": "e914b68b-3ed0-40b3-8361-913cad20c0ce",
+      "file": "arretes_royaux_de_la_tva_unilingue.pdf",
+      "library_title": "Arrêtés royaux de la TVA (unilingue)",
+      "title": "TVA, Arrêtés royaux - Collection complète (PDF)",
+      "summary": "Arrêtés royaux de la TVA",
+      "language": "fr",
+      "document_type": "Arrêtés royaux",
+      "taxonomies": [
+        "Arrêtés royaux - actuel/historique"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Taxe sur la valeur ajoutée",
+        "Législation et réglementation",
+        "Arrêtés royaux - actuel/historique"
+      ],
+      "document_date": "2026-05-18",
+      "last_modified": "2026-07-09",
+      "linked_document_nl": "eac7500f-1beb-409b-bd52-d5f20860237d",
+      "pages": 375,
+      "size_bytes": 7046472,
+      "sha256": "8292c51cc9c6c5259354f6e02157f6d48baeda4c55731495a69b484a1838acf3",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/e914b68b-3ed0-40b3-8361-913cad20c0ce",
+      "ingest": true
+    },
+    {
+      "guid": "a074a263-8efb-48bc-a83a-4d6d4f839660",
+      "pdf_guid": "a074a263-8efb-48bc-a83a-4d6d4f839660",
+      "file": "cir_92_edition_2026_version_coordonnee_bilingue_pdf_partie_i_mis_a_jour_jusqua_la_loi_programme_du_28_06_2026.pdf",
+      "library_title": "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF (Partie I) (mis à jour jusqu’à la Loi-programme du 28.06.2026)",
+      "title": "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF (Partie I) (mis à jour jusqu’à la Loi du 28.06.2026)",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des impôts sur les revenus",
+        "CIR 92 – Version coordonnée bilingue PDF",
+        "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF"
+      ],
+      "document_date": "2026-06-28",
+      "last_modified": "2026-07-30",
+      "linked_document_nl": "cfc37f57-93bb-40ee-8979-826509bf0f66",
+      "pages": 1413,
+      "size_bytes": 10959172,
+      "sha256": "a713e4decc00a4c01915ec4d1f75aeb63a50ddaa360c58dc822effe61b4ed2bc",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/a074a263-8efb-48bc-a83a-4d6d4f839660",
+      "ingest": true
+    },
+    {
+      "guid": "5e2a18db-298b-45fa-9b3c-77ec73dbede3",
+      "pdf_guid": "5e2a18db-298b-45fa-9b3c-77ec73dbede3",
+      "file": "cir_92_edition_2026_version_coordonnee_bilingue_pdf_partie_ii_mis_a_jour_jusqua_la_loi_programme_du_28_06_2026.pdf",
+      "library_title": "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF (Partie II) (mis à jour jusqu’à la Loi-programme du 28.06.2026)",
+      "title": "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF (Partie II) (mis à jour jusqu’à la Loi du 28.06.2026)",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des impôts sur les revenus",
+        "CIR 92 – Version coordonnée bilingue PDF",
+        "CIR 92 (Edition 2026) – Version coordonnée bilingue PDF"
+      ],
+      "document_date": "2026-06-28",
+      "last_modified": "2026-07-30",
+      "linked_document_nl": "7781818f-346a-4937-9b20-93ec53ad433b",
+      "pages": 797,
+      "size_bytes": 10430991,
+      "sha256": "651a42523bcca228ec4bb4377e1c7d3871385bc7379307aaaad5400b55ee8cda",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/5e2a18db-298b-45fa-9b3c-77ec73dbede3",
+      "ingest": true
+    },
+    {
+      "guid": "65b63636-1955-4c59-bac2-dd3d85db6b30",
+      "pdf_guid": "65b63636-1955-4c59-bac2-dd3d85db6b30",
+      "file": "cir_92_revenus_de_2026_exercice_d_imposition_2027_federal.pdf",
+      "library_title": "CIR 92 - Revenus de 2026 - exercice d'imposition 2027 - Fédéral",
+      "title": "CIR 92 - Revenus 2026 PDF",
+      "summary": "CIR 92 - Revenus 2026 (exercice d'imposition 2027) - Fédéral - PDF mis à jour jusqu'au Moniteur belge du 29.07.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des impôts sur les revenus",
+        "CIR 92 par année de revenus",
+        "CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "e92fb53d-9277-4a22-aa62-640a237c4eb2",
+      "pages": 783,
+      "size_bytes": 5072494,
+      "sha256": "4cc19d8d5787aaf999cfcddf5f6edac7c83baadfc644ee8b9934e4c501b83168",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/65b63636-1955-4c59-bac2-dd3d85db6b30",
+      "ingest": true
+    },
+    {
+      "guid": "6385af33-1c41-4fba-b8ce-9eeb5d3829a0",
+      "pdf_guid": "6385af33-1c41-4fba-b8ce-9eeb5d3829a0",
+      "file": "cir_92_revenus_de_2026_exercice_d_imposition_2027_region_de_bruxelles_capitale.pdf",
+      "library_title": "CIR 92 - Revenus de 2026 - exercice d'imposition 2027 - Région de Bruxelles-capitale",
+      "title": "CIR 92 - Revenus 2026 - Région Bruxelles-Capitale PDF",
+      "summary": "PDF mis à jour jusqu'au Moniteur belge du 29.07.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des impôts sur les revenus",
+        "CIR 92 par année de revenus",
+        "CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "98299e7c-7237-4688-a350-6cafee437463",
+      "pages": 803,
+      "size_bytes": 5156117,
+      "sha256": "31b0c37fbaec5d61a016284bf13ed0d83dcf3fd79994642ce903ce9b94e5338c",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/6385af33-1c41-4fba-b8ce-9eeb5d3829a0",
+      "ingest": true
+    },
+    {
+      "guid": "a2094dc5-202f-4c21-8ce8-b55a38aadef2",
+      "pdf_guid": "a2094dc5-202f-4c21-8ce8-b55a38aadef2",
+      "file": "cir_92_revenus_de_2026_exercice_d_imposition_2027_region_flamande.pdf",
+      "library_title": "CIR 92 - Revenus de 2026 - exercice d'imposition 2027 - Région flamande",
+      "title": "CIR 92 - Revenus 2026 - Région flamande PDF",
+      "summary": "PDF mis à jour jusqu'au Moniteur belge du 29.07.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des impôts sur les revenus",
+        "CIR 92 par année de revenus",
+        "CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "e6c95c2e-6c60-4339-b68c-01d06f4fc95a",
+      "pages": 709,
+      "size_bytes": 4601567,
+      "sha256": "89bb849bd129e967852895853f94ee9c794603a86a372a8f11bd76afcf234817",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/a2094dc5-202f-4c21-8ce8-b55a38aadef2",
+      "ingest": true
+    },
+    {
+      "guid": "486279fd-9e07-43cc-8f7c-598388465da8",
+      "pdf_guid": "486279fd-9e07-43cc-8f7c-598388465da8",
+      "file": "cir_92_revenus_de_2026_exercice_d_imposition_2027_region_wallonne.pdf",
+      "library_title": "CIR 92 - Revenus de 2026 - exercice d'imposition 2027 - Région wallonne",
+      "title": "CIR 92 - Revenus 2026 - Région wallonne PDF",
+      "summary": "PDF mis à jour jusqu'au Moniteur belge du 29.07.2026",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "CIR 92 - PDF - à partir de \"Revenus 1999\""
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des impôts sur les revenus",
+        "CIR 92 par année de revenus",
+        "CIR 92 - PDF - à partir de ＂Revenus 1999＂"
+      ],
+      "document_date": "2026-08-20",
+      "last_modified": "2026-08-20",
+      "linked_document_nl": "bd6718c4-3217-407b-aab1-2e68ac4883e2",
+      "pages": 781,
+      "size_bytes": 5068796,
+      "sha256": "1976c6640dc39c82754ca238fef9f71d2fa164b5a3a47d1d35521f042ff48651",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/486279fd-9e07-43cc-8f7c-598388465da8",
+      "ingest": true
+    },
+    {
+      "guid": "a64c0c06-7d56-4c8d-a132-719ddf0e1f7e",
+      "pdf_guid": "a64c0c06-7d56-4c8d-a132-719ddf0e1f7e",
+      "file": "code_bruxellois_de_procedure_fiscale_c_b_p_f.pdf",
+      "library_title": "Code bruxellois de procédure fiscale - C.B.P.F.",
+      "title": "Code bruxellois de procédure fiscale - coordination officieuse",
+      "summary": "Code bruxellois de procédure fiscale - coordination officieuse",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Code bruxellois de procédure fiscale - CBPF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Entités fédérées",
+        "Région de Bruxelles-Capitale",
+        "Code bruxellois de procédure fiscale - CBPF"
+      ],
+      "document_date": "2020-10-29",
+      "last_modified": "2026-01-14",
+      "linked_document_nl": "506debe7-255c-44f7-a46b-09bfe0779005",
+      "pages": 97,
+      "size_bytes": 1935688,
+      "sha256": "d797dda813746c772c57744f336ca5d421985a60e1b0a680ee2c5366e7f47041",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/a64c0c06-7d56-4c8d-a132-719ddf0e1f7e",
+      "ingest": true
+    },
+    {
+      "guid": "858ce212-1485-4058-a1a0-13af78c8945d",
+      "pdf_guid": "858ce212-1485-4058-a1a0-13af78c8945d",
+      "file": "code_de_la_tva_unilingue.pdf",
+      "library_title": "Code de la TVA (unilingue)",
+      "title": "Code de la taxe sur la valeur ajoutée (PDF) - Mise à jour 01.09.2026",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Code de la TVA - actuel/historique"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Taxe sur la valeur ajoutée",
+        "Législation et réglementation",
+        "Code de la TVA - actuel/historique"
+      ],
+      "document_date": "2026-09-01",
+      "last_modified": "2026-09-03",
+      "linked_document_nl": "47bcd4e0-68ef-4189-b34b-529820b580dc",
+      "pages": 166,
+      "size_bytes": 2154636,
+      "sha256": "ec53e35f60c435ff40163b9b5d51bdbaeb046585e8200279aa9e0c6d31136614",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/858ce212-1485-4058-a1a0-13af78c8945d",
+      "ingest": true
+    },
+    {
+      "guid": "18385378-74a4-4828-a828-9422c51243b0",
+      "pdf_guid": "18385378-74a4-4828-a828-9422c51243b0",
+      "file": "code_des_douanes_de_l_union_version_integree_avec_les_textes_des_da_tda_et_ia_version_a_jour_au_20_03_2021.pdf",
+      "library_title": "Code des douanes de l'Union - Version intégrée avec les textes des DA, TDA et IA - Version à jour au 20.03.2021",
+      "title": "Code des douanes de l’Union - Version intégrée avec les textes des DA, TDA et IA",
+      "summary": "DA, TDA, IA",
+      "language": "fr",
+      "document_type": "Règlementation européenne",
+      "taxonomies": [
+        "Code des douanes: Textes complets"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Douanes"
+      ],
+      "document_date": "2021-03-20",
+      "last_modified": "2021-03-30",
+      "linked_document_nl": "0eba70b3-1d49-4111-9ec7-f1a6ac9ed0c9",
+      "pages": 525,
+      "size_bytes": 4667052,
+      "sha256": "e8cf05e14e00680a29ae7a636fbe73591bab5e0dedda2dcfd3c2b776a192fe4e",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/18385378-74a4-4828-a828-9422c51243b0",
+      "ingest": true
+    },
+    {
+      "guid": "3eecf30d-9ff9-4aec-be55-f149653ef5ae",
+      "pdf_guid": "5607db41-a76c-472c-bdf0-e299849140aa",
+      "file": "code_des_droits_d_enregistrement_d_hypotheque_et_de_greffe_region_de_bruxelles_capitale.pdf",
+      "library_title": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région de Bruxelles-Capitale",
+      "title": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région de Bruxelles-Capitale",
+      "summary": "Table des matières",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région de Bruxelles-Capitale"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits d'enregistrement, d'hypothèque et de greffe",
+        "Législation et réglementation",
+        "Code des droits d'enregistrement, d'hypothèque et de greffe",
+        "Région de Bruxelles-Capitale"
+      ],
+      "document_date": "1939-11-29",
+      "last_modified": "2026-03-10",
+      "linked_document_nl": "7242bb58-f237-4d3c-91b8-c5cafb2e9332",
+      "pages": 221,
+      "size_bytes": 1812793,
+      "sha256": "dbc51762ec5fe95f1c37ec52cfb5b71c660e13867c53784dbd7d5c177d932b7f",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/5607db41-a76c-472c-bdf0-e299849140aa",
+      "ingest": true
+    },
+    {
+      "guid": "bc272a03-35b9-46c6-9cc4-6abb2a0b4a84",
+      "pdf_guid": "bc272a03-35b9-46c6-9cc4-6abb2a0b4a84",
+      "file": "code_des_droits_d_enregistrement_d_hypotheque_et_de_greffe_region_flamande.pdf",
+      "library_title": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région flamande",
+      "title": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région flamande (coordination officieuse) (PDF) ",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région flamande"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits d'enregistrement, d'hypothèque et de greffe",
+        "Législation et réglementation",
+        "Code des droits d'enregistrement, d'hypothèque et de greffe",
+        "Région flamande"
+      ],
+      "document_date": "2014-12-19",
+      "last_modified": "2021-04-20",
+      "linked_document_nl": "a709ccd4-c0ef-45d1-82d2-7c0c9dbfc367",
+      "pages": 142,
+      "size_bytes": 1796687,
+      "sha256": "e67eaf564cf90b8b5005310d42c95dcc9c0d9550b84c34babe64c5c5179fc85b",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/bc272a03-35b9-46c6-9cc4-6abb2a0b4a84",
+      "ingest": true
+    },
+    {
+      "guid": "d1fc1a51-46c6-4584-a672-c32613eeaf40",
+      "pdf_guid": "d1fc1a51-46c6-4584-a672-c32613eeaf40",
+      "file": "code_des_droits_d_enregistrement_d_hypotheque_et_de_greffe_region_wallonne.pdf",
+      "library_title": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région wallonne",
+      "title": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région wallonne (coordination officieuse) (PDF)",
+      "summary": "Code des droits d'enregistrement, d'hypothèque et de greffe - Région wallonne (coordination officieuse) (PDF)",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région wallonne"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits d'enregistrement, d'hypothèque et de greffe",
+        "Législation et réglementation",
+        "Code des droits d'enregistrement, d'hypothèque et de greffe",
+        "Région wallonne"
+      ],
+      "document_date": "1939-11-29",
+      "last_modified": "2026-08-03",
+      "linked_document_nl": "7fffd01f-4230-4bcd-bb97-6bec15c2bd98",
+      "pages": 251,
+      "size_bytes": 1972664,
+      "sha256": "8081eb249d8aca0353f80392433c361ba81b59dc40a329a050551a9bd4649555",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/d1fc1a51-46c6-4584-a672-c32613eeaf40",
+      "ingest": true
+    },
+    {
+      "guid": "54493979-45a3-403b-944d-f42db6821ca3",
+      "pdf_guid": "54493979-45a3-403b-944d-f42db6821ca3",
+      "file": "code_des_droits_de_succession_region_de_bruxelles_capitale.pdf",
+      "library_title": "Code des droits de succession - Région de Bruxelles-Capitale",
+      "title": "Code des droits de succession - Région de Bruxelles-Capitale (coordination officieuse) (PDF)",
+      "summary": "Code des droits de succession - Région de Bruxelles-Capitale (coordination officieuse) (PDF)",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région de Bruxelles-Capitale"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits de succession",
+        "Législation et réglementation",
+        "Code des droits de succession",
+        "Région de Bruxelles-Capitale"
+      ],
+      "document_date": "1936-03-30",
+      "last_modified": "2026-04-02",
+      "linked_document_nl": "bcc1692d-95f9-4aa2-ac69-f3afe91136ad",
+      "pages": 170,
+      "size_bytes": 1346022,
+      "sha256": "98640f3cefc814c345e899dc1a90dcc45bce9ab824a0e3488f9755fd2857d138",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/54493979-45a3-403b-944d-f42db6821ca3",
+      "ingest": true
+    },
+    {
+      "guid": "0d235eec-b5c1-4a73-b636-87848c20903f",
+      "pdf_guid": "0d235eec-b5c1-4a73-b636-87848c20903f",
+      "file": "code_des_droits_de_succession_region_flamande.pdf",
+      "library_title": "Code des droits de succession - Région flamande",
+      "title": "Code des droits de succession - Région flamande (coordination officieuse) (PDF)",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région flamande"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits de succession",
+        "Législation et réglementation",
+        "Code des droits de succession",
+        "Région flamande"
+      ],
+      "document_date": "2014-12-19",
+      "last_modified": "2021-04-20",
+      "linked_document_nl": "66713d52-1143-4fb0-844b-5156fb0d10ec",
+      "pages": 100,
+      "size_bytes": 1361385,
+      "sha256": "e1e80b7f9609e09124d605c0582f8f5207164209aaac7e1aa1579741beed2dde",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/0d235eec-b5c1-4a73-b636-87848c20903f",
+      "ingest": true
+    },
+    {
+      "guid": "ad162165-ea5d-4ab6-8fc4-a415e9eafd78",
+      "pdf_guid": "ad162165-ea5d-4ab6-8fc4-a415e9eafd78",
+      "file": "code_des_droits_de_succession_region_wallonne.pdf",
+      "library_title": "Code des droits de succession - Région wallonne",
+      "title": "Code des droits de succession - Région wallonne (coordination officieuse) (PDF)",
+      "summary": "Code des droits de succession - Région wallonne (coordination officieuse) (PDF)",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région wallonne"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Droits de succession",
+        "Législation et réglementation",
+        "Code des droits de succession",
+        "Région wallonne"
+      ],
+      "document_date": "1936-03-30",
+      "last_modified": "2026-04-02",
+      "linked_document_nl": "1b324e7e-7f44-4e3d-8eee-ca0b495fb42b",
+      "pages": 182,
+      "size_bytes": 1431767,
+      "sha256": "ac84e55abb7c9e7246835955dc8fab4c821f24187cafe77812cbb89989fed005",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/ad162165-ea5d-4ab6-8fc4-a415e9eafd78",
+      "ingest": true
+    },
+    {
+      "guid": "b0a6acd9-d73b-42a3-a663-9a8c555faf44",
+      "pdf_guid": "b0a6acd9-d73b-42a3-a663-9a8c555faf44",
+      "file": "code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bruxelles_capitale.pdf",
+      "library_title": "Code des taxes assimilées aux impôts sur les revenus - Région de Bruxelles-Capitale",
+      "title": "Code des taxes assimilées aux impôts sur les revenus - Région de Bruxelles-Capitale",
+      "summary": "Code des taxes assimilées aux impôts sur les revenus - Région de Bruxelles-Capitale",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région de Bruxelles-Capitale"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Taxes assimilées aux impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des taxes assimilées aux impôts sur les revenus",
+        "Région de Bruxelles-Capitale"
+      ],
+      "document_date": "2024-05-12",
+      "last_modified": "2024-12-24",
+      "linked_document_nl": "71ce91db-670d-447d-a941-3214c9001f8e",
+      "pages": 65,
+      "size_bytes": 770749,
+      "sha256": "18e1ec15cfe8ba275732b0b3df1a4ab3ef8b6f3ca7ff049560dbb64ec12b3d6b",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/b0a6acd9-d73b-42a3-a663-9a8c555faf44",
+      "ingest": true
+    },
+    {
+      "guid": "e7d35350-448f-46e6-b96a-7929f555d8eb",
+      "pdf_guid": "e7d35350-448f-46e6-b96a-7929f555d8eb",
+      "file": "code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamande.pdf",
+      "library_title": "Code des taxes assimilées aux impôts sur les revenus - Région flamande",
+      "title": "PDF - Région flamande - Code des taxes assimilées aux impôts sur les revenus",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région flamande"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Taxes assimilées aux impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des taxes assimilées aux impôts sur les revenus",
+        "Région flamande"
+      ],
+      "document_date": "2019-04-13",
+      "last_modified": "2021-02-08",
+      "linked_document_nl": "0602a282-bfb4-4d14-8407-54af7f18d0d5",
+      "pages": 55,
+      "size_bytes": 704024,
+      "sha256": "c6f7bdc5501a8c2f5ad8dfad82ad4718aa3643bc6ac1e73e6c6c38470a971e5f",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/e7d35350-448f-46e6-b96a-7929f555d8eb",
+      "ingest": true
+    },
+    {
+      "guid": "62b4d59a-10a2-4651-9e04-1ad1df28d0f6",
+      "pdf_guid": "62b4d59a-10a2-4651-9e04-1ad1df28d0f6",
+      "file": "code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonne.pdf",
+      "library_title": "Code des taxes assimilées aux impôts sur les revenus - Région wallonne",
+      "title": "Code des taxes assimilées aux impôts sur les revenus - Région wallonne",
+      "summary": "Code des taxes assimilées aux impôts sur les revenus - Région wallonne",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Région wallonne"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Taxes assimilées aux impôts sur les revenus",
+        "Législation et réglementation",
+        "Code des taxes assimilées aux impôts sur les revenus",
+        "Région wallonne"
+      ],
+      "document_date": "1965-11-23",
+      "last_modified": "2026-06-30",
+      "linked_document_nl": "7af3431e-b347-44b9-a03b-dda7c4ff2360",
+      "pages": 86,
+      "size_bytes": 994238,
+      "sha256": "ea2ff0cfdb1c8e139625238e0bfafefd71cc7f12966860556fe0eb867e650bfd",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/62b4d59a-10a2-4651-9e04-1ad1df28d0f6",
+      "ingest": true
+    },
+    {
+      "guid": "6643c7bc-0a2c-45ec-af59-a4880f279c8b",
+      "pdf_guid": "6643c7bc-0a2c-45ec-af59-a4880f279c8b",
+      "file": "code_du_recouvrement_amiable_et_force_des_creances_fiscales_et_non_fiscales.pdf",
+      "library_title": "Code du recouvrement amiable et forcé des créances fiscales et non fiscales ?",
+      "title": "Code du recouvrement amiable et forcé des créances fiscales et non fiscales",
+      "summary": "Code du recouvrement amiable et forcé des créances fiscales et non fiscales",
+      "language": "fr",
+      "document_type": "Code et législation",
+      "taxonomies": [
+        "Code du recouvrement"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Perception et Recouvrement",
+        "Législation et réglementation",
+        "Code du recouvrement"
+      ],
+      "document_date": "2019-04-13",
+      "last_modified": "2019-05-02",
+      "linked_document_nl": "74794f77-7a5a-4774-be93-ffb88bfa5392",
+      "pages": 41,
+      "size_bytes": 349047,
+      "sha256": "5d0a745a0bb8abb127557b5b2ef6719dc1f37a058e0ef3a68a694766e5b13502",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/6643c7bc-0a2c-45ec-af59-a4880f279c8b",
+      "ingest": true
+    },
+    {
+      "guid": "16225f03-efe3-4921-aa44-d92fc938130f",
+      "pdf_guid": "16225f03-efe3-4921-aa44-d92fc938130f",
+      "file": "code_flamand_de_la_fiscalite_codex.pdf",
+      "library_title": "Code Flamand de la Fiscalité (CODEX)",
+      "title": "Code (Codex) flamand de la Fiscalité - CfF (PDF)",
+      "summary": null,
+      "language": "fr",
+      "document_type": "Législation et règlementation régionale et locale",
+      "taxonomies": [
+        "Code flamand de la Fiscalité – CfF"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Entités fédérées",
+        "Autorité flamande",
+        "Code flamand de la Fiscalité – CfF"
+      ],
+      "document_date": "2013-12-13",
+      "last_modified": "2026-09-08",
+      "linked_document_nl": "df9c8b13-09e0-484b-908a-0a431b577a6e",
+      "pages": 525,
+      "size_bytes": 5954106,
+      "sha256": "1434cd9dd3d0e9161fa201b76d0773f1e350bd5b4de53637f67301b266a1cc31",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/16225f03-efe3-4921-aa44-d92fc938130f",
+      "ingest": true
+    },
+    {
+      "guid": "4f2ad1a6-cbb1-4ef1-a63d-1a95f4519125",
+      "pdf_guid": "4f2ad1a6-cbb1-4ef1-a63d-1a95f4519125",
+      "file": "memento_fiscal_2025.pdf",
+      "library_title": "Memento Fiscal 2025",
+      "title": "Memento Fiscal 2025",
+      "summary": "Mémento fiscal – Aperçu de la fiscalité en Belgique (PDF)",
+      "language": "fr",
+      "document_type": "Brochures et publications",
+      "taxonomies": [
+        "Bibliothèque Publique"
+      ],
+      "path": [
+        "Bibliothèque Publique"
+      ],
+      "document_date": "2024-12-31",
+      "last_modified": "2025-05-16",
+      "linked_document_nl": "89c56bfa-0013-4e2d-a63e-1ac6a493f668",
+      "pages": 381,
+      "size_bytes": 6479056,
+      "sha256": "4fd0a1fdfd22910690f2bdd3a004d73809ba262c55845acc8e1c6729f965cf6e",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/4f2ad1a6-cbb1-4ef1-a63d-1a95f4519125",
+      "ingest": false
+    },
+    {
+      "guid": "2540c74a-8e9e-4f8e-81cb-14ae2f450e91",
+      "pdf_guid": "2540c74a-8e9e-4f8e-81cb-14ae2f450e91",
+      "file": "reglement_dexecution_ue_n_282_2011_du_conseil_en_matiere_de_tva_bilingue.pdf",
+      "library_title": "Règlement d’exécution (UE) n° 282/2011 du Conseil en matière de TVA (bilingue)",
+      "title": "PARTIE IV. Règlement d’exécution (UE) n° 282/2011 du Conseil - Version actuelle bilingue (PDF)",
+      "summary": "Taxe sur la valeur ajoutée",
+      "language": "fr",
+      "document_type": "Règlementation européenne",
+      "taxonomies": [
+        "Version 28.08.2018"
+      ],
+      "path": [
+        "FISCALITÉ",
+        "Taxe sur la valeur ajoutée",
+        "Législation et réglementation"
+      ],
+      "document_date": "2016-02-26",
+      "last_modified": "2023-04-19",
+      "linked_document_nl": "074771a3-97d6-436a-ab7c-38580fc1cd49",
+      "pages": 95,
+      "size_bytes": 1065322,
+      "sha256": "e4d18c3860bfbc7d53b9788a59ee506ce21630b6a8499dd557e5e51e25a77428",
+      "source_url": "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/2540c74a-8e9e-4f8e-81cb-14ae2f450e91",
+      "ingest": true
+    }
+  ]
+}
