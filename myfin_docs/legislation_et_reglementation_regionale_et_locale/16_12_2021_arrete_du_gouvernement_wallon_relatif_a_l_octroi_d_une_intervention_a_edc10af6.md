@@ -1,0 +1,161 @@
+---
+guid: "edc10af6-cd9c-4431-af56-900fcd6712ff"
+title: "16.12.2021 - Arrêté du Gouvernement wallon relatif à l'octroi d'une intervention additionnelle à destination du code NACE-BEL 56.302 dans le cadre de la crise du coronavirus COVID-19"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2021-12-16"
+publication_date: "2021-12-24"
+effective_date: "2021-12-24"
+last_modified: "2022-01-05"
+taxonomies: ["Législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région wallonne", "Législation et réglementation"]
+linked_document_nl: "0e532c95-ea45-4faa-aff0-bfc658abef39"
+found_via: "18b075e8-cf19-44e2-838b-817735120208"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/edc10af6-cd9c-4431-af56-900fcd6712ff"
+---
+
+# 16.12.2021 - Arrêté du Gouvernement wallon relatif à l'octroi d'une intervention additionnelle à destination du code NACE-BEL 56.302 dans le cadre de la crise du coronavirus COVID-19
+
+16.12.2021 - Arrêté du Gouvernement wallon relatif à l'octroi d'une intervention additionnelle à destination du code NACE-BEL 56.302 dans le cadre de la crise du coronavirus COVID-19
+
+(M.B. 24.12.2021 – Numac : 2021206033 )
+
+Le Gouvernement wallon,
+
+Vu le décret du 11 mars 2004 relatif aux incitants régionaux en faveur des petites ou moyennes entreprises, articles 10 et 19;
+
+Vu le rapport du 29 novembre 2021 établi conformément à l'article 3, 2°, du décret du 11 avril 2014 visant à la mise en oeuvre des résolutions de la Conférence des Nations unies sur les femmes à Pékin de septembre 1995 et intégrant la dimension du genre dans l'ensemble des politiques régionales;
+
+Vu l'avis de l'Inspecteur des Finances, donné le 29 novembre 2021;
+
+Vu l'accord du Ministre du Budget, donné le 3 décembre 2021;
+
+Vu la demande d'avis dans un délai de 5 jours, adressée au Conseil d'Etat le 3 décembre 2021, en application de l'article 84, § 1 er , alinéa 1, 3°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973;
+
+Considérant l'absence de communication de l'avis dans ce délai;
+
+Vu l'article 84, § 4, alinéa 2, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973;
+
+Vu l'urgence;
+
+Considérant l'arrêté ministériel du 28 octobre 2020 portant des mesures d'urgence pour limiter la propagation du coronavirus COVID-19;
+
+Considérant le Comité de concertation du 26 novembre 2021;
+
+Considérant que les établissements relevant du code NACE-BEL 56.302 sont à nouveau fermés depuis le 27 novembre 2021;
+
+Considérant qu'à la suite de cette nouvelle fermeture, la présente mesure a pour but de soutenir les indépendants et entreprises actives dans ces secteurs dans le cadre de leur reprise;
+
+Considérant que les entreprises concernées voient à nouveau leur chiffre d'affaires baisser, voire disparaître, mettant ainsi en péril les revenus des entrepreneurs et de leurs salariés;
+
+Considérant qu'il y a urgence d'adopter le présent projet vu la situation de difficulté qui subsiste pour ces entreprises qui subissent de graves dommages économiques;
+
+Considérant que la présente aide a, notamment, pour objet d'amoindrir les difficultés rencontrées et de tenter d'éviter une vague de faillites parmi les entreprises confrontées à des problèmes de liquidité du fait de la crise;
+
+Considérant qu'il y a dès lors lieu de renforcer l'intervention et qu'il est fondamental de soutenir financièrement ces secteurs dans les meilleurs délais;
+
+Considérant le Règlement (UE) n° 1407/2013 de la Commission du 18 décembre 2013 relatif à l'application des articles 107 et 108 du traité sur le fonctionnement de l'Union européenne aux aides de minimis;
+
+Sur proposition du Ministre de l'Economie;
+
+Après délibération,
+
+Arrête :
+
+Article 1 er
+
+Pour l'application du présent arrêté, il faut entendre par :
+
+1° le décret : le décret du 11 mars 2004 relatif aux incitants régionaux en faveur des petites ou moyennes entreprises;
+
+2° le Ministre : le Ministre qui a l'Economie dans ses attributions;
+
+3° l'entreprise : la très petite, la petite ou la moyenne entreprise visée à l'article 3, § § 3 et 5, du décret ainsi que la personne physique qui exerce une activité professionnelle à titre principal et qui, compte tenu de ses revenus professionnels, paie des cotisations sociales;
+
+4° le Code NACE-BEL : la nomenclature d'activités économiques élaborée par l'Institut national des statistiques (NACE-BEL 2008) dans un cadre européen harmonisé, imposé par le règlement (CEE) n° 3037/90 du 9 octobre 1990 du Conseil relatif à la nomenclature statistique des activités économiques dans la Communauté européenne, modifié par le Règlement (CEE) n° 761/93 de la Commission du 24 mars 1993, le Règlement (CE) n° 29/2002 du 19 décembre 2001, le Règlement (CE) n° 1882/2003 du Parlement européen et du Conseil du 29 septembre 2003 et le Règlement (CE) n° 1893/2006 du Parlement européen et du Conseil du 20 décembre 2006;
+
+5° l'Administration : le Service public de Wallonie Economie, Emploi et Recherche;
+
+6° la plateforme web : l'application web, visée à l'article 1er, § 1er, alinéa 1er, 6°, du décret du 21 décembre 2016 portant octroi d'aides, au moyen d'un portefeuille intégré d'aides en Région wallonne, aux porteurs de projets et aux petites et moyennes entreprises pour rémunérer des services promouvant l'entrepreneuriat ou la croissance, et constituant une banque de données de sources authentiques liées à ce portefeuille intégré, accessible à l'adresse https://indemnitecovid.wallonie.be;
+
+7° l'effectif d'emploi : la moyenne du nombre de travailleurs en 2019 occupés dans les liens d'un contrat de travail dans l'ensemble des sièges d'exploitation de l'entreprise correspondant au nombre d'unités de travail (UTA), calculé sur base des déclarations multifonctionnelles à la Banque-carrefour de la Sécurité Sociale des quatre trimestres de 2019.
+
+Art icle 2
+
+La crise sanitaire liée au coronavirus COVID-19 est reconnue par le Gouvernement comme un évènement extraordinaire au sens de l'article 10 du décret.
+
+Art icle 3
+
+L'intervention est octroyée conformément au Règlement (UE) n° 1407/2013 de la Commission du 18 décembre 2013 relatif à l'application des articles 107 et 108 du traité sur le fonctionnement de l'Union européenne aux aides de minimis, ci-après dénommé Règlement 1407/2013.
+
+Art icle 4
+
+Le Ministre octroie, selon les modalités qu'il détermine, une intervention à l'entreprise :
+
+1° qui possédait une unité d'établissement visée à l'article I. 2., 16°, du Livre I er , du Code de droit économique, en Région wallonne avant le 1 er octobre 2021;
+
+2° dont l'activité relève du code NACE-BEL 56.302.
+
+Art icle 5
+
+L'intervention visée à l'article 4, alinéa 1 er , est de :
+
+1° 8.000 euros si l'effectif d'emploi est de 0;
+
+2° 12.000 euros si l'effectif d'emploi est supérieur à 0 et inférieur à 10;
+
+3° 18.000 euros si l'effectif d'emploi est égal ou supérieur à 10 et inférieur à 50;
+
+4° 24.000 euros si l'effectif d'emploi est égal ou supérieur à 50.
+
+Par dérogation à l'article 1 er , 7°, si l'entreprise a été créée en 2020, l'effectif d'emploi est calculé sur la moyenne du nombre de travailleurs de l'année de la création de l'entreprise.
+
+L'intervention visée à l'alinéa 1 er est attribuée une seule fois par entreprise inscrite dans la Banque-Carrefour des Entreprises, conformément au livre III, Titre 2, chapitre 1 er , du Code de droit économique.
+
+Art icle 6
+
+L'entreprise introduit auprès de l'Administration sa demande d'intervention via un formulaire sur la plateforme web à partir du 24 décembre 2021 et jusqu'au 23 janvier 2022 inclus.
+
+Lors de l'introduction du dossier sur la plateforme web, l'entreprise doit fournir au moins les informations suivantes :
+
+1° son numéro de Banque-Carrefour des Entreprises;
+
+2° le code NACE-BEL de l'activité pour laquelle l'entreprise sollicite l'intervention complémentaire;
+
+3° une déclaration sur l'honneur à compléter sur la plateforme web;
+
+4° le numéro de compte de l'entreprise.
+
+L'entreprise déclare au moins via la déclaration sur l'honneur visée à l'alinéa 2, 3°, ne pas dépasser les plafonds tels que définis dans le Règlement 1407/2013, à savoir 200.000 euros sur les trois derniers exercices fiscaux, relever d'une activité reprise dans le code NACE-BEL visé à l'article 4, alinéa 1 er , 2°.
+
+Le montant de l'intervention est calculé par l'Administration, conformément à l'article 5, sur base des données qui lui sont communiquées par les sources authentiques et des documents fournis par l'entreprise.
+
+Art icle 7
+
+La décision de recevabilité, de paiement, du contrôle et du recouvrement de l'intervention relève de tout agent de niveau A tel que défini dans l'arrêté du Gouvernement wallon du 18 décembre 2003 portant le Code de la Fonction publique wallonne, désigné par le directeur général de l'Administration.
+
+Art icle 8
+
+Lorsque la demande d'intervention n'est pas recevable, l'agent de niveau A visé à l'article 7 suspend la demande et informe l'entreprise qui peut compléter sa demande et la soumettre à un nouvel examen de recevabilité.
+
+Si le dossier n'est pas complété dans un délai d'un mois à dater de la date de notification de la suspension ou que la demande d'intervention est à nouveau déclarée irrecevable, celle-ci est définitivement annulée.
+
+Si la demande répond aux conditions fixées, l'entreprise est informée électroniquement que l'intervention est accordée.
+
+Art icle 9
+
+Le présent arrêté entre en vigueur le jour de sa publication au Moniteur belge.
+
+Art icle 10
+
+Le Ministre de l'Economie est chargé de l'exécution du présent arrêté.
+
+Namur, le 16 décembre 2021.
+
+Le Ministre-Président,
+
+E. DI RUPO
+
+Le Ministre de l'Economie, de la Recherche et de l'Innovation, du Numérique, de l'Agriculture, de l'Urbanisme et de l'Aménagement du territoire, de l'IFAPME et de Centres de Compétences,
+
+W. BORSUS

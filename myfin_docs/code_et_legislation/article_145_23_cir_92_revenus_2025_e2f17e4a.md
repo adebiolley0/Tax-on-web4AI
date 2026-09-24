@@ -1,0 +1,27 @@
+---
+guid: "e2f17e4a-da2c-4849-b3f0-008e928119f8"
+title: "Article 145^23, CIR 92 (revenus 2025)"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2014-05-08"
+publication_date: "2014-05-28"
+effective_date: "2014-01-01"
+last_modified: "2025-02-17"
+taxonomies: ["CIR 92 - Revenus 2025"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Code des impôts sur les revenus", "CIR 92 par année de revenus", "CIR 92 - Revenus 2025"]
+linked_document_nl: "10d35b7f-106e-46c7-8402-62470a20819f"
+found_via: "228824fd-0704-49ab-b2b6-852d5da3ac27"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/e2f17e4a-da2c-4849-b3f0-008e928119f8"
+---
+
+# Article 145^23, CIR 92 (revenus 2025)
+
+Art. 145 23 , § 1 et 2, est applicable à partir de l'exercice d'imposition 2015 (art. 29 et 72, al. 1, L 08.05.2014 - M.B. 28.05.2014; Numac: 2014003239 - err. M.B. 27.01.2015)
+
+§ 1. Lorsqu'une imposition commune est établie, la réduction d'impôt visée à l'article 145 21 est répartie proportionnellement en fonction du revenu imposé conformément à l'article 130 de chaque conjoint dans l'ensemble des revenus imposés conformément à l'article 130 des deux conjoints.
+
+§ 2. La partie de la réduction d'impôt visée à l'article 145 21 afférente aux dépenses faites pour des prestations payées avec des titres-services, qui ne peut être imputée sur les centimes additionnels régionaux et les augmentations d'impôt régionales ou sur le solde de l'impôt des personnes physiques fédéral, est convertie en un crédit d'impôt régional remboursable.
+
+Le présent paragraphe ne s'applique pas lorsque le revenu imposable du contribuable, à l'exclusion des revenus qui sont imposés conformément à l'article 171, excède le montant visé à l'article 131, alinéa 1 er , 1°.
+
+Le présent paragraphe ne s'applique pas non plus au contribuable qui recueille des revenus professionnels qui sont exonérés conventionnellement et qui n'interviennent pas pour le calcul de l'impôt afférent à ses autres revenus.

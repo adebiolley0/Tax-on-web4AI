@@ -1,0 +1,51 @@
+---
+guid: "ecec921b-1cd1-4557-beef-51ac1dc79f3c"
+title: "Numéro E 131/01-01"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "1958-09-23"
+publication_date: "1980-01-01"
+effective_date: null
+last_modified: "2021-12-20"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "316a35c9-0d67-438a-8623-4bb55832919b"
+found_via: "a0c92f00-3384-4d34-804a-af632ffdb828"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/ecec921b-1cd1-4557-beef-51ac1dc79f3c"
+---
+
+# Numéro E 131/01-01
+
+Numéro E 131/01-01
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+Numéro E 131/01-01
+
+01. – Mutation apparente.
+
+01. - La dévolution successorale des immeubles situés en Belgique s'opère toujours selon la loi belge, quels que soient la nationalité ou le domicile du défunt.
+
+Toutefois, celui qui a recueilli des immeubles situés en Belgique dans la succession d'un ressortissant étranger, peut s'entendre avec les autres héritiers pour régler la dévolution de ces biens d'après la législation d'un autre pays (p. ex. la loi nationale du défunt).
+
+Pareil arrangement dérogatoire à la dévolution légale s'analyse néanmoins toujours en un abandon ou une transmission de droits successifs.
+
+Cet arrangement reste donc sans influence sur la perception du droit de succession, mais, suivant les circonstances, il rend exigible, au titre de droit d'enregistrement, soit le droit de partage, soit le droit de vente, soit encore le droit de donation, dans la mesure où la dévolution adoptée s'écarte de celle prévue par la loi belge.
+
+Exemple :
+
+Décès d'un ressortissant néerlandais, domicilié aux Pays-Bas. Il laisse sa veuve, ainsi que cinq frères et sœurs.
+
+La succession comprend notamment la moitié d'un immeuble situé en Belgique (l'autre moitié appartient à la veuve).
+
+Dévolution selon la loi belge : aux frères et sœurs, chacun pour 1/5 e , sous réserve de la moitié en usufruit revenant à la veuve. D'après la loi successorale néerlandaise, la succession revient cependant pour la totalité à la veuve.
+
+Par acte notarié passé à l'intervention de tous les intéressés, les frères et sœurs conviennent de régler la dévolution de l'immeuble sis en Belgique d'après la loi néerlandaise et attribuent le dit bien pour la totalité à la veuve.
+
+Cet acte donne lieu à la perception du droit de partage, à moins qu'il ne résulte des circonstances que les collatéraux ont entendu faire une libéralité à la veuve ; dans ce cas, le droit de donation serait dû sur les quotités transmises.
+
+(Décision du 24 .09. 1958 - EE/74.995)
+
+----------
+
+Date de publication : JANVIER 1980

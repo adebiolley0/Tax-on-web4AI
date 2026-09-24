@@ -1,0 +1,37 @@
+---
+guid: "bb321fdc-5a40-49c5-9377-b798f337e7f2"
+title: "Numéro E 13/04-01"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2008-09-17"
+publication_date: "2009-01-01"
+effective_date: null
+last_modified: "2021-04-22"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "8feeb3c1-0a45-4ec9-a525-4feb38bb152e"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/bb321fdc-5a40-49c5-9377-b798f337e7f2"
+---
+
+# Numéro E 13/04-01
+
+Numéro E 13/04-01
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+Numéro E 13/04-01
+
+04. – Changement de destination du bien loué pendant la durée de la convention de location.
+
+01. - L'accord entre le locataire et le bailleur concernant le changement de la destination du bien loué fournit en réalité un complément à la convention de location existante. C'est un acte juridique qui trouve son origine dans un acte juridique antérieur.
+
+Un ajout/changement d'un acte juridique antérieur n'est pas taxable en droit d'enregistrement si l'ajout/le changement a le caractère d'élément accessoire, qui ne touche pas l'acte originaire en son essence d'un point de vue fiscal. A partir du moment où le nouvel acte est tarifé autrement que l'acte originaire, le nouvel acte n'est plus considéré comme un accessoire de l'acte originaire en droit fiscal.
+
+Le changement de destination du bien loué pendant la durée de la convention de location donne lieu, par application de l' article 13 , à la perception du droit proportionnel de bail pour la période de la convention de location qui reste à courir si, suite à ce changement de destination, une convention de location enregistrée gratuitement ne satisfait plus aux conditions requises pour cette gratuité.
+
+(Décision du 17.09.2008 - EE/102.436)
+
+----------
+
+Date de publication : JANVIER 2009

@@ -1,0 +1,285 @@
+---
+guid: "dcab396b-d63a-4cfe-880b-946c456363ea"
+title: "21.03.2019 - Arrêté royal pris en exécution de la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2019-03-21"
+publication_date: null
+effective_date: null
+last_modified: "2023-10-04"
+taxonomies: ["Dispositions autonomes"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Autre législation", "Dispositions autonomes"]
+linked_document_nl: "de8f0296-f8ee-4fab-9bd6-78baaefa81a3"
+found_via: "92f58d9e-6de9-4f59-9f0b-34ad6b892bee"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/dcab396b-d63a-4cfe-880b-946c456363ea"
+---
+
+# 21.03.2019 - Arrêté royal pris en exécution de la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité
+
+<span id="ms-rterangecursor-start" rtenodeid="1"></span><span id="ms-rterangecursor-end"></span>21.03.2019 - Arrêté royal pris en exécution de la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité
+
+M.B ., 29.03.2019, p. 31826
+
+Numac: 2019011207
+
+(version coordonnée officieuse)
+
+PHILIPPE, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+Vu la Constitution, l'article 108 ;
+
+Vu la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité, les articles 4, 5, 9 et 23, alinéa 2 ;
+
+Vu l'avis des Inspecteurs des Finances, donnés les 31 octobre 2018, 5 novembre 2018 et 13 novembre 2018 ;
+
+Vu l'accord de la Ministre du budget, donné le 21 décembre 2018 ;
+
+Vu l'avis n° 162/2018 de l'Autorité de protection des données, donné le 19 décembre 2018 ;
+
+Vu l'analyse d'impact de la réglementation réalisée conformément aux articles 6 et 7 de la loi du 15 décembre 2013 portant des dispositions diverses en matière de simplification administrative ;
+
+Vu l'avis 65.400/1 du Conseil d'Etat, donné le 12 mars 2019, en application de l'article 84, § 1er, alinéa 1er, 2°, des lois sur le Conseil d'Etat coordonnées le 12 janvier 1973;
+
+Sur la proposition du Ministre de l'Emploi, de la Ministre des Affaires Sociales et du Ministre des Pensions et de l'avis des Ministres qui en ont délibéré en Conseil,
+
+Nous avons arrêté et arrêtons :
+
+CHAPITRE 1er. - Le budget mobilité
+
+Article 1er. Le budget mobilité est mis en totalité à disposition du travailleur bénéficiaire sous une forme virtuelle.
+
+Art. 2 . L'employeur informe les travailleurs des moyens de transports durables qu'il accepte de financer au moyen du budget mobilité.
+
+Art. 3. Le travailleur a, à tout moment, accès aux informations relatives à l'état de son budget mobilité, soit notamment :
+
+- ses données d'identification sous la forme de son numéro d'identification, visé à l'article 8, § 1er, de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la Sécurité sociale ;
+
+- la catégorie de fonction à laquelle il appartient ;
+
+- la date à laquelle il a intégré la catégorie de fonction précitée ;
+
+- le montant du budget qui lui est alloué;
+
+- l'inventaire des moyens de transport durables qui ont déjà été financés ;
+
+- le détail de l'imputation des dépenses en fonction des choix effectués par le travailleur ;
+
+- la date à laquelle les moyens de transport durables ont été financés ;
+
+- les frais de gestion du budget mobilité ;
+
+- la durée de validité du budget mobilité ;
+
+- le solde disponible ;
+
+- les adaptations apportées au montant du budget en cas de changement de fonction ou de promotion.
+
+Art. 4. L'employeur détermine les pièces justificatives à lui soumettre par le travailleur aux fins de prouver le financement des moyens de transport durables.
+
+Art. 5. S'il est fait usage d'une carte prépayée ou d'une application, l'employeur prend les mesures nécessaires pour que ces instruments ne puissent être utilisés que pour financer les moyens de transport durables qu'il a autorisés.
+
+Art. 6. Dans l'hypothèse d'une surconsommation du budget mobilité par le travailleur, constaté à la fin de la relation de travail qui survient avant l'expiration de la durée de validité du budget mobilité ou dans le mois au cours duquel le travailleur exerce une nouvelle fonction pour laquelle il a droit à une voiture de société d'une catégorie inférieure ou il n'a plus droit à une voiture de société dans le système salarial de l'employeur, le travailleur est tenu de rembourser à l'employeur les sommes indûment utilisées dans les 30 jours à compter de la date à laquelle il y est invité par l'employeur.
+
+Dans l'hypothèse d'un usage abusif du budget mobilité par le travailleur, dans le sens d'un financement de moyens de transports durables non autorisés par l'employeur, le travailleur est tenu de rembourser les sommes indûment utilisées dans les 30 jours à compter de la date à laquelle il y est invité par l'employeur.
+
+L'invitation de l'employeur visée à l'alinéa 1er et à l'alinéa 2 est accompagnée d'un calcul détaillé des sommes à rembourser.
+
+Art. 7 . En cas d'insuffisance de budget mobilité pour financer la totalité d'un moyen de transport durable, l'employeur ne remboursera le travailleur qu'à concurrence du budget encore disponible.
+
+C HAPITRE 1er/1 – Formules
+
+Art. 7/1 . Le montant des dépenses relatives à la mise à disposition d'une voiture de société respectueuse de l'environnement et les frais y afférents dans le cadre de la politique en matière de voitures de société, visé à l'article 8, § 2, 1°, de la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité, est égal à la somme des frais réels suivants relatifs au véhicule payés par l'employeur :
+
+- amortissement annuel de 20 p.c. du coût de la voiture de société respectueuse de l'environnement, compte tenu des options et accessoires facturés ainsi que des remises accordées ;
+
+- intérêts des capitaux empruntés ;
+
+- frais de location ou de leasing ;
+
+- frais de carburant et d'électricité ;
+
+- frais d'administration de la carte essence ou de recharge électrique ;
+
+- amortissement annuel de 20 p.c. du prix de la borne de recharge et de son installation ;
+
+- frais d'entretien et de réparation de la borne de recharge ;
+
+- frais de gestion de la borne de recharge et du câble de recharge ;
+
+- frais de péage et de stationnement ;
+
+- frais de lavage, d'entretien et de réparation ;
+
+- frais d'une voiture de remplacement ;
+
+- frais de mise en état de marche du véhicule ;
+
+- frais de remplacement, de changement et stockage des pneus ;
+
+- frais d'expertise lors de la restitution du véhicule en fin de contrat ou lors d'un changement de conducteur ;
+
+- frais de réparation inventoriées lors de la restitution du véhicule en fin de contrat ;
+
+- frais d'assurances (en ce compris les frais de franchise) ;
+
+- frais de contrôle technique ;
+
+- frais de gestion des services ;
+
+- taxe de mise en circulation ;
+
+- taxe de circulation ;
+
+- cotisation patronale de solidarité CO2 due à l'ONSS ;
+
+- T.V.A. non-récupérable sur tous les postes précités ;
+
+- impôt sur la partie non déductible des postes précités ;
+
+- impôt sur la partie de l'avantage de toute nature constitutive d'une dépense non admise.
+
+Les frais ne peuvent pas être pris en compte dans la mesure où ils sont déjà inclus dans les frais relatifs au contrat de location ou de leasing.
+
+Les frais ne peuvent être pris en compte que dans la mesure où leur financement est prévu par la politique en matière de voitures de société.
+
+L'employeur peut déduire du budget mobilité les frais résultant de l'utilisation du véhicule de société à des fins professionnelles à condition qu'il indemnise les frais consentis par le travailleur pour ses déplacements professionnels au-delà du budget mobilité lors de l'octroi de celui-ci.
+
+Les frais sont imputés le plus rapidement possible sur le budget mobilité, et le travailleur en est informé.
+
+Art. 7/2. § 1er. Le montant des dépenses visé à l'article 7/1, peut également être calculé sur base de valeurs forfaitaires.
+
+§ 2. Pour un véhicule pris en location ou en leasing, le montant forfaitaire est déterminé conformément à la formule suivante :
+
+Coût annuel de la location ou du leasing + coût annuel moyen
+
+de tous les frais non inclus dans le contrat de location ou de leasing
+
+(à condition d'être prévus dans la politique en matière de voiture
+
+de société) + T.V.A. non déductible + impôt sur les frais
+
+de voiture non-déductibles + cotisation patronale de solidarité CO2
+
++ (6 000 + distance domicile-lieu de travail x 2 x 200) x coût
+
+de consommation au kilomètre, à condition que les frais
+
+de carburant ne soient pas déjà inclus dans le coût annuel
+
+de la location ou du leasing
+
+§ 3. Pour un véhicule propre ou pris en leasing financier, le montant forfaitaire est déterminé conformément à la formule suivante :
+
+Valeur catalogue du véhicule (y compris l'impôt
+
+sur la partie non déductible de cette valeur catalogue)
+
+x 25 p.c. + cotisation patronale de solidarité CO2
+
++ (6 000 + distance domicile - lieu de travail x 2 x 200)
+
+x coût de consommation au kilomètre
+
+§ 4. Pour l'application du paragraphe 2, l'on entend par "coût annuel moyen de tous les frais non inclus dans le contrat de location ou de leasing" le coût annuel moyen de tous ces frais sur les trois dernières années, ou au coût moyen annuel de la période entière si la voiture de société a été mise à disposition pendant moins de trois ans, toujours à condition d'être prévus dans la politique en matière de voiture de société.
+
+§ 5. Pour l'application des paragraphes 2 et 3, le coût de consommation au kilomètre est égal à 30 p.c. de l'indemnité kilométrique telle qu'en vigueur au moment où le montant des dépenses dans le pilier 1 est déterminé, en application de l'article 74 de l'arrêté royal du 13 juillet 2017 fixant les allocations et indemnités des membres du personnel de la fonction publique fédérale.
+
+Par dérogation à l'alinéa 1er, le coût de consommation au kilomètre est égal à 0 si le travailleur ne dispose pas d'une carte carburant ou d'une carte de recharge.
+
+§ 6. Par valeur catalogue, l'on entend la valeur catalogue telle que déterminée à l'article 36, § 2, alinéa 2, du Code des impôts sur les revenus 1992.
+
+Art. 7/3 . Le montant du budget mobilité, visé à l'article 12, § 1er, de la loi du 17 mars 2019 précitée, est égal au coût brut moyen annuel de la voiture de société à laquelle le travailleur renonce sur les quatre dernières années, ou au coût brut moyen annuel de la période entière si la voiture de société a été mise à disposition pendant moins de quatre ans, en tenant compte, le cas échéant, des frais réels visés à l'article 7/1.
+
+Art. 7/4 . Le montant du budget mobilité visé à l'article 7/3, peut également être calculé de façon forfaitaire, conformément à l'article 7/2, §§ 2 à 6.
+
+Pour l'application de l'article 7/2, § 5, l'indemnité kilométrique à prendre en compte est celle en vigueur au moment du calcul du montant du budget mobilité.
+
+Art. 7/5. Pour l'application des articles 7/3 et 7/4, si le travailleur paie une contribution personnelle pour l'usage privé de la voiture de société, celle-ci est déduite du montant du budget mobilité.
+
+Art. 7/6. D'une part pour l'application des articles 7/1 et 7/2, et d'autre part pour l'application des articles 7/3 et 7/4, le choix de la méthode d'évaluation forfaitaire doit être posé pour tous les travailleurs de la société.
+
+Le choix posé est valable pour une période de 3 ans.
+
+CHAPITRE 2. - Le compte mobilité
+
+Art. 8. Un compte mobilité est créé au nom du travailleur bénéficiaire.
+
+Le compte mobilité est une banque de données dans laquelle le budget mobilité est enregistré et géré par l'employeur.
+
+A cet effet, l'employeur peut faire appel aux services d'une tierce partie pour assurer en partie ou en totalité, en son nom la création et la gestion du compte mobilité.
+
+L'employeur est le responsable du traitement, indépendamment du fait qu'il ait confié la création et la gestion du compte mobilité à une tierce partie.
+
+A cet effet, il conclut un contrat qui lie le sous-traitant à l'égard du responsable du traitement, et définit l'objet et la durée du traitement, la nature et la finalité du traitement, le type de données à caractère personnel et les catégories de personnes concernées et les obligations et les droits du responsable du traitement, conformément aux prescriptions de l'article 28 du Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE et de la loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel.
+
+En sa qualité de responsable de traitement, l'employeur prend les mesures nécessaires afin de garantir les droits des travailleurs concernés conformément aux prescriptions de la loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel.
+
+Art. 9 . Le compte mobilité doit permettre à l'employeur :
+
+- d'attribuer et de suivre par travailleur bénéficiaire le budget mobilité auquel ce dernier a droit et d'enregistrer tous les frais financés par le budget mobilité ;
+
+- d'adapter à la hausse ou à la baisse le budget mobilité en cas de changement de fonction ou de promotion du travailleur bénéficiaire ;
+
+- de bloquer l'accès au solde du budget mobilité au jour de la cessation de l'octroi du budget mobilité ;
+
+- de procéder à un nouveau calcul du budget mobilité de manière à permettre à l'employeur de réclamer le remboursement des sommes indûment utilisées en application de l'article 6 ;
+
+- de calculer la partie du solde du budget mobilité, qui n'a pas été utilisée par le travailleur au cours de l'année civile pour le financement des moyens de transport durables, et qui lui sera versée, une fois par an, en espèces, au plus tard avec le salaire du premier mois de l'année successive.
+
+CHAPITRE 3. - Conservation des données
+
+Art. 10. Les données concernant le budget mobilité sont conservées dans le compte mobilité durant sept années.
+
+L'employeur peut conserver les pièces justificatives sous toute forme de reproduction, à la condition qu'elles soient bien lisibles et que la forme de reproduction utilisée permette une surveillance efficace.
+
+Les pièces justificatives sont conservées durant le même délai que celui visé au premier alinéa.
+
+CHAPITRE 4. - Modification de diverses dispositions concernant le calcul des prestations sociales
+
+Art. 11. L'article 7 de l'arrêté royal n° 50 du 24 octobre 1967 relatif à la pension de retraite et de survie des travailleurs salariés est complété par un quatorzième alinéa, rédigé comme suit :
+
+« Le solde du budget mobilité qui est versé, une fois par an, en espèces, visé à l'article 8, § 3, alinéa 2, de la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité, est en ce qui concerne l'alinéa premier également considéré comme de la rémunération brute en fonction de laquelle la pension de retraite est calculée. ».
+
+Art. 12 . A l'article 2 de l'arrêté royal du 10 juin 2001 établissant la notion uniforme de "rémunération journalière moyenne" en application de l'article 39 de la loi du 26 juillet 1996 portant modernisation de la sécurité sociale et assurant la viabilité des régimes légaux des pensions et harmonisant certaines dispositions légales, modifié en dernier lieu par la loi du 30 septembre 2017, un alinéa rédigé comme suit est inséré entre les alinéas 4 et 5 :
+
+« Pour ce qui concerne le secteur du chômage le solde du budget mobilité qui est versé, une fois par an, en espèces, visé à l'article 8, § 3, alinéa 2, de la loi du 17 mars 2019 concernant l'instauration d'un budget mobilité est considéré comme faisant partie des montants et avantages visés à l'alinéa 3. ».
+
+CHAPITRE 5. - Communication de données à des tiers
+
+Art. 13. La communication du solde visé aux articles 11 et 12 se fait aux institutions publiques de sécurité sociale concernées par l'intermédiaire de la déclaration multifonctionnelle visée à l'article 21, alinéa 2, de la loi du 27 juin 1969 révisant l'arrêté-loi du 28 décembre 1944 concernant la sécurité sociale des travailleurs.
+
+Les inspecteurs sociaux visés à l'article 17, alinéa 2, du Code pénal social ont accès aux données précitées dans l'exercice de leurs missions.
+
+CHAPITRE 6. - Dispositions finales
+
+Art. 14. Le présent arrêté entre en vigueur le jour de sa publication au Moniteur belge.
+
+Art. 15 . Le ministre qui a l'Emploi dans ses attributions, le ministre qui a les Affaires Sociales dans ses attributions et le ministre qui a les Pensions dans ses attributions sont chargés, chacun en ce qui le concerne, de l'exécution du présent arrêté.
+
+Donné à Bruxelles, le 21 mars 2019.
+
+PHILIPPE
+
+Par le Roi :
+
+Le Ministre de l'Emploi,
+
+K. PEETERS
+
+La Ministre des Affaires sociales,
+
+M. DE BLOCK
+
+Le Ministre des Pensions,
+
+D. BACQUELAINE
+
+_______
+
+Note
+
+Références au Moniteur belge :
+
+Loi du 17 mars 2019, Moniteur belge du 29 mars 2019.

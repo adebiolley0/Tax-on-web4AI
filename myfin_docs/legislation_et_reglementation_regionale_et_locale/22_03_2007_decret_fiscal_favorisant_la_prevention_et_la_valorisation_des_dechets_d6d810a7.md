@@ -1,0 +1,1091 @@
+---
+guid: "d6d810a7-1f10-42f5-a1b8-89fa82dc7974"
+title: "22.03.2007 - Décret fiscal favorisant la prévention et la valorisation des déchets en Région wallonne et portant modification du décret du 6 mai 1999"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2007-03-22"
+publication_date: "2007-04-24"
+effective_date: "2008-01-01"
+last_modified: "2026-05-22"
+taxonomies: ["Législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région wallonne", "Législation et réglementation"]
+linked_document_nl: "2995257a-dfae-4fa4-b616-7cbdda459296"
+found_via: "18b075e8-cf19-44e2-838b-817735120208"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/d6d810a7-1f10-42f5-a1b8-89fa82dc7974"
+---
+
+# 22.03.2007 - Décret fiscal favorisant la prévention et la valorisation des déchets en Région wallonne et portant modification du décret du 6 mai 1999
+
+22.03.2007 - Décret fiscal favorisant la prévention et la valorisation des déchets en Région wallonne et portant modification du décret du 6 mai 1999
+
+(version consolidée officieuse – dernière modification : décret du 19.12.2025 - M.B. 30 . 12 .202 5 )
+
+#### CHAPITRE I er - Généralités
+
+Article 1
+
+Pour l'application du présent décret, les termes utilisés sont ceux définis par le décret du 9 mars 2023 relatif aux déchets, à la circularité des matières et à la propreté publique .
+
+Par ailleurs, il y a lieu d'entendre par :
+
+1° décret du 9 mars 2023 : le décret du 9 mars 2023 relatif aux déchets, à la circularité des matières et à la propreté publique ;
+
+2° co -incinération : technique de traitement des déchets dans une installation fixe ou mobile dont l'objectif essentiel est de produire de l'énergie ou des produits et :
+
+a. qui utilise des déchets comme combustibles habituels ou d'appoint, ou
+
+b. dans laquelle les déchets sont soumis au traitement thermique en vue de leur élimination;
+
+3° collecte sélective : la collecte sélective au sens de l'article 5, § 1er, 12°, du décret du 9 mars 2023 , mais limité exclusivement à la collecte en porte-à-porte chez le producteur, à la collecte par apport volontaire du producteur dans les parcs à conteneurs, conteneurs ou bulles accessibles aux producteurs;
+
+4° exercice : l'année au cours de laquelle intervient le fait générateur des taxes établies par le présent décret;
+
+5° administration : le ou les services administratifs désignés par le Gouvernement.
+
+----------
+
+- modifié par l’art. 27 du décret du 10.05.2012. Texte entre en vigueur le 08.06.2012
+
+- modifié par l’art. 8 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017
+
+- modifié par l’art. 1 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+#### CHAPITRE II - Taxe sur la mise des déchets en centre d'enfouissement technique
+
+Article 2
+
+Il est établi une taxe sur la mise des déchets en centre d'enfouissement technique (C.E.T.).
+
+Article 3
+
+Le redevable de la taxe est l'exploitant du C.E.T.
+
+La commune ou l'association de communes est solidairement tenue au paiement de la taxe due pour les déchets ménagers mis pour son compte en centre d'enfouissement technique. Elle peut demander à l'administration de se substituer, pour ces déchets, au redevable, auquel cas il lui incombe de procéder aux déclarations et d'acquitter la taxe.
+
+----------
+
+- modifié par l’art. 1 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017
+
+Article 4
+
+La base de la taxe est le nombre de tonnes de déchets mises en centre d'enfouissement technique.
+
+Les produits utilisés au titre de réactifs et d'adjuvants dans les procédés de traitement par inertage ou stabilisation préalable à la mise en CET sont exclus de la base taxable.
+
+----------
+
+- modifié par l’art. 9 du décret du 05.06.2008. Texte entre en vigueur le 30.06.2008
+
+Article 5
+
+§ 1 er . Le montant de la taxe sur la mise en C.E.T. des déchets est fixé à 100 euros/tonne.
+
+§ 2. Lorsque la mise en C.E.T. de déchets n'est pas autorisée par la réglementation ou une autorisation administrative, le montant de la taxe est fixé à 166,50 euros/tonne, avec un minimum de 166,50 euros, s'il s'agit de déchets non dangereux ou de déchets combustibles et à 666 euros/tonne, avec un minimum de 666 euros, s'il s'agit de déchets dangereux ou de déchets combustibles.
+
+----------
+
+- modifié par l’art. 103 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- modifié par l’art. 1 du décret du 19.06.2015. Texte entre en vigueur le 01.07.2015
+
+- modifié par l’art. 24 du décret du 21.12.2016. Texte entre en vigueur le 01.01.2017
+
+- modifié par l’art. 15 du décret du 13.12.2017. Texte entre en vigueur le 01.01.2018
+
+- modifié par l’art. 110 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018
+
+- modifié par l’art 19 du décret du 29.11.2018. Texte entre en vigueur le 01.01.2019
+
+- modifié par l’art 14 du décret du 19.12.2019 (M.B. 31.12.2019). Texte entre en vigueur le 01.01.2020
+
+- modification précédente supprimée par l’art 4 du décret du 15.10.2020 (M.B. 16.12.2020). Texte entre en vigueur le 01.01.2020
+
+Article 6
+
+§ 1 er . Le montant de la taxe est réduit dans les hypothèses et aux montants suivants :
+
+1° 25 euros/tonne, s'agissant des résidus de traitement par incinération, des cendres volantes provenant de centrales thermiques, des sables de fonderie non inertes, et des résidus provenant du traitement des déchets issus de la production ou de la fabrication de la fonte et de l'acier;
+
+2° 18 euros/tonne, s'agissant des déchets résultant d'un traitement par inertage ou stabilisation;
+
+3° 16 euros/tonne, s'agissant des résidus non inertes d'unités de recyclage du verre utilisant du verre collecté sélectivement pour la production de verre neuf;
+
+4° 15 euros/tonne, s'agissant des déchets provenant de la destruction d'épaves de voitures et de ferrailles;
+
+5° 3 euros/tonne, s'agissant des déchets autres que ceux visés au 10°, provenant d'opérations d'assainissement de sols approuvées par les fonctionnaires désignés par le Gouvernement ou par le Gouvernement lui-même lorsque, de l'avis de l'administration, les procédés d'assainissement autres que l'excavation et la mise en centre d'enfouissement technique entraîneraient des dépenses démesurées ou seraient impraticables;
+
+6° 3 euros/tonne, s'agissant des résidus issus des centres d'assainissement de sols autorisés autres que les terres visées au 10° lorsque, de l'avis de l'administration, l'application de procédés d'assainissement supplémentaires entraînerait des dépenses démesurées ou seraient impraticables;
+
+7° 3 euros/tonne, s'agissant :
+
+(1) des déchets qui proviennent de la fabrication de fibre de verre ;
+
+(2) des déchets qui proviennent du traitement physico-chimique des déchets résultant du nettoyage des égouts ;
+
+(3) des déchets qui proviennent du traitement physico-chimique des déchets de nettoyage des rues;
+
+(4) des matières enlevées du lit, des berges et des annexes des cours et plans d'eau, à l'exclusion des déchets résultant du nettoyage des égouts ;
+
+(5) des déchets qui proviennent des opérations de traitement des eaux en vue de les potabiliser ;
+
+(6) des déchets d'oxydes de fer qui proviennent de la production de zinc, connus sous le nom de jarosite et goethite ;
+
+(7) des gangues de minerai de manganèse qui proviennent de la production de sels et oxydes de manganèse;
+
+8° 3 euros/tonne, s'agissant des déchets contenant du phosphogypse , des résidus des opérations de recyclage des plaques de plâtre, des boues de soudière, des boues d'épuration de saumures de matières minérales et des déchets miniers;
+
+9° 3 euros/tonne, s'agissant des boues ou des résidus solides résultant de la fabrication de pâte recyclée en provenance d'entreprises utilisant des déchets de papier et carton comme tout ou partie de matière première pour la production de papier et de carton neufs;
+
+10° 0,25 euro/tonne, s'agissant :
+
+- de terres admissibles en C.E.T. de classe 3 ou de classe 5.3;
+
+- des terres décontaminées issues des centres d'assainissement des sols autorisés lorsque, de l'avis de l'administration, l'application de procédés d'assainissement supplémentaires entraînerait des dépenses démesurées ou seraient impraticables;
+
+- des déchets inertes issus des centres de recyclage y compris les fines de criblage admissible en centre d'enfouissement d'une granulométrie maximale de 40 millimètres pour autant qu'elles comprennent moins de :
+
+a) 1 % de matériaux non pierreux tels que du plâtre, du caoutchouc, des matériaux d'isolation, des matériaux de recouvrement de toiture;
+
+b) 5 % de matériaux organiques tels que bois, restes végétaux;
+
+c) 15 % d'éléments pierreux non naturels dont la dimension est comprise entre 2 et 40 millimètres;
+
+11° 0 euro/tonne, s'agissant :
+
+- des déchets contenant des fibres d'amiante;
+
+- des déchets produits de manière exceptionnelle à la suite de calamités naturelles publiques, d'une crise sanitaire ou d'une situation mettant en cause la salubrité ou la santé publique reconnues par le Gouvernement wallon. Le Gouvernement délimite l'étendue géographique, la période d'application et le type de déchets concernés;
+
+12° 20 euros/tonne, s'agissant des déchets valorisables utilisés en CET au titre de substituts à des produits ou équipements nécessaires à l'exploitation et à la réhabilitation du CET, en ce compris la post-gestion, en conformité avec le permis d'exploiter ou le permis d'environnement, à moins qu'un montant réduit de taxe inférieur ne soit prévu au présent article, auquel cas, par dérogation au paragraphe 2, c'est ce montant inférieur qui est d'application;
+
+13° 55 euros/tonne, s'agissant de déchets non combustibles pour lesquels aucun autre taux réduit n'est d'application en vertu du présent article;
+
+14° 10,19 euros/tonne, s'agissant des déchets pour lesquels le Ministre a, conformément à l'article 5 de l'arrêté du Gouvernement wallon du 18 mars 2004, accordé une dérogation à l'interdiction de mise en centre d'enfouissement technique en cas de force majeure;
+
+La taxe n'est pas due sur les déchets valorisables utilisés en centre d'enfouissement technique dans le cadre de la remise en état d'office confiée par le Gouvernement, conformément à l'article 198 du décret du 9 mars 2023 ou à l'article D.149 du Livre Ier du Code de l'Environnement, et mise en oeuvre par la société visée à l'article D.233 du même Code. Toutefois, lorsque la remise en état d'office est réalisée à charge d'une personne mise en demeure par le Gouvernement et en défaut d'y procéder, ladite personne est redevable de la taxe.
+
+Concernant l'alinéa 1er, 13°, le Gouvernement arrête la liste de déchets présumés combustibles ou non combustibles. Les déchets présentant un taux de perte au feu supérieur à dix pour cent et une teneur en carbone organique total supérieure à six pour cent sont réputés combustibles et exclus du bénéfice de ce taux.
+
+§ 2. Lorsque les déchets sont susceptibles d'être taxés selon plusieurs taux réduits, le taux supérieur est appliqué.
+
+§ 3. Est exonérée de la taxe la mise en C.E.T. des produits de dragage effectués pour le compte de la Région wallonne et des institutions publiques dépendant de celle-ci.
+
+----------
+
+- modifié par l’art. 21 du décret du 11.12.2013. Texte entre en vigueur le 01.01.2014
+
+- modifié par l’art. 104 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- modifié par l’art. 2 du décret du 19.06.2015. Texte entre en vigueur le 01.07.2015
+
+- modifié par l’art. 25 du décret du 21.12.2016. Texte entre en vigueur le 01.01.2017
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017
+
+- modifié par l’art. 16 du décret du 13.12.2017. Texte entre en vigueur le 01.01.2018
+
+- modifié par l’art. 111 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018
+
+- modifié par l’art. 20 du décret du 29.11.2018. Texte entre en vigueur le 01.01.2019
+
+- modifié par l’art 15 du décret du 19.12.2019 (M.B. 31.12.2019). Texte entre en vigueur le 01.01.2020
+
+- modifié par l’art 5 du décret du 15.10.2020 (M.B. 16.12.2020). Texte entre en vigueur le 01.01.2020
+
+- modifié par l’art 14 du décret du 17.12.2020 (M.B. 31.12.2020). Texte entre en vigueur le 01.01.2021
+
+- modifié par l’art 15 du décret du 22.12.2021 (M.B. 31.12.2021 - err 10.02.2022). Texte entre en vigueur le 01.01.2022
+
+- modifié par l’art 4 du décret du 20.07.2022 (M.B. 14.10.2022). Texte entre en vigueur le 01.01.2022
+
+- modifié par les art.15 et 17 du décret du 13.12.2023 (M.B. 28.12.2023). Texte entre en vigueur le 01.01.2024
+
+- modifié par les art.12 et 14 du décret du 18.12.2024 (M.B. 30.12.2024 – modifié par l’art. 4 du décret du 09.07.2025 – M.B. 21.08.2025 ). Texte entre en vigueur le 01.01.2025
+
+- § 1 er modifié par l’art. 2 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+#### CHAPITRE III - Taxe sur l'incinération de déchets
+
+Article 7
+
+Il est établi une taxe sur l'incinération de déchets.
+
+Article 8
+
+Le redevable de la taxe est l'exploitant de l'installation d'incinération de déchets.
+
+La commune ou l'association de communes est solidairement tenue au paiement de la taxe due pour les déchets ménagers incinérés pour son compte. Elle peut demander à l'administration de se substituer, pour ces déchets, au redevable, auquel cas il lui incombe de procéder aux déclarations et d'acquitter la taxe.
+
+----------
+
+- modifié par l’art. 1 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017
+
+Article 9
+
+La base de la taxe est le nombre de tonnes de déchets admises à l'incinération.
+
+Article 10
+
+§ 1 er . Le montant de la taxe sur l'incinération de déchets non dangereux avec récupération de chaleur est fixé à 12,19 euros/tonne.
+
+Lorsque l'incinération est réalisée sans récupération de chaleur, le montant visé à l'alinéa précédent est porté à 56,70 euros/tonne.
+
+§ 2. Lorsque l'incinération des déchets n'est pas couverte par un permis d'environnement ou un permis d'exploiter conformément à la législation en vigueur, le montant de la taxe est fixé à 166,50 euros/tonne, avec un minimum de 166,50 euros.
+
+----------
+
+- modifié par l’art. 105 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- modifié par l’art. 3 du décret du 19.06.2015. Texte entre en vigueur le 01.07.2015
+
+- modifié par l’art 15 du décret du 17.12.2020 (M.B. 31.12.2020). Texte entre en vigueur le 01.01.2021
+
+- modifié par l’art 16 du décret du 22.12.2021 (M.B. 31.12.2021 - err 10.02.2022). Texte entre en vigueur le 01.01.2022
+
+- modifié par les art.16 du décret du 13.12.2023 (M.B. 28.12.2023). Texte entre en vigueur le 01.01.2024
+
+- modifié par l'art. 13 du décret du 18.12.2024 (M.B. 30.12.2024). Texte entre en vigueur le 01.01.2025
+
+Article 11
+
+§ 1 er . Le montant de la taxe sur l'incinération de déchets dangereux avec récupération de chaleur est fixé à 27,84 euros/tonne.
+
+Lorsque l'incinération est réalisée sans récupération de chaleur, le montant visé à l'alinéa précédent est porté à 67,80 euros/tonne.
+
+§ 2. Lorsque l'incinération des déchets dangereux n'est pas couverte par un permis d'environnement ou un permis d'exploiter conformément à la législation en vigueur, le montant de la taxe est fixé à 666 euros/tonne, avec un minimum de 666 euros.
+
+----------
+
+- modifié par l’art. 106 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- modifié par l’art. 4 du décret du 19.06.2015. Texte entre en vigueur le 01.07.2015
+
+Article 12
+
+L'incinération des déchets d'activités hospitalières et de soins de santé ainsi que, du 1er janvier 2026 au 31 décembre 2029, des déchets triés mais ni réemployés et ni recyclés de textile collectés en Région wallonne par des collecteurs enregistrés en vertu de l'article 118 du décret du 9 mars 2023 relatif aux déchets, à la circularité des matières et à la propreté publique est exonérée de la taxe visée au présent chapitre.
+
+Par dérogation aux articles 10, § 1 er , et 11, § 1 er , le montant de la taxe sur l'incinération des déchets issus d'opérations d'assainissement de sols approuvées par les fonctionnaires désignés par le Gouvernement ou par le Gouvernement lui-même est fixé à 2 euros/tonne en cas de récupération de chaleur et à 3 euros/tonne en l'absence de récupération de chaleur.
+
+Le montant de la taxe due en application des articles 10, § 1 er , et 11, § 1 er , est réduit de 30 % pour les déchets incinérés sur leur site de production, lorsque les conditions cumulatives suivantes sont respectées :
+
+1° les déchets sont incinérés par leur producteur, dans une installation répondant aux prescriptions environnementales en vigueur relatives à l'incinération des déchets;
+
+2° l'installation d'incinération est dédiée à titre principal à la gestion de ces déchets;
+
+3° l'incinération donne lieu à la récupération de chaleur.
+
+Le montant de la taxe due en application des articles 10, § 1 er , et 11, § 1er, est réduit à 0 euro/tonne lorsque les déchets, produits de manière exceptionnelle, proviennent de calamités naturelles publiques, d'une crise sanitaire ou d'une situation mettant en cause la salubrité ou la santé publique, reconnues par le Gouvernement. Le Gouvernement délimite l'étendue géographique, la période d'application et le type de déchets concernés.
+
+----------
+
+- modifié par l’art. 24 du décret du 11.12.2013. Texte entre en vigueur le 01.01.2014
+
+- modifié par l’art. 107 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- modifié par l’art. 112 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018
+
+- alinéa 1 er modifié par l’art. 11 du décret-programme du 19.12.2025 (M.B. 29.12.2025). Entrée en vigueur le 01.01.2026 (art. 82)
+
+#### CHAPITRE IV - Taxe sur la co -incinération des déchets
+
+Article 13
+
+Il est établi une taxe sur la co -incinération des déchets dangereux.
+
+Article 14
+
+Le redevable de la taxe est l'exploitant de l'installation de co -incinération de déchets.
+
+Article 15
+
+La base de la taxe est le nombre de tonnes de déchets dangereux utilisées comme combustibles à la co -incinération ou soumises au traitement thermique en vue de leur élimination.
+
+Article 16
+
+§ 1 er . Le montant de la taxe sur la co -incinération de déchets dangereux est fixé à 8,69 euros/tonne.
+
+Par dérogation à l'alinéa précédent, le montant de la taxe sur la co -incinération des déchets dangereux issus d'opérations d'assainissement de sols approuvées par les fonctionnaires désignés par le Gouvernement ou par le Gouvernement lui-même est fixé à 0,50 euro/tonne.
+
+Le montant de la taxe due en application de l'alinéa 1 er est réduit de 30 % pour les déchets co-incinérés sur leur site de production, lorsque les conditions cumulatives suivantes sont respectées :
+
+1° les déchets sont co-incinérés par le producteur, dans une installation répondant aux prescriptions environnementales en vigueur relatives à la co -incinération des déchets;
+
+2° l'installation de co -incinération gère à titre principal ces déchets.
+
+Le montant de la taxe due en application de l'alinéa 1 er est réduit à 0 euro/tonne lorsque les déchets, produits de manière exceptionnelle, proviennent de calamités naturelles publiques, d'une crise sanitaire ou d'une situation mettant en cause la salubrité ou la santé publique, reconnues par le Gouvernement. Le Gouvernement délimite l'étendue géographique, la période d'application et le type de déchets concernés.
+
+§ 2. Lorsque la co -incinération de déchets dangereux n'est pas couverte par un permis d'environnement ou un permis d'exploiter conformément à la législation en vigueur, le montant de la taxe est fixé à 666 euros/tonne, avec un minimum de 666 euros.
+
+----------
+
+- modifié par l’art. 108 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- modifié par l’art. 5 du décret du 19.06.2015. Texte entre en vigueur le 01.07.2015
+
+- modifié par l’art. 113 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018
+
+#### CHAPITRE V - Taxe subsidiaire sur la gestion des déchets
+
+----------
+
+- intitulé modifié par l’art. 3 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+Article 17
+
+Il est établi une taxe subsidiaire sur la gestion des déchets .
+
+----------
+
+- modifié par l’art. 4 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+Article 18
+
+§ 1er. Le redevable de la taxe est par ordre de priorité :
+
+1° dans le cas de transferts transfrontaliers, le notifiant au sens du Règlement (CE) n° 2024/1157 du Parlement européen et du Conseil du 11 avril 2024 relatif aux transferts de déchets, modifiant les règlements (UE) n° 1257/2013 et (UE) 2020/1056 et abrogeant le règlement (CE) n° 1013/2006 ;
+
+2° à défaut, ou dans le cas de transferts transfrontaliers non soumis à notification ou dans le cas de transferts non transfrontaliers, le collecteur, le courtier ou le négociant enregistré ou agréé sur la base du décret du 9 mars 2023 ou le collecteur, le courtier ou le négociant qui devrait être enregistré ou agréé sur la base du décret du 9 mars 2023 ou l'exploitant d'une installation de regroupement, de prétraitement ou de traitement des déchets classée en vertu du décret du 11 mars 1999 relatif au permis d'environnement ;
+
+3° à défaut, le producteur de déchets au sens du décret du 9 mars 2023.
+
+Concernant l'alinéa 1er, 2°, plusieurs redevables peuvent être visés simultanément, auquel cas lesdits redevables sont tenus solidairement responsables du paiement de la taxe, des intérêts, des amendes, des accroissements et des frais y afférents.
+
+Concernant l'alinéa 1er, 3°, le producteur de déchets peut demander à l'administration de se substituer, pour les déchets issus de ses installations, au notifiant, au collecteur, courtier et négociant tel qu'identifié à l'alinéa 1er, 1° ou 2°, auquel cas il lui incombe de procéder aux déclarations et d'acquitter la taxe.
+
+§ 2. La commune ou l'association de communes est solidairement tenue au paiement de la taxe due pour les déchets ménagers collectés pour leur compte. Elle peut demander à l'administration de se substituer, pour ces déchets, au redevable, auquel cas il lui incombe de procéder aux déclarations et d'acquitter la taxe.
+
+----------
+
+- modifié par l’art. 97 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017
+
+- remplacé par l’art. 5 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+- § 1 er , 1° remplacé par l’art. 6 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 22.05.2026 (art. 13)
+
+Article 19
+
+Si le déchet est traité selon un mode de gestion unique, la base de la taxe est le nombre de tonnes de déchets gérées selon le mode de gestion concerné .
+
+Si le déchet est traité dans une filière impliquant plusieurs modes de gestion de déchets soumis à la taxe, la base de la taxe pour chaque mode de gestion taxable est le nombre de tonnes de déchets faisant l'objet de ces modes de gestion. La charge de la preuve de cette quantité incombe au redevable.
+
+----------
+
+- alinéa 1 er modifié par l’art. 7 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+Article 20
+
+La taxe visée au présent chapitre n'est pas due lorsque les déchets sont, en Région wallonne, réutilisés, recyclés, valorisés, exonérés de taxe par le présent décret, ou sont gérés selon un mode de gestion qui entraîne la débition d'une autre taxe visée au présent décret.
+
+Lorsque les déchets gérés en Région wallonne y sont éliminés selon un mode de gestion qui n'entraîne pas la débition d'une taxe visée aux chapitres II et III, le montant de la taxe est identique à celui dû pour la mise en centre d'enfouissement technique de déchets.
+
+----------
+
+- modifié par l’art. 8 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+Article 21
+
+Lorsque les déchets sont gérés hors du territoire de la Région wallonne, le montant de la ou des taxes est identique au montant qui serait appliqué si les déchets étaient gérés en Région wallonne par le ou les mêmes procédés, sous déduction de la taxe ou redevance appliquée au lieu de gestion des déchets et en raison de cette gestion, sans que le montant de la taxe puisse être inférieur à zéro.
+
+La charge de la preuve du ou des modes de traitement et du paiement de la taxe ou redevance due hors de la Région incombe au redevable.
+
+A défaut, le montant de la taxe est identique à celui de la taxe pour la mise en centre d'enfouissement technique de déchets.
+
+----------
+
+- alinéa 1 er modifié par l’art. 9 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+#### CHAPITRE VI - Taxe sur les déchets soumis à une obligation de reprise
+
+Article 22
+
+(...)
+
+----------
+
+- abrogé par l'art. 254 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 23
+
+(...)
+
+----------
+
+- abrogé par l'art. 255 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 24
+
+(...)
+
+----------
+
+- abrogé par l'art. 256 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 25
+
+(...)
+
+----------
+
+- modifié par l’art. 109 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015
+
+- abrogé par l'art. 257 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 26
+
+(...)
+
+----------
+
+- abrogé par l'art. 258 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+#### CHAPITRE VIbis - Taxe sur les organismes d'exécution des obligations de reprise
+
+----------
+
+- inséré par l’art. 98 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016. NOTE : par son arrêt n° 25/2018 du 01.03.2018 (M.B. 09.05.2018, p. 38929), la Cour constitutionnelle a annulé l'article 98
+
+Article 26/1
+
+Pour les années 2016 à 2021, il est établi au profit de la Région wallonne une taxe à charge des organismes assurant l'exécution de l'obligation de reprise des producteurs en vertu de l'article 8bis du décret du 27 juin 1996 relatif aux déchets et dont les fonds propres et provisions au 31 décembre 2013 excèdent les besoins nécessaires à l'accomplissement de l'obligation de reprise durant 24 mois.
+
+Les besoins visés à l'alinéa 1 er sont calculés sur la base d'une moyenne des frais de fonctionnement des cinq derniers exercices comptables.
+
+----------
+
+- inséré par l’art. 98 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016. NOTE : par son arrêt n° 25/2018 du 01.03.2018 (M.B. 09.05.2018, p. 38929), la Cour constitutionnelle a annulé l'article 98
+
+- modifié par l’art. 26 du décret du 21.12.2016. Texte entre en vigueur le 01.01.2017. NOTE : par son arrêt n° 25/2018 du 01.03.2018 (M.B. 09.05.2018, p. 38929), la Cour constitutionnelle a annulé l'article 26
+
+- modifié par l’art. 17 du décret du 13.12.2017. Texte entre en vigueur le 01.01.2018.
+
+Article 26/2
+
+Le fait générateur de la taxe est la perception auprès des consommateurs, au 31 décembre 2013 au plus tard, de la cotisation destinée à financer les obligations de gestion des déchets.
+
+----------
+
+- inséré par l’art. 98 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016. NOTE : par son arrêt n° 25/2018 du 01.03.2018 (M.B. 09.05.2018, p. 38929), la Cour constitutionnelle a annulé l'article 98
+
+Article 26/3
+
+Le montant de la taxe due est fixé à 5,22 % des fonds propres des redevables tels qu'ils paraissent dans les comptes annuels approuvés pour l'année 2013, multiplié par le nombre d'habitants en Région wallonne et divisé par le nombre d'habitants en Belgique au 1er janvier de la même année.
+
+----------
+
+- inséré par l’art. 98 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016. NOTE : par son arrêt n° 25/2018 du 01.03.2018 (M.B. 09.05.2018, p. 38929), la Cour constitutionnelle a annulé l'article 98
+
+Article 26/4
+
+La taxe visée au présent chapitre ne peut pas être répercutée dans les cotisations à la charge des consommateurs.
+
+----------
+
+- inséré par l’art. 98 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016. NOTE : par son arrêt n° 25/2018 du 01.03.2018 (M.B. 09.05.2018, p. 38929), la Cour constitutionnelle a annulé l'article 98
+
+Article 26/5
+
+Lorsque le redevable choisit de conclure avec le Gouvernement une convention organisant sa contribution à la politique régionale de prévention, de réutilisation et de gestion des déchets soumis à l'obligation de reprise, la taxe est acquittée par voie transactionnelle.
+
+La convention visée à l'alinéa 1 er comporte au minimum, pour chaque année concernée :
+
+1° l'engagement du redevable à mettre à disposition une contribution annuelle par habitant d'un montant correspondant au moins au montant de la taxe ;
+
+2° les modalités de versement de la contribution ;
+
+3° les modalités de concertation concernant l'affectation de la contribution ;
+
+4° une liste d'actions régionales financées par la contribution.
+
+Le nombre d'habitants est fixé par les statistiques de population les plus récentes disponibles au 1 er janvier de chaque année.
+
+La mise en oeuvre de la convention fait l'objet, par redevable, d'une évaluation et d'un rapport annuel de l'Administration, présenté au Gouvernement.
+
+En cas d'inexécution par le redevable d'une ou de plusieurs des obligations contenues dans la convention, le Gouvernement peut mettre un terme à la convention avant son échéance .
+
+----------
+
+- inséré par l’art. 27 du décret du 21.12.2016. Texte entre en vigueur le 01.01.2017.
+
+- modifié par l’art. 18 du décret du 13.12.2017. Texte entre en vigueur le 01.01.2018.
+
+#### CHAPITRE VII - Taxe favorisant la collecte sélective de déchets ménagers
+
+Article 27
+
+§ 1 er . Il est établi une taxe sur les déchets ménagers collectés de manière non sélective par ou pour le compte des communes, au-delà d'une quantité totale annuelle collectée variant selon l'exercice et le nombre d'habitants de la commune.
+
+Pour l'application de la présente taxe, les déchets ménagers collectés de manière non sélective ne comprennent pas les déchets de nettoyage des rues et des encombrants.
+
+Pour les communes de moins de dix mille habitants, la quantité visée à l'alinéa 1 er est fixée, par habitant, à 240 kg pour l'exercice 2008, à 220 kg pour les exercices 2009-2010, et à 200 kg à partir de l'exercice 2011.
+
+Pour les communes de dix mille à moins de vingt-cinq mille habitants, la quantité visée à l'alinéa 1 er est fixée, par habitant, à 240 kg pour l'exercice 2008, à 230 kg pour les exercices 2009-2010, et à 220 kg à partir de l'exercice 2011.
+
+Pour les communes de vingt-cinq mille habitants et plus, la quantité visée à l'alinéa 1 er est fixée, par habitant, à 240 kg, quel que soit l'exercice.
+
+§ 2. Pour le calcul de la taxe, le nombre d'habitants arrêté au 1 er janvier de l'exercice est calculé sous la forme d'équivalents-habitants selon les modalités suivantes :
+
+1° personne inscrite au registre de la population ou des étrangers de la commune : 1 équivalent-habitant;
+
+2° étudiant non domicilié dans la commune et dont le logement est déclaré à la commune : 0,5 équivalent-habitant;
+
+3° touriste : 1/365e équivalent-habitant par nuitée effective dans un établissement d'hébergement touristique situé dans la commune;
+
+4° occupants d'une résidence secondaire dans la commune : 1 équivalent-habitant par résidence secondaire.
+
+----------
+
+- modifié par l’art. 9 du décret du 05.06.2008. Texte entre en vigueur le 30.06.2008.
+
+Article 28
+
+Le redevable de la taxe est la commune qui collecte ou pour le compte de laquelle sont collectés les déchets ménagers.
+
+Article 29
+
+La base de la taxe est le nombre de tonnes de déchets ménagers collectées de manière non sélective excédant les quantités énoncées au présent chapitre.
+
+Article 30
+
+Le montant de la taxe est fixé à 38,85 euros/tonne.
+
+----------
+
+- modifié par l’art. 110 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015.
+
+#### CHAPITRE VIII - Réduction et exonération de taxes
+
+##### Section 1 re - Réduction de taxe liée à un mécanisme de prévention
+
+Article 31
+
+§ 1 er Les redevables des taxes visées aux chapitres II, III, IV et V peuvent bénéficier d'une réduction ou d'une exonération de taxe pour les quantités de déchets traitées en provenance de producteurs qui réalisent des objectifs de prévention déterminés par arrêtés.
+
+§ 2. Le Gouvernement fixe, par arrêté, pour chaque secteur demandeur d'une telle réduction ou exonération, les objectifs de prévention à réaliser par le ou les producteurs de déchets relevant de ce secteur.
+
+A cet effet, le Gouvernement se base sur une évaluation du potentiel de prévention des déchets pour le secteur considéré. Cette évaluation est réalisée par un consultant spécialisé en analyses économiques et environnementales en matière de déchets et de processus industriels.
+
+La désignation du consultant et le rapport d'évaluation sont approuvés par l'administration dans les trente jours de leur transmission à l'administration.
+
+Les objectifs de prévention sont calculés sur la base de la moyenne des quantités de déchets générées par tonne de produits, déclarées annuellement à l'administration par le ou les producteurs relevant du secteur considéré au cours des deux exercices précédant la date d'entrée en vigueur de l'arrêté visé à l'alinéa 1 er .
+
+L'arrêté visé à l'alinéa 1er contient, le cas échéant, les modalités de renouvellement ou de prolongation des objectifs de prévention.
+
+§ 3. Le Gouvernement fixe, par arrêté, pour chaque secteur demandeur, le montant de la réduction de taxe. La réduction de taxe est proportionnelle aux objectifs de prévention réalisés par rapport aux objectifs de prévention fixés conformément au § 1 er .
+
+Si les déchets non dangereux sont mis en C.E.T., la réduction des taxes visées aux chapitres II et V ne peut être supérieure à 25 euros/tonne. Cette réduction est d'application à partir du 1 er janvier 2010.
+
+Si les déchets dangereux sont mis en C.E.T., la réduction des taxes visées aux chapitres II et V ne peut être supérieure à 5 euros/tonne à partir du 1 er janvier 2008, et à 25 euros/tonne à partir du 1 er janvier 2010. A partir du 1 er janvier 2010, les redevables en conservent le bénéfice pour autant que les objectifs fixés soient respectés.
+
+Si les déchets sont incinérés ou co-incinérés , la réduction des taxes visées aux chapitres III, IV et V ne peut être supérieure au montant de la taxe en principe due. A partir du 1 er janvier 2010, les redevables en conservent le bénéfice pour autant que les objectifs fixés soient respectés.
+
+La réduction de taxe visée au présent article n'est pas applicable pour les déchets bénéficiant d'un taux réduit en vertu de l'article 6, § 1 er , ou se voyant appliquer une majoration de taxe en vertu des articles 5, § 3, 10, § 2, 11, § 2, et 16, § 2.
+
+§ 4. La réduction ou l'exonération de la taxe n'est acquise aux redevables que pour autant qu'ils en répercutent intégralement le bénéfice aux producteurs de déchets concernés.
+
+Le montant de la réduction ou de l'exonération de taxe peut également être versé directement au producteur de déchets qui a réalisé les objectifs de prévention permettant la réduction ou l'exonération de taxe.
+
+----------
+
+- modifié par l’art. 2 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008.
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017.
+
+Article 32
+
+Les arrêtés du Gouvernement visés à l'article 31 sont pris après concertation avec les secteurs concernés. Ils prennent effet le jour de l'entrée en vigueur du présent décret et sont confirmés par le Parlement wallon dans les douze mois de leur promulgation. En l'absence de confirmation dans le délai requis, ces arrêtés sont rapportés.
+
+Le Gouvernement peut modifier les arrêtés adoptés et confirmés en application de l'article 31 et de l'alinéa 1 er du présent article. Les arrêtés modificatifs doivent à leur tour être confirmés dans les douze mois de leur promulgation. En l'absence de confirmation dans le délai requis, ces arrêtés sont rapportés.
+
+Article 33
+
+Le Gouvernement détermine les modalités d'évaluation du mécanisme de réduction de taxes mis en œuvre en vertu de la présente section.
+
+##### Section 2 - Exonération de taxes liée à un mécanisme de prestations d'intérêt général.
+
+Article 34
+
+§ 1 er . Est exonéré de la taxe visée au chapitre IV le redevable qui aura préalablement conclu avec le Gouvernement une charte de gestion durable des déchets en Région wallonne.
+
+Toute charte comporte au minimum l'engagement du redevable :
+
+1° dans le but de réduire de manière significative l'élimination en C.E.T. des déchets sur le territoire de la Région, de mettre à disposition de la Région, des institutions publiques qui en dépendent et de personnes exerçant une mission d'intérêt général ou de service public désignées par le Gouvernement, une capacité de traitement prioritaire des déchets issus de l'exécution de leurs missions d'intérêt général ou de service public;
+
+2° de participer activement aux procédures de passation de marchés publics initiées par la Région, les institutions publiques qui en dépendent ou les personnes exerçant une mission d'intérêt général ou de service public désignées par le Gouvernement, relatives à la gestion des flux de déchets concernés dans les limites et conditions fixées par le cahier des charges relatif audit marché et aux clauses techniques d'acceptation du redevable;
+
+3° de traiter effectivement la quantité annuelle de déchets déterminée dans la charte, en exécution des marchés publics visés au 2° et attribués, le cas échéant, au redevable;
+
+4° de constituer, dès la conclusion de la charte, une garantie bancaire à première demande au bénéfice de la Région d'un montant équivalant au montant prévisionnel de la taxe qui serait due pour un exercice et de déposer auprès de la Région une lettre de crédit attestant la constitution de cette garantie.
+
+Le Gouvernement approuve la charte conclue avec le redevable, qui stipule la typologie, les caractéristiques, la quantité des déchets qui doit être co-incinérée , ainsi que le mode de traitement et de prétraitement.
+
+La charte a une durée minimale de validité de trois ans. A l'expiration de la durée de validité initiale, elle est reconduite de plein droit pour des périodes successives d'un an, sans préjudice du droit pour la Région ou le redevable d'y mettre fin moyennant un préavis écrit, notifié au plus tard en date du 30 septembre de l'exercice en cours.
+
+La mise en oeuvre de la charte fait l'objet, par redevable, d'une évaluation et d'un rapport annuel de l'administration, soumis à l'approbation du Gouvernement.
+
+En cas d'inexécution par le redevable d'une ou de plusieurs des obligations contenues dans la charte, dûment constatée par le Gouvernement, la garantie bancaire à première demande est levée. Le Gouvernement peut, le cas échéant, mettre un terme à la charte avant son échéance.
+
+Dans ce dernier cas, les sanctions prévues à l'article 68 du présent décret sont d'application pour l'exercice en cours à la date de la résiliation de la charte par le Gouvernement.
+
+§ 2. La disposition visée au paragraphe 1 er du présent article est applicable à la co -incinération en dehors du territoire de la Région.
+
+----------
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017.
+
+#### CHAPITRE IX - Taxe sur la détention de déchets
+
+Article 35
+
+(...)
+
+----------
+
+- modifié par l’art. 3 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008.
+
+- modifié par l’art. 9 du décret du 05.06.2008. Texte entre en vigueur le 30.06.2008.
+
+- modifié par les art. 83 et 84 du décret du 05.12.2008. Texte entre en vigueur le 18.05.2009.
+
+- modifié par l’art. 109 du décret du 20.07.2016. Texte entre en vigueur le 01.06.2017.
+
+- modifié par l’art. 114 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018.
+
+- abrogé par l'art. 259 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 36
+
+(...)
+
+----------
+
+- abrogé par l'art. 260 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 37
+
+(...)
+
+----------
+
+- abrogé par l'art. 261 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+Article 38
+
+(...)
+
+----------
+
+- modifié par l’art. 111 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015.
+
+- abrogé par l'art. 262 du décret du 09.03.2023 (M.B., 31.07.2023). En vigueur le 10.08.2023
+
+#### CHAPITRE X - (…)
+
+----------
+
+- abrogé par l’art. 115 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018.
+
+Article 39
+
+(…)
+
+----------
+
+- abrogé par l’art. 115 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018.
+
+Article 40
+
+(…)
+
+----------
+
+- abrogé par l’art. 115 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018.
+
+Article 41
+
+(…)
+
+----------
+
+- abrogé par l’art. 115 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018.
+
+Article 42
+
+(…)
+
+----------
+
+- abrogé par l’art. 115 du décret du 17.07.2018. Texte entre en vigueur le 18.10.2018.
+
+#### CHAPITRE XI - Dispositions communes
+
+##### Section 1 re – Généralités
+
+Article 43
+
+Les taxes établies par les articles précédents sont perçues au profit de la Région wallonne.
+
+Article 44
+
+§ 1 er . Le produit des taxes visées par le présent décret est affecté exclusivement au fonds budgétaire au sens de l'article 45 des lois coordonnées sur la comptabilité de l'Etat, dénommé Fonds pour la gestion des déchets, créé au sein du budget des recettes et du budget général des dépenses de la Région wallonne.
+
+Ce fonds budgétaire est également alimenté par les recettes suivantes :
+
+1° le produit des droits de dossier visés à l'article 208 du décret du 9 mars 2023 ;
+
+2° les contributions des bénéficiaires de marchés publics régionaux de gestion de déchets spécifiques telles que celles de l'arrêté du Gouvernement wallon du 21 octobre 1993 relatif aux déchets d'animaux;
+
+3° les contributions des opérateurs de gestion de déchets aux frais d'analyse et de surveillance des émissions environnementales de leurs installations en exécution de l'article 4, dernier alinéa, de l'arrêté du Gouvernement wallon du 27 mars 2003 organisant la gestion des réseaux de surveillance de la qualité de l'environnement confiés à l'ISSEP ;
+
+4° les contributions des organismes dans le cadre de la responsabilité élargie des producteurs mise en place au niveau régional en exécution du titre II du décret du 9 mars 2023 ou au niveau interrégional ;
+
+5° les recettes diverses en matière de déchets, notamment les recettes perçues lors de contentieux, le remboursement d'indus ainsi que le solde de comptes financiers de l'Office wallon des déchets.
+
+Ce fonds est affecté au financement de missions générales et de missions spécifiques. Chaque année, le Gouvernement arrête pour l'exercice suivant les règles d'affectation des recettes du fonds aux missions générales et aux missions spécifiques.
+
+§ 2. Les missions générales sont les missions suivantes :
+
+1° la mise en place d'actions de prévention;
+
+2° la mise en place des installations de gestion des déchets ménagers en conformité avec la planification prévue par le décret du 9 mars 2023 ;
+
+3° la mise en conformité des installations de gestion des déchets ménagers avec les normes légales et réglementaires;
+
+4° les études et actions de sensibilisation relatives à la gestion planifiée des déchets ménagers en Région wallonne;
+
+5° (…)
+
+6° la promotion de la recherche, du développement et de l'utilisation de techniques écologiquement rationnelles, en ce compris le financement des études relatives à cet objectif;
+
+7° la valorisation des déchets ménagers non soumis à une obligation de reprise, y compris la collecte y afférente;
+
+8° l'assainissement de terrains pollués à l'exception des sites à réaménager tels que visés au chapitre Ier du titre Ier du livre II du CWaTUP ;
+
+9° les avances nécessaires à l'accomplissement des mesures de sécurité et des mesures imposées d'office par un risque de pollution;
+
+10° la gestion informatique des procédures d'autorisation et des informations concernant la gestion des déchets;
+
+11° la perception et le contrôle des taxes visées par le présent décret;
+
+12° l'intervention dans l'indemnisation de victimes de dommages causés par des déchets;
+
+13° (…)
+
+14° la participation aux frais de contrôles donnant lieu à la perception des taxes, en ce compris les frais exposés par les communes.
+
+§ 3. Les missions spécifiques sont les missions suivantes :
+
+1° la mise en place d'actions de prévention des déchets industriels au bénéfice des personnes morales de droit privé;
+
+2° l'assainissement de terrains industriels pollués.
+
+§ 4. Le Gouvernement peut confier d'autres missions au fonds en vue de la mise en œuvre du décret du 9 mars 2023 relatif aux déchets.
+
+----------
+
+- modifié par l’art. 10 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017.
+
+- modifié par l’art. 10 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+Article 45
+
+A partir de l'exercice 2011, le montant des taxes et des exonérations est adapté en fonction des fluctuations de l'indice des prix à la consommation.
+
+L'adaptation est réalisée à l'aide du coefficient qui est obtenu en divisant la moyenne des indices des prix des douze mois précédant le mois de décembre de l'année qui précède l'année comprenant la période de déclaration par la moyenne des indices des prix de l'année 2009. Pour le calcul du coefficient, on arrondit de la manière suivante :
+
+1° la moyenne des indices est arrondie au centième supérieur ou inférieur d'un point selon que le chiffre des millièmes d'un point atteint ou non 5;
+
+2° le coefficient est arrondi au dix millième supérieur ou inférieur selon que le chiffre des cent millièmes atteint ou non 5.
+
+Après application du coefficient, les montants sont arrondis à l' eurocent supérieur ou inférieur selon que le chiffre des millièmes atteint ou non 5.
+
+L'administration publie au Moniteur belge les taux de la taxe tels qu'adaptés conformément au présent article.
+
+[ montant des taxes déchets et des exonérations 2025 ] - [ montant des taxes déchets et des exonérations 2024 ] - [ montant des taxes déchets et des exonérations 2023 ] - [ montant des taxes déchets et des exonérations 2022 ] - [ montant des taxes déchets et des exonérations 2021 ] - [ montant des taxes déchets et des exonérations 2020 ] - [ montant des taxes déchets et des exonérations 2019 ]
+
+----------
+
+- modifié par l’art. 113 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015.
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017.
+
+Article 46
+
+Le taux et le montant de la taxe perçue en vertu du présent décret doivent être clairement identifiés sur toute facture établie par un redevable pour une opération de gestion de déchets.
+
+Article 47
+
+La charge de la preuve de la réunion des conditions d'une exemption ou d'une réduction de taxe ou de taux de la taxe incombe au redevable qui se prévaut de cette exemption ou de cette réduction quelconque.
+
+Lorsqu'une taxe visée par le présent décret comporte plusieurs taux, sauf preuve contraire par le contribuable de l'application d'un taux moins élevé, les déchets visés par chaque chapitre sont présumés correspondre au taux le plus élevé prévu par ce chapitre, sans préjudice de ce qui y serait prévu.
+
+Article 48
+
+Le décret du 6 mai 1999 relatif à l'établissement, au recouvrement et au contentieux en matière de taxes régionales wallonnes s'applique aux taxes prévues par le présent décret, à moins qu'il n'y soit dérogé par les sections II et III du présent chapitre.
+
+----------
+
+- modifié par l’art. 18 du décret du 30.04.2009. Texte entre en vigueur le 01.07.2009.
+
+##### Section 2 – Déclaration
+
+Article 49
+
+§ 1 er . A l'exception des taxes dues en application des chapitres V et VII , tout redevable est tenu de déposer auprès de l'administration une déclaration établissant le montant des taxes dues au cours d'un trimestre civil. Cette déclaration comporte tous les éléments nécessaires au contrôle de la perception de chacune des taxes dues dans son chef au cours de la période concernée.
+
+La déclaration doit être envoyée ou remise au siège de l'administration, au plus tard le 20 du second mois qui suit le trimestre civil auquel se rapporte la déclaration.
+
+Si le redevable a été chargé de traiter des déchets issus d'une activité de service public, conformément à l'article 34, il joint à sa déclaration les quantités de déchets pour lesquelles la prestation est effectuée, ainsi qu'une copie de l'état d'avancement contradictoire du marché.
+
+§ 2. Pour ce qui concerne la taxe due en application des chapitres V et VII , tout redevable est tenu de déposer auprès de l'administration une déclaration établissant le montant des taxes dues au cours d'une année civile. Cette déclaration comporte tous les éléments nécessaires au contrôle de la perception de chacune des taxes dues dans son chef au cours de la période concernée.
+
+La déclaration doit être envoyée ou remise au siège de l'administration, au plus tard le 20 du quatrième mois mois qui suit l'année civile à laquelle se rapporte la déclaration.
+
+----------
+
+- modifié par l’art. 4 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008.
+
+- modifié par l’art. 114 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015.
+
+- modifié par l’art. 99 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016.
+
+- modifié par l’art. 9 du décret du 16.02.2017. Texte entre en vigueur le 09.04.2017.
+
+NOTE : Voir 15.05.2025 - Décret relatif à la prolongation des délais impactés par l'intrusion d'avril 2025 dans le système informatique des services du Gouvernement wallon et 15.05.2025 - Décret relatif à la prolongation des délais impactés par l'intrusion d'avril 2025 dans le système informatique des services du Gouvernement wallon pour ce qui concerne les matières dont l'exercice a été transféré par la Communauté française
+
+- modifié par l’art. 11 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+##### Section 3 - Paiement et recouvrement
+
+Article 50
+
+§ 1 er L es taxes relatives à une déclaration sont exigibles à la fin de la période à laquelle se rapporte cette déclaration.
+
+§ 2. Les taxes relatives à une déclaration sont payables, à l'initiative du redevable, au plus tard le 20 du second mois qui suit l'échéance trimestrielle, à l'exception de la taxe due en application des chapitres V et VII .
+
+§ 3. Pour ce qui concerne la taxe due en application des chapitres VI, VIbis VII et IX, la taxe relative à une déclaration est payable, à l'initiative du redevable, au plus tard le 20 du quatrième mois de l'année qui suit l'année civile à laquelle se rapporte la déclaration de l'article 49, § 2.
+
+----------
+
+- modifié par l’art. 5 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008.
+
+- modifié par l’art. 115 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015.
+
+- modifié par l’art. 100 du décret du 23.06.2016. Texte entre en vigueur le 01.01.2016.
+
+NOTE : Voir 15.05.2025 - Décret relatif à la prolongation des délais impactés par l'intrusion d'avril 2025 dans le système informatique des services du Gouvernement wallon et 15.05.2025 - Décret relatif à la prolongation des délais impactés par l'intrusion d'avril 2025 dans le système informatique des services du Gouvernement wallon pour ce qui concerne les matières dont l'exercice a été transféré par la Communauté française
+
+- modifié par l’art. 12 du décret du 19.12.2025 (M.B. 30.12.2025). Entrée en vigueur le 01.01.2026 (art. 13)
+
+#### CHAPITRE XII - Modification au décret du 6 mai 1999 relatif à l'établissement, au recouvrement et au contentieux en matière de taxes régionales directes
+
+Article 51
+
+L'article 6 du décret du 6 mai 1999 relatif à l'établissement, au recouvrement et au contentieux en matière de taxes régionales directes est complété par l'alinéa suivant :
+
+" Le redevable qui n'a pas reçu le formulaire est tenu de le réclamer au service désigné par le Gouvernement pour délivrer la formule de déclaration. "
+
+Article 52
+
+A l'article 10 du même décret, les mots "l'administration" sont remplacés par les mots "le service désigné par le Gouvernement".
+
+Article 53
+
+A l'article 11 du même décret, les mots "L'administration" sont remplacés par les mots "Le service désigné par le Gouvernement".
+
+Article 54
+
+Un article 11bis, rédigé comme suit, est inséré dans le même décret :
+
+" Art. 11bis. Les fonctionnaires du service désigné par le Gouvernement peuvent, aux fins de contrôler la perception des impôts et taxes visées par le présent décret, pénétrer librement, à tout moment, sans avertissement préalable, dans tous les bâtiments, ateliers, établissements, locaux ou autres lieux, où sont effectuées des activités visées par ces impôts et taxes, ou sont présumées être effectuées de telles activités.
+
+Toutefois, ils ne peuvent pénétrer dans les bâtiments ou les locaux habités que de 5 heures du matin à 9 heures du soir et uniquement avec l'autorisation du juge de police, sauf accord de l'occupant des lieux.
+
+Sur simple demande des fonctionnaires visés à l'alinéa 1er, toute personne est tenue de leur présenter tous renseignements, livres et documents utiles à l'établissement de la taxe. Ces fonctionnaires sont autorisés à en prendre copies. "
+
+Article 55
+
+Un article 11ter, rédigé comme suit, est inséré dans le même décret :
+
+" Art. 11ter. Le redevable d'un impôt ou d'une taxe visée par le présent décret est tenu de conserver une copie des déclarations afférentes à cet impôt ou à cette taxe, transmises au service désigné par le Gouvernement pour les recevoir, ainsi que les documents de gestion nécessaires à la vérification de la perception des impôts et taxes visées par le présent décret, et ce, pendant une durée de cinq années prenant cours au 1er janvier de l'exercice d'imposition. "
+
+Article 56
+
+A l'article 13 du même décret, les mots "l'administration" sont remplacés par les mots "le service désigné par le Gouvernement".
+
+Article 57
+
+A l'article 14 du même décret, sont apportées les modifications suivantes :
+
+1° A l'alinéa 1 er , les mots "à l'administration" sont remplacés par les mots "au service désigné par le Gouvernement".
+
+2° A l'alinéa 2, les mots ", sauf si les droits du Trésor régional sont en péril, pour une cause autre que l'expiration des délais d'imposition." sont remplacés par les mots ", sauf si le redevable a marqué son accord par écrit sur la rectification de la déclaration, ou si les droits du Trésor régional sont en péril pour une cause autre que l'expiration des délais d'imposition."
+
+Article 58
+
+A l'article 15 du même décret, sont apportées les modifications suivantes :
+
+1° Les mots "l'administration" sont remplacés par les mots "le service désigné par le Gouvernement".
+
+2° Il est inséré le texte suivant entre les premier et deuxième tirets, ce dernier devenant le troisième tiret :
+
+"- soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme entachant sa déclaration;".
+
+Article 59
+
+A l'article 16 du même décret, sont apportées les modifications suivantes :
+
+1° A l'alinéa 1 er , les mots "l'administration" sont remplacés par les mots "le service désigné par le Gouvernement".
+
+2° Cette disposition est complétée par l'alinéa suivant :
+
+" La taxe ne peut être établie avant l'expiration de ce délai, sauf si le redevable a marqué son accord par écrit sur la rectification de la déclaration, ou si les droits du Trésor régional sont en péril pour une cause autre que l'expiration des délais d'imposition. "
+
+Article 60
+
+Un article 17bis, rédigé comme suit, est inséré dans le chapitre IV du même décret :
+
+" Art. 17bis. § 1 er . Aucune somme de taxes ne peut être exigée des redevables, si ce n'est :
+
+a. soit en vertu d'un rôle rendu exécutoire, document qui constitue le titre légal de perception;
+
+b. soit en vertu d'une obligation de paiement d'initiative mise à charge du redevable par la législation, ou en vertu d'une déclaration établissant le montant de taxes dues et dans laquelle le redevable mentionne lui-même le montant de taxes dues.
+
+§ 2. Les rôles sont soit annuels, soit spéciaux.
+
+Font l'objet de rôles spéciaux :
+
+- les taxes visées par une procédure de rectification d'une déclaration mentionnée au § 1 er , b. ;
+
+- les taxes visées par une procédure de taxation d'office, lorsque ces taxes sont payables d'initiative ou sur la base d'une déclaration, tel que prévu au § 1 er , b. ;
+
+- les autres taxes visées au § 1er, b., à défaut de paiement dans le délai prévu par la législation applicable;
+
+- la taxe wallonne sur l'abandon de déchets.
+
+Les autres taxes dues par un redevable font l'objet de rôles annuels. "
+
+Article 61
+
+A l'article 19 du même décret, sont apportées les modifications suivantes :
+
+1° L'alinéa 2 est remplacé par la disposition suivante :
+
+" L'exercice d'imposition est :
+
+- pour les taxes payables d'initiative ou sur la base d'une déclaration, tel que prévu à l'article 17bis, § 1 er , b., ainsi que pour la taxe wallonne sur l'abandon de déchets : l'année civile formant la période imposable;
+
+- pour les autres taxes : l'année civile qui suit la période imposable. "
+
+2° L'alinéa 3 est abrogé.
+
+Article 62
+
+L'article 20, alinéa 2, du même décret, est remplacé par la disposition suivante :
+
+" Toutefois, la taxe ou le supplément de taxe peut être établi pendant trois ans à partir du 1er janvier de l'exercice d'imposition :
+
+- dans le cas où la déclaration prescrite par le présent décret ou par le décret qui établit la taxe n'a pas été introduite dans le délai prescrit par l'article 7 ou si la taxe due est supérieure à celle qui se rapporte aux éléments mentionnés dans la formule de déclaration;
+
+- dans le cas où il s'agit de taxes visées à l'article 17bis, § 1 er , b., dans la mesure où elles ne sont pas payées dans le délai prévu par la législation applicable;
+
+- dans le cas de la taxe wallonne sur l'abandon de déchets. "
+
+Article 63
+
+A l'article 22 du même décret, le 4° est complété par les mots "et, dans le cas des sommes portées dans un rôle spécial, la mention de la période imposable ou de la partie de période imposable à laquelle se rapporte l'avertissement-extrait de rôle;".
+
+Article 64
+
+L'article 23 du même décret est remplacé par la disposition suivante :
+
+" Art. 23. § 1 er . La taxe portée dans un rôle annuel, la taxe portée dans un rôle spécial à la suite d'une procédure de rectification de la déclaration ou de taxation d'office visée à l'article 17bis, § 2, alinéa 2, premier et deuxième tirets, et la taxe wallonne sur l'abandon de déchets visée à l'article 17bis, § 2, alinéa 2, quatrième tiret, sont exigibles à la date à laquelle le rôle a été rendu exécutoire.
+
+Elles doivent être acquittées au plus tard dans les deux mois suivant la date de l'envoi de l'avertissement-extrait de rôle.
+
+§ 2. A défaut de paiement dans le délai prévu par la législation applicable, les mesures d'exécution forcée relatives aux taxes visées à l'article 17bis, § 1 er , b., doivent être précédées d'une reprise dans un rôle spécial, conformément à l'article 17bis, § 2, alinéa 2.
+
+La taxe portée dans un rôle spécial à défaut de paiement dans le délai prévu par la législation applicable, telle que visée à l'article 17bis, § 2, alinéa 2, troisième tiret, est exigible dès l'échéance du délai de paiement prévu par la législation applicable à cette taxe.
+
+Elle doit être acquittée immédiatement. "
+
+Article 65
+
+A l'article 24 du même décret, les mots "les taxes sont immédiatement exigibles" sont remplacés par les mots "les taxes portées dans un rôle annuel, les taxes portées dans un rôle spécial à la suite d'une procédure de rectification de la déclaration ou de taxation d'office visée à l'article 17bis, § 2, alinéa 2, premier et deuxième tirets, et la taxe wallonne sur l'abandon de déchets, visée à l'article 17bis, § 2, alinéa 2, quatrième tiret, telles que visées à l'article 23, § 1 er , sont acquittées sans délai".
+
+Article 66
+
+L'article 25, alinéa 2, du même décret est complété par les mots ", ou de la date de la perception des impôts perçus autrement que par rôle".
+
+Article 67
+
+A l'article 27 du même décret, sont apportées les modifications suivantes :
+
+1° Les mots ", perçues par rôle ou autrement," sont insérés entre les mots "dégrèvement des surtaxes" et les mots "résultant d'erreurs matérielles".
+
+2° Cette disposition est complétée par les mots "dans le cas des taxes enrôlées, ou au cours de laquelle la taxe a été payée, dans le cas des taxes perçues autrement que par rôle".
+
+Article 68
+
+L'article 63 du même décret est remplacé par la disposition suivante :
+
+" Art. 63. § 1 er . En cas d'infraction au présent décret ou au décret établissant la taxe, commise dans le but d'éluder la taxe, celle-ci est augmentée de plein droit d'une amende de 100 % du montant de la taxe que le redevable a tenté d'éluder.
+
+§ 2. Par dérogation au § 1 er :
+
+1° pour les taxes sur les déchets, en cas de rectification ou de taxation d'office, le redevable encourt une amende fiscale d'un montant égal à deux fois le montant de la taxe éludée.
+
+Cette amende est réduite par le service désigné par le Gouvernement, à un maximum de 50 % du montant de la taxe éludée, en cas d'absence d'intention frauduleuse ou de dessein de nuire.
+
+Elle est réduite par le service désigné par le Gouvernement, à un maximum de 10 % du montant de la taxe éludée, en cas de première infraction commise par le redevable sans intention frauduleuse ou dessein de nuire.
+
+Elle est remise totalement et d'office, en cas de régularisation spontanée effectuée par le redevable;
+
+2° toute infraction aux règles visées aux articles 10 à 11ter du présent décret est frappée d'une amende de 625 euros.
+
+§ 3. Ces amendes sont établies et recouvrées de la même manière que la taxe à laquelle elles se rapportent. "
+
+#### CHAPITRE XIII - Dispositions transitoires, abrogatoire et finale
+
+Article 69
+
+L'exonération visée à l'article 34 n'est accordée aux redevables des taxes visées au chapitre IV que pour des marchés publics passés après l'entrée en vigueur du présent décret.
+
+Article 70
+
+Pour les redevables qui sont soumis à l'impôt des sociétés, les taxes visées par les chapitre III à V sont, pour l'exercice 2008 jusque et y compris le deuxième trimestre de l'exercice 2015 affectées d'un coefficient de 0.7.
+
+Par dérogation à l'alinéa 1er, le coefficient n'est pas d'application aux montants de la taxe sur l'incinération des déchets visés aux articles 10, § 2, et 11, § 2, et au montant de la taxe sur la co -incinération de déchets visé à l'article 16, § 2.
+
+Par dérogation à l'alinéa 1 er , le coefficient n'est pas d'application pour le calcul du montant de la taxe subsidiaire pour la partie des déchets mis en C.E.T. hors du territoire de la Région wallonne.
+
+----------
+
+- modifié par l’art. 30 du décret du 11.12.2013. Texte entre en vigueur le 01.01.2014.
+
+- modifié par l’art. 116 du décret du 12.12.2014. Texte entre en vigueur le 01.01.2015.
+
+- modifié par l’art. 6 du décret du 19.06.2015. Texte entre en vigueur le 01.07.2015.
+
+Article 71
+
+Le décret du 25 juillet 1991 relatif à la taxation des déchets en Région wallonne est abrogé.
+
+Article 72
+
+Le présent décret entre en vigueur le 1 er janvier 2008.
+
+Toutefois,
+
+- les articles 56 à 68 du présent décret ne s'appliquent qu'aux taxes, intérêts et amendes fiscales relatifs aux périodes imposables 2008 et suivantes;
+
+- les articles 18bis, 18ter, 19, 20, 21, 22, 25 et 28 du décret du 25 juillet 1991 relatif à la taxation des déchets en Région wallonne continuent à s'appliquer après le 1er janvier 2008 aux taxes sur les déchets prévues par le décret du 25 juillet 1991 précité, relativement aux périodes imposables 2007 et antérieures.
+
+----------
+
+- modifié par l’art. 6 du décret du 19.12.2007. Texte entre en vigueur le 01.01.2008.

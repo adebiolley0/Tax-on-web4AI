@@ -1,0 +1,25 @@
+---
+guid: "b913bf3d-c769-4dd2-bff7-09cde9a67df0"
+title: "Article 117 C.B.P.F."
+document_type: "Code et législation"
+language: "fr"
+document_date: "2019-03-06"
+publication_date: "2019-03-19"
+effective_date: null
+last_modified: "2022-07-06"
+taxonomies: ["Code bruxellois de procédure fiscale - CBPF"]
+path: ["FISCALITÉ", "Entités fédérées", "Région de Bruxelles-Capitale", "Code bruxellois de procédure fiscale - CBPF"]
+linked_document_nl: "c180dbe2-0cd0-40bb-924e-1dd0fc66f12c"
+found_via: "b0db8705-45d6-4b2d-83cf-758dc3def4ee"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/b913bf3d-c769-4dd2-bff7-09cde9a67df0"
+---
+
+# Article 117 C.B.P.F.
+
+Entrée en vigueur, à partir de l'exercice d'imposition 2022 pour les taxes visées à l'article 3, 2° à 8° , de l'ordonnance du 6 mars 2019 relative au Code bruxellois de procédure fiscale (art. 1 de l'arrêté du 16.12.2021 - M.B. 27.12.2021)
+
+Entrée en vigueur le 01.01.2020 (art. 2 de l'arrêté du 28.11.2019 - M.B. 06.12.2019)
+
+Entrée en vigueur à partir de l'exercice d'imposition 2019 en ce qui concerne le précompte immobilier et à déterminer par le Gouvernement de la Région de Bruxelles-Capitale dans les autres cas (art. 145, §1 et §2, alinéa 3)
+
+Avant l’introduction de tout recours ou de toute action devant une juridiction, l’administration fiscale régionale et la commune qui lui a transféré le service d’une ou de plusieurs de ses primes tentent, à peine d’irrecevabilité, de régler par la voie amiable tout conflit relatif à l’application du présent chapitre.

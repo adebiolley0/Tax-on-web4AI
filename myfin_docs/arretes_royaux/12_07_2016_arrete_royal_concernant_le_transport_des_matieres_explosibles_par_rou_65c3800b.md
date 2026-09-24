@@ -1,0 +1,277 @@
+---
+guid: "65c3800b-d7a1-43c4-b550-3c42c6934237"
+title: "12.07.2016 - Arrêté royal concernant le transport des matières explosibles par route ou par chemin de fer"
+document_type: "Arrêtés royaux"
+language: "fr"
+document_date: "2016-07-12"
+publication_date: null
+effective_date: "2016-08-15"
+last_modified: "2019-10-02"
+taxonomies: ["Mesures de contrôle"]
+path: ["FISCALITÉ", "Douanes", "Législation et réglementation", "Législation et réglementation nationales", "Mesures de contrôle"]
+linked_document_nl: "0f8144c5-fb79-41c4-a917-f2066f4b17ec"
+found_via: "7dd891d8-028a-4d14-b6cd-db802ff73ee3"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/65c3800b-d7a1-43c4-b550-3c42c6934237"
+---
+
+# 12.07.2016 - Arrêté royal concernant le transport des matières explosibles par route ou par chemin de fer
+
+Arrêté royal du 12 juillet 2016 concernant le transport des matières explosibles par route ou par chemin de fer
+
+[ Moniteur belge - 05.08.2016 ]
+
+PHILIPPE, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+Vu la loi du 28 mai 1956 relative aux substances et mélanges explosibles ou susceptibles de déflagrer et aux engins qui en sont chargés, l'article 1 er et l'article 2, alinéa 2;
+
+Vu la loi relative à la police de la circulation routière, coordonnée le 16 mars 1968, l'article 1 er , alinéa 1 er et l'article 62, alinéa 1 er , remplacé par la loi du 4 août 1996 et modifié par la loi du 16 mars 1999;
+
+Vu la loi du 21 juin 1985 relative aux conditions techniques auxquelles doivent répondre tout véhicule de transport par terre, ses éléments ainsi que les accessoires de sécurité, l'article 1 er , modifié par les lois des 18 juillet 1990, 5 avril 1995, 4 août 1996, 27 novembre 1996 et 9 mars 2014 et par l'arrêté royal du 20 juillet 2000 et l'article 3, § 1 er ;
+
+Vu le Code ferroviaire, l'article 74 § 1 er , 14° ;
+
+Vu l'arrêté royal du 3 septembre 1958 portant réglementation du transport, de l'emmagasinage et de la vente du nitrate ammonique et de ses mélanges;
+
+Vu l'arrêté royal du 23 septembre 1958 portant règlement général sur la fabrication, l'emmagasinage, la détention, le débit, le transport et l'emploi des produits explosifs;
+
+Vu l'association des Gouvernements régionaux;
+
+Vu l'avis de la Commission consultative « Administration - Industrie », donné le 14 janvier 2014;
+
+Vu l'avis 56.595/2/V du Conseil d'Etat, donné le 25 août 2014, en application de l'article 84, § 1 er , alinéa 1 er , 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973;
+
+Sur la proposition du Ministre de l'Economie, du Ministre de l'Intérieur, du Ministre des Finances, du Ministre des Classes moyennes et du Ministre de la Mobilité,
+
+Nous avons arrêté et arrêtons :
+
+### Chapitre 1 er - Champ d'application
+
+Article 1 er . Le présent arrêté transpose partiellement la directive 2008/68/CE du Parlement et du Conseil du 24 septembre 2008 relative au transport intérieur des marchandises dangereuses.
+
+Art. 2. Pour l'application du présent arrêté, on entend par :
+
+1° « ADR » : l'Accord européen relatif au transport international des marchandises dangereuses par route, signé à Genève le 30 septembre 1957;
+
+2° « RID » : le règlement concernant le transport international ferroviaire des marchandises dangereuses, figurant comme appendice C à la Convention relative aux transports internationaux ferroviaires (COTIF) conclue à Vilnius le 3 juin 1999;
+
+3° « véhicule » : tout véhicule à moteur destiné à circuler sur route, pourvu d'au moins quatre roues et ayant, par construction, une vitesse maximale supérieure à 25 kilomètres par heure, ainsi que toute remorque, à l'exception des véhicules qui se déplacent sur rails, des machines mobiles et des tracteurs agricoles et forestiers qui ne dépassent pas 40 kilomètres par heure lorsqu'ils transportent des marchandises dangereuses;
+
+4° « wagon » : tout véhicule ferroviaire dépourvu de moyens de propulsion propres qui roule sur ses propres roues sur une voie de chemin de fer et qui est utilisé pour le transport de marchandises;
+
+5° « classes » : les classes de marchandises dangereuses énumérées dans le paragraphe 2.1.1.1 du RID et de l'ADR;
+
+6° « Numéro ONU »: le numéro d'identification à quatre chiffres des marchandises dangereuses selon le « Règlement Type », annexé aux « Recommandations relatives au transport de marchandises dangereuses ", publié par l'Organisation des Nations Unies, dans son édition la plus récente »;
+
+7° « code de classification » : le code qualifiant les marchandises dangereuses et qui est donné dans la colonne (3b) du tableau A au chapitre 3.2 du RID et de l'ADR;
+
+8° « explosifs » : les marchandises dangereuses définies comme telles dans le paragraphe 1.2.1 du RID et de l'ADR, qui appartiennent aux classes 1, 3 code de classification D, 4.1 code de classification D et DT, 5.1, numéro ONU 3375 et 9, numéro ONU 3268;
+
+9° « nitrate ammonique » : nitrate ammonique techniquement pur et ses mélanges, au sens des articles 1 er et 2 de l'arrêté royal du 3 septembre 1958 portant réglementation du transport, de l'emmagasinage et de la vente du nitrate ammonique et de ses mélanges qui, conformément aux procédures de classification qui y sont applicables, peuvent obtenir un numéro d'identification et une dénomination relevant de la classe 5.1, numéros ONU 1942, 2067 et 2426;
+
+10° « matières explosibles » : explosifs et nitrate ammonique;
+
+11° « emballage, récipient, GRV (grand récipient pour vrac), grand emballage, CGEM, citerne, wagon-citerne, wagon-batterie, citerne amovible, citerne fixe, citerne démontable, citerne mobile, conteneur-citerne, caisse mobile citerne, unité de transport, véhicule batterie » : emballage, récipient, GRV (grand récipient pour vrac), grand emballage, CGEM, citerne, wagon-citerne, wagon-batterie, citerne amovible, citerne fixe, citerne démontable, citerne mobile, conteneur-citerne, caisse mobile citerne, unité de transport et véhicule-batterie définis dans la section 1.2.1 du RID et de l'ADR;
+
+12° « MEMU, véhicules EXII, véhicules EXIII » : MEMU, véhicules EXII, véhicules EXIII tels que définis au paragraphe 9.1.1.2 de l'ADR;
+
+13 ° « véhicules FL, véhicules OX véhicules AT » : véhicules FL, véhicules OX, véhicules AT tels que définis au paragraphe 9.1.1.2 de l'ADR;
+
+14° « délégué du ministre » : le directeur général de la Direction générale Qualité et Sécurité du Service public fédéral Economie, P.M.E., Classes moyennes et Energie, ou le fonctionnaire technique que ce directeur général désigne.
+
+Art. 3. Sauf disposition explicite contraire, les dispositions du présent arrêté sont applicables tant au transport national qu'au transport international de matières explosibles par route ou par chemin de fer, y compris aux opérations de chargement et de déchargement, au transfert d'un mode de transport à un autre et aux arrêts nécessités par les circonstances du transport.
+
+Les dispositions du présent arrêté ne sont pas applicables au transport de matières explosibles :
+
+1° effectué par des véhicules ou des wagons appartenant aux forces armées ou se trouvant sous leur responsabilité;
+
+2° entièrement effectué à l'intérieur d'un périmètre fermé.
+
+Art. 4. Sans préjudice de l'art. 6, § 4, 3° de la loi spéciale du 8 août 1980 de réformes institutionnelles, le ministre qui a l'Economie dans ses attributions, peut établir des prescriptions de sécurité spécifiques pour le transport national et international de matières explosibles en ce qui concerne :
+
+1° le transport de matières explosibles effectué par des véhicules ou des wagons, non couvert par le présent arrêté;
+
+2° lorsque cela est justifié, l'utilisation d'itinéraires obligatoires ou de modes de transport obligatoires;
+
+3° les règles particulières relatives au transport de matières explosibles dans les trains de voyageurs.
+
+Cette décision est communiquée au Service public fédéral Mobilité et Transports, au Service de Sécurité et d'Interopérabilité des Chemins de fer, aux gouvernements régionaux concernés, ainsi qu'à la Commission européenne.
+
+### Chapitre 2 - Dispositions générales
+
+Art. 5. Sous réserve des dérogations du chapitre 4, les matières explosibles ne peuvent pas être transportées dans la mesure où cela est interdit par le RID ou l'ADR.
+
+Sans préjudice des règles générales relatives à l'accès au marché, des règles généralement applicables au transport de marchandises et des dispositions relatives au transport reprises à l'arrêté royal du 3 septembre 1958 portant réglementation du transport, de l'emmagasinage et de la vente du nitrate ammonique et de ses mélanges, et au Chapitre IV de l'arrêté royal du 23 septembre 1958 portant règlement général sur la fabrication, l'emmagasinage, la détention, le débit, le transport et l'emploi des produits explosifs, l'autorisation de transporter des matières explosibles est soumise au respect des conditions du RID ou de l'ADR et des dispositions reprises dans le présent arrêté.
+
+### Chapitre 3 - Restrictions
+
+Art. 6. Le ministre qui a l'Economie dans ses attributions, peut, pour des raisons de sécurité du transport, instaurer des dispositions plus sévères concernant les transports nationaux de matières explosibles effectués par des véhicules et des wagons immatriculés ou mis en circulation en Belgique, exception faite des prescriptions relatives à la construction.
+
+Lorsque, dans le cas d'un accident ou d'un incident sur le territoire belge, le ministre qui a l'Economie dans ses attributions, estime que les dispositions en matière de sécurité se sont révélées insuffisantes pour limiter les risques inhérents aux opérations de transport et qu'il est urgent de prendre des mesures, il notifie à la Commission européenne, lors de la préparation, le projet des mesures qu'il propose de prendre.
+
+### Chapitre 4 - Dérogations
+
+Art. 7. Sans préjudice de l'art. 6, § 4, 3° de la loi spéciale du 8 août 1980 de réformes institutionnelles et sous réserve que la sécurité ne soit pas compromise et à condition que la Commission européenne donne son accord préalablement, le ministre qui a l'Economie dans ses attributions, peut autoriser des dérogations aux dispositions du RID ou de l'ADR pour le transport national de petites quantités de certaines matières explosibles pour autant que les conditions fixées pour ces transports ne soient pas plus sévères que celles établies dans le RID ou l'ADR.
+
+Cette décision est communiquée au Service public fédéral Mobilité et Transports, au Service de Sécurité et d'Interopérabilité des Chemins de fer et aux gouvernements régionaux concernés.
+
+Art. 8. Sans préjudice de l'art. 6, § 4, 3° de la loi spéciale du 8 août 1980 de réformes institutionnelles et sous réserve que la sécurité ne soit pas compromise et à condition que la Commission européenne donne son accord préalablement, le ministre qui a l'Economie dans ses attributions, peut établir en transport national des dispositions différentes de celles contenues dans le RID ou l'ADR en cas de :
+
+1° transport local sur une courte distance de matières explosibles, ou;
+
+2° transport local de matières explosibles par chemin de fer sur des trajets spécifiques, faisant partie d'un processus industriel défini et strictement contrôlé dans des conditions clairement définies.
+
+Cette décision est communiquée au Service public fédéral Mobilité et Transports, au Service de Sécurité et d'Interopérabilité des Chemins de fer et aux gouvernements régionaux concernés.
+
+Art. 9. Les dérogations visées aux articles 7 et 8 ont une durée de validité de maximum six ans à partir de la date de l'autorisation. Cette date est fixée dans la décision d'autorisation. Sauf indication contraire, la durée de validité des dérogations est de six ans.
+
+Art. 10. Le ministre qui a l'Economie dans ses attributions, peut proroger une dérogation attribuée sur base de l'article 7 ou 8, moyennant l'accord préalable de la Commission européenne.
+
+Art. 11. Le ministre qui a l'Economie dans ses attributions, peut, exceptionnellement et sous réserve que la sécurité ne soit pas mise en péril, délivrer des autorisations individuelles pour effectuer des transports sur le territoire belge de matières explosibles qui sont soit interdits par le présent arrêté, soit effectués dans des conditions différentes de celles établies par le présent arrêté, pour autant que ces opérations de transport soient clairement définies et limitées dans le temps.
+
+Art. 12. Si un transport est effectué en application d'une dérogation qui a été accordée sur base du présent chapitre, une copie de cette dérogation doit être jointe au document de transport.
+
+Art. 13. Les dérogations temporaires convenues entre la Belgique et un ou plusieurs Etats membres ou parties contractantes, en application du paragraphe 1.5.1 du RID ou de l'ADR, sont également d'application pour le transport national.
+
+Art. 14. Les listes des dérogations qui ont été accordées par le ministre qui a l'Economie dans ses attributions sur base des articles 7, 8 ou 13 sont publiées par extrait au Moniteur belge.
+
+### Chapitre 5 - Obligations des intervenants
+
+Art. 15. Il est interdit à l'expéditeur, au commissionnaire-expéditeur, au commissionnaire de transport, au transporteur et au conducteur du véhicule de charger, de transporter, de faire charger ou de faire transporter des matières explosibles si le transport ne satisfait pas, aux dispositions du RID ou de l'ADR et du présent arrêté.
+
+Les commissionnaires-expéditeurs et les commissionnaires de transport éventuels sont soumis aux mêmes exigences que l'expéditeur.
+
+Lorsque la prise en charge des marchandises a lieu chez le fabricant ou le commerçant, celui-ci est également soumis aux dispositions du paragraphe 1.4.2.1.1 du RID et de l'ADR applicables à l'expéditeur.
+
+L'expéditeur doit s'assurer que le document de transport répond aux exigences de la section 5.4.1 du RID et de l'ADR.
+
+Des relevés des formations reçues par l'employé conformément aux paragraphes 1.3.3 et 1.10.2.4 du RID et de l'ADR doivent être tenus par l'employeur pendant une période d'au moins cinq ans et tenus à disposition de l'employé et de l'autorité compétente.
+
+### Chapitre 6 - Documents
+
+Art. 16. Le certificat d'agrément prévu au paragraphe 9.1.3.1 de l'ADR est délivré par le délégué du ministre qui a l'Economie dans ses attributions en ce qui concerne le transport effectué par véhicules MEMU, EXII et EXIII ou tout autre instance désignée explicitement.
+
+Les certificats d'agrément prévus au paragraphe 9.1.3 de l'ADR sont conformes :
+
+1° dans le cas de transport exclusivement national, au modèle faisant l'objet du paragraphe 9.1.3.5 de l'ADR;
+
+2° dans le cas de transport international, au modèle faisant l'objet du paragraphe 9.1.3.5 de l'ADR avec une diagonale rose.
+
+### Chapitre 7 - Contrôles
+
+Art. 17. § 1 er Sont compétents pour constater, en ce qui concerne le transport de matières explosibles, les infractions aux dispositions du RID, de l'ADR et du présent arrêté, outre les officiers de police judiciaire :
+
+1° les membres du personnel du cadre opérationnel de la police locale et de la police fédérale et les fonctionnaires de l'Administration générale des Douanes et Accises dans l'exercice de leurs fonctions;
+
+2° les fonctionnaires et agents de la Direction générale Qualité et Sécurité du Service public fédéral de l'Economie, P.M.E., Classes Moyennes et Energie dans l'exercice de leur fonction.
+
+§ 2 Sont compétents pour constater les infractions aux dispositions du RID, outre les officiers de police judiciaire, les fonctionnaires et agents du Service de Sécurité et d'Interopérabilité des Chemins de fer désignés par Nous.
+
+Art. 18. Les agents désignés à l'article 17, § 1 er , 1°, peuvent, dans l'exercice de leur fonction, procéder au contrôle sur la route.
+
+Les fonctionnaires et agents désignés à l'article 17, § 2, peuvent, dans l'exercice de leur fonction, inspecter tout matériel circulant ou destiné à circuler sur l'infrastructure ferroviaire.
+
+### Chapitre 8 - Dispositions transitoires
+
+Art. 19. En transport national par route de matières explosibles, l'utilisation de véhicules non conformes à l'ADR est autorisée sous réserve :
+
+1° qu'ils aient été mis en service pour la première fois avant le 1 er janvier 1997 et;
+
+2° que la fabrication réponde aux exigences nationales applicables le 31 décembre 1996 et;
+
+3° qu'ils soient entretenus de façon à garantir le niveau de sécurité exigé.
+
+En transport national par route de matières explosibles, l'utilisation de citernes en matière plastique non conformes à l'ADR est autorisée sous réserve :
+
+1° qu'elles aient été construites avant le 1 er janvier 1999 et;
+
+2° que la fabrication réponde aux exigences nationales applicables le 31 décembre 1996 et;
+
+3° qu'elles soient entretenues de façon à garantir le niveau de sécurité exigé.
+
+Pour le transport national par route de matières explosibles, les citernes fixes et les citernes démontables, destinées au transport de matières autres que les matières pulvérulentes ou granulaires, ne doivent pas satisfaire au paragraphe 1.6.3.6 ou 6.8.2.1.20 de l'ADR si elles :
+
+1° ont été construites entre le 1 er octobre 1978 et le 1 er janvier 1990 et;
+
+2° satisfont au Bn211127 (5) de l'annexe 2 de l'arrêté royal du 16 septembre 1991 concernant le transport de marchandises dangereuses par route, à l'exception des matières explosibles et radioactives et;
+
+3° sont entretenues de façon à garantir le niveau de sécurité exigé.
+
+### Chapitre 9 - Dispositions modificatives
+
+Art. 20. A l'article 5, 2°, de l'arrêté royal du 3 septembre 1958 portant réglementation du transport, de l'emmagasinage et de la vente du nitrate ammonique et de ses mélanges, les points a) et b) sont remplacés par ce qui suit :
+
+« a) Le transport du nitrate ammonique et de ses mélanges par route s'effectue conformément aux dispositions de cet arrêté et de l'arrêté royal du 12 juillet 2016 concernant le transport des matières explosibles par route ou par chemin de fer.
+
+b) Le transport du nitrate ammonique et de ses mélanges par chemin de fer s'effectue conformément aux dispositions de cet arrêté et de l'arrêté royal du 12 juillet 2016 concernant le transport des matières explosibles par route ou par chemin de fer. ».
+
+Art. 21. L'article 65 de l'arrêté royal du 23 septembre 1958 portant règlement général sur la fabrication, l'emmagasinage, la détention, le débit, le transport et l'emploi des produits explosifs, remplacé par l'arrêté du 14 mai 2000, est remplacé par ce qui suit :
+
+« Art. 65. Pour l'application du chapitre IV. - Emballage, du chapitre V. - Transports, et du chapitre VII. - Vente, il y a lieu d'entendre par :
+
+1° « ADR »: l'Accord européen relatif au transport international des marchandises dangereuses par route, signé à Genève le 30 septembre 1957, tel que modifié;
+
+2° « RID » : le règlement concernant le transport international ferroviaire des marchandises dangereuses, figurant comme appendice C à la Convention relative aux transports internationaux ferroviaires (COTIF) conclue à Vilnius le 3 juin 1999, telle que modifiée. ».
+
+Art. 22. L'article 66 du même arrêté, remplacé par l'arrêté royal du 14 mai 2000, est remplacé par ce qui suit :
+
+« Art. 66. Le mode d'emballage et d'étiquetage des divers explosifs doit être conforme aux prescriptions prévues par les annexes à l'ADR et par le RID. Sauf exceptions prévues à l'article 67, les mots « l'autorité compétente » figurant dans ces prescriptions désignent le ministre qui a l'Economie dans ses attributions. ».
+
+Art. 23. L'article 67 du même arrêté, remplacé par l'arrêté royal du 25 avril 2004, est remplacé par ce qui suit :
+
+« Art. 67. Pour l'application des paragraphes 1.5.1.1, 2.2.1.1.3, 3.3.1, 6.1.1.2, 6.1.5.1, 6.1.5.8, 6.5.1.1., 6.5.4, 6.5.6.1 et 6.5.6.14 des annexes à l'ADR et du RID, on entend par « autorité compétente » le directeur général de la Direction générale Qualité et Sécurité du SPF Economie, P.M.E., Classes moyennes et Energie. ».
+
+Art. 24. L'article 94 du même arrêté, remplacé par l'arrêté royal du 14 mai 2000, est remplacé par ce qui suit :
+
+« Art. 94. Le transport des explosifs par route s'effectue conformément aux dispositions de cet arrêté et de l'arrêté royal du 12 juillet 2016 concernant le transport des matières explosibles par route ou par chemin de fer. ».
+
+Art. 25. L'article 163 du même arrêté, remplacé par l'arrêté royal du 25 avril 2004, est remplacé par ce qui suit :
+
+« Art. 163. Le transport des explosifs par chemin de fer s'effectue conformément aux dispositions de cet arrêté et de l'arrêté royal du 12 juillet 2016 concernant le transport des matières explosibles par route ou par chemin de fer. ».
+
+### Chapitre 10 - Dispositions abrogatoires
+
+Art. 26. L'article 95 de l'arrêté royal du 23 septembre 1958 portant règlement général sur la fabrication, l'emmagasinage, la détention, le débit, le transport et l'emploi des produits explosifs, remplacé par l'arrêté royal du 14 mai 2000, est abrogé.
+
+Art. 27. L'article 96 du même arrêté, remplacé par l'arrêté royal du 25 avril 2004, est abrogé.
+
+Art. 28. L'article 106 du même arrêté, remplacé par l'arrêté royal du 14 mai 2000, est abrogé.
+
+Art. 29. L'article 111 du même arrêté est abrogé.
+
+Art. 30. L'article 113 du même arrêté est abrogé.
+
+Art. 31. L'article 114 du même arrêté, remplacé par l'arrêté royal du 14 mai 2000 et modifié par l'arrêté royal du 25 avril 2004, est abrogé.
+
+### Chapitre 11 - Dispositions finales
+
+Art. 32. L'article 28 entre en vigueur le 1 er juillet 2020.
+
+Art. 33. Le ministre qui a l'Economie dans ses attributions, le ministre qui a l'Intérieur dans ses attributions, le ministre qui a les Finances dans ses attributions, le ministre qui a le Transport dans ses attributions et le ministre qui a l'exercice de l'autorité sur le Service de Sécurité et d'Interopérabilité des Chemins de Fer dans ses attributions sont chargés, chacun en ce qui le concerne, de l'exécution du présent arrêté.
+
+Donné à Bruxelles, le 12 juillet 2016.
+
+PHILIPPE
+
+Par le Roi :
+
+Le Ministre de l'Economie,
+
+K. PEETERS
+
+Le Ministre de l'Intérieur,
+
+J. JAMBON
+
+Le Ministre des Finances,
+
+J.VAN OVERTVELDT
+
+Le Ministre des Classes moyennes, compétent pour exercer l'autorité sur le Service de Sécurité et d'Interopérabilité des Chemins de Fer,
+
+W. BORSUS
+
+Le Ministre de la Mobilité,
+
+F. BELLOT

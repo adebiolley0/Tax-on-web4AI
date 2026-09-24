@@ -1,0 +1,29 @@
+---
+guid: "f036c7f1-1a2b-43bd-8eaf-cf38de260c9d"
+title: "Article 272, CIR 92 (revenus 2026)"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2019-02-11"
+publication_date: "2019-03-22"
+effective_date: "2019-03-01"
+last_modified: "2026-02-12"
+taxonomies: ["CIR 92 - Revenus 2026"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Code des impôts sur les revenus", "CIR 92 par année de revenus", "CIR 92 - Revenus 2026"]
+linked_document_nl: "d5040e70-b3df-4d60-a35f-7b54931f24d8"
+found_via: "78487789-c9a6-4436-9e39-43359f9a01af"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/f036c7f1-1a2b-43bd-8eaf-cf38de260c9d"
+---
+
+# Article 272, CIR 92 (revenus 2026)
+
+Art. 272 entre en vigueur le 01.03.2019 et est applicable aux rémunérations payées ou attribuées à partir du 01.03.2019 (art. 9 et 24, L 11.02.2019 - M.B. 22.03.2019; Numac: 2019040488 )
+
+Sauf convention contraire:
+
+1° les redevables désignés à l'article 270, alinéa 1 er , 1°, 3°, 6° et 7°, ont le droit de retenir sur les revenus imposables le précompte y afférent;
+
+2° les redevables désignés à l'article 270, alinéa 1 er , 2° ont le droit de se faire remettre anticipativement le montant du précompte dû sur les pourboires ou pourcentages de service.
+
+3° les redevables en application de l'article 270, alinéa 2, ont le droit de retenir le précompte sur l'ensemble des revenus imposables dont ils sont débiteurs.
+
+Nonobstant toute convention contraire, les redevables désignés à l'article 270, alinéa 1 er , 5°, doivent retenir sur les plus-values comprises dans les bénéfices ou profits visés à l'article 228, § 2, 3°, a et 4°, le précompte y afférent.

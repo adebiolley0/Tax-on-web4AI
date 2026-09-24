@@ -1,0 +1,59 @@
+---
+guid: "30adb5e5-21c2-4694-8964-64b318bd824d"
+title: "13.08.2020. - Agence fédérale de la dette - Crédits hypothécaires. - Variabilité des taux d'intérêt. - Indices de référence. - Arrêté royal du 14 septembre 2016 [...] - Avis"
+document_type: "Avis"
+language: "fr"
+document_date: "2020-08-13"
+publication_date: "2020-08-13"
+effective_date: null
+last_modified: "2020-10-15"
+taxonomies: ["Indice de référence"]
+path: ["FINANCES", "Dette publique", "Indice de référence"]
+linked_document_nl: "c861ba9d-a66e-48d3-bdc3-1a4dedbb8512"
+found_via: "21971017-525f-4f54-a5eb-f092fe3c7ab1"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/30adb5e5-21c2-4694-8964-64b318bd824d"
+---
+
+# 13.08.2020. - Agence fédérale de la dette - Crédits hypothécaires. - Variabilité des taux d'intérêt. - Indices de référence. - Arrêté royal du 14 septembre 2016 [...] - Avis
+
+<span id="ms-rterangecursor-start" RteNodeId="1"></span><span id="ms-rterangecursor-end"></span>13.08.2020. - Agence fédérale de la dette - Crédits hypothécaires. - Variabilité des taux d'intérêt. - Indices de référence. - Arrêté royal du 14 septembre 2016 [...] - Avis
+
+13.08.2020. - Agence fédérale de la Dette - Crédits hypothécaires. - Variabilité des taux d'intérêt. - Indices de référence. - Arrêté royal du 14 septembre 2016 relatif aux coûts, aux taux, à la durée et aux modalités de remboursement des contrats de crédits soumis à l'application du livre VII du Code de droit économique et à la fixation des indices de référence pour les taux d'intérêts variables en matière de crédits hypothécaires et de crédits à la consommation y assimilés. – Avis
+
+La liste des indices de référence du mois d'août 2020 est composée comme suit :
+
+Indice A (certificats de trésorerie 12 mois) : - 0,563
+
+Indice B (obligations linéaires 2 ans) : - 0,608
+
+Indice C (obligations linéaires 3 ans) : - 0,622
+
+Indice D (obligations linéaires 4 ans) : - 0,589
+
+Indice E (obligations linéaires 5 ans) : - 0,531
+
+Indice F (obligations linéaires 6 ans) : - 0,468
+
+Indice G (obligations linéaires 7 ans) : - 0,402
+
+Indice H (obligations linéaires 8 ans) : - 0,335
+
+Indice I (obligations linéaires 9 ans) : - 0,264
+
+Indice J (obligations linéaires 10 ans) : - 0,198
+
+Les indices périodiques correspondants sont communiqués ci-après :
+
+| Périodicité |  |  |  |
+| --- | --- | --- | --- |
+| Indice | Mensuelle | Trimestrielle | Semestrielle |
+| A | - 0,0470 | - 0,1410 | - 0,2819 |
+| B | - 0,0508 | - 0,1523 | - 0,3045 |
+| C | - 0,0520 | - 0,1559 | - 0,3115 |
+| D | - 0,0492 | - 0,1476 | - 0,2949 |
+| E | - 0,0444 | - 0,1330 | - 0,2659 |
+| F | - 0,0391 | - 0,1172 | - 0,2343 |
+| G | - 0,0336 | - 0,1007 | - 0,2012 |
+| H | - 0,0280 | - 0,0839 | - 0,1676 |
+| I | - 0,0220 | - 0,0661 | - 0,1321 |
+| J | - 0,0165 | - 0,0495 | - 0,0990 |

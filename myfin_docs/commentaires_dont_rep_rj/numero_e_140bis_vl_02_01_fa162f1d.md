@@ -1,0 +1,35 @@
+---
+guid: "fa162f1d-c452-4ec3-a8c8-d1ee32c27d21"
+title: "Numéro E 140bis-VL/02-01"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2001-04-12"
+publication_date: "2005-04-01"
+effective_date: null
+last_modified: "2022-05-20"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "0b6a66f2-cdab-439e-a1c0-3bf7e82379a5"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/fa162f1d-c452-4ec3-a8c8-d1ee32c27d21"
+---
+
+# Numéro E 140bis-VL/02-01
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+RÉGION FLAMANDE
+
+Numéro E 140 bis -VL/02-01
+
+02. – Base imposable.
+
+01. - Les articles 140 bis à 140 quinquies C. enr. prévoient seulement une dérogation au tarif du droit de donation, mais ne modifient pas les règles générales de perception. Ceci implique qu'en principe, la base imposable en cas de donation d'une entreprise visée à l' article 140 bis , 1° , devrait consister en la valeur brute de l'entreprise, sans déduction du passif.
+
+Toutefois, compte tenu de l'intention du législateur de traiter de la même manière, au plan fiscal, les donations visées à l' article 140 bis , 1° , et celles visées à l' article 140 bis , 2° , il faut admettre que la base imposable des donations visées à l' article 140 bis , 1° , consiste en la valeur nette de l'entreprise.
+
+(Décision du 12.04.2001 - EE/98.292)
+
+----------
+
+Date de publication : AVRIL 2005

@@ -1,0 +1,891 @@
+---
+guid: "5f0044f7-55d2-437e-b5ea-af934379d46e"
+title: "13.07.2023 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 29 novembre 2018 relative à l'utilisation de modes de transport partagés en flotte libre alternatifs à l'automobile"
+document_type: "Législation et règlementation régionale et locale"
+language: "fr"
+document_date: "2023-07-13"
+publication_date: "2023-09-06"
+effective_date: null
+last_modified: "2025-01-22"
+taxonomies: ["Autre législation et réglementation"]
+path: ["FISCALITÉ", "Entités fédérées", "Région de Bruxelles-Capitale", "Autre législation et réglementation"]
+linked_document_nl: "0e35ebe3-8e6d-47a5-b4cb-c5787c4e06cd"
+found_via: "6efe3bb8-1c0b-4a54-82de-9efc3b783687"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/5f0044f7-55d2-437e-b5ea-af934379d46e"
+---
+
+# 13.07.2023 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 29 novembre 2018 relative à l'utilisation de modes de transport partagés en flotte libre alternatifs à l'automobile
+
+13.07.2023 - Arrêté du Gouvernement de la Région de Bruxelles-Capitale portant exécution de l'ordonnance du 29 novembre 2018 relative à l'utilisation de modes de transport partagés en flotte libre alternatifs à l'automobile
+
+(M.B. 06.09.2023 – Numac : 2023043869 – dernière modification : arrêté du 16.01.2025 – M.B. 22.01.2025)
+
+Le Gouvernement de la Région de Bruxelles-Capitale,
+
+Vu la loi spéciale du 12 janvier 1989 relative aux institutions bruxelloises ;
+
+Vu l'ordonnance du 29 novembre 2018 relative au partage de modes de transports en flotte libre constituant une alternative à la voiture telle que modifiée par l'ordonnance du 17 mars 2022 modifiant l'ordonnance du 29 novembre 2018 relative à l'utilisation de modes de transport partagés en flotte libre alternatifs à l'automobile ;
+
+Vu l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 17 janvier 2019 portant exécution de l'ordonnance du 29 novembre 2018 relative au partage de modes transports en flotte libre constituant une alternative à la voiture ;
+
+Vu le test Egalité des chances réalisé le 8 septembre 2022 ;
+
+Vu l'avis favorable de l'Inspecteur des Finances donné le 19 septembre 2022 ;
+
+Vu l'accord du Ministre du Budget donné le 11 octobre 2022 ;
+
+Vu la communication à la Commission européenne, en application de la directive 2015/1535/UE du Parlement européen et du Conseil du 9 septembre 2015 prévoyant une procédure d'information dans le domaine des réglementations techniques et des règles relatives aux services de la société de l'information ;
+
+Vu l'avis du Conseil de l'Environnement pour la Région de Bruxelles-Capitale, donné le 20 décembre 2022 ;
+
+Vu l'avis du Conseil Economique et Social, donné le 15 décembre 2022 ;
+
+Vu l'avis de la Commission régionale de la Mobilité de la Région de Bruxelles-Capitale, donné le 19 décembre 2022 ;
+
+Vu l'avis n° 02/2023 de l'Autorité de protection des données, donné le 20 janvier 2023 ;
+
+Vu la demande d'avis dans un délai de 30 jours prorogé de 30 jours, adressée au Conseil d'Etat le 9 mai 2023 en application de l'article 84, § 1er, alinéa 1er, 2°, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973 ;
+
+Considérant l'absence de communication de l'avis dans ce délai ;
+
+Vu l'article 84, § 4, alinéa 2, des lois sur le Conseil d'Etat, coordonnées le 12 janvier 1973 ;
+
+Sur proposition de la Ministre du Gouvernement de la Région de Bruxelles-Capitale, chargée de la Mobilité, des Travaux publics et de la Sécurité routière
+
+Après délibération,
+
+Arrête :
+
+#### CHAPITRE 1 er - Dispositions générales
+
+Article 1 er
+
+Pour l'application du présent arrêté, on entend par :
+
+1° Agent : les agents et fonctionnaires visés à l'article 54, § 1er ;
+
+2° Bruxelles Mobilité : l'administration du Service Public Régional de Bruxelles en charge de l'équipement et de la politique des déplacements ;
+
+3° Engin de déplacement : l'engin de déplacement visé à l'article 2.15.2 du Code de la Route ;
+
+4° Espace à statut spécifique : espace partagé au sein desquels le ministre adapte les vitesses de circulation des véhicules de cyclopartage en raison de spécificités locales.
+
+5° Fonctionnaire sanctionnateur : agent ou fonctionnaire visé à l'article 65 ;
+
+6° Ministre : le membre du Gouvernement en charge de la Mobilité ;
+
+7° Ordonnance : l'ordonnance du 29 novembre 2018 relative au partage de modes de transports en flotte libre constituant une alternative à la voiture ;
+
+8° Plan régional de mobilité : plan régional de mobilité visé par l'ordonnance du 26 juillet 2013 instituant un cadre en matière de planification de la mobilité et modifiant diverses dispositions ayant un impact en matière de mobilité ;
+
+9° Scooter : cyclomoteur visé à l'article 2.17 du Code de la Route, motocyclette visée à l'article 2.18 du Code de la Route, tricycle à moteur visé à l'article 2.19 du Code de la Route et quadricycle à moteur visé à l'article 2.20 du Code de la Route,
+
+10° Vélo : le cycle visé à l'article 2.15.1 ou à l'article 2.15.3 du Code de la Route ;
+
+11° Vélo cargo : le cycle visé à l'article 2.15.3. du Code de la Route avec une charge admissible de 130 kg ;
+
+12° Zone piétonne : zone visée à l'article 2.35 du Code de la Route ;
+
+13° Zone résidentielle ou de rencontre : zones définies à l'article 2.32 du Code de la Route.
+
+Article 2
+
+Les délais visés dans le présent arrêté sont calculés conformément aux articles 52 à 54 du Code judiciaire.
+
+Article 3
+
+Sauf mention contraire, les communications visées dans le présent arrêté sont faites par voie électronique.
+
+Article 4
+
+Le directeur général de Bruxelles Mobilité est autorisé à déléguer la signature des actes relatifs aux missions qui lui sont attribuées par le présent arrêté à tout agent de Bruxelles Mobilité de niveau A au moins.
+
+----------
+
+- remplacé par l’art. 1 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+#### CHAPITRE 2 - La licence pour le cyclopartage en flotte libre
+
+##### Section 1 re - Nombre de licences, nombre de véhicules et procédure
+
+Article 5
+
+§ 1er. Le nombre maximum de licences pour cyclopartage en flotte libre est de :
+
+1° Entre zéro et cinq licences pour les vélos ;
+
+2° Entre zéro et trois licences pour les engins de déplacement ;
+
+3° Entre zéro et trois licences pour les scooters ;
+
+4° Entre zéro et trois licences pour les vélos cargo ;
+
+5° Entre zéro et cinq licences pour la réalisation de projets pilotes ;
+
+§ 2. Le ministre détermine le nombre de véhicules en service par licence dans les limites suivantes :
+
+1° Maximum 4000 pour les vélos ;
+
+2° Maximum 6000 pour les engins de déplacements ;
+
+3° Maximum 500 pour les scooters ;
+
+4° Maximum 500 pour les vélos cargos :
+
+5° Maximum 1500 véhicules pour les projets pilotes.
+
+----------
+
+- remplacé par l’art. 2 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+Article 6
+
+Pour octroyer le nombre de licences visées à l'article 5, le ministre procède à des appels à candidatures, après consultation du gouvernement.
+
+Article 7
+
+Les licences octroyées suite à l'appel à candidatures sont valables trois ans.
+
+Elles demeurent toutefois valables jusqu'à l'octroi de nouvelles licences en application d'un nouvel appel à candidatures.
+
+Article 8
+
+Les licences sont incessibles, sauf cession d'universalités.
+
+##### Section 2 - Appel à candidatures
+
+Article 9
+
+§ 1er. L'appel à candidatures et le formulaire type de candidature sont publiés au Moniteur belge et sur le site de Bruxelles Mobilité.
+
+§ 2. Un délai minimum de 30 jours s'écoule entre cette publication et la date limite de dépôt des candidatures.
+
+§ 3. Les candidatures en vue de l'octroi d'une licence de cyclopartage en flotte libre sont introduites auprès de Bruxelles Mobilité.
+
+§ 4. Bruxelles Mobilité analyse la recevabilité des candidatures conformément aux conditions fixées à l'article 10 et remet son avis au ministre.
+
+Le ministre informe les demandeurs du caractère recevable ou irrecevable de leur candidature.
+
+§ 5. Bruxelles Mobilité analyse les candidatures recevables au regard des critères de sélection repris dans l'appel à candidatures conformément à l'article 11 et fait rapport au ministre.
+
+Le ministre sélectionne les opérateurs et informe ensuite les candidats du résultat de l'appel à candidatures.
+
+§ 6. Le ministre fixe les délais de ces différentes étapes dans l'appel à candidatures.
+
+§ 7. Bruxelles Mobilité est responsable du traitement des données à caractère personnel transmises dans le cadre de la procédure d'octroi des licences.
+
+Article 10
+
+§ 1er. Sous peine d'irrecevabilité, le demandeur qui adresse sa candidature doit répondre aux conditions suivantes :
+
+1° Etre en mesure de mettre à disposition des utilisateurs des véhicules de cyclopartage répondant aux conditions fixées par l'article 16 ;
+
+2° Etre enregistré à la Banque Carrefour des entreprises conformément à la loi du 16 janvier 2003 portant création d'une Banque-Carrefour des Entreprises, modernisation du registre de commerce, création de guichets-entreprises agréés et portant diverses dispositions.
+
+3° Ne pas se trouver dans une situation justifiant une exclusion facultative, relative aux dettes fiscales et sociales, ou obligatoire telles que définies dans les articles 67 à 69 de la loi du 17 juin 2016 relative aux marchés publics, sans présenter de mesure correctrice conformément à l'article 70 de la même loi ;
+
+4° Utiliser de l'électricité verte, telle que définie à l'article 2, 7° de l'ordonnance du 19 juillet 2001 relative à l'organisation du marché de l'électricité dans la Région de Bruxelles-Capitale, pour le rechargement des véhicules de cyclopartage ;
+
+5° Avoir entamé des démarches en vue de souscrire une assurance couvrant sa responsabilité civile, dont la responsabilité du fait des choses, avec un plafond d'intervention de 250.000,00 euros par sinistre pour les dommages corporels et 2.000.000,00 euros par sinistre pour les dommages matériels ;
+
+6° Ne pas avoir subi de révocation de sa licence depuis le dernier appel à candidatures au moment de la demande ;
+
+7° Ne pas déjà détenir une licence pour soi ou par l'intermédiaire d'une filiale ou d'une autre entité appartement à la même structure économique pour la période visée par l'appel à candidatures pour le même mode ;
+
+8° Rationnaliser les ressources utilisées par le recyclage des batteries des véhicules qu'il exploite et une pratique de l'économie circulaire ;
+
+9° Développer de l'emploi de qualité et de l'entreprenariat social.
+
+§ 2. Sous peine d'irrecevabilité, la candidature contient :
+
+1° Le formulaire de candidature dûment complété ;
+
+2° Les documents prouvant que le demandeur répond aux conditions fixées au paragraphe 1er.
+
+§ 3. La candidature reprend l`adresse électronique à laquelle pourront lui être adressées toutes les communications visées au présent arrêté.
+
+Article 11
+
+§ 1er. Afin d'octroyer les licences visées à l'article 5, le ministre se base sur des critères de sélection en lien avec les enjeux suivants :
+
+1° L'accessibilité et l'inclusivité des services ;
+
+2° La qualité et la fiabilité des services ;
+
+3° La sécurité routière ;
+
+4° L'exemplarité socio-économique ;
+
+5° L'exemplarité environnementale ;
+
+6° Le respect des règles de stationnement ;
+
+7° La gestion de la flotte en vue de limiter l'impact sur le trafic.
+
+§ 2. Les critères de sélection sont détaillés et pondérés dans les appels à candidatures.
+
+----------
+
+- remplacé par l’art. 3 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+Article 12
+
+L'opérateur peut contester un refus de déclarer un dossier de demande complet et recevable ou d'accorder la licence en adressant au ministre une requête motivée dans laquelle il fait état de ses motifs de contestations.
+
+Dans sa requête, il peut demander à être entendu par le ministre ou son délégué.
+
+Sous peine de nullité, cette requête est envoyée au plus tard 30 jours après la notification de la décision contestée ou à l'expiration du délai pour la rendre.
+
+Le ministre envoie sans délai un récépissé.
+
+Article 13
+
+Dans les 45 jours suivant la réception de la requête, le ministre statue à nouveau sur le caractère complet et recevable ou non du dossier ou sur la décision d'accorder ou non la licence.
+
+Ce délai est prorogé de 15 jours lorsque l'opérateur est entendu.
+
+##### Section 3 - Evaluation des opérateurs
+
+Article 14
+
+§ 1er. Le ministre évalue annuellement les services de cyclopartage organisés par chacun des opérateurs ayant obtenu une licence.
+
+§ 2. Cette évaluation annuelle se fait sur base du rapport annuel fourni par les opérateurs conformément à l'article 29 ainsi que sur base d'un rapport d'analyse établi par Bruxelles Mobilité.
+
+§ 3. L'évaluation porte sur :
+
+1° le taux de rotation des véhicules, à savoir le nombre de voyages par véhicule par jour et leur taux d'utilisation ;
+
+2° le taux d'utilisation, à savoir la proportion du nombre de véhicules utilisés sur l'ensemble des véhicules déployés sur base journalière, hebdomadaire ou mensuelle ;
+
+3° le taux de disponibilité des véhicules, à savoir la proportion du nombre de véhicules disponibles sur l'ensemble des véhicules déployés sur base journalière, hebdomadaire ou mensuelle ;
+
+4° le nombre de déplacements et d'enlèvements effectués en application des articles 37 et 38 ;
+
+5° la stabilité du flux de données numériques transmises à Bruxelles Mobilité ;
+
+6° la couverture géographique, la densité ainsi que l'homogénéité géographique de la densité de l'offre ;
+
+7° la qualité des véhicules exploités et leur évolution en fonction de l'évolution des technologies ;
+
+8° l'accessibilité de leurs services, notamment d'un point de vue tarifaire ;
+
+9° le nombre de véhicules disparus ;
+
+10° au sein du personnel de l'opérateur, la proportion travaillant dans le cadre d'un contrat de travail à durée indéterminée.
+
+Elle peut également porter sur des critères repris dans l'appel à candidatures visé à l'article 7.
+
+§ 4. Pour chacun des critères, le ministre détermine l'un des résultats suivants :
+
+1° satisfaisant ;
+
+2° partiellement satisfaisant ;
+
+3° insuffisant.
+
+§ 5. L'évaluation d'un opérateur peut être :
+
+1° positive ;
+
+2° positive assortie de recommandations;
+
+3° négative.
+
+§ 6. Une évaluation est positive si un résultat insuffisant n'est enregistré pour aucun des critères repris au paragraphe 3.
+
+Une évaluation est positive assortie de recommandations si un résultat insuffisant est enregistré pour au moins un et maximum quatre des critères repris au paragraphe 3.
+
+Une évaluation est négative lorsque un résultat insuffisant est enregistré pour au moins cinq des critères repris au paragraphe 3.
+
+§ 7. Lorsque l'évaluation d'un opérateur est négative, sa licence peut être suspendue ou révoquée conformément aux procédures prévues aux articles 56 à 64.
+
+#### CHAPITRE 3 - Conditions d'exploitation
+
+##### Section 1 re - Généralités
+
+Article 15
+
+§ 1er. L'opérateur respecte, pendant toute la durée de sa licence, les engagements qu'il a pris lors du dépôt de sa candidature conformément à l'article 10.
+
+§ 2. L'opérateur garantit un accès à ses services de mobilité pendant toute la durée de la licence qui lui a été accordée.
+
+##### Section 2 - Prescriptions techniques des véhicules
+
+Article 16
+
+Les véhicules de cyclopartage doivent en tout temps répondre aux conditions suivantes :
+
+1° être identifiables de manière individuelle via une plaque d'identification visible et lisible au premier regard ;
+
+2° ne pas être munis d'une remorque ou d'un side-car ;
+
+3° être munis de garde-boues ;
+
+4° être aisément utilisables pour des personnes mesurant entre 1m50 et 2m10 ;
+
+5° être exempts de toute publicité hormis la mention du nom de l'opérateur lorsque sa dimension n'excède pas 1500 cm2 ;
+
+6° être bridés conformément à l'article 19 ;
+
+7° ne pas être équipés d'un moteur ou d'une assistance qui produit directement et par échappement des émissions polluantes ou qui contient des gaz à effet de serre ou des particules fines ;
+
+8° Etre équipés d'un système rendant impossible le verrouillage des véhicules de cyclopartage là où leur stationnement est interdit de manière permanente ou temporaire assurant un stationnement conforme de minimum 95% de la flotte de l'opérateur.
+
+Article 17
+
+§ 1er Les véhicules de cyclopartage doivent être maintenus en bon état de fonctionnement.
+
+§ 2 Lorsqu'un véhicule de cyclopartage ne correspond plus aux critères fixés à l'article 16 ou lorsqu'il n'est plus en état d'être utilisé de manière normale, il doit être retiré de l'espace public par l'opérateur qui en est responsable dès qu'il s'en aperçoit ou au plus tard dans les douze heures après le signalement défini à l'article 35.
+
+§ 3. A défaut d'avoir été retiré dans le délai visé au paragraphe 2, le véhicule est enlevé conformément à l'article 36 § 2.
+
+##### Section 3 - Couverture géographique
+
+Article 18
+
+§ 1er. A l'exception des opérateurs ayant obtenu une licence pour réaliser un projet pilote, les opérateurs offrent leurs services sur tout le territoire de la Région.
+
+##### Section 4 - Vitesse des véhicules
+
+Article 19
+
+§ 1er. Les engins de déplacement sont bridés afin de ne pas pouvoir dépasser les vitesses suivantes :
+
+1° 20 km/h en principe ;
+
+2° 8 km/h dans les espaces à statut spécifique, les parcs (sauf ceux interdits aux cycles) et dans les zones piétonnes ;
+
+§ 2. L'assistance électrique des vélos et des vélos cargo est limitée aux vitesses suivantes :
+
+1° 25 km/h en principe ;
+
+2° 20 km/h dans les zones résidentielles ou de rencontre et les espaces à statut spécifique ;
+
+3° 8 km/h dans les zones piétonnes et les parcs (sauf ceux interdits aux cycles).
+
+§ 3. Les scooters sont bridés afin de ne pas pouvoir dépasser les vitesses suivantes :
+
+1° 30 km/h en principe ;
+
+2° 45 km/h dans les zones où la vitesse est limitée à 50 km/h
+
+- pour les cyclomoteurs de classe A : 20 km/h
+
+- pour les cyclomoteurs de classe B : 45 km/h
+
+3° 20 km/h dans les zones résidentielles ou de rencontre et dans les espaces à statut spécifique ;
+
+4° interdits dans les zones piétonnes et dans les parcs.
+
+Article 20
+
+§ 1er. Le ministre peut déterminer les espaces dans lesquelles une vitesse adaptée est imposée aux véhicules de cyclopartage moyennant l'avis conforme des gestionnaires de voiries concernées.
+
+§ 2. Le ministre peut déterminer les périodes et la durée pendant lesquelles ces espaces sont d'application.
+
+§ 3.Bruxelles Mobilité communique immédiatement aux opérateurs l'étendue et la durée d'applicabilité de ces espaces.
+
+##### Section 5 - Stationnement des véhicules
+
+###### Sous-section 1 re - Règles générales
+
+Article 21
+
+L'entièreté du territoire de la Région de Bruxelles-Capitale constitue une zone réglementée au sens de l'article 6, § 1er, 3° /1 de l'ordonnance.
+
+Article 22
+
+Un véhicule de cyclopartage ne peut pas rester stationné au même endroit plus de 4 jours consécutifs.
+
+Article 23
+
+§ 1er Les véhicules de cyclopartage doivent respecter les règles suivantes lorsqu'ils sont stationnés :
+
+1° Ne pas être couchés ;
+
+2° être stationnés sur une drop-zone visée à l'article 24.
+
+###### Sous-section 2 - Les drop-zones
+
+Article 24
+
+§ 1er. Le gestionnaire de voirie détermine l'emplacement précis des drop-zones et fait procéder à leur délimitation visuelle.
+
+Il communique immédiatement l'emplacement des drop-zones à Bruxelles Mobilité qui répercute aussitôt l'information aux opérateurs.
+
+§ 2. La taille, le nombre et l'espacement des drop-zones tiennent compte de la demande locale.
+
+###### Sous-section 3 - Les zones d'interdictions temporaires
+
+Article 25
+
+§ 1er Le ministre peut, après consultation des communes, déterminer les zones dans lesquelles il est temporairement interdit de stationner des véhicules de cyclopartage .
+
+§ 2 Bruxelles Mobilité communique immédiatement aux opérateurs l'étendue et la durée d'applicabilité de ces zones.
+
+Article 26
+
+Bruxelles Mobilité met à disposition des gestionnaires de voirie un guide de mise en oeuvre des drop-zones.
+
+###### Sous-section 4 - Zone de concentration
+
+Article 27
+
+§ 1er Le ministre peut, après consultation des communes, déterminer les zones de concentration temporaires et permanentes telles que visées à l'article 6, § 1, 5°, de l'ordonnance.
+
+§ 2 Pour chacune de ces zones, il détermine :
+
+1° le nombre maximum total de véhicules de cyclopartage par zone de concentration ;
+
+2° le nombre maximum de véhicules de cyclopartage par opérateur ;
+
+3° les périodes durant lesquelles les zones de concentration sont d'application.
+
+§ 3. Bruxelles Mobilité communique immédiatement aux opérateurs l'étendue et la durée d'applicabilité de ces zones ainsi que les modalités fixées au paragraphe 2.
+
+##### Section 6 - Rapportage et partage de données
+
+Article 28
+
+Dès qu'il a obtenu sa licence, l'opérateur s'enregistre en tant qu'organisation sur le point d'accès national (National Access Point - NAP) de la Belgique pour les informations sur les Systèmes de Transport Intelligent (ITS).
+
+Article 29
+
+§ 1er. Chaque opérateur communique annuellement les données suivantes à Bruxelles Mobilité :
+
+1° la durée de vie effective des véhicules de cyclopartage proposés ;
+
+2° le délai moyen dans lequel les situations de stationnement gênant ou dangereux sont résolues par l'opérateur ;
+
+3° le nombre de véhicules disparus.
+
+§ 2. Lorsqu'une donnée n'a pas pu être récoltée par un opérateur, il informe Bruxelles Mobilité de la raison de cette impossibilité.
+
+----------
+
+- remplacé par l’art. 4 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+Article 30
+
+§ 1er. L'opérateur fournit à Bruxelles Mobilité, en temps quasi réel et conformément aux modalités déterminées par Bruxelles Mobilité : les données opérationnelles relatives à la localisation et l'état de fonctionnement des véhicules qui sont disponibles à la location.
+
+Les données de géolocalisation des véhicules de cyclopartage disponibles à la location sont transmises dans un format standard international disponible en open data.
+
+§ 2. L'opérateur conserve également les données susvisées dans un format historisé, et les maintient à la disposition de Bruxelles Mobilité selon les mêmes modalités, durant le délai déterminé par Bruxelles Mobilité ne pouvant excéder 3 mois.
+
+§ 3. Les données transmises seront utilisées par Bruxelles Mobilité exclusivement pour l'accomplissement des missions qui lui sont attribuées par la loi et ses arrêtés d'exécution, en ce compris la gestion, la planification et l'optimisation des services de transport et de mobilité sur le territoire, le contrôle du respect des conditions d'exploitation et l'imposition des zones définies par l'ordonnance et le présent arrêté dans le cadre de l'utilisation des véhicules partagés, ainsi que l'élaboration et la diffusion publique d'informations historisées ou en temps réel concernant la disponibilité et l'utilisation des services de transport et de mobilité.
+
+§ 4. Le traitement de données visé au présent article ne vise en aucun cas des données à caractère personnel.
+
+----------
+
+- remplacé par l’art. 5 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+Article 31
+
+Les opérateurs transmettent à leurs utilisateurs les formulaires des enquêtes organisées par Bruxelles Mobilité ou ses partenaires en lien avec le cyclopartage .
+
+Article 32
+
+L'opérateur s'intègre dans l'écosystème des services numériques de mobilité multimodale et respecte toute norme applicable en la matière.
+
+Article 33
+
+Lorsqu'il transmet des données, l'opérateur respecte le protocole de fourniture de données de mobilité et d'octroi de licence d'utilisation établi par Bruxelles Mobilité pour le partage et rapportage des données.
+
+##### Section 7 - Déplacement et enlèvement des véhicules
+
+Article 34
+
+§ 1er. Les opérateurs mettent à disposition du public une application informatique mobile permettant, peu importe l'opérateur qui exploite le véhicule, le signalement :
+
+1° de tous les véhicules de cyclopartage qui ne répondent pas aux conditions d'exploitation reprises au chapitre 3 ;
+
+2° de tous les véhicules de cyclopartage qui sont stationnés de manière gênante ou dangereuse.
+
+Article 35
+
+Le signalement d'un véhicule qui ne répond pas aux conditions d'exploitation ou qui est stationné de manière gênante ou dangereuse est automatiquement transmis à Bruxelles Mobilité.
+
+Ce signalement est communiqué par Bruxelles Mobilité à l'opérateur concerné par voie électronique et contient au moins :
+
+1° une preuve du véhicule en infraction ;
+
+2° l'indication de la date, l'heure et la localisation de la photographie.
+
+Les données qui figurent dans ce signalement peuvent être recueillies au moyen d'une application accessible au public ou des applications mobiles visées à l'article 34.
+
+Article 36
+
+§ 1er. Lorsqu'un opérateur reçoit un signalement l'informant du fait qu'un de ses véhicules de cyclopartage ne répond plus aux normes techniques, n'est plus en bon état de fonctionnement ou n'est pas bridé conformément à l'article 19, ce dernier dispose de douze heures à partir de la notification par Bruxelles Mobilité pour retirer le véhicule concerné de l'espace public et en apporter la preuve à Bruxelles Mobilité.
+
+§ 2. A défaut d'avoir été retiré dans le délai visé au paragraphe premier, l'agent visé à l'article 54 § 1er dresse un procès-verbal et enlève directement le véhicule.
+
+§ 3. Une redevance telle que fixée à l'article 52 § 1er est alors due par l'opérateur.
+
+En outre, la redevance journalière fixée à l'article 52 § 2, est due pour la garde des véhicules par période de 24 heures entamée.
+
+Article 37
+
+§ 1er. Lorsqu'un opérateur reçoit un signalement l'informant du fait qu'un de ses véhicules est stationné d'une manière non conforme à l'article 23, ce dernier dispose d'un délai de 12 heures à partir de la notification par Bruxelles Mobilité pour stationner valablement le véhicule concerné et en apporter la preuve à Bruxelles Mobilité.
+
+§ 2. A l'expiration de ce délai, l'agent visé à l'article 54 § 1er déplace le véhicule.
+
+Une redevance telle que fixée à l'article 51 est alors due par l'opérateur.
+
+§ 3. Si le déplacement du véhicule prévu au § 2 ne permet pas de mettre fin à l'irrégularité ou si le véhicule ne peut pas être stationné valablement dans un rayon de 150 mètres, l'agent peut procéder à l'enlèvement de celui-ci.
+
+Une redevance telle que fixée à l'article 52 § 1er est alors due par l'opérateur.
+
+En outre, la redevance journalière fixée à l'article 52 § 2, est due pour la garde des véhicules par période de 24 heures entamée.
+
+Article 38
+
+§ 1er Lorsqu'il constate un stationnement gênant ou dangereux, l'agent visé à l'article 54 dresse un procès-verbal conformément à l'article 54 et déplace immédiatement le véhicule.
+
+Une redevance telle que fixée à l'article 51 est alors due par l'opérateur.
+
+§ 2. Si le déplacement du véhicule prévu au paragraphe premier est impossible ou que le véhicule ne peut pas être stationné valablement dans un rayon de 150 mètres, l'agent peut procéder à l'enlèvement de celui-ci.
+
+Une redevance telle que fixée à l'article 52 § 1er est alors due par l'opérateur.
+
+En outre, la redevance journalière fixée à l'article 52 § 2, est due pour la garde des véhicules par période de 24 heures entamée.
+
+Article 39
+
+§ 1er .Le fonctionnaire sanctionnateur désigné conformément à l'article 65 peut ordonner l'enlèvement de tout véhicule exploité sans licence de cyclopartage .
+
+§ 2. La redevance fixée à l'article 52 § 1er est alors due.
+
+En outre, la redevance journalière fixée à l'article 52 § 2 est due pour la garde des véhicules par période de 24 heures entamée.
+
+Article 40
+
+Les opérateurs assurent aux agents la faculté de pouvoir déplacer leurs véhicules gratuitement dans un rayon de 600 mètres.
+
+Article 41
+
+Les opérateurs peuvent récupérer les véhicules enlevés conformément aux articles 36 à 39 dans un délai de maximum 30 jours à dater de leur enlèvement.
+
+Article 42
+
+Sauf faute lourde, intentionnelle ou habituelle, l'opérateur supporte le risque inhérent au déplacement ou à l'enlèvement de l'un de ces véhicules.
+
+#### CHAPITRE 4 - Redevances
+
+##### Section 1 re - Dispositions communes aux redevances
+
+Article 43
+
+L'invitation à payer la redevance visée à l'article 48 est adressée par la Région.
+
+L'invitation à payer les redevances visées aux articles 51 et 52 est adressée par la Région ou par la commune en fonction de l'autorité qui a procédé au déplacement ou à l'enlèvement du véhicule et qui supporte, le cas échéant, les frais de garde dudit véhicule.
+
+Elle est envoyée dans les quatre mois suivants la décision de réclamer une redevance.
+
+Une invitation à payer peut porter sur plusieurs redevances.
+
+Article 44
+
+Les redevances prévues par le présent arrêté sont payables dans les 10 jours suivant l'invitation à payer visée à l'article 43.
+
+En cas de retard de paiement, des intérêts légaux sont dus de plein droit à dater de l'expiration du délai visé à l'alinéa 1er.
+
+Article 45
+
+Les redevances prévues par le présent arrêté sont dues même si l'opérateur est en mesure de prouver que le dernier utilisateur du véhicule a stationné celui-ci correctement.
+
+Article 46
+
+§ 1er. L'opérateur peut adresser un recours contre une décision de réclamer une redevance.
+
+§ 2. Le recours est adressé au directeur général de Bruxelles Mobilité si la redevance est réclamée par la Région et au Collège des Bourgmestre et Echevins si la redevance est réclamée par une commune.
+
+§ 3. A peine de déchéance, ce recours est introduit au plus tard dans les 14 jours suivant la notification établissant une redevance.
+
+§ 4. Lorsque le recours est adressé par courrier électronique, Bruxelles Mobilité adresse immédiatement un récépissé.
+
+§ 5. Le directeur général de Bruxelles Mobilité ou son délégué ou le Collège des Bourgmestre et Echevins ou son délégué statue sur le recours dans les 30 jours de sa réception. Ils adressent ensuite à l'opérateur une notification motivée de leur décision.
+
+§ 6. Ce recours n'est pas suspensif.
+
+Article 47
+
+Les montants mentionnés dans le présent arrêté sont indexés annuellement en fonction de l'indice des prix à la consommation, l'indice de référence étant celui du mois de septembre 2022.
+
+Les montants résultant du calcul visé à l'alinéa 1er, sont arrondis au demi euro le plus proche.
+
+##### Section 2 - Redevance relative à l'utilisation du domaine public
+
+Article 48
+
+§ 1er. Chaque opérateur paye à la Région une redevance annuelle pour l'utilisation du domaine public.
+
+Cette redevance est calculée sur base du type et du nombre maximal de véhicules mis en service par l'opérateur au cours de l'année.
+
+Elle s'élève au montant de :
+
+1° 35 euros par vélo ;
+
+2° 50 euros par vélo cargo ;
+
+3° 50 euros par trottinette ;
+
+4° 60 euros par scooter.
+
+§ 2. Par dérogation, les opérateurs ayant obtenu une licence pour réaliser un projet pilote conformément à l'article 5.
+
+Article 49
+
+Le montant de la redevance annuelle est calculé et notifié aux opérateurs par Bruxelles Mobilité au plus tard le 31 janvier de l'année suivante.
+
+Article 50
+
+Le montant de la redevance visée à l'article 48 est réparti entre les gestionnaires de voiries sur base de la superficie des drop zones installées sur leur territoire respectif au 31 décembre de l'année concernée.
+
+Le montant dû aux différentes communes leur est transféré au plus tard le 31 mars de l'année qui suit l'exercice comptable concerné.
+
+##### Section 3 - Redevance relative à l'enlèvement et au déplacement de véhicules
+
+Article 51
+
+Le montant dû au titre de redevance pour le déplacement d'un véhicule de cyclopartage est fixé à 35 euros par engin.
+
+Article 52
+
+§ 1er. Le montant dû au titre de redevance pour l'enlèvement d'un véhicule de cyclopartage est fixé à :
+
+1° 100 euros par vélo ou trottinette ;
+
+2° 200 euros par vélo-cargo ou scooter.
+
+§ 2. Le montant dû au titre de redevance journalière pour la garde d'un véhicule de cyclopartage est fixé à :
+
+1° 20 euros par vélo ou trottinette ;
+
+2° 30 euros par vélo-cargo ou scooter.
+
+Article 53
+
+Le montant des redevances visées aux articles 51 et 52 sont dus à l'autorité qui a procédé au déplacement ou à l'enlèvement du véhicule.
+
+#### CHAPITRE 5 - Infractions et sanctions
+
+##### Section 1 re - Constatation des infractions
+
+Article 54
+
+§ 1er. Les procès-verbaux visés au présent arrêté peuvent être dressés par :
+
+1° les agents du service « Exploitation et Transport » désignés par le directeur général de Bruxelles Mobilité ;
+
+2° les agents communaux désignés pour ces tâches par la commune ;
+
+3° les agents visés à l'article 62 de la loi du 16 mars 1968 relative à la police de la circulation routière.
+
+§ 2. Les procès-verbaux contiennent obligatoirement les mentions suivantes :
+
+1° le nom, le prénom et la fonction de l'agent qui a procédé aux constations ;
+
+2° une description succincte des faits constatés ;
+
+3° la localisation, la date et l'heure du constat ;
+
+4° l'indication des mesures de déplacement ou d'enlèvement prises, et, le cas échéant, des raisons de l'impossibilité de procéder à un déplacement ;
+
+5° le numéro d'identification des véhicules concernés, si ceux-ci sont lisibles ;
+
+6° La signature manuscrite ou électronique du rédacteur du procès-verbal.
+
+§ 3. Une copie simple des procès-verbaux est adressée aux opérateurs concernés dans les 10 jours du constat de l'infraction.
+
+§ 4. Lorsque les faits constatés sont passibles d'une sanction pénale, l'original du procès-verbal ou son équivalent si le procès-verbal a un format numérique est immédiatement transmis au procureur du Roi.
+
+Article 55
+
+Les agents visés au § 1er de l'article 54 sont chargés de la recherche et du constat des infractions au présent arrêté. Ils peuvent également décider du déplacement et de l'enlèvement des véhicules de cyclopartage dans les conditions fixées par le présent arrêté.
+
+Lorsqu'ils recherchent et constatent des infractions à l'ordonnance ou à ses arrêtés d'exécution, ils ont la qualité d'agents de police judiciaire.
+
+##### Section 2 - Suspension et révocation de la licence
+
+###### Sous-section 1 re - Suspension de la licence
+
+Article 56
+
+Lorsqu'elle constate ou lorsqu'il lui est rapporté une infraction à l'ordonnance ou à ses arrêtés d'exécution ou lorsque l'opérateur s'est abstenu de payer tout ou partie des redevances prévues par le présent arrêté, Bruxelles Mobilité en informe immédiatement l'opérateur en le mettant en demeure de régulariser la situation endéans un certain délai fixé à dater de l'envoi de la notification.
+
+Ce délai est fixé par Bruxelles Mobilité en fonction des manquements constatés dans une fourchette d'une semaine à deux mois.
+
+Cette communication est faite par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi.
+
+Cette communication mentionne la possibilité de suspension de la licence.
+
+Article 57
+
+A l'expiration du délai de régularisation prévu à l'article 56, si l'infraction n'a pas été régularisée, l'opérateur est convoqué afin de présenter ses moyens de défense au ministre ou son délégué. Il peut être assisté d'un avocat.
+
+La convocation rappelle la possibilité de suspension de la licence et invite l'opérateur à communiquer au ministre ses moyens de défense préalablement à son audition.
+
+Article 58
+
+Si les explications fournies par l'opérateur ne sont pas suffisantes, le ministre peut décider de suspendre la licence de celui-ci tant que l'infraction n'a pas été régularisée.
+
+Cette suspension est notifiée à l'opérateur par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi.
+
+A partir de la notification de la suspension de sa licence, l'opérateur dispose d'un délai de 24 heures pour cesser d'exploiter ses véhicules de cyclopartage tant que dure la suspension.
+
+Article 59
+
+Lorsque l'opérateur communique au ministre la preuve de la régularisation de l'infraction, ce dernier lève la mesure de suspension et notifie sa décision dans les 15 jours à l'opérateur par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi.
+
+###### Sous-section 2 - Révocation de la licence
+
+Article 60
+
+A l'expiration d'un délai d'un mois suivant la notification de la suspension et si l'infraction constatée n'a pas été régularisée, l'opérateur est à nouveau convoqué afin de présenter ses moyens de défense au ministre ou son délégué. Il peut être assisté d'un avocat.
+
+Cette communication mentionne la possibilité de révocation de la licence et invite l'opérateur à communiquer au ministre ses moyens de défense préalablement à son audition.
+
+Article 61
+
+Si les explications fournies par l'opérateur ne sont pas suffisantes, le ministre peut décider de prolonger la suspension de la licence de celui-ci tant que l'infraction n'a pas été régularisée ou de révoquer la licence.
+
+Cette prolongation de la suspension ou cette révocation est notifiée à l'opérateur par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi.
+
+A partir de la notification de la suspension ou de la révocation de sa licence, l'opérateur dispose d'un délai de 24 heures pour cesser d'exploiter ses véhicules de cyclopartage tant que dure celle-ci ou définitivement lorsque la licence est révoquée.
+
+Article 62
+
+Lorsque la licence d'un opérateur a déjà été suspendue par le passé conformément à l'article 58 et qu'il commet à nouveau une infraction à l'ordonnance ou à ses arrêtés d'exécution ou s'abstient de payer tout ou partie des redevances prévues par le présent arrêté, il est convoqué afin de présenter ses moyens de défense au ministre ou son délégué.
+
+Il peut être assisté d'un avocat.
+
+Cette convocation mentionne la possibilité de prononcer une nouvelle suspension ou la révocation de sa licence.
+
+Article 63
+
+Si les explications fournies par l'opérateur ne sont pas suffisantes, le ministre peut décider de suspendre à nouveau la licence de celui-ci tant que l'infraction n'a pas été régularisée ou de révoquer la licence.
+
+Cette suspension ou cette révocation est notifiée à l'opérateur par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi.
+
+Article 64
+
+§ 1er. Sans préjudice de l'article 58 alinéa 3 et de l'article 61 alinéa 3, l'opérateur dont la licence est suspendue ou révoquée cesse immédiatement d'exploiter ses véhicules de cyclopartage tant que dure la suspension, ou définitivement lorsque la licence est révoquée.
+
+§ 2. Lorsque la licence est suspendue pour une durée supérieure ou égale à deux semaines ou révoquée, l'opérateur dispose d'un délai de sept jours à dater de la notification de la décision pour retirer les véhicules de cyclopartage de l'espace public.
+
+§ 3. A défaut de respecter les §§ 1 et 2, l'opérateur est réputé organiser un service de cyclopartage en flotte libre sans licence au sens de l'article 8 de l'ordonnance.
+
+##### Section 3 - Amendes administratives
+
+Article 65
+
+Le directeur général de Bruxelles Mobilité désigne au sein de son personnel de niveau A au moins un ou plusieurs fonctionnaires sanctionnateurs habilités à infliger des amendes administratives et l'enlèvement des véhicules conformément aux articles 8 et 10 de l'ordonnance.
+
+Article 66
+
+§ 1er. Sans préjudice de l'article 8, § 5, alinéa 1er de l'ordonnance, lorsqu'il envisage d'infliger une amende administrative à un opérateur qui organise un service de cyclopartage sans licence ou à un opérateur qui ne respecte pas les conditions d'exploitation de sa licence, le fonctionnaire sanctionnateur en informe l'opérateur concerné.
+
+§ 2. L'opérateur peut faire valoir ses moyens de défense auprès du fonctionnaire sanctionnateur par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi. Cette défense est envoyée dans les quinze jours suivant la date de la communication visée au paragraphe 1er.
+
+§ 3. Dans le même délai et sous peine de déchéance, l'opérateur peut demander à être entendu, éventuellement assisté d'un avocat, pour présenter ses moyens de défense.
+
+Article 67
+
+Le fonctionnaire sanctionnateur peut à tout moment suspendre la procédure administrative, y compris après avoir entendu la personne poursuivie, si cette dernière s'est engagée à remédier à la situation. Cette suspension est de 3 mois maximum.
+
+Article 68
+
+§ 1er. Dans les 30 jours suivant l'audition de la personne ou suivant l'expiration du délai visé à l'article 64 § 2, le fonctionnaire sanctionnateur peut, selon les circonstances :
+
+1° infliger une amende administrative conformément aux articles 8, § 5, al. 2, et 10 de l'ordonnance, en tenant compte du fait, le cas échéant, qu'il a été mis fin à l'infraction durant la procédure ;
+
+2° suspendre le prononcé de sa décision jusqu'au terme d'un délai qu'il fixe, ce délai devant être mis à profit par le contrevenant pour mettre fin à l'infraction ;
+
+3° décider, si l'infraction n'est pas valablement établie ou au vu de raisons exceptionnelles dûment motivées par le contrevenant, qu'il n'y a pas lieu d'infliger une amende administrative ;
+
+Lorsqu'il inflige une amende administrative conformément au § 1er, 1°, le fonctionnaire sanctionnateur distingue la partie du montant de cette amende qui doit être payée de celle qui ne devra être payée qu'à défaut pour le contrevenant d'avoir mis fin en tout ou en partie à l'infraction.
+
+§ 2. Cette décision est notifiée à l'opérateur par envoi recommandé ou par envoi électronique qui assure de manière équivalente la date exacte de l'envoi.
+
+Article 69
+
+§ 1er. L'opérateur peut adresser un recours contre une décision de réclamer une sanction administrative.
+
+§ 2. A peine de déchéance, ce recours est introduit au plus tard dans les 14 jours suivant la notification établissant une redevance.
+
+§ 3. Lorsque le recours est adressé par courrier électronique, Bruxelles Mobilité adresse immédiatement un récépissé.
+
+§ 4. Le recours est adressé au directeur général de Bruxelles Mobilité si la redevance est réclamée par la Région et au secrétaire communal si la redevance est réclamée par une commune.
+
+§ 5. Le directeur général de Bruxelles Mobilité ou son délégué ou le secrétaire communal ou son délégué statuent sur cette demande dans les 30 jours. Ils adressent ensuite à l'opérateur une notification motivée de leur décision.
+
+§ 6. Ce recours n'est pas suspensif.
+
+Article 70
+
+L'invitation à payer l'amende est adressée par Bruxelles Mobilité lorsqu'elle est réclamée par la Région et par le receveur communal lorsqu'elle est réclamée par une commune. Elle est envoyée dans les quatre mois suivants la décision de sanctionner.
+
+Une invitation à payer peut porter sur plusieurs amendes administratives.
+
+#### CHAPITRE 6 - Disposition transitoire
+
+Article 71
+
+(…)
+
+----------
+
+- abrogé par l’art. 6 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+Article 72
+
+Les infractions constatées et les procédures d'amende entamées en application de l'arrêté du Gouvernement de la Région de Bruxelles-Capitales du 17 janvier 2019 portant exécution de l'ordonnance du 29 novembre 2018 relative au partage de modes de transports en flotte libre constituant une alternative à la voiture restent d'application.
+
+----------
+
+- remplacé par l’art. 7 de l’arrêté du 16.01.2025 (M.B. 22.01.2025). Entrée en vigueur le 23.01.2025
+
+#### CHAPITRE 7 - Dispositions finales
+
+Article 73
+
+L'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 17 janvier 2019 portant exécution de l'ordonnance du 29 novembre 2018 relative au partage de modes transports en flotte libre constituant une alternative à la voiture est abrogé à dater du 31 décembre 2023, à l'exception des articles 2 à 5 et 6 qui seront abrogés à l'entrée en vigueur du présent arrêté.
+
+Article 74
+
+Le présent arrêté entre en vigueur le 1er janvier 2024 à l'exception :
+
+1° des articles 5 à 13 qui entrent en vigueur le dixième jour qui suit la publication au Moniteur belge du présent arrêté :
+
+2° des articles 16, 6° et 20 qui entreront en vigueur à une date fixée par le ministre.
+
+Article 75
+
+Le ministre qui a la Mobilité dans ses attributions est chargé de l'exécution du présent arrêté.
+
+Bruxelles, le 13 juillet 2023.
+
+Pour le Gouvernement de la Région de Bruxelles-Capitale :
+
+Le Ministre-Président du Gouvernement de la Région de Bruxelles-Capitale,
+
+R. VERVOORT
+
+La Ministre du Gouvernement de la Région de Bruxelles-Capitale, chargée de la Mobilité, des Travaux publics et de la Sécurité routière,
+
+E. VAN DEN BRANDT
+
+#### Annexe 1
+
+La vitesse des véhicules de cyclopartage est bridée comme suit, en fonction du type du véhicule et de l'endroit où se trouve le véhicule :
+
+|  | Vélos | Trottinettes | Scooter |
+| --- | --- | --- | --- |
+| Zone piétonne et parcs (sauf ceux qui sont interdits aux cycles). | 8 km/h | 8 km/h | 0 km/h |
+| Espace à statut spécifique | 20 km/h | 8 km/h | 20 km/h |
+| Zone résidentielle ou de rencontre | 20 km/h | 20 km/h | 20 km/h |
+| Zone où un signal C43 limite la vitesse à 50 Km/h | 25 km/h | 20 km/h | 25 km/h pour cyclomoteur de classe A |
+| 45 km/h pour cyclomoteur de classe B |  |  |  |

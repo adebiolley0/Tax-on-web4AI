@@ -1,0 +1,57 @@
+---
+guid: "4f7eb8bf-6c71-4b08-8460-43c2ec29bea8"
+title: "Numéro E 83/13-02"
+document_type: "Commentaires (dont Rép. RJ)"
+language: "fr"
+document_date: "2003-01-08"
+publication_date: "2003-10-01"
+effective_date: null
+last_modified: "2021-11-26"
+taxonomies: ["Droits d'enregistrement"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Directives et commentaires administratifs", "Répertoire RJ (décisions administratives et judiciaires)", "Droits d'enregistrement"]
+linked_document_nl: "df19b25d-a655-492d-86b2-5c00b0ec91b6"
+found_via: "422eba04-8381-48ed-bcb6-cd5aa254c525"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/4f7eb8bf-6c71-4b08-8460-43c2ec29bea8"
+---
+
+# Numéro E 83/13-02
+
+Numéro E 83/13-02
+
+Répertoire RJ – Droits d’enregistrement, d’hypothèque et de greffe
+
+Numéro E 83/13-02
+
+13. – Cessation anticipée d'un droit de superficie.
+
+02. - Faits .
+
+Le 3 décembre 1991, la S.A. A consent à la S.A. B un droit de superficie sur 3 terrains à bâtir pour une période de 27 ans moyennant une indemnité annuelle indexée. Il est convenu dans l'acte qu'à l'expiration du droit de superficie, le tréfoncier acquière la propriété des constructions érigées ; le passage « les parties conviennent de n'exiger aucune indemnité à la fin de ce contrat » a été biffé.
+
+Un jugement du 18 décembre 1997 prononce la faillite de la société B.
+
+Par acte notarié du 24 mars 1999, les curateurs vendent le droit de superficie à la S.A. A, par application de l' article 1193 ter C. jud . , sous la description « maison de commerce ».
+
+L'Administration perçoit, sur la transmission à titre onéreux du droit de superficie lui-même, le droit proportionnel sur base des articles 83 et 84 C. enr . et, sur la transmission du bâtiment érigé entre-temps sur le terrain, le droit proportionnel conformément à l' article 44 C. enr .
+
+Au fond.
+
+La S.A. A prétend que l'enregistrement aurait dû se faire au droit fixe général et demande la restitution de la différence entre le total des perceptions effectuées et le droit fixe général.
+
+Les deux parties ne contestent pas que l'objet de la perception doit porter sur l'opération effective. De la requête des curateurs au tribunal de commerce visant à obtenir l'autorisation de vendre de gré à gré conformément à l' article 1193 ter C. jud . , il ressort qu'ils avaient reçu de la S.A. A une offre sur le droit de superficie grevant l'immeuble.
+
+Puisque, contractuellement, le droit de superficie devait normalement s'éteindre en 2018, il ressort de ce qui précède que la S.A. A a offert et payé aux curateurs une somme pour obtenir immédiatement le droit de propriété du bâtiment érigé entre-temps sur le terrain.
+
+Le cours du contrat conclu dans l'acte de 1991 ayant été rompu dans l'acte de 1999, la convention de 1999 ne peut s'analyser que comme une transmission du bâtiment indépendante, à titre onéreux, laquelle transmission est imposable par application de l' article 44 C. enr .
+
+La circonstance que la demande des curateurs tendant à obtenir l'autorisation de vendre de gré à gré visait à respecter l' article 1193 ter C. jud . , par dérogation à l' article 1190 C. jud . en matière de vente publique, ne change rien à la circonstance que, dans l'acte ainsi rendu possible et passé en 1999, les parties contractantes ont librement eu en vue et effectivement conclu une vente.
+
+La circonstance que la S.A. A ne voyait dans cet achat du droit de superficie qu'un mode de cessation anticipée n'empêche pas que pour les deux parties contractantes, il s'agissait d'une réelle transmission à titre onéreux, si bien que l'Administration a à bon droit analysé et imposé cette opération comme telle.
+
+En tant que mandataires judiciaires de la S.A. B, les curateurs ont à l'époque cherché et obtenu l'indemnisation de la perte de la valeur effective du bâtiment qu'ils avaient constaté appartenir au patrimoine du failli en vertu d'un droit réel temporaire.
+
+(Jugement du tribunal de première instance de Hasselt du 08.01.2003 - EE/97.315)
+
+----------
+
+Date de publication : OCTOBRE 2003

@@ -1,0 +1,164 @@
+---
+guid: "95b7f6f5-7a80-4ab2-b09e-11f0c5fbaa09"
+title: "Voorafgaande beslissing nr. 2018.0831 d.d. 25.09. 2018"
+document_type: "Décisions anticipées (L 24.12.2002)"
+language: "nl"
+document_date: "2018-09-25"
+publication_date: null
+effective_date: null
+last_modified: "2023-01-13"
+taxonomies: ["Rulings"]
+path: ["FISCALITÉ", "Droits de succession", "Rulings"]
+linked_document_nl: null
+found_via: "0741539b-6b9b-44c4-9ba3-0cac43783e89"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/95b7f6f5-7a80-4ab2-b09e-11f0c5fbaa09"
+---
+
+# Voorafgaande beslissing nr. 2018.0831 d.d. 25.09. 2018
+
+Voorafgaande beslissing nr. 2018.0831 d.d. 25.09. 2018
+
+SUCCESSIERECHTEN
+
+Artikel 8 W.Succ.
+
+Levensverzekering
+
+Samenvatting
+
+Echtgenoten hebben twee levensverzekeringen “op de langstlevende” afgesloten met de volgende samenstelling:
+
+| Verzekeringsnemers | De heer en mevrouw |
+| --- | --- |
+| Verzekerde hoofden | De heer en mevrouw |
+| Bijzondere modaliteiten | Bij overlijden van een van de verzekeringsnemers zullen de rechten worden uitgeoefend door de overlevende verzekeringsnemer(s), behoudens tegenstrijdig beding over de regeling van de overdracht van de rechten van de verzekeringsnemers. |
+| Begunstigden bij leven | De heer en mevrouw |
+| Begunstigden bij overlijden | Mijn echtgeno(o)t(e), bij ontstentenis mijn kinderen voor gelijke delen onder hen en bij ontstentenis, mijn nalatenschap. […] |
+
+FISCALE BEHANDELING :
+
+Artikel 8 W.Succ. is niet van toepassing op de overdracht van het geheel van de rechten en plichten voortvloeiend uit de levensverzekeringscontracten aan de tweede verzekerde.
+
+Artikel 8 W.Succ. zal van toepassing zijn bij het overlijden van de tweede verzekerde voor het volledige kapitaal overlijden.
+
+Deze beslissing is gebaseerd op de gegevens zoals ze beschreven zijn door de aanvrager.
+
+Zij geldt niet voor de wijzigingen van de contracten die zijn aangebracht na het afsluiten ervan.
+
+Elke wijziging aan de oorspronkelijke contracten - door aanhangsel of op een andere manier - vereist dus een aanpassing van deze beslissing. Zij zal de vorm aannemen van een aanhangsel dat is opgemaakt door DVB.
+
+De beslissing wordt enkel gepubliceerd in de taal waarin de aanvraag werd ingediend
+
+I. Objet de la demande
+
+1. Votre demande vise à obtenir la confirmation que dans le cadre d’un contrat d’assurance-vie comprenant une clause de continuité, souscrit conjointement par des époux communs en biens, au jour du décès du conjoint prémourant, la transformation des droits indivis en droits exclusifs ne constitue pas un transfert de valeur au sens de l’article 8 du Code des droits de succession et que, par conséquent, aucun droit de succession n’est dû au décès du premier conjoint.
+
+II. Description des faits
+
+II.1. Identité des demandeurs
+
+2. Monsieur D., né à … le …, et son épouse, Madame G., née le …, domiciliés ensemble en Région wallonne.
+
+3. Monsieur D. et Madame G. ont eu ensemble un enfant, à savoir : Monsieur A., né à … le …, domicilié en Région wallonne.
+
+II.2. Opération projetée
+
+4. Les demandeurs sont mariés sous le régime de la communauté réduite aux acquêts, sans contrat de mariage.
+
+5. Ils sont domiciliés en Région wallonne depuis plus de 5 ans.
+
+6. Les demandeurs ont conclu deux assurances-vie de type « dernier mourant » au moyen de leurs avoirs communs.
+
+Contrat « … » conclu le …
+
+7. Ce contrat a été souscrit auprès de la compagnie « … ». Il est établi sur la base des éléments suivants :
+
+• PRENEURS D’ASSURANCE : Monsieur et Madame D.- G.
+
+• ASSURES : Monsieur et Madame D.- G.
+
+• BENEFICIAIRES EN CAS DE VIE : Monsieur et Madame D.- G.
+
+• BENEFICIAIRES EN CAS DE DECES : « L’assuré survivant, à défaut les enfants des assurés, par parts égales, la part d’un prédécédé revenant à ses descendants par parts égales. […] »
+
+• CLAUSES SPECIALES D’APPLICATION – CLAUSE DE CONTINUATION : « Au moment du décès de l’un des preneurs d’assurance/assurés, il n’est pas mis fin au contrat. Le preneur d’assurance survivant acquiert la totalité du contrat et l’ensemble des droits et obligations de celui-ci. […] »
+
+Contrat « … » conclu le …
+
+8. Ce contrat a été souscrit auprès de la compagnie « … ». Il est établi sur la base des éléments suivants :
+
+• PRENEURS D’ASSURANCE : Monsieur et Madame D.- G.
+
+• ASSURES : Monsieur et Madame D.– G.
+
+• MODALITE PARTICULIERE : « En cas de décès d’un des Preneurs d’assurances, les droits seront exercés par le(s) Preneur(s) d’assurance survivant(s), sauf stipulation contraire réglant déjà le transfert des droits des Preneurs d’assurance. »
+
+• BENEFICIAIRES EN CAS DE VIE : Monsieur et Madame D.- G.
+
+• BENEFICIAIRES EN CAS DE DECES : « Mon épou(x)se, à défaut mes enfants par parts égales entre eux et à défaut, ma succession. […] ».
+
+III. Décision
+
+Il ressort de l’examen approfondi auquel s’est livré le SDA que :
+
+9. Il importe de ne pas s’arrêter à l’apparence selon laquelle lesdits contrats d’assurance-vie renfermeraient deux assurés mais au contraire d’admettre qu’il existe - en l’espèce - un seul assuré (dont l’identité est inconnue à la souscription du contrat) : le survivant. C’est le décès de ce dernier qui mettra la compagnie d’assurance devant l’obligation de délivrer la prestation assurée.
+
+10. Au niveau de l’application éventuelle de l’article 8 C. succ., la question essentielle est de savoir si les droits et les obligations transférés au survivant sont bien des « valeurs » au sens de cet article.
+
+11. L’article 8 C. succ. instaure une fiction et doit être interprété restrictivement.
+
+12. L’article 8 C. succ. ne renferme aucune définition de la notion de « valeur ». On admet en principe que cette notion renferme les titres d’actions ou parts représentatives ou les titres d’obligations. La transmission des droits et obligations d’un contrat d’assurance-vie (autrement dit le transfert de la titularité du contrat d’assurance-vie) ne correspond nullement au concept de « valeur ».
+
+13. Au décès du prémourant, le survivant reçoit certains droits mais ceux-ci ne correspondent pas à des « valeurs » au sens de l’article 8 C. succ.
+
+14. En conclusion, l’application de l’article 8 C. succ. doit être écartée en ce qui concerne le transfert de l’ensemble des droits et obligations découlant des contrats d’assurance-vie à la deuxième tête assurée.
+
+15. L’article 8 C. succ. ne sera d’application que lors du décès de la seconde tête assurée et pour la totalité du capital décès.
+
+16. La présente décision est basée sur les éléments décrits par les demandeurs.
+
+17. Elle ne vaut pas pour les modifications des contrats intervenues après la souscription.
+
+18. Elle sera donc sans effet si les contrats initiaux font l’objet de la moindre modification de quelque façon que ce soit (que celle-ci ait lieu sous forme d’avenant ou autrement).
+
+19. Toute modification aux contrats initiaux - qu’elle ait lieu par avenant ou autrement – exige dès lors une adaptation de la présente décision. Celle-ci prendra la forme d’un avenant établi par le SDA.
+
+20. Le SDA considère qu’il ne peut être exclu que l’article 106, alinéa 2 , C. succ. s’applique aux opérations projetées si le cessionnaire des droits du contrat :
+
+20.1. se désigne lui-même bénéficiaire des prestations d’assurance ;
+
+20.2. procède à un rachat total ou partiel du contrat ;
+
+20.3. réclame à l’assureur une avance totale ou partielle du contrat ;
+
+20.4. procède à la mise en gage des droits transmis ;
+
+20.5. cède les droits transmis ;
+
+20.6. ou pose tout autre acte ayant pour effet que le contrat et/ou ses effets trouvant ses origines dans les primes versées par le prémourant ne soient pas maintenus jusqu’à leur terme, à savoir le versement des prestations du contrat d’assurance correspondant à l’ensemble des primes versées par le prémourant, au décès de la seconde tête assurée.
+
+Le Collège du SDA décide que :
+
+21. L’article 8 C. succ. n’est pas d’application pour ce qui concerne le transfert de l’ensemble des droits et obligations découlant des contrats d’assurance-vie à la deuxième tête assurée.
+
+22. L’article 8 C. succ. sera d’application lors du décès de la seconde tête assurée, pour la totalité du capital décès.
+
+23. La présente décision est basée sur les éléments tels que décrits par le demandeur.
+
+24. Elle ne vaut pas pour les modifications des contrats intervenues après la souscription.
+
+25. Toute modification aux contrats initiaux - qu’elle ait lieu par avenant ou autrement – exige dès lors une adaptation de la présente décision. Celle-ci prendra la forme d’un avenant établi par le SDA.
+
+26. Il ne peut être exclu que l’article 106, alinéa 2 , C. succ. s’applique aux opérations projetées si le cessionnaire des droits du contrat :
+
+26.1. se désigne lui-même bénéficiaire des prestations d’assurance ;
+
+26.2. procède à un rachat total ou partiel du contrat ;
+
+26.3. réclame à l’assureur une avance totale ou partielle du contrat ;
+
+26.4. procède à la mise en gage des droits transmis ;
+
+26.5. cède les droits transmis ;
+
+26.6. ou pose tout autre acte ayant pour effet que le contrat et/ou ses effets trouvant ses origines dans les primes versées par le prémourant ne soient pas maintenus jusqu’à leur terme, à savoir le versement des prestations du contrat d’assurance correspondant à l’ensemble des primes versées par le prémourant, au décès de la seconde tête assurée.

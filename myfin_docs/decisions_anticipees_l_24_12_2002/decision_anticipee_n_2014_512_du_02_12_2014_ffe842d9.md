@@ -1,0 +1,79 @@
+---
+guid: "ffe842d9-bf5a-4531-98ee-568773ec0002"
+title: "Décision anticipée n° 2014.512 du 02.12.2014"
+document_type: "Décisions anticipées (L 24.12.2002)"
+language: "fr"
+document_date: "2014-11-18"
+publication_date: null
+effective_date: null
+last_modified: "2023-04-03"
+taxonomies: ["Rulings", "Rulings"]
+path: ["FISCALITÉ", "Droits d'enregistrement, d'hypothèque et de greffe", "Rulings"]
+linked_document_nl: "2edae03c-36b1-484e-a6ee-55c3b538db92"
+found_via: "4a4a2653-a974-49ee-9580-18650a834ac3"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/ffe842d9-bf5a-4531-98ee-568773ec0002"
+---
+
+# Décision anticipée n° 2014.512 du 02.12.2014
+
+Tva
+
+Livraison d’un bien
+
+Location vente
+
+Travail immobilier
+
+Droits d’enregistrement
+
+Résumé
+
+La constitution d'un droit d'emphytéose sur un terrain sur lequel se trouvent déjà des bâtiments, ne donne pas lieu à la perception du droit de vente de 10 % (art. 44 Code enr. Région flamande), mais bien à la perception du droit sur les contrats de location de 2 % (article 83, alinéa premier, 3°, Code enr. Région flamande). Lorsque les travaux ne donnent pas lieu à la création d'un nouveau bâtiment, il n'est pas question d'une translation de propriété qui devrait être soumise aux droits d'enregistrement.
+
+Lorsque les travaux donnent lieu à la création d'un nouveau bâtiment, cela fera l'objet de la location-vente; lorsque les travaux ne donnent pas lieu à des nouvelles constructions, cela devra être qualifié de prestation de services. S'il est question tant d'une fourniture d'un bien que d'une prestation de services, le régime du report de perception ne sera pas appliqué.
+
+La décision est publiée uniquement dans la langue dans laquelle la demande a été introduite
+
+I. Voorwerp van de aanvraag
+
+1 . Deze aanvraag strekt ertoe een voorafgaande beslissing te verkrijgen waarin wordt bevestigd dat:
+
+1.1 . de vestiging van een recht van erfpacht op een grond waarop zich reeds gebouwen bevinden, in casu geen aanleiding geeft tot de heffing van het verkooprecht van 10 %.
+
+1.2 . het voorwerp van de huurkoop/levering (bij (voorlopige) oplevering) enkel bestaat uit de werken die DBFM NV zelf zal (laten) verrichten, met uitzondering van de eerder bestaande gebouwen. De oplevering van de werken door DBFM NV wordt btw-technisch dan ook gekwalificeerd als de levering van een nieuw gebouw, onderworpen aan btw;
+
+1.3 . de werken die DBFM NV uitvoert (of laat uitvoeren) en die niet leiden tot de creatie van een afzonderlijk nieuw gebouw, maar die worden ingelijfd in de bestaande constructies, rechtstreeks kunnen gefactureerd worden aan de Inrichtende macht, met toepassing van de btw (zonder toepassing van de verlegging van heffing). Het betreft dan een loutere dienstverlening in de zin van artikel 18, § 1, W.BTW.
+
+1.4 . voor zover de Inrichtende macht zou kwalificeren als een belastingplichtige die periodieke btw-aangiften dient in te dienen overeenkomstig artikel 20 K.B. nr. 1, wordt niettemin aanvaard dat DBFM NV alle werken (D&B-component) integraal met toepassing van btw factureert en de door voornoemde bepaling voorziene verlegging van heffing achterwege laat met verwijzing op de factuur naar de referentie van de ingevolge huidige aanvraag te verkrijgen beslissing.
+
+II. Beslissing
+
+II. A. INZAKE REGISTRATIERECHTEN
+
+2. Artikel 83, eerste lid, 3° W. reg. Vlaams Gewest stelt dat er een registratierecht (op huurcontracten) van 2 pct. wordt geheven voor contracten tot vestiging van een erfpacht- of opstalrecht en tot overdracht daarvan, behalve wanneer daardoor een vereniging zonder winstoogmerk, een internationale vereniging zonder winstoogmerk of een gelijkaardige rechtspersoon die opgericht is volgens en onderworpen is aan de wetgeving van een lidstaat van de Europese Economische Ruimte en die bovendien zijn statutaire zetel, zijn hoofdbestuur of zijn hoofdvestiging binnen de Europese Economische Ruimte heeft, titularis van het erfpacht- of opstalrecht wordt, in welk geval het recht wordt vastgesteld op 0,50 pct.
+
+3. Aanvrager stelt dat DBFM NV in elke DBFM-overeenkomst een zakelijk recht (recht van erfpacht of opstal) verkrijgt – in deze een recht van opstal - vanwege de inrichtende macht. Na verkrijging van het zakelijk recht, voert DBFM NV de renovatie- en verbouwingswerken uit en na verloop van de 30-jarige beschikbaarheidsfase dooft het zakelijk recht uit ten voordele van de inrichtende macht, waarbij de eigendom van de opstallen automatisch en kosteloos overgaat naar de inrichtende macht.
+
+4 . De vestiging van een recht van erfpacht op een onroerend goed waarop zich reeds gebouwen bevinden die door de erfpachtgever werden opgericht of verkregen, en waarvan de erfpachter de waarde niet heeft vergoed aan de erfpachtgever, geen aanleiding geeft tot de heffing van het verkooprecht is correct. Er wordt immers algemeen aanvaard dat de erfpachter geen eigenaar wordt van deze reeds bestaande gebouwen maar dat de erfpachter slechts een recht van genot verkrijgt, welk recht van genot gepaard gaat met de verplichting tot onderhoud en reparatie. Bijgevolg kan er aangaande de overeenkomst tot vestiging van het erfpachtrecht op reeds bestaande infrastructuren vanwege de Inrichtende macht geen sprake zijn van een eigendomsoverdracht aan DBFM NV, zodat het verkooprecht van 10 % niet verschuldigd is.
+
+5. Het tarief van 2 % zal krachtens artikel 83 W. Reg. (registratierecht op huurcontracten) bij de registratie van de akte tot vestiging van het zakelijk recht van erfpacht door de betrokken Inrichtende macht ten behoeve van DBFM NV op een perceel waarop zich reeds bepaalde gebouwen bevinden (die DBFM NV in het kader van een individuele DBFM-overeenkomst zal vernieuwen) worden toegepast, tevens indien DBFM NV welbepaalde bestaande (delen van) gebouwen dient af te breken.
+
+6. Betreffende het werk in onroerende staat dat geen aanleiding geeft tot de creatie van een nieuw gebouw, kan geen toepassing gemaakt worden van de vrijstelling opgenomen in artikel 159, 8° W. reg, aangezien dit artikel enkel betrekking heeft op vervreemdingen onder bezwarende titel en niet op de levering van diensten, doch vermits het werk in onroerende staat niet eerst eigendom wordt van DBFM NV, maar onmiddellijk natrekt ten gunste van de Inrichtende macht die eigenaar blijft van de opstallen, kan er geen sprake zijn van een eigendomsoverdracht die aan de registratierechten zou moeten worden onderworpen.
+
+7 . Wanneer de werken die DBFM NV uitvoert daarentegen wel aanleiding geven tot de creatie van een nieuw gebouw, zal dit nieuwe gebouw btw-technisch gekwalificeerd dienen te worden als een levering van een nieuw gebouw.
+
+II. B. INZAKE BELASTING OVER DE TOEGEVOEGDE WAARDE
+
+8. Voorafgaand aan de werken verkrijgt A een zakelijk recht op de grond van B. Het betreft een grond waarop zich reeds constructies bevinden en waaraan A renovatiewerken zal dienen uit te voeren. A zal bij de verkrijging van het zakelijk recht geen eigenaar worden van de bestaande infrastructuur en constructies.
+
+9 . De werken die A zal uitvoeren kunnen enerzijds aanleiding geven tot nieuwe constructies die een onafhankelijke structuur hebben. Daarnaast zal A ook werken uitvoeren die worden ingelijfd in de bestaande constructies en dus niet leiden tot de creatie van een afzonderlijk gebouw.
+
+10 . De btw-kwalificatie van deze renovatiewerken dient hierbij te worden bepaald.
+
+11 . Wanneer de werken die A uitvoert, aanleiding geven tot de creatie van een nieuw gebouw, zal dit nieuwe gebouw het voorwerp uitmaken van de huurkoop en dus btw-technisch gekwalificeerd dienen te worden als een levering van een nieuw gebouw overeenkomstig artikel 10 btw-wetboek.
+
+12 . Daarentegen zal er geen sprake zijn van een huurkoop wanneer de werken geen aanleiding geven tot nieuwe constructies. In die situatie zullen deze werken voor btw-doeleinden gekwalificeerd dienen te worden als het verrichten van diensten overeenkomstig artikel 18 btw-wetboek.
+
+13. Het project heeft derhalve betrekking op verschillende handelingen waarbij de btw over de huurkoop rechtstreeks zal dienen voldaan te worden door A terwijl de verleggingsregeling van artikel 20 KB nr.1 van toepassing kan zijn op de dienstverrichtingen.
+
+14. Uit praktische overwegingen kan evenwel aanvaard worden dat de factuur van A niet moet worden uitgesplitst wanneer er zowel sprake is van een levering van een goed als van het verrichten van diensten. In dergelijke situatie zal A de btw rechtstreeks voldoen en het regime van verlegging van heffing niet toepassen.

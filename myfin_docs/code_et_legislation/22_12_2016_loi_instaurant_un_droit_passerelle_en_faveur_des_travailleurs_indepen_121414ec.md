@@ -1,0 +1,309 @@
+---
+guid: "121414ec-2436-44e9-b50b-282c28cbc7f5"
+title: "22.12.2016 - Loi instaurant un droit passerelle en faveur des travailleurs indépendants"
+document_type: "Code et législation"
+language: "fr"
+document_date: "2016-12-22"
+publication_date: "2017-01-06"
+effective_date: null
+last_modified: "2023-09-26"
+taxonomies: ["Dispositions autonomes"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Autre législation", "Dispositions autonomes"]
+linked_document_nl: "15545e91-81b9-4140-9240-8ec8accf3e65"
+found_via: "92f58d9e-6de9-4f59-9f0b-34ad6b892bee"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/121414ec-2436-44e9-b50b-282c28cbc7f5"
+---
+
+# 22.12.2016 - Loi instaurant un droit passerelle en faveur des travailleurs indépendants
+
+22.12.2016 - Loi instaurant un droit passerelle en faveur des travailleurs indépendants
+
+M . B ., 06.01.2017, p. 446
+
+Numac : 2016022509
+
+[Abrogé par l'art. 209, 1°, LP 26.12.2022 (M.B. 30.12.2022); Entrée en vigueur: 01.01.2023
+
+Les dispositions, visées à l'article 209, continuent à s'appliquer à tous les faits, visés à l'article 5, § 2, de la loi du 22 décembre 2016 instaurant un droit passerelle en faveur des travailleurs indépendants, qui ont eu lieu avant la date de l'entrée en vigueur du présent chapitre.]
+
+PHILIPPE, Roi des Belges,
+
+A tous, présents et à venir, Salut.
+
+La Chambre des représentants a adopté et Nous sanctionnons ce qui suit :
+
+CHAPITRE 1er. - Dispositions introductives
+
+Article 1er . La présente loi règle une matière visée à l'article 74 de la Constitution.
+
+Art. 2. Pour l'application de la présente loi, il y a lieu d'entendre par :
+
+1° "l'arrêté royal n° 38" : l'arrêté royal n° 38 du 27 juillet 1967 organisant le statut social des travailleurs indépendants;
+
+2° "le travailleur indépendant" : le travailleur indépendant visé à l'article 3 de l'arrêté royal n° 38;
+
+3° "l'aidant" : l'aidant visé à l'article 6 de l'arrêté royal n° 38, qui n'est pas conjoint aidant;
+
+4° "le conjoint aidant" : le conjoint aidant visé à l'article 7bis de l'arrêté royal n° 38;
+
+5° "le demandeur" : le travailleur indépendant, l'aidant ou le conjoint aidant qui introduit une demande en vue d'obtenir le droit passerelle visé dans la présente loi;
+
+6° "le bénéficiaire" : le travailleur indépendant, l'aidant ou le conjoint aidant qui bénéficie du droit passerelle visé dans la présente loi;
+
+7° "la caisse d'assurances sociales" : la caisse d'assurances sociales pour travailleurs indépendants visée à l'article 20, § § 1er et 3, de l'arrêté royal n° 38;
+
+8° "l'Institut national" : l'Institut national d'assurances sociales pour travailleurs indépendants visé à l'article 21 de l'arrêté royal n° 38;
+
+9° "la prestation financière" : la prestation octroyée en vertu de la présente loi;
+
+10° "les droits sociaux" : les droits octroyés en vertu de la présente loi.
+
+Art. 3. La présente loi instaure un droit passerelle qui consiste en :
+
+1° une prestation financière et
+
+2° le maintien des droits sociaux en matière d'assurance obligatoire soins de santé et indemnités.
+
+CHAPITRE 2. - Le champ d'application
+
+Art. 4 . La présente loi est applicable :
+
+1° aux travailleurs indépendants faillis, et aux gérants, administrateurs et associés actifs d'une société commerciale déclarée en faillite;
+
+2° aux travailleurs indépendants, aidants et conjoints aidants qui ont obtenu du juge l'homologation d'un plan de règlement amiable dans le cadre d'un règlement collectif de dettes, à qui un plan de règlement judiciaire a été imposé ou qui ont obtenu une adaptation ou révision du règlement, au sens de la loi du 5 juillet 1998 relative au règlement collectif de dettes et à la possibilité de vent de gré à gré des biens immeubles saisis, dans une période de trois ans précédant le premier jour du trimestre suivant le trimestre au cours duquel l'activité indépendante a été cessée;
+
+3° aux travailleurs indépendants, aidants et conjoints aidants qui, pour des raisons indépendantes de leur volonté, sont forcés d'interrompre toute activité indépendante;
+
+4° aux travailleurs indépendants, aidants et conjoints aidants qui se trouvent en difficultés économiques et qui cessent officiellement toute activité indépendante.
+
+CHAPITRE 3. - Les conditions
+
+Art. 5 . § 1er. Pour bénéficier du droit passerelle visé à l'article 3, les travailleurs indépendants, aidants et conjoints aidants visés à l'article 4 doivent remplir les conditions cumulatives suivantes :
+
+1° prouver leur assujettissement dans le cadre de l'arrêté royal n° 38 pendant les quatre trimestres précédant immédiatement le premier jour du trimestre qui suit le trimestre au cours duquel le fait se produit;
+
+2° pour la période visée au 1°, être redevable des cotisations visées aux articles 12, § 1er, 12, § 1ter ou 13bis, § 2, 1° ou 2°, de l'arrêté royal n° 38;
+
+3° avoir effectivement payé des cotisations visées au 2° pour au moins quatre trimestres, pendant la période de seize trimestres qui précède le premier jour du trimestre suivant le trimestre au cours duquel le fait se produit;
+
+4° ne pas exercer d'activité professionnelle à partir du premier jour qui suit le jour où le fait se produit;
+
+5° ne pas pouvoir faire valoir de droits à un revenu de remplacement à partir du premier jour qui suit le jour où le fait se produit;
+
+6° avoir en Belgique leur résidence principale, au sens de l'article 3, alinéa 1er, 5°, de la loi du 8 août 1983 organisant un Registre national des personnes physiques.
+
+§ 2. Par "fait", visé au paragraphe 1er, on entend :
+
+1° le jugement déclaratif de faillite dans les cas visés à l'article 4, 1° ;
+
+2° la cessation de l'activité indépendante dans les cas visés à l'article 4, 2° et 4° ;
+
+3° le début de l'interruption de l'activité indépendante dans les cas visés à l'article 4, 3°.
+
+Art. 6 . Les travailleurs indépendants, aidants et conjoints aidants ne peuvent bénéficier du droit passerelle qu'à condition qu'ils :
+
+1° ne soient pas condamnés sur base des articles 489, 489bis et 489ter du Code pénal dans les cas visés à l'article 4, 1° ;
+
+2° n'aient pas manifestement organisé leur insolvabilité, au sens de la loi précitée du 5 juillet 1998, dans les cas visés à l'article 4, 2° ;
+
+3° n'aient pas obtenu le droit passerelle suite à des manoeuvres frauduleuses ou à des déclarations fausses ou sciemment incomplètes dans les cas visés à l'article 4, 3° et 4°.
+
+CHAPITRE 4. - La période d'octroi
+
+Art. 7 . § 1er. La période d'octroi de la prestation financière débute au premier jour du mois qui suit le mois au cours duquel le fait visé à l'article 5, § 2, se produit.
+
+§ 2. La période d'octroi des droits sociaux débute au premier jour du trimestre suivant le trimestre au cours duquel le fait visé à l'article 5, § 2, se produit.
+
+§ 3. Les travailleurs indépendants, aidants et conjoints aidants peuvent plusieurs fois bénéficier du droit passerelle visé à l'article 3, sans que sa durée totale pendant la carrière professionnelle entière puisse s'élever à plus de :
+
+1° douze mois en ce qui concerne la prestation financière et
+
+2° quatre trimestres en ce qui concerne les droits sociaux.
+
+Cependant, la durée maximum est réduite des mois et trimestres dont l'indépendant, l'aidant ou le conjoint aidant a déjà bénéficié depuis le 1er juillet 1997 en vertu de l'arrêté royal du 18 novembre 1996 instaurant un droit passerelle en faveur des travailleurs indépendants et ses arrêtés d'exécution, à l'exception de l'article 2bis de l'arrêté royal précité et les arrêtés d'exécution dudit article.
+
+CHAPITRE 5. - Dispositions communes
+
+Section 1re. - La procédure de demande
+
+Art. 8. § 1er. Les travailleurs indépendants, aidants et conjoints aidants doivent introduire leur demande auprès de la caisse d'assurances sociales à laquelle ils étaient affiliés en dernier lieu.
+
+Sous peine de forclusion, la demande doit être introduite au plus tard pendant le deuxième trimestre suivant le trimestre au cours duquel le fait visé à l'article 5, § 2, se produit.
+
+§ 2. La demande doit être introduite par lettre recommandée, par dépôt d'une requête sur place contre accusé de réception ou, si possible, par voie électronique, selon les modalités et conditions déterminées par la loi du 24 février 2003 concernant la modernisation de la gestion de la sécurité sociale et concernant la communication électronique entre des entreprises et l'autorité fédérale.
+
+La caisse d'assurances sociales enregistre chaque demande introduite de la manière précitée dans le réseau informatique du statut social des travailleurs indépendants, qui est géré par l'Institut national.
+
+Lorsque la demande est introduite par lettre recommandée à la poste, la date du cachet de la poste vaut comme date à laquelle la demande est introduite.
+
+Lorsque la demande est introduite par le dépôt d'une requête, la caisse d'assurances sociales enregistre la demande immédiatement et remet au demandeur un accusé de réception dans laquelle la date d'enregistrement est mentionnée. La date d'enregistrement vaut comme date à laquelle la demande est introduite.
+
+Lorsque la demande est introduite par voie électronique, la date de l'envoi électronique vaut comme date à laquelle la demande est introduite.
+
+§ 3. La caisse d'assurances sociales invite immédiatement le demandeur à dûment compléter un formulaire de renseignements, à le signer et le renvoyer dans les trente jours.
+
+Section 2 . - La décision
+
+Art. 9 . La caisse d'assurances sociales vérifie si les conditions de la présente loi et des arrêtés d'exécution sont remplies.
+
+La caisse d'assurances sociales notifie la décision au demandeur par lettre recommandée. Si la demande est rejetée, le motif ainsi que les possibilités d'appel devant le tribunal du travail y sont mentionnés.
+
+La caisse d'assurances sociales enregistre la décision dans le réseau informatique du statut social des travailleurs indépendants, qui est géré par l'Institut national.
+
+Dès que la caisse d'assurances sociales a pris une décision, elle procède, si nécessaire, au versement de la prestation financière.
+
+Section 3. - Le montant mensuel de la prestation financière
+
+Art. 10 . § 1er. Le montant mensuel de la prestation financière est égal au montant mensuel de la pension minimum d'un travailleur indépendant, qui remplit les conditions de l'article 9, § 1er, alinéa 1er, 2°, de l'arrêté royal n° 72 du 10 novembre 1967 relatif à la pension de retraite et de survie des travailleurs indépendants, visé au titre IIbis du Livre III de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pensions.
+
+Cependant, le bénéficiaire peut prétendre au montant mensuel plus élevé de la pension minimum d'un travailleur indépendant qui remplit les conditions de l'article 9, § 1er, alinéa 1er, 1°, de l'arrêté royal n° 72 précité, visé au titre IIbis du Livre III de la loi du 15 mai 1984 précité, à condition qu'il ait la qualité de "titulaire avec charge de famille" au sens de l'article 225 de l'arrêté royal du 3 juillet 1996 portant exécution de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994.
+
+La qualité de "titulaire avec charge de famille" est démontrée à l'aide d'une attestation de l'organisme assureur. Tant que la caisse d'assurances sociales ne dispose pas de l'attestation nécessaire, il ne peut être prétendu qu'au montant mensuel de la pension minimum d'un travailleur indépendant conformément à l'article 9, § 1er, alinéa 1er, 2°, de l'arrêté royal n° 72 précité. Lorsque sur base de l'attestation requise il s'avère que le bénéficiaire doit être considéré comme un "titulaire avec charge de famille", la caisse d'assurances sociales doit procéder à la régularisation nécessaire.
+
+§ 2. Lorsque, dans le courant de la période d'octroi du droit passerelle , le bénéficiaire obtient la qualité de "titulaire avec charge de famille" au sens du paragraphe 1er ou cesse d'avoir cette qualité, la modification au montant mensuel est appliquée à partir du mois suivant cet évènement.
+
+Section 4. - Modifications
+
+Art. 11 . § 1er. Dès que la caisse d'assurances sociales est au courant d'un élément quelconque qui fait obstacle au bénéfice du droit passerelle visé à l'article 3, la caisse d'assurances sociales notifie, par lettre recommandée, une nouvelle décision motivée. La caisse d'assurances sociales enregistre chaque nouvelle décision dans le réseau informatique du statut social des travailleurs indépendants, qui est géré par l'Institut national.
+
+§ 2. Les bénéficiaires sont obligés de communiquer à la caisse d'assurances sociales tout événement susceptible d'avoir une influence sur la prestation financière et les droits sociaux dans les quinze jours civils.
+
+§ 3. Chaque modification dans les conditions visées à l'article 5 produit ses effets :
+
+1° pour la prestation financière visée à l'article 3, 1°, le premier jour du mois suivant le mois de la modification;
+
+2° pour les droits sociaux visés à l'article 3, 2°, le premier jour du trimestre suivant le trimestre de la modification.
+
+§ 4. La prestation financière est suspendue durant tout le mois au cours duquel une activité professionnelle est exercée ou tout le mois au cours duquel il peut être prétendu à un revenu de remplacement.
+
+Section 5. - Récupération
+
+Art. 12 . La caisse d'assurances sociales doit procéder à la récupération des indus, si nécessaire par voie judiciaire. Les montants récupérés sont transmis à l'Institut national.
+
+En outre, lorsque le bénéficiaire ne satisfait pas à l'article 6, ou, n'a sciemment pas communiqué à sa caisse d'assurances sociales tout événement susceptible d'avoir une influence sur la prestation financière et les droits sociaux conformément à l'article 11, § 2, la prestation financière dont il a bénéficié est intégralement récupérée par la caisse d'assurances sociales qui lui a versé cette prestation financière.
+
+Art. 13. L'Institut national peut totalement ou partiellement renoncer à la récupération de la prestation financière indûment payée.
+
+Une telle renonciation n'est possible que :
+
+1° si le débiteur se trouve en état de besoin ou dans une situation voisine de l'état de besoin;
+
+2° lorsque la modicité du montant à récupérer ne justifie pas que des frais soient exposés;
+
+3° lorsque la récupération résulte de la rectification d'une erreur commise par la caisse d'assurances sociales compétente ou une autre institution de sécurité sociale.
+
+Art. 14. Lorsque, par suite de négligence d'une caisse d'assurances sociales, la prestation financière visée à l'article 3, 1°, a été payée indûment et que la répétition de l'indu s'avère impossible, la caisse d'assurances sociales en est déclarée responsable par décision du ministre ayant le statut social des travailleurs indépendants dans ses attributions, les sommes en cause étant mises à charge du produit des cotisations destinées à couvrir les frais d'administration de la caisse d'assurances sociales concernée.
+
+Section 6 . - Prescription
+
+Art. 15. Sans préjudice des dispositions de l'article 8, § 1er, alinéa 2, l'action en paiement de la prestation financière visée à l'article 3, 1°, se prescrit par trois ans.
+
+Le délai de trois ans prend cours le premier jour du trimestre qui suit le trimestre au cours duquel le fait visé à l'article 5, § 2, se produit.
+
+Outre les causes mentionnées au Code civil, la prescription est interrompue par une requête en paiement introduite par lettre recommandée auprès de la caisse d'assurances sociales compétente. L'interruption est valable pour trois ans et peut être renouvelée.
+
+En aucun cas, la caisse d'assurances sociales compétente ne peut renoncer au bénéfice de la prescription fixée par le présent article.
+
+Art. 16. L'action en répétition de la prestation financière visée à l'article 3, 1°, payée indûment se prescrit par trois ans à partir de la date à laquelle le paiement a été effectué.
+
+Outre les causes mentionnées au Code civil, la prescription est interrompue par l'action en répétition des paiements indus notifiée au débiteur par lettre recommandée.
+
+Le délai de prescription est porté à cinq ans si la prestation financière payée indûment a été obtenue à la suite de manœuvres frauduleuses ou de déclarations fausses ou sciemment incomplètes, ou encore si le bénéficiaire n'a pas respecté l'engagement fixé à l'article 11, § 2.
+
+Section 7. - Disposition de délégation
+
+Art. 17 . Le Roi peut, par arrêté délibéré en Conseil des ministres, déterminer les modalités suivantes :
+
+1° les situations qui peuvent être prises en considération en vertu de l'article 4, 3° et 4° ;
+
+2° la manière dont la preuve d'une situation est apportée en vertu de l'article 4, 3° et 4° ;
+
+3° les éléments qui doivent être vérifiés par la caisse d'assurances sociales en vertu de l'article 4, 3° et 4° ;
+
+4° le moment auquel l'interruption de l'activité indépendante est censée commencer, dans les cas visés à l'article 4, 3° ;
+
+5° sans préjudice de l'application de l'article 5, § 1er, et l'article 7, § 3, la liaison de la durée du droit passerelle à la période pendant laquelle le travailleur indépendant, l'aidant ou le conjoint aidant a constitué des droits à la pension au sein du statut social des travailleurs indépendants;
+
+6° en dérogation à l'article 10, § 1er, qu'un montant inférieur de prestation financière sera octroyé aux conjoints aidants;
+
+7° les conditions permettant de déroger à l'article 5, § 1er, 4°, et l'article 11, § 4.
+
+CHAPITRE 6. - Dispositions modificatives
+
+Art. 18 . A l'article 1er, alinéa 2, 4°, de l'arrêté royal n° 38 du 27 juillet 1967 organisant le statut social des travailleurs indépendants, inséré par l'arrêté royal du 18 novembre 1996, les mots "de l'assurance sociale en cas de faillite" sont remplacés par les mots "du droit passerelle".
+
+Art. 19 . A l'article 15, § 3, du même arrêté, modifié par la loi du 16 janvier 2013, les mots "ou qui est forcé de cesser son activité, au sens de l'article 2, § 3, de l'arrêté royal du 18 novembre 1996 instaurant une assurance sociale en faveur des travailleurs indépendants en cas de faillite, de situations y assimilées ou de cessation forcée" sont remplacés par les mots "ou qui est forcé d'interrompre son activité, au sens de l'article 4, 3°, de la loi du 22 décembre 2016 instaurant un droit passerelle en faveur des travailleurs indépendants".
+
+Art. 20 . L'article 18, § 3bis, du même arrêté, inséré par l'arrêté royal du 18 novembre 1996 et modifié par la loi 16 janvier 2013, est remplacé par ce qui suit :
+
+" § 3bis. Le régime du droit passerelle est réglé par la loi du 22 décembre 2016 instaurant un droit passerelle en faveur des travailleurs indépendants.".
+
+Art. 21 . L'article 32, alinéa 1er, 6° ter, de la loi relative à l'assurance obligatoire soins de santé et indemnités coordonnée le 14 juillet 1994, modifié par la loi du 17 juillet 2015, est remplacé par ce qui suit :
+
+"6° ter. les travailleurs indépendants bénéficiant du maintien des droits sociaux dans le cadre du droit passerelle, visé à l'article 3, 2°, de la loi du 22 décembre 2016 instaurant un droit passerelle en faveur des travailleurs indépendants, pendant quatre trimestres au maximum.
+
+Cette période de quatre trimestres prend cours, en ce qui concerne les travailleurs indépendants, aidants ou conjoints aidants visés à l'article 4 de la loi précitée, le premier jour du trimestre suivant le trimestre au cours duquel le fait visé à l'article 5, § 2, de ladite loi se produit; ".
+
+Art. 22 . A l'article 6, § 2, de l'arrêté royal du 18 novembre 1996 visant l'introduction d'une gestion financière globale dans le statut social des travailleurs indépendants, en application du chapitre I du titre VI de la loi du 26 juillet 1996 portant modernisation de la sécurité sociale et assurant la viabilité des régimes légaux des pensions, modifié en dernier lieu par la Loi-programme du 22 décembre 2008, les modifications suivantes sont apportées :
+
+1° le d) est remplacé par ce qui suit :
+
+"d) le droit passerelle; ";
+
+2° le f) est abrogé.
+
+CHAPITRE 7. - Dispositions abrogatoires, transitoires et d'entrée en vigueur
+
+Art. 23 . Sont abrogés :
+
+1° l'arrêté royal du 18 novembre 1996 instaurant un droit passerelle en faveur des travailleurs indépendants, modifié par les lois des 22 février 1998, 24 janvier 2002, 27 décembre 2004, 27 avril 2007, 24 juillet 2008, 19 juin 2009, 19 mai 2010, 16 janvier 2013 et 16 décembre 2015;
+
+2° l'arrêté royal du 6 juillet 1997 portant exécution de l'arrêté royal du 18 novembre 1996 instaurant une assurance sociale en faveur des travailleurs indépendants en cas de faillite, de situations y assimilées ou de cessation forcée, modifié par l'arrêté royal du 13 mars 2013;
+
+3° l'arrêté royal du 14 janvier 1999 portant exécution de l'article 2, § 2, de l'arrêté royal du 18 novembre 1996 instaurant une assurance sociale en faveur des travailleurs indépendants en cas de faillite, de situations y assimilées ou de cessation forcée, modifié par les arrêtés royaux des 7 septembre 2003, 26 avril 2007 et 13 mars 2013;
+
+4° l'arrêté royal du 13 mars 2013 portant exécution de l'article 2, § 3, de l'arrêté royal du 18 novembre 1996 instaurant une assurance sociale en faveur des travailleurs indépendants en cas de faillite, de situations y assimilées ou de cessation forcée et portant modification de l'arrêté royal du 19 décembre 1967 portant règlement générale en exécution de l'arrêté royal n° 38 du 27 juillet 1967 organisant le statut social des travailleurs indépendants;
+
+5° l'arrêté ministériel du 23 juillet 1997 déterminant le modèle de formulaire de renseignements en vue de l'obtention d'une assurance sociale en cas de faillite, pris en exécution de l'arrêté royal du 6 juillet 1997 portant exécution de l'arrêté royal du 18 novembre 1996 instaurant une assurance sociale en faveur des travailleurs indépendants en cas de faillite et des personnes assimilées, en application des articles 29 et 49 de la loi du 26 juillet 1996 portant modernisation de la sécurité sociale et assurant la viabilité des régimes légaux des pensions;
+
+6° l'arrêté ministériel du 7 avril 1999 déterminant le modèle de formulaire de renseignements en vue de l'obtention d'une assurance sociale en cas de faillite, pris en exécution de l'arrêté royal du 6 juillet 1997 portant exécution de l'arrêté royal du 18 novembre 1996 instaurant une assurance sociale en faveur des travailleurs indépendants en cas de faillite et des personnes assimilées, en application des articles 29 et 49 de la loi du 26 juillet 1996 portant modernisation de la sécurité sociale et assurant la viabilité des régimes légaux des pensions.
+
+Art. 24 . § 1er. Les arrêtés visés à l'article 23, continuent à s'appliquer à toutes les cessations, visées à l'article 1erbis de l'arrêté du 18 novembre 1996 instaurant un droit passerelle en faveur des travailleurs indépendants, qui ont eu lieu avant la date de l'entrée en vigueur de la présente loi.
+
+§ 2. La présente loi s'applique à tous les faits, visés à l'article 5, § 2, de la présente loi, qui ont lieu à partir de sa date d'entrée en vigueur.
+
+Art. 25 . La présente loi entre en vigueur le 1er janvier 2017.
+
+Promulguons la présente loi, ordonnons qu'elle soi revêtue du sceau de l'Etat et publiée par le Moniteur belge.
+
+Donné à Bruxelles, le 22 décembre 2016.
+
+PHILIPPE
+
+Par le Roi :
+
+La Ministre des Affaires sociales,
+
+Mevr . M. DE BLOCK
+
+Le Ministre des Indépendants,
+
+W. BORSUS
+
+Scellé du sceau de l'Etat :
+
+Le Ministre de la Justice,
+
+K. GEENS
+
+_______
+
+Note
+
+(1) Chambre des représentants
+
+( www.lachambre.be )
+
+Documents : 54 2167
+
+Compte rendu intégral : 15 décembre 2016

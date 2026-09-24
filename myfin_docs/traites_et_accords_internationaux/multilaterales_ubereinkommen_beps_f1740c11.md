@@ -1,0 +1,1169 @@
+---
+guid: "f1740c11-d5de-4eee-b3c6-fbf64ad1c0dc"
+title: "Multilaterales Übereinkommen - BEPS"
+document_type: "Traités et accords internationaux"
+language: "de"
+document_date: "2016-11-24"
+publication_date: null
+effective_date: null
+last_modified: "2020-02-13"
+taxonomies: ["Convention Multilatérale – BEPS"]
+path: ["FISCALITÉ", "Impôts sur les revenus", "Législation et réglementation", "Conventions préventives de la double imposition", "Convention Multilatérale – BEPS"]
+linked_document_nl: null
+found_via: "58b780a5-0c40-4102-8bcf-f74439ca2156"
+source_url: "https://www.minfin.fgov.be/myminfin-rest/fisconetPlus/public/document/f1740c11-d5de-4eee-b3c6-fbf64ad1c0dc"
+---
+
+# Multilaterales Übereinkommen - BEPS
+
+Multilaterales Übereinkommen - BEPS
+
+Multilaterales Übereinkommen zur Umsetzung steuerabkommensbezogener Ma ß nahmen zur Verhinderung der Gewinnverkürzung und Gewinnverlagerung
+
+Die Vertragsparteien dieses Übereinkommens –
+
+in der Erkenntnis , dass den Regierungen aufgrund aggressiver internationaler Steuerplanung , durch die Gewinne künstlich an Orte verlagert werden, an denen sie nicht oder vermindert besteuert werden, erhebliche Unternehmensteuereinnahmen entgehen;
+
+eingedenk der Tatsache , dass Gewinnverkürzung und Gewinnverlagerung („ B ase E rosion and P rofit S hifting“, im Folgenden als „BEPS“ bezeichnet) nicht nur für Industrieländer, sondern auch für Schwellen - und Entwicklungsländer ein vordringliches Problem darstellen;
+
+in Anerkennung dessen, dass es wichtig ist , sicherzustellen, dass Gewinne an dem Ort besteuert werden, an dem die tatsächliche wirtschaftliche Tätigkeit , mit der die Gewinne erzielt werden, ausgeübt wird und an dem die Wertschöpfung stattfindet ;
+
+erfreut über das im Rahmen des BEPS-Projekts der OECD/G20 erarbeitete Maßnahmenpaket (im Folgenden als „BEPS-Paket der OECD/G20“ bezeichnet);
+
+in Anbetracht dessen, dass das BEPS-Paket der OECD/G20 steuerabkommensbezogene Maßnahmen zur Bekämpfung bestimmter hybrider Gestaltungen, Verhinderung von Abkommensmissbrauch , Bekämpfung der künstlichen Umgehung des Betriebsstättenstatus sowie Verbesserung der Streitbeilegung enthielt;
+
+i m Bewusstsein der Notwendigkeit, eine rasche, abgestimmte und einheitliche Umsetzung der steuerabkommensbezogenen BEPS-Maßnahmen in einem multilateralen Zusammenhang sicherzustellen ;
+
+angesichts der Notwendigkeit , sicherzustellen , dass bestehende Abkommen zur Vermeidung der Doppelbesteuerung von Einkommen so ausgelegt werden, dass in Bezug auf die unter diese Abkommen fallenden Steuern eine Doppelbesteuerung beseitigt wird, ohne Möglichkeiten zur Nichtbesteuerung oder verminderten Besteuerung durch Steuerhinterziehung oder - umgehung (unter anderem durch den Einsatz von „treaty shopping“ Strategien mit dem Ziel des Erhalts von in diesen Abkommen vorgesehenen Erleichterungen zum mittelbaren Nutzen von in Drittstaaten oder ‑ gebieten ansässigen Personen) zu schaffen;
+
+in Erkenntnis der Notwendigkeit eines wirksamen Mechanismus, mit dem vereinbarte Änderungen im gesamten Netz bestehender Abkommen zur Vermeidung der Doppelbesteuerung von Einkommen effizient und zeitlich aufeinander abgestimmt umgesetzt werden können, ohne dass jede s einzelne dieser Abkommen bilateral nachverhandelt werden muss –
+
+sind wie folgt übereingekommen:
+
+Teil I
+
+Geltungsbereich und Auslegung von Ausdrücken
+
+#### Artikel 1
+
+#### Geltungsbereich des Übereinkommens
+
+Durch dieses Übereinkommen werden alle unter das Übereinkommen fallenden Steuer abkommen , wie sie in Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchstabe a bestimmt sind, geändert .
+
+#### Artikel 2
+
+#### Auslegung von Ausdrücken
+
+( 1 ) Im Sinne dieses Übereinkommens gelten folgende Begriffsbestimmungen:
+
+a) Der Ausdruck „ unter das Übereinkommen fallende s Steuerabkommen “ bedeutet ein e Übereinkunft zur Vermeidung der Doppelbesteuerung auf dem Gebiet der Steuern vom Einkommen (unabhängig davon, ob sie auch für andere Steuern gilt),
+
+i) die in Kraft ist zwischen zwei oder mehr
+
+A) Vertragsparteien dieses Übereinkommens und/oder
+
+B) Gebieten oder Hoheitsgebieten, die Vertragsparteien eine r derartige n Übereinkunft sind und für deren internationale Beziehungen eine Vertragspartei dieses Übereinkommens verantwortlich ist, sowie
+
+ii) in Bezug auf welche jede dieser Vertragspartei en dieses Übereinkommens dem Verwahrer [1] eine Notifikation übermittelt hat, in der die Übereinkunft sowie sämtliche dazugehörigen Änderungs- und Begleitübereinkünfte (unter Angabe des Titels, der Namen der Vertragsparteien, des Datums der Unterzeichnung und – sofern zum Zeitpunkt der Notifikation gegeben – des Datums des Inkrafttretens) als Abkommen aufgeführt sind, das nach dem Wunsch der Vertragspartei dieses Übereinkommens unter d as Übereinkommen fällt .
+
+b) Der Ausdruck „Vertragspartei dieses Übereinkommens “ bedeutet
+
+i) einen Staat, für den dieses Übereinkommen nach Artikel 34 (Inkrafttreten) in Kraft ist, oder
+
+ii) ein Gebiet, das dieses Übereinkommen nach Artikel 27 (Unterzeichnung und Ratifikation, Annahme oder Genehmigung) Absatz 1 Buchstabe b oder c unterzeichnet hat und für das dieses Übereinkommen nach Artikel 34 (Inkrafttreten) in Kraft ist.
+
+c) Der Ausdruck „Vertragsstaat“ bedeutet eine Vertragspartei eine s unter das Übereinkommen fallenden Steuer abkommens .
+
+d) Der Ausdruck „Unterzeichner“ bedeutet einen Staat oder ein Gebiet, der beziehungsweise das dieses Übereinkommen unterzeichnet ha t , für d en beziehungsweise das dieses Übereinkommen jedoch noch nicht in Kraft ist.
+
+( 2 ) Bei jeder Anwendung d iese s Übereinkommens durch eine Vertragspartei des Übereinkommens hat jeder nicht darin bestimmte Ausdruck, sofern der Zusammenhang nichts anderes erfordert, die Bedeutung, die ihm zum jeweiligen Zeitpunkt nach de m einschlägigen unter das Übereinkommen fallenden Steuer abkommen zukommt.
+
+Teil II
+
+Hybride Gestaltungen
+
+#### Artikel 3
+
+#### Transparente Rechtsträger
+
+( 1 ) Im Sinne eine s unter das Übereinkommen fallenden Steuer abkommens gelten Einkünfte, die durch oder über Rechtsträger oder Gebilde bezogen werden, die nach dem Steuerrecht eines der Vertragsstaaten als vollständig oder teilweise steuerlich transparent behandelt werden , als Einkünfte einer in einem Vertragsstaat ansässigen Person, jedoch nur, soweit die Einkünfte für Zwecke der Besteuerung durch diesen Vertragsstaat als Einkünfte einer in diesem Vertragsstaat ansässigen Person behandelt werden .
+
+( 2 ) Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommens , nach denen ein Vertragsstaat verpflichtet ist, Einkünfte einer in diesem Vertragsstaat ansässigen Person, die nach de m unter das Übereinkommen fallenden Steuer abkommen im anderen Vertragsstaat besteuert werden können, von der Steuer vom Einkommen zu befreien oder für derartige Einkünfte einen Abzug oder eine Anrechnung in Höhe der dafür entrichteten Steuer vom Einkommen zu gewähren, gelten nicht, soweit nach diesen Bestimmungen der andere Vertragsstaat die Einkünfte nur besteuern darf, weil es sich auch um Einkünfte einer in diesem anderen Vertragsstaat ansässigen Person handelt.
+
+( 3 ) Bei unter das Übereinkommen fallenden Steuer abkommen , für die eine oder mehrere Vertragsparteien dieses Übereinkommens den Vorbehalt nach Artikel 11 (Anwendung von Steuer abkommen zur Einschränkung des Rechtes einer Vertragspartei dieses Übereinkommens auf Besteuerung der in ihrem Gebiet ansässigen Personen) Absatz 3 Buchstabe a angebracht haben, wird am Ende des Absatzes 1 folgender Satz angefügt: „Dieser Absatz ist nicht so auszulegen, als berühre er das Recht eines Vertragsstaats , die in diesem Vertragsstaat ansässigen Personen zu besteuern.“
+
+( 4 ) Absatz 1 (in der gegebenenfalls durch Absatz 3 geänderten Fassung) gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , soweit diese regeln , ob Einkünfte, die durch oder über Rechtsträger oder Gebilde bezogen werden, die nach dem Steuerrecht eines der Vertragsstaaten als steuerlich transparent behandelt werden (sei es durch eine allgemeine Vorschrift oder durch eine ausführliche Regelung der Behandlung bestimmter Sachverhalte sowie Arten von Rechtsträgern oder Gebilden), als Einkünfte einer in einem Vertragsstaat ansässigen Person behandelt werden .
+
+( 5 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+b) dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine in Absatz 4 beschriebene Bestimmung enthalten;
+
+c) dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine in Absatz 4 beschriebene Bestimmung enthalten, nach der im Fall von Einkünften, die durch oder über einen in einem Drittstaat oder ‑ gebiet errichtete n Rechtsträger oder ein ebensolches Gebilde bezogen werden, Abkommen svergünstigungen versagt werden;
+
+d) dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine in Absatz 4 beschriebene Bestimmung enthalten, in der die Behandlung konkreter Sachverhalte sowie Arten von Rechtsträgern oder Gebilden ausführlich geregelt ist;
+
+e) dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine in Absatz 4 beschriebene Bestimmung enthalten, in der die Behandlung bestimmter Sachverhalte sowie Arten von Rechtsträgern oder Gebilden ausführlich geregelt ist und nach der im Fall von Einkünften, die durch oder über einen in einem Drittstaat oder ‑ gebiet errichtete n Rechtsträger oder ein ebensolches Gebilde bezogen werden, Abkommen svergünstigungen versagt werden;
+
+f) dass Absatz 2 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+g) dass Absatz 1 nur für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine in Absatz 4 beschriebene Bestimmung enthalten, in der die Behandlung bestimmter Sachverhalte sowie Arten von Rechtsträgern oder Gebilden ausführlich geregelt ist.
+
+( 6 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 5 Buchstabe a oder b angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 4 beschriebene Bestimmung enthalten, die nicht eine m Vorbehalt nach Absatz 5 Buchstaben c bis e unterliegt , und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Hat eine Vertragspartei dieses Übereinkommens den Vorbehalt nach Absatz 5 Buchstabe g angebracht, so ist die Notifikation nach Satz 1 auf unter das Übereinkommen fallende Steuer abkommen zu beschränken, die diesem Vorbehalt unterliegen. Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese Bestimmung durch Absatz 1 (in der gegebenenfalls durch Absatz 3 geänderten Fassung) ersetzt, soweit in Absatz 4 vorgesehen. Anderenfalls geht Absatz 1 (in der gegebenenfalls durch Absatz 3 geänderten Fassung) den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor, als diese mit Absatz 1 (in der gegebenenfalls durch Absatz 3 geänderten Fassung) unvereinbar sind.
+
+#### Artikel 4
+
+#### Rechtsträger mit doppelter Ansässigkeit
+
+( 1 ) Ist aufgrund eine s unter das Übereinkommen fallenden Steuer abkommen s eine andere als eine natürliche Person in mehr als einem Vertragsstaat ansässig, so werden sich die zuständigen Behörden der Vertragsstaaten bemühen , durch Verständigung den Vertragsstaat zu bestimmen, in dem diese Person unter Berücksichtigung des Ortes ihrer tatsächlichen Geschäftsleitung, ihres Gründungsorts sowie sonstiger maßgeblicher Faktoren im Sinne de s unter das Übereinkommen fallenden Steuer abkommen s als ansässig gilt. Ohne eine solche Verständigung hat diese Person nur in dem Umfang und der Weise, die von den zuständigen Behörden der Vertragsstaaten vereinbart werden, Anspruch auf die in de m unter das Übereinkommen fallenden Steuer abkommen vorgesehenen Steuer erleichterungen oder ‑ befreiungen.
+
+( 2 ) Absatz 1 gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , in denen vorgeschrieben ist, wie zu bestimmen ist , ob eine andere als eine natürliche Person in Fällen, in denen sie anderenfalls als in mehr als einem Vertragsstaat ansässig gelten würde, als in einem der Vertragsstaaten ansässig gilt. Absatz 1 gilt jedoch nicht für Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die sich ausdrücklich mit der Ansässigkeit von Gesellschaften, die Teil einer zweifach eingetragenen Unternehmens struktur s ind, befassen.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+b) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, in denen Fälle, in denen eine andere als eine natürliche Person in mehr als einem Vertragsstaat ansässig ist, bereits dadurch geregelt sind, dass die zuständigen Behörden der Vertragsstaaten verpflichtet sind , sich um eine Verständigung auf einen einzigen Vertragsstaat als Ansässigkeit sstaat zu bemühen ;
+
+c) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, in denen Fälle, in denen eine andere als eine natürliche Person in mehr als einem Vertragsstaat ansässig ist, bereits dadurch geregelt sind, dass Abkommen svergünstigungen versagt werden, ohne dass die zuständigen Behörden der Vertragsstaaten verpflichtet sind , sich um eine Verständigung auf einen einzigen Vertragsstaat als Ansässigkeit sstaat zu bemühen ;
+
+d) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, in denen Fälle, in denen eine andere als eine natürliche Person in mehr als einem Vertragsstaat ansässig ist, bereits dadurch geregelt sind, dass die zuständigen Behörden der Vertragsstaaten verpflichtet sind , sich um eine Verständigung auf einen einzigen Vertragsstaat als Ansässigkeit sstaat zu bemühen , und welche die Behandlung dieser Person im Rahmen de s unter das Übereinkommen fallenden Steuer abkommen s festlegen für den Fall, dass eine derartige Verständigung nicht erzielt werden kann;
+
+e) Absatz 1 Satz 2 für die Zwecke ihrer unter das Übereinkommen fallenden Steuer abkommen durch folgenden Wortlaut zu ersetzen: „Ohne eine solche Verständigung hat diese Person keinen Anspruch auf die in de m unter das Übereinkommen fallenden Steuer abkommen vorgesehene n Steuer erleichterungen oder -befreiungen.“;
+
+f) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen mit Vertragsparteien dieses Übereinkommens gilt, die den Vorbehalt nach Buchstabe e angebracht haben.
+
+( 4 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 3 Buchstabe a angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 2 beschriebene Bestimmung enthalten, die nicht eine m Vorbehalt nach Absatz 3 Buchstaben b bis d unterliegt , und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatzes dieser Bestimmung. Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese Bestimmung durch Absatz 1 ersetzt. Anderenfalls geht Absatz 1 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 1 unvereinbar sind.
+
+#### Arti kel 5
+
+#### Anwendung von Methoden zur Beseitigung der Doppelbesteuerung
+
+( 1 ) Eine Vertragspartei dieses Übereinkommens kann sich für die Anwendu ng entweder der Absätze 2 und 3 ( Option A) oder der Absätze 4 und 5 ( Option B) oder der Absätze 6 und 7 ( Option C) oder für die Anwendung keiner der genannten Optionen entscheiden. Entscheiden sich die Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s jeweils für unterschiedliche Optionen (oder entscheidet sich ein Vertragsstaat für die Anwendung einer Option und der andere für die Anwendung keiner der Optionen ), so gilt die von jedem Vertragsstaat gewählte Option für die in seinem Gebiet ansässigen Personen.
+
+Option A
+
+( 2 ) Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen anderenfalls Einkünfte oder Vermögen einer in einem Vertragsstaat ansässigen Person in diesem Vertragsstaat von der Steuer befreit würden, um eine Doppelbesteuerung zu beseitigen, gelten nicht, wenn der andere Vertragsstaat die Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s so anwendet, dass diese Einkünfte oder dieses Vermögen von der Steuer befreit sind beziehungsweise ist oder der Satz, mit dem diese Einkünfte oder dieses Vermögen besteuert werden können, begrenzt ist. In letzterem Fall gewährt der erstgenannte Vertragsstaat von der Steuer vom Einkommen oder Vermögen dieser ansässigen Person einen Abzug in Höhe der im anderen Vertragsstaat entrichteten Steuer. Dieser Abzug darf jedoch den Teil der vor Gewährung des Abzugs berechneten Steuer nicht übersteigen, der den Einkünften oder Vermögenswerten zugerechnet werden kann, die im anderen Vertragsstaat besteuert werden können.
+
+( 3 ) Absatz 2 gilt für ein unter das Übereinkommen fallende s Steuer abkommen , nach de m ein Vertragsstaat anderenfalls die in Absatz 2 beschriebene n Einkünfte oder das dort beschriebene Vermögen von der Steuer befreien müsste.
+
+Option B
+
+( 4 ) Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen anderenfalls Einkünfte einer in einem Vertragsstaat ansässigen Person in diesem Vertragsstaat von der Steuer befreit würden, um eine Doppelbesteuerung zu beseitigen, weil diese Einkünfte von diesem Vertragsstaat als Dividende betrachtet werden, gelten nicht, wenn diese Einkünfte bei der Ermittlung der steuerpflichtigen Gewinne einer im anderen Vertragsstaat ansässigen Person nach dem Recht d ies es anderen Vertragsstaats zu einem Abzug führen. In diesem Fall gewährt der erstgenannte Vertragsstaat von der Steuer vom Einkommen dieser ansässigen Person einen Abzug in Höhe der im anderen Vertragsstaat entrichteten Steuer vom Einkommen. Dieser Abzug darf jedoch den Teil der vor Gewährung des Abzugs berechneten Steuer vom Einkommen nicht übersteigen, der den Einkünften zugerechnet werden kann, die im anderen Vertragsstaat besteuert werden können.
+
+( 5 ) Absatz 4 gilt für ein unter das Übereinkommen fallende s Steuer abkommen , nach de m ein Vertragsstaat anderenfalls die in Absatz 4 beschriebene n Einkünfte von der Steuer befreien müsste.
+
+Option C
+
+( 6 ) a) Bezieht eine in einem Vertragsstaat ansässige Person Einkünfte oder hat sie Vermögen, die beziehungsweise das nach eine m unter das Übereinkommen fallenden Steuer abkommen im anderen Vertragsstaat besteuert werden können beziehungsweise kann (es sei denn, dass nach diese m Abkommen der andere Vertragsstaat die Einkünfte nur besteuern darf , weil es sich auch um Einkünfte einer in diesem anderen Vertragsstaat ansässigen Person handelt), so gewährt der erstgenannte Vertragsstaat
+
+i) einen Abzug von der Steuer vom Einkommen dieser ansässigen Person in Höhe der in diesem anderen Vertragsstaat entrichteten Steuer vom Einkommen;
+
+ii) einen Abzug von der Steuer vom Vermögen dieser ansässigen Person in Höhe der in diesem anderen Vertragsstaat entrichteten Steuer vom Vermögen.
+
+Dieser Abzug darf jedoch den Teil der vor Gewährung des Abzugs berechneten Steuer vom Einkommen oder Steuer vom Vermögen nicht übersteigen, der den Einkünften oder de m Vermögen zugerechnet werden kann, die beziehungsweise das im anderen Vertragsstaat besteuert werden können beziehungsweise kann .
+
+b) Sind nach de m unter das Übereinkommen fallenden Steuer abkommen Einkünfte oder Vermögen einer in einem Vertragsstaat ansässigen Person in diesem Vertragsstaat von der Steuer befreit, so kann dieser Vertragsstaat die steuer befreiten Einkünfte beziehungsweise das steuerbefreite Vermögen gleichwohl bei der Berechnung der Höhe der Steuer vom übrigen Einkommen oder Vermögen dieser ansässigen Person berücksichtigen.
+
+( 7 ) Absatz 6 gilt anstelle von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen zur Beseitigung einer Doppelbesteuerung ein Vertragsstaat verpflichtet ist, in diesem Vertragsstaat Einkünfte oder Vermögen einer in diesem Vertragsstaat ansässigen Person, die beziehungsweise das nach de m unter das Übereinkommen fallenden Steuer abkommen im anderen Vertragsstaat besteuert werden können beziehungsweise kann , von der Steuer zu befreien.
+
+( 8 ) Eine Vertragspartei dieses Übereinkommens , die sich nicht für die Anwendung einer Option nach Absatz 1 entscheidet, kann sich vorbehalten, dass dieser gesamte Artikel in Bezug auf ein oder mehrere benannte unter das Übereinkommen fallende Steuer abkommen (oder alle ihre unter das Übereinkommen fallenden Steuer abkommen ) nicht gilt.
+
+( 9 ) Eine Vertragspartei dieses Übereinkommens , die sich nicht für die Anwendung der Option C entscheidet, kann sich in Bezug auf ein oder mehrere benannte unter das Übereinkommen fallende Steuer abkommen (oder alle ihre unter das Übereinkommen fallenden Steuer abkommen ) vorbehalten, dem anderen Vertragsstaat beziehungsweise den anderen Vertragsstaaten die Anwendung der Option C nicht zu gestatten.
+
+( 10 ) Jede Vertragspartei dieses Übereinkommens , die sich für die Anwendung einer Option nach Absatz 1 entscheidet, notifiziert dem Verwahrer die gewählte Option . Diese Notifikation muss außerdem Folgendes umfassen:
+
+a) im Fall einer Vertragspartei dieses Übereinkommens , die sich für die Anwendung der Option A entscheidet, die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die eine in Absatz 3 beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatzes dieser Bestimmung ;
+
+b) im Fall einer Vertragspartei dieses Übereinkommens , die sich für die Anwendung der Option B entscheidet, die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die eine in Absatz 5 beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatzes dieser Bestimmung ;
+
+c) im Fall einer Vertragspartei dieses Übereinkommens , die sich für die Anwendung der Option C entscheidet, die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die eine in Absatz 7 beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung.
+
+Eine Option gilt nur dann i n Bezug auf eine Bestimmung ein es unter das Übereinkommen fallenden Steuer abkommen s , wenn die Vertragspartei dieses Übereinkommens , die sich für die Anwendung dieser Option entschieden hat, in Bezug auf diese Bestimmung eine entsprechende Notifikation abgegeben hat.
+
+Teil III Abkommensmissbrauch
+
+#### Artikel 6
+
+#### Zweck eine s unter das Übereinkommen fallenden Steuer abkommen s
+
+( 1 ) Ein unter das Übereinkommen fallende s Steuer abkommen wird dahingehend geändert , dass die Präambel den folgenden Wortlaut enthält:
+
+„in der Absicht, in Bezug auf die unter diese s Abkommen fallenden Steuern eine Doppelbesteuerung zu beseitigen, ohne Möglichkeiten zur Nichtbesteuerung oder verminderten Besteuerung durch Steuerhinterziehung oder - umgehung (unter anderem durch den Einsatz von „treaty shopping“ Strategien mit dem Ziel des Erhalts von in diese m Abkommen vorgesehenen Erleichterungen zum mittelbaren Nutzen von in Drittstaaten oder ‑ gebieten ansässigen Personen) zu schaffen , “ .
+
+( 2 ) Der in Absatz 1 genannte Wortlaut wird in ein unter das Übereinkommen fallende s Steuer abkommen aufgenommen anstelle oder in Ermangelung einer Formulierung in der Präambel de s unter das Übereinkommen fallenden Steuer abkommen s , die Bezug nimmt auf die Absicht, eine Doppelbesteuerung zu beseitigen, unabhängig davon, ob in dieser Formulierung auch Bezug genommen wird auf die Absicht, keine Möglichkeiten zur Nichtbesteuerung oder verminderten Besteuerung zu schaffen.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich außerdem entscheiden, bei ihren unter das Übereinkommen fallenden Steuer abkommen , deren Präambel keine Formulierung enthält, die Bezug nimmt auf den Wunsch, wirtschaftliche Beziehung en weiterzuentwickeln oder die Zusammenarbeit in Steuersachen zu vertiefen, folgenden Wortlaut in die Präambel aufzunehmen:
+
+„von dem Wunsch geleitet, ihre wirtschaftlichen Beziehungen weiterzuentwickeln und ihre Zusammenarbeit in Steuersachen zu vertiefen , “ .
+
+( 4 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten, dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, deren Präambel bereits eine Formulierung enthält, mit der die Vertragsstaaten ihre Absicht bekunden, eine Doppelbesteuerung zu beseitigen, ohne Möglichkeiten zur Nichtbesteuerung oder verminderten Besteuerung zu schaffen, unabhängig davon, ob diese Formulierung auf Fälle von Steuerhinterziehung oder - umgehung (unter anderem durch den Einsatz von „treaty shopping“ Strategien mit dem Ziel des Erhalts von in de m Abkommen vorgesehenen Erleichterungen zum mittelbaren Nutzen von in Drittstaaten oder ‑ gebieten ansässigen Personen) beschränkt ist oder einen weiteren Geltungsbereich hat.
+
+( 5 ) Jede Vertragspartei dieses Übereinkommens notifiziert dem Verwahrer, ob die Präambel ihrer unter das Übereinkommen fallenden Steuer abkommen , die nicht unter einen Vorbehalt nach Absatz 4 fallen, jeweils eine Formulierung nach Absatz 2 enthält, und, sofern dies der Fall ist, den Wortlaut des jeweiligen Beweggrunds. Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf diese Formulierung in der Präambel abgegeben, so wird diese Formulierung durch den in Absatz 1 genannten Wortlaut ersetzt. Anderenfalls wird der in Absatz 1 genannte Wortlaut zusätzlich zur bestehenden Formulierung in der Präambel aufgenommen.
+
+( 6 ) Jede Vertragspartei dieses Übereinkommens , die sich für die Anwendung des Absatzes 3 entscheidet, notifiziert dem Verwahrer ihre Entscheidung. Diese Notifikation muss außerdem die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen umfassen , deren Präambel noch keine Formulierung enthält, die Bezug nimmt auf den Wunsch, wirtschaftliche Beziehung en weiterzuentwickeln oder die Zusammenarbeit in Steuersachen zu vertiefen. Der in Absatz 3 genannte Wortlaut wird nur dann in ein unter das Übereinkommen fallende s Steuer abkommen aufgenommen, wenn alle Vertragsstaaten sich für die Anwendung des Absatzes 3 entschieden und in Bezug auf das unter das Übereinkommen fallende Steuer abkommen eine entsprechende Notifikation abgegeben haben.
+
+#### Artikel 7
+
+#### Verhinderung von Abkommensmissbrauch
+
+( 1 ) Ungeachtet eine s unter das Übereinkommen fallenden Steuer abkommen s wird eine Vergünstigung nach de m unter das Übereinkommen fallenden Steuer abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu dieser Vergünstigung geführt hat, es sei denn, es wird nachgewiesen , dass die Gewährung dieser Vergünstigung unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s im Einklang steht.
+
+( 2 ) Absatz 1 gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen die Vergünstigungen, die anderenfalls nach de m unter das Übereinkommen fallenden Steuer abkommen gewährt würden, vollständig oder teilweise ver sagt werden, wenn der Hauptzweck oder einer der Hauptzwecke einer Gestaltung oder Transaktion oder einer an einer Gestaltung oder Transaktion be teiligten Person der Erhalt dieser Vergünstigungen war.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens , die nicht den in Absatz 15 Buchstabe a beschriebenen Vorbehalt angebracht hat, kann sich auch entscheiden, in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen Absatz 4 anzuwenden.
+
+( 4 ) Wird einer Person eine Vergünstigung , die ein unter das Übereinkommen fallende s Steuer abkommen vorsieht, aufgrund von Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch dieses Übereinkommen geänderten Fassung) versagt , nach denen die Vergünstigungen, die anderenfalls nach de m unter das Übereinkommen fallenden Steuer abkommen gewährt würden, vollständig oder teilweise ver sagt werden, wenn der Hauptzweck oder einer der Hauptzwecke einer Gestaltu ng oder Transaktion oder einer an einer Gestaltung oder Transaktion be teilig ten Person der Erhalt dieser Vergünstigungen war, so betrachtet die zuständige Behörde des Vertragsstaats , die diese Vergünstigung anderenfalls gewährt hätte, diese Person gleichwohl als anspruchsberechtigt in Bezug auf diese Vergünstigung oder auf andere Vergünstigungen für bestimmte Einkünfte oder Vermögenswerte, sofern diese zuständige Behörde auf Antrag dieser Person und nach Prüfung der maßgeblichen Tatsachen und Umstände feststellt, dass dieser Person diese Vergünstigungen ohne die Transaktion oder Gestaltung gewährt worden wären. Die zuständige Behörde des Vertragsstaats , bei der eine im anderen Vertragsstaat ansässige Person nach diesem Absatz einen Antrag g estellt hat, konsultiert die zuständige Behörde d ies es anderen Vertragsstaats , bevor sie den Antrag ablehnt.
+
+( 5 ) Absatz 4 gilt für Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch dieses Übereinkommen geänderten Fassung), nach denen die Vergünstigungen, die anderenfalls nach de m unter das Übereinkommen fallenden Steuer abkommen gewährt würden, vollständig oder teilweise versagt werden, wenn der Hauptzweck oder einer der Hauptzwecke einer Gestaltung oder Transaktion oder einer an einer Gestaltung oder Transaktion be teilig ten Person der Erhalt dieser Vergünstigungen war.
+
+( 6 ) Eine Vertragspartei dieses Übereinkommens kann sich auch entscheiden, die Absätze 8 bis 13 (im Folgenden als „vereinfachte Bestimmung zur Beschränkung von Vergünstigungen “ bezeichnet) auf ihre unter das Übereinkommen fallenden Steuer abkommen anzuwenden, indem sie die Notifikation nach Absatz 17 Buchstabe c abgibt. Die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen gilt nur dann in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen , wenn sich alle Vertragsstaaten für ihre Anwendung entschieden haben.
+
+( 7 ) In Fällen, in denen sich einige, jedoch nicht alle Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s nach Absatz 6 für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entscheiden, gilt die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen ungeachtet des Absatzes 6 in Bezug auf die Gewährung von Vergünstigungen nach de m unter das Übereinkommen fallenden Steuer abkommen
+
+a) durch alle Vertragsstaaten , sofern alle Vertragsstaaten , die sich nicht nach Absatz 6 für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entscheiden, einer derartigen Anwendung zustimmen, indem sie sich für die Anwendung dieses Buchstabens entscheiden und dies dem Verwahrer notifizieren, oder
+
+b) ausschließlich durch die Vertragsstaaten , die sich für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entscheiden, sofern alle Vertragsstaaten , die sich nicht nach Absatz 6 für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entscheiden, einer derartigen Anwendung zustimmen, indem sie sich für die Anwendung dieses Buchstabens entscheiden und dies dem Verwahrer notifizieren.
+
+Vereinfachte Bestimmung zur Beschränkung von V ergünstigungen
+
+( 8 ) Sofern die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen nichts anderes vorsieht, hat eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person keinen Anspruch auf eine Vergünstigung, die anderenfalls durch das unter das Übereinkommen fallende Steuer abkommen gewährt würde, mit Ausnahme von Vergünstigungen nach Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s ,
+
+a) in denen die Ansässigkeit einer anderen als einer natürlichen Person geregelt ist, die aufgrund der Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s , die den Begriff „in einem Vertragsstaat ansässige Person“ bestimmen, in mehr als einem Vertragsstaat ansässig ist,
+
+b) die vorsehen, dass ein Vertragsstaat, nachdem der andere Vertragsstaat in Übereinstimmung mit dem unter das Übereinkommen fallenden Steuerabkommen eine Erstberichtigung vorgenommen hat, einem Unternehmen des erstgenannten Vertragsstaats eine entsprechende Gegenberichtigung des Steuerbetrags gewährt, der in diesem Vertragsstaat von den Gewinnen eines verbundenen Unternehmens erhoben wird , oder
+
+c) nach denen in einem Vertragsstaat ansässige Personen beantragen können, dass die zuständige Behörde dieses Vertragsstaats Fälle von nicht de m unter das Übereinkommen fallenden Steuer abkommen entsprechender Besteuerung prüft,
+
+es sei denn, diese Person ist zu dem Zeitpunkt, zu dem die Vergünstigung gewährt würde, eine „berechtigte Person“ im Sinne des Absatzes 9.
+
+( 9 ) Eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person ist zu einem Zeitpunkt, zu dem anderenfalls durch das unter das Übereinkommen fallende Steuer abkommen eine Vergünstigung gewährt würde, eine berechtigte Person, wenn sie zu diesem Zeitpunkt
+
+a) eine natürliche Person ist;
+
+b) dieser Vertragsstaat oder eine seiner politischen Untergliederungen oder lokalen Gebietskörperschaften oder eine Behörde oder öffentliche Einrichtung dieses Vertragsstaats oder dieser politischen Untergliederungen oder lokalen Gebietskörperschaft ist;
+
+c) eine Gesellschaft oder ein sonstiger Rechtsträger ist, sofern die Hauptgattung ihrer beziehungsweise seiner Anteile regelmäßig an einer oder mehreren anerkannten Börsen gehandelt wird;
+
+d) eine andere als eine natürliche Person ist, die
+
+i) eine keinen Erwerbszweck verfolgende Organisation einer Art ist, auf die sich die Vertragsstaaten durch einen diplomatischen Notenwechsel verständigen, oder
+
+ii) ein in diesem Vertragsstaat errichteter Rechtsträger oder ein in diesem Vertragsstaat errichtetes Gebilde ist, der beziehungsweise das nach dem Steuerrecht dieses Vertragsstaats als eigenständige Person gilt und
+
+A) ausschließlich oder fast ausschließlich errichtet und betrieben wird, um für natürliche Personen Altersversorgungsleistungen und Zusatz- oder Nebenleistungen zu verwalten oder zu erbringen, und als solcher beziehungsweise solche s durch diesen Vertragsstaat oder eine seiner politischen Untergliederungen oder lokalen Gebietskörperschaften gesetzlich geregelt wird oder
+
+B) ausschließlich oder fast ausschließlich errichtet und betrieben wird, um für unter Großbuchstabe A genannte Rechtsträger oder Gebilde Mittel anzulegen;
+
+e) eine andere als eine natürliche Person ist, sofern an mindestens der Hälfte der Tage eines Zeitraums von zwölf Monaten, in den der Zeitpunkt fällt, zu dem die Vergünstigung anderenfalls gewährt würde, mindestens 50 Prozent der Anteile an der Person unmittelbar oder mittelbar in diesem Vertragsstaat ansässigen Personen gehören, die nach den Buchstaben a bis d Anspruch auf die Vergünstigungen de s unter das Übereinkommen fallenden Steuer abkommen s haben.
+
+( 10 ) a) Eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person hat unabhängig davon, ob sie eine berechtigte Person ist, Anspruch auf Vergünstigungen de s unter das Übereinkommen fallenden Steuer abkommen s für bestimmte aus dem anderen Vertragsstaat bezogene Einkünfte , wenn sie im erstgenannten Vertragsstaat aktiv eine Geschäftstätigkeit ausübt und die aus dem anderen Vertragsstaat bezogenen Einkünfte aus dieser Geschäftstätigkeit stammen oder mit ihr verbunden sind. Im Sinne der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen umfasst der Ausdruck „aktiv eine Geschäftstätigkeit ausüben“ nicht folgende Tätigkeiten oder eine Kombination derselben:
+
+i) Ausübung der Funktion einer Holdinggesellschaft,
+
+ii) Gesamtaufsicht über oder - verwaltung eine rUnternehmensgruppe ,
+
+iii) Finanzierung einer Unternehmensgruppe (einschließlich Cash-Pooling) oder
+
+iv) Vornahme oder Verwaltung von Kapitalanlagen, es sei denn, diese Tätigkeiten werden von einer Bank, eine m Versicherungsunternehmen oder einem zugelassenen Wertpapierhändler im Rahmen ihrer beziehungsweise seiner ordentlichen Geschäftstätigkeit ausgeübt.
+
+b) Bezieht eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person bestimmte Einkünfte aus einer im anderen Vertragsstaat von ihr ausgeübten Geschäftstätigkeit oder bezieht sie bestimmte im anderen Vertragsstaat erzielte Einkünfte von einer verbundenen Person, so gelten die Voraussetzungen nach Buchstabe a nur dann als für diese Einkünfte erfüllt, wenn die von der ansässigen Person im erstgenannten Vertragsstaat ausgeübte Geschäftstätigkeit, mit der die Einkünfte in Zusammenhang stehen, im Verhältnis zu der gleichen Tätigkeit oder einer ergänzenden Geschäftstätigkeit, die von der ansässigen Person oder der verbundenen Person im anderen Vertragsstaat ausgeübt wird, erheblich ist. Ob eine Geschäftstätigkeit im Sinne dieses Buchstabens erheblich ist, wird anhand aller Tatsachen und Umstände festgestellt.
+
+c) Für die Anwendung dieses Absatzes gelten Tätigkeiten verbundener Personen in Bezug auf eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person als Tätigkeiten dieser ansässigen Person.
+
+( 11 ) Eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person, die keine berechtigte Person ist, hat auch Anspruch auf eine Vergünstigung, die anderenfalls durch das unter das Übereinkommen fallende Steuer abkommen für bestimmte Einkünfte gewährt würde, sofern an mindestens der Hälfte der Tage eines Zeitraums von zwölf Monaten, in den der Zeitpunkt fällt, zu dem die Vergünstigung anderenfalls gewährt würde, mindestens 75 Prozent der Eigentumsrechte an der ansässigen Person unmittelbar oder mittelbar Personen gehören, die gleichberechtigte Begünstigte sind.
+
+( 12 ) Wenn eine in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s ansässige Person weder nach Absatz 9 eine berechtigte Person ist noch nach Absatz 10 oder 11 Anspruch auf Vergünstigungen hat, kann die zuständige Behörde des anderen Vertragsstaats unter Berücksichtigung des Ziels und Zwecks de s unter das Übereinkommen fallenden Steuer abkommen s gleichwohl die Vergünstigungen de s unter das Übereinkommen fallenden Steuer abkommen s oder Vergünstigungen für bestimmte Einkünfte gewähren, jedoch nur, sofern die Person zur hinreichenden Überzeugung dieser zuständigen Behörde nachweist, dass weder einer der Hauptzwecke ihrer Errichtung, ihres Erwerbs oder ihrer Unterhaltung noch einer der Hauptzwecke der Ausübung ihrer Geschäfte darin bestand, Vergünstigungen nach de m unter das Übereinkommen fallenden Steuer abkommen zu erhalten. Bevor sie dem Antrag , den eine in einem Vertragsstaat ansässige Person nach diesem Absatz gestellt hat, stattgibt oder diesen ablehnt, konsultiert die zuständige Behörde des anderen Vertragsstaats , bei welcher der Antrag gestellt wurde, die zuständige Behörde des erstgenannten Vertragsstaats .
+
+( 13 ) Im Sinne der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen
+
+a) bedeutet der Ausdruck „anerkannte Börse“
+
+i) jede Börse, die nach dem Recht eines der beiden Vertragsstaaten als solche errichtet wurde und gesetzlich geregelt wird , und
+
+ii) jede andere von den zuständigen Behörden der Vertragsstaaten vereinbarte Börse;
+
+b) bedeutet der Ausdruck „Hauptgattung von Anteilen “ die Gattung oder Gattungen der Anteile einer Gesellschaft, welche die Mehrheit der Gesamtstimmrechte und des Gesamtwerts der Gesellschaft darstellt beziehungsweise darstellen, oder die Gattung oder Gattungen von Eigentumsrechten eines Rechtsträgers, die insgesamt eine Mehrheit der Gesamtstimmrechte und des Gesamtwerts des Rechtsträgers darstellt beziehungsweise darstellen;
+
+c) bedeutet der Ausdruck „gleichberechtigter Begünstigter“ eine Person, die in Bezug auf bestimmte Einkünfte Anspruch auf Vergünstigungen hätte, die durch einen Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s nach dessen innerstaatlich em Recht [2] , dem unter das Übereinkommen fallenden Steuer abkommen oder einer anderen völkerrechtlichen Übereinkunft gewährt werden und den nach de m unter das Übereinkommen fallenden Steuer abkommen für diese Einkünfte zu gewährenden Vergünstigungen entsprechen oder vorteilhafter als diese sind ; um festzustellen , ob eine Person in Bezug auf Dividenden ein gleichberechtigter Begünstigter ist, wird die Person so behandelt, als hielte sie genau das gleiche Kapital der die Dividenden zahlenden Gesellschaft, das die Gesellschaft hält, welche die Vergünstigung für die Dividenden fordert ;
+
+d) bedeutet der Ausdruck „Anteile“ bei Rechtsträgern, die keine Gesellschaften sind, mit Anteilen vergleichbare Rechte ;
+
+e) sind zwei Personen „verbundene Personen“, wenn einer der beiden Personen mindestens 50 Prozent der Eigentumsrechte an der anderen Person (oder bei einer Gesellschaft mindestens 50 Prozent der Gesamtstimmrechte und des Gesamtwerts der Anteile der Gesellschaft) unmittelbar oder mittelbar gehören oder einer weiteren Person mindestens 50 Prozent der Eigentumsrechte an jeder Person (oder bei einer Gesellschaft mindestens 50 Prozent der Gesamtstimmrechte und des Gesamtwerts der Anteile der Gesellschaft) unm ittelbar oder mittelbar gehören; i n jedem Fall ist eine Person mit einer anderen Person verbunden, wenn allen maßgeblichen Tatsachen und Umständen zufolge die eine die andere beherrscht oder beide von derselben Person oder denselben Personen beherrscht werden.
+
+( 14 ) Die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen die Vergünstigungen d es unter das Übereinkommen fallenden Steuer abkommen s (oder Vergünstigungen bis auf jene nach den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s zur Ansässigkeit, zu verbundenen Unternehmen oder zur Gleichbehandlung oder jene, die nicht nur auf die in einem Vertragsstaat ansässigen Personen begrenzt sind) nur auf eine ansässige Person beschränkt sind, die Anspruch auf diese Vergünstigungen hat , weil sie ein oder mehrere eindeutige Kriterien erfüllt.
+
+( 15 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, sofern sie beabsichtigt, eine ausführliche Bestimmung zur Beschränkung von Vergünstigungen entweder in Verbindung mit Vorschriften zur Bekämpfung von Durchlauffinanzierungsstrukturen oder mit einem Hauptzweck-Kriterium anzuwenden und dadurch den Mindeststandard zur Verhinderung von Abkommensmissbrauch nach dem BEPS-Paket der OECD/G20 zu erfüllen; in solchen Fällen werden sich die Vertragsstaaten bemühen , eine für alle Seiten zufriedenstellende Lösung herbeizuführen, die den Mindeststandard erfüllt;
+
+b) dass Absatz 1 (und Absatz 4 bei einer Vertragspartei dieses Übereinkommens , die sich für dessen Anwendung entschieden hat) nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits Bestimmungen enthalten, nach denen alle Vergünstigungen, die anderenfalls nach de m unter das Übereinkommen fallenden Steuer abkommen gewährt würden, versagt werden, wenn der Hauptzweck oder einer der Hauptzwecke einer Gestaltung oder Transaktion oder einer an einer Gestaltung oder Transaktion be teilig ten Person der Erhalt dieser Vergünstigungen war;
+
+c) dass die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits die in Absatz 14 beschriebenen Bestimmungen enthalten.
+
+( 16 ) Soweit die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen nicht nach Absatz 7 für die Gewährung von Vergünstigungen aufgrund eine s unter das Übereinkommen fallenden Steuer abkommen s durch eine oder mehrere Vertragsparteien dieses Übereinkommens gilt, kann sich eine Vertragspartei dieses Übereinkommens , die sich nach Absatz 6 für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entscheidet, vorbehalten, dass dieser gesamte Artikel nicht in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen gilt, bei denen sich einer oder mehrere der anderen Vertragsstaaten nicht für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entschieden haben. In solchen Fällen werden sich die Vertragsstaaten bemühen , eine für alle Seiten zufriedenstellende Lösung herbeizuführen, die den Mindeststandard zur Verhinderung von Abkommensmissbrauch nach dem BEPS-Paket der OECD/G20 erfüllt.
+
+( 17 ) a) Jede Vertragspartei dieses Übereinkommens , die nicht den in Absatz 15 Buchstabe a beschriebenen Vorbehalt angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen , die nicht eine m in Absatz 15 Buchstabe b beschriebenen Vorbehalt unterliegen , jeweils eine in Absatz 2 beschriebene Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese Bestimmung durch Absatz 1 (und gegebenenfalls Absatz 4) ersetzt. Anderenfalls geht Absatz 1 (und gegebenenfalls Absatz 4) den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 1 (und gegebenenfalls Absatz 4) unvereinbar sind. Eine Vertragspartei dieses Übereinkommens , die nach diesem Buchstaben eine Notifikation abgibt, kann darin auch eine Erklärung aufnehmen, dass sie zwar die übergangsweise Anwendung allein des Absatzes 1 akzeptiert, jedoch beabsichtigt, nach Möglichkeit durch bilaterale Verhandlungen zusätzlich zu Absatz 1 oder anstelle des Absatzes 1 eine Bestimmung zur Beschränkung von Vergünstigungen zu beschließen .
+
+b) Jede Vertragspartei dieses Übereinkommens , die sich für die Anwendung des Absatzes 4 entscheidet, notifiziert dem Verwahrer ihre Entscheidung. Absatz 4 gilt nur dann für ein unter das Übereinkommen fallende s Steuer abkommen , wenn alle Vertragsstaaten eine entsprechende Notifikation abgegeben haben.
+
+c) Jede Vertragspartei dieses Übereinkommens , die sich nach Absatz 6 für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen entscheidet, notifiziert dem Verwahrer ihre Entscheidung. Sofern diese Vertragspartei nicht den Vorbehalt nach Absatz 15 Buchstabe c angebracht hat, muss diese Notifikation auch die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen umfassen , die eine in Absatz 14 beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung.
+
+d) Jede Vertragspartei dieses Übereinkommens , die sich nicht nach Absatz 6 für die Anwendung der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen , sondern für die Anwendung des Absatzes 7 Buchstabe a oder b entscheidet, notifiziert dem Verwahrer den gewählten Buchstaben. Sofern diese Vertragspartei nicht den Vorbehalt nach Absatz 15 Buchstabe c angebracht hat, muss diese Notifikation auch die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen umfassen , die eine in Absatz 14 beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung.
+
+e) Haben alle Vertragsstaaten eine Notifikation nach Buchstabe c oder d in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen ersetzt. Anderenfalls geht die vereinfachte Bestimmung zur Beschränkung von Vergünstigungen den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit der vereinfachten Bestimmung zur Beschränkung von Vergünstigungen unvereinbar sind.
+
+#### Artikel 8
+
+#### Transaktionen zur Übertragung von Dividenden
+
+( 1 ) Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen die von einer in einem Vertragsstaat ansässigen Gesellschaft gezahlten Dividenden von der Steuer befreit werden oder der Satz begrenzt wird, mit dem diese Dividenden besteuert werden können, sofern der Nutzungsberechtigte oder der Empfänger eine im anderen Vertragsstaat ansässige Gesellschaft ist, die als Eigentümerin oder Inhaberin über mehr als eine bestimmte Menge des Kapitals, der Anteile, der Aktien, der Stimmanteile, Stimmrechte oder ähnlicher Eigentumsrechte an der die Dividenden zahlenden Gesellschaft verfügt , diese hält oder beherrscht, gelten nur, wenn die in diesen Bestimmungen beschriebenen Eigentums - oder Inhaberschafts voraussetzungen während eines Zeitraums von 365 Tagen einschließlich des Tages der Dividendenzahlung erfüllt sind (bei der Berechnung dieses Zeitraums bleiben Änderungen der Eigentums - oder Inhaberschafts verhältnisse unberücksichtigt, die sich unmittelbar aus einer Umstrukturierung, wie einer Fusion oder Spaltung, der die Anteile haltenden oder die Dividenden zahlenden Gesellschaft ergeben würden ).
+
+( 2 ) Die in Absatz 1 vorgesehene Mindesthaltedauer gilt anstelle oder in Ermangelung einer Mindesthaltedauer in Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die in Absatz 1 beschrieben sind.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt ;
+
+b) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, soweit die in Absatz 1 beschriebenen Bestimmungen bereits Folgendes enthalten:
+
+i) eine Mindesthaltedauer,
+
+ii) eine Mindesthaltedauer, die kürzer ist als 365 Tage, oder
+
+iii) eine Mindesthaltedauer, die länger ist als 365 Tage.
+
+( 4 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 3 Buchstabe a angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 1 beschriebene Bestimmung enthalten, die nicht eine m Vorbehalt nach Absatz 3 Buchstabe b unterliegt , und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Absatz 1 gilt nur dann in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , wenn alle Vertragsstaaten in Bezug auf diese Bestimmung eine entsprechende Notifikation abgegeben haben.
+
+#### Artikel 9
+
+#### Gewinne aus der Veräußerung von Anteilen oder Rechten an Rechtsträgern, deren Wert hauptsächlich auf unbeweglichem Vermögen beruht
+
+( 1 ) Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen Gewinne , die eine in einem Vertragsstaat ansässige Person aus der Veräußerung von Anteilen oder sonstigen Beteiligungsrechten an einem Rechtsträger erzielt, im anderen Vertragsstaat besteuert werden können, sofern der Wert dieser Anteile oder Rechte zu mehr als einem bestimmten Teil auf unbeweglichem Vermögen ( Grundvermögen ) beruht , das in diesem anderen Vertragsstaat liegt (oder sofern mehr als ein bestimmter Teil des Vermögens des Rechtsträgers aus derartigem unbeweglichem Vermögen ( Grundvermögen ) besteht),
+
+a) gelten, wenn die maßgeb ende Wertgrenze zu irgendeinem Zeitpunkt während der 365 Tage vor der Veräußerung erreicht wird, und
+
+b) gelten für Anteile oder vergleichbare Rechte , wie Rechte an einer Personengesellschaft oder einem Trust (soweit diese Anteile oder Rechte nicht bereits unter die Bestimmungen fallen ), zusätzlich zu bereits unter die Bestimmungen fallenden Anteilen oder Rechten.
+
+( 2 ) Der in Absatz 1 Buchstabe a vorgesehene Zeitraum gilt anstelle oder in Ermangelung eines vorgegebenen Zeitraums für die Feststellung, ob die maßgeb ende Wertgrenze nach den Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die in Absatz 1 beschrieben sind, erreicht wurde.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich auch entscheiden, in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen Absatz 4 anzuwenden.
+
+( 4 ) Für die Zwecke eine s unter das Übereinkommen fallenden Steuer abkommen s können Gewinne , die eine in einem Vertragsstaat ansässige Person aus der Veräußerung von Anteilen oder vergleichbaren Rechten , wie Rechten an einer Personengesellschaft oder einem Trust, erzielt, im anderen Vertragsstaat besteuert werden, sofern der Wert dieser Anteile oder vergleichbaren Rechte zu irgendeinem Zeitpunkt während der 365 Tage vor der Veräußerung zu mehr als 50 Prozent unmittelbar oder mittelbar auf i n diesem anderen Vertragsstaat liegendem unbeweglichem Vermögen ( Grundvermögen ) beruhte.
+
+( 5 ) Absatz 4 gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen Gewinne , die eine in einem Vertragsstaat ansässige Person aus der Veräußerung von Anteilen oder sonstigen Beteiligungsrechten an einem Rechtsträger erzielt, im anderen Vertragsstaat besteuert werden können, sofern der Wert dieser Anteile oder Rechte zu mehr als einem bestimmten Teil auf i n diese m anderen Vertragsstaat b elegenem unbeweglichem Vermögen ( Grundvermögen ) beruht oder sofern mehr als ein bestimmter Teil des Vermögens des Rechtsträgers aus derartigem unbeweglichem Vermögen ( Grundvermögen ) besteht.
+
+( 6 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+b) dass Absatz 1 Buchstabe a nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+c) dass Absatz 1 Buchstabe b nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+d) dass Absatz 1 Buchstabe a nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine Bestimmung der in Absatz 1 beschriebenen Art enthalten, die einen Zeitraum für die Feststellung beinhaltet, ob die maßgeb ende Wertgrenze erreicht wurde;
+
+e) dass Absatz 1 Buchstabe b nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine Bestimmung der in Absatz 1 beschriebenen Art enthalten, die für die Veräußerung anderer Rechte als Anteile gilt;
+
+f) dass Absatz 4 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits die in Absatz 5 beschriebenen Bestimmungen enthalten.
+
+( 7 ) Jede Vertragspartei dieses Übereinkommens , die nicht den Vorbehalt nach Absatz 6 Buchstabe a angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 1 beschriebene Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Absatz 1 gilt nur dann in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , wenn alle Vertragsstaaten in Bezug auf diese Bestimmung eine Notifikation abgegeben haben.
+
+( 8 ) Jede Vertragspartei dieses Übereinkommens , die sich für die Anwendung des Absatzes 4 entscheidet, notifiziert dem Verwahrer ihre Entscheidung. Absatz 4 gilt nur dann für ein unter das Übereinkommen fallende s Steuer abkommen , wenn alle Vertragsstaaten eine entsprechende Notifikation abgegeben haben. In diesem Fall gilt Absatz 1 nicht in Bezug auf diese s unter das Übereinkommen fallende Steuer abkommen . Im Fall einer Vertragspartei dieses Übereinkommens , die nicht den Vorbehalt nach Absatz 6 Buchstabe f angebracht hat und die den Vorbehalt nach Absatz 6 Buchstabe a angebracht hat, muss diese Notifikation auch die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen umfassen, die eine in Absatz 5 beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung. Haben alle Vertragsstaaten nach diesem Absatz oder nach Absatz 7 eine Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch Absatz 4 ersetzt. Anderenfalls geht Absatz 4 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 4 unvereinbar sind.
+
+#### Artikel 10
+
+#### Vorschrift zur Missbrauchsbekämpfung für in Drittstaaten oder ‑ gebieten gelegene Betriebsstätten
+
+( 1 ) Wenn
+
+a) ein Unternehmen eines Vertragsstaats eine s unter das Übereinkommen fallenden Steuer abkommen s Einkünfte aus dem anderen Vertragsstaat bezieht und der erstgenannte Vertragsstaat diese Einkünfte als Einkünfte betrachtet, die einer in einem Drittstaat oder ‑ gebiet gelegenen Betriebsstätte des Unternehmens zugerechnet werden können, sowie
+
+b) die Gewinne, die dieser Betriebsstätte zugerechnet werden können, im erstgenannten Vertragsstaat von der Steuer befreit sind,
+
+gelten die Vergünstigungen de s unter das Übereinkommen fallenden Steuer abkommen s nicht für Einkünfte, auf die im Drittstaat oder ‑ gebiet weniger als 60 Prozent der Steuer erhoben wird , die im erstgenannten Vertragsstaat von diesen Einkünften erhoben würde, wenn diese Betriebsstätte im erstgenannten Vertragsstaat gelegen wäre. In diesem Fall können Einkünfte, für die dieser Absatz gilt, ungeachtet der sonstige n Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s weiterhin nach dem innerstaatlichen Recht [3] des anderen Vertragsstaats besteuert werden.
+
+( 2 ) Absatz 1 gilt nicht, wenn die in Absatz 1 beschriebenen Einkünfte aus dem anderen Vertragsstaat im Zusammenhang mit einer durch die Betriebsstätte aktiv ausgeübten Geschäftstätigkeit bezogen werden oder mit einer solchen Geschäftstätigkeit verbunden sind (mit Ausnahme der Vornahme, der Verwaltung oder des bloßen Besitzes von Kapitalanlagen für eigene Rechnung des Unternehmens, es sei denn, es handelt sich dabei um Bank-, Versicherungs- oder Wertpapiergeschäfte einer Bank, eines Versicherungsunternehmens beziehungsweise eines zugelassenen Wertpapierhändlers).
+
+( 3 ) Werden Vergünstigungen nach eine m unter das Übereinkommen fallenden Steuer abkommen in Bezug auf bestimmte Einkünfte einer in einem Vertragsstaat ansässigen Person aufgrund des Absatzes 1 versagt , so kann die zuständige Behörde des anderen Vertragsstaats diese Vergünstigungen gleichwohl für diese Einkünfte gewähren, wenn diese zuständige Behörde auf ein en Antrag dieser ansässigen Person hin feststellt, dass die Gewährung dieser Vergünstigungen angesichts der Gründe , aus denen diese ansässige Person die Voraussetzungen der Absätze 1 und 2 nicht erfüllt hat, gerechtfertigt ist. Die zuständige Behörde des Vertragsstaats , bei der eine im anderen Vertragsstaat ansässige Person nach Satz 1 ein en Antrag gestellt hat, konsultiert die zuständige Behörde des anderen Vertragsstaats , bevor sie dem Antrag stattgibt oder ihn ablehnt .
+
+( 4 ) Die Absätze 1 bis 3 gelten anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen Vergünstigungen versagt oder eingeschränkt werden, die einem Unternehmen eines Vertragsstaats , das Einkünfte aus dem anderen Vertragsstaat bezieht, die einer in einem Drittstaat oder ‑ gebiet gelegenen Betriebsstätte des Unternehmens zugerechnet werden können, anderenfalls gewährt würden.
+
+( 5 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+b) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits die in Absatz 4 beschriebenen Bestimmungen enthalten;
+
+c) dass dieser Artikel nur für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits die in Absatz 4 beschriebenen Bestimmungen enthalten.
+
+( 6 ) Jede Vertragspartei dieses Übereinkommens , die nicht den Vorbehalt nach Absatz 5 Buchstabe a oder b angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 4 beschriebene Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch die Absätze 1 bis 3 ersetzt. Anderenfalls gehen die Absätze 1 bis 3 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit den genannten Absätzen unvereinbar sind.
+
+#### Artikel 11
+
+#### Anwendung von Steuer abkommen zur Einschränkung des Recht e s einer Vertragspartei dieses Übereinkommens auf Besteuerung der in ihrem Gebiet ansässigen Personen
+
+( 1 ) Ein unter das Übereinkommen fallende s Steuer abkommen berührt nicht die Besteuerung der in einem Vertragsstaat ansässigen Personen durch diesen Vertragsstaat, außer in Bezug auf die Vergünstigungen, die nach Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s gewährt werden,
+
+a) nach denen dieser Vertragsstaat verpflichtet ist, nachdem der andere Vertragsstaat in Übereinstimmung mit dem unter das Übereinkommen fallenden Steuerabkommen eine Erstberichtigung vorgenommen hat, einem Unternehmen des erstgenannten Vertragsstaats eine entsprechende Gegenberichtigung des Steuerbetrags zu gewähren, der in diesem Vertragsstaat von den Gewinnen einer Betriebsstätte des Unternehmens oder den Gewinnen eines verbundenen Unternehmens erhoben wird,
+
+b) welche die Art und Weise berühren können, wie dieser Vertragsstaat eine in diesem Vertragsstaat ansässige natürliche Person besteuert, wenn diese natürliche Person Einkünfte für dem anderen Vertragsstaat oder einer Gebietskörperschaft oder anderen vergleichbaren Körperschaft dieses Vertragsstaats geleistete Dienste bezieht ,
+
+c) welche die Art und Weise berühren können, wie dieser Vertragsstaat eine in diesem Vertragsstaat ansässige natürliche Person besteuert, wenn diese natürliche Person auch ein Schüler, Student, Auszubildender oder Trainee beziehungsweise Lehrer, Professor, Dozent, Ausbilder, Forscher oder Forschungsstipendiat ist , der die Voraussetzungen de s unter das Übereinkommen fallenden Steuer abkommen s erfüllt ,
+
+d) nach denen dieser Vertragsstaat verpflichtet ist, in diesem Vertragsstaat ansässigen Personen in Bezug auf die Einkünfte, die der andere Vertragsstaat nach de m unter das Übereinkommen fallenden Steuer abkommen besteuern kann (einschließlich Gewinnen, die nach de m unter das Übereinkommen fallenden Steuer abkommen einer im anderen Vertragsstaat gelegenen Betriebsstätte zugerechnet werden können), eine Steueranrechnung oder - befreiung zu gewähren ,
+
+e) durch die in diesem Vertragsstaat ansässige Personen vor bestimmten diskriminierenden Besteuerungsmethoden dieses Vertragsstaats geschützt werden ,
+
+f) nach denen in einem Vertragsstaat ansässige Personen beantragen können, dass die zuständige Behörde dieses oder eines der beiden Vertragsstaaten Fälle von nicht de m unter das Übereinkommen fallenden Steuer abkommen entsprechender Besteuerung prüft ,
+
+g) welche die Art und Weise berühren können, wie dieser Vertragsstaat eine in diesem Vertragsstaat ansässige natürliche Person besteuert, wenn diese natürliche Person Mitglied einer diplomatischen Mission oder konsularischen Vertretung des anderen Vertragsstaats oder einer Vertretung des anderen Vertrags gebiets ist ,
+
+h) nach denen Ruhegehälter und sonstige Zahlungen, die aufgrund des Sozialversicherungsrechts des anderen Vertragsstaats geleistet werden, nur i n diese m anderen Vertragsstaat besteuert werden können ,
+
+i) nach denen aus dem anderen Vertragsstaat stammende Ruhegehälter und ähnliche Zahlungen, Renten, Unterhaltszahlungen an den geschiedenen Ehegatten oder sonstige Unterhaltszahlungen nur i n diese m anderen Vertragsstaat besteuert werden können oder
+
+j) durch die anderweitig das Recht eines Vertragsstaats auf Besteuerung der in seinem Gebiet ansässigen Personen ausdrücklich eingeschränkt wird oder die ausdrücklich vorsehen, dass der Vertragsstaat, aus dem Einkünfte stammen, das ausschließliche Recht auf Besteuerung dieser Einkünfte hat.
+
+( 2 ) Absatz 1 gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen das unter das Übereinkommen fallende Steuer abkommen nicht die Besteuerung der in einem Vertragsstaat ansässigen Personen durch diesen Vertragsstaat berührt.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt;
+
+b) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits die in Absatz 2 beschriebenen Bestimmungen enthalten.
+
+( 4 ) Jede Vertragspartei dieses Übereinkommens , die nicht den in Absatz 3 Buchstabe a oder b beschriebenen Vorbehalt angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 2 beschriebene Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch Absatz 1 ersetzt. Anderenfalls geht Absatz 1 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 1 unvereinbar sind.
+
+Teil IV
+
+Umgehung des Betriebsstättenstatus
+
+#### Artikel 12
+
+#### Künstliche Umgehung des Betriebsstättenstatus durch Kommissionärsmodelle und ähnliche Strategien
+
+( 1 ) Ungeachtet der Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die den Ausdruck „Betriebsstätte“ bestimmen, jedoch vorbehaltlich des Absatzes 2 , wird, wenn eine Person in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s für ein Unternehmen tätig ist und dabei gewöhnlich Verträge schließt oder gewöhnlich die führende Rolle beim Abschluss von Verträgen ein nimmt , die regelmäßig ohne wesentliche Änderung durch das Unternehmen geschlossen werden, und es sich dabei um Verträge
+
+a) im Namen des Unternehmens oder
+
+b) zur Übertragung des Eigentums an oder zur Gewährung des Nutzungsrechts für Vermögen, das diesem Unternehmen gehört oder für das es das Nutzungsrecht besitzt , oder
+
+c) zur Erbringung von Dienstleistungen durch dieses Unternehmen
+
+handelt, das Unternehmen so behandelt, als habe es in Bezug auf alle von dieser Person für das Unternehmen ausgeübten Tätigkeiten eine Betriebsstätte in diesem Vertragsstaat , es sei denn, diese Tätigkeiten, würden sie vom Unternehmen durch eine in diesem Vertragsstaat gelegene feste Geschäftseinrichtung dieses Unternehmens ausgeführt, würden nicht dazu führen, dass diese feste Geschäftseinrichtung als Betriebsstätte im Sinne der i n de m unter das Übereinkommen fallenden Steuer abkommen (in der gegebenenfalls durch d ieses Übereinkommen geänderten Fassung) enthaltenen Bestimmung des Begriffs „Betriebsstätte“ behandelt würde .
+
+( 2 ) Absatz 1 gilt nicht, wenn die in einem Vertragsstaat eine s unter das Übereinkommen fallenden Steuer abkommen s für ein Unternehmen des anderen Vertragsstaats tätige Person im erstgenannten Vertragsstaat eine Geschäftstätigkeit als unabhängiger Vertreter ausübt und im Rahmen dieser ordentlichen Geschäftstätigkeit für das Unternehmen handelt . Ist eine Person jedoch ausschließlich oder nahezu ausschließlich für ein oder mehrere Unternehmen tätig, mit dem beziehungsweise denen sie eng verbunden ist, so gilt diese Person in Bezug auf diese s beziehungsweise diese Unternehmen nicht als unabhängiger Vertreter im Sinne dieses Absatzes.
+
+( 3 ) a) Absatz 1 gilt anstelle von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , in denen die Voraussetzungen beschrieben sind, unter denen ein Unternehmen so behandelt wird, als habe es in Bezug auf eine von einer anderen Person als einem unabhängigen Vertreter für das Unternehmen ausgeübte Tätigkeit eine Betriebsstätte in einem Vertragsstaat (oder eine Person so behandelt wird, als sei sie in Bezug auf eine derartige Tätigkeit eine Betriebsstätte in einem Vertragsstaat ), jedoch nur insoweit, als in diese n Bestimmungen de r Fall geregelt ist , in dem diese Person in diesem Vertragsstaat eine Vollmacht für den Abschluss von Verträgen im Namen des Unternehmens besitzt und gewöhnlich ausübt.
+
+b) Absatz 2 gilt anstelle von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen ein Unternehmen nicht so behandelt wird, als habe es in Bezug auf eine von einem unabhängigen Vertreter für das Unternehmen ausgeübte Tätigkeit eine Betriebsstätte in einem Vertragsstaat .
+
+( 4 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten, dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt.
+
+( 5 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 4 angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 3 Buchstabe a beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung. Absatz 1 gilt nur dann in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , wenn alle Vertragsstaaten in Bezug auf diese Bestimmung eine Notifikation abgegeben haben.
+
+( 6 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 4 angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 3 Buchstabe b beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung. Absatz 2 gilt nur dann in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , wenn alle Vertragsstaaten in Bezug auf diese Bestimmung eine entsprechende Notifikation abgegeben haben.
+
+#### Artikel 13
+
+#### Künstliche Umgehung des Betriebsstättenstatus durch die Ausnahme bestimmter Tätigkeiten
+
+(1) Eine Vertragspartei dieses Übereinkommens kann sich entscheiden, Absatz 2 ( Option A), Absatz 3 ( Option B) oder keine der beiden Optione n anzuwenden.
+
+Option A
+
+( 2 ) Ungeachtet der Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die den Ausdruck „Betriebsstätte“ bestimmen , gelten folgende Fälle als nicht von dem Ausdruck „Betriebsstätte“ umfasst:
+
+a) die Tätigkeiten, die in dem unter das Übereinkommen fallenden Steuer abkommen (vor Änderung durch das Übereinkommen) ausdrücklich als nicht als Betriebsstätte geltende Tätigkeiten aufgeführt sind, unabhängig davon, ob diese Ausnahme vom Betriebsstättenstatus voraussetzt, dass die Tätigkeit vorbereitender Art ist oder eine Hilfstätigkeit darstellt ,
+
+b) eine feste Geschäftseinrichtung, die ausschließlich zu dem Zweck unterhalten wird, für das Unternehmen eine nicht unter Buchstabe a beschriebene Tätigkeit auszuüben,
+
+c) eine feste Geschäftseinrichtung, die ausschließlich zu dem Zweck unterhalten wird, mehrere der unter den Buchstaben a und b genannten Tätigkeiten auszuüben ,
+
+sofern diese Tätigkeit oder im Fall des Buchstabens c die Gesamttätigkeit der festen Geschäftseinrichtung vorbereitender Art ist oder eine Hilfstätigkeit darstellt .
+
+Option B
+
+( 3 ) Ungeachtet der Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die den Ausdruck „Betriebsstätte“ bestimmen , gelten folgende Fälle als nicht von dem Ausdruck „Betriebsstätte“ umfasst:
+
+a) die Tätigkeiten, die in de m unter das Übereinkommen fallenden Steuer abkommen (vor Änderung durch das Übereinkommen) ausdrücklich als nicht als Betriebsstätte geltende Tätigkeiten aufgeführt sind, unabhängig davon, ob diese Ausnahme vom Betriebsstättenstatus voraussetzt, dass die Tätigkeit vorbereitender Art ist oder eine Hilfstätigkeit darstellt , soweit die einschlägige Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s nicht ausdrücklich vorsieht, dass eine bestimmte Tätigkeit nicht als Betriebsstätte gilt, sofern die Tätigkeit vorbereitender Art ist oder eine Hilfstätigkeit darstellt ;
+
+b) eine feste Geschäftseinrichtung, die ausschließlich zu dem Zweck unterhalten wird, für das Unternehmen eine nicht unter Buchstabe a beschriebene Tätigkeit auszuüben , sofern diese Tätigkeit vorbereitender Art ist oder eine Hilfstätigkeit darstellt ;
+
+c) eine feste Geschäftseinrichtung, die ausschließlich zu dem Zweck unterhalten wird, mehrere der unter den Buchstaben a und b genannten Tätigkeiten auszuüben , sofern die sich daraus ergebende Gesamttätigkeit der festen Geschäftseinrichtung vorbereitender Art ist oder eine Hilfstätigkeit darstellt .
+
+( 4 ) Eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch Absatz 2 oder 3 geänderten Fassung), in der bestimmte Tätigkeiten aufgeführt sind, die nicht als Betriebsstätte gelten, gilt nicht für eine von einem Unternehmen genutzte oder unterhaltene feste Geschäftseinrichtung, wenn dasselbe Unternehmen oder ein eng verbundenes Unternehmen an demselben Ort oder an einem anderen Ort in demselben Vertragsstaat eine Geschäftstätigkeit ausübt und
+
+a) dieser Ort oder der andere Ort für das Unternehmen oder das eng verbundene Unternehmen nach den Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die den Begriff „Betriebsstätte“ bestimmen , eine Betriebsstätte darstellt, oder
+
+b) die Gesamttätigkeit, die sich aus den von den beiden Unternehmen an demselben Ort oder von demselben Unternehmen oder eng verbundenen Unternehmen an den beiden Orten ausgeübten Tätigkeiten ergibt, weder vorbereitender Art ist noch eine Hilfstätigkeit darstellt ,
+
+sofern die von den beiden Unternehmen an demselben Ort oder von demselben Unternehmen oder eng verbundenen Unternehmen an den beiden Orten ausgeübten Geschäftstätigkeiten sich ergänzende Aufgaben darstellen, die Teil eines zusammenhängenden Geschäftsbetriebs sind.
+
+( 5 ) a) Absatz 2 oder 3 gilt anstelle der einschlägigen Passagen von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , in denen bestimmte Tätigkeiten aufgeführt sind, die nicht als Betriebsstätte gelten, selbst wenn die Tätigkeit durch eine feste Geschäftseinrichtung ausgeübt wird (oder von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die auf vergleichbare Weise wirken).
+
+b) Absatz 4 gilt für Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch Absatz 2 oder 3 geänderten Fassung), in denen bestimmte Tätigkeiten aufgeführt sind, die nicht als Betriebsstätte gelten, selbst wenn die Tätigkeit durch eine feste Geschäftseinrichtung ausgeübt wird (oder für Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die auf vergleichbare Weise wirken).
+
+( 6 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt ;
+
+b) dass Absatz 2 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, in denen ausdrücklich erklärt wird, dass die in eine r Liste aufgeführten bestimmte n Tätigkeiten nur dann nicht als Betriebsstätte gelten , wenn jede einzelne dieser Tätigkeiten vorbereitender Art ist oder eine Hilfstätigkeit darstellt ;
+
+c) dass Absatz 4 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt.
+
+( 7 ) Jede Vertragspartei dieses Übereinkommens , die sich nach Absatz 1 für die Anwendung einer Option entscheidet, notifiziert dem Verwahrer die gewählte Option . Diese Notifikation muss auch die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen umfassen , die eine in Absatz 5 Buchstabe a beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung. Eine Option gilt nur dann in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , wenn sich alle Vertragsstaaten für die Anwendung derselben Option entschieden haben und in Bezug auf diese Bestimmung eine entsprechende Notifikation abgegeben haben.
+
+( 8 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 6 Buchstabe a oder c angebracht hat und sich nicht nach Absatz 1 für die Anwendung einer Option entscheidet, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 5 Buchstabe b beschriebene Bestimmung enthalten, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung. Absatz 4 gilt nur dann in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , wenn alle Vertragsstaaten nach diesem Absatz oder nach Absatz 7 in Bezug auf diese Bestimmung eine Notifikation abgegeben haben.
+
+#### Artikel 14
+
+#### Aufteilung von Verträgen
+
+( 1 ) Ausschließlich zu dem Zweck, festzustellen , ob der Zeitraum (oder die Zeiträume) überschritten wurde (beziehungsweise wurden) , der (beziehungsweise die) in einer Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s genannt wird (beziehungsweise werden) , in der ein Zeitraum (oder Zeiträume) festgelegt ist (beziehungsweise sind) , nach dessen (beziehungsweise deren) Überschreitung bestimmte Projekte oder Tätigkeiten eine Betriebsstätte darstellen,
+
+a) wenn ein Unternehmen eines Vertragsstaats im anderen Vertragsstaat Tätigkeiten an einem Ort ausübt, der eine Baustelle, eine Bauausführung, eine Montage oder ein sonstiges in der einschlägigen Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s bezeichnetes bestimmtes Projekt darstellt, oder im Zusammenhang mit einem derartigen Ort Aufsichts- oder Beratungstätigkeiten ausübt, falls in eine r Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s derartige Tätigkeiten genannt werden , und wenn diese Tätigkeiten während eines oder mehrerer Zeiträume ausgeübt werden, die insgesamt 30 Tage überschreiten, ohne den in der einschlägigen Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s genannten Zeitraum beziehungsweise die dort genannten Zeiträume zu überschreiten, und
+
+b) wenn miteinander zusammenhängende Tätigkeiten im anderen Vertragsstaat am Ort (oder, wenn die einschlägige Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s für Aufsichts- oder Beratungstätigkeiten gilt, im Zusammenhang mit) derselben Baustelle oder derselben Bauausführung oder Montage oder an einem sonstigen in der einschlägigen Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s bezeichneten Ort während verschiedener Zeiträume, die jeweils 30 Tage überschreiten, durch ein oder mehrere eng mit dem erstgenannten Unternehmen verbundene Unternehmen ausgeübt werden,
+
+werden diese verschiedenen Zeiträume dem Gesamtz eitraum hinzugerechnet, während dessen das erstgenannte Unternehmen am Ort dieser Baustelle , dieser Bauausführung oder Montage oder an diesem sonstigen in der einschlägigen Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s bezeichneten Ort Tätigkeiten ausgeübt hat.
+
+( 2 ) Absatz 1 gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , soweit in diesen Bestimmungen die Aufteilung von Verträgen in mehrere Teile zur Vermeidung der Überschreitung eines Zeitraums oder von Zeiträumen in Bezug auf das Bestehen einer Betriebsstätte für bestimmte in Absatz 1 beschriebene Projekte oder Tätigkeiten geregelt wird.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt ;
+
+b) dass dieser gesamte Artikel nicht für Bestimmungen ihrer unter das Übereinkommen fallenden Steuer abkommen gilt, die sich auf das Aufsuchen oder die Ausbeutung von natürlichen Ressourcen beziehen.
+
+( 4 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 3 Buchstabe a angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 2 beschriebene Bestimmung enthalten, die nicht eine m Vorbehalt nach Absatz 3 Buchstabe b unterliegt , und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch Absatz 1 ersetzt, soweit in Absatz 2 vorgesehen. Anderenfalls geht Absatz 1 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 1 unvereinbar sind.
+
+#### Artikel 15
+
+#### Bestimmung des Begriffs der mit einem Unternehmen eng verbundenen Person
+
+( 1 ) Im Sinne eine s durch Artikel 12 (Künstliche Umgehung des Betriebsstättenstatus durch Kommissionärsmodelle und ähnliche Strategien) Absatz 2, Artikel 13 (Künstliche Umgehung des Betriebsstättenstatus durch die Ausnahme bestimmter Tätigkeiten) Absatz 4 oder Artikel 14 (Aufteilung von Verträgen) Absatz 1 geänderten unter das Übereinkommen fallenden Steuer abkommen s ist eine Person mit einem Unternehmen eng verbunden, wenn allen maßgeblichen Tatsachen und Umständen zufolge die Person das Unternehmen oder das Unternehmen die Person beherrscht oder beide von denselben Personen oder Unternehmen beherrscht werden. In jedem Fall gilt eine Person als mit einem Unternehmen eng verbunden, wenn einer von beiden mittelbar oder unmittelbar mehr als 50 Prozent der Eigentumsrechte am anderen (oder bei einer Gesellschaft mehr als 50 Prozent der Gesamtstimmrechte und des Gesamtwerts der Anteile der Gesellschaft oder der Eigentumsrechte an der Gesellschaft) besitzt oder wenn eine weitere Person mittelbar oder unmittelbar mehr als 50 Prozent der Eigentumsrechte an der Person und dem Unternehmen (oder bei einer Gesellschaft mehr als 50 Prozent der Gesamtstimmrechte und des Gesamtwerts der Anteile der Gesellschaft oder der Eigentumsrechte an der Gesellschaft) besitzt.
+
+( 2 ) Eine Vertragspartei dieses Übereinkommens , welche die in Artikel 12 (Künstliche Umgehung des Betriebsstättenstatus durch Kommissionärsmodelle und ähnliche Strategien) Absatz 4, Artikel 13 (Künstliche Umgehung des Betriebsstättenstatus durch die Ausnahme bestimmter Tätigkeiten) Absatz 6 Buchstabe a oder c und Artikel 14 (Aufteilung von Verträgen) Absatz 3 Buchstabe a beschriebenen Vorbehalte angebracht hat, kann sich vorbehalten, dass dieser gesamte Artikel nicht für die u nter das Übereinkommen fallende n Steuer abkommen gilt, für die diese Vo rbehalte gelten.
+
+Teil V Verbesserung der Streitbeilegung
+
+#### Artikel 16
+
+#### Verständigungsverfahren
+
+( 1 ) Ist eine Person der Auffassung, dass die Maßnahmen eines oder beider Vertragsstaaten für sie zu einer Besteuerung führen oder führen werden, die de m unter das Übereinkommen fallenden Steuer abkommen nicht entspricht, so kann sie ungeachtet der im innerstaatlichen Recht dieser Vertragsstaaten vorgesehenen Rechtsbehelfe den Fall der zuständigen Behörde eines der beiden Vertragsstaaten vorlegen. Der Fall muss innerhalb von drei Jahren nach der ersten Mitteilung der Maßnahme vorgelegt werden, die zu einer de m unter das Übereinkommen fallenden Steuer abkommen nicht entsprechenden Besteuerung führt.
+
+( 2 ) Hält die zuständige Behörde die Einwendung für berechtigt und ist sie selbst nicht in der Lage, eine zufriedenstellende Lösung herbeizuführen, so wird sie sich bemühen , den Fall durch Verständigung mit der zuständigen Behörde des anderen Vertragsstaats so zu regeln, dass eine de m unter das Übereinkommen fallenden Steuer abkommen nicht entsprechende Besteuerung vermieden wird. Jede erzielte Verständigung sregelung ist ungeachtet jeglicher im innerstaatlichen Recht der Vertragsstaaten vorgesehener Fristen umzusetzen.
+
+( 3 ) Die zuständigen Behörden der Vertragsstaaten werden sich bemühen , Schwierigkeiten oder Zweifel hinsichtlich der Auslegung oder Anwendung de s unter das Übereinkommen fallenden Steuer abkommen s durch Verständigung auszuräumen. Sie können auch gemeinsam beraten, um eine Doppelbesteuerung in Fällen, die i n de m unter das Übereinkommen fallenden Steuer abkommen nicht vorgesehen sind, zu beseitigen.
+
+( 4 ) a) i) Absatz 1 Satz 1 gilt anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s (oder Teilen davon), nach denen eine Person, wenn sie der Auffassung ist, dass die Maßnahmen eines oder beider Vertragsstaaten für sie zu einer Besteuerung führen oder führen werden, die de m unter das Übereinkommen fallenden Steuer abkommen nicht entspricht, ungeachtet der im innerstaatlichen Recht dieser Vertragsstaaten vorgesehenen Rechtsbehelfe den Fall der zuständigen Behörde des Vertragsstaats , in dem sie ansässig ist, vorlegen kann, einschließlich Bestimmungen, nach denen der Fall der zuständigen Behörde des Vertragsstaats vorgelegt werden kann, dessen Staatsa ngehörige die Person ist, sofern der von ihr vorgelegte Fall den Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s zur Gleichbehandlung aufgrund der Staatsangehörigkeit unterliegt .
+
+ii) Absatz 1 Satz 2 gilt anstelle von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen ein in Absatz 1 Satz 1 genannter Fall innerhalb einer bestimmten Frist von weniger als drei Jahren nach der ersten Mitteilung der Maßnahme, die zu einer de m unter das Übereinkommen fallenden Steuer abkommen nicht entsprechenden Besteuerung führt, vorgelegt werden muss, oder in Ermangelung einer Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s , in der eine Frist festgelegt wird, innerhalb derer ein derartiger Fall vorgelegt werden muss.
+
+b) i) Absatz 2 Satz 1 gilt in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen die zuständige Behörde, welcher der Fall von der in Absatz 1 genannten Person vorgelegt wird, sich bemühen wird – sofern sie die Einwendung für berechtigt hält und selbst nicht in der Lage ist, eine zufriedenstellende Lösung herbeizuführen – den Fall durch Verständigung mit der zuständigen Behörde des anderen Vertragsstaats so zu regeln, dass eine de m unter das Übereinkommen fallenden Steuer abkommen nicht entsprechende Besteuerung vermieden wird.
+
+ii) Absatz 2 Satz 2 gilt in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen eine erzielte Verständigungsregelung ungeachtet jeglicher im innerstaatlichen Recht der Vertragsstaaten vorgesehener Fristen umzusetzen ist.
+
+c) i) Absatz 3 Satz 1 gilt in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen die zuständigen Behörden der Vertragsstaaten sich bemühen werden , Schwierigkeiten oder Zweifel hinsichtlich der Auslegung oder Anwendung de s unter das Übereinkommen fallenden Steuer abkommen s durch Verständigung auszuräumen.
+
+ii) Absatz 3 Satz 2 gilt in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , nach denen die zuständigen Behörden der Vertragsstaaten auch gemeinsam beraten können, um eine Doppelbesteuerung in Fällen, die i n de m unter das Übereinkommen fallenden Steuer abkommen nicht vorgesehen sind , zu beseitigen.
+
+( 5 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass Absatz 1 Satz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, da sie beabsichtigt, den Mindeststandard für die Verbesserung der Streitbeilegung nach dem BEPS-Paket der OECD/G20 zu erfüllen, indem sie sicherstellt, dass nach jede m ihrer unter das Übereinkommen fallenden Steuer abkommen ( mit Ausnahme der unter das Übereinkommen fallenden Steuer abkommen , nach denen eine Person einen Fall der zuständigen Behörde eines der beiden Vertragsstaaten vorlegen darf) eine Person, wenn sie der Auffassung ist, dass die Maßnahmen eines oder beider Vertragsstaaten für sie zu einer Besteuerung führen oder führen werden, die de m unter das Übereinkommen fallenden Steuer abkommen nicht entspricht, ungeachtet der im innerstaatlichen Recht dieser Vertragsstaaten vorgesehenen Rechtsbehelfe den Fall der zuständigen Behörde des Vertragsstaats , in dem sie ansässig ist, oder, sofern der von dieser Person vorgelegte Fall einer Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s zur Gleichbehandlung aufgrund der Staatsangehörigkeit unterliegt , der zuständigen Behörde des Vertragsstaats , dessen Staatsa ngehörige sie ist, vorlegen kann; außerdem wird die zuständige Behörde dieses Vertragsstaats ein bilaterales Notifikations - oder Konsultationsverfahren mit der zuständigen Behörde des anderen Vertragsstaats für Fälle durchführen, in denen die zuständige Behörde, welcher der Fall , der Gegenstand eines Verständigungsverfahrens sein soll , vorgelegt wurde, die Einwendung des Steuerpfl ichtigen für unberechtigt hält;
+
+b) dass Absatz 1 Satz 2 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die für die Vorlage des in Absatz 1 Satz 1 genannten Falles keine bestimmte Frist vorsehen, da sie beabsichtigt, den Mindeststandard für die Verbesserung der Streitbeilegung nach dem BEPS-Paket der OECD/G20 zu erfüllen, indem sie sicherstellt, dass dem in Absatz 1 genannten Steuerpflichtigen für die Zwecke aller derartigen unter das Übereinkommen fallenden Steuer abkommen gestattet ist, den Fall innerhalb einer Frist von mindestens drei Jahren nach der ersten Mitteilung der Maßnahme vorzulegen, die zu einer de m unter das Übereinkommen fallenden Steuer abkommen nicht en tsprechenden Besteuerung führt;
+
+c) dass Absatz 2 Satz 2 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, da für die Zwecke aller ihrer unter das Übereinkommen fallenden Steuer abkommen
+
+i) eine im Wege des Verständigungsverfahrens erzielte Verständigungsregelung ungeachtet jeglicher im innerstaatlichen Recht der Vertragsstaaten vorgesehener Fristen im innerstaatlichen Recht der Vertragsstaaten umzusetzen ist oder
+
+ii) die Vertragspartei dieses Übereinkommens beabsichtigt, den Mindeststandard für die Verbesserung der Streitbeilegung nach dem BEPS-Paket der OECD/G20 zu erfüllen, indem sie in ihren bilateralen Vertragsverhandlungen eine Vertragsbestimmung annimmt, nach der
+
+A) die Vertragsstaaten keine Berichtigung der Gewinne, die einer Betriebsstätte eines Unternehmens eines der Vertragsstaaten zugerechnet werden können, vornehmen nach dem Ablauf eine r zwischen den beiden Vertragsstaaten durch Verständigung vereinbarten Frist ab dem Ende des Steuerjahrs , in dem die Gewinne der Betriebsstätte hätten zugerechnet werden können (diese Bestimmung ist nicht anzuwenden im Fall von Betrug, grober Fahrlässigkeit oder vorsätzlicher Unterlassung), und
+
+B) die Vertragsstaaten den Gewinne n eines Unternehmens nicht die Gewinne zu rechnen und entsprechend besteuern , die das Unternehmen erzielt hätte , aufgrund der in einer Bestimmung de s unter das Übereinkommen fallenden Steuer abkommen s in Bezug auf verbundene Unternehmen genannten Bedingungen jedoch nicht erzielt hat , nach dem Ablauf eine r zwischen den beiden Vertragsstaaten durch Verständigung vereinbarten Frist ab dem Ende des Steuerjahrs , in dem das Unternehmen die Gewinne erzielt hätte (diese Bestimmung ist nicht anzuwenden im Fall von Betrug, grober Fahrlässigkeit oder vorsätzlicher Unterlassung).
+
+( 6 ) a) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 5 Buchstabe a angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 4 Buchstabe a Ziffer i beschriebene Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben alle Vertragsstaaten eine Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch Absatz 1 Satz 1 ersetzt. Anderenfalls geht Absatz 1 Satz 1 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen nur insoweit vor , als diese mit Abs atz 1 Satz 1 unvereinbar sind.
+
+b) Jede Vertragspartei dieses Übereinkommens , die nicht den Vorbehalt nach Absatz 5 Buchstabe b angebracht hat, notifiziert dem Verwahrer
+
+i) die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die eine Bestimmung enthalten, nach der ein in Absatz 1 Satz 1 genannter Fall innerhalb einer bestimmten Frist von weniger als drei Jahren nach der ersten Mitteilung der Maßnahme, die zu einer de m unter das Übereinkommen fallenden Steuer abkommen nicht entsprechenden Besteuerung führt, vorgelegt werden muss, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung; eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s wird durch Absatz 1 Satz 2 ersetzt, wenn alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf diese Bestimmung abgegeben haben; anderenfalls, jedo ch vorbehaltlich der Ziffer ii geht Absatz 1 Satz 2 den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 1 Satz 2 unvereinbar sind;
+
+ii) die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die eine Bestimmung enthalten, nach der ein in Absatz 1 Satz 1 genannter Fall innerhalb einer bestimmten Frist von mindestens drei Jahren nach der ersten Mitteilung der Maßnahme, die zu einer de m unter das Übereinkommen fallenden Steuer abkommen nicht entsprechenden Besteuerung führt, vorgelegt werden muss, sowie jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung; Absatz 1 Satz 2 gilt nicht für ein unter das Übereinkommen fallende s Steuer abkommen , wenn ein Vertragsstaat eine entsprechende Notifikation in Bezug auf diese abgegeben hat.
+
+c) Jede Vertragspartei dieses Übereinkommens notifiziert dem Verwahrer
+
+i) die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die keine in Absatz 4 Buchstabe b Ziffer i beschriebene Bestimmung enthalten; Absatz 2 Satz 1 gilt nur dann für ein unter das Übereinkommen fallende s Steuer abkommen , wenn alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf diese abgegeben haben;
+
+ii) die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die keine in Absatz 4 Buchstabe b Ziffer ii beschriebene Bestimmung enthalten, wenn sie nicht den Vorbehalt nach Absatz 5 Buchstabe c angebracht hat; Absatz 2 Satz 2 gilt nur dann für ein unter das Übereinkommen fallende s Steuer abkommen , wenn alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf diese s abgegeben haben.
+
+d) Jede Vertragspartei dieses Übereinkommens notifiziert dem Verwahrer
+
+i) die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die keine in Absatz 4 Buchstabe c Ziffer i beschriebene Bestimmung enthalten; Absatz 3 Satz 1 gilt nur dann für ein unter das Übereinkommen fallende s Steuer abkommen , wenn alle Vertragsstaaten eine entsprechende Notifikation in B ezug auf diese s abgegeben haben;
+
+ii) die Liste ihrer unter das Übereinkommen fallenden Steuer abkommen , die keine in Absatz 4 Buchstabe c Ziffer ii beschriebene Bestimmung enthalten; Absatz 3 Satz 2 gilt nur dann für ein unter das Übereinkommen fallende s Steuer abkommen , wenn alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf diese s abgegeben haben.
+
+#### Artikel 17
+
+#### Gegenberichtigung
+
+( 1 ) Rechnet ein Vertragsstaat den Gewinne n eines Unternehmens dieses Vertragsstaats Gewinne zu , mit denen ein Unternehmen des anderen Vertragsstaats i n diese m anderen Vertragsstaat besteuert worden ist , und besteuert diese Gewinne entsprechend und handelt es sich bei den zugerechneten Gewinnen um solche, die das Unternehmen des erstgenannten Vertragsstaats erzielt hätte , wenn die zwischen den beiden Unternehmen vereinbarten Bedingungen die gleichen gewesen wären, die unabhängige Unternehmen miteinander vereinbart hätten, so nimmt d ies er andere Vertragsstaat eine entsprechende Berichtigung der Höhe der dort von diesen Gewinnen erhobenen Steuer vor. Bei der Ermittlung dieser Berichtigung sind die übrigen Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s zu berücksichtigen und erforderlichenfalls konsultieren die zuständigen Behörden der Vertragsstaaten einander.
+
+( 2 ) Absatz 1 gilt anstelle oder in Ermangelung einer Bestimmung, nach der ein Vertragsstaat verpflichtet ist, eine entsprechende Berichtigung der Höhe der dort von den Gewinnen eines Unternehmens dieses Vertragsstaats erhobenen Steuer vorzunehmen, wenn der andere Vertragsstaat diese Gewinne den Gewinne n eines Unternehmens d ies es anderen Vertragsstaats zurechnet und diese Gewinne entsprechend besteuert und es sich bei den zugerechneten Gewinnen um solche handelt, die das Unternehmen d ies es anderen Vertragsstaats erzielt hätte , wenn die zwischen den beiden Unternehmen vereinbarten Bedingungen die gleichen gewesen wären, die unabhängige Unternehmen miteinander vereinbart hätten.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+a) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, die bereits eine in Absatz 2 beschriebene Bestimmung enthalten;
+
+b) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, da in Ermangelung einer in Absatz 2 genannten Bestimmung in ihre m unter das Übereinkommen fallenden Steuer abkommen
+
+i) sie die in Absatz 1 genannte entsprechende Berichtigung vornimmt oder
+
+ii) ihre zuständige Behörde sich bemühen wird , den Fall nach den Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s in Bezug auf das Verständigungsverfahren zu regeln;
+
+c) dass dieser gesamte Artikel nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, wenn sie einen Vorbehalt nach Artikel 16 (Verständigungsverfahren) Absatz 5 Buchstabe c Ziffer ii angebracht hat, da sie in ihren bilateralen Vertragsverhandlungen eine Vertragsbestimmung der in Absatz 1 beschriebenen Art annimmt, sofern die Vertragsstaaten eine Verständigungsregelung über diese Bestimmung und die in Artikel 16 (Verständigungsverfahren) Absatz 5 Buchstabe c Ziffer ii beschriebenen Bestimmungen erzielen konnten.
+
+( 4 ) Jede Vertragspartei dieses Übereinkommens , die keinen Vorbehalt nach Absatz 3 angebracht hat, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen jeweils eine in Absatz 2 beschriebene Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben alle Vertragsstaaten eine entsprechende Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese durch Absatz 1 ersetzt. Anderenfalls geht Absatz 1 de n Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s nur insoweit vor , als diese mit Absatz 1 unvereinbar sind.
+
+Teil VI Schiedsverfahren
+
+#### Artikel 18
+
+#### Entscheidung für die Anwendung des Teiles VI
+
+Eine Vertragspartei dieses Übereinkommens kann sich entscheiden, diesen Teil in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen anzuwenden, und notifiziert dies dem Verwahrer. Dieser Teil gilt nur dann für zwei Vertragsstaaten in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen , wenn beide Vertragsstaaten eine entsprechende Notifikation abgegeben haben.
+
+#### Artikel 19
+
+#### Obligatorisches verbindliches Schiedsverfahren
+
+( 1 ) Wenn
+
+a) eine Person aufgrund einer Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch Artikel 16 (Verständigungsverfahren) Absatz 1 geänderten Fassung), nach der eine Person einen Fall einer zuständigen Behörde eines Vertragsstaats vorlegen kann, wenn sie der Auffassung ist, dass die Maßnahmen eines oder beider Vertragsstaaten für sie zu einer Besteuerung führen oder führen werden, die de m unter das Übereinkommen fallenden Steuer abkommen (in der gegebenenfalls durch das Übereinkommen geänderten Fassung) nicht entspricht, der zuständigen Behörde eines Vertragsstaats einen Fall vorgelegt hat, weil die Maßnahmen eines oder beider Vertragsstaaten für sie zu einer de m unter das Übereinkommen fallenden Steuer abkommen (in der gegebenenfalls durch das Übereinkommen geänderten Fassung) nicht entsprechenden Besteuerung geführt haben, und
+
+b) die zuständigen Behörden nicht innerhalb von zwei Jahren ab dem in Absatz 8 oder, je nach Sachlage, Absatz 9 genannten Fristbeginn (es sei denn, die zuständigen Behörden der Vertragsstaaten haben vor Ablauf dieser Frist eine andere Frist für diesen Fall vereinbart und die Person, die den Fall vorgelegt hat, darüber unterrichtet) eine Verständigungsregelung zur Regelung des Falles nach einer Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch Artikel 16 (Verständigungsverfahren) Absatz 2 geänderten Fassung) erzielen können, die vorsieht, dass sich die zuständige Behörde bemühen wird , den Fall durch Verständigung mit der zuständigen Behörde des anderen Vertragsstaats zu regeln,
+
+werden auf schriftlichen Antrag der Person noch offene Fragen des Falles auf die in diesem Teil beschriebene Weise und im Einklang mit den von den zuständigen Behörden der Vertragsstaaten nach Absatz 10 vereinbarte n Vorschriften oder Verfahren einem Schiedsverfahren unterworfen .
+
+( 2 ) Hat eine zuständige Behörde das in Absatz 1 erwähnte Verständigungsverfahren ausgesetzt, da bei einem Gericht ein Fall betreffend eine oder mehrere gleiche Fragen anhängig ist, so ist der Lauf der in Absatz 1 Buchstabe b vorgesehenen Frist gehemmt, bis entweder eine abschließende Gerichtsentscheidung ergangen ist oder der Fall eingestellt oder zurückgezogen wurde. Auch wenn eine Person, die einen Fall vorgelegt hat, und eine zuständige Behörde eine Aussetzung des Verständigungsverfahrens vereinbart haben, ist der Lauf der in Absatz 1 Buchstabe b vorgesehenen Frist gehemmt, bis die Aussetzung aufgehoben wurde.
+
+( 3 ) Kommen beide zuständigen Behörden überein , dass eine unmittelbar von dem Fall betroffene Person es versäumt hat, zusätzliche wesentliche Informationen, die nach Beginn der in Absatz 1 Buchstabe b vorgesehenen Frist von einer der beiden zuständigen Behörden angefordert wurde n , rechtzeitig bereitzustellen , so wird die in Absatz 1 Buchstabe b vorgesehene Frist um eine Dauer verlängert, die dem Zeitraum entspricht, der an dem Tag beginnt , bis zu dem die Informationen angefordert waren, und an dem Tag endet , an dem sie bereitgestellt wurden .
+
+( 4 ) a) Der Schiedsspruch über die einem Schiedsverfahren unterworfenen Fragen wird durch die Verständigungsregelung in Bezug auf den in Absatz 1 genannten Fall umgesetzt. Der Schiedsspruch ist endgültig.
+
+b) Der Schiedsspruch ist für beide Vertragsstaaten verbindlich , es sei denn,
+
+i) eine unmittelbar von dem Fall betroffene Person erkennt die Verständigungsregelung, durch die der Schiedsspruch umgesetzt wird, nicht an. In diesem Fall kommt der Fall für eine weitere Prüfung durch die zuständigen Behörden nicht in Betracht. Die Verständigungsregelung, durch die der Schiedsspruch über den Fall um ge setz t wird, gilt als von einer unmittelbar von dem Fall betroffenen Person nicht anerkannt , sofern nicht eine unmittelbar von dem Fall betroffene Person innerhalb von 60 Tagen nach Übermittlung der Mitteilung über die Verständigungsregelung an die Person alle in der Verständigungsregelung, durch die der Schiedsspruch um ge setz t wird, geklärten Fragen von der Prüfung durch ein Gericht zurückzieht oder alle gegebenenfalls anhängigen Gerichtsverfahren und außergerichtlichen Rechtsbehelfsverfahren in Bezug auf diese Fragen in einer mit d ies er Verständigungsregelung übereinstimmenden Weise beendet;
+
+ii) der Schiedsspruch wird in einer abschließenden E ntscheidung der Gerichte eines d er Vertragsstaaten für ungültig erklärt. In diesem Fall gilt der Schiedsantrag nach Absatz 1 als nicht gestellt und das Schiedsverfahren als nicht durchgeführt (außer für die Zwecke der Artikel 21 (Vertraulichkeit von Schiedsverfahren) und 25 (Kosten von Schiedsverfahren). In diesem Fall kann ein neuer Schiedsantrag gestellt werden, sofern die zuständigen Behörden nicht übereinkommen , dass ein solcher neuer Antrag nicht zulässig sein soll;
+
+iii) eine unmittelbar von dem Fall betroffene Person strengt ein Gerichtsverfahren zu den in der Verständigungsregelung , durch die der Schiedsspruch umgesetzt wird, geklärten Fragen an.
+
+( 5 ) Die zuständige Behörde, bei welcher der ursprüngliche Antrag auf ein Verständigungsverfahren nach Absatz 1 Buchstabe a eingegangen ist, übermittelt innerhalb von zwei Kalenderm onaten nach Eingang des Antrags
+
+a) eine Mitteilung über den Eingang des Antrags an die Person, die den Fall vorgelegt hat, sowie
+
+b) eine Mitteilung über diese n Antrag mit eine r Abschrift desselben an die zuständige Behörde des anderen Vertragsstaats .
+
+( 6 ) Innerhalb von drei Kalenderm onaten, nachdem eine zuständige Behörde den Antrag auf ein Verständigungsverfahren (oder eine Abschrift desselben von der zuständigen Behörde des anderen Vertragsstaats ) erhalten hat, wird sie
+
+a) entweder der Person, die den Fall vorgelegt hat, und der anderen zuständigen Behörde mitteilen , dass sie die für eine sachliche Prüfung des Falles erforderlichen Informationen erhalten hat, oder
+
+b) zu diesem Zweck von d ies er Person zusätzliche Informationen anfordern.
+
+( 7 ) Haben nach Absatz 6 Buchstabe b eine oder beide zuständigen Behörden von der Person, die den Fall vorgelegt hat, zusätzliche Informationen angefordert, die für eine sachliche Prüfung des Falles erforderlich sind, so teilt die zuständige Behörde, welche die zusätzlichen Informationen angefordert hat, diese r Person und der andere n zuständ ige n Behörde innerhalb von drei Kalenderm onaten nach Erhalt der zusätzlichen Informationen von d ies er Person entweder mit ,
+
+a) dass sie die angeforderten Informationen erhalten hat
+
+b) oder dass einige der angeforderten Informationen noch fehlen.
+
+( 8 ) Hat keine der beiden zuständigen Behörden nach Absatz 6 Buchstabe b zusätzliche Informationen angefordert, so ist der in Absatz 1 genannte Fristbeginn der frühere der beiden folgenden Tage:
+
+a) der Tag, an dem beide zuständigen Behörden der Person, die den Fall vorgelegt hat, eine Mitteilung nach Absatz 6 Buchstabe a übermittelt haben, oder
+
+b) der Tag, der drei Kalenderm onate nach der Mitteilung an die zuständige Behörde des anderen Vertragsstaats nach Absatz 5 Buchstabe b liegt.
+
+( 9 ) Wurden nach Absatz 6 Buchstabe b zusätzliche Informationen angefordert, so ist der in Absatz 1 genannte Fristbeginn der frühere der beiden folgenden Tage:
+
+a) der letzte Tag, an dem die zuständigen Behörden, die zusätzliche Informationen angefordert haben, der Person, die den Fall vorgelegt hat, und der andere n zuständige n Behörde eine Mitteilung nach Absatz 7 Buchstabe a übermittelt haben, oder
+
+b) der Tag, der drei Kalenderm onate nach dem Zeitpunkt liegt, zu dem beide zuständigen Behörden von der Person, die den Fall vorgelegt hat, alle von einer der beiden zuständigen Behörden angeforderten Informationen erhalten haben.
+
+Übermitteln jedoch eine oder beide zuständigen Behörden die Mitteilung nach Absatz 7 Buchstabe b, so gilt diese als Anforderung zusätzliche r Informationen nach Absatz 6 Buchstabe b.
+
+( 10 ) Die zuständigen Behörden der Vertragsstaaten regeln durch Verständigung (nach dem Artikel de r einschlägigen unter das Übereinkommen fallenden Steuer abkommen , der sich auf Verständigungsverfahren bezieht ), wie dieser Teil anzuwenden ist und welche Informationen jede zuständige Behörde für eine sachliche Prüfung des Falles mindestens benötigt. Die se Verständigungsregelung ist vor dem Tag zu treffen, an dem noch offene Fragen im Rahmen eines Falles erstmals in Betracht kommen, einem Schiedsverfahren unterworfen zu werden, und kann danach erforderlichenfalls geändert werden.
+
+( 11 ) Für die Anwendung dieses Artikels auf ihre unter das Übereinkommen fallenden Steuer abkommen kann sich eine Vertragspartei dieses Übereinkommens vorbehalten, die in Absatz 1 Buchstabe b vorgesehene Frist von zwei Jahren durch eine Frist von drei Jahren zu ersetzen.
+
+( 12 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten, dass ungeachtet der Absätze 1 bis 11 in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen folgende Vorschriften gelten:
+
+a) Eine noch offene Frage die sich aus einem Fall ergibt, der Gegenstand eines Verständigungsverfahrens ist und der anderenfalls in den Anwendungsbereich des in diesem Übereinkommen vorgesehenen Schiedsverfahrens fallen würde, darf nicht einem Schiedsverfahren unterworfen werden, wenn in einem der beiden Vertragsstaaten bereits eine Gerichtsentscheidung zu dieser Frage ergangen ist.
+
+b) Wenn zu irgendeinem Zeitpunkt nach Stellung eines Schiedsantrags und vor Übermittlung des Schiedsspruchs an die zuständigen Behörden der Vertragsstaaten durch die Schiedsstelle in einem der Vertragsstaaten eine Gerichtsentscheidung zu der Frage ergeht, endet das Schiedsverfahren.
+
+#### Artikel 20
+
+#### Bestellung der Schiedsrichter
+
+( 1 ) Soweit sich die zuständigen Behörden der Vertragsstaaten nicht auf andere Vorschriften verständigen, gelten für die Zwecke dieses Teiles die Absätze 2 bis 4.
+
+( 2 ) Für die Bestellung der Mitglieder einer Schiedsstelle gelten folgende Vorschriften:
+
+a) Die Schiedsstelle besteht aus drei Einzelmitgliedern mit Fachkenntnis oder Erfahrung auf dem Gebiet internationaler Steuersachen.
+
+b) Jede zuständige Behörde bestellt innerhalb von 60 Tagen nach dem Tag des aufgrund des Artikels 19 (Obligatorisches verbindliches Schiedsverfahren) Absatz 1 gestellten Schiedsa ntrags ein Mitglied der Schiedsstelle. Die beiden auf diese Weise bestellten Mitglieder der Schiedsstelle bestellen innerhalb von 60 Tagen nach der letzten dieser beiden Bestellungen ein drittes Mitglied, das den Vorsitz der Schiedsstelle ausübt. Der Vorsitzende darf nicht Staatsa ngehörige r eines der beiden Vertragsstaaten oder in einem der beiden Vertragsstaaten ansässig sein.
+
+c) Jedes bestellte Mitglied der Schiedsstelle muss zum Zeitpunkt der Annahme einer Bestellung unparteilich und von den zuständigen Behörden, Steuerverwaltungen und Finanzministerien der Vertragsstaaten sowie allen unmittelbar von dem Fall betroffenen Personen (und deren Beratern) unabhängig sein, während des gesamten Verfahrens seine Unparteilichkeit und Unabhängigkeit wahren und während eines angemessenen Zeitraums danach jedes Verhalten vermeiden, das Anlass zu Zweifeln an der Unparteilichkeit und Unabhängigkeit der Schiedsrichter in Bezug auf das Verfahren geben kann .
+
+( 3 ) Versäumt es die zuständige Behörde eines Vertragsstaats , in der Weise und innerhalb der Frist, die in Absatz 2 genannt oder zwischen den zuständigen Behörden der Vertragsstaaten vereinbart sind , ein Mitglied der Schiedsstelle zu bestellen, so wird durch den ranghöchsten Funktionsträger des Zentrums für Steuerpolitik und - verwaltung der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung, der nicht Staatsa ngehörige r eines der beiden Vertragsstaaten ist, im Namen diese r zuständige n Behörde ein Mitglied bestellt.
+
+( 4 ) Versäumen es die beiden ersten Mitglieder der Schiedsstelle, in der Weise und innerhalb der Frist, die in Absatz 2 genannt oder zwischen den zuständigen Behörden der Vertragsstaaten vereinbart sind , den Vorsitzenden zu bestellen, so wird der Vorsitzende durch den ranghöchsten Funktionsträger des Zentrums für Steuerpolitik und - verwaltung der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung bestellt, der nicht Staatsa ngehörige r eines der beiden Vertragsstaaten ist.
+
+#### Artikel 21
+
+#### Vertraulichkeit von Schiedsverfahren
+
+( 1 ) Mitglieder der Schiedsstelle und höchstens drei Mitarbeiter je Mitglied ( sowie vorgesehene Schiedsrichter , jedoch nur, soweit dies für die Überprüfung ihrer Fähigkeit zur Erfüllung der Voraussetzungen für eine Tätigkeit als Schiedsrichter erforderlich ist ) gelten ausschließlich für die Anwendung dieses Teiles und de r betreffenden unter das Übereinkommen fallenden Steuer abkommen sowie der innerstaatlichen Rechtsvorschriften [4] der Vertragsstaaten in Bezug auf Informationsaustausch, Vertraulichkeit und Amtshilfe als Personen oder Behörden, an die Informationen weitergegeben werden dürfen. Informationen, welche die Schiedsstelle oder vorgesehene Schiedsrichter erhalten, sowie Informationen, welche die zuständigen Behörden von der Schiedsstelle erhalten, gelten als nach den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s in Bezug auf Informationsaustausch und Amtshilfe ausgetauschte Informationen.
+
+( 2 ) Die zuständigen Behörden der Vertragsstaaten stellen sicher, dass Mitglieder der Schiedsstelle und ihre Mitarbeiter sich vor ihrem Tätigwerden im Rahmen eines Schiedsverfahrens schriftlich verpflichten , Informationen zum Schiedsverfahren im Einklang mit den in den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s in Bezug auf Informationsaustausch und Amtshilfe beschriebenen und den im anwendbaren Recht der Vertragsstaaten vorgesehenen Vertraulichkeits- und Geheimhaltungspflichten zu behandeln.
+
+#### Artikel 22
+
+#### Regelung eines Falles vor Abschluss des Schiedsverfahrens
+
+Für die Zwecke dieses Teiles und der Bestimmungen de s betreffenden unter das Übereinkommen fallenden Steuer abkommen s zur Regelung von Fällen durch Verständigung enden das Verständigungsverfahren und das Schiedsverfahren in Bezug auf eine n Fall, wenn zu irgendeinem Zeitpunkt nach Stellung eines Schiedsantrags und vor Übermittlung des Schiedsspruchs an die zuständigen Behörden der Vertragsstaaten durch die Schiedsstelle
+
+a) die zuständigen Behörden der Vertragsstaaten den Fall durch Verständigung regeln oder
+
+b) die Person, die den Fall vorgelegt hat, den Schiedsantrag oder den Antrag auf ein Verständigungsverfahren zurückzieht.
+
+#### Artikel 23
+
+#### Art des Schiedsverfahrens
+
+( 1 ) Soweit sich die zuständigen Behörden der Vertragsstaaten nicht auf andere Vorschriften verständigen, gelten bei einem Schiedsverfahren nach diesem Teil folgende Vorschriften:
+
+a) Nachdem ein Fall einem Schiedsverfahren unterworfen wurde, legt die zuständige Behörde jedes Vertragsstaats der Schiedsstelle bis zu einem vereinbarten Tag einen Regelungsvorschlag vor, in dem alle noch offenen Fragen des Falles behandelt werden (unter Berücksichtigung aller zuvor zwischen den zuständigen Behörden der Vertragsstaaten in diesem Fall erzielten Verständigungsregelung en ). Der Regelungsvorschlag ist für jede Berichtigung oder vergleichbare Frage des Falles auf die Festlegung bestimmter Geldbeträge (zum Beispiel von Einkünften oder Aufwendungen) oder, wenn angegeben, des höchsten aufgrund de s unter das Übereinkommen fallenden Steuer abkommen s erhobenen Steuersatz es zu beschränken. Konnten die zuständigen Behörden der Vertragsstaaten in einem Fall über eine Frage betreffend die Voraussetzungen für die Anwendung einer Bestimmung de s betreffenden unter das Übereinkommen fallenden Steuer abkommen s (im Folgenden als „Schwellenfrage ” bezeichnet) keine Verständigungsregelung erzielen, zum Beispiel darüber, ob eine natürliche Person eine ansässige Person ist oder ob eine Betriebsstätte besteht , so können die zuständigen Behörden alternative Regelungsvorschläge zu Fragen vorlegen, bei denen die Entscheidung von der Regelung dieser Schwellenfragen abhängt.
+
+b) Die zuständige Behörde jedes Vertragsstaats kann außerdem ein erläuterndes Positionspapier zur Prüfung durch die Schiedsstelle vorlegen. Jede zuständige Behörde, die einen Regelungsvorschlag oder ein erläuterndes Positionspapier vorlegt, übermittelt der anderen zuständigen Behörde bis zu dem Tag, bis zu dem der Regelungsvorschlag und das erläuternde Positionspapier vorgelegt werden müssen , eine Abschrift. Jede zuständige Behörde kann der Schiedsstelle außerdem bis zu einem vereinbarten Tag eine Erwiderung zu dem von der anderen zuständigen Behörde vorgelegten Regelungsvorschlag und erläuternden Positionspapier übermitteln. Der anderen zuständigen Behörde wird bis zu dem Tag, bis zu dem die Erwiderung vorgelegt werden muss, eine Abschrift davon übermittelt.
+
+c) Die Schiedsstelle wählt als Entscheidung einen der von den zuständigen Behörden in Bezug auf jede Frage und eventuelle Schwellenfragen vorgelegten Regelungsvorschläge für den Fall aus und nimmt in ihre Entscheidung keine Begründung oder sonstige Erläuterung auf. Der Schiedsspruch wird mit einfacher Mehrheit der Mitglieder der Schiedsstelle erlassen . Die Schiedsstelle übermittelt den zuständigen Behörden der Vertragsstaaten schriftlich ihre Entscheidung. Der Schiedsspruch hat keine Präzedenzwirkung.
+
+( 2 ) Für die Anwendung dieses Artikels in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen kann sich eine Vertragspartei dieses Übereinkommens vorbehalten, dass Absatz 1 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen gilt. In diesem Fall gelten für ein Schiedsverfahren folgende Vorschriften, soweit sich die zuständigen Behörden der Vertragsstaaten nicht auf andere Vorschriften verständigen:
+
+a) Nachdem ein Fall einem Schiedsverfahren unterworfen wurde, stellt die zuständige Behörde jedes Vertragsstaats allen Mitgliedern der Schiedsstelle unverzüglich die für den Schiedsspruch gegebenenfalls erforderlichen Informationen zur Verfügung. Sofern die zuständigen Behörden der Vertragsstaaten nichts anderes vereinbaren, werden Informationen, die den beiden zuständigen Behörden vor Eingang des Schiedsantrags bei ihnen nicht zur Verfügung standen, bei der Entscheidung nicht berücksichtigt.
+
+b) Die Schiedsstelle entscheidet über die dem Schiedsverfahren unterworfenen Fragen in Übereinstimmung mit den einschlägigen Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s und vorbehaltlich dieser Bestimmungen nach de n innerstaatlichen Recht svorschriften der Vertragsstaaten . Die Mitglieder der Schiedsstelle berücksichtigen außerdem alle anderen gegebenenfalls von den zuständigen Behörden der Vertragsstaaten durch Verständigung ausdrücklich benannten Quellen.
+
+c) Der Schiedsspruch wird den zuständigen Behörden der Vertragsstaaten schriftlich übermittelt und enthält Angaben zu den zugrunde gelegten Rechtsquellen sowie zu der Argumentation, die zu dem Ergebnis geführt hat. Der Schiedsspruch wird mit einfacher Mehrheit der Mitglieder der Schiedsstelle erlassen . Der Schiedsspruch hat keine Präzedenzwirkung.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens , die nicht den Vorbehalt nach Absatz 2 angebracht hat, kann sich vorbehalten, dass die Absätze 1 und 2 nicht für ihre unter das Übereinkommen fallenden Steuer abkommen mit Vertragsparteien dieses Übereinkommens gelten, die diesen Vorbehalt angebracht haben. In diesem Fall werden sich die zuständigen Behörden der Vertragsstaaten jede s derartigen unter das Übereinkommen fallenden Steuer abkommen s bemühen , eine Verständigungsregelung über die Art des Schiedsverfahrens zu erzielen , die für das betreffende unter das Übereinkommen fallende Steuer abkommen gilt. Artikel 19 (Obligatorisches verbindliches Schiedsverfahren) gilt erst dann in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen , wenn eine solche Verständigungsregelung erzielt wurde.
+
+( 4 ) Eine Vertragspartei dieses Übereinkommens kann sich außerdem entscheiden, Absatz 5 in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen anzuwenden, und notifiziert dies dem Verwahrer. Absatz 5 gilt für zwei Vertragsstaaten in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen , wenn einer der Vertragsstaaten eine entsprechende Notifikation abgegeben hat.
+
+( 5 ) Vor Beginn eines Schiedsverfahrens stellen die zuständigen Behörden der Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s sicher, dass jede Person, die den Fall vorgelegt hat, und ihre Berater sich schriftlich verpflichten , im Laufe des Schiedsverfahrens von einer der zuständigen Behörden oder der Schiedsstelle erhaltene Informationen nicht an eine andere Person weiterzugeben. Das Verständigungsverfahren nach de m unter das Übereinkommen fallenden Steuer abkommen sowie das Schiedsverfahren nach diesem Teil enden in Bezug auf den Fall, wenn nach Stellung eines Schiedsantrags und vor Übermittlung des Schiedsspruchs an die zuständigen Behörden der Vertragsstaaten durch die Schiedsstelle eine Person, die den Fall vorgelegt hat, oder ein er der Berater dieser Person erheblich gegen diese Erklärung verstößt.
+
+( 6 ) Ungeachtet des Absatzes 4 kann sich eine Vertragspartei dieses Übereinkommens , die sich nicht für die Anwendung des Absatzes 5 entscheidet, vorbehalten, dass Absatz 5 in Bezug auf ein oder mehrere benannte unter das Übereinkommen fallende Steuer abkommen oder alle ihre unter das Übereinkommen fallenden Steuer abkommen nicht gilt.
+
+( 7 ) Eine Vertragspartei dieses Übereinkommens , die sich für die Anwendung des Absatzes 5 entscheidet, kann sich vorbehalten, dass dieser Teil in Bezug auf alle unter das Übereinkommen fallenden Steuer abkommen , zu denen der andere Vertragsstaat einen Vorbehalt nach Absatz 6 anbringt , nicht gilt .
+
+#### Artikel 24
+
+#### Verständigung auf eine andere Regelung
+
+( 1 ) Für die Zwecke der Anwendung dieses Teiles in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen kann sich eine Vertragspartei dieses Übereinkommens entscheiden , Absatz 2 anzuwenden, und notifiziert dies dem Verwahrer. Absatz 2 gilt nur dann für zwei Vertragsstaaten in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen , wenn beide Vertragsstaaten eine entsprechende Notifikation abgegeben haben.
+
+( 2 ) Ungeachtet des Artikels 19 (Obligatorisches verbindliches Schiedsverfahren) Absatz 4 ist ein nach diesem Teil ergangener Schiedsspruch für die Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s nicht verbindlich und wird nicht umgesetzt, wenn sich die zuständigen Behörden der Vertragsstaaten innerhalb von drei Kalenderm onaten, nachdem ihnen der Schiedsspruch übermittelt wurde, auf eine andere Regelung aller noch offenen Fragen verständigen .
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens , die sich für die Anwendung des Absatzes 2 entscheidet, kann sich vorbehalten, dass dieser nur für ihre unter das Übereinkommen fallenden Steuer abkommen gilt, für die Artikel 23 (Art des Schiedsverfahrens) Absatz 2 gilt.
+
+#### Artikel 25
+
+#### Kosten von Schiedsverfahren
+
+In einem Schiedsverfahren nach diesem Teil werden die Vergütungen und Aufwendungen der Mitglieder der Schiedsstelle sowie sämtliche den Vertragsstaaten im Zusammenhang mit dem Schiedsverfahren entstandenen Kosten von den Vertragsstaaten in einer zwischen den zuständigen Behörden der Vertragsstaaten durch Verständigung zu regelnden Weise getragen. In Ermangelung einer entsprechenden Verständigungsregelung trägt jeder Vertragsstaat seine eigenen Aufwendungen und die seines bestellten Mitglieds der Schiedsstelle. Die Kosten des Vorsitzenden der Schiedsstelle und sonstige mit der Durchführung des Schiedsverfahrens verbundene Aufwendungen tragen die Vertragsstaaten zu gleichen Teilen.
+
+#### Artikel 26
+
+#### Vereinbarkeit
+
+( 1 ) Vorbehaltlich des Artikels 18 (Entscheidung für die Anwendung des Teiles VI) gilt dieser Teil anstelle oder in Ermangelung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die für noch offene Fragen , die sich aus einem Fall ergeben, der Gegenstand eines Verständigungsverfahrens ist, ein Schiedsverfahren vorsehen. Jede Vertragspartei dieses Übereinkommens , die sich für die Anwendung dieses Teiles entscheidet, notifiziert dem Verwahrer, ob ihre unter das Übereinkommen fallenden Steuer abkommen , die nicht unter einen Vorbehalt nach Absatz 4 fallen, jeweils eine derartige Bestimmung enthalten, und , sofern dies der Fall ist, jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung . Haben zwei Vertragsstaaten eine Notifikation in Bezug auf eine Bestimmung eine s unter das Übereinkommen fallenden Steuer abkommen s abgegeben, so wird diese zwischen diesen Vertragsstaaten durch diesen Teil ersetzt.
+
+( 2 ) Jede noch offene Frage , die sich aus einem Fall ergibt, der Gegenstand eines Verständigungsverfahrens ist und der anderenfalls in den Anwendungsbereich des in diesem Teil vorgesehenen Schiedsverfahrens fallen würde , wird nicht einem Schiedsverfahren unterworfen, wenn die Frage im Rahmen eines Falles zu betrachten ist, für den in Übereinstimmung mit eine r bilateralen oder multilateralen Übereinkunft , die für noch offene Fragen , die sich aus einem Fall ergeben, der Gegenstand eines Verständigungsverfahrens ist, ein obligatorisches verbindliches Schiedsverfahren vorsieht, bereits eine Schiedsstelle oder ein ähnliches Gremium eingerichtet wurde.
+
+( 3 ) Vorbehaltlich des Absatzes 1 berührt dieser Teil nicht die Erfüllung weiter reichender Verpflichtungen , die sich in Bezug auf das Schiedsverfahren für noch offene Fragen im Rahmen eines Verständigungsverfahrens aus andere n Übereinkünfte n , denen die Vertragsstaaten als Vertragsparteien angehören oder angehören werden, ergeben können .
+
+( 4 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten, dass dieser Teil in Bezug auf ein oder mehrere benannte unter das Übereinkommen fallende Steuer abkommen (oder alle ihre unter das Überein kommen fallenden Steuer abkommen ) nicht gilt, die für noch offene Fragen , die sich aus einem Fall ergeben, der Gegenstand eines Verständigungsverfahrens ist, bereits ein obligatorisches verbindliches Schiedsverfahren vorsehen.
+
+Teil VII Schlussbestimmungen
+
+#### Artikel 27
+
+#### Unterzeichnung und Ratifikation, Annahme oder Genehmigung
+
+( 1 ) Dieses Übereinkommen liegt ab dem 31. Dezember 2016 zur Unterzeichnung auf für
+
+a) alle Staaten,
+
+b) Guernsey (Vereinigtes Königreich Großbritannien und Nordirland), die Insel Man (Vereinigtes Königreich Großbritannien und Nordirland), Jersey (Vereinigtes Königreich Großbritannien und Nordirland ) und
+
+c) jedes andere Gebiet, das durch einen einvernehmlichen Beschluss der Vertragsparteien und Unterzeichner dieses Übereinkommens befugt ist, Vertragspartei dieses Übereinkommens zu werden.
+
+( 2 ) D a s Übereinkommen bedarf der Ratifikation, Annahme oder Genehmigung.
+
+#### Artikel 28
+
+#### Vorbehalte
+
+( 1 ) Vorbehaltlich des Absatzes 2 sind Vorbehalte zu diesem Übereinkommen nur zulässig, wenn sie ausdrücklich in den folgenden Bestimmungen vorgesehen sind:
+
+a) Artikel 3 (Transparente Rechtsträger) Absatz 5,
+
+b) Artikel 4 (Rechtsträger mit doppelter Ansässigkeit) Absatz 3,
+
+c) Artikel 5 (Anwendung von Methoden zur Beseitigung der Doppelbesteuerung) Absätze 8 und 9,
+
+d) Artikel 6 (Zweck eine s unter das Übereinkommen fallenden Steuer abkommen s ) Absatz 4,
+
+e) Artikel 7 (Verhinderung von Abkommensmissbrauch ) Absätze 15 und 16,
+
+f) Artikel 8 (Transaktionen zur Übertragung von Dividenden) Absatz 3,
+
+g) Artikel 9 (Gewinne aus der Veräußerung von Anteilen oder Rechten an Rechtsträgern, deren Wert hauptsächlich auf unbeweglichem Vermögen beruht) Absatz 6,
+
+h) Artikel 10 (Vorschrift zur Missbrauchsbekämpfung für in Drittstaaten oder ‑ gebieten gelegene Betriebsstätten) Absatz 5,
+
+i) Artikel 11 (Anwendung von Steuer abkommen zur Einschränkung des Rechtes einer Vertragspartei dieses Übereinkommens auf Besteuerung der in ihrem Gebiet ansässigen Personen) Absatz 3 ,
+
+j) Artikel 12 (Künstliche Umgehung des Betriebsstättenstatus durch Kommissionärsmodelle und ähnliche Strategien) Absatz 4,
+
+k) Artikel 13 (Künstliche Umgehung des Betriebsstättenstatus durch die Ausnahme bestimmter Tätigkeiten) Absatz 6,
+
+l) Artikel 14 (Aufteilung von Verträgen) Absatz 3,
+
+m) Artikel 15 (Bestimmung des Begriffs der mit einem Unternehmen eng verbundenen Person) Absatz 2,
+
+n) Artikel 16 (Verständigungsverfahren) Absatz 5,
+
+o) Artikel 17 (Gegenberichtigung) Absatz 3 ,
+
+p) Artikel 19 (Obligatorisches verbindliches Schiedsverfahren) Absätze 11 und 12,
+
+q) Artikel 23 (Art des Schiedsverfahrens) Absätze 2, 3, 6 und 7,
+
+r) Artikel 24 (Verständigung auf eine andere Regelung) Absatz 3,
+
+s) Artikel 26 (Vereinbarkeit) Absatz 4,
+
+t) Artikel 35 (Wirksamwerden) Absätze 6 und 7 sowie
+
+u) Artikel 36 (Wirksamwerden des Teiles VI) Absatz 2.
+
+( 2 ) a) Ungeachtet des Absatzes 1 kann eine Vertragspartei dieses Übereinkommens , die sich nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) für die Anwendung des Teiles VI (Schiedsverfahren) entscheidet, einen oder mehrere Vorbehalte in Bezug auf die Art der Fälle anbringen, die nach Teil VI (Schiedsverfahren) einem Schiedsverfahren unterworfen werden können. Für eine Vertragspartei dieses Übereinkommens , die sich nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) für die Anwendung des Teiles VI (Schiedsverfahren) entscheidet, nachdem sie Vertragspartei dieses Übereinkommens geworden ist, sind Vorbehalte nach diesem Buchstaben gleichzeitig mit der Notifikation dieser Vertragspartei an den Verwahrer nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) anzubringen.
+
+b) Vorbehalte nach Buchstabe a bedürfen der Annahme. Ein Vorbehalt nach Buchstabe a gilt als von einer Vertragspartei dieses Übereinkommens angenommen, wenn diese bis zum Ablauf von zwölf Kalenderm onaten nach der Notifikation des Vorbehalts durch den Verwahrer oder bis zu dem Zeitpunkt der Hinterlegung ihrer Ratifikations-, Annahme- oder Genehmigungsurkunde, wenn dies der spätere ist, dem Verwahrer nicht notifiziert hat, dass sie Einspruch gegen den Vorbehalt erhebt. Für eine Vertragspartei dieses Übereinkommens , die sich nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) für die Anwendung des Teiles VI (Schiedsverfahren) entscheidet, nachdem sie Vertragspartei dieses Übereinkommens geworden ist, können Einsprüche gegen zuvor von anderen Vertragsparteien dieses Übereinkommens nach Buchstabe a angebrachte Vorbehalte gleichzeitig mit der Notifikation der erstgenannten Vertragspartei an den Verwahrer nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) erhoben werden. Erhebt eine Vertragspartei dieses Übereinkommens Einspruch gegen einen Vorbehalt nach Buchstabe a, so gilt der gesamte Teil VI (Schiedsverfahren) nicht zwischen der den Einspruch erhebenden und der den Vorbehal t anbringenden Vertragspartei.
+
+( 3 ) Sofern in den entsprechenden Bestimmungen dieses Übereinkommens nicht ausdrücklich etwas anderes vorgesehen ist, werden durch einen nach Absatz 1 oder 2 angebrachten Vorbehalt
+
+a) für die den Vorbehalt anbringende Vertragspartei dieses Übereinkommens in ihre n Beziehungen zu einer anderen Vertragspartei dieses Übereinkommens die Bestimmungen dieses Übereinkommens, auf die sich der Vorbehalt bezieht, nach Maßgabe des Vorbehalts geändert und
+
+b) diese Bestimmungen in gleichem Maße für die andere Vertragspartei dieses Übereinkommens in ihrem Verhältnis zu der den Vorbehalt anbringenden Vertragspartei dieses Übereinkommens geändert .
+
+( 4 ) Vorbehalte, die auf unter das Übereinkommen fallende Steuer abkommen anwendbar sind , die durch ein oder im Namen eines Gebiet s oder Hoheitsgebiet s geschlossen wurden, für dessen internationale Beziehungen eine Vertragspartei dieses Übereinkommens verantwortlich ist, werden, wenn dieses Gebiet oder Hoheitsgebiet nicht nach Artikel 27 (Unterzeichnung und Ratifikation, Annahme oder Genehmigung) Absatz 1 Buchstabe b oder c Vertragspartei des Übereinkommens ist, von der verantwortlichen Vertragspartei angebracht und können sich von den Vorbehalten dieser Vertragspartei in Bezug auf ihre eigenen unter das Übereinkommen fallenden Steuer abkommen unterscheiden.
+
+( 5 ) Vor behaltlich der Absätze 2, 6 und 9 sowie des Artikels 29 (Notifikationen) Absatz 5 sind Vorbehalte bei der Unterzeichnung oder bei der Hinterlegung der Ratifikations-, Annahme- oder Genehmigungsurkunde anzubringen. Für eine Vertragspartei dieses Übereinkommens , die sich nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) für die Anwendung des Teiles VI (Schiedsverfahren) entscheidet, nachdem sie Vertragspartei dieses Übereinkommens geworden ist, sind Vorbehalte nach Absatz 1 Buchstaben p, q, r und s jedoch gleichzeitig mit der Notifikation dieser Vertragspartei an den Verwahrer nach Artikel 18 (Entscheidung für die Anwendung des Teiles VI) anzubringen.
+
+( 6 ) Vorbehaltlich der Absätze 2 und 9 sowie des Artikels 29 (Notifikationen) Absatz 5 sind bei der Unterzeichnung angebrachte Vorbehalte bei der Hinterlegung der Ratifikations-, Annahme- oder Genehmigungsurkunde zu bestätigen, es sei denn, in dem Dokument, das die Vorbehalte enthält, ist ausdrücklich angegeben , dass es als endgültig anzusehen ist.
+
+( 7 ) Werden bei der Unterzeichnung keine Vorbehalte angebracht, so ist dem Verwahrer zu diesem Zeitpunkt eine vorläufige Liste der zu erwartenden Vorbehalte vorzulegen.
+
+( 8 ) Beim Anbringen eines Vorbehalts nach jeder der nachstehenden Bestimmungen ist eine Liste der nach Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchstabe a Ziffer ii notifizierten Abkommen vorzulegen, die im Sinne der jeweiligen Bestimmung unter den Vorbehalt fallen ( sowie, im Fall eines Vorbehalts nach einer anderen der folgenden Bestimmungen als den unter den Buchstaben c, d und n genannten , jeweils die Nummer des Artikel s und des Absatz es dieser Bestimmung) :
+
+a) Artikel 3 (Transparente Rechtsträger) Abs atz 5 Buchstaben b, c, d, e und g,
+
+b) Artikel 4 (Rechtsträger mit doppelter Ansässigkeit) Absatz 3 Buchstaben b, c und d,
+
+c) Artikel 5 (Anwendung von Methoden zur Beseitigung der Doppelbesteuerung) Absätze 8 und 9,
+
+d) Artikel 6 (Zweck eine s unter das Übereinkommen fallenden Steuer abkommen s ) Absatz 4,
+
+e) Artikel 7 (Verhinderung von Abkommensmissbrauch ) Absatz 15 Buchstaben b und c,
+
+f) Artikel 8 (Transaktionen zur Übertragung von Dividenden) Absatz 3 Buchstabe b Ziffern i, ii, und iii,
+
+g) Artikel 9 (Gewinne aus der Veräußerung von Anteilen oder Rechten an Rechtsträgern, deren Wert hauptsächlich auf unbeweglichem Vermögen beruht) Absatz 6 Buchstaben d, e und f,
+
+h) Artik el 10 (Vorschrift zur Missbrauchsbekämpfung für in Drittstaaten oder ‑ gebieten gelegene Betriebsstätten) Absatz 5 Buchstaben b und c,
+
+i) Artikel 11 (Anwendung von Steuer abkomme n zur Einschränkung des Rechtes einer Vertragspartei dieses Übereinkommens auf Besteuerung der in ihrem Gebiet ansässigen Personen) Absatz 3 Buchstabe b,
+
+j) Artikel 13 (Künstliche Umgehung des Betriebsstättenstatus durch die Ausnahme bestimmter Tätigkeiten) A bsatz 6 Buchstabe b,
+
+k) Artikel 14 (Aufteilung von Verträgen) Absatz 3 Buchstabe b,
+
+l) Artikel 16 (Verständigungsverfahren) Absatz 5 Buchstabe b,
+
+m) Artikel 17 (Gegenberichtigung) Absatz 3 Buchstabe a,
+
+n) Artikel 23 (Art des Schiedsverfahrens) Absatz 6 und
+
+o) Artikel 26 (Vereinbarkeit) Absatz 4.
+
+Die unter den Buchstaben a bis o genannten Vorbehalte gelten nicht für unter das Übereinkommen fallende Steuer abkommen , die nicht in der in diesem Absatz beschriebenen Liste enthalten sind.
+
+( 9 ) Jede Vertragspartei dieses Übereinkommens , die nach Absatz 1 oder 2 einen Vorbehalt angebracht hat, kann ihn durch eine an den Verwahrer gerichtete Notifikation jederzeit zurücknehmen oder durch einen stärker eingeschränkten Vorbehalt ersetzen . Die betreffende Vertragspartei gibt zusätzliche Notifikationen, die aufgrund der Rücknahme oder Ersetzung des Vorbehalts gegebenenfalls erforderlich sind, nach Artikel 29 (Notifikationen) Absatz 6 ab. Vorbehaltlich des Artikels 35 (Wirksamwerden) Absatz 7 wird die Rücknahme oder Ersetzung wirksam
+
+a) im Fall ein es unter das Übereinkommen fallenden Steuer abkommen s ausschließlich mit Staaten oder Gebieten, die Vertragspartei en des Übereinkommens sind, zu dem Zeitpunkt des Eingangs der Notifikation über die Rücknahme oder Ersetzung des Vorbehalts beim Verwahrer, und zwar
+
+i) bei Vorbehalten in Bezug auf Bestimmungen über an der Quelle erhobene Steuern, wenn das Ereignis, das zu derartigen Steuern führt, am oder nach dem 1. Januar des Jahres eintritt, das auf einen Zeitabschnitt von sechs Kalendermonaten ab dem Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme oder Ersetzung des Vorbehalts folgt, und
+
+ii) bei Vorbehalten in Bezug auf alle anderen Bestimmungen für Steuern, die für Veranlagungszeiträume erhoben werden, die am oder nach dem 1. Januar des Jahres beginnen, das auf einen Zeitabschnitt von sechs Kalendermonaten ab dem Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme oder Ersetzung des Vorbehalts folgt , und
+
+c) im Fall ein e s unter das Übereinkommen fallenden Steuer abkommen s mit einem oder mehreren Vertragsstaaten , die nach Eingang der Notifikation der Rücknahme oder Ersetzung beim Verwahrer Vertragspartei dieses Übereinkommens werden, an dem letzten der Tag e, an denen das Übereinkommen für die betreffenden Vertragsstaaten jeweils in Kraft tritt .
+
+#### Artikel 29
+
+#### Notifikationen
+
+( 1 ) Vorbehaltlich der Absätze 5 und 6 sowie des Artikels 35 (Wirksamwerden) Absatz 7 sind Notifikationen nach den folgenden Bestimmungen bei der Unterzeichnung oder bei der Hinterlegung der Ratifikations-, Annahme- oder Genehmigungsurkunde abzugeben:
+
+a) Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchsta be a Ziffer ii,
+
+b) Artikel 3 (Transparente Rechtsträger) Absatz 6,
+
+c) Artikel 4 (Rechtsträger mit doppelter Ansässigkeit) Absatz 4,
+
+d) Artikel 5 (Anwendung von Methoden zur Beseitigung der Doppelbesteuerung) Absatz 10,
+
+e) Artikel 6 (Zweck eine s unter das Übereinkommen fallenden Steuer abkommen s ) Absätze 5 und 6,
+
+f) Artikel 7 (Verhinderung von Abkommensmissbrauch ) Absatz 17,
+
+g) Artikel 8 (Transaktionen zur Übertragung von Dividenden) Absatz 4,
+
+h) Artikel 9 (Gewinne aus der Veräußerung von Anteilen oder Rechten an Rechtsträgern, deren Wert hauptsächlich auf unbeweglichem Vermögen beruht) Absätze 7 und 8,
+
+i) Artikel 10 (Vorschrift zur Missbrauchsbekämpfung für in Drittstaaten oder ‑ gebieten gelegene Betriebsstätten) Absatz 6,
+
+j) Artikel 11 (Anwendung von Steuer abkommen zur Einschränkung des Rechtes einer Vertragspartei dieses Übereinkommens auf Besteuerung der in ihrem Gebiet ansässigen Personen) Absatz 4 ,
+
+k) Artikel 12 (Künstliche Umgehung des Betriebsstättenstatus durch Kommissionärsmodelle und ähnliche Strategien) Absätze 5 und 6,
+
+l) Artikel 13 (Künstliche Umgehung des Betriebsstättenstatus durch die Ausnahme bestimmter Tätigkeiten) Ab sätze 7 und 8,
+
+m) Artikel 14 (Aufteilung von Verträgen) Absatz 4,
+
+n) Artikel 16 (Verständigungsverfahren) Absatz 6,
+
+o) Artikel 17 (Gegenberichtigung) Absatz 4,
+
+p) Artikel 18 (Entscheidung für die Anwendung des Teiles VI),
+
+q) Artikel 23 (Art des Schiedsverfahrens) Absatz 4,
+
+r) Artikel 24 (Verständigung auf eine andere Regelung) Absatz 1,
+
+s) Artikel 26 (Vereinbarkeit) Absatz 1 und
+
+t) Artikel 35 (Wirksamwerden) Absätze 1, 2, 3, 5, und 7.
+
+( 2 ) Notifikationen in Bezug auf unter das Übereinkommen fallende Steuer abkommen , die durch ein oder im Namen eines Gebiet s oder Hoheitsgebiet s geschlossen wurden, für dessen internationale Beziehungen eine Vertragspartei dieses Übereinkommens verantwortlich ist, werden, wenn dieses Gebiet oder Hoheitsgebiet nicht nach Artikel 27 (Unterzeichnung und Ratifikation, Annahme oder Genehmigung) Absatz 1 Buchstabe b oder c Vertragspartei des Übereinkommens ist, von der verantwortlichen Vertragspartei abgegeben und können sich von den Notifikationen dieser Vertragspartei in Bezug auf ihre eigenen unter das Übereinkommen fallenden Steuer abkommen unterscheiden.
+
+( 3 ) Vorbehaltlich der Absätze 5 und 6 sowie des Artikels 35 (Wirksamwerden) Absatz 7 sind bei der Unterzeichnung abgegebene Notifikationen bei der Hinterlegung der Ratifikations-, Annahme- oder Genehmigungsurkunde zu bestätigen, es sei denn, in dem Dokument, das die Notifikationen enthält, ist ausdrücklich angegeben , dass es als endgültig anzusehen ist.
+
+( 4 ) Werden bei der Unterzeichnung keine Notifikationen abgegeben, so ist zu diesem Zeitpunkt eine vorläufige Liste der zu erwartenden Notifikationen vorzulegen.
+
+( 5 ) Eine Vertragspartei dieses Übereinkommens kann die Liste der nach Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchstabe a Ziffer ii notifizierten Abkommen jederzeit durch eine an den Verwahrer gerichtete Notifikation erweitern. In dieser Notifikation gibt die Vertragspartei an, ob das Abkommen unter einen oder mehreren der von der Vertragspartei angebrachten Vorbehalte fällt, die in Artikel 28 (Vorbehalte) Absatz 8 aufgeführt sind. Die Vertragspartei kann auch einen neuen Vorbehalt nach Artikel 28 (Vorbehalte) Absatz 8 anbringen, wenn das zusätzliche Abkommen das erste wäre, das unter diesen Vorbehalt fällt. Die Vertragspartei gibt außerdem alle zusätzlichen Notifikationen an, die nach Absatz 1 Buchstaben b bis s gegebenenfalls erforderlich sind, um der Aufnahme der zusätzlichen Abkommen Rechnung zu tragen . Führt die Erweiterung zur erstmaligen Aufnahme eine s Steuer abkommen s , das durch ein oder im Namen ein es Gebiet s oder Hoheitsgebiet s geschlossen wurde, für dessen internationale Beziehungen eine Vertragspartei dieses Übereinkommens verantwortlich ist, so gibt die Vertragspartei darüber hinaus alle Vorbehalte (nach Artikel 28 (Vorbehalte) Absatz 4) und Notifikationen (nach Absatz 2) an, die auf unter das Übereinkommen fallende Steuer abkommen anwendbar sind , die durch dieses oder im Namen dieses Gebiet s oder Hoheitsgebiet s geschlossen wurden. A b dem Tag, an dem die hinzugefügten und nach Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchstabe a Ziffer ii notifizierten Abkommen zu unter das Übereinkommen fallenden Steuer abkommen werden , wird der Tag, an dem die Änderungen de r unter das Übereinkommen fallenden Steuer abkommen wirksam werden, du r ch Artikel 35 (Wirksamwerden) bestimmt .
+
+( 6 ) Eine Vertragspartei dieses Übereinkommens kann durch eine an den Verwahrer gerichtete Notifikation zusätzliche Notifikationen nach Absatz 1 Buchstaben b bis s abgeben. Diese Notifikationen werden wirksam
+
+a) im Fall von unter das Übereinkommen fallenden Steuer abkommen ausschließlich mit Staaten oder Gebieten, die Vertragspartei en des Übereinkommens sind, zu dem Zeitpunkt des Eingangs der zusätzlichen Notifikation beim Verwahrer, und zwar
+
+i) bei Notifikationen in Bezug auf Bestimmungen über an der Quelle erhobene Steuern, wenn das Ereignis, das zu derartigen Steuern führt, am oder nach dem 1. Januar des Jahres eintritt, das auf einen Zeitabschnitt von sechs Kalendermonaten ab dem Tag der Mitteilung des Verwahrers über die zusätzliche Notifikation folgt , und
+
+ii) bei Notifikationen in Bezug auf alle anderen Bestimmungen für Steuern, die für Veranlagungszeiträume erhoben werden, die am oder nach dem 1. Januar des Jahres beginnen, das auf einen Zeitabschnitt von sechs Kalendermonaten ab dem Tag der Mitteilung des Verwahrers über die zusätzliche Notifikation folgt , und
+
+b) im Fall ein es unter das Übereinkommen fallenden Steuer abkommen s mit einem oder mehreren Vertragsstaaten , die nach Eingang der zusätzlichen Notifikation beim Verwahrer Vertragspartei dieses Übereinkommens werden, an dem letzten der Tag e, an denen das Übereinkommen für die betreffenden Vertragsstaaten jeweils in Kraft tritt .
+
+#### Artikel 30
+
+#### Nachträgliche Änderungen von unter das Übereinkommen fallenden Steuer abkommen
+
+Dieses Übereinkommen berührt nicht nachträgliche Änderungen eine s unter das Übereinkommen fallenden Steuer abkommen s , die zwischen den Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s vereinbart werden können.
+
+#### Artikel 31
+
+#### Konferenz der Vertragsparteien
+
+( 1 ) Die Vertragsparteien dieses Übereinkommens können zur Fassung von Beschlüssen oder zur Wahrnehmung von Aufgaben , die aufgrund des Übereinkommens gegebenenfalls erforderlich oder zweckdienlich sind, eine Konferenz der Vertragsparteien einberufen.
+
+( 2 ) Die Konferenz der Vertragsparteien wird durch den Verwahrer unterstützt .
+
+( 3 ) Jede Vertragspartei dieses Übereinkommens kann durch Übermittlung eines Ersuchens an den Verwahrer um eine Konferenz der Vertragsparteien ersuchen. Der Verwahrer unterrichtet alle Vertragsparteien dieses Übereinkommens von jedem Ersuchen. Anschließend beruft der Verwahrer eine Konferenz der Vertragsparteien ein, sofern das Ersuchen innerhalb von sechs Kalendermonaten nach Mitteilung des Ersuchens durch den Verwahrer von einem Drittel der Vertragsparteien befürwortet wird.
+
+#### Artikel 32
+
+#### Auslegung und Durchführung
+
+( 1 ) Über Fragen zur Auslegung oder Durchführung von Bestimmungen eine s unter das Übereinkommen fallenden Steuer abkommen s in der durch dieses Übereinkommen geänderten Fassung wird nach den Bestimmungen de s unter das Übereinkommen fallenden Steuer abkommen s (in der gegebenenfalls durch dieses Übereinkommen geänderten Fassung) in Bezug auf die Regelung von Fragen der Auslegung oder der Anwendung de s unter das Übereinkommen fallenden Steuer abkommen s durch Verständigung entschieden.
+
+( 2 ) Jegliche Fragen hinsichtlich der Auslegung oder Durchführung dieses Übereinkommens können von einer nach Artikel 31 (Konferenz der Vertragsparteien) Absatz 3 einberufenen Konferenz der Vertragsparteien behandelt werden.
+
+#### Artikel 33
+
+#### Änderungen
+
+( 1 ) Jede Vertragspartei dieses Übereinkommens kann eine Änderung dieses Übereinkommens vorschlagen, indem sie dem Verwahrer den Änderungsvorschlag vorlegt .
+
+( 2 ) Zur Prüfung des Änderungsvorschlags kann nach Artikel 31 (Konferenz der Vertragsparteien) Absatz 3 eine Konferenz der Vertragsparteien einberufen werden.
+
+#### Artikel 34
+
+#### Inkrafttreten
+
+( 1 ) Dieses Übereinkommen tritt am ersten Tag des Monats in Kraft, der auf eine n Zeitabschnitt von drei Kalenderm onaten ab Hinterlegung der fünften Ratifizierungs-, Annahme- oder Genehmigungsurkunde folgt.
+
+( 2 ) Für jeden Unterzeichner, der dieses Übereinkommen nach Hinterlegung der fünften Ratifikations-, Annahme- oder Genehmigungsurkunde ratifiziert, annimmt oder genehmigt, tritt es am ersten Tag des Monats in Kraft, der auf eine n Zeitabschnitt von drei Kalenderm onaten ab Hinterlegung der Ratifikations-, Annahme- oder Genehmigungsurkunde durch diesen Unterzeichner folgt.
+
+#### Artikel 35
+
+#### Wirksamwerden
+
+( 1 ) Dieses Übereinkommen wird in jedem Vertragsstaat in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen wirksam
+
+a) bei den an der Quelle erhobenen Steuern auf Beträge, die nicht ansässigen Personen gezahlt oder gutgeschrieben w e rden, wenn das Ereignis, das zu diesen Steuern führt, am oder nach dem ersten Tag des nächsten Kalenderjahrs eintritt, das am oder nach dem letzten der Tag e, an denen das Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, beginnt, und
+
+b) bei allen anderen durch diesen Vertragsstaat erhobenen Steuern für Steuern, die für Veranlagungszeiträume erhoben werden, die nach einem Zeitabschnitt von sechs Kalendermonaten (oder nach einem kürzeren Zeitabschnitt , wenn alle Vertragsstaaten dem Verwahrer notifizieren, dass sie beabsichtigen, eine n entsprechende n kürzere n Zeitabschnitt anzuwenden ) ab dem letzten der Tag e, an denen das Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, beginnen.
+
+( 2 ) Eine Vertragspartei dieses Übereinkommens kann sich ausschließlich zum Zweck ihre r eigene n Anwendung des Absatzes 1 Buchstabe a und des Absatzes 5 Buchstabe a entscheiden, das Wort „Veranlagungszeitraum“ durch das Wort „Kalenderjahr“ zu ersetzen, und notifiziert dies dem Verwahrer.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens kann sich ausschließlich zum Zweck ihre r eigene n Anwendung des Absatzes 1 Buchstabe b und des Absatzes 5 Buchstabe b entscheiden, die Bezugnahme auf „Veranlagungszeiträume [...], die nach einem Zeitabschnitt von“ durch eine Bezugnahme auf „Veranlagungszeiträume [...], die am oder nach dem 1. Januar des nächsten Jahres , das nach einem Zeitabschnitt von […] beginnt , “ zu ersetzen, und notifiziert dies dem Verwahrer.
+
+( 4 ) Ungeachtet der Absätze 1 bis 3 wird Artikel 16 (Verständigungsverfahren) in Bezug auf ein unter das Übereinkommen fallende s Steuer abkommen für einen der zuständigen Behörde eines Vertragsstaats vorgelegten Fall am oder nach dem letzten der Tage, an denen das Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, wirksam, mit Ausnahme der Fälle, deren Vorlage bis zu diesem Tag im Rahmen de s unter das Übereinkommen fallenden Steuer abkommen s vor dessen Änderung durch das Übereinkommen nicht möglich war, unabhängig vo n de m Veranlagungszeitraum, auf den sich der Fall bezieht.
+
+( 5 ) Für ein neue s unter das Übereinkommen fallende s Steuer abkommen , dessen Hinzufügung auf eine nach Artikel 29 (Notifikationen) Absatz 5 erfolgte Erweiterung der Liste der nach Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchstabe a Ziffer ii notifizierten Abkommen zurückzuführen ist , wird das Übereinkommen in jedem Vertragsstaat wirksam
+
+a) bei den an der Quelle erhobenen Steuern auf Beträge, die nicht ansässigen Personen gezahlt oder gutgeschrieben werden, wenn das Ereignis, das zu diesen Steuern führt, am oder nach dem ersten Tag des nächsten Kalenderjahrs eintritt, das am oder nach dem 30. Tag nach dem Tag der Mitteilung des Verwahrers über die Notifikation der Erweiterung der Liste der Abkommen beginnt, und
+
+b) bei allen anderen durch diesen Vertragsstaat erhobenen Steuern für Steuern, die für Veranlagungszeiträume erhoben werden, die nach einem Zeitabschnitt von neun Kalendermonaten (oder nach eine m kürzeren Zeitabschnitt , wenn alle Vertragsstaaten dem Verwahrer notifizieren, dass sie beabsichtigen, eine n entsprechende n kürzere n Zeitabschnitt anzuwenden ) ab dem Tag der Mitteilung des Verwahrers über die Notifikation der Erweiterung der Liste der Abkommen beginnen.
+
+( 6 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten, dass Absatz 4 nicht in Bezug auf ihre unter das Übereinkommen fallenden Steuer abkommen gilt.
+
+( 7 ) a) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten,
+
+i) die Bezugnahmen auf „dem letzten der Tag e, an denen das Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt , “ in den Absätzen 1 und 4 und
+
+ii) die Bezugnahme n auf „dem Tag der Mitteilung des Verwahrers über die Notifikation der Erweiterung der Liste der Abkommen “ in Absatz 5
+
+durch Bezugnahme n auf „ dem 30 . Tag , nachdem die letzte der Notifikation en der einzelnen Vertragsstaaten , die den in Artikel 35 (Wirksamwerden) Absatz 7 beschriebenen Vorbehalt anbring en , über den Abschluss ihrer innerstaatlichen Verfahren [5] für das Wirksamwerden dieses Übereinkommens in Bezug auf das betreffende unter das Übereinkommen fallende Steuer abkommen beim Verwahrer eingegangen ist , “ zu ersetzen;
+
+iii) die Bezugnahmen auf „ dem Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme oder Ersetzung des Vorbehalts“ in Artikel 28 (Vorbehalte) Absatz 9 Buchstabe a und
+
+iv) die Bezugnahme auf „ dem letzten der Tag e, an denen das Übereinkommen für die betreffenden Vertragsstaaten jeweils in Kraft tritt , “ in Artikel 28 (Vorbehalte) Absatz 9 Buchstabe b
+
+durch Bezugnahme n auf „ dem 30 . Tag , nachdem die letzte der Notifikation en der einzelnen Vertragsstaaten , die den in Artikel 35 (Wirksamwerden) Absatz 7 beschriebenen Vorbehalt anbring en , über den Abschluss ihrer innerstaatlichen Verfahren für das Wirksamwerden der Rücknahme oder Ersetzung des Vorbehalts in Bezug auf das betreffende unter das Übereinkommen fallende Steuer abkommen beim Verwahrer eingegangen ist , “ zu ersetzen;
+
+v) die Bezugnahmen auf „dem Tag der Mitteilung des Verwahrers über die zusätzliche Notifikation“ in Artikel 29 (Notifikationen) Absatz 6 Buchstabe a und
+
+vi) die Bezugnahme auf „ dem letzten der Tag e, an denen das Übereinkommen für die betreffenden Vertragsstaaten jeweils in Kraft tritt , “ in Artikel 29 (Notifikationen) Absatz 6 Buchstabe b
+
+durch Bezugnahme n auf „ dem 30 . Tag , nachdem die letzte der Notifikation en der einzelnen Vertragsstaaten , die den in Artikel 35 (Wirksamwerden) Absatz 7 beschriebenen Vorbehalt anbring en , über den Abschluss ihrer innerstaatlichen Verfahren für das Wirksamwerden der zusätzlichen Notifikation in Bezug auf das betreffende unter das Übereinkommen fallende Steuer abkommen beim Verwahrer eingegangen ist , “ zu ersetzen;
+
+vii) die Bezugnahmen auf „dem letzten der Tag e, an denen das Übereinkommen für die einzelnen Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt , “ in Artikel 36 (Wirksamwerden des Teiles VI) Absätze 1 und 2
+
+durch Bezugnahme n auf „ dem 30 . Tag , nachdem die letzte der Notif ikation en der einzelnen Vertragsstaaten , die den in Artikel 35 (Wirksamwerden) Absatz 7 beschriebenen Vorbehalt anbring en , über den Abschluss ihrer innerstaatlichen Verfahren für das Wirksamwerden dieses Übereinkommens in Bezug auf das betreffende unter das Übereinkommen fallende Steuer abkommen beim Verwahrer eingegangen ist , “ zu ersetzen ;
+
+viii) die Bezugnahme auf den „Tag der Mitteilung des Verwahrers über die Notifikation der Erweiterung der Liste der Abkommen “ in Artikel 36 (Wirksamwerden des Teiles VI) Absatz 3,
+
+ix) die Bezugnahme n auf den „Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme des Vorbehalts“ , den „Tag der Mitteilung des Verwahrers über die Notifikation der Ersetzung des Vorbehalts“ und den „Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme des Einspruchs gegen den Vorbehalt“ in Artikel 36 (Wirksamwerden des Teiles VI) Absatz 4 und
+
+x) die Bezugnahme auf den „Tag der Mitteilung des Verwahrers über die zusätzliche Notifikation“ in Artikel 36 (Wirksamwerden des Teiles VI) Absatz 5 durch Bezugnahme n auf den „30 . Tag , nachdem die letzte der Notifikation en der einzelnen Vertragsstaaten , die den in Artikel 35 (Wirksamwerden) Absatz 7 beschriebenen Vorbehalt anbring en , über den Abschluss ihrer innerstaatlichen Verfahren für das Wirksamwerden des Teiles VI (Schiedsverfahren) in Bezug auf das betreffende unter das Übereinkommen fallende Steuer abkommen beim Verwahrer eingegangen ist , “ zu ersetzen.
+
+b) Eine Vertragspartei dieses Übereinkommens , die einen Vorbehalt nach Buchstabe a anbringt, notifiziert zeitgleich dem Verwahrer und den anderen Vertragsstaaten die Bestätigung des Abschlusses ihrer innerstaatlichen Verfahren.
+
+c) Bringen ein oder mehrere Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s einen Vorbehalt nach diesem Absatz an, so wird der Tag des Wirksamwerdens des Übereinkommens, der Rücknahme oder Ersetzung eines Vorbehalts , einer zusätzlichen Notifikation in Bezug auf diese s unter das Übereinkommen fallende Steuer abkommen oder des Teiles VI (Schiedsverfahren) für alle Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s durch diesen Absatz bestimmt .
+
+#### Artikel 36
+
+#### Wirksamwerden des Teil es VI
+
+( 1 ) Ungeachtet des Artikels 28 (Vorbehalte) Absatz 9, des Artikels 29 (Notifikationen) Absatz 6 und des Artikels 35 (Wirksamwerden) Absätze 1 bis 6 wird Teil VI (Schiedsverfahren) in Bezug auf zwei Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s wirksam
+
+a) bei Fälle n , die der zuständigen Behörde eines Vertragsstaats (nach Artikel 19 (Obligatorisches verbindliches Schiedsverfahren) Absatz 1 Buchstabe a) vorgelegt werden, am oder nach dem letzten der Tag e, an denen dieses Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, und
+
+b) bei Fälle n , die der zuständigen Behörde eines Vertragsstaats vor dem letzten der Tag e, an denen das Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, vorgelegt werden, an dem Tag, an dem beide Vertragsstaaten dem Verwahrer notifiziert haben, dass sie eine Verständigungsregelung nach Artikel 19 (Obligatorisches verbindliches Schiedsverfahren) Absatz 10 erzielt haben, zusammen mit Angaben zu dem Tag oder den Tagen , an dem beziehungsweise denen diese Fälle nach dieser Verständigungsregelung als der zuständigen Behörde eines Vertragsstaats (nach Artikel 19 (Obligatorisches verbindliches Schiedsverfahren) Absatz 1 Buchstabe a) vorgelegt gelten.
+
+( 2 ) Eine Vertragspartei dieses Übereinkommens kann sich vorbehalten, dass Teil VI (Schiedsverfahren) nur insoweit für einen Fall gilt, welcher der zuständigen Behörde eines Vertragsstaats vor dem letzten der Tag e, an denen dieses Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, vorgelegt wird, als die zuständigen Behörden beider Vertragsstaaten übereinkommen , dass er für diesen bestimmten Fall gilt.
+
+( 3 ) Im Fall eine s neuen unter das Übereinkommen fallenden Steuer abkommen s , dessen Hinzufügung auf eine nach Artikel 29 (Notifikationen) Absatz 5 erfolgte Erweiterung der Liste der nach Artikel 2 (Auslegung von Ausdrücken) Absatz 1 Buchstabe a Ziffer ii notifizierten Abkommen zurückzuführen ist , werden in den Absätzen 1 und 2 die Bezugnahmen auf den „letzten der Tag e, an denen dieses Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, “ durch Bezugnahmen auf den „Tag der Mitteilung des Verwahrers über die Notifikation der Erweiterung der Liste der Abkommen “ ersetzt.
+
+( 4 ) Eine Rücknahme oder Ersetzung eines nach Artikel 26 (Vereinbarkeit) Absatz 4 angebrachten Vorbehalts aufgrund des Artikels 28 (Vorbehalte) Absatz 9 oder die Rücknahme eines Einspruchs gegen einen nach Artikel 28 (Vorbehalte) Absatz 2 angebrachten Vorbehalt, die zur Anwendung des Teiles VI (Schiedsverfahren) zwischen den beiden Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s führt, wird nach Absatz 1 Buchstaben a und b wirksam, wobei die Bezugnahmen auf den „letzten der Tag e, an denen dieses Übereinkommen für die Vertragsstaat en de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, “ durch Bezugnahmen auf den „Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme des Vorbehalts“ , den „Tag der Mitteilung des Verwahrers über die Notifikation der Ersetzung des Vorbehalts“ oder den „Tag der Mitteilung des Verwahrers über die Notifikation der Rücknahme des Einspruchs gegen den Vorbehalt“ ersetzt werden.
+
+( 5 ) Eine zusätzliche Notifikation nach Artikel 29 (Notifikationen) Absatz 1 Buchstabe p wird nach Absatz 1 Buchstaben a und b wirksam, wobei in den Absätzen 1 und 2 die Bezugnahmen auf den „letzten der Tag e, an denen dieses Übereinkommen für die Vertragsstaaten de s unter das Übereinkommen fallenden Steuer abkommen s jeweils in Kraft tritt, “ durch Bezugnahmen auf den „Tag der Mitteilung des Verwahrers über die zusätzliche Notifikation“ ersetzt werden.
+
+#### Artikel 37
+
+#### Rücktritt
+
+( 1 ) Jede Vertragspartei dieses Übereinkommens kann durch eine an den Verwahrer gerichtete Notifikation jederzeit von diesem Übereinkommen zurücktreten.
+
+( 2 ) Ein Rücktritt nach Absatz 1 wird bei Eingang der Notifikation beim Verwahrer wirksam. In Fällen, in denen dieses Übereinkommen in Bezug auf alle Vertragsstaaten eine s unter das Übereinkommen fallenden Steuer abkommen s vor dem Wirksamwerden des Rücktritts einer Vertragspartei dieses Übereinkommens in Kraft getreten ist, ver bleibt diese s unter das Übereinkommen fallende Steuer abkommen in seiner durch d a s Übereinkommen geänderten Fassung.
+
+#### Artikel 38
+
+#### Verhältnis zu Protokollen
+
+( 1 ) Dieses Übereinkommen kann durch ein oder mehrere Protokolle ergänzt werden.
+
+( 2 ) Um Vertragspartei eines Protokolls zu werden, muss ein Staat oder Gebiet auch Vertragspartei dieses Übereinkommens sein.
+
+( 3 ) Eine Vertragspartei dieses Übereinkommens ist nur dann durch ein Protokoll gebunden, wenn sie nach dessen Bestimmungen Vertragspartei des Protokolls wird.
+
+#### Artikel 39
+
+#### Verwahrer
+
+( 1 ) Der Generalsekretär der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist Verwahrer dieses Übereinkommens und der Protokolle nach Artikel 38 (Verhältnis zu Protokollen).
+
+( 2 ) Der Verwahrer notifiziert den Vertragsparteien und Unterzeichnern dieses Übereinkommens innerhalb eines Kalenderm onats
+
+a) j ede Unterzeichnung nach Artikel 27 (Unterzeichnung und Ratifikation, Annahme oder Genehmigung),
+
+b) die Hinterlegung jeder Ratifikations-, Annahme- oder Genehmigungsurkunde nach Artikel 27 (Unterzeichnung und Ratifikation, Annahme oder Genehmigung),
+
+c) jeden Vorbehalt und jede Rücknahme oder Ersetzung eines Vorbehalts nach Artikel 28 (Vorbehalte),
+
+d) jede Notifikation oder zusätzliche Notifikation nach Artikel 29 (Notifikationen),
+
+e) jede n Änderung svorschlag in Bezug auf d iese s Übereinkommen nach Artikel 33 (Änderungen),
+
+f) jeden Rücktritt von dem Übereinkommen nach Artike l 37 (Rücktritt) und
+
+g) jede andere Mitteilung im Zusammenhang mit dem Übereinkommen.
+
+( 3 ) Der Verwahrer führt öffentlich verfügbare Listen
+
+a) der unter das Übereinkommen fallenden Steuer abkommen ,
+
+b) der von den Vertragsparteien dieses Übereinkommens angebrachten Vorbehalte und
+
+c) der von den Vertragsparteien dieses Übereinkommens abgegebenen Notifikationen.
+
+Zu Urkund dessen haben die hierzu gehörig befugten Unterzeichneten dieses Übereinkommen unterschrieben.
+
+Geschehen zu Paris am 24. November 2016 in englischer und französischer Sprache, wobei jeder Wortlaut gleichermaßen verbindlich ist, in einer Urschrift, die im Archiv der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hinterlegt wird.
+
+[1]
+
+[2] Anm. d. Übers.: im Fall von Gebieten oder Hoheitsgebieten: internem Recht
+
+[3] Anm. d. Übers.: im Fall von Gebieten oder Hoheitsgebieten hier und im Folgenden : interne n Recht
+
+[4] Anm. d. Übers.: im Fall von Gebieten oder Hoheitsgebieten hier und im Folgenden : internen Rechtsvorschriften
+
+[5] Anm. d. Übers.: im Fall von Gebieten oder Hoheitsgebieten hier und im Folgenden : internen Verfahren
