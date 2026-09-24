@@ -1,0 +1,509 @@
+[
+  {
+    "id": "B1",
+    "question": "Quels sont les taux de l'impôt des personnes physiques par tranche de revenus pour les revenus de 2026 ?",
+    "topic": "ipp_taux_bareme",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:130"
+    ],
+    "secondary": [
+      "cir92:131"
+    ],
+    "notes": "Art. 130: 25 % jusqu'à 16.720 €, 40 % jusqu'à 29.510 €, 45 % jusqu'à 51.070 €, 50 % au-delà (montants indexés revenus 2026)."
+  },
+  {
+    "id": "B2",
+    "question": "Quel est le montant de la quotité du revenu exemptée d'impôt pour un contribuable ?",
+    "topic": "ipp_quotite_exemptee",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:131"
+    ],
+    "secondary": [
+      "cir92:132"
+    ],
+    "notes": "Art. 131: montant de base de 11.550 € exempté d'impôt, majoré de 2.030 € en cas de handicap."
+  },
+  {
+    "id": "B3",
+    "question": "Quel pourcentage de frais professionnels forfaitaires un salarié peut-il déduire de sa rémunération ?",
+    "topic": "ipp_frais_professionnels_forfaitaires",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:51"
+    ],
+    "secondary": [],
+    "notes": "Art. 51: 30 % pour les rémunérations des travailleurs, plafond 6.070 €; 3 % dirigeants; barème dégressif pour les profits."
+  },
+  {
+    "id": "B4",
+    "question": "Quel est le montant maximum de l'épargne-pension qui donne droit à une réduction d'impôt ?",
+    "topic": "ipp_epargne_pension",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:145/8"
+    ],
+    "secondary": [
+      "cir92:145/1",
+      "cir92:145/9"
+    ],
+    "notes": "Art. 145/8 §1: montant limité à 1.050 € par période imposable, option pour un maximum de 1.350 €."
+  },
+  {
+    "id": "B5",
+    "question": "Quel est le taux de l'impôt des sociétés en Belgique ?",
+    "topic": "isoc_taux",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:215"
+    ],
+    "secondary": [],
+    "notes": "Art. 215: taux de l'impôt des sociétés fixé à 25 %; 20 % sur la première tranche de 0 à 100.000 € pour les petites sociétés."
+  },
+  {
+    "id": "B6",
+    "question": "Quelle participation minimale une société doit-elle détenir pour bénéficier de la déduction des revenus définitivement taxés (RDT) sur les dividendes reçus ?",
+    "topic": "isoc_rdt",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:202"
+    ],
+    "secondary": [
+      "cir92:203"
+    ],
+    "notes": "Art. 202 §2: participation de 10 % au moins ou valeur d'investissement d'au moins 2.500.000 €."
+  },
+  {
+    "id": "B7",
+    "question": "Quels sont les pourcentages de la déduction pour investissement (déduction de base, thématique, technologique) ?",
+    "topic": "isoc_deduction_investissement",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:69"
+    ],
+    "secondary": [
+      "cir92:68"
+    ],
+    "notes": "Art. 69: déduction de base 10 % (majorée de 10 points pour immobilisations numériques), thématique 40 %, technologique 13,5 %."
+  },
+  {
+    "id": "B8",
+    "question": "Quel est le taux du précompte mobilier applicable aux dividendes et intérêts ?",
+    "topic": "precompte_mobilier_taux",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:269"
+    ],
+    "secondary": [
+      "cir92:171"
+    ],
+    "notes": "Art. 269 §1: précompte mobilier fixé à 30 % pour les revenus de capitaux et biens mobiliers, 15 % pour certains cas (dépôts d'épargne au-delà de l'exonération...)."
+  },
+  {
+    "id": "B9",
+    "question": "Qui est considéré comme assujetti à la TVA ?",
+    "topic": "tva_assujetti",
+    "difficulty": "easy",
+    "expected": [
+      "ctva:4"
+    ],
+    "secondary": [],
+    "notes": "Art. 4 C.TVA: est assujetti quiconque effectue, dans l'exercice d'une activité économique, d'une manière habituelle et indépendante, des livraisons de biens ou prestations de services."
+  },
+  {
+    "id": "B10",
+    "question": "Quel est le taux normal de TVA en Belgique et quels sont les taux réduits ?",
+    "topic": "tva_taux",
+    "difficulty": "easy",
+    "expected": [
+      "artva:AR20:1"
+    ],
+    "secondary": [
+      "ctva:37"
+    ],
+    "notes": "AR n° 20 art. 1: taux normal 21 %; taux réduits 6 % (tableau A), 12 % (tableau B), 0 % (tableau C)."
+  },
+  {
+    "id": "B11",
+    "question": "Quel est le seuil de chiffre d'affaires pour bénéficier du régime de la franchise de TVA des petites entreprises ?",
+    "topic": "tva_franchise_petites_entreprises",
+    "difficulty": "easy",
+    "expected": [
+      "ctva:56ter"
+    ],
+    "secondary": [
+      "ctva:56bis"
+    ],
+    "notes": "Art. 56ter §1: assujettis établis en Belgique dont le chiffre d'affaires annuel ne dépasse pas 25.000 € peuvent bénéficier de la franchise."
+  },
+  {
+    "id": "B12",
+    "question": "Quelles sont les mentions obligatoires que doit contenir une facture TVA ?",
+    "topic": "tva_facture_mentions",
+    "difficulty": "easy",
+    "expected": [
+      "artva:AR1:5"
+    ],
+    "secondary": [
+      "ctva:53"
+    ],
+    "notes": "AR n° 1 art. 5 §1: date et numéro séquentiel, nom/dénomination et adresse du fournisseur, numéro d'identification TVA, etc."
+  },
+  {
+    "id": "B13",
+    "question": "Dans quel délai dois-je introduire une réclamation contre mon avertissement-extrait de rôle à l'impôt des personnes physiques ?",
+    "topic": "procedure_reclamation_delai",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:371"
+    ],
+    "secondary": [
+      "cir92:366"
+    ],
+    "notes": "Art. 371: réclamation motivée, sous peine de déchéance, dans un délai d'un an à compter du troisième jour ouvrable suivant l'envoi de l'AER."
+  },
+  {
+    "id": "B14",
+    "question": "Pendant combien d'années l'administration fiscale peut-elle encore établir l'impôt en cas d'absence de déclaration ou de déclaration tardive ?",
+    "topic": "procedure_delai_imposition",
+    "difficulty": "easy",
+    "expected": [
+      "cir92:354"
+    ],
+    "secondary": [],
+    "notes": "Art. 354 §1: trois ans (délai ordinaire) ; quatre ans en cas d'absence de déclaration, remise tardive ou déclaration complexe."
+  },
+  {
+    "id": "B15",
+    "question": "Comment est déterminé le montant du précompte professionnel retenu à la source sur les salaires ?",
+    "topic": "precompte_professionnel_bareme",
+    "difficulty": "easy",
+    "expected": [
+      "arcir92:88"
+    ],
+    "secondary": [
+      "cir92:270"
+    ],
+    "notes": "AR/CIR 92 art. 88: le précompte professionnel dû à la source est déterminé conformément aux règles d'application et au mode de calcul figurant à l'annexe III."
+  },
+  {
+    "id": "B16",
+    "question": "J'ai versé 100 euros à une ONG reconnue cette année, est-ce que cela me donne droit à un avantage fiscal ?",
+    "topic": "ipp_dons_liberalites",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:145/33"
+    ],
+    "secondary": [],
+    "notes": "Art. 145/33: réduction d'impôt pour les libéralités faites en argent aux institutions agréées (universités, hôpitaux, institutions...)."
+  },
+  {
+    "id": "B17",
+    "question": "Je paie chaque mois une contribution pour mes enfants à mon ex-conjointe, puis-je déduire ces sommes de mes revenus ?",
+    "topic": "ipp_pension_alimentaire",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:104"
+    ],
+    "secondary": [],
+    "notes": "Art. 104, 1°: 60 % des rentes alimentaires régulièrement payées à des personnes ne faisant pas partie du ménage, en exécution d'une obligation légale, sont déduites."
+  },
+  {
+    "id": "B18",
+    "question": "Mon employeur me laisse une voiture que j'utilise aussi le week-end pour mes trajets privés : comment est calculé le montant que je dois déclarer ?",
+    "topic": "ipp_atn_voiture_societe",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:36"
+    ],
+    "secondary": [
+      "arcir92:18"
+    ],
+    "notes": "Art. 36 §2: ATN véhicule = pourcentage-CO2 x 6/7 de la valeur catalogue, dégressif selon l'âge; minimum 1.650 € par an."
+  },
+  {
+    "id": "B19",
+    "question": "Les chèques-repas que me donne mon patron sont-ils imposés et quel est le montant maximum par chèque ?",
+    "topic": "ipp_titres_repas",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:38/1"
+    ],
+    "secondary": [
+      "cir92:38"
+    ],
+    "notes": "Art. 38/1: titres-repas exonérés sous conditions; intervention de l'employeur max 8,91 € par titre, intervention du travailleur min 1,09 €."
+  },
+  {
+    "id": "B20",
+    "question": "J'ai trois enfants à charge : de combien augmente la part de mes revenus qui échappe à l'impôt ?",
+    "topic": "ipp_enfants_a_charge",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:132"
+    ],
+    "secondary": [
+      "cir92:131"
+    ],
+    "notes": "Art. 132: suppléments pour personnes à charge: 1 enfant 2.130 €, 2 enfants 5.130 €, 3 enfants 11.440 €, 4 enfants 18.510 €."
+  },
+  {
+    "id": "B21",
+    "question": "Je mets un appartement en location à un particulier qui y habite : sur quelle base suis-je imposé pour ce bien ?",
+    "topic": "ipp_revenus_immobiliers_location",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:7"
+    ],
+    "secondary": [],
+    "notes": "Art. 7 §1, 2°, a): biens loués à une personne physique sans usage professionnel: revenu cadastral majoré de 40 %."
+  },
+  {
+    "id": "B22",
+    "question": "J'ai gagné un peu d'argent en rendant des services à des tiers en dehors de mon travail, à titre occasionnel : est-ce imposable ?",
+    "topic": "ipp_revenus_divers_occasionnels",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:90"
+    ],
+    "secondary": [
+      "cir92:171"
+    ],
+    "notes": "Art. 90, 1°: bénéfices ou profits résultant même occasionnellement de prestations ou services rendus à des tiers en dehors d'une activité professionnelle sont des revenus divers (sauf gestion normale du patrimoine privé)."
+  },
+  {
+    "id": "B23",
+    "question": "Ma petite SRL réalise 80.000 euros de bénéfice : combien va-t-elle payer d'impôt sur ce bénéfice ?",
+    "topic": "isoc_regime_pme",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:215"
+    ],
+    "secondary": [],
+    "notes": "Art. 215 al. 2: pour les petites sociétés, taux de 20 % sur la première tranche de 0 à 100.000 € (sinon 25 %), avec conditions d'exclusion (participations, rémunération dirigeant)."
+  },
+  {
+    "id": "B24",
+    "question": "Ma société achète une voiture essence en 2026 pour un employé : ses frais d'entretien et de carburant sont-ils encore déductibles ?",
+    "topic": "isoc_frais_voiture_deductibilite",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:66"
+    ],
+    "secondary": [
+      "cir92:36"
+    ],
+    "notes": "Art. 66 §1: frais professionnels des véhicules non déductibles sauf pour un véhicule qui n'émet pas de CO2; régime dérogatoire pour hybrides rechargeables (§1/1)."
+  },
+  {
+    "id": "B25",
+    "question": "Mon employeur me fournit un ordinateur portable et une connexion internet que j'utilise aussi à la maison : quelle valeur faut-il retenir pour cet avantage ?",
+    "topic": "ipp_atn_pc_internet",
+    "difficulty": "medium",
+    "expected": [
+      "arcir92:18"
+    ],
+    "secondary": [
+      "cir92:36"
+    ],
+    "notes": "AR/CIR 92 art. 18 §3, 10: avantage forfaitaire de 72 € par an pour un PC, 36 € pour tablette ou GSM, 60 € pour une connexion internet."
+  },
+  {
+    "id": "B26",
+    "question": "Je donne des cours particuliers et des formations professionnelles : dois-je facturer la TVA à mes élèves ?",
+    "topic": "tva_exemption_enseignement",
+    "difficulty": "medium",
+    "expected": [
+      "ctva:44"
+    ],
+    "secondary": [],
+    "notes": "Art. 44 §2, 4°: exemption de l'enseignement scolaire ou universitaire et de la formation ou du recyclage professionnel (sous conditions liées à l'organisme)."
+  },
+  {
+    "id": "B27",
+    "question": "Je fais rénover ma maison qui a plus de quinze ans : l'entrepreneur peut-il me facturer avec le taux réduit de TVA ?",
+    "topic": "tva_renovation_taux_reduit",
+    "difficulty": "medium",
+    "expected": [
+      "artva:AR20:3"
+    ],
+    "secondary": [
+      "artva:AR20:1"
+    ],
+    "notes": "AR n° 20 tableau A rubrique XXXI: travaux de transformation, rénovation, réparation d'un bâtiment d'habitation utilisé comme logement privé soumis au taux réduit sous conditions (ancienneté du bâtiment)."
+  },
+  {
+    "id": "B28",
+    "question": "Je n'ai pas pu payer mon impôt dans les temps : quel intérêt vais-je devoir payer sur le montant en retard ?",
+    "topic": "recouvrement_interets_retard",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:414"
+    ],
+    "secondary": [
+      "crecouv:14",
+      "cir92:413"
+    ],
+    "notes": "Art. 414 §1: à défaut de paiement dans les délais des art. 412-413, intérêt de retard au taux fixé par l'art. 2 §2/1 de la loi du 5 mai 1865; art. 413: paiement dans les deux mois de l'envoi de l'AER."
+  },
+  {
+    "id": "B29",
+    "question": "Le fisc m'a envoyé une demande écrite de renseignements sur ma situation : combien de temps ai-je pour y répondre ?",
+    "topic": "procedure_controle_demande_renseignements",
+    "difficulty": "medium",
+    "expected": [
+      "cir92:316"
+    ],
+    "secondary": [
+      "cir92:315"
+    ],
+    "notes": "Art. 316: obligation de fournir par écrit, dans le mois à compter du troisième jour ouvrable suivant l'envoi de la demande, tous renseignements réclamés."
+  },
+  {
+    "id": "B30",
+    "question": "Je suis entrepreneur en construction et je facture des travaux à un client qui dépose des déclarations TVA : dois-je mettre la TVA sur ma facture ?",
+    "topic": "tva_autoliquidation_travaux_immobiliers",
+    "difficulty": "medium",
+    "expected": [
+      "artva:AR1:20"
+    ],
+    "secondary": [
+      "ctva:51"
+    ],
+    "notes": "AR n° 1 art. 20: par dérogation, le cocontractant établi en Belgique qui dépose des déclarations périodiques acquitte lui-même la taxe due sur les travaux immobiliers (report de perception)."
+  },
+  {
+    "id": "B31",
+    "question": "Mon père, domicilié à Namur, vient de décéder et je suis son seul enfant : quel pourcentage vais-je payer sur ce que j'hérite ?",
+    "topic": "succession_tarif_wallonie",
+    "difficulty": "hard",
+    "expected": [
+      "csucc_wal:48"
+    ],
+    "secondary": [
+      "csucc_wal:54",
+      "csucc_wal:60ter"
+    ],
+    "notes": "C. succ. wallon art. 48: tarif progressif par tranches en ligne directe (tableau I); art. 54 abattement 12.500 €; art. 60ter tarif préférentiel pour la résidence principale."
+  },
+  {
+    "id": "B32",
+    "question": "Mon mari est décédé, nous vivions ensemble à Schaerbeek : dois-je payer des droits sur ma part de notre maison ?",
+    "topic": "succession_logement_familial_bruxelles",
+    "difficulty": "hard",
+    "expected": [
+      "csucc_bxl:55bis"
+    ],
+    "secondary": [
+      "csucc_bxl:48",
+      "csucc_bxl:60ter"
+    ],
+    "notes": "C. succ. Bruxelles art. 55bis: exemption de la part nette du partenaire dans l'habitation qui servait de logement familial au moment du décès."
+  },
+  {
+    "id": "B33",
+    "question": "Ma compagne, avec qui je vivais à Gand, est décédée : la maison où nous habitions est-elle taxée dans ma part de succession ?",
+    "topic": "succession_logement_familial_flandre",
+    "difficulty": "hard",
+    "expected": [
+      "vcf:2.7.4.1.1"
+    ],
+    "secondary": [
+      "csucc_vla:48"
+    ],
+    "notes": "VCF art. 2.7.4.1.1 §2 al. 3: le tarif entre partenaires n'est appliqué que sur les biens autres que l'habitation qui était celle du ménage au moment du décès (exonération du logement familial)."
+  },
+  {
+    "id": "B34",
+    "question": "J'achète ma première maison à Charleroi en 2026 pour y vivre : quel pourcentage de droits d'enregistrement vais-je payer ?",
+    "topic": "enregistrement_achat_habitation_wallonie",
+    "difficulty": "hard",
+    "expected": [
+      "cenr_wal:44bis"
+    ],
+    "secondary": [
+      "cenr_wal:44"
+    ],
+    "notes": "C. enr. wallon art. 44bis (depuis 01.01.2025): droit réduit à 3 % pour l'acquisition par des personnes physiques de la totalité en pleine propriété d'un immeuble d'habitation pour y établir leur résidence principale (au lieu de 12,5 % art. 44)."
+  },
+  {
+    "id": "B35",
+    "question": "J'achète un appartement de 450.000 euros à Ixelles pour y habiter : ai-je droit à une réduction de la base sur laquelle on calcule les droits d'enregistrement ?",
+    "topic": "enregistrement_abattement_bruxelles",
+    "difficulty": "hard",
+    "expected": [
+      "cenr_bxl:46bis"
+    ],
+    "secondary": [
+      "cenr_bxl:44"
+    ],
+    "notes": "C. enr. Bruxelles art. 46bis: base imposable réduite de 200.000 € pour l'acquisition d'une habitation destinée à la résidence principale, si le montant n'excède pas 600.000 €."
+  },
+  {
+    "id": "B36",
+    "question": "Je veux acheter une maison à Louvain pour en faire mon domicile : quel taux de droits de vente s'applique en Flandre ?",
+    "topic": "enregistrement_droit_vente_flandre",
+    "difficulty": "hard",
+    "expected": [
+      "vcf:2.9.4.2.11"
+    ],
+    "secondary": [
+      "vcf:2.9.4.1.1"
+    ],
+    "notes": "VCF art. 2.9.4.2.11 §1: droit de vente de 2 % pour l'acquisition d'une habitation unique destinée à la résidence principale, par dérogation au taux de 12 % (art. 2.9.4.1.1)."
+  },
+  {
+    "id": "B37",
+    "question": "Mes parents habitent Liège et veulent me donner 50.000 euros par acte notarié : quel pourcentage de droits sera prélevé ?",
+    "topic": "donation_mobiliere_wallonie",
+    "difficulty": "hard",
+    "expected": [
+      "cenr_wal:131bis"
+    ],
+    "secondary": [
+      "cenr_wal:131"
+    ],
+    "notes": "C. enr. wallon art. 131bis §1: donations de biens meubles: 3,3 % en ligne directe, entre époux et cohabitants légaux; 5,5 % pour les autres personnes."
+  },
+  {
+    "id": "B38",
+    "question": "J'immatricule une voiture d'occasion à mon nom à Bruxelles : combien vais-je payer de taxe lors de la première mise en circulation ?",
+    "topic": "taxe_mise_en_circulation_bruxelles",
+    "difficulty": "hard",
+    "expected": [
+      "cta_bxl:98"
+    ],
+    "secondary": [
+      "cta_bxl:94"
+    ],
+    "notes": "CTA Bruxelles art. 98 §1: taxe de mise en circulation fixée selon les CV/kW (ex. 0 à 8 CV: 61,50 €), dégressive selon l'âge du véhicule."
+  },
+  {
+    "id": "B39",
+    "question": "Combien coûte chaque année la taxe pour rouler avec ma voiture de 8 chevaux fiscaux immatriculée en Wallonie ?",
+    "topic": "taxe_circulation_wallonie",
+    "difficulty": "hard",
+    "expected": [
+      "cta_wal:9"
+    ],
+    "secondary": [
+      "cta_wal:5"
+    ],
+    "notes": "CTA Wallonie art. 9: taxe de circulation annuelle fixée d'après le barème en chevaux-vapeur fiscaux (voitures, voitures mixtes, minibus)."
+  },
+  {
+    "id": "B40",
+    "question": "J'ai reçu l'avis de précompte immobilier pour mon appartement à Bruxelles et je pense qu'il est erroné : combien de jours ai-je pour le contester ?",
+    "topic": "precompte_immobilier_reclamation_bruxelles",
+    "difficulty": "hard",
+    "expected": [
+      "cbpf:100"
+    ],
+    "secondary": [
+      "cbpf:3",
+      "cir92:371"
+    ],
+    "notes": "CBPF art. 100 §2: réclamation sous peine de déchéance dans un délai de 186 jours à compter du lendemain de la connaissance de l'AER; art. 3: le CBPF s'applique au précompte immobilier bruxellois."
+  }
+]
