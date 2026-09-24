@@ -32,10 +32,15 @@ def default_codes_b() -> list[str]:
     return [k for k, v in rep.items() if v.get("default_subset")]
 
 
-def load(corpus: str):
+def load(corpus: str, clean: bool = False):
     if corpus == "A":
         return load_corpus_a(), load_questions_a()
-    return load_corpus_b(codes=default_codes_b()), load_questions_b()
+    docs = load_corpus_b(codes=default_codes_b())
+    if clean:  # experiment 08: strip amendment-history preambles
+        sys.path.insert(0, str((DATA_DIR.parent / "08_corpus_b_cleanup").resolve()))
+        from cleanup import clean_article
+        docs = [type(d)(d.doc_id, d.title, clean_article(d.text), dict(d.meta)) for d in docs]
+    return docs, load_questions_b()
 
 
 CHUNKERS = {
@@ -86,8 +91,9 @@ class Encoder:
         return self._enc(texts, self.spec.q_prefix, self.spec.q_encode_kwargs)
 
 
-def run(corpus: str, model_keys: list[str], chunker_keys: list[str], top_docs: int = 50) -> None:
-    docs, questions = load(corpus)
+def run(corpus: str, model_keys: list[str], chunker_keys: list[str], top_docs: int = 50, clean: bool = False) -> None:
+    docs, questions = load(corpus, clean)
+    tag = "_clean" if clean else ""
     cache = EmbeddingCache()
     print(f"corpus {corpus}: {len(docs)} docs, {len(questions)} questions")
     for mk in model_keys:
@@ -121,9 +127,9 @@ def run(corpus: str, model_keys: list[str], chunker_keys: list[str], top_docs: i
                             break
                 rankings[q.qid] = ranked
             search_s = time.perf_counter() - t2
-            name = f"{mk}__{ck}"
+            name = f"{mk}__{ck}{tag}"
             res = evaluate_rankings(name, corpus, questions, rankings,
-                                    config={"model": spec.hf_id, "chunker": ck, "max_seq": spec.max_seq,
+                                    config={"model": spec.hf_id, "chunker": ck, "max_seq": spec.max_seq, "clean": clean,
                                             "n_chunks": len(chunks), "dim": int(emb.shape[1]),
                                             "q_prefix": spec.q_prefix, "d_prefix": spec.d_prefix},
                                     timing={"encode_docs_s": round(enc_s, 1), "encode_queries_s": round(q_s, 2),
@@ -140,7 +146,8 @@ if __name__ == "__main__":
     ap.add_argument("--models", default="minilm-l12,e5-small")
     ap.add_argument("--chunkers", default="fixed1500,fixed1500_title")
     ap.add_argument("--leaderboard", action="store_true")
+    ap.add_argument("--clean", action="store_true", help="corpus B: apply experiment-08 article cleanup")
     a = ap.parse_args()
     if a.leaderboard:
         print_leaderboard(a.corpus); sys.exit()
-    run(a.corpus, a.models.split(","), a.chunkers.split(","))
+    run(a.corpus, a.models.split(","), a.chunkers.split(","), clean=a.clean)

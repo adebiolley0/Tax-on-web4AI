@@ -1,0 +1,9 @@
+[project]
+name = "exp08-corpus-b-cleanup"
+version = "0.1.0"
+description = "Corpus B text cleanup (amendment preambles) + region metadata and query-time region filter."
+requires-python = ">=3.12"
+dependencies = ["bm25s>=0.2", "PyStemmer", "numpy", "rag-eval"]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
