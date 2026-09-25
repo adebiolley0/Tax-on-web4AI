@@ -105,6 +105,34 @@ def bm25_scores(c: Corpus) -> tuple[np.ndarray, float]:
     return out, time.perf_counter() - t0
 
 
+def bm25_doc_scores(c: Corpus) -> np.ndarray:
+    """Experiment-01 best BM25 (whole documents, bm25s French stoplist + question words, stem,
+    accents stripped, k1=1.5 b=0.75) broadcast to chunks: every chunk gets its document's score.
+    This is the 0.736-val bar on corpus A, usable as a fusion leg."""
+    from bm25s.stopwords import STOPWORDS_FRENCH
+    from rag_eval import whole_doc
+    qstop = {"quel", "quelle", "quels", "quelles", "comment", "pourquoi", "combien", "quand", "où", "puis", "peux",
+             "peut", "dois", "doit", "faut", "obligé", "obligée", "existe", "fonctionne", "etc", "tant", "tous",
+             "toutes", "tout", "toute", "ai", "il", "y", "a"}
+
+    def strip(s):
+        return "".join(ch for ch in unicodedata.normalize("NFKD", s) if not unicodedata.combining(ch))
+    stop = {strip(w) for w in set(STOPWORDS_FRENCH) | qstop}
+
+    def tok(text):
+        toks = [t for t in re.findall(r"\w+", strip(text.lower())) if len(t) > 1 or t.isdigit()]
+        return _stemmer.stemWords([t for t in toks if t not in stop])
+    units = whole_doc(c.docs)
+    r = bm25s.BM25(k1=1.5, b=0.75)
+    r.index([tok(u.text) for u in units], show_progress=False)
+    pos = {u.doc_id: i for i, u in enumerate(units)}
+    chunk_pos = np.array([pos[d] for d in c.doc_ids])
+    out = np.zeros((len(c.questions), c.n), dtype=np.float32)
+    for i, q in enumerate(c.questions):
+        out[i] = r.get_scores(tok(q.question))[chunk_pos]
+    return out
+
+
 # ── cached dense legs (experiment 02 embeddings) ─────────────────────────────
 
 def dense_cache_path(c: Corpus, model_key: str) -> Path:

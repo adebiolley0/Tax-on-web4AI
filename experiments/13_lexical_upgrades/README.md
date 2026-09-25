@@ -81,8 +81,10 @@ C 0.665 (BM25 + bge-reranker-v2-m3, val; lexical-only baseline 0.577 full / 0.53
 | final + RM3 λ 0.7 | 0.633 | 0.566 | 0.605 | 0.471 | 0.417 | 0.448 | 0.917 | 0.897 |
 
 Val changes (3 of 12 questions): Q5 *dons à des associations agréées* 20 → 14, Q12 *gains en capital* 4 → 2,
-Q14 *location meublée* 5 → 6. Title / metadata fields bring nothing on A (whole documents already contain their
-title; weight 0 is chosen on train and any weight ≥ 3 hurts val). The only gain is a flatter tf saturation
+Q14 *location meublée* 5 → 6. Title / metadata fields bring nothing on A: all 28 BM25F weight pairs (title
+0–8 × keywords 0–2) give *identical rankings* — the scores move (≤ 0.3) but with whole-document units every
+query term already occurs in the body and BM25's tf saturation caps what an extra title occurrence can add;
+the cheap concat, which also changes document length, is neutral up to ×2 and −0.04 val at ×3/×3. The only gain is a flatter tf saturation
 (k1 3.0) with stronger length normalisation (b 0.9): long circulars that repeat the query words no longer win
 over the short specific document. It is a +0.02 move driven by two questions, so consider it noise-level.
 
@@ -163,7 +165,9 @@ Val changes, final vs the exp-09 baseline (17 of 35 changed, **14 wins / 3 losse
    written from documents with descriptive titles (circulars, PQs, CPDIs), so this is partly a property of the
    question set; still, the effect holds on the held-out half. The exact weight is not identifiable with 29
    train questions: the train optimum (title ×8, heading 0) is not the val optimum (concat ×3/×3, val 0.633,
-   train 0.748), and any title weight between 2 and 8 gives val 0.595–0.633. On B the same method **overfits
+   train 0.748), and every BM25F pair with title 2–8 gives val 0.580–0.620 (heading/path weight 2–3 adds
+   +0.01–0.04 val but −0.01–0.02 train). BM25F only bites on short units: on chunks a title term is a large
+   share of tf', on whole documents (A) it is saturated away. On B the same method **overfits
    train** (+0.05 train, 0.00 val: it only boosts code names), and on A the title carries nothing (weight 0
    chosen).
 2. **k1/b retuning is worth checking per corpus but is not a stable lever**: A prefers a flat saturation
