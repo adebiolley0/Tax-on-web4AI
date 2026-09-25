@@ -7,7 +7,7 @@ Treat the structure we already hold — Titre › Chapitre › Section › Artic
 - Codes score worst (B: MRR 0.52) yet have the richest hierarchy; exp 05 showed a heading-path prefix is worth +0.02–0.04 while merged-parent retrievers *hurt* (0.51/0.47 vs 0.53) — structure was never a separate signal.
 - Regional/yearly duplicates and layman↔statute vocabulary are the top B failures; subtree scores ("Droits de succession — Région wallonne") are the filters exp 09 asked for.
 - The only Belgian-law evidence (BSARD, French, 22.6k articles) is precisely that hierarchy helps dense retrieval.
-- The node index is tiny (hundreds of taxonomy nodes, a few thousand sections): CPU, no LLM.
+- The node index is tiny (a few thousand nodes): CPU, no LLM.
 
 **Evidence**
 - G-DSR (EACL 2023, BSARD): GATv2 over heading + article nodes lifts DSR R@100 82.7→84.3, R@200 88.7→90.4, mAP 35.3→47.1, mRP 27.5→40.2; GNN type barely matters. Needs a fine-tuned bi-encoder. CuSINeS (2024): hierarchy-distance hard negatives, R@200 85.6→89.6.
@@ -28,8 +28,8 @@ Treat the structure we already hold — Titre › Chapitre › Section › Artic
 
 **Risks / open questions**
 - CIR 92 headings are broad ("Chapitre II — Assiette de l'impôt"); node text may match nothing a taxpayer writes.
-- Hard routing errors are unrecoverable (HiKEY 76.1); soft boosts can promote long chapters uniformly.
-- Multi-hop questions spanning Titres are penalised by single-subtree routing.
+- Hard routing errors are unrecoverable (HiKEY 76.1); soft boosts may promote long chapters uniformly.
+- Multi-hop questions spanning Titres suffer under single-subtree routing.
 - G-DSR gains came with fine-tuning; untrained ancestor sums may under-deliver — needs the B/C ablation.
 - Fisconet+ taxonomy leaves are documents, not topics; value on C hinges on dedupe (#26).
 

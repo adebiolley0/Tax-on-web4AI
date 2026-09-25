@@ -1,4 +1,4 @@
-# 22 — LLM-free legal knowledge graph (rules, regex, small NER)
+# 22 — LLM-free legal knowledge graph
 
 **Idea**
 
@@ -11,7 +11,7 @@ Three failure modes are structural: yearly/regional editions (3,610 + 6,381 docu
 **Evidence**
 
 - Local: exp 11 resolves 57 % (B) / 62 % (C) of 395k article mentions, 94 % of ruling numbers, 99 % of AR n° refs, 25/25 hand-checked plausible; score propagation gave val MRR −0.05…+0.02, the region prior +0.04 on B BM25.
-- Regex citation extraction scales: precision 1.00 on a 200-decision sample (CI 0.982–1.0) for 502M citations from 100M Ukrainian decisions in ~5 h (arXiv 2605.15362, May 2026); GDPR/AI Act cross-references precision 99.5/100 %, recall 84.5/87.4 %, misses = internal "paragraphs 1 and 2" forms (arXiv 2607.04448, Jul 2026); Bundesrecht grammar 98.6–99.7 % exact match on 2,944 German refs (arXiv 2605.31338, May 2026).
+- Regex citation extraction scales: precision 1.00 on a 200-decision sample for 502M citations from 100M Ukrainian decisions in ~5 h (arXiv 2605.15362, May 2026); GDPR/AI Act cross-references precision 99.5/100 %, recall 84.5/87.4 %, misses = internal "paragraphs 1 and 2" forms (arXiv 2607.04448, Jul 2026); Bundesrecht grammar 98.6–99.7 % exact match on 2,944 German refs (arXiv 2605.31338, May 2026).
 - Versions without dates are fatal: on French tax law, static RAG retrieves the date-applicable article version 0 % of the time (2.7 % strict accuracy); a multi-version index with rule-extracted `date_debut/date_fin` reaches 98.3 %, gold version in top-5 99 % (arXiv 2608.09393, Aug 2026).
 - Generic French NER has no legal classes: spaCy `fr_core_news_lg` 3.8 ENTS_F 84.2, flair `ner-french` 90.6 (WikiNER). GLiNER zero-shot legal NER F1 59.5, P 83.3 (snippet, unverified); 53 % vs 100 % for GPT-4.1-mini on query parsing, 0.1–0.5 s/query CPU (Sease, Oct 2025). Definition extraction: Legal-BERT 96.8 P / 98.9 R on the US Code (arXiv 2504.16353); no French figure.
 - Implicit citations stay out of reach: French civil passages → Civil Code articles, best F1 0.70, expert κ = 0.33 (arXiv 2603.22973).
@@ -25,11 +25,11 @@ Three failure modes are structural: yearly/regional editions (3,610 + 6,381 docu
 
 **Expected gain and cost**
 
-MRR +0.01–0.03 overall (filters and collapsing touch the ~15 % of questions with a year/region/threshold); the larger gain is citation fidelity and fetch-time context, which MRR does not measure. Cost: 3–5 days of grammars and audits, ~2 min extraction for 21k documents (exp 11: 111 s), no GPU.
+MRR +0.01–0.03 overall (filters and collapsing touch the ~15 % of questions with a year/region/threshold); the larger gain is citation fidelity and fetch-time context, unmeasured by MRR. Cost: 3–5 days of grammars and audits, ~2 min extraction for 21k documents (exp 11: 111 s), no GPU.
 
 **Risks / open questions**
 
-Bare "article 8" mentions resolved to the domain's default code are the known false-edge source; definition spans are hard to delimit (enumerations, nesting); base vs indexed amounts need a per-year table; front-matter dates are publication dates, not entry into force; gloss expansion fails when the layman word is absent from the gloss too; no French legal NER benchmark exists to validate GLiNER.
+Bare "article 8" mentions resolved to the domain's default code are the known false-edge source; definition spans are hard to delimit (enumerations, nesting); base vs indexed amounts need a per-year table; front-matter dates are publication dates, not entry into force; gloss expansion fails when the layman word is absent from the gloss too; no French legal NER benchmark validates GLiNER.
 
 **Verdict**
 

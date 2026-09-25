@@ -16,13 +16,13 @@ Tax law is densely cross-referenced (CIR92 article → AR/CIR → circulaire →
 - **"Structure pricing" (arXiv 2609.18099, Sep 2026):** graph RAG must be judged on quality *and* cost; a lightweight passage-locating graph beats LightRAG-hybrid at 4× lower cost.
 
 ## How we would implement it
-Only HippoRAG 2 is worth a trial: one DeepSeek extraction call per chunk (OpenIE triples + NER), phrase and passage nodes, synonym edges via our e5 embeddings, PPR at query time seeded from dense retrieval; the article stays the retrieval unit, so citations survive. Feed its ranked passages into the existing fusion before bge-reranker. Rough cost for 200k chunks (from 9.2 M tokens / ~11.6k MuSiQue passages ≈ 800 tokens/chunk): ~160 M tokens ≈ **$45–90 on DeepSeek-Flash** (off-peak $0.15/M in, $0.60/M out), ~$170–340 on V4-Pro. LightRAG ≈ 7×, MS GraphRAG ≈ 12× (≈2 B tokens, $600–2,000). CPU-only extraction is infeasible at this scale. Zero-LLM alternative: a deterministic citation graph from the explicit "art. X CIR92" references in the texts, used as a re-rank prior.
+Only HippoRAG 2 merits a trial: one DeepSeek extraction call per chunk (OpenIE triples + NER), phrase and passage nodes, synonym edges via e5, PPR at query time seeded from dense retrieval; the article stays the retrieval unit, so citations survive. Feed its ranked passages into the fusion before bge-reranker. Rough cost for 200k chunks (from 9.2 M tokens / ~11.6k MuSiQue passages ≈ 800 tokens/chunk): ~160 M tokens ≈ **$45–90 on DeepSeek-Flash** (off-peak $0.15/M in, $0.60/M out), ~$170–340 on V4-Pro. LightRAG ≈ 7×, MS GraphRAG ≈ 12× (≈2 B tokens, $600–2,000). CPU-only extraction is infeasible at this scale. Zero-LLM alternative: a deterministic citation graph from the explicit "art. X CIR92" references in the texts, used as a re-rank prior.
 
 ## Expected gain and cost
 Single-article citation MRR: 0 to +0.02 (literature shows parity or loss). Multi-hop/linking questions: +5–10 recall points possible. Engineering: 1–2 weeks plus $50–300 API spend, storage ~+30 %, small query latency (PPR is cheap).
 
 ## Risks / open questions
-French legal text with codes ("art. 171, 1°, a)") is a poor fit for generic NER/OpenIE; entity coverage gaps (~34 % missed) hurt directly. Graph noise lowers context relevance, which the reranker cannot fully undo. Re-extraction needed on each Fisconet+ update. Our validation set is mostly single-hop; a multi-hop subset is required to even observe a gain.
+French legal text with codes ("art. 171, 1°, a)") fits generic NER/OpenIE poorly; entity coverage gaps (~34 % missed) hurt directly. Graph noise lowers context relevance beyond what the reranker undoes. Re-extraction on each Fisconet+ update. Our validation set is mostly single-hop; a multi-hop subset is needed to observe any gain.
 
 ## Verdict
 **try-when-LLM (HippoRAG 2 only; skip MS GraphRAG, LightRAG, KAG, Graphiti):** independent evidence consistently shows graphs do not improve precise citation retrieval over a strong hybrid+reranker, so run HippoRAG 2 as a cheap gated A/B once DeepSeek is available and keep it only if a multi-hop subset shows recall gains.

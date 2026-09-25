@@ -33,9 +33,11 @@ exactly (A e5 0.543, bge-m3 0.678; C e5 0.433, potion 0.315).
 
 Candidate chunks per question = union of the top-K chunks of every leg (plus, on A/B, the best-BM25 chunk of
 the top-K whole-document BM25 docs): K=50 for the cheap mMARCO reranker (A 127 / B 107 / C 123 chunks per
-question), K=30 for bge-reranker-v2-m3 (A 75 / B 65 / C 60 chunks per question; on C the potion leg is
-dropped from the bge set to keep the 0.7 s/pair job under an hour). Candidate recall of the expected document:
-A 1.00, B 0.925 (0.90 at K=30), C 0.969 — this is the ceiling of every method below.
+question). bge-reranker-v2-m3 (0.7 s/pair on an idle box, several seconds per pair while five torch jobs
+shared the four cores) is run as a **cascade**: its candidates are the top-30 chunks by mMARCO score (top-20 on C)
+plus the top-10 chunks of every leg (on C: e5 and BM25 only), i.e. ~40 chunks per question. In the grids below,
+a top-N chunk without a bge score is given the worst bge score of that question ("coverage" is reported).
+Candidate recall of the expected document at K=50: A 1.00, B 0.925, C 0.969 — this is the ceiling of every method below.
 
 Cross-encoder scores are computed once per (corpus, reranker, candidate set) by `score_rerankers.py`
 (2 torch threads, resumable npz) and reused by every grid point and every LTR model.
