@@ -16,9 +16,9 @@ Treat the index as a derived table that is *refreshed*, never rebuilt: consume t
 - Fisconet+ feed probed live 2026-09-25; `pageFilters.publicationDates` lists 21 publication days, so a daily cursor is possible.
 - LanceDB: `merge_insert(key).when_matched_update_all().when_not_matched_insert_all()` = upsert; deletes are soft and excluded from index segments; updated rows "are moved out of any existing index… still show up… not as fast"; every write advances `version`; `optimize()` compacts and cleans versions (7-day retention); `list_versions/checkout/restore` give rollback.
 - SQLite FTS5 external-content tables: `'delete'` command / triggers sync the index; `'merge'`, `'automerge'`, `'optimize'`, `'rebuild'` for maintenance.
-- Lucene `updateDocument()` "just deletes and then adds"; deletes are per-segment, reclaimed on merge — the soft-delete + compaction pattern we copy.
+- Lucene `updateDocument()` "just deletes and then adds"; deletes are reclaimed on segment merge — the pattern we copy.
 - dbt `materialized='incremental'`, `unique_key`, `is_incremental()` watermark, `--full-refresh`; Prefect cache keys `INPUTS + TASK_SOURCE` (re-embed only when text *or* chunker/model code changes).
-- FiscalQA Pro (arXiv 2608.09393): 32,436 article-versions; version-aware index 98.3 % vs 2.7 % static — the target data model for editions.
+- FiscalQA Pro (arXiv 2608.09393): 32,436 article-versions; version-aware index 98.3 % vs 2.7 % static — the target edition model.
 
 **How we would implement it**
 
@@ -30,14 +30,14 @@ Treat the index as a derived table that is *refreshed*, never rebuilt: consume t
 
 **Expected gain and cost**
 
-Monthly refresh falls from a full re-embed (3.3 h now, ~16 h at 100k docs with e5-small) to minutes for ~1.5k changed documents, of which the yearly editions mostly hash-collapse; index bloat drops (−30 % per idea 25). No retrieval-quality gain by itself — the gain is *not losing* quality while the corpus moves. Cost: ~3 days, no new models, no LLM.
+Monthly refresh falls from a full re-embed (3.3 h now, ~16 h at 100k docs, e5-small) to minutes for ~1.5k changed documents, most yearly editions hash-collapsing; index bloat drops (−30 % per idea 25). No retrieval-quality gain by itself — the gain is *not losing* quality while the corpus moves. Cost: ~3 days, no new models, no LLM.
 
 **Risks / open questions**
 
 - Feed semantics unverified: is `Updated` fired for metadata-only edits? Withdrawn documents are not exposed (only New/Updated seen) — a yearly full crawl may be needed as reconciliation.
 - Hash the normalised article unit, not whole-code PDFs, or trivial header changes re-embed everything.
 - Chunk-boundary drift: an inserted paragraph shifts later chunks; article-anchored chunking (exp 05) limits this.
-- LanceDB unindexed-row slowdown and compaction timing on the 4-core box are untested.
+- LanceDB unindexed-row slowdown and compaction timing on our box are untested.
 
 **Verdict**
 

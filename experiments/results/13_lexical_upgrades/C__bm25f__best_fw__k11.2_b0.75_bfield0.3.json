@@ -3,7 +3,7 @@
  "corpus": "C",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 0,
    "body": 1
   },
@@ -15,25 +15,25 @@
   }
  },
  "metrics": {
-  "mrr": 0.6716,
+  "mrr": 0.6705,
   "ndcg@5": 0.6431,
-  "ndcg@10": 0.683,
+  "ndcg@10": 0.6776,
   "hit@1": 0.5938,
   "hit@3": 0.6875,
   "hit@5": 0.7969,
-  "hit@10": 0.9062,
+  "hit@10": 0.875,
   "recall@5": 0.7891,
-  "recall@10": 0.888,
+  "recall@10": 0.8568,
   "n_questions": 64,
-  "train_mrr": 0.7569,
+  "train_mrr": 0.7565,
   "train_hit@1": 0.7241,
   "train_hit@5": 0.8276,
   "train_recall@10": 0.8621,
   "train_n": 29,
-  "val_mrr": 0.6008,
+  "val_mrr": 0.5993,
   "val_hit@1": 0.4857,
   "val_hit@5": 0.7714,
-  "val_recall@10": 0.9095,
+  "val_recall@10": 0.8524,
   "val_n": 35
  },
  "per_question": {
@@ -58,8 +58,8 @@
    "top5": [
     "circulaires/circulaire_2023_c_76_relative_aux_nouvelles_depenses_non_admises_a_lisoc_et_a_li_4d71a0ee",
     "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
-    "circulaires/circulaire_2023_c_80_relative_a_la_deductibilite_a_titre_de_frais_professionnels_6fa737f6",
     "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/circulaire_2023_c_80_relative_a_la_deductibilite_a_titre_de_frais_professionnels_6fa737f6",
     "arretes_ministeriels/06_04_2022_arrete_ministeriel_portant_designation_du_fonctionnaire_qui_est_compe_e1677739"
    ],
    "expected": [
@@ -150,7 +150,7 @@
     "conventions_preventives_de_la_double_imposition/convention_entre_le_royaume_de_belgique_et_le_royaume_des_pays_bas_pour_l_elimin_4f3f375a",
     "conventions_preventives_de_la_double_imposition/pays_bas_convention_du_19_10_1970_6b841fb1",
     "conventions_preventives_de_la_double_imposition/pays_bas_nouvelle_texte_coordonne_87758bd8",
-    "conventions_preventives_de_la_double_imposition/pays_bas_nouvelle_convention_du_05_06_2001_fdaccef5"
+    "conventions_preventives_de_la_double_imposition/pays_bas_texte_de_synthese_mli_b229aef4"
    ],
    "expected": [
     "circulaires/circulaire_2023_c_72_concernant_le_lieu_dimposition_a_la_tva_de_la_mise_a_dispos_3682dcd4",
@@ -164,9 +164,9 @@
    "top5": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0089_du_21_03_2023_96b044c6",
     "code_et_legislation/22_05_2001_loi_relative_a_la_participation_des_travailleurs_au_capital_des_socie_fcbb8abc",
-    "code_et_legislation/article_35_ar_cir_92_revenus_2027_5964dc26",
+    "code_et_legislation/article_35_ar_cir_92_revenus_2026_d6b57f0d",
     "code_et_legislation/article_35_ar_cir_92_revenus_2025_0cba3175",
-    "code_et_legislation/article_35_ar_cir_92_revenus_2026_d6b57f0d"
+    "code_et_legislation/article_35_ar_cir_92_revenus_2027_5964dc26"
    ],
    "expected": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0089_du_21_03_2023_96b044c6"
@@ -179,9 +179,9 @@
    "top5": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0887_du_19_12_2023_df657439",
     "legislation_et_reglementation_regionale_et_locale/24_03_2020_arrete_du_gouvernement_flamand_relatif_a_la_lutte_contre_les_effets_n_06543076",
+    "traites_et_accords_internationaux/accord_entre_les_autorites_competentes_des_pays_bas_et_de_la_belgique_relatif_a_4ff30ed7",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0711_du_13_12_2022_bc5cf69d",
-    "commentaires_dont_rep_rj/numero_s_1_01_01_b5d11459",
-    "traites_et_accords_internationaux/accord_entre_les_autorites_competentes_des_pays_bas_et_de_la_belgique_relatif_a_4ff30ed7"
+    "commentaires_dont_rep_rj/numero_s_1_01_01_b5d11459"
    ],
    "expected": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0887_du_19_12_2023_df657439"
@@ -269,8 +269,8 @@
    "top5": [
     "questions_parlementaires/question_parlementaire_n_126_de_monsieur_stoffels_edmund_du_20_04_2015_region_wa_d2db435c",
     "questions_parlementaires/question_parlementaire_n_103_de_monsieur_gilles_mouyard_du_20_03_2015_region_wal_c8dad00e",
-    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_namur_du_07_01_2025_04491b64",
     "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95",
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_namur_du_07_01_2025_04491b64",
     "questions_parlementaires/question_parlementaire_n_552_de_monsieur_vincent_palermo_du_04_12_2025_region_wa_9155d704"
    ],
    "expected": [
@@ -310,12 +310,12 @@
    "split": "train"
   },
   "C19": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "commentaires_dont_rep_rj/numero_e_44_49_01_86766175",
-    "commentaires_dont_rep_rj/numero_e_44_wa_02_01_0092e6cf",
     "commentaires_dont_rep_rj/numero_e_44_br_02_01_cad8b4d4",
+    "commentaires_dont_rep_rj/numero_e_44_wa_02_01_0092e6cf",
     "jurisprudence_belge/arret_de_la_cour_de_cassation_du_27_01_2012_0553bbad",
     "jurisprudence_belge/arret_de_la_cour_de_cassation_du_24_01_2025_260080c8"
    ],
@@ -361,8 +361,8 @@
     "forfaits/198_exploitant_de_vergers_a_basses_tiges_de_wallonie_5d8e1c92",
     "forfaits/numero_198_2015_fcf5fb33",
     "questions_parlementaires/question_parlementaire_n_300_de_monsieur_d_vervaet_du_30_06_1989_1a242c1a",
-    "commentaires_dont_rep_rj/numero_e_60_pr_01_10_9c048a0f",
-    "circulaires/circulaire_2019_c_92_relative_au_taux_de_tva_applicable_aux_arbres_et_plantes_li_7a5e5d8c"
+    "circulaires/circulaire_2019_c_92_relative_au_taux_de_tva_applicable_aux_arbres_et_plantes_li_7a5e5d8c",
+    "commentaires_dont_rep_rj/numero_e_60_pr_01_10_9c048a0f"
    ],
    "expected": [
     "forfaits/198_exploitant_de_vergers_a_basses_tiges_de_wallonie_5d8e1c92",
@@ -376,8 +376,8 @@
    "top5": [
     "forfaits/610_bateliers_a441d36c",
     "forfaits/numero_610_2015_9b64d47b",
-    "legislation_et_reglementation_regionale_et_locale/23_12_2011_decret_relatif_a_la_gestion_durable_de_cycles_de_materiaux_et_de_dech_d697c1f6",
     "legislation_et_reglementation_regionale_et_locale/29_07_2015_ordonnance_introduisant_un_prelevement_kilometrique_en_region_de_brux_c19e2cd0",
+    "legislation_et_reglementation_regionale_et_locale/23_12_2011_decret_relatif_a_la_gestion_durable_de_cycles_de_materiaux_et_de_dech_d697c1f6",
     "circulaires/circulaire_n_aced_1_2004_aaf_6_2004_du_24_02_2004_6a54229d"
    ],
    "expected": [
@@ -410,7 +410,7 @@
     "jurisprudence_belge/arret_de_la_cour_constitutionnelle_du_04_06_2020_n_79_2020_70c3825c",
     "jurisprudence_belge/arret_de_la_cour_constitutionnelle_du_08_11_2018_n_149_2018_26e07581",
     "questions_parlementaires/question_parlementaire_orale_n_17198_de_monsieur_georges_gilkinet_du_18_04_2017_35db439d",
-    "circulaires/circulaire_n_144_dd_30_09_1971_5212db8c"
+    "arretes_royaux/09_03_1982_arrete_royal_n_15_portant_encouragement_a_la_souscription_ou_a_l_acha_c694590a"
    ],
    "expected": [
     "faq/faq_taxe_sur_les_operations_de_bourse_e1b72c6b",
@@ -425,8 +425,8 @@
     "conventions_preventives_de_la_double_imposition/accord_amiable_concernant_article_17_7_et_9_types_de_plans_de_pension_b8a9d56f",
     "circulaires/circulaire_aaf_n_3_2013_aaf_97_0380_du_05_02_2013_5f0da04a",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_932_du_06_07_2017_9479f00e",
-    "circulaires/circulaire_n_ci_r9_usa_426_621_dd_13_01_1993_5b9b2f27",
-    "traites_et_accords_internationaux/etats_unis_cbc_13_07_2017_ff6e3e5e"
+    "conventions_preventives_de_la_double_imposition/arrangement_du_31_03_2011_concernant_le_plan_d_amenagement_de_carriere_levensloo_42c015e4",
+    "circulaires/circulaire_n_ci_r9_usa_426_621_dd_13_01_1993_5b9b2f27"
    ],
    "expected": [
     "conventions_preventives_de_la_double_imposition/accord_amiable_concernant_article_17_7_et_9_types_de_plans_de_pension_b8a9d56f"
@@ -441,7 +441,7 @@
     "traites_et_accords_internationaux/accord_amiable_entre_les_autorites_competentes_de_la_belgique_et_du_luxembourg_c_b643b302",
     "circulaires/luxembourg_circulaire_circ_973_dd_10_12_1973_66def862",
     "circulaires/circulaire_n_aaf_96_258_aaf_17_2004_du_10_12_2004_fcef52ba",
-    "circulaires/circulaire_n_aaf_2008_0408_aaf_17_2009_du_17_12_2009_7c4422de"
+    "traites_et_accords_internationaux/accord_entre_les_autorites_competentes_des_pays_bas_et_de_la_belgique_relatif_a_4ff30ed7"
    ],
    "expected": [
     "conventions_preventives_de_la_double_imposition/luxembourg_avenant_31_08_2021_28da20bf",
@@ -458,7 +458,7 @@
     "traites_et_accords_internationaux/accord_amiable_entre_les_autorites_competentes_de_la_france_et_de_la_belgique_co_a57daad8",
     "traites_et_accords_internationaux/accord_amiable_entre_les_autorites_competentes_de_la_belgique_et_du_luxembourg_c_b643b302",
     "traites_et_accords_internationaux/accord_entre_les_autorites_competentes_des_pays_bas_et_de_la_belgique_relatif_a_4ff30ed7",
-    "circulaires/circulaire_agfisc_n_22_2015_n_ci_700_520_du_01_06_2015_57336a7e"
+    "traites_et_accords_internationaux/accord_entre_les_autorites_competentes_des_pays_bas_et_de_la_belgique_concernant_879d9111"
    ],
    "expected": [
     "conventions_preventives_de_la_double_imposition/accord_amiable_entre_les_autorites_competentes_de_lallemagne_et_de_la_belgique_c_f6d89aa2"
@@ -471,8 +471,8 @@
    "top5": [
     "conventions_preventives_de_la_double_imposition/suisse_second_avenant_8d1f8d1b",
     "conventions_preventives_de_la_double_imposition/suisse_10_04_2014_avenant_43cfdca1",
-    "conventions_preventives_de_la_double_imposition/suisse_texte_coordonne_2446519d",
     "conventions_preventives_de_la_double_imposition/suisse_convention_du_28_08_1978_0d9585cb",
+    "conventions_preventives_de_la_double_imposition/suisse_texte_coordonne_2446519d",
     "conventions_preventives_de_la_double_imposition/accord_du_26_octobre_2004_entre_la_communaute_europeenne_et_la_confederation_sui_02bdf3af"
    ],
    "expected": [
@@ -517,8 +517,8 @@
     "avis/06_07_2026_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_sur_les_vehicul_a922a646",
     "avis/01_07_2018_avis_relatif_a_ladaptation_de_la_taxe_de_circulation_en_execution_de_cbdfdf53",
     "avis/24_06_2019_avis_relatif_a_ladaptation_de_la_taxe_de_circulation_en_execution_de_c90f1e9f",
-    "avis/09_08_2016_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_en_execution_de_83da68e7",
-    "avis/21_06_2017_avis_relatif_a_ladaptation_de_la_taxe_de_circulation_en_execution_de_e80062f2"
+    "avis/21_06_2017_avis_relatif_a_ladaptation_de_la_taxe_de_circulation_en_execution_de_e80062f2",
+    "avis/09_08_2016_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_en_execution_de_83da68e7"
    ],
    "expected": [
     "avis/06_07_2026_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_sur_les_vehicul_a922a646"
@@ -526,8 +526,8 @@
    "split": "train"
   },
   "C33": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
     "communications/04_12_2008_avis_aux_debiteurs_de_droits_d_auteur_et_de_droits_voisins_au_cours_d_88c296bf",
     "commentaires_dont_rep_rj/commentaire_tva_base_d_imposition_de_la_taxe_15_06_2026_89f32e21",
@@ -544,10 +544,10 @@
    "rank": 1,
    "rr": 1.0,
    "top5": [
+    "code_et_legislation/article_205_1_cir_92_revenus_2025_38dbac7a",
     "code_et_legislation/article_205_1_cir_92_revenus_2026_aac192e4",
     "code_et_legislation/article_205_1_cir_92_revenus_2027_a1956867",
-    "code_et_legislation/article_205_1_cir_92_revenus_2025_38dbac7a",
-    "code_et_legislation/article_207_cir_92_revenus_2027_1712f97f",
+    "code_et_legislation/article_207_cir_92_revenus_2026_68a691dc",
     "code_et_legislation/article_207_cir_92_revenus_2025_91cab082"
    ],
    "expected": [
@@ -563,9 +563,9 @@
    "top5": [
     "communications/07_05_1999_avis_aux_debiteurs_de_commissions_courtages_ristournes_vacations_hono_cc60265e",
     "communications/31_03_2009_avis_aux_debiteurs_de_commissions_courtages_ristournes_vacations_hono_d31552e6",
-    "jurisprudence_belge/arret_de_la_cour_de_cassation_du_27_01_2012_0553bbad",
     "communications/27_04_2021_avis_aux_debiteurs_de_commissions_courtages_ristournes_vacations_hono_96f5b4bf",
-    "circulaires/circulaire_n_afer_14_2003_e_t_98_973_dd_19_05_2003_4421e510"
+    "jurisprudence_belge/arret_de_la_cour_de_cassation_du_27_01_2012_0553bbad",
+    "arretes_royaux/17_01_2003_arrete_royal_pris_en_execution_de_l_article_22_alinea_2_de_la_loi_du_dbac5705"
    ],
    "expected": [
     "code_et_legislation/article_219_cir_92_revenus_2025_698f10f2",
@@ -582,7 +582,7 @@
     "code_et_legislation/article_275_3_cir_92_revenus_2027_50a66fe5",
     "code_et_legislation/article_275_3_cir_92_revenus_2026_30a23f46",
     "code_et_legislation/article_95_2_ar_cir_92_revenus_2025_f51b84bf",
-    "code_et_legislation/article_95_2_ar_cir_92_revenus_2026_70302473"
+    "code_et_legislation/article_95_2_ar_cir_92_revenus_2027_99c949dd"
    ],
    "expected": [
     "code_et_legislation/article_275_3_cir_92_revenus_2025_5aee56a0",
@@ -608,14 +608,14 @@
    "split": "val"
   },
   "C38": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "commentaires_dont_rep_rj/commentaire_tva_l_assujetti_01_02_2026_f8c69177",
     "circulaires/circulaire_2024_c_73_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_70b9b26d",
     "circulaires/circulaire_2024_c_21_relative_a_la_prolongation_du_taux_reduit_temporaire_de_tva_3e3227e9",
-    "code_et_legislation/article_8_code_de_la_tva_361c02da",
-    "circulaires/circulaire_2019_c_19_concernant_l_assimilation_d_un_travail_immobilier_a_une_pre_3ebfa496"
+    "circulaires/circulaire_2019_c_19_concernant_l_assimilation_d_un_travail_immobilier_a_une_pre_3ebfa496",
+    "code_et_legislation/article_8_code_de_la_tva_361c02da"
    ],
    "expected": [
     "code_et_legislation/article_8_code_de_la_tva_361c02da"
@@ -630,7 +630,7 @@
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_800_438_du_19_12_2008_7c20dbb9",
     "code_et_legislation/article_51_code_recouvrement_14769b98",
     "circulaires/circulaire_n_aaf_2006_0604_aaf_14_2006_dd_24_08_2006_7d4545fc",
-    "jurisprudence_belge/arret_de_la_cour_dappel_danvers_du_30_04_2013_4803ef41"
+    "arretes_royaux/07_05_2017_arrete_royal_fixant_les_modalites_d_engagement_et_de_remuneration_des_eb5f4cd9"
    ],
    "expected": [
     "code_et_legislation/article_51_code_recouvrement_14769b98"
@@ -643,7 +643,7 @@
    "top5": [
     "circulaires/circulaire_n_4_2012_du_04_05_2012_7a156c2e",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_905_du_06_07_2017_1e66aa1d",
-    "circulaires/circulaire_n_5_2013_du_10_04_2013_f155e8bf",
+    "code_et_legislation/article_341_cir_92_revenus_2025_ba817ab6",
     "code_et_legislation/article_341_cir_92_revenus_2026_d60ddc17",
     "code_et_legislation/article_341_cir_92_revenus_2027_749475cf"
    ],
@@ -660,9 +660,9 @@
    "top5": [
     "commentaires_dont_rep_rj/commentaire_tva_l_imposition_de_la_marge_beneficiaire_applicable_aux_biens_d_occ_23d95f50",
     "arretes_royaux/tva_arrete_royal_n_53_du_23_decembre_1994_relatif_au_regime_particulier_d_imposi_3c0ed875",
+    "circulaires/circulaire_2026_c_14_relative_aux_modifications_apportees_au_regime_particulier_4173bc44",
     "commentaires_dont_rep_rj/commentaire_tva_restitutions_de_la_taxe_01_07_2026_3185b9a4",
-    "commentaires_dont_rep_rj/commentaire_tva_restitutions_de_la_taxe_01_04_2025_0887fe22",
-    "circulaires/circulaire_2026_c_14_relative_aux_modifications_apportees_au_regime_particulier_4173bc44"
+    "commentaires_dont_rep_rj/commentaire_tva_restitutions_de_la_taxe_01_04_2025_0887fe22"
    ],
    "expected": [
     "commentaires_dont_rep_rj/commentaire_tva_l_imposition_de_la_marge_beneficiaire_applicable_aux_biens_d_occ_23d95f50"
@@ -670,8 +670,8 @@
    "split": "train"
   },
   "C42": {
-   "rank": 38,
-   "rr": 0.0263,
+   "rank": 37,
+   "rr": 0.027,
    "top5": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0992_du_23_11_2021_d26451f5",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_2165_du_12_01_2021_90bf8825",
@@ -745,8 +745,8 @@
    "split": "val"
   },
   "C47": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "code_et_legislation/livre_4_a17133a6",
     "questions_parlementaires/question_parlementaire_n_121_de_monsieur_paul_delva_du_27_05_2016_region_de_brux_74b3968a",
@@ -856,8 +856,8 @@
     "circulaires/circulaire_2020_c_28_relative_a_larret_n_138_2019_du_17_10_2019_de_la_cour_const_13d6cf0a",
     "jurisprudence_belge/arret_de_la_cour_constitutionnelle_du_08_11_2018_n_155_2018_3005c05f",
     "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_26_09_2024_6dccd369",
-    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_01_06_2021_2019_3113_a_a7baafec",
-    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_01_06_2021_2019_3112_a_bc9ef1de"
+    "jurisprudence_belge/arret_de_la_cour_constitutionnelle_du_17_10_2019_n_138_2019_714242e5",
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_10_01_2022_06a2dc3a"
    ],
    "expected": [
     "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_26_09_2024_6dccd369"
@@ -880,14 +880,14 @@
    "split": "val"
   },
   "C56": {
-   "rank": 29,
-   "rr": 0.0345,
+   "rank": 30,
+   "rr": 0.0333,
    "top5": [
     "questions_parlementaires/question_parlementaire_orale_n_4202_de_monsieur_georges_gilkinet_du_17_05_2011_f2bc06b0",
     "faq/faq_taxe_sur_les_operations_de_bourse_e1b72c6b",
     "circulaires/circulaire_2026_c_42_faq_tob_taxe_sur_les_operations_de_bourse_version_2_b9ee53fd",
-    "questions_parlementaires/question_parlementaire_n_10_de_monsieur_steven_mathei_du_29_10_2020_a1203b9c",
-    "arretes_royaux/26_04_2007_arrete_royal_reglant_le_remboursement_de_la_taxe_sur_les_operations_d_fc746c88"
+    "arretes_royaux/26_04_2007_arrete_royal_reglant_le_remboursement_de_la_taxe_sur_les_operations_d_fc746c88",
+    "code_et_legislation/05_03_2017_arrete_royal_portant_execution_de_la_loi_du_25_avril_2014_relative_au_c5c34adb"
    ],
    "expected": [
     "jurisprudence_europeenne/arret_de_la_cour_de_justice_europeenne_du_30_01_2020_n_c_725_18_e2d009f5"
@@ -895,14 +895,14 @@
    "split": "train"
   },
   "C57": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "commentaires_dont_rep_rj/commentaire_tva_corrections_du_droit_a_deduction_revisions_prelevements_et_utili_8fe74b6d",
-    "circulaires/circulaire_2017_c_32_concernant_les_echantillons_et_cadeaux_commerciaux_les_arti_887f476e",
-    "commentaires_dont_rep_rj/commentaire_tva_corrections_du_droit_a_deduction_revisions_prelevements_et_utili_dda4a8e7",
     "arretes_royaux/tva_arrete_royal_n_59_du_28_mai_2019_relatif_au_prelevement_de_cadeaux_commercia_6a8012e2",
-    "arretes_royaux/tva_arrete_royal_n_59_du_18_mai_2020_relatif_au_prelevement_de_cadeaux_commercia_86df0dc5"
+    "circulaires/circulaire_2017_c_32_concernant_les_echantillons_et_cadeaux_commerciaux_les_arti_887f476e",
+    "arretes_royaux/tva_arrete_royal_n_59_du_18_mai_2020_relatif_au_prelevement_de_cadeaux_commercia_86df0dc5",
+    "commentaires_dont_rep_rj/commentaire_tva_corrections_du_droit_a_deduction_revisions_prelevements_et_utili_dda4a8e7"
    ],
    "expected": [
     "arretes_royaux/tva_arrete_royal_n_59_du_18_mai_2020_relatif_au_prelevement_de_cadeaux_commercia_86df0dc5"
@@ -992,7 +992,7 @@
     "conventions_preventives_de_la_double_imposition/convention_entre_le_royaume_de_belgique_et_le_royaume_des_pays_bas_pour_l_elimin_4f3f375a",
     "circulaires/circulaire_n_ci_rh_241_415_068_dd_29_11_1991_5acc86cc",
     "traites_et_accords_internationaux/accord_entre_les_autorites_competentes_de_la_belgique_et_les_pays_bas_concernant_5a58eda8",
-    "circulaires/circulaire_circ_971_dd_18_10_1973_partie_1_65082fe5"
+    "conventions_preventives_de_la_double_imposition/pays_bas_nouvelle_texte_coordonne_87758bd8"
    ],
    "expected": [
     "communications/09_02_2022_avis_imposition_d_une_pension_complementaire_2eme_pilier_de_source_ne_7b9f0acb"

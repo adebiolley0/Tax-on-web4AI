@@ -6,7 +6,7 @@ Extend the harness from "is the right document in the top k" to four layers: (1)
 
 **Why it fits this project**
 
-A tax answer is only useful if it cites the exact article / circulaire paragraph; fluency is irrelevant. MRR at document level cannot tell us whether the 1,500-token chunk we hand the LLM actually contains the provision, whether the top-30 sent to the reranker is *sufficient*, or whether the LLM invents "art. 132bis" when the context does not support it. Our `notes` field in `questions_b.json`/`questions_c.json` already names the answer-bearing passages ("Art. 130: 25 % jusqu'à 16.720 €…", sections "Régime conventionnel"), i.e. nuggets and gold spans are half-written.
+A tax answer is only useful if it cites the exact article / circulaire paragraph; fluency is irrelevant. Document-level MRR cannot tell us whether the chunk handed to the LLM actually contains the provision, whether the packed context is *sufficient*, or whether the LLM invents "art. 132bis" unsupported by context. The `notes` field in `questions_b.json`/`questions_c.json` already names the answer-bearing passages ("Art. 130: 25 % jusqu'à 16.720 €…"), so nuggets and gold spans are half-written.
 
 **Evidence**
 
@@ -27,18 +27,18 @@ A tax answer is only useful if it cites the exact article / circulaire paragraph
 
 **Expected gain and cost**
 
-No MRR change — this changes *what we optimise*. Expected outcomes: reveals chunking/packing regressions invisible at document level (e.g. correct doc at rank 1 but the article is truncated), gives a principled acceptance test for the MCP `search` output before any LLM, and a ready-made judge pipeline the day DeepSeek is plugged in. Cost: ~3 days annotation + metrics; later LLM judging ≈ 2–3 calls per question (cheap on 130 questions).
+No MRR change — this changes *what we optimise*: it reveals chunking/packing regressions invisible at document level (correct doc at rank 1 but the article truncated), gives an acceptance test for the MCP `search` output before any LLM, and a ready judge pipeline when DeepSeek lands. Cost: ~3 days annotation + metrics; later ≈ 2–3 LLM calls per question (cheap on 130 questions).
 
 **Risks / open questions**
 
-- Span annotation is the bottleneck; lexical nugget proxies over-reward keyword overlap (mitigated by weighting amounts/article numbers).
-- Citation parsing must handle Belgian formats (`art. 90, 1°`, `CIR 92`, `AR/CIR`, regional codes) — reuse idea 14.
-- LLM-judge bias in French legal text is unvalidated; ARES-style human calibration needed.
-- Which context budget to fix for sufficiency (depends on DeepSeek context and MCP payload limits).
+- Span annotation is the bottleneck; lexical nugget proxies over-reward keyword overlap (weight amounts/article numbers).
+- Citation parsing must handle Belgian formats (`art. 90, 1°`, `CIR 92`, `AR/CIR`) — reuse idea 14.
+- LLM-judge bias on French legal text is unvalidated; needs ARES-style human calibration.
+- Context budget for sufficiency depends on DeepSeek context and MCP payload limits.
 
 **Verdict**
 
-**try-now** (span/nugget proxies and citation-id checks) with the LLM layers marked **try-when-LLM** — the annotations are 60 % written already and the document-level ceiling (MRR 0.70) hides chunk- and citation-level failures that matter most for a legal assistant.
+**try-now** (span/nugget proxies, citation-id checks); LLM layers **try-when-LLM** — annotations are half written and document-level MRR 0.70 hides the chunk- and citation-level failures that matter most for a legal assistant.
 
 **Sources**
 
