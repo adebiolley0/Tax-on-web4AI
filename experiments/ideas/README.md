@@ -14,7 +14,7 @@ full-set bests A 0.703, B 0.522, C 0.703). Web search quota ran out about a thir
 through the fan-out, so later write-ups cite from WebFetch of known URLs plus memory and mark
 what they could not re-check.
 
-Tally: 77 try-now · 15 try-when-LLM · 3 skip · 0 long-shot (topics 1–95); 96–100 pending below.
+Tally over all 100: 79 try-now · 16 try-when-LLM · 4 skip · 1 long-shot.
 
 ## 1. What the hundred write-ups converged on
 
@@ -161,12 +161,18 @@ estimates on the 4-core box.
 - **28 Prototyping engines with built-in hybrid + rerank**: none beats bm25s + LanceDB + reranker on French quality; adds ops risk.
 - **30 Unified sparse+dense engines**: Python-side fusion is not the bottleneck; pruning can lose recall.
 - **31 Static citation priors (PageRank / in-degree)**: ≈ 0 to −0.02 on leaf-oriented question sets (the citation-context indexing part of 31 stays in tier A).
+- **99 Multi-agent debate** and **97 compression distance**: the literature's gains come from extra samples and verification (already in 56, 53, exp 14 fusion) and from lexical overlap we already exploit.
 - Graph databases as a store (20, 22, 23) and separate per-domain indexes (88): rejected in favour of in-process edges and one filtered table.
 
-### Pending (96–100)
+### Topics 96–100 (placed in their tiers)
 
-Filled in as the last five subagents report: 96 expert feedback loops, 97 compression-based
-retrieval, 98 small on-device LLMs, 99 multi-agent RAG, 100 "explain the citation".
+| Idea | Verdict | Tier | Claimed gain | Cost |
+|---|---|---|---|---|
+| **100 "Explain the citation"** (citation spans + norm-rank table + `provenance(id, direction, max_hops, as_of)` / `explain_link` tools on the exp-11 graph) | try-now | D (with 42, 45; architecture 3.5) | MRR 0 by design; verifiable chains with per-hop confidence, two new harness metrics (`hop_prec`, `chain_reach`) | 2–3 d |
+| **98 Small on-device LLM as append-only keyword rewriter** (Qwen3-0.6B/1.7B via llama.cpp; the 0.6B reranker is a skip: 40–70 s/query, no French gain) | try-now | A26 | +0.01–0.05 on B, ±0.02 on C, ≈0 on A (speculative) at 2–3 s/query; builds the rewrite harness idea 46 reuses | 2–3 d |
+| **96 Expert feedback loops** (`report_citation` tool + JSONL logging contract now; trust/agreement gate, income-year timestamps) | try-when-LLM | E13 | 0 now; +0.03–0.08 on B/C once 300–1,000 real pairs exist; pinned citations give hit@1 on recurring queries | ~7 d |
+| **97 Compression-based retrieval** (NCD / gzip) | long-shot | F (the bundled model-free sweep, RM3 / BM25F / char n-grams, is half a day; NCD doc–doc matrix doubles as a dedup signal for 26) | NCD leg 0.25–0.40 alone, 0 to +0.01 fused; RM3 +0.02–0.05 on B (guess) | 1–1.5 d |
+| **99 Multi-agent RAG** (specialist agents debating) | skip | F | +0.00–0.03 from CombMNZ/Borda voting over existing legs; debate unmeasured at 3–15× cost; voting rewards twins | — |
 
 ## 3. Theorised architectures (my own synthesis, untested)
 

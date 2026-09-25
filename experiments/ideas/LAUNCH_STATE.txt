@@ -1,1 +1,1 @@
-launched: 01-100 (all). pending: none. next: verify all 100 files exist, then write README.md synthesis
+launched: 01-100. all 100 write-ups on disk. README.md synthesis written.
