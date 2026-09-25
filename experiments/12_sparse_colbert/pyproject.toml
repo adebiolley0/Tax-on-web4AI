@@ -1,0 +1,26 @@
+[project]
+name = "exp12-sparse-colbert"
+version = "0.1.0"
+description = "Learned sparse retrieval (SPLADE-style, bge-m3 lexical head) and late interaction (ColBERT via PyLate) on the Belgian-tax corpora."
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "transformers>=4.51",
+    "sentence-transformers>=5.0",
+    "pylate>=1.2",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "numpy",
+    "scipy",
+    "huggingface-hub>=0.30",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

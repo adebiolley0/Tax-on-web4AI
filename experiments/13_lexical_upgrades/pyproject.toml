@@ -1,0 +1,15 @@
+[project]
+name = "exp13-lexical-upgrades"
+version = "0.1.0"
+description = "Experiment 13: lexical retrieval upgrades (BM25F field boosting, RM3 pseudo-relevance feedback, query normalisation, PMI expansion, duplicate collapsing) on corpora A/B/C."
+requires-python = ">=3.12"
+dependencies = [
+    "bm25s>=0.2",
+    "PyStemmer",
+    "numpy",
+    "scipy",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
