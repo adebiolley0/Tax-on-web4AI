@@ -15,17 +15,17 @@ Represent procedures (réclamation, plan de paiement, recours judiciaire, ruling
 
 - GOV.UK step-by-step: "significant increase in users' successful task completion"; 36 journeys, 1.24M uses in 6 months for one (GDS blog 2018/2019); 77 % "useful" on the visa journey.
 - GOV.UK Chat pilots (Mar 2026): accuracy 76 % → 90 % over 26k questions; still launched with **tax-advice errors** (secondary sources, May 2026, unverified). CIVI (arXiv 2609.08094, Sept 2026) classifies civic-search-agent failures into **procedural, deadline and eligibility errors**; NYC MyCity chatbot gave illegal procedural advice (2024).
-- Rules-as-code: Catala found a bug in the official French family-benefits implementation (Merigoux et al., ICFP 2021); OpenFisca used by FR/NZ/CA/AU for eligibility simulators; NLLP 2025 benchmark shows LLMs can translate statutes to Catala with fine-tuning (feasible, not production).
-- Extraction feasibility: BREX (arXiv 2505.18542) — rule extraction F1 ≈ 0.90 for frontier models, dependency/flow F1 only 0.76 (Gemini-2.5-Pro), 0.58 DeepSeek-R1, 0.43 Qwen3-30B → open models extract atomic rules well but **flow structure needs review**.
+- Rules-as-code: Catala found a bug in the official French family-benefits code (Merigoux et al., ICFP 2021); OpenFisca runs FR/NZ/CA/AU eligibility simulators; NLLP 2025: fine-tuned LLMs translate statutes to Catala (feasible, not production).
+- Extraction: BREX (arXiv 2505.18542) — rule extraction F1 ≈ 0.90 (frontier), flow/dependency F1 0.76 Gemini-2.5-Pro, 0.58 DeepSeek-R1, 0.43 Qwen3-30B → open models extract rules, **flow structure needs human review**.
 - Guided interviews (A2J Author, docassemble, 17 Ontario clinics): "cost-effective, efficient, well received" (WNE Law Review 39:2); Rechtwijzer: 84 % felt more in control, yet failed commercially in 2017 — the risk is institutional, not technical.
 
 ## How we would implement it
 
-1. `procedures/*.yaml` (hand-written, ~10 procedures, each step citing a Fisconet GUID + paragraph): réclamation IPP/ISoc (art. 371–376 CIR 92), dégrèvement d'office (art. 376), recours tribunal (art. 1385undecies C. jud.: earliest 6 months without decision, latest 3 months after decision), plan de paiement (Code du recouvrement, circ. 2022/C/3), ruling SDA (L 24.12.2002), délais de déclaration (yearly).
+1. `procedures/*.yaml` (hand-written, ~10, each step citing a Fisconet GUID + paragraph): réclamation IPP/ISoc (art. 371–376 CIR 92), dégrèvement d'office (art. 376), recours tribunal (art. 1385undecies C. jud.: earliest 6 months without decision, latest 3 months after it), plan de paiement (circ. 2022/C/3), ruling SDA, délais de déclaration.
 2. `deadline_rule` mini-DSL + Belgian working-day calendar (`workalendar`/`holidays`); property tests against the circulaire examples.
 3. Store as a `procedures` table (topic 17 SQLite) with `source_chunks` FK; index the procedure's plain-text rendering in BM25/dense so `search` also surfaces it.
 4. MCP tools `procedure`, `deadline`, `list_procedures`; `fetch` on a procedure id returns YAML + cited text.
-5. Later: DeepSeek extracts candidate YAML from new circulaires (BREX-style two-stage prompt); a human diffs against the existing object before merge. Validation: 20 procedural questions with expected step list + expected date.
+5. Later: DeepSeek proposes YAML from new circulaires (BREX-style two-stage prompt); human diff before merge. Validation: 20 procedural questions with expected steps + date.
 
 ## Expected gain and cost
 
@@ -35,7 +35,7 @@ Represent procedures (réclamation, plan de paiement, recours judiciaire, ruling
 
 ## Risks / open questions
 
-- Coverage: hand-written objects go stale (delays changed in 2023); need `valid_from/valid_to` (topic 25) and a re-check on each circulaire ingest.
+- Staleness (delays changed in 2023): need `valid_from/valid_to` (topic 25) and a re-check per circulaire ingest.
 - Regional taxes (précompte immobilier, droits de succession) have other appeal rules per Region.
 - Working-day definition (art. 371 "jour ouvrable" = Saturday counts? case law says yes for post) must be encoded and cited, not guessed.
 - Liability framing: "computed from art. 371; verify on your AER"; who maintains YAML once the LLM proposes edits.
