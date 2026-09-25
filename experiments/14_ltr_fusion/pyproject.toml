@@ -1,0 +1,27 @@
+[project]
+name = "exp14-ltr-fusion"
+version = "0.1.0"
+description = "Experiment 14: learning-to-rank over cheap features, principled fusion / reranker-depth / score-interpolation tuning with train/val splits and a swapped fold."
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "model2vec>=0.5",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "lightgbm",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

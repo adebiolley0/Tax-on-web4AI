@@ -1,0 +1,26 @@
+[project]
+name = "exp11-graph-retrieval"
+version = "0.1.0"
+description = "Citation / structure graph retrieval (score propagation, personalized PageRank, duplicate collapsing) on corpora B and C; kuzu as embedded graph DB."
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "scipy",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "networkx>=3.3",
+    "kuzu>=0.10",
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

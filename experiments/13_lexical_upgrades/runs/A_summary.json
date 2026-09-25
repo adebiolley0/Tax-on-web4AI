@@ -1,0 +1,1232 @@
+{
+ "corpus": "A",
+ "stages": {
+  "fields": {
+   "grid_best": "bm25f__title0_head0_body1",
+   "grid_best_metrics": {
+    "mrr": 0.695,
+    "ndcg@5": 0.7338,
+    "ndcg@10": 0.7502,
+    "hit@1": 0.5862,
+    "hit@3": 0.7586,
+    "hit@5": 0.8966,
+    "hit@10": 0.8966,
+    "recall@5": 0.8966,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.666,
+    "train_hit@1": 0.5294,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.7361,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.9167,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "weights": {
+    "title": 0,
+    "heading": 0,
+    "body": 1
+   },
+   "concat_best": "bm25_concat__title_x1_head_x1",
+   "concat_best_metrics": {
+    "mrr": 0.695,
+    "ndcg@5": 0.7434,
+    "ndcg@10": 0.7556,
+    "hit@1": 0.5862,
+    "hit@3": 0.7586,
+    "hit@5": 0.8966,
+    "hit@10": 0.8966,
+    "recall@5": 0.8966,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.666,
+    "train_hit@1": 0.5294,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.7361,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.9167,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "k1b_best": "bm25f__best_fw__k13.0_b0.9_bfield0.75",
+   "k1b_best_metrics": {
+    "mrr": 0.7332,
+    "ndcg@5": 0.7711,
+    "ndcg@10": 0.7962,
+    "hit@1": 0.6207,
+    "hit@3": 0.8276,
+    "hit@5": 0.8621,
+    "hit@10": 0.8966,
+    "recall@5": 0.8621,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.7171,
+    "train_hit@1": 0.5882,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.756,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.8333,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "grid": [
+    [
+     "bm25f__title0_head0_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0_head0.5_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0_head1_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0_head2_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0.5_head0_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0.5_head0.5_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0.5_head1_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title0.5_head2_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title1_head0_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title1_head0.5_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title1_head1_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title1_head2_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title2_head0_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title2_head0.5_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title2_head1_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title2_head2_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title3_head0_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title3_head0.5_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title3_head1_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title3_head2_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title5_head0_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title5_head0.5_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title5_head1_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__title5_head2_body1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25_concat__title_x1_head_x1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25_concat__title_x2_head_x1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25_concat__title_x3_head_x1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25_concat__title_x5_head_x1",
+     0.666,
+     0.7319,
+     0.6933
+    ],
+    [
+     "bm25_concat__title_x2_head_x2",
+     0.6641,
+     0.7361,
+     0.6939
+    ],
+    [
+     "bm25_concat__title_x3_head_x3",
+     0.6638,
+     0.6944,
+     0.6765
+    ],
+    [
+     "bm25_concat__title_x1_head_x0",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "bm25_concat__title_x0_head_x1",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__best_fw__k10.9_b0.4_bfield0.75",
+     0.6059,
+     0.6277,
+     0.6149
+    ],
+    [
+     "bm25f__best_fw__k11.2_b0.75_bfield0.75",
+     0.6656,
+     0.6896,
+     0.6755
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.5_bfield0.75",
+     0.6248,
+     0.6769,
+     0.6464
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.75_bfield0.75",
+     0.666,
+     0.7361,
+     0.695
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.9_bfield0.75",
+     0.6592,
+     0.7363,
+     0.6911
+    ],
+    [
+     "bm25f__best_fw__k12.0_b0.75_bfield0.75",
+     0.7059,
+     0.7549,
+     0.7262
+    ],
+    [
+     "bm25f__best_fw__k12.0_b0.9_bfield0.75",
+     0.7166,
+     0.7338,
+     0.7237
+    ],
+    [
+     "bm25f__best_fw__k12.5_b0.75_bfield0.75",
+     0.7062,
+     0.7549,
+     0.7264
+    ],
+    [
+     "bm25f__best_fw__k13.0_b0.75_bfield0.75",
+     0.6769,
+     0.7564,
+     0.7098
+    ],
+    [
+     "bm25f__best_fw__k13.0_b0.9_bfield0.75",
+     0.7171,
+     0.756,
+     0.7332
+    ]
+   ]
+  },
+  "rm3": {
+   "best": "rm3__k10_m5_lam0.7",
+   "best_metrics": {
+    "mrr": 0.6738,
+    "ndcg@5": 0.7182,
+    "ndcg@10": 0.7481,
+    "hit@1": 0.5517,
+    "hit@3": 0.7931,
+    "hit@5": 0.8276,
+    "hit@10": 0.8966,
+    "recall@5": 0.8276,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.6396,
+    "train_hit@1": 0.4706,
+    "train_hit@5": 0.8235,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.7222,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.8333,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "params": {
+    "k": 10,
+    "m": 5,
+    "lambda": 0.7
+   },
+   "val_range": [
+    0.4678,
+    0.7278
+   ],
+   "n_better_val": 0,
+   "grid": [
+    [
+     "rm3__k3_m5_lam0.3",
+     0.5497,
+     0.5517,
+     0.5506
+    ],
+    [
+     "rm3__k3_m5_lam0.5",
+     0.5584,
+     0.5687,
+     0.5627
+    ],
+    [
+     "rm3__k3_m5_lam0.7",
+     0.5895,
+     0.6211,
+     0.6026
+    ],
+    [
+     "rm3__k3_m10_lam0.3",
+     0.5884,
+     0.5767,
+     0.5836
+    ],
+    [
+     "rm3__k3_m10_lam0.5",
+     0.589,
+     0.6252,
+     0.6039
+    ],
+    [
+     "rm3__k3_m10_lam0.7",
+     0.5922,
+     0.6304,
+     0.608
+    ],
+    [
+     "rm3__k3_m20_lam0.3",
+     0.5922,
+     0.5924,
+     0.5923
+    ],
+    [
+     "rm3__k3_m20_lam0.5",
+     0.6044,
+     0.6403,
+     0.6193
+    ],
+    [
+     "rm3__k3_m20_lam0.7",
+     0.597,
+     0.6442,
+     0.6165
+    ],
+    [
+     "rm3__k5_m5_lam0.3",
+     0.588,
+     0.6414,
+     0.6101
+    ],
+    [
+     "rm3__k5_m5_lam0.5",
+     0.5833,
+     0.6856,
+     0.6256
+    ],
+    [
+     "rm3__k5_m5_lam0.7",
+     0.6127,
+     0.7278,
+     0.6603
+    ],
+    [
+     "rm3__k5_m10_lam0.3",
+     0.5553,
+     0.6023,
+     0.5748
+    ],
+    [
+     "rm3__k5_m10_lam0.5",
+     0.5551,
+     0.6443,
+     0.592
+    ],
+    [
+     "rm3__k5_m10_lam0.7",
+     0.6234,
+     0.6474,
+     0.6333
+    ],
+    [
+     "rm3__k5_m20_lam0.3",
+     0.589,
+     0.6046,
+     0.5955
+    ],
+    [
+     "rm3__k5_m20_lam0.5",
+     0.5986,
+     0.6924,
+     0.6374
+    ],
+    [
+     "rm3__k5_m20_lam0.7",
+     0.6379,
+     0.693,
+     0.6607
+    ],
+    [
+     "rm3__k10_m5_lam0.3",
+     0.544,
+     0.4678,
+     0.5125
+    ],
+    [
+     "rm3__k10_m5_lam0.5",
+     0.6388,
+     0.5338,
+     0.5954
+    ],
+    [
+     "rm3__k10_m5_lam0.7",
+     0.6396,
+     0.7222,
+     0.6738
+    ],
+    [
+     "rm3__k10_m10_lam0.3",
+     0.537,
+     0.5548,
+     0.5444
+    ],
+    [
+     "rm3__k10_m10_lam0.5",
+     0.5807,
+     0.6126,
+     0.5939
+    ],
+    [
+     "rm3__k10_m10_lam0.7",
+     0.6344,
+     0.659,
+     0.6446
+    ],
+    [
+     "rm3__k10_m20_lam0.3",
+     0.5702,
+     0.5184,
+     0.5488
+    ],
+    [
+     "rm3__k10_m20_lam0.5",
+     0.5743,
+     0.6072,
+     0.5879
+    ],
+    [
+     "rm3__k10_m20_lam0.7",
+     0.6293,
+     0.6193,
+     0.6252
+    ]
+   ]
+  },
+  "norm": {
+   "tokenizer_best": "baseline_bm25__tok01",
+   "tokenizer_best_metrics": {
+    "mrr": 0.6949,
+    "ndcg@5": 0.7338,
+    "ndcg@10": 0.7497,
+    "hit@1": 0.5862,
+    "hit@3": 0.7586,
+    "hit@5": 0.8966,
+    "hit@10": 0.8966,
+    "recall@5": 0.8966,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.6658,
+    "train_hit@1": 0.5294,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.7361,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.9167,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "cue_best": "norm__cues__region0_doctype0.5",
+   "cue_best_metrics": {
+    "mrr": 0.6949,
+    "ndcg@5": 0.7338,
+    "ndcg@10": 0.7497,
+    "hit@1": 0.5862,
+    "hit@3": 0.7586,
+    "hit@5": 0.8966,
+    "hit@10": 0.8966,
+    "recall@5": 0.8966,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.6658,
+    "train_hit@1": 0.5294,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.7361,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.9167,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "cue_w": {
+    "region_w": 0,
+    "doctype_w": 0.5
+   },
+   "grid": [
+    [
+     "norm__tok01+num",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__tok01+art",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__tok01+num+art",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0_doctype0.5",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0_doctype1",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0_doctype2",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0_doctype4",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0.5_doctype0",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0.5_doctype0.5",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0.5_doctype1",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0.5_doctype2",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region0.5_doctype4",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region1_doctype0",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region1_doctype0.5",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region1_doctype1",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region1_doctype2",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region1_doctype4",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region2_doctype0",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region2_doctype0.5",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region2_doctype1",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region2_doctype2",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region2_doctype4",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region4_doctype0",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region4_doctype0.5",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region4_doctype1",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region4_doctype2",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__cues__region4_doctype4",
+     0.6658,
+     0.7361,
+     0.6949
+    ],
+    [
+     "norm__region_filter",
+     0.6658,
+     0.7361,
+     0.6949
+    ]
+   ]
+  },
+  "pmi": {
+   "best": "pmi__top1_w0.3",
+   "best_metrics": {
+    "mrr": 0.6401,
+    "ndcg@5": 0.6885,
+    "ndcg@10": 0.7279,
+    "hit@1": 0.4828,
+    "hit@3": 0.7586,
+    "hit@5": 0.7931,
+    "hit@10": 0.8966,
+    "recall@5": 0.7931,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.6392,
+    "train_hit@1": 0.4706,
+    "train_hit@5": 0.7647,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.6414,
+    "val_hit@1": 0.5,
+    "val_hit@5": 0.8333,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "examples": [
+    [
+     "regim",
+     [
+      [
+       "marchand",
+       3.13
+      ],
+      [
+       "franchis",
+       3.01
+      ],
+      [
+       "56ter",
+       2.97
+      ]
+     ]
+    ],
+    [
+     "domicil",
+     [
+      [
+       "deplac",
+       4.1
+      ],
+      [
+       "velo",
+       4.07
+      ],
+      [
+       "epous",
+       3.52
+      ]
+     ]
+    ],
+    [
+     "attribu",
+     [
+      [
+       "demanderess",
+       3.61
+      ],
+      [
+       "entrain",
+       3.42
+      ],
+      [
+       "assemble",
+       3.28
+      ]
+     ]
+    ],
+    [
+     "verse",
+     [
+      [
+       "surv",
+       4.45
+      ],
+      [
+       "eip",
+       3.94
+      ],
+      [
+       "retrait",
+       3.76
+      ]
+     ]
+    ]
+   ],
+   "grid": [
+    [
+     "pmi__top3_w0.1",
+     0.6253,
+     0.7587,
+     0.6805
+    ],
+    [
+     "pmi__top3_w0.3",
+     0.616,
+     0.6492,
+     0.6298
+    ],
+    [
+     "pmi__top3_w0.5",
+     0.5671,
+     0.6204,
+     0.5891
+    ],
+    [
+     "pmi__top1_w0.3",
+     0.6392,
+     0.6414,
+     0.6401
+    ]
+   ]
+  },
+  "best": {
+   "combos": [
+    [
+     "combo__fields+tok01+cues",
+     {
+      "mrr": 0.7332,
+      "ndcg@5": 0.7711,
+      "ndcg@10": 0.7962,
+      "hit@1": 0.6207,
+      "hit@3": 0.8276,
+      "hit@5": 0.8621,
+      "hit@10": 0.8966,
+      "recall@5": 0.8621,
+      "recall@10": 0.8966,
+      "n_questions": 29,
+      "train_mrr": 0.7171,
+      "train_hit@1": 0.5882,
+      "train_hit@5": 0.8824,
+      "train_recall@10": 0.8824,
+      "train_n": 17,
+      "val_mrr": 0.756,
+      "val_hit@1": 0.6667,
+      "val_hit@5": 0.8333,
+      "val_recall@10": 0.9167,
+      "val_n": 12
+     }
+    ],
+    [
+     "combo__fields+tok01+cues+rm3_k10_m5_lam0.5",
+     {
+      "mrr": 0.5745,
+      "ndcg@5": 0.6306,
+      "ndcg@10": 0.6598,
+      "hit@1": 0.4138,
+      "hit@3": 0.6897,
+      "hit@5": 0.8276,
+      "hit@10": 0.8621,
+      "recall@5": 0.8276,
+      "recall@10": 0.8621,
+      "n_questions": 29,
+      "train_mrr": 0.5868,
+      "train_hit@1": 0.4118,
+      "train_hit@5": 0.8235,
+      "train_recall@10": 0.8824,
+      "train_n": 17,
+      "val_mrr": 0.5571,
+      "val_hit@1": 0.4167,
+      "val_hit@5": 0.8333,
+      "val_recall@10": 0.8333,
+      "val_n": 12
+     }
+    ],
+    [
+     "combo__fields+tok01+cues+rm3_k10_m5_lam0.7",
+     {
+      "mrr": 0.6054,
+      "ndcg@5": 0.6558,
+      "ndcg@10": 0.6968,
+      "hit@1": 0.4483,
+      "hit@3": 0.7241,
+      "hit@5": 0.8276,
+      "hit@10": 0.8966,
+      "recall@5": 0.8276,
+      "recall@10": 0.8966,
+      "n_questions": 29,
+      "train_mrr": 0.6335,
+      "train_hit@1": 0.4706,
+      "train_hit@5": 0.8235,
+      "train_recall@10": 0.8824,
+      "train_n": 17,
+      "val_mrr": 0.5657,
+      "val_hit@1": 0.4167,
+      "val_hit@5": 0.8333,
+      "val_recall@10": 0.9167,
+      "val_n": 12
+     }
+    ]
+   ],
+   "best_combo": "combo__fields+tok01+cues",
+   "best_combo_metrics": {
+    "mrr": 0.7332,
+    "ndcg@5": 0.7711,
+    "ndcg@10": 0.7962,
+    "hit@1": 0.6207,
+    "hit@3": 0.8276,
+    "hit@5": 0.8621,
+    "hit@10": 0.8966,
+    "recall@5": 0.8621,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.7171,
+    "train_hit@1": 0.5882,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.756,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.8333,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   },
+   "final": "combo__fields+tok01+cues",
+   "final_metrics": {
+    "mrr": 0.7332,
+    "ndcg@5": 0.7711,
+    "ndcg@10": 0.7962,
+    "hit@1": 0.6207,
+    "hit@3": 0.8276,
+    "hit@5": 0.8621,
+    "hit@10": 0.8966,
+    "recall@5": 0.8621,
+    "recall@10": 0.8966,
+    "n_questions": 29,
+    "train_mrr": 0.7171,
+    "train_hit@1": 0.5882,
+    "train_hit@5": 0.8824,
+    "train_recall@10": 0.8824,
+    "train_n": 17,
+    "val_mrr": 0.756,
+    "val_hit@1": 0.6667,
+    "val_hit@5": 0.8333,
+    "val_recall@10": 0.9167,
+    "val_n": 12
+   }
+  }
+ },
+ "baseline": {
+  "name": "baseline_bm25__tok01",
+  "metrics": {
+   "mrr": 0.6949,
+   "ndcg@5": 0.7338,
+   "ndcg@10": 0.7497,
+   "hit@1": 0.5862,
+   "hit@3": 0.7586,
+   "hit@5": 0.8966,
+   "hit@10": 0.8966,
+   "recall@5": 0.8966,
+   "recall@10": 0.8966,
+   "n_questions": 29,
+   "train_mrr": 0.6658,
+   "train_hit@1": 0.5294,
+   "train_hit@5": 0.8824,
+   "train_recall@10": 0.8824,
+   "train_n": 17,
+   "val_mrr": 0.7361,
+   "val_hit@1": 0.6667,
+   "val_hit@5": 0.9167,
+   "val_recall@10": 0.9167,
+   "val_n": 12
+  }
+ },
+ "per_question": [
+  {
+   "qid": "Q1",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Comment déduire mes frais de voiture professionnels dans ma déclaration d'impôt?"
+  },
+  {
+   "qid": "Q2",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quel est le montant maximum déductible pour l'épargne-pension et quelle réduction d'impôt "
+  },
+  {
+   "qid": "Q3",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Comment dois-je déclarer les revenus de mon bien immobilier donné en location à un particu"
+  },
+  {
+   "qid": "Q4",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quelles sont les conditions de ressources pour qu'un enfant soit considéré comme personne "
+  },
+  {
+   "qid": "Q5",
+   "split": "val",
+   "base_rank": 20,
+   "final_rank": 14,
+   "question": "Quelle réduction d'impôt puis-je obtenir pour mes dons à des associations agréées?"
+  },
+  {
+   "qid": "Q6",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 2,
+   "question": "Puis-je déduire les frais de garde de mes enfants et quelles sont les conditions?"
+  },
+  {
+   "qid": "Q7",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quels sont les avantages fiscaux pour mon emprunt hypothécaire contracté en Région flamand"
+  },
+  {
+   "qid": "Q8",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Mon enfant est reconnu comme handicapé, quels avantages fiscaux supplémentaires ai-je droi"
+  },
+  {
+   "qid": "Q9",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Comment fonctionne le crédit d'impôt pour enfants en coparentalité fiscale?"
+  },
+  {
+   "qid": "Q10",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Les rentes alimentaires versées à mon ex-conjoint sont-elles déductibles fiscalement?"
+  },
+  {
+   "qid": "Q11",
+   "split": "train",
+   "base_rank": 16,
+   "final_rank": 12,
+   "question": "Quels frais professionnels puis-je déduire de mon revenu professionnel?"
+  },
+  {
+   "qid": "Q12",
+   "split": "val",
+   "base_rank": 4,
+   "final_rank": 2,
+   "question": "Comment sont imposés les gains en capital réalisés sur la vente d'un bien immobilier?"
+  },
+  {
+   "qid": "Q14",
+   "split": "val",
+   "base_rank": 5,
+   "final_rank": 6,
+   "question": "Comment dois-je déclarer le revenu provenant de la location meublée de mon bien immobilier"
+  },
+  {
+   "qid": "Q16",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis étudiant et je travaille l'été, quelle est la fiscalité de mon revenu d'étudiant?"
+  },
+  {
+   "qid": "Q17",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis travailleur indépendant, comment fonctionne le complément d'entreprise?"
+  },
+  {
+   "qid": "Q18",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quelles réductions d'impôt puis-je obtenir pour les travaux de rénovation thermique de ma "
+  },
+  {
+   "qid": "Q19",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quelles dépenses médicales et dentaires sont déductibles de mes impôts?"
+  },
+  {
+   "qid": "Q20",
+   "split": "train",
+   "base_rank": 5,
+   "final_rank": 4,
+   "question": "Quelles cotisations sociales et charges patronales puis-je déduire?"
+  },
+  {
+   "qid": "Q21",
+   "split": "train",
+   "base_rank": 3,
+   "final_rank": 1,
+   "question": "Je suis en croissance d'activité indépendante, existe-t-il un crédit d'impôt pour l'augmen"
+  },
+  {
+   "qid": "Q22",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 3,
+   "question": "Comment sont imposées mes allocations de chômage ou mes indemnités de maladie?"
+  },
+  {
+   "qid": "Q23",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 2,
+   "question": "Comment sont fiscalement traités les stock options et warrants que mon employeur m'attribu"
+  },
+  {
+   "qid": "Q24",
+   "split": "train",
+   "base_rank": 44,
+   "final_rank": 42,
+   "question": "Je travaille régulièrement à domicile, puis-je déduire des frais de bureau à domicile en t"
+  },
+  {
+   "qid": "Q25",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "J'ai une voiture de société et des chèques-repas, comment ces avantages en nature sont-ils"
+  },
+  {
+   "qid": "Q26",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quel est le taux du précompte mobilier retenu sur mes dividendes d'actions belges?"
+  },
+  {
+   "qid": "Q27",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Puis-je déduire mes primes d'assurance-vie dans le cadre de la réduction d'impôt pour épar"
+  },
+  {
+   "qid": "Q28",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je loue mon appartement via une plateforme collaborative, comment déclarer ces revenus?"
+  },
+  {
+   "qid": "Q29",
+   "split": "val",
+   "base_rank": 3,
+   "final_rank": 3,
+   "question": "Y a-t-il un impôt sur les plus-values que je réalise en vendant mes actions en Bourse?"
+  },
+  {
+   "qid": "Q30",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Mon assurance de protection juridique me donne-t-elle droit à une réduction d'impôt?"
+  },
+  {
+   "qid": "Q31",
+   "split": "train",
+   "base_rank": 5,
+   "final_rank": 2,
+   "question": "Quelle est la fiscalité applicable à mon régime de pension complémentaire ou assurance gro"
+  }
+ ]
+}
