@@ -31,15 +31,15 @@ TOKEN_RE = re.compile(rf"""[ \t]*(?:
 )""", re.X | re.I)
 
 SAME_RE = re.compile(
-    r"^\s*,?\s*(?:du|de la|de l['’]|de ce|de cet|de cette|dudit|de ladite|van (?:dit|dezelfde|hetzelfde))\s+"
+    r"^\s*,?\s*(?:du|de la|de l['’]|de ce|de cet|de cette|dudit|de ladite|van (?:dit|dezelfde|hetzelfde))\s*"
     r"(?:même|présent[e]?|zelfde)\s+(?P<kind>Code|arrêté|décret|loi|ordonnance|Wetboek|besluit|wet|decreet)", re.I)
 BARE_CODE_RE = re.compile(
-    r"^\s*,?\s*(?:du|de ce|de l['’]|de la|dudit)\s+(?:Code|Wetboek)\b"
+    r"^\s*,?\s*(?:du|de ce|de l['’]|de la|dudit)\s*(?:Code|Wetboek)\b"
     r"(?!\s+(?:des|de|du|d['’]|civil|pénal|judiciaire|wallon|flamand|bruxellois|de la|rural|forestier|électoral|consulaire))", re.I)
 EXTERNAL_RE = re.compile(
     r"^\s*,?\s*(?:"
     r"(?:L|LP|Lprog|LS|AR|AGW|AGF|AGBC|AGRBC|D|DP|Décr\.?|AM|O|Ord\.?|A\.R\.|L\.|Loi|Décret|Arrêté|Ordonnance)\s+(?:du\s+)?\d{1,2}[./]\d{1,2}[./]\d{2,4}"
-    r"|(?:de la|du|de l['’]|de cette|de cet|de ladite|dudit|de la même|du même|de la présente|du présent|van de|van het|van dezelfde)\s+"
+    r"|(?:de la|du|de l['’]|de cette|de cet|de ladite|dudit|de la même|du même|de la présente|du présent|van de|van het|van dezelfde)\s*"
     r"(?:loi|décret|arrêté(?!\s+royal\s+n)|ordonnance|Loi-programme|loi-programme|Constitution|Traité|directive|règlement|convention|accord|protocole|"
     r"wet\b|decreet|besluit|verordening|richtlijn|"
     r"Code\s+(?:des sociétés|civil|pénal|judiciaire|de droit économique|de commerce|de la démocratie|wallon|de la nationalité|d['’]instruction|"
@@ -48,7 +48,7 @@ EXTERNAL_RE = re.compile(
     r"|Wetboek\s+(?:van vennootschappen|van strafrecht|van economisch recht|van koophandel))"
     r")", re.I)
 CODE_HINTS: list[tuple[re.Pattern, str]] = [(re.compile(
-    r"^\s*[,(]?\s*(?:(?:du|de la|de l['’]|de|van het|van de)\s+)?(?:même\s+)?" + p, re.I), fam) for p, fam in [
+    r"^\s*[,(]?\s*(?:(?:du|de la|de l['’]|de|van het|van de)\s*)?(?:même\s+)?(?:" + p + ")", re.I), fam) for p, fam in [
     (r"(?:AR\s*/\s*CIR|A\.R\.\s*/\s*C\.I\.R\.)\s*(?:92|1992)?\b|arrêté royal d['’]exécution du Code des impôts sur les revenus|(?:KB|K\.B\.)\s*/\s*WIB\s*92", "arcir92"),
     (r"Code de la (?:TVA|T\.V\.A\.|taxe sur la valeur ajoutée)|\bC\.?\s?T\.?V\.?A\.?\b|Code TVA|(?:BTW|Btw)[- ]?Wetboek|W\.?BTW\b", "ctva"),
     (r"Code des impôts sur les revenus(?:\s*1992)?|\bCIR\s*(?:92|1992)?\b|\bC\.\s?I\.\s?R\.(?:\s*92)?|\bWIB\s*(?:92|1992)?\b|Wetboek van de inkomstenbelastingen", "cir92"),
@@ -62,7 +62,7 @@ CODE_HINTS: list[tuple[re.Pattern, str]] = [(re.compile(
     (r"Loi bancaire|\bLB\b", "loibanc"),
     (r"Code des taxes assimilées au timbre", "ctat"),
 ]]
-AR_RE = re.compile(r"^\s*[,(]?\s*(?:(?:du|de l['’])\s+)?(?:arrêté royal|A\.?R\.?|koninklijk besluit|K\.?B\.?)\s*n[°o]\.?\s*(\d+)", re.I)
+AR_RE = re.compile(r"^\s*[,(]?\s*(?:(?:du|de l['’])\s*)?(?:arrêté royal|A\.?R\.?|koninklijk besluit|K\.?B\.?)\s*n[°o]\.?\s*(\d+)", re.I)
 
 
 def parse_span(text: str, pos: int) -> tuple[list[str], int]:

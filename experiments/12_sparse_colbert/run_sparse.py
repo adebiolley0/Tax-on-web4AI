@@ -78,6 +78,11 @@ def encode_mlm_max(hf: str, texts: list[str], queries: list[str], max_len_doc: i
 
     t0 = time.perf_counter(); D = enc(texts, max_len_doc); enc_s = time.perf_counter() - t0
     t0 = time.perf_counter(); Q = enc(queries, max_len_q); q_s = time.perf_counter() - t0
+    # the model card L2-normalises both sides (cosine of the sparse vectors)
+    def _l2(M: sp.csr_matrix) -> sp.csr_matrix:
+        norms = np.sqrt(np.asarray(M.multiply(M).sum(axis=1)).ravel()); norms[norms == 0] = 1.0
+        return sp.diags(1.0 / norms) @ M
+    D, Q = _l2(D).tocsr(), _l2(Q).tocsr()
     return D, Q, {"model_load_s": round(load_s, 1), "encode_docs_s": round(enc_s, 1), "encode_queries_s": round(q_s, 2)}
 
 

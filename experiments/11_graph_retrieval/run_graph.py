@@ -20,7 +20,13 @@ from common11 import FirstStage, CACHE, EXP, HERE, minmax, ranking_from_scores
 from propagate import PropGraph, top_k_seeds
 from prior import boost_matrix, doc_attrs_b, doc_attrs_c
 
-ALPHAS = [0.05, 0.1, 0.2, 0.3, 0.5, 0.8, 1.2, 2.0]
+ALPHAS = [0.02, 0.05, 0.1, 0.2, 0.3, 0.5, 0.8, 1.2, 2.0]
+
+
+def rownorm(P: np.ndarray) -> np.ndarray:
+    """Scale each query's propagated vector to max 1, so alpha is relative to the top first-stage score."""
+    mx = P.max(axis=1, keepdims=True)
+    return P / np.maximum(mx, 1e-12)
 KS = [10, 30, 100]
 NORMS = ["sum", "mean", "sym"]
 HOPS = [1, 2]
@@ -103,7 +109,7 @@ class Runner:
             seeds = top_k_seeds(Sn, K)
             for norm in NORMS:
                 for hops in HOPS:
-                    prop = self.G.expand(seeds, self.W_all, norm, hops)
+                    prop = rownorm(self.G.expand(seeds, self.W_all, norm, hops))
                     props[(K, norm, hops)] = prop
                     for a in ALPHAS:
                         self.grid_eval(f"{base}+expand[k{K},{norm},h{hops},a{a}]", Sn + a * prop,
@@ -122,13 +128,13 @@ class Runner:
         seeds = top_k_seeds(Sn, c["k"])
         only_rows = {}
         for t in self.G.types:
-            p = self.G.expand(seeds, {t: 1.0}, c["norm"], c["hops"])
+            p = rownorm(self.G.expand(seeds, {t: 1.0}, c["norm"], c["hops"]))
             r = self.evaluate(f"{base}+expand[k{c['k']},{c['norm']},h{c['hops']},a{c['alpha']}]__only_{t}", Sn + c["alpha"] * p,
                               {**c, "types": [t], "ablation": "only"})
             only_rows[t] = r.metrics
             if len(self.G.types) > 2:
                 w = {u: 1.0 for u in self.G.types if u != t}
-                p = self.G.expand(seeds, w, c["norm"], c["hops"])
+                p = rownorm(self.G.expand(seeds, w, c["norm"], c["hops"]))
                 self.evaluate(f"{base}+expand[k{c['k']},{c['norm']},h{c['hops']},a{c['alpha']}]__without_{t}", Sn + c["alpha"] * p,
                               {**c, "types": list(w), "ablation": "without"})
         # 3. re-tune alpha with the edge types that help on train individually
@@ -139,7 +145,7 @@ class Runner:
             sd = top_k_seeds(Sn, K)
             for norm in NORMS:
                 for hops in HOPS:
-                    p = self.G.expand(sd, W_sel, norm, hops)
+                    p = rownorm(self.G.expand(sd, W_sel, norm, hops))
                     for a in ALPHAS:
                         r = self.grid_eval(f"{base}+expand_sel[k{K},{norm},h{hops},a{a}]", Sn + a * p,
                                            {"method": "expand_sel", "base": base, "k": K, "norm": norm, "hops": hops, "alpha": a, "types": sel})
@@ -184,7 +190,7 @@ class Runner:
                           {**cs, "method": "expand_sel+collapse", "level": level}, collapse=level)
         # 7. stack: prior × first stage + selected expansion (+ collapse on C)
         seeds = top_k_seeds(Sn * Bbest, cs["k"])
-        p = self.G.expand(seeds, W_sel, cs["norm"], cs["hops"])
+        p = rownorm(self.G.expand(seeds, W_sel, cs["norm"], cs["hops"]))
         stack = Sn * Bbest + cs["alpha"] * p
         self.evaluate(f"{base}+stack[prior+expand_sel]", stack, {**cs, "method": "stack", "gamma_region": cpr["gamma_region"], "gamma_domain": cpr["gamma_domain"]})
         for level in self.collapse_maps:

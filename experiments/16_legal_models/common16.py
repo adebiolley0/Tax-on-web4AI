@@ -48,6 +48,8 @@ import bm25s  # noqa: E402
 
 EXP = "16_legal_models"
 RESULTS_LOG = SHM / "logs" / "results.txt"
+MODELS_DIR = Path(__file__).resolve().parent / "models"   # fine-tuned models are written here only
+MODELS_DIR.mkdir(exist_ok=True)
 
 
 def log(msg: str) -> None:
