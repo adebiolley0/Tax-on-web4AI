@@ -1,0 +1,27 @@
+{
+ "tag": "C",
+ "k": 30,
+ "csv_s": 2.4,
+ "load_s": 6.6,
+ "db_mb": 20.7,
+ "counts": {
+  "MATCH (d:Doc)": 21259,
+  "MATCH ()-[r:Cites]->()": 279326,
+  "MATCH (g:Grp)": 3838,
+  "MATCH ()-[m:MemberOf]->()": 22941
+ },
+ "n_groups": 3838,
+ "query_ms": {
+  "1hop_binary": 359.9,
+  "1hop_weighted": 341.9,
+  "group": 468.8
+ },
+ "query_ms_max": {
+  "1hop_binary": 581.7,
+  "1hop_weighted": 538.5,
+  "group": 623.3
+ },
+ "numpy_vs_cypher_1hop_max_abs_diff": 0.0,
+ "n_checked": 2000,
+ "kuzu_version": "0.11.3"
+}

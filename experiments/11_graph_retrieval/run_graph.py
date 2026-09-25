@@ -46,6 +46,7 @@ class Runner:
     def __init__(self, corpus: str, tag: str):
         self.corpus, self.tag = corpus, tag
         self.fs = FirstStage(tag)
+        self.prefix = "" if tag in ("B_raw", "C") else tag.split("_", 1)[1] + ":"   # B_clean → "clean:" so result files do not collide
         self.questions = load_questions_b() if corpus == "B" else load_questions_c()
         assert [q.qid for q in self.questions] == self.fs.qids
         g = json.loads((CACHE / f"{tag}_graph.json").read_text())
@@ -77,7 +78,7 @@ class Runner:
                 rankings[q.qid] = collapse_ranking(S[i], gid, ng, self.fs.doc_ids)
             else:
                 rankings[q.qid] = ranking_from_scores(S[i], self.fs.doc_ids)
-        res = evaluate_rankings(name, self.corpus, self.questions, rankings, config={"tag": self.tag, **config}, timing=timing or {})
+        res = evaluate_rankings(self.prefix + name, self.corpus, self.questions, rankings, config={"tag": self.tag, **config}, timing=timing or {})
         if save:
             save_result(EXP, res)
             self.rows.append(self.row(res))

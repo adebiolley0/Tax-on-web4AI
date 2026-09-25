@@ -91,8 +91,8 @@ Q_1HOP_BINARY = """
 WITH $ids AS ids, $scores AS scs
 UNWIND range(1, size(ids)) AS i
 MATCH (a:Doc {id: ids[i]})-[r:Cites]-(b:Doc)
-WITH b.id AS id, ids[i] AS src, scs[i] AS sc
-WITH id, src, max(sc) AS sc
+WITH b.id AS id, ids[i] AS src, r.type AS ty, scs[i] AS sc
+WITH id, src, ty, max(sc) AS sc
 RETURN id, sum(sc) AS boost
 """
 Q_2HOP = """
@@ -125,6 +125,7 @@ def main():
     ap.add_argument("--tag", default="B_raw")
     ap.add_argument("--k", type=int, default=30)
     ap.add_argument("--max_group", type=int, default=200)
+    ap.add_argument("--skip_2hop", action="store_true", help="the variable-length 2-hop query is slow on hubs")
     a = ap.parse_args()
     db_dir = CACHE / f"{a.tag}_kuzu_db"
     info = build_db(a.tag, db_dir, a.max_group)
@@ -148,7 +149,8 @@ def main():
         params = {"ids": ids, "scores": scs}
         t0 = time.perf_counter(); b1 = fetch(conn, Q_1HOP_BINARY, params); timings["1hop_binary"].append(time.perf_counter() - t0)
         t0 = time.perf_counter(); fetch(conn, Q_1HOP, params); timings["1hop_weighted"].append(time.perf_counter() - t0)
-        t0 = time.perf_counter(); fetch(conn, Q_2HOP, params); timings["2hop"].append(time.perf_counter() - t0)
+        if not a.skip_2hop:
+            t0 = time.perf_counter(); fetch(conn, Q_2HOP, params); timings["2hop"].append(time.perf_counter() - t0)
         t0 = time.perf_counter(); fetch(conn, Q_GROUP, params); timings["group"].append(time.perf_counter() - t0)
         # correctness: binary 1-hop boost vs numpy 'sum' operator over the cite edge types
         for did, v in b1.items():
@@ -157,8 +159,8 @@ def main():
                 max_abs_diff = max(max_abs_diff, abs(v - float(num_1hop[qi, j])))
                 n_checked += 1
     rep = {"tag": a.tag, "k": a.k, **info,
-           "query_ms": {k: round(1000 * float(np.mean(v)), 1) for k, v in timings.items()},
-           "query_ms_max": {k: round(1000 * float(np.max(v)), 1) for k, v in timings.items()},
+           "query_ms": {k: round(1000 * float(np.mean(v)), 1) for k, v in timings.items() if v},
+           "query_ms_max": {k: round(1000 * float(np.max(v)), 1) for k, v in timings.items() if v},
            "numpy_vs_cypher_1hop_max_abs_diff": round(max_abs_diff, 6), "n_checked": n_checked,
            "kuzu_version": __import__("kuzu").__version__}
     print(json.dumps(rep, indent=1))

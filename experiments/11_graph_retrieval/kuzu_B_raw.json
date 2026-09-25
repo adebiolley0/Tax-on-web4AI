@@ -1,0 +1,29 @@
+{
+ "tag": "B_raw",
+ "k": 30,
+ "csv_s": 0.1,
+ "load_s": 0.8,
+ "db_mb": 9.7,
+ "counts": {
+  "MATCH (d:Doc)": 5853,
+  "MATCH ()-[r:Cites]->()": 17827,
+  "MATCH (g:Grp)": 865,
+  "MATCH ()-[m:MemberOf]->()": 5354
+ },
+ "n_groups": 865,
+ "query_ms": {
+  "1hop_binary": 52.5,
+  "1hop_weighted": 48.9,
+  "2hop": 4051.1,
+  "group": 176.4
+ },
+ "query_ms_max": {
+  "1hop_binary": 92.6,
+  "1hop_weighted": 79.7,
+  "2hop": 4297.2,
+  "group": 255.8
+ },
+ "numpy_vs_cypher_1hop_max_abs_diff": 1.714245,
+ "n_checked": 2000,
+ "kuzu_version": "0.11.3"
+}

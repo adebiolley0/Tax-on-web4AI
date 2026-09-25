@@ -644,7 +644,7 @@
   }
  },
  "timing": {
-  "grid_s": 3.3,
-  "per_query_ms": 0.5
+  "grid_s": 1.5,
+  "per_query_ms": 0.24
  }
 }

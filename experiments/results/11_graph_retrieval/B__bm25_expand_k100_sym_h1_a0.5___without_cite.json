@@ -2,7 +2,7 @@
  "name": "bm25+expand[k100,sym,h1,a0.5]__without_cite",
  "corpus": "B",
  "config": {
-  "tag": "B_clean",
+  "tag": "B_raw",
   "method": "expand",
   "base": "bm25",
   "k": 100,
@@ -16,37 +16,37 @@
   "ablation": "without"
  },
  "metrics": {
-  "mrr": 0.4046,
-  "ndcg@5": 0.3454,
-  "ndcg@10": 0.3753,
+  "mrr": 0.3998,
+  "ndcg@5": 0.3223,
+  "ndcg@10": 0.3848,
   "hit@1": 0.325,
   "hit@3": 0.4,
-  "hit@5": 0.525,
-  "hit@10": 0.625,
-  "recall@5": 0.525,
-  "recall@10": 0.625,
+  "hit@5": 0.45,
+  "hit@10": 0.65,
+  "recall@5": 0.45,
+  "recall@10": 0.65,
   "n_questions": 40,
-  "train_mrr": 0.5012,
+  "train_mrr": 0.4867,
   "train_hit@1": 0.4167,
-  "train_hit@5": 0.6667,
-  "train_recall@10": 0.7083,
+  "train_hit@5": 0.5417,
+  "train_recall@10": 0.6667,
   "train_n": 24,
-  "val_mrr": 0.2597,
+  "val_mrr": 0.2695,
   "val_hit@1": 0.1875,
   "val_hit@5": 0.3125,
-  "val_recall@10": 0.5,
+  "val_recall@10": 0.625,
   "val_n": 16
  },
  "per_question": {
   "B1": {
-   "rank": 13,
-   "rr": 0.0769,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "arcir92:4",
+    "cir92:130",
     "cir92:96/2",
-    "cir92:178",
-    "cir92:269",
-    "cir92:1"
+    "cir92:171",
+    "cir92:134",
+    "cir92:261"
    ],
    "expected": [
     "cir92:130"
@@ -54,14 +54,14 @@
    "split": "val"
   },
   "B2": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
     "cir92:134",
     "cir92:133",
+    "arcir92:178/1",
     "cir92:137",
-    "cir92:131",
-    "cir92:136"
+    "cir92:132bis"
    ],
    "expected": [
     "cir92:131"
@@ -75,8 +75,8 @@
     "cir92:51",
     "cir92:50",
     "cir92:275/4",
-    "cir92:66",
-    "cir92:275/5"
+    "ctva:57",
+    "arcir92:258"
    ],
    "expected": [
     "cir92:51"
@@ -88,8 +88,8 @@
    "rr": 1.0,
    "top5": [
     "cir92:145/8",
-    "cir92:145/7",
     "arcir92:634bis",
+    "cir92:145/7",
     "arcir92:635",
     "arcir92:634"
    ],
@@ -103,10 +103,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:215",
-    "cir92:216",
-    "cir92:229",
     "cir92:230",
-    "cir92:18"
+    "cir92:229",
+    "cir92:18",
+    "cir92:216"
    ],
    "expected": [
     "cir92:215"
@@ -114,14 +114,14 @@
    "split": "train"
   },
   "B6": {
-   "rank": 13,
-   "rr": 0.0769,
+   "rank": 9,
+   "rr": 0.1111,
    "top5": [
     "arcir92:106",
     "arcir92:117",
+    "cta_vla:113",
     "cta_wal:113",
-    "cta_bxl:113",
-    "cta_vla:113"
+    "cta_bxl:113"
    ],
    "expected": [
     "cir92:202"
@@ -136,7 +136,7 @@
     "cir92:69/1",
     "arcir92:48",
     "cir92:68",
-    "cir92:69/2"
+    "arcir92:49"
    ],
    "expected": [
     "cir92:69"
@@ -148,10 +148,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:269",
-    "cir92:281/1",
+    "cir92:264/2",
     "arcir92:206/1",
-    "cir92:281",
-    "arcir92:178/2"
+    "cir92:264/1",
+    "cir92:281/1"
    ],
    "expected": [
     "cir92:269"
@@ -163,8 +163,8 @@
    "rr": 0.125,
    "top5": [
     "ue282:18",
-    "ue282:17",
     "ue282:19",
+    "ue282:17",
     "artva:AR55:1",
     "ue282:54"
    ],
@@ -178,10 +178,10 @@
    "rr": 1.0,
    "top5": [
     "artva:AR20:1",
-    "artva:AR20:1quater/1",
     "artva:AR20:3",
+    "arcir92:36",
     "artva:AR20:1bis",
-    "arcir92:36"
+    "vcf:2.7.4.2.4"
    ],
    "expected": [
     "artva:AR20:1"
@@ -204,14 +204,14 @@
    "split": "val"
   },
   "B12": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
-    "artva:AR1:9",
     "artva:AR1:13",
-    "artva:AR1:5",
     "artva:AR20:3",
-    "arcir92:49/1"
+    "arcir92:49/1",
+    "artva:AR1:5",
+    "artva:AR1:13bis"
    ],
    "expected": [
     "artva:AR1:5"
@@ -219,8 +219,8 @@
    "split": "train"
   },
   "B13": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 9,
+   "rr": 0.1111,
    "top5": [
     "arcir92:136/1",
     "cbpf:100",
@@ -239,9 +239,9 @@
    "top5": [
     "cir92:444",
     "arcir92:229/2",
-    "cir92:445",
     "arcir92:229/1",
-    "ctva:58quater"
+    "ctva:58quater",
+    "cir92:445"
    ],
    "expected": [
     "cir92:354"
@@ -249,14 +249,14 @@
    "split": "val"
   },
   "B15": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 9,
+   "rr": 0.1111,
    "top5": [
     "cir92:275/4",
     "cir92:275/5",
     "cir92:312",
     "cir92:275/10",
-    "cir92:275/13"
+    "cir92:275/6"
    ],
    "expected": [
     "arcir92:88"
@@ -267,11 +267,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
+    "cir92:145/3",
     "cir92:176",
     "cta_wal:98",
     "agbxl2019:39",
-    "vcf:2.3.4.2.1",
-    "arcir92:182"
+    "vcf:2.3.4.2.1"
    ],
    "expected": [
     "cir92:145/33"
@@ -286,7 +286,7 @@
     "cir92:126",
     "cir92:2",
     "cbpf:38",
-    "cir92:133"
+    "arcir92:144/6"
    ],
    "expected": [
     "cir92:104"
@@ -301,7 +301,7 @@
     "arcir92:257",
     "cir92:275/1",
     "cir92:275/2",
-    "cir92:66"
+    "cir92:275/5"
    ],
    "expected": [
     "cir92:36"
@@ -328,10 +328,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:132",
-    "cir92:132bis",
-    "ar1940:4",
     "cir92:137",
-    "cir92:133"
+    "cir92:132bis",
+    "cir92:32/1",
+    "cenr_bxl:135"
    ],
    "expected": [
     "cir92:132"
@@ -339,14 +339,14 @@
    "split": "train"
   },
   "B21": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
     "arcir92:4",
     "cir92:262",
+    "artva:AR7:14",
     "cenr_bxl:46bis",
-    "cir92:7",
-    "artva:AR7:14"
+    "artva:AR7:26"
    ],
    "expected": [
     "cir92:7"
@@ -354,14 +354,14 @@
    "split": "val"
   },
   "B22": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
     "artva:AR45:1",
     "vcf:2.13.3.0.1",
-    "cir92:135",
     "arcir92:258",
-    "cir92:90"
+    "ue282:36",
+    "artva:AR7:43"
    ],
    "expected": [
     "cir92:90"
@@ -369,14 +369,14 @@
    "split": "train"
   },
   "B23": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 24,
+   "rr": 0.0417,
    "top5": [
-    "cir92:202",
     "cir92:194ter/1",
-    "cir92:207",
+    "cir92:202",
     "cir92:194ter",
-    "cir92:198/1"
+    "cir92:207",
+    "cir92:194ter/3"
    ],
    "expected": [
     "cir92:215"
@@ -390,8 +390,8 @@
     "vcf:2.3.4.1.2",
     "vcf:2.3.4.1.2/1",
     "cir92:66",
-    "cir92:550",
-    "cir92:197"
+    "cir92:205",
+    "cir92:550"
    ],
    "expected": [
     "cir92:66"
@@ -406,7 +406,7 @@
     "arcir92:257",
     "arcir92:258",
     "ue282:7",
-    "ue282:6ter"
+    "arcir92:19"
    ],
    "expected": [
     "arcir92:18"
@@ -418,10 +418,10 @@
    "rr": 0.0,
    "top5": [
     "ctva:59",
-    "artva:AR1:13ter",
     "ctva:61",
     "artva:AR1:13quater",
-    "artva:AR53:8"
+    "artva:AR53:8",
+    "artva:AR53:9"
    ],
    "expected": [
     "ctva:44"
@@ -436,7 +436,7 @@
     "vcf:2.6.7.1.1",
     "vcf:2.6.7.1.2",
     "artva:AR20:3",
-    "artva:AR1:13quater"
+    "artva:AR1:13bis"
    ],
    "expected": [
     "artva:AR20:3"
@@ -444,14 +444,14 @@
    "split": "val"
   },
   "B28": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
+    "cir92:418",
     "cir92:414",
     "cbpf:37",
-    "cir92:415/1",
-    "vcf:3.9.1.0.3",
-    "cir92:416"
+    "cir92:415",
+    "vcf:3.9.1.0.3"
    ],
    "expected": [
     "cir92:414"
@@ -459,14 +459,14 @@
    "split": "train"
   },
   "B29": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
-    "cir92:316",
     "vcf:3.22.0.0.1",
-    "cenr_bxl:289bis@01.01.2028",
-    "cenr_wal:289bis@01.01.2028",
-    "vcf:3.22.0.0.2"
+    "vcf:3.22.0.0.2",
+    "cir92:316",
+    "cenr_bxl:289bis",
+    "cenr_wal:289bis"
    ],
    "expected": [
     "cir92:316"
@@ -474,14 +474,14 @@
    "split": "val"
   },
   "B30": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
     "artva:AR1:20bis",
-    "artva:AR1:13quater",
     "artva:AR1:13ter",
+    "artva:AR1:13quater",
     "artva:AR1:13",
-    "artva:AR1:20"
+    "artva:AR1:20ter"
    ],
    "expected": [
     "artva:AR1:20"
@@ -492,11 +492,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "csucc_bxl:521",
     "csucc_wal:521",
-    "cir92:138",
     "vcf:2.7.6.0.6",
-    "csucc_bxl:51"
+    "csucc_bxl:521",
+    "cir92:138",
+    "csucc_wal:122"
    ],
    "expected": [
     "csucc_wal:48"
@@ -507,8 +507,8 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "ar1927:3",
     "ar1927:4",
+    "ar1927:3",
     "vcf:3.3.1.0.9",
     "cbpf:28",
     "agbxl2019:12"
@@ -519,14 +519,14 @@
    "split": "train"
   },
   "B33": {
-   "rank": 41,
-   "rr": 0.0244,
+   "rank": 48,
+   "rr": 0.0208,
    "top5": [
     "artva:AR20:3",
     "cir92:2",
-    "vcf:1.1.0.0.2",
     "csucc_wal:94",
-    "csucc_bxl:94"
+    "csucc_bxl:94",
+    "vcf:1.1.0.0.2"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -537,11 +537,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "cenr_bxl:612",
-    "cenr_bxl:289bis@01.01.2028",
+    "cir92:51",
+    "cenr_wal:188",
+    "cenr_bxl:188",
     "cenr_wal:289bis@01.01.2028",
-    "cenr_bxl:62",
-    "cenr_wal:188"
+    "cenr_bxl:289bis@01.01.2028"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -549,14 +549,14 @@
    "split": "train"
   },
   "B35": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cir92:145/45",
     "cenr_bxl:46bis",
-    "cir92:145/6",
+    "cir92:145/45",
     "cir92:145/46",
-    "cir92:145/44"
+    "cir92:145/37",
+    "cenr_bxl:46ter"
    ],
    "expected": [
     "cenr_bxl:46bis"
@@ -564,14 +564,14 @@
    "split": "train"
   },
   "B36": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 16,
+   "rr": 0.0625,
    "top5": [
-    "csucc_wal:122@01.01.2028",
-    "csucc_bxl:122@01.01.2028",
     "csucc_wal:122",
     "csucc_bxl:122",
-    "vcf:2.9.4.2.4"
+    "vcf:2.9.4.2.4",
+    "csucc_wal:122@01.01.2028",
+    "csucc_bxl:122@01.01.2028"
    ],
    "expected": [
     "vcf:2.9.4.2.11"
@@ -582,11 +582,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "csucc_bxl:48",
     "csucc_wal:48@01.01.2028",
     "ctva:73bis",
-    "cir92:450",
-    "csucc_bxl:133"
+    "csucc_bxl:48",
+    "ctva:73",
+    "crecouv:86"
    ],
    "expected": [
     "cenr_wal:131bis"
@@ -594,14 +594,14 @@
    "split": "val"
   },
   "B38": {
-   "rank": 47,
-   "rr": 0.0213,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
-    "cta_bxl:100",
     "vcf:2.3.4.1.2",
     "cta_bxl:94",
+    "cta_bxl:100",
     "cta_wal:100",
-    "cta_bxl:95"
+    "vcf:2.3.4.1.1"
    ],
    "expected": [
     "cta_bxl:98"
@@ -627,11 +627,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
+    "cbpf:144",
     "csucc_bxl:118",
     "cenr_bxl:196",
-    "csucc_wal:118",
-    "cir92:250",
-    "cenr_wal:196"
+    "artva:AR15:9",
+    "csucc_wal:118"
    ],
    "expected": [
     "cbpf:100"
