@@ -69,8 +69,8 @@ parser + re-index, no new models, no GPU.
 
 **Verdict**
 
-**try-now** — a cheap structural change (headnote chunk, cited-article field, court/date filters) that
-every case-law benchmark supports; the LLM-summary/keyword extension waits for DeepSeek.
+**try-now** — a cheap structural change (headnote chunk, cited-article field, court/date filters)
+every case-law benchmark supports; the LLM summary/keyword extension waits for DeepSeek.
 
 **Sources**
 

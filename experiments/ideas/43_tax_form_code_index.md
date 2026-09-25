@@ -2,11 +2,11 @@
 
 **Idea**
 
-Build a small structured index keyed by the return's own coordinates: `code 1250-11 → cadre/rubrique (IV.A.1.a) → label → paragraph of the official "Explications" brochure → cited provisions (CIR 92 art., AR/CIR, circulaires, SPF FAQ) → fiche-281 code`, one row per code, region and year. Use it (a) as a navigation layer over the 21k legal docs (a code in the query is resolved deterministically, its label + explanation becomes the retrieval query), (b) to answer "où dois-je mettre … ?" / "quel code pour … ?" by retrieving over ~800 label/explanation rows instead of statutes, and (c) as new MCP tools.
+Build a small structured index keyed by the return's own coordinates: `code 1250-11 → cadre/rubrique (IV.A.1.a) → label → paragraph of the official "Explications" brochure → cited provisions (CIR 92 art., AR/CIR, circulaires, SPF FAQ) → fiche-281 code`, one row per code, region and year. Use it (a) to resolve a code in the query deterministically and retrieve with its label + explanation, (b) to answer "où dois-je mettre … ?" / "quel code pour … ?" over ~800 label/explanation rows instead of statutes, and (c) as new MCP tools.
 
 **Why it fits this project**
 
-The end goal is filing in Tax-on-web, whose form has 699 codes (2026, down from 756). Citizens ask in form coordinates; the corpus is in statute coordinates; the brochure is the official bridge and is already in `out/pdfs_md/` (doc-préparatoire partie 1 × 3 regions, partie 2, explications partie 2; explications partie 1 still to fetch). A deterministic code lookup also removes a known LLM failure class (hallucinated form line numbers, TaxCalcBench). CPU-only; complements ideas 24 (tree routing), 32 (breadcrumbs) and 34 (lexicon).
+The end goal is filing in Tax-on-web, whose form has 699 codes (2026, down from 756). Citizens ask in form coordinates, the corpus is in statute coordinates, and the brochure is the official bridge, already in `out/pdfs_md/` (doc-préparatoire partie 1 × 3 regions, partie 2, explications partie 2; explications partie 1 still to fetch). A deterministic lookup also removes a known LLM failure (hallucinated line numbers). CPU-only; complements ideas 24, 32 and 34.
 
 **Evidence**
 
@@ -15,10 +15,10 @@ The end goal is filing in Tax-on-web, whose form has 699 codes (2026, down from 
 - Circulaire 2026/C/59 (5 May 2026) lists ~35 form changes, each with its legal basis (cadre IV.A.13.a overtime → art. 67-69 loi-programme 18.07.2025; cadre IX.II.B bonus-logement removed → art. 13 loi 18.12.2025): an official yearly code→law seed and diff source. https://blog.oeccbb.be/fr/article/circulaire-2026c59-relative-aux-modifications-dans-la-declaration-a-limpot-des-personnes-physiques-de-lexercice-dimposition-2026/31150
 - Tax-on-web shows a per-code "i" text that links to the brochure (third-party description, unverified, behind login): https://billy.tech/guide/fiscalite/impot/portail-fiscal/tax-on-web/
 - France: brochure pratique IR 2026 chapters carry CGI article references in their headings ("Prélèvement à la source (CGI, art. 204 A et suivants)") next to cases 1AJ…: the code→law layout we want. https://www.impots.gouv.fr/www2/fichiers/documentation/brochure/ir_2026/pdf_integral/Brochure-IR-2026.pdf
-- UK: HMRC SA150 notes are box-by-box (44 pages, ~60 boxes) https://www.gov.uk/self-assessment-tax-return-forms; US: IRS Interactive Tax Assistant decision trees plus line-by-line instructions https://www.irs.gov/help/ita
+- UK: HMRC SA150 notes are box-by-box https://www.gov.uk/self-assessment-tax-return-forms; US: IRS Interactive Tax Assistant plus line-by-line instructions https://www.irs.gov/help/ita
 - TaxCalcBench (Jul 2025): best model 32 % fully correct returns; failures include hallucinated form line numbers. https://arxiv.org/abs/2507.16126
-- TurboTax on Claude/ChatGPT (Apr 2026) answers through form checklists, not statutes. https://blog.turbotax.intuit.com/tax-help/turbotax-on-claude-chatgpt-for-ai-tax-help-144205/
-- Catala (Inria/DGFiP) annotates tax law article by article; too heavy for us, but confirms the provision as join key. https://github.com/catalalang/catala
+- TurboTax on Claude/ChatGPT (Apr 2026) answers via form checklists. https://blog.turbotax.intuit.com/tax-help/turbotax-on-claude-chatgpt-for-ai-tax-help-144205/
+- Catala (Inria/DGFiP) annotates tax law article by article: too heavy, but confirms the provision as join key. https://github.com/catalalang/catala
 - `codes-administratifs.md` already covers the assessment-notice side.
 
 **How we would implement it**
@@ -30,11 +30,11 @@ The end goal is filing in Tax-on-web, whose form has 699 codes (2026, down from 
 
 **Expected gain and cost**
 
-A new capability rather than an MRR delta: exact-code questions become near-deterministic, "quel code pour X" becomes answerable where legal retrieval today returns statutes, and code-anchored queries get a better retrieval query. ≈4 days, no GPU; yearly refresh from new brochures plus the changes circulaire.
+A new capability rather than an MRR delta: exact-code questions become near-deterministic, and "quel code pour X" becomes answerable where legal retrieval today returns statutes. ≈4 days, no GPU; yearly refresh from new brochures plus the changes circulaire.
 
 **Risks / open questions**
 
-Table flattening may misalign codes and labels (check counts per rubrique); three regional variants and yearly renumbering; explanation→law links are inferred and must be labelled as such; explications partie 1 not yet downloaded; Tax-on-web "i" texts not scrapeable; brochure prose is not citable law, so answers must cite the linked provision.
+Table flattening may misalign codes and labels (check counts per rubrique); three regional variants and yearly renumbering; explanation→law links are inferred and must be labelled so; Tax-on-web "i" texts not scrapeable; brochure prose is not citable law, so answers must cite the linked provision.
 
 **Verdict**
 
@@ -42,4 +42,4 @@ Table flattening may misalign codes and labels (check counts per rubrique); thre
 
 **Sources**
 
-URLs above; in-repo `out/pdfs_md/doc-preparatoire-*-2026.md`, `out/pdfs_md/explications-partie-2-2026.md`, `codes-administratifs.md`, `MYFIN_ARBORESCENCE.md` (Documents préparatoires row), `experiments/ideas/24_*.md`, `32_*.md`, `34_*.md`.
+URLs above; in-repo `out/pdfs_md/doc-preparatoire-*-2026.md`, `out/pdfs_md/explications-partie-2-2026.md`, `codes-administratifs.md`, `MYFIN_ARBORESCENCE.md`.
