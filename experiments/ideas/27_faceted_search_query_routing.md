@@ -17,12 +17,12 @@ Exp. 08 showed the rule-based region filter is correct but neutral (10/40 questi
 - Soft filtering is a first-class store feature: Qdrant formula queries (≥ 1.14) `$score + condition·w`, with the warning that RRF scores are tiny and boosts must be calibrated. https://qdrant.tech/documentation/search/search-relevance/
 - LLM filter generation (Weaviate Query Agent, Sept 2025): +17 % Success@1, +11 % Recall@5 over hybrid on 12 benchmarks — but its default "recall" mode issues several filter interpretations because one filter is brittle. https://weaviate.io/blog/search-mode-benchmarking
 - Self-query pitfalls: LLM filter extraction costs 0.5–2 s/query and needs a fallback to unfiltered search on zero results (Haystack, 2024). https://haystack.deepset.ai/blog/extracting-metadata-filter
-- Tool design: unambiguous enum parameters, consolidated search tools returning context, concise responses (≈ ⅓ tokens). https://www.anthropic.com/engineering/writing-tools-for-agents
+- Tool design: unambiguous enum parameters, consolidated search tools, concise responses (≈ ⅓ tokens). https://www.anthropic.com/engineering/writing-tools-for-agents
 - Legal precedent: domain-partitioned hybrid RAG for Indian law routes queries to statute/case-law modules (2026, numbers unverified). https://arxiv.org/html/2602.23371
 
 **How we would implement it**
 
-1. Metadata: finish `region`, `income_year`, `document_type`, `code`, `article`, `taxonomy_path` per document (EXPERIMENTS.md § 4).
+1. Metadata: finish `region`, `income_year`, `document_type`, `code`, `article`, `taxonomy_path` per document.
 2. Rule layer (deterministic, unit-tested): regex for `art. 171`, "exercice 2024", cities→region (reuse `08/cleanup.py`), type keywords ("circulaire", "ruling", "arrêt"). Explicit cue → hard filter, relaxed to a boost if < k hits.
 3. Learned layer: embed 200–400 questions (A/B/C + synthetic from idea 12) with e5-base; logistic regression for document type and taxonomy top level; keep probabilities. Compare with zero-shot `MoritzLaurer/mDeBERTa-v3-base-mnli-xnli`.
 4. Soft boost in `14_ltr_fusion`: `s' = s_fused + λ_t·p(type) + λ_r·[region ∈ {q, fed}] + λ_y·year_decay`; grid λ on out-of-fold recall@30; reranker unchanged.
@@ -36,7 +36,7 @@ Exp. 08 showed the rule-based region filter is correct but neutral (10/40 questi
 
 - Routing amplifies metadata errors; corpus C still has NL bodies flagged `fr` and abrogated texts.
 - 60 questions cannot resolve λ finer than ±0.1 — keep boosts small.
-- Users rarely name a document type; type routing may only matter for explicit "circulaire/ruling" asks.
+- Users rarely name a document type; type routing may matter only for explicit "circulaire/ruling" asks.
 - Year semantics (income vs assessment vs publication year) are ambiguous — decay, never filter.
 - Facets exposed to the LLM vs auto-routing: undecided; log both and choose with data.
 

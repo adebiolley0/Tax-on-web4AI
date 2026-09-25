@@ -22,11 +22,11 @@ Corpus C shows yearly triplication of CIR 92 articles, regional quadruplication 
 
 1. *Normalise*: strip amendment preambles, dates, "exercice d'imposition 20xx", region names, SharePoint residue; lowercase; NFKC.
 2. *Exact tier*: SHA-256 of normalised body → byte-identical editions (most CIR 92 triplicates) collapse for free.
-3. *Near tier*: datasketch MinHash, 5-word shingles, `num_perm=128`, LSH `threshold=0.85` (weights FN-heavy 0.4/0.6), then exact Jaccard on candidates, union-find into clusters. Cost: 21k docs in minutes; 1 M chunks ≈ 1 M×128×4 B = 0.5 GB signatures, ~1 h on 4 cores. SimHash (64-bit, Hamming ≤ 3) is the cheaper alternative for chunks.
-4. *Structural tier*: the article parser already yields `code` + `article` + `region` + `income_year`; group on that key first and let MinHash confirm.
-5. *Canonical election*: latest valid edition (or "federal" for regional twins only when text is identical); variants keep `year`, `region`, `lang`, `guid`, `jaccard`, and a `difflib` unified diff of what changed (numbers, thresholds, dates) — the diff becomes a short "changes vs canonical" note.
-6. *Query time*: index canonicals only; return `{canonical, variants[...]}`; filters on `year`/`region` select the variant when it differs. FR/NL pairs: separate language field, link as variants, never collapse text.
-7. No LLM needed; a DeepSeek pass could later summarise diffs.
+3. *Near tier*: datasketch MinHash, 5-word shingles, `num_perm=128`, LSH `threshold=0.85` (FN-heavy weights 0.4/0.6), exact Jaccard on candidates, union-find into clusters. Cost: 21k docs in minutes; 1 M chunks ≈ 0.5 GB of signatures, ~1 h on 4 cores. SimHash (64-bit, Hamming ≤ 3) is the cheaper option for chunks.
+4. *Structural tier*: the article parser yields `code` + `article` + `region` + `income_year`; group on that key first, MinHash confirms.
+5. *Canonical election*: latest valid edition (federal for identical regional twins); variants keep `year`, `region`, `lang`, `guid`, `jaccard` and a `difflib` diff of what changed (amounts, dates) as a "changes vs canonical" note.
+6. *Query time*: index canonicals only; return `{canonical, variants[...]}`; `year`/`region` filters select the differing variant. FR/NL pairs: link as variants, never merge text.
+7. No LLM needed; DeepSeek could later summarise diffs.
 
 **Expected gain and cost**
 
