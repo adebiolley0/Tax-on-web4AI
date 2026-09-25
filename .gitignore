@@ -214,3 +214,6 @@ experiments/*/sync.log
 experiments/*/lancedb_data/
 experiments/*/txtai_index/
 experiments/*/storage/
+experiments/12_sparse_colbert/cache/
+experiments/12_sparse_colbert/logs/
+experiments/*/pylate_index/
