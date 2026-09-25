@@ -1,0 +1,335 @@
+{
+ "graph_stats": {
+  "n_nodes": 5853,
+  "n_cite_edges": 11440,
+  "cite_isolated_pct": 32.1,
+  "cite_deg_mean": 3.91,
+  "cite_deg_median": 1,
+  "cite_deg_p90": 10,
+  "cite_deg_max": 145,
+  "cite_out_nodes": 3090,
+  "cite_in_nodes": 2666,
+  "largest_components": [
+   3499,
+   151,
+   20,
+   19,
+   11
+  ],
+  "n_components": 1981,
+  "top_cited": [
+   "cbpf:3 (141)",
+   "cbpf:1 (134)",
+   "ctva:53 (76)",
+   "cir92:90 (70)",
+   "cir92:227 (60)",
+   "ctva:50 (51)",
+   "ctva:4 (46)",
+   "cta_vla:65 (39)",
+   "ctva:44 (37)",
+   "ctva:39bis (37)",
+   "cbpf:145 (37)",
+   "cir92:145/1 (33)"
+  ],
+  "cross_code_cite_pct": 14.7,
+  "mentions": 21308,
+  "resolved_mentions": 11629,
+  "unresolved:external": 5591,
+  "unresolved:no_such_article": 4088,
+  "edges:cite": 11440,
+  "edges:seq": 5830,
+  "groups:heading": 865,
+  "groups:heading_mean_size": 6.2,
+  "groups:heading_max_size": 59,
+  "build_s": 1.8
+ },
+ "runs": [
+  {
+   "name": "rrf",
+   "train_mrr": 0.4604,
+   "val_mrr": 0.4211,
+   "mrr": 0.4447,
+   "hit@1": 0.275,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.775,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.399,
+   "config": {
+    "tag": "B_raw",
+    "method": "first_stage",
+    "base": "rrf"
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]",
+   "train_mrr": 0.5786,
+   "val_mrr": 0.4157,
+   "mrr": 0.5135,
+   "hit@1": 0.4,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.75,
+   "val_recall@10": 0.6875,
+   "ndcg@5": 0.4516,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "cite",
+     "seq",
+     "heading"
+    ],
+    "selected_on": "train",
+    "val_oracle": "rrf+expand[k30,sym,h2,a0.2]",
+    "val_oracle_mrr": 0.4608,
+    "grid_size": 144
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]__only_cite",
+   "train_mrr": 0.524,
+   "val_mrr": 0.3911,
+   "mrr": 0.4708,
+   "hit@1": 0.325,
+   "val_hit@1": 0.25,
+   "recall@10": 0.775,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.4218,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "cite"
+    ],
+    "ablation": "only"
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]__without_cite",
+   "train_mrr": 0.5225,
+   "val_mrr": 0.4408,
+   "mrr": 0.4898,
+   "hit@1": 0.375,
+   "val_hit@1": 0.375,
+   "recall@10": 0.75,
+   "val_recall@10": 0.6875,
+   "ndcg@5": 0.4241,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "seq",
+     "heading"
+    ],
+    "ablation": "without"
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]__only_seq",
+   "train_mrr": 0.504,
+   "val_mrr": 0.4516,
+   "mrr": 0.483,
+   "hit@1": 0.35,
+   "val_hit@1": 0.375,
+   "recall@10": 0.75,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.4091,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "seq"
+    ],
+    "ablation": "only"
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]__without_seq",
+   "train_mrr": 0.5187,
+   "val_mrr": 0.3957,
+   "mrr": 0.4695,
+   "hit@1": 0.325,
+   "val_hit@1": 0.25,
+   "recall@10": 0.8,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.4214,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "cite",
+     "heading"
+    ],
+    "ablation": "without"
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]__only_heading",
+   "train_mrr": 0.4767,
+   "val_mrr": 0.4227,
+   "mrr": 0.4551,
+   "hit@1": 0.3,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.8,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.4074,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "heading"
+    ],
+    "ablation": "only"
+   }
+  },
+  {
+   "name": "rrf+expand[k100,sym,h2,a0.05]__without_heading",
+   "train_mrr": 0.5275,
+   "val_mrr": 0.4203,
+   "mrr": 0.4846,
+   "hit@1": 0.35,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.775,
+   "val_recall@10": 0.6875,
+   "ndcg@5": 0.4204,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "cite",
+     "seq"
+    ],
+    "ablation": "without"
+   }
+  },
+  {
+   "name": "rrf+expand_sel[k100,sym,h2,a0.05]",
+   "train_mrr": 0.5786,
+   "val_mrr": 0.4157,
+   "mrr": 0.5135,
+   "hit@1": 0.4,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.75,
+   "val_recall@10": 0.6875,
+   "ndcg@5": 0.4516,
+   "config": {
+    "tag": "B_raw",
+    "method": "expand_sel",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "cite",
+     "seq",
+     "heading"
+    ],
+    "selected_on": "train",
+    "val_oracle_mrr": 0.4608
+   }
+  },
+  {
+   "name": "rrf+ppr[k10,b0.5,a0.3]",
+   "train_mrr": 0.5697,
+   "val_mrr": 0.3926,
+   "mrr": 0.4988,
+   "hit@1": 0.375,
+   "val_hit@1": 0.25,
+   "recall@10": 0.75,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.4324,
+   "config": {
+    "tag": "B_raw",
+    "method": "ppr",
+    "base": "rrf",
+    "k": 10,
+    "beta": 0.5,
+    "alpha": 0.3,
+    "selected_on": "train",
+    "val_oracle_mrr": 0.4482
+   }
+  },
+  {
+   "name": "rrf+prior[r0.3,d0.5]",
+   "train_mrr": 0.4808,
+   "val_mrr": 0.4243,
+   "mrr": 0.4582,
+   "hit@1": 0.275,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.825,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.413,
+   "config": {
+    "tag": "B_raw",
+    "method": "prior",
+    "base": "rrf",
+    "gamma_region": 0.3,
+    "gamma_domain": 0.5,
+    "selected_on": "train",
+    "val_oracle_mrr": 0.4256
+   }
+  },
+  {
+   "name": "rrf+stack[prior+expand_sel]",
+   "train_mrr": 0.5922,
+   "val_mrr": 0.4234,
+   "mrr": 0.5246,
+   "hit@1": 0.4,
+   "val_hit@1": 0.3125,
+   "recall@10": 0.825,
+   "val_recall@10": 0.75,
+   "ndcg@5": 0.4621,
+   "config": {
+    "tag": "B_raw",
+    "method": "stack",
+    "base": "rrf",
+    "k": 100,
+    "norm": "sym",
+    "hops": 2,
+    "alpha": 0.05,
+    "types": [
+     "cite",
+     "seq",
+     "heading"
+    ],
+    "gamma_region": 0.3,
+    "gamma_domain": 0.5
+   }
+  }
+ ]
+}

@@ -19,7 +19,7 @@ from __future__ import annotations
 import re
 
 SUFFIX = r"(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies|duodecies)?"
-ART_RE = re.compile(r"(?<![\w/.’'])(?:articles?|art\.?|artikel(?:en)?)\s*(?=\d)", re.I)
+ART_RE = re.compile(r"(?<![\w/])(?:articles?|art\.?|artikel(?:en)?)\s*(?=\d)", re.I)
 TOKEN_RE = re.compile(rf"""[ \t]*(?:
     (?P<num>\d+(?:\.\d+)+|\d+(?:[/^]\d+)?{SUFFIX})(?P<ord>er\b|°|e\b|ème\b)?
   | (?P<mark>§+|al\.|alin[ée]as?\b|n[°o]s?\b|par\.|points?\b|litt?\.|lettres?\b|tirets?\b|phrases?\b|
@@ -45,7 +45,7 @@ EXTERNAL_RE = re.compile(
     r"Code\s+(?:des sociétés|civil|pénal|judiciaire|de droit économique|de commerce|de la démocratie|wallon|de la nationalité|d['’]instruction|"
     r"de la route|forestier|rural|électoral|de droit international|consulaire|de la navigation|de la sécurité|du bien-être|de l['’]environnement|"
     r"flamand de l['’]aménagement|bruxellois de l['’]aménagement|de droit pénal|des impôts sur les revenus 1964|du logement|de l['’]eau|de l['’]énergie)"
-    r"|Wetboek\s+(?:van vennootschappen|van strafrecht|van economisch recht|van koophandel)"
+    r"|Wetboek\s+(?:van vennootschappen|van strafrecht|van economisch recht|van koophandel))"
     r")", re.I)
 CODE_HINTS: list[tuple[re.Pattern, str]] = [(re.compile(
     r"^\s*[,(]?\s*(?:(?:du|de la|de l['’]|de|van het|van de)\s+)?(?:même\s+)?" + p, re.I), fam) for p, fam in [
@@ -110,8 +110,15 @@ def parse_span(text: str, pos: int) -> tuple[list[str], int]:
     return items, pos
 
 
+AMEND_PRE_RE = re.compile(
+    r"(?:modifi|ins[ée]r|remplac|abrog|compl[ée]t|r[ée]tabli|introduit|supprim|renum[ée]rot|gewijzigd|ingevoegd|vervangen|opgeheven)\S*\s+"
+    r"(?:par\s+(?:l['’]|les\s+)?|bij\s+)$", re.I)
+
+
 def iter_article_refs(text: str, tail_len: int = 90):
-    """Yield (mention_start, items, tail) for every article mention in ``text``."""
+    """Yield (mention_start, items, tail) for every article mention in ``text``.
+    A mention preceded by "modifié / inséré / remplacé par l'" is an amendment note that
+    cites the *amending* act, so its tail is rewritten as external."""
     for m in ART_RE.finditer(text):
         items, end = parse_span(text, m.end())
         if not items:
@@ -119,7 +126,10 @@ def iter_article_refs(text: str, tail_len: int = 90):
         nxt = text[end: end + 2]
         if nxt[:1] == "." and nxt[1:2].isdigit():      # 'article 3.86' style numbers we do not model
             continue
-        yield m.start(), items, text[end: end + tail_len]
+        tail = text[end: end + tail_len]
+        if AMEND_PRE_RE.search(text[max(0, m.start() - 40): m.start()]):
+            tail = " de la loi (amendement)" + tail
+        yield m.start(), items, tail
 
 
 def classify_tail(tail: str) -> tuple[str, str]:
