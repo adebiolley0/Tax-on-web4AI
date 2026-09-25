@@ -10,8 +10,8 @@ Users need article + circulaire + ruling/case together; MRR rewards one document
 
 **Evidence**
 
-- Local: exp 11 text citations — `cite_art` 270k, `cite_jur` 2,156, `cite_circ` 1,482, `cite_da` 99, `cite_qp` 23; 57–62 % of article mentions resolved; recall@10 rises under expansion (0.775 → 0.825/0.850) while MRR falls; CIR 92 art. 2 has 1,092 citers. Corpus C: 24/64 questions list `secondary` documents, but only 3 pairs cross types, so today's set cannot measure bundles.
-- Legal products model these edges editorially: KeyCite groups citing references by document type with depth of treatment (examined/discussed/cited/mentioned) and negative-treatment flags; Shepard's uses seven signals plus phrases (followed, distinguished, questioned, overruled); Légifrance article pages show "Créé par / Abrogé par / Textes liés / Voir les versions" and LEGI status codes M/Ab/T/D/A/S. A machine citator (followed/contradicted/abandoned/cited) is claimed by a third-party site (legifrance.dev, unverified).
+- Local: exp 11 text citations — `cite_art` 270k, `cite_jur` 2,156, `cite_circ` 1,482, `cite_da` 99, `cite_qp` 23; 57–62 % of article mentions resolved; expansion lifts recall@10 (0.775 → 0.825/0.850) but lowers MRR; CIR 92 art. 2 has 1,092 citers. Corpus C: 24/64 questions list `secondary` documents, but only 3 pairs cross types, so today's set cannot measure bundles.
+- Legal products model these edges editorially: KeyCite groups citing references by document type with depth of treatment (examined/discussed/cited/mentioned) and negative-treatment flags; Shepard's uses seven signals plus phrases (followed, distinguished, questioned, overruled); Légifrance article pages show "Créé par / Abrogé par / Textes liés / Voir les versions" and LEGI status codes M/Ab/T/D/A/S. A machine citator (followed/contradicted/abandoned/cited) is claimed by legifrance.dev (unverified).
 - SearchFireSafety (arXiv 2604.06173, ACL 2026): citation graph from hyperlinks + regex, no LLM; structure-aware reranking over BGE-M3 R@10 53.77 → 54.70, nDCG@10 37.67 → 38.05 (Korean statutes). "The Missing Link" (arXiv 2506.22165, Jun 2025): joint case+norm heterogeneous graph +3.1 AP on citation prediction.
 - Diversification and users: Maxwell, Azzopardi, Moshfeghi (IRJ 2019, 51 participants, BM25 vs BM25+xQuAD): on aspectual tasks users marked more relevant documents and found more novel aspects. Fang et al. (2011): xQuAD beats MMR, which admits non-relevant items when the base ranking is weak. Zhou et al. (SIGIR 2012, 56 topics): aggregated-page metrics track user preference better than diversity metrics. arXiv 2502.09017 (Apr 2025): MMR raises pre-LLM chunk recall 2–9 points, downstream only 1–3.
 
@@ -19,11 +19,11 @@ Users need article + circulaire + ruling/case together; MRR rewards one document
 
 1. Metadata re-crawl of 21k GUIDs (~3–6 h at 1–2 req/s) → SQLite `edge(type, src, dst, confidence, date)`; type from source×target document types (`applies` for DA/jur→article, `interprets` for circ/comm→article, `faq_of`, `answers_on`); confidence 1.0 curated, 0.9 exact-number regex (`refparse.py`), 0.5 bare "article N". Grammar for "modifié/abrogé/remplacé par" gives `amends/abrogates`.
 2. Bundle assembly (dict lookups): anchor = rank-1 after reranking; slots [statute, interpretation, practice, FAQ] filled from top-20 by type, else from anchor neighbours (curated > regex, keyword overlap with query, recency; cap 3 per slot). Flat ranking untouched.
-3. Label 30 corpus-C questions with a triple (article, circulaire/commentary, practice) using `relatedDocuments` as candidate list; new metric *slot hit-rate* in `rag_eval`; xQuAD with types as sub-queries is the optional follow-up.
+3. Label 30 corpus-C questions with a triple (article, circulaire/commentary, practice), `relatedDocuments` as candidate list; add *slot hit-rate* to `rag_eval`; xQuAD with types as sub-queries as follow-up.
 
 **Expected gain and cost**
 
-MRR unchanged by design. Slot hit-rate: statute slot fillable for ~70 % of practice/commentary anchors from curated edges alone; interpretation slot weaker (circulaire coverage 3/8 curated, plus 1,482 regex edges). The real payoff is perceived completeness and fewer agent tool calls, as exp 11 recommended. Cost: one crawl, 2–3 days code, 1 day labelling; query-time overhead negligible.
+MRR unchanged by design. Statute slot fillable for ~70 % of practice/commentary anchors from curated edges alone; interpretation slot weaker (circulaire coverage 3/8 curated, plus 1,482 regex edges). The real payoff is perceived completeness and fewer agent tool calls, as exp 11 recommended. Cost: one crawl, 2–3 days code, 1 day labelling; query-time overhead negligible.
 
 **Risks / open questions**
 
