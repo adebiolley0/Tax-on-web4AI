@@ -1,1 +1,1 @@
-launched: 01-95 (some may have hit the cap; check files). pending: 96-100
+launched: 01-100 (all). pending: none. next: verify all 100 files exist, then write README.md synthesis

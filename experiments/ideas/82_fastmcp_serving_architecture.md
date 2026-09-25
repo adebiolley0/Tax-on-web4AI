@@ -6,10 +6,10 @@ Run the whole retrieval stack **in one FastMCP process**: LanceDB/bm25s embedded
 
 **Why it fits this project**
 
-- 4 CPU cores, one box, occasional concurrent LLM sessions: a sidecar (Qdrant/TEI/Infinity) adds RAM, ops and network hops but no throughput. EXPERIMENTS.md § 4 already picked LanceDB embedded for exactly that reason.
-- The reranker is the only expensive stage (2–4 s/query on ≤1,200-char chunks; 20–24 s at 30 × 1,024 tokens). Two sessions calling `search` at once must not both spawn 4-thread torch jobs and thrash; a single worker + queue keeps p99 predictable.
-- FastMCP runs **sync tools in a threadpool** automatically, but that is exactly the wrong default for torch (unbounded parallel model calls); explicit executors give control.
-- An LLM client would rather get 10 fused hits in 400 ms than wait 20 s for a timeout; idea 48's `search`/`fetch` contract survives unchanged.
+- 4 CPU cores, one box: a sidecar (Qdrant/TEI/Infinity) adds RAM, ops and network hops but no throughput. EXPERIMENTS.md § 4 already picked LanceDB embedded for that reason.
+- The reranker is the only expensive stage (2–4 s/query on ≤1,200-char chunks; 20–24 s at 30 × 1,024 tokens). Two concurrent `search` calls must not both spawn 4-thread torch jobs and thrash; a single worker + queue keeps p99 predictable.
+- FastMCP runs **sync tools in a threadpool** automatically — the wrong default for torch (unbounded parallel model calls); explicit executors give control.
+- An LLM client prefers 10 fused hits in 400 ms to a 20 s timeout; idea 48's `search`/`fetch` contract is unchanged.
 
 **Evidence**
 
@@ -19,7 +19,7 @@ Run the whole retrieval stack **in one FastMCP process**: LanceDB/bm25s embedded
 - FastMCP 4.x background tasks (`task=True`, Docket embedded worker, `FASTMCP_DOCKET_CONCURRENCY`, extra workers pull from the same queue) — only with protocol `2026-07-28` clients. https://gofastmcp.com/servers/tasks
 - MCP spec: clients SHOULD time out, MAY reset the clock on progress notifications, but SHOULD enforce a maximum; cancellation is best-effort. https://modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle , …/utilities/progress , …/utilities/cancellation
 - PyTorch CPU inference: intra-op threads compete when several inferences run concurrently; set `torch.set_num_threads` per process. https://pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html
-- Dynamic batching of reranker pairs (queue → single forward pass) is the standard trick in TEI/Infinity servers (unverified detail: batch-size heuristics).
+- Dynamic batching of reranker pairs (queue → one forward pass) is what TEI/Infinity do (batch heuristics unverified).
 
 **How we would implement it**
 
@@ -29,11 +29,11 @@ Run the whole retrieval stack **in one FastMCP process**: LanceDB/bm25s embedded
 4. Caches: LRU on query embeddings (normalised query string, 10k entries), LRU on `(query, filters) → final hits` (TTL until index version changes), `fetch` documents by id.
 5. Health: `/healthz` route on `mcp.http_app()` reporting model load state, queue depth, index version; log `request_id`, stage latencies.
 6. Memory budget (RSS, CPU, fp32 unless quantised): e5-base ~0.5 GB, bge-reranker-v2-m3 ~2.3 GB, bge-m3 ~2.3 GB, LanceDB mmap + bm25s ~0.5 GB for 100k docs → target < 6 GB; cold start 10–20 s.
-7. Later: `task=True` for `search_deep` (rerank top-100 in background, client polls); horizontal scale = N stateless processes behind a proxy, each with its own read-only LanceDB copy (LanceDB is multi-reader; writer stays a separate indexing job — from memory, verify).
+7. Later: `task=True` for `search_deep` (rerank top-100 in background, client polls); horizontal scale = N stateless processes behind a proxy sharing a read-only LanceDB directory (multi-reader, single external writer — from memory, verify).
 
 **Expected gain and cost**
 
-Gain: p50 `search` ≈ 0.5–4 s single-user; under 2–3 concurrent sessions no thrash, worst case degrades to fused-only within the deadline instead of timing out; no daemons to run. Cost: ~2 days of engineering, a load test (`experiments/09_serving`?), memory ceiling ≈ 6 GB.
+Gain: p50 `search` ≈ 0.5–4 s single-user; with 2–3 concurrent sessions no thrash, worst case fused-only within the deadline instead of a timeout; no daemons. Cost: ~2 days, a load test (`experiments/09_serving`?), RSS ≈ 6 GB.
 
 **Risks / open questions**
 
