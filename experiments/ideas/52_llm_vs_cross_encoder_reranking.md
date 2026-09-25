@@ -26,20 +26,20 @@ Keep bge-reranker-v2-m3 on the hybrid top-30 and let DeepSeek re-order only the 
 1. Harness stage `llm_rerank` after bge: question + numbered candidates (title, breadcrumb, first ~500 tokens) → `[3] > [1] > …`; fall back to bge order on malformed output.
 2. Variants: listwise top-10 / top-20; setwise heapsort over top-10 (≈15 short parallel calls); RRF(bge, LLM) vs LLM alone. Temperature 0, prompts logged.
 3. Measure MRR/H@1/nDCG@5 on A/B/C plus latency and tokens; repeat 3× for non-determinism.
-4. Later: distil the LLM ordering into a listwise fine-tune of bge (topic 13) so the LLM leaves the query path.
+4. Later: distil the LLM ordering into bge (topic 13) so the LLM leaves the query path.
 
 **Expected gain and cost**
 
 - Quality: +0.02 to +0.06 MRR (H@1 0.61 → 0.65–0.70), mostly year/region disambiguation; listwise alone may *lose* 0.02 on unfamiliar queries, hence the RRF guard.
 - Latency: ~12k prompt tokens → ~3–8 s extra per query (estimate, non-thinking mode); thinking mode 20–60 s. Cost ≈ $0.002–0.004/query (flash) or ~$0.01–0.02 (v4-pro).
-- Engineering: ~1 day; no training.
+- Engineering: ~1 day, no training.
 
 **Risks / open questions**
 
 - Position bias and run-to-run variance; RankGPT-3.5-class quality (65.8 DL19) would sit *below* bge — DeepSeek's French legal ranking is unmeasured.
 - Our eval sets (29–64 questions) carry ±0.05 MRR noise: a +0.03 gain is inside it; needs the larger question set.
 - External API on the ranking path (availability; chunks are public law text, acceptable).
-- Cross-encoder recall caps the cascade: anything bge drops below rank 10/20 is unreachable.
+- bge recall caps the cascade: anything below rank 10/20 is unreachable.
 
 **Verdict**
 
