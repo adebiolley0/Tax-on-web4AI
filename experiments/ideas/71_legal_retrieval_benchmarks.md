@@ -32,11 +32,11 @@ Align `rag_eval` with the protocols of published legal IR benchmarks — article
 
 **Expected gain and cost**
 
-No retrieval gain; comparability and diagnostics: R@k separates retriever misses from reranker misorders (on C, R@10 0.891 vs H@1 0.609 says most loss is ordering). BSARD gives a third-party-labelled sanity check of our French normalisation and hybrid stack. Cost: ~1 day of harness work, ~1 h to embed 22.6k articles with e5-small, ~1.5 h of reranking on the 4-core box.
+No retrieval gain; comparability and diagnostics: R@k separates retriever misses from reranker misorders (on C, R@10 0.891 vs H@1 0.609 says most loss is ordering). BSARD gives a third-party-labelled sanity check of our French normalisation and hybrid stack. Cost: ~1 day of harness work, ~1 h to embed 22.6k articles (e5-small), ~1.5 h of reranking.
 
 **Risks / open questions**
 
-- BSARD covers civil/family/housing law, not tax; absolute numbers will differ from B, only the *ordering* of methods transfers.
+- BSARD covers civil/family/housing law, not tax; only the *ordering* of methods transfers, not absolute numbers.
 - Migrating grades changes existing leaderboard numbers; keep the MRR column untouched and version the metric set.
 - Span offsets break on re-parsing (idea 61); store quote text, re-derive offsets at load time.
 - BSARD is CC-BY-NC-SA: evaluation only.

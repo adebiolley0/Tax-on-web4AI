@@ -14,7 +14,7 @@ Stop judging chunkers only by document-level MRR at a fixed *k*. Annotate the ex
 - "Is Semantic Chunking Worth the Computational Cost?" (arXiv 2410.13070): evaluates document retrieval, *evidence retrieval* and answer generation separately; semantic chunking gives no consistent gain over fixed-size. https://arxiv.org/abs/2410.13070
 - LegalBench-RAG (arXiv 2408.10343): 6,858 expert-annotated span-level QA pairs; argues minimal citable snippets must be the unit, not document ids or large chunks; recursive splitter beats naive 500-char chunks on P@1 (6.4 vs 2.4). https://arxiv.org/abs/2408.10343
 - Chunking German Legal Code (arXiv 2605.19806, 2026): section-level gold labels with child-to-parent score propagation; structural units (§/Absatz) beat fixed windows, semantic clustering, RAPTOR; reports recall *and* latency/index size. https://arxiv.org/abs/2605.19806
-- Chunking methods vs computational cost (arXiv 2606.00881, 2026): wide chunker sweep; LLM-based chunkers cost hours for no reliable gain (numbers from #05, abstract only re-checked). https://arxiv.org/abs/2606.00881
+- Chunking methods vs computational cost (arXiv 2606.00881, 2026): LLM-based chunkers cost hours for no reliable gain (numbers from #05; abstract only re-checked). https://arxiv.org/abs/2606.00881
 - Late Chunking (arXiv 2409.04701): chunk-level evaluation; gains largest for small chunks — the regime where budget-aware comparison matters (details unverified). https://arxiv.org/abs/2409.04701
 
 **How we would implement it**
@@ -22,15 +22,15 @@ Stop judging chunkers only by document-level MRR at a fixed *k*. Annotate the ex
 2. Chunk provenance: every `Chunk` gets `(doc_id, char_start, char_end)` in `chunking.py`.
 3. New metrics in `rag_eval/metrics.py` (chunk-level, no dedupe): `span_hit@k` (any top-k chunk covers ≥ 50 % of a span), `span_recall@budget` (span tokens covered by the top chunks that fit into B tokens, B ∈ {1024, 2048, 4096}, counted with the *embedding model's* tokenizer), `token_precision@budget` (Chroma IoU), and `first_covering_rank`.
 4. Report a per-chunker table with doc-MRR alongside span_recall@2048; log to `leaderboard.jsonl` with a `budget` field so old runs stay comparable.
-5. Re-run the existing B chunker sweep (fixed 1,200-char, article, 128-token leaves, ± title prefix) under the new protocol; no new models, CPU-only, a few hours.
+5. Re-run the B chunker sweep (fixed 1,200-char, article, 128-token leaves, ± title prefix) under the new protocol; no new models, CPU-only.
 
 **Expected gain and cost**
 No direct MRR gain — this is measurement. Payoff: a defensible chunk size for the LLM stage (probably 128–256-token leaves plus parent context) and detection of chunkers that win MRR while truncating answers. Cost: ~2 days of annotation + harness work, one re-run of past sweeps.
 
 **Risks / open questions**
-- 80 annotated questions give wide confidence intervals; report paired bootstrap, not point estimates.
+- 80 questions give wide confidence intervals; report paired bootstrap, not point estimates.
 - Answer spans in tax law are often tables or multi-§ (rates, thresholds): span-coverage thresholds need a rule for tables (#38).
-- Budget in model tokens depends on the tokenizer (e5 vs DeepSeek); store char offsets, tokenise at report time.
+- Token budgets depend on the tokenizer (e5 vs DeepSeek); store char offsets, tokenise at report time.
 - Annotator bias: have a second person check 20 spans.
 - Late-chunking / small-to-big returns parents: define "retrieved text" as what would actually be sent to the LLM.
 

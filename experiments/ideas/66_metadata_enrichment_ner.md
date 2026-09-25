@@ -6,11 +6,11 @@ One deterministic enrichment pass over the 21k Fisconet+ documents turns front m
 
 **Why it fits this project**
 
-Front matter already gives `document_type` (24 types), `document_date/publication_date/effective_date`, `path` (depth 3–6; domains: enregistrement 6.7k, revenus 5.3k, succession 3.6k, taxes assimilées 1.3k, TVA 1.1k) and `linked_document_nl` — but no region, year, amount, article or keyword field. Exp 08/11 failure modes are metadata-shaped: regional twins (6,381 docs), yearly editions (3,610), NL bodies flagged `fr`. `mcp_server/src/tax_mcp/server.py` already accepts `document_type/tax_category/audience/language` filters but has no values to filter on. CPU-only; DeepSeek later fills the same arguments. Generic French NER (PER/ORG/LOC/MISC) covers none of dates, amounts, articles, regions or tax types, so rules are the primary tool, not a fallback.
+Front matter already gives `document_type` (24 types), `document_date/publication_date/effective_date`, `path` (depth 3–6; domains: enregistrement 6.7k, revenus 5.3k, succession 3.6k, taxes assimilées 1.3k, TVA 1.1k) and `linked_document_nl` — but no region, year, amount, article or keyword field. Exp 08/11 failure modes are metadata-shaped: regional twins (6,381 docs), yearly editions (3,610), NL bodies flagged `fr`. `mcp_server/src/tax_mcp/server.py` already accepts `document_type/tax_category/audience/language` filters but has no values to filter on. CPU-only; DeepSeek later fills the same arguments. French NER (PER/ORG/LOC/MISC) covers none of dates, amounts, articles, regions or tax types, so rules are the primary tool, not a fallback.
 
 **Evidence**
 
-- Local: exp 11 region/domain prior — B BM25 +0.04 val MRR, C flat (0.536 → 0.536); exp 08 city→region filter "correct but nearly neutral" until reranking (`EXPERIMENTS.md` §3.8). 1,569/1,730 jurisprudence files contain a court name; company forms are regex-visible (SA 3.2k, ASBL 546, SPRL 483 mentions).
+- Local: exp 11 region/domain prior — B BM25 +0.04 val MRR, C flat (0.536 → 0.536); exp 08 city→region filter "correct but nearly neutral" until reranking (§3.8). 1,569/1,730 jurisprudence files contain a court name; company forms are regex-visible (SA 3.2k, ASBL 546, SPRL 483 mentions).
 - Version/date metadata is decisive: static RAG retrieves the date-applicable French tax article 0 % of the time, rule-extracted `date_debut/date_fin` multi-version index 98.3 % (https://arxiv.org/html/2608.09393).
 - Query-conditioned field weighting: mFAR MRR 0.602 vs BM25 0.462 on STaRK (https://arxiv.org/abs/2410.20056). Partition-based ANN beats HNSW under selective filters (https://arxiv.org/abs/2602.11443); hierarchical routing needs controlled fallback when metadata is incomplete (https://arxiv.org/abs/2601.03748, abstract only).
 - French NER: spaCy `fr_core_news_lg` 3.8 ENTS_F 84.2, WikiNER, LGPL-LR, 545 MB; `Jean-Baptiste/camembert-ner` F1 0.891 (ORG 0.82), MIT; flair `ner-french` F1 90.6, non-commercial; `wikineural-multilingual-ner` CC-BY-NC-SA — all PER/ORG/LOC/MISC only. GLiNER `gliner_multi-v2.1` 209M Apache-2.0 zero-shot any label; legal zero-shot F1 ≈ 60 (idea 22, unverified). French court-decision NER with contextual dictionaries F1 96.5 (https://arxiv.org/abs/1909.03453).
@@ -35,7 +35,7 @@ Publication vs entry-into-force vs income-year semantics; base vs indexed amount
 
 **Verdict**
 
-try-now — the fields are rule-extractable with existing parsers, the store and MCP filters already expect them, and NER is optional; measure on the cued subset and the twin-trap rate, not global MRR.
+try-now — the fields are rule-extractable with existing parsers, the MCP filters already expect them, NER is optional; measure on the cued subset and the twin-trap rate, not global MRR.
 
 **Sources**
 
