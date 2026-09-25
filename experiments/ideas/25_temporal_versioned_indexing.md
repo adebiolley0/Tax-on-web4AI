@@ -12,7 +12,7 @@ Corpus C holds 2,177 / 2,240 / 2,192 documents under "CIR 92 – Revenus 2025/20
 
 - FiscalQA Pro (Aug 2026; French tax code, 32,436 article-versions, 209 questions): static RAG over the current-version corpus retrieves the applicable version 0 % of the time; a multi-version index with a `date_debut/date_fin` filter reaches 98.3 %; residual error is article recall, not version choice; date extraction is rule-based. https://arxiv.org/abs/2608.09393
 - TimelyRAG (Sep 2026): `(1-α)·semantic + α·temporal`, distance 0 inside the effective interval, regex query-time extraction; up to +28.6 % nDCG@10 on BM25/BGE-M3/NV-Embed, beats hard date filtering and GPT-4o-mini reranking. https://arxiv.org/abs/2609.11572
-- VersionRAG (Oct 2025): version graph + intent routing, 90 % vs 58 % naive RAG. https://arxiv.org/abs/2510.08109
+- VersionRAG (Oct 2025): version graph + intent routing, 90 % vs 58 % naive. https://arxiv.org/abs/2510.08109
 - Legal requirements (point-in-time recovery, bitemporal orthogonality, unit-level versioning): https://arxiv.org/abs/2606.09724 ; Work/Expression models: https://arxiv.org/abs/2505.00039
 - Practice: EUR-Lex consolidated texts = "the act as applicable at a specific point in time", one CELEX id per version; Légifrance = one `LEGIARTI` per article-version with `date_debut/date_fin/etat` and a `DATE_VERSION` filter; Westlaw "History › Versions" by effective date. Justel per-article history: unverified.
 
@@ -27,7 +27,7 @@ Corpus C holds 2,177 / 2,240 / 2,192 documents under "CIR 92 – Revenus 2025/20
 
 *Query time*: regex extracts `revenus 2026`, `exercice d'imposition 2027`, dates; AY → income year (AY = income year + 1); default = current income year. Retrieve as today (BM25 + dense + reranker), then `score' = (1-α)·score + α·T`, `T = 1` inside `[valid_from, valid_to]`, decaying per year outside; α ≈ 0.3 default, 0.6 when a year is stated. Collapse by `canonical_id`, keep the best version, attach the rest as `other_versions`. Droit futur surfaces only when the query year ≥ its start or on request.
 
-*LLM needed?* No. DeepSeek later parses fuzzy time ("l'année prochaine") and explains version differences.
+*LLM needed?* No. DeepSeek later parses fuzzy time and explains version differences.
 
 **Expected gain and cost**
 

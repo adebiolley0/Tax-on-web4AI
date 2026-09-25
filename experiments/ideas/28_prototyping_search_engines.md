@@ -2,15 +2,15 @@
 
 **Idea**
 
-Replace `bm25s` + numpy + LanceDB with one engine that ships French analysis, hybrid fusion, filters and a reranker hook: Meilisearch, Typesense, Weaviate Embedded, Marqo, Infinity, Milvus Lite, Chroma, Vespa Cloud, turbopuffer or a Vectara-style host.
+Replace `bm25s` + numpy + LanceDB with one engine shipping French analysis, hybrid fusion, filters and a reranker hook (Meilisearch, Typesense, Weaviate Embedded, Marqo, Infinity, Milvus Lite, Chroma, Vespa, turbopuffer, Vectara).
 
 **Why it fits this project**
 
-- Small CPU-only team: an engine owning tokenisation, fusion, filters, persistence and incremental updates removes glue code before the 21k → 100k growth.
-- The MCP `search` tool needs metadata filters (type, year, region, language) and phrases; LanceDB has them, a boolean query string would help.
-- It only pays off if French stemming matches ours (Snowball + stopwords = +0.25 MRR on A, EXPERIMENTS.md §3.1) and bge-reranker-v2-m3 (+0.10 MRR) still runs in-process.
+- Small CPU-only team: an engine owning tokenisation, fusion, filters and persistence removes glue code before the 21k → 100k growth.
+- The MCP `search` tool needs metadata filters and phrases; LanceDB has them, a boolean query string would help.
+- Pays off only if French stemming matches ours (Snowball + stopwords = +0.25 MRR on A, §3.1) and bge-reranker-v2-m3 (+0.10 MRR) still runs in-process.
 
-**Evidence** (docs read 2026-09-25; *unverified* where marked)
+**Evidence** (docs read 2026-09-25)
 
 | Engine (version, licence) | Deploy | French lexical | Hybrid / reranker | Filters |
 |---|---|---|---|---|
@@ -20,28 +20,28 @@ Replace `bm25s` + numpy + LanceDB with one engine that ships French analysis, hy
 | Marqo, Apache-2.0 [10] | Docker (Vespa inside) | n/a | n/a | n/a — **OSS deprecated, no updates** |
 | Infinity 0.7.3 (2026-08-06), Apache-2.0 [11][12][13] | embedded Python module or server; Linux x86_64 AVX2 | analyzers incl. `french` Snowball stemmer, `standard`, `ngram`, `keyword` | RRF / weighted-sum (minmax, l2) / ColBERT `match_tensor`; no cross-encoder | SQL-like, `filter_fulltext` |
 | Milvus Lite / 3.0.x docs, Apache-2.0 [14][15][16][17] | Lite in-process (FLAT only, "small scale"); FTS needs Standalone (Docker) | `stemmer` filter with `french`, `_french_` stopwords, asciifolding | RRF / weighted; model rankers via external TEI/vLLM endpoint (2.6+) | yes |
-| Chroma (sparse-vector release, Apache-2.0) [18][19] | in-process or Cloud | `Bm25EmbeddingFunction`; French stemming *unverified*; SPLADE via Cloud | `Search().rank(Rrf(weights))`; no reranker | metadata + regex |
-| Vespa Cloud / OSS Apache-2.0 [20][21][22] | Cloud ($300 credits, no card) or self-host Docker (Java+C++) | OpenNLP stemming, accent normalisation, `language=fr` per query (≤3-term queries default to English) | global-phase RRF/linear norm; **ONNX cross-encoder in-cluster** | YQL |
-| turbopuffer [23][24][25] | hosted only, from $16/month | BM25 `word_v4`, `language: french`, stopwords, ascii folding | server-side RRF (`rerank_by`); external reranker | yes |
+| Chroma (sparse-vector release, Apache-2.0) [18][19] | in-process/Cloud | `Bm25EmbeddingFunction`; French stemming *unverified*; SPLADE via Cloud | `Search().rank(Rrf(weights))`; no reranker | metadata + regex |
+| Vespa Cloud / OSS Apache-2.0 [20][21][22] | Cloud ($300 credits) or self-host Docker | OpenNLP stemming, accent normalisation, `language=fr` per query (≤3-term queries default to English) | global-phase RRF/linear norm; **ONNX cross-encoder in-cluster** | YQL |
+| turbopuffer [23][24][25] | hosted, from $16/month | BM25 `word_v4`, `language: french`, stopwords, ascii folding | server-side RRF (`rerank_by`); external reranker | yes |
 | Vectara [26][27][28] | hosted; 30-day trial then **$100k/year** | proprietary | `lexical_interpolation`; Slingshot multilingual reranker, MMR | yes |
 
 Today: LanceDB 0.39 French FTS + RRF + reranker plug-in = 0.703 MRR on A (§3.4).
 
 **How we would implement it**
 
-Only two candidates merit a time-boxed trial:
+Two candidates merit a time-boxed trial:
 1. `experiments/18_infinity/`: `infinity_embedded`, `match_text(analyzer="french")` + dense column, `fusion("rrf")`, our reranker on top-30; compare with `04_lancedb`.
 2. Vespa self-hosted (one Docker node): `language: fr`, BM25 + HNSW, global-phase ONNX `bge-reranker-v2-m3`; measure MRR and latency.
 
 **Expected gain and cost**
 
-Quality: **≈0** — the best engines run the same Snowball stemmer and RRF we have; our gains came from the reranker, not the store. Ops gain: boolean/phrase queries (Infinity, Vespa), in-cluster reranking (Vespa). Cost: 1–2 days per trial; Vespa adds a JVM/Docker service and a query language; hosted options add fees and move tax documents off-box.
+Quality: **≈0** — the best engines run the Snowball stemmer and RRF we already have; our gains came from the reranker, not the store. Ops gain: boolean/phrase queries (Infinity, Vespa), in-cluster reranking (Vespa). Cost: 1–2 days per trial; Vespa adds a JVM/Docker service and a query language; hosted options add fees and move tax documents off-box.
 
 **Risks / open questions**
 
 - PyPI `infinity-embedded-sdk` is 0.5.2 (2024-12-24) vs server 0.7.3: the embedded path may be stale; x86_64 AVX2 only.
-- Chroma's French BM25 tokenisation is undocumented; Meilisearch and Weaviate have no stemming (≈−0.1 MRR per §3.1).
-- Vespa's cross-encoder is as CPU-bound as ours (20–24 s/query); moving it in-cluster changes nothing.
+- Chroma's French BM25 tokenisation is undocumented; Meilisearch and Weaviate lack stemming (≈−0.1 MRR, §3.1).
+- Vespa's cross-encoder is as CPU-bound as ours (20–24 s/query).
 - Typesense GPL-3.0 constrains redistribution.
 
 **Verdict**
