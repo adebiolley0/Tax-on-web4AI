@@ -41,8 +41,10 @@ Numbers are MRR at document level (`experiments/results/leaderboard.jsonl` has n
 |---|---:|---:|---|
 | e5-small, article_ctx (2,000 chars) | 8,148 | 0.361 | 27 % of chunks > 512 tokens → truncated |
 | e5-small, article_ctx, cleaned text (exp 08) | 8,148 | 0.342 | |
-| e5-small, article_ctx_1200 (token-safe) | 10,869 | *pending (queue)* | |
-| e5-base, article_ctx_1200, cleaned | – | *pending (queue)* | |
+| e5-small, article_ctx_1200 (token-safe) | 10,869 | **0.438** | +0.08 from chunk length alone |
+| e5-small, article_ctx_1200, cleaned | 10,555 | **0.466** | |
+| e5-base, article_ctx (2,000 chars) | 8,148 | 0.357 | truncated |
+| e5-base, article_ctx_1200, cleaned | 10,555 | **0.469** | 1,675 s to encode |
 | LlamaIndex 128-token leaves, e5-small (exp 05) | 46,975 | **0.486** | best dense on B: short, token-safe leaves |
 
 ## Take-aways

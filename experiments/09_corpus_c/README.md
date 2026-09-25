@@ -27,8 +27,16 @@ Cour constitutionnelle judgments) are the tail.
 | potion + BM25, RRF | 0.476 | 0.449 | 0.375 | 0.594 | 0.719 | |
 | **potion + BM25, convex 0.3** | **0.595** | **0.580** | **0.484** | 0.719 | **0.859** | +1 ms/query |
 | BM25 + mMARCO-MiniLM rerank @30 | 0.593 | 0.574 | 0.484 | 0.734 | 0.852 | ~2 s/q |
-| BM25 + bge-reranker-v2-m3 @30 | *pending (queue)* | | | | | |
-| e5-small dense / hybrid / + reranker | *pending (queue)* | | | | | |
+| BM25 + bge-reranker-v2-m3 @30 | 0.696 | 0.675 | 0.594 | 0.812 | 0.875 | ~21 s/q (CPU) |
+| e5-small dense only | 0.433 | 0.420 | 0.312 | 0.594 | 0.672 | encode 3.3 h (201k chunks) |
+| e5-small + BM25, RRF | 0.567 | 0.577 | 0.438 | 0.766 | 0.828 | |
+| e5-small + BM25, convex 0.3 / 0.5 / 0.7 | 0.609 / **0.621** / 0.571 | 0.615 | 0.484 | 0.781 | 0.883 | |
+| **e5-small + BM25 convex 0.5 + bge-reranker-v2-m3 @30** | **0.703** | **0.677** | **0.609** | **0.812** | **0.891** | ~21 s/q (CPU) |
+
+Take-aways: on this corpus the questions mostly target documents with descriptive titles, so French BM25 is a
+strong first stage and the dense leg adds recall rather than precision; the cross-encoder is what converts
+recall into rank-1 hits (hit@1 0.45 → 0.61). BM25 + reranker with no embeddings at all (0.696) is a
+legitimate, index-in-one-minute baseline for corpora of this size.
 
 ## Corpus pitfalls found while writing the questions (they shape the ingestion policy)
 

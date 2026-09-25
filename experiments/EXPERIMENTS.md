@@ -54,19 +54,21 @@ MRR at document level; best configuration per family. Full tables in each README
 | BM25 after corpus-B preamble cleanup (exp 08) | – | 0.377 | – |
 | potion static embeddings (1 s to encode A) | 0.46 | – | 0.315 |
 | potion + BM25 convex 0.3 | – | – | 0.595 |
-| e5-small dense (118M) | 0.543 | 0.361 (0.486 with 128-token leaves, exp 05) | *pending* |
-| e5-base dense (278M), title-prefixed chunks | 0.641 | *pending* | – |
+| e5-small dense (118M), token-safe chunks | 0.543 | 0.438 (0.466 cleaned; 0.486 with 128-token leaves, exp 05) | 0.433 |
+| e5-base dense (278M), title-prefixed / cleaned token-safe chunks | 0.641 | 0.469 | – |
 | bge-m3 dense (568M), title-prefixed chunks | 0.678 (R@10 0.966) | too slow on CPU | too slow on CPU |
 | e5-large / Solon-large / arctic-l-v2 (whole doc, 512 tokens) | 0.677 / 0.674 / 0.675 | – | – |
 | bge-m3 + BM25 convex 0.5 | 0.691 | – | – |
-| e5-small hybrid RRF (LanceDB) | 0.598 | 0.435 | – |
-| e5-small hybrid RRF + mMARCO-MiniLM rerank @30 | 0.639 | 0.478 | – |
+| e5-small hybrid RRF | 0.598 (LanceDB) | 0.457 | 0.567 |
+| e5-small + BM25 convex 0.5 | – | 0.381 (BM25 leg too weak on B) | 0.621 |
+| e5-small hybrid RRF + mMARCO-MiniLM rerank @30 | 0.639 (LanceDB) | **0.522** | – |
 | BM25 + mMARCO-MiniLM rerank @30 | – | – | 0.593 |
-| **e5-small hybrid RRF + bge-reranker-v2-m3 @30** (LanceDB) | **0.703** (nDCG@5 0.797, H@5 0.931) | *pending* | *pending* |
-| bge-m3 + bge-reranker-v2-m3 @30 | *pending* | – | – |
+| BM25 + bge-reranker-v2-m3 @30 | – | – | 0.696 (H@1 0.594) |
+| **e5-small hybrid + bge-reranker-v2-m3 @30** | **0.703** (RRF, LanceDB; nDCG@5 0.797, H@5 0.931) | 0.517 (RRF) | **0.703** (convex 0.5; H@1 0.609, R@10 0.891) |
+| bge-m3 + BM25 convex 0.5 + bge-reranker-v2-m3 @30 | 0.681 (nDCG@5 0.782, H@5 0.931) | – | – |
 
-Pending rows are in the sequential job queue (`experiments/run_queue.sh`, `queue.log`) and will be
-filled in when it finishes; this document is updated with the queue.
+Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
+2 s with mMARCO-MiniLM. All heavy runs were executed one at a time by `experiments/run_queue.sh` (`queue.log`).
 
 ## 3. What was learned, experiment by experiment
 
@@ -97,6 +99,8 @@ filled in when it finishes; this document is updated with the queue.
   tables flattened to numbers, doctrinal labels absent from statute text (RDT, TVA vs "la taxe").
 
 ### 3.3 Embedding models (`02_dense_sweep`)
+* On B, token-safe 1,200-char article chunks lift e5-small from 0.361 to 0.438 (+0.08) — the single most
+  important chunking result; e5-base on the same cleaned chunks gives 0.469.
 * Quality tracks model size: MiniLM 0.48 < e5-small 0.54 < e5-base 0.64 < bge-m3 / e5-large / Solon / arctic
   ≈ 0.68 on A. Only the 560M-class models reach tuned BM25; bge-m3 has the best recall@10 (0.97).
 * A title / heading-path prefix on every chunk is a free +0.02–0.04.
@@ -113,10 +117,15 @@ filled in when it finishes; this document is updated with the queue.
 * RRF never beats the stronger leg; convex fusion of min-max-normalised scores does (+0.013 on A with
   bge-m3; +0.02 on C with potion) but the weight is corpus-dependent (0.5 on A, 0.3 on C).
 * A multilingual cross-encoder on the top-30 candidates is the biggest single quality lever after
-  normalisation: bge-reranker-v2-m3 lifts e5-small hybrid from 0.598 to **0.703** on A (above every
-  dense-only or BM25 run) at 2–4 s per query on an idle CPU. The small mMARCO MiniLM reranker is not
-  reliable (raises hit@5, lowers MRR).
-* Candidate depth 30 is enough (recall@10 of the hybrid candidates is already 0.93–0.97).
+  normalisation: bge-reranker-v2-m3 lifts e5-small hybrid from 0.598 to **0.703** on A and from 0.621 to
+  **0.703** on the 21k-document corpus C (hit@1 0.48 → 0.61); over plain BM25 candidates on C it gives
+  0.577 → 0.696. When the first stage is already strong (bge-m3 convex on A, 0.691) the reranker no longer
+  raises MRR (0.681) but still improves nDCG@5 (0.758 → 0.782) and hit@5. Cost: 20–24 s/query on this CPU
+  (≈0.7 s per pair), sub-second on a GPU. The small mMARCO MiniLM reranker is inconsistent: it lowers MRR on
+  A, but is the best option on B (0.522 vs 0.517 for bge) where candidates are short article chunks.
+* Fusion choice depends on the legs: convex (min-max) wins when both legs are decent (A, C), RRF wins when
+  one leg is weak (B: BM25 0.34 vs dense 0.44 → convex 0.38, RRF 0.457). Validate per corpus.
+* Candidate depth 30 is enough (recall@10 of the hybrid candidates is already 0.83–0.97).
 
 ### 3.5 Structure-aware retrieval (`05_llamaindex`)
 * Hierarchical auto-merging and sentence-window retrievers **do not help** on legal articles (A: 0.51 and
@@ -153,7 +162,8 @@ filled in when it finishes; this document is updated with the queue.
   licence, big stack), AnythingLLM (no hybrid/reranker) are out.
 
 ### 3.8 Corpus cleanup and region filters (`08_corpus_b_cleanup`)
-* Stripping amendment-history preambles: BM25 on B 0.346 → 0.372 (hit@1 0.20 → 0.275).
+* Stripping amendment-history preambles: BM25 on B 0.346 → 0.372 (hit@1 0.20 → 0.275); with token-safe
+  chunks it also helps dense retrieval (e5-small 0.438 → 0.466, e5-base 0.469).
 * City→region mapping + region filter is correct (fixes the "other region's twin article" cases) but
   nearly neutral until the vocabulary gap is closed by a reranker; it is cheap metadata filtering in any store.
 
@@ -163,7 +173,11 @@ filled in when it finishes; this document is updated with the queue.
 * The corpus needs ingestion-policy work that no retriever can compensate: Dutch bodies flagged `fr`
   (≈ half of the rulings), yearly triplication of CIR 92 articles and regional quadruplication of codes,
   topic-less titles (rulings, PQs, Rép. RJ), non-tax noise, abrogated texts, TOC-only documents.
-* e5-small dense, hybrid and reranked results: *pending in the queue*.
+* e5-small (3.3 h to encode 201k chunks on 4 cores) alone is weaker than BM25 here (0.433 vs 0.577) —
+  the questions were written from documents with descriptive titles, which favours lexical search — but
+  convex fusion 0.5 gives 0.621 and the cross-encoder on top gives **0.703** (hit@1 0.61, recall@10 0.89).
+  Reranking BM25 candidates alone already reaches 0.696: on a corpus this size, French BM25 + reranker is a
+  legitimate no-embedding baseline, and the dense leg mainly adds recall for paraphrased questions.
 
 ## 4. Recommendation
 
