@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1,
    "cue": 1.0
@@ -571,8 +571,8 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "avcf:3.10.3.2.5",
     "cenr_bxl:612",
+    "avcf:3.10.3.2.5",
     "cenr_wal:612",
     "cenr_wal:62",
     "cenr_bxl:62"

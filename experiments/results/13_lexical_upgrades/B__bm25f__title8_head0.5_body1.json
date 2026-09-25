@@ -1,51 +1,47 @@
 {
- "name": "bm25f__best_fw__k12.5_b0.75_bfield0.75",
+ "name": "bm25f__title8_head0.5_body1",
  "corpus": "B",
  "config": {
   "weights": {
    "title": 8,
-   "heading": 3,
+   "heading": 0.5,
    "body": 1
   },
-  "k1": 2.5,
-  "b": {
-   "title": 0.75,
-   "heading": 0.75,
-   "body": 0.75
-  }
+  "k1": 1.5,
+  "b": 0.75
  },
  "metrics": {
-  "mrr": 0.3719,
-  "ndcg@5": 0.3238,
-  "ndcg@10": 0.3531,
-  "hit@1": 0.275,
-  "hit@3": 0.425,
-  "hit@5": 0.5,
+  "mrr": 0.3457,
+  "ndcg@5": 0.29,
+  "ndcg@10": 0.3332,
+  "hit@1": 0.25,
+  "hit@3": 0.35,
+  "hit@5": 0.45,
   "hit@10": 0.575,
-  "recall@5": 0.5,
+  "recall@5": 0.45,
   "recall@10": 0.575,
   "n_questions": 40,
-  "train_mrr": 0.3721,
+  "train_mrr": 0.3584,
   "train_hit@1": 0.25,
   "train_hit@5": 0.5,
-  "train_recall@10": 0.5833,
+  "train_recall@10": 0.5417,
   "train_n": 24,
-  "val_mrr": 0.3717,
-  "val_hit@1": 0.3125,
-  "val_hit@5": 0.5,
-  "val_recall@10": 0.5625,
+  "val_mrr": 0.3266,
+  "val_hit@1": 0.25,
+  "val_hit@5": 0.375,
+  "val_recall@10": 0.625,
   "val_n": 16
  },
  "per_question": {
   "B1": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
-    "cir92:96/2",
     "cir92:269",
-    "cir92:171",
-    "cir92:130",
-    "cir92:178"
+    "cir92:96/2",
+    "arcir92:4",
+    "cir92:261",
+    "arcir92:123"
    ],
    "expected": [
     "cir92:130"
@@ -53,14 +49,14 @@
    "split": "val"
   },
   "B2": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 18,
+   "rr": 0.0556,
    "top5": [
     "cir92:134",
-    "cir92:133",
-    "cir92:131",
-    "cir92:136",
-    "cir92:142"
+    "cir92:130",
+    "cir92:546",
+    "arcir92:178/1",
+    "cir92:133"
    ],
    "expected": [
     "cir92:131"
@@ -87,10 +83,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:145/8",
-    "cir92:145/10",
-    "arcir92:258",
     "cir92:145/7",
-    "arcir92:635"
+    "arcir92:258",
+    "arcir92:634",
+    "cir92:145/10"
    ],
    "expected": [
     "cir92:145/8"
@@ -102,10 +98,10 @@
    "rr": 0.0667,
    "top5": [
     "cir92:203",
+    "cir92:198",
     "cir92:194ter",
     "cir92:289quater",
-    "cta_bxl:44bis",
-    "cir92:198"
+    "cta_bxl:44bis"
    ],
    "expected": [
     "cir92:215"
@@ -113,14 +109,14 @@
    "split": "train"
   },
   "B6": {
-   "rank": 19,
-   "rr": 0.0526,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
     "arcir92:106",
     "arcir92:117",
-    "cir92:2",
-    "cta_wal:113",
-    "cta_vla:113"
+    "cir92:282/1",
+    "cir92:203",
+    "cta_wal:113"
    ],
    "expected": [
     "cir92:202"
@@ -132,10 +128,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:69",
-    "arcir92:48",
-    "cir92:201",
     "cir92:69/1",
-    "artva:AR3:10"
+    "cir92:201",
+    "arcir92:48",
+    "cir92:69/2"
    ],
    "expected": [
     "cir92:69"
@@ -143,13 +139,13 @@
    "split": "train"
   },
   "B8": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
+    "arcir92:178/2",
     "arcir92:206/1",
     "cir92:281/1",
     "cir92:269",
-    "arcir92:178/2",
     "arcir92:106"
    ],
    "expected": [
@@ -158,8 +154,8 @@
    "split": "train"
   },
   "B9": {
-   "rank": 32,
-   "rr": 0.0312,
+   "rank": 26,
+   "rr": 0.0385,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
@@ -179,8 +175,8 @@
     "artva:AR20:1",
     "artva:AR20:1quater/1",
     "artva:AR20:3",
-    "artva:AR20:1bis",
-    "artva:AR20:1bis/1"
+    "ctva:27",
+    "ctva:36"
    ],
    "expected": [
     "artva:AR20:1"
@@ -188,14 +184,14 @@
    "split": "train"
   },
   "B11": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
     "ctva:56decies",
-    "artva:AR2:4",
     "ctva:56ter",
+    "artva:AR2:4",
     "artva:AR19:14",
-    "artva:AR19:3"
+    "ctva:56quinquies"
    ],
    "expected": [
     "ctva:56ter"
@@ -203,14 +199,14 @@
    "split": "val"
   },
   "B12": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 12,
+   "rr": 0.0833,
    "top5": [
     "ctva:54",
     "artva:AR1:13",
-    "artva:AR18:2",
+    "artva:AR1:9",
     "ctva:56",
-    "artva:AR1:9"
+    "artva:AR18:2"
    ],
    "expected": [
     "artva:AR1:5"
@@ -223,9 +219,9 @@
    "top5": [
     "cir92:371",
     "cbpf:100",
-    "cbpf:32",
     "cir92:373",
-    "vcf:3.5.3.0.1"
+    "cbpf:32",
+    "cir92:413"
    ],
    "expected": [
     "cir92:371"
@@ -233,14 +229,14 @@
    "split": "val"
   },
   "B14": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "arcir92:225",
+    "ar1927:221undecies",
     "arcir92:229/7",
     "cir92:444",
-    "arcir92:229/2",
-    "ar1927:221undecies"
+    "cir92:358"
    ],
    "expected": [
     "cir92:354"
@@ -248,14 +244,14 @@
    "split": "val"
   },
   "B15": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "cir92:275/4",
     "cir92:275/5",
-    "arcir92:952",
     "cir92:312",
-    "arcir92:88"
+    "arcir92:258",
+    "arcir92:952"
    ],
    "expected": [
     "arcir92:88"
@@ -266,11 +262,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "cir92:100",
+    "cta_wal:98",
     "csucc_wal:133bis/1",
     "csucc_bxl:133bis/1",
     "csucc_vla:133bis/1",
-    "csucc_wal:132"
+    "csucc_wal:146septies"
    ],
    "expected": [
     "cir92:145/33"
@@ -283,8 +279,8 @@
    "top5": [
     "cir92:126",
     "cir92:2",
-    "arcir92:144/6",
     "cta_wal:98",
+    "cir92:198",
     "crecouv:9"
    ],
    "expected": [
@@ -298,9 +294,9 @@
    "top5": [
     "arcir92:258",
     "cir92:275/1",
-    "cir92:275/4",
+    "cir92:275/5",
     "cir92:66",
-    "arcir92:257"
+    "cir92:275/4"
    ],
    "expected": [
     "cir92:36"
@@ -330,7 +326,7 @@
     "ar1940:4",
     "cenr_bxl:135",
     "cenr_wal:135",
-    "csucc_bxl:56"
+    "arcir92:258"
    ],
    "expected": [
     "cir92:132"
@@ -338,13 +334,13 @@
    "split": "train"
   },
   "B21": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
-    "cir92:7",
     "cir92:262",
+    "arcir92:4",
     "cenr_bxl:46bis",
-    "artva:AR22:11",
+    "cir92:7",
     "cir92:145/30"
    ],
    "expected": [
@@ -358,9 +354,9 @@
    "top5": [
     "artva:AR45:1",
     "cir92:90",
-    "vcf:2.7.1.0.7",
+    "cir92:135",
     "cir92:234",
-    "vcf:2.13.3.0.1"
+    "arcir92:258"
    ],
    "expected": [
     "cir92:90"
@@ -368,14 +364,14 @@
    "split": "train"
   },
   "B23": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 40,
+   "rr": 0.025,
    "top5": [
+    "cir92:194ter/3",
     "arcir92:182",
     "cir92:207",
     "cir92:202",
-    "cir92:206/4",
-    "cir92:194ter/3"
+    "csucc_wal:81"
    ],
    "expected": [
     "cir92:215"
@@ -383,14 +379,14 @@
    "split": "val"
   },
   "B24": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
-    "arcir92:3",
     "cir92:550",
-    "cir92:205",
     "cir92:66",
-    "vcf:2.3.4.1.2/1"
+    "cir92:205",
+    "cir92:50",
+    "cir92:354/1"
    ],
    "expected": [
     "cir92:66"
@@ -419,7 +415,7 @@
     "ctva:59",
     "ctva:53",
     "artva:AR1:13ter",
-    "artva:AR53:9",
+    "ctva:61",
     "artva:AR53:8"
    ],
    "expected": [
@@ -434,8 +430,8 @@
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "vcf:2.5.7.0.3",
-    "vcf:2.6.7.1.1",
-    "artva:AR20:1"
+    "vcf:2.8.4.3.1",
+    "artva:AR8:1"
    ],
    "expected": [
     "artva:AR20:3"
@@ -443,14 +439,14 @@
    "split": "val"
   },
   "B28": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "crecouv:14",
-    "cir92:414",
     "cir92:418",
     "vcf:3.9.1.0.3",
-    "cir92:415/1"
+    "cir92:414",
+    "vcf:3.4.7.0.1"
    ],
    "expected": [
     "cir92:414"
@@ -473,14 +469,14 @@
    "split": "val"
   },
   "B30": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "artva:AR1:20ter",
     "artva:AR1:20bis",
-    "ctva:59"
+    "artva:AR1:20"
    ],
    "expected": [
     "artva:AR1:20"
@@ -492,10 +488,10 @@
    "rr": 0.0,
    "top5": [
     "csucc_bxl:521",
-    "cir92:138",
     "csucc_wal:521",
+    "cir92:138",
     "cir92:126",
-    "cenr_bxl:1321"
+    "vcf:2.7.6.0.6"
    ],
    "expected": [
     "csucc_wal:48"
@@ -507,10 +503,10 @@
    "rr": 0.0,
    "top5": [
     "ar1927:24014",
-    "ar1927:1",
     "agbxl2019:5",
-    "ar1927:3",
-    "ar1927:9"
+    "cbpf:28",
+    "ar1927:1",
+    "ar1927:221undecies"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -522,10 +518,10 @@
    "rr": 0.0,
    "top5": [
     "vcf:1.1.0.0.2",
-    "vcf:3.2.3.0.1",
+    "ar1940:5",
     "ctva:42",
-    "avcf:3.2.3.0.1",
-    "ar1940:5"
+    "csucc_bxl:135@01.01.2028",
+    "cir92:516"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -539,8 +535,8 @@
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:612",
-    "cenr_vla:22",
-    "ar1940:5"
+    "ar1940:5",
+    "cir92:36"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -555,7 +551,7 @@
     "cir92:450",
     "cir92:145/45",
     "cir92:145/42",
-    "csucc_bxl:60ter"
+    "vcf:2.9.5.0.5"
    ],
    "expected": [
     "cenr_bxl:46bis"
@@ -570,7 +566,7 @@
     "cenr_bxl:612",
     "cenr_wal:188",
     "cenr_bxl:188",
-    "vcf:2.9.4.2.4"
+    "cenr_wal:62"
    ],
    "expected": [
     "vcf:2.9.4.2.11"
@@ -581,9 +577,9 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
+    "csucc_bxl:48",
     "csucc_wal:152",
     "csucc_bxl:152",
-    "csucc_bxl:48",
     "cir92:200",
     "arcir92:182"
    ],
@@ -593,14 +589,14 @@
    "split": "val"
   },
   "B38": {
-   "rank": 25,
-   "rr": 0.04,
+   "rank": 30,
+   "rr": 0.0333,
    "top5": [
     "cta_bxl:100",
     "cta_bxl:21",
+    "cta_wal:10",
     "cta_wal:100",
-    "cta_bxl:94",
-    "cta_wal:21"
+    "artva:AR1:5"
    ],
    "expected": [
     "cta_bxl:98"
@@ -623,13 +619,13 @@
    "split": "train"
   },
   "B40": {
-   "rank": 17,
-   "rr": 0.0588,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
-    "arcir92:953",
-    "cir92:500",
     "agbxl2019:58",
     "vcf:3.13.2.0.4",
+    "cir92:500",
+    "csucc_bxl:146quater",
     "cir92:413"
    ],
    "expected": [

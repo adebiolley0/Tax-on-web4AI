@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1,
    "cue": 1.0
@@ -23,9 +23,9 @@
   }
  },
  "metrics": {
-  "mrr": 0.4118,
+  "mrr": 0.4113,
   "ndcg@5": 0.3413,
-  "ndcg@10": 0.3807,
+  "ndcg@10": 0.3806,
   "hit@1": 0.3,
   "hit@3": 0.475,
   "hit@5": 0.525,
@@ -38,7 +38,7 @@
   "train_hit@5": 0.5833,
   "train_recall@10": 0.625,
   "train_n": 24,
-  "val_mrr": 0.3419,
+  "val_mrr": 0.3406,
   "val_hit@1": 0.25,
   "val_hit@5": 0.4375,
   "val_recall@10": 0.625,
@@ -170,8 +170,8 @@
    "rr": 0.0526,
    "top5": [
     "ctva:22ter",
-    "artva:AR55:1",
     "ctva:25quinquies",
+    "artva:AR55:1",
     "ctva:12bis",
     "artva:AR31:4"
    ],
@@ -517,8 +517,8 @@
     "ar1927:24014",
     "csucc_bxl:156",
     "csucc_wal:156",
-    "csucc_wal:70@01.01.2028",
-    "csucc_bxl:70@01.01.2028"
+    "agbxl2019:5",
+    "csucc_wal:70@01.01.2028"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -526,12 +526,12 @@
    "split": "train"
   },
   "B33": {
-   "rank": 50,
-   "rr": 0.02,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
     "vcf:1.1.0.0.2",
-    "vcf:3.2.3.0.1",
     "csucc_bxl:135@01.01.2028",
+    "vcf:3.2.3.0.1",
     "csucc_wal:135@01.01.2028",
     "csucc_bxl:135"
    ],
@@ -620,8 +620,8 @@
    "rr": 1.0,
    "top5": [
     "cta_wal:9",
-    "cta_bxl:9",
     "cta_wal:8",
+    "cta_bxl:9",
     "cta_wal:98",
     "cta_wal:97"
    ],

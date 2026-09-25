@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,9 +15,9 @@
   }
  },
  "metrics": {
-  "mrr": 0.4049,
-  "ndcg@5": 0.3314,
-  "ndcg@10": 0.3699,
+  "mrr": 0.4054,
+  "ndcg@5": 0.3277,
+  "ndcg@10": 0.3726,
   "hit@1": 0.325,
   "hit@3": 0.45,
   "hit@5": 0.475,
@@ -25,7 +25,7 @@
   "recall@5": 0.475,
   "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.4271,
+  "train_mrr": 0.4278,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5,
   "train_recall@10": 0.5833,
@@ -120,7 +120,7 @@
     "arcir92:117",
     "cir92:2",
     "cir92:282/1",
-    "cir92:203"
+    "cta_wal:113"
    ],
    "expected": [
     "cir92:202"
@@ -158,8 +158,8 @@
    "split": "train"
   },
   "B9": {
-   "rank": 33,
-   "rr": 0.0303,
+   "rank": 32,
+   "rr": 0.0312,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
@@ -203,8 +203,8 @@
    "split": "val"
   },
   "B12": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "ctva:54",
     "artva:AR1:13",
@@ -270,7 +270,7 @@
     "csucc_bxl:133bis/1",
     "csucc_vla:133bis/1",
     "cta_wal:98",
-    "csucc_wal:146septies"
+    "cir92:100"
    ],
    "expected": [
     "cir92:145/33"
@@ -473,8 +473,8 @@
    "split": "val"
   },
   "B30": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
     "artva:AR20:3",
     "artva:AR20:1quater/1",
@@ -508,9 +508,9 @@
    "top5": [
     "ar1927:24014",
     "agbxl2019:5",
-    "cbpf:28",
     "ar1927:1",
-    "csucc_bxl:156"
+    "cbpf:28",
+    "ar1927:9"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -539,8 +539,8 @@
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:612",
-    "cenr_vla:22",
-    "ar1940:5"
+    "ar1940:5",
+    "cenr_vla:22"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -553,8 +553,8 @@
    "top5": [
     "cenr_bxl:46bis",
     "cir92:145/45",
-    "cir92:145/42",
     "cir92:450",
+    "cir92:145/42",
     "cir92:145/6"
    ],
    "expected": [
@@ -593,8 +593,8 @@
    "split": "val"
   },
   "B38": {
-   "rank": 29,
-   "rr": 0.0345,
+   "rank": 28,
+   "rr": 0.0357,
    "top5": [
     "cta_bxl:100",
     "cta_bxl:21",
@@ -612,8 +612,8 @@
    "rr": 1.0,
    "top5": [
     "cta_wal:9",
-    "cta_bxl:9",
     "cta_wal:8",
+    "cta_bxl:9",
     "cta_wal:98",
     "cta_wal:97"
    ],
@@ -623,12 +623,12 @@
    "split": "train"
   },
   "B40": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 15,
+   "rr": 0.0667,
    "top5": [
     "cir92:500",
-    "arcir92:953",
     "agbxl2019:58",
+    "arcir92:953",
     "vcf:3.13.2.0.4",
     "cir92:413"
    ],

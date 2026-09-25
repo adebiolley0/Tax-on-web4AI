@@ -15,8 +15,8 @@
   },
   "tokenizer": "tok01",
   "cues": {
-   "region_w": 0,
-   "doctype_w": 0.5
+   "region_w": 0.0,
+   "doctype_w": 0.0
   }
  },
  "metrics": {

@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,9 +15,9 @@
   }
  },
  "metrics": {
-  "mrr": 0.4036,
+  "mrr": 0.4034,
   "ndcg@5": 0.3383,
-  "ndcg@10": 0.3728,
+  "ndcg@10": 0.3722,
   "hit@1": 0.325,
   "hit@3": 0.425,
   "hit@5": 0.5,
@@ -25,12 +25,12 @@
   "recall@5": 0.5,
   "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.4138,
+  "train_mrr": 0.414,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5,
   "train_recall@10": 0.5833,
   "train_n": 24,
-  "val_mrr": 0.3882,
+  "val_mrr": 0.3875,
   "val_hit@1": 0.3125,
   "val_hit@5": 0.5,
   "val_recall@10": 0.625,
@@ -103,9 +103,9 @@
    "top5": [
     "cir92:289quater",
     "cir92:203",
+    "cta_bxl:44bis",
     "cir92:194ter",
-    "cir92:198",
-    "cta_bxl:44bis"
+    "cir92:198"
    ],
    "expected": [
     "cir92:215"
@@ -113,14 +113,14 @@
    "split": "train"
   },
   "B6": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
     "arcir92:106",
     "arcir92:117",
     "cir92:2",
     "cir92:282/1",
-    "cir92:203"
+    "cta_wal:113"
    ],
    "expected": [
     "cir92:202"
@@ -158,8 +158,8 @@
    "split": "train"
   },
   "B9": {
-   "rank": 30,
-   "rr": 0.0333,
+   "rank": 28,
+   "rr": 0.0357,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
@@ -203,8 +203,8 @@
    "split": "val"
   },
   "B12": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
     "ctva:54",
     "artva:AR18:2",
@@ -284,8 +284,8 @@
     "cir92:126",
     "cir92:2",
     "arcir92:144/6",
-    "arcir92:144/3",
-    "cta_wal:98"
+    "cta_wal:98",
+    "arcir92:144/3"
    ],
    "expected": [
     "cir92:104"
@@ -435,7 +435,7 @@
     "artva:AR20:1quater/1",
     "vcf:2.5.7.0.3",
     "vcf:2.6.7.1.1",
-    "vcf:2.8.4.3.1"
+    "artva:AR20:1"
    ],
    "expected": [
     "artva:AR20:3"
@@ -480,7 +480,7 @@
     "artva:AR20:1quater/1",
     "artva:AR1:20ter",
     "artva:AR1:20bis",
-    "ctva:59"
+    "artva:AR18:2"
    ],
    "expected": [
     "artva:AR1:20"
@@ -507,10 +507,10 @@
    "rr": 0.0,
    "top5": [
     "ar1927:24014",
-    "cbpf:28",
     "agbxl2019:5",
+    "cbpf:28",
     "ar1927:1",
-    "csucc_bxl:156"
+    "ar1927:9"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -593,8 +593,8 @@
    "split": "val"
   },
   "B38": {
-   "rank": 32,
-   "rr": 0.0312,
+   "rank": 28,
+   "rr": 0.0357,
    "top5": [
     "cta_bxl:100",
     "cta_bxl:21",
@@ -614,8 +614,8 @@
     "cta_wal:9",
     "cta_wal:8",
     "cta_bxl:9",
-    "cta_wal:97",
-    "cta_wal:66"
+    "cta_wal:66",
+    "cta_wal:97"
    ],
    "expected": [
     "cta_wal:9"
@@ -623,8 +623,8 @@
    "split": "train"
   },
   "B40": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 18,
+   "rr": 0.0556,
    "top5": [
     "cir92:500",
     "agbxl2019:58",

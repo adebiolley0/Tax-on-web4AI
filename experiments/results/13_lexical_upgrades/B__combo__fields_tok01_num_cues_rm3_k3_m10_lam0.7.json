@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1,
    "cue": 1.0
@@ -20,7 +20,7 @@
   }
  },
  "metrics": {
-  "mrr": 0.3928,
+  "mrr": 0.393,
   "ndcg@5": 0.3348,
   "ndcg@10": 0.3567,
   "hit@1": 0.3,
@@ -30,7 +30,7 @@
   "recall@5": 0.475,
   "recall@10": 0.525,
   "n_questions": 40,
-  "train_mrr": 0.4271,
+  "train_mrr": 0.4273,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5417,
   "train_recall@10": 0.5417,
@@ -163,14 +163,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 41,
-   "rr": 0.0244,
+   "rank": 33,
+   "rr": 0.0303,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
+    "ctva:12bis",
     "artva:AR55:2",
-    "artva:AR55:4",
-    "artva:AR55:3"
+    "ctva:25quinquies"
    ],
    "expected": [
     "ctva:4"
@@ -515,7 +515,7 @@
     "csucc_wal:156",
     "ar1927:24014",
     "csucc_vla:156",
-    "csucc_wal:150"
+    "agbxl2019:5"
    ],
    "expected": [
     "csucc_bxl:55bis"

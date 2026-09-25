@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,22 +15,22 @@
   }
  },
  "metrics": {
-  "mrr": 0.3883,
-  "ndcg@5": 0.3191,
-  "ndcg@10": 0.3603,
+  "mrr": 0.3889,
+  "ndcg@5": 0.3265,
+  "ndcg@10": 0.3608,
   "hit@1": 0.3,
   "hit@3": 0.45,
-  "hit@5": 0.475,
+  "hit@5": 0.5,
   "hit@10": 0.6,
-  "recall@5": 0.475,
+  "recall@5": 0.5,
   "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.4273,
+  "train_mrr": 0.4287,
   "train_hit@1": 0.3333,
-  "train_hit@5": 0.5,
+  "train_hit@5": 0.5417,
   "train_recall@10": 0.5833,
   "train_n": 24,
-  "val_mrr": 0.33,
+  "val_mrr": 0.3292,
   "val_hit@1": 0.25,
   "val_hit@5": 0.4375,
   "val_recall@10": 0.625,
@@ -113,8 +113,8 @@
    "split": "train"
   },
   "B6": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
     "arcir92:106",
     "arcir92:117",
@@ -158,14 +158,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 26,
-   "rr": 0.0385,
+   "rank": 27,
+   "rr": 0.037,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
     "artva:AR31:4",
     "ctva:25quinquies",
-    "ue282:53"
+    "ctva:12bis"
    ],
    "expected": [
     "ctva:4"
@@ -368,8 +368,8 @@
    "split": "train"
   },
   "B23": {
-   "rank": 42,
-   "rr": 0.0238,
+   "rank": 43,
+   "rr": 0.0233,
    "top5": [
     "arcir92:182",
     "cir92:202",
@@ -435,7 +435,7 @@
     "artva:AR20:1quater/1",
     "vcf:2.5.7.0.3",
     "vcf:2.8.4.3.1",
-    "arcir92:6314"
+    "artva:AR8:1"
    ],
    "expected": [
     "artva:AR20:3"
@@ -473,14 +473,14 @@
    "split": "val"
   },
   "B30": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "artva:AR1:20ter",
     "artva:AR1:20bis",
-    "arcir92:6314"
+    "artva:AR1:20"
    ],
    "expected": [
     "artva:AR1:20"
@@ -507,8 +507,8 @@
    "rr": 0.0,
    "top5": [
     "ar1927:24014",
-    "cbpf:28",
     "agbxl2019:5",
+    "cbpf:28",
     "csucc_bxl:156",
     "csucc_wal:156"
    ],
@@ -525,7 +525,7 @@
     "avcf:3.2.3.0.1",
     "ar1940:5",
     "ctva:42",
-    "vcf:3.2.3.0.1"
+    "csucc_bxl:135@01.01.2028"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -539,8 +539,8 @@
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:612",
-    "cenr_vla:22",
-    "ar1940:5"
+    "ar1940:5",
+    "cenr_vla:22"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -553,8 +553,8 @@
    "top5": [
     "cenr_bxl:46bis",
     "cir92:145/45",
-    "cir92:145/42",
     "cir92:450",
+    "cir92:145/42",
     "cir92:145/6"
    ],
    "expected": [
@@ -593,8 +593,8 @@
    "split": "val"
   },
   "B38": {
-   "rank": 29,
-   "rr": 0.0345,
+   "rank": 27,
+   "rr": 0.037,
    "top5": [
     "cta_bxl:100",
     "cta_bxl:21",
@@ -612,8 +612,8 @@
    "rr": 1.0,
    "top5": [
     "cta_wal:9",
-    "cta_bxl:9",
     "cta_wal:8",
+    "cta_bxl:9",
     "cta_wal:98",
     "cta_wal:97"
    ],
@@ -627,8 +627,8 @@
    "rr": 0.0909,
    "top5": [
     "cir92:500",
-    "vcf:3.13.2.0.4",
     "agbxl2019:58",
+    "vcf:3.13.2.0.4",
     "arcir92:953",
     "cir92:413"
    ],

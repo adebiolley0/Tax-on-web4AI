@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,9 +15,9 @@
   }
  },
  "metrics": {
-  "mrr": 0.3731,
+  "mrr": 0.3726,
   "ndcg@5": 0.3178,
-  "ndcg@10": 0.354,
+  "ndcg@10": 0.3536,
   "hit@1": 0.275,
   "hit@3": 0.45,
   "hit@5": 0.475,
@@ -25,12 +25,12 @@
   "recall@5": 0.475,
   "recall@10": 0.575,
   "n_questions": 40,
-  "train_mrr": 0.372,
+  "train_mrr": 0.3715,
   "train_hit@1": 0.25,
   "train_hit@5": 0.5,
   "train_recall@10": 0.5833,
   "train_n": 24,
-  "val_mrr": 0.3748,
+  "val_mrr": 0.3742,
   "val_hit@1": 0.3125,
   "val_hit@5": 0.4375,
   "val_recall@10": 0.5625,
@@ -104,8 +104,8 @@
     "cir92:194ter",
     "cir92:203",
     "cir92:289quater",
-    "cir92:198",
-    "cta_bxl:44bis"
+    "cta_bxl:44bis",
+    "cir92:198"
    ],
    "expected": [
     "cir92:215"
@@ -113,14 +113,14 @@
    "split": "train"
   },
   "B6": {
-   "rank": 19,
-   "rr": 0.0526,
+   "rank": 23,
+   "rr": 0.0435,
    "top5": [
     "arcir92:106",
     "arcir92:117",
-    "cir92:2",
     "cta_wal:113",
-    "cta_vla:113"
+    "cta_vla:113",
+    "cta_bxl:113"
    ],
    "expected": [
     "cir92:202"
@@ -158,14 +158,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 36,
-   "rr": 0.0278,
+   "rank": 35,
+   "rr": 0.0286,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
-    "ctva:25quinquies",
     "artva:AR31:4",
-    "artva:AR55:2"
+    "ctva:25quinquies",
+    "ctva:12bis"
    ],
    "expected": [
     "ctva:4"
@@ -206,8 +206,8 @@
    "rank": 17,
    "rr": 0.0588,
    "top5": [
-    "artva:AR1:13",
     "artva:AR18:2",
+    "artva:AR1:13",
     "ctva:54",
     "ctva:56",
     "artva:AR1:9"
@@ -283,8 +283,8 @@
    "top5": [
     "cir92:126",
     "cir92:2",
-    "arcir92:144/6",
     "cta_wal:98",
+    "arcir92:144/6",
     "crecouv:9"
    ],
    "expected": [
@@ -479,8 +479,8 @@
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "artva:AR1:20ter",
-    "ctva:59",
-    "artva:AR1:20bis"
+    "artva:AR1:20bis",
+    "ctva:59"
    ],
    "expected": [
     "artva:AR1:20"
@@ -508,9 +508,9 @@
    "top5": [
     "ar1927:24014",
     "ar1927:1",
-    "cbpf:28",
     "agbxl2019:5",
-    "ar1927:3"
+    "ar1927:3",
+    "ar1927:9"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -525,7 +525,7 @@
     "vcf:3.2.3.0.1",
     "ctva:42",
     "avcf:3.2.3.0.1",
-    "ar1940:5"
+    "csucc_bxl:135@01.01.2028"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -540,7 +540,7 @@
     "cenr_bxl:188",
     "cenr_bxl:612",
     "cenr_vla:22",
-    "cenr_wal:67"
+    "cenr_wal:2792"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -612,8 +612,8 @@
    "rr": 1.0,
    "top5": [
     "cta_wal:9",
-    "cta_bxl:9",
     "cta_wal:8",
+    "cta_bxl:9",
     "cta_wal:98",
     "cta_wal:97"
    ],
@@ -623,8 +623,8 @@
    "split": "train"
   },
   "B40": {
-   "rank": 16,
-   "rr": 0.0625,
+   "rank": 20,
+   "rr": 0.05,
    "top5": [
     "arcir92:953",
     "cir92:500",

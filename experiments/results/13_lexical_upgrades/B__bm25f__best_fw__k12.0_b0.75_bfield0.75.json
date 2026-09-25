@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,9 +15,9 @@
   }
  },
  "metrics": {
-  "mrr": 0.3862,
-  "ndcg@5": 0.3322,
-  "ndcg@10": 0.3674,
+  "mrr": 0.3861,
+  "ndcg@5": 0.3285,
+  "ndcg@10": 0.3666,
   "hit@1": 0.3,
   "hit@3": 0.425,
   "hit@5": 0.5,
@@ -25,7 +25,7 @@
   "recall@5": 0.5,
   "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.396,
+  "train_mrr": 0.3959,
   "train_hit@1": 0.2917,
   "train_hit@5": 0.5,
   "train_recall@10": 0.5833,
@@ -103,8 +103,8 @@
    "top5": [
     "cir92:203",
     "cir92:289quater",
-    "cir92:194ter",
     "cta_bxl:44bis",
+    "cir92:194ter",
     "cir92:198"
    ],
    "expected": [
@@ -120,7 +120,7 @@
     "arcir92:117",
     "cir92:2",
     "cir92:282/1",
-    "cir92:203"
+    "cta_wal:113"
    ],
    "expected": [
     "cir92:202"
@@ -158,8 +158,8 @@
    "split": "train"
   },
   "B9": {
-   "rank": 32,
-   "rr": 0.0312,
+   "rank": 30,
+   "rr": 0.0333,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
@@ -269,8 +269,8 @@
     "csucc_wal:133bis/1",
     "csucc_bxl:133bis/1",
     "csucc_vla:133bis/1",
-    "cta_wal:98",
-    "csucc_wal:146septies"
+    "cir92:100",
+    "cta_wal:98"
    ],
    "expected": [
     "cir92:145/33"
@@ -507,10 +507,10 @@
    "rr": 0.0,
    "top5": [
     "ar1927:24014",
-    "cbpf:28",
     "agbxl2019:5",
-    "csucc_bxl:156",
-    "csucc_wal:156"
+    "cbpf:28",
+    "ar1927:1",
+    "ar1927:9"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -593,8 +593,8 @@
    "split": "val"
   },
   "B38": {
-   "rank": 27,
-   "rr": 0.037,
+   "rank": 26,
+   "rr": 0.0385,
    "top5": [
     "cta_bxl:100",
     "cta_bxl:21",
@@ -612,8 +612,8 @@
    "rr": 1.0,
    "top5": [
     "cta_wal:9",
-    "cta_bxl:9",
     "cta_wal:8",
+    "cta_bxl:9",
     "cta_wal:98",
     "cta_wal:97"
    ],
@@ -623,8 +623,8 @@
    "split": "train"
   },
   "B40": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
     "cir92:500",
     "arcir92:953",

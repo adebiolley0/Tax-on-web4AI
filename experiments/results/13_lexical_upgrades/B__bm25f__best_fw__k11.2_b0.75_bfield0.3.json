@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -16,21 +16,21 @@
  },
  "metrics": {
   "mrr": 0.3821,
-  "ndcg@5": 0.3052,
-  "ndcg@10": 0.3527,
+  "ndcg@5": 0.3056,
+  "ndcg@10": 0.3489,
   "hit@1": 0.3,
   "hit@3": 0.425,
   "hit@5": 0.45,
-  "hit@10": 0.625,
+  "hit@10": 0.6,
   "recall@5": 0.45,
-  "recall@10": 0.625,
+  "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.4201,
+  "train_mrr": 0.4202,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5,
-  "train_recall@10": 0.625,
+  "train_recall@10": 0.5833,
   "train_n": 24,
-  "val_mrr": 0.325,
+  "val_mrr": 0.3249,
   "val_hit@1": 0.25,
   "val_hit@5": 0.375,
   "val_recall@10": 0.625,
@@ -103,8 +103,8 @@
    "top5": [
     "cir92:203",
     "cir92:289quater",
-    "cir92:198",
     "cta_bxl:44bis",
+    "cir92:198",
     "cir92:194ter"
    ],
    "expected": [
@@ -158,14 +158,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 24,
-   "rr": 0.0417,
+   "rank": 23,
+   "rr": 0.0435,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
-    "ue282:53",
     "artva:AR31:4",
-    "ctva:25quinquies"
+    "ctva:25quinquies",
+    "ue282:53"
    ],
    "expected": [
     "ctva:4"
@@ -203,8 +203,8 @@
    "split": "val"
   },
   "B12": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
     "ctva:54",
     "artva:AR1:13",
@@ -368,8 +368,8 @@
    "split": "train"
   },
   "B23": {
-   "rank": 34,
-   "rr": 0.0294,
+   "rank": 37,
+   "rr": 0.027,
    "top5": [
     "cir92:202",
     "arcir92:182",
@@ -473,8 +473,8 @@
    "split": "val"
   },
   "B30": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
     "artva:AR20:3",
     "artva:AR20:1quater/1",
@@ -507,8 +507,8 @@
    "rr": 0.0,
    "top5": [
     "ar1927:24014",
-    "cbpf:28",
     "agbxl2019:5",
+    "cbpf:28",
     "csucc_bxl:156",
     "csucc_wal:156"
    ],
@@ -523,9 +523,9 @@
    "top5": [
     "vcf:1.1.0.0.2",
     "ar1940:5",
-    "avcf:3.2.3.0.1",
     "csucc_bxl:135@01.01.2028",
-    "arcir92:258"
+    "avcf:3.2.3.0.1",
+    "csucc_wal:135@01.01.2028"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -539,8 +539,8 @@
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:612",
-    "cir92:36",
-    "cir92:550"
+    "ar1940:5",
+    "cir92:36"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -555,7 +555,7 @@
     "cir92:145/45",
     "cir92:145/42",
     "cir92:145/6",
-    "arcir92:258"
+    "cir92:450"
    ],
    "expected": [
     "cenr_bxl:46bis"
@@ -599,8 +599,8 @@
     "cta_bxl:100",
     "cta_bxl:21",
     "cta_wal:100",
-    "cta_wal:10",
-    "cta_bxl:94"
+    "cta_bxl:94",
+    "cta_wal:10"
    ],
    "expected": [
     "cta_bxl:98"
@@ -612,10 +612,10 @@
    "rr": 1.0,
    "top5": [
     "cta_wal:9",
-    "cta_bxl:9",
     "cta_wal:8",
+    "cta_bxl:9",
     "cta_wal:98",
-    "artva:AR20:3"
+    "cta_wal:97"
    ],
    "expected": [
     "cta_wal:9"
@@ -623,8 +623,8 @@
    "split": "train"
   },
   "B40": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 12,
+   "rr": 0.0833,
    "top5": [
     "cir92:500",
     "vcf:3.13.2.0.4",

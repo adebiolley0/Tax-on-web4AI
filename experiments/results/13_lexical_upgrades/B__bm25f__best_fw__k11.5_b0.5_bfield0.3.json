@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,22 +15,22 @@
   }
  },
  "metrics": {
-  "mrr": 0.3734,
+  "mrr": 0.3729,
   "ndcg@5": 0.3077,
-  "ndcg@10": 0.3488,
+  "ndcg@10": 0.344,
   "hit@1": 0.275,
   "hit@3": 0.45,
   "hit@5": 0.475,
-  "hit@10": 0.625,
+  "hit@10": 0.6,
   "recall@5": 0.475,
-  "recall@10": 0.625,
+  "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.4252,
+  "train_mrr": 0.4245,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5417,
-  "train_recall@10": 0.625,
+  "train_recall@10": 0.5833,
   "train_n": 24,
-  "val_mrr": 0.2955,
+  "val_mrr": 0.2954,
   "val_hit@1": 0.1875,
   "val_hit@5": 0.375,
   "val_recall@10": 0.625,
@@ -158,14 +158,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 33,
-   "rr": 0.0303,
+   "rank": 31,
+   "rr": 0.0323,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
-    "ue282:53",
     "ctva:25quinquies",
-    "artva:AR31:4"
+    "artva:AR31:4",
+    "ue282:53"
    ],
    "expected": [
     "ctva:4"
@@ -224,8 +224,8 @@
     "cbpf:100",
     "cir92:371",
     "cir92:373",
-    "arcir92:136/1",
-    "arcir92:136/2"
+    "arcir92:136/2",
+    "arcir92:136/1"
    ],
    "expected": [
     "cir92:371"
@@ -368,8 +368,8 @@
    "split": "train"
   },
   "B23": {
-   "rank": 33,
-   "rr": 0.0303,
+   "rank": 36,
+   "rr": 0.0278,
    "top5": [
     "arcir92:182",
     "cir92:202",
@@ -508,8 +508,8 @@
    "top5": [
     "ar1927:24014",
     "agbxl2019:5",
-    "csucc_bxl:156",
     "ar1927:1",
+    "csucc_bxl:156",
     "csucc_wal:156"
    ],
    "expected": [
@@ -522,9 +522,9 @@
    "rr": 0.0,
    "top5": [
     "vcf:1.1.0.0.2",
-    "ctva:42",
     "csucc_bxl:135@01.01.2028",
     "csucc_wal:135@01.01.2028",
+    "ctva:42",
     "arcir92:258"
    ],
    "expected": [
@@ -554,8 +554,8 @@
     "cenr_bxl:46bis",
     "cir92:145/45",
     "cir92:145/42",
-    "cir92:145/6",
-    "vcf:2.9.5.0.5"
+    "cir92:450",
+    "cir92:145/6"
    ],
    "expected": [
     "cenr_bxl:46bis"
@@ -593,12 +593,12 @@
    "split": "val"
   },
   "B38": {
-   "rank": 25,
-   "rr": 0.04,
+   "rank": 24,
+   "rr": 0.0417,
    "top5": [
     "cta_bxl:100",
-    "cta_wal:10",
     "cta_bxl:21",
+    "cta_wal:10",
     "cta_bxl:94",
     "cta_wal:100"
    ],
@@ -623,8 +623,8 @@
    "split": "train"
   },
   "B40": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "vcf:3.13.2.0.4",
     "csucc_bxl:146quater",

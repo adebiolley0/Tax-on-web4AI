@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1
   },
@@ -15,22 +15,22 @@
   }
  },
  "metrics": {
-  "mrr": 0.3544,
+  "mrr": 0.3543,
   "ndcg@5": 0.2902,
-  "ndcg@10": 0.3425,
+  "ndcg@10": 0.3378,
   "hit@1": 0.25,
   "hit@3": 0.4,
   "hit@5": 0.45,
-  "hit@10": 0.625,
+  "hit@10": 0.6,
   "recall@5": 0.45,
-  "recall@10": 0.625,
+  "recall@10": 0.6,
   "n_questions": 40,
-  "train_mrr": 0.4172,
+  "train_mrr": 0.417,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5,
-  "train_recall@10": 0.625,
+  "train_recall@10": 0.5833,
   "train_n": 24,
-  "val_mrr": 0.2603,
+  "val_mrr": 0.2602,
   "val_hit@1": 0.125,
   "val_hit@5": 0.375,
   "val_recall@10": 0.625,
@@ -158,8 +158,8 @@
    "split": "train"
   },
   "B9": {
-   "rank": 24,
-   "rr": 0.0417,
+   "rank": 25,
+   "rr": 0.04,
    "top5": [
     "ctva:22ter",
     "ue282:53",
@@ -203,8 +203,8 @@
    "split": "val"
   },
   "B12": {
-   "rank": 14,
-   "rr": 0.0714,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
     "artva:AR1:13",
     "artva:AR1:9",
@@ -368,8 +368,8 @@
    "split": "train"
   },
   "B23": {
-   "rank": 26,
-   "rr": 0.0385,
+   "rank": 27,
+   "rr": 0.037,
    "top5": [
     "cir92:202",
     "cir92:194ter/3",
@@ -509,8 +509,8 @@
     "ar1927:24014",
     "csucc_bxl:156",
     "csucc_wal:156",
-    "cbpf:28",
-    "agbxl2019:5"
+    "agbxl2019:5",
+    "cbpf:28"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -518,8 +518,8 @@
    "split": "train"
   },
   "B33": {
-   "rank": 48,
-   "rr": 0.0208,
+   "rank": 49,
+   "rr": 0.0204,
    "top5": [
     "vcf:1.1.0.0.2",
     "csucc_bxl:135@01.01.2028",
@@ -536,9 +536,9 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "cir92:36",
     "cenr_wal:188",
     "cenr_bxl:188",
+    "cir92:36",
     "cir92:550",
     "vcf:3.6.0.0.6"
    ],
@@ -593,8 +593,8 @@
    "split": "val"
   },
   "B38": {
-   "rank": 26,
-   "rr": 0.0385,
+   "rank": 25,
+   "rr": 0.04,
    "top5": [
     "cta_bxl:100",
     "cta_wal:10",
@@ -623,8 +623,8 @@
    "split": "train"
   },
   "B40": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "vcf:3.13.2.0.4",
     "csucc_bxl:146quater",

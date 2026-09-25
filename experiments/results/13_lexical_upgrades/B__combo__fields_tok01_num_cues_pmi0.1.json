@@ -3,7 +3,7 @@
  "corpus": "B",
  "config": {
   "weights": {
-   "title": 5,
+   "title": 8,
    "heading": 3,
    "body": 1,
    "cue": 1.0
@@ -19,9 +19,9 @@
   }
  },
  "metrics": {
-  "mrr": 0.4013,
-  "ndcg@5": 0.3403,
-  "ndcg@10": 0.3838,
+  "mrr": 0.4008,
+  "ndcg@5": 0.341,
+  "ndcg@10": 0.3843,
   "hit@1": 0.3,
   "hit@3": 0.475,
   "hit@5": 0.525,
@@ -29,7 +29,7 @@
   "recall@5": 0.525,
   "recall@10": 0.65,
   "n_questions": 40,
-  "train_mrr": 0.4369,
+  "train_mrr": 0.4362,
   "train_hit@1": 0.3333,
   "train_hit@5": 0.5833,
   "train_recall@10": 0.6667,
@@ -162,14 +162,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 29,
-   "rr": 0.0345,
+   "rank": 28,
+   "rr": 0.0357,
    "top5": [
     "ctva:22ter",
     "artva:AR55:1",
     "ctva:12bis",
     "ctva:25quinquies",
-    "artva:AR55:2"
+    "artva:AR31:4"
    ],
    "expected": [
     "ctva:4"
@@ -376,8 +376,8 @@
    "rr": 0.0,
    "top5": [
     "cir92:206/4",
-    "cir92:202",
     "cir92:185",
+    "cir92:202",
     "arcir92:182",
     "artva:AR2bis:2"
    ],
@@ -477,8 +477,8 @@
    "split": "val"
   },
   "B30": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "artva:AR20:3",
     "artva:AR1:20ter",
@@ -513,8 +513,8 @@
     "ar1927:24014",
     "csucc_bxl:156",
     "csucc_wal:156",
-    "csucc_wal:70@01.01.2028",
-    "csucc_bxl:70@01.01.2028"
+    "agbxl2019:5",
+    "csucc_wal:70@01.01.2028"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -597,13 +597,13 @@
    "split": "val"
   },
   "B38": {
-   "rank": 27,
-   "rr": 0.037,
+   "rank": 28,
+   "rr": 0.0357,
    "top5": [
     "cta_bxl:100",
     "cta_bxl:21",
-    "cta_wal:100",
     "cta_bxl:94",
+    "cta_wal:100",
     "cta_wal:21"
    ],
    "expected": [

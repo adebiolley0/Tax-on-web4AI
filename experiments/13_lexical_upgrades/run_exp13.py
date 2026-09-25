@@ -150,6 +150,10 @@ def main():
     stages = a.stages.split(",")
     OUT.mkdir(exist_ok=True)
     summary: dict = {"corpus": a.corpus, "stages": {}}
+    prev: dict = json.loads((OUT / f"{a.corpus}_summary.json").read_text()) if (OUT / f"{a.corpus}_summary.json").exists() else {"stages": {}}
+
+    def checkpoint():
+        (OUT / f"{a.corpus}_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1, default=str))
 
     base_tok = Tokenizer("03" if a.corpus == "C" else "01")
     clean_b = a.clean_b == "clean"
@@ -242,7 +246,13 @@ def main():
                                        "concat_best": best_cc.name, "concat_best_metrics": best_cc.metrics,
                                        "k1b_best": best2.name, "k1b_best_metrics": best2.metrics,
                                        "grid": [(r.name, r.metrics["train_mrr"], r.metrics["val_mrr"], r.metrics["mrr"]) for r in R.results[n0:]]}
+        summary["stages"]["fields"]["k1b"] = list(best_k1b)
         print(f"  -> best k1/b on train: {best_k1b} | {split_line(best2)}", flush=True)
+    elif "fields" in prev["stages"]:
+        best_fw = dict(prev["stages"]["fields"]["weights"]); best_k1b = tuple(prev["stages"]["fields"]["k1b"])
+        summary["stages"]["fields"] = prev["stages"]["fields"]
+        print(f"  (fields stage skipped: reusing {best_fw}, k1/b {best_k1b})", flush=True)
+    checkpoint()
     M_fields = bm25f_matrix(index, best_fw, k1=best_k1b[0], b=best_k1b[1])
 
     # ---- 3. RM3 pseudo-relevance feedback ----------------------------------------------
@@ -266,6 +276,9 @@ def main():
                                     "val_range": [min(vals), max(vals)], "n_better_val": sum(v > res_base.metrics["val_mrr"] for v in vals),
                                     "grid": [(r.name, r.metrics["train_mrr"], r.metrics["val_mrr"], r.metrics["mrr"]) for r in R.results[n0:]]}
         print(f"  -> best RM3 on train: {best_rm3} | {split_line(best)} | val range over grid {min(vals):.3f}-{max(vals):.3f}", flush=True)
+    elif "rm3" in prev["stages"]:
+        best_rm3 = prev["stages"]["rm3"]["params"]; summary["stages"]["rm3"] = prev["stages"]["rm3"]
+    checkpoint()
 
     # ---- 4. query-side normalisation ---------------------------------------------------
     cue_best = {"region_w": 0.0, "doctype_w": 0.0}
@@ -324,7 +337,8 @@ def main():
                 qvc[q.qid] = index_cue.query_vector(w)
             R.evaluate(f"norm__cues__region{rw}_doctype{dw}", R.rank_all(Mc, index_cue, qvc), {"region_w": rw, "doctype_w": dw})
         best_c = best_on_train(R.results[n_cue:])
-        cue_best = {"region_w": best_c.config["region_w"], "doctype_w": best_c.config["doctype_w"]}
+        if best_c.metrics["train_mrr"] > res_base.metrics["train_mrr"]:
+            cue_best = {"region_w": best_c.config["region_w"], "doctype_w": best_c.config["doctype_w"]}
         # 4c region *filter* (exp 08 style) for reference
         masks = {}
         for q in C.questions:
@@ -338,7 +352,9 @@ def main():
                                      "cue_best": best_c.name, "cue_best_metrics": best_c.metrics, "cue_w": cue_best,
                                      "grid": [(r.name, r.metrics["train_mrr"], r.metrics["val_mrr"], r.metrics["mrr"]) for r in R.results[n0:]]}
         print(f"  -> best tokenizer variant on train: {tok_best.key} | {split_line(best_tokv)}", flush=True)
-        print(f"  -> best cue weights on train: {cue_best} | {split_line(best_c)}", flush=True)
+        summary["stages"]["norm"]["tokenizer"] = tok_best.key
+        print(f"  -> best cue weights on train: {cue_best} (best cue run {best_c.name}: {split_line(best_c)})", flush=True)
+    checkpoint()
 
     # ---- 6. PMI co-occurrence expansion --------------------------------------------------
     best_pmi_w = 0.0
@@ -363,7 +379,9 @@ def main():
         best_pmi_w = best.config["pmi"]["weight"] if best.metrics["train_mrr"] > res_base.metrics["train_mrr"] else 0.0
         summary["stages"]["pmi"] = {"best": best.name, "best_metrics": best.metrics, "examples": examples,
                                     "grid": [(r.name, r.metrics["train_mrr"], r.metrics["val_mrr"], r.metrics["mrr"]) for r in R.results[n0:]]}
+        summary["stages"]["pmi"]["weight"] = best_pmi_w
         print(f"  -> best PMI on train: {best.name} | {split_line(best)}", flush=True)
+    checkpoint()
 
     # ---- 5. duplicate collapsing (C) ----------------------------------------------------
     rep = None
@@ -372,8 +390,8 @@ def main():
         keys = {d.doc_id: group_key(d.doc_id, d.title, d.meta) for d in C.docs}
         prefer = {}
         for d in C.docs:
-            m = re.search(r"(20\d\d)", d.title)
-            prefer[d.doc_id] = float(m.group(1)) if m else float((d.meta.get("document_date") or "0000")[:4] or 0)
+            m = re.search(r"(20\d\d)", d.title) or re.match(r"(\d{4})", str(d.meta.get("document_date") or ""))
+            prefer[d.doc_id] = float(m.group(1)) if m else 0.0
         rep = collapse_groups([d.doc_id for d in C.docs], keys, prefer)
         groups = Counter(keys.values())
         n_multi = sum(1 for g, c in groups.items() if c > 1)
@@ -390,6 +408,7 @@ def main():
             R.evaluate(f"collapse__{label}__groupaware", rk, {"collapse": True, "eval": "group-aware", "on": label}, questions=q_group)
         summary["stages"]["collapse"] = {"n_groups_multi": n_multi, "n_collapsed": n_collapsed, "n_ambiguous_questions": n_ambig,
                                          "runs": [(r.name, r.metrics) for r in R.results[-4:]]}
+        checkpoint()
 
     # ---- 7. best combination ------------------------------------------------------------
     if "best" in stages:

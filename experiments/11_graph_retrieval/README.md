@@ -189,6 +189,16 @@ Edge-type ablation at the configuration selected on train (RRF base):
 **Reranker on graph-expanded candidates** (`rerank_b.py`, mMARCO-MiniLM, top-30, 2 s/query): does the
 graph at least bring the right article into the reranker's window?
 
+> **Side finding (environment).** The first run of this script gave MRR 0.184 for the exact
+> experiment-03 protocol (bar: 0.522). Cause: the mMARCO snapshot's `tokenizer.json` and
+> `sentencepiece.bpe.model` had become dangling symlinks in the shared HF cache (blobs deleted after
+> 09-25 11:13, when the 0.522 result was written), so every token became `<unk>` and the cross-encoder
+> scored noise — silently: no error, "Loading weights 201/201". Experiment 03's own code in its own
+> venv reproduced the broken numbers. The two files were re-downloaded (17 MB + 5 MB), after which
+> the exp-03 ordering is reproduced exactly; the e5-small tokenizer (same XLM-R vocabulary) is a
+> drop-in fallback. Lesson: check `tok.tokenize("bonjour")` before trusting a reranker run, and keep
+> the HF cache out of shared disk clean-ups.
+
 {{RERANK_B}}
 
 ### Corpus C (64 questions; bars: val 0.665 = BM25 + bge-reranker, 0.659 = convex + bge-reranker; first stage convex 0.577)
