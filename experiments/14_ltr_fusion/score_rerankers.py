@@ -30,6 +30,10 @@ def main():
     ap.add_argument("--top", type=int, default=None, help="per-leg candidate depth (default 50 mmarco / 30 others)")
     ap.add_argument("--threads", type=int, default=2)
     ap.add_argument("--legs", default=None, help="comma-separated legs forming the candidate set (default: all)")
+    ap.add_argument("--prefilter", default=None,
+                    help="cascade: 'mmarco-minilm:30' = candidates are the top-30 chunks by that cached reranker "
+                         "plus the top --prefilter_legs_top chunks of every leg (cheaper than the plain union)")
+    ap.add_argument("--prefilter_legs_top", type=int, default=10)
     a = ap.parse_args()
     import torch
     torch.set_num_threads(a.threads)
@@ -42,6 +46,17 @@ def main():
     texts = [c.text for c in chunks]
     legs = tuple(a.legs.split(",")) if a.legs else None
     cands = st.candidate_sets(top, legs=legs)
+    if a.prefilter:
+        pk, pn = a.prefilter.split(":")
+        z = np.load(CACHE / f"{a.corpus}_rerank_{pk}.npz")
+        assert len(np.unique(z["q_idx"])) == len(questions), f"prefilter cache {pk} incomplete"
+        base = st.candidate_sets(a.prefilter_legs_top, legs=legs)
+        cands = []
+        for qi in range(len(questions)):
+            m = z["q_idx"] == qi
+            keep = z["chunk_idx"][m][np.argsort(-z["score"][m], kind="stable")[: int(pn)]]
+            cands.append(np.unique(np.concatenate([np.asarray(base[qi], dtype=np.int64), keep.astype(np.int64)])))
+        top = f"{a.prefilter}+legs{a.prefilter_legs_top}"
     n_pairs = sum(len(c) for c in cands)
     out_f = CACHE / f"{a.corpus}_rerank_{a.reranker}.npz"
     done: dict[int, tuple[np.ndarray, np.ndarray]] = {}
@@ -60,7 +75,7 @@ def main():
         np.savez(out_f, q_idx=np.concatenate([np.full(len(done[q][0]), q, dtype=np.int32) for q in qs]),
                  chunk_idx=np.concatenate([done[q][0] for q in qs]).astype(np.int64),
                  score=np.concatenate([done[q][1] for q in qs]).astype(np.float32),
-                 top=np.array(top), threads=np.array(a.threads), legs=np.array(",".join(legs or tuple(st.legs))))
+                 top=np.array(str(top)), threads=np.array(a.threads), legs=np.array(",".join(legs or tuple(st.legs))))
 
     t0 = time.perf_counter()
     n_done_pairs = 0

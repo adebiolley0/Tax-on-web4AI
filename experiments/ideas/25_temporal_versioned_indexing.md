@@ -6,15 +6,15 @@ Index *articles*, not editions. Each CIR 92 / AR-CIR / VCF unit gets a canonical
 
 **Why it fits this project**
 
-Corpus C holds 2,177 / 2,240 / 2,192 documents under "CIR 92 – Revenus 2025/2026/2027", 350 "DROIT FUTUR" blocks and regional AR/CIR quadruplicates — the top duplicate failure mode. Checked locally: `Article 145^10` exists three times with identical body and identical `effective_date: 2018-01-01`; only the H1 suffix differs. A yearly *edition* is therefore not a *version*: collapsing by content hash removes most copies for free, and real version boundaries ("applicable à partir de l'exercice d'imposition 2019", "DROIT FUTUR 10.01.2028") are already in the text and partly parsed (`parse_pdfs.py` tags `art_id@date`). Fisconet+ supplies `effectiveDate`, `historyLink` and `fisconet.compare/{a}/{b}`. Regex + SQLite, CPU-only, no LLM.
+Corpus C holds 2,177 / 2,240 / 2,192 documents under "CIR 92 – Revenus 2025/2026/2027", 350 "DROIT FUTUR" blocks and regional AR/CIR quadruplicates — the top duplicate failure mode. Checked locally: `Article 145^10` exists three times with identical body and `effective_date: 2018-01-01`; only the H1 suffix differs. A yearly *edition* is not a *version*: a content hash collapses most copies for free, and real boundaries ("applicable à partir de l'exercice d'imposition 2019", "DROIT FUTUR 10.01.2028") are already in the text and partly parsed (`parse_pdfs.py`). Fisconet+ supplies `effectiveDate`, `historyLink` and `fisconet.compare/{a}/{b}`. Regex + SQLite, CPU-only, no LLM.
 
 **Evidence**
 
-- FiscalQA Pro (Aug 2026; French tax code, 32,436 article-versions, 209 questions): static RAG over the current-version corpus retrieves the applicable version 0 % of the time (2.7 % accuracy); a multi-version index with a `date_debut/date_fin` filter reaches 98.3 %; residual error is article recall, not version choice; date extraction is rule-based. https://arxiv.org/abs/2608.09393
-- TimelyRAG (Sep 2026): rescoring `(1-α)·semantic + α·temporal`, distance 0 inside the effective interval, regex query-time extraction, α grows with explicit dates; up to +28.6 % nDCG@10 on BM25/BGE-M3/NV-Embed, beats hard date filtering and GPT-4o-mini reranking, no loss on non-temporal BEIR. https://arxiv.org/abs/2609.11572
+- FiscalQA Pro (Aug 2026; French tax code, 32,436 article-versions, 209 questions): static RAG over the current-version corpus retrieves the applicable version 0 % of the time; a multi-version index with a `date_debut/date_fin` filter reaches 98.3 %; residual error is article recall, not version choice; date extraction is rule-based. https://arxiv.org/abs/2608.09393
+- TimelyRAG (Sep 2026): `(1-α)·semantic + α·temporal`, distance 0 inside the effective interval, regex query-time extraction, α grows with explicit dates; up to +28.6 % nDCG@10 on BM25/BGE-M3/NV-Embed, beats hard date filtering and GPT-4o-mini reranking. https://arxiv.org/abs/2609.11572
 - VersionRAG (Oct 2025): version graph + intent routing, 90 % vs 58 % naive RAG. https://arxiv.org/abs/2510.08109
-- Requirements for legal temporal retrieval (point-in-time recovery, bitemporal orthogonality, unit-level versioning, event-bounded validity): https://arxiv.org/abs/2606.09724 ; Work/Expression models: https://arxiv.org/abs/2505.00039 , https://arxiv.org/abs/2506.07853
-- Practice: EUR-Lex consolidated texts are "the act as applicable at a specific point in time", one CELEX id per version with a timeline; Légifrance LEGI has one `LEGIARTI` per article-version with `date_debut/date_fin/etat` (VIGUEUR, ABROGE, VIGUEUR_DIFF, MODIFIE_MORT_NE) and a `DATE_VERSION` filter; Westlaw exposes "History › Versions" by effective date. Justel per-article history: unverified.
+- Legal requirements (point-in-time recovery, bitemporal orthogonality, unit-level versioning): https://arxiv.org/abs/2606.09724 ; Work/Expression models: https://arxiv.org/abs/2505.00039
+- Practice: EUR-Lex consolidated texts = "the act as applicable at a specific point in time", one CELEX id per version; Légifrance LEGI = one `LEGIARTI` per article-version with `date_debut/date_fin/etat` (VIGUEUR, ABROGE, VIGUEUR_DIFF) and a `DATE_VERSION` filter; Westlaw "History › Versions" by effective date. Justel per-article history: unverified.
 
 **How we would implement it**
 
@@ -31,7 +31,7 @@ Corpus C holds 2,177 / 2,240 / 2,192 documents under "CIR 92 – Revenus 2025/20
 
 **Expected gain and cost**
 
-Collapsing removes triplicates/quadruplicates from top-k, raising hit@1 and recall@10 on corpus C; because corpus C questions accept any coexisting edition, MRR gain there is modest (+0.02–0.05, estimate) but answers and index size (−30 %) improve clearly. On a new year-anchored question set (~30 questions, FiscalQA-style) the gain is large by construction (literature: ~0 % → ~98 % applicable-version rate). Cost: 2–3 days (parser, tables, rescoring, collapse), no new models.
+Collapsing removes triplicates/quadruplicates from top-k, raising hit@1 and recall@10 on corpus C; since its questions accept any coexisting edition, MRR gain there is modest (+0.02–0.05, estimate), but answers and index size (−30 %) improve clearly. On a new year-anchored set (~30 questions, FiscalQA-style) the gain is large by construction (~0 % → ~98 % applicable-version rate in the literature). Cost: 2–3 days, no new models.
 
 **Risks / open questions**
 

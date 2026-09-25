@@ -19,20 +19,18 @@ Tax law is densely cross-referenced (CIR92 article → AR/CIR → circulaire →
 Only HippoRAG 2 is worth a trial: one DeepSeek extraction call per chunk (OpenIE triples + NER), phrase and passage nodes, synonym edges via our e5 embeddings, PPR at query time seeded from dense retrieval; the article stays the retrieval unit, so citations survive. Feed its ranked passages into the existing fusion before bge-reranker. Rough cost for 200k chunks (from 9.2 M tokens / ~11.6k MuSiQue passages ≈ 800 tokens/chunk): ~160 M tokens ≈ **$45–90 on DeepSeek-Flash** (off-peak $0.15/M in, $0.60/M out), ~$170–340 on V4-Pro. LightRAG ≈ 7×, MS GraphRAG ≈ 12× (≈2 B tokens, $600–2,000). CPU-only extraction is infeasible at this scale. Zero-LLM alternative: a deterministic citation graph from the explicit "art. X CIR92" references in the texts, used as a re-rank prior.
 
 ## Expected gain and cost
-Single-article citation MRR: 0 to +0.02 (literature shows parity or loss on fact retrieval). Multi-hop/linking questions: +5–10 recall points possible (HippoRAG 2 pattern). Engineering: 1–2 weeks plus $50–300 API spend, storage ~+30 %, small query latency (PPR is cheap).
+Single-article citation MRR: 0 to +0.02 (literature shows parity or loss). Multi-hop/linking questions: +5–10 recall points possible. Engineering: 1–2 weeks plus $50–300 API spend, storage ~+30 %, small query latency (PPR is cheap).
 
 ## Risks / open questions
 French legal text with codes ("art. 171, 1°, a)") is a poor fit for generic NER/OpenIE; entity coverage gaps (~34 % missed) hurt directly. Graph noise lowers context relevance, which the reranker cannot fully undo. Re-extraction needed on each Fisconet+ update. Our validation set is mostly single-hop; a multi-hop subset is required to even observe a gain.
 
 ## Verdict
-**try-when-LLM (HippoRAG 2 only; skip MS GraphRAG, LightRAG, KAG, Graphiti):** the independent evidence is consistent that graphs do not improve precise fact/citation retrieval over a strong hybrid+reranker, so run HippoRAG 2 as a cheap gated A/B once DeepSeek is available and only keep it if a multi-hop subset shows recall gains.
+**try-when-LLM (HippoRAG 2 only; skip MS GraphRAG, LightRAG, KAG, Graphiti):** independent evidence consistently shows graphs do not improve precise citation retrieval over a strong hybrid+reranker, so run HippoRAG 2 as a cheap gated A/B once DeepSeek is available and keep it only if a multi-hop subset shows recall gains.
 
 ## Sources
-- https://arxiv.org/abs/2506.05690 (GraphRAG-Bench, ICLR'26) · https://github.com/GraphRAG-Bench/GraphRAG-Benchmark
-- https://arxiv.org/abs/2502.11371 (RAG vs GraphRAG)
-- https://arxiv.org/abs/2502.14802 (HippoRAG 2)
-- https://ceur-ws.org/Vol-4079/paper6.pdf (KG-RAG on legal documents)
-- https://arxiv.org/abs/2605.28120 (LegalGraphRAG) · https://arxiv.org/abs/2505.00039 (SAT-Graph RAG, conceptual, no numbers)
-- https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/ · https://github.com/microsoft/graphrag/discussions/1490 · https://microsoft.github.io/graphrag/index/methods/
-- https://arxiv.org/abs/2502.14902 (PathRAG) · https://arxiv.org/abs/2409.13731 (KAG) · https://arxiv.org/abs/2501.13956 (Zep/Graphiti) · https://arxiv.org/abs/2510.10114 (LinearRAG) · https://arxiv.org/abs/2609.18099 (structure pricing)
-- https://api-docs.deepseek.com/quick_start/pricing (prices as of Sep 2026; cost figures above are my derivations, unverified)
+- GraphRAG-Bench: https://arxiv.org/abs/2506.05690 · https://github.com/GraphRAG-Bench/GraphRAG-Benchmark
+- RAG vs GraphRAG: https://arxiv.org/abs/2502.11371 · HippoRAG 2: https://arxiv.org/abs/2502.14802
+- Legal KG-RAG benchmark: https://ceur-ws.org/Vol-4079/paper6.pdf · LegalGraphRAG: https://arxiv.org/abs/2605.28120 · SAT-Graph (conceptual, no numbers): https://arxiv.org/abs/2505.00039
+- LazyGraphRAG: https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/ · https://github.com/microsoft/graphrag/discussions/1490 · https://microsoft.github.io/graphrag/index/methods/
+- PathRAG https://arxiv.org/abs/2502.14902 · KAG https://arxiv.org/abs/2409.13731 · Zep https://arxiv.org/abs/2501.13956 · LinearRAG https://arxiv.org/abs/2510.10114 · structure pricing https://arxiv.org/abs/2609.18099
+- DeepSeek pricing (Sep 2026): https://api-docs.deepseek.com/quick_start/pricing — cost figures above are my derivations, unverified
