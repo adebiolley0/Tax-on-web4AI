@@ -186,7 +186,11 @@ def main():
             ix01 = build_index(st01)
             M01 = bm25f_matrix(concat_fields(ix01, base_fields), {"all": 1.0})
             qv01 = {q.qid: ix01.query_vector(query_weights(ix01, tok01, q.question)) for q in C.questions}
-            R.evaluate(f"baseline_bm25__{tok01.key}", R.rank_all(M01, ix01, qv01), {"tokenizer": tok01.key, "fields": base_fields})
+            res01 = R.evaluate(f"baseline_bm25__{tok01.key}", R.rank_all(M01, ix01, qv01), {"tokenizer": tok01.key, "fields": base_fields})
+            if res01.metrics["train_mrr"] > res_base.metrics["train_mrr"]:
+                print("  -> exp-01 tokenizer wins on train; continuing with tok01 on corpus C (tok03 baseline kept as reference)", flush=True)
+                summary["baseline_tok03"] = {"name": res_base.name, "metrics": res_base.metrics}
+                base_tok, store, index, base_index, M_base, qv, res_base = tok01, st01, ix01, concat_fields(ix01, base_fields), M01, qv01, res01
         if C.name == "B" and a.clean_b == "auto":
             C2 = load_corpus("B", True)
             R2 = Runner(C2, save=not a.no_save)

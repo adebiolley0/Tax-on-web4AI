@@ -2,42 +2,42 @@
  "name": "dense",
  "corpus": "B",
  "config": {
-  "tag": "B_raw",
+  "tag": "B_clean",
   "method": "first_stage",
   "base": "dense"
  },
  "metrics": {
-  "mrr": 0.4384,
-  "ndcg@5": 0.3939,
-  "ndcg@10": 0.4333,
-  "hit@1": 0.3,
+  "mrr": 0.4663,
+  "ndcg@5": 0.4288,
+  "ndcg@10": 0.4496,
+  "hit@1": 0.35,
   "hit@3": 0.525,
-  "hit@5": 0.575,
+  "hit@5": 0.65,
   "hit@10": 0.7,
-  "recall@5": 0.575,
+  "recall@5": 0.65,
   "recall@10": 0.7,
   "n_questions": 40,
-  "train_mrr": 0.5124,
+  "train_mrr": 0.5017,
   "train_hit@1": 0.375,
-  "train_hit@5": 0.6667,
-  "train_recall@10": 0.7917,
+  "train_hit@5": 0.7083,
+  "train_recall@10": 0.75,
   "train_n": 24,
-  "val_mrr": 0.3274,
-  "val_hit@1": 0.1875,
-  "val_hit@5": 0.4375,
-  "val_recall@10": 0.5625,
+  "val_mrr": 0.4132,
+  "val_hit@1": 0.3125,
+  "val_hit@5": 0.5625,
+  "val_recall@10": 0.625,
   "val_n": 16
  },
  "per_question": {
   "B1": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
-    "cir92:67bis",
-    "cir92:145/33",
-    "cir92:131",
-    "cir92:53",
-    "cir92:171"
+    "cir92:534",
+    "cir92:94",
+    "cir92:269",
+    "cir92:171",
+    "cir92:102/1"
    ],
    "expected": [
     "cir92:130"
@@ -51,8 +51,8 @@
     "cir92:131",
     "cir92:134",
     "cir92:136",
-    "cir92:133",
-    "cir92:140"
+    "cir92:141",
+    "cir92:133"
    ],
    "expected": [
     "cir92:131"
@@ -66,8 +66,8 @@
     "arcir92:258",
     "cir92:51",
     "arcir92:7",
-    "arcir92:28",
-    "cir92:275/4"
+    "cir92:27/1",
+    "arcir92:28"
    ],
    "expected": [
     "cir92:51"
@@ -79,10 +79,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:145/8",
-    "arcir92:634bis",
-    "arcir92:634",
     "cir92:145/14",
-    "arcir92:258"
+    "cir92:145/7",
+    "arcir92:634bis",
+    "arcir92:634"
    ],
    "expected": [
     "cir92:145/8"
@@ -90,14 +90,14 @@
    "split": "train"
   },
   "B5": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
-    "cir92:215",
-    "cir92:217",
-    "cir92:216",
     "cir92:214bis",
-    "cir92:203"
+    "vcf:2.7.4.2.3",
+    "cir92:184ter",
+    "cir92:240",
+    "cir92:145/26"
    ],
    "expected": [
     "cir92:215"
@@ -105,14 +105,14 @@
    "split": "train"
   },
   "B6": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
     "arcir92:117",
     "cir92:203",
+    "cir92:202",
     "arcir92:106",
-    "cir92:18",
-    "cir92:219bis"
+    "cir92:18"
    ],
    "expected": [
     "cir92:202"
@@ -120,14 +120,14 @@
    "split": "val"
   },
   "B7": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "arcir92:48",
     "cir92:69",
+    "cir92:69/2",
+    "arcir92:48",
     "cir92:205/3",
-    "arcir92:258",
-    "cir92:205/1"
+    "cir92:74"
    ],
    "expected": [
     "cir92:69"
@@ -135,14 +135,14 @@
    "split": "train"
   },
   "B8": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "arcir92:106",
-    "arcir92:178/2",
     "cir92:281",
-    "arcir92:206/1",
-    "arcir92:83"
+    "cir92:281/1",
+    "arcir92:178/2",
+    "arcir92:206/1"
    ],
    "expected": [
     "cir92:269"
@@ -150,8 +150,8 @@
    "split": "train"
   },
   "B9": {
-   "rank": 13,
-   "rr": 0.0769,
+   "rank": 14,
+   "rr": 0.0714,
    "top5": [
     "ctva:51ter",
     "ctva:78",
@@ -165,14 +165,14 @@
    "split": "train"
   },
   "B10": {
-   "rank": 13,
-   "rr": 0.0769,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "vcf:2.9.4.2.4",
+    "cta_bxl:11",
     "vcf:2.9.4.2.3",
-    "vcf:2.3.4.2.1",
-    "artva:AR20:3",
-    "cta_bxl:9"
+    "artva:AR20:1",
+    "cta_bxl:8"
    ],
    "expected": [
     "artva:AR20:1"
@@ -195,12 +195,12 @@
    "split": "val"
   },
   "B12": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
     "ctva:53",
-    "ctva:59",
     "artva:AR1:5",
+    "ctva:59",
     "ctva:56",
     "ctva:61"
    ],
@@ -210,11 +210,11 @@
    "split": "train"
   },
   "B13": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cbpf:100",
     "cir92:371",
+    "cbpf:100",
     "cir92:4",
     "vcf:3.5.2.0.5",
     "agbxl2019:9"
@@ -225,14 +225,14 @@
    "split": "val"
   },
   "B14": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
+    "cir92:354",
     "vcf:3.7.0.0.1",
-    "cir92:333",
-    "cir92:308",
-    "cbpf:13",
-    "cir92:308/1"
+    "cir92:358",
+    "cir92:308/1",
+    "cir92:308"
    ],
    "expected": [
     "cir92:354"
@@ -240,14 +240,14 @@
    "split": "val"
   },
   "B15": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
-    "cir92:275/4",
-    "cir92:412",
     "cir92:273",
+    "cir92:275/4",
     "cir92:312",
-    "arcir92:952"
+    "arcir92:952",
+    "cir92:275"
    ],
    "expected": [
     "arcir92:88"
@@ -262,7 +262,7 @@
     "cir92:145/33",
     "arcir92:18",
     "arcir92:258",
-    "cir92:38/1"
+    "cir92:97"
    ],
    "expected": [
     "cir92:145/33"
@@ -270,14 +270,14 @@
    "split": "val"
   },
   "B17": {
-   "rank": 23,
-   "rr": 0.0435,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "arcir92:258",
     "crecouv:10",
     "arcir92:79/3",
     "cir92:126",
-    "cir92:205/5"
+    "cir92:104"
    ],
    "expected": [
     "cir92:104"
@@ -291,7 +291,7 @@
     "cir92:66",
     "cta_wal:10",
     "cir92:36",
-    "cta_bxl:98",
+    "cir92:550",
     "cta_wal:98"
    ],
    "expected": [
@@ -306,8 +306,8 @@
     "cir92:38/1",
     "cir92:38",
     "cir92:53",
-    "cir92:145/21",
-    "arcir92:258"
+    "arcir92:258",
+    "crecouv:10"
    ],
    "expected": [
     "cir92:38/1"
@@ -315,14 +315,14 @@
    "split": "val"
   },
   "B20": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
+    "cir92:141",
     "cir92:136",
     "cir92:132",
-    "cir92:194quater",
     "cir92:137",
-    "cir92:134"
+    "cir92:133"
    ],
    "expected": [
     "cir92:132"
@@ -330,14 +330,14 @@
    "split": "train"
   },
   "B21": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
+    "cenr_bxl:46bis",
     "cir92:307",
-    "cir92:7",
+    "cir92:8",
     "vcf:2.1.2.0.1",
-    "ctva:34",
-    "ue282:31bis"
+    "cir92:7"
    ],
    "expected": [
     "cir92:7"
@@ -345,14 +345,14 @@
    "split": "val"
   },
   "B22": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "cir92:38",
     "cir92:53",
-    "cir92:32",
+    "cir92:194ter/3",
     "cir92:181",
-    "cir92:7"
+    "cir92:194ter"
    ],
    "expected": [
     "cir92:90"
@@ -360,14 +360,14 @@
    "split": "train"
   },
   "B23": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
     "cir92:342",
+    "cir92:185",
     "cir92:269",
-    "arcir92:258",
-    "cir92:185/1",
-    "cir92:194ter/1"
+    "cir92:289/1",
+    "arcir92:258"
    ],
    "expected": [
     "cir92:215"
@@ -380,9 +380,9 @@
    "top5": [
     "cir92:66",
     "cir92:550",
-    "cir92:223",
     "arcir92:258",
-    "cir92:36"
+    "cir92:223",
+    "cir92:66bis"
    ],
    "expected": [
     "cir92:66"
@@ -412,7 +412,7 @@
     "ctva:61",
     "ctva:53",
     "ctva:56",
-    "ctva:53decies"
+    "ctva:26"
    ],
    "expected": [
     "ctva:44"
@@ -424,10 +424,10 @@
    "rr": 1.0,
    "top5": [
     "artva:AR20:3",
+    "cir92:145/30",
+    "cir92:145/25",
     "cir92:145/45",
-    "artva:AR20:1quater/1",
-    "cir92:145/38",
-    "cir92:145/30"
+    "cir92:145/38"
    ],
    "expected": [
     "artva:AR20:3"
@@ -450,14 +450,14 @@
    "split": "train"
   },
   "B29": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 39,
+   "rr": 0.0256,
    "top5": [
-    "cenr_wal:289bis@01.01.2028",
     "vcf:3.13.1.1.5",
     "cenr_wal:289bis",
-    "cenr_bxl:289bis@01.01.2028",
-    "cir92:32/2"
+    "cir92:32/2",
+    "csucc_bxl:146quater",
+    "cenr_bxl:289bis"
    ],
    "expected": [
     "cir92:316"
@@ -480,14 +480,14 @@
    "split": "train"
   },
   "B31": {
-   "rank": 18,
-   "rr": 0.0556,
+   "rank": 31,
+   "rr": 0.0323,
    "top5": [
+    "csucc_wal:54",
+    "csucc_wal:56",
     "csucc_wal:79",
-    "csucc_bxl:79",
-    "vcf:2.1.5.0.1",
-    "csucc_bxl:135@01.01.2028",
-    "csucc_wal:135@01.01.2028"
+    "csucc_bxl:56",
+    "csucc_bxl:79"
    ],
    "expected": [
     "csucc_wal:48"
@@ -502,7 +502,7 @@
     "csucc_bxl:60ter",
     "csucc_bxl:50",
     "csucc_bxl:59",
-    "csucc_wal:60bis"
+    "csucc_bxl:94"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -513,11 +513,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
+    "csucc_bxl:60ter",
+    "csucc_wal:150/1",
     "vcf:1.1.0.0.2",
-    "csucc_wal:149",
-    "vcf:3.3.1.0.8",
-    "csucc_wal:38",
-    "csucc_bxl:149"
+    "csucc_wal:135bis",
+    "csucc_wal:38@01.01.2028"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -525,14 +525,14 @@
    "split": "val"
   },
   "B34": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 16,
+   "rr": 0.0625,
    "top5": [
-    "cenr_wal:238",
     "cenr_bxl:161",
-    "cenr_bxl:238",
+    "cenr_wal:289bis@01.01.2028",
     "cenr_wal:161",
-    "cenr_wal:52"
+    "cenr_bxl:289bis@01.01.2028",
+    "cenr_wal:238"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -545,8 +545,8 @@
    "top5": [
     "cenr_bxl:46bis",
     "vcf:2.9.5.0.5",
-    "cenr_bxl:46ter",
     "cenr_wal:44bis",
+    "cenr_bxl:46ter",
     "cenr_bxl:212bis"
    ],
    "expected": [
@@ -555,8 +555,8 @@
    "split": "train"
   },
   "B36": {
-   "rank": 22,
-   "rr": 0.0455,
+   "rank": 24,
+   "rr": 0.0417,
    "top5": [
     "vcf:2.9.4.2.3",
     "vcf:2.9.4.2.4",
@@ -574,10 +574,10 @@
    "rr": 0.0,
    "top5": [
     "csucc_bxl:59",
-    "cenr_bxl:1811",
+    "cenr_wal:140quinquies",
+    "cenr_bxl:2702",
     "cenr_bxl:170bis",
-    "cenr_bxl:19",
-    "cenr_wal:140quinquies"
+    "cenr_bxl:1811"
    ],
    "expected": [
     "cenr_wal:131bis"
@@ -589,10 +589,10 @@
    "rr": 1.0,
    "top5": [
     "cta_bxl:98",
+    "cta_bxl:21",
+    "cta_bxl:41",
     "cta_wal:98",
-    "cta_wal:10",
-    "cta_bxl:26",
-    "cta_bxl:41"
+    "cta_bxl:36"
    ],
    "expected": [
     "cta_bxl:98"
@@ -605,9 +605,9 @@
    "top5": [
     "cta_wal:9",
     "cta_wal:98",
-    "cta_wal:23ter",
+    "cta_wal:21",
     "vcf:2.2.4.0.1",
-    "cta_bxl:9"
+    "cta_wal:23ter"
    ],
    "expected": [
     "cta_wal:9"
@@ -618,11 +618,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
+    "cenr_bxl:46bis",
     "cenr_bxl:32",
-    "csucc_bxl:137@01.01.2028",
     "csucc_bxl:137",
-    "csucc_bxl:146quater",
-    "cir92:358"
+    "csucc_bxl:137@01.01.2028",
+    "csucc_bxl:146quater"
    ],
    "expected": [
     "cbpf:100"

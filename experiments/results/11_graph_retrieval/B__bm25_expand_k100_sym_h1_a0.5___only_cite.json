@@ -2,7 +2,7 @@
  "name": "bm25+expand[k100,sym,h1,a0.5]__only_cite",
  "corpus": "B",
  "config": {
-  "tag": "B_raw",
+  "tag": "B_clean",
   "method": "expand",
   "base": "bm25",
   "k": 100,
@@ -15,37 +15,37 @@
   "ablation": "only"
  },
  "metrics": {
-  "mrr": 0.4077,
-  "ndcg@5": 0.3679,
-  "ndcg@10": 0.4238,
-  "hit@1": 0.3,
+  "mrr": 0.4307,
+  "ndcg@5": 0.3827,
+  "ndcg@10": 0.436,
+  "hit@1": 0.325,
   "hit@3": 0.45,
-  "hit@5": 0.525,
-  "hit@10": 0.675,
-  "recall@5": 0.525,
-  "recall@10": 0.675,
+  "hit@5": 0.55,
+  "hit@10": 0.7,
+  "recall@5": 0.55,
+  "recall@10": 0.7,
   "n_questions": 40,
-  "train_mrr": 0.4373,
+  "train_mrr": 0.4681,
   "train_hit@1": 0.3333,
-  "train_hit@5": 0.5833,
-  "train_recall@10": 0.6667,
+  "train_hit@5": 0.6667,
+  "train_recall@10": 0.7083,
   "train_n": 24,
-  "val_mrr": 0.3633,
-  "val_hit@1": 0.25,
-  "val_hit@5": 0.4375,
+  "val_mrr": 0.3746,
+  "val_hit@1": 0.3125,
+  "val_hit@5": 0.375,
   "val_recall@10": 0.6875,
   "val_n": 16
  },
  "per_question": {
   "B1": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 7,
+   "rr": 0.1429,
    "top5": [
-    "cir92:171",
-    "cir92:90",
     "cir92:96/2",
+    "cir92:171",
+    "cir92:21",
     "cir92:178",
-    "cir92:17"
+    "cir92:269"
    ],
    "expected": [
     "cir92:130"
@@ -53,14 +53,14 @@
    "split": "val"
   },
   "B2": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "cir92:134",
     "cir92:147",
     "cir92:133",
-    "cir92:132bis",
-    "cir92:132"
+    "cir92:131",
+    "cir92:136"
    ],
    "expected": [
     "cir92:131"
@@ -75,7 +75,7 @@
     "cir92:51",
     "cir92:50",
     "cir92:275/4",
-    "cir92:38"
+    "cir92:53"
    ],
    "expected": [
     "cir92:51"
@@ -89,8 +89,8 @@
     "cir92:145/8",
     "cir92:34",
     "cir92:145/10",
-    "arcir92:635",
-    "cir92:145/1"
+    "cir92:145/1",
+    "arcir92:635"
    ],
    "expected": [
     "cir92:145/8"
@@ -105,7 +105,7 @@
     "cir92:215",
     "cir92:203",
     "cir92:90",
-    "arcir92:117"
+    "cir92:202"
    ],
    "expected": [
     "cir92:215"
@@ -113,8 +113,8 @@
    "split": "train"
   },
   "B6": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
     "arcir92:117",
     "arcir92:106",
@@ -132,10 +132,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:69",
-    "arcir92:48",
-    "cir92:77",
     "cir92:69/1",
-    "arcir92:47"
+    "arcir92:48",
+    "arcir92:47",
+    "artva:AR3:11"
    ],
    "expected": [
     "cir92:69"
@@ -143,14 +143,14 @@
    "split": "train"
   },
   "B8": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 7,
+   "rr": 0.1429,
    "top5": [
-    "cir92:261",
     "arcir92:117",
-    "arcir92:206/1",
+    "cir92:261",
     "cir92:266",
-    "cir92:283"
+    "cir92:283",
+    "arcir92:206/1"
    ],
    "expected": [
     "cir92:269"
@@ -158,14 +158,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
     "ue282:17",
-    "ctva:12bis",
     "ctva:4",
-    "artva:AR55:1",
-    "ctva:12ter"
+    "ctva:12bis",
+    "ctva:12ter",
+    "ue282:11"
    ],
    "expected": [
     "ctva:4"
@@ -173,13 +173,13 @@
    "split": "train"
   },
   "B10": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
     "artva:AR20:3",
+    "artva:AR20:1",
     "artva:AR20:1bis",
     "artva:AR20:1bis/1",
-    "artva:AR20:1",
     "arcir92:36"
    ],
    "expected": [
@@ -188,14 +188,14 @@
    "split": "train"
   },
   "B11": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "ctva:56",
     "ctva:56decies",
+    "artva:AR2:4",
     "ctva:56ter",
-    "artva:AR19:3",
-    "artva:AR2:4"
+    "artva:AR19:3"
    ],
    "expected": [
     "ctva:56ter"
@@ -203,14 +203,14 @@
    "split": "val"
   },
   "B12": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
     "artva:AR1:9",
     "artva:AR1:14",
-    "ctva:51",
+    "artva:AR1:5",
     "artva:AR31:5",
-    "artva:AR1:5"
+    "ctva:51"
    ],
    "expected": [
     "artva:AR1:5"
@@ -224,8 +224,8 @@
     "cir92:371",
     "cbpf:100",
     "cir92:302",
-    "arcir92:136/1",
-    "arcir92:136/2"
+    "cir92:373",
+    "arcir92:136/1"
    ],
    "expected": [
     "cir92:371"
@@ -248,14 +248,14 @@
    "split": "val"
   },
   "B15": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "arcir92:952",
     "arcir92:258",
     "cir92:275/4",
-    "cir92:275/9/1",
-    "cir92:312"
+    "cir92:275/5",
+    "cir92:275/13"
    ],
    "expected": [
     "arcir92:88"
@@ -266,11 +266,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "agbxl2019:38",
     "csucc_bxl:132",
+    "agbxl2019:38",
+    "ar1936_bxl:9bis",
     "agbxl2019:40",
-    "cir92:145/3",
-    "ar1936_bxl:9bis"
+    "arcir92:258"
    ],
    "expected": [
     "cir92:145/33"
@@ -284,8 +284,8 @@
     "cir92:126",
     "arcir92:144/6",
     "cir92:2",
-    "cir92:145/37",
-    "vcf:1.1.0.0.2"
+    "vcf:1.1.0.0.2",
+    "arcir92:144/3"
    ],
    "expected": [
     "cir92:104"
@@ -299,8 +299,8 @@
     "arcir92:258",
     "cir92:275/1",
     "arcir92:952",
-    "vcf:2.3.4.1.1",
-    "cir92:275/2"
+    "cir92:275/2",
+    "cir92:275/11"
    ],
    "expected": [
     "cir92:36"
@@ -308,14 +308,14 @@
    "split": "train"
   },
   "B19": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cir92:38",
     "cir92:38/1",
+    "cir92:38",
     "arcir92:6310",
-    "cir92:354/1",
-    "cir92:145/21"
+    "cir92:145/21",
+    "cir92:354/1"
    ],
    "expected": [
     "cir92:38/1"
@@ -328,8 +328,8 @@
    "top5": [
     "cir92:132",
     "arcir92:144/3",
-    "cenr_bxl:135",
-    "arcir92:258",
+    "ar1940:4",
+    "cir92:132bis",
     "arcir92:144/6"
    ],
    "expected": [
@@ -341,11 +341,11 @@
    "rank": 7,
    "rr": 0.1429,
    "top5": [
-    "artva:AR7:27",
     "artva:AR7:14",
     "artva:AR7:15",
+    "artva:AR7:27",
     "artva:AR7:25",
-    "arcir92:4"
+    "cir92:262"
    ],
    "expected": [
     "cir92:7"
@@ -353,14 +353,14 @@
    "split": "val"
   },
   "B22": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "artva:AR45:1",
     "vcf:2.13.3.0.1",
     "arcir92:258",
     "cir92:275/5",
-    "cir92:53"
+    "cir92:90"
    ],
    "expected": [
     "cir92:90"
@@ -368,14 +368,14 @@
    "split": "train"
   },
   "B23": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "cir92:202",
     "cir92:207",
-    "cir92:215",
     "cir92:342",
-    "cir92:194ter/1"
+    "cir92:194ter/1",
+    "cir92:198/1"
    ],
    "expected": [
     "cir92:215"
@@ -390,7 +390,7 @@
     "vcf:2.3.4.1.2",
     "cir92:550",
     "cir92:205",
-    "vcf:2.3.4.1.6"
+    "vcf:2.3.4.1.2/1"
    ],
    "expected": [
     "cir92:66"
@@ -413,14 +413,14 @@
    "split": "train"
   },
   "B26": {
-   "rank": 35,
-   "rr": 0.0286,
+   "rank": 33,
+   "rr": 0.0303,
    "top5": [
     "ctva:53",
     "ctva:59",
-    "ctva:57",
+    "artva:AR20:3",
     "artva:AR1:13ter",
-    "artva:AR20:3"
+    "ctva:61"
    ],
    "expected": [
     "ctva:44"
@@ -435,7 +435,7 @@
     "vcf:2.8.4.3.1",
     "avcf:2.6.7.0.1",
     "vcf:2.6.7.1.1",
-    "artva:AR20:1bis"
+    "artva:AR20:1"
    ],
    "expected": [
     "artva:AR20:3"
@@ -447,9 +447,9 @@
    "rr": 1.0,
    "top5": [
     "cir92:414",
-    "cir92:415",
-    "crecouv:14",
     "cir92:415/1",
+    "crecouv:14",
+    "cir92:415",
     "cir92:418"
    ],
    "expected": [
@@ -464,8 +464,8 @@
     "cir92:316",
     "vcf:3.22.0.0.1",
     "vcf:3.22.0.0.2",
-    "crecouv:75",
-    "cbpf:10"
+    "cenr_bxl:289bis@01.01.2028",
+    "cenr_wal:289bis@01.01.2028"
    ],
    "expected": [
     "cir92:316"
@@ -493,9 +493,9 @@
    "top5": [
     "vcf:2.7.6.0.6",
     "csucc_wal:521",
+    "csucc_bxl:521",
     "vcf:3.3.1.0.8",
-    "cir92:126",
-    "csucc_bxl:42"
+    "cir92:126"
    ],
    "expected": [
     "csucc_wal:48"
@@ -507,10 +507,10 @@
    "rr": 0.0,
    "top5": [
     "vcf:3.3.1.0.9",
-    "cbpf:28",
     "vcf:1.1.0.0.2",
-    "ctva:44",
-    "ar1927:24014"
+    "cbpf:28",
+    "ar1927:24014",
+    "cenr_bxl:46bis"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -518,12 +518,12 @@
    "split": "train"
   },
   "B33": {
-   "rank": 14,
-   "rr": 0.0714,
+   "rank": 13,
+   "rr": 0.0769,
    "top5": [
     "vcf:1.1.0.0.2",
-    "artva:AR20:3",
     "csucc_wal:135",
+    "artva:AR20:3",
     "cir92:2",
     "csucc_bxl:55bis"
    ],
@@ -536,7 +536,7 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "cir92:51",
+    "cir92:36",
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:117",
@@ -563,14 +563,14 @@
    "split": "train"
   },
   "B36": {
-   "rank": 31,
-   "rr": 0.0323,
+   "rank": 34,
+   "rr": 0.0294,
    "top5": [
     "ctva:58",
     "vcf:2.9.4.2.4",
     "vcf:3.12.3.0.1",
     "avcf:3.10.3.2.5",
-    "csucc_wal:122"
+    "csucc_wal:122@01.01.2028"
    ],
    "expected": [
     "vcf:2.9.4.2.11"
@@ -584,8 +584,8 @@
     "csucc_bxl:48",
     "cbpf:87",
     "csucc_bxl:60ter",
-    "vcf:3.12.3.0.1",
-    "crecouv:86"
+    "crecouv:86",
+    "vcf:2.7.6.0.6"
    ],
    "expected": [
     "cenr_wal:131bis"
@@ -593,14 +593,14 @@
    "split": "val"
   },
   "B38": {
-   "rank": 35,
-   "rr": 0.0286,
+   "rank": 34,
+   "rr": 0.0294,
    "top5": [
     "cta_bxl:94",
-    "vcf:2.3.4.1.1",
     "cta_wal:10",
-    "vcf:2.3.4.1.2",
-    "cta_bxl:100"
+    "cta_bxl:100",
+    "vcf:2.3.4.1.1",
+    "cta_wal:100"
    ],
    "expected": [
     "cta_bxl:98"
@@ -614,8 +614,8 @@
     "cta_wal:9",
     "cta_wal:10",
     "vcf:2.3.4.1.1",
-    "vcf:2.3.4.2.1",
-    "vcf:2.3.4.1.6"
+    "cta_wal:97",
+    "vcf:2.3.4.2.1"
    ],
    "expected": [
     "cta_wal:9"
@@ -628,9 +628,9 @@
    "top5": [
     "vcf:3.13.2.0.4",
     "csucc_bxl:118",
-    "cbpf:145",
     "cenr_bxl:196",
-    "artva:AR15:9"
+    "csucc_wal:118",
+    "cenr_wal:196"
    ],
    "expected": [
     "cbpf:100"

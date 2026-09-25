@@ -1,9 +1,9 @@
 """Shared helpers for experiment 16 (in-domain Belgian legal models).
 
-Environment notes (this box): the root disk is full, so the venv, the HF cache and all
-intermediate files live on the RAM-backed ``/dev/shm/exp16``; results are still written to
-``experiments/results/16_legal_models`` through ``rag_eval.results.save_result`` (with a copy
-on /dev/shm in case the disk write fails).
+Environment notes (this box): the root disk was full when this experiment started, so the BM25 /
+chunk / embedding caches and the logs live on the RAM-backed ``/dev/shm/exp16`` (small, < 1 GB);
+results are written to ``experiments/results/16_legal_models`` through ``rag_eval.results.save_result``
+(with a JSON copy on /dev/shm in case the disk write fails).
 """
 from __future__ import annotations
 
@@ -15,20 +15,9 @@ import time
 from pathlib import Path
 
 SHM = Path(os.environ.get("EXP16_SHM", "/dev/shm/exp16"))
-(SHM / "hf" / "hub").mkdir(parents=True, exist_ok=True)
 (SHM / "results").mkdir(parents=True, exist_ok=True)
 (SHM / "logs").mkdir(parents=True, exist_ok=True)
-os.environ.setdefault("HF_HOME", str(SHM / "hf"))
-os.environ.setdefault("HF_HUB_OFFLINE", "0")
-os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
-
-# models already present in the default HF cache are linked into the /dev/shm cache
-_DEFAULT_HUB = Path("/root/.cache/huggingface/hub")
-for _m in ("models--intfloat--multilingual-e5-small", "models--cross-encoder--mmarco-mMiniLMv2-L12-H384-v1",
-           "models--antoinelouis--colbertv1-camembert-base-mmarcoFR"):
-    _src, _dst = _DEFAULT_HUB / _m, SHM / "hf" / "hub" / _m
-    if _src.exists() and not _dst.exists():
-        _dst.symlink_to(_src)
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")   # HF cache: the default ~/.cache/huggingface (disk)
 
 import numpy as np  # noqa: E402
 import torch  # noqa: E402
