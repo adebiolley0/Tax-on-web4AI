@@ -205,6 +205,18 @@ def build_index(store: TokenStore, fields: list[str] | None = None) -> FieldInde
     return FieldIndex({t: i for i, t in enumerate(store.vocab)}, out, n)
 
 
+def extend_index(index: FieldIndex, store: TokenStore, fields: list[str]) -> FieldIndex:
+    """Add `fields` of `store` (whose vocabulary may have grown) to an existing index without rebuilding
+    the other fields (memory: corpus C)."""
+    extra = build_index(store, fields)
+    V = len(store.vocab)
+    out = {}
+    for fname, m in index.fields.items():
+        out[fname] = sp.csr_matrix((m.data, m.indices, m.indptr), shape=(index.n, V))
+    out.update(extra.fields)
+    return FieldIndex(extra.vocab, out, index.n)
+
+
 def bm25f_matrix(index: FieldIndex, weights: dict[str, float], k1: float = 1.5, b: float | dict[str, float] = 0.75,
                  idf: np.ndarray | None = None) -> sp.csr_matrix:
     """BM25F: pseudo-tf = Σ_f w_f · tf_f / (1 − b_f + b_f · len_f / avglen_f); score = idf · tf'(k1+1)/(k1+tf').
@@ -309,36 +321,41 @@ def rm3_expand(index: FieldIndex, tf_union: sp.csr_matrix, dl: np.ndarray, idf: 
 # ── PMI co-occurrence expansion ─────────────────────────────────────────────
 class PMI:
     """Window (±window) co-occurrence PMI between a set of query terms and every corpus term,
-    computed once from the token id streams (cached)."""
+    computed once from the token id streams (cached). Processed in blocks to bound memory."""
 
     def __init__(self, streams: list[np.ndarray], V: int, qterm_ids: list[int], window: int = 10,
-                 min_count: int = 20, min_pair: int = 3):
+                 min_count: int = 20, min_pair: int = 3, block: int = 4_000_000):
         self.window, self.min_count, self.min_pair = window, min_count, min_pair
         qids = np.asarray(sorted(set(qterm_ids)), dtype=np.int64)
+        nq = len(qids)
         pos = np.full(V + 1, -1, dtype=np.int64)
-        pos[qids] = np.arange(len(qids))
-        pad = np.full(window, V, dtype=np.int64)
-        a = np.concatenate([np.concatenate([s.astype(np.int64), pad]) for s in streams])
+        pos[qids] = np.arange(nq)
+        pad = np.full(window, V, dtype=np.int32)
+        a = np.concatenate([np.concatenate([s.astype(np.int32), pad]) for s in streams])
         self.N = float(len(a))
         counts = np.bincount(a, minlength=V + 1).astype(np.float64)
         counts[V] = 0
         self.counts = counts
-        keys_all = []
-        for o in range(1, window + 1):
-            left, right = a[:-o], a[o:]
-            for x, y in ((left, right), (right, left)):
-                qi = pos[x]
-                msk = (qi >= 0) & (y != V) & (x != y)
-                keys_all.append(qi[msk] * (V + 1) + y[msk])
-        keys = np.concatenate(keys_all)
-        uk, cnt = np.unique(keys, return_counts=True)
-        self.qids, self.V = qids, V
-        self.table: dict[int, list[tuple[int, float]]] = {}
-        qi_of = uk // (V + 1)
-        w_of = uk % (V + 1)
+        acc = np.zeros(nq * (V + 1), dtype=np.int64)
+        for start in range(0, len(a), block):
+            blk = a[start: start + block + window].astype(np.int64)
+            for o in range(1, window + 1):
+                left, right = blk[:-o], blk[o:]
+                for x, y in ((left, right), (right, left)):
+                    qi = pos[x]
+                    msk = (qi >= 0) & (y != V) & (x != y)
+                    keys = qi[msk] * (V + 1) + y[msk]
+                    acc += np.bincount(keys, minlength=len(acc))
+        nz = np.nonzero(acc)[0]
+        cnt = acc[nz].astype(np.float64)
+        qi_of = nz // (V + 1)
+        w_of = nz % (V + 1)
+        del acc
         pmi = np.log((cnt * self.N) / (counts[qids[qi_of]] * counts[w_of] * 2 * window))
         ok = (cnt >= min_pair) & (counts[w_of] >= min_count)
-        for qi, w, p, c in zip(qi_of[ok], w_of[ok], pmi[ok], cnt[ok]):
+        self.qids, self.V = qids, V
+        self.table: dict[int, list[tuple[int, float]]] = {}
+        for qi, w, p in zip(qi_of[ok], w_of[ok], pmi[ok]):
             self.table.setdefault(int(qids[qi]), []).append((int(w), float(p)))
         for k in self.table:
             self.table[k].sort(key=lambda x: -x[1])

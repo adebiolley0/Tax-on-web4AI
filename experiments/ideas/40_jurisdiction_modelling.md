@@ -2,11 +2,11 @@
 
 **Idea**
 
-Give every document a `jurisdiction ∈ {fed, wal, bxl, vla}` plus a `scope` flag (federal text of general application vs regional text that overrides it), resolve the user's jurisdiction on the query side (gazetteer of communes/postal codes/demonyms → user-profile default → LLM fallback later), apply it as *region + federal* post-retrieval filtering with automatic relaxation, and present regional twins as **one canonical hit with variants** instead of four near-identical rows. Comparison questions ("Wallonie vs Flandre") switch from filtering to one-per-region diversification.
+Give every document a `jurisdiction ∈ {fed, wal, bxl, vla}` plus a `scope` flag (federal text of general application vs regional text that overrides it), resolve the user's jurisdiction on the query side (gazetteer of communes/postal codes/demonyms → user-profile default → LLM fallback later), apply it as *region + federal* post-retrieval filtering with automatic relaxation, and present regional twins as **one canonical hit with variants** instead of four near-identical rows. Comparison questions switch from filtering to one-per-region diversification.
 
 **Why it fits this project**
 
-Belgian tax law is exactly the federal-plus-regional layering that US/Swiss/German/Canadian products model explicitly. Corpus C has regional quadruplication of codes (EXPERIMENTS.md § 3.9) and Fisconet+ already ships a `regionalisation` field (WEBSITE_FINDINGS.md). Experiment 08 proved the city→region rule is correct (B31/B37 return the Walloon code) and that the filter was only neutral because vocabulary dominated; with the reranker now at MRR 0.70, twin-article confusions are next in line. The MCP tool `search(query, region?)` can expose the same dimension to DeepSeek later.
+Belgian tax law is the federal-plus-regional layering that US/Swiss/German/Canadian products model explicitly. Corpus C has regional quadruplication of codes (EXPERIMENTS.md § 3.9) and Fisconet+ already ships a `regionalisation` field (WEBSITE_FINDINGS.md). Experiment 08 proved the city→region rule is correct (B31/B37 return the Walloon code) and that the filter was only neutral because vocabulary dominated; with the reranker now at MRR 0.70, twin-article confusions are next in line. The MCP tool `search(query, region?)` can expose the same dimension to DeepSeek later.
 
 **Evidence**
 
@@ -18,7 +18,6 @@ Belgian tax law is exactly the federal-plus-regional layering that US/Swiss/Germ
 - Multi-jurisdictional RAG for AI regulation (Apr 2026, 68 jurisdictions): regex gazetteer with word-boundary matching plus LLM fallback for adjectival forms; retrieve k×5 then filter to the jurisdiction; automatic fallback to EU-level texts when a member state has no hits; round-robin one-per-jurisdiction re-ranking for comparison queries; one of 50 queries failed at entity detection. https://arxiv.org/html/2604.25448
 - STARA 50-state statutory surveys (Feb 2026): regex pre-filters caused one third of misses on two questions — hard filters must relax. https://arxiv.org/abs/2603.03300
 - Westlaw AI Jurisdictional Surveys require explicit jurisdiction checkboxes; agents ask rather than guess. https://www.thomsonreuters.com/en-us/help/cocounsel/legal/skills/skills-prompts-workflows/westlaw-deep-research
-- Multi-dimension diversification in legal IR (Springer 2016, paywalled, unverified). https://link.springer.com/chapter/10.1007/978-3-319-48740-3_12
 
 **How we would implement it**
 
@@ -46,4 +45,4 @@ Overall MRR +0.01–0.03 on C (twin cases are a minority), but hit@1 on the regi
 
 **Sources**
 
-https://library.csustan.edu/westlaw-guide/jurisdiction · https://www.canlii.org/info/search.html · https://www.juris.de/ · https://github.com/rnckp/awesome-open-legal-switzerland · https://n-lex.europa.eu/n-lex/index · https://arxiv.org/html/2604.25448 · https://arxiv.org/abs/2603.03300 · https://www.thomsonreuters.com/en-us/help/cocounsel/legal/skills/skills-prompts-workflows/westlaw-deep-research · https://link.springer.com/chapter/10.1007/978-3-319-48740-3_12 · https://arxiv.org/html/2510.06999v1 (SAC, document-level mismatch context)
+https://library.csustan.edu/westlaw-guide/jurisdiction · https://www.canlii.org/info/search.html · https://www.juris.de/ · https://github.com/rnckp/awesome-open-legal-switzerland · https://n-lex.europa.eu/n-lex/index · https://arxiv.org/html/2604.25448 · https://arxiv.org/abs/2603.03300 · https://www.thomsonreuters.com/en-us/help/cocounsel/legal/skills/skills-prompts-workflows/westlaw-deep-research

@@ -12,11 +12,11 @@ Treat every indexed amount, threshold and rate as a *parameter with dated values
 
 **Evidence**
 
-- OpenFisca parameters: YAML with `values: {date: {value, metadata.reference}}`, kept apart from formulas so values change without code (https://openfisca.org/doc/coding-the-legislation/legislation_parameters.html). OpenFisca-France stores IR brackets since 1945 per dated threshold (`impot_revenu/bareme_ir_depuis_1945/bareme.yaml`). No `openfisca-belgium` repo found (GitHub 404, unverified).
+- OpenFisca parameters: YAML `values: {date: {value, metadata.reference}}`, kept apart from formulas (https://openfisca.org/doc/coding-the-legislation/legislation_parameters.html); OpenFisca-France stores IR brackets since 1945 as dated thresholds. No `openfisca-belgium` repo found (404, unverified).
 - Catala (arXiv 2103.03198, 2021): statute text paired with code; formalising US §121 "uncovered a bug in the official implementation".
 - TaxCalcBench (arXiv 2507.16126, Jul 2025): frontier models compute < 1/3 of simplified US returns correctly; top error classes are *misuse of tax tables*, arithmetic and eligibility — exactly what a parameter tool removes.
 - FinanceBench (arXiv 2311.11944, Nov 2023): GPT-4-Turbo + retrieval wrong or refused on 81 % of numeric financial questions.
-- SARA (arXiv 2005.05257, 2020): machine reading is weak on statutory tax cases; a hand-built Prolog encoding solves them — law "is declared exactly once".
+- SARA (arXiv 2005.05257, 2020): machine reading weak on statutory tax cases; a hand-built Prolog encoding solves them.
 - StructRAG (arXiv 2410.08815, Oct 2024): restructuring retrieved text into tables improves knowledge-intensive reasoning (SOTA claim; figures unverified).
 - Gap: no controlled study isolates "parameters as data vs prose"; the case rests on the error taxonomies above.
 

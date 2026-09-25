@@ -11,6 +11,7 @@ the shared harness (experiments/results/13_lexical_upgrades, leaderboard.jsonl).
 from __future__ import annotations
 
 import argparse
+import gc
 import itertools
 import json
 import re
@@ -33,7 +34,7 @@ from cleanup import clean_article, region_of_code, detect_region, allowed_region
 
 from lexical import (Tokenizer, TokenStore, FieldIndex, build_index, bm25f_matrix, concat_fields, scores_for,
                      to_doc_ranking, rm3_expand, PMI, group_key, collapse_groups, DOCTYPE_TOKEN, REGION_TOKEN,
-                     region_of_text, doctype_cues, split_line, cached, pmi_expand_weights)
+                     region_of_text, doctype_cues, split_line, cached, pmi_expand_weights, extend_index)
 
 EXP = "13_lexical_upgrades"
 OUT = Path(__file__).parent / "runs"       # per-corpus stage summaries used by the README
@@ -191,6 +192,8 @@ def main():
                 print("  -> exp-01 tokenizer wins on train; continuing with tok01 on corpus C (tok03 baseline kept as reference)", flush=True)
                 summary["baseline_tok03"] = {"name": res_base.name, "metrics": res_base.metrics}
                 base_tok, store, index, base_index, M_base, qv, res_base = tok01, st01, ix01, concat_fields(ix01, base_fields), M01, qv01, res01
+            del st01, ix01, M01, qv01
+            gc.collect()
         if C.name == "B" and a.clean_b == "auto":
             C2 = load_corpus("B", True)
             R2 = Runner(C2, save=not a.no_save)
@@ -211,7 +214,7 @@ def main():
     best_k1b = (1.5, 0.75)
     if "fields" in stages:
         print("\n== 2. BM25F field weights (tuned on train) ==", flush=True)
-        t_grid = [0, 0.5, 1, 2, 3, 5]
+        t_grid = [0, 0.5, 1, 2, 3, 5, 8]
         h_grid = [0, 0.5, 1, 2, 3] if C.name != "A" else [0, 0.5, 1, 2]
         n0 = len(R.results)
         for wt, wh in itertools.product(t_grid, h_grid):
@@ -271,15 +274,16 @@ def main():
         print("\n== 4. query / document normalisation (numbers, article refs, region + doc-type cue tokens) ==", flush=True)
         n0 = len(R.results)
         # 4a tokenizer variants (re-tokenise documents and queries)
-        variants = {}
+        variant_results = []
         for num, art in [(True, False), (False, True), (True, True)]:
             tk = Tokenizer(base_tok.base, numbers=num, artrefs=art)
             st = tokenize_corpus(C, tk, clean_b)
             ix = build_index(st)
             Mv = bm25f_matrix(concat_fields(ix, base_fields), {"all": 1.0})
             qvv = {q.qid: ix.query_vector(query_weights(ix, tk, q.question)) for q in C.questions}
-            r = R.evaluate(f"norm__{tk.key}", R.rank_all(Mv, ix, qvv), {"tokenizer": tk.key, "fields": base_fields})
-            variants[tk.key] = (tk, st, ix, r)
+            variant_results.append(R.evaluate(f"norm__{tk.key}", R.rank_all(Mv, ix, qvv), {"tokenizer": tk.key, "fields": base_fields}))
+            del st, ix, Mv, qvv
+            gc.collect()
         # 4b cue tokens: region + doc type as an extra field, weighted query tokens
         cue_tokens = []
         for u in range(store.n):
@@ -299,7 +303,7 @@ def main():
                     toks.append(dt)
             cue_tokens.append(toks)
         store.add_field("cue", cue_tokens)
-        index_cue = build_index(store)
+        index_cue = extend_index(index, store, ["cue"])
         q_region = {q.qid: detect_region(q.question) for q in C.questions}
         q_dt = {q.qid: (doctype_cues(q.question) if C.name != "B" else _b_code_cues(q.question)) for q in C.questions}
         print(f"  region cue in {sum(1 for v in q_region.values() if v)} questions, doc-type cue in {sum(1 for v in q_dt.values() if v)} questions", flush=True)
@@ -328,7 +332,7 @@ def main():
             if allow:
                 masks[q.qid] = np.array([any(t in allow for t in unit_region[u]) for u in range(store.n)])
         R.evaluate("norm__region_filter", R.rank_all(M_base, index, qv, masks=masks), {"region_filter": True})
-        best_tokv = best_on_train([res_base] + [v[3] for v in variants.values()])
+        best_tokv = best_on_train([res_base] + variant_results)
         tok_best = Tokenizer(base_tok.base, numbers="+num" in best_tokv.config["tokenizer"], artrefs="+art" in best_tokv.config["tokenizer"])
         summary["stages"]["norm"] = {"tokenizer_best": best_tokv.name, "tokenizer_best_metrics": best_tokv.metrics,
                                      "cue_best": best_c.name, "cue_best_metrics": best_c.metrics, "cue_w": cue_best,
@@ -392,6 +396,10 @@ def main():
         print("\n== 7. combinations (each chosen on train) ==", flush=True)
         n0 = len(R.results)
         # tokenizer variant + field weights + cues
+        del M_base, M_fields, tf_union, base_index
+        if "norm" in stages:
+            del index_cue, Mc
+        gc.collect()
         st = tokenize_corpus(C, tok_best, clean_b)
         if "norm" in stages:
             st.add_field("cue", cue_tokens)
