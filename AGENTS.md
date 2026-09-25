@@ -24,6 +24,9 @@ folder is a standalone `uv` project (not a workspace member) with its own README
 `experiments/common` (`rag_eval`). Read `EXPERIMENTS.md` before changing the retrieval stack, chunking or
 the validation datasets, and append new runs to `experiments/results/leaderboard.jsonl` through the harness.
 On the 4-core CPU box, run embedding jobs one at a time (`experiments/run_queue.sh`).
+`experiments/ideas/` holds 100 research-only write-ups (one per topic in `ideas/TOPICS.md`) and
+`ideas/README.md`, the ranked synthesis with theorised architectures; read it before proposing a new
+retrieval idea, and add new ideas there as `NN_slug.md` with the same sections.
 
 ## SDKs and documentation
 
