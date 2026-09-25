@@ -60,8 +60,13 @@ def build_db(tag: str, db_dir, max_group: int) -> dict:
                     wm.writerow([m, gid])
     csv_s = time.perf_counter() - t0
 
-    if db_dir.exists():
+    if db_dir.is_dir():
         shutil.rmtree(db_dir)
+    elif db_dir.exists():          # kuzu >= 0.10 writes a single database file
+        db_dir.unlink()
+    for extra in (db_dir.with_name(db_dir.name + ".wal"), db_dir.with_name(db_dir.name + ".lock")):
+        if extra.exists():
+            extra.unlink()
     t0 = time.perf_counter()
     db = kuzu.Database(str(db_dir))
     conn = kuzu.Connection(db)
