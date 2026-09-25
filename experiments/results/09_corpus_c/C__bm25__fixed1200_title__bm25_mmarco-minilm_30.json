@@ -937,7 +937,7 @@
   }
  },
  "timing": {
-  "rerank_s": 1580.8,
-  "per_query_s": 24.7
+  "rerank_s": 135.4,
+  "per_query_s": 2.12
  }
 }
