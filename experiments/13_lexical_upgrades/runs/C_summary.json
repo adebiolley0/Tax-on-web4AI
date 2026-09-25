@@ -1,0 +1,29 @@
+{
+ "corpus": "C",
+ "stages": {},
+ "baseline": {
+  "name": "baseline_bm25__tok03",
+  "metrics": {
+   "mrr": 0.5766,
+   "ndcg@5": 0.5746,
+   "ndcg@10": 0.6189,
+   "hit@1": 0.4531,
+   "hit@3": 0.6094,
+   "hit@5": 0.75,
+   "hit@10": 0.8438,
+   "recall@5": 0.7422,
+   "recall@10": 0.8438,
+   "n_questions": 64,
+   "train_mrr": 0.6258,
+   "train_hit@1": 0.5172,
+   "train_hit@5": 0.7931,
+   "train_recall@10": 0.8276,
+   "train_n": 29,
+   "val_mrr": 0.5359,
+   "val_hit@1": 0.4,
+   "val_hit@5": 0.7143,
+   "val_recall@10": 0.8571,
+   "val_n": 35
+  }
+ }
+}

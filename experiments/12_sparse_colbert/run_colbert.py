@@ -48,8 +48,13 @@ def load_model(spec):
 
 def encode(m, texts, is_query: bool, bs: int):
     t0 = time.perf_counter()
-    embs = m.encode(texts, batch_size=bs, is_query=is_query, show_progress_bar=False, convert_to_numpy=True)
-    return [np.asarray(e, dtype=np.float32) for e in embs], time.perf_counter() - t0
+    out = []
+    for i in range(0, len(texts), 512):   # slices: bounded peak memory, progress on long jobs
+        embs = m.encode(texts[i:i + 512], batch_size=bs, is_query=is_query, show_progress_bar=False, convert_to_numpy=True)
+        out.extend(np.asarray(e, dtype=np.float16) for e in embs)   # fp16 storage (corpus B ≈ 3M tokens)
+        if not is_query and len(texts) > 512:
+            print(f"  encoded {len(out)}/{len(texts)} ({time.perf_counter() - t0:.0f}s)", flush=True)
+    return out, time.perf_counter() - t0
 
 
 def voyager_probe(m, c, q_embs, d_embs, k: int = 50) -> dict:

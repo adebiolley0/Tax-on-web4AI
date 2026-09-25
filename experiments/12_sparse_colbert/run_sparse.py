@@ -34,14 +34,21 @@ def _to_csr(t: torch.Tensor) -> sp.csr_matrix:
     return sp.csr_matrix((t.values().numpy().astype(np.float32), (idx[0], idx[1])), shape=tuple(t.shape))
 
 
-def encode_st_sparse(hf: str, texts: list[str], queries: list[str], max_len: int = 512, bs: int = 16):
+def encode_st_sparse(hf: str, texts: list[str], queries: list[str], max_len: int = 512, bs: int = 4):
+    # bs=4: the MLM logits (bs, 512, 105k vocab) fp32 are 0.9 GB per batch; bs=16 was OOM-killed
+    # (5.3 GB RSS) in the session's memory cgroup.
     from sentence_transformers import SparseEncoder
     t0 = time.perf_counter()
     m = SparseEncoder(hf, device="cpu")
     m.max_seq_length = max_len
     load_s = time.perf_counter() - t0
     t0 = time.perf_counter()
-    D = _to_csr(m.encode_document(texts, batch_size=bs, show_progress_bar=False, convert_to_sparse_tensor=True))
+    parts = []  # encode in slices so the (n, vocab) intermediate never materialises for corpus B
+    for i in range(0, len(texts), 256):
+        parts.append(_to_csr(m.encode_document(texts[i:i + 256], batch_size=bs, show_progress_bar=False,
+                                               convert_to_sparse_tensor=True)))
+        print(f"  encoded {min(i + 256, len(texts))}/{len(texts)} ({time.perf_counter() - t0:.0f}s)", flush=True)
+    D = sp.vstack(parts).tocsr()
     enc_s = time.perf_counter() - t0
     t0 = time.perf_counter()
     Q = _to_csr(m.encode_query(queries, batch_size=bs, show_progress_bar=False, convert_to_sparse_tensor=True))

@@ -29,6 +29,7 @@ def main():
     ap.add_argument("--reranker", required=True, choices=list(RERANKERS))
     ap.add_argument("--top", type=int, default=None, help="per-leg candidate depth (default 50 mmarco / 30 others)")
     ap.add_argument("--threads", type=int, default=2)
+    ap.add_argument("--legs", default=None, help="comma-separated legs forming the candidate set (default: all)")
     a = ap.parse_args()
     import torch
     torch.set_num_threads(a.threads)
@@ -39,7 +40,8 @@ def main():
     docs, questions, chunks, _ = load_corpus_and_chunks(a.corpus)
     assert len(chunks) == st.nchunks and [q.qid for q in questions] == st.qids
     texts = [c.text for c in chunks]
-    cands = st.candidate_sets(top)
+    legs = tuple(a.legs.split(",")) if a.legs else None
+    cands = st.candidate_sets(top, legs=legs)
     n_pairs = sum(len(c) for c in cands)
     out_f = CACHE / f"{a.corpus}_rerank_{a.reranker}.npz"
     done: dict[int, tuple[np.ndarray, np.ndarray]] = {}
@@ -58,7 +60,7 @@ def main():
         np.savez(out_f, q_idx=np.concatenate([np.full(len(done[q][0]), q, dtype=np.int32) for q in qs]),
                  chunk_idx=np.concatenate([done[q][0] for q in qs]).astype(np.int64),
                  score=np.concatenate([done[q][1] for q in qs]).astype(np.float32),
-                 top=np.array(top), threads=np.array(a.threads))
+                 top=np.array(top), threads=np.array(a.threads), legs=np.array(",".join(legs or tuple(st.legs))))
 
     t0 = time.perf_counter()
     n_done_pairs = 0

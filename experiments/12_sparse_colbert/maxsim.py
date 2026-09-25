@@ -20,19 +20,19 @@ def pad_stack(embs: list[np.ndarray], dtype=torch.float32) -> tuple[torch.Tensor
     return out, mask
 
 
-def maxsim_matrix(q_embs: list[np.ndarray], d_embs: list[np.ndarray], doc_batch: int = 512,
+def maxsim_matrix(q_embs: list[np.ndarray], d_embs: list[np.ndarray], doc_batch: int = 128,
                   normalize_by_qlen: bool = False) -> tuple[np.ndarray, float]:
     """(nq, n_docs) MaxSim scores: sum over query tokens of max over doc tokens of q·d.
     Padded doc tokens are masked to -inf before the max. Query tokens that are all-zero
     (padding) contribute 0."""
     t0 = time.perf_counter()
     Q, qmask = pad_stack(q_embs)
-    D, dmask = pad_stack(d_embs)
-    nq, n = Q.shape[0], D.shape[0]
+    nq, n = Q.shape[0], len(d_embs)
     out = torch.zeros((nq, n), dtype=torch.float32)
     with torch.inference_mode():
         for s in range(0, n, doc_batch):
-            Db, mb = D[s:s + doc_batch], dmask[s:s + doc_batch]           # (b, Ld, d)
+            # pad per batch only (a global (n, Lmax, d) tensor would be GBs on corpus B)
+            Db, mb = pad_stack(d_embs[s:s + doc_batch])                    # (b, Ld, d)
             sim = torch.einsum("qid,bjd->qbij", Q, Db)                     # (nq, b, Lq, Ld)
             sim = sim.masked_fill(~mb[None, :, None, :], -1e4)
             best = sim.amax(dim=-1)                                        # (nq, b, Lq)
