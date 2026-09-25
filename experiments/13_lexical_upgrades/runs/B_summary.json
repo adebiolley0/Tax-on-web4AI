@@ -1,6 +1,1159 @@
 {
  "corpus": "B",
- "stages": {},
+ "stages": {
+  "fields": {
+   "grid_best": "bm25f__title5_head3_body1",
+   "grid_best_metrics": {
+    "mrr": 0.3883,
+    "ndcg@5": 0.3191,
+    "ndcg@10": 0.3603,
+    "hit@1": 0.3,
+    "hit@3": 0.45,
+    "hit@5": 0.475,
+    "hit@10": 0.6,
+    "recall@5": 0.475,
+    "recall@10": 0.6,
+    "n_questions": 40,
+    "train_mrr": 0.4273,
+    "train_hit@1": 0.3333,
+    "train_hit@5": 0.5,
+    "train_recall@10": 0.5833,
+    "train_n": 24,
+    "val_mrr": 0.33,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.4375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "weights": {
+    "title": 5,
+    "heading": 3,
+    "body": 1
+   },
+   "concat_best": "bm25_concat__title_x3_head_x3",
+   "concat_best_metrics": {
+    "mrr": 0.3572,
+    "ndcg@5": 0.301,
+    "ndcg@10": 0.3369,
+    "hit@1": 0.225,
+    "hit@3": 0.425,
+    "hit@5": 0.475,
+    "hit@10": 0.6,
+    "recall@5": 0.475,
+    "recall@10": 0.6,
+    "n_questions": 40,
+    "train_mrr": 0.4151,
+    "train_hit@1": 0.2917,
+    "train_hit@5": 0.5417,
+    "train_recall@10": 0.5833,
+    "train_n": 24,
+    "val_mrr": 0.2704,
+    "val_hit@1": 0.125,
+    "val_hit@5": 0.375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "k1b_best": "bm25f__best_fw__k11.5_b0.75_bfield0.3",
+   "k1b_best_metrics": {
+    "mrr": 0.3923,
+    "ndcg@5": 0.3206,
+    "ndcg@10": 0.3588,
+    "hit@1": 0.3,
+    "hit@3": 0.45,
+    "hit@5": 0.475,
+    "hit@10": 0.6,
+    "recall@5": 0.475,
+    "recall@10": 0.6,
+    "n_questions": 40,
+    "train_mrr": 0.4343,
+    "train_hit@1": 0.3333,
+    "train_hit@5": 0.5,
+    "train_recall@10": 0.5833,
+    "train_n": 24,
+    "val_mrr": 0.3293,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.4375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "grid": [
+    [
+     "bm25f__title0_head0_body1",
+     0.3472,
+     0.3141,
+     0.334
+    ],
+    [
+     "bm25f__title0_head0.5_body1",
+     0.3516,
+     0.319,
+     0.3386
+    ],
+    [
+     "bm25f__title0_head1_body1",
+     0.3579,
+     0.3197,
+     0.3426
+    ],
+    [
+     "bm25f__title0_head2_body1",
+     0.3879,
+     0.3289,
+     0.3643
+    ],
+    [
+     "bm25f__title0_head3_body1",
+     0.4235,
+     0.3281,
+     0.3853
+    ],
+    [
+     "bm25f__title0.5_head0_body1",
+     0.3486,
+     0.3141,
+     0.3348
+    ],
+    [
+     "bm25f__title0.5_head0.5_body1",
+     0.3538,
+     0.319,
+     0.3399
+    ],
+    [
+     "bm25f__title0.5_head1_body1",
+     0.3601,
+     0.3197,
+     0.344
+    ],
+    [
+     "bm25f__title0.5_head2_body1",
+     0.3902,
+     0.3289,
+     0.3657
+    ],
+    [
+     "bm25f__title0.5_head3_body1",
+     0.4249,
+     0.3321,
+     0.3878
+    ],
+    [
+     "bm25f__title1_head0_body1",
+     0.3501,
+     0.3141,
+     0.3357
+    ],
+    [
+     "bm25f__title1_head0.5_body1",
+     0.3554,
+     0.319,
+     0.3409
+    ],
+    [
+     "bm25f__title1_head1_body1",
+     0.3617,
+     0.3197,
+     0.3449
+    ],
+    [
+     "bm25f__title1_head2_body1",
+     0.3917,
+     0.3289,
+     0.3666
+    ],
+    [
+     "bm25f__title1_head3_body1",
+     0.4265,
+     0.3321,
+     0.3887
+    ],
+    [
+     "bm25f__title2_head0_body1",
+     0.3508,
+     0.3245,
+     0.3403
+    ],
+    [
+     "bm25f__title2_head0.5_body1",
+     0.3565,
+     0.3294,
+     0.3457
+    ],
+    [
+     "bm25f__title2_head1_body1",
+     0.3628,
+     0.3301,
+     0.3497
+    ],
+    [
+     "bm25f__title2_head2_body1",
+     0.3928,
+     0.3289,
+     0.3672
+    ],
+    [
+     "bm25f__title2_head3_body1",
+     0.427,
+     0.3321,
+     0.389
+    ],
+    [
+     "bm25f__title3_head0_body1",
+     0.3504,
+     0.3245,
+     0.3401
+    ],
+    [
+     "bm25f__title3_head0.5_body1",
+     0.3562,
+     0.3294,
+     0.3455
+    ],
+    [
+     "bm25f__title3_head1_body1",
+     0.3624,
+     0.3301,
+     0.3494
+    ],
+    [
+     "bm25f__title3_head2_body1",
+     0.3921,
+     0.3289,
+     0.3668
+    ],
+    [
+     "bm25f__title3_head3_body1",
+     0.4268,
+     0.3321,
+     0.3889
+    ],
+    [
+     "bm25f__title5_head0_body1",
+     0.3512,
+     0.3215,
+     0.3393
+    ],
+    [
+     "bm25f__title5_head0.5_body1",
+     0.357,
+     0.3267,
+     0.3449
+    ],
+    [
+     "bm25f__title5_head1_body1",
+     0.3631,
+     0.3279,
+     0.349
+    ],
+    [
+     "bm25f__title5_head2_body1",
+     0.3925,
+     0.337,
+     0.3703
+    ],
+    [
+     "bm25f__title5_head3_body1",
+     0.4273,
+     0.33,
+     0.3883
+    ],
+    [
+     "bm25_concat__title_x1_head_x1",
+     0.3801,
+     0.3265,
+     0.3586
+    ],
+    [
+     "bm25_concat__title_x2_head_x1",
+     0.3826,
+     0.3052,
+     0.3516
+    ],
+    [
+     "bm25_concat__title_x3_head_x1",
+     0.3999,
+     0.3037,
+     0.3614
+    ],
+    [
+     "bm25_concat__title_x5_head_x1",
+     0.4011,
+     0.3037,
+     0.3621
+    ],
+    [
+     "bm25_concat__title_x2_head_x2",
+     0.4049,
+     0.3036,
+     0.3644
+    ],
+    [
+     "bm25_concat__title_x3_head_x3",
+     0.4151,
+     0.2704,
+     0.3572
+    ],
+    [
+     "bm25_concat__title_x1_head_x0",
+     0.3476,
+     0.3126,
+     0.3336
+    ],
+    [
+     "bm25_concat__title_x0_head_x1",
+     0.3757,
+     0.3279,
+     0.3566
+    ],
+    [
+     "bm25f__best_fw__k10.9_b0.4_bfield0.75",
+     0.4172,
+     0.2603,
+     0.3544
+    ],
+    [
+     "bm25f__best_fw__k10.9_b0.4_bfield0.3",
+     0.417,
+     0.2595,
+     0.354
+    ],
+    [
+     "bm25f__best_fw__k11.2_b0.75_bfield0.75",
+     0.4194,
+     0.3271,
+     0.3825
+    ],
+    [
+     "bm25f__best_fw__k11.2_b0.75_bfield0.3",
+     0.4201,
+     0.325,
+     0.3821
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.5_bfield0.75",
+     0.4255,
+     0.2951,
+     0.3733
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.5_bfield0.3",
+     0.4252,
+     0.2955,
+     0.3734
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.75_bfield0.75",
+     0.4273,
+     0.33,
+     0.3883
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.75_bfield0.3",
+     0.4343,
+     0.3293,
+     0.3923
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.9_bfield0.75",
+     0.4002,
+     0.3382,
+     0.3754
+    ],
+    [
+     "bm25f__best_fw__k11.5_b0.9_bfield0.3",
+     0.4245,
+     0.3458,
+     0.393
+    ],
+    [
+     "bm25f__best_fw__k12.0_b0.75_bfield0.75",
+     0.396,
+     0.3715,
+     0.3862
+    ],
+    [
+     "bm25f__best_fw__k12.0_b0.75_bfield0.3",
+     0.4271,
+     0.3718,
+     0.4049
+    ],
+    [
+     "bm25f__best_fw__k12.0_b0.9_bfield0.75",
+     0.3963,
+     0.3934,
+     0.3952
+    ],
+    [
+     "bm25f__best_fw__k12.0_b0.9_bfield0.3",
+     0.4138,
+     0.3882,
+     0.4036
+    ],
+    [
+     "bm25f__best_fw__k12.5_b0.75_bfield0.75",
+     0.3735,
+     0.3732,
+     0.3734
+    ],
+    [
+     "bm25f__best_fw__k12.5_b0.75_bfield0.3",
+     0.4152,
+     0.3737,
+     0.3986
+    ],
+    [
+     "bm25f__best_fw__k13.0_b0.75_bfield0.75",
+     0.372,
+     0.3748,
+     0.3731
+    ],
+    [
+     "bm25f__best_fw__k13.0_b0.75_bfield0.3",
+     0.3918,
+     0.3841,
+     0.3887
+    ],
+    [
+     "bm25f__best_fw__k13.0_b0.9_bfield0.75",
+     0.3563,
+     0.3791,
+     0.3655
+    ],
+    [
+     "bm25f__best_fw__k13.0_b0.9_bfield0.3",
+     0.3775,
+     0.377,
+     0.3773
+    ]
+   ]
+  },
+  "rm3": {
+   "best": "rm3__k3_m10_lam0.7",
+   "best_metrics": {
+    "mrr": 0.3553,
+    "ndcg@5": 0.2984,
+    "ndcg@10": 0.3432,
+    "hit@1": 0.25,
+    "hit@3": 0.425,
+    "hit@5": 0.45,
+    "hit@10": 0.575,
+    "recall@5": 0.45,
+    "recall@10": 0.575,
+    "n_questions": 40,
+    "train_mrr": 0.3916,
+    "train_hit@1": 0.2917,
+    "train_hit@5": 0.5,
+    "train_recall@10": 0.625,
+    "train_n": 24,
+    "val_mrr": 0.3008,
+    "val_hit@1": 0.1875,
+    "val_hit@5": 0.375,
+    "val_recall@10": 0.5,
+    "val_n": 16
+   },
+   "params": {
+    "k": 3,
+    "m": 10,
+    "lambda": 0.7
+   },
+   "val_range": [
+    0.2031,
+    0.3646
+   ],
+   "n_better_val": 3,
+   "grid": [
+    [
+     "rm3__k3_m5_lam0.3",
+     0.3657,
+     0.2443,
+     0.3171
+    ],
+    [
+     "rm3__k3_m5_lam0.5",
+     0.3724,
+     0.2515,
+     0.324
+    ],
+    [
+     "rm3__k3_m5_lam0.7",
+     0.3561,
+     0.2661,
+     0.3201
+    ],
+    [
+     "rm3__k3_m10_lam0.3",
+     0.3394,
+     0.2719,
+     0.3124
+    ],
+    [
+     "rm3__k3_m10_lam0.5",
+     0.379,
+     0.2801,
+     0.3394
+    ],
+    [
+     "rm3__k3_m10_lam0.7",
+     0.3916,
+     0.3008,
+     0.3553
+    ],
+    [
+     "rm3__k3_m20_lam0.3",
+     0.332,
+     0.2739,
+     0.3088
+    ],
+    [
+     "rm3__k3_m20_lam0.5",
+     0.3436,
+     0.2858,
+     0.3205
+    ],
+    [
+     "rm3__k3_m20_lam0.7",
+     0.3616,
+     0.3285,
+     0.3484
+    ],
+    [
+     "rm3__k5_m5_lam0.3",
+     0.3166,
+     0.2646,
+     0.2958
+    ],
+    [
+     "rm3__k5_m5_lam0.5",
+     0.3253,
+     0.2928,
+     0.3123
+    ],
+    [
+     "rm3__k5_m5_lam0.7",
+     0.3407,
+     0.3299,
+     0.3364
+    ],
+    [
+     "rm3__k5_m10_lam0.3",
+     0.3588,
+     0.2691,
+     0.3229
+    ],
+    [
+     "rm3__k5_m10_lam0.5",
+     0.3698,
+     0.2798,
+     0.3338
+    ],
+    [
+     "rm3__k5_m10_lam0.7",
+     0.3801,
+     0.2796,
+     0.3399
+    ],
+    [
+     "rm3__k5_m20_lam0.3",
+     0.3414,
+     0.3164,
+     0.3314
+    ],
+    [
+     "rm3__k5_m20_lam0.5",
+     0.3491,
+     0.32,
+     0.3375
+    ],
+    [
+     "rm3__k5_m20_lam0.7",
+     0.3608,
+     0.3646,
+     0.3623
+    ],
+    [
+     "rm3__k10_m5_lam0.3",
+     0.2604,
+     0.2548,
+     0.2581
+    ],
+    [
+     "rm3__k10_m5_lam0.5",
+     0.2752,
+     0.2731,
+     0.2744
+    ],
+    [
+     "rm3__k10_m5_lam0.7",
+     0.3268,
+     0.2958,
+     0.3144
+    ],
+    [
+     "rm3__k10_m10_lam0.3",
+     0.2673,
+     0.2031,
+     0.2416
+    ],
+    [
+     "rm3__k10_m10_lam0.5",
+     0.2908,
+     0.2177,
+     0.2616
+    ],
+    [
+     "rm3__k10_m10_lam0.7",
+     0.3299,
+     0.2361,
+     0.2924
+    ],
+    [
+     "rm3__k10_m20_lam0.3",
+     0.2729,
+     0.2673,
+     0.2707
+    ],
+    [
+     "rm3__k10_m20_lam0.5",
+     0.3168,
+     0.3089,
+     0.3136
+    ],
+    [
+     "rm3__k10_m20_lam0.7",
+     0.3561,
+     0.2837,
+     0.3271
+    ]
+   ]
+  },
+  "norm": {
+   "tokenizer_best": "norm__tok01+num",
+   "tokenizer_best_metrics": {
+    "mrr": 0.3708,
+    "ndcg@5": 0.3038,
+    "ndcg@10": 0.3501,
+    "hit@1": 0.275,
+    "hit@3": 0.425,
+    "hit@5": 0.45,
+    "hit@10": 0.6,
+    "recall@5": 0.45,
+    "recall@10": 0.6,
+    "n_questions": 40,
+    "train_mrr": 0.4019,
+    "train_hit@1": 0.2917,
+    "train_hit@5": 0.5,
+    "train_recall@10": 0.5833,
+    "train_n": 24,
+    "val_mrr": 0.324,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "cue_best": "norm__cues__region0_doctype1",
+   "cue_best_metrics": {
+    "mrr": 0.3734,
+    "ndcg@5": 0.3161,
+    "ndcg@10": 0.3555,
+    "hit@1": 0.25,
+    "hit@3": 0.475,
+    "hit@5": 0.5,
+    "hit@10": 0.6,
+    "recall@5": 0.5,
+    "recall@10": 0.6,
+    "n_questions": 40,
+    "train_mrr": 0.3915,
+    "train_hit@1": 0.25,
+    "train_hit@5": 0.5417,
+    "train_recall@10": 0.5833,
+    "train_n": 24,
+    "val_mrr": 0.3463,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.4375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "cue_w": {
+    "region_w": 0,
+    "doctype_w": 1
+   },
+   "grid": [
+    [
+     "norm__tok01+num",
+     0.4019,
+     0.324,
+     0.3708
+    ],
+    [
+     "norm__tok01+art",
+     0.3809,
+     0.3265,
+     0.3591
+    ],
+    [
+     "norm__tok01+num+art",
+     0.4019,
+     0.324,
+     0.3708
+    ],
+    [
+     "norm__cues__region0_doctype0.5",
+     0.3829,
+     0.3265,
+     0.3603
+    ],
+    [
+     "norm__cues__region0_doctype1",
+     0.3915,
+     0.3463,
+     0.3734
+    ],
+    [
+     "norm__cues__region0_doctype2",
+     0.385,
+     0.3499,
+     0.3709
+    ],
+    [
+     "norm__cues__region0_doctype4",
+     0.3744,
+     0.3488,
+     0.3642
+    ],
+    [
+     "norm__cues__region0.5_doctype0",
+     0.3818,
+     0.3257,
+     0.3593
+    ],
+    [
+     "norm__cues__region0.5_doctype0.5",
+     0.3832,
+     0.3265,
+     0.3605
+    ],
+    [
+     "norm__cues__region0.5_doctype1",
+     0.3914,
+     0.3463,
+     0.3734
+    ],
+    [
+     "norm__cues__region0.5_doctype2",
+     0.385,
+     0.3499,
+     0.371
+    ],
+    [
+     "norm__cues__region0.5_doctype4",
+     0.3747,
+     0.3488,
+     0.3643
+    ],
+    [
+     "norm__cues__region1_doctype0",
+     0.3818,
+     0.3259,
+     0.3594
+    ],
+    [
+     "norm__cues__region1_doctype0.5",
+     0.3833,
+     0.3279,
+     0.3611
+    ],
+    [
+     "norm__cues__region1_doctype1",
+     0.3912,
+     0.3477,
+     0.3738
+    ],
+    [
+     "norm__cues__region1_doctype2",
+     0.3848,
+     0.3499,
+     0.3708
+    ],
+    [
+     "norm__cues__region1_doctype4",
+     0.3747,
+     0.3488,
+     0.3643
+    ],
+    [
+     "norm__cues__region2_doctype0",
+     0.382,
+     0.3265,
+     0.3598
+    ],
+    [
+     "norm__cues__region2_doctype0.5",
+     0.383,
+     0.3285,
+     0.3612
+    ],
+    [
+     "norm__cues__region2_doctype1",
+     0.391,
+     0.3483,
+     0.374
+    ],
+    [
+     "norm__cues__region2_doctype2",
+     0.3846,
+     0.3513,
+     0.3713
+    ],
+    [
+     "norm__cues__region2_doctype4",
+     0.3748,
+     0.3488,
+     0.3644
+    ],
+    [
+     "norm__cues__region4_doctype0",
+     0.3817,
+     0.3267,
+     0.3597
+    ],
+    [
+     "norm__cues__region4_doctype0.5",
+     0.3826,
+     0.3285,
+     0.361
+    ],
+    [
+     "norm__cues__region4_doctype1",
+     0.3905,
+     0.3479,
+     0.3735
+    ],
+    [
+     "norm__cues__region4_doctype2",
+     0.3847,
+     0.3499,
+     0.3708
+    ],
+    [
+     "norm__cues__region4_doctype4",
+     0.3746,
+     0.3488,
+     0.3643
+    ],
+    [
+     "norm__region_filter",
+     0.3826,
+     0.3289,
+     0.3611
+    ]
+   ]
+  },
+  "pmi": {
+   "best": "pmi__top3_w0.1",
+   "best_metrics": {
+    "mrr": 0.3592,
+    "ndcg@5": 0.2973,
+    "ndcg@10": 0.3508,
+    "hit@1": 0.275,
+    "hit@3": 0.4,
+    "hit@5": 0.45,
+    "hit@10": 0.625,
+    "recall@5": 0.45,
+    "recall@10": 0.625,
+    "n_questions": 40,
+    "train_mrr": 0.3836,
+    "train_hit@1": 0.2917,
+    "train_hit@5": 0.5,
+    "train_recall@10": 0.625,
+    "train_n": 24,
+    "val_mrr": 0.3226,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "examples": [
+    [
+     "8",
+     [
+      [
+       "55sex",
+       3.06
+      ],
+      [
+       "cv",
+       3.02
+      ],
+      [
+       "001",
+       2.75
+      ]
+     ]
+    ],
+    [
+     "cas",
+     [
+      [
+       "dysfonction",
+       2.95
+      ],
+      [
+       "55sex",
+       2.72
+      ],
+      [
+       "eche",
+       2.65
+      ]
+     ]
+    ],
+    [
+     "extrait",
+     [
+      [
+       "avert",
+       5.23
+      ],
+      [
+       "the",
+       5.11
+      ],
+      [
+       "matric",
+       4.99
+      ]
+     ]
+    ],
+    [
+     "chiffr",
+     [
+      [
+       "milliem",
+       5.6
+      ],
+      [
+       "centiem",
+       5.44
+      ],
+      [
+       "vertical",
+       4.98
+      ]
+     ]
+    ],
+    [
+     "obligatoir",
+     [
+      [
+       "devenus",
+       5.25
+      ],
+      [
+       "sant",
+       4.37
+      ],
+      [
+       "soin",
+       4.15
+      ]
+     ]
+    ],
+    [
+     "pens",
+     [
+      [
+       "evolu",
+       7.07
+      ],
+      [
+       "expliqu",
+       6.93
+      ],
+      [
+       "facilit",
+       5.82
+      ]
+     ]
+    ]
+   ],
+   "grid": [
+    [
+     "pmi__top3_w0.1",
+     0.3836,
+     0.3226,
+     0.3592
+    ],
+    [
+     "pmi__top3_w0.3",
+     0.3576,
+     0.2773,
+     0.3255
+    ],
+    [
+     "pmi__top3_w0.5",
+     0.2896,
+     0.2368,
+     0.2685
+    ],
+    [
+     "pmi__top1_w0.3",
+     0.3561,
+     0.3137,
+     0.3392
+    ]
+   ]
+  },
+  "best": {
+   "combos": [
+    [
+     "combo__fields+tok01+num+cues",
+     {
+      "mrr": 0.4118,
+      "ndcg@5": 0.3413,
+      "ndcg@10": 0.3807,
+      "hit@1": 0.3,
+      "hit@3": 0.475,
+      "hit@5": 0.525,
+      "hit@10": 0.625,
+      "recall@5": 0.525,
+      "recall@10": 0.625,
+      "n_questions": 40,
+      "train_mrr": 0.4583,
+      "train_hit@1": 0.3333,
+      "train_hit@5": 0.5833,
+      "train_recall@10": 0.625,
+      "train_n": 24,
+      "val_mrr": 0.3419,
+      "val_hit@1": 0.25,
+      "val_hit@5": 0.4375,
+      "val_recall@10": 0.625,
+      "val_n": 16
+     }
+    ],
+    [
+     "combo__fields+tok01+num+cues+rm3_k3_m10_lam0.5",
+     {
+      "mrr": 0.353,
+      "ndcg@5": 0.3177,
+      "ndcg@10": 0.3362,
+      "hit@1": 0.225,
+      "hit@3": 0.475,
+      "hit@5": 0.475,
+      "hit@10": 0.525,
+      "recall@5": 0.475,
+      "recall@10": 0.525,
+      "n_questions": 40,
+      "train_mrr": 0.3634,
+      "train_hit@1": 0.2083,
+      "train_hit@5": 0.5417,
+      "train_recall@10": 0.5417,
+      "train_n": 24,
+      "val_mrr": 0.3374,
+      "val_hit@1": 0.25,
+      "val_hit@5": 0.375,
+      "val_recall@10": 0.5,
+      "val_n": 16
+     }
+    ],
+    [
+     "combo__fields+tok01+num+cues+rm3_k3_m10_lam0.7",
+     {
+      "mrr": 0.3928,
+      "ndcg@5": 0.3348,
+      "ndcg@10": 0.3567,
+      "hit@1": 0.3,
+      "hit@3": 0.45,
+      "hit@5": 0.475,
+      "hit@10": 0.525,
+      "recall@5": 0.475,
+      "recall@10": 0.525,
+      "n_questions": 40,
+      "train_mrr": 0.4271,
+      "train_hit@1": 0.3333,
+      "train_hit@5": 0.5417,
+      "train_recall@10": 0.5417,
+      "train_n": 24,
+      "val_mrr": 0.3415,
+      "val_hit@1": 0.25,
+      "val_hit@5": 0.375,
+      "val_recall@10": 0.5,
+      "val_n": 16
+     }
+    ],
+    [
+     "combo__fields+tok01+num+cues+pmi0.1",
+     {
+      "mrr": 0.4013,
+      "ndcg@5": 0.3403,
+      "ndcg@10": 0.3838,
+      "hit@1": 0.3,
+      "hit@3": 0.475,
+      "hit@5": 0.525,
+      "hit@10": 0.65,
+      "recall@5": 0.525,
+      "recall@10": 0.65,
+      "n_questions": 40,
+      "train_mrr": 0.4369,
+      "train_hit@1": 0.3333,
+      "train_hit@5": 0.5833,
+      "train_recall@10": 0.6667,
+      "train_n": 24,
+      "val_mrr": 0.3478,
+      "val_hit@1": 0.25,
+      "val_hit@5": 0.4375,
+      "val_recall@10": 0.625,
+      "val_n": 16
+     }
+    ]
+   ],
+   "best_combo": "combo__fields+tok01+num+cues",
+   "best_combo_metrics": {
+    "mrr": 0.4118,
+    "ndcg@5": 0.3413,
+    "ndcg@10": 0.3807,
+    "hit@1": 0.3,
+    "hit@3": 0.475,
+    "hit@5": 0.525,
+    "hit@10": 0.625,
+    "recall@5": 0.525,
+    "recall@10": 0.625,
+    "n_questions": 40,
+    "train_mrr": 0.4583,
+    "train_hit@1": 0.3333,
+    "train_hit@5": 0.5833,
+    "train_recall@10": 0.625,
+    "train_n": 24,
+    "val_mrr": 0.3419,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.4375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   },
+   "final": "combo__fields+tok01+num+cues",
+   "final_metrics": {
+    "mrr": 0.4118,
+    "ndcg@5": 0.3413,
+    "ndcg@10": 0.3807,
+    "hit@1": 0.3,
+    "hit@3": 0.475,
+    "hit@5": 0.525,
+    "hit@10": 0.625,
+    "recall@5": 0.525,
+    "recall@10": 0.625,
+    "n_questions": 40,
+    "train_mrr": 0.4583,
+    "train_hit@1": 0.3333,
+    "train_hit@5": 0.5833,
+    "train_recall@10": 0.625,
+    "train_n": 24,
+    "val_mrr": 0.3419,
+    "val_hit@1": 0.25,
+    "val_hit@5": 0.4375,
+    "val_recall@10": 0.625,
+    "val_n": 16
+   }
+  }
+ },
  "baseline": {
   "name": "baseline_bm25__tok01__clean",
   "metrics": {
@@ -25,5 +1178,287 @@
    "val_recall@10": 0.625,
    "val_n": 16
   }
- }
+ },
+ "per_question": [
+  {
+   "qid": "B1",
+   "split": "val",
+   "base_rank": 5,
+   "final_rank": 5,
+   "question": "Quels sont les taux de l'impôt des personnes physiques par tranche de revenus pour les rev"
+  },
+  {
+   "qid": "B2",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 3,
+   "question": "Quel est le montant de la quotité du revenu exemptée d'impôt pour un contribuable ?"
+  },
+  {
+   "qid": "B3",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 1,
+   "question": "Quel pourcentage de frais professionnels forfaitaires un salarié peut-il déduire de sa rém"
+  },
+  {
+   "qid": "B4",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quel est le montant maximum de l'épargne-pension qui donne droit à une réduction d'impôt ?"
+  },
+  {
+   "qid": "B5",
+   "split": "train",
+   "base_rank": 13,
+   "final_rank": 11,
+   "question": "Quel est le taux de l'impôt des sociétés en Belgique ?"
+  },
+  {
+   "qid": "B6",
+   "split": "val",
+   "base_rank": 7,
+   "final_rank": 6,
+   "question": "Quelle participation minimale une société doit-elle détenir pour bénéficier de la déductio"
+  },
+  {
+   "qid": "B7",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quels sont les pourcentages de la déduction pour investissement (déduction de base, thémat"
+  },
+  {
+   "qid": "B8",
+   "split": "train",
+   "base_rank": 3,
+   "final_rank": 2,
+   "question": "Quel est le taux du précompte mobilier applicable aux dividendes et intérêts ?"
+  },
+  {
+   "qid": "B9",
+   "split": "train",
+   "base_rank": 27,
+   "final_rank": 19,
+   "question": "Qui est considéré comme assujetti à la TVA ?"
+  },
+  {
+   "qid": "B10",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quel est le taux normal de TVA en Belgique et quels sont les taux réduits ?"
+  },
+  {
+   "qid": "B11",
+   "split": "val",
+   "base_rank": 3,
+   "final_rank": 2,
+   "question": "Quel est le seuil de chiffre d'affaires pour bénéficier du régime de la franchise de TVA d"
+  },
+  {
+   "qid": "B12",
+   "split": "train",
+   "base_rank": 11,
+   "final_rank": 15,
+   "question": "Quelles sont les mentions obligatoires que doit contenir une facture TVA ?"
+  },
+  {
+   "qid": "B13",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Dans quel délai dois-je introduire une réclamation contre mon avertissement-extrait de rôl"
+  },
+  {
+   "qid": "B14",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 8,
+   "question": "Pendant combien d'années l'administration fiscale peut-elle encore établir l'impôt en cas "
+  },
+  {
+   "qid": "B15",
+   "split": "val",
+   "base_rank": 7,
+   "final_rank": 8,
+   "question": "Comment est déterminé le montant du précompte professionnel retenu à la source sur les sal"
+  },
+  {
+   "qid": "B16",
+   "split": "val",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "J'ai versé 100 euros à une ONG reconnue cette année, est-ce que cela me donne droit à un a"
+  },
+  {
+   "qid": "B17",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Je paie chaque mois une contribution pour mes enfants à mon ex-conjointe, puis-je déduire "
+  },
+  {
+   "qid": "B18",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Mon employeur me laisse une voiture que j'utilise aussi le week-end pour mes trajets privé"
+  },
+  {
+   "qid": "B19",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Les chèques-repas que me donne mon patron sont-ils imposés et quel est le montant maximum "
+  },
+  {
+   "qid": "B20",
+   "split": "train",
+   "base_rank": 8,
+   "final_rank": 4,
+   "question": "J'ai trois enfants à charge : de combien augmente la part de mes revenus qui échappe à l'i"
+  },
+  {
+   "qid": "B21",
+   "split": "val",
+   "base_rank": 4,
+   "final_rank": 3,
+   "question": "Je mets un appartement en location à un particulier qui y habite : sur quelle base suis-je"
+  },
+  {
+   "qid": "B22",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 2,
+   "question": "J'ai gagné un peu d'argent en rendant des services à des tiers en dehors de mon travail, à"
+  },
+  {
+   "qid": "B23",
+   "split": "val",
+   "base_rank": 34,
+   "final_rank": null,
+   "question": "Ma petite SRL réalise 80.000 euros de bénéfice : combien va-t-elle payer d'impôt sur ce bé"
+  },
+  {
+   "qid": "B24",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 2,
+   "question": "Ma société achète une voiture essence en 2026 pour un employé : ses frais d'entretien et d"
+  },
+  {
+   "qid": "B25",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Mon employeur me fournit un ordinateur portable et une connexion internet que j'utilise au"
+  },
+  {
+   "qid": "B26",
+   "split": "val",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Je donne des cours particuliers et des formations professionnelles : dois-je facturer la T"
+  },
+  {
+   "qid": "B27",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je fais rénover ma maison qui a plus de quinze ans : l'entrepreneur peut-il me facturer av"
+  },
+  {
+   "qid": "B28",
+   "split": "train",
+   "base_rank": 3,
+   "final_rank": 1,
+   "question": "Je n'ai pas pu payer mon impôt dans les temps : quel intérêt vais-je devoir payer sur le m"
+  },
+  {
+   "qid": "B29",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Le fisc m'a envoyé une demande écrite de renseignements sur ma situation : combien de temp"
+  },
+  {
+   "qid": "B30",
+   "split": "train",
+   "base_rank": 8,
+   "final_rank": 6,
+   "question": "Je suis entrepreneur en construction et je facture des travaux à un client qui dépose des "
+  },
+  {
+   "qid": "B31",
+   "split": "val",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Mon père, domicilié à Namur, vient de décéder et je suis son seul enfant : quel pourcentag"
+  },
+  {
+   "qid": "B32",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Mon mari est décédé, nous vivions ensemble à Schaerbeek : dois-je payer des droits sur ma "
+  },
+  {
+   "qid": "B33",
+   "split": "val",
+   "base_rank": null,
+   "final_rank": 50,
+   "question": "Ma compagne, avec qui je vivais à Gand, est décédée : la maison où nous habitions est-elle"
+  },
+  {
+   "qid": "B34",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "J'achète ma première maison à Charleroi en 2026 pour y vivre : quel pourcentage de droits "
+  },
+  {
+   "qid": "B35",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "J'achète un appartement de 450.000 euros à Ixelles pour y habiter : ai-je droit à une rédu"
+  },
+  {
+   "qid": "B36",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Je veux acheter une maison à Louvain pour en faire mon domicile : quel taux de droits de v"
+  },
+  {
+   "qid": "B37",
+   "split": "val",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Mes parents habitent Liège et veulent me donner 50.000 euros par acte notarié : quel pourc"
+  },
+  {
+   "qid": "B38",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": 25,
+   "question": "J'immatricule une voiture d'occasion à mon nom à Bruxelles : combien vais-je payer de taxe"
+  },
+  {
+   "qid": "B39",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Combien coûte chaque année la taxe pour rouler avec ma voiture de 8 chevaux fiscaux immatr"
+  },
+  {
+   "qid": "B40",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": 2,
+   "question": "J'ai reçu l'avis de précompte immobilier pour mon appartement à Bruxelles et je pense qu'i"
+  }
+ ]
 }

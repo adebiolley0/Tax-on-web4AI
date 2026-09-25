@@ -25,8 +25,13 @@ from common12 import (LOCAL_CACHE, load_corpus, bm25_scores, dense_legs, fusion_
 from maxsim import maxsim_matrix, rerank_scores
 
 COLBERT_MODELS = {
+    # Stanford checkpoint trained with colbert-ai on a CamemBERT tokenizer: the '[unused0]' /
+    # '[unused1]' markers of artifact.metadata do not exist in that vocabulary, so colbert-ai
+    # mapped both to <unk> (id 4) at training time. PyLate instead *adds* the two tokens and
+    # mis-sizes the embedding matrix by one (IndexError), so we reproduce the training set-up
+    # explicitly with "<unk>" prefixes.
     "colbert-fr": {"hf": "antoinelouis/colbertv1-camembert-base-mmarcoFR", "params_m": 111,
-                   "kw": dict(query_length=48, document_length=512)},
+                   "kw": dict(query_prefix="<unk>", document_prefix="<unk>", query_length=48, document_length=512)},
     "jina-colbert-v2": {"hf": "jinaai/jina-colbert-v2", "params_m": 560,
                         "kw": dict(query_prefix="[QueryMarker]", document_prefix="[DocumentMarker]",
                                    attend_to_expansion_tokens=True, trust_remote_code=True,
