@@ -10,12 +10,12 @@ Corpus C shows yearly triplication of CIR 92 articles, regional quadruplication 
 
 **Evidence**
 
-- Bernstein & Zobel (CIKM 2005): 23.4 % of GOV2 documents content-equivalent to another; 16.6 % of relevant documents in TREC 2004 Terabyte runs were redundant; user study confirmed fingerprinting finds what users regard as the same. https://people.eng.unimelb.edu.au/jzobel/fulltext/cikm05bz.pdf
-- Fröbe et al. (SIGIR 2020): near-duplicates in LTR data bias rankings; effectiveness under the novelty principle drops up to 39 % — a strong case for deduplicating before training and evaluation. https://dl.acm.org/doi/abs/10.1145/3397271.3401212 (abstract only)
+- Bernstein & Zobel (CIKM 2005): 23.4 % of GOV2 documents content-equivalent to another; 16.6 % of relevant documents in TREC 2004 Terabyte runs redundant; user study confirmed fingerprinting matches user judgement. https://people.eng.unimelb.edu.au/jzobel/fulltext/cikm05bz.pdf
+- Fröbe et al. (SIGIR 2020): near-duplicates bias LTR rankings; effectiveness under the novelty principle drops up to 39 %; deduplicate before training and evaluation. https://dl.acm.org/doi/abs/10.1145/3397271.3401212 (abstract only)
 - Manku, Jain, Das Sarma (WWW 2007): 64-bit SimHash, Hamming ≤ 3 on 8 B fingerprints. https://research.google.com/pubs/archive/33026.pdf
 - datasketch MinHashLSH: `threshold`, `num_perm`, FP/FN weights; ~0.03 ms/query on a near-duplicate corpus; Redis/Cassandra backends. https://ekzhu.com/datasketch/lsh.html — Milvus 3.x ships a native MINHASH_LSH index with Jaccard refinement. https://milvus.io/docs/minhash-lsh.md
 - SemDeDup (2023): k-means then intra-cluster cosine > 1−ε; keeps the member nearest the centroid. https://arxiv.org/abs/2303.09540
-- RAG-side: byte-exact chunk dedup gave 0.16 % reduction on BEIR but 24 % in enterprise data with zero quality regression (May 2026, unverified). https://arxiv.org/abs/2605.09611 — exact/paraphrased copies in the context do not improve answers; diverse sources +17–47 % (Aug 2026). https://arxiv.org/abs/2608.13956
+- RAG-side: byte-exact chunk dedup, 0.16 % reduction on BEIR vs 24 % on enterprise data, no quality regression (May 2026, unverified). https://arxiv.org/abs/2605.09611 — duplicate/paraphrased context does not improve answers; diverse sources +17–47 % (Aug 2026). https://arxiv.org/abs/2608.13956
 - Engines: Elastic `collapse` (one top hit per key, `inner_hits` for variants, extra query per group) https://www.elastic.co/docs/reference/elasticsearch/rest-apis/collapse-search-results ; Vespa `diversity` (first-phase), `grouping max(1)` (after second phase), `collapsefield` https://docs.vespa.ai/en/querying/result-diversity.html ; Google canonical + `hreflang` for language/regional variants. https://developers.google.com/search/docs/crawling-indexing/canonicalization
 
 **How we would implement it**

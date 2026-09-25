@@ -6,7 +6,7 @@ Replace bm25s + numpy/LanceDB with one search server that ships the whole pipeli
 
 **Why it fits this project**
 
-Legal text rewards what we lack: field-weighted BM25F (heading vs body), exact phrase/proximity ("art. 171 CIR 92"), facets on document type / tax year / region, highlighted snippets for citations, upsert instead of re-indexing 201k chunks, and a ranking DSL where every leg (BM25F, dense, sparse, `rank_feature` priors) is tuned declaratively and logged for LTR. At 100k docs all fit one node.
+Legal text rewards what we lack: field-weighted BM25F (heading vs body), exact phrase/proximity ("art. 171 CIR 92"), facets on document type / tax year / region, highlighted snippets for citations, upsert instead of re-indexing 201k chunks, and a ranking DSL where every leg (BM25F, dense, sparse, `rank_feature` priors) is tuned declaratively and logged for LTR.
 
 **Evidence** (docs read 2026-09)
 
@@ -21,8 +21,6 @@ Legal text rewards what we lack: field-weighted BM25F (heading vs body), exact p
 | LTR | GBDT via Eland, rescorer (≥8.12, "certain subscription levels") | LTR plugin | GBDT second-phase, pyvespa feature collection | no | since 6.4 |
 | License | AGPL/SSPL/ELv2; subscription matrix lists RRF/LTR/rerankers as Free, a 2026-06 article says Enterprise — **conflicting** | Apache-2 | Apache-2 | GPL-2 | Apache-2 |
 | Min footprint | JVM ~50 % RAM, 1 GB heap default; 2–4 GB container | 4 GB min, 8 GB advised | 4 GB min, "start with 8 GB" | hundreds of MB (unverified) | Java 21, ZooKeeper |
-
-Corpus C is 238 M chars; 21k → 100k docs is small for all (ES: ~1 GB heap per 25 GB index).
 
 **How we would implement it**
 
@@ -40,9 +38,8 @@ Quality: BM25F + phrase operators plausibly +0.02–0.05 MRR on heading-heavy ci
 - No Docker daemon on the dev box; tarball installs are heavier than `uv sync`.
 - Elastic feature gating is contradictory across sources; confirm on the exact build before choosing ES.
 - Manticore hybrid excludes FACET and has no reranker.
-- `light_french` may under-stem vs Snowball + question-word list; needs the A/B.
-- multilingual-v1 quality on legal French unknown.
-- Idea 18 (Postgres) already gives filters, updates and fusion in a store we must run anyway; this adds a second stateful service.
+- `light_french` may under-stem vs our Snowball + question-word list; multilingual-v1 quality on legal French unknown.
+- Idea 18 (Postgres) already gives filters, updates and fusion in a store we run anyway; this adds a second stateful service.
 
 **Verdict**
 

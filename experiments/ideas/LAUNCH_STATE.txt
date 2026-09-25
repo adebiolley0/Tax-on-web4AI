@@ -1,1 +1,1 @@
-launched: 01-40 (waves 1-4). pending: 41-100
+launched: 01-37. pending: 38-100 (38-40 hit the concurrency limit, relaunch)
