@@ -2,7 +2,7 @@
 
 **Idea**
 
-Treat administrative commentary (Commentaire TVA chapters, Rép. RJ entries, later ComIR 92) as the *answer* layer and statute as the *citation* layer: split commentaries into numbered paragraphs, attach to each the article(s) it comments, the edition date and the region, keep one live edition per chapter (older editions only via a date filter), and let MCP `search` return the paragraph plus its statute anchor as a typed pair.
+Treat administrative commentary (Commentaire TVA chapters, Rép. RJ entries, later ComIR 92) as the *answer* layer and statute as the *citation* layer: split commentaries into numbered paragraphs, attach to each its article(s), edition date and region, keep one live edition per chapter (older ones only via a date filter), and let MCP `search` return the paragraph plus its statute anchor as a typed pair.
 
 **Why it fits this project**
 
@@ -17,16 +17,16 @@ Treat administrative commentary (Commentaire TVA chapters, Rép. RJ entries, lat
 - LaborBench (arXiv 2603.03300, Feb 2026): a statute-only RAG systematically missed provisions set by regulation or administrative interpretation — the only quantified evidence that commentary-type sources change answers.
 - Legal RAG Bench (Isaacus, Feb 2026): whole corpus is a practitioner guidance book (Victoria Criminal Charge Book, 4,876 passages ≤ 512 tokens); retrieval "sets the ceiling" on correctness.
 - LLeQA (AAAI 2024): layman questions answered from statute only; zero-shot R@10 ≈ 0.37 (idea 01). No paper directly compares statute vs commentary vs case on layman questions (gap, unverified).
-- Summary-Augmented Chunking (arXiv 2510.06999, Oct 2025): a ~150-char document summary prepended to 500-char chunks halves document-level mismatch on LegalBench-RAG.
+- Summary-Augmented Chunking (arXiv 2510.06999, Oct 2025): a ~150-char summary prepended to each chunk halves document-level mismatch on LegalBench-RAG.
 - eulex-rag (GitHub, 2025): article-boundary chunks, citation-graph expansion, fail-closed citations. arXiv 2606.09724 (Jun 2026): bitemporal validity against "diachronic blindness".
 
 **How we would implement it**
 
 1. Parser: Commentaire TVA → paragraph units keyed `tva:<chapter>:<section>.<point>.<letter>`, prefix `title › Section › point` (≤ 1,200 chars); Rép. RJ → regex on title for `code`, `article`, `region`, `01. –` heading as topic; extract `article 45, § 2, du Code` references into `cites[]`.
 2. Metadata: `edition_date`, `is_current` (latest date per chapter; older editions hidden unless `as_of`), `source_kind = commentary`.
-3. Retrieval: paragraph index aggregated per document (max) plus a whole-document BM25 leg (the 0.72 signal); reranker unchanged.
+3. Retrieval: paragraph index aggregated per document (max) plus a whole-document BM25 leg; reranker unchanged.
 4. MCP: `search` returns `{paragraph, article_ref, edition_date}`; `fetch(article)` joins the CIR 92 / C. TVA article text from corpus B as citation.
-5. With DeepSeek: one-line chapter summaries (SAC) and a `code→article` alias table for ComIR.
+5. With DeepSeek: one-line chapter summaries (SAC) and a ComIR `code→article` alias table.
 
 **Expected gain and cost**
 
@@ -34,14 +34,14 @@ Commentary questions from 0.61 to ≈ 0.70–0.75 (whole-doc already gives 0.72;
 
 **Risks / open questions**
 
-- Only 8 validation questions target commentary; write 20 more before measuring.
+- Only 8 validation questions target commentary; write 20 more first.
 - Rép. RJ entries date from 1958–2011, partly pre-regionalisation; `is_current` needs a legal rule, not a date.
-- ComIR 92 must first be fetched; whether its post-2020 updates keep `nr/xx` numbering is unverified.
+- ComIR 92 must first be fetched; whether post-2020 updates keep `nr/xx` numbering is unverified.
 - Whole-document scoring of 564 kB chapters is BM25-only.
 
 **Verdict**
 
-**try-now** — the structure is already in the files, parsing is cheap, and it fixes a measured 0.11 MRR deficit on commentary questions while giving the MCP server a citation-ready answer object.
+**try-now** — the structure is already in the files, parsing is cheap, and it targets a measured 0.11 MRR deficit on commentary questions while giving the MCP server a citation-ready answer object.
 
 **Sources**
 

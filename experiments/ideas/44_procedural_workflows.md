@@ -36,8 +36,8 @@ Represent procedures (réclamation, plan de paiement, recours judiciaire, ruling
 ## Risks / open questions
 
 - Staleness (delays changed in 2023): need `valid_from/valid_to` (topic 25) and a re-check per circulaire ingest.
-- Regional taxes (précompte immobilier, droits de succession) have other appeal rules per Region.
-- Working-day definition (art. 371 "jour ouvrable" = Saturday counts? case law says yes for post) must be encoded and cited, not guessed.
+- Regional taxes (précompte immobilier, succession) have per-Region appeal rules.
+- "Jour ouvrable" (does Saturday count?) must be encoded from case law and cited, not guessed.
 - Liability framing: "computed from art. 371; verify on your AER"; who maintains YAML once the LLM proposes edits.
 
 ## Verdict
@@ -53,4 +53,4 @@ Represent procedures (réclamation, plan de paiement, recours judiciaire, ruling
 - https://digitalcommons.law.wne.edu/lawreview/vol39/iss2/3/ (A2J Author) · https://docassemble.org
 - https://www.hiil.org/news/rechtwijzer-why-online-supported-dispute-resolution-is-hard-to-implement/
 - https://blog.forumforthefuture.be/fr/article/circulaire-2023c23-relative-aux-dispositions-modificatives-de-la-loi-du-20.11.2022-en-matiere-de-contentieux-administratif/18100 · https://dbbdefenso.be/app/uploads/2021/11/le-recours-judiciaire-contre-une-imposition-directe.pdf
-- https://fin.belgium.be/fr/particuliers/declaration-impot/avertissement-extrait-de-role/reclamation (CAPTCHA-blocked on fetch; unverified) · local: `myfin_docs/code_et_legislation/article_371_cir_92_revenus_2027_69b5bc97.md`
+- https://fin.belgium.be/fr/particuliers/declaration-impot/avertissement-extrait-de-role/reclamation (CAPTCHA-blocked on fetch; unverified)
