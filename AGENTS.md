@@ -16,6 +16,15 @@ Only ingest documents with **legal or substantive informational value**. See `MY
 
 Common exclusions: Fisconet+ *aperçu documentaire* index pages (body is purely a list of circulaires/jurisprudence references, `## Commentaire` section is empty or `N/A`), training materials (*cours professionnels*), portal navigation pages (*compétences et formulaires*, *guide utilisateur*), newsletters, the *Mémento fiscal*, and any table-of-contents or help page.
 
+## RAG experiments (`experiments/`)
+
+`experiments/EXPERIMENTS.md` is the consolidated log of the retrieval experiments (corpora, question sets,
+BM25 / embedding / hybrid / reranker results, framework assessment, recommendation). Each `experiments/NN_*`
+folder is a standalone `uv` project (not a workspace member) with its own README; the shared harness is
+`experiments/common` (`rag_eval`). Read `EXPERIMENTS.md` before changing the retrieval stack, chunking or
+the validation datasets, and append new runs to `experiments/results/leaderboard.jsonl` through the harness.
+On the 4-core CPU box, run embedding jobs one at a time (`experiments/run_queue.sh`).
+
 ## SDKs and documentation
 
 When working with SDKs or libraries, always consult the **latest official documentation** for the version in use (for example [FastMCP](https://gofastmcp.com/) and the [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)) rather than relying only on older examples or memory.
