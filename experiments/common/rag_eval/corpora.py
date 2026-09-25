@@ -52,6 +52,25 @@ class Question:
     secondary: list[str] = field(default_factory=list)
     meta: dict = field(default_factory=dict)
 
+    @property
+    def split(self) -> str:
+        """Deterministic train/validation split (50/50) from a hash of the question id.
+        Tune anything (fusion weights, k1/b, rerank depth, LTR models, fine-tuning) on
+        ``train`` only; report on ``val``."""
+        return question_split(self.qid)
+
+
+def question_split(qid: str) -> str:
+    import hashlib
+    h = int(hashlib.md5(qid.encode()).hexdigest(), 16)
+    return "train" if h % 2 == 0 else "val"
+
+
+def filter_split(questions: list, split: str | None) -> list:
+    if split in (None, "all"):
+        return list(questions)
+    return [q for q in questions if q.split == split]
+
 
 def load_corpus_a(clean: bool = False) -> list[Doc]:
     """Load the 91 validation markdown docs. ``clean=True`` applies the repo's

@@ -37,8 +37,11 @@ class RunResult:
 
     def summary(self) -> str:
         m = self.metrics
-        return (f"{self.name:60s} MRR={m['mrr']:.3f} nDCG@5={m['ndcg@5']:.3f} "
-                f"H@1={m['hit@1']:.3f} H@5={m['hit@5']:.3f} R@10={m['recall@10']:.3f}")
+        s = (f"{self.name:60s} MRR={m['mrr']:.3f} nDCG@5={m['ndcg@5']:.3f} "
+             f"H@1={m['hit@1']:.3f} H@5={m['hit@5']:.3f} R@10={m['recall@10']:.3f}")
+        if "val_mrr" in m:
+            s += f" | train MRR={m.get('train_mrr', 0):.3f} val MRR={m['val_mrr']:.3f} (n={m.get('val_n')})"
+        return s
 
 
 def _ndcg(ranked: Sequence[str], rel: dict[str, float], k: int) -> float:
@@ -64,6 +67,7 @@ def evaluate_rankings(
     * **nDCG@k** – graded: expected=1.0, secondary=``secondary_weight``.
     """
     per_q: dict = {}
+    split_acc: dict = {"train": [], "val": []}
     mrr = 0.0
     hits = {1: 0, 3: 0, 5: 0, 10: 0}
     rec = {5: 0.0, 10: 0.0}
@@ -85,7 +89,9 @@ def evaluate_rankings(
         for k in ndcg:
             ndcg[k] += _ndcg(ranked, rel, k)
         per_q[q.qid] = {"rank": first, "rr": round(rr, 4), "top5": ranked[:5],
-                        "expected": q.expected}
+                        "expected": q.expected, "split": q.split}
+        split_acc[q.split].append((rr, 1.0 if first and first <= 1 else 0.0, 1.0 if first and first <= 5 else 0.0,
+                                   len(exp & set(ranked[:10])) / max(1, len(exp))))
     metrics = {
         "mrr": mrr / n,
         "ndcg@5": ndcg[5] / n,
@@ -98,5 +104,13 @@ def evaluate_rankings(
         "recall@10": rec[10] / n,
         "n_questions": n,
     }
+    for sp, rows in split_acc.items():
+        if rows:
+            m = len(rows)
+            metrics[f"{sp}_mrr"] = sum(r[0] for r in rows) / m
+            metrics[f"{sp}_hit@1"] = sum(r[1] for r in rows) / m
+            metrics[f"{sp}_hit@5"] = sum(r[2] for r in rows) / m
+            metrics[f"{sp}_recall@10"] = sum(r[3] for r in rows) / m
+            metrics[f"{sp}_n"] = m
     metrics = {k: (round(v, 4) if isinstance(v, float) else v) for k, v in metrics.items()}
     return RunResult(name, corpus, config or {}, metrics, per_q, timing or {})
