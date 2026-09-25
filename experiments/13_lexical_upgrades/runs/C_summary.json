@@ -1217,6 +1217,156 @@
      }
     ]
    ]
+  },
+  "best": {
+   "combos": [
+    [
+     "combo__fields+tok01+num+cues",
+     {
+      "mrr": 0.6829,
+      "ndcg@5": 0.6601,
+      "ndcg@10": 0.6921,
+      "hit@1": 0.5938,
+      "hit@3": 0.75,
+      "hit@5": 0.8125,
+      "hit@10": 0.875,
+      "recall@5": 0.8047,
+      "recall@10": 0.8646,
+      "n_questions": 64,
+      "train_mrr": 0.7638,
+      "train_hit@1": 0.7241,
+      "train_hit@5": 0.8621,
+      "train_recall@10": 0.8621,
+      "train_n": 29,
+      "val_mrr": 0.6159,
+      "val_hit@1": 0.4857,
+      "val_hit@5": 0.7714,
+      "val_recall@10": 0.8667,
+      "val_n": 35
+     }
+    ],
+    [
+     "combo__fields+tok01+num+cues+rm3_k3_m10_lam0.5",
+     {
+      "mrr": 0.5486,
+      "ndcg@5": 0.5763,
+      "ndcg@10": 0.6126,
+      "hit@1": 0.4062,
+      "hit@3": 0.625,
+      "hit@5": 0.75,
+      "hit@10": 0.8438,
+      "recall@5": 0.7448,
+      "recall@10": 0.8438,
+      "n_questions": 64,
+      "train_mrr": 0.5807,
+      "train_hit@1": 0.4138,
+      "train_hit@5": 0.8276,
+      "train_recall@10": 0.8966,
+      "train_n": 29,
+      "val_mrr": 0.5221,
+      "val_hit@1": 0.4,
+      "val_hit@5": 0.6857,
+      "val_recall@10": 0.8,
+      "val_n": 35
+     }
+    ],
+    [
+     "combo__fields+tok01+num+cues+rm3_k3_m10_lam0.7",
+     {
+      "mrr": 0.5854,
+      "ndcg@5": 0.5963,
+      "ndcg@10": 0.6448,
+      "hit@1": 0.4375,
+      "hit@3": 0.6719,
+      "hit@5": 0.7812,
+      "hit@10": 0.8906,
+      "recall@5": 0.776,
+      "recall@10": 0.8906,
+      "n_questions": 64,
+      "train_mrr": 0.637,
+      "train_hit@1": 0.4828,
+      "train_hit@5": 0.8276,
+      "train_recall@10": 0.931,
+      "train_n": 29,
+      "val_mrr": 0.5427,
+      "val_hit@1": 0.4,
+      "val_hit@5": 0.7429,
+      "val_recall@10": 0.8571,
+      "val_n": 35
+     }
+    ],
+    [
+     "combo__fields+tok01+num+cues+pmi0.3",
+     {
+      "mrr": 0.6334,
+      "ndcg@5": 0.6219,
+      "ndcg@10": 0.6579,
+      "hit@1": 0.5312,
+      "hit@3": 0.7031,
+      "hit@5": 0.7969,
+      "hit@10": 0.8594,
+      "recall@5": 0.763,
+      "recall@10": 0.8437,
+      "n_questions": 64,
+      "train_mrr": 0.74,
+      "train_hit@1": 0.6897,
+      "train_hit@5": 0.8276,
+      "train_recall@10": 0.8621,
+      "train_n": 29,
+      "val_mrr": 0.545,
+      "val_hit@1": 0.4,
+      "val_hit@5": 0.7714,
+      "val_recall@10": 0.8286,
+      "val_n": 35
+     }
+    ]
+   ],
+   "best_combo": "combo__fields+tok01+num+cues",
+   "best_combo_metrics": {
+    "mrr": 0.6829,
+    "ndcg@5": 0.6601,
+    "ndcg@10": 0.6921,
+    "hit@1": 0.5938,
+    "hit@3": 0.75,
+    "hit@5": 0.8125,
+    "hit@10": 0.875,
+    "recall@5": 0.8047,
+    "recall@10": 0.8646,
+    "n_questions": 64,
+    "train_mrr": 0.7638,
+    "train_hit@1": 0.7241,
+    "train_hit@5": 0.8621,
+    "train_recall@10": 0.8621,
+    "train_n": 29,
+    "val_mrr": 0.6159,
+    "val_hit@1": 0.4857,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8667,
+    "val_n": 35
+   },
+   "final": "combo__fields+tok01+num+cues+collapse__groupaware",
+   "final_metrics": {
+    "mrr": 0.6837,
+    "ndcg@5": 0.6708,
+    "ndcg@10": 0.6967,
+    "hit@1": 0.5938,
+    "hit@3": 0.75,
+    "hit@5": 0.8125,
+    "hit@10": 0.875,
+    "recall@5": 0.8125,
+    "recall@10": 0.8646,
+    "n_questions": 64,
+    "train_mrr": 0.7638,
+    "train_hit@1": 0.7241,
+    "train_hit@5": 0.8621,
+    "train_recall@10": 0.8621,
+    "train_n": 29,
+    "val_mrr": 0.6174,
+    "val_hit@1": 0.4857,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8667,
+    "val_n": 35
+   }
   }
  },
  "baseline_tok03": {
@@ -1268,5 +1418,455 @@
    "val_recall@10": 0.8429,
    "val_n": 35
   }
- }
+ },
+ "per_question": [
+  {
+   "qid": "C1",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis pensionné, je vis en Belgique et je touche une rente AVS de Suisse. Comment cette "
+  },
+  {
+   "qid": "C2",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quelles sont les nouvelles dépenses non admises à l'impôt des sociétés (taxe bancaire annu"
+  },
+  {
+   "qid": "C3",
+   "split": "train",
+   "base_rank": 6,
+   "final_rank": 1,
+   "question": "Ma société dépose des déclarations TVA trimestrielles. À partir de quel chiffre d'affaires"
+  },
+  {
+   "qid": "C4",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis intermédiaire de joueurs de foot professionnels : mes commissions payées par le cl"
+  },
+  {
+   "qid": "C5",
+   "split": "train",
+   "base_rank": 39,
+   "final_rank": null,
+   "question": "En réglant la succession de ma tante, on a découvert un vieux compte d'épargne dont la ban"
+  },
+  {
+   "qid": "C6",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Ma société belge a une filiale au Japon qui doit payer la nouvelle surtaxe japonaise finan"
+  },
+  {
+   "qid": "C7",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je fais installer une pompe à chaleur en 2026 dans ma maison construite il y a 6 ans. Puis"
+  },
+  {
+   "qid": "C8",
+   "split": "val",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Notre société belge met une voiture de société à disposition d'un salarié qui habite aux P"
+  },
+  {
+   "qid": "C9",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Notre groupe veut instaurer une prime bénéficiaire pour les travailleurs de plusieurs soci"
+  },
+  {
+   "qid": "C10",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Mon mari est parti s'installer en France pour son travail et notre vie de famille s'organi"
+  },
+  {
+   "qid": "C11",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Dans un projet de Community Land Trust à Bruxelles, une fondation achète le tréfonds et de"
+  },
+  {
+   "qid": "C12",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "J'habite en Wallonie et je veux léguer par testament une partie de mes biens à une ASBL. Q"
+  },
+  {
+   "qid": "C13",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Avec mon frère et ma sœur, nous possédons des biens en indivision et voulons signer une cl"
+  },
+  {
+   "qid": "C14",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Mon grand-père, qui vit en France, veut faire devant notaire français une donation-partage"
+  },
+  {
+   "qid": "C15",
+   "split": "val",
+   "base_rank": 2,
+   "final_rank": 1,
+   "question": "J'ai acheté mon logement à Bruxelles avec l'abattement sur les droits d'enregistrement, ma"
+  },
+  {
+   "qid": "C16",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 5,
+   "question": "Ma petite remorque de moins de 750 kg n'a pas besoin de plaque d'immatriculation en Wallon"
+  },
+  {
+   "qid": "C17",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Qu'est-ce que le legs en duo et la Région wallonne compte-t-elle le supprimer comme l'a fa"
+  },
+  {
+   "qid": "C18",
+   "split": "train",
+   "base_rank": 3,
+   "final_rank": 4,
+   "question": "J'ai acheté un appartement à Bruxelles et je le revends moins de deux ans après. Puis-je r"
+  },
+  {
+   "qid": "C19",
+   "split": "val",
+   "base_rank": 12,
+   "final_rank": 11,
+   "question": "Ma société détient l'usufruit de mon immeuble ; si nous signons un avenant pour allonger l"
+  },
+  {
+   "qid": "C20",
+   "split": "val",
+   "base_rank": 4,
+   "final_rank": 3,
+   "question": "J'ai été adopté par adoption simple. Au décès de mon parent adoptif en Wallonie, est-ce qu"
+  },
+  {
+   "qid": "C21",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis commerçant taxé au forfait et le régime forfaitaire disparaît fin 2027. Comment do"
+  },
+  {
+   "qid": "C22",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je cultive des pommiers et des poiriers en Wallonie et je suis imposé au forfait. Quel bén"
+  },
+  {
+   "qid": "C23",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis batelier indépendant avec un bateau de 400 tonnes pour marchandises sèches. Commen"
+  },
+  {
+   "qid": "C24",
+   "split": "train",
+   "base_rank": 5,
+   "final_rank": 5,
+   "question": "Mon compte-titres a une valeur moyenne supérieure à 1 million d'euros. Quelle taxe annuell"
+  },
+  {
+   "qid": "C25",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 14,
+   "question": "Je passe mes ordres d'achat d'actions via un courtier en ligne établi à l'étranger. Est-ce"
+  },
+  {
+   "qid": "C26",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "J'ai travaillé aux États-Unis et j'ai un plan 401(k) et un Roth IRA ; je vis maintenant en"
+  },
+  {
+   "qid": "C27",
+   "split": "val",
+   "base_rank": 15,
+   "final_rank": 9,
+   "question": "Je suis frontalier belge, salarié au Luxembourg, et je fais parfois du télétravail depuis "
+  },
+  {
+   "qid": "C28",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Pendant le confinement Covid, je travaillais depuis mon domicile en Belgique pour mon empl"
+  },
+  {
+   "qid": "C29",
+   "split": "train",
+   "base_rank": 6,
+   "final_rank": 1,
+   "question": "Ma société belge a un établissement stable en Suisse. Depuis le dernier avenant à la conve"
+  },
+  {
+   "qid": "C30",
+   "split": "val",
+   "base_rank": 2,
+   "final_rank": 2,
+   "question": "Combien coûte le droit à payer pour introduire une demande de nationalité belge en 2026, e"
+  },
+  {
+   "qid": "C31",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je travaille dans une banque : comment devons-nous transmettre au SPF Finances les informa"
+  },
+  {
+   "qid": "C32",
+   "split": "train",
+   "base_rank": 3,
+   "final_rank": 1,
+   "question": "J'habite à Bruxelles et ma voiture fait 7 CV fiscaux. Quel est le montant de la taxe de ci"
+  },
+  {
+   "qid": "C33",
+   "split": "train",
+   "base_rank": 15,
+   "final_rank": 3,
+   "question": "Je suis graphiste indépendant et je perçois des droits d'auteur : pour mes revenus de 2026"
+  },
+  {
+   "qid": "C34",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Quel pourcentage des revenus tirés d'un brevet ou d'un logiciel une société peut-elle dédu"
+  },
+  {
+   "qid": "C35",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Ma société a payé des honoraires à un consultant sans établir de fiche fiscale à son nom :"
+  },
+  {
+   "qid": "C36",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Notre entreprise emploie des chercheurs titulaires d'un doctorat ou d'un master sur des pr"
+  },
+  {
+   "qid": "C37",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis prestataire de services sur crypto-actifs et je n'ai pas encore fait l'enregistrem"
+  },
+  {
+   "qid": "C38",
+   "split": "val",
+   "base_rank": 4,
+   "final_rank": 3,
+   "question": "J'ai fait construire une maison à titre privé et je souhaite la revendre moins de deux ans"
+  },
+  {
+   "qid": "C39",
+   "split": "val",
+   "base_rank": 3,
+   "final_rank": 2,
+   "question": "Je suis gérant d'une SRL qui a plusieurs fois omis de payer le précompte professionnel et "
+  },
+  {
+   "qid": "C40",
+   "split": "val",
+   "base_rank": 43,
+   "final_rank": 6,
+   "question": "Qu'est-ce que l'abus fiscal au sens du CIR 92 et sur qui repose la charge de la preuve lor"
+  },
+  {
+   "qid": "C41",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je revends des voitures d'occasion achetées à des particuliers : comment fonctionne le rég"
+  },
+  {
+   "qid": "C42",
+   "split": "val",
+   "base_rank": 45,
+   "final_rank": null,
+   "question": "Notre club de sport géré par une ASBL fait payer l'accès à sa salle et à ses terrains aux "
+  },
+  {
+   "qid": "C43",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Les loteries, paris et autres jeux de hasard ou d'argent que j'exploite sont-ils exemptés "
+  },
+  {
+   "qid": "C44",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis agriculteur sous le régime particulier agricole de la TVA : dois-je facturer la TV"
+  },
+  {
+   "qid": "C45",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis écrivaine et je signe un contrat avec une maison d'édition pour la publication de "
+  },
+  {
+   "qid": "C46",
+   "split": "val",
+   "base_rank": 4,
+   "final_rank": 3,
+   "question": "Je suis associé d'une société établie en Wallonie et je lui rachète un immeuble sur lequel"
+  },
+  {
+   "qid": "C47",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 7,
+   "question": "Mon oncle, domicilié à Bruxelles, m'a légué par testament une somme précise (legs particul"
+  },
+  {
+   "qid": "C48",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 8,
+   "question": "Ma grand-mère par alliance (la seconde épouse de mon grand-père), domiciliée en Flandre, m"
+  },
+  {
+   "qid": "C49",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Un testament désigne une association comme légataire universelle à charge pour elle de ver"
+  },
+  {
+   "qid": "C50",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 2,
+   "question": "J'ai voulu faire enregistrer en ligne via MyMinfin un don bancaire reçu de mon père, mais "
+  },
+  {
+   "qid": "C51",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 1,
+   "question": "Nous avons hébergé pendant des années une personne âgée qui, avant son décès, nous a versé"
+  },
+  {
+   "qid": "C52",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je conduis chaque jour mon fils handicapé à l'école avec la voiture familiale puis je repa"
+  },
+  {
+   "qid": "C53",
+   "split": "train",
+   "base_rank": null,
+   "final_rank": null,
+   "question": "Je vis en Wallonie mais je roule avec une voiture immatriculée à l'étranger au nom d'un pr"
+  },
+  {
+   "qid": "C54",
+   "split": "train",
+   "base_rank": 1,
+   "final_rank": 3,
+   "question": "La taxe sur les comptes-titres a été annulée par la Cour constitutionnelle mais ses effets"
+  },
+  {
+   "qid": "C55",
+   "split": "val",
+   "base_rank": 3,
+   "final_rank": 2,
+   "question": "Ma mère, qui habitait en Allemagne, possédait un appartement en Belgique grevé d'un crédit"
+  },
+  {
+   "qid": "C56",
+   "split": "train",
+   "base_rank": 24,
+   "final_rank": 29,
+   "question": "Je passe mes ordres de bourse via un courtier en ligne établi dans un autre pays de l'UE :"
+  },
+  {
+   "qid": "C57",
+   "split": "val",
+   "base_rank": 8,
+   "final_rank": 5,
+   "question": "Mon entreprise offre à ses clients des petits cadeaux de fin d'année : en dessous de quel "
+  },
+  {
+   "qid": "C58",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Nous recrutons un cadre venant de l'étranger sous le régime spécial des contribuables impa"
+  },
+  {
+   "qid": "C59",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 1,
+   "question": "Je suis fruiticulteur et j'emploie des travailleurs occasionnels : à combien s'élève la di"
+  },
+  {
+   "qid": "C60",
+   "split": "val",
+   "base_rank": 2,
+   "final_rank": 2,
+   "question": "En 2026, je veux régulariser auprès du Vlaamse Belastingdienst des avoirs hérités que je n"
+  },
+  {
+   "qid": "C61",
+   "split": "train",
+   "base_rank": 2,
+   "final_rank": 1,
+   "question": "Mon père, domicilié à Bruxelles, m'a transmis à son décès les parts de sa PME : quelles at"
+  },
+  {
+   "qid": "C62",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Un nouveau plan d'exécution spatial fait passer ma parcelle en Flandre d'une zone forestiè"
+  },
+  {
+   "qid": "C63",
+   "split": "val",
+   "base_rank": 1,
+   "final_rank": 1,
+   "question": "Je suis pensionné, je vis en Belgique et je touche une pension complémentaire d'un ancien "
+  },
+  {
+   "qid": "C64",
+   "split": "val",
+   "base_rank": 4,
+   "final_rank": 1,
+   "question": "Quelles opérations d'une société de capitaux (apports de capital, émission d'actions, rest"
+  }
+ ]
 }
