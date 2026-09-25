@@ -6,15 +6,15 @@ Run two stores side by side: the text index (MRR ≈ 0.70) and a *fact store* bu
 
 **Why it fits this project**
 
-- Amount/rate/threshold questions are 10–15 % of the sets, the one class where embedders are near chance (idea 14) and LLMs mis-read tables (TaxCalcBench); a lookup is deterministic and CPU-cheap.
+- Amount/rate/threshold questions are 10–15 % of the sets, where embedders are near chance (idea 14) and LLMs mis-read tables (TaxCalcBench); a lookup is deterministic and CPU-cheap.
 - The tables are small and regular (~120 avis rows × 35 years, bracket tables, a few thousand definitions): a dozen parameterised queries cover nearly all structured questions — no general text-to-SQL needed now.
-- `get_amount`, `lookup_rate`, `define_term` become MCP tools beside `search`.
+- `get_amount`, `lookup_rate`, `define_term` become MCP tools.
 
 **Evidence**
 
-- TAT-QA (ACL 2021): hybrid table+text finance QA; best model 58.0 F1 vs 90.8 human.
+- TAT-QA (ACL 2021): table+text finance QA; best model 58.0 F1 vs 90.8 human.
 - TAG (Aug 2024): on TAG-Bench (80 BIRD-derived queries) "standard methods answer no more than 20 %"; pure Text2SQL and pure RAG both fail when a question needs both stores (from memory, unverified: Text2SQL ≈ 17 %, RAG ≈ 0 %).
-- BIRD (NeurIPS 2023): ChatGPT 40.1 % vs human 93.0 %; failures stem from dirty values, external knowledge, ambiguity — all present in tax tables. Leaderboard: best 82.4 %; **Align-SQL-3B 66.4 %, SLM-SQL + Qwen2.5-Coder-0.5B 61.8 %**; OmniSQL-7B 63.9 % BIRD-dev / 87.9 % Spider-test vs base Qwen2.5-Coder-7B 50.9 / 82.2; Prem-1B-SQL 51.5 %, "CPU when quantised". On our narrow five-table schema with few-shot slugs, higher is plausible but unmeasured.
+- BIRD (NeurIPS 2023): ChatGPT 40.1 % vs human 93.0 %; failures: dirty values, external knowledge, ambiguity — all present in tax tables. Leaderboard: best 82.4 %; **Align-SQL-3B 66.4 %, SLM-SQL + Qwen2.5-Coder-0.5B 61.8 %**; OmniSQL-7B 63.9 % BIRD-dev / 87.9 % Spider-test vs base Qwen2.5-Coder-7B 50.9 / 82.2; Prem-1B-SQL 51.5 %, "CPU when quantised". On our narrow five-table schema with few-shot slugs, higher is plausible but unmeasured.
 - AMBROSIA (NeurIPS 2024): top LLMs fail to detect scope/attachment/vagueness ambiguity — "which year, brut or indexé" is exactly this (mitigation: idea 50).
 - CypherBench (Dec 2024): text-to-Cypher over large graphs is less mature than SQL; our citation graph fits SQLite recursive CTEs.
 - TableRAG (NeurIPS 2024): schema + cell retrieval beats whole-table prompting — also serialise rows into the text index (idea 38) so facts stay reachable when routing fails.
@@ -26,7 +26,7 @@ Run two stores side by side: the text index (MRR ≈ 0.70) and a *fact store* bu
 2. Router v0, no LLM: lexicon slots — amount cues (*montant, plafond, maximum, taux, tranche, %*), year, region, parameter alias (idea 33) → template; otherwise text. Low confidence → run both.
 3. SQL hits become pseudo-chunks (`row_text` + citation) merged into the RRF list, so the harness scores them with MRR/nDCG plus exact-answer accuracy on ~30 amount questions.
 4. With DeepSeek/≤7B: few-shot text-to-SQL over whitelisted read-only views, `EXPLAIN` check, template fallback on parse error.
-5. Log unrouted questions to grow the alias table.
+5. Log unrouted questions to grow aliases.
 
 **Expected gain and cost**
 
@@ -35,9 +35,9 @@ Overall MRR +0.02–0.04 (only the numeric subset moves); exact-answer accuracy 
 **Risks / open questions**
 
 - Schema drift: parameter identity shifts across years (2026 IPP reform, regional splits) — needs slug aliases with validity ranges (idea 41) or the wrong row is returned silently.
-- Ambiguous parameter names (*plafond* of which article? exercice vs revenus?) — expose assumed slots (idea 50) rather than guess.
-- Over-routing: a textual question containing a number sent to SQL yields a confident irrelevant row; run-both fallback and the eval gate this.
-- No public benchmark resembles our schema; gain figures are extrapolations.
+- Ambiguous parameter names (*plafond* of which article? exercice vs revenus?) — expose assumed slots (idea 50).
+- Over-routing: a textual question with a number sent to SQL yields a confident irrelevant row; run-both fallback and the eval gate this.
+- No public benchmark resembles our schema; gains are extrapolations.
 
 **Verdict**
 
@@ -55,4 +55,4 @@ Overall MRR +0.02–0.04 (only the numeric subset moves); exact-answer accuracy 
 - TableRAG https://arxiv.org/abs/2410.04739
 - DB-GPT https://arxiv.org/abs/2312.17449
 - LlamaIndex https://developers.llamaindex.ai/python/examples/query_engine/SQLAutoVectorQueryEngine/ (404 at fetch)
-- Related notes: ideas 14, 17, 33, 38, 39, 41, 50
+- Related: ideas 14, 17, 33, 38, 39, 41, 50
