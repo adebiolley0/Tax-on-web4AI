@@ -110,6 +110,176 @@
     "val_n": 35
    }
   },
+  "+quality+zoning": {
+   "config": [
+    "zoned",
+    true,
+    null,
+    false
+   ],
+   "metrics": {
+    "mrr": 0.6641,
+    "ndcg@5": 0.6507,
+    "ndcg@10": 0.6764,
+    "hit@1": 0.5625,
+    "hit@3": 0.75,
+    "hit@5": 0.7969,
+    "hit@10": 0.875,
+    "recall@5": 0.7969,
+    "recall@10": 0.8646,
+    "n_questions": 64,
+    "train_mrr": 0.6825,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.8276,
+    "train_recall@10": 0.8966,
+    "train_n": 29,
+    "val_mrr": 0.6489,
+    "val_hit@1": 0.5429,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8381,
+    "val_n": 35
+   }
+  },
+  "+quality+zoning+canon": {
+   "config": [
+    "zoned",
+    true,
+    "work",
+    false
+   ],
+   "metrics": {
+    "mrr": 0.6651,
+    "ndcg@5": 0.6201,
+    "ndcg@10": 0.6479,
+    "hit@1": 0.5625,
+    "hit@3": 0.75,
+    "hit@5": 0.7969,
+    "hit@10": 0.875,
+    "recall@5": 0.7526,
+    "recall@10": 0.8203,
+    "n_questions": 64,
+    "train_mrr": 0.6834,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.8276,
+    "train_recall@10": 0.8391,
+    "train_n": 29,
+    "val_mrr": 0.6499,
+    "val_hit@1": 0.5429,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8048,
+    "val_n": 35
+   }
+  },
+  "+quality+zoning+canon__editionaware": {
+   "config": null,
+   "metrics": {
+    "mrr": 0.6651,
+    "ndcg@5": 0.6493,
+    "ndcg@10": 0.6789,
+    "hit@1": 0.5625,
+    "hit@3": 0.75,
+    "hit@5": 0.7969,
+    "hit@10": 0.875,
+    "recall@5": 0.7969,
+    "recall@10": 0.8646,
+    "n_questions": 64,
+    "train_mrr": 0.6834,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.8276,
+    "train_recall@10": 0.8966,
+    "train_n": 29,
+    "val_mrr": 0.6499,
+    "val_hit@1": 0.5429,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8381,
+    "val_n": 35
+   }
+  },
+  "full": {
+   "config": [
+    "zoned",
+    true,
+    "work",
+    true
+   ],
+   "metrics": {
+    "mrr": 0.6578,
+    "ndcg@5": 0.6156,
+    "ndcg@10": 0.6514,
+    "hit@1": 0.5312,
+    "hit@3": 0.7656,
+    "hit@5": 0.7812,
+    "hit@10": 0.8906,
+    "recall@5": 0.737,
+    "recall@10": 0.8255,
+    "n_questions": 64,
+    "train_mrr": 0.6833,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.7931,
+    "train_recall@10": 0.8391,
+    "train_n": 29,
+    "val_mrr": 0.6366,
+    "val_hit@1": 0.4857,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8143,
+    "val_n": 35
+   }
+  },
+  "full__editionaware": {
+   "config": null,
+   "metrics": {
+    "mrr": 0.6578,
+    "ndcg@5": 0.6448,
+    "ndcg@10": 0.6849,
+    "hit@1": 0.5312,
+    "hit@3": 0.7656,
+    "hit@5": 0.7812,
+    "hit@10": 0.8906,
+    "recall@5": 0.7812,
+    "recall@10": 0.8802,
+    "n_questions": 64,
+    "train_mrr": 0.6833,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.7931,
+    "train_recall@10": 0.8966,
+    "train_n": 29,
+    "val_mrr": 0.6366,
+    "val_hit@1": 0.4857,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8667,
+    "val_n": 35
+   }
+  },
+  "+zoning_only": {
+   "config": [
+    "zoned",
+    false,
+    null,
+    false
+   ],
+   "metrics": {
+    "mrr": 0.6641,
+    "ndcg@5": 0.6507,
+    "ndcg@10": 0.6764,
+    "hit@1": 0.5625,
+    "hit@3": 0.75,
+    "hit@5": 0.7969,
+    "hit@10": 0.875,
+    "recall@5": 0.7969,
+    "recall@10": 0.8646,
+    "n_questions": 64,
+    "train_mrr": 0.6825,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.8276,
+    "train_recall@10": 0.8966,
+    "train_n": 29,
+    "val_mrr": 0.6489,
+    "val_hit@1": 0.5429,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8381,
+    "val_n": 35
+   }
+  },
   "+canon_only": {
    "config": [
     "raw",
@@ -249,6 +419,61 @@
     "val_recall@10": 0.8238,
     "val_n": 35
    }
+  },
+  "full_twin": {
+   "config": [
+    "zoned",
+    true,
+    "twin",
+    true
+   ],
+   "metrics": {
+    "mrr": 0.658,
+    "ndcg@5": 0.6095,
+    "ndcg@10": 0.6437,
+    "hit@1": 0.5312,
+    "hit@3": 0.7656,
+    "hit@5": 0.7812,
+    "hit@10": 0.8906,
+    "recall@5": 0.7292,
+    "recall@10": 0.8177,
+    "n_questions": 64,
+    "train_mrr": 0.6833,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.7931,
+    "train_recall@10": 0.8391,
+    "train_n": 29,
+    "val_mrr": 0.6371,
+    "val_hit@1": 0.4857,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8,
+    "val_n": 35
+   }
+  },
+  "full_twin__editionaware": {
+   "config": null,
+   "metrics": {
+    "mrr": 0.658,
+    "ndcg@5": 0.6388,
+    "ndcg@10": 0.6773,
+    "hit@1": 0.5312,
+    "hit@3": 0.7656,
+    "hit@5": 0.7812,
+    "hit@10": 0.8906,
+    "recall@5": 0.7734,
+    "recall@10": 0.8724,
+    "n_questions": 64,
+    "train_mrr": 0.6833,
+    "train_hit@1": 0.5862,
+    "train_hit@5": 0.7931,
+    "train_recall@10": 0.8966,
+    "train_n": 29,
+    "val_mrr": 0.6371,
+    "val_hit@1": 0.4857,
+    "val_hit@5": 0.7714,
+    "val_recall@10": 0.8524,
+    "val_n": 35
+   }
   }
  },
  "diag_means": {
@@ -292,6 +517,46 @@
    "n_collapsed": 0.0,
    "hard_filter_removed": 0.0
   },
+  "+quality+zoning": {
+   "n_lex": 2000.0,
+   "n_dense": 2000.0,
+   "n_union": 3525.140625,
+   "n_docs": 1296.96875,
+   "n_after_quality": 1268.359375,
+   "n_boosted": 0.0,
+   "n_collapsed": 0.0,
+   "hard_filter_removed": 0.0
+  },
+  "+quality+zoning+canon": {
+   "n_lex": 2000.0,
+   "n_dense": 2000.0,
+   "n_union": 3525.140625,
+   "n_docs": 1296.96875,
+   "n_after_quality": 1268.359375,
+   "n_boosted": 0.0,
+   "n_collapsed": 112.765625,
+   "hard_filter_removed": 0.0
+  },
+  "full": {
+   "n_lex": 2000.0,
+   "n_dense": 2000.0,
+   "n_union": 3525.140625,
+   "n_docs": 1296.96875,
+   "n_after_quality": 1268.359375,
+   "n_boosted": 624.1875,
+   "n_collapsed": 112.65625,
+   "hard_filter_removed": 30.265625
+  },
+  "+zoning_only": {
+   "n_lex": 2000.0,
+   "n_dense": 2000.0,
+   "n_union": 3525.140625,
+   "n_docs": 1296.96875,
+   "n_after_quality": 1296.96875,
+   "n_boosted": 0.0,
+   "n_collapsed": 0.0,
+   "hard_filter_removed": 0.0
+  },
   "+canon_only": {
    "n_lex": 2000.0,
    "n_dense": 2000.0,
@@ -321,7 +586,17 @@
    "n_boosted": 0.0,
    "n_collapsed": 133.546875,
    "hard_filter_removed": 0.0
+  },
+  "full_twin": {
+   "n_lex": 2000.0,
+   "n_dense": 2000.0,
+   "n_union": 3525.140625,
+   "n_docs": 1296.96875,
+   "n_after_quality": 1268.359375,
+   "n_boosted": 624.1875,
+   "n_collapsed": 126.1875,
+   "hard_filter_removed": 30.265625
   }
  },
- "n_distinct_pairs": 1296
+ "n_distinct_pairs": 1815
 }
