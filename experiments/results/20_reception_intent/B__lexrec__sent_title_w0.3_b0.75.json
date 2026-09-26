@@ -1,0 +1,672 @@
+{
+ "name": "lexrec__sent+title_w0.3_b0.75",
+ "corpus": "B",
+ "config": {
+  "stage": "lexical BM25F",
+  "fields": {
+   "title": 8.0,
+   "heading": 3.0,
+   "body": 1.0,
+   "cue": 1.0,
+   "rec_sent+title": 0.3
+  },
+  "k1": 1.5,
+  "b": {
+   "title": 0.3,
+   "heading": 0.3,
+   "body": 0.75,
+   "rec_sent+title": 0.75
+  },
+  "reception": "sent+title",
+  "reception_weight": 0.3,
+  "reception_b": 0.75,
+  "cap_sentences": 40,
+  "cap_titles": 10
+ },
+ "metrics": {
+  "mrr": 0.5636,
+  "ndcg@5": 0.4887,
+  "ndcg@10": 0.5075,
+  "hit@1": 0.475,
+  "hit@3": 0.675,
+  "hit@5": 0.675,
+  "hit@10": 0.7,
+  "recall@5": 0.675,
+  "recall@10": 0.7,
+  "n_questions": 40,
+  "train_mrr": 0.6323,
+  "train_hit@1": 0.5417,
+  "train_hit@5": 0.75,
+  "train_recall@10": 0.75,
+  "train_n": 24,
+  "val_mrr": 0.4605,
+  "val_hit@1": 0.375,
+  "val_hit@5": 0.5625,
+  "val_recall@10": 0.625,
+  "val_n": 16
+ },
+ "per_question": {
+  "B1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:130",
+    "cir92:96/2",
+    "cir92:171",
+    "cir92:134",
+    "cir92:51"
+   ],
+   "expected": [
+    "cir92:130"
+   ],
+   "split": "val"
+  },
+  "B2": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92:134",
+    "cir92:133",
+    "cir92:131",
+    "cir92:132bis",
+    "cir92:136"
+   ],
+   "expected": [
+    "cir92:131"
+   ],
+   "split": "train"
+  },
+  "B3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:51",
+    "cir92:52",
+    "cir92:52bis",
+    "arcir92:258",
+    "cir92:50"
+   ],
+   "expected": [
+    "cir92:51"
+   ],
+   "split": "train"
+  },
+  "B4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:145/8",
+    "cir92:145/10",
+    "cir92:145/7",
+    "cir92:34",
+    "cir92:145/3"
+   ],
+   "expected": [
+    "cir92:145/8"
+   ],
+   "split": "train"
+  },
+  "B5": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "cir92:203",
+    "cir92:215",
+    "cir92:198",
+    "cir92:289quater",
+    "cir92:171"
+   ],
+   "expected": [
+    "cir92:215"
+   ],
+   "split": "train"
+  },
+  "B6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:202",
+    "cir92:203",
+    "arcir92:117",
+    "arcir92:106",
+    "cir92:2"
+   ],
+   "expected": [
+    "cir92:202"
+   ],
+   "split": "val"
+  },
+  "B7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:69",
+    "cir92:201",
+    "arcir92:48",
+    "cir92:69/1",
+    "cir92:69/2"
+   ],
+   "expected": [
+    "cir92:69"
+   ],
+   "split": "train"
+  },
+  "B8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:269",
+    "cir92:287",
+    "arcir92:206/1",
+    "arcir92:106",
+    "cir92:281/1"
+   ],
+   "expected": [
+    "cir92:269"
+   ],
+   "split": "train"
+  },
+  "B9": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "ctva:8bis",
+    "ctva:22ter",
+    "ctva:4",
+    "ctva:6",
+    "artva:AR31:4"
+   ],
+   "expected": [
+    "ctva:4"
+   ],
+   "split": "train"
+  },
+  "B10": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "artva:AR20:1",
+    "artva:AR20:1quater/1",
+    "artva:AR20:3",
+    "ctva:36",
+    "ctva:27"
+   ],
+   "expected": [
+    "artva:AR20:1"
+   ],
+   "split": "train"
+  },
+  "B11": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "ctva:56decies",
+    "ctva:56quinquies",
+    "ctva:56ter",
+    "ctva:56bis",
+    "ctva:56nonies"
+   ],
+   "expected": [
+    "ctva:56ter"
+   ],
+   "split": "val"
+  },
+  "B12": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "artva:AR1:5",
+    "artva:AR1:13",
+    "artva:AR1:9",
+    "ctva:54",
+    "artva:AR18:2"
+   ],
+   "expected": [
+    "artva:AR1:5"
+   ],
+   "split": "train"
+  },
+  "B13": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:371",
+    "cir92:373",
+    "cbpf:100",
+    "cir92:413",
+    "cbpf:32"
+   ],
+   "expected": [
+    "cir92:371"
+   ],
+   "split": "val"
+  },
+  "B14": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92:444",
+    "cir92:358",
+    "cir92:354",
+    "arcir92:225",
+    "cir92:311"
+   ],
+   "expected": [
+    "cir92:354"
+   ],
+   "split": "val"
+  },
+  "B15": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "cir92:275/5",
+    "cir92:275",
+    "cir92:275/4",
+    "cir92:312",
+    "arcir92:952"
+   ],
+   "expected": [
+    "arcir92:88"
+   ],
+   "split": "val"
+  },
+  "B16": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:163",
+    "cir92:38/1",
+    "cir92:176",
+    "cir92:100",
+    "cta_wal:98"
+   ],
+   "expected": [
+    "cir92:145/33"
+   ],
+   "split": "val"
+  },
+  "B17": {
+   "rank": 11,
+   "rr": 0.0909,
+   "top5": [
+    "cir92:2",
+    "cir92:132",
+    "cir92:35",
+    "cir92:126",
+    "cir92:132bis"
+   ],
+   "expected": [
+    "cir92:104"
+   ],
+   "split": "train"
+  },
+  "B18": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "arcir92:258",
+    "cir92:66",
+    "cir92:275/1",
+    "cta_wal:10",
+    "cir92:275/5"
+   ],
+   "expected": [
+    "cir92:36"
+   ],
+   "split": "train"
+  },
+  "B19": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:38/1",
+    "cir92:38",
+    "cir92:145/21",
+    "arcir92:6310",
+    "avcf:3.4.6.0.1"
+   ],
+   "expected": [
+    "cir92:38/1"
+   ],
+   "split": "val"
+  },
+  "B20": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:132",
+    "cir92:2",
+    "cta_wal:98",
+    "cir92:136",
+    "cir92:132bis"
+   ],
+   "expected": [
+    "cir92:132"
+   ],
+   "split": "train"
+  },
+  "B21": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "cenr_bxl:46bis",
+    "cir92:7",
+    "cir92:262",
+    "cir92:473",
+    "arcir92:4"
+   ],
+   "expected": [
+    "cir92:7"
+   ],
+   "split": "val"
+  },
+  "B22": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "artva:AR45:1",
+    "cir92:90",
+    "cir92:135",
+    "artva:AR7:41",
+    "cir92:234"
+   ],
+   "expected": [
+    "cir92:90"
+   ],
+   "split": "train"
+  },
+  "B23": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:202",
+    "cir92:52bis",
+    "artva:AR2bis:2",
+    "cir92:206/4",
+    "arcir92:182"
+   ],
+   "expected": [
+    "cir92:215"
+   ],
+   "split": "val"
+  },
+  "B24": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:66",
+    "cir92:65",
+    "cta_wal:98",
+    "cir92:550",
+    "cir92:198bis"
+   ],
+   "expected": [
+    "cir92:66"
+   ],
+   "split": "train"
+  },
+  "B25": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "arcir92:18",
+    "arcir92:257",
+    "ue282:7",
+    "cir92:36",
+    "arcir92:258"
+   ],
+   "expected": [
+    "arcir92:18"
+   ],
+   "split": "train"
+  },
+  "B26": {
+   "rank": 27,
+   "rr": 0.037,
+   "top5": [
+    "ctva:59",
+    "ctva:53",
+    "ctva:61",
+    "artva:AR1:13ter",
+    "ctva:56"
+   ],
+   "expected": [
+    "ctva:44"
+   ],
+   "split": "val"
+  },
+  "B27": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "artva:AR20:3",
+    "artva:AR20:1quater/1",
+    "artva:AR3:11",
+    "ctva:44",
+    "ctva:64"
+   ],
+   "expected": [
+    "artva:AR20:3"
+   ],
+   "split": "val"
+  },
+  "B28": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:414",
+    "cir92:415/1",
+    "cir92:416",
+    "cir92:418",
+    "cir92:415"
+   ],
+   "expected": [
+    "cir92:414"
+   ],
+   "split": "train"
+  },
+  "B29": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:316",
+    "crecouv:75",
+    "ctva:62",
+    "cir92:333",
+    "csucc_wal:146quater"
+   ],
+   "expected": [
+    "cir92:316"
+   ],
+   "split": "val"
+  },
+  "B30": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "artva:AR1:20",
+    "ctva:51",
+    "ctva:53",
+    "artva:AR20:3",
+    "ctva:64"
+   ],
+   "expected": [
+    "artva:AR1:20"
+   ],
+   "split": "train"
+  },
+  "B31": {
+   "rank": 25,
+   "rr": 0.04,
+   "top5": [
+    "csucc_wal:521",
+    "csucc_bxl:521",
+    "csucc_bxl:48",
+    "csucc_wal:51",
+    "csucc_wal:56"
+   ],
+   "expected": [
+    "csucc_wal:48"
+   ],
+   "split": "val"
+  },
+  "B32": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "csucc_wal:521",
+    "csucc_wal:150",
+    "csucc_bxl:150",
+    "csucc_bxl:156",
+    "csucc_wal:156"
+   ],
+   "expected": [
+    "csucc_bxl:55bis"
+   ],
+   "split": "train"
+  },
+  "B33": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "vcf:1.1.0.0.2",
+    "csucc_bxl:135@01.01.2028",
+    "vcf:3.2.3.0.1",
+    "csucc_wal:135@01.01.2028",
+    "csucc_wal:55quater"
+   ],
+   "expected": [
+    "vcf:2.7.4.1.1"
+   ],
+   "split": "val"
+  },
+  "B34": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cenr_wal:188",
+    "cenr_bxl:188",
+    "cenr_wal:131",
+    "cenr_bxl:612",
+    "cenr_bxl:117"
+   ],
+   "expected": [
+    "cenr_wal:44bis"
+   ],
+   "split": "train"
+  },
+  "B35": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cenr_bxl:46bis",
+    "cenr_bxl:131",
+    "cir92:145/45",
+    "cenr_wal:131",
+    "cir92:145/42"
+   ],
+   "expected": [
+    "cenr_bxl:46bis"
+   ],
+   "split": "train"
+  },
+  "B36": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cenr_wal:62",
+    "cenr_bxl:62",
+    "avcf:3.10.3.2.5",
+    "cenr_bxl:612",
+    "vcf:2.9.4.2.4"
+   ],
+   "expected": [
+    "vcf:2.9.4.2.11"
+   ],
+   "split": "train"
+  },
+  "B37": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "csucc_bxl:48",
+    "csucc_wal:91",
+    "csucc_bxl:91",
+    "csucc_wal:152",
+    "csucc_bxl:152"
+   ],
+   "expected": [
+    "cenr_wal:131bis"
+   ],
+   "split": "val"
+  },
+  "B38": {
+   "rank": 12,
+   "rr": 0.0833,
+   "top5": [
+    "cta_bxl:21",
+    "cta_bxl:94",
+    "cta_wal:21",
+    "cta_bxl:100",
+    "cta_wal:94"
+   ],
+   "expected": [
+    "cta_bxl:98"
+   ],
+   "split": "train"
+  },
+  "B39": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cta_wal:9",
+    "cta_wal:97",
+    "cta_bxl:9",
+    "cta_wal:98",
+    "cta_bxl:97"
+   ],
+   "expected": [
+    "cta_wal:9"
+   ],
+   "split": "train"
+  },
+  "B40": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cbpf:114",
+    "cbpf:144",
+    "cbpf:100",
+    "agbxl2019:58",
+    "cir92:500"
+   ],
+   "expected": [
+    "cbpf:100"
+   ],
+   "split": "train"
+  }
+ },
+ "timing": {
+  "query_ms": 3.19,
+  "index_units": 8035,
+  "vocab": 19914
+ },
+ "provenance": {
+  "git": "3fd79eb8",
+  "git_dirty": true,
+  "utc": "2026-09-26T15:33:11Z",
+  "host": "vm",
+  "harness": "0.2.0",
+  "python": "3.12.3",
+  "questions_file": "experiments/data/corpus_b/questions_b.json",
+  "questions_sha256": "6052247f0a079ed7eff2581cb0c2290e764d4b71e54c3a8e5e68d08d587f4097",
+  "qids_sha256": "c34711e57d5dc8846dcaa03916cb5b2422891fa325334577cbf1b3c6e9df72ee",
+  "n_qids": 40,
+  "corpus_n_docs": 9824,
+  "corpus_ids_sha256": "1922643f3e52489d68e4a16b5515ba55ad4989a5bffae0ec4ed935a0021f4100",
+  "corpus_fingerprint_source": "disk",
+  "omp_threads": null,
+  "argv": "run_b.py"
+ }
+}

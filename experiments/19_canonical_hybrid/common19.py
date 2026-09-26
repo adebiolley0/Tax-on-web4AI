@@ -249,6 +249,11 @@ def twin_key(doc_id: str, title: str, folder: str) -> str:
 _TOK = re.compile(r"\w+")
 
 
+def title_numbers(title: str) -> str:
+    t = re.sub(r"\(version\s*\d+\)", "", title, flags=re.I)
+    return ",".join(x for x in re.findall(r"\d+(?:[./^]\d+)*", t) if not re.fullmatch(r"(?:19|20)\d\d", x))
+
+
 def norm_body_tokens(text: str) -> list[str]:
     return _TOK.findall(fold(text.lower()))
 
@@ -309,7 +314,10 @@ def work_groups(docs, metas: list[dict], zoned_texts: list[str], jaccard: float 
                 uf.union(i, by_key[k]); stats["title_pairs"] += 1
             else:
                 by_key[k] = i
-    scope = [f"{m['folder']}|{m['region']}|{m['lang']}" for m in metas]
+    # tiers 2-3 additionally require the same numeric signature of the title (article / RJ / ruling
+    # numbers, years excluded) so that 'Article 258' and 'Article 259' with near-identical pointer bodies,
+    # or two Rép. RJ numbers with the same generic body, are never merged
+    scope = [f"{m['folder']}|{m['region']}|{m['lang']}|{title_numbers(d.title)}" for d, m in zip(docs, metas)]
     by_hash: dict[str, int] = {}
     toks = []
     for i, z in enumerate(zoned_texts):
@@ -386,12 +394,15 @@ def question_facets(question: str) -> dict:
     region = detect_region(question)
     explicit = next((r for r, rx in _Q_REGION_EXPLICIT.items() if re.search(rx, q)), None)
     years = sorted({int(y) for y in re.findall(r"\b(20[0-3]\d)\b", q)})
+    rev_years = sorted({int(y) for y in re.findall(r"revenus?\s+(?:de\s+|d')?(20[0-3]\d)", q)})
+    ex_years = sorted({int(y) for y in re.findall(r"exercice d'imposition\s+(20[0-3]\d)", q)})
     domains = [d for d, rx in _Q_DOMAIN if re.search(rx, q)]
     folders: list[str] = []
     for rx, fs in _Q_DOCTYPE:
         if re.search(rx, q):
             folders += [f for f in fs if f not in folders]
-    return {"region": region, "region_explicit": explicit, "years": years, "domains": domains, "folders": folders}
+    return {"region": region, "region_explicit": explicit, "years": years, "rev_years": rev_years, "ex_years": ex_years,
+            "domains": domains, "folders": folders}
 
 
 def doc_matches(meta: dict, facets: dict) -> dict:
@@ -400,10 +411,14 @@ def doc_matches(meta: dict, facets: dict) -> dict:
     if facets["region"] and meta["region"] == facets["region"]:
         out["region"] = True
     if facets["years"]:
-        ys = {meta["year"], meta["rev_year"], meta["ex_year"]} - {None}
-        if meta["rev_year"]:
-            ys.add(meta["rev_year"] + 1)                     # 'revenus 2026' answers 'exercice 2027' too
-        if any(y in ys for y in facets["years"]):
+        if facets.get("rev_years") and meta["rev_year"] is not None:      # 'revenus 2026' → income-year editions only
+            hit = meta["rev_year"] in facets["rev_years"]
+        elif facets.get("ex_years") and (meta["ex_year"] is not None or meta["rev_year"] is not None):
+            hit = meta["ex_year"] in facets["ex_years"] or (meta["rev_year"] is not None and meta["rev_year"] + 1 in facets["ex_years"])
+        else:
+            ys = {meta["year"], meta["rev_year"], meta["ex_year"]} - {None}
+            hit = any(y in ys for y in facets["years"])
+        if hit:
             out["year"] = True
     if facets["domains"] and meta["domain"] in facets["domains"]:
         out["domain"] = True

@@ -80,6 +80,9 @@ def norm_text(t: str) -> str:
     t = re.sub(rf"(\d)\s+({SUFFIX})\b", r"\1\2", t)
     t = re.sub(r"(\d)\s+er\b", r"\1er", t)
     t = re.sub(r"(\d)\s*/\s*(\d)", r"\1/\2", t)
+    t = t.replace("\u00ad", "")
+    # flattened superscripts of the PDF parse: 'articles 145 8 à 145 16', 'article 201 20, 3°' → 145/8 à 145/16, 201/20
+    t = re.sub(rf"((?:art(?:icle)?s?\.?|\bà|\bet|,)\s+)(\d{{2,3}})\s+(\d{{1,2}}(?:{SUFFIX})?)\b(?!\s*[°%/.,]?\d)(?!\s*[°%])", r"\1\2/\3", t, flags=re.I)
     for _ in range(3):
         t = re.sub(r"\b([A-Za-z]{1,5})\s+\.(?=\s|$)", r"\1.", t)
     t = re.sub(r"\b([A-Z])\.\s+(?=[A-Z]\.)", r"\1.", t)      # 'C. T. A.' → 'C.T. A.' → 'C.T.A.'
@@ -131,7 +134,7 @@ POLICY_RES = [re.compile(p) for p in [
     r"\bplaidez-vous\b", r"\bsoutenez-vous\b", r"\bregrettez-vous\b", r"\bdeplorez-vous\b", r"\bvoulez-vous\b",
     r"\bcollaborat", r"\bcampagne\b", r"\bsensibilis", r"\bcommunication\b", r"\binformer\b",
     r"\bapplication informatique\b", r"\blogiciel\b", r"\bsite (?:web|internet)\b", r"\bplateforme\b",
-    r"\bpromess", r"\bpromis\b", r"\bexpliqu", r"\braisons?\b", r"\bjustifi", r"\b[eê]tes-vous\b", r"\bseriez-vous\b",
+    r"\bpromess", r"\bpromis\b", r"\bconfirmez-vous\b", r"\bces informations\b", r"\bcette information\b", r"\bau courant\b", r"\bexpliqu", r"\braisons?\b", r"\bjustifi", r"\b[eê]tes-vous\b", r"\bseriez-vous\b",
     r"\bsera(?:-t-(?:il|elle))?\s+(?:publi|adopt|disponible|mis|pris|pr[eê]t)", r"\bconfirmer (?:que|qu')\s*(?:le|la|les|des) (?:promesse|d[ée]claration)",
     r"\bministre (?:a-t-il|a-t-elle|est-il|est-elle) (?:effectivement|d[ée]j[àa])\b", r"\bd[ée]lai(?:s)? (?:de traitement|d'attente)\b",
 ]]
@@ -173,8 +176,10 @@ def jaccard(a: set, b: set) -> float:
     return len(a & b) / len(a | b)
 
 
-def qid(prefix: str, source: str, source_doc: str, question: str) -> str:
-    h = hashlib.sha1(f"{source_doc}\n{question}".encode()).hexdigest()[:8]
+def qid(prefix: str, source: str, source_doc: str, key: str = "") -> str:
+    """Stable id: hash of the source document (+ the normalised heading for FAQ questions), independent
+    of the query text so that text-cleaning changes do not move questions between splits."""
+    h = hashlib.sha1(f"{source_doc}\n{key}".encode()).hexdigest()[:8]
     return f"{prefix}-{source.upper()}-{h}"
 
 
@@ -310,6 +315,8 @@ class Cites:
         self.bare = 0
         self.explicit = 0
         self.evidence: list[str] = []
+        self._b_x: list[str] = []; self._c_x: list[str] = []; self._c_s: list[str] = []; self._arts_x: list = []; self._ev_x: list[str] = []
+        self.fam_counts: collections.Counter = collections.Counter()    # explicitly named code families (resolvable or not)
 
     def add(self, lst: list, items):
         for x in items:
@@ -330,15 +337,16 @@ def extract_cites(text: str, default_family: str | None, region: str | None, B: 
             if default_family == "ctva":
                 ids = expand_items(items, lambda n: B.ar_ids(val, n), lambda a, b: [])
                 if ids:
-                    out.add(out.b_expected, ids); out.explicit += 1
-                    out.evidence.append(snippet)
+                    out.add(out.b_expected, ids); out.add(out._b_x, ids); out.explicit += 1
+                    out.evidence.append(snippet); out._ev_x.append(snippet)
                     for n in items:
                         if n != "à" and ("artva", n) not in out.articles:
-                            out.articles.append(("artva", n))
+                            out.articles.append(("artva", n)); out._arts_x.append(("artva", n))
             continue
         if kind == "family":
             fam = val
             out.explicit += 1
+            out.fam_counts[fam] += 1
         else:
             if val in ("loi", "décret", "ordonnance", "wet", "decreet", "arrêté", "besluit"):
                 continue
@@ -366,6 +374,12 @@ def extract_cites(text: str, default_family: str | None, region: str | None, B: 
             if (fam, n) not in out.articles:
                 out.articles.append((fam, n))
         out.evidence.append(snippet)
+        if kind == "family":                             # explicit-only copies (used when bare refs are discarded)
+            out.add(out._b_x, sorted(b_ids)); out.add(out._c_x, sorted(c_exp)); out.add(out._c_s, sorted(set(c_sec)))
+            for n in nums:
+                if (fam, n) not in out._arts_x:
+                    out._arts_x.append((fam, n))
+            out._ev_x.append(snippet)
     if with_docs:
         for mm in CIRC_TEXT_RE.finditer(text):
             g = mm.groups()
@@ -382,6 +396,9 @@ def extract_cites(text: str, default_family: str | None, region: str | None, B: 
             docs = C.key_index.get(f"da:{mm.group(1)}")
             if docs:
                 out.add(out.c_expected, docs); out.evidence.append(mm.group(0))
+    if out.explicit and out.bare:                    # bare refs are a fallback only: keep the explicit citations
+        out.b_expected, out.c_expected, out.c_secondary, out.articles, out.evidence = out._b_x, out._c_x, out._c_s, out._arts_x, out._ev_x
+        out.bare = 0
     out.c_secondary = [d for d in out.c_secondary if d not in out.c_expected]
     return out
 
@@ -512,7 +529,7 @@ def mine_faq(C: CorpusC, B: CorpusB, stats: collections.Counter) -> list[dict]:
         cites = extract_cites(ans, m.get("default_family"), m.get("region"), B, C, allow_bare=True, with_docs=False)
         c_docs = sorted({o[0] for o in occs})
         rows.append({"source": "faq", "source_doc": did, "question": h, "date": m["date"], "domain": m.get("default_family") or fold(m["domain"]),
-                     "region": m.get("region"), "cites": cites, "c_docs": c_docs, "group": "|".join(c_docs), "exclude": []})
+                     "region": m.get("region"), "cites": cites, "c_docs": c_docs, "group": "|".join(c_docs), "exclude": [], "key": key})
         stats["faq:kept"] += 1
     return rows
 
@@ -524,19 +541,21 @@ OBJ_BOILER = re.compile(r"^(?:\d+(?:\.\d+)*\s*[.)]?\s*)?(?:la (?:pr[ée]sente )?
                         r"(?:le|les) demandeurs? (?:souhaitent?|demandent?|sollicitent?) [^:]{0,120}?:\s*)", re.I)
 
 
-OBJ_BOILER2 = re.compile(r"^(?:la (?:pr[ée]sente )?demande (?:vise|tend|a pour (?:but|objet))(?: [àa])? ?(?:obtenir|savoir|confirmer|ce que)?\s*"
+OBJ_BOILER2 = re.compile(r"^(?:(?:la|votre|cette) (?:pr[ée]sente )?demande (?:vise|tend|a pour (?:but|objet))(?: [àa])? ?(?:obtenir|savoir|confirmer|ce que)?\s*"
                          r"(?:la confirmation|une d[ée]cision anticip[ée]e|une d[ée]cision|confirmation|l['’]accord)?[^:;]{0,70}?"
                          r"\b(?:que|si|selon laquelle|confirmant que|sur (?:la|le) (?:question|point) de savoir si|de savoir si|quant [àa] savoir si)\s+"
-                         r"|la demande (?:porte|concerne|vise|tend) [^:;]{0,60}?\b(?:la question de savoir si|le point de savoir si|de savoir si|"
+                         r"|(?:la|votre|cette) demande (?:porte|concerne|vise|tend) [^:;]{0,60}?\b(?:la question de savoir si|le point de savoir si|de savoir si|"
                          r"la confirmation (?:que|de ce que|des points suivants|du point suivant|selon laquelle)|les questions suivantes|les points suivants)\s*:?\s*"
                          r"|(?:le|les|la) (?:demandeurs?|demanderesses?|requ[ée]rants?) (?:souhaitent?|demandent?|sollicitent?|d[ée]sirent?) [^:;]{0,80}?\b(?:que|si)\s+)", re.I)
 
 
 def clean_objet(objet: str) -> str:
-    objet = OBJ_BOILER.sub("", objet).strip()
-    objet = OBJ_BOILER2.sub("", objet).strip()
-    for _ in range(3):
-        objet = re.sub(r"^(?:[-–•]\s*|\(?[ivx]{1,4}\)\s*|\(?[a-e]\)\s*|\d+(?:\.\d+)*\s*[.)]\s*|si\s+(?=[a-zà-ü]))", "", objet).strip()
+    enum = re.compile(r"^(?:[-–•]\s*|\(?[ivx]{1,4}\)\s*|\(?[a-e]\)\s*|\d+(?:\.\d+)*\s*[.)]\s*|si\s+(?=[a-zà-ü]))")
+    for _ in range(2):                      # "1. La demande vise à obtenir la confirmation que : 1.1. …" → strip enumerators and boiler-plate alternately
+        for _ in range(3):
+            objet = enum.sub("", objet).strip()
+        objet = OBJ_BOILER.sub("", objet).strip()
+        objet = OBJ_BOILER2.sub("", objet).strip()
     if objet and objet[0].islower():
         objet = objet[0].upper() + objet[1:]
     return objet
@@ -599,9 +618,15 @@ def make_rows(rows: list[dict], corpus: str, hc: set[str], hb: set[str], stats: 
     out = []
     for r in rows:
         c = r["cites"]
+        if c.bare and not c.explicit and r["source"] != "faq":
+            stats[f"{corpus}:{r['source']}:drop:bare_refs_only"] += 1      # precision first: bare "article N" resolved by domain only
+            continue
         if corpus == "B":
             exp, sec = list(c.b_expected), []
             if not exp:
+                continue
+            if c.fam_counts and c.fam_counts.most_common(1)[0][0] not in B_FAMILY_CODES:
+                stats[f"{corpus}:{r['source']}:drop:dominant_code_not_in_B"] += 1   # e.g. CDTD answers citing CIR 92 in passing
                 continue
             leak = any(x in hb or strip_region(x) in hb_strip for x in exp) or r["source_doc"] in hc
         else:
@@ -620,7 +645,7 @@ def make_rows(rows: list[dict], corpus: str, hc: set[str], hb: set[str], stats: 
         fam = strip_region(exp[0]).split(":")[0] if corpus == "B" else None
         if corpus == "C":
             fam = next((C_META[x].get("family") for x in exp if C_META[x].get("family")), None) or r["domain"]
-        out.append({"id": qid("MB" if corpus == "B" else "MC", r["source"], r["source_doc"], r["question"]),
+        out.append({"id": qid("MB" if corpus == "B" else "MC", r["source"], r["source_doc"], r.get("key", "")),
                     "question": r["question"], "topic": fam, "source": r["source"], "source_doc": r["source_doc"],
                     "date": r["date"], "expected": exp, "secondary": sec, "exclude": list(r["exclude"]),
                     "notes": "cites: " + " | ".join(c.evidence[:6]) + (f" [bare refs resolved with default code {r['domain']}]" if c.bare and not c.explicit else ""),
@@ -692,12 +717,12 @@ def finalize(rows: list[dict]) -> list[dict]:
 
 
 def main():
+    global C_META, CAP_FRAC
     ap = argparse.ArgumentParser()
     ap.add_argument("--sample", type=int, default=40)
     ap.add_argument("--seed", type=int, default=40)
     ap.add_argument("--cap-frac", type=float, default=CAP_FRAC)
     a = ap.parse_args()
-    global C_META, CAP_FRAC
     CAP_FRAC = a.cap_frac
     stats: collections.Counter = collections.Counter()
     C = CorpusC(); C_META = C.meta

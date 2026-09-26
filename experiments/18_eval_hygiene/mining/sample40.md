@@ -2,402 +2,402 @@
 
 For each: the query, the labels, the citation evidence the regex extracted, and a `check:` line for the owner
 
-## 1. `MC-PQ-7198d377` (corpus C, source pq, split val, topic cta)
+## 1. `MC-PQ-ccd525bf` (corpus C, source pq, split val, topic cta)
 
-**Q:** O n sait que la perception de la taxe de circulation, c'est tout un débat. Monsieur le Ministre, n'y aurait-il pas moyen de trouver une solution plus simple et plus rapide dès qu'une personne en situation de handicap demande l'exonération de la taxe de circulation, comme c'était le cas auparavant? Est-ce une réflexion que vous menez au sein de votre cabinet?
+**Q:** On aperçoit parfois dans le trafic routier de très petits véhicules automobiles, comportant une ou deux places au maximum. Dans quelle catégorie est répertorié ce type de véhicule ? Doit-il être immatriculé et donc comporter une plaque d'immatriculation ? Ceux qui roulent avec ce type de véhicule doivent-ils payer une taxe, comme tout propriétaire de véhicule à moteur ? Quel permis faut-il avoir pour conduire ce type de véhicule ?
 
-- source_doc: `questions_parlementaires/question_parlementaire_orale_de_monsieur_matthieu_daele_du_30_01_2017_region_wal_7a10b5c4` (excluded from ranking)
-- expected: `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16`, `code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a8c2dd73`
-- secondary: `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561`, `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7`, `code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a`, `code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_659b4401`, `code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_bfbd9d5a`, `code_et_legislation/article_96_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_851c54f5`
-- evidence: cites: ègles des articles 5 et 96 du Code des taxes assimilées ainsi que par l'article1 [bare refs resolved with default code cta]
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 2. `MC-RULING-040c6b3d` (corpus C, source ruling, split train, topic cir92)
-
-**Q:** La demande vise à obtenir la confirmation que l'apport de la branche d'activité, à savoir X, de la société A à une Joint Venture JV, est effectué pour des motifs économiques valables et n'a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l'évasion fiscales au sens de l'article 183bis CIR92 et que cet apport constitue un apport de branche d'activité entrant dans le champ d'application des articles 46, § 1er, CIR92, 117, § 2, CDE, 11 et 18 § 3 CTVA.
-
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2011_237_du_05_07_2011_196c3f2a`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2011_237_du_05_07_2011_196c3f2a`
-- secondary: `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`, `code_et_legislation/article_46_cir_92_revenus_2025_6659fcb9`, `code_et_legislation/article_46_cir_92_revenus_2026_618eafd2`, `code_et_legislation/article_46_cir_92_revenus_2027_50f30163`
-- evidence: cites: sens de l'article 183bis CIR92 et que cet apport constitue un apport de branche  | ation des articles 46, § 1er, CIR92, 117, § 2, CDE, 11 et 18 § 3 CTVA.
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 3. `MC-PQ-8f618f57` (corpus C, source pq, split val, topic cenr)
-
-**Q:** Quel est le motif de l'absence de concordance entre les autorités fédérale et bruxelloise à ce sujet ? Comment est ‑ il possible que les administrations fédérale et bruxelloise ne puissent pas partager ou coordonner leurs informations, ce qui éviterait cette ambiguïté administrative ? Quelles démarches sont entreprises pour remédier à cette situation et proposer une solution plus efficace et centralisée aux locataires et aux bailleurs ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_143_de_monsieur_vincent_van_quickenborne_du_30_12_2024_88964153` (excluded from ranking)
-- expected: `code_et_legislation/article_19_du_code_des_droits_d_enregistrement_legislation_federale_cc16690e`, `code_et_legislation/article_19_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_0deb1ec6`, `code_et_legislation/article_19_du_code_des_droits_d_enregistrement_region_wallonne_767bbdf6`, `code_et_legislation/article_20_du_code_des_droits_d_enregistrement_legislation_federale_f697ba32`, `code_et_legislation/article_20_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_1038d360`, `code_et_legislation/article_20_du_code_des_droits_d_enregistrement_region_wallonne_f3fc412f`, `code_et_legislation/article_6_du_code_des_droits_d_enregistrement_legislation_federale_03398fcb`, `code_et_legislation/article_6_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_b9912062` …
+- source_doc: `questions_parlementaires/question_parlementaire_n_498b_de_monsieur_x_winkel_du_03_04_1990_b796699c` (excluded from ranking)
+- expected: `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_d41546d7`, `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_de1e807e`, `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7`, `code_et_legislation/article_3_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_74f78f9e`, `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561`, `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7`, `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16`, `code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a` …
 - secondary: —
-- evidence: cites: évoit aux articles 19 et 20 la suppression de l'obligation d'enregistrement fédé | révu à l' article 6, § 1er , IV, 2° de la loi spéciale du 8 août 1980 de réforme | base de l'article 236/1 du Code des droits d'enregistrement, d'hypothèque et de 
+- evidence: cites: pied de l'article 3 du Code des taxes assimilées aux impôts sur les revenus (CTA | tion de l'article 5, § 1er , 7°, CTA. Conformément à l'article 42, § 1er , CTA, | ément à l'article 42, § 1er , CTA, les pouvoirs subordonnés (provinces, agglomér
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 4. `MB-PQ-3e4e69a7` (corpus B, source pq, split val, topic csucc)
+## 2. `MC-PQ-ece69f14` (corpus C, source pq, split val, topic cta)
 
-**Q:** Un habitant d'une maison de repos du CPAS vient à décéder et au moment du décès il apparaît que certaines dettes doivent encore être acquittées. Est-il normal que le CPAS ne pourra pas récupérer ensuite le montant des impôts remboursés, redevables à l'intéressé ? Existe-t-il une solution pour régler ce genre de problèmes ?
+**Q:** Monsieur le Ministre, le décret pour un impôt « plus juste » de votre majorité n’a manifestement pas eu pour effet de créer davantage de justice fiscale, mais il a plutôt organisé un véritable matraquage fiscal et systématique – il n’y a pas d’autres mots – dans le chef des propriétaires de mobile homes en Wallonie. Par rapport à la mise en œuvre de ces différents éléments, que constatent les propriétaires ? Où se trouve la cohérence là-dedans ?
 
-- source_doc: `questions_parlementaires/question_parlementaire_n_781_de_monsieur_valkeniers_du_10_09_2001_4afcceb5` (excluded from ranking)
-- expected: `csucc_bxl:18`, `csucc_vla:18`, `csucc_wal:18`
+- source_doc: `questions_parlementaires/question_parlementaire_orale_de_monsieur_francois_desquesnes_du_19_09_2022_regio_b54cd2dc` (excluded from ranking)
+- expected: `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16`
+- secondary: `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561`, `code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7`, `code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a`
+- evidence: cites: tion de l’article 5, § 3 du Code des taxes assimilées aux impôts sur les revenus
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 3. `MC-RULING-b9ed15d2` (corpus C, source ruling, split val, topic cenr)
+
+**Q:** La vente des actions de la société emphytéote à un tiers acquéreur ( share deal) ne sera pas soumise aux droits d'enregistrement de 2 % conformément à l'article 83, alinéa 1 er , 3° du Code des droits d’enregistrement, d’hypothèque et de greffe (ci-après « C. enr . ») ; 1.2. Les plus-values latentes sur les actifs de la société emphytéote ne seront pas soumises à l'impôt des sociétés à l’occasion de la vente de ses actions conformément à l’article 24, alinéa 1, 2° du Code des impôts sur les revenus 1992 (ci-après, « CIR 92 ») ; 1.3.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0981_du_07_12_2021_e21d3408`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0981_du_07_12_2021_e21d3408`
+- secondary: `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_legislation_federale_629961a1`, `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a2d629fa`, `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_wallonne_fe3fafd0`, `code_et_legislation/article_24_cir_92_revenus_2025_bca5ef3e`, `code_et_legislation/article_24_cir_92_revenus_2026_1727e3ac`, `code_et_legislation/article_24_cir_92_revenus_2027_75dfc421`
+- evidence: cites: ément à l'article 83, alinéa 1er , 3° du Code des droits d’enregistrement, d’hyp | ément à l’article 24, alinéa 1, 2° du Code des impôts sur les revenus 1992 (ci-a
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 4. `MC-PQ-831e8b89` (corpus C, source pq, split train, topic cdtd)
+
+**Q:** De nombreux investisseurs belges épargnent pour leur pension par le biais d'assurances-épargne de la branche 21, généralement considérées comme moins porteuses de risques grâce au capital garanti et au rendement constitué par un taux d'intérêt fixe et une participation éventuelle aux bénéfices. La taxe sur les assurances de 1,1 % est-elle due lors de la souscription d'assurances-épargne complémentaires de la branche 21 auprès d'un autre assureur ?
+
+- source_doc: `questions_parlementaires/question_parlementaire_n_611_de_monsieur_servais_verherstraeten_du_07_11_2011_20d895bd` (excluded from ranking)
+- expected: `code_et_legislation/article_175_3_code_droits_et_taxes_divers_d1407adc`, `code_et_legislation/article_21_cir_92_revenus_2025_2121eb14`, `code_et_legislation/article_21_cir_92_revenus_2026_77a7ba86`, `code_et_legislation/article_21_cir_92_revenus_2027_7b77c684`
 - secondary: —
-- evidence: cites: tions des articles 18 et suivants de la loi hypothécaire s'appliquent. L'article [bare refs resolved with default code csucc]
+- evidence: cites: ertu de l'article 175/3 du Code des droits et taxes divers, la taxe est réduite  | tion de l'article 21, 9°, du Code des impôts sur les revenus 1992 en ce qui conc
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 5. `MC-FAQ-0a380812` (corpus C, source faq, split train, topic ctva)
+## 5. `MB-PQ-dfbda39e` (corpus B, source pq, split val, topic cenr)
 
-**Q:** Un particulier habite dans un immeuble à appartements qui est géré par un syndic et il existe une association des co-propriétaires. Il a signé un contrat individuel avec son fournisseur d'énergie. Pourra-t-il également (continuer à) bénéficier du taux réduit de TVA de 6 % à partir du 1er juillet 2023 pour la livraison d'électricité et de gaz naturel ?
+**Q:** Cette question ne concerne pas un cas concret. L'article 49 du Code des droits d'enregistrement est-il applicable dans le cas de la vente visée au point b) (vente par A à C) ? Dans l'affirmative, comment est alors calculée la valeur du droit d'emphytéose, qui est à déduire de la pleine propriété ? Si l'administration estime que l'article 49 du Code des droits d'enregistrement n'est pas applicable, comment l'existence d'un droit d'emphytéose peut-elle être prise en compte comme élément de réduction pour établir la valeur de vente du bien immobilier ?
 
-- source_doc: `circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779`
-- expected: `circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779`
+- source_doc: `questions_parlementaires/question_parlementaire_n_1378_de_madame_creyf_du_12_05_1998_f9cccb8b` (excluded from ranking)
+- expected: `cenr_bxl:45`, `cenr_vla:45`, `cenr_wal:45`
 - secondary: —
-- evidence: cites: 
+- evidence: cites: ément à l'article 45 du Code des droits d'enregistrement, d'hypothèque et de gre
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 6. `MC-FAQ-6da09fcf` (corpus C, source faq, split val, topic ctva)
+## 6. `MB-RULING-b9ed15d2` (corpus B, source ruling, split train, topic cenr)
 
-**Q:** Je démolis un bâtiment. Où dois-je reconstruire le nouveau logement ?
+**Q:** La vente des actions de la société emphytéote à un tiers acquéreur ( share deal) ne sera pas soumise aux droits d'enregistrement de 2 % conformément à l'article 83, alinéa 1 er , 3° du Code des droits d’enregistrement, d’hypothèque et de greffe (ci-après « C. enr . ») ; 1.2. Les plus-values latentes sur les actifs de la société emphytéote ne seront pas soumises à l'impôt des sociétés à l’occasion de la vente de ses actions conformément à l’article 24, alinéa 1, 2° du Code des impôts sur les revenus 1992 (ci-après, « CIR 92 ») ; 1.3.
 
-- source_doc: `circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83`
-- expected: `circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83`
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0981_du_07_12_2021_e21d3408`
+- expected: `cenr_bxl:83`, `cenr_vla:83`, `cenr_wal:83`, `cir92:24`
 - secondary: —
-- evidence: cites: 
+- evidence: cites: ément à l'article 83, alinéa 1er , 3° du Code des droits d’enregistrement, d’hyp | ément à l’article 24, alinéa 1, 2° du Code des impôts sur les revenus 1992 (ci-a
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 7. `MC-RULING-3f598009` (corpus C, source ruling, split val, topic cenr)
+## 7. `MB-RULING-27dfb2b2` (corpus B, source ruling, split train, topic cir92)
 
-**Q:** L’apport de la branche d’activité « Z » de la société « A » à la société « B » porte sur une branche d’activité et n’a pas pour objectif principal ou comme un de leurs objectifs principaux la fraude ou l’évasion fiscale au sens de l’article 183 bis du CIR 92 et pourra dès lors se faire en exonération d’impôt des sociétés conformément aux dispositions de l’a rticle 46, § 1 er , 2°, du CIR 92. 2 . L’apport envisagé se fera en application des articles 11 et 18, § 3, C . TVA. 3 . L’apport envisagé bénéficiera des exemptions prévues aux articles 117, § 2, et 120, alinéa 3, C . enr . 4 .
+**Q:** L’opération assimilée à la fusion par absorption telle que mentionnée à l’article 2, § 1 er , 6°/1, c), 1) du Code des Impôts sur les Revenus de 1992 (ci-après : « CIR 92 ») de la société B par la société A, répond aux conditions prévues à l'article 211, § 1 er , alinéa 4, CIR 92 et n'a pas comme objectif principal ou comme un de ses objectifs principaux, la fraude ou l'évasion fiscales au sens de l'article 183 bis , CIR 92 .
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_941_du_16_01_2018_449fedcd`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_941_du_16_01_2018_449fedcd`
-- secondary: `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`, `code_et_legislation/article_11_code_de_la_tva_87b9590e`, `code_et_legislation/article_18_code_de_la_tva_fc5ff43e`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_legislation_federale_e9adac18` …
-- evidence: cites: sens de l’article 183bis du CIR 92 et pourra dès lors se faire en exonération d’ | ation des articles 11 et 18, § 3, C. TVA. 3 . L’apport envisagé bénéficiera des  | évues aux articles 117, § 2, et 120, alinéa 3, C. enr. 4 .
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0355_du_24_06_2025_99e4ed07`
+- expected: `cir92:211`, `cir92:183bis`
+- secondary: —
+- evidence: cites: évues à l'article 211, § 1er , alinéa 4, CIR 92 et n'a pas comme objectif princi | sens de l'article 183bis , CIR 92 .
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 8. `MC-RULING-3e80e739` (corpus C, source ruling, split train, topic cenr)
+## 8. `MC-RULING-4dd13548` (corpus C, source ruling, split train, topic ctva)
 
-**Q:** La confirmation que le droit de 12,5 % sera applicable à la cession du tréfonds, conformément aux articles 44 et suivants du Code des droits d’enregistrement. 2 . La confirmation que le droit de 2 % sera applicable à la cession du droit d'emphytéose, conformément aux articles 83 et 84 du Code des droits d’enregistrement.
+**Q:** Dans la mesure où, sur la base du business plan, les redevances annuelles cumulées dues par V, pour chaque place de parking, seront soumises à la TVA pour un montant égal ou supérieur à 97,5 % du prix d'acquisition des constructions payé par l'investisseur particulier à B avec application de la TVA, l'investisseur aura le droit de déduire intégralement la TVA ayant grevé l'acquisition de la superficie/propriété temporaire de ces constructions ; 1.2. l'investisseur ne subira pas de taxation à l'impôt des personnes physiques sur les redevances annuelles qui lui reviendront au titre de l'usufruit ; 1.3.
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_256_du_06_07_2017_3385e5d3`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_256_du_06_07_2017_3385e5d3`
-- secondary: `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_legislation_federale_629961a1`, `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a2d629fa`, `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_wallonne_fe3fafd0`, `code_et_legislation/article_84_du_code_des_droits_d_enregistrement_legislation_federale_978e330b`, `code_et_legislation/article_84_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_0a7c0baf`, `code_et_legislation/article_84_du_code_des_droits_d_enregistrement_region_wallonne_d22353dd`
-- evidence: cites: ément aux articles 83 et 84 du Code des droits d’enregistrement.
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 9. `MC-FAQ-a4258b74` (corpus C, source faq, split train, topic ctva)
-
-**Q:** La taxation obligatoire de la location immobilière de courte durée, pour une période ne dépassant pas six mois, vise-t-elle tous les immeubles, quelles que soient leur nature, leur ancienneté ou leur utilisation ?
-
-- source_doc: `circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558`
-- expected: `circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558`
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2013_604_du_21_01_2014_4a8accd0`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2013_604_du_21_01_2014_4a8accd0`
 - secondary: —
 - evidence: cites: 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 10. `MB-PQ-cd9581fa` (corpus B, source pq, split train, topic cenr)
+## 9. `MC-RULING-4b78b71c` (corpus C, source ruling, split val, topic cir92)
 
-**Q:** D ans le cadre d’une gestion intelligente de ses activités, une commune peut notamment utiliser la forme juridique du CLT (ce modèle est bcp utilisé en Angleterre). me donner votre interprétation de cette situation ? donner instruction à l’administration pour que l’interprétation soit plus conforme aux intérêts publics ?
+**Q:** Votre demande concerne le traitement fiscal de la scission partielle dont A. fera l’objet et au terme de laquelle elle fera apport des UNITES (telles que définies au point 2.1.1) se rapportant à une partie de ses activités opérationnelles, à B., une société de droit belge constituée par A. le …, et dont C. est devenue actionnaire à 50 % le ...
 
-- source_doc: `questions_parlementaires/question_parlementaire_orale_n_56010101c_de_monsieur_benoit_piedboeuf_du_28_01_2_823b68e7` (excluded from ranking)
-- expected: `cenr_bxl:161`, `cenr_vla:161`, `cenr_wal:161`
-- secondary: —
-- evidence: cites: révue à l'article 161 du Code des droits d'enregistrement. La figure juridique d | tion de l'article 161, même si, par exemple, un représentant d'une commune se tr
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 11. `MC-RULING-bad087d6` (corpus C, source ruling, split val, topic cenr)
-
-**Q:** La demande tend à obtenir la confirmation que l’apport d’universalité de la société A à la société B, immédiatement suivi de la scission classique de B au bénéfice des sociétés C et D : - répond aux conditions d’exonération prescrites par les articles 46, § 1 er , al 1, 2° et 211 du Code des Impôts sur les revenus (ci-après, « CIR 92 ») et en particulier que tant l’opération d’apport d’universalité à B, que la scission classique de B n’a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l’évasion fiscale ; - peut bénéficier de l’exonération de droits d’enregistrement prévue aux article 117, § 1 er du Code des droits d’enregistrement (ci-après, « C . enr. ») ;
-
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0529_du_24_08_2021_ba10173b`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0529_du_24_08_2021_ba10173b`
-- secondary: `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_legislation_federale_e9adac18`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_3e83a292`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_wallonne_44008d10`
-- evidence: cites: révue aux article 117, § 1er du Code des droits d’enregistrement (ci-après, « C.
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 12. `MC-PQ-2d98868a` (corpus C, source pq, split val, topic cta)
-
-**Q:** La Communauté européenne essaie à travers différentes conventions et accords d'harmoniser les législations et d'éviter au maximum une double imposition. Quel est le prescrit légal qui détermine cette manière de procéder ? Est-ce que cette réglementation est en concordance avec les conventions ou traités européens ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_755_de_monsieur_a_gehlen_du_20_10_1993_38c3bfe8` (excluded from ranking)
-- expected: `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_d41546d7`, `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_de1e807e`, `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7`, `code_et_legislation/article_3_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_74f78f9e`
-- secondary: —
-- evidence: cites:  L'article 3 du Code des taxes assimilées aux impôts sur les revenus disp
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 13. `MC-FAQ-440ada18` (corpus C, source faq, split train, topic ctva)
-
-**Q:** Que se passe-t-il si la demande de permis d'urbanisme « reconstruction » a été introduite dans les délais mais qu’une modification de ce permis d’urbanisme est introduite après le 30.06.2023 ?
-
-- source_doc: `circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83`
-- expected: `circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83`
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0398_du_19_08_2025_1fadde8f`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0398_du_19_08_2025_1fadde8f`
 - secondary: —
 - evidence: cites: 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 14. `MC-RULING-cdfc02f6` (corpus C, source ruling, split val, topic cenr)
+## 10. `MC-RULING-8f0c9523` (corpus C, source ruling, split val, topic ctva)
 
-**Q:** La scission partielle de la société « A » par laquelle cette dernière transfère une partie de ses actifs à une nouvelle société à constituer, la société « B », répond aux conditions fixées à l’article 211, § 1 er , alinéa 4 , CIR 92 et n’a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l’évasion fiscales au sens de l’article 183 bis , CIR 92 .
+**Q:** La scission partielle de la SA A par la constitution de la SA B, répond à des besoins légitimes de caractère financier ou économique, tels que prévus par l'article 211, §1 er , alinéa 2, 3°, du Code des impôts sur les revenus 1992, et si, l'ensemble des éléments d' actif et de passif, objet de la scission partielle, qui seront attribués à la SA B , constitue une branche d'activité donnant lieu à une exemption des droits d'enregistrement et de la TVA en vertu de l'article 117, § 1 er du Code des droits d'enregistrement, d'hypothèque et de greffe, et en vertu de l'article 11 du Code de la TVA.
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1938_du_27_10_2020_85b5bebc`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1938_du_27_10_2020_85b5bebc`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
-- evidence: cites: ixées à l’article 211, § 1er , alinéa 4 , CIR 92 et n’a pas comme objectif princ | sens de l’article 183bis , CIR 92 .
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_700_266_du_24_07_2007_561ac12b`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_700_266_du_24_07_2007_561ac12b`
+- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_legislation_federale_e9adac18`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_3e83a292`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_wallonne_44008d10` …
+- evidence: cites: vus par l'article 211, §1er , alinéa 2, 3°, du Code des impôts sur les revenus 1 | ertu de l'article 117, § 1er du Code des droits d'enregistrement, d'hypothèque e | ertu de l'article 11 du Code de la TVA.
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 15. `MC-PQ-10b0ee79` (corpus C, source pq, split train, topic csucc)
+## 11. `MB-RULING-cbb7bc69` (corpus B, source ruling, split val, topic csucc)
 
-**Q:** L'article 147 du code des successions prévoit que les associations sans but lucratif et les fondations privées sont assujetties, à partir du 1er janvier qui suit la date de leur constitution, à une taxe annuelle compensatoire des droits de succession. Pouvez-vous me préciser sur base de quels critères les exonérations prévues à l'article 149 du code des successions sont déterminées ?
+**Q:** Les conséquences fiscales (quant aux droits d’enregistrement et de succession) des actes de donation passés par les demandeurs à l’étranger alors qu’ils sont actuellement résidents wallons. Plus particulièrement, les questions portent sur l’application éventuelle des droits de donation et de l’article 8 du Code des droits de succession.
 
-- source_doc: `questions_parlementaires/question_parlementaire_n_5_9796_de_madame_cecile_thibaut_du_27_08_2013_78ac924b` (excluded from ranking)
-- expected: `code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5`, `code_et_legislation/article_149_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8ba67b7f`, `code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26`, `code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4`, `code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d`, `code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1`
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_822_du_30_01_2018_41d6849f`
+- expected: `csucc_bxl:8`, `csucc_vla:8`, `csucc_wal:8`
 - secondary: —
-- evidence: cites:  1. L'article 149 du Code des droits de succession (en abrégé : C. succ.) es | révue à l'article 149, 4°, C. succ., relative aux biens immobiliers affectés à l | révue à l'article 147 du Code des successions. L'exonération prévue à l'article | révue à l'article 149, 5°, C. succ., qui vise des « associations de défense de l
+- evidence: cites: n et de l’article 8 du Code des droits de succession.
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 16. `MC-RULING-5cbf18ca` (corpus C, source ruling, split train, topic cenr)
+## 12. `MB-PQ-8613580d` (corpus B, source pq, split val, topic cenr)
 
-**Q:** la scission partielle de la société ‘A’, par laquelle cette dernière transfère l’ensemble des actifs et passifs afférents à son activité ‘W’ à la société ‘B’ répond aux conditions fixées par l’article 211, § 1 er , alinéa 1 er et 4, CIR 92 , et n’a pas pour objectif principal ou l’un de ses objectifs principaux la fraude ou l’évasion fiscale au sens de l'article 183 bis du même code ;
+**Q:** En Wallonie, dans certaines conditions, lors d'une première acquisition, l'acquéreur bénéficie du taux réduit de 6 %. La notion juridique de droit commun s'applique-t-elle ? L'administration applique-t-elle une « régularisation » vis-à-vis de ces personnes ? Je voudrais également avoir des précisions sur un autre type de situation : comment est évaluée la situation d'une personne incarcérée et qui loue ledit bien en attendant de s'y domicilier ? Cette situation constitue-t-elle un cas de force majeure ? Qu'en est-il concrètement ?
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0874_du_19_12_2023_ccde12be`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0874_du_19_12_2023_ccde12be`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`
-- evidence: cites: ées par l’article 211, § 1er , alinéa 1er et 4, CIR 92 , et n’a pas pour objecti
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 17. `MB-PQ-a54f4fb5` (corpus B, source pq, split val, topic cenr)
-
-**Q:** Le transfert en Belgique du siège de la direction effective et/ou du siège statutaire d'une société est considéré, en vertu de l'article 118 du Code des droits d'enregistrement, d'hypothèque et de greffe (C. Enreg.), à un "apport" des biens de toute nature appartenant à la société au moment du transfert, ce transfert doit être considéré, pour l'application du Code des droits d'enregistrement, comme étant exclusivement rétribué en actions? Dans l'affirmative, pouvez-vous confirmer les affirmations suivantes?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_746_de_madame_creyf_du_06_07_2001_5c96b29b` (excluded from ranking)
-- expected: `cenr_bxl:120`, `cenr_vla:120`, `cenr_wal:120`, `cenr_bxl:117`, `cenr_vla:117`, `cenr_wal:117`
+- source_doc: `questions_parlementaires/question_parlementaire_n_42_de_monsieur_christophe_clersy_du_30_11_2020_region_w_390524fc` (excluded from ranking)
+- expected: `cenr_wal:60`
 - secondary: —
-- evidence: cites: tion de l'article 120 du Code des droits d'enregistrement, l'apport est imposé c | tion de l'article 117, § 1, et de l'article 120, alinéa 3, du Code des droits d' | , et de l'article 120, alinéa 3, du Code des droits d'enregistrement. B) Comme  | ue dans l'article 117, § 3, alinéa 3, du Code des droits d'enregistrement.
+- evidence: cites: ieuses, l’article 60 du Code des droits d’enregistrement, d’hypothèque et de gre
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 18. `MC-PQ-a3659550` (corpus C, source pq, split train, topic cdtd)
+## 13. `MC-RULING-de9e7c63` (corpus C, source ruling, split train, topic cenr)
 
-**Q:** Depuis 2022, le gouvernement fédéral a instauré une taxe environnementale sur les billets d'avion, fixée à un minimum de 5 euros et renforcée en 2025. Et dans les autres aéroports ? Des évaluations comparatives ont-elles été menées avec les pays voisins qui n'appliquent pas une telle taxe, afin d'en mesurer l'effet réel sur la compétitivité belge ? Comment cette taxe contribue-t-elle concrètement à la réduction des émissions de CO2 du secteur aérien en Belgique ?
+**Q:** La confirmation que dans la mesure où le transfert de la moitié des droits et obligations découlant du contrat d'assurance-vie au deuxième preneur et assuré (Madame A. - la fille) au moment du décès du premier preneur et assuré (Madame B. - la mère) constituerait une stipulation pour autrui, ce transfert ne fait pas l'objet d'une taxation sur la base de l'article 8 du Code des droits de succession applicable en Région wallonne (ci-après, "C. succ."). 2 . La confirmation que le transfert de la moitié des droits et obligations découlant du contrat d'assurance-vie au deuxième preneur et assuré (A. - la fille) ne fait pas l'objet d'une taxation sur la base de l'article 2 C. succ.
 
-- source_doc: `questions_parlementaires/question_parlementaire_n_541_de_monsieur_anthony_dufrane_du_23_09_2025_baef9c08` (excluded from ranking)
-- expected: `code_et_legislation/article_162_code_droits_et_taxes_divers_3bc7cb4e`
-- secondary: —
-- evidence: cites:  L'article 162 du Code des droits et taxes divers qui établit la taxe d'e
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_515_du_09_10_2017_73ff7fee`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_515_du_09_10_2017_73ff7fee`
+- secondary: `code_et_legislation/article_8_du_code_des_droits_de_succession_legislation_federale_3d875fd6`, `code_et_legislation/article_8_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7291896b`, `code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917`, `code_et_legislation/article_2_du_code_des_droits_de_succession_legislation_federale_a1a588a4`, `code_et_legislation/article_2_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4c2d211`, `code_et_legislation/article_2_du_code_des_droits_de_succession_region_wallonne_b1436fd6`
+- evidence: cites: base de l'article 8 du Code des droits de succession applicable en Région wallon | base de l'article 2 C. succ.
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 19. `MC-RULING-81c80c0a` (corpus C, source ruling, split train, topic cenr)
+## 14. `MC-FAQ-4fbe6e31` (corpus C, source faq, split val, topic ctva)
 
-**Q:** L’apport de la branche d’activité « M » par la société « A » à la société « B » porte sur une branche d’activité au sens de l’article 46, § 1 er , CIR 92 et n’ont pas comme objectif ou comme un de leurs objectifs principaux, la fraude ou l’évasion fiscale telles que définies par l’article 183 bis , CIR 92 .
+**Q:** Que se passe-t-il si le contrat principal de location ou le mandat de gestion d'une durée d'au moins 15 années civiles complètes est résilié avant l'expiration de ces 15 années civiles ?
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1463_du_30_06_2020_857169b3`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1463_du_30_06_2020_857169b3`
-- secondary: `code_et_legislation/article_46_cir_92_revenus_2025_6659fcb9`, `code_et_legislation/article_46_cir_92_revenus_2026_618eafd2`, `code_et_legislation/article_46_cir_92_revenus_2027_50f30163`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
-- evidence: cites: sens de l’article 46, § 1er , CIR 92 et n’ont pas comme objectif ou comme un de  | ies par l’article 183bis , CIR 92 .
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 20. `MB-PQ-7a5bbf28` (corpus B, source pq, split train, topic cenr)
-
-**Q:** L'article 121, alinéa 1 er , 1° du C. enreg . prévoit une exemption de droits d'enregistrement proportionnels en cas de transformation d'une société possédant la personnalité juridique en une autre société possédant la personnalité juridique. Une transformation visée à l'article 14:31 du CSA relève-t-elle également de l'application de l'article 121, alinéa 1 er , 1° du C. enreg ., malgré l'absence d'une disposition explicite d'exemption ? Quel droit d'enregistrement est-il dû si la société possédant la personnalité juridique transformée possède un bien immobilier transféré à une ASBL dans le cadre de la transformation ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_912_de_madame_charlotte_verkeyn_du_04_02_2026_06b8d05c` (excluded from ranking)
-- expected: `cenr_bxl:121`, `cenr_vla:121`, `cenr_wal:121`, `cenr_bxl:172`, `cenr_vla:172`, `cenr_wal:172`, `cenr_bxl:5`, `cenr_vla:5` …
-- secondary: —
-- evidence: cites:  1. L'article 121, alinéa 1er , 1° C. enr. ne peut être appliqué lors de la  | fiscales (article 172, alinéa 2 Constitution). 2. Lorsqu'une telle transformati | e (voir l'article 5, § 1 j° § 2, 6°, al. 1er de la loi spéciale du 16 janvier 19 | ions de l'article 140, alinéa 1er , 2° et alinéa 2 C. enr. Bxl-Cap/C. enr. W. b
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 21. `MB-PQ-17afa08d` (corpus B, source pq, split train, topic cenr)
-
-**Q:** Il semblerait que votre administration soit confrontée, pour des raisons d'organisation, à des retards dans le remboursement des droits d'enregistrement, plus particulièrement dans le cadre de la reportabilité de ces droits. Quel est le délai de remboursement moyen ? Les intérêts de retard sont-ils dus de plein droit ? Quel est le taux des intérêts de retard et quelle autorité les supporte (fédérale ou régionale)? Quel montant cela représente-t-il ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_38_de_monsieur_doomst_du_05_10_2007_c4ed0bc7` (excluded from ranking)
-- expected: `cenr_bxl:223`, `cenr_vla:223`, `cenr_wal:223`
-- secondary: —
-- evidence: cites:  droit. L'article 223 C. enr. fixe l'intérêt moratoire sur les montants à restit
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 22. `MC-RULING-b8335312` (corpus C, source ruling, split val, topic cenr)
-
-**Q:** La scission partielle de la société A par laquelle cette dernière transfère l'immeuble X à la société à constituer B répond aux conditions de l'article 211, § 1 er , alinéa 4, 3° du Code des Impôts sur les Revenus 1992 (ci-après, « CIR 92 » ) et n'a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l'évasion fiscale au sens de l'article 183 bis CIR 92 ; 4.2 . La scission partielle de la société A par apport de l'immeuble X à la société B sera soumise aux droits d'enregistrement de 0% conformément à l'article 115 bis du Code des droits d'enregistrement, d'hypothèque et de greffe - Région wallonne (ci-après « C. enr. » ). 4.3 .
-
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_400_du_06_07_2017_cd93ac6d`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_400_du_06_07_2017_cd93ac6d`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320` …
-- evidence: cites: ions de l'article 211, § 1er , alinéa 4, 3° du Code des Impôts sur les Revenus 1 | sens de l'article 183bis CIR 92 ; 4.2 . La scission partielle de la société A pa | ément à l'article 115bis du Code des droits d'enregistrement, d'hypothèque et de
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 23. `MC-FAQ-80c0c176` (corpus C, source faq, split val, topic ctva)
-
-**Q:** Comment est calculée la période de six mois, au cours de laquelle s’applique la taxation obligatoire de la location immobilière ?
-
-- source_doc: `circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558`
-- expected: `circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558`
+- source_doc: `circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4`
+- expected: `circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4`
 - secondary: —
 - evidence: cites: 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 24. `MC-RULING-e54dd4e9` (corpus C, source ruling, split train, topic cir92)
+## 15. `MB-RULING-f51e8cc8` (corpus B, source ruling, split val, topic cir92)
 
-**Q:** Les scissions partielles envisagées des sociétés du groupe X détenant actuellement un patrimoine immobilier par l’apport de celui-ci à la société préconstituée Y : 1.1 . répondent aux conditions fixées à l'article 211, § 1er du Code des Impôts sur les Revenus de 1992 (en abrégé « CIR92 ») et n'ont pas comme objectif, ou comme un de leurs objectifs principaux, la fraude ou l'évasion fiscale au sens de l'article 183 bis CIR92 ; 1.2 . seront soumises aux droits d'enregistrement de 0% conformément aux articles 115 et 115 bis du Code des Droits d'Enregistrement (en abrégé « C. Enr. ») et que, par conséquent, seul le droit fixe général de 50 EUR sera dû (article 167 C. Enr.) ;
+**Q:** Quant à la transformation de l’ASBL X en SCAES 1.1. Les plus-values de réévaluation actées préalablement à la transformation de l’ASBL X en société coopérative agréée comme entreprise sociale (SCAES), conformément à l’article 14:38 du CSA, ne seront pas imposables à l’ IPM, conformément aux articles 221 à 224, CIR 92 ; 1.2. Suite à la transformation de l’ASBL X en SCAES, X devra être assujettie à l’ISOC, conformément à l’article 179 juncto , article 2, 5°, CIR 92 et ce, à partir de l'exercice d'imposition 2026 (année de revenus 2025) ; 1.3. La transition de l’IPM vers l’ISOC s’opérera conformément à l’article 184 quinquies du CIR 92 et impliquent, en l’espèce, que : 1.3.1.
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2015_563_du_08_12_2015_091eb703`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2015_563_du_08_12_2015_091eb703`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320` …
-- evidence: cites: ixées à l'article 211, § 1er du Code des Impôts sur les Revenus de 1992 (en abré | sens de l'article 183bis CIR92 ; 1.2 . seront soumises aux droits d'enregistreme | ément aux articles 115 et 115bis du Code des Droits d'Enregistrement (en abrégé  |  sera dû (article 167 C. Enr.) ;
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 25. `MC-RULING-ce39f23b` (corpus C, source ruling, split val, topic csucc)
-
-**Q:** La demande vise à obtenir la confirmation que 1.1. La valeur des actions, des sommes et de l’immeuble sis en Allemagne, obtenus par voie de donation dans les circonstances décrites ci-dessous, ne constitue pas un revenu imposable au sens des articles 6 et suivants , CIR 92. 1.2. La valeur locative de l’immeuble sis en Allemagne non donné en location constituera un revenu immobilier conformément à l’article 7, § 1 er , 1°, b) , CIR 92. 1.3. Le montant total du loyer et des avantages locatifs de l’immeuble donné en location sis en Allemagne constituera un revenu immobilier conformément à l’article 7, § 1 er , 2°, d) , CIR 92. 1.4.
-
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_1100_du_18_12_2018_83cbf49f`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_1100_du_18_12_2018_83cbf49f`
-- secondary: `code_et_legislation/article_7_cir_92_revenus_2025_90f0344b`, `code_et_legislation/article_7_cir_92_revenus_2026_583b6854`, `code_et_legislation/article_7_cir_92_revenus_2027_4ccecfb9`
-- evidence: cites: ément à l’article 7, § 1er , 1°, b) , CIR 92. 1.3. Le montant total du loyer et  | ément à l’article 7, § 1er , 2°, d) , CIR 92. 1.4.
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 26. `MC-PQ-61ac8335` (corpus C, source pq, split val, topic cta)
-
-**Q:** N ous avons eu l'occasion d'échanger en janvier dernier sur les mesures envisagées afin de renforcer la lutte contre l'utilisation frauduleuse des plaques luxembourgeoises. Pouvez-vous faire le point à ce sujet? Quelle est, à l’heure actuelle, la disposition qui s’applique pour les conjoints et/ou enfants fiscalement à charge? Si vous confirmez le durcissement de la réglementation, pouvez-vous me préciser par quelle voie celui-ci a eu lieu ? Une nouvelle circulaire a-t-elle été rédigée ? Si oui, a-t-elle été publiée ? Ne risque-t-on pas d’aboutir à des situations de fait particulièrement délicates, notamment lorsque le ménage ne dispose que d’un seul véhicule?
-
-- source_doc: `questions_parlementaires/question_parlementaire_orale_de_monsieur_dimitri_fourny_du_06_03_2017_region_wal_48000f72` (excluded from ranking)
-- expected: `code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586`, `code_et_legislation/article_30_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_00d740b5`, `code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7`
-- secondary: `code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9840e623`, `code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ff2adfba`, `code_et_legislation/article_21_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_ef45da69`, `code_et_legislation/article_30_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_1e99a65f`, `code_et_legislation/article_30_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ab6acdc0`, `code_et_legislation/article_30_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_76d1d06e` …
-- evidence: cites: vertu des articles 3, 21 et 30 du Code des taxes assimilées aux impôts sur les r
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 27. `MC-RULING-7b1ad517` (corpus C, source ruling, split val, topic cir92)
-
-**Q:** • La scission complète de la société A par laquelle cette dernière transfère son activité X à la société B et ses autres activités à la société C, peut bénéficier de la neutralité fiscale car elle répond aux conditions fixées à l’article 211, § 1 er , alinéa 4, CIR 92 et n’a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l’évasion fiscales au sens de l’article 183 bis , CIR 92 ; • La rétroactivité comptable et fiscale des opérations envisagées, ne dépassant pas les délais communément admis en la matière (jusqu’à sept mois), est opposable à l’administration fiscale ;
-
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0399_du_01_07_2025_21622c69`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0399_du_01_07_2025_21622c69`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
-- evidence: cites: ixées à l’article 211, § 1er , alinéa 4, CIR 92 et n’a pas comme objectif princi | sens de l’article 183bis , CIR 92 ; • La rétroactivité comptable et fiscale des 
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 28. `MB-PQ-3e85b58f` (corpus B, source pq, split val, topic cenr)
-
-**Q:** L'article 20 de la loi du 22 juin 2005 ( Moniteur belge du 30 juin 2005) a ramené le droit d'apport visé à l'article 115 du Code des droits d'enregistrement à 0 % (au lieu de 0,5 %). Pouvez-vous confirmer qu'un droit d'enregistrement de 0 % est à présent applicable pour toutes les scissions partielles ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_1054_de_monsieur_casaer_du_09_01_2006_83b084a9` (excluded from ranking)
-- expected: `cenr_bxl:115`, `cenr_bxl:115bis`, `cenr_bxl:116`, `cenr_vla:115`, `cenr_vla:115bis`, `cenr_vla:116`, `cenr_wal:115`, `cenr_wal:115bis` …
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2024_0986_du_17_12_2024_077618f5`
+- expected: `cir92:221`, `cir92:222`, `cir92:222/1`, `cir92:223`, `cir92:224`, `cir92:2`, `cir92:184quinquies`
 - secondary: —
-- evidence: cites:  dans les articles 115, 115bis et 116 du Code des droits d'enregistrement, le ta |  de 0%. L'article 120 inchangé du Code des droits d'enregistrement précise qu'un | ément à l'article 120 combiné à l'article 117 du Code précité, même s'il s'accom | mbiné à l'article 117 du Code précité, même s'il s'accompagne d'une reprise de p | ngée de l'article 120 du Code des droits d'enregistrement justifie la persistanc | ance de l'article 117 du même Code. Vu le fait qu'une scission partielle s'accom
+- evidence: cites: ément aux articles 221 à 224, CIR 92 ; 1.2. Suite à la transformation de l’ASBL  |  juncto , article 2, 5°, CIR 92 et ce, à partir de l'exercice d'imposition 2026  | ément à l’article 184quinquies du CIR 92 et impliquent, en l’espèce, que : 1.3.1
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 29. `MB-RULING-8be209df` (corpus B, source ruling, split val, topic cir92)
+## 16. `MC-RULING-5672358e` (corpus C, source ruling, split train, topic cenr)
 
-**Q:** la RCA peut déduire la TVA portant sur les énergies, les fluides, les travaux d’entretien et de réparation, les investissements et les futurs investissements ainsi que les différentes charges en amont relatives aux activités et parties des infrastructures exploitées par cette dernière avec application de la TVA ; 1.2. la RCA est assujettie à l’impôt des sociétés au sens des articles 2, § 1 er , 5° et 179 du Code des Impôts sur les Revenus 1992 (ci-après : CIR 92 ) ; dans ce cadre, le capital de la RCA constitue du capital libéré au sens de l’article 184 du CIR 92 ; 1.3.
+**Q:** Votre demande vise à obtenir la confirmation que la reconstitution de la pleine propriété d’un bien immobilier dans le chef d’un tiers acquéreur sera traitée comme suit pour les besoins des droits d’enregistrement : 1.1. L’acquisition par le tiers acquéreur du droit d’emphytéose relatif à un bien immobilier est soumise aux droits d’enregistrement de 2 % conformément aux articles 83 et 84 C. enr . ; 1.2. L’acquisition du tréfonds relatif au même bien immobilier est, quant à elle, soumise aux droits d'enregistrement de 12,5 % conformément à l’article 44 C. enr . ; 1.3.
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0132_du_14_04_2026_45c46774`
-- expected: `cir92:179`, `cir92:2`, `cir92:184`
-- secondary: —
-- evidence: cites:  sens des articles 2, § 1er , 5° et 179 du Code des Impôts sur les Revenus 1992  | sens de l’article 184 du CIR 92 ; 1.3.
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_1098_du_21_12_2021_6c34f34e`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_1098_du_21_12_2021_6c34f34e`
+- secondary: `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_legislation_federale_629961a1`, `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a2d629fa`, `code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_wallonne_fe3fafd0`, `code_et_legislation/article_84_du_code_des_droits_d_enregistrement_legislation_federale_978e330b`, `code_et_legislation/article_84_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_0a7c0baf`, `code_et_legislation/article_84_du_code_des_droits_d_enregistrement_region_wallonne_d22353dd` …
+- evidence: cites: ément aux articles 83 et 84 C. enr. ; 1.2. L’acquisition du tréfonds relatif au  | ément à l’article 44 C. enr. ; 1.3.
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 30. `MC-RULING-c5ffe8d0` (corpus C, source ruling, split train, topic cenr)
+## 17. `MC-RULING-de2664f0` (corpus C, source ruling, split train, topic cenr)
 
-**Q:** - l a transformation de la A (société simple) en société en nom collectif est réalisée en exonération de droits d’enregistrement par application de l’article 117, § 1 er , du Code des droits d’enregistrement (ci-après, « C. enr . »), dès lors qu’il y aura apport de l’universalité de biens de A à la société en nom collectif à constituer ; - l a transformation de A en société en nom collectif n’entraîne pas de taxation d’une plus-value dans le chef des associés de A par application de l’article 46, § 1 er , 2°du Code des Impôts sur les revenus (ci-après, « CIR 92 ») ;
+**Q:** La confirmation que le transfert de l'immeuble situé en Belgique et juridiquement détenu par la Société de Gestion ne sera pas soumis ni aux droits de mutation prévus à l'article 44 du Code des droits d'enregistrement, d'hypothèque et de greffe applicable en Région wallonne (ci-après « C. enr. » ) ni aux droits de donation prévus à l'article 131 C. enr.
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0785_du_29_11_2022_1e0baf31`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0785_du_29_11_2022_1e0baf31`
-- secondary: `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_legislation_federale_e9adac18`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_3e83a292`, `code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_wallonne_44008d10`, `code_et_legislation/article_46_cir_92_revenus_2025_6659fcb9`, `code_et_legislation/article_46_cir_92_revenus_2026_618eafd2`, `code_et_legislation/article_46_cir_92_revenus_2027_50f30163`
-- evidence: cites: tion de l’article 117, § 1er , du Code des droits d’enregistrement (ci-après, «  | tion de l’article 46, § 1er , 2°du Code des Impôts sur les revenus (ci-après, « 
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_245_du_26_04_2017_d94b27cc`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_245_du_26_04_2017_d94b27cc`
+- secondary: `code_et_legislation/article_44_du_code_des_droits_d_enregistrement_legislation_federale_b5d6f887`, `code_et_legislation/article_44_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_c5cda190`, `code_et_legislation/article_44_du_code_des_droits_d_enregistrement_region_wallonne_1c32460b`, `code_et_legislation/article_131_du_code_des_droits_d_enregistrement_legislation_federale_073aa41f`, `code_et_legislation/article_131_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_1f30bae2`, `code_et_legislation/article_131_du_code_des_droits_d_enregistrement_region_wallonne_28aaa269`
+- evidence: cites: révus à l'article 44 du Code des droits d'enregistrement, d'hypothèque et de gre | révus à l'article 131 C. enr.
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 31. `MC-RULING-bb86337e` (corpus C, source ruling, split val, topic cir92)
+## 18. `MC-FAQ-4f039ab7` (corpus C, source faq, split val, topic cdtd)
 
-**Q:** Les demandeurs (père, mère et deux enfants) souhaitent obtenir la confirmation que les plus-values d’apport qu’ils réaliseront suite à l’apport des actions de T et B à NEWCO, une société holding à constituer de droit belge, constituent une opération de gestion normale de patrimoine privé n’entrant pas dans le champ d’application de l’article 90, 9°, 1er tiret du Code des Impôts sur les Revenus 1992 (ci-après CIR 92) et, en conséquence, seront exonérées dans leur chef.
-
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2014_651_du_03_03_2015_632ffb58`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2014_651_du_03_03_2015_632ffb58`
-- secondary: `code_et_legislation/article_90_cir_92_revenus_2025_ad5c919a`, `code_et_legislation/article_90_cir_92_revenus_2026_a03262a3`, `code_et_legislation/article_90_cir_92_revenus_2027_36c91ef7`
-- evidence: cites: tion de l’article 90, 9°, 1er tiret du Code des Impôts sur les Revenus 1992 (ci-
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 32. `MC-FAQ-fe7c47f0` (corpus C, source faq, split train, topic ctva)
-
-**Q:** Je suis un assujetti partiel qui entreprend également des activités exonérées de la TVA sur la base de l'article 44 du Code de la TVA. Quel est l'impact du statut d'assujetti partiel et mixte sur les nouvelles obligations ?
-
-- source_doc: `circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4`
-- expected: `circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4`
-- secondary: —
-- evidence: cites: 
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 33. `MB-PQ-404680e2` (corpus B, source pq, split train, topic cenr)
-
-**Q:** Afin de renforcer le travail de l’administration régionale, il est impératif pour celle ‑ ci de disposer de suffisamment d'informations sur les quelque 330.000 logements privés mis en location dans notre Région. - Où en êtes ‑ vous avec le formulaire destiné aux bailleurs ? Si oui pourriez ‑ vous nous exposer le contenu final de ce formulaire ? Le portail pour l'enregistrement est ‑ t ‑ il lancé ? Si non, pour quelle raison ? Quels sont les obstacles auxquels vous faites face ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_1274_de_monsieur_bertin_mampaka_mankamba_du_27_09_2023_3ffc244f` (excluded from ranking)
-- expected: `cenr_bxl:35`
-- secondary: —
-- evidence: cites:  données (art. 35 RGPD). Un focus sera fait sur le logiciel. Cette analyse sera [bare refs resolved with default code cenr]
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 34. `MC-FAQ-261efbb2` (corpus C, source faq, split train, topic ctva)
-
-**Q:** Je gère plusieurs bâtiments pour lesquels j'ai signé un contrat global pour la livraison d'électricité. Comment dois-je appliquer les nouvelles règles ?
-
-- source_doc: `circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779`
-- expected: `circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779`
-- secondary: —
-- evidence: cites: 
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 35. `MC-FAQ-3d163597` (corpus C, source faq, split val, topic cdtd)
-
-**Q:** Quels sont les éléments à mentionner dans la demande d’agrément du représentant responsable ?
+**Q:** Quelle est la sanction applicable en cas de refus par le redevable de la taxe de communiquer les documents visés à l’art. 166/1, CDTD ?
 
 - source_doc: `circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0`
 - expected: `circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472`, `circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0`
 - secondary: —
-- evidence: cites:  [bare refs resolved with default code cdtd]
+- evidence: cites: 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 36. `MB-RULING-7ac4931a` (corpus B, source ruling, split val, topic cir92)
+## 19. `MC-RULING-02407397` (corpus C, source ruling, split val, topic cenr)
 
-**Q:** - en ce qui concerne le transfert du siège de la société ‘X’ du Luxembourg vers la Belgique : Le capital statutaire de ‘X’ sera considéré après immigration en Belgique, comme du capital libéré tel qu’énoncé à l’article 184, § 5, alinéa 1 er CIR 92 et à l’article 184, alinéa 1 er , CIR 92 ; Les réserves constituées par ‘X’ auront, après immigration, la nature de réserves taxées en application de l’article 184bis, § 5, alinéa 2, CIR 92 ; L’article 184bis, § 5, alinéa 3, CIR 92 ne trouve pas à s’appliquer car ‘X’ est assujettie au droit commun en matière d’impôts en France.
+**Q:** Que l’opération de fusion par absorption, ci-après décrite, répond aux conditions de l’article 211, § 1 er du Code des Impôts sur les Revenus (ci-après : « CIR 92) et à l’article 183 bis , CIR 92 ;
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0950_du_12_02_2019_43bf23cc`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0950_du_12_02_2019_43bf23cc`
+- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
+- evidence: cites: ions de l’article 211, § 1er du Code des Impôts sur les Revenus (ci-après : « CI | 2) et à l’article 183bis , CIR 92 ;
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 20. `MB-PQ-c9688002` (corpus B, source pq, split train, topic ctva)
+
+**Q:** En août dernier, la Direction de l'immatriculation des véhicules (DIV) et l'Administration des douanes et accises annonçaient une campagne de contrôle des véhicules immatriculés à l'étranger utilisés par des résidents belges. Enfin, on parle d'une modification de l'arrêté royal relatif à l'immatriculation des véhicules à moteur. a) Qu'en est-il exactement ? b) Sur quoi porteraient les modifications ?
+
+- source_doc: `questions_parlementaires/question_parlementaire_n_1066_de_monsieur_antoine_duquesne_du_01_10_1997_c2e6dc44` (excluded from ranking)
+- expected: `ctva:12bis`
+- secondary: —
+- evidence: cites: binée des articles 12bis , 1er alinéa, et 25quater , § 1er , du Code de la TVA). | binée des articles 12bis , alinéa 2, 7°, et 25quater , § 1er , alinéa 2, du Code
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 21. `MC-PQ-5f7561a2` (corpus C, source pq, split val, topic csucc)
+
+**Q:** La nouvelle disposition anti ‑ abus de l’ article 344 du CIR 92 a déjà fait couler beaucoup d’encre. Le secrétaire d’État confirme ‑ t ‑ il que l’application de la nouvelle disposition anti ‑ abus n’est pas à l’ordre du jour dans le cas d’une donation manuelle suivie de l’acquisition scindée d’un bien immeuble, dans le cadre de laquelle les parents obtiennent l’usufruit et les enfants la nue ‑ propriété ? De même, confirme ‑ t ‑ il que cette technique ne peut être considérée comme un abus sur le plan fiscal ?
+
+- source_doc: `questions_parlementaires/question_parlementaire_orale_n_12355_de_monsieur_luk_van_biesen_du_19_06_2012_0fe81caf` (excluded from ranking)
+- expected: `code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f`, `code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d`, `code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531`
+- secondary: —
+- evidence: cites: lair. L' article 9 du Code des droits de succession introduit la fiction légale
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 22. `MC-RULING-7e493276` (corpus C, source ruling, split train, topic cenr)
+
+**Q:** La demande vise à obtenir une décision anticipée sur la question de savoir si la fusion par absorption de la société A par la société B, (i) répond aux conditions de l’article 211, § 1 er , alinéa 4, CIR 92 et n’a pas comme objectif ou comme un de ses objectifs principaux la fraude ou l’évasion fiscales au sens de l’article 183 bis , CIR 92, (ii) sera exemptée de droits d’enregistrement conformément à l’article 117, § 1 er , C. enr ., (iii) bénéficiera de la rétroactivité fiscale et comptable postulée et ( iiii ) bénéficiera de l’application prévue aux articles 11 et 18 § 3, C.TVA.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0744_du_04_10_2022_0d8c514f`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0744_du_04_10_2022_0d8c514f`
+- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320` …
+- evidence: cites: ions de l’article 211, § 1er , alinéa 4, CIR 92 et n’a pas comme objectif ou com | sens de l’article 183bis , CIR 92, (ii) sera exemptée de droits d’enregistrement | ément à l’article 117, § 1er , C. enr ., (iii) bénéficiera de la rétroactivité f | révue aux articles 11 et 18 § 3, C.TVA.
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 23. `MC-RULING-d66fd24f` (corpus C, source ruling, split val, topic cir92)
+
+**Q:** Les fusions par absorption des sociétés A et B par la société C, (i) répondent aux conditions de l’article 211, § 1er, alinéa 4, 3° CIR92 et n’ont pas comme objectif ou comme un de ses objectifs principaux la fraude ou l’évasion fiscale au sens de l’article 183 bis CIR92, (ii) ne seront pas soumise aux droits d’enregistrement conformément à l’article 117 bis C. enr., (iii) ne seront pas soumises à la TVA en vertu des articles 11 et 18, § 3 du CTVA. Par ailleurs la demande vise à entendre confirmer que les plus-values fiscales de fusion seront exonérées à 100% par application de l’article 204, al.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_848_du_24_01_2017_4f7c7157`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_848_du_24_01_2017_4f7c7157`
+- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320` …
+- evidence: cites: ions de l’article 211, § 1er, alinéa 4, 3° CIR92 et n’ont pas comme objectif ou  | sens de l’article 183bis CIR92, (ii) ne seront pas soumise aux droits d’enregist | vertu des articles 11 et 18, § 3 du CTVA. Par ailleurs la demande vise à entendr
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 24. `MB-PQ-eff491dd` (corpus B, source pq, split train, topic cir92)
+
+**Q:** La loi du 16 mai 2003, fixant les dispositions générales applicables aux budgets, au contrôle des subventions et à la comptabilité des communautés et des régions, ainsi qu'à l'organisation du contrôle de la Cour des comptes, impose dans son article 16/11 que soit joint au budget “un inventaire des dépenses fiscales (...), comprenant toutes les … Si oui, pouvez-vous nous le faire parvenir ?
+
+- source_doc: `questions_parlementaires/question_parlementaire_n_242_de_madame_caroline_de_bock_du_09_12_2020_region_de_2bc34359` (excluded from ranking)
+- expected: `cir92:253`, `cir92:255`, `cir92:257`
+- secondary: —
+- evidence: cites: rises à l’article 253 du Code des impôts sur les revenus, tel que modifié en der | n 2018, l’article 255 du CIR 1992 prévoit quant à lui un tarif zéro pour les imm | ale ( cf. article 257 du CIR 1992).
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 25. `MB-PQ-2a07e1cd` (corpus B, source pq, split val, topic csucc)
+
+**Q:** Tous les codes fiscaux, y compris le Code des droits de succession, prévoient des recours permettant aux contribuables de se défendre contre les éventuelles revendications infondées (à leurs yeux) du fisc. L'administration note-t-elle lorsque, dans un même dossier de succession, l'un des contribuables intente une action en justice et l'autre non ? b) Comment l'administration s'en informe-t-elle ? Une attitude différente dans un même dossier donne-t-elle lieu à des conséquences différentes pour les contribuables concernés ? b) L'administration applique-t-elle le principe d'égalité lorsqu'un des héritiers obtient gain de cause et que l'autre n'a pas entamé de procédure ?
+
+- source_doc: `questions_parlementaires/question_parlementaire_n_1068_de_monsieur_leterme_du_16_07_2002_97cc6f1b` (excluded from ranking)
+- expected: `csucc_bxl:38`, `csucc_vla:38`, `csucc_wal:38`
+- secondary: —
+- evidence: cites: e fiscal (article 38, 1° Code des droits de succession) le receveur de ce bureau
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 26. `MC-RULING-faa395a8` (corpus C, source ruling, split train, topic cir92)
+
+**Q:** Les actions ne sont pas cédées endéans une période de 12 mois à compter de la date de l'assemblée générale extraordinaire approuvant l'opération envisagée ; - 50% d'aucune de ces différentes actions ne sont cédées endéans une période de 24 mois à compter de la fin de la période de 12 mois précitée ;
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_800_055_du_08_04_2008_610ff471`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_800_055_du_08_04_2008_610ff471`
+- secondary: —
+- evidence: cites: 
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 27. `MB-RULING-de9e7c63` (corpus B, source ruling, split val, topic csucc)
+
+**Q:** La confirmation que dans la mesure où le transfert de la moitié des droits et obligations découlant du contrat d'assurance-vie au deuxième preneur et assuré (Madame A. - la fille) au moment du décès du premier preneur et assuré (Madame B. - la mère) constituerait une stipulation pour autrui, ce transfert ne fait pas l'objet d'une taxation sur la base de l'article 8 du Code des droits de succession applicable en Région wallonne (ci-après, "C. succ."). 2 . La confirmation que le transfert de la moitié des droits et obligations découlant du contrat d'assurance-vie au deuxième preneur et assuré (A. - la fille) ne fait pas l'objet d'une taxation sur la base de l'article 2 C. succ.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_515_du_09_10_2017_73ff7fee`
+- expected: `csucc_bxl:8`, `csucc_vla:8`, `csucc_wal:8`, `csucc_bxl:2`, `csucc_vla:2`, `csucc_wal:2`
+- secondary: —
+- evidence: cites: base de l'article 8 du Code des droits de succession applicable en Région wallon | base de l'article 2 C. succ.
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 28. `MC-RULING-67fa81e5` (corpus C, source ruling, split val, topic cir92)
+
+**Q:** La demande concerne plusieurs compartiments d'une SICAV de droit belge au sens des articles 14 à 16 de la loi du 20 juillet 2004 relative à certaines formes de gestion collective de portefeuilles d'investissement (ci-après, la SICAV) et porte sur les questions suivantes : - l'article 202, § 1 er , 2° du Code des Impôts sur les Revenus 1992 (ci-après CIR92) s'applique-t-il à la plus-value réalisée par une société actionnaire de la SICAV lors du rachat par celle-ci de ses propres actions ? - les conditions visées à l'article 203, § 2, al.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_600_130_du_30_05_2006_6dfad76a`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_600_130_du_30_05_2006_6dfad76a`
+- secondary: `code_et_legislation/article_202_cir_92_revenus_2025_a7d2d3ce`, `code_et_legislation/article_202_cir_92_revenus_2026_b1c07f1f`, `code_et_legislation/article_202_cir_92_revenus_2027_5db296ed`
+- evidence: cites: tes : - l'article 202, § 1er , 2° du Code des Impôts sur les Revenus 1992 (ci-ap
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 29. `MC-RULING-f06c569e` (corpus C, source ruling, split val, topic cenr)
+
+**Q:** Les éléments d’actifs et de passifs, les droits et engagements qui seront apportés par la société A à la société B constituent une branche d’activité au sens de l’article 46, § 1, 2° du Code des Impôts sur les Revenus 1992 (ci-après, le « CIR 92 ») ; 2 . L’apport de la branche d’activité n’a pas, comme objectif principal ou comme un de ses objectifs principaux, la fraude ou l’évasion fiscale (article 183 bis du CIR 92). Par conséquent, l’apport de branche d’activité bénéficie du régime d’exonération prévus en la matière par l’article 46 du CIR 92; 3 .
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2015_742_du_02_02_2016_e5836be3`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2015_742_du_02_02_2016_e5836be3`
+- secondary: `code_et_legislation/article_46_cir_92_revenus_2025_6659fcb9`, `code_et_legislation/article_46_cir_92_revenus_2026_618eafd2`, `code_et_legislation/article_46_cir_92_revenus_2027_50f30163`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
+- evidence: cites: sens de l’article 46, § 1, 2° du Code des Impôts sur les Revenus 1992 (ci-après, |  fiscale (article 183bis du CIR 92). Par conséquent, l’apport de branche d’activ | ère par l’article 46 du CIR 92; 3 .
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 30. `MC-PQ-76e723ad` (corpus C, source pq, split train, topic cta)
+
+**Q:** Les automobilistes reçoivent de l'Administration des contributions directes, contributions autos, un avis les invitant à payer la taxe de circulation. Pour l'année 1992 et par mois civil, quel est le rapport : a) de la taxe de circulation ; b) des amendes perçues pour non-paiement dans les délais de la taxe de circulation ?
+
+- source_doc: `questions_parlementaires/question_parlementaire_n_561_de_monsieur_jp_perdieu_du_10_05_1993_7bbfcda1` (excluded from ranking)
+- expected: `code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_53f43f47`, `code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_9abece7d`, `code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_388a4aaa`, `code_et_legislation/article_4_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_16dd507f`
+- secondary: —
+- evidence: cites:  1. L'article 36ter , 4, du Code des taxes assimilées aux impôts sur les rev
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 31. `MC-RULING-bad6c4ff` (corpus C, source ruling, split val, topic cenr)
+
+**Q:** Les droits d'enregistrement applicables lors de la conclusion du droit de superficie, de la cession des quotes-parts de tréfonds aux investisseurs personnes physiques et de la constitution d'un droit d'usufruit envers Z ; 1.2. le traitement TVA relatif à l'acquisition des quotes-parts des constructions et du droit de superficie par les investisseurs personnes physiques, de la cession du droit d'usufruit portant sur les constructions et du prorata de la TVA à récupérer dans le chef des investisseurs personnes physiques ; 1.3. la déduction, par les investisseurs personnes physiques, de la TVA grevant les frais de notaire relatifs à l'acte d'acquisition et à l'acte d'usufruit ; 1.4.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1846_du_29_09_2020_623e9e6a`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1846_du_29_09_2020_623e9e6a`
+- secondary: —
+- evidence: cites: 
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 32. `MC-RULING-5edc188e` (corpus C, source ruling, split val, topic cenr)
+
+**Q:** Le demandeur souhaite obtenir du Service des Décisions Anticipées (ci-après « SDA ») les confirmations suivantes : 1.1. L’immeuble visé ci-après sera considéré comme neuf au sens de la TVA après la réalisation des travaux décrits dans la présente décision. 1.2. Le droit d’usufruit concédé par le demandeur en faveur de l’usufruitier sur le bien décrit ci-après sera soumis à la TVA. 1.3. Le demandeur sera considéré comme un constructeur professionnel au sens de l’article 12, § 2 C.TVA et pourra donc déduire la TVA relative aux travaux immobilier en appliquant la méthode de déduction basée sur l’affectation réelle. 1.4.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0575_du_16_09_2025_65a7981e`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0575_du_16_09_2025_65a7981e`
+- secondary: `code_et_legislation/article_12_code_de_la_tva_6d68b456`
+- evidence: cites: sens de l’article 12, § 2 C.TVA et pourra donc déduire la TVA relative aux trava
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 33. `MB-PQ-6c4dc747` (corpus B, source pq, split train, topic cenr)
+
+**Q:** Aux termes de l'article 19 du Code des droits d'enregistrement, d'hypothèque et de greffe, les actes portant bail, sous-bail et cession de bail d'immeubles situés en Belgique doivent être enregistrés. Peut-il me dire si l'on vérife quels actes portant bail, sous bail et cession de bail d'immeubles situés en Belgique n'ont pas été enregistrés? En cas de réponse affirmative à la question 4, peut-il me communiquer si des amendes sont infligées? Les contribuables font-ils l'objet de poursuites judiciaires s'ils ne se conforment pas à l'obligation d'enregistrement?
+
+- source_doc: `questions_parlementaires/question_parlementaire_n_1599_de_monsieur_steverlynck_du_15_10_2001_8aa2ecc0` (excluded from ranking)
+- expected: `cenr_bxl:159`, `cenr_vla:159`, `cenr_wal:159`, `cenr_bxl:83`, `cenr_vla:83`, `cenr_wal:83`, `cenr_bxl:41`, `cenr_vla:41` …
+- secondary: —
+- evidence: cites: sés par l'article 159, 13°, du Code des droits d'enregistrement, d'hypothèque et | tion de l'article 83 du Code des droits d'enregistrement, d'hypothèque et de gre | née par l'article 41, 1°, du Code des droits d'enregistrement. Cette amende est 
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 34. `MB-RULING-f2113d4c` (corpus B, source ruling, split train, topic cir92)
+
+**Q:** La scission de la société X par l’apport à trois nouvelles sociétés de l’intégralité de son patrimoine, activement et passivement répond aux conditions fixées à l’article 211, § 1er, alinéa 2, 3°, du Code d’impôts sur les revenus (ci-après « CIR92 ») et n’a pas comme objectif, ou comme un de ses objectifs principaux, la fraude ou l’évasion fiscale au sens de l’article 183 bis , du même Code ; et ne constitue pas un abus fiscal au sens de l’article 344, CIR92 ; 2 . la clause de rétroactivité comptable, éventuellement insérée dans l’acte de scission, et qui ne sera pas supérieure à une durée de sept mois, peut être opposée à l’Administration fiscale ; 3 .
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2015_336_du_14_07_2015_1c25c40a`
+- expected: `cir92:344`
+- secondary: —
+- evidence: cites: sens de l’article 344, CIR92 ; 2 . la clause de rétroactivité comptable, éventue
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 35. `MC-RULING-1a74814b` (corpus C, source ruling, split val, topic cir92)
+
+**Q:** En ce qui concerne le transfert du siège de la société ‘X’ du Luxembourg vers la Belgique : Le capital statutaire de ‘X’ sera considéré après immigration en Belgique, comme du capital libéré tel qu’énoncé à l’article 184, § 5, alinéa 1 er CIR 92 et à l’article 184, alinéa 1 er , CIR 92 ; Les réserves constituées par ‘X’ auront, après immigration, la nature de réserves taxées en application de l’article 184bis, § 5, alinéa 2, CIR 92 ; L’article 184bis, § 5, alinéa 3, CIR 92 ne trouve pas à s’appliquer car ‘X’ est assujettie au droit commun en matière d’impôts en France.
 
 - source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0500_du_26_06_2018_143b1d8d`
-- expected: `cir92:184`, `cir92:184bis`
-- secondary: —
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0500_du_26_06_2018_143b1d8d`
+- secondary: `code_et_legislation/article_184_cir_92_revenus_2025_56caa31e`, `code_et_legislation/article_184_cir_92_revenus_2026_03873f81`, `code_et_legislation/article_184_cir_92_revenus_2027_a0e5aed8`, `code_et_legislation/article_184bis_cir_92_revenus_2025_9fea4dc8`, `code_et_legislation/article_184bis_cir_92_revenus_2026_7c325556`, `code_et_legislation/article_184bis_cir_92_revenus_2027_7e3bc7f2`
 - evidence: cites: noncé à l’article 184, § 5, alinéa 1er CIR 92 et à l’article 184, alinéa 1er , C | 92 et à l’article 184, alinéa 1er , CIR 92 ; Les réserves constituées par ‘X’ au | tion de l’article 184bis, § 5, alinéa 2, CIR 92 ; L’article 184bis, § 5, alinéa  | IR 92 ; L’article 184bis, § 5, alinéa 3, CIR 92 ne trouve pas à s’appliquer car 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 37. `MC-RULING-851779c9` (corpus C, source ruling, split val, topic cenr)
+## 36. `MC-PQ-aeebcb11` (corpus C, source pq, split train, topic cenr)
 
-**Q:** La scission partielle de la société « A » par laquelle cette dernière transfère l’activité « X » à la société nouvelle à constituer « B », répond aux conditions visées à l’article 211, § 1 er , alinéa 4, CIR 92 et n’a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l’évasion fiscale au sens de l’article 183 bis , CIR 92.
+**Q:** D'aucuns s'inquiètent de l'équité fiscale de certaines constructions d'usufruit et de nue-propriété, dans le cadre desquelles des sociétés acquièrent des biens immobiliers en collaboration avec leurs gérants. Reconnaissez-vous le problème posé par cette construction et les signes indiquant qu'elle permet de constituer à grande échelle un patrimoine privé non imposé à charge de la société ?
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0336_du_14_06_2022_7d010bed`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0336_du_14_06_2022_7d010bed`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
-- evidence: cites: isées à l’article 211, § 1er , alinéa 4, CIR 92 et n’a pas comme objectif princi | sens de l’article 183bis , CIR 92.
-- check: [ ] correct  [ ] partly  [ ] wrong — note:
-
-## 38. `MC-PQ-0938d97b` (corpus C, source pq, split train, topic csucc)
-
-**Q:** L' E tat est partie prenante dans la succession d'un important notaire bruxellois suite à son décès en 2002. Les remarques inquiétantes de la Cour des comptes o nt ‑ elles encore lieu d'être ? Qu'a ‑ t ‑ il été entrepris depuis pour en tenir compte ? Pour quel montant de droits de succession et quel montant de garanties associées ?
-
-- source_doc: `questions_parlementaires/question_parlementaire_n_1830_de_monsieur_marco_van_hees_du_04_01_2024_23765d89` (excluded from ranking)
-- expected: `code_et_legislation/article_96_du_code_des_droits_de_succession_legislation_federale_a23acc5f`, `code_et_legislation/article_96_du_code_des_droits_de_succession_region_de_bruxelles_capitale_b2fd19b7`, `code_et_legislation/article_96_du_code_des_droits_de_succession_region_wallonne_bb4a892f`, `code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f`, `code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36`, `code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39`
+- source_doc: `questions_parlementaires/question_parlementaire_n_821_de_monsieur_niels_tas_du_13_01_2026_cffe133f` (excluded from ranking)
+- expected: `code_et_legislation/article_44_du_code_des_droits_d_enregistrement_legislation_federale_b5d6f887`, `code_et_legislation/article_44_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_c5cda190`, `code_et_legislation/article_44_du_code_des_droits_d_enregistrement_region_wallonne_1c32460b`, `code_et_legislation/article_45_du_code_des_droits_d_enregistrement_legislation_federale_59393cd8`, `code_et_legislation/article_45_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_be203693`, `code_et_legislation/article_45_du_code_des_droits_d_enregistrement_region_wallonne_90c493a1`, `code_et_legislation/article_46_du_code_des_droits_d_enregistrement_legislation_federale_d73c184e`, `code_et_legislation/article_46_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_bb4cb3bd` …
 - secondary: —
-- evidence: cites: isées aux articles 96 et 97, C. succ et article 3.13.1.3.7, C fF , ainsi que l'a
+- evidence: cites: trement) (art. 44 du Code des droits d'enregistrement, d'hypothèque et de greffe | r vénale (art. 45 et 46 C. enreg .). Le C. enreg. contient des règles spéciales 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 39. `MC-RULING-d14ab305` (corpus C, source ruling, split val, topic cir92)
+## 37. `MC-FAQ-2da1f400` (corpus C, source faq, split val, topic ctva)
 
-**Q:** la scission partielle de la société X par l’apport d’une partie de ses actifs et passifs à une Newco répond aux conditions de l’article 211 CIR 92 et n’a pas pour objectif principal ou comme un de ses objectifs principaux la fraude ou l’évasion fiscale au sens de l’article 183 bis CIR 92 ;
+**Q:** J’exerce une profession libérale (médecin, dentiste, avocat, notaire…). L’option pour la taxation de la location immobilière m’est-elle ouverte, en tant que locataire ?
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0346_du_12_06_2018_cc4775b6`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0346_du_12_06_2018_cc4775b6`
-- secondary: `code_et_legislation/article_211_cir_92_revenus_2025_13e032b1`, `code_et_legislation/article_211_cir_92_revenus_2026_559f8e40`, `code_et_legislation/article_211_cir_92_revenus_2027_eb465160`, `code_et_legislation/article_183bis_cir_92_revenus_2025_80f89d84`, `code_et_legislation/article_183bis_cir_92_revenus_2026_ce7fa898`, `code_et_legislation/article_183bis_cir_92_revenus_2027_7d90f320`
-- evidence: cites: ions de l’article 211 CIR 92 et n’a pas pour objectif principal ou comme un de s | sens de l’article 183bis CIR 92 ;
+- source_doc: `circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558`
+- expected: `circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558`
+- secondary: —
+- evidence: cites: 
 - check: [ ] correct  [ ] partly  [ ] wrong — note:
 
-## 40. `MC-RULING-11b03107` (corpus C, source ruling, split val, topic cenr)
+## 38. `MB-PQ-b9d924f4` (corpus B, source pq, split train, topic cenr)
 
-**Q:** la RCA peut déduire la TVA portant sur les énergies, les fluides, les travaux d’entretien et de réparation, les investissements et les futurs investissements ainsi que les différentes charges en amont relatives aux activités et parties des infrastructures exploitées par cette dernière avec application de la TVA ; 1.2. la RCA peut bénéficier de l’enregistrement gratuit d’un acte de constitution d’un droit de superficie portant sur le terrain destiné à la construction d’un pôle sportif pluridisciplinaire intégré transféré par la Commune conformément à l’ article 161, 2° du Code des Droits d’Enregistrement , d’hypothèque et de greffe applicable en Région wallonne (ci ‑ après : C. enr . ).
+**Q:** Lorsqu'un bien est frappé d'un arrêté d'inhabitabilité, un acquéreur potentiel peut bénéficier d'un taux réduit directement applicable de 6 % au moment de son acquisition si toutes les conditions sont réunies. Quelles sont les bases légales actuelles permettant de ne pas appliquer le taux réduit directement applicable ?
 
-- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2024_0570_du_03_09_2024_928e8a05`
-- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2024_0570_du_03_09_2024_928e8a05`
-- secondary: `code_et_legislation/article_161_du_code_des_droits_d_enregistrement_legislation_federale_a464bf97`, `code_et_legislation/article_161_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_7520d215`, `code_et_legislation/article_161_du_code_des_droits_d_enregistrement_region_wallonne_d2d17064`
-- evidence: cites: ment à l’ article 161, 2° du Code des Droits d’Enregistrement , d’hypothèque et 
+- source_doc: `questions_parlementaires/question_parlementaire_n_1067_de_monsieur_frederic_daerden_du_21_06_2016_6897a1fe` (excluded from ranking)
+- expected: `cenr_bxl:53`, `cenr_vla:53`, `cenr_wal:53`, `cenr_bxl:57`, `cenr_vla:57`, `cenr_wal:57`
+- secondary: —
+- evidence: cites: lonne. L'article 53, 2° al. 2 du Code des droits d'enregistrement, d'hypothèque | ertu de l'article 57 du Code des droits d'enregistrement, d'hypothèque et de gre
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 39. `MB-RULING-1688094c` (corpus B, source ruling, split train, topic cir92)
+
+**Q:** Les redevances perçues par la société X en contrepartie de la concession du droit d’usufruit à l’ASBL Y ne généreront pas de plus-value imposable, conformément aux articles 222, 6° ; 90, 10° et 101, § 2 et 3 , Code des impôts sur les revenus 1992 (ci-après : « CIR 92 ») ainsi qu’à l’article 54 de l’Arrêté Royal du Code des impôts sur les revenus 1992 (ci-après : « AR/ CIR 92 ») ; 1.2. Les opérations envisagées ne constituent pas un abus fiscal, de sorte que l’article 344, § 1 er , CIR 92 ne trouve pas à s’appliquer ; 1.3.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0434_du_28_06_2022_1ed229cd`
+- expected: `cir92:344`
+- secondary: —
+- evidence: cites: rte que l’article 344, § 1er , CIR 92 ne trouve pas à s’appliquer ; 1.3.
+- check: [ ] correct  [ ] partly  [ ] wrong — note:
+
+## 40. `MC-RULING-dd547446` (corpus C, source ruling, split val, topic ctva)
+
+**Q:** Les travaux de rénovation relatifs au bâtiment d’habitations décrit ci-après, peuvent bénéficier du taux de TVA de 6% prévu par la rubrique XXXI du tableau A de l’annexe à l’arrêté royal n° 20 du 20 juillet 1970. 1.2. La vente des deux appartements situés dans le bâtiment d’habitations visé ci-après est exemptée de TVA conformément à l’article 44, § 3, 1°, a) C.TVA qu’elle ait lieu avant ou après la réalisation des travaux de rénovation décrits dans la présente décision. 1.3.
+
+- source_doc: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0574_du_16_12_2025_99b3752d`
+- expected: `decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0574_du_16_12_2025_99b3752d`
+- secondary: `code_et_legislation/article_44_code_de_la_tva_5b03988f`
+- evidence: cites: ément à l’article 44, § 3, 1°, a) C.TVA qu’elle ait lieu avant ou après la réali
 - check: [ ] correct  [ ] partly  [ ] wrong — note:

@@ -1,0 +1,2309 @@
+{
+ "corpus": "B",
+ "selected_lexical": "lexrec__sent+title_w0.5_b0.75",
+ "selected_lexical_by_r30": "lexrec__sent+title_w0.5_b0.75",
+ "selected_fused": "lexrec__sent+title_w1.0_b0.5+e5",
+ "candidate_runs": [
+  "lex13",
+  "lex13+e5",
+  "lexrec__sent+title_w0.5_b0.75",
+  "lexrec__sent+title_w0.5_b0.75+e5",
+  "lexrec__sent+title_w1.0_b0.5+e5"
+ ],
+ "runs": {
+  "lex13": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.45834197235513024,
+     "hit@1": 0.3333333333333333,
+     "recall@10": 0.625,
+     "recall@30": 0.7916666666666666
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.340625,
+     "hit@1": 0.25,
+     "recall@10": 0.625,
+     "recall@30": 0.625
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.4112551834130781,
+     "hit@1": 0.3,
+     "recall@10": 0.625,
+     "recall@30": 0.725
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75
+    },
+    "reception": null
+   }
+  },
+  "lex13+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.4587935030041827,
+     "hit@1": 0.2916666666666667,
+     "recall@10": 0.75,
+     "recall@30": 0.7916666666666666
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3361133658008658,
+     "hit@1": 0.25,
+     "recall@10": 0.625,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.40972144812285594,
+     "hit@1": 0.275,
+     "recall@10": 0.7,
+     "recall@30": 0.75
+    }
+   },
+   "config": {
+    "stage": "fusion",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "reception": null
+   }
+  },
+  "lexrec__sent_w0.3_b0.5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6020833333333333,
+     "hit@1": 0.5,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.43048406862745103,
+     "hit@1": 0.3125,
+     "recall@10": 0.625,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5334436274509804,
+     "hit@1": 0.425,
+     "recall@10": 0.725,
+     "recall@30": 0.775
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.5
+    },
+    "reception": "sent",
+    "reception_weight": 0.3,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent_w0.3_b0.75": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.600743006993007,
+     "hit@1": 0.5,
+     "recall@10": 0.75,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4285796957671958,
+     "hit@1": 0.3125,
+     "recall@10": 0.625,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5318776825026824,
+     "hit@1": 0.425,
+     "recall@10": 0.7,
+     "recall@30": 0.775
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.75
+    },
+    "reception": "sent",
+    "reception_weight": 0.3,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent_w0.5_b0.5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.5971906565656565,
+     "hit@1": 0.5,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4722222222222222,
+     "hit@1": 0.375,
+     "recall@10": 0.6875,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5472032828282828,
+     "hit@1": 0.45,
+     "recall@10": 0.75,
+     "recall@30": 0.775
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.5
+    },
+    "reception": "sent",
+    "reception_weight": 0.5,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent_w0.5_b0.75": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.5879629629629629,
+     "hit@1": 0.5,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.423859126984127,
+     "hit@1": 0.3125,
+     "recall@10": 0.6875,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5223214285714286,
+     "hit@1": 0.425,
+     "recall@10": 0.75,
+     "recall@30": 0.775
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.75
+    },
+    "reception": "sent",
+    "reception_weight": 0.5,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent_w1.0_b0.5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.5451032763532764,
+     "hit@1": 0.4166666666666667,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3274003623188406,
+     "hit@1": 0.1875,
+     "recall@10": 0.625,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.45802211073950205,
+     "hit@1": 0.325,
+     "recall@10": 0.725,
+     "recall@30": 0.775
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.5
+    },
+    "reception": "sent",
+    "reception_weight": 1.0,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent_w1.0_b0.75": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.56443198005698,
+     "hit@1": 0.4583333333333333,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.31870265151515154,
+     "hit@1": 0.1875,
+     "recall@10": 0.625,
+     "recall@30": 0.6875
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.4661402486402487,
+     "hit@1": 0.35,
+     "recall@10": 0.725,
+     "recall@30": 0.775
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.75
+    },
+    "reception": "sent",
+    "reception_weight": 1.0,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent+title_w0.3_b0.5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6354166666666666,
+     "hit@1": 0.5416666666666666,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4628516737891738,
+     "hit@1": 0.375,
+     "recall@10": 0.625,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5663906695156695,
+     "hit@1": 0.475,
+     "recall@10": 0.725,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.5
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.3,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent+title_w0.3_b0.75": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.632260101010101,
+     "hit@1": 0.5416666666666666,
+     "recall@10": 0.75,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.46054398148148146,
+     "hit@1": 0.375,
+     "recall@10": 0.625,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.563573653198653,
+     "hit@1": 0.475,
+     "recall@10": 0.7,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.75
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.3,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent+title_w0.5_b0.5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.627281746031746,
+     "hit@1": 0.5416666666666666,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.42090277777777774,
+     "hit@1": 0.3125,
+     "recall@10": 0.6875,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5447301587301587,
+     "hit@1": 0.45,
+     "recall@10": 0.75,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.5
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.5,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent+title_w0.5_b0.75": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6413194444444444,
+     "hit@1": 0.5833333333333334,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.460896164021164,
+     "hit@1": 0.375,
+     "recall@10": 0.6875,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5691501322751322,
+     "hit@1": 0.5,
+     "recall@10": 0.75,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.75
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.5,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent+title_w1.0_b0.5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.5762314439946019,
+     "hit@1": 0.4583333333333333,
+     "recall@10": 0.75,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3540509259259259,
+     "hit@1": 0.25,
+     "recall@10": 0.625,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.4873592367671315,
+     "hit@1": 0.375,
+     "recall@10": 0.7,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.5
+    },
+    "reception": "sent+title",
+    "reception_weight": 1.0,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent+title_w1.0_b0.75": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.5823120915032679,
+     "hit@1": 0.4583333333333333,
+     "recall@10": 0.75,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3455875721500722,
+     "hit@1": 0.25,
+     "recall@10": 0.625,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.48762228376198963,
+     "hit@1": 0.375,
+     "recall@10": 0.7,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.75
+    },
+    "reception": "sent+title",
+    "reception_weight": 1.0,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10
+   }
+  },
+  "lexrec__sent_w0.3_b0.5+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6738825565687266,
+     "hit@1": 0.5833333333333334,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3960813492063492,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5627620736237757,
+     "hit@1": 0.45,
+     "recall@10": 0.775,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.5
+    },
+    "reception": "sent",
+    "reception_weight": 0.3,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent_w0.3_b0.75+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6862233445566779,
+     "hit@1": 0.625,
+     "recall@10": 0.75,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.36312862484737485,
+     "hit@1": 0.1875,
+     "recall@10": 0.6875,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5569854566729566,
+     "hit@1": 0.45,
+     "recall@10": 0.725,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.75
+    },
+    "reception": "sent",
+    "reception_weight": 0.3,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent_w0.5_b0.5+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.7021579354553492,
+     "hit@1": 0.625,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.38306051587301587,
+     "hit@1": 0.1875,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5745189676224159,
+     "hit@1": 0.45,
+     "recall@10": 0.8,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.5
+    },
+    "reception": "sent",
+    "reception_weight": 0.5,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent_w0.5_b0.75+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6961582196231318,
+     "hit@1": 0.625,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3903521825396825,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5738358047897523,
+     "hit@1": 0.475,
+     "recall@10": 0.8,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.75
+    },
+    "reception": "sent",
+    "reception_weight": 0.5,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent_w1.0_b0.5+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.7094298245614036,
+     "hit@1": 0.625,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4084077380952381,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5890209899749373,
+     "hit@1": 0.475,
+     "recall@10": 0.8,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.5
+    },
+    "reception": "sent",
+    "reception_weight": 1.0,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent_w1.0_b0.75+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6999244142101285,
+     "hit@1": 0.625,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.3591021825396825,
+     "hit@1": 0.1875,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5635955215419501,
+     "hit@1": 0.45,
+     "recall@10": 0.8,
+     "recall@30": 0.8
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent": 0.75
+    },
+    "reception": "sent",
+    "reception_weight": 1.0,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent+title_w0.3_b0.5+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6962573017260517,
+     "hit@1": 0.625,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.9166666666666666
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4087301587301587,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5812464445276945,
+     "hit@1": 0.475,
+     "recall@10": 0.775,
+     "recall@30": 0.85
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.5
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.3,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent+title_w0.3_b0.75+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6905097814372008,
+     "hit@1": 0.625,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.9166666666666666
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.39459325396825395,
+     "hit@1": 0.25,
+     "recall@10": 0.6875,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.572143170449622,
+     "hit@1": 0.475,
+     "recall@10": 0.75,
+     "recall@30": 0.85
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.3
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.75
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.3,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent+title_w0.5_b0.5+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.7169270833333333,
+     "hit@1": 0.6666666666666666,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.41542658730158727,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5963268849206349,
+     "hit@1": 0.5,
+     "recall@10": 0.8,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.5
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.5,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent+title_w0.5_b0.75+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.7145579268292682,
+     "hit@1": 0.6666666666666666,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.9166666666666666
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.39459325396825395,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5865720576848625,
+     "hit@1": 0.5,
+     "recall@10": 0.8,
+     "recall@30": 0.85
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 0.5
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.75
+    },
+    "reception": "sent+title",
+    "reception_weight": 0.5,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent+title_w1.0_b0.5+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.7229220085470085,
+     "hit@1": 0.6666666666666666,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4432291666666667,
+     "hit@1": 0.3125,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.6110448717948718,
+     "hit@1": 0.525,
+     "recall@10": 0.8,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.5
+    },
+    "reception": "sent+title",
+    "reception_weight": 1.0,
+    "reception_b": 0.5,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  },
+  "lexrec__sent+title_w1.0_b0.75+e5": {
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.720210840746555,
+     "hit@1": 0.6666666666666666,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.39392361111111107,
+     "hit@1": 0.25,
+     "recall@10": 0.75,
+     "recall@30": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5896959488923774,
+     "hit@1": 0.5,
+     "recall@10": 0.8,
+     "recall@30": 0.825
+    }
+   },
+   "config": {
+    "stage": "lexical BM25F",
+    "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+    "fields": {
+     "title": 8.0,
+     "heading": 3.0,
+     "body": 1.0,
+     "cue": 1.0,
+     "rec_sent+title": 1.0
+    },
+    "k1": 1.5,
+    "b": {
+     "title": 0.3,
+     "heading": 0.3,
+     "body": 0.75,
+     "rec_sent+title": 0.75
+    },
+    "reception": "sent+title",
+    "reception_weight": 1.0,
+    "reception_b": 0.75,
+    "cap_sentences": 40,
+    "cap_titles": 10,
+    "dense": "e5"
+   }
+  }
+ },
+ "refs": {
+  "bar": {
+   "label": "exp 03: e5-small + BM25 RRF + mMARCO @30 (round-1 bar, val 0.570)",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.48981481481481487,
+     "hit@1": 0.2916666666666667,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.5703125,
+     "hit@1": 0.4375,
+     "recall@10": 0.8125,
+     "recall@30": 0.8125
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5220138888888888,
+     "hit@1": 0.35,
+     "recall@10": 0.825,
+     "recall@30": 0.85
+    }
+   }
+  },
+  "r2_best": {
+   "label": "exp 14: e5-small + mMARCO @20, β chosen on train (round-2 best, val 0.610)",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.6304100790513835,
+     "hit@1": 0.5,
+     "recall@10": 0.8333333333333334,
+     "recall@30": 0.9583333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.6104166666666666,
+     "hit@1": 0.5,
+     "recall@10": 0.75,
+     "recall@30": 0.8125
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.6224127140974968,
+     "hit@1": 0.5,
+     "recall@10": 0.8,
+     "recall@30": 0.9
+    }
+   }
+  },
+  "first_stage_best": {
+   "label": "exp 12: colbert-fr + BM25 RRF (best first stage, val 0.539)",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.4703309692671395,
+     "hit@1": 0.3333333333333333,
+     "recall@10": 0.7916666666666666,
+     "recall@30": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.5388743598125749,
+     "hit@1": 0.4375,
+     "recall@10": 0.8125,
+     "recall@30": 0.9375
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.4977483254853137,
+     "hit@1": 0.375,
+     "recall@10": 0.8,
+     "recall@30": 0.875
+    }
+   }
+  },
+  "e5_rrf": {
+   "label": "exp 03: e5-small + BM25 RRF (first stage of the bar, val 0.420)",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.48077020202020204,
+     "hit@1": 0.2916666666666667,
+     "recall@10": 0.75,
+     "recall@30": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4203307364612512,
+     "hit@1": 0.3125,
+     "recall@10": 0.75,
+     "recall@30": 0.8125
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.45659441579662163,
+     "hit@1": 0.3,
+     "recall@10": 0.75,
+     "recall@30": 0.85
+    }
+   }
+  },
+  "lex13": {
+   "label": "exp 13: BM25F lexical (val 0.341)",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.45834197235513024,
+     "hit@1": 0.3333333333333333,
+     "recall@10": 0.625,
+     "recall@30": 0.7916666666666666
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.340625,
+     "hit@1": 0.25,
+     "recall@10": 0.625,
+     "recall@30": 0.625
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.4112551834130781,
+     "hit@1": 0.3,
+     "recall@10": 0.625,
+     "recall@30": 0.725
+    }
+   }
+  }
+ },
+ "tests_val": {
+  "lex13 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 16,
+   "t": null,
+   "p_t": null,
+   "p_wilcoxon": null,
+   "p_sign": null,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "lex13 vs e5_rrf": {
+   "n": 16,
+   "mean_diff": -0.07970573646125119,
+   "wins": 3,
+   "losses": 9,
+   "ties": 4,
+   "t": -0.7621409983269163,
+   "p_t": 0.4577932492849312,
+   "p_wilcoxon": 0.19536693789564952,
+   "p_sign": 0.14599609375,
+   "ci95": [
+    -0.271875,
+    0.12188275049603171
+   ]
+  },
+  "lex13 vs first_stage_best": {
+   "n": 16,
+   "mean_diff": -0.1982493598125749,
+   "wins": 2,
+   "losses": 11,
+   "ties": 3,
+   "t": -2.24756188065354,
+   "p_t": 0.04007523096574945,
+   "p_wilcoxon": 0.017427406880717998,
+   "p_sign": 0.0224609375,
+   "ci95": [
+    -0.3686917446469435,
+    -0.03552603911272748
+   ]
+  },
+  "lex13+e5 vs lex13": {
+   "n": 16,
+   "mean_diff": -0.004511634199134203,
+   "wins": 6,
+   "losses": 3,
+   "ties": 7,
+   "t": -0.06167001104544819,
+   "p_t": 0.9516398493459969,
+   "p_wilcoxon": 0.5939546753269146,
+   "p_sign": 0.5078125,
+   "ci95": [
+    -0.15171249323593075,
+    0.12559709821428555
+   ]
+  },
+  "lex13+e5 vs e5_rrf": {
+   "n": 16,
+   "mean_diff": -0.08421737066038536,
+   "wins": 3,
+   "losses": 8,
+   "ties": 5,
+   "t": -1.133862649505554,
+   "p_t": 0.2746491484592024,
+   "p_wilcoxon": 0.18209832226931288,
+   "p_sign": 0.2265625,
+   "ci95": [
+    -0.23120715757894064,
+    0.047737677457346556
+   ]
+  },
+  "lex13+e5 vs first_stage_best": {
+   "n": 16,
+   "mean_diff": -0.2027609940117091,
+   "wins": 1,
+   "losses": 11,
+   "ties": 4,
+   "t": -2.216494449438785,
+   "p_t": 0.042533834206768574,
+   "p_wilcoxon": 0.014983569711609428,
+   "p_sign": 0.00634765625,
+   "ci95": [
+    -0.37911509063852816,
+    -0.03275991710068171
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.12027116402116403,
+   "wins": 6,
+   "losses": 2,
+   "ties": 8,
+   "t": 1.703622391918951,
+   "p_t": 0.10907381591725888,
+   "p_wilcoxon": 0.10689685480449329,
+   "p_sign": 0.2890625,
+   "ci95": [
+    0.006035052910052907,
+    0.2699078207671957
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75 vs e5_rrf": {
+   "n": 16,
+   "mean_diff": 0.04056542755991285,
+   "wins": 5,
+   "losses": 7,
+   "ties": 4,
+   "t": 0.3408071966898483,
+   "p_t": 0.7379752631730263,
+   "p_wilcoxon": 0.875138580080403,
+   "p_sign": 0.7744140625,
+   "ci95": [
+    -0.1790249936780268,
+    0.27220543252023016
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75 vs first_stage_best": {
+   "n": 16,
+   "mean_diff": -0.0779781957914109,
+   "wins": 3,
+   "losses": 9,
+   "ties": 4,
+   "t": -0.7986502205627813,
+   "p_t": 0.436956596775384,
+   "p_wilcoxon": 0.22383716469226866,
+   "p_sign": 0.14599609375,
+   "ci95": [
+    -0.25666006095023186,
+    0.11296302444668344
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75+e5 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.05396825396825398,
+   "wins": 6,
+   "losses": 2,
+   "ties": 8,
+   "t": 0.6757070603538889,
+   "p_t": 0.5095106638356878,
+   "p_wilcoxon": 0.20757844233562428,
+   "p_sign": 0.2890625,
+   "ci95": [
+    -0.10466269841269842,
+    0.20007440476190474
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75+e5 vs e5_rrf": {
+   "n": 16,
+   "mean_diff": -0.025737482492997194,
+   "wins": 6,
+   "losses": 6,
+   "ties": 4,
+   "t": -0.30248873587588615,
+   "p_t": 0.7664336057479347,
+   "p_wilcoxon": 0.8132388620141389,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.1920282956932773,
+    0.1323605457808123
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75+e5 vs first_stage_best": {
+   "n": 16,
+   "mean_diff": -0.14428110584432094,
+   "wins": 4,
+   "losses": 9,
+   "ties": 3,
+   "t": -1.5877563990108514,
+   "p_t": 0.13319307169959319,
+   "p_wilcoxon": 0.11540639132690168,
+   "p_sign": 0.266845703125,
+   "ci95": [
+    -0.31906190691856456,
+    0.0272221399286259
+   ]
+  },
+  "lexrec__sent+title_w1.0_b0.5+e5 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.10260416666666668,
+   "wins": 6,
+   "losses": 3,
+   "ties": 7,
+   "t": 1.0433098657340727,
+   "p_t": 0.31332854344428046,
+   "p_wilcoxon": 0.21272007128320014,
+   "p_sign": 0.5078125,
+   "ci95": [
+    -0.08541666666666667,
+    0.2890625
+   ]
+  },
+  "lexrec__sent+title_w1.0_b0.5+e5 vs e5_rrf": {
+   "n": 16,
+   "mean_diff": 0.022898430205415495,
+   "wins": 6,
+   "losses": 5,
+   "ties": 5,
+   "t": 0.29423005658990237,
+   "p_t": 0.7726146061054716,
+   "p_wilcoxon": 0.8585862013366392,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.12658150239262372,
+    0.16746126575630246
+   ]
+  },
+  "lexrec__sent+title_w1.0_b0.5+e5 vs first_stage_best": {
+   "n": 16,
+   "mean_diff": -0.09564519314590825,
+   "wins": 4,
+   "losses": 8,
+   "ties": 4,
+   "t": -1.0745962331366132,
+   "p_t": 0.2995380838126491,
+   "p_wilcoxon": 0.36680119939501743,
+   "p_sign": 0.3876953125,
+   "ci95": [
+    -0.26886352259725405,
+    0.06919789708646604
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75 vs lex13 (ours)": {
+   "n": 16,
+   "mean_diff": 0.12027116402116403,
+   "wins": 6,
+   "losses": 2,
+   "ties": 8,
+   "t": 1.703622391918951,
+   "p_t": 0.10907381591725888,
+   "p_wilcoxon": 0.10689685480449329,
+   "p_sign": 0.2890625,
+   "ci95": [
+    0.006035052910052907,
+    0.2699078207671957
+   ]
+  },
+  "lexrec__sent+title_w0.5_b0.75+e5 vs lex13+e5 (ours)": {
+   "n": 16,
+   "mean_diff": 0.05847988816738818,
+   "wins": 5,
+   "losses": 3,
+   "ties": 8,
+   "t": 0.9758592127842118,
+   "p_t": 0.34461061533688314,
+   "p_wilcoxon": 0.2626182904425206,
+   "p_sign": 0.7265625,
+   "ci95": [
+    -0.053137175324675316,
+    0.17658730158730163
+   ]
+  }
+ },
+ "per_question": {
+  "B1": {
+   "question": "Quels sont les taux de l'impôt des personnes physiques par tranche de revenus pour les revenus de 2026 ?",
+   "split": "val",
+   "expected": [
+    "cir92:130"
+   ],
+   "lex13": 5,
+   "lex13+e5": 3,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 5
+  },
+  "B2": {
+   "question": "Quel est le montant de la quotité du revenu exemptée d'impôt pour un contribuable ?",
+   "split": "train",
+   "expected": [
+    "cir92:131"
+   ],
+   "lex13": 3,
+   "lex13+e5": 2,
+   "lexrec__sent+title_w0.5_b0.75": 3,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 2,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 3,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 3
+  },
+  "B3": {
+   "question": "Quel pourcentage de frais professionnels forfaitaires un salarié peut-il déduire de sa rémunération ?",
+   "split": "train",
+   "expected": [
+    "cir92:51"
+   ],
+   "lex13": 1,
+   "lex13+e5": 2,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 4,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 1
+  },
+  "B4": {
+   "question": "Quel est le montant maximum de l'épargne-pension qui donne droit à une réduction d'impôt ?",
+   "split": "train",
+   "expected": [
+    "cir92:145/8"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B5": {
+   "question": "Quel est le taux de l'impôt des sociétés en Belgique ?",
+   "split": "train",
+   "expected": [
+    "cir92:215"
+   ],
+   "lex13": 11,
+   "lex13+e5": 4,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 3,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 2,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 11
+  },
+  "B6": {
+   "question": "Quelle participation minimale une société doit-elle détenir pour bénéficier de la déduction des revenus définitivement taxés (RDT) sur les dividendes reçus ?",
+   "split": "val",
+   "expected": [
+    "cir92:202"
+   ],
+   "lex13": 6,
+   "lex13+e5": 7,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 2,
+   "lexrec__sent+title_w1.0_b0.5+e5": 2,
+   "ref:bar": 8,
+   "ref:r2_best": 15,
+   "ref:first_stage_best": 7,
+   "ref:e5_rrf": 7,
+   "ref:lex13": 6
+  },
+  "B7": {
+   "question": "Quels sont les pourcentages de la déduction pour investissement (déduction de base, thématique, technologique) ?",
+   "split": "train",
+   "expected": [
+    "cir92:69"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B8": {
+   "question": "Quel est le taux du précompte mobilier applicable aux dividendes et intérêts ?",
+   "split": "train",
+   "expected": [
+    "cir92:269"
+   ],
+   "lex13": 2,
+   "lex13+e5": 4,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 2,
+   "lexrec__sent+title_w1.0_b0.5+e5": 2,
+   "ref:bar": 3,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 5,
+   "ref:lex13": 2
+  },
+  "B9": {
+   "question": "Qui est considéré comme assujetti à la TVA ?",
+   "split": "train",
+   "expected": [
+    "ctva:4"
+   ],
+   "lex13": 19,
+   "lex13+e5": 9,
+   "lexrec__sent+title_w0.5_b0.75": 3,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 4,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 4,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 19
+  },
+  "B10": {
+   "question": "Quel est le taux normal de TVA en Belgique et quels sont les taux réduits ?",
+   "split": "train",
+   "expected": [
+    "artva:AR20:1"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 3,
+   "ref:r2_best": 3,
+   "ref:first_stage_best": 10,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B11": {
+   "question": "Quel est le seuil de chiffre d'affaires pour bénéficier du régime de la franchise de TVA des petites entreprises ?",
+   "split": "val",
+   "expected": [
+    "ctva:56ter"
+   ],
+   "lex13": 2,
+   "lex13+e5": 4,
+   "lexrec__sent+title_w0.5_b0.75": 3,
+   "lexrec__sent+title_w0.5_b0.75+e5": 2,
+   "lexrec__sent+title_w1.0_b0.5+e5": 3,
+   "ref:bar": 3,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 2
+  },
+  "B12": {
+   "question": "Quelles sont les mentions obligatoires que doit contenir une facture TVA ?",
+   "split": "train",
+   "expected": [
+    "artva:AR1:5"
+   ],
+   "lex13": 15,
+   "lex13+e5": 6,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 2,
+   "ref:r2_best": 6,
+   "ref:first_stage_best": 5,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 15
+  },
+  "B13": {
+   "question": "Dans quel délai dois-je introduire une réclamation contre mon avertissement-extrait de rôle à l'impôt des personnes physiques ?",
+   "split": "val",
+   "expected": [
+    "cir92:371"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 2,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 2,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 1
+  },
+  "B14": {
+   "question": "Pendant combien d'années l'administration fiscale peut-elle encore établir l'impôt en cas d'absence de déclaration ou de déclaration tardive ?",
+   "split": "val",
+   "expected": [
+    "cir92:354"
+   ],
+   "lex13": 8,
+   "lex13+e5": 4,
+   "lexrec__sent+title_w0.5_b0.75": 4,
+   "lexrec__sent+title_w0.5_b0.75+e5": 4,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 8
+  },
+  "B15": {
+   "question": "Comment est déterminé le montant du précompte professionnel retenu à la source sur les salaires ?",
+   "split": "val",
+   "expected": [
+    "arcir92:88"
+   ],
+   "lex13": 8,
+   "lex13+e5": 7,
+   "lexrec__sent+title_w0.5_b0.75": 9,
+   "lexrec__sent+title_w0.5_b0.75+e5": 9,
+   "lexrec__sent+title_w1.0_b0.5+e5": 10,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 3,
+   "ref:e5_rrf": 6,
+   "ref:lex13": 8
+  },
+  "B16": {
+   "question": "J'ai versé 100 euros à une ONG reconnue cette année, est-ce que cela me donne droit à un avantage fiscal ?",
+   "split": "val",
+   "expected": [
+    "cir92:145/33"
+   ],
+   "lex13": null,
+   "lex13+e5": null,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": null,
+   "lexrec__sent+title_w1.0_b0.5+e5": null,
+   "ref:bar": 3,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 46,
+   "ref:e5_rrf": 10,
+   "ref:lex13": null
+  },
+  "B17": {
+   "question": "Je paie chaque mois une contribution pour mes enfants à mon ex-conjointe, puis-je déduire ces sommes de mes revenus ?",
+   "split": "train",
+   "expected": [
+    "cir92:104"
+   ],
+   "lex13": null,
+   "lex13+e5": 42,
+   "lexrec__sent+title_w0.5_b0.75": 8,
+   "lexrec__sent+title_w0.5_b0.75+e5": 5,
+   "lexrec__sent+title_w1.0_b0.5+e5": 3,
+   "ref:bar": null,
+   "ref:r2_best": 23,
+   "ref:first_stage_best": null,
+   "ref:e5_rrf": null,
+   "ref:lex13": null
+  },
+  "B18": {
+   "question": "Mon employeur me laisse une voiture que j'utilise aussi le week-end pour mes trajets privés : comment est calculé le montant que je dois déclarer ?",
+   "split": "train",
+   "expected": [
+    "cir92:36"
+   ],
+   "lex13": null,
+   "lex13+e5": 34,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": 24,
+   "lexrec__sent+title_w1.0_b0.5+e5": 26,
+   "ref:bar": 18,
+   "ref:r2_best": 11,
+   "ref:first_stage_best": 40,
+   "ref:e5_rrf": 11,
+   "ref:lex13": null
+  },
+  "B19": {
+   "question": "Les chèques-repas que me donne mon patron sont-ils imposés et quel est le montant maximum par chèque ?",
+   "split": "val",
+   "expected": [
+    "cir92:38/1"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B20": {
+   "question": "J'ai trois enfants à charge : de combien augmente la part de mes revenus qui échappe à l'impôt ?",
+   "split": "train",
+   "expected": [
+    "cir92:132"
+   ],
+   "lex13": 4,
+   "lex13+e5": 2,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 4
+  },
+  "B21": {
+   "question": "Je mets un appartement en location à un particulier qui y habite : sur quelle base suis-je imposé pour ce bien ?",
+   "split": "val",
+   "expected": [
+    "cir92:7"
+   ],
+   "lex13": 3,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 2,
+   "lexrec__sent+title_w0.5_b0.75+e5": 2,
+   "lexrec__sent+title_w1.0_b0.5+e5": 2,
+   "ref:bar": 3,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 3
+  },
+  "B22": {
+   "question": "J'ai gagné un peu d'argent en rendant des services à des tiers en dehors de mon travail, à titre occasionnel : est-ce imposable ?",
+   "split": "train",
+   "expected": [
+    "cir92:90"
+   ],
+   "lex13": 2,
+   "lex13+e5": 2,
+   "lexrec__sent+title_w0.5_b0.75": 3,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 3,
+   "ref:lex13": 2
+  },
+  "B23": {
+   "question": "Ma petite SRL réalise 80.000 euros de bénéfice : combien va-t-elle payer d'impôt sur ce bénéfice ?",
+   "split": "val",
+   "expected": [
+    "cir92:215"
+   ],
+   "lex13": null,
+   "lex13+e5": null,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": null,
+   "lexrec__sent+title_w1.0_b0.5+e5": null,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 8,
+   "ref:e5_rrf": 8,
+   "ref:lex13": null
+  },
+  "B24": {
+   "question": "Ma société achète une voiture essence en 2026 pour un employé : ses frais d'entretien et de carburant sont-ils encore déductibles ?",
+   "split": "train",
+   "expected": [
+    "cir92:66"
+   ],
+   "lex13": 2,
+   "lex13+e5": 2,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 2,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 3,
+   "ref:e5_rrf": 2,
+   "ref:lex13": 2
+  },
+  "B25": {
+   "question": "Mon employeur me fournit un ordinateur portable et une connexion internet que j'utilise aussi à la maison : quelle valeur faut-il retenir pour cet avantage ?",
+   "split": "train",
+   "expected": [
+    "arcir92:18"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B26": {
+   "question": "Je donne des cours particuliers et des formations professionnelles : dois-je facturer la TVA à mes élèves ?",
+   "split": "val",
+   "expected": [
+    "ctva:44"
+   ],
+   "lex13": null,
+   "lex13+e5": 11,
+   "lexrec__sent+title_w0.5_b0.75": 27,
+   "lexrec__sent+title_w0.5_b0.75+e5": 7,
+   "lexrec__sent+title_w1.0_b0.5+e5": 5,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 8,
+   "ref:e5_rrf": 9,
+   "ref:lex13": null
+  },
+  "B27": {
+   "question": "Je fais rénover ma maison qui a plus de quinze ans : l'entrepreneur peut-il me facturer avec le taux réduit de TVA ?",
+   "split": "val",
+   "expected": [
+    "artva:AR20:3"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B28": {
+   "question": "Je n'ai pas pu payer mon impôt dans les temps : quel intérêt vais-je devoir payer sur le montant en retard ?",
+   "split": "train",
+   "expected": [
+    "cir92:414"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 4,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 2,
+   "ref:e5_rrf": 3,
+   "ref:lex13": 1
+  },
+  "B29": {
+   "question": "Le fisc m'a envoyé une demande écrite de renseignements sur ma situation : combien de temps ai-je pour y répondre ?",
+   "split": "val",
+   "expected": [
+    "cir92:316"
+   ],
+   "lex13": 1,
+   "lex13+e5": 7,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 7,
+   "lexrec__sent+title_w1.0_b0.5+e5": 8,
+   "ref:bar": 2,
+   "ref:r2_best": null,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 17,
+   "ref:lex13": 1
+  },
+  "B30": {
+   "question": "Je suis entrepreneur en construction et je facture des travaux à un client qui dépose des déclarations TVA : dois-je mettre la TVA sur ma facture ?",
+   "split": "train",
+   "expected": [
+    "artva:AR1:20"
+   ],
+   "lex13": 6,
+   "lex13+e5": 3,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 6,
+   "ref:r2_best": 5,
+   "ref:first_stage_best": 3,
+   "ref:e5_rrf": 5,
+   "ref:lex13": 6
+  },
+  "B31": {
+   "question": "Mon père, domicilié à Namur, vient de décéder et je suis son seul enfant : quel pourcentage vais-je payer sur ce que j'hérite ?",
+   "split": "val",
+   "expected": [
+    "csucc_wal:48"
+   ],
+   "lex13": null,
+   "lex13+e5": null,
+   "lexrec__sent+title_w0.5_b0.75": 7,
+   "lexrec__sent+title_w0.5_b0.75+e5": 6,
+   "lexrec__sent+title_w1.0_b0.5+e5": 3,
+   "ref:bar": null,
+   "ref:r2_best": 5,
+   "ref:first_stage_best": 14,
+   "ref:e5_rrf": 48,
+   "ref:lex13": null
+  },
+  "B32": {
+   "question": "Mon mari est décédé, nous vivions ensemble à Schaerbeek : dois-je payer des droits sur ma part de notre maison ?",
+   "split": "train",
+   "expected": [
+    "csucc_bxl:55bis"
+   ],
+   "lex13": null,
+   "lex13+e5": 35,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": 10,
+   "lexrec__sent+title_w1.0_b0.5+e5": 8,
+   "ref:bar": 2,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 4,
+   "ref:e5_rrf": 4,
+   "ref:lex13": null
+  },
+  "B33": {
+   "question": "Ma compagne, avec qui je vivais à Gand, est décédée : la maison où nous habitions est-elle taxée dans ma part de succession ?",
+   "split": "val",
+   "expected": [
+    "vcf:2.7.4.1.1"
+   ],
+   "lex13": null,
+   "lex13+e5": 40,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": null,
+   "lexrec__sent+title_w1.0_b0.5+e5": null,
+   "ref:bar": null,
+   "ref:r2_best": null,
+   "ref:first_stage_best": 4,
+   "ref:e5_rrf": null,
+   "ref:lex13": null
+  },
+  "B34": {
+   "question": "J'achète ma première maison à Charleroi en 2026 pour y vivre : quel pourcentage de droits d'enregistrement vais-je payer ?",
+   "split": "train",
+   "expected": [
+    "cenr_wal:44bis"
+   ],
+   "lex13": null,
+   "lex13+e5": 41,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": 41,
+   "lexrec__sent+title_w1.0_b0.5+e5": 50,
+   "ref:bar": 5,
+   "ref:r2_best": 4,
+   "ref:first_stage_best": 47,
+   "ref:e5_rrf": 25,
+   "ref:lex13": null
+  },
+  "B35": {
+   "question": "J'achète un appartement de 450.000 euros à Ixelles pour y habiter : ai-je droit à une réduction de la base sur laquelle on calcule les droits d'enregistrement ?",
+   "split": "train",
+   "expected": [
+    "cenr_bxl:46bis"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 1,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B36": {
+   "question": "Je veux acheter une maison à Louvain pour en faire mon domicile : quel taux de droits de vente s'applique en Flandre ?",
+   "split": "train",
+   "expected": [
+    "vcf:2.9.4.2.11"
+   ],
+   "lex13": null,
+   "lex13+e5": 32,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": null,
+   "lexrec__sent+title_w1.0_b0.5+e5": null,
+   "ref:bar": null,
+   "ref:r2_best": 22,
+   "ref:first_stage_best": 15,
+   "ref:e5_rrf": null,
+   "ref:lex13": null
+  },
+  "B37": {
+   "question": "Mes parents habitent Liège et veulent me donner 50.000 euros par acte notarié : quel pourcentage de droits sera prélevé ?",
+   "split": "val",
+   "expected": [
+    "cenr_wal:131bis"
+   ],
+   "lex13": null,
+   "lex13+e5": null,
+   "lexrec__sent+title_w0.5_b0.75": null,
+   "lexrec__sent+title_w0.5_b0.75+e5": null,
+   "lexrec__sent+title_w1.0_b0.5+e5": null,
+   "ref:bar": null,
+   "ref:r2_best": null,
+   "ref:first_stage_best": 19,
+   "ref:e5_rrf": null,
+   "ref:lex13": null
+  },
+  "B38": {
+   "question": "J'immatricule une voiture d'occasion à mon nom à Bruxelles : combien vais-je payer de taxe lors de la première mise en circulation ?",
+   "split": "train",
+   "expected": [
+    "cta_bxl:98"
+   ],
+   "lex13": 25,
+   "lex13+e5": 5,
+   "lexrec__sent+title_w0.5_b0.75": 15,
+   "lexrec__sent+title_w0.5_b0.75+e5": 4,
+   "lexrec__sent+title_w1.0_b0.5+e5": 3,
+   "ref:bar": 3,
+   "ref:r2_best": 2,
+   "ref:first_stage_best": 8,
+   "ref:e5_rrf": 11,
+   "ref:lex13": 25
+  },
+  "B39": {
+   "question": "Combien coûte chaque année la taxe pour rouler avec ma voiture de 8 chevaux fiscaux immatriculée en Wallonie ?",
+   "split": "train",
+   "expected": [
+    "cta_wal:9"
+   ],
+   "lex13": 1,
+   "lex13+e5": 1,
+   "lexrec__sent+title_w0.5_b0.75": 1,
+   "lexrec__sent+title_w0.5_b0.75+e5": 1,
+   "lexrec__sent+title_w1.0_b0.5+e5": 1,
+   "ref:bar": 2,
+   "ref:r2_best": 1,
+   "ref:first_stage_best": 1,
+   "ref:e5_rrf": 1,
+   "ref:lex13": 1
+  },
+  "B40": {
+   "question": "J'ai reçu l'avis de précompte immobilier pour mon appartement à Bruxelles et je pense qu'il est erroné : combien de jours ai-je pour le contester ?",
+   "split": "train",
+   "expected": [
+    "cbpf:100"
+   ],
+   "lex13": 2,
+   "lex13+e5": 16,
+   "lexrec__sent+title_w0.5_b0.75": 5,
+   "lexrec__sent+title_w0.5_b0.75+e5": 30,
+   "lexrec__sent+title_w1.0_b0.5+e5": null,
+   "ref:bar": null,
+   "ref:r2_best": null,
+   "ref:first_stage_best": null,
+   "ref:e5_rrf": null,
+   "ref:lex13": 2
+  }
+ }
+}

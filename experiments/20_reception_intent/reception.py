@@ -47,8 +47,17 @@ _NL_WORDS = re.compile(r"\b(het|een|van|wordt|niet|zijn|voor|worden|bij|deze|die
 _FR_WORDS = re.compile(r"\b(le|la|les|des|une|est|pour|dans|par|qui|que|ce|cette|sont|impôt)\b")
 
 
+_SP_SLASH = re.compile(r"(?i)\b(articles?|art\.)\s+(\d{1,3})\s+(\d{1,2})(?![\d°/%]|\s*(?:er|e|ème|bis|ter|quater|à|et|ou)\b|\s*\.\d)")
+SLASH_STEMS: dict[str, set[str]] = {}       # filled in main(): article numbers that have N/k sub-articles in corpus B
+
+
+def _slash(m: re.Match) -> str:
+    return f"{m.group(1)} {m.group(2)}/{m.group(3)}" if m.group(3) in SLASH_STEMS.get(m.group(2), ()) else m.group(0)
+
+
 def normalise_body(body: str) -> str:
     body = body.replace("|", " ")
+    body = _SP_SLASH.sub(_slash, body)          # "article 145 33" (flattened superscript) → "article 145/33"
     body = _SP_SUFFIX.sub(lambda m: m.group(1).lower(), body)
     body = _SP_ORD.sub(lambda m: m.group(1), body)
     for _ in range(3):
@@ -113,6 +122,11 @@ def clean_sentence(text: str, a: int, b: int, mention: int) -> str:
 def main():
     docs_b = load_corpus_b(codes=default_codes_b())
     R = Resolver([d.doc_id for d in docs_b])
+    for d in docs_b:
+        art = d.meta.get("article") or ""
+        if "/" in art:
+            a, b = art.split("/", 1)
+            SLASH_STEMS.setdefault(a, set()).add(b)
     per_article: dict[str, list[dict]] = collections.defaultdict(list)
     st = collections.Counter()
     t0 = time.perf_counter()

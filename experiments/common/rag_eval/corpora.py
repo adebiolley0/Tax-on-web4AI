@@ -25,6 +25,7 @@ CORPUS_A_MANIFEST = REPO_ROOT / "ingestion" / "validation_dataset" / "manifest.j
 QUESTIONS_A = REPO_ROOT / "ingestion" / "validation_dataset" / "questions.json"
 CORPUS_B_JSONL = DATA_DIR / "corpus_b" / "articles.jsonl"
 QUESTIONS_B = DATA_DIR / "corpus_b" / "questions_b.json"
+QUESTIONS_B_MINED = DATA_DIR / "corpus_b" / "questions_b_mined.json"
 
 
 @dataclass
@@ -113,10 +114,29 @@ def load_corpus_b(codes: list[str] | None = None) -> list[Doc]:
     return docs
 
 
-def load_questions_b() -> list[Question]:
+def load_questions_b(variant: str | None = None) -> list[Question]:
+    """``variant=None``: the 40 human questions. ``variant="mined"``: the regex-mined set of
+    experiments/18_eval_hygiene/mining (questions_b_mined.json; meta carries source / source_doc /
+    exclude / label_basis)."""
+    if variant == "mined":
+        return load_questions_mined("B")
+    if variant is not None:
+        raise ValueError(variant)
     qs = json.loads(QUESTIONS_B.read_text())
     return [Question(q["id"], q["question"], q["expected"], q.get("secondary", []),
                      {"topic": q.get("topic"), "notes": q.get("notes")}) for q in qs]
+
+
+def load_questions_mined(corpus: str) -> list[Question]:
+    """Mined question sets (experiments/18_eval_hygiene/mining/mine_questions.py). Same schema as the
+    human sets plus ``source`` (pq | faq | ruling), ``source_doc``, ``exclude`` (documents removed from the
+    ranking before scoring — the PQ a question was copied from) and ``label_basis``."""
+    path = {"B": QUESTIONS_B_MINED, "C": QUESTIONS_C_MINED}[corpus]
+    qs = json.loads(path.read_text())
+    return [Question(q["id"], q["question"], q["expected"], q.get("secondary", []),
+                     {"topic": q.get("topic"), "source": q.get("source"), "source_doc": q.get("source_doc"),
+                      "exclude": q.get("exclude", []), "label_basis": q.get("label_basis"), "date": q.get("date"),
+                      "notes": q.get("notes")}) for q in qs]
 
 
 def load_corpus(name: str, **kw) -> tuple[list[Doc], list[Question]]:
@@ -132,6 +152,7 @@ def load_corpus(name: str, **kw) -> tuple[list[Doc], list[Question]]:
 # ── Corpus C: myfin_docs (21k Fisconet+ markdown documents) ─────────────────
 CORPUS_C_DIR = REPO_ROOT / "myfin_docs"
 QUESTIONS_C = DATA_DIR / "corpus_c" / "questions_c.json"
+QUESTIONS_C_MINED = DATA_DIR / "corpus_c" / "questions_c_mined.json"
 _FM_RE = re.compile(r"^---\n(.*?)\n---\n", re.S)
 
 
@@ -179,7 +200,12 @@ def load_corpus_c(doc_types: list[str] | None = None, max_chars: int | None = No
     return docs
 
 
-def load_questions_c() -> list[Question]:
+def load_questions_c(variant: str | None = None) -> list[Question]:
+    """``variant=None``: the 64 human questions; ``variant="mined"``: see :func:`load_questions_mined`."""
+    if variant == "mined":
+        return load_questions_mined("C")
+    if variant is not None:
+        raise ValueError(variant)
     qs = json.loads(QUESTIONS_C.read_text())
     return [Question(q["id"], q["question"], q["expected"], q.get("secondary", []),
                      {"topic": q.get("topic"), "difficulty": q.get("difficulty"), "doc_type": q.get("doc_type")})

@@ -1,0 +1,640 @@
+{
+ "C1": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C2": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR",
+   "DIVERS"
+  ],
+  "folders": []
+ },
+ "C3": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2026
+  ],
+  "domains": [
+   "TVA"
+  ],
+  "folders": []
+ },
+ "C4": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "IR"
+  ],
+  "folders": []
+ },
+ "C5": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C6": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": [
+   "conventions_preventives_de_la_double_imposition",
+   "traites_et_accords_internationaux"
+  ]
+ },
+ "C7": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2026
+  ],
+  "domains": [
+   "TVA"
+  ],
+  "folders": []
+ },
+ "C8": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "IR"
+  ],
+  "folders": []
+ },
+ "C9": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C10": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": []
+ },
+ "C11": {
+  "region": "bxl",
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C12": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C13": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC",
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C14": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C15": {
+  "region": "bxl",
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C16": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "ASSIM"
+  ],
+  "folders": []
+ },
+ "C17": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C18": {
+  "region": "bxl",
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C19": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": [
+   "jurisprudence_belge",
+   "sans_type",
+   "conventions_preventives_de_la_double_imposition",
+   "traites_et_accords_internationaux"
+  ]
+ },
+ "C20": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C21": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2027,
+   2028
+  ],
+  "domains": [
+   "TVA",
+   "IR"
+  ],
+  "folders": [
+   "forfaits"
+  ]
+ },
+ "C22": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": [
+   "forfaits"
+  ]
+ },
+ "C23": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": [
+   "forfaits"
+  ]
+ },
+ "C24": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "DIVERS"
+  ],
+  "folders": []
+ },
+ "C25": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": []
+ },
+ "C26": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": [
+   "conventions_preventives_de_la_double_imposition",
+   "traites_et_accords_internationaux"
+  ]
+ },
+ "C27": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": [
+   "conventions_preventives_de_la_double_imposition",
+   "traites_et_accords_internationaux"
+  ]
+ },
+ "C28": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": []
+ },
+ "C29": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": [
+   "conventions_preventives_de_la_double_imposition",
+   "traites_et_accords_internationaux"
+  ]
+ },
+ "C30": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2026
+  ],
+  "domains": [
+   "DIVERS"
+  ],
+  "folders": []
+ },
+ "C31": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "DIVERS"
+  ],
+  "folders": []
+ },
+ "C32": {
+  "region": "bxl",
+  "region_explicit": null,
+  "years": [
+   2026
+  ],
+  "domains": [
+   "ASSIM"
+  ],
+  "folders": []
+ },
+ "C33": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2026
+  ],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C34": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C35": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C36": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C37": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2026
+  ],
+  "domains": [
+   "ENR",
+   "IR"
+  ],
+  "folders": [
+   "code_et_legislation"
+  ]
+ },
+ "C38": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C39": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "IR",
+   "RECOUV"
+  ],
+  "folders": []
+ },
+ "C40": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": [
+   "code_et_legislation"
+  ]
+ },
+ "C41": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C42": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA"
+  ],
+  "folders": []
+ },
+ "C43": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA"
+  ],
+  "folders": [
+   "code_et_legislation"
+  ]
+ },
+ "C44": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "IR"
+  ],
+  "folders": [
+   "forfaits"
+  ]
+ },
+ "C45": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA",
+   "IR"
+  ],
+  "folders": []
+ },
+ "C46": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": [
+   "code_et_legislation"
+  ]
+ },
+ "C47": {
+  "region": "bxl",
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C48": {
+  "region": "vla",
+  "region_explicit": "vla",
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C49": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": [
+   "jurisprudence_belge",
+   "sans_type"
+  ]
+ },
+ "C50": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC",
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C51": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C52": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "ASSIM"
+  ],
+  "folders": []
+ },
+ "C53": {
+  "region": "wal",
+  "region_explicit": "wal",
+  "years": [],
+  "domains": [
+   "ASSIM"
+  ],
+  "folders": []
+ },
+ "C54": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "DIVERS"
+  ],
+  "folders": [
+   "jurisprudence_belge",
+   "sans_type"
+  ]
+ },
+ "C55": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "ENR"
+  ],
+  "folders": []
+ },
+ "C56": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "DIVERS"
+  ],
+  "folders": []
+ },
+ "C57": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "TVA"
+  ],
+  "folders": []
+ },
+ "C58": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": [
+   "arretes_royaux"
+  ]
+ },
+ "C59": {
+  "region": null,
+  "region_explicit": null,
+  "years": [
+   2023
+  ],
+  "domains": [
+   "IR"
+  ],
+  "folders": []
+ },
+ "C60": {
+  "region": "vla",
+  "region_explicit": "vla",
+  "years": [
+   2026
+  ],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": [
+   "legislation_et_reglementation_regionale_et_locale"
+  ]
+ },
+ "C61": {
+  "region": "bxl",
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "SUCC"
+  ],
+  "folders": []
+ },
+ "C62": {
+  "region": "vla",
+  "region_explicit": "vla",
+  "years": [],
+  "domains": [],
+  "folders": []
+ },
+ "C63": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [
+   "IR"
+  ],
+  "folders": [
+   "conventions_preventives_de_la_double_imposition",
+   "traites_et_accords_internationaux"
+  ]
+ },
+ "C64": {
+  "region": null,
+  "region_explicit": null,
+  "years": [],
+  "domains": [],
+  "folders": [
+   "reglementation_europeenne"
+  ]
+ }
+}

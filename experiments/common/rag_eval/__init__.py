@@ -11,6 +11,7 @@ from rag_eval.corpora import (
     load_corpus,
     load_corpus_c,
     load_questions_c,
+    load_questions_mined,
     question_split,
     filter_split,
 )
@@ -23,7 +24,7 @@ from rag_eval.chunking import whole_doc, fixed_chunks, article_chunks
 __all__ = [
     "Chunk", "Doc", "Question",
     "load_corpus_a", "load_corpus_b", "load_questions_a", "load_questions_b", "load_corpus",
-    "load_corpus_c", "load_questions_c", "question_split", "filter_split",
+    "load_corpus_c", "load_questions_c", "load_questions_mined", "question_split", "filter_split",
     "evaluate_rankings", "RunResult", "EmbeddingCache", "save_result", "append_leaderboard", "print_leaderboard",
     "whole_doc", "fixed_chunks", "article_chunks",
     "build_provenance", "__version__",

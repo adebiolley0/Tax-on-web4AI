@@ -66,6 +66,7 @@ def evaluate_rankings(
     * **MRR / hit@k** – rank of the first *expected* (primary) document.
     * **recall@k** – fraction of expected documents found in top-k, averaged.
     * **nDCG@k** – graded: expected=1.0, secondary=``secondary_weight``.
+    * documents listed in ``q.meta["exclude"]`` (mined questions only) are dropped from the ranking first.
     """
     per_q: dict = {}
     split_acc: dict = {"train": [], "val": []}
@@ -76,6 +77,9 @@ def evaluate_rankings(
     n = len(questions)
     for q in questions:
         ranked = dedupe_ranked(rankings.get(q.qid, []))
+        excl = set(q.meta.get("exclude") or [])      # mined questions: the source PQ is not a legitimate hit
+        if excl:
+            ranked = [d for d in ranked if d not in excl]
         exp = set(q.expected)
         first = next((i + 1 for i, d in enumerate(ranked) if d in exp), None)
         rr = 1.0 / first if first else 0.0

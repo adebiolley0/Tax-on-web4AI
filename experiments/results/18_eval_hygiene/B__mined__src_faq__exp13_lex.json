@@ -1,0 +1,113 @@
+{
+ "name": "mined__src_faq__exp13_lex",
+ "corpus": "B",
+ "config": {
+  "tokenizer": "tok01+num",
+  "clean": true,
+  "fields": {
+   "title": 8.0,
+   "heading": 3.0,
+   "body": 1.0
+  },
+  "k1": 1.5,
+  "b": {
+   "title": 0.3,
+   "heading": 0.3,
+   "body": 0.75
+  },
+  "questions": "mined__src_faq"
+ },
+ "metrics": {
+  "mrr": 0.0,
+  "ndcg@5": 0.0,
+  "ndcg@10": 0.0,
+  "hit@1": 0.0,
+  "hit@3": 0.0,
+  "hit@5": 0.0,
+  "hit@10": 0.0,
+  "recall@5": 0.0,
+  "recall@10": 0.0,
+  "n_questions": 3,
+  "train_mrr": 0.0,
+  "train_hit@1": 0.0,
+  "train_hit@5": 0.0,
+  "train_recall@10": 0.0,
+  "train_n": 1,
+  "val_mrr": 0.0,
+  "val_hit@1": 0.0,
+  "val_hit@5": 0.0,
+  "val_recall@10": 0.0,
+  "val_n": 2
+ },
+ "per_question": {
+  "MB-FAQ-fc3becca": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "avcf:3.3.1.0.5",
+    "avcf:3.3.1.0.1",
+    "artva:AR19:5",
+    "vcf:3.3.1.0.2",
+    "vcf:3.1.0.0.3"
+   ],
+   "expected": [
+    "ctva:17",
+    "ctva:16"
+   ],
+   "split": "train"
+  },
+  "MB-FAQ-88369c96": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "ar1927:221undecies",
+    "arcir92:229/2",
+    "artva:AR41:6",
+    "ar1927:2242ter",
+    "ar1927:8"
+   ],
+   "expected": [
+    "crecouv:21",
+    "crecouv:13",
+    "crecouv:7"
+   ],
+   "split": "val"
+  },
+  "MB-FAQ-fab157a0": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:203",
+    "cir92:242",
+    "cir92:205",
+    "arcir92:56",
+    "cir92:103"
+   ],
+   "expected": [
+    "cir92:53"
+   ],
+   "split": "val"
+  }
+ },
+ "timing": {
+  "rank_s": 0.5,
+  "per_query_ms": 1.4
+ },
+ "provenance": {
+  "git": "3fd79eb8",
+  "git_dirty": true,
+  "utc": "2026-09-26T15:36:53Z",
+  "host": "vm",
+  "harness": "0.2.0",
+  "python": "3.12.3",
+  "questions_file": "experiments/data/corpus_b/questions_b.json",
+  "questions_sha256": "6052247f0a079ed7eff2581cb0c2290e764d4b71e54c3a8e5e68d08d587f4097",
+  "qids_sha256": "d66caeafaf2023ba0c0d9db90ad585f75ee72012f2e58a77d7eb6b06103881e3",
+  "n_qids": 3,
+  "corpus_n_docs": 9824,
+  "corpus_ids_sha256": "1922643f3e52489d68e4a16b5515ba55ad4989a5bffae0ec4ed935a0021f4100",
+  "corpus_fingerprint_source": "disk",
+  "omp_threads": null,
+  "argv": "../18_eval_hygiene/mining/run_baseline.py --corpus B"
+ }
+}

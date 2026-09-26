@@ -39,7 +39,7 @@ def body_of(p) -> tuple[dict, list[str]]:
 
 
 def norm(s: str) -> str:
-    return _WS.sub(" ", s).strip()
+    return _WS.sub(" ", s).strip().lstrip("#* ").strip()
 
 
 def questions_in(text: str, lo: int = 25, hi: int = 500) -> list[str]:
