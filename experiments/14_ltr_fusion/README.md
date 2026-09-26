@@ -87,4 +87,22 @@ C 0.665 (BM25 + bge@30); full set: A 0.703, B 0.522, C 0.703.
 
 ## 2. Results
 
-_(filled in below once the reranker caches are complete)_
+Every table: **val** = selected/fitted on the train half, scored on the val half (honest); **train (swapped)** =
+fitted on val, scored on train (honest); **oof** = the two honest halves put together (2-fold CV over the whole
+set, comparable with the full-set bars). Resubstitution numbers are shown to size the optimism.
+
+### 2.1 Does hand-tuning transfer? (fusion grid, `tune_fusion.py`)
+
+_(pending: tables from `make_tables.py`, β / depth curves)_
+
+### 2.2 Learning to rank (`train_ltr.py`)
+
+_(pending)_
+
+### 2.3 What the models learn
+
+_(pending)_
+
+## 3. Conclusions and recommended recipe
+
+_(pending)_
