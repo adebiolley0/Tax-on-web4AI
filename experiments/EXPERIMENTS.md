@@ -41,6 +41,15 @@ with a README documenting setup, API notes and results:
 | `07_frameworks_assessment` | paper assessment of Onyx, RAGFlow, LightRAG/GraphRAG, Dify, AnythingLLM, Kotaemon, Verba |
 | `08_corpus_b_cleanup` | amendment-preamble stripping, region metadata + city→region query filter |
 | `09_corpus_c` | the 21k-document corpus: BM25, static + e5 dense, fusion, reranking at scale |
+| `10_alternatives_research` | round-2 literature and tooling review (graph DBs, learned sparse, ColBERT, legal IR) |
+| `11_graph_retrieval` | citation / structure graph (regex reference grammar, Kuzu), expansion, PPR, edition collapsing |
+| `12_sparse_colbert` | learned sparse (OpenSearch multilingual, SPLADE-fr, bge-m3 lexical) and ColBERT (PyLate) legs and rerankers |
+| `13_lexical_upgrades` | BM25F fields, k1/b, number / article-reference normalisation, cue tokens, RM3 and PMI expansion |
+| `14_ltr_fusion` | fusion-weight tuning and learning-to-rank under the train/val protocol |
+| `15_finetune` | cross-encoder fine-tuned on our own train split |
+| `16_legal_models` | Belgian / French in-domain models (monobert-legal-french, dpr-legal-french) and BSARD fine-tuning |
+| `17_lex_rerank` | round-2 combination: exp-13 BM25 first stage + bge-reranker-v2-m3 |
+| `ideas/` | 100 research-only write-ups and the ranked synthesis (`ideas/README.md`) |
 
 ## 2. Headline results
 
@@ -66,6 +75,23 @@ MRR at document level; best configuration per family. Full tables in each README
 | BM25 + bge-reranker-v2-m3 @30 | – | – | 0.696 (H@1 0.594) |
 | **e5-small hybrid + bge-reranker-v2-m3 @30** | **0.703** (RRF, LanceDB; nDCG@5 0.797, H@5 0.931) | 0.517 (RRF) | **0.703** (convex 0.5; H@1 0.609, R@10 0.891) |
 | bge-m3 + BM25 convex 0.5 + bge-reranker-v2-m3 @30 | 0.681 (nDCG@5 0.782, H@5 0.931) | – | – |
+
+Round 2 (train/val protocol, §3.10–3.11; "val" = fitted on the train half, scored on the validation half;
+"oof" = both folds, comparable with the full-set numbers above):
+
+| approach | A (29 q) | B (40 q) | C (64 q) |
+|---|---:|---:|---:|
+| Validation-split bars from round 1 (best round-1 system scored on the val half) | 0.736 (BM25 whole doc) | 0.570 (e5 RRF + mMARCO) | 0.665 (BM25 + bge) |
+| BM25 lexical upgrades: exp-01 tokenizer + BM25F title boost + number normalisation + k1/b (exp 13), all / val | 0.733 / 0.756 | 0.411 / 0.341 | 0.683 / **0.616** |
+| OpenSearch doc-only sparse + whole-doc BM25, RRF (exp 12), all / val | 0.732 / 0.808 (n=12) | – | – |
+| … + colbert-fr (exp 12), all | **0.738** | – | – |
+| colbert-fr + e5-small fusion, no cross-encoder (exp 12), all / val | – | 0.524–0.555 / 0.539 (with BM25) | – |
+| graph-expanded candidates → mMARCO rerank (exp 11), val | – | 0.592 | – |
+| pure e5-small + mMARCO@20, interpolated β=0.8 (exp 14), val / oof | – | 0.610 / 0.548 | – |
+| rrf40 + bge-reranker cascade @50 (exp 14), val / oof | – | – | 0.655 / 0.685 |
+| learned ranker over cheap features (exp 14), oof / val | **0.732** / 0.722 | **0.608** / 0.519 | **0.723** / 0.634 |
+| mMARCO fine-tuned on our train split (exp 15), all / val | 0.613 / 0.486 | 0.562 / 0.488 | 0.669 / 0.585 |
+| monobert-legal-french rerank of BM25 top-30 (exp 16), all / val | 0.639 / 0.603 | 0.465 / 0.427 | 0.594 / 0.597 |
 
 Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
 2 s with mMARCO-MiniLM. All heavy runs were executed one at a time by `experiments/run_queue.sh` (`queue.log`).
@@ -194,6 +220,52 @@ Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,
   title overlap, length, **document year** (C), **region match** (B) — which should be stored fields in
   production. LightGBM overfits on A/B (17–24 train questions); logreg is the safe learner there.
 * Details, tables, β/depth curves and the recommended recipe: `14_ltr_fusion/README.md`.
+
+### 3.11 Round 2: alternatives under the train/val protocol (`11`–`13`, `15`–`17`)
+Round 2 asked whether anything beats round 1 *without overfitting the sample*: every experiment reports
+train / val / all MRR (split = md5 parity of the question id) and selects configurations on train only.
+* **Graph retrieval (`11_graph_retrieval`).** An LLM-free citation and structure graph (regex reference
+  grammar; B: 12k cite edges, C: 279k) built in minutes and queryable in Kuzu. Neighbour expansion, personalised
+  PageRank, edge-type selection and edition/twin collapsing raise *train* MRR by +0.03–0.15 and leave *val*
+  flat or lower (C convex 0.577 → 0.580; B BM25 0.315 → 0.192). The only positive use is as a recall
+  device before the reranker on B (candidate recall@30 0.85 → 0.90, mMARCO-reranked val 0.592 vs 0.570,
+  one question). Keep the graph for fetch-time navigation, provenance and duplicate lists, not for scoring.
+  Side finding: the mMARCO tokenizer files in the shared HF cache had become dangling symlinks, turning
+  every token into `<unk>` silently; repaired and documented.
+* **Learned sparse and ColBERT (`12_sparse_colbert`).** The OpenSearch multilingual *doc-only* sparse
+  encoder is the best single neural leg on A (all 0.678, R@10 0.966, no query-time model, 2 MB index);
+  fused with whole-document BM25 it reaches val 0.808 / all 0.732, and with colbert-fr on top all 0.738 —
+  the best full-set number on A, ≈ +0.03 over the round-1 stack, on 12 validation questions. French ColBERT
+  (`antoinelouis/colbertv1-camembert`, PyLate) is the best single first stage on B (all 0.474) and, fused
+  with e5-small, matches the reranked bar without a cross-encoder (all 0.524–0.555; val 0.539). As a
+  reranker colbert-fr equals bge-reranker on A only with pre-encoded passages; jina-colbert-v2 and the bge-m3
+  ColBERT head do not help. SPLADE-fr is below OpenSearch sparse and needed a decoder re-tie under
+  transformers 5.
+* **Lexical upgrades (`13_lexical_upgrades`, 373 runs).** The exp-01 tokenizer, a BM25F title/path field
+  (weight 3–8), thousand-group number normalisation and per-corpus k1/b lift corpus C lexical-only val MRR
+  from 0.536 to **0.616** (14 wins / 3 losses on val; H@1 0.594, R@10 0.865) at zero query cost, closing the
+  gap to the reranked bar from 0.13 to 0.05. On A, k1/b on whole documents gives val 0.756 (two questions;
+  noise). On B only cleanup, number normalisation and a code-family cue transfer (+0.02 val). RM3 pseudo-
+  relevance feedback and PMI expansion hurt on every corpus; region and document-type cue tokens are neutral.
+* **Cross-encoder fine-tuning on our train split (`15_finetune`).** Two epochs of BCE on 70 train questions
+  with BM25-mined negatives overfit: train +0.05–0.12, val −0.05 (A), −0.01 (B), +0.04 (C). No bar beaten.
+* **In-domain legal models and BSARD (`16_legal_models`).** monobert-legal-french equals mMARCO-MiniLM at
+  5× the cost and stays below bge-reranker; dpr-legal-french is e5-class on A and poor on B; fine-tuning
+  mMARCO on BSARD (+18 % on BSARD test) gives nothing on our sets and the BSARD licence (CC BY-NC-SA)
+  would forbid shipping it anyway.
+* **Combination (`17_lex_rerank`).** exp-13 BM25 as first stage for bge-reranker-v2-m3 on C and B, with
+  paired tests against the bars — see its README.
+
+**Did round 2 beat the round-1 validation bars?** Nominally yes on A (val 0.756 lexical, 0.808 sparse +
+BM25 RRF) and B (val 0.610 interpolated mMARCO, 0.592 graph-expanded), not on C (best val 0.658; exp 17
+pending). Honestly: with 12–35 validation questions the standard error of a validation MRR is 0.07–0.10, so
+none of these single-split wins is significant, and the one-fold numbers of exp 14 show how much a
+"win" can depend on which half is used for fitting. The gains that hold on both folds are: the lexical
+upgrades on C (+0.08 val at zero cost), fixed mid-range fusion (w = 0.5, RRF60) instead of tuned weights,
+bge-reranker interpolation at depth 20–30, and cheap metadata features (document type, year, region, title
+overlap) in a regularised linear ranker (oof A 0.732 / B 0.608 / C 0.723, all above the full-set
+round-1 bests). The measurement problem itself is now the limiting factor: `ideas/README.md` tier C (more
+mined questions, paired statistics, pre-registered validation reads) is the prerequisite for round 3.
 
 ## 4. Recommendation
 
