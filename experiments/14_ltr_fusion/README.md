@@ -134,7 +134,11 @@ set, comparable with the full-set bars). Resubstitution numbers are shown to siz
 | | interpolated | w=1.0 + bge@50 β=0.5 → 0.474 (0.688) | rrf40 + mMARCO@30 β=0.9 → 0.507 (0.647) | 0.494 |
 | | mMARCO only | w=1.0 + mMARCO@20 β=0.8 → **0.610** (0.630) | rrf40 + mMARCO@30 β=0.9 → 0.507 (0.647) | **0.548** |
 | | bge only | w=1.0 + bge@50 β=0.5 → 0.474 (0.688) | w=1.0 + bge@30 β=1 → 0.580 (0.570) | 0.538 |
-| C e5 + BM25 chunk | | _(pending bge cache)_ | | |
+| C e5 + BM25 chunk | first stage | w=0.3 → 0.542 (0.678) | w=0.6 → 0.589 (0.593) | 0.564 |
+| | replace | rrf40 + bge@50 → 0.655 (0.747) | rrf200 + bge@50 → **0.721** (0.661) | **0.685** |
+| | interpolated | w=0.3 + bge@20 β=0.9 → **0.658** (0.766) | rrf60 + bge@50 β=0.9 → 0.703 (0.681) | 0.678 |
+| | mMARCO only | w=0.5 + mMARCO@20 β=0.4 → 0.604 (0.718) | w=0.7 + mMARCO@30 β=0.7 → 0.653 (0.650) | 0.626 |
+| | bge only | w=0.3 + bge@20 β=0.9 → 0.658 (0.766) | rrf60 + bge@50 β=0.9 → 0.703 (0.681) | 0.678 |
 
 Bars (leaderboard): val A 0.736 / B 0.570 / C 0.665; full set A 0.703 / B 0.522 / C 0.703.
 
@@ -155,6 +159,16 @@ Bars (leaderboard): val A 0.736 / B 0.570 / C 0.665; full set A 0.703 / B 0.522 
   rewards the β=0.5 bump of bge (0.688) that does not exist on val. Depth 20 is as good as 50 (bge@20 β=1:
   val 0.567 / train 0.603). mMARCO-MiniLM (cheap) is as good as bge on B — with ~40 scored chunks per
   question the cascade gives bge 72–82% coverage of the fused top-20/30, which caps it.
+
+* **C**: the reranker transfers. Any bge configuration at depth 20–50 is within 0.03 of the others on both
+  halves (bge@N β=1: val 0.62–0.64, train 0.71–0.75 for N = 10…50), so whatever train selects is fine on val:
+  replace rrf40 + bge@50 → val 0.655 / oof 0.685, interpolated w=0.3 + bge@20 β=0.9 → val 0.658 / oof 0.678 —
+  just under the exp-09 bars (val 0.665, full 0.703), which were obtained with bge on the *full* top-30
+  candidates: here the cascade only scores 59–72% of the fused top-20/30 (92% of the top-10), and the missing
+  chunks are exactly the ones a full run would have promoted. mMARCO-MiniLM is a real step below (oof 0.626)
+  and, unlike bge, must be interpolated (β=0.4–0.8; β=1 drops val to 0.556). The β curve of bge on C is the
+  cleanest of the study: val rises monotonically from 0.54 (β=0) to 0.66 (β=0.9) and the train curve
+  follows in parallel — the sign of a stable, transferable knob.
 
 ### 2.2 Learning to rank (`train_ltr.py`)
 
