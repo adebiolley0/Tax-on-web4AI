@@ -9,8 +9,11 @@ And is kuzu (embedded graph DB) a reasonable place to keep such a graph?
 **Answer, in one line.** No for ranking: every graph method lifts the *train* MRR by +0.03…+0.15 but
 none beats the first stage on the *validation* split (B: RRF 0.421 → 0.425; C: convex 0.577 → 0.580,
 BM25 0.536 → 0.484), so the graph does not touch the bars (B 0.570, C 0.665, both with a
-cross-encoder). The graph itself is cheap and mostly correct, and is worth keeping for *navigation*
-(fetch the cited articles / neighbours of a hit) rather than for scoring.
+cross-encoder). The one positive effect is as a *recall device* for a reranker: on B, graph-expanded
+top-30 candidates raise candidate recall from 0.85 to 0.90 and the mMARCO-reranked val MRR from
+0.582 to 0.592 (0.570 with the exp-03 protocol) — one question, inside the noise. The graph itself is
+cheap and mostly correct, and is worth keeping for *navigation* (fetch the cited articles /
+neighbours of a hit) rather than for scoring.
 
 Protocol: every question has a deterministic `train` / `val` split (B: 24 / 16, C: 29 / 35); all
 parameters are chosen on train only; the tables report train, val and all. Because the grids are
@@ -199,7 +202,15 @@ graph at least bring the right article into the reranker's window?
 > drop-in fallback. Lesson: check `tok.tokenize("bonjour")` before trusting a reranker run, and keep
 > the HF cache out of shared disk clean-ups.
 
-{{RERANK_B}}
+| candidates (top-30) → mMARCO-MiniLM | cand. recall@30 all / val | train MRR | **val MRR** | all MRR | hit@1 | recall@10 |
+|---|---:|---:|---:|---:|---:|---:|
+| RRF top-30 *chunks* (exp-03 protocol; the bar) | 0.850 / 0.812 | 0.490 | **0.570** | 0.522 | 0.350 | 0.825 |
+| RRF top-30 *documents*, best chunk each | 0.850 / 0.812 | 0.468 | **0.582** | 0.514 | 0.350 | 0.800 |
+| RRF + graph expansion (`expand_sel`, selected on train) | **0.900 / 0.875** | 0.474 | **0.592** | 0.521 | 0.350 | 0.850 |
+| RRF + sequential neighbours only (α 0.3) | 0.875 / 0.812 | 0.475 | **0.585** | 0.519 | 0.350 | 0.825 |
+| RRF × structure prior | 0.875 / 0.875 | 0.507 | **0.586** | 0.539 | 0.375 | 0.825 |
+
+Reranking ≈ 500–720 s per variant here (13–18 s/query with the box at load 12; 2 s/query idle).
 
 ### Corpus C (64 questions; bars: val 0.665 = BM25 + bge-reranker, 0.659 = convex + bge-reranker; first stage convex 0.577)
 
@@ -335,7 +346,7 @@ neighbourhood answers), not as a scoring engine; for propagation keep the adjace
   the best val on C (0.602 vs 0.577, +0.025, but selected by val, so not a claim); `path` and
   `found_via` groups are harmful whenever they are large (they are taxonomy folders, not relations);
   `cite_toc`, `cite_circ`, `cite_jur` add nothing measurable; `cite_da` / `cite_qp` are too sparse.
-* **Reranker window (B).** {{RERANK_B_SUMMARY}}
+* **Reranker window (B).** Graph-expanded candidates put more expected articles into the reranker's top-30 window (candidate recall 0.850 → 0.900, val 0.812 → 0.875) and the reranked val MRR moves 0.582 → 0.592 (0.570 with the exp-03 chunk protocol). That is one question out of 16 — inside the noise of this val set — but it is the only effect of the graph with the right sign on every split, and it is the mechanism one would expect: the graph is a recall device for the reranker, not a ranker.
 
 **Use the graph for what it is good at.** (1) *Fetch-time context*: when the MCP `fetch(id)` returns
 an article, return its `seq` neighbours and the articles it cites (the parser resolves 57–62 % of
