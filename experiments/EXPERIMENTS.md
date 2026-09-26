@@ -99,6 +99,20 @@ Round 2 (train/val protocol, §3.10–3.11; "val" = fitted on the train half, sc
 | monobert-legal-french rerank of BM25 top-30 (exp 16), all / val | 0.639 / 0.603 | 0.465 / 0.427 | 0.594 / 0.597 |
 | exp-13 lexical → bge-reranker @20 / @30 (exp 17), val | – | 0.440 (@30) | **0.688** / 0.675 (all 0.733 @30) |
 
+Round 3 (mined sets: B 304 q / C 697 q, `18_eval_hygiene`; paired tests with `rag_eval.stats`; human-set
+numbers as before):
+
+| approach | B human (40 q) val / all | B mined (304 q) | C human (64 q) val / all | C mined (697 q) |
+|---|---:|---:|---:|---:|
+| exp-01 BM25 (reference) | 0.290 / 0.339 | 0.360 | 0.536 / 0.601 | 0.722 |
+| exp-13 lexical (confirmed, exp 21: B +0.048 max-T p < 0.001) | 0.341 / 0.391 | 0.408 | 0.616 / 0.683 | 0.729 |
+| e5-small dense alone (measured loss on mined sets) | – | −0.054 vs BM25 | – | −0.110 vs BM25 |
+| exp-13 lexical + e5 convex 0.5 (ties BM25; RRF60 refuted on C, −0.032, p < 0.001) | – | +0.018 vs BM25 | 0.640 / – | −0.002 vs BM25 |
+| reception field (exp 20): lexical first stage | 0.427 / – (R@30 0.812) | 0.531 (+0.115, p < 0.001) | – | – |
+| reception + e5 convex 0.5 → mMARCO @30 (exp 20) | 0.575 / – | – | – | – |
+| canonical-work hybrid, top-20 fused chunks → bge @20 (exp 19) | – | – | 0.648 / 0.687 | – |
+| LightGBM-tiny ranker on mined labels (exp 21), mined-val / human held-out | 0.427 (human) | +0.086 vs fusion, p < 0.001 | 0.671 (human) | +0.039 vs fusion, p < 0.001 |
+
 Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
 2 s with mMARCO-MiniLM. All heavy runs were executed one at a time by `experiments/run_queue.sh` (`queue.log`).
 
