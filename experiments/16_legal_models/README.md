@@ -36,7 +36,8 @@ cd experiments/16_legal_models && uv sync
 uv run python run_rerank.py --model maastrichtlawtech/monobert-legal-french --corpora A,B,C   # stage 1a
 uv run python run_dense.py  --model maastrichtlawtech/dpr-legal-french --corpora A,B          # stage 1b
 uv run python bsard_data.py                                                                   # BSARD pairs (cached json)
-uv run python finetune_ce_bsard.py --base cross-encoder/mmarco-mMiniLMv2-L12-H384-v1          # stage 2
+uv run python finetune_ce_bsard.py --base cross-encoder/mmarco-mMiniLMv2-L12-H384-v1 --n_q 1000 --max_len 256 --save  # stage 2
+uv run python run_rerank.py --model models/mmarco-minilm-bsard --tag mmarco-minilm-bsard-len512 --max_len 512    # stage 2 at 512
 uv run python finetune_bi_bsard.py --base intfloat/multilingual-e5-small                      # stage 3
 ```
 
@@ -98,28 +99,29 @@ was killed at 22 s/step). Model saved in `models/mmarco-minilm-bsard/` (git-igno
 | BM25 alone | 0.231 | 0.695 (0.736) | 0.338 (0.290) | 0.601 (0.546) |
 | mMARCO-MiniLM zero-shot | 0.304 | 0.604 (0.534) | 0.494 (0.500) | 0.593 (0.545) |
 | mMARCO-MiniLM + BSARD, eval max_len 256 | **0.360** | 0.529 (0.434) | 0.454 (0.512) | 0.498 (0.498) |
-| mMARCO-MiniLM + BSARD, eval max_len 512 | – | LEN512_A | LEN512_B | LEN512_C |
+| mMARCO-MiniLM + BSARD, eval max_len 512 | – | 0.567 (0.432) | 0.490 (0.491) | 0.575 (0.545) |
 
 The fine-tune does what it is trained for — in-domain BSARD test MRR +18 % over the zero-shot model (0.304 →
-0.360, H@1 0.22 → 0.29) after a single epoch on 886 questions — and **regresses on all three of our corpora**
-(A −0.08, B −0.04, C −0.10 MRR on all questions; val A 0.534 → 0.434, C 0.545 → 0.498, B 0.500 → 0.512 is
-within noise of 16 questions). Why:
+0.360, H@1 0.22 → 0.29) after a single epoch on 886 questions — and brings **no gain on our corpora**. Scored
+at the same max_len 512 as the experiment-15 baseline it is equal to the zero-shot model on B (0.490 vs 0.494)
+and C (0.575 vs 0.593, val 0.545 = 0.545) and worse on A (0.567 vs 0.604; val 0.432 vs 0.534, H@1 0.41 vs
+0.45). The larger drops of the max_len 256 row (A −0.08, B −0.04, C −0.10) are mostly **truncation**: our
+chunks are ~350–450 XLM-R tokens, so at 256 the second half of every chunk is unseen (C: 0.498 → 0.575 just by
+scoring at 512). What remains after that is explained by:
 
 1. **Task mismatch.** BSARD questions are citizen questions ("Puis-je refuser de faire des heures
    supplémentaires ?") against short statutory articles (median 570 chars) of the civil, labour, penal and
    regional codes; our questions are practitioner tax questions against 1,200–1,500-char chunks of circulars,
-   commentaries and CIR articles. The model learns BSARD's question style and its code vocabulary, not tax.
+   commentaries and CIR articles. The model learns BSARD's question style and code vocabulary, not tax, and
+   was trained on ≤ 256-token pairs while our chunks are longer.
 2. **False negatives in the hard negatives.** BSARD labels a handful of articles per question; the BM25
-   top-20 "non-relevant" articles used as negatives are often the neighbouring articles of the same section.
+   top-20 "non-relevant" articles used as negatives are often neighbouring articles of the same section.
    With BCE the model is pushed to score lexically-matching, topically-relevant passages as 0 — exactly the
-   passages that are relevant in our corpora, where BM25 candidates are already good (H@5 0.90 on A).
-3. **Catastrophic forgetting of the mMARCO signal.** 250 full-model steps at lr 2e-5 on 4k rows of one
-   narrow distribution, with no mMARCO replay, are enough to move a 118M model away from general
-   passage relevance; the loss plateaus at ~0.45 after 50 steps, i.e. most of the epoch is spent fitting the
-   noisy negatives rather than learning.
-4. **Truncation.** Training and the first evaluation used max_len 256, while the zero-shot baseline of
-   experiment 15 was scored at 512; our chunks are ~350–450 CamemBERT/XLM-R tokens, so the 256 row also
-   loses the second half of every chunk. The 512 re-evaluation row above isolates that part.
+   passages that are relevant in our corpora, where BM25 candidates are already good (H@5 0.90 on A). This is
+   what costs A its H@1.
+3. **No replay of the mMARCO signal.** 250 full-model steps at lr 2e-5 on 4k rows of one narrow
+   distribution move a 118M model away from general passage relevance; the loss plateaus at ~0.45 after
+   50 steps, i.e. most of the epoch is spent fitting the noisy negatives rather than learning.
 
 ### Stage 3 — e5-small fine-tuned on BSARD: not run
 
@@ -145,16 +147,18 @@ results from the same training recipe, no gain is expected on our corpora.
 - **Bi-encoder:** dpr-legal-french is e5-small/e5-base-class on A (0.575 dense; 0.712 with convex 0.7 fusion —
   the best A fusion so far, but not on the val split) and clearly bad on B (0.242), the corpus where dense
   retrieval matters most. e5-base (0.641 / 0.469) remains the better CPU choice.
-- **BSARD as training data:** +18 % in-domain, −0.04 to −0.10 MRR out of domain after one epoch. Cheap
-  transfer fine-tuning from a same-domain public dataset does not replace our own labelled questions; if we
-  fine-tune, it has to be on tax question/chunk pairs (experiment 15's direction), with replay of the original
-  mMARCO data and negatives filtered for false negatives. BSARD is also CC BY-NC-SA, so a BSARD-trained model
+- **BSARD as training data:** +18 % in-domain, 0 to −0.04 MRR (−0.10 val on A) out of domain after one
+  epoch. Cheap transfer fine-tuning from a same-domain public dataset does not replace our own labelled
+  questions; if we fine-tune, it has to be on tax question/chunk pairs (experiment 15's direction), at the
+  chunk length we serve (512), with replay of the original mMARCO data and negatives filtered for false
+  negatives. BSARD is also CC BY-NC-SA, so a BSARD-trained model
   could not ship in a commercial product anyway.
 
 ## Verdict
 
 Keep the experiment-03/09 stack (French-normalised BM25 + e5-base or bge-m3 + bge-reranker-v2-m3). None of the
-Belgian in-domain models earns its cost on our corpora, and BSARD fine-tuning hurts. The only positive signal
+Belgian in-domain models earns its cost on our corpora, and BSARD fine-tuning gives nothing (equal on B/C,
+worse on A) despite a clear in-domain gain. The only positive signal
 is dpr-legal-french as a fusion leg on corpus A (0.712 all-question MRR), which is within noise of bge-m3 + BM25
 (0.691) and did not hold on the val split or on B.
 
