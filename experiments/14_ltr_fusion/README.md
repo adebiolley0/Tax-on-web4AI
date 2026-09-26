@@ -113,6 +113,36 @@ set, comparable with the full-set bars). Resubstitution numbers are shown to siz
   not pay: keep w=0.5 (or RRF60) and spend the questions on the second stage.
 
 
+**Second stage** (reranker on the top-N fused chunks; both rerankers, 4 depths, 11 β values; MRR).
+"replace" = β=1 (the usual recipe), "interpolated" = β free. The cascade design caps bge coverage: on A,
+75–79% of the top-30 fused chunks (60% with the whole-doc leg) carry a bge score, 97% of the top-10.
+
+| corpus / legs | family | selected on train → **val** (train resub) | selected on val → **train** (val resub) | **oof** |
+|---|---|---|---|---|
+| A e5 + BM25 chunk | first stage | w=0.0 → 0.649 (0.688) | w=0.7 → 0.642 (0.730) | 0.645 |
+| | replace | rrf200 + mMARCO@20 → 0.539 (0.728) | w=0.0 + bge@20 → 0.673 (0.722) | 0.617 |
+| | interpolated | rrf200 + mMARCO@20 β=1 → 0.539 (0.728) | w=0.0 + bge@20 β=0.8 → 0.643 (0.764) | 0.600 |
+| | bge only | w=0.2 + bge@30 β=1 → 0.673 (0.727) | w=0.0 + bge@20 β=0.8 → 0.643 (0.764) | 0.656 |
+| A bge-m3 + BM25 chunk | first stage | w=1.0 → 0.602 (0.731) | w=0.4 → 0.661 (0.702) | 0.636 |
+| | replace | rrf100 + bge@10 → **0.717** (0.735) | w=0.2 + bge@10 → 0.663 (0.722) | **0.685** |
+| | interpolated | w=1.0 + mMARCO@30 β=0.3 → 0.607 (0.777) | w=0.2 + bge@10 β=0.8 → 0.633 (0.764) | 0.623 |
+| A e5 + BM25 whole-doc | first stage | w=0.0 → **0.736** (0.666) | w=0.0 → 0.666 (0.736) | **0.695** |
+| | replace | rrf100 + mMARCO@10 → 0.617 (0.719) | rrf20 + bge@10 → 0.620 (0.785) | 0.619 |
+| | interpolated | w=0.8 + bge@50 β=0.8 → 0.636 (0.727) | rrf20 + bge@10 β=0.7 → 0.620 (0.826) | 0.626 |
+| B e5 + BM25 chunk | | _(pending bge cache)_ | | |
+| C e5 + BM25 chunk | | _(pending bge cache)_ | | |
+
+Bars (leaderboard): val A 0.736 / B 0.570 / C 0.665; full set A 0.703 / B 0.522 / C 0.703.
+
+* **A**: no second stage beats whole-document BM25 honestly (oof 0.695, val 0.736). The grid finds configurations
+  with val 0.76–0.83 (rrf20 + bge@10 β=0.7 with the whole-doc leg: val 0.826) but they are selected *on val*
+  and score 0.62 on train — pure selection noise on 12 questions. The train-selected reranker recipes lose
+  0.03–0.11 MRR on val relative to the first stage. mMARCO-MiniLM is harmful on A whenever it is selected
+  (β curve monotone: val 0.68 at β=0 → 0.54 at β=1 while train rises 0.59 → 0.73); bge is neutral-to-positive
+  (β=0.5–0.9 keeps val at 0.68 and lifts all-set MRR from 0.63 to 0.69 at rrf200/20). The single honest
+  improvement is bge on top of the bge-m3 dense leg (replace, rrf100@10: val 0.717 / oof 0.685) — still below
+  BM25 whole-doc.
+
 ### 2.2 Learning to rank (`train_ltr.py`)
 
 _(pending)_
