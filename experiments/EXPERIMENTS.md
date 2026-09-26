@@ -179,6 +179,22 @@ Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,
   Reranking BM25 candidates alone already reaches 0.696: on a corpus this size, French BM25 + reranker is a
   legitimate no-embedding baseline, and the dense leg mainly adds recall for paraphrased questions.
 
+### 3.10 Round 2: fusion tuning and learning-to-rank (`14_ltr_fusion`)
+* Under a deterministic train/val split (md5 of the question id; 2-fold "oof" numbers comparable with the
+  full-set bars), **hand-tuned fusion weights do not transfer**: the convex weight selected on one half
+  loses 0.05–0.19 MRR on the other half on A (chunk BM25), B and C; a fixed w=0.5 or RRF60 is at least as
+  good everywhere, and pure whole-document BM25 remains the honest best first stage on A (oof 0.695).
+* Reranker knobs transfer only for the strong reranker: bge-reranker-v2-m3 on C is flat over depth 20–50
+  and β 0.7–1 (oof 0.678–0.685, val 0.655–0.658 vs the 0.665 bar obtained with full top-30 scoring — here
+  bge runs as a cheaper cascade on the mMARCO top-30 ∪ leg top-10). mMARCO-MiniLM is corpus-dependent
+  (harmful on A, essential on B: oof 0.416 → 0.548, needs interpolation β 0.4–0.8 on C).
+* A small learned ranker over cheap features gives the best honest numbers on all corpora (oof MRR):
+  **A 0.732** (logistic regression, no cross-encoder; bar 0.703), **B 0.608** (logreg on 7 features;
+  bar 0.522), **C 0.723** (15-tree LambdaMART; bar 0.703). What it learns is metadata — document type,
+  title overlap, length, **document year** (C), **region match** (B) — which should be stored fields in
+  production. LightGBM overfits on A/B (17–24 train questions); logreg is the safe learner there.
+* Details, tables, β/depth curves and the recommended recipe: `14_ltr_fusion/README.md`.
+
 ## 4. Recommendation
 
 **Stack for the MCP server (prototype now, scales to 100k docs):**

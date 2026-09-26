@@ -62,6 +62,15 @@ def encode_mlm_max(hf: str, texts: list[str], queries: list[str], max_len_doc: i
     t0 = time.perf_counter()
     tok = AutoTokenizer.from_pretrained(hf)
     model = AutoModelForMaskedLM.from_pretrained(hf).eval()
+    # transformers 5.3 does NOT tie the MLM decoder of this 2024 CamemBERT checkpoint (the file has no
+    # lm_head.decoder.* keys; the load report lists them as MISSING and leaves a *random* decoder and a
+    # zero bias → 78 % of the vocabulary "active", garbage top tokens). Re-tie explicitly.
+    emb = model.get_input_embeddings().weight
+    dec = model.lm_head.decoder
+    if not torch.equal(dec.weight, emb):
+        dec.weight = emb
+    if getattr(model.lm_head, "bias", None) is not None and not torch.equal(dec.bias, model.lm_head.bias):
+        dec.bias = model.lm_head.bias
     load_s = time.perf_counter() - t0
 
     def enc(batch_texts, max_len):

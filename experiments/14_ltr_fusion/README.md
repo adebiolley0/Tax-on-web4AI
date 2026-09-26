@@ -196,7 +196,30 @@ bagging), *small* (60 trees, 8 leaves) and *medium* (150 trees, 16 leaves, min 1
 | B | lgbm-tiny / all | 0.817 → 0.505 | 0.828 → 0.599 | 0.561 (0.375, 0.850) |
 | B | logreg / cheap (no cross-encoder) | 0.607 → 0.411 | 0.503 → 0.544 | 0.491 (0.375, 0.800) |
 | B | _bars_ | val 0.570 | | full set 0.522 |
-| C | _(pending bge cache)_ | | | |
+| C | lgbm-tiny / all | 0.901 → 0.634 | 0.818 → **0.829** | **0.723** (0.656, 0.883) |
+| C | lgbm-tiny / minimal (6 features) | 0.874 → 0.644 | 0.712 → 0.787 | 0.709 (0.625, 0.883) |
+| C | lgbm-tiny / minimal+meta | 0.891 → **0.662** | 0.736 → 0.763 | 0.708 (0.625, 0.859) |
+| C | lgbm-medium / all | 0.966 → 0.646 | 0.971 → 0.751 | 0.694 (0.625, 0.836) |
+| C | logreg / minimal | 0.750 → 0.599 | 0.616 → 0.784 | 0.683 (0.578, 0.867) |
+| C | lgbm-tiny / cheap (no cross-encoder) | 0.914 → 0.625 | 0.810 → 0.752 | 0.682 (0.609, 0.859) |
+| C | logreg / all | 0.873 → 0.525 | 0.837 → 0.766 | 0.634 (0.531, 0.823) |
+| C | _bars_ | val 0.665 | | full set 0.703 |
+
+* **Model class.** With 17–29 training questions, the pointwise **logistic regression is the safest learner on
+  A and B** (train–val gap 0.1, oof at or above every grid recipe) and LightGBM overfits (resub 0.9–1.0);
+  on C (29 train questions, 68 candidates each, 75 positives) the **tiny LambdaMART** (15 trees × 4 leaves,
+  5-seed bagging) wins clearly (oof 0.723 vs logreg 0.634) — non-linear interactions such as
+  "whole-doc BM25 rank × document year × type" matter there. The pairwise linear model never beats logreg.
+* **Feature sets.** The two cross-encoders as features add +0.11 on B (0.491 → 0.600) and +0.04 on C
+  (0.682 → 0.723) but nothing on A (0.732 without them). The 5–7 score/meta features of `minimal(+meta)`
+  are within 0.02 of `all` on B and C: the learner mostly needs *the reranker scores, the whole-doc BM25
+  score and 2–3 metadata priors*, not 50–65 columns.
+* **Against the bars.** B: logreg / minimal+meta oof 0.608 vs full-set bar 0.522 (+0.09), val 0.519 vs
+  0.570 but swapped-train 0.667 — the val half of B is the hard one for every method. C: lgbm-tiny / all oof
+  0.723 vs 0.703 (+0.02), val 0.634 vs 0.665, swapped 0.829. A: logreg / cheap oof 0.732 vs 0.703 (+0.03),
+  val 0.722 vs 0.736. The learned rankers are thus **at or above the hand-tuned full-set numbers on all three
+  corpora under an honest protocol**, while the hand-tuned recipes re-selected on half the questions are not.
+
 
 
 ### 2.3 What the models learn
@@ -215,9 +238,45 @@ Largest standardised logistic-regression weights (fit on train, `all` features):
   (+0.44), `region_match` (+0.46 in the cheap set) and `region_mismatch` (−0.5 in minimal+meta). The
   reranker ranks carry most of the signal; region and code family are the useful priors (the region filter
   of exp 08 re-learned from 24 questions).
-* **C** (21k docs): _(pending final run)_
+* **C** (21k docs): whole-doc BM25 normalised score and log-rank (+0.91 / −0.65), **`doc_year` (+0.80)**,
+  `type = décisions anticipées` (+0.67), bge log-rank (−0.63), chunk BM25 (+0.47), `type = questions
+  parlementaires` (−0.41), RRF (−0.40); in the tiny LambdaMART the gain is dominated by `bm25doc_norm`
+  (0.36–0.40), then `bm25doc_logrank`, bge rank/score and `doc_year`. The recency prior is the C-specific
+  discovery: the corpus holds yearly editions of the same articles and the questions were written from
+  the latest ones, so "prefer the newest edition" (the `is_yearly_edition` / year features of §1) is worth
+  more than any fusion weight. This is also the mechanism behind the exp-09 observation that BM25 +
+  reranker beats dense retrieval on C: whole-document BM25 is the strongest single feature on this corpus.
 
 
 ## 3. Conclusions and recommended recipe
 
-_(pending)_
+1. **Hand-tuned fusion weights do not survive a train/val split.** Selecting the convex weight on half the
+   questions loses 0.05–0.19 MRR on the other half on A (chunk BM25), B and C; the only stable choice is an
+   extreme that both halves agree on (pure whole-doc BM25 on A). A fixed w=0.5 (or RRF60) is at or above
+   the tuned weight everywhere. Do not tune first-stage weights on < 50 questions.
+2. **Reranker depth and β transfer when the reranker is strong, not when it is weak.** bge-reranker-v2-m3
+   on C: every depth 20–50 and β 0.7–1.0 is within 0.03 on both halves (val 0.655–0.658, oof 0.678–0.685).
+   mMARCO-MiniLM is corpus-dependent: harmful on A (val 0.68 → 0.54 as β → 1), essential on B (0.33 →
+   0.61), useful only interpolated on C (β 0.4–0.8). Interpolation with the fused score is the safer default
+   for a cheap reranker (β ≈ 0.5–0.8); a strong reranker can replace the fused order (β = 1) at depth 20–30.
+3. **The best honest numbers come from a small learned ranker over cheap features.** oof MRR: A 0.732
+   (logreg on 33 non-cross-encoder features; bar 0.703), B 0.608 (logreg on 7 features incl. both reranker
+   scores; bar 0.522), C 0.723 (15-tree LambdaMART on all features; bar 0.703). Val-half MRR: A 0.722 (bar
+   0.736), B 0.519 (bar 0.570; the swapped half gives 0.667), C 0.634 (bar 0.665; swapped 0.829). The
+   grid-tuned recipes evaluated honestly reach A 0.695 / B 0.548 / C 0.685 oof.
+4. **What the rankers learn is metadata, not scores.** Document type (rulings +, commentaries / PQs −),
+   title–query overlap, document length (short +), **document year (newest +)** on C, **region match** on
+   B. These are cheap to compute at index time and worth as much as a second cross-encoder; they should be
+   fields in the production store regardless of whether a learned ranker is deployed.
+5. **Cascades are the affordable way to use bge-reranker-v2-m3 on CPU.** Scoring the mMARCO top-30 ∪ leg
+   top-10 (~40 chunks/question) costs a quarter of the union-of-legs set and keeps 0.685 oof on C, but the
+   59–72% coverage of the fused top-20/30 is what separates it from the 0.703 full-top-30 number of exp 09.
+
+**Recommended recipe** (per query, CPU): chunk BM25 (exp-01 French normalisation) + e5-small, fixed convex
+0.5 (no tuning); mMARCO-MiniLM on the fused top-50; bge-reranker-v2-m3 on the mMARCO top-30 ∪ leg top-10;
+final score = a logistic regression (A/B-sized corpora) or a 15-tree LambdaMART (C-sized) over
+{e5, BM25 chunk, BM25 whole-doc, RRF, mMARCO, bge} scores + {document type, title overlap, length, year,
+region match}, refit whenever the question set grows. Until a learned ranker is wired in, use β = 0.8
+interpolation of bge with the fused score at depth 20–30, which is within 0.01 of the learned rankers on C
+and B and needs no training data. Everything is reproducible from `cache/` in seconds; the reranker caches
+take ~1 h (mMARCO, all corpora) + ~3.5 h (bge cascade) on 4 cores.
