@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import os
 import sys
 from pathlib import Path
 
@@ -21,6 +22,7 @@ from rag_eval.results import build_provenance
 from rag_eval.metrics import dedupe_ranked
 
 EXP = "21_mined_eval"
+SUFFIX = os.environ.get("EXP21_SUFFIX", "")      # e.g. "_mock" for smoke tests: separate stage-1 / feature files
 EXP_DIR = Path(__file__).resolve().parent
 CACHE = EXP_DIR / "cache"
 RUNS = EXP_DIR / "runs"
@@ -154,6 +156,11 @@ def hit_at(questions, rankings, k: int) -> float:
     return n / max(1, len(questions))
 
 
+def as_run(res) -> dict:
+    """RunResult → the dict shape rag_eval.stats works on (no disk round trip)."""
+    return {"name": res.name, "corpus": res.corpus, "metrics": res.metrics, "per_question": res.per_question, "_experiment": EXP}
+
+
 def short_metrics(res) -> dict:
     m = res.metrics
     return {k: m[k] for k in ("n_questions", "mrr", "hit@1", "hit@5", "recall@10", "hit@10", "recall@30", "hit@30",
@@ -171,12 +178,12 @@ class Stage1:
 
     def __init__(self, corpus: str):
         self.corpus = corpus
-        f = CACHE / f"{corpus}_stage1.npz"
+        f = CACHE / f"{corpus}_stage1{SUFFIX}.npz"
         if not f.exists():
             raise FileNotFoundError(f"{f}: run build_stage1.py --corpus {corpus}")
         z = np.load(f, allow_pickle=False)
         self.z = {k: z[k] for k in z.files}
-        meta = json.loads((CACHE / f"{corpus}_stage1.json").read_text())
+        meta = json.loads((CACHE / f"{corpus}_stage1{SUFFIX}.json").read_text())
         self.qids: list[str] = meta["qids"]
         self.q_index = {q: i for i, q in enumerate(self.qids)}
         self.doc_ids: list[str] = meta["doc_ids"]

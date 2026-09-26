@@ -15,7 +15,7 @@ import time
 import bm25s
 import numpy as np
 
-from common21 import CACHE, TOPK_CHUNK, TOPK_DOC, all_questions, minmax, rrf_scores, topk
+from common21 import CACHE, SUFFIX, TOPK_CHUNK, TOPK_DOC, all_questions, minmax, rrf_scores, topk
 from common14 import DENSE_LEGS, MODELS, _key, tokenize, load_corpus_and_chunks
 from rag_eval.cache import EmbeddingCache
 
@@ -37,9 +37,9 @@ def main():
     nq, nch = len(questions), len(chunks)
     print(f"corpus {a.corpus}: {len(docs)} docs / {nch} chunks / {nq} questions (load {time.perf_counter()-t0:.0f}s)", flush=True)
 
-    qmeta = json.loads((CACHE / f"{a.corpus}_qemb_e5.json").read_text())
+    qmeta = json.loads((CACHE / f"{a.corpus}_qemb_e5{SUFFIX}.json").read_text())
     assert qmeta["qids"] == qids, "query embeddings do not match the question list: rerun embed_queries.py"
-    qemb = np.load(CACHE / f"{a.corpus}_qemb_e5.npy")
+    qemb = np.load(CACHE / f"{a.corpus}_qemb_e5{SUFFIX}.npy")
     mk, extra = DENSE_LEGS[a.corpus]["e5"]
     f = EmbeddingCache().dir / (_key(MODELS[mk].hf_id, texts, extra) + ".npy")
     assert f.exists(), f"no cached e5 chunk embeddings for {a.corpus}: {f}"
@@ -79,13 +79,13 @@ def main():
             put("rrf60", qi, rrf_scores([e5, bm], 60.0))
         if (s // B) % 5 == 0:
             print(f"  {min(s+B, nq)}/{nq} questions, {time.perf_counter()-t1:.0f}s", flush=True)
-    np.savez(CACHE / f"{a.corpus}_stage1.npz", **out)
-    (CACHE / f"{a.corpus}_stage1.json").write_text(json.dumps({
+    np.savez(CACHE / f"{a.corpus}_stage1{SUFFIX}.npz", **out)
+    (CACHE / f"{a.corpus}_stage1{SUFFIX}.json").write_text(json.dumps({
         "qids": qids, "doc_ids": [d.doc_id for d in docs], "doc_len": [len(d.text) for d in docs], "n_chunks": nch,
         "chunk_ids": [c.chunk_id for c in chunks], "topk_chunk": K, "topk_doc": KD,
         "legs": {"e5": f"{MODELS[mk].hf_id} | {extra}", "bm25": "bm25s k1=1.5 b=0.75, exp-01 tokenizer, chunk level",
                  "bm25doc": "bm25s k1=1.5 b=0.75, exp-01 tokenizer, document level (exp-14 doc_texts)"}}))
-    print(f"saved cache/{a.corpus}_stage1.npz in {time.perf_counter()-t0:.0f}s", flush=True)
+    print(f"saved cache/{a.corpus}_stage1{SUFFIX}.npz in {time.perf_counter()-t0:.0f}s", flush=True)
 
 
 if __name__ == "__main__":

@@ -14,8 +14,8 @@ import numpy as np
 
 from rag_eval import evaluate_rankings
 from rag_eval.stats import compare_many
-from common21 import (EXP, PAIRED_HEADER, RERANK_DEPTH, RUNS, LexStage1, Stage1, all_questions, fmt_paired, hit_at,
-                      load_rerank_cache, load_saved, load_subsample, paired, recall_at, save21, short_metrics, SOURCES)
+from common21 import (EXP, PAIRED_HEADER, RERANK_DEPTH, RUNS, LexStage1, Stage1, all_questions, as_run, fmt_paired, hit_at,
+                      load_rerank_cache, load_subsample, paired, recall_at, save21, short_metrics, SOURCES)
 
 TAG = {"mmarco-minilm": "mmarco", "bge-reranker-v2-m3": "bge"}
 
@@ -81,6 +81,8 @@ def main():
 
     # questions with every reranked system available (paired comparisons need the same questions)
     rer = [n for n in systems if "+" in n]
+    if not rer:
+        print("no reranker scores cached yet"); return
     common_sub = [q for q in sub if all(q.qid in systems[n] for n in rer)]
     common_human = [q for q in human if all(q.qid in systems[n] for n in rer)]
     print(f"corpus {a.corpus}: subsample {len(sub)} → {len(common_sub)} with all {len(rer)} reranked systems scored; "
@@ -95,9 +97,9 @@ def main():
             if len(x) >= 5:
                 out[f"{prefix}__src_{s}"] = x
         return out
-    metrics = {}
+    metrics, saved = {}, {}
     for n, rankings in systems.items():
-        metrics[n] = {}
+        metrics[n], saved[n] = {}, {}
         for sl, qs in list(slice_sets(common_sub, "sub").items()) + ([("human", common_human)] if common_human else []):
             qs = [q for q in qs if q.qid in rankings]
             if not qs:
@@ -107,7 +109,7 @@ def main():
             res.metrics["hit@30"] = round(hit_at(qs, rankings, 30), 4)
             if not a.no_save:
                 save21(res, a.corpus, "human" if sl == "human" else "mined")
-            metrics[n][sl] = short_metrics(res)
+            metrics[n][sl] = short_metrics(res); saved[n][sl] = as_run(res)
         print(f"  {n:22s} " + "  ".join(f"{sl}={m['mrr']:.3f}" for sl, m in metrics[n].items()), flush=True)
 
     # ── paired tests ─────────────────────────────────────────────────────────
@@ -127,14 +129,13 @@ def main():
         qids = [q.qid for q in qs]
         tests[sl] = {}
         for base, n in pairs:
-            ra, rb = load_saved(f"{sl}__{base}", a.corpus), load_saved(f"{sl}__{n}", a.corpus)
+            ra, rb = saved[base][sl], saved[n][sl]
             tests[sl][f"{n} vs {base}"] = paired(ra, rb, qids)
         if sl == "sub":
-            tests["sub_val"] = {f"{n} vs {base}": paired(load_saved(f"sub__{base}", a.corpus), load_saved(f"sub__{n}", a.corpus), qids, split="val")
-                                for base, n in pairs}
-        base = load_saved(f"{sl}__convex05", a.corpus)
-        cands = [load_saved(f"{sl}__{n}", a.corpus) for n in systems if n != "convex05"]
-        maxt[sl] = {r["name"].split("__", 1)[1]: r for r in compare_many(base, cands, n_resamples=10000)}
+            tests["sub_val"] = {f"{n} vs {base}": paired(saved[base]["sub"], saved[n]["sub"], qids, split="val") for base, n in pairs}
+        base = saved["convex05"][sl]
+        cnames = [n for n in systems if n != "convex05" and sl in saved[n]]
+        maxt[sl] = dict(zip(cnames, compare_many(base, [saved[n][sl] for n in cnames], n_resamples=10000))) if cnames else {}
     out = {"corpus": a.corpus, "depth": a.depth, "n_sub": len(sub), "n_sub_scored": len(common_sub), "n_human_scored": len(common_human),
            "coverage": coverage, "descriptions": desc, "metrics": metrics, "tests": tests, "maxT_vs_convex05": maxt}
     (RUNS / f"part2_{a.corpus}.json").write_text(json.dumps(out, indent=1))

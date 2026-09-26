@@ -13,8 +13,8 @@ import json
 import numpy as np
 
 from rag_eval.stats import compare_many
-from common21 import (PAIRED_HEADER, RUNS, Stage1, all_questions, eval_and_save, fmt_paired, load_saved, paired,
-                      restrict, short_metrics, slices)
+from common21 import (PAIRED_HEADER, RUNS, Stage1, all_questions, as_run, eval_and_save, fmt_paired, load_saved, paired,
+                      short_metrics, slices)
 
 SYSTEMS = [("bm25chunk", "exp-14 chunk BM25 leg (exp-01 tokenizer, bm25s)"),
            ("bm25doc", "whole-document BM25 (exp-14 doc leg)"),
@@ -34,32 +34,34 @@ def main():
     st = Stage1(a.corpus)
     questions = all_questions(a.corpus)
     assert [q.qid for q in questions] == st.qids
-    metrics = {}
+    metrics, runs = {}, {}
     for name, desc in SYSTEMS:
         rankings = {}
         for qi, q in enumerate(questions):
             rankings[q.qid] = st.bm25doc_ranking(qi, 60) if name == "bm25doc" else st.doc_ranking({"bm25chunk": "bm25"}.get(name, name), qi, 60)
         res = eval_and_save(name, a.corpus, questions, rankings, {"system": desc, "stage": "first stage"}, save=not a.no_save)
         metrics[name] = {sl: short_metrics(r) for sl, r in res.items()}
+        runs[name] = {sl: as_run(r) for sl, r in res.items()}
         print(f"{name:12s} " + "  ".join(f"{sl}={m['mrr']:.3f}" for sl, m in metrics[name].items()), flush=True)
     for name, _ in LEXICAL:
-        metrics[name] = {}
+        metrics[name], runs[name] = {}, {}
         for sl in slices(questions):
             r = load_saved(f"{sl}__{name}", a.corpus)
+            runs[name][sl] = r
             metrics[name][sl] = {k: r["metrics"][k] for k in short_metrics_keys(r["metrics"])}
 
     # paired tests vs exp-01 BM25 per slice (all questions of the slice) and on the mined val split
     names = [n for n, _ in LEXICAL + SYSTEMS if n != BASE]
     tests, maxt = {}, {}
     for sl in slices(questions):
-        base = load_saved(f"{sl}__{BASE}", a.corpus)
-        cands = [load_saved(f"{sl}__{n}", a.corpus) for n in names]
+        base = runs[BASE][sl]
+        cands = [runs[n][sl] for n in names]
         tests[sl] = {n: paired(base, c) for n, c in zip(names, cands)}
-        maxt[sl] = {r["name"].split("__", 1)[1]: r for r in compare_many(base, cands, n_resamples=10000)}
+        maxt[sl] = dict(zip(names, compare_many(base, cands, n_resamples=10000)))
         if sl == "mined":
             tests["mined_val"] = {n: paired(base, c, split="val") for n, c in zip(names, cands)}
             tests["mined_train"] = {n: paired(base, c, split="train") for n, c in zip(names, cands)}
-            maxt["mined_val"] = {r["name"].split("__", 1)[1]: r for r in compare_many(base, cands, split="val", n_resamples=10000)}
+            maxt["mined_val"] = dict(zip(names, compare_many(base, cands, split="val", n_resamples=10000)))
     out = {"corpus": a.corpus, "metrics": metrics, "tests_vs_" + BASE: tests, "maxT": maxt}
     RUNS.mkdir(exist_ok=True)
     (RUNS / f"part1_{a.corpus}.json").write_text(json.dumps(out, indent=1))

@@ -20,7 +20,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
 from rag_eval import evaluate_rankings
-from common21 import (CACHE, PAIRED_HEADER, REFS, RUNS, LexStage1, Stage1, all_questions, fmt_paired, hit_at, load_ref,
+from common21 import (CACHE, PAIRED_HEADER, REFS, RUNS, LexStage1, Stage1, all_questions, as_run, fmt_paired, hit_at, load_ref,
                       load_saved, paired, recall_at, save21, short_metrics, slices, SOURCES)
 from features21 import FEATURE_SETS, RERANK_TAGS, build_table, load_table, save_table, select_features
 
@@ -74,7 +74,8 @@ def main():
     questions = all_questions(a.corpus)
     assert [q.qid for q in questions] == st.qids
     lx = LexStage1(a.corpus, "exp13_lex")
-    tf = CACHE / f"{a.corpus}_features.npz"
+    from common21 import SUFFIX
+    tf = CACHE / f"{a.corpus}_features{SUFFIX}.npz"
     t0 = time.perf_counter()
     if tf.exists() and not a.rebuild:
         tab = load_table(a.corpus, tf)
@@ -109,6 +110,8 @@ def main():
         qs = [questions[i] for i in np.where(qmask)[0] if questions[i].qid in rankings]
         return evaluate_rankings("tmp", a.corpus, qs, rankings).metrics["mrr"] if qs else float("nan")
 
+    saved_runs: dict[str, dict] = {}
+
     def eval_save(name, rankings, config, qmask):
         """Evaluate on every slice restricted to qmask and the questions ranked; save; return metrics per slice."""
         out = {}
@@ -121,8 +124,11 @@ def main():
             res.metrics["hit@30"] = round(hit_at(qs, rankings, 30), 4)
             if not a.no_save:
                 save21(res, a.corpus, "human" if sl == "human" else "mined")
-            out[sl] = short_metrics(res)
+            out[sl] = short_metrics(res); saved_runs[f"{sl}__{name}"] = as_run(res)
         return out
+
+    def get_run(name):
+        return saved_runs[name] if name in saved_runs else load_saved(name, a.corpus)
 
     summary = {"corpus": a.corpus, "n_rows": int(len(tab.y)), "candidate_recall": {"human": float(exp_hit[human].mean()), "mined": float(exp_hit[mined].mean())},
                "rerank_coverage": {k: {"human": int(v[human].sum()), "mined": int(v[mined].sum())} for k, v in tab.rerank_cov.items()},
@@ -215,11 +221,15 @@ def main():
 
     # ── paired tests ───────────────────────────────────────────────────────────
     tests = {"human": {}, "mined_val": {}}
-    refs = {k: load_ref(a.corpus, k) for k in REFS[a.corpus]}
-    base_runs = {n: load_saved(f"human__{n}", a.corpus) for n in ("convex05", "rrf60", "exp13_lex", "bm25_tok01")}
-    for extra in ("convex05+bge@20", "convex05+mmarco@20", "lex13+bge@20"):
+    refs, base_runs = {}, {}
+    for k in REFS[a.corpus]:
         try:
-            base_runs[extra] = load_saved(f"human__{extra}", a.corpus)
+            refs[k] = load_ref(a.corpus, k)
+        except FileNotFoundError:
+            print(f"  (reference {k} missing)")
+    for n in ("convex05", "rrf60", "exp13_lex", "bm25_tok01", "convex05+bge@20", "convex05+mmarco@20", "lex13+bge@20"):
+        try:
+            base_runs[n] = load_saved(f"human__{n}", a.corpus)
         except FileNotFoundError:
             pass
     for fset, entry in summary["models"].items():
@@ -228,7 +238,7 @@ def main():
         for meth in entry["methods"]:
             for fit in ("fit-mtrain", "fit-mall"):
                 name = f"ltr__{meth}__{fset}__{fit}"
-                run = load_saved(f"human__{name}", a.corpus)
+                run = get_run(f"human__{name}")
                 row = {}
                 for k, ref in refs.items():
                     row[f"vs {k} (all)"] = paired(ref, run)
@@ -237,16 +247,19 @@ def main():
                     row[f"vs {k} (all)"] = paired(ref, run)
                 tests["human"][name] = row
             name = f"ltr__{meth}__{fset}__fit-mtrain"
-            run = load_saved(f"mined__{name}", a.corpus)
+            run = get_run(f"mined__{name}")
             row = {}
             for k in ("convex05", "rrf60", "exp13_lex", "bm25_tok01"):
-                ref = load_saved(f"mined__{k}", a.corpus)
+                try:
+                    ref = load_saved(f"mined__{k}", a.corpus)
+                except FileNotFoundError:
+                    continue
                 row[f"vs {k} (val, pooled)"] = paired(ref, run, split="val")
                 for s in SOURCES:
                     try:
                         ref_s = load_saved(f"mined__src_{s}__{k}", a.corpus)
-                        run_s = load_saved(f"mined__src_{s}__{name}", a.corpus)
-                    except FileNotFoundError:
+                        run_s = get_run(f"mined__src_{s}__{name}")
+                    except (FileNotFoundError, KeyError):
                         continue
                     if len(set(ref_s["per_question"]) & set(run_s["per_question"])) >= 5:
                         row[f"vs {k} (val, {s})"] = paired(ref_s, run_s, split="val")
