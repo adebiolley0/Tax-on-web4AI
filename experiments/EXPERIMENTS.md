@@ -49,6 +49,11 @@ with a README documenting setup, API notes and results:
 | `15_finetune` | cross-encoder fine-tuned on our own train split |
 | `16_legal_models` | Belgian / French in-domain models (monobert-legal-french, dpr-legal-french) and BSARD fine-tuning |
 | `17_lex_rerank` | round-2 combination: exp-13 BM25 first stage + bge-reranker-v2-m3 |
+| `18_eval_hygiene` | round 3: `rag_eval.stats` (paired tests, max-T, MDD), provenance stamps, mined question sets (B 304 / C 697) |
+| `19_canonical_hybrid` | round 3: quality filter, boilerplate zoning, edition canonicalisation, facet routing on C (ablations) |
+| `20_reception_intent` | round 3: "reception" field (citing sentences per statute article) and a question-to-question intent leg |
+| `21_mined_eval` | round 3: round-2 systems re-judged on the mined sets; learned ranker trained on mined labels |
+| `22_reception_colbert` | round 3: reception-BM25F + colbert-fr + e5 first stage on B, rerankers on top |
 | `ideas/` | 100 research-only write-ups and the ranked synthesis (`ideas/README.md`) |
 
 ## 2. Headline results
@@ -275,6 +280,38 @@ questions. What survives as *practice* rather than as a measured gain: the lexic
 consistent, free), fixed mid-range fusion instead of tuned weights, bge-reranker at depth 20–30 with the
 reranker score only, and metadata fields as ranker features. Round 3 therefore starts with the measurement
 problem (`18_eval_hygiene`: statistics, provenance stamps, mined questions).
+
+### 3.12 Round 3: measuring properly, then the cheap structural ideas (`18`–`22`)
+Round 3 started from the ideas synthesis (`ideas/README.md`): fix the measurement first, then test the
+LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eval.stats`.
+* **Statistics and provenance (`18_eval_hygiene`).** `rag_eval.stats` (paired t, exact sign-flip, BCa
+  bootstrap, Westfall–Young max-T, minimum detectable delta) and provenance stamps on every saved run.
+  Applied to round 2 it finds no significant win (§3.11) and shows the minimum detectable delta per split
+  is 0.10–0.27; a 0.03 gain needs 370–800 questions.
+* **Mined question sets (`18_eval_hygiene/README_mining.md`).** 304 (B) and 697 (C) document-labelled
+  questions mined without an LLM from parliamentary questions, rulings and FAQ circulars, with statute
+  citations resolved through the exp-11 reference grammar, a statistics/policy filter, per-code caps and
+  zero target overlap with the 133 human questions; estimated label precision ≈ 90–95 % (40-question
+  hand-check sample in `mining/sample40.md`). Lexical baselines score about the same on mined and human
+  sets, except the C "parliamentary question → statute" slice (MRR 0.05), kept as a diagnostic slice.
+  `rag_eval.load_questions_mined("B"|"C")`; `exclude` ids (the question's own source document) are
+  honoured by the evaluator.
+* **Reception field and intent leg (`20_reception_intent`).** Indexing each statute article together with
+  the sentences that cite it (circulars, commentary, rulings, parliamentary answers) is the first LLM-free
+  attack on the paraphrase gap that works: on B the lexical first stage goes from val 0.341 to 0.427 and
+  recall@30 from 0.625 to 0.812 on the human val half, and on the 304 mined questions **+0.115 MRR
+  (p < 0.001)** lexical / +0.094 fused with e5 (leak-free: the mined questions' source documents are
+  excluded from the reception text). Questions that never entered any lexical top-50 in exp 17 now rank
+  1, 1 and 9. Behind mMARCO @30 the pipeline ties the round-1 bar (val 0.575 vs 0.570) and stays below
+  exp 14's 0.610; the reranked effect of the field is +0.08 (p 0.09–0.24, n 16). Dense reception vectors
+  add nothing. The question-to-question intent bank (PQ / FAQ / ruling questions → their answer documents)
+  helps the C first stage on the human val half (0.640 → 0.685, p 0.26) but is absorbed by the reranker
+  (34/35 ranks identical) and hurts the mined ruling slice (twin rulings, p < 0.001): keep it as an answer
+  object and a source of training pairs, not as a fusion leg. Side result at n = 304/697: convex 0.5 beats
+  RRF60 (C −0.044 for RRF, p < 0.001).
+* **Canonical-work hybrid (`19_canonical_hybrid`)**, **re-judging round 2 on the mined sets
+  (`21_mined_eval`)** and **reception + colbert-fr on B (`22_reception_colbert`)**: see their READMEs
+  (results are appended here as they complete).
 
 ## 4. Recommendation
 
