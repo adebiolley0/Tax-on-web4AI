@@ -24,8 +24,7 @@ def main():
     a = ap.parse_args()
     import torch
     torch.set_num_threads(a.threads)
-    from models import MODELS
-    from run_sweep import Encoder
+    from common14 import MODELS, Encoder      # common14 puts 02_dense_sweep on sys.path
     qs = all_questions(a.corpus)
     out = CACHE / f"{a.corpus}_qemb_e5.npy"
     if out.exists():

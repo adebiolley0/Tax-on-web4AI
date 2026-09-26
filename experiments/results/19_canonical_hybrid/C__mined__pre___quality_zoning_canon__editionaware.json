@@ -1,0 +1,11032 @@
+{
+ "name": "mined__pre__+quality+zoning+canon__editionaware",
+ "corpus": "C",
+ "config": {
+  "stage": "fusion only",
+  "text": "zoned",
+  "quality_filter": true,
+  "canonicalisation": "work",
+  "facet_routing": false,
+  "fusion": "z-score convex w_dense=0.5 (fixed)",
+  "facet_boost": null,
+  "questions": "mined",
+  "eval": "edition-aware (any edition of the work accepted)"
+ },
+ "metrics": {
+  "mrr": 0.7046,
+  "ndcg@5": 0.5533,
+  "ndcg@10": 0.5511,
+  "hit@1": 0.6571,
+  "hit@3": 0.7346,
+  "hit@5": 0.7575,
+  "hit@10": 0.792,
+  "recall@5": 0.7501,
+  "recall@10": 0.7747,
+  "n_questions": 697,
+  "train_mrr": 0.7193,
+  "train_hit@1": 0.6648,
+  "train_hit@5": 0.7727,
+  "train_recall@10": 0.7908,
+  "train_n": 352,
+  "val_mrr": 0.6897,
+  "val_hit@1": 0.6493,
+  "val_hit@5": 0.742,
+  "val_recall@10": 0.7583,
+  "val_n": 345
+ },
+ "per_question": {
+  "MC-FAQ-1ef6b515": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:18409",
+    "work:18304",
+    "work:2335",
+    "work:18408"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-2bee1af0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:18409",
+    "work:18304",
+    "work:13784",
+    "work:17566"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-3549cf91": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:13093",
+    "work:18450",
+    "work:13104",
+    "work:13239"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-3c0adc49": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:18304",
+    "work:18409",
+    "work:7308",
+    "work:13784"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-46b9bba9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:18165",
+    "work:13743",
+    "work:14954",
+    "work:18021"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-85a8369b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:13711",
+    "work:14064",
+    "work:13743",
+    "work:18223"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-9be9ae55": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:18165",
+    "work:18480",
+    "work:5959",
+    "work:18304"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-a00a591e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:18361",
+    "work:13093",
+    "work:13069",
+    "work:13061"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d3184670": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14768",
+    "work:4212",
+    "work:16757",
+    "work:18990",
+    "work:17640"
+   ],
+   "expected": [
+    "work:14768"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-1a8950c9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8337",
+    "work:14216",
+    "work:16687"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-1f44e500": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8370",
+    "work:8371",
+    "work:1385"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-2cfdf677": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:1338",
+    "work:1389",
+    "work:8337"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-40c05f1d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8349",
+    "work:8380",
+    "work:8337"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-45478e66": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8337",
+    "work:1385",
+    "work:8380"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-77431694": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:1385",
+    "work:6476",
+    "work:8371"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-8077e893": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8370",
+    "work:8371",
+    "work:6476"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-878dddda": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8371",
+    "work:8337",
+    "work:8370"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-a7a94f77": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8337",
+    "work:1446",
+    "work:14216"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-b9d8dbf2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8337",
+    "work:8381",
+    "work:1487",
+    "work:1546"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-c78af459": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8309",
+    "work:1524",
+    "work:1644"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-c91d4127": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:8337",
+    "work:1487",
+    "work:13727"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d2a86dbb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:1385",
+    "work:8337",
+    "work:6476",
+    "work:14216"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d9f60d30": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:1385",
+    "work:8381",
+    "work:1446",
+    "work:8368"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-dc7ac778": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:1385",
+    "work:8381",
+    "work:6476",
+    "work:1072"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-e2100f66": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8337",
+    "work:8381",
+    "work:1385",
+    "work:14216"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-f1ba2060": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:1446",
+    "work:8337",
+    "work:2147"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-fb7e7c9c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:14578",
+    "work:1446",
+    "work:1867"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-fca17845": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1391",
+    "work:8381",
+    "work:14216",
+    "work:1446",
+    "work:8337"
+   ],
+   "expected": [
+    "work:1391"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-62e89491": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14766",
+    "work:6763",
+    "work:4323",
+    "work:8307",
+    "work:8353"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-7482adb6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14766",
+    "work:6763",
+    "work:1551",
+    "work:8350",
+    "work:8384"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-8bc785c6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14766",
+    "work:327",
+    "work:2158",
+    "work:8353",
+    "work:17208"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-8f592504": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14766",
+    "work:16531",
+    "work:1338",
+    "work:18381",
+    "work:17733"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-a320c8bd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14766",
+    "work:13066",
+    "work:7721",
+    "work:2087",
+    "work:849"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-f18a30f6": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:7721",
+    "work:13207",
+    "work:562",
+    "work:2324",
+    "work:14766"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-fe49d669": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14766",
+    "work:14888",
+    "work:8347",
+    "work:8391",
+    "work:8313"
+   ],
+   "expected": [
+    "work:14766"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-3eca2973": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1401",
+    "work:8331",
+    "work:1954",
+    "work:1454",
+    "work:1643"
+   ],
+   "expected": [
+    "work:1401"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-4377f1cb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1401",
+    "work:8331",
+    "work:8316",
+    "work:1504",
+    "work:1454"
+   ],
+   "expected": [
+    "work:1401"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-a7539354": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1401",
+    "work:8331",
+    "work:1643",
+    "work:6476",
+    "work:1063"
+   ],
+   "expected": [
+    "work:1401"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-f9c3c2cb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1401",
+    "work:8331",
+    "work:8316",
+    "work:1504",
+    "work:8310"
+   ],
+   "expected": [
+    "work:1401"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-110ead76": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:8274",
+    "work:2955",
+    "work:18282",
+    "work:17720"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-1ec673f3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1556",
+    "work:1457",
+    "work:1082",
+    "work:8265"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-2d9b3d90": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1457",
+    "work:2638",
+    "work:1575",
+    "work:14929"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-37965d86": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:8379",
+    "work:2616",
+    "work:3156",
+    "work:1319"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-39f964ca": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1457",
+    "work:16837",
+    "work:1575",
+    "work:2616"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-53839426": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:2616",
+    "work:1082",
+    "work:8381",
+    "work:4227"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-55b6023e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:8379",
+    "work:1694",
+    "work:2611",
+    "work:1700"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-7403507e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:2616",
+    "work:1457",
+    "work:1556",
+    "work:16837"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-762c6958": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1526",
+    "work:17319",
+    "work:15328",
+    "work:2616"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-7657f224": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1319",
+    "work:3156",
+    "work:1545",
+    "work:3170"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-80a0bd67": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:8533",
+    "work:2295",
+    "work:1082",
+    "work:1437"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-83de519e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1457",
+    "work:2616",
+    "work:3480",
+    "work:16912"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-842acaf1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:2468",
+    "work:17005",
+    "work:3480",
+    "work:1457"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-87fb2987": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:2616",
+    "work:8379",
+    "work:1363",
+    "work:1082"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-907fca95": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:8234",
+    "work:2616",
+    "work:8274",
+    "work:4227"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-b0ac71e1": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:1534",
+    "work:1509",
+    "work:1584",
+    "work:1457",
+    "work:1505"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-bd7bf442": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1691",
+    "work:2125",
+    "work:8275",
+    "work:2005"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-c5209c79": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1546",
+    "work:1319",
+    "work:1450",
+    "work:1082"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d78f5ce8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:2616",
+    "work:1457",
+    "work:1546",
+    "work:1556"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-eba64f95": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:1457",
+    "work:8379",
+    "work:1363",
+    "work:1556"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-f685579a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1509",
+    "work:2616",
+    "work:8234",
+    "work:1838",
+    "work:2220"
+   ],
+   "expected": [
+    "work:1509"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-01ed20af": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:1584",
+    "work:1500",
+    "work:1507"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-0353aa13": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1584",
+    "work:1574",
+    "work:1457",
+    "work:17970"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-05028267": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:2147",
+    "work:1391",
+    "work:1949",
+    "work:1785"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-0ec53872": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:2658",
+    "work:4680",
+    "work:1081"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-10af76de": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:1595",
+    "work:1500",
+    "work:1507"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-11888ef3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:1519",
+    "work:1584",
+    "work:1437"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-18d5659f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:17040",
+    "work:17512",
+    "work:18125"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-268819d5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:3777",
+    "work:8379",
+    "work:1500"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-3481c3b2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1541",
+    "work:1450",
+    "work:1531",
+    "work:1584"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-4bbcd85b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1082",
+    "work:1457",
+    "work:1495",
+    "work:8353"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-60b38d83": {
+   "rank": 15,
+   "rr": 0.0667,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:1575",
+    "work:1556",
+    "work:2115"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-6aa47d00": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:1519",
+    "work:1082",
+    "work:8379"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-6f7bac15": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:18125",
+    "work:18784",
+    "work:18860"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-7e9ead7e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1527",
+    "work:1495",
+    "work:1500",
+    "work:1533"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-9125a55e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:4680",
+    "work:1500",
+    "work:1531",
+    "work:1533"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-9ff7a526": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:1533",
+    "work:1534",
+    "work:1519",
+    "work:1500",
+    "work:1507"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-a33f9670": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:1519",
+    "work:1500",
+    "work:8379"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-be006a0b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1556",
+    "work:14958",
+    "work:1545",
+    "work:14512"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-c2689d94": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1541",
+    "work:1519",
+    "work:1531",
+    "work:1500"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d4f6f88f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:1500",
+    "work:1495",
+    "work:1519"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-e0281ea3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1533",
+    "work:18860",
+    "work:2239",
+    "work:3777"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-e2bf51ef": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:335",
+    "work:2421",
+    "work:1616",
+    "work:18429",
+    "work:13143"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-e455472d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:2474",
+    "work:1971",
+    "work:18707",
+    "work:18559"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-e84143e0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1500",
+    "work:1533",
+    "work:1507",
+    "work:1519"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-f3b86db2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1541",
+    "work:1519",
+    "work:1500",
+    "work:1531"
+   ],
+   "expected": [
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-4c56f7a1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1519",
+    "work:1533",
+    "work:1500",
+    "work:1495"
+   ],
+   "expected": [
+    "work:1519",
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-626e0b10": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1519",
+    "work:1534",
+    "work:1531",
+    "work:1541",
+    "work:11381"
+   ],
+   "expected": [
+    "work:1519",
+    "work:1534"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-e4c2c9d0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1534",
+    "work:1519",
+    "work:1533",
+    "work:14729",
+    "work:1546"
+   ],
+   "expected": [
+    "work:1519",
+    "work:1534"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-0312ea97": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:17478",
+    "work:9260",
+    "work:18243",
+    "work:1546",
+    "work:10090"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-13c12034": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "work:14770",
+    "work:1457",
+    "work:1575",
+    "work:1556",
+    "work:1591"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-2375bed5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:1556",
+    "work:1457",
+    "work:1569"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-4744b3d6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1575",
+    "work:18632",
+    "work:1356",
+    "work:14989"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-5c06e5ff": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1556",
+    "work:1545",
+    "work:1529",
+    "work:17032"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-5e8c684b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1556",
+    "work:1545",
+    "work:1547",
+    "work:4372"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-600db458": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1450",
+    "work:1575",
+    "work:1457",
+    "work:1556"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-6601a79b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:1556",
+    "work:17330",
+    "work:17032"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-771f4670": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1572",
+    "work:8369",
+    "work:1556",
+    "work:1072"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-8276b57b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1575",
+    "work:1556",
+    "work:1545",
+    "work:1457"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-89d369cf": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:1556",
+    "work:1575",
+    "work:1457"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-941c77b0": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:1457",
+    "work:1556",
+    "work:1546",
+    "work:2638",
+    "work:2242"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-9784f0b3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:1556",
+    "work:1529",
+    "work:17330"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-9928d834": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1575",
+    "work:1556",
+    "work:1545",
+    "work:1509"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-a9c04950": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1575",
+    "work:1556",
+    "work:1547",
+    "work:1569"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-ae18c137": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:17335",
+    "work:17334",
+    "work:1556"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-b1cddfc4": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:1457",
+    "work:1545",
+    "work:1556",
+    "work:1546",
+    "work:1575"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-b8e506a3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:18383",
+    "work:18494",
+    "work:18429",
+    "work:17674"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-ca069041": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1545",
+    "work:1556",
+    "work:14369",
+    "work:1529"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d4dacabc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1547",
+    "work:1556",
+    "work:1545",
+    "work:1569"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-d651ecfd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1575",
+    "work:1556",
+    "work:1545",
+    "work:1450"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-e1af8993": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1450",
+    "work:1575",
+    "work:1556",
+    "work:2252"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-f5683eb7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:17324",
+    "work:18494",
+    "work:18383",
+    "work:18082"
+   ],
+   "expected": [
+    "work:1546"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-9602c3db": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1546",
+    "work:1556",
+    "work:1547",
+    "work:1569",
+    "work:1575"
+   ],
+   "expected": [
+    "work:1546",
+    "work:1547"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-0d2bcb63": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1644",
+    "work:1558",
+    "work:1557",
+    "work:1589"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-1813535b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1683",
+    "work:8308",
+    "work:2288",
+    "work:8307"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-307fe904": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:1557",
+    "work:1558",
+    "work:1552",
+    "work:1712",
+    "work:1654"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-3c067c3e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1532",
+    "work:1454",
+    "work:1524",
+    "work:1650"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-428a7edd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1557",
+    "work:6576",
+    "work:1558",
+    "work:1454"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-593c47e0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1557",
+    "work:1454",
+    "work:1495",
+    "work:1487"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-7b15d5be": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1712",
+    "work:1532",
+    "work:1505",
+    "work:1632"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-7da250b7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1557",
+    "work:1558",
+    "work:6576",
+    "work:1683"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-8fdd0bb7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1557",
+    "work:8309",
+    "work:1454",
+    "work:2618"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-92e48889": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1532",
+    "work:1632",
+    "work:1557",
+    "work:1505"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-aa8e2227": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:8308",
+    "work:1388",
+    "work:13956",
+    "work:8307"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-ab0996f0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1558",
+    "work:1557",
+    "work:6576",
+    "work:1563"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-bcf3c06c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:8307",
+    "work:8302",
+    "work:8301",
+    "work:1388"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-c1d5c2e7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:2613",
+    "work:444",
+    "work:8257",
+    "work:2283"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-c7c07327": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:2288",
+    "work:1532",
+    "work:8309",
+    "work:1524"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-c7c773cb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1532",
+    "work:1557",
+    "work:2288",
+    "work:1558"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-dfa4fe10": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1454",
+    "work:1505",
+    "work:1532",
+    "work:1558"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-f3a5739e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:8307",
+    "work:1388",
+    "work:8308",
+    "work:1557"
+   ],
+   "expected": [
+    "work:1552"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-2c7de754": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1552",
+    "work:1558",
+    "work:1557",
+    "work:1524",
+    "work:1532"
+   ],
+   "expected": [
+    "work:1552",
+    "work:1558"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-04238dff": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1563",
+    "work:1552",
+    "work:17042",
+    "work:17020",
+    "work:2418"
+   ],
+   "expected": [
+    "work:1552",
+    "work:1563"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-01701e80": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:7578",
+    "work:2056",
+    "work:14769"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-06e9a3fd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2369",
+    "work:2368",
+    "work:18349",
+    "work:18369",
+    "work:1536"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-1076ecbe": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:15010",
+    "work:8255",
+    "work:3763"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-12d88d8d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:1780",
+    "work:1408",
+    "work:1765"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-14d3fa84": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:15010",
+    "work:3807",
+    "work:8255"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-161fa65b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:2056",
+    "work:1699",
+    "work:14954"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-166b36a1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:18073",
+    "work:1751",
+    "work:16183"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-1cb54f25": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:15010",
+    "work:18439",
+    "work:18532"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-1e70135c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2369",
+    "work:2368",
+    "work:14769",
+    "work:1622",
+    "work:286"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-245f1e34": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:14769",
+    "work:1985",
+    "work:2056"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-2fa9ff6f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:1699",
+    "work:14769",
+    "work:14770"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-3bb8bea7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:1536",
+    "work:14767",
+    "work:13123"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-3e774738": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2369",
+    "work:2368",
+    "work:14767",
+    "work:14769",
+    "work:14770"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-44035d27": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:18349",
+    "work:14767",
+    "work:1536"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-45070968": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:3807",
+    "work:8255",
+    "work:984"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-455d7d37": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2369",
+    "work:14954",
+    "work:1591",
+    "work:4410",
+    "work:4409"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-46e26b6c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2369",
+    "work:2368",
+    "work:14767",
+    "work:18349",
+    "work:14887"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-493d92ff": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:8255",
+    "work:3807",
+    "work:978"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-519143bb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:14770",
+    "work:16191",
+    "work:14954"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-525dd6b7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:984",
+    "work:974",
+    "work:1082"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-70efff7b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:14767",
+    "work:19031",
+    "work:348"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-722ddb16": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2369",
+    "work:2368",
+    "work:1536",
+    "work:14767",
+    "work:16907"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-78f5430b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:8255",
+    "work:3763",
+    "work:15010"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-78fb0d7d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:14767",
+    "work:1536",
+    "work:18349"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-81feece5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:2368",
+    "work:2369",
+    "work:984",
+    "work:3807",
+    "work:8255"
+   ],
+   "expected": [
+    "work:2368",
+    "work:2369"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-683fc753": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18311",
+    "work:12868",
+    "work:12781",
+    "work:12528",
+    "work:17777"
+   ],
+   "expected": [
+    "work:6263",
+    "work:6264",
+    "work:6265"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-129c17d5": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:17707",
+    "work:17680",
+    "work:17395",
+    "work:14959",
+    "work:16876"
+   ],
+   "expected": [
+    "work:7733",
+    "work:7734",
+    "work:7735",
+    "work:7736"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e444dfde": {
+   "rank": 26,
+   "rr": 0.0385,
+   "top5": [
+    "work:18116",
+    "work:15699",
+    "work:18294",
+    "work:2090",
+    "work:18426"
+   ],
+   "expected": [
+    "work:6428",
+    "work:6429",
+    "work:6430",
+    "work:6432",
+    "work:7504"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-70661b2f": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18151",
+    "work:2125",
+    "work:17792",
+    "work:18293",
+    "work:17933"
+   ],
+   "expected": [
+    "work:2889",
+    "work:2890",
+    "work:2891",
+    "work:4329",
+    "work:4330",
+    "work:4331"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-eb880724": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18158",
+    "work:18244",
+    "work:347",
+    "work:8228",
+    "work:488"
+   ],
+   "expected": [
+    "work:6240",
+    "work:6241",
+    "work:6242",
+    "work:6244",
+    "work:6364",
+    "work:6365",
+    "work:6366",
+    "work:6368",
+    "work:7165",
+    "work:7166",
+    "work:7167",
+    "work:7169"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-bbde524a": {
+   "rank": 40,
+   "rr": 0.025,
+   "top5": [
+    "work:17723",
+    "work:14953",
+    "work:18344",
+    "work:16425",
+    "work:16383"
+   ],
+   "expected": [
+    "work:8136",
+    "work:8137",
+    "work:8138",
+    "work:8139"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-461d8a1b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18225",
+    "work:17409",
+    "work:2244",
+    "work:17875",
+    "work:17546"
+   ],
+   "expected": [
+    "work:6732",
+    "work:6733",
+    "work:6734",
+    "work:6737"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-1b7173f9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18294",
+    "work:18586",
+    "work:18426",
+    "work:18244",
+    "work:18462"
+   ],
+   "expected": [
+    "work:6428",
+    "work:6429",
+    "work:6430",
+    "work:6432",
+    "work:6910",
+    "work:6911",
+    "work:6912",
+    "work:6914"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5dff38e2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18358",
+    "work:18752",
+    "work:18771",
+    "work:13317",
+    "work:16655"
+   ],
+   "expected": [
+    "work:6240",
+    "work:6241",
+    "work:6242",
+    "work:6244"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-320c16ef": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18457",
+    "work:14944",
+    "work:2054",
+    "work:1781",
+    "work:16537"
+   ],
+   "expected": [
+    "work:2679",
+    "work:2680",
+    "work:2681",
+    "work:2682"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-428a0b3d": {
+   "rank": 31,
+   "rr": 0.0323,
+   "top5": [
+    "work:17409",
+    "work:6242",
+    "work:6244",
+    "work:6240",
+    "work:6241"
+   ],
+   "expected": [
+    "work:5537",
+    "work:5538",
+    "work:5539",
+    "work:5540",
+    "work:6732",
+    "work:6733",
+    "work:6734",
+    "work:6737"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-270e4192": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18408",
+    "work:16738",
+    "work:18701",
+    "work:16728",
+    "work:13735"
+   ],
+   "expected": [
+    "work:3455",
+    "work:3456",
+    "work:3457",
+    "work:3458",
+    "work:3459",
+    "work:3460",
+    "work:3461",
+    "work:3541",
+    "work:3542",
+    "work:3997"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-80a88416": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17513",
+    "work:16301",
+    "work:2074",
+    "work:15281",
+    "work:18458"
+   ],
+   "expected": [
+    "work:3191",
+    "work:3192",
+    "work:3193",
+    "work:3394",
+    "work:3395",
+    "work:3396"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-79db3f64": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17586",
+    "work:17410",
+    "work:15125",
+    "work:17610",
+    "work:16503"
+   ],
+   "expected": [
+    "work:7764",
+    "work:7765",
+    "work:7766"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-378588ef": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17607",
+    "work:18125",
+    "work:17827",
+    "work:18193",
+    "work:17901"
+   ],
+   "expected": [
+    "work:3022",
+    "work:3023",
+    "work:3024",
+    "work:3026"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-8fd7ef2b": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:17686",
+    "work:12967",
+    "work:14555",
+    "work:8216",
+    "work:12968"
+   ],
+   "expected": [
+    "work:8216",
+    "work:8217",
+    "work:8218"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-22dea790": {
+   "rank": 11,
+   "rr": 0.0909,
+   "top5": [
+    "work:17781",
+    "work:18536",
+    "work:17696",
+    "work:15331",
+    "work:2076"
+   ],
+   "expected": [
+    "work:7817",
+    "work:7818",
+    "work:7819"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-b9536c76": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "work:17953",
+    "work:18160",
+    "work:15786",
+    "work:18340",
+    "work:18145"
+   ],
+   "expected": [
+    "work:7165",
+    "work:7166",
+    "work:7167",
+    "work:7169",
+    "work:7688",
+    "work:8136",
+    "work:8137",
+    "work:8138",
+    "work:8139"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-538287aa": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18148",
+    "work:8248",
+    "work:6582",
+    "work:6581",
+    "work:11884"
+   ],
+   "expected": [
+    "work:4329",
+    "work:4330",
+    "work:4331"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-af76c64e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17411",
+    "work:9602",
+    "work:16519",
+    "work:9674",
+    "work:10334"
+   ],
+   "expected": [
+    "work:3394",
+    "work:3395",
+    "work:3396"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-d5c9ac72": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17634",
+    "work:14604",
+    "work:16355",
+    "work:16171",
+    "work:13344"
+   ],
+   "expected": [
+    "work:4082",
+    "work:4083",
+    "work:4084"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a3ccc85e": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "work:18386",
+    "work:15075",
+    "work:15251",
+    "work:15068",
+    "work:15236"
+   ],
+   "expected": [
+    "work:2825",
+    "work:2826",
+    "work:2827"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5bf40250": {
+   "rank": 9,
+   "rr": 0.1111,
+   "top5": [
+    "work:17777",
+    "work:17601",
+    "work:17536",
+    "work:8248",
+    "work:17808"
+   ],
+   "expected": [
+    "work:2692",
+    "work:2693",
+    "work:2694",
+    "work:6237",
+    "work:6238",
+    "work:6239",
+    "work:8181",
+    "work:8182",
+    "work:8183"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8dc21042": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17800",
+    "work:238",
+    "work:1814",
+    "work:2233",
+    "work:17646"
+   ],
+   "expected": [
+    "work:3544",
+    "work:7967",
+    "work:7968",
+    "work:7969"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-11c9be88": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17410",
+    "work:18512",
+    "work:15335",
+    "work:15078",
+    "work:8248"
+   ],
+   "expected": [
+    "work:7143",
+    "work:7144",
+    "work:7145"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-1a7aa41e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17955",
+    "work:15317",
+    "work:8410",
+    "work:14954",
+    "work:15680"
+   ],
+   "expected": [
+    "work:2679",
+    "work:2680",
+    "work:2681",
+    "work:2682",
+    "work:8202",
+    "work:8203",
+    "work:8204",
+    "work:8205"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ccadd6b6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17641",
+    "work:463",
+    "work:14698",
+    "work:1749",
+    "work:2485"
+   ],
+   "expected": [
+    "work:3030",
+    "work:3031",
+    "work:3032",
+    "work:3056",
+    "work:3057",
+    "work:3058",
+    "work:6476"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-255e37f5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17685",
+    "work:2123",
+    "work:2219",
+    "work:1683",
+    "work:8309"
+   ],
+   "expected": [
+    "work:7165",
+    "work:7166",
+    "work:7167",
+    "work:7169",
+    "work:7378"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bcb3a36f": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:18360",
+    "work:17917",
+    "work:11354",
+    "work:4227",
+    "work:8380"
+   ],
+   "expected": [
+    "work:4227",
+    "work:4326",
+    "work:4327",
+    "work:4328",
+    "work:6726",
+    "work:6727",
+    "work:6728"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a550e39e": {
+   "rank": 10,
+   "rr": 0.1,
+   "top5": [
+    "work:17750",
+    "work:14909",
+    "work:14905",
+    "work:15830",
+    "work:15071"
+   ],
+   "expected": [
+    "work:7696",
+    "work:7697",
+    "work:7698",
+    "work:7699"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d4920eb9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17875",
+    "work:18225",
+    "work:18001",
+    "work:17747",
+    "work:17106"
+   ],
+   "expected": [
+    "work:5537",
+    "work:5538",
+    "work:5539",
+    "work:5540"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-34b10c80": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18295",
+    "work:16917",
+    "work:16918",
+    "work:18689",
+    "work:17122"
+   ],
+   "expected": [
+    "work:6476"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9d8b9958": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17927",
+    "work:18040",
+    "work:18452",
+    "work:18193",
+    "work:17762"
+   ],
+   "expected": [
+    "work:4686",
+    "work:4687",
+    "work:4688",
+    "work:4689"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8ec5e4ec": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18094",
+    "work:18651",
+    "work:17607",
+    "work:17827",
+    "work:18125"
+   ],
+   "expected": [
+    "work:3165",
+    "work:3166",
+    "work:3167",
+    "work:3168"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-5da2d820": {
+   "rank": 42,
+   "rr": 0.0238,
+   "top5": [
+    "work:17495",
+    "work:12737",
+    "work:18444",
+    "work:18205",
+    "work:17839"
+   ],
+   "expected": [
+    "work:3223",
+    "work:3224",
+    "work:3225",
+    "work:6668",
+    "work:6669",
+    "work:6670",
+    "work:7394",
+    "work:7395",
+    "work:7396"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-4a5918e4": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:17606",
+    "work:6277",
+    "work:15316",
+    "work:4028",
+    "work:7980"
+   ],
+   "expected": [
+    "work:4028",
+    "work:5583"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-aaa21533": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17605",
+    "work:2098",
+    "work:18153",
+    "work:16635",
+    "work:2006"
+   ],
+   "expected": [
+    "work:4329",
+    "work:4330",
+    "work:4331"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-36433c09": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17617",
+    "work:17992",
+    "work:15080",
+    "work:17839",
+    "work:11995"
+   ],
+   "expected": [
+    "work:3783",
+    "work:3784",
+    "work:3785",
+    "work:3945",
+    "work:3946",
+    "work:3947",
+    "work:8216",
+    "work:8217",
+    "work:8218"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-07e5f0cd": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17656",
+    "work:17655",
+    "work:17593",
+    "work:14950",
+    "work:3133"
+   ],
+   "expected": [
+    "work:3394",
+    "work:3395",
+    "work:3396"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-8b579a30": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17676",
+    "work:14915",
+    "work:18264",
+    "work:18681",
+    "work:18688"
+   ],
+   "expected": [
+    "work:4695"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8bc188a3": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17695",
+    "work:18560",
+    "work:18719",
+    "work:17683",
+    "work:778"
+   ],
+   "expected": [
+    "work:6314",
+    "work:6315",
+    "work:6316"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-369e32de": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17731",
+    "work:18273",
+    "work:17600",
+    "work:1923",
+    "work:16358"
+   ],
+   "expected": [
+    "work:4978",
+    "work:5951",
+    "work:5952",
+    "work:6023",
+    "work:7232"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-c3d380a5": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:18478",
+    "work:6368",
+    "work:6364",
+    "work:6365",
+    "work:6366"
+   ],
+   "expected": [
+    "work:6364",
+    "work:6365",
+    "work:6366",
+    "work:6368",
+    "work:7165",
+    "work:7166",
+    "work:7167",
+    "work:7169"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-7ac02ad2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17813",
+    "work:17994",
+    "work:17429",
+    "work:18010",
+    "work:17875"
+   ],
+   "expected": [
+    "work:4686",
+    "work:4687",
+    "work:4688",
+    "work:4689"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-fe4c9a38": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17438",
+    "work:14923",
+    "work:18455",
+    "work:18365",
+    "work:15009"
+   ],
+   "expected": [
+    "work:6176",
+    "work:6177",
+    "work:6178"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-9a594669": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "work:17488",
+    "work:18247",
+    "work:15681",
+    "work:2351",
+    "work:2352"
+   ],
+   "expected": [
+    "work:6428",
+    "work:6429",
+    "work:6430",
+    "work:6432"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8c99b168": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17734",
+    "work:18588",
+    "work:16126",
+    "work:18290",
+    "work:12427"
+   ],
+   "expected": [
+    "work:7749",
+    "work:7750",
+    "work:7751"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-2ca98c21": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18143",
+    "work:16538",
+    "work:17762",
+    "work:17400",
+    "work:18452"
+   ],
+   "expected": [
+    "work:4686",
+    "work:4687",
+    "work:4688",
+    "work:4689",
+    "work:5748",
+    "work:5749",
+    "work:5750",
+    "work:5751"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bcd1788c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18350",
+    "work:17415",
+    "work:1360",
+    "work:14986",
+    "work:17563"
+   ],
+   "expected": [
+    "work:4880",
+    "work:5528",
+    "work:6030",
+    "work:7758"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-99b93e31": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18406",
+    "work:2176",
+    "work:14595",
+    "work:1959",
+    "work:18624"
+   ],
+   "expected": [
+    "work:6729",
+    "work:6730",
+    "work:6731",
+    "work:7749",
+    "work:7750",
+    "work:7751"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-469b69c4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18444",
+    "work:18515",
+    "work:18050",
+    "work:12702",
+    "work:12438"
+   ],
+   "expected": [
+    "work:5534",
+    "work:5535",
+    "work:5536",
+    "work:7162",
+    "work:7163",
+    "work:7164"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-869459d8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18450",
+    "work:17753",
+    "work:18020",
+    "work:1905",
+    "work:18248"
+   ],
+   "expected": [
+    "work:4686",
+    "work:4687",
+    "work:4688",
+    "work:4689",
+    "work:4784",
+    "work:4785",
+    "work:4786",
+    "work:4787"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5ca93afd": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "work:18703",
+    "work:2348",
+    "work:17819",
+    "work:17907",
+    "work:17841"
+   ],
+   "expected": [
+    "work:7165",
+    "work:7166",
+    "work:7167",
+    "work:7169"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9a2a4d4d": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18089",
+    "work:18348",
+    "work:2582",
+    "work:18711",
+    "work:14390"
+   ],
+   "expected": [
+    "work:4766"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-0eb3c109": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17478",
+    "work:18588",
+    "work:1341",
+    "work:12977",
+    "work:8548"
+   ],
+   "expected": [
+    "work:8216",
+    "work:8217",
+    "work:8218"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ab189c02": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17668",
+    "work:8275",
+    "work:1626",
+    "work:16488",
+    "work:18406"
+   ],
+   "expected": [
+    "work:4683",
+    "work:4684",
+    "work:4685",
+    "work:7967",
+    "work:7968",
+    "work:7969"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-3b08ad19": {
+   "rank": 10,
+   "rr": 0.1,
+   "top5": [
+    "work:18163",
+    "work:2244",
+    "work:18459",
+    "work:15639",
+    "work:18499"
+   ],
+   "expected": [
+    "work:6732",
+    "work:6733",
+    "work:6734",
+    "work:6737",
+    "work:8219",
+    "work:8220",
+    "work:8221",
+    "work:8222"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-2b42c567": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18586",
+    "work:17968",
+    "work:18294",
+    "work:18426",
+    "work:18244"
+   ],
+   "expected": [
+    "work:6042",
+    "work:6043",
+    "work:6044",
+    "work:6080",
+    "work:6081",
+    "work:6428",
+    "work:6429",
+    "work:6430",
+    "work:6432"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-b54e11a5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18603",
+    "work:17570",
+    "work:15689",
+    "work:18202",
+    "work:1821"
+   ],
+   "expected": [
+    "work:6562"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e1062de9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17785",
+    "work:16477",
+    "work:14994",
+    "work:16386",
+    "work:14973"
+   ],
+   "expected": [
+    "work:7967",
+    "work:7968",
+    "work:7969"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-bb20796a": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17499",
+    "work:1571",
+    "work:18723",
+    "work:13094",
+    "work:13733"
+   ],
+   "expected": [
+    "work:2938",
+    "work:3536",
+    "work:3542",
+    "work:7967",
+    "work:7968",
+    "work:7969"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-43821c6c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17667",
+    "work:16545",
+    "work:530",
+    "work:3601",
+    "work:15855"
+   ],
+   "expected": [
+    "work:6331",
+    "work:6332",
+    "work:7891",
+    "work:7908"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d9c8af7a": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17815",
+    "work:18465",
+    "work:18539",
+    "work:16337",
+    "work:17454"
+   ],
+   "expected": [
+    "work:4686",
+    "work:4687",
+    "work:4688",
+    "work:4689",
+    "work:8090",
+    "work:8091",
+    "work:8092",
+    "work:8093"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-3aed1dc5": {
+   "rank": 17,
+   "rr": 0.0588,
+   "top5": [
+    "work:17839",
+    "work:18205",
+    "work:14960",
+    "work:16783",
+    "work:2860"
+   ],
+   "expected": [
+    "work:8216",
+    "work:8217",
+    "work:8218"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bb0d9d62": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:18036",
+    "work:4030",
+    "work:16683",
+    "work:8255",
+    "work:18579"
+   ],
+   "expected": [
+    "work:4030"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f2c7c25c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18124",
+    "work:1892",
+    "work:2248",
+    "work:1371",
+    "work:386"
+   ],
+   "expected": [
+    "work:7842",
+    "work:7859",
+    "work:7866",
+    "work:7870"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6d303e77": {
+   "rank": 14,
+   "rr": 0.0714,
+   "top5": [
+    "work:17949",
+    "work:13945",
+    "work:6005",
+    "work:5959",
+    "work:16683"
+   ],
+   "expected": [
+    "work:4006",
+    "work:6901",
+    "work:7137"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-621540f5": {
+   "rank": 36,
+   "rr": 0.0278,
+   "top5": [
+    "work:18613",
+    "work:18408",
+    "work:18409",
+    "work:18021",
+    "work:17566"
+   ],
+   "expected": [
+    "work:3455",
+    "work:3456",
+    "work:3457",
+    "work:3458",
+    "work:3459",
+    "work:3460",
+    "work:3461",
+    "work:3541",
+    "work:3542",
+    "work:4201"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-c85c050d": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18652",
+    "work:18650",
+    "work:18242",
+    "work:17819",
+    "work:18465"
+   ],
+   "expected": [
+    "work:4061"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-6b3459bf": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18223",
+    "work:18270",
+    "work:17859",
+    "work:18301",
+    "work:14071"
+   ],
+   "expected": [
+    "work:4008",
+    "work:4679"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-1f5e9b10": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18270",
+    "work:18223",
+    "work:17859",
+    "work:18301",
+    "work:14071"
+   ],
+   "expected": [
+    "work:4008",
+    "work:4679"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ee9f195d": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18697",
+    "work:18018",
+    "work:18248",
+    "work:17955",
+    "work:18539"
+   ],
+   "expected": [
+    "work:2679",
+    "work:2680",
+    "work:2681",
+    "work:2682"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ba3da3f4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17969",
+    "work:18236",
+    "work:17559",
+    "work:18099",
+    "work:18223"
+   ],
+   "expected": [
+    "work:4006"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-eb521ace": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18254",
+    "work:18188",
+    "work:18629",
+    "work:17536",
+    "work:18226"
+   ],
+   "expected": [
+    "work:2676",
+    "work:2677",
+    "work:2678",
+    "work:5735",
+    "work:5736",
+    "work:5878",
+    "work:5879",
+    "work:5880",
+    "work:7863"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-2fbf5d78": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18588",
+    "work:18505",
+    "work:17413",
+    "work:18735",
+    "work:2065"
+   ],
+   "expected": [
+    "work:8216",
+    "work:8217",
+    "work:8218"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-777896b2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17405",
+    "work:17413",
+    "work:16560",
+    "work:14229",
+    "work:18549"
+   ],
+   "expected": [
+    "work:8216",
+    "work:8217",
+    "work:8218"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-c0ff3805": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:18307",
+    "work:6177",
+    "work:1628",
+    "work:6178",
+    "work:2175"
+   ],
+   "expected": [
+    "work:6176",
+    "work:6177",
+    "work:6178",
+    "work:6671",
+    "work:6672",
+    "work:6673"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-b0fa557c": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:18068",
+    "work:18512",
+    "work:17416",
+    "work:17517",
+    "work:17864"
+   ],
+   "expected": [
+    "work:2073",
+    "work:2176",
+    "work:2794",
+    "work:2795",
+    "work:2796",
+    "work:4230",
+    "work:4231",
+    "work:4232"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ecf863b5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18119",
+    "work:1000",
+    "work:793",
+    "work:17566",
+    "work:18021"
+   ],
+   "expected": [
+    "work:4205"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7a6a89ed": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:18132",
+    "work:13866",
+    "work:2583",
+    "work:6793",
+    "work:8255"
+   ],
+   "expected": [
+    "work:4018",
+    "work:4063",
+    "work:4695",
+    "work:4745"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e3f2fa96": {
+   "rank": 30,
+   "rr": 0.0333,
+   "top5": [
+    "work:18262",
+    "work:18249",
+    "work:1543",
+    "work:3616",
+    "work:12184"
+   ],
+   "expected": [
+    "work:3633",
+    "work:3634",
+    "work:3635"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-58167cb6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18246",
+    "work:3431",
+    "work:12169",
+    "work:3433",
+    "work:3432"
+   ],
+   "expected": [
+    "work:3560",
+    "work:3561",
+    "work:3562",
+    "work:3569",
+    "work:3570",
+    "work:3571",
+    "work:3572",
+    "work:3573",
+    "work:3574",
+    "work:3583",
+    "work:3584",
+    "work:3585",
+    "work:3589",
+    "work:3590",
+    "work:3591",
+    "work:3592",
+    "work:3593",
+    "work:3594",
+    "work:3607",
+    "work:3608",
+    "work:3609"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6e64446c": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:18249",
+    "work:17444",
+    "work:18262",
+    "work:1543",
+    "work:14915"
+   ],
+   "expected": [
+    "work:3614",
+    "work:3615",
+    "work:3616"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e6e40e7f": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18351",
+    "work:1619",
+    "work:8255",
+    "work:18645",
+    "work:14006"
+   ],
+   "expected": [
+    "work:3988"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-a8b2e6c9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18397",
+    "work:541",
+    "work:18476",
+    "work:335",
+    "work:820"
+   ],
+   "expected": [
+    "work:4679"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-11a9834a": {
+   "rank": 11,
+   "rr": 0.0909,
+   "top5": [
+    "work:18086",
+    "work:17936",
+    "work:4082",
+    "work:16390",
+    "work:8248"
+   ],
+   "expected": [
+    "work:4083"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-a60f4c5a": {
+   "rank": 10,
+   "rr": 0.1,
+   "top5": [
+    "work:18086",
+    "work:17936",
+    "work:4082",
+    "work:16390",
+    "work:14986"
+   ],
+   "expected": [
+    "work:4083"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-fff5a0f9": {
+   "rank": 20,
+   "rr": 0.05,
+   "top5": [
+    "work:17891",
+    "work:1757",
+    "work:17661",
+    "work:1369",
+    "work:17475"
+   ],
+   "expected": [
+    "work:6997"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-6d200b54": {
+   "rank": 41,
+   "rr": 0.0244,
+   "top5": [
+    "work:17996",
+    "work:18117",
+    "work:17756",
+    "work:18716",
+    "work:1543"
+   ],
+   "expected": [
+    "work:3633",
+    "work:3634",
+    "work:3635"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a23c3f7c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17996",
+    "work:17756",
+    "work:18117",
+    "work:18716",
+    "work:17533"
+   ],
+   "expected": [
+    "work:3633",
+    "work:3634",
+    "work:3635"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-b557981e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18215",
+    "work:18205",
+    "work:16374",
+    "work:3163",
+    "work:3162"
+   ],
+   "expected": [
+    "work:8217"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-dcaf7822": {
+   "rank": 44,
+   "rr": 0.0227,
+   "top5": [
+    "work:18205",
+    "work:17839",
+    "work:1628",
+    "work:18215",
+    "work:12966"
+   ],
+   "expected": [
+    "work:8217"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-3d87b4e4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18243",
+    "work:18709",
+    "work:17640",
+    "work:18542",
+    "work:16558"
+   ],
+   "expected": [
+    "work:5743"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a70c48ab": {
+   "rank": 9,
+   "rr": 0.1111,
+   "top5": [
+    "work:18140",
+    "work:1386",
+    "work:18111",
+    "work:1488",
+    "work:1503"
+   ],
+   "expected": [
+    "work:5173",
+    "work:5174",
+    "work:5175",
+    "work:5179",
+    "work:5180",
+    "work:5181"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9ea029bb": {
+   "rank": 12,
+   "rr": 0.0833,
+   "top5": [
+    "work:18705",
+    "work:18660",
+    "work:14994",
+    "work:15251",
+    "work:8275"
+   ],
+   "expected": [
+    "work:8150",
+    "work:8151",
+    "work:8152"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-299053ba": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18579",
+    "work:18630",
+    "work:17446",
+    "work:18263",
+    "work:18270"
+   ],
+   "expected": [
+    "work:3988"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-881c0c32": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17436",
+    "work:1570",
+    "work:1584",
+    "work:1457",
+    "work:1843"
+   ],
+   "expected": [
+    "work:6904",
+    "work:6905",
+    "work:6906",
+    "work:7061",
+    "work:7062",
+    "work:7063"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-418d99c1": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18538",
+    "work:18672",
+    "work:17907",
+    "work:18018",
+    "work:17961"
+   ],
+   "expected": [
+    "work:4688",
+    "work:5667",
+    "work:6242"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-17150acc": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17718",
+    "work:15336",
+    "work:15334",
+    "work:18490",
+    "work:18566"
+   ],
+   "expected": [
+    "work:8150",
+    "work:8151",
+    "work:8152"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-1570cd99": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17864",
+    "work:17416",
+    "work:18512",
+    "work:17517",
+    "work:17908"
+   ],
+   "expected": [
+    "work:7145"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-fe5bd29b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17946",
+    "work:18489",
+    "work:17562",
+    "work:18523",
+    "work:18546"
+   ],
+   "expected": [
+    "work:3196",
+    "work:3374",
+    "work:3766",
+    "work:6673",
+    "work:7751"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-4442466e": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:18049",
+    "work:18280",
+    "work:3146",
+    "work:3144",
+    "work:3145"
+   ],
+   "expected": [
+    "work:2838",
+    "work:3146"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bc77072e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18563",
+    "work:17842",
+    "work:17414",
+    "work:18001",
+    "work:17537"
+   ],
+   "expected": [
+    "work:8092"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e7d844e7": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17884",
+    "work:15010",
+    "work:17994",
+    "work:18638",
+    "work:18268"
+   ],
+   "expected": [
+    "work:2784",
+    "work:8204"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-0d7ca7d8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18630",
+    "work:18579",
+    "work:18263",
+    "work:18270",
+    "work:17572"
+   ],
+   "expected": [
+    "work:3988"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f0ad2574": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18084",
+    "work:1341",
+    "work:1567",
+    "work:15436",
+    "work:18549"
+   ],
+   "expected": [
+    "work:3916",
+    "work:6536"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-b30f7136": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17873",
+    "work:1913",
+    "work:3105",
+    "work:17936",
+    "work:16783"
+   ],
+   "expected": [
+    "work:5301",
+    "work:5302",
+    "work:5303",
+    "work:8150",
+    "work:8151",
+    "work:8152"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7c78ad89": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18464",
+    "work:18268",
+    "work:17512",
+    "work:17717",
+    "work:17795"
+   ],
+   "expected": [
+    "work:7481"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-3cec1f98": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17562",
+    "work:2498",
+    "work:1460",
+    "work:8253",
+    "work:8244"
+   ],
+   "expected": [
+    "work:3196",
+    "work:7751"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-812152f8": {
+   "rank": 20,
+   "rr": 0.05,
+   "top5": [
+    "work:17714",
+    "work:17773",
+    "work:17068",
+    "work:1510",
+    "work:17965"
+   ],
+   "expected": [
+    "work:3283"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6181d0c6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17775",
+    "work:17827",
+    "work:17717",
+    "work:17037",
+    "work:18525"
+   ],
+   "expected": [
+    "work:6364"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-03367102": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17991",
+    "work:17502",
+    "work:17994",
+    "work:18001",
+    "work:18450"
+   ],
+   "expected": [
+    "work:5539"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-cf1270b3": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17485",
+    "work:17444",
+    "work:18249",
+    "work:17610",
+    "work:14986"
+   ],
+   "expected": [
+    "work:3752",
+    "work:3753",
+    "work:3754",
+    "work:4551",
+    "work:4552",
+    "work:4553"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e07ff453": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18105",
+    "work:18501",
+    "work:18458",
+    "work:16428",
+    "work:14970"
+   ],
+   "expected": [
+    "work:7191"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-633da976": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17845",
+    "work:2510",
+    "work:17202",
+    "work:16923",
+    "work:18080"
+   ],
+   "expected": [
+    "work:17357",
+    "work:17358",
+    "work:5014",
+    "work:5015",
+    "work:5016",
+    "work:5029",
+    "work:5030",
+    "work:5031",
+    "work:5044",
+    "work:5045",
+    "work:5046",
+    "work:5047"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f401dcd1": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18458",
+    "work:17650",
+    "work:18568",
+    "work:18477",
+    "work:18217"
+   ],
+   "expected": [
+    "work:6955"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5fffd063": {
+   "rank": 29,
+   "rr": 0.0345,
+   "top5": [
+    "work:18042",
+    "work:2419",
+    "work:1464",
+    "work:1477",
+    "work:2558"
+   ],
+   "expected": [
+    "work:6295",
+    "work:6296",
+    "work:6297",
+    "work:6302",
+    "work:6303",
+    "work:6304"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-071b96f3": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17719",
+    "work:17562",
+    "work:17674",
+    "work:18548",
+    "work:18550"
+   ],
+   "expected": [
+    "work:6731",
+    "work:7751",
+    "work:7969"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-864dc7fb": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18172",
+    "work:17444",
+    "work:18176",
+    "work:12173",
+    "work:18249"
+   ],
+   "expected": [
+    "work:3672",
+    "work:3673",
+    "work:3674"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-20c3c945": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17444",
+    "work:18176",
+    "work:18249",
+    "work:18172",
+    "work:18262"
+   ],
+   "expected": [
+    "work:3305",
+    "work:3306",
+    "work:3307",
+    "work:3752",
+    "work:3753",
+    "work:3754",
+    "work:3767",
+    "work:3768",
+    "work:3769",
+    "work:4551",
+    "work:4552",
+    "work:4553"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-14330393": {
+   "rank": 36,
+   "rr": 0.0278,
+   "top5": [
+    "work:18192",
+    "work:17562",
+    "work:17946",
+    "work:18518",
+    "work:16616"
+   ],
+   "expected": [
+    "work:7751",
+    "work:7969"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-8c9d1d31": {
+   "rank": 13,
+   "rr": 0.0769,
+   "top5": [
+    "work:18377",
+    "work:1375",
+    "work:17137",
+    "work:1376",
+    "work:8243"
+   ],
+   "expected": [
+    "work:7002"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ac7602f6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18432",
+    "work:18720",
+    "work:18548",
+    "work:17562",
+    "work:18245"
+   ],
+   "expected": [
+    "work:7145"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-476b978f": {
+   "rank": 13,
+   "rr": 0.0769,
+   "top5": [
+    "work:17554",
+    "work:17562",
+    "work:18523",
+    "work:18542",
+    "work:17998"
+   ],
+   "expected": [
+    "work:7751"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-adfda0fc": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17432",
+    "work:17548",
+    "work:18047",
+    "work:17610",
+    "work:17444"
+   ],
+   "expected": [
+    "work:3627",
+    "work:3628",
+    "work:3629",
+    "work:3686",
+    "work:3687",
+    "work:3688"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ae1268df": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17437",
+    "work:601",
+    "work:2533",
+    "work:423",
+    "work:14947"
+   ],
+   "expected": [
+    "work:4445",
+    "work:4446",
+    "work:4447"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-23fe02de": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18173",
+    "work:18542",
+    "work:18255",
+    "work:18257",
+    "work:18707"
+   ],
+   "expected": [
+    "work:6957"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-57103b8c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18545",
+    "work:18554",
+    "work:18634",
+    "work:18523",
+    "work:18548"
+   ],
+   "expected": [
+    "work:7167"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a34a8291": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17527",
+    "work:18664",
+    "work:17453",
+    "work:18429",
+    "work:17515"
+   ],
+   "expected": [
+    "work:3892"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7fa0a9aa": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:17596",
+    "work:17384",
+    "work:18071",
+    "work:7167",
+    "work:18525"
+   ],
+   "expected": [
+    "work:7167"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-5375f269": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17628",
+    "work:8091",
+    "work:8081",
+    "work:8204",
+    "work:8205"
+   ],
+   "expected": [
+    "work:6242",
+    "work:6734"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-55634088": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17566",
+    "work:18165",
+    "work:18408",
+    "work:14768",
+    "work:18409"
+   ],
+   "expected": [
+    "work:6210"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-4a0c5f7b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18564",
+    "work:17890",
+    "work:17832",
+    "work:18717",
+    "work:18520"
+   ],
+   "expected": [
+    "work:6592",
+    "work:6906"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5d36c219": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17649",
+    "work:8464",
+    "work:8478",
+    "work:5543",
+    "work:17663"
+   ],
+   "expected": [
+    "work:4681",
+    "work:7962"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-3602ef79": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18299",
+    "work:18549",
+    "work:17975",
+    "work:18062",
+    "work:18561"
+   ],
+   "expected": [
+    "work:7143",
+    "work:7144",
+    "work:7145"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5f1d358c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17701",
+    "work:17508",
+    "work:17533",
+    "work:18047",
+    "work:17548"
+   ],
+   "expected": [
+    "work:3672",
+    "work:3673",
+    "work:3674"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-d578c4fa": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18204",
+    "work:17710",
+    "work:1338",
+    "work:2616",
+    "work:18701"
+   ],
+   "expected": [
+    "work:7167",
+    "work:8138"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6afbafb8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17726",
+    "work:17789",
+    "work:17933",
+    "work:15131",
+    "work:15431"
+   ],
+   "expected": [
+    "work:8133",
+    "work:8134",
+    "work:8135",
+    "work:8150",
+    "work:8151",
+    "work:8152"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-e63dcb0b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17738",
+    "work:1543",
+    "work:17432",
+    "work:18047",
+    "work:18149"
+   ],
+   "expected": [
+    "work:3672",
+    "work:3673",
+    "work:3674",
+    "work:3677",
+    "work:3678",
+    "work:3679",
+    "work:3686",
+    "work:3687",
+    "work:3688",
+    "work:3729",
+    "work:3730",
+    "work:3731"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-04a4c897": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17741",
+    "work:17740",
+    "work:1543",
+    "work:1414",
+    "work:18056"
+   ],
+   "expected": [
+    "work:6476"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6a0a0dd9": {
+   "rank": 50,
+   "rr": 0.02,
+   "top5": [
+    "work:17742",
+    "work:18260",
+    "work:4006",
+    "work:8255",
+    "work:18351"
+   ],
+   "expected": [
+    "work:17366",
+    "work:4436",
+    "work:6170"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a5a90df4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17568",
+    "work:18149",
+    "work:18689",
+    "work:17642",
+    "work:17542"
+   ],
+   "expected": [
+    "work:7968"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-5be632eb": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17810",
+    "work:18297",
+    "work:17983",
+    "work:18499",
+    "work:17329"
+   ],
+   "expected": [
+    "work:2681",
+    "work:4688"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-48a2f445": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18245",
+    "work:17493",
+    "work:18334",
+    "work:18026",
+    "work:18722"
+   ],
+   "expected": [
+    "work:6592"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f01f79f8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18479",
+    "work:17745",
+    "work:1568",
+    "work:2477",
+    "work:13113"
+   ],
+   "expected": [
+    "work:2972",
+    "work:2973",
+    "work:2974"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-42602230": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17615",
+    "work:17757",
+    "work:17749",
+    "work:17699",
+    "work:18600"
+   ],
+   "expected": [
+    "work:4836",
+    "work:4837",
+    "work:4838"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d849fb35": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18004",
+    "work:18556",
+    "work:18743",
+    "work:18569",
+    "work:18540"
+   ],
+   "expected": [
+    "work:6591",
+    "work:6592"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-95d0c0c1": {
+   "rank": 50,
+   "rr": 0.02,
+   "top5": [
+    "work:18727",
+    "work:17597",
+    "work:17489",
+    "work:17828",
+    "work:1529"
+   ],
+   "expected": [
+    "work:4619"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7413c8b4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18207",
+    "work:18349",
+    "work:18439",
+    "work:18532",
+    "work:18517"
+   ],
+   "expected": [
+    "work:3825"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-43b3a896": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18240",
+    "work:16343",
+    "work:15097",
+    "work:15439",
+    "work:16640"
+   ],
+   "expected": [
+    "work:3669",
+    "work:3670",
+    "work:3671"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d83f25c7": {
+   "rank": 26,
+   "rr": 0.0385,
+   "top5": [
+    "work:18279",
+    "work:220",
+    "work:8255",
+    "work:4681",
+    "work:753"
+   ],
+   "expected": [
+    "work:2855",
+    "work:3808",
+    "work:3809",
+    "work:3810",
+    "work:6232",
+    "work:6724",
+    "work:7471",
+    "work:7744"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-86f01596": {
+   "rank": 41,
+   "rr": 0.0244,
+   "top5": [
+    "work:18313",
+    "work:220",
+    "work:17778",
+    "work:17590",
+    "work:1594"
+   ],
+   "expected": [
+    "work:6232",
+    "work:6724",
+    "work:7471",
+    "work:7744"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ee6b5b44": {
+   "rank": 50,
+   "rr": 0.02,
+   "top5": [
+    "work:18336",
+    "work:18683",
+    "work:17593",
+    "work:15337",
+    "work:18176"
+   ],
+   "expected": [
+    "work:2889",
+    "work:2890",
+    "work:2891",
+    "work:3033",
+    "work:3034",
+    "work:3035"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-278310db": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18394",
+    "work:18343",
+    "work:14428",
+    "work:17747",
+    "work:13956"
+   ],
+   "expected": [
+    "work:6478",
+    "work:6479",
+    "work:6480",
+    "work:6534",
+    "work:6535",
+    "work:6536",
+    "work:6578",
+    "work:6579",
+    "work:6580"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-0b0b5187": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18690",
+    "work:1832",
+    "work:17749",
+    "work:18544",
+    "work:18735"
+   ],
+   "expected": [
+    "work:3808",
+    "work:3809",
+    "work:3810"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5005c3c0": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:18442",
+    "work:3043",
+    "work:3042",
+    "work:3044",
+    "work:1748"
+   ],
+   "expected": [
+    "work:3042",
+    "work:3043",
+    "work:3044",
+    "work:3368",
+    "work:3369",
+    "work:3370"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-4c625a02": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18446",
+    "work:18453",
+    "work:17425",
+    "work:2176",
+    "work:17397"
+   ],
+   "expected": [
+    "work:3016",
+    "work:3017",
+    "work:3018",
+    "work:3903",
+    "work:3904",
+    "work:3905",
+    "work:6671",
+    "work:6672",
+    "work:6673"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-39a0f4b6": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:18501",
+    "work:1570",
+    "work:1341",
+    "work:17461",
+    "work:1571"
+   ],
+   "expected": [
+    "work:1570"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-b8721ca9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17700",
+    "work:8365",
+    "work:8366",
+    "work:17431",
+    "work:15663"
+   ],
+   "expected": [
+    "work:2875"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-f8e38ea2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17434",
+    "work:1959",
+    "work:17608",
+    "work:12640",
+    "work:1626"
+   ],
+   "expected": [
+    "work:3942",
+    "work:3943",
+    "work:3944",
+    "work:4079",
+    "work:4080",
+    "work:4081",
+    "work:5742",
+    "work:5743",
+    "work:5744"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-90227b52": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:17772",
+    "work:2099",
+    "work:3374",
+    "work:1776",
+    "work:3350"
+   ],
+   "expected": [
+    "work:3374",
+    "work:7204"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-9065e784": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17793",
+    "work:1691",
+    "work:17461",
+    "work:18501",
+    "work:18549"
+   ],
+   "expected": [
+    "work:6492"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9c03d4db": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17482",
+    "work:1725",
+    "work:14218",
+    "work:14103",
+    "work:13857"
+   ],
+   "expected": [
+    "work:3016",
+    "work:3017",
+    "work:3018",
+    "work:7827",
+    "work:7828",
+    "work:7829",
+    "work:7844",
+    "work:7845",
+    "work:7846"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-7b68cfe7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14608",
+    "work:13791",
+    "work:13637",
+    "work:14127",
+    "work:14607"
+   ],
+   "expected": [
+    "work:14608"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e218de8f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14634",
+    "work:1753",
+    "work:18715",
+    "work:9158",
+    "work:3810"
+   ],
+   "expected": [
+    "work:14634"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-5006d1f9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14648",
+    "work:14649",
+    "work:14667",
+    "work:14672",
+    "work:14659"
+   ],
+   "expected": [
+    "work:14648"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-9e39c67f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14649",
+    "work:14648",
+    "work:14761",
+    "work:13561",
+    "work:14667"
+   ],
+   "expected": [
+    "work:14649"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-091ebcfe": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14661",
+    "work:14659",
+    "work:14667",
+    "work:14671",
+    "work:14665"
+   ],
+   "expected": [
+    "work:14661"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c3adc765": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14655",
+    "work:14696",
+    "work:14593",
+    "work:14252",
+    "work:13671"
+   ],
+   "expected": [
+    "work:14655"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-9bc626ef": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14653",
+    "work:14671",
+    "work:14667",
+    "work:14665",
+    "work:14757"
+   ],
+   "expected": [
+    "work:14653"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b4696de8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14657",
+    "work:14136",
+    "work:14530",
+    "work:15316",
+    "work:15715"
+   ],
+   "expected": [
+    "work:14657"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8c9bc0ed": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14659",
+    "work:14667",
+    "work:14671",
+    "work:14673",
+    "work:14665"
+   ],
+   "expected": [
+    "work:14659"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-58105cc5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14660",
+    "work:14646",
+    "work:14684",
+    "work:14693",
+    "work:14699"
+   ],
+   "expected": [
+    "work:14660"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8ef4e02d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14671",
+    "work:14667",
+    "work:14659",
+    "work:14665",
+    "work:14672"
+   ],
+   "expected": [
+    "work:14671"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d9dbb464": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14670",
+    "work:14656",
+    "work:14680",
+    "work:14524",
+    "work:4006"
+   ],
+   "expected": [
+    "work:14670"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-1d4d59a6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14665",
+    "work:14667",
+    "work:14671",
+    "work:14659",
+    "work:14672"
+   ],
+   "expected": [
+    "work:14665"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-935ee54d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14673",
+    "work:14667",
+    "work:14672",
+    "work:14659",
+    "work:14671"
+   ],
+   "expected": [
+    "work:14673"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-097c2119": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14650",
+    "work:16683",
+    "work:16736",
+    "work:8026",
+    "work:2509"
+   ],
+   "expected": [
+    "work:14650"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-eb1cb7c3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14677",
+    "work:14239",
+    "work:15757",
+    "work:11232",
+    "work:17261"
+   ],
+   "expected": [
+    "work:14677"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-5f1822ec": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14684",
+    "work:14646",
+    "work:14699",
+    "work:14693",
+    "work:14660"
+   ],
+   "expected": [
+    "work:14684"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3b16a711": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14680",
+    "work:14656",
+    "work:14670",
+    "work:4018",
+    "work:486"
+   ],
+   "expected": [
+    "work:14680"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a897e1aa": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14632",
+    "work:14686",
+    "work:14690",
+    "work:13548",
+    "work:14164"
+   ],
+   "expected": [
+    "work:14686"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-7bacd2be": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14693",
+    "work:14708",
+    "work:14646",
+    "work:14625",
+    "work:14720"
+   ],
+   "expected": [
+    "work:14693"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-ac920bfb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14674",
+    "work:9051",
+    "work:2115",
+    "work:14637",
+    "work:13793"
+   ],
+   "expected": [
+    "work:14674"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-29f2aac6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14696",
+    "work:18657",
+    "work:14771",
+    "work:14655",
+    "work:3691"
+   ],
+   "expected": [
+    "work:14696"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-6a8af4cc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14663",
+    "work:13548",
+    "work:13264",
+    "work:13977",
+    "work:2436"
+   ],
+   "expected": [
+    "work:14663"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-424fcb65": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14697",
+    "work:15124",
+    "work:2034",
+    "work:2095",
+    "work:15339"
+   ],
+   "expected": [
+    "work:14697"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-fbd135f3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14694",
+    "work:14703",
+    "work:14691",
+    "work:14692",
+    "work:486"
+   ],
+   "expected": [
+    "work:14694"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d79c48a5": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13661",
+    "work:14702",
+    "work:2275",
+    "work:2296",
+    "work:2081"
+   ],
+   "expected": [
+    "work:14702"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-fb26e23b": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14728",
+    "work:14713",
+    "work:14724",
+    "work:14660",
+    "work:14712"
+   ],
+   "expected": [
+    "work:14713"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7e0d5f52": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14632",
+    "work:14719",
+    "work:13548",
+    "work:14686",
+    "work:14690"
+   ],
+   "expected": [
+    "work:14719"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-009e2ce0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14720",
+    "work:14708",
+    "work:14693",
+    "work:14646",
+    "work:14699"
+   ],
+   "expected": [
+    "work:14720"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7541cefe": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14724",
+    "work:13548",
+    "work:13612",
+    "work:13606",
+    "work:14609"
+   ],
+   "expected": [
+    "work:14724"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-30b1c780": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13558",
+    "work:14667",
+    "work:14659",
+    "work:14673",
+    "work:14671"
+   ],
+   "expected": [
+    "work:13558"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-cdb3eab2": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13583",
+    "work:13570",
+    "work:13589",
+    "work:13816",
+    "work:14745"
+   ],
+   "expected": [
+    "work:13570"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-297f0dad": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13578",
+    "work:13646",
+    "work:13670",
+    "work:13842",
+    "work:13549"
+   ],
+   "expected": [
+    "work:13578"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-448719eb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13591",
+    "work:14729",
+    "work:14492",
+    "work:13791",
+    "work:14155"
+   ],
+   "expected": [
+    "work:13591"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-72aa1489": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13583",
+    "work:13570",
+    "work:13785",
+    "work:13668",
+    "work:13589"
+   ],
+   "expected": [
+    "work:13583"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-ee49edce": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13592",
+    "work:14088",
+    "work:13706",
+    "work:13686",
+    "work:14170"
+   ],
+   "expected": [
+    "work:13592"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-5b55dbee": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13606",
+    "work:13612",
+    "work:13548",
+    "work:14060",
+    "work:13773"
+   ],
+   "expected": [
+    "work:13606"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-528401fd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13612",
+    "work:13606",
+    "work:14724",
+    "work:13831",
+    "work:13947"
+   ],
+   "expected": [
+    "work:13612"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-146ab5d6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13616",
+    "work:13652",
+    "work:13747",
+    "work:13886",
+    "work:1959"
+   ],
+   "expected": [
+    "work:13616"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-bfdc7abc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13615",
+    "work:16173",
+    "work:14504",
+    "work:15307",
+    "work:15236"
+   ],
+   "expected": [
+    "work:13615"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-aff049ea": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13646",
+    "work:13780",
+    "work:13794",
+    "work:13790",
+    "work:13670"
+   ],
+   "expected": [
+    "work:13646"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-6238a096": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13686",
+    "work:13644",
+    "work:13779",
+    "work:13967",
+    "work:13780"
+   ],
+   "expected": [
+    "work:13644"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-4ff002d0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13652",
+    "work:13616",
+    "work:13747",
+    "work:13886",
+    "work:1959"
+   ],
+   "expected": [
+    "work:13652"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-62e8b5e9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13658",
+    "work:2582",
+    "work:17366",
+    "work:6170",
+    "work:643"
+   ],
+   "expected": [
+    "work:13658"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9b303a2d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13671",
+    "work:14655",
+    "work:14302",
+    "work:14252",
+    "work:14132"
+   ],
+   "expected": [
+    "work:13671"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-76d1bebd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13670",
+    "work:13790",
+    "work:13646",
+    "work:13706",
+    "work:13578"
+   ],
+   "expected": [
+    "work:13670"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e06144b6": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:13583",
+    "work:14632",
+    "work:13785",
+    "work:13570",
+    "work:13589"
+   ],
+   "expected": [
+    "work:13668"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-82f1718e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13682",
+    "work:13878",
+    "work:13583",
+    "work:13785",
+    "work:13818"
+   ],
+   "expected": [
+    "work:13682"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a3314556": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13686",
+    "work:13698",
+    "work:13836",
+    "work:13706",
+    "work:13804"
+   ],
+   "expected": [
+    "work:13686"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b36ef904": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13690",
+    "work:14469",
+    "work:13644",
+    "work:13698",
+    "work:13686"
+   ],
+   "expected": [
+    "work:13690"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c11fedd8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13692",
+    "work:13813",
+    "work:13737",
+    "work:14170",
+    "work:13731"
+   ],
+   "expected": [
+    "work:13692"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-fc5be1c2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13696",
+    "work:13591",
+    "work:13944",
+    "work:13857",
+    "work:14218"
+   ],
+   "expected": [
+    "work:13696"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-92f4f507": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13695",
+    "work:13878",
+    "work:13818",
+    "work:13900",
+    "work:13833"
+   ],
+   "expected": [
+    "work:13695"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-7bce342d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13711",
+    "work:13796",
+    "work:8026",
+    "work:622",
+    "work:3524"
+   ],
+   "expected": [
+    "work:13711"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b362c938": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13706",
+    "work:13779",
+    "work:13731",
+    "work:13686",
+    "work:13780"
+   ],
+   "expected": [
+    "work:13706"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-984f68d8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13719",
+    "work:13852",
+    "work:14012",
+    "work:14270",
+    "work:14420"
+   ],
+   "expected": [
+    "work:13719"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a19072e1": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13686",
+    "work:13731",
+    "work:13780",
+    "work:13813",
+    "work:14125"
+   ],
+   "expected": [
+    "work:13731"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-dded3043": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13751",
+    "work:13687",
+    "work:14039",
+    "work:14156",
+    "work:13993"
+   ],
+   "expected": [
+    "work:13751"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-eaac3ff4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13769",
+    "work:14515",
+    "work:14580",
+    "work:14573",
+    "work:13894"
+   ],
+   "expected": [
+    "work:13769"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-340152e8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13743",
+    "work:13711",
+    "work:14064",
+    "work:3541",
+    "work:3461"
+   ],
+   "expected": [
+    "work:13743"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a8e8ce1f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13773",
+    "work:13842",
+    "work:13855",
+    "work:13947",
+    "work:13831"
+   ],
+   "expected": [
+    "work:13773"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3e2d4ead": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14012",
+    "work:13775",
+    "work:13852",
+    "work:13889",
+    "work:14069"
+   ],
+   "expected": [
+    "work:13775"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a35ec58d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13766",
+    "work:12978",
+    "work:14028",
+    "work:18742",
+    "work:1358"
+   ],
+   "expected": [
+    "work:13766"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-0e9399a0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13763",
+    "work:13902",
+    "work:14074",
+    "work:14078",
+    "work:14075"
+   ],
+   "expected": [
+    "work:13763"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e5f7a0b7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13785",
+    "work:13841",
+    "work:13583",
+    "work:14571",
+    "work:13818"
+   ],
+   "expected": [
+    "work:13785"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-39ba8f7d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13793",
+    "work:14562",
+    "work:13862",
+    "work:1388",
+    "work:13591"
+   ],
+   "expected": [
+    "work:13793"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3cfc36da": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13741",
+    "work:13988",
+    "work:13935",
+    "work:13991",
+    "work:14515"
+   ],
+   "expected": [
+    "work:13741"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8b3f1032": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13790",
+    "work:13906",
+    "work:13842",
+    "work:14012",
+    "work:13780"
+   ],
+   "expected": [
+    "work:13790"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e95ec671": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13747",
+    "work:3369",
+    "work:13652",
+    "work:3189",
+    "work:13616"
+   ],
+   "expected": [
+    "work:13747"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-58cbca1a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13789",
+    "work:13747",
+    "work:13652",
+    "work:15098",
+    "work:13616"
+   ],
+   "expected": [
+    "work:13789"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d0360d13": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13794",
+    "work:13780",
+    "work:13686",
+    "work:13646",
+    "work:14170"
+   ],
+   "expected": [
+    "work:13794"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-07eb9299": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13796",
+    "work:13711",
+    "work:14064",
+    "work:6033",
+    "work:6841"
+   ],
+   "expected": [
+    "work:13796"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8852fb02": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:13976",
+    "work:13780",
+    "work:13923",
+    "work:13813",
+    "work:13804"
+   ],
+   "expected": [
+    "work:13804"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e1cd74e8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13797",
+    "work:13922",
+    "work:14095",
+    "work:13910",
+    "work:13862"
+   ],
+   "expected": [
+    "work:13797"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-33fd410e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13795",
+    "work:7232",
+    "work:4182",
+    "work:13894",
+    "work:13825"
+   ],
+   "expected": [
+    "work:13795"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-2b76a3c5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13791",
+    "work:1457",
+    "work:1082",
+    "work:1556",
+    "work:1545"
+   ],
+   "expected": [
+    "work:13791"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-93d569db": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13805",
+    "work:13906",
+    "work:14392",
+    "work:14330",
+    "work:14438"
+   ],
+   "expected": [
+    "work:13805"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-04a5f58a": {
+   "rank": 10,
+   "rr": 0.1,
+   "top5": [
+    "work:13686",
+    "work:13813",
+    "work:13843",
+    "work:13731",
+    "work:13976"
+   ],
+   "expected": [
+    "work:13812"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e6e01a99": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13813",
+    "work:13731",
+    "work:14327",
+    "work:14051",
+    "work:13706"
+   ],
+   "expected": [
+    "work:13813"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-abb14993": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13818",
+    "work:13900",
+    "work:14192",
+    "work:14383",
+    "work:14000"
+   ],
+   "expected": [
+    "work:13818"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c1ab8b80": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13821",
+    "work:13830",
+    "work:13858",
+    "work:13862",
+    "work:13870"
+   ],
+   "expected": [
+    "work:13821"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-d67ab728": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13802",
+    "work:17665",
+    "work:18504",
+    "work:18515",
+    "work:13905"
+   ],
+   "expected": [
+    "work:13802"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-1bd6a619": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13811",
+    "work:14298",
+    "work:8694",
+    "work:14112",
+    "work:13681"
+   ],
+   "expected": [
+    "work:13811"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-71988213": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13814",
+    "work:14089",
+    "work:14533",
+    "work:14308",
+    "work:13880"
+   ],
+   "expected": [
+    "work:13814"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a948ccf0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13817",
+    "work:13822",
+    "work:13767",
+    "work:14189",
+    "work:14204"
+   ],
+   "expected": [
+    "work:13817"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f0f48cf8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13833",
+    "work:13841",
+    "work:14526",
+    "work:14515",
+    "work:14346"
+   ],
+   "expected": [
+    "work:13833"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b4e4bb45": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13831",
+    "work:13947",
+    "work:13842",
+    "work:14493",
+    "work:14008"
+   ],
+   "expected": [
+    "work:13831"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-abe14154": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13821",
+    "work:13830",
+    "work:13851",
+    "work:13870",
+    "work:13858"
+   ],
+   "expected": [
+    "work:13830"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c718b60c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13842",
+    "work:13855",
+    "work:13773",
+    "work:14426",
+    "work:14056"
+   ],
+   "expected": [
+    "work:13842"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-4d7c2769": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13835",
+    "work:14461",
+    "work:13998",
+    "work:13950",
+    "work:14013"
+   ],
+   "expected": [
+    "work:13835"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a9a3f36f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13836",
+    "work:13686",
+    "work:13698",
+    "work:14314",
+    "work:14170"
+   ],
+   "expected": [
+    "work:13836"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-502bc94b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13843",
+    "work:13923",
+    "work:13804",
+    "work:14125",
+    "work:14420"
+   ],
+   "expected": [
+    "work:13843"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8ae5cfd8": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13917",
+    "work:13837",
+    "work:13734",
+    "work:13700",
+    "work:13733"
+   ],
+   "expected": [
+    "work:13837"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-038cfbf9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13853",
+    "work:14070",
+    "work:14251",
+    "work:4322",
+    "work:14071"
+   ],
+   "expected": [
+    "work:13853"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3adae0c6": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13842",
+    "work:13855",
+    "work:13606",
+    "work:14008",
+    "work:14493"
+   ],
+   "expected": [
+    "work:13855"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-4d5ca0e2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13862",
+    "work:13821",
+    "work:13870",
+    "work:13851",
+    "work:13830"
+   ],
+   "expected": [
+    "work:13862"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e3ee5dc2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13861",
+    "work:13872",
+    "work:14267",
+    "work:13923",
+    "work:14130"
+   ],
+   "expected": [
+    "work:13861"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-390fe83e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13851",
+    "work:13870",
+    "work:13891",
+    "work:13821",
+    "work:13957"
+   ],
+   "expected": [
+    "work:13851"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9b9bbd06": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13867",
+    "work:14095",
+    "work:13830",
+    "work:13627",
+    "work:13910"
+   ],
+   "expected": [
+    "work:13867"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c5ef2881": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13872",
+    "work:14438",
+    "work:14315",
+    "work:14069",
+    "work:14392"
+   ],
+   "expected": [
+    "work:13872"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-cfa9ad27": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13878",
+    "work:13609",
+    "work:13842",
+    "work:14598",
+    "work:13735"
+   ],
+   "expected": [
+    "work:13878"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-d35df6b6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13882",
+    "work:13878",
+    "work:4752",
+    "work:5189",
+    "work:14344"
+   ],
+   "expected": [
+    "work:13882"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-22ad3a54": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13894",
+    "work:14580",
+    "work:14008",
+    "work:6575",
+    "work:13773"
+   ],
+   "expected": [
+    "work:13894"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8f772d0c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13887",
+    "work:13940",
+    "work:14231",
+    "work:14383",
+    "work:14571"
+   ],
+   "expected": [
+    "work:13887"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b766cb0b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13832",
+    "work:13980",
+    "work:13968",
+    "work:14191",
+    "work:14100"
+   ],
+   "expected": [
+    "work:13832"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f4b0d11f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13865",
+    "work:14055",
+    "work:14187",
+    "work:13968",
+    "work:14214"
+   ],
+   "expected": [
+    "work:13865"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3708f207": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13889",
+    "work:13880",
+    "work:13583",
+    "work:14089",
+    "work:14192"
+   ],
+   "expected": [
+    "work:13889"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8dfdb402": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:13851",
+    "work:13870",
+    "work:13891",
+    "work:13821",
+    "work:13830"
+   ],
+   "expected": [
+    "work:13891"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-37fadce5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13906",
+    "work:13872",
+    "work:13780",
+    "work:14332",
+    "work:14125"
+   ],
+   "expected": [
+    "work:13906"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-556a69c3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13900",
+    "work:13818",
+    "work:14164",
+    "work:14383",
+    "work:14192"
+   ],
+   "expected": [
+    "work:13900"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-36f23532": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13889",
+    "work:13904",
+    "work:13880",
+    "work:14411",
+    "work:14069"
+   ],
+   "expected": [
+    "work:13904"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9cf0dc8b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13858",
+    "work:13821",
+    "work:13830",
+    "work:13851",
+    "work:13870"
+   ],
+   "expected": [
+    "work:13858"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8bebc41c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13898",
+    "work:14526",
+    "work:14452",
+    "work:14155",
+    "work:14353"
+   ],
+   "expected": [
+    "work:13898"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f882a3d2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13910",
+    "work:14434",
+    "work:14155",
+    "work:14389",
+    "work:13862"
+   ],
+   "expected": [
+    "work:13910"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-1543ff66": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13902",
+    "work:14756",
+    "work:13763",
+    "work:13747",
+    "work:14428"
+   ],
+   "expected": [
+    "work:13902"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8af373cc": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14164",
+    "work:13909",
+    "work:13816",
+    "work:14044",
+    "work:13589"
+   ],
+   "expected": [
+    "work:13909"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-2035cb89": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13903",
+    "work:7969",
+    "work:13767",
+    "work:14100",
+    "work:13919"
+   ],
+   "expected": [
+    "work:13903"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-937301bd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13916",
+    "work:14610",
+    "work:14196",
+    "work:13790",
+    "work:14027"
+   ],
+   "expected": [
+    "work:13916"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-9d0eb8c4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13920",
+    "work:3809",
+    "work:3810",
+    "work:13751",
+    "work:13717"
+   ],
+   "expected": [
+    "work:13920"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-4b3968af": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13922",
+    "work:14095",
+    "work:13797",
+    "work:13627",
+    "work:14118"
+   ],
+   "expected": [
+    "work:13922"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d1e0cf37": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13936",
+    "work:13747",
+    "work:14598",
+    "work:13763",
+    "work:13976"
+   ],
+   "expected": [
+    "work:13936"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e3c095db": {
+   "rank": 23,
+   "rr": 0.0435,
+   "top5": [
+    "work:13880",
+    "work:13889",
+    "work:14089",
+    "work:13583",
+    "work:13785"
+   ],
+   "expected": [
+    "work:13923"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e67a74df": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13917",
+    "work:13980",
+    "work:13905",
+    "work:13733",
+    "work:13822"
+   ],
+   "expected": [
+    "work:13917"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-37eea9b6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13925",
+    "work:18049",
+    "work:16346",
+    "work:2838",
+    "work:3766"
+   ],
+   "expected": [
+    "work:13925"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-909c9549": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13934",
+    "work:13818",
+    "work:13785",
+    "work:14044",
+    "work:14383"
+   ],
+   "expected": [
+    "work:13934"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-85460518": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13940",
+    "work:14164",
+    "work:13887",
+    "work:14231",
+    "work:14383"
+   ],
+   "expected": [
+    "work:13940"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-5969ddb0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13931",
+    "work:14169",
+    "work:13982",
+    "work:14376",
+    "work:14600"
+   ],
+   "expected": [
+    "work:13931"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3596660c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13944",
+    "work:13857",
+    "work:14218",
+    "work:13956",
+    "work:2414"
+   ],
+   "expected": [
+    "work:13944"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a99d10fb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13947",
+    "work:13831",
+    "work:14060",
+    "work:13606",
+    "work:13855"
+   ],
+   "expected": [
+    "work:13947"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c6288fcc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13945",
+    "work:14590",
+    "work:6901",
+    "work:14598",
+    "work:4127"
+   ],
+   "expected": [
+    "work:13945"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-7a76ee1e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13949",
+    "work:4252",
+    "work:4191",
+    "work:5546",
+    "work:4444"
+   ],
+   "expected": [
+    "work:13949"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-713a8f7f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13961",
+    "work:13736",
+    "work:14595",
+    "work:3766",
+    "work:6480"
+   ],
+   "expected": [
+    "work:13961"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-0b8e9c5a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13937",
+    "work:13616",
+    "work:13747",
+    "work:13789",
+    "work:13652"
+   ],
+   "expected": [
+    "work:13937"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-1579b70d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13886",
+    "work:13919",
+    "work:15452",
+    "work:1412",
+    "work:1626"
+   ],
+   "expected": [
+    "work:13886"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-27d7f00a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13941",
+    "work:14107",
+    "work:14227",
+    "work:14512",
+    "work:16171"
+   ],
+   "expected": [
+    "work:13941"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-36a19201": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:13985",
+    "work:14305",
+    "work:13972",
+    "work:14009",
+    "work:14034"
+   ],
+   "expected": [
+    "work:13972"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3eedc575": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13971",
+    "work:14469",
+    "work:13872",
+    "work:13686",
+    "work:14125"
+   ],
+   "expected": [
+    "work:13971"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b88333ca": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13797",
+    "work:13962",
+    "work:13627",
+    "work:13870",
+    "work:13891"
+   ],
+   "expected": [
+    "work:13962"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f1c6cdd6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13928",
+    "work:14032",
+    "work:13980",
+    "work:2075",
+    "work:13886"
+   ],
+   "expected": [
+    "work:13928"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-d58ddbe4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13967",
+    "work:13779",
+    "work:13780",
+    "work:14125",
+    "work:13686"
+   ],
+   "expected": [
+    "work:13967"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f1801d4c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13951",
+    "work:13737",
+    "work:14383",
+    "work:14632",
+    "work:14341"
+   ],
+   "expected": [
+    "work:13951"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-54bb3a0a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13975",
+    "work:14475",
+    "work:14476",
+    "work:14469",
+    "work:14462"
+   ],
+   "expected": [
+    "work:13975"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-90504625": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13976",
+    "work:14125",
+    "work:14170",
+    "work:13780",
+    "work:13813"
+   ],
+   "expected": [
+    "work:13976"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e5b6d1e8": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13968",
+    "work:13966",
+    "work:13848",
+    "work:14072",
+    "work:14189"
+   ],
+   "expected": [
+    "work:13966"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-18cae6d4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13977",
+    "work:14056",
+    "work:13950",
+    "work:13971",
+    "work:14087"
+   ],
+   "expected": [
+    "work:13977"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-1c5ec04e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13982",
+    "work:13931",
+    "work:2429",
+    "work:5813",
+    "work:4562"
+   ],
+   "expected": [
+    "work:13982"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-39984021": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13981",
+    "work:13889",
+    "work:14027",
+    "work:14069",
+    "work:13880"
+   ],
+   "expected": [
+    "work:13981"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-0aa12edf": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13978",
+    "work:14353",
+    "work:13627",
+    "work:13910",
+    "work:13597"
+   ],
+   "expected": [
+    "work:13978"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c7d7ee75": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13985",
+    "work:14419",
+    "work:13972",
+    "work:14305",
+    "work:13988"
+   ],
+   "expected": [
+    "work:13985"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-634c945b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13984",
+    "work:10628",
+    "work:11366",
+    "work:11368",
+    "work:14002"
+   ],
+   "expected": [
+    "work:13984"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a4a01792": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13980",
+    "work:13905",
+    "work:14191",
+    "work:14029",
+    "work:13700"
+   ],
+   "expected": [
+    "work:13980"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-92569102": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13989",
+    "work:14386",
+    "work:766",
+    "work:2970",
+    "work:14591"
+   ],
+   "expected": [
+    "work:13989"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f974418a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13991",
+    "work:14016",
+    "work:13985",
+    "work:14492",
+    "work:13986"
+   ],
+   "expected": [
+    "work:13991"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-04c1f7c6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13968",
+    "work:14055",
+    "work:13865",
+    "work:14189",
+    "work:14072"
+   ],
+   "expected": [
+    "work:13968"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-cf40ae1f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13992",
+    "work:4231",
+    "work:4232",
+    "work:14149",
+    "work:14601"
+   ],
+   "expected": [
+    "work:13992"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-43e42ddd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13998",
+    "work:14018",
+    "work:14088",
+    "work:14392",
+    "work:13861"
+   ],
+   "expected": [
+    "work:13998"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-11141d96": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13999",
+    "work:14013",
+    "work:14110",
+    "work:14229",
+    "work:13861"
+   ],
+   "expected": [
+    "work:13999"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e557f2fe": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14009",
+    "work:14034",
+    "work:14045",
+    "work:14425",
+    "work:13985"
+   ],
+   "expected": [
+    "work:14009"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-ec5159ef": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14000",
+    "work:14192",
+    "work:13900",
+    "work:14231",
+    "work:14383"
+   ],
+   "expected": [
+    "work:14000"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-ff2f051f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14002",
+    "work:13922",
+    "work:14526",
+    "work:13797",
+    "work:14312"
+   ],
+   "expected": [
+    "work:14002"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a88f2b72": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14003",
+    "work:14526",
+    "work:14153",
+    "work:14174",
+    "work:13862"
+   ],
+   "expected": [
+    "work:14003"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-2b7234fc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14006",
+    "work:14313",
+    "work:14064",
+    "work:13866",
+    "work:14090"
+   ],
+   "expected": [
+    "work:14006"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-51aa3c38": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14008",
+    "work:13831",
+    "work:13947",
+    "work:13606",
+    "work:13773"
+   ],
+   "expected": [
+    "work:14008"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-32be219c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13997",
+    "work:17562",
+    "work:18554",
+    "work:17904",
+    "work:18518"
+   ],
+   "expected": [
+    "work:13997"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8004406a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13950",
+    "work:13977",
+    "work:13971",
+    "work:14217",
+    "work:14056"
+   ],
+   "expected": [
+    "work:13950"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a0fcdd45": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14010",
+    "work:2719",
+    "work:2242",
+    "work:2517",
+    "work:595"
+   ],
+   "expected": [
+    "work:14010"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-4c8f8619": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14015",
+    "work:13957",
+    "work:14176",
+    "work:14108",
+    "work:14155"
+   ],
+   "expected": [
+    "work:14015"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-7f7b3773": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14012",
+    "work:13686",
+    "work:14271",
+    "work:13852",
+    "work:13719"
+   ],
+   "expected": [
+    "work:14012"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-d7c8e1f8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14016",
+    "work:14410",
+    "work:14086",
+    "work:14375",
+    "work:14419"
+   ],
+   "expected": [
+    "work:14016"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-dcf853e7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14013",
+    "work:14060",
+    "work:14461",
+    "work:13773",
+    "work:13947"
+   ],
+   "expected": [
+    "work:14013"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e8dae013": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13956",
+    "work:7982",
+    "work:13944",
+    "work:13857",
+    "work:14218"
+   ],
+   "expected": [
+    "work:13956"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a50d0fd3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14014",
+    "work:14315",
+    "work:13872",
+    "work:14170",
+    "work:14130"
+   ],
+   "expected": [
+    "work:14014"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b8d0a3b5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14025",
+    "work:14217",
+    "work:14315",
+    "work:13971",
+    "work:14069"
+   ],
+   "expected": [
+    "work:14025"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8c7301fc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14029",
+    "work:14100",
+    "work:14159",
+    "work:14158",
+    "work:13848"
+   ],
+   "expected": [
+    "work:14029"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-312289b2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14034",
+    "work:14305",
+    "work:14009",
+    "work:14419",
+    "work:14045"
+   ],
+   "expected": [
+    "work:14034"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-217dbbab": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14035",
+    "work:3370",
+    "work:14726",
+    "work:2131",
+    "work:1626"
+   ],
+   "expected": [
+    "work:14035"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8a1de714": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14032",
+    "work:13928",
+    "work:13886",
+    "work:2075",
+    "work:14028"
+   ],
+   "expected": [
+    "work:14032"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-bd5ddda4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14040",
+    "work:14526",
+    "work:17419",
+    "work:15339",
+    "work:6591"
+   ],
+   "expected": [
+    "work:14040"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c7744398": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14462",
+    "work:14027",
+    "work:14475",
+    "work:13981",
+    "work:14069"
+   ],
+   "expected": [
+    "work:14027"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e8f3ea05": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:14224",
+    "work:13686",
+    "work:14033",
+    "work:14291",
+    "work:13779"
+   ],
+   "expected": [
+    "work:14033"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-bebd2bc5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13948",
+    "work:14130",
+    "work:14056",
+    "work:14267",
+    "work:14291"
+   ],
+   "expected": [
+    "work:13948"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-35942543": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14047",
+    "work:4176",
+    "work:14083",
+    "work:4170",
+    "work:4181"
+   ],
+   "expected": [
+    "work:14047"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-ee82eef2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14045",
+    "work:14009",
+    "work:14034",
+    "work:14425",
+    "work:14305"
+   ],
+   "expected": [
+    "work:14045"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-feca5420": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14051",
+    "work:14125",
+    "work:14170",
+    "work:13686",
+    "work:13731"
+   ],
+   "expected": [
+    "work:14051"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-37f67838": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14087",
+    "work:14049",
+    "work:14096",
+    "work:14122",
+    "work:13948"
+   ],
+   "expected": [
+    "work:14049"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-0d321370": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14060",
+    "work:14426",
+    "work:14493",
+    "work:13947",
+    "work:13855"
+   ],
+   "expected": [
+    "work:14060"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-324cc4fc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14056",
+    "work:13551",
+    "work:13842",
+    "work:14267",
+    "work:13686"
+   ],
+   "expected": [
+    "work:14056"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f045775c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14055",
+    "work:13865",
+    "work:14187",
+    "work:13968",
+    "work:14214"
+   ],
+   "expected": [
+    "work:14055"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-19ac3639": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14064",
+    "work:13711",
+    "work:13796",
+    "work:14459",
+    "work:5959"
+   ],
+   "expected": [
+    "work:14064"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-1397f9a6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14070",
+    "work:13853",
+    "work:14251",
+    "work:4322",
+    "work:14067"
+   ],
+   "expected": [
+    "work:14070"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3c3d3b32": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13848",
+    "work:14072",
+    "work:13966",
+    "work:14029",
+    "work:13968"
+   ],
+   "expected": [
+    "work:14072"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b592aed6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14069",
+    "work:13872",
+    "work:13686",
+    "work:13842",
+    "work:14170"
+   ],
+   "expected": [
+    "work:14069"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-db97b0e8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13551",
+    "work:14056",
+    "work:13842",
+    "work:13686",
+    "work:14547"
+   ],
+   "expected": [
+    "work:13551"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-fd78fb42": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:13817",
+    "work:13822",
+    "work:13767",
+    "work:14765",
+    "work:14082"
+   ],
+   "expected": [
+    "work:14765"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-cd5c7447": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14067",
+    "work:1462",
+    "work:14251",
+    "work:486",
+    "work:13966"
+   ],
+   "expected": [
+    "work:14067"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-ed994a9b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14071",
+    "work:14251",
+    "work:14313",
+    "work:13853",
+    "work:8255"
+   ],
+   "expected": [
+    "work:14071"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-90733834": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14086",
+    "work:14419",
+    "work:14446",
+    "work:14016",
+    "work:14410"
+   ],
+   "expected": [
+    "work:14086"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f93a7fb9": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:14078",
+    "work:14075",
+    "work:14073",
+    "work:14077",
+    "work:14074"
+   ],
+   "expected": [
+    "work:14074"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8b92f969": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14095",
+    "work:13922",
+    "work:14582",
+    "work:14108",
+    "work:14155"
+   ],
+   "expected": [
+    "work:14095"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9f60df6b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14088",
+    "work:14224",
+    "work:13686",
+    "work:14125",
+    "work:14170"
+   ],
+   "expected": [
+    "work:14088"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-213f08c2": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14087",
+    "work:14096",
+    "work:14049",
+    "work:13779",
+    "work:13948"
+   ],
+   "expected": [
+    "work:14096"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-1477b676": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14571",
+    "work:14085",
+    "work:14364",
+    "work:13785",
+    "work:14383"
+   ],
+   "expected": [
+    "work:14085"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-881ebf7b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14090",
+    "work:14027",
+    "work:14590",
+    "work:13993",
+    "work:14134"
+   ],
+   "expected": [
+    "work:14090"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e1ece480": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14091",
+    "work:13830",
+    "work:14667",
+    "work:13618",
+    "work:14608"
+   ],
+   "expected": [
+    "work:14091"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a9f819f1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14102",
+    "work:14104",
+    "work:4706",
+    "work:4825",
+    "work:7741"
+   ],
+   "expected": [
+    "work:14102"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c6623034": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14104",
+    "work:14102",
+    "work:4706",
+    "work:2240",
+    "work:4825"
+   ],
+   "expected": [
+    "work:14104"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-9c5c426e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14103",
+    "work:14013",
+    "work:2035",
+    "work:17713",
+    "work:13622"
+   ],
+   "expected": [
+    "work:14103"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9267f49c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14089",
+    "work:13583",
+    "work:14231",
+    "work:13785",
+    "work:13570"
+   ],
+   "expected": [
+    "work:14089"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-94a23f53": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14110",
+    "work:13731",
+    "work:13686",
+    "work:14170",
+    "work:14125"
+   ],
+   "expected": [
+    "work:14110"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-6b3b20f4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14107",
+    "work:14439",
+    "work:14355",
+    "work:14512",
+    "work:14227"
+   ],
+   "expected": [
+    "work:14107"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-0ed02822": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14118",
+    "work:13576",
+    "work:13870",
+    "work:13891",
+    "work:13621"
+   ],
+   "expected": [
+    "work:14118"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-4645e630": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14135",
+    "work:6025",
+    "work:4613",
+    "work:6575",
+    "work:14085"
+   ],
+   "expected": [
+    "work:14135"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8c6ba361": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14130",
+    "work:13872",
+    "work:14129",
+    "work:14267",
+    "work:13686"
+   ],
+   "expected": [
+    "work:14130"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3f8e06f5": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:14474",
+    "work:14132",
+    "work:14593",
+    "work:14349",
+    "work:14589"
+   ],
+   "expected": [
+    "work:14137"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8365439e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14141",
+    "work:14273",
+    "work:14164",
+    "work:14044",
+    "work:13909"
+   ],
+   "expected": [
+    "work:14141"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-072eb234": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14150",
+    "work:13886",
+    "work:13652",
+    "work:7194",
+    "work:2065"
+   ],
+   "expected": [
+    "work:14150"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3c0a1086": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:14192",
+    "work:14383",
+    "work:14281",
+    "work:13900",
+    "work:14231"
+   ],
+   "expected": [
+    "work:14149"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-bdfab608": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:14474",
+    "work:14593",
+    "work:14132",
+    "work:14357",
+    "work:14589"
+   ],
+   "expected": [
+    "work:14132"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-d633062b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14147",
+    "work:14282",
+    "work:17482",
+    "work:14298",
+    "work:14428"
+   ],
+   "expected": [
+    "work:14147"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-1222d627": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14153",
+    "work:14003",
+    "work:14526",
+    "work:14174",
+    "work:14312"
+   ],
+   "expected": [
+    "work:14153"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-92da5061": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14156",
+    "work:14446",
+    "work:14410",
+    "work:14375",
+    "work:14016"
+   ],
+   "expected": [
+    "work:14156"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-df3b30ec": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14155",
+    "work:14015",
+    "work:14108",
+    "work:13957",
+    "work:14200"
+   ],
+   "expected": [
+    "work:14155"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d3eb9f43": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14100",
+    "work:14158",
+    "work:14189",
+    "work:13865",
+    "work:14159"
+   ],
+   "expected": [
+    "work:14158"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-09d8a191": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14161",
+    "work:14016",
+    "work:14156",
+    "work:14045",
+    "work:14086"
+   ],
+   "expected": [
+    "work:14161"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9ad6cc09": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14170",
+    "work:13686",
+    "work:14125",
+    "work:13731",
+    "work:13780"
+   ],
+   "expected": [
+    "work:14170"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e6683039": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14176",
+    "work:14015",
+    "work:14312",
+    "work:13957",
+    "work:14526"
+   ],
+   "expected": [
+    "work:14176"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d29e90d5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14174",
+    "work:14526",
+    "work:14003",
+    "work:14183",
+    "work:14108"
+   ],
+   "expected": [
+    "work:14174"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-41decd46": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14189",
+    "work:13865",
+    "work:13968",
+    "work:14214",
+    "work:14187"
+   ],
+   "expected": [
+    "work:14189"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-490f4bad": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14190",
+    "work:14433",
+    "work:14122",
+    "work:14515",
+    "work:888"
+   ],
+   "expected": [
+    "work:14190"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d5865a3f": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14144",
+    "work:14195",
+    "work:13686",
+    "work:14438",
+    "work:14012"
+   ],
+   "expected": [
+    "work:14195"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-07fd840e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14196",
+    "work:13606",
+    "work:14012",
+    "work:14351",
+    "work:14224"
+   ],
+   "expected": [
+    "work:14196"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-15c0ab09": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14192",
+    "work:13900",
+    "work:14000",
+    "work:13887",
+    "work:14383"
+   ],
+   "expected": [
+    "work:14192"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-93220cca": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14191",
+    "work:13905",
+    "work:13980",
+    "work:13700",
+    "work:13733"
+   ],
+   "expected": [
+    "work:14191"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-27490725": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14206",
+    "work:14224",
+    "work:14110",
+    "work:13686",
+    "work:13731"
+   ],
+   "expected": [
+    "work:14206"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-5d534d83": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14183",
+    "work:14200",
+    "work:14174",
+    "work:14108",
+    "work:14015"
+   ],
+   "expected": [
+    "work:14200"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-90e0b43d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14201",
+    "work:13606",
+    "work:13773",
+    "work:13842",
+    "work:14493"
+   ],
+   "expected": [
+    "work:14201"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e32d8cb5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14180",
+    "work:14224",
+    "work:14170",
+    "work:14206",
+    "work:14125"
+   ],
+   "expected": [
+    "work:14180"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-07ab45aa": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:14055",
+    "work:13865",
+    "work:14187",
+    "work:14214",
+    "work:13968"
+   ],
+   "expected": [
+    "work:14214"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8ab8965f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14216",
+    "work:1584",
+    "work:1541",
+    "work:1544",
+    "work:1531"
+   ],
+   "expected": [
+    "work:14216"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-9ad33585": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14218",
+    "work:13857",
+    "work:13944",
+    "work:13956",
+    "work:2414"
+   ],
+   "expected": [
+    "work:14218"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b61c2c1c": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13686",
+    "work:14224",
+    "work:14125",
+    "work:14170",
+    "work:13872"
+   ],
+   "expected": [
+    "work:14224"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-68b81167": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14225",
+    "work:13865",
+    "work:13966",
+    "work:14189",
+    "work:13848"
+   ],
+   "expected": [
+    "work:14225"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-9d942068": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14231",
+    "work:14383",
+    "work:14044",
+    "work:14281",
+    "work:14405"
+   ],
+   "expected": [
+    "work:14231"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-25211cec": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14229",
+    "work:14351",
+    "work:14170",
+    "work:13773",
+    "work:14284"
+   ],
+   "expected": [
+    "work:14229"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-b571ebe7": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "work:14224",
+    "work:14125",
+    "work:13686",
+    "work:14012",
+    "work:14088"
+   ],
+   "expected": [
+    "work:14217"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-69cf7bdb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14239",
+    "work:14530",
+    "work:14551",
+    "work:16893",
+    "work:18977"
+   ],
+   "expected": [
+    "work:14239"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-ab09227b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14236",
+    "work:14308",
+    "work:14271",
+    "work:14533",
+    "work:14209"
+   ],
+   "expected": [
+    "work:14236"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-31f9b4dd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14247",
+    "work:8518",
+    "work:8533",
+    "work:14259",
+    "work:8509"
+   ],
+   "expected": [
+    "work:14247"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-fa80e9a6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14248",
+    "work:13857",
+    "work:11366",
+    "work:14218",
+    "work:13944"
+   ],
+   "expected": [
+    "work:14248"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-4010b424": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13853",
+    "work:14251",
+    "work:14070",
+    "work:4322",
+    "work:14067"
+   ],
+   "expected": [
+    "work:14251"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7d25a7e5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14259",
+    "work:1457",
+    "work:8371",
+    "work:1353",
+    "work:8370"
+   ],
+   "expected": [
+    "work:14259"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8532999d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14266",
+    "work:14183",
+    "work:13627",
+    "work:14200",
+    "work:13870"
+   ],
+   "expected": [
+    "work:14266"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a6a64cad": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14250",
+    "work:13652",
+    "work:13747",
+    "work:13616",
+    "work:3370"
+   ],
+   "expected": [
+    "work:14250"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-a962a1fd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14268",
+    "work:14366",
+    "work:14482",
+    "work:8573",
+    "work:14530"
+   ],
+   "expected": [
+    "work:14268"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3fbf58f9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14234",
+    "work:13763",
+    "work:13902",
+    "work:14078",
+    "work:14075"
+   ],
+   "expected": [
+    "work:14234"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c4ad5f0f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14271",
+    "work:14209",
+    "work:14308",
+    "work:14236",
+    "work:14533"
+   ],
+   "expected": [
+    "work:14271"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-935439c2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14252",
+    "work:14474",
+    "work:14132",
+    "work:14589",
+    "work:14593"
+   ],
+   "expected": [
+    "work:14252"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-fe5bb1ec": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14147",
+    "work:14282",
+    "work:1075",
+    "work:13791",
+    "work:8336"
+   ],
+   "expected": [
+    "work:14282"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-5e3ec230": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14275",
+    "work:14027",
+    "work:14549",
+    "work:14012",
+    "work:14291"
+   ],
+   "expected": [
+    "work:14275"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-73a24b1b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14285",
+    "work:13606",
+    "work:13947",
+    "work:14201",
+    "work:14493"
+   ],
+   "expected": [
+    "work:14285"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b7e1bf3e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14277",
+    "work:13686",
+    "work:14125",
+    "work:14314",
+    "work:14170"
+   ],
+   "expected": [
+    "work:14277"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e95bb3fc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14279",
+    "work:15932",
+    "work:15440",
+    "work:1570",
+    "work:14450"
+   ],
+   "expected": [
+    "work:14279"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-0522695a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14284",
+    "work:13606",
+    "work:13947",
+    "work:14201",
+    "work:13773"
+   ],
+   "expected": [
+    "work:14284"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b8530956": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14292",
+    "work:13878",
+    "work:14573",
+    "work:2772",
+    "work:14548"
+   ],
+   "expected": [
+    "work:14292"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-46428967": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14127",
+    "work:14296",
+    "work:14283",
+    "work:14483",
+    "work:14464"
+   ],
+   "expected": [
+    "work:14296"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-17e88bf3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14300",
+    "work:13686",
+    "work:14267",
+    "work:14125",
+    "work:13923"
+   ],
+   "expected": [
+    "work:14300"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-2740e296": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14295",
+    "work:13977",
+    "work:13971",
+    "work:14015",
+    "work:13957"
+   ],
+   "expected": [
+    "work:14295"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-29c5c52d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14298",
+    "work:13811",
+    "work:14112",
+    "work:8694",
+    "work:14091"
+   ],
+   "expected": [
+    "work:14298"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a910b941": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14252",
+    "work:14302",
+    "work:14474",
+    "work:14589",
+    "work:14593"
+   ],
+   "expected": [
+    "work:14302"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-299b2be8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14299",
+    "work:14551",
+    "work:14450",
+    "work:14469",
+    "work:14555"
+   ],
+   "expected": [
+    "work:14299"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-85bbf78a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14306",
+    "work:14108",
+    "work:13821",
+    "work:13851",
+    "work:13870"
+   ],
+   "expected": [
+    "work:14306"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-961e5703": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14312",
+    "work:14526",
+    "work:14174",
+    "work:14176",
+    "work:14153"
+   ],
+   "expected": [
+    "work:14312"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e1deed1b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14313",
+    "work:14515",
+    "work:4388",
+    "work:14006",
+    "work:14067"
+   ],
+   "expected": [
+    "work:14313"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c99fe410": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14315",
+    "work:13872",
+    "work:14240",
+    "work:14170",
+    "work:14291"
+   ],
+   "expected": [
+    "work:14315"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-eae35db7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14314",
+    "work:14170",
+    "work:14125",
+    "work:13780",
+    "work:14224"
+   ],
+   "expected": [
+    "work:14314"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9b3346da": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14316",
+    "work:14530",
+    "work:13720",
+    "work:14515",
+    "work:14510"
+   ],
+   "expected": [
+    "work:14316"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7a67a243": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14323",
+    "work:14060",
+    "work:13606",
+    "work:6575",
+    "work:13947"
+   ],
+   "expected": [
+    "work:14323"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e637a5ec": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14319",
+    "work:14321",
+    "work:14069",
+    "work:14012",
+    "work:13880"
+   ],
+   "expected": [
+    "work:14321"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-645d6b1f": {
+   "rank": 21,
+   "rr": 0.0476,
+   "top5": [
+    "work:14411",
+    "work:13872",
+    "work:14300",
+    "work:14550",
+    "work:14056"
+   ],
+   "expected": [
+    "work:14324"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-21185aa0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14328",
+    "work:14442",
+    "work:14164",
+    "work:14205",
+    "work:14405"
+   ],
+   "expected": [
+    "work:14328"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b3c8fc35": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "work:13686",
+    "work:14224",
+    "work:14170",
+    "work:13872",
+    "work:14270"
+   ],
+   "expected": [
+    "work:14330"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-133ed7e3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14332",
+    "work:14170",
+    "work:13670",
+    "work:13780",
+    "work:14379"
+   ],
+   "expected": [
+    "work:14332"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c9990774": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14343",
+    "work:14056",
+    "work:13872",
+    "work:14129",
+    "work:13551"
+   ],
+   "expected": [
+    "work:14343"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3bcb1335": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:14589",
+    "work:14252",
+    "work:14349",
+    "work:14474",
+    "work:14593"
+   ],
+   "expected": [
+    "work:14349"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-51fedf78": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:14593",
+    "work:14474",
+    "work:14252",
+    "work:14589",
+    "work:14350"
+   ],
+   "expected": [
+    "work:14350"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-ddbae728": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14344",
+    "work:14351",
+    "work:4170",
+    "work:6531",
+    "work:2719"
+   ],
+   "expected": [
+    "work:14351"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-990dc777": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:14273",
+    "work:14141",
+    "work:14164",
+    "work:14044",
+    "work:14359"
+   ],
+   "expected": [
+    "work:14359"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-6761de4e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14353",
+    "work:14266",
+    "work:14526",
+    "work:14183",
+    "work:14095"
+   ],
+   "expected": [
+    "work:14353"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7b38e3e0": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:14155",
+    "work:14176",
+    "work:14002",
+    "work:14360",
+    "work:13870"
+   ],
+   "expected": [
+    "work:14360"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-cb02b840": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:14593",
+    "work:14589",
+    "work:14357",
+    "work:14252",
+    "work:14474"
+   ],
+   "expected": [
+    "work:14357"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f2fe0f34": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14366",
+    "work:14482",
+    "work:14530",
+    "work:14268",
+    "work:14316"
+   ],
+   "expected": [
+    "work:14366"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f7c98762": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14364",
+    "work:13947",
+    "work:14275",
+    "work:14027",
+    "work:13971"
+   ],
+   "expected": [
+    "work:14364"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-40b8095b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14373",
+    "work:14598",
+    "work:13842",
+    "work:14564",
+    "work:13609"
+   ],
+   "expected": [
+    "work:14373"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-73a2984a": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13686",
+    "work:14374",
+    "work:14170",
+    "work:14314",
+    "work:14125"
+   ],
+   "expected": [
+    "work:14374"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f7934ea5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14376",
+    "work:14169",
+    "work:14597",
+    "work:14600",
+    "work:13671"
+   ],
+   "expected": [
+    "work:14376"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f25d90ff": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14387",
+    "work:14224",
+    "work:14277",
+    "work:14170",
+    "work:14291"
+   ],
+   "expected": [
+    "work:14387"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f30beea7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14384",
+    "work:14012",
+    "work:14224",
+    "work:13686",
+    "work:14438"
+   ],
+   "expected": [
+    "work:14384"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-69b85bc7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14389",
+    "work:13870",
+    "work:13891",
+    "work:14108",
+    "work:14306"
+   ],
+   "expected": [
+    "work:14389"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c5269d4d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14369",
+    "work:13793",
+    "work:14103",
+    "work:1356",
+    "work:18295"
+   ],
+   "expected": [
+    "work:14369"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-2202f9fb": {
+   "rank": 42,
+   "rr": 0.0238,
+   "top5": [
+    "work:13686",
+    "work:13780",
+    "work:13872",
+    "work:13731",
+    "work:13813"
+   ],
+   "expected": [
+    "work:14378"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-fbf55b0a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14379",
+    "work:13780",
+    "work:13686",
+    "work:14224",
+    "work:13779"
+   ],
+   "expected": [
+    "work:14379"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-0a6e7daf": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14410",
+    "work:14375",
+    "work:14016",
+    "work:14419",
+    "work:14086"
+   ],
+   "expected": [
+    "work:14410"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d237652c": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "work:14383",
+    "work:14164",
+    "work:14281",
+    "work:14044",
+    "work:14231"
+   ],
+   "expected": [
+    "work:14405"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-327a082d": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:14012",
+    "work:14224",
+    "work:14406",
+    "work:14267",
+    "work:13686"
+   ],
+   "expected": [
+    "work:14406"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-07337e90": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14411",
+    "work:14308",
+    "work:14533",
+    "work:14087",
+    "work:14550"
+   ],
+   "expected": [
+    "work:14411"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-79cab83d": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:14267",
+    "work:13686",
+    "work:13813",
+    "work:14170",
+    "work:14412"
+   ],
+   "expected": [
+    "work:14412"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-c5c47381": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14416",
+    "work:14550",
+    "work:13872",
+    "work:14170",
+    "work:14130"
+   ],
+   "expected": [
+    "work:14416"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-d2a69aff": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:14402",
+    "work:13842",
+    "work:14413",
+    "work:14330",
+    "work:14088"
+   ],
+   "expected": [
+    "work:14413"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-76584158": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14418",
+    "work:14739",
+    "work:13618",
+    "work:14266",
+    "work:13625"
+   ],
+   "expected": [
+    "work:14418"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7f5bbd50": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:13686",
+    "work:14125",
+    "work:14420",
+    "work:14224",
+    "work:14170"
+   ],
+   "expected": [
+    "work:14420"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-71481ba8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14386",
+    "work:13317",
+    "work:14472",
+    "work:14431",
+    "work:2233"
+   ],
+   "expected": [
+    "work:14386"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-402ee528": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14427",
+    "work:13872",
+    "work:14056",
+    "work:13842",
+    "work:13686"
+   ],
+   "expected": [
+    "work:14427"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-728990c5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14425",
+    "work:14045",
+    "work:14009",
+    "work:14305",
+    "work:14034"
+   ],
+   "expected": [
+    "work:14425"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-5230a45b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14421",
+    "work:14502",
+    "work:14549",
+    "work:14471",
+    "work:13513"
+   ],
+   "expected": [
+    "work:14421"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7c12eaee": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:13681",
+    "work:14435",
+    "work:8672",
+    "work:14721",
+    "work:18049"
+   ],
+   "expected": [
+    "work:14435"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-aa45226d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14434",
+    "work:14118",
+    "work:13576",
+    "work:13621",
+    "work:14015"
+   ],
+   "expected": [
+    "work:14434"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-0503dda2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14433",
+    "work:4562",
+    "work:14371",
+    "work:14564",
+    "work:5116"
+   ],
+   "expected": [
+    "work:14433"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-a345c048": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14431",
+    "work:6210",
+    "work:2939",
+    "work:4679",
+    "work:3461"
+   ],
+   "expected": [
+    "work:14431"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-6f6ce582": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14438",
+    "work:13686",
+    "work:14267",
+    "work:14144",
+    "work:14224"
+   ],
+   "expected": [
+    "work:14438"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-aa392e91": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14442",
+    "work:14164",
+    "work:14273",
+    "work:14328",
+    "work:14231"
+   ],
+   "expected": [
+    "work:14442"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c04a2378": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14436",
+    "work:13894",
+    "work:16560",
+    "work:17391",
+    "work:13851"
+   ],
+   "expected": [
+    "work:14436"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-16d4aa0b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14452",
+    "work:14588",
+    "work:14462",
+    "work:14475",
+    "work:13780"
+   ],
+   "expected": [
+    "work:14452"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-8b2963d8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14450",
+    "work:14299",
+    "work:8509",
+    "work:8527",
+    "work:8550"
+   ],
+   "expected": [
+    "work:14450"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b2413a47": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14459",
+    "work:14292",
+    "work:14390",
+    "work:5255",
+    "work:14010"
+   ],
+   "expected": [
+    "work:14459"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-3dcdcf09": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14462",
+    "work:14571",
+    "work:14502",
+    "work:14581",
+    "work:14754"
+   ],
+   "expected": [
+    "work:14462"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-287c1ea1": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:14462",
+    "work:14125",
+    "work:14475",
+    "work:13780",
+    "work:14588"
+   ],
+   "expected": [
+    "work:14461"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-2b6bc4ad": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14469",
+    "work:13779",
+    "work:13780",
+    "work:13686",
+    "work:13813"
+   ],
+   "expected": [
+    "work:14469"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-38847686": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14291",
+    "work:14473",
+    "work:14267",
+    "work:13731",
+    "work:13686"
+   ],
+   "expected": [
+    "work:14473"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e07440e7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14474",
+    "work:14593",
+    "work:14589",
+    "work:14357",
+    "work:14302"
+   ],
+   "expected": [
+    "work:14474"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-1cf9f9f0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14476",
+    "work:14411",
+    "work:13686",
+    "work:14270",
+    "work:14224"
+   ],
+   "expected": [
+    "work:14476"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-321b734c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14475",
+    "work:14588",
+    "work:14516",
+    "work:14461",
+    "work:14270"
+   ],
+   "expected": [
+    "work:14475"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e0c9e009": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14482",
+    "work:2943",
+    "work:14582",
+    "work:2954",
+    "work:14530"
+   ],
+   "expected": [
+    "work:14482"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-f3ec1afd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14485",
+    "work:14219",
+    "work:14539",
+    "work:14486",
+    "work:14483"
+   ],
+   "expected": [
+    "work:14485"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-7e7375b3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14491",
+    "work:4300",
+    "work:7550",
+    "work:4301",
+    "work:7551"
+   ],
+   "expected": [
+    "work:14491"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8ccf6c95": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:14446",
+    "work:14016",
+    "work:14086",
+    "work:14492",
+    "work:13988"
+   ],
+   "expected": [
+    "work:14492"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-bab4d818": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14501",
+    "work:3370",
+    "work:14590",
+    "work:14568",
+    "work:2065"
+   ],
+   "expected": [
+    "work:14501"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-1ddcbaf4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14509",
+    "work:4562",
+    "work:14090",
+    "work:14590",
+    "work:13943"
+   ],
+   "expected": [
+    "work:14509"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-17e0e31c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14499",
+    "work:14498",
+    "work:14497",
+    "work:14292",
+    "work:7719"
+   ],
+   "expected": [
+    "work:14499"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c4d04425": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14502",
+    "work:14581",
+    "work:14571",
+    "work:14462",
+    "work:14405"
+   ],
+   "expected": [
+    "work:14502"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b41cb3d6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14513",
+    "work:13811",
+    "work:14591",
+    "work:65",
+    "work:13851"
+   ],
+   "expected": [
+    "work:14513"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-2db2f3f2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14504",
+    "work:14513",
+    "work:1351",
+    "work:13811",
+    "work:14298"
+   ],
+   "expected": [
+    "work:14504"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-787979a8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14510",
+    "work:14469",
+    "work:14310",
+    "work:14379",
+    "work:14170"
+   ],
+   "expected": [
+    "work:14510"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-e8f51529": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14516",
+    "work:14461",
+    "work:14588",
+    "work:14475",
+    "work:14327"
+   ],
+   "expected": [
+    "work:14516"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-170d9224": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14530",
+    "work:14136",
+    "work:14482",
+    "work:14582",
+    "work:14220"
+   ],
+   "expected": [
+    "work:14530"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b65196c3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14531",
+    "work:13731",
+    "work:3967",
+    "work:4650",
+    "work:13791"
+   ],
+   "expected": [
+    "work:14531"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-4e1a774f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14528",
+    "work:1457",
+    "work:1388",
+    "work:8379",
+    "work:8374"
+   ],
+   "expected": [
+    "work:14528"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-b39bad08": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14533",
+    "work:14308",
+    "work:14236",
+    "work:14209",
+    "work:14271"
+   ],
+   "expected": [
+    "work:14533"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-62636a89": {
+   "rank": 10,
+   "rr": 0.1,
+   "top5": [
+    "work:14000",
+    "work:14231",
+    "work:14383",
+    "work:14192",
+    "work:14164"
+   ],
+   "expected": [
+    "work:14541"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-06121bad": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14547",
+    "work:14462",
+    "work:13940",
+    "work:13887",
+    "work:14231"
+   ],
+   "expected": [
+    "work:14547"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-2e85f80d": {
+   "rank": 18,
+   "rr": 0.0556,
+   "top5": [
+    "work:13686",
+    "work:14267",
+    "work:13872",
+    "work:14125",
+    "work:14300"
+   ],
+   "expected": [
+    "work:14550"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-37964168": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14526",
+    "work:14085",
+    "work:14192",
+    "work:13887",
+    "work:13940"
+   ],
+   "expected": [
+    "work:14526"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-6a52e72f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14549",
+    "work:13790",
+    "work:13551",
+    "work:14404",
+    "work:14205"
+   ],
+   "expected": [
+    "work:14549"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-2b65e04a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14548",
+    "work:14427",
+    "work:13578",
+    "work:13836",
+    "work:14014"
+   ],
+   "expected": [
+    "work:14548"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-52bf36ba": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14551",
+    "work:14555",
+    "work:13712",
+    "work:14299",
+    "work:8780"
+   ],
+   "expected": [
+    "work:14551"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-c2abc7bc": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14563",
+    "work:14528",
+    "work:14562",
+    "work:13793",
+    "work:14009"
+   ],
+   "expected": [
+    "work:14563"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-8eeb4404": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14564",
+    "work:4252",
+    "work:14549",
+    "work:14387",
+    "work:14433"
+   ],
+   "expected": [
+    "work:14564"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-5e598c61": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14560",
+    "work:13905",
+    "work:13832",
+    "work:7969",
+    "work:7968"
+   ],
+   "expected": [
+    "work:14560"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-3bd260fb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14562",
+    "work:14369",
+    "work:1363",
+    "work:1082",
+    "work:1509"
+   ],
+   "expected": [
+    "work:14562"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-ed92d7fd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14570",
+    "work:14386",
+    "work:4184",
+    "work:14591",
+    "work:4379"
+   ],
+   "expected": [
+    "work:14570"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c975c717": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14566",
+    "work:3370",
+    "work:2101",
+    "work:1626",
+    "work:16581"
+   ],
+   "expected": [
+    "work:14566"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-2b87cea2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14571",
+    "work:14231",
+    "work:14044",
+    "work:13785",
+    "work:14000"
+   ],
+   "expected": [
+    "work:14571"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9469a9c6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14568",
+    "work:13657",
+    "work:14590",
+    "work:3369",
+    "work:14566"
+   ],
+   "expected": [
+    "work:14568"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-27c5da53": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14580",
+    "work:14027",
+    "work:13977",
+    "work:14573",
+    "work:13971"
+   ],
+   "expected": [
+    "work:14580"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-62e0dc12": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14573",
+    "work:14580",
+    "work:14344",
+    "work:14515",
+    "work:14272"
+   ],
+   "expected": [
+    "work:14573"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-7be71af7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14578",
+    "work:13717",
+    "work:13862",
+    "work:8380",
+    "work:13751"
+   ],
+   "expected": [
+    "work:14578"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-749ff29d": {
+   "rank": 31,
+   "rr": 0.0323,
+   "top5": [
+    "work:14492",
+    "work:14016",
+    "work:14086",
+    "work:14305",
+    "work:14219"
+   ],
+   "expected": [
+    "work:14583"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-c6290727": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14582",
+    "work:13922",
+    "work:14108",
+    "work:14312",
+    "work:13594"
+   ],
+   "expected": [
+    "work:14582"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-0cc4dc23": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14591",
+    "work:2787",
+    "work:13949",
+    "work:4191",
+    "work:5115"
+   ],
+   "expected": [
+    "work:14591"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-e07a8766": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14588",
+    "work:14516",
+    "work:14461",
+    "work:13780",
+    "work:13813"
+   ],
+   "expected": [
+    "work:14588"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-357d76c7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14590",
+    "work:4560",
+    "work:4700",
+    "work:14090",
+    "work:14509"
+   ],
+   "expected": [
+    "work:14590"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-9069f81e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14597",
+    "work:14600",
+    "work:14169",
+    "work:14376",
+    "work:14089"
+   ],
+   "expected": [
+    "work:14597"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-bd42a8b9": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14169",
+    "work:14600",
+    "work:14376",
+    "work:14597",
+    "work:14089"
+   ],
+   "expected": [
+    "work:14600"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-864e672f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14593",
+    "work:14589",
+    "work:14474",
+    "work:14357",
+    "work:14302"
+   ],
+   "expected": [
+    "work:14593"
+   ],
+   "split": "train"
+  },
+  "MC-RULING-be39d93b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14589",
+    "work:14593",
+    "work:14474",
+    "work:14357",
+    "work:14252"
+   ],
+   "expected": [
+    "work:14589"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-933443f3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14601",
+    "work:14229",
+    "work:14013",
+    "work:13992",
+    "work:14582"
+   ],
+   "expected": [
+    "work:14601"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-f33645d9": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14604",
+    "work:16783",
+    "work:17634",
+    "work:16980",
+    "work:2549"
+   ],
+   "expected": [
+    "work:14604"
+   ],
+   "split": "val"
+  },
+  "MC-RULING-0a5a771e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14598",
+    "work:13747",
+    "work:13869",
+    "work:13936",
+    "work:14292"
+   ],
+   "expected": [
+    "work:14598"
+   ],
+   "split": "val"
+  }
+ },
+ "timing": {},
+ "provenance": {
+  "git": "5ca931dd",
+  "git_dirty": true,
+  "utc": "2026-09-26T17:22:25Z",
+  "host": "vm",
+  "harness": "0.2.0",
+  "python": "3.12.3",
+  "questions_file": "experiments/data/corpus_c/questions_c.json",
+  "questions_sha256": "bb69881d961b842f730e4130081df8ab05ec27a81ae0d08a3a7f90966bf3a8b7",
+  "qids_sha256": "83995b99b156f293987fcf8d6cef00b958fbbc07aa6cdf9da5918de7c9697dee",
+  "n_qids": 697,
+  "corpus_n_docs": 21259,
+  "corpus_ids_sha256": "e3f088150641cf89fbabf64edf20d2e52fe7fef5bbd4224c1e6728962b1fa08e",
+  "corpus_fingerprint_source": "disk",
+  "omp_threads": null,
+  "argv": "../19_canonical_hybrid/retrieve.py --questions mined"
+ }
+}

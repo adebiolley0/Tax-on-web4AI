@@ -143,7 +143,8 @@ def edition_aware(questions: list[Question], rankings: dict[str, list[str]], doc
     """Map ranking and expected ids to work ids so every edition of a work is an acceptable answer."""
     pos = {d: i for i, d in enumerate(doc_ids)}
     wid = lambda d: f"work:{metas[pos[d]]['work']}" if d in pos else d
-    qs = [Question(q.qid, q.question, sorted({wid(e) for e in q.expected}), sorted({wid(e) for e in q.secondary}), q.meta) for q in questions]
+    qs = [Question(q.qid, q.question, sorted({wid(e) for e in q.expected}), sorted({wid(e) for e in q.secondary}),
+                   {**q.meta, "exclude": sorted({wid(e) for e in (q.meta.get("exclude") or [])})}) for q in questions]
     rk = {qid: [wid(d) for d in r] for qid, r in rankings.items()}
     return qs, rk
 
