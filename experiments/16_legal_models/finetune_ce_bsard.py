@@ -49,6 +49,7 @@ def main():
     ap.add_argument("--no_synthetic", action="store_true")
     ap.add_argument("--bsard_test", type=int, default=100, help="n BSARD test questions for the in-domain check (0 = skip)")
     ap.add_argument("--save", action="store_true")
+    ap.add_argument("--skip_zeroshot", action="store_true", help="skip the zero-shot BSARD-test check (already saved)")
     a = ap.parse_args()
     tag = a.tag or f"{a.base.split('/')[-1]}-bsard"
 
@@ -66,7 +67,7 @@ def main():
     from sentence_transformers.cross_encoder import CrossEncoderTrainer, CrossEncoderTrainingArguments
     from sentence_transformers.cross_encoder.losses import BinaryCrossEntropyLoss
     model = CrossEncoder(a.base, max_length=a.max_len, device="cpu")
-    if a.bsard_test:
+    if a.bsard_test and not a.skip_zeroshot:
         eval_bsard_test(model, f"{a.base.split('/')[-1]}-zeroshot", n_questions=a.bsard_test)
     args = CrossEncoderTrainingArguments(output_dir=str(C.SHM / "ckpt" / tag), num_train_epochs=a.epochs, max_steps=a.max_steps,
                                          per_device_train_batch_size=a.batch, learning_rate=a.lr, warmup_steps=0.1,
