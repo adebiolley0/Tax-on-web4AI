@@ -201,7 +201,22 @@ bagging), *small* (60 trees, 8 leaves) and *medium* (150 trees, 16 leaves, min 1
 
 ### 2.3 What the models learn
 
-_(pending)_
+Largest standardised logistic-regression weights (fit on train, `all` features):
+
+* **A** (Fisconet, 91 docs): `type = Décisions anticipées` (+0.54), bge-m3 log-rank (−0.53), whole-doc BM25
+  score (+0.44), `log_n_chunks` (−0.43), bge / bge-m3 normalised scores (+0.40 / +0.39), `log_doc_len`
+  (−0.37), mMARCO log-rank (−0.36); with the `cheap` set: document type (rulings +, `Commentaires` −),
+  `title_overlap` (+0.55), e5 and whole-doc BM25 scores, `doc_year` (−0.47: older texts are less often the
+  answer), `convex05` (+0.46). The A questions were written from short rulings and circulaires, so a prior on
+  *short documents of the ruling type whose title shares the query's words* is worth as much as a
+  cross-encoder — and it is what gives `logreg / cheap` its 0.732.
+* **B** (codes, 5,853 articles): e5 log-rank / score (−0.64 / +0.58), mMARCO and bge log-ranks (−0.57 /
+  −0.55), RRF (−0.49), `best_pos_e5` (+0.44: the matching chunk sits deep in the article), `type = cir92`
+  (+0.44), `region_match` (+0.46 in the cheap set) and `region_mismatch` (−0.5 in minimal+meta). The
+  reranker ranks carry most of the signal; region and code family are the useful priors (the region filter
+  of exp 08 re-learned from 24 questions).
+* **C** (21k docs): _(pending final run)_
+
 
 ## 3. Conclusions and recommended recipe
 
