@@ -203,3 +203,48 @@ Dutch ruling objets, and the six PQ-targeted human questions (C15–C20) are the
 
 Cost: bank extraction 20 s; e5-small over 9,504 units 12 min (74 ms/text) once; per query one 384-d
 product with the bank (9.5k rows) + BM25 over 9.5k short texts: < 5 ms.
+
+### 2.4 Corpus C – mined questions (697: ruling 377 / pq 163 / faq 157), first stage only
+
+Leak-free bank: 1,828 of the 9,504 units removed (every unit whose source document is a mined question's
+`source_doc`: 561 `pq_q`, 163 `pq_block`, 160 `pq_subject`, 233 `faq`, 375 `ruling_objet`, 336
+`ruling_tags`; 553 source documents), configurations as selected on the human train split.
+`runs/C_mined_tables.md` has every run; MRR / H@1 / R@10 / R@30 per slice:
+
+| run | all (697) | pq (163) | ruling, verbatim (377) | faq, verbatim (157) |
+|---|---|---|---|---|
+| lex13 | 0.729 / 0.693 / 0.789 / 0.818 | 0.059 / 0.031 / 0.123 / 0.227 | 0.924 / 0.875 / 0.995 / 1.000 | 0.958 / 0.943 / 0.987 / 0.994 |
+| lex13 + e5 convex 0.5 | 0.733 / 0.700 / 0.796 / 0.819 | 0.062 / 0.031 / 0.147 / 0.233 | 0.928 / 0.889 / 0.995 / 1.000 | 0.959 / 0.943 / 0.994 / 0.994 |
+| lex13 + e5 RRF60 | 0.685 / 0.634 / 0.778 / 0.813 | 0.057 / 0.031 / 0.129 / 0.215 | 0.858 / 0.788 / 0.976 / 0.997 | 0.921 / 0.892 / 0.975 / 0.994 |
+| intent bank alone (e5 Q→Q, γ 0.5) | 0.036 / 0.036 / 0.036 / 0.036 | 0.000 | 0.000 | 0.159 |
+| + intent leg, e5 Q→Q, γ 0.5, w3 0.1 (human-train-selected) | 0.660 / 0.597 / 0.783 / 0.821 | 0.063 / 0.025 / 0.135 / 0.252 | 0.797 / 0.706 / 0.976 / 0.995 | 0.953 / 0.930 / 0.994 / 0.994 |
+| + intent leg, BM25 Q→Q, γ 0.5, w3 0.1 | 0.664 / 0.597 / 0.792 / 0.826 | 0.065 / 0.025 / 0.160 / 0.270 | 0.802 / 0.706 / 0.981 / 0.997 | 0.953 / 0.930 / 0.994 / 0.994 |
+| + intent leg, e5 Q→Q, γ 0.5, w3 0.3 | 0.452 / 0.386 / 0.588 / 0.696 | 0.040 / 0.012 / 0.086 / 0.135 | 0.443 / 0.347 / 0.645 / 0.814 | 0.902 / 0.866 / 0.975 / 0.994 |
+
+Paired statistics (`rag_eval.stats.paired_stats`, Δ = variant − baseline, reciprocal rank):
+
+| comparison [slice] | n | MRR base → variant | Δ [95 % CI] | p_t / p_perm | W / L / T |
+|---|---:|---|---|---|---|
+| + intent (e5, γ 0.5, w3 0.1) vs lex13 + e5 [all] | 697 | 0.733 → 0.660 | −0.072 [−0.088, −0.059] | < 0.001 | 31 / 122 / 544 |
+| … [pq] | 163 | 0.062 → 0.063 | +0.001 [−0.009, +0.009] | 0.77 / 0.79 | 31 / 18 / 114 |
+| … [ruling] | 377 | 0.928 → 0.797 | −0.131 [−0.158, −0.107] | < 0.001 | 0 / 100 / 277 |
+| … [faq] | 157 | 0.959 → 0.953 | −0.007 [−0.023, 0.000] | 0.13 | 0 / 4 / 153 |
+| lex13 + e5 vs lex13 [all] | 697 | 0.729 → 0.733 | +0.004 [−0.004, +0.012] | 0.38 | 56 / 36 / 605 |
+| lex13 + e5 RRF60 vs lex13 [all] | 697 | 0.729 → 0.685 | −0.044 [−0.060, −0.029] | < 0.001 | 46 / 94 / 557 |
+
+Reading. (1) On the only slice that resembles citizen questions — the **163 PQ questions** (labels = the
+articles the minister's answer cites, the PQ itself excluded) — the intent leg is exactly zero (+0.001,
+31 wins / 18 losses, p = 0.8): the leg's wins on the human PQ questions came from the PQ's *own* question in
+the bank, which the leakage rule removes here, and no other bank question paraphrases them. (2) On the
+**verbatim ruling slice** it is strongly negative (0.928 → 0.797, 0 / 100 / 277): with the target's own
+objet removed, the bank's other ruling objets and tags ("Impôt des sociétés ; scission partielle ; motifs
+économiques valables") match the query well and lift *other* rulings of the same family above the expected
+one — the twin problem of `ideas/README.md` §1 seen through a question bank. (3) The verbatim FAQ slice is
+flat (the heading is also in the target's body, which the lexical leg already nails). (4) Side result on
+n = 697: convex 0.5 fusion of exp-13 lexical and e5 is +0.004 over lexical alone, RRF60 is −0.044
+(p < 0.001) — the mid-range convex weight is the right default, RRF is not, on this corpus.
+
+Caveat on the mined slices: rulings and FAQ questions are copied from their target, so the intent bank in
+deployment *would* contain the very entry that answers them (score 1.0, trivially rank 1) — the leak-free
+number is a pessimistic bound for those slices and the honest one for the PQ slice. Neither supports
+using the leg at w3 ≥ 0.1 as a general third leg.
