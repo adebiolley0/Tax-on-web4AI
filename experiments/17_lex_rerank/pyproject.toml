@@ -1,0 +1,24 @@
+[project]
+name = "exp17-lex-rerank"
+version = "0.1.0"
+description = "Experiment 17: experiment-13 lexical first stage (BM25F title boost, tok01, number normalisation, per-corpus k1/b) + bge-reranker-v2-m3 cross-encoder, evaluated on the train/val split against the exp-09 / exp-03 bars."
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "numpy",
+    "scipy",
+    "rag-eval",
+]
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
