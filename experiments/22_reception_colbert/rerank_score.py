@@ -74,6 +74,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--what", default="mmarco", choices=["mmarco", "bge"])
     ap.add_argument("--no-alt", action="store_true", help="skip the alternative pipeline's pairs")
+    ap.add_argument("--alt-depth-mined", type=int, default=20, help="mMARCO depth of the alternative pipeline on the mined set (budget)")
     a = ap.parse_args()
     import torch
     torch.set_num_threads(4)
@@ -93,8 +94,9 @@ def main():
     if a.what == "mmarco":
         for w in ("human", "mined"):
             for pipe in pipes:
+                depth = DEPTH_MMARCO if (w == "human" or pipe == selected) else a.alt_depth_mined
                 for qid, e in cands[f"{w}:{pipe}"].items():
-                    for d, _ in e["docs"][:DEPTH_MMARCO]:
+                    for d, _ in e["docs"][:depth]:
                         di = doc_index[d]
                         for c in range(int(doc_start[di]), int(doc_start[di + 1])):
                             need[(qid, c)] = None
