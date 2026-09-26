@@ -1,9 +1,12 @@
 [project]
 name = "rag-eval"
-version = "0.1.0"
+version = "0.2.0"
 description = "Shared evaluation harness for the Belgian-tax RAG experiments (corpora, questions, metrics, caching)."
 requires-python = ">=3.12"
 dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+stats = ["scipy>=1.11"]  # rag_eval.stats (paired tests, bootstrap, max-T)
 
 [build-system]
 requires = ["hatchling"]

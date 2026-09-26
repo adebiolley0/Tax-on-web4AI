@@ -31,6 +31,7 @@ class RunResult:
     metrics: dict
     per_question: dict
     timing: dict = field(default_factory=dict)
+    provenance: dict = field(default_factory=dict)   # filled by rag_eval.results.save_result
 
     def to_dict(self) -> dict:
         return asdict(self)

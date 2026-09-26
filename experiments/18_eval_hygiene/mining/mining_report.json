@@ -1,0 +1,163 @@
+{
+ "stats": {
+  "B:after_leak_check": 620,
+  "B:drop:near_duplicate": 94,
+  "B:drop:topic_cap[cenr]": 117,
+  "B:drop:topic_cap[cir92]": 166,
+  "B:drop:topic_cap[csucc]": 55,
+  "B:faq:drop:cap_per_document": 0,
+  "B:faq:drop:human_leak": 24,
+  "B:pq:drop:human_leak": 57,
+  "B:ruling:drop:human_leak": 77,
+  "C:after_leak_check": 1044,
+  "C:drop:near_duplicate": 126,
+  "C:drop:topic_cap[cenr]": 183,
+  "C:faq:drop:cap_per_document": 25,
+  "C:faq:drop:human_leak": 183,
+  "C:pq:drop:human_leak": 8,
+  "C:ruling:drop:human_leak": 24,
+  "faq:docs": 23,
+  "faq:drop:policy": 42,
+  "faq:drop:short": 1,
+  "faq:drop:stat": 56,
+  "faq:headings": 477,
+  "faq:kept": 378,
+  "pq:docs": 1362,
+  "pq:drop:no_question": 15,
+  "pq:drop:no_question_answer_blocks": 376,
+  "pq:drop:no_resolvable_citation": 331,
+  "pq:drop:not_fr": 3,
+  "pq:drop:policy": 320,
+  "pq:drop:too_many_articles": 5,
+  "pq:kept": 312,
+  "rul:docs": 1216,
+  "rul:drop:no_objet": 636,
+  "rul:drop:not_fr": 9,
+  "rul:drop:short_objet": 1,
+  "rul:kept": 570
+ },
+ "sets": {
+  "B": {
+   "n": 188,
+   "by_source": {
+    "faq": 3,
+    "pq": 135,
+    "ruling": 50
+   },
+   "by_topic": {
+    "cir92": 48,
+    "csucc": 47,
+    "cenr": 47,
+    "cta": 36,
+    "ctva": 7,
+    "vcf": 2,
+    "crecouv": 1
+   },
+   "by_split": {
+    "train": 99,
+    "val": 89
+   },
+   "by_label_basis": {
+    "explicit": 159,
+    "bare": 29
+   },
+   "by_source_topic": {
+    "pq": {
+     "csucc": 41,
+     "cenr": 41,
+     "cta": 35,
+     "cir92": 12,
+     "ctva": 4,
+     "vcf": 2
+    },
+    "faq": {
+     "ctva": 1,
+     "crecouv": 1,
+     "cir92": 1
+    },
+    "ruling": {
+     "cir92": 35,
+     "csucc": 6,
+     "cenr": 6,
+     "ctva": 2,
+     "cta": 1
+    }
+   },
+   "n_expected_mean": 4.12,
+   "date_deciles": [
+    "1988",
+    "2000",
+    "2002",
+    "2006",
+    "2012",
+    "2016",
+    "2019",
+    "2021",
+    "2024",
+    "2025",
+    "2026"
+   ]
+  },
+  "C": {
+   "n": 710,
+   "by_source": {
+    "faq": 160,
+    "pq": 210,
+    "ruling": 340
+   },
+   "by_topic": {
+    "cenr": 177,
+    "cir92": 154,
+    "ctva": 153,
+    "csucc": 110,
+    "cdtd": 59,
+    "cta": 57
+   },
+   "by_split": {
+    "val": 342,
+    "train": 368
+   },
+   "by_label_basis": {
+    "document": 186,
+    "explicit": 478,
+    "bare": 46
+   },
+   "by_source_topic": {
+    "pq": {
+     "csucc": 77,
+     "cta": 55,
+     "cenr": 30,
+     "cdtd": 23,
+     "cir92": 18,
+     "ctva": 7
+    },
+    "faq": {
+     "ctva": 126,
+     "cdtd": 25,
+     "cir92": 9
+    },
+    "ruling": {
+     "cenr": 147,
+     "cir92": 127,
+     "csucc": 33,
+     "ctva": 20,
+     "cdtd": 11,
+     "cta": 2
+    }
+   },
+   "n_expected_mean": 2.2,
+   "date_deciles": [
+    "1988",
+    "2006",
+    "2013",
+    "2017",
+    "2018",
+    "2019",
+    "2021",
+    "2023",
+    "2024",
+    "2025"
+   ]
+  }
+ }
+}

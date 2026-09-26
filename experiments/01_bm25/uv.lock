@@ -150,11 +150,15 @@ wheels = [
 
 [[package]]
 name = "rag-eval"
-version = "0.1.0"
+version = "0.2.0"
 source = { editable = "../common" }
 dependencies = [
     { name = "numpy" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "numpy", specifier = ">=1.26" }]
+requires-dist = [
+    { name = "numpy", specifier = ">=1.26" },
+    { name = "scipy", marker = "extra == 'stats'", specifier = ">=1.11" },
+]
+provides-extras = ["stats"]
