@@ -638,13 +638,13 @@
   }
  },
  "timing": {
-  "rank_s": 0.6,
-  "per_query_ms": 1.7
+  "rank_s": 0.5,
+  "per_query_ms": 1.5
  },
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "a6023b3d",
   "git_dirty": true,
-  "utc": "2026-09-26T15:36:51Z",
+  "utc": "2026-09-26T15:38:30Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

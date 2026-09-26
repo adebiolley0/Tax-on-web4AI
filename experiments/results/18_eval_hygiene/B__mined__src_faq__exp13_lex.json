@@ -32,15 +32,15 @@
   "train_hit@1": 0.0,
   "train_hit@5": 0.0,
   "train_recall@10": 0.0,
-  "train_n": 1,
+  "train_n": 2,
   "val_mrr": 0.0,
   "val_hit@1": 0.0,
   "val_hit@5": 0.0,
   "val_recall@10": 0.0,
-  "val_n": 2
+  "val_n": 1
  },
  "per_question": {
-  "MB-FAQ-fc3becca": {
+  "MB-FAQ-9602c3db": {
    "rank": null,
    "rr": 0.0,
    "top5": [
@@ -56,7 +56,22 @@
    ],
    "split": "train"
   },
-  "MB-FAQ-88369c96": {
+  "MB-FAQ-3bb8bea7": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:203",
+    "cir92:242",
+    "cir92:205",
+    "arcir92:56",
+    "cir92:103"
+   ],
+   "expected": [
+    "cir92:53"
+   ],
+   "split": "val"
+  },
+  "MB-FAQ-455d7d37": {
    "rank": null,
    "rr": 0.0,
    "top5": [
@@ -71,38 +86,23 @@
     "crecouv:13",
     "crecouv:7"
    ],
-   "split": "val"
-  },
-  "MB-FAQ-fab157a0": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "cir92:203",
-    "cir92:242",
-    "cir92:205",
-    "arcir92:56",
-    "cir92:103"
-   ],
-   "expected": [
-    "cir92:53"
-   ],
-   "split": "val"
+   "split": "train"
   }
  },
  "timing": {
-  "rank_s": 0.5,
-  "per_query_ms": 1.4
+  "rank_s": 0.6,
+  "per_query_ms": 1.6
  },
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "a6023b3d",
   "git_dirty": true,
-  "utc": "2026-09-26T15:36:53Z",
+  "utc": "2026-09-26T15:38:33Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
   "questions_file": "experiments/data/corpus_b/questions_b.json",
   "questions_sha256": "6052247f0a079ed7eff2581cb0c2290e764d4b71e54c3a8e5e68d08d587f4097",
-  "qids_sha256": "d66caeafaf2023ba0c0d9db90ad585f75ee72012f2e58a77d7eb6b06103881e3",
+  "qids_sha256": "9fa8d0dd7ded66a76e111b1cbccf2d5470e280554bfd6b0c993815fbbcfb080c",
   "n_qids": 3,
   "corpus_n_docs": 9824,
   "corpus_ids_sha256": "1922643f3e52489d68e4a16b5515ba55ad4989a5bffae0ec4ed935a0021f4100",
