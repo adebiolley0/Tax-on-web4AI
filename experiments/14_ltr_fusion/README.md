@@ -93,7 +93,25 @@ set, comparable with the full-set bars). Resubstitution numbers are shown to siz
 
 ### 2.1 Does hand-tuning transfer? (fusion grid, `tune_fusion.py`)
 
-_(pending: tables from `make_tables.py`, β / depth curves)_
+**First stage only** (no reranker; MRR). "Selected on train" is the weight with the best train MRR, scored on val;
+"oof" combines the two honest halves. The fixed recipes of exp 03/09 are shown for comparison on the full set.
+
+| corpus / legs | selected on train → val | selected on val → train | **oof** | fixed w=0.5 (all) | fixed RRF60 (all) | pure BM25 (all) | pure dense (all) |
+|---|---|---|---|---|---|---|---|
+| A e5 + BM25 chunk | w=0.0 → 0.649 (train 0.688) | w=0.7 → 0.642 (val 0.730) | 0.645 | 0.648 | 0.627 | 0.672 | 0.543 |
+| A e5 + BM25 whole-doc | w=0.0 → **0.736** (train 0.666) | w=0.0 → 0.666 | **0.695** | 0.648 | 0.680 | 0.695 | 0.543 |
+| A bge-m3 + BM25 chunk | w=1.0 → 0.602 (train 0.731) | w=0.4 → 0.661 (val 0.702) | 0.636 | 0.666 | 0.650 | 0.672 | 0.678 |
+| B e5 + BM25 chunk | w=0.9 → 0.337 (train 0.532) | w=0.7 → 0.469 (val 0.369) | 0.416 | 0.395 | 0.407 | 0.344 | 0.438 |
+| C e5 + BM25 chunk | w=0.3 → 0.542 (train 0.678) | w=0.6 → 0.589 (val 0.593) | 0.564 | 0.621 | 0.567 | 0.601 | 0.434 |
+
+* The tuned weight transfers **only on A with whole-document BM25**, where both halves agree that BM25 alone
+  (w=0) is best (this is the exp-01 whole-doc result, 0.695, and the val bar 0.736). Everywhere else the
+  train-selected weight is an extreme (w=0.0, 0.9, 1.0 or 0.3) that loses 0.05–0.19 MRR on the other half; the
+  optimum is flat and noisy (A: the five best train weights span val 0.649–0.730).
+* A fixed **w=0.5 is at or above the honest tuned number on every corpus** (A 0.648 vs oof 0.645, B 0.395 vs
+  0.416 with RRF60 at 0.407, C 0.621 vs 0.564). With 17–29 training questions, first-stage weight tuning does
+  not pay: keep w=0.5 (or RRF60) and spend the questions on the second stage.
+
 
 ### 2.2 Learning to rank (`train_ltr.py`)
 
