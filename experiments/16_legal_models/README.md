@@ -52,3 +52,118 @@ i.e. the size of our chunks); positive = the labelled article with the best BM25
 negatives = 3 random picks among the BM25 top-20 non-labelled articles (same French-normalised tokenizer as
 experiment 03). 3,000 pairs, none skipped, built in 22 s.
 
+## Results
+
+Document-level MRR on all questions, with the harness' val-split MRR in parentheses where the run has one
+(A: 12 val q, B: 16, C: 35). Baselines are the leaderboard rows of experiments 02 / 03 / 09 / 13 / 15 on the
+same chunks. All rows of this experiment are in `experiments/results/16_legal_models/` and
+`results/leaderboard.jsonl` (`experiment = 16_legal_models`).
+
+### Stage 1a — zero-shot rerankers on BM25 top-30
+
+| reranker (BM25 top-30 chunks) | A | B | C | s / query (2 threads, shared box) |
+|---|---:|---:|---:|---:|
+| BM25 alone (exp 13, French-normalised) | 0.695 (0.736) | 0.338 (0.290) | 0.601 (0.546) | – |
+| mMARCO-MiniLM-L12 zero-shot (exp 15, max_len 512) | 0.604 (0.534) | 0.494 (0.500) | 0.593 (0.545) | ~2 |
+| **monobert-legal-french** zero-shot (max_len 512) | **0.639 (0.603)** | 0.465 (0.427) | 0.594 (0.597) | 47 (A), 110M params |
+| bge-reranker-v2-m3 (exp 03 / 09) | 0.678 (RRF cand.) | 0.517 (RRF cand.) | 0.696 | 20–24 |
+
+monobert = mMARCO-MiniLM on B and C (0.465 vs 0.494, 0.594 vs 0.593), slightly better on A (0.639 vs 0.604,
+nDCG@5 0.740 vs 0.713), everywhere below bge-reranker-v2-m3 and, on A and C, below plain BM25. It is a
+CamemBERT-base, so 5× the cost of MiniLM for no gain on our questions.
+
+### Stage 1b — dpr-legal-french as the dense leg
+
+| dense leg | A dense | A best fusion | B dense | B best fusion |
+|---|---:|---:|---:|---:|
+| e5-small (exp 02/03) | 0.508 | 0.598 RRF (LanceDB, exp 04) | 0.438 | 0.457 RRF |
+| e5-base (exp 02) | 0.641 | – | 0.469 (cleaned chunks) | – |
+| bge-m3 (exp 02/03) | 0.678 | 0.691 convex 0.5 | too slow on CPU | – |
+| **dpr-legal-french** | 0.575 (val 0.475) | **0.712 convex 0.7** (val 0.653; RRF 0.647, convex 0.3/0.5 0.671/0.685) | **0.242** (val 0.183) | 0.449 convex 0.5 (val 0.467; RRF 0.411) |
+
+Encoding cost: 0.77 s per chunk on this shared box (A 826 s, B 6,448 s = 1.8 h for 10.9k chunks), i.e. the
+cost of e5-base for e5-small/e5-base quality on A and *worse than every model tried* on B (R@10 0.45 vs 0.70 for
+e5-small). Its A fusion number (0.712) is the best all-question fusion on A so far, but its val MRR (0.653) is
+below BM25 alone (0.736) — the gain sits on the 17 train questions and 29 questions cannot separate 0.69 from 0.71.
+
+### Stage 2 — cross-encoder fine-tuned on BSARD
+
+`finetune_ce_bsard.py --n_q 1000 --n_neg 3 --max_len 256 --batch 16 --epochs 1` on top of
+`cross-encoder/mmarco-mMiniLMv2-L12-H384-v1`: 886 real + 114 synthetic questions, 4,000 (query, passage, label)
+rows, BCE loss, lr 2e-5, 250 steps, 65 min on the shared box (a first attempt with 3,000 questions / 500 steps
+was killed at 22 s/step). Model saved in `models/mmarco-minilm-bsard/` (git-ignored).
+
+| reranker on BM25 top-30 | BSARD test (100 q, article level) | A | B | C |
+|---|---:|---:|---:|---:|
+| BM25 alone | 0.231 | 0.695 (0.736) | 0.338 (0.290) | 0.601 (0.546) |
+| mMARCO-MiniLM zero-shot | 0.304 | 0.604 (0.534) | 0.494 (0.500) | 0.593 (0.545) |
+| mMARCO-MiniLM + BSARD, eval max_len 256 | **0.360** | 0.529 (0.434) | 0.454 (0.512) | 0.498 (0.498) |
+| mMARCO-MiniLM + BSARD, eval max_len 512 | – | LEN512_A | LEN512_B | LEN512_C |
+
+The fine-tune does what it is trained for — in-domain BSARD test MRR +18 % over the zero-shot model (0.304 →
+0.360, H@1 0.22 → 0.29) after a single epoch on 886 questions — and **regresses on all three of our corpora**
+(A −0.08, B −0.04, C −0.10 MRR on all questions; val A 0.534 → 0.434, C 0.545 → 0.498, B 0.500 → 0.512 is
+within noise of 16 questions). Why:
+
+1. **Task mismatch.** BSARD questions are citizen questions ("Puis-je refuser de faire des heures
+   supplémentaires ?") against short statutory articles (median 570 chars) of the civil, labour, penal and
+   regional codes; our questions are practitioner tax questions against 1,200–1,500-char chunks of circulars,
+   commentaries and CIR articles. The model learns BSARD's question style and its code vocabulary, not tax.
+2. **False negatives in the hard negatives.** BSARD labels a handful of articles per question; the BM25
+   top-20 "non-relevant" articles used as negatives are often the neighbouring articles of the same section.
+   With BCE the model is pushed to score lexically-matching, topically-relevant passages as 0 — exactly the
+   passages that are relevant in our corpora, where BM25 candidates are already good (H@5 0.90 on A).
+3. **Catastrophic forgetting of the mMARCO signal.** 250 full-model steps at lr 2e-5 on 4k rows of one
+   narrow distribution, with no mMARCO replay, are enough to move a 118M model away from general
+   passage relevance; the loss plateaus at ~0.45 after 50 steps, i.e. most of the epoch is spent fitting the
+   noisy negatives rather than learning.
+4. **Truncation.** Training and the first evaluation used max_len 256, while the zero-shot baseline of
+   experiment 15 was scored at 512; our chunks are ~350–450 CamemBERT/XLM-R tokens, so the 256 row also
+   loses the second half of every chunk. The 512 re-evaluation row above isolates that part.
+
+### Stage 3 — e5-small fine-tuned on BSARD: not run
+
+`finetune_bi_bsard.py` is ready (MultipleNegativesRankingLoss, in-batch + one BM25 hard negative, 1 epoch,
+then `run_dense.py` on A/B), but the same training signal regressed the cross-encoder on every corpus and the
+bi-encoder run needs ~1.5 h of CPU (training + re-encoding 12k chunks); it was not started. The BSARD
+test-split check should be run before spending that time (add `eval_bsard_test` to the script as for the CE).
+
+### colbert-legal-french: not run
+
+`artifact.metadata`-style colbert-ai checkpoint; needs PyLate or RAGatouille in a venv with the experiment-12
+pins (sentence-transformers 5.3 / torch 2.11), which this project does not share. Given the monobert and dpr
+results from the same training recipe, no gain is expected on our corpora.
+
+## What transfers and what does not
+
+- **Domain ≠ task.** All three Maastricht models and BSARD are "Belgian law in French", yet the questions
+  (citizen vs practitioner), document type (statute articles vs circulars / commentaries / rulings) and unit
+  (one article vs a 1,500-char chunk of a long document) differ, and that is what a fine-tuned retriever
+  overfits to. On our tax corpora the in-domain models behave like ordinary mid-size French models.
+- **Rerankers:** monobert-legal-french ≈ mMARCO-MiniLM (0.60–0.64 on A/C, 0.47 on B) at 5× the cost;
+  nothing beats bge-reranker-v2-m3 (0.678 / 0.517 / 0.696).
+- **Bi-encoder:** dpr-legal-french is e5-small/e5-base-class on A (0.575 dense; 0.712 with convex 0.7 fusion —
+  the best A fusion so far, but not on the val split) and clearly bad on B (0.242), the corpus where dense
+  retrieval matters most. e5-base (0.641 / 0.469) remains the better CPU choice.
+- **BSARD as training data:** +18 % in-domain, −0.04 to −0.10 MRR out of domain after one epoch. Cheap
+  transfer fine-tuning from a same-domain public dataset does not replace our own labelled questions; if we
+  fine-tune, it has to be on tax question/chunk pairs (experiment 15's direction), with replay of the original
+  mMARCO data and negatives filtered for false negatives. BSARD is also CC BY-NC-SA, so a BSARD-trained model
+  could not ship in a commercial product anyway.
+
+## Verdict
+
+Keep the experiment-03/09 stack (French-normalised BM25 + e5-base or bge-m3 + bge-reranker-v2-m3). None of the
+Belgian in-domain models earns its cost on our corpora, and BSARD fine-tuning hurts. The only positive signal
+is dpr-legal-french as a fusion leg on corpus A (0.712 all-question MRR), which is within noise of bge-m3 + BM25
+(0.691) and did not hold on the val split or on B.
+
+## Environment notes
+
+- The root disk was at 100 % when the experiment started; the venv was rebuilt on disk once space came back
+  (`uv sync`), caches and logs live on `/dev/shm/exp16` (< 1 GB), downloaded models in the default HF cache
+  (monobert 443 MB, dpr 443 MB, BSARD 53 MB).
+- The box was shared with other torch jobs (load 6–13 on 4 cores) throughout; all timings above are under
+  that load, with `torch.set_num_threads(2)`. Jobs were run one at a time.
+- Two identical `BSARD-test / bm25` rows exist in the leaderboard (the baseline is re-saved by each
+  fine-tune run).
