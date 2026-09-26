@@ -1,6 +1,19 @@
 {
  "selected": "z3_equal",
  "alt": "z_rec_colbert",
+ "final": "z3_equal",
+ "variants": [
+  ""
+ ],
+ "query_length_selection": {
+  "": {
+   "n": 145,
+   "mrr": 0.48206898592679626,
+   "hit@1": 0.38620689655172413,
+   "recall@10": 0.6758620689655173,
+   "recall@30": 0.8137931034482758
+  }
+ },
  "candidates": [
   "z3_equal",
   "z_rec_colbert"

@@ -44,7 +44,7 @@
 | z_colbert_e5 | 0.305 / 0.217 / 0.447 / 0.612 | 0.212 / 0.151 / 0.327 / 0.547 | 0.415 / 0.296 / 0.592 / 0.697 | 0.000 / 0.000 / 0.000 / 0.000 | 0.295 / 0.214 / 0.428 / 0.579 | 0.314 / 0.220 / 0.465 / 0.642 |
 | mm3_equal | 0.489 / 0.395 / 0.694 / 0.836 | 0.319 / 0.208 / 0.560 / 0.761 | 0.690 / 0.613 / 0.859 / 0.930 | 0.026 / 0.000 / 0.000 / 0.333 | 0.480 / 0.386 / 0.662 / 0.807 | 0.497 / 0.403 / 0.723 / 0.862 |
 
-Selection on the mined train split (145 q): z3_equal 0.482 (R@30 0.814), z_rec_colbert 0.474 (R@30 0.814) → **z3_equal**
+Selection on the mined train split (145 q): z3_equal 0.482 (R@30 0.814), z_rec_colbert 0.474 (R@30 0.814) → **z3_equal**; colbert query length (same split, selected weights): _q48 0.482 (R@30 0.814) → **z3_equal**
 
 
 Paired tests, human questions (rag_eval.stats.paired_stats; Δ = new − base, reciprocal rank; p_t paired t, p_perm sign-flip, '~' Monte-Carlo):
