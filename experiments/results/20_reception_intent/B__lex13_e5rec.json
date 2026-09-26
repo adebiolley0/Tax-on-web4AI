@@ -1,62 +1,43 @@
 {
- "name": "lexrec__sent+title_w0.3_b0.75+e5",
+ "name": "lex13+e5rec",
  "corpus": "B",
  "config": {
-  "stage": "lexical BM25F",
-  "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
-  "fields": {
-   "title": 8.0,
-   "heading": 3.0,
-   "body": 1.0,
-   "cue": 1.0,
-   "rec_sent+title": 0.3
-  },
-  "k1": 1.5,
-  "b": {
-   "title": 0.3,
-   "heading": 0.3,
-   "body": 0.75,
-   "rec_sent+title": 0.75
-  },
-  "reception": "sent+title",
-  "reception_weight": 0.3,
-  "reception_b": 0.75,
-  "cap_sentences": 40,
-  "cap_titles": 10,
-  "dense": "e5"
+  "stage": "fusion",
+  "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5rec doc score)",
+  "reception": "dense only"
  },
  "metrics": {
-  "mrr": 0.5768,
-  "ndcg@5": 0.4938,
-  "ndcg@10": 0.5516,
-  "hit@1": 0.475,
-  "hit@3": 0.625,
-  "hit@5": 0.65,
-  "hit@10": 0.775,
-  "recall@5": 0.65,
-  "recall@10": 0.775,
+  "mrr": 0.4324,
+  "ndcg@5": 0.3756,
+  "ndcg@10": 0.4163,
+  "hit@1": 0.3,
+  "hit@3": 0.5,
+  "hit@5": 0.575,
+  "hit@10": 0.65,
+  "recall@5": 0.575,
+  "recall@10": 0.65,
   "n_questions": 40,
-  "train_mrr": 0.6905,
-  "train_hit@1": 0.625,
-  "train_hit@5": 0.75,
-  "train_recall@10": 0.7917,
+  "train_mrr": 0.4765,
+  "train_hit@1": 0.3333,
+  "train_hit@5": 0.625,
+  "train_recall@10": 0.6667,
   "train_n": 24,
-  "val_mrr": 0.4064,
+  "val_mrr": 0.3662,
   "val_hit@1": 0.25,
   "val_hit@5": 0.5,
-  "val_recall@10": 0.75,
+  "val_recall@10": 0.625,
   "val_n": 16
  },
  "per_question": {
   "B1": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
+    "cir92:96/2",
     "cir92:130",
     "cir92:171",
-    "cir92:96/2",
-    "cir92:134",
-    "cir92:51"
+    "cir92:178",
+    "cir92:269"
    ],
    "expected": [
     "cir92:130"
@@ -71,7 +52,7 @@
     "cir92:131",
     "cir92:133",
     "cir92:136",
-    "cir92:132bis"
+    "cir92:142"
    ],
    "expected": [
     "cir92:131"
@@ -84,9 +65,9 @@
    "top5": [
     "cir92:51",
     "arcir92:258",
-    "cir92:57",
     "cir92:50",
-    "cir92:52"
+    "cir92:275/4",
+    "arcir92:7"
    ],
    "expected": [
     "cir92:51"
@@ -98,10 +79,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:145/8",
-    "cir92:145/10",
+    "arcir92:258",
+    "arcir92:634",
     "cir92:145/7",
-    "cir92:145/14",
-    "cir92:145/3"
+    "cir92:145/10"
    ],
    "expected": [
     "cir92:145/8"
@@ -109,14 +90,14 @@
    "split": "train"
   },
   "B5": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
-    "cir92:215",
     "cir92:203",
-    "cir92:217",
-    "cir92:216",
-    "cir92:198"
+    "cir92:289quater",
+    "cir92:215",
+    "cir92:198",
+    "cir92:217"
    ],
    "expected": [
     "cir92:215"
@@ -124,13 +105,13 @@
    "split": "train"
   },
   "B6": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
+    "arcir92:106",
+    "arcir92:117",
     "cir92:203",
     "cir92:202",
-    "arcir92:117",
-    "arcir92:106",
     "cir92:2"
    ],
    "expected": [
@@ -146,7 +127,7 @@
     "arcir92:48",
     "cir92:201",
     "cir92:69/1",
-    "cir92:69/2"
+    "arcir92:47"
    ],
    "expected": [
     "cir92:69"
@@ -154,13 +135,13 @@
    "split": "train"
   },
   "B8": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
-    "arcir92:106",
-    "cir92:269",
     "arcir92:206/1",
     "arcir92:178/2",
+    "arcir92:106",
+    "cir92:269",
     "cir92:281/1"
    ],
    "expected": [
@@ -169,14 +150,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 12,
+   "rr": 0.0833,
    "top5": [
-    "ctva:4",
-    "ctva:11",
-    "ctva:8bis",
+    "artva:AR55:1",
     "ctva:51bis",
-    "artva:AR31:4"
+    "ctva:25quinquies",
+    "ctva:21",
+    "ctva:8bis"
    ],
    "expected": [
     "ctva:4"
@@ -190,8 +171,8 @@
     "artva:AR20:1",
     "artva:AR20:3",
     "artva:AR20:1quater/1",
-    "ctva:27",
-    "ctva:56ter"
+    "ctva:38bis",
+    "ctva:27"
    ],
    "expected": [
     "artva:AR20:1"
@@ -204,8 +185,8 @@
    "top5": [
     "ctva:56decies",
     "ctva:56ter",
-    "ctva:56nonies",
-    "ctva:56bis",
+    "artva:AR2:4",
+    "artva:AR19:14",
     "ctva:56quinquies"
    ],
    "expected": [
@@ -214,14 +195,14 @@
    "split": "val"
   },
   "B12": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 6,
+   "rr": 0.1667,
    "top5": [
-    "artva:AR1:5",
-    "ctva:53",
+    "ctva:54",
+    "artva:AR1:9",
     "ctva:56",
     "artva:AR1:13",
-    "ctva:59"
+    "ctva:53"
    ],
    "expected": [
     "artva:AR1:5"
@@ -234,9 +215,9 @@
    "top5": [
     "cir92:371",
     "cbpf:100",
-    "cir92:413",
+    "vcf:3.5.3.0.1",
     "arcir92:136/1",
-    "agbxl2019:9"
+    "avcf:3.5.2.0.1"
    ],
    "expected": [
     "cir92:371"
@@ -244,14 +225,14 @@
    "split": "val"
   },
   "B14": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
+    "arcir92:225",
     "cir92:358",
     "cir92:444",
-    "cir92:354",
-    "cir92:308/1",
-    "cir92:308"
+    "arcir92:229/7",
+    "cir92:354"
    ],
    "expected": [
     "cir92:354"
@@ -259,13 +240,13 @@
    "split": "val"
   },
   "B15": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 7,
+   "rr": 0.1429,
    "top5": [
-    "cir92:275/5",
     "cir92:275/4",
-    "cir92:275/13",
+    "cir92:275/5",
     "cir92:312",
+    "arcir92:258",
     "arcir92:952"
    ],
    "expected": [
@@ -274,14 +255,14 @@
    "split": "val"
   },
   "B16": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
-    "cir92:38/1",
+    "arcir92:18",
     "cir92:38",
-    "cir92:7",
-    "cir92:145/37",
-    "arcir92:18"
+    "arcir92:182",
+    "cir92:100",
+    "cta_wal:98"
    ],
    "expected": [
     "cir92:145/33"
@@ -289,14 +270,14 @@
    "split": "val"
   },
   "B17": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 24,
+   "rr": 0.0417,
    "top5": [
     "cir92:126",
     "cir92:2",
-    "cir92:132",
-    "cir92:145/35",
-    "cir92:132bis"
+    "cir92:198",
+    "arcir92:144/6",
+    "arcir92:79/3"
    ],
    "expected": [
     "cir92:104"
@@ -304,14 +285,14 @@
    "split": "train"
   },
   "B18": {
-   "rank": 22,
-   "rr": 0.0455,
+   "rank": 38,
+   "rr": 0.0263,
    "top5": [
     "arcir92:258",
     "cir92:66",
     "cta_wal:10",
     "cir92:275/1",
-    "cir92:275/5"
+    "cta_wal:98"
    ],
    "expected": [
     "cir92:36"
@@ -334,14 +315,14 @@
    "split": "val"
   },
   "B20": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
-    "cir92:132",
-    "cir92:136",
     "cta_wal:98",
+    "cir92:132",
+    "cir92:137",
     "cir92:2",
-    "cir92:137"
+    "cir92:148"
    ],
    "expected": [
     "cir92:132"
@@ -349,14 +330,14 @@
    "split": "train"
   },
   "B21": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cenr_bxl:46bis",
     "cir92:7",
-    "cir92:32",
-    "cir92:307",
-    "cir92:145/30"
+    "cenr_bxl:46bis",
+    "cir92:262",
+    "cir92:145/30",
+    "arcir92:4"
    ],
    "expected": [
     "cir92:7"
@@ -364,14 +345,14 @@
    "split": "val"
   },
   "B22": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
+    "artva:AR45:1",
     "cir92:90",
-    "cir92:135",
-    "cir92:32",
     "cir92:234",
-    "artva:AR45:1"
+    "cir92:32",
+    "cir92:135"
    ],
    "expected": [
     "cir92:90"
@@ -382,10 +363,10 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "cir92:52bis",
-    "cir92:202",
     "arcir92:182",
     "cir92:185",
+    "cir92:202",
+    "cir92:206/4",
     "cir92:342"
    ],
    "expected": [
@@ -394,14 +375,14 @@
    "split": "val"
   },
   "B24": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
-    "cir92:66",
     "cir92:550",
-    "cir92:65",
+    "cir92:66",
     "cir92:205",
-    "cir92:198bis"
+    "arcir92:3",
+    "cir92:223"
    ],
    "expected": [
     "cir92:66"
@@ -414,9 +395,9 @@
    "top5": [
     "arcir92:18",
     "arcir92:257",
-    "ue282:7",
     "arcir92:258",
-    "cir92:38/1"
+    "ue282:7",
+    "cir92:38"
    ],
    "expected": [
     "arcir92:18"
@@ -424,14 +405,14 @@
    "split": "train"
   },
   "B26": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 12,
+   "rr": 0.0833,
    "top5": [
     "ctva:53",
     "ctva:59",
     "ctva:61",
-    "ctva:56",
-    "ctva:1"
+    "ctva:57",
+    "artva:AR53:8"
    ],
    "expected": [
     "ctva:44"
@@ -445,8 +426,8 @@
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "ctva:64",
-    "ctva:44",
-    "artva:AR1:5"
+    "vcf:2.8.4.3.1",
+    "arcir92:6314"
    ],
    "expected": [
     "artva:AR20:3"
@@ -461,7 +442,7 @@
     "vcf:3.9.1.0.3",
     "cir92:416",
     "vcf:3.9.1.0.1",
-    "cir92:415/1"
+    "crecouv:14"
    ],
    "expected": [
     "cir92:414"
@@ -472,10 +453,10 @@
    "rank": 7,
    "rr": 0.1429,
    "top5": [
-    "csucc_bxl:146quater",
     "cenr_wal:289bis@01.01.2028",
-    "csucc_wal:146quater",
+    "csucc_bxl:146quater",
     "cenr_wal:289bis",
+    "csucc_wal:146quater",
     "cenr_bxl:289bis@01.01.2028"
    ],
    "expected": [
@@ -484,14 +465,14 @@
    "split": "val"
   },
   "B30": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
-    "artva:AR1:20",
     "artva:AR20:3",
-    "ctva:51",
     "artva:AR20:1quater/1",
-    "ctva:53"
+    "artva:AR1:20",
+    "artva:AR1:20ter",
+    "ctva:64"
    ],
    "expected": [
     "artva:AR1:20"
@@ -499,14 +480,14 @@
    "split": "train"
   },
   "B31": {
-   "rank": 11,
-   "rr": 0.0909,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
-    "csucc_wal:521",
     "csucc_bxl:521",
-    "csucc_wal:56",
-    "csucc_bxl:48",
-    "csucc_wal:51"
+    "csucc_wal:521",
+    "cir92:138",
+    "csucc_wal:42",
+    "vcf:2.7.6.0.6"
    ],
    "expected": [
     "csucc_wal:48"
@@ -514,14 +495,14 @@
    "split": "val"
   },
   "B32": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
     "csucc_bxl:150",
-    "csucc_wal:521",
-    "csucc_wal:150",
-    "csucc_bxl:70",
-    "csucc_bxl:156"
+    "csucc_bxl:156",
+    "ar1927:24014",
+    "csucc_wal:156",
+    "csucc_bxl:70"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -529,14 +510,14 @@
    "split": "train"
   },
   "B33": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 25,
+   "rr": 0.04,
    "top5": [
     "vcf:1.1.0.0.2",
     "csucc_wal:135@01.01.2028",
     "csucc_bxl:135@01.01.2028",
-    "csucc_bxl:135",
-    "csucc_bxl:150"
+    "csucc_bxl:150",
+    "csucc_wal:150"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -544,14 +525,14 @@
    "split": "val"
   },
   "B34": {
-   "rank": 31,
-   "rr": 0.0323,
+   "rank": 42,
+   "rr": 0.0238,
    "top5": [
+    "cenr_bxl:67",
     "cenr_bxl:188",
-    "cenr_bxl:46bis",
-    "cenr_wal:62",
-    "cenr_wal:188",
-    "cenr_wal:131"
+    "cenr_bxl:62",
+    "cenr_bxl:159",
+    "cenr_wal:188"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -563,10 +544,10 @@
    "rr": 1.0,
    "top5": [
     "cenr_bxl:46bis",
-    "cenr_bxl:212bis",
-    "cenr_bxl:46ter",
+    "vcf:2.9.5.0.5",
     "cir92:145/45",
-    "cenr_bxl:62"
+    "cenr_bxl:46ter",
+    "cir92:145/42"
    ],
    "expected": [
     "cenr_bxl:46bis"
@@ -574,14 +555,14 @@
    "split": "train"
   },
   "B36": {
-   "rank": 44,
-   "rr": 0.0227,
+   "rank": 36,
+   "rr": 0.0278,
    "top5": [
     "vcf:2.9.4.2.4",
-    "cenr_wal:62",
+    "avcf:3.10.3.2.5",
     "cenr_bxl:62",
-    "cenr_wal:53",
-    "avcf:3.10.3.2.5"
+    "artva:AR20:3",
+    "cenr_wal:62"
    ],
    "expected": [
     "vcf:2.9.4.2.11"
@@ -592,11 +573,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
+    "csucc_wal:91",
+    "csucc_bxl:91",
     "csucc_bxl:48",
     "csucc_bxl:152",
-    "csucc_wal:48",
-    "csucc_wal:152",
-    "csucc_bxl:91"
+    "cenr_bxl:173"
    ],
    "expected": [
     "cenr_wal:131bis"
@@ -604,14 +585,14 @@
    "split": "val"
   },
   "B38": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
+    "cta_bxl:100",
+    "cta_wal:100",
     "cta_bxl:21",
     "cta_bxl:94",
-    "cta_wal:10",
-    "cta_bxl:98",
-    "cta_bxl:100"
+    "cta_wal:21"
    ],
    "expected": [
     "cta_bxl:98"
@@ -624,9 +605,9 @@
    "top5": [
     "cta_wal:9",
     "cta_wal:98",
-    "cta_wal:97",
     "cta_bxl:9",
-    "cta_wal:10"
+    "cta_wal:8",
+    "cta_wal:97"
    ],
    "expected": [
     "cta_wal:9"
@@ -634,14 +615,14 @@
    "split": "train"
   },
   "B40": {
-   "rank": 26,
-   "rr": 0.0385,
+   "rank": 17,
+   "rr": 0.0588,
    "top5": [
     "cbpf:144",
-    "cbpf:114",
     "csucc_bxl:146quater",
     "agbxl2019:58",
-    "cbpf:39"
+    "cbpf:114",
+    "cir92:413"
    ],
    "expected": [
     "cbpf:100"
@@ -653,7 +634,7 @@
  "provenance": {
   "git": "ae4e121e",
   "git_dirty": true,
-  "utc": "2026-09-26T16:03:30Z",
+  "utc": "2026-09-26T16:03:22Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

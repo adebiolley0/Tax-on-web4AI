@@ -24,9 +24,9 @@
   "cap_titles": 10
  },
  "metrics": {
-  "mrr": 0.4874,
-  "ndcg@5": 0.4546,
-  "ndcg@10": 0.483,
+  "mrr": 0.4882,
+  "ndcg@5": 0.4515,
+  "ndcg@10": 0.4769,
   "hit@1": 0.375,
   "hit@3": 0.55,
   "hit@5": 0.625,
@@ -34,12 +34,12 @@
   "recall@5": 0.625,
   "recall@10": 0.7,
   "n_questions": 40,
-  "train_mrr": 0.5762,
+  "train_mrr": 0.576,
   "train_hit@1": 0.4583,
   "train_hit@5": 0.7083,
   "train_recall@10": 0.75,
   "train_n": 24,
-  "val_mrr": 0.3541,
+  "val_mrr": 0.3566,
   "val_hit@1": 0.25,
   "val_hit@5": 0.5,
   "val_recall@10": 0.625,
@@ -92,13 +92,13 @@
    "split": "train"
   },
   "B4": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cir92:145/10",
     "cir92:145/8",
-    "cir92:34",
-    "cir92:145",
+    "cir92:145/10",
+    "cir92:145/7",
+    "cir92:145/3",
     "cir92:171"
    ],
    "expected": [
@@ -113,8 +113,8 @@
     "cir92:152",
     "cir92:215",
     "cir92:1",
-    "cir92:26",
-    "cir92:203"
+    "cir92:203",
+    "cir92:19"
    ],
    "expected": [
     "cir92:215"
@@ -197,14 +197,14 @@
    "split": "train"
   },
   "B11": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "ctva:56decies",
     "ctva:56bis",
     "ctva:56quinquies",
-    "ctva:56ter",
-    "artva:AR19:2"
+    "artva:AR19:2",
+    "ctva:56ter"
    ],
    "expected": [
     "ctva:56ter"
@@ -260,10 +260,10 @@
    "rank": 12,
    "rr": 0.0833,
    "top5": [
-    "cir92:275",
-    "cir92:87",
     "cir92:275/5",
+    "cir92:87",
     "cir92:270",
+    "cir92:275/13",
     "cir92:275/4"
    ],
    "expected": [
@@ -272,14 +272,14 @@
    "split": "val"
   },
   "B16": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
-    "cir92:145",
+    "cir92:32",
     "cir92:38/1",
     "cir92:178",
-    "cir92:13",
-    "cir92:32"
+    "cir92:145/37",
+    "cir92:163"
    ],
    "expected": [
     "cir92:145/33"
@@ -292,8 +292,8 @@
    "top5": [
     "cir92:2",
     "cir92:132",
-    "cir92:35",
-    "cir92:40",
+    "cir92:145/4",
+    "cir92:145/40",
     "cir92:104"
    ],
    "expected": [
@@ -321,9 +321,9 @@
    "rr": 1.0,
    "top5": [
     "cir92:38/1",
-    "cir92:38",
-    "cir92:145/7",
     "cir92:145/21",
+    "cir92:145/7",
+    "cir92:38",
     "arcir92:6310"
    ],
    "expected": [
@@ -332,13 +332,13 @@
    "split": "val"
   },
   "B20": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
+    "cir92:145/40",
     "cir92:132",
     "cir92:143",
     "cir92:2",
-    "cir92:35",
     "cir92:136"
    ],
    "expected": [
@@ -347,8 +347,8 @@
    "split": "train"
   },
   "B21": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "cenr_wal:84",
     "cenr_bxl:84",
@@ -547,9 +547,9 @@
    "top5": [
     "cenr_wal:131",
     "cir92:473",
-    "cenr_bxl:131",
-    "cenr_vla:46bis",
-    "cenr_bxl:46bis"
+    "cenr_wal:33",
+    "cenr_bxl:33",
+    "cenr_vla:33"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -561,8 +561,8 @@
    "rr": 1.0,
    "top5": [
     "cenr_bxl:46bis",
-    "cenr_bxl:131",
     "cenr_vla:46bis",
+    "cenr_bxl:131",
     "cenr_bxl:212bis",
     "cenr_wal:131"
    ],
@@ -632,14 +632,14 @@
    "split": "train"
   },
   "B40": {
-   "rank": 13,
-   "rr": 0.0769,
+   "rank": 14,
+   "rr": 0.0714,
    "top5": [
     "cir92:473",
     "cenr_bxl:56",
-    "cir92:255",
     "cbpf:114",
-    "csucc_bxl:139"
+    "csucc_bxl:139",
+    "cir92:255"
    ],
    "expected": [
     "cbpf:100"
@@ -648,14 +648,14 @@
   }
  },
  "timing": {
-  "query_ms": 2.38,
+  "query_ms": 2.6,
   "index_units": 8035,
-  "vocab": 19914
+  "vocab": 19929
  },
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "ae4e121e",
   "git_dirty": true,
-  "utc": "2026-09-26T15:33:13Z",
+  "utc": "2026-09-26T16:03:28Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

@@ -24,9 +24,9 @@
   "cap_titles": 10
  },
  "metrics": {
-  "mrr": 0.5319,
-  "ndcg@5": 0.4711,
-  "ndcg@10": 0.4897,
+  "mrr": 0.5315,
+  "ndcg@5": 0.4698,
+  "ndcg@10": 0.4854,
   "hit@1": 0.425,
   "hit@3": 0.65,
   "hit@5": 0.675,
@@ -34,7 +34,7 @@
   "recall@5": 0.675,
   "recall@10": 0.7,
   "n_questions": 40,
-  "train_mrr": 0.6007,
+  "train_mrr": 0.6001,
   "train_hit@1": 0.5,
   "train_hit@5": 0.75,
   "train_recall@10": 0.75,
@@ -98,8 +98,8 @@
     "cir92:145/8",
     "cir92:145/10",
     "cir92:145/7",
-    "cir92:34",
-    "cir92:145/3"
+    "cir92:145/3",
+    "cir92:145/3/1"
    ],
    "expected": [
     "cir92:145/8"
@@ -261,8 +261,8 @@
    "rr": 0.125,
    "top5": [
     "cir92:275/5",
-    "cir92:275",
     "cir92:275/4",
+    "cir92:275/13",
     "cir92:312",
     "arcir92:952"
    ],
@@ -279,7 +279,7 @@
     "cir92:100",
     "cir92:176",
     "cta_wal:98",
-    "cir92:7"
+    "cir92:36"
    ],
    "expected": [
     "cir92:145/33"
@@ -287,13 +287,13 @@
    "split": "val"
   },
   "B17": {
-   "rank": 13,
-   "rr": 0.0769,
+   "rank": 16,
+   "rr": 0.0625,
    "top5": [
     "cir92:2",
     "cir92:126",
     "cir92:132",
-    "cir92:35",
+    "cir92:145/35",
     "cir92:132bis"
    ],
    "expected": [
@@ -321,8 +321,8 @@
    "rr": 1.0,
    "top5": [
     "cir92:38/1",
-    "cir92:38",
     "cir92:145/21",
+    "cir92:38",
     "arcir92:6310",
     "avcf:3.4.6.0.1"
    ],
@@ -352,9 +352,9 @@
    "top5": [
     "cenr_bxl:46bis",
     "cir92:7",
+    "cir92:145/30",
     "cir92:262",
-    "cir92:473",
-    "arcir92:4"
+    "cir92:32"
    ],
    "expected": [
     "cir92:7"
@@ -443,8 +443,8 @@
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "artva:AR3:11",
-    "ctva:64",
-    "ctva:44"
+    "ctva:44",
+    "ctva:64"
    ],
    "expected": [
     "artva:AR20:3"
@@ -548,8 +548,8 @@
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:612",
-    "cenr_wal:62",
-    "cenr_bxl:117"
+    "cenr_bxl:117",
+    "cenr_wal:62"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -648,14 +648,14 @@
   }
  },
  "timing": {
-  "query_ms": 2.38,
+  "query_ms": 2.18,
   "index_units": 8035,
-  "vocab": 19914
+  "vocab": 19929
  },
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "ae4e121e",
   "git_dirty": true,
-  "utc": "2026-09-26T15:33:07Z",
+  "utc": "2026-09-26T16:03:24Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

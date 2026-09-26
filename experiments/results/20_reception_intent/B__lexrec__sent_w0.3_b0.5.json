@@ -24,9 +24,9 @@
   "cap_titles": 10
  },
  "metrics": {
-  "mrr": 0.5334,
+  "mrr": 0.5328,
   "ndcg@5": 0.4776,
-  "ndcg@10": 0.5014,
+  "ndcg@10": 0.4979,
   "hit@1": 0.425,
   "hit@3": 0.65,
   "hit@5": 0.675,
@@ -34,7 +34,7 @@
   "recall@5": 0.675,
   "recall@10": 0.725,
   "n_questions": 40,
-  "train_mrr": 0.6021,
+  "train_mrr": 0.6011,
   "train_hit@1": 0.5,
   "train_hit@5": 0.75,
   "train_recall@10": 0.7917,
@@ -98,8 +98,8 @@
     "cir92:145/8",
     "cir92:145/10",
     "cir92:145/7",
-    "cir92:34",
-    "cir92:145/3"
+    "cir92:145/3",
+    "cir92:145/14"
    ],
    "expected": [
     "cir92:145/8"
@@ -156,8 +156,8 @@
    "rr": 1.0,
    "top5": [
     "cir92:269",
-    "arcir92:206/1",
     "arcir92:106",
+    "arcir92:206/1",
     "cir92:287",
     "cir92:281/1"
    ],
@@ -260,9 +260,9 @@
    "rank": 8,
    "rr": 0.125,
    "top5": [
-    "cir92:275",
     "cir92:275/5",
     "cir92:275/4",
+    "cir92:275/13",
     "cir92:312",
     "arcir92:952"
    ],
@@ -287,14 +287,14 @@
    "split": "val"
   },
   "B17": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 7,
+   "rr": 0.1429,
    "top5": [
     "cir92:2",
     "cir92:126",
-    "cir92:35",
     "cir92:132",
-    "cir92:132bis"
+    "cir92:145/4",
+    "cir92:145/35"
    ],
    "expected": [
     "cir92:104"
@@ -322,8 +322,8 @@
    "top5": [
     "cir92:38/1",
     "cir92:38",
-    "arcir92:6310",
     "cir92:145/21",
+    "arcir92:6310",
     "avcf:3.4.6.0.1"
    ],
    "expected": [
@@ -352,9 +352,9 @@
    "top5": [
     "cenr_bxl:46bis",
     "cir92:7",
+    "cir92:32",
     "cir92:262",
-    "cir92:473",
-    "ctva:44"
+    "cir92:145/30"
    ],
    "expected": [
     "cir92:7"
@@ -548,8 +548,8 @@
     "cenr_wal:188",
     "cenr_bxl:188",
     "cenr_bxl:612",
-    "cenr_wal:62",
-    "cenr_bxl:117"
+    "cenr_bxl:117",
+    "cenr_wal:62"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -648,14 +648,14 @@
   }
  },
  "timing": {
-  "query_ms": 2.44,
+  "query_ms": 2.2,
   "index_units": 8035,
-  "vocab": 19914
+  "vocab": 19929
  },
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "ae4e121e",
   "git_dirty": true,
-  "utc": "2026-09-26T15:33:07Z",
+  "utc": "2026-09-26T16:03:23Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

@@ -104,3 +104,102 @@ questions — the numbers are in `runs/C_mined.json`). PQ questions additionally
 the ranking (`exclude`, harness rule). Paired statistics with `rag_eval.stats.paired_stats`.
 
 ## 2. Results
+
+### 2.1 Corpus B – first stage (5,853 articles, 40 questions: 24 train / 16 val)
+
+`runs/B_stage1_tables.md` has the full 12-point grid (lexical alone, + e5, + e5rec); the rows below are the
+references, the baselines and the train-selected points. R@30 = first expected article within the top 30.
+
+| run | MRR train | MRR **val** | MRR all | H@1 val | H@1 all | R@10 val | R@10 all | R@30 **val** | R@30 all |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| ref – exp 13 BM25F lexical | 0.458 | 0.341 | 0.411 | 0.250 | 0.300 | 0.625 | 0.625 | 0.625 | 0.725 |
+| ref – exp 03 e5-small + BM25 RRF (first stage of the bar) | 0.481 | 0.420 | 0.457 | 0.312 | 0.300 | 0.750 | 0.750 | 0.812 | 0.850 |
+| ref – exp 12 colbert-fr + BM25 RRF (best first stage) | 0.470 | **0.539** | 0.498 | 0.438 | 0.375 | 0.812 | 0.800 | **0.938** | 0.875 |
+| lex13 (reproduced, 40/40 identical ranks) | 0.458 | 0.341 | 0.411 | 0.250 | 0.300 | 0.625 | 0.625 | 0.625 | 0.725 |
+| lex13 + e5 convex 0.5 (no-reception fusion baseline) | 0.459 | 0.336 | 0.410 | 0.250 | 0.275 | 0.625 | 0.700 | 0.688 | 0.750 |
+| **reception, lexical only** `sent+title`, w 0.5, b 0.5 (train-selected, also best train R@30) | 0.646 | **0.427** | 0.558 | 0.312 | 0.475 | 0.750 | 0.775 | **0.812** | 0.825 |
+| reception `sent` only, w 0.5, b 0.5 | 0.597 | 0.472 | 0.547 | 0.375 | 0.450 | 0.688 | 0.750 | 0.688 | 0.775 |
+| reception `sent+title`, w 1.0, b 0.5 | 0.576 | 0.354 | 0.487 | 0.250 | 0.375 | 0.625 | 0.700 | 0.750 | 0.800 |
+| **reception + e5** `sent+title`, w 1.0, b 0.5 (train-selected fused) | 0.722 | **0.465** | 0.619 | 0.312 | 0.525 | 0.812 | 0.825 | **0.812** | 0.850 |
+| reception + e5 `sent+title`, w 0.5, b 0.5 (the lexical winner, fused) | 0.717 | 0.448 | 0.609 | 0.250 | 0.500 | 0.812 | 0.825 | 0.812 | 0.850 |
+| lex13 + e5rec (dense reception vectors only, no lexical field) | 0.476 | 0.366 | 0.432 | 0.250 | 0.300 | 0.625 | 0.650 | 0.750 | 0.800 |
+| reception `sent+title` w 0.5 b 0.5 + e5rec | 0.661 | 0.440 | 0.573 | 0.250 | 0.500 | 0.750 | 0.800 | 0.812 | 0.825 |
+
+Grid behaviour on train: every one of the 12 reception points beats lex13 (train 0.545–0.646 vs 0.458),
+titles help (`sent+title` > `sent` at every weight), weight 1.0 is too much (the reception field then
+outvotes the article text: B15, B22, B40 drop), b 0.5 vs 0.75 is noise. On **val** the field gives
++0.087 MRR lexical-only (6 wins / 3 losses / 7 ties, paired t p = 0.35) and **+0.111 fused** (7 / 3 / 6,
+p = 0.12, Wilcoxon 0.10, bootstrap CI [−0.02, +0.24]); R@30 val 0.625 → 0.812 lexical-only, 0.688 → 0.812
+fused. It does **not** reach the colbert-fr + BM25 first stage (val 0.539, R@30 0.938; −0.07 to −0.11 MRR,
+p 0.3–0.4) and is level with the exp-03 e5 RRF first stage (+0.01 to +0.04, p > 0.5).
+
+What the reception field actually does (per-question ranks in `runs/B_stage1.json`): the three
+"layman-only" val questions that no lexical stage ever retrieved move into the top 10 — **B16** *100 euros à
+une ONG* (`cir92:145/33`, cited by the *libéralités* circulars: not in top 50 → 10 lexical, 3 fused), **B31**
+*père décédé à Namur* (`csucc_wal:48`: – → 6 / 3), **B26** *cours particuliers, TVA* (`ctva:44`: – → 25 / 5);
+on train B17 *contribution alimentaire* (`cir92:104`: – → 7 / 3), B9, B12, B5, B30 go to rank 1–2. What
+it cannot do: articles nobody cites by number (B23 `cir92:215` rate article is cited only in ISoc
+boilerplate; B37 `cenr_wal:131bis`, B33 `vcf:2.7.4.1.1`, B34/B36 registration rates: the citing sentences
+talk about the article, not about "acheter une maison à Charleroi"), and it costs B15 (`arcir92:88`, no
+reception, 8 → 9), B40 (`cbpf:100`, 2 → 5 lexical, 16 → not in top 50 fused: the CBPF has almost no
+reception, so any article with one now outranks it) and B11 (2 → 4).
+
+The dense reception variant (e5-small on the reception text, max-pooled with the article vector) adds
+nothing the lexical field does not already give: alone +0.026 val over lex13+e5 (R@30 0.688 → 0.750), and
+on top of the lexical field it is slightly negative (0.440 vs 0.448 fused; the "reception pieces" of hub
+articles such as `ctva:44` are close to every VAT question). It cost 18 min of e5-small encoding for 10,406
+pieces; not worth keeping.
+
+Cost: extraction 25 s over 11k documents, index build + tokenisation 12 s, query time 1.4 ms → 2.0 ms
+(the reception field adds 401 median tokens per article, 1.9 M tokens in all, +45 % index size).
+
+### 2.2 Corpus C – first stage (21,259 documents, 64 questions: 29 train / 35 val)
+
+| run | MRR train | MRR **val** | MRR all | H@1 val | H@1 all | R@10 val | R@10 all | R@30 val | R@30 all |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| ref – exp 13 BM25F lexical (reproduced 64/64) | 0.764 | 0.616 | 0.683 | 0.486 | 0.594 | 0.886 | 0.875 | 0.943 | 0.922 |
+| ref – exp 09 e5-small + BM25 (tok03) convex 0.5 | 0.674 | 0.577 | 0.621 | 0.429 | 0.484 | 0.886 | 0.891 | 0.943 | 0.938 |
+| lex13 + e5 convex 0.5 (chunk level, doc max) – our two-leg baseline | 0.702 | 0.640 | 0.668 | 0.514 | 0.547 | 0.914 | 0.906 | 0.943 | 0.922 |
+| lex13 + e5 RRF60 | 0.656 | 0.602 | 0.626 | 0.514 | 0.531 | 0.857 | 0.875 | 0.971 | 0.953 |
+| intent bank alone, e5 Q→Q | 0.043 | 0.060 | 0.052 | 0.029 | 0.031 | 0.143 | 0.109 | 0.171 | 0.141 |
+| intent bank alone, BM25 Q→Q | 0.086 | 0.186 | 0.141 | 0.143 | 0.109 | 0.229 | 0.188 | 0.229 | 0.203 |
+| **+ intent leg**, e5 Q→Q, γ 0.5, w3 0.1 (train-selected) | 0.715 | **0.685** | 0.698 | **0.600** | 0.594 | 0.943 | 0.906 | 0.943 | 0.922 |
+| + intent leg, e5 Q→Q, γ 0, w3 0.1 | 0.705 | 0.662 | 0.682 | 0.571 | 0.578 | 0.914 | 0.891 | 0.943 | 0.922 |
+| + intent leg, BM25 Q→Q, γ 0.5, w3 0.1 | 0.707 | 0.673 | 0.689 | 0.571 | 0.578 | 0.943 | 0.922 | 0.943 | 0.922 |
+| + intent leg, e5 Q→Q, γ 0.5, w3 0.3 | 0.596 | 0.494 | 0.540 | 0.400 | 0.438 | 0.686 | 0.766 | 0.886 | 0.875 |
+| + intent leg, w3 0.5 (any similarity) | 0.26–0.33 | 0.27–0.45 | | | | | | | |
+| RRF60 of the three document rankings, e5 Q→Q, γ 0.5, w3 0.3 | 0.641 | 0.594 | 0.615 | 0.514 | 0.516 | 0.829 | 0.859 | 0.971 | 0.953 |
+
+Paired tests on val (n = 35), reciprocal-rank differences:
+
+| comparison | mean Δrr | W / L / T | paired t p | sign p | Wilcoxon p | bootstrap 95 % CI |
+|---|---:|---|---:|---:|---:|---|
+| + intent (e5, γ 0.5, w3 0.1) vs lex13 + e5 | +0.045 | 7 / 6 / 22 | 0.26 | 1.00 | 0.46 | [−0.03, +0.12] |
+| + intent vs lex13 (lexical only) | +0.069 | 10 / 3 / 22 | 0.16 | 0.09 | 0.13 | [−0.02, +0.16] |
+| + intent vs exp-09 convex 0.5 | +0.108 | 12 / 5 / 18 | 0.04 | 0.14 | 0.04 | [+0.02, +0.21] |
+| lex13 + e5 vs lex13 | +0.024 | 11 / 3 / 21 | 0.38 | 0.06 | 0.18 | [−0.03, +0.08] |
+
+The intent leg behaves as idea 95 predicted: **≈ 0 on statute lookups, a small precision gain on the
+questions whose intent exists in the bank**, and only at a small weight. With w3 = 0.1 (the leg can move a
+document by at most 0.1 of the fused score range) the val changes are C19 *usufruit avenant* (6 → 1, the PQ's
+own question), C20 *adoption simple* (2 → 1), C38 *revente maison < 2 ans* (2 → 1), C15 (2 → 1), C16 (4 → 3),
+C25 *TOB courtier étranger* (15 → 8) against C39 (4 → 7), C46 (4 → 6), C31 (1 → 3), C48 (5 → 6): a bank
+question about the *same topic but a different document* pushes a wrong PQ / ruling up. At w3 ≥ 0.3 that
+second effect dominates (val 0.49; the bank covers 2,447 documents, and its top-scored documents crowd out
+the rest: R@10 0.914 → 0.686), and in RRF form the leg is negative at every weight (the leg's documents get
+a full rank contribution whether or not their question matched well). γ = 0.5 (documents cited by the
+matched question's source, e.g. the article a PQ answer cites) helps consistently (+0.01–0.02 train and
+val over γ = 0).
+
+**Bank coverage.** The e5 nearest-neighbour cosine is 0.89–0.93 for *every* question (median 0.914 —
+e5-small's `query:` space is nearly isotropic-blind at this scale, so a similarity threshold cannot serve as a
+"we have this question" gate as idea 95 hoped): only 2 / 64 questions have their expected document as the
+nearest bank question's answer (C15, C24), 6 / 64 within the top 5 (adding C17, C20, C40). BM25 over bank
+questions is the better Q→Q signal on its own (intent-only val MRR 0.186 vs 0.060, R@30 0.229 vs 0.171) but
+fuses slightly worse than e5. The honest coverage statement: **≈ 10 % of the human questions have a
+paraphrase in the bank whose answer is the expected document**; the 9,504 units are mostly PQ sentences on
+statistics and policy (the "combien de fois / le ministre envisage-t-il" material idea 73 warns about) and
+Dutch ruling objets, and the six PQ-targeted human questions (C15–C20) are the ones that benefit.
+
+Cost: bank extraction 20 s; e5-small over 9,504 units 12 min (74 ms/text) once; per query one 384-d
+product with the bank (9.5k rows) + BM25 over 9.5k short texts: < 5 ms.

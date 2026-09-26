@@ -26,25 +26,25 @@
   "dense": "e5"
  },
  "metrics": {
-  "mrr": 0.557,
-  "ndcg@5": 0.4896,
-  "ndcg@10": 0.5268,
+  "mrr": 0.5604,
+  "ndcg@5": 0.4859,
+  "ndcg@10": 0.5347,
   "hit@1": 0.45,
   "hit@3": 0.625,
   "hit@5": 0.65,
-  "hit@10": 0.725,
+  "hit@10": 0.75,
   "recall@5": 0.65,
-  "recall@10": 0.725,
+  "recall@10": 0.75,
   "n_questions": 40,
   "train_mrr": 0.6862,
   "train_hit@1": 0.625,
   "train_hit@5": 0.75,
   "train_recall@10": 0.75,
   "train_n": 24,
-  "val_mrr": 0.3631,
+  "val_mrr": 0.3718,
   "val_hit@1": 0.1875,
   "val_hit@5": 0.5,
-  "val_recall@10": 0.6875,
+  "val_recall@10": 0.75,
   "val_n": 16
  },
  "per_question": {
@@ -101,7 +101,7 @@
     "cir92:145/10",
     "cir92:145/7",
     "cir92:145/14",
-    "arcir92:258"
+    "cir92:145/3"
    ],
    "expected": [
     "cir92:145/8"
@@ -259,12 +259,12 @@
    "split": "val"
   },
   "B15": {
-   "rank": 9,
-   "rr": 0.1111,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
-    "cir92:275/4",
     "cir92:275/5",
-    "cir92:275",
+    "cir92:275/4",
+    "cir92:275/13",
     "cir92:312",
     "arcir92:952"
    ],
@@ -274,8 +274,8 @@
    "split": "val"
   },
   "B16": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "cir92:38",
     "arcir92:18",
@@ -295,8 +295,8 @@
     "cir92:126",
     "cir92:2",
     "cir92:132",
-    "cir92:132bis",
-    "cir92:133"
+    "cir92:145/35",
+    "cir92:132bis"
    ],
    "expected": [
     "cir92:104"
@@ -304,14 +304,14 @@
    "split": "train"
   },
   "B18": {
-   "rank": 27,
-   "rr": 0.037,
+   "rank": 28,
+   "rr": 0.0357,
    "top5": [
     "arcir92:258",
     "cir92:66",
     "cta_wal:10",
     "cir92:275/1",
-    "cta_wal:98"
+    "cir92:275/5"
    ],
    "expected": [
     "cir92:36"
@@ -338,8 +338,8 @@
    "rr": 1.0,
    "top5": [
     "cir92:132",
-    "cta_wal:98",
     "cir92:136",
+    "cta_wal:98",
     "cir92:2",
     "cir92:137"
    ],
@@ -354,9 +354,9 @@
    "top5": [
     "cenr_bxl:46bis",
     "cir92:7",
-    "cir92:307",
-    "cir92:262",
-    "cir92:12"
+    "cir92:32",
+    "cir92:145/30",
+    "cir92:307"
    ],
    "expected": [
     "cir92:7"
@@ -401,7 +401,7 @@
     "cir92:550",
     "cir92:198bis",
     "cir92:65",
-    "cir92:36"
+    "cir92:205"
    ],
    "expected": [
     "cir92:66"
@@ -581,7 +581,7 @@
     "cenr_wal:62",
     "cenr_bxl:62",
     "cenr_wal:53",
-    "cenr_wal:52"
+    "avcf:3.10.3.2.5"
    ],
    "expected": [
     "vcf:2.9.4.2.11"
@@ -651,9 +651,9 @@
  },
  "timing": {},
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "ae4e121e",
   "git_dirty": true,
-  "utc": "2026-09-26T15:33:13Z",
+  "utc": "2026-09-26T16:03:29Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

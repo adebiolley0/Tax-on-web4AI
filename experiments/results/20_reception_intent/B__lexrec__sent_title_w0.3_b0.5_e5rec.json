@@ -1,9 +1,9 @@
 {
- "name": "lexrec__sent+title_w0.3_b0.75+e5",
+ "name": "lexrec__sent+title_w0.3_b0.5+e5rec",
  "corpus": "B",
  "config": {
   "stage": "lexical BM25F",
-  "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5 doc score)",
+  "fusion": "0.5*minmax(lexical doc score) + 0.5*minmax(e5rec doc score)",
   "fields": {
    "title": 8.0,
    "heading": 3.0,
@@ -16,35 +16,35 @@
    "title": 0.3,
    "heading": 0.3,
    "body": 0.75,
-   "rec_sent+title": 0.75
+   "rec_sent+title": 0.5
   },
   "reception": "sent+title",
   "reception_weight": 0.3,
-  "reception_b": 0.75,
+  "reception_b": 0.5,
   "cap_sentences": 40,
   "cap_titles": 10,
-  "dense": "e5"
+  "dense": "e5rec"
  },
  "metrics": {
-  "mrr": 0.5768,
-  "ndcg@5": 0.4938,
-  "ndcg@10": 0.5516,
+  "mrr": 0.5646,
+  "ndcg@5": 0.4942,
+  "ndcg@10": 0.5461,
   "hit@1": 0.475,
-  "hit@3": 0.625,
-  "hit@5": 0.65,
-  "hit@10": 0.775,
-  "recall@5": 0.65,
-  "recall@10": 0.775,
+  "hit@3": 0.6,
+  "hit@5": 0.675,
+  "hit@10": 0.8,
+  "recall@5": 0.675,
+  "recall@10": 0.8,
   "n_questions": 40,
-  "train_mrr": 0.6905,
-  "train_hit@1": 0.625,
+  "train_mrr": 0.6574,
+  "train_hit@1": 0.5833,
   "train_hit@5": 0.75,
   "train_recall@10": 0.7917,
   "train_n": 24,
-  "val_mrr": 0.4064,
-  "val_hit@1": 0.25,
-  "val_hit@5": 0.5,
-  "val_recall@10": 0.75,
+  "val_mrr": 0.4254,
+  "val_hit@1": 0.3125,
+  "val_hit@5": 0.5625,
+  "val_recall@10": 0.8125,
   "val_n": 16
  },
  "per_question": {
@@ -53,10 +53,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:130",
-    "cir92:171",
     "cir92:96/2",
+    "cir92:171",
     "cir92:134",
-    "cir92:51"
+    "cir92:178"
    ],
    "expected": [
     "cir92:130"
@@ -83,10 +83,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:51",
+    "cir92:52bis",
     "arcir92:258",
-    "cir92:57",
-    "cir92:50",
-    "cir92:52"
+    "cir92:52",
+    "cir92:57"
    ],
    "expected": [
     "cir92:51"
@@ -100,8 +100,8 @@
     "cir92:145/8",
     "cir92:145/10",
     "cir92:145/7",
-    "cir92:145/14",
-    "cir92:145/3"
+    "cir92:145/3",
+    "cir92:145/14"
    ],
    "expected": [
     "cir92:145/8"
@@ -124,14 +124,14 @@
    "split": "train"
   },
   "B6": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cir92:203",
     "cir92:202",
+    "cir92:203",
     "arcir92:117",
     "arcir92:106",
-    "cir92:2"
+    "cir92:204"
    ],
    "expected": [
     "cir92:202"
@@ -145,8 +145,8 @@
     "cir92:69",
     "arcir92:48",
     "cir92:201",
-    "cir92:69/1",
-    "cir92:69/2"
+    "arcir92:47",
+    "cir92:69/1"
    ],
    "expected": [
     "cir92:69"
@@ -169,14 +169,14 @@
    "split": "train"
   },
   "B9": {
-   "rank": 1,
-   "rr": 1.0,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
+    "ctva:8bis",
+    "ctva:21",
     "ctva:4",
     "ctva:11",
-    "ctva:8bis",
-    "ctva:51bis",
-    "artva:AR31:4"
+    "ctva:2"
    ],
    "expected": [
     "ctva:4"
@@ -188,10 +188,10 @@
    "rr": 1.0,
    "top5": [
     "artva:AR20:1",
-    "artva:AR20:3",
-    "artva:AR20:1quater/1",
+    "ctva:38bis",
+    "ctva:37",
     "ctva:27",
-    "ctva:56ter"
+    "artva:AR20:3"
    ],
    "expected": [
     "artva:AR20:1"
@@ -199,14 +199,14 @@
    "split": "train"
   },
   "B11": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 3,
+   "rr": 0.3333,
    "top5": [
     "ctva:56decies",
+    "ctva:56quinquies",
     "ctva:56ter",
     "ctva:56nonies",
-    "ctva:56bis",
-    "ctva:56quinquies"
+    "ctva:56sexies"
    ],
    "expected": [
     "ctva:56ter"
@@ -218,10 +218,10 @@
    "rr": 1.0,
    "top5": [
     "artva:AR1:5",
-    "ctva:53",
-    "ctva:56",
+    "artva:AR1:9",
     "artva:AR1:13",
-    "ctva:59"
+    "ctva:54",
+    "ctva:53"
    ],
    "expected": [
     "artva:AR1:5"
@@ -244,14 +244,14 @@
    "split": "val"
   },
   "B14": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
+    "cir92:308/1",
+    "cir92:311",
     "cir92:358",
     "cir92:444",
-    "cir92:354",
-    "cir92:308/1",
-    "cir92:308"
+    "cir92:354"
    ],
    "expected": [
     "cir92:354"
@@ -274,14 +274,14 @@
    "split": "val"
   },
   "B16": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "cir92:38/1",
-    "cir92:38",
-    "cir92:7",
     "cir92:145/37",
-    "arcir92:18"
+    "cir92:38",
+    "cir92:145/33",
+    "cir92:7"
    ],
    "expected": [
     "cir92:145/33"
@@ -289,14 +289,14 @@
    "split": "val"
   },
   "B17": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "cir92:126",
     "cir92:2",
     "cir92:132",
-    "cir92:145/35",
-    "cir92:132bis"
+    "cir92:104",
+    "cir92:145/35"
    ],
    "expected": [
     "cir92:104"
@@ -304,14 +304,14 @@
    "split": "train"
   },
   "B18": {
-   "rank": 22,
-   "rr": 0.0455,
+   "rank": 36,
+   "rr": 0.0278,
    "top5": [
     "arcir92:258",
     "cir92:66",
     "cta_wal:10",
-    "cir92:275/1",
-    "cir92:275/5"
+    "cta_bxl:4",
+    "cta_wal:4"
    ],
    "expected": [
     "cir92:36"
@@ -355,8 +355,8 @@
     "cenr_bxl:46bis",
     "cir92:7",
     "cir92:32",
-    "cir92:307",
-    "cir92:145/30"
+    "cir92:473",
+    "cir92:307"
    ],
    "expected": [
     "cir92:7"
@@ -382,11 +382,11 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "cir92:52bis",
+    "cir92:192",
     "cir92:202",
+    "cir92:52bis",
     "arcir92:182",
-    "cir92:185",
-    "cir92:342"
+    "cir92:185"
    ],
    "expected": [
     "cir92:215"
@@ -400,8 +400,8 @@
     "cir92:66",
     "cir92:550",
     "cir92:65",
-    "cir92:205",
-    "cir92:198bis"
+    "cta_wal:98",
+    "cir92:205"
    ],
    "expected": [
     "cir92:66"
@@ -424,14 +424,14 @@
    "split": "train"
   },
   "B26": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "ctva:53",
     "ctva:59",
     "ctva:61",
     "ctva:56",
-    "ctva:1"
+    "ctva:57"
    ],
    "expected": [
     "ctva:44"
@@ -445,8 +445,8 @@
     "artva:AR20:3",
     "artva:AR20:1quater/1",
     "ctva:64",
-    "ctva:44",
-    "artva:AR1:5"
+    "artva:AR1:20",
+    "ctva:51"
    ],
    "expected": [
     "artva:AR20:3"
@@ -469,8 +469,8 @@
    "split": "train"
   },
   "B29": {
-   "rank": 7,
-   "rr": 0.1429,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "csucc_bxl:146quater",
     "cenr_wal:289bis@01.01.2028",
@@ -488,10 +488,10 @@
    "rr": 1.0,
    "top5": [
     "artva:AR1:20",
-    "artva:AR20:3",
     "ctva:51",
-    "artva:AR20:1quater/1",
-    "ctva:53"
+    "artva:AR20:3",
+    "ctva:53",
+    "ctva:64"
    ],
    "expected": [
     "artva:AR1:20"
@@ -499,14 +499,14 @@
    "split": "train"
   },
   "B31": {
-   "rank": 11,
-   "rr": 0.0909,
+   "rank": 8,
+   "rr": 0.125,
    "top5": [
     "csucc_wal:521",
-    "csucc_bxl:521",
     "csucc_wal:56",
+    "csucc_bxl:521",
     "csucc_bxl:48",
-    "csucc_wal:51"
+    "csucc_wal:54"
    ],
    "expected": [
     "csucc_wal:48"
@@ -514,14 +514,14 @@
    "split": "val"
   },
   "B32": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 31,
+   "rr": 0.0323,
    "top5": [
-    "csucc_bxl:150",
     "csucc_wal:521",
+    "csucc_bxl:150",
+    "csucc_vla:55quinquies",
     "csucc_wal:150",
-    "csucc_bxl:70",
-    "csucc_bxl:156"
+    "csucc_wal:55sexies"
    ],
    "expected": [
     "csucc_bxl:55bis"
@@ -529,14 +529,14 @@
    "split": "train"
   },
   "B33": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 43,
+   "rr": 0.0233,
    "top5": [
     "vcf:1.1.0.0.2",
     "csucc_wal:135@01.01.2028",
     "csucc_bxl:135@01.01.2028",
-    "csucc_bxl:135",
-    "csucc_bxl:150"
+    "vcf:2.7.3.2.5",
+    "csucc_bxl:135"
    ],
    "expected": [
     "vcf:2.7.4.1.1"
@@ -544,14 +544,14 @@
    "split": "val"
   },
   "B34": {
-   "rank": 31,
-   "rr": 0.0323,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
-    "cenr_bxl:188",
+    "cenr_wal:131",
+    "cenr_bxl:131",
     "cenr_bxl:46bis",
-    "cenr_wal:62",
-    "cenr_wal:188",
-    "cenr_wal:131"
+    "cenr_bxl:67",
+    "cenr_wal:131quinquies"
    ],
    "expected": [
     "cenr_wal:44bis"
@@ -564,9 +564,9 @@
    "top5": [
     "cenr_bxl:46bis",
     "cenr_bxl:212bis",
-    "cenr_bxl:46ter",
+    "cenr_bxl:131",
     "cir92:145/45",
-    "cenr_bxl:62"
+    "cenr_bxl:46ter"
    ],
    "expected": [
     "cenr_bxl:46bis"
@@ -574,14 +574,14 @@
    "split": "train"
   },
   "B36": {
-   "rank": 44,
-   "rr": 0.0227,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
     "vcf:2.9.4.2.4",
-    "cenr_wal:62",
     "cenr_bxl:62",
-    "cenr_wal:53",
-    "avcf:3.10.3.2.5"
+    "cenr_wal:62",
+    "cenr_bxl:46bis",
+    "cenr_wal:52"
    ],
    "expected": [
     "vcf:2.9.4.2.11"
@@ -593,10 +593,10 @@
    "rr": 0.0,
    "top5": [
     "csucc_bxl:48",
+    "csucc_wal:91",
+    "csucc_bxl:91",
     "csucc_bxl:152",
-    "csucc_wal:48",
-    "csucc_wal:152",
-    "csucc_bxl:91"
+    "csucc_wal:48"
    ],
    "expected": [
     "cenr_wal:131bis"
@@ -604,14 +604,14 @@
    "split": "val"
   },
   "B38": {
-   "rank": 4,
-   "rr": 0.25,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
     "cta_bxl:21",
+    "cta_wal:21",
     "cta_bxl:94",
-    "cta_wal:10",
-    "cta_bxl:98",
-    "cta_bxl:100"
+    "cta_bxl:100",
+    "cta_wal:100"
    ],
    "expected": [
     "cta_bxl:98"
@@ -634,14 +634,14 @@
    "split": "train"
   },
   "B40": {
-   "rank": 26,
-   "rr": 0.0385,
+   "rank": 30,
+   "rr": 0.0333,
    "top5": [
     "cbpf:144",
     "cbpf:114",
     "csucc_bxl:146quater",
     "agbxl2019:58",
-    "cbpf:39"
+    "cir92:473"
    ],
    "expected": [
     "cbpf:100"

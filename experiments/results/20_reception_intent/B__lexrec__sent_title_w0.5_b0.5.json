@@ -24,25 +24,25 @@
   "cap_titles": 10
  },
  "metrics": {
-  "mrr": 0.5447,
-  "ndcg@5": 0.5026,
-  "ndcg@10": 0.5244,
-  "hit@1": 0.45,
+  "mrr": 0.5583,
+  "ndcg@5": 0.4969,
+  "ndcg@10": 0.5318,
+  "hit@1": 0.475,
   "hit@3": 0.6,
-  "hit@5": 0.7,
-  "hit@10": 0.75,
-  "recall@5": 0.7,
-  "recall@10": 0.75,
+  "hit@5": 0.675,
+  "hit@10": 0.775,
+  "recall@5": 0.675,
+  "recall@10": 0.775,
   "n_questions": 40,
-  "train_mrr": 0.6273,
-  "train_hit@1": 0.5417,
-  "train_hit@5": 0.7917,
+  "train_mrr": 0.6457,
+  "train_hit@1": 0.5833,
+  "train_hit@5": 0.75,
   "train_recall@10": 0.7917,
   "train_n": 24,
-  "val_mrr": 0.4209,
+  "val_mrr": 0.4272,
   "val_hit@1": 0.3125,
   "val_hit@5": 0.5625,
-  "val_recall@10": 0.6875,
+  "val_recall@10": 0.75,
   "val_n": 16
  },
  "per_question": {
@@ -92,14 +92,14 @@
    "split": "train"
   },
   "B4": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cir92:145/10",
     "cir92:145/8",
-    "cir92:34",
+    "cir92:145/10",
     "cir92:145/7",
-    "cir92:145"
+    "cir92:145/3",
+    "cir92:145/1"
    ],
    "expected": [
     "cir92:145/8"
@@ -249,7 +249,7 @@
     "cir92:354",
     "cir92:358",
     "arcir92:225",
-    "cir92:309"
+    "cir92:310"
    ],
    "expected": [
     "cir92:354"
@@ -260,9 +260,9 @@
    "rank": 9,
    "rr": 0.1111,
    "top5": [
-    "cir92:275",
     "cir92:275/5",
     "cir92:275/4",
+    "cir92:275/13",
     "cir92:87",
     "cir92:312"
    ],
@@ -272,13 +272,13 @@
    "split": "val"
   },
   "B16": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 10,
+   "rr": 0.1,
    "top5": [
+    "cir92:145/37",
     "cir92:38/1",
     "cir92:163",
-    "cir92:145",
-    "cir92:13",
+    "cir92:32",
     "cir92:178"
    ],
    "expected": [
@@ -287,14 +287,14 @@
    "split": "val"
   },
   "B17": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 7,
+   "rr": 0.1429,
    "top5": [
     "cir92:2",
-    "cir92:35",
     "cir92:132",
+    "cir92:145/4",
     "cir92:126",
-    "cir92:104"
+    "cir92:145/35"
    ],
    "expected": [
     "cir92:104"
@@ -309,7 +309,7 @@
     "cir92:66",
     "cta_wal:10",
     "cir92:275/1",
-    "cta_bxl:4"
+    "cir92:275/5"
    ],
    "expected": [
     "cir92:36"
@@ -321,10 +321,10 @@
    "rr": 1.0,
    "top5": [
     "cir92:38/1",
-    "cir92:38",
     "cir92:145/21",
+    "cir92:38",
     "arcir92:6310",
-    "avcf:3.4.6.0.1"
+    "cir92:145/7"
    ],
    "expected": [
     "cir92:38/1"
@@ -337,9 +337,9 @@
    "top5": [
     "cir92:132",
     "cir92:2",
+    "cir92:145/40",
     "cta_wal:98",
-    "cir92:136",
-    "cir92:132bis"
+    "cir92:136"
    ],
    "expected": [
     "cir92:132"
@@ -353,8 +353,8 @@
     "cenr_bxl:46bis",
     "cir92:473",
     "cir92:7",
-    "cenr_wal:46bis",
-    "cenr_wal:84"
+    "cir92:32",
+    "cenr_wal:46bis"
    ],
    "expected": [
     "cir92:7"
@@ -399,7 +399,7 @@
     "cir92:65",
     "cta_wal:98",
     "cir92:62",
-    "cir92:36"
+    "cir92:550"
    ],
    "expected": [
     "cir92:66"
@@ -648,14 +648,14 @@
   }
  },
  "timing": {
-  "query_ms": 2.82,
+  "query_ms": 2.8,
   "index_units": 8035,
-  "vocab": 19914
+  "vocab": 19929
  },
  "provenance": {
-  "git": "3fd79eb8",
+  "git": "ae4e121e",
   "git_dirty": true,
-  "utc": "2026-09-26T15:33:12Z",
+  "utc": "2026-09-26T16:03:27Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
