@@ -1,0 +1,1022 @@
+{
+ "name": "pre__+canon_twin_only__editionaware",
+ "corpus": "C",
+ "config": {
+  "stage": "fusion only",
+  "text": "raw",
+  "quality_filter": false,
+  "canonicalisation": "twin",
+  "facet_routing": false,
+  "fusion": "z-score convex w_dense=0.5 (fixed)",
+  "facet_boost": null,
+  "eval": "edition-aware (any edition of the work accepted)"
+ },
+ "metrics": {
+  "mrr": 0.6315,
+  "ndcg@5": 0.6259,
+  "ndcg@10": 0.6481,
+  "hit@1": 0.5156,
+  "hit@3": 0.7031,
+  "hit@5": 0.8125,
+  "hit@10": 0.875,
+  "recall@5": 0.8047,
+  "recall@10": 0.8568,
+  "n_questions": 64,
+  "train_mrr": 0.6326,
+  "train_hit@1": 0.5172,
+  "train_hit@5": 0.8621,
+  "train_recall@10": 0.8966,
+  "train_n": 29,
+  "val_mrr": 0.6306,
+  "val_hit@1": 0.5143,
+  "val_hit@5": 0.7714,
+  "val_recall@10": 0.8238,
+  "val_n": 35
+ },
+ "per_question": {
+  "C1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1580",
+    "work:2257",
+    "work:2240",
+    "work:2407",
+    "work:1314"
+   ],
+   "expected": [
+    "work:1580"
+   ],
+   "split": "val"
+  },
+  "C2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1536",
+    "work:13251",
+    "work:1648",
+    "work:4275",
+    "work:400"
+   ],
+   "expected": [
+    "work:1536"
+   ],
+   "split": "train"
+  },
+  "C3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1589",
+    "work:2286",
+    "work:17090",
+    "work:246",
+    "work:17276"
+   ],
+   "expected": [
+    "work:1589"
+   ],
+   "split": "train"
+  },
+  "C4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1516",
+    "work:8303",
+    "work:602",
+    "work:8371",
+    "work:8370"
+   ],
+   "expected": [
+    "work:1516"
+   ],
+   "split": "train"
+  },
+  "C5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:18386",
+    "work:16400",
+    "work:15427",
+    "work:17808",
+    "work:18614"
+   ],
+   "expected": [
+    "work:1562"
+   ],
+   "split": "train"
+  },
+  "C6": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:13396",
+    "work:19008",
+    "work:13399",
+    "work:2386",
+    "work:1601"
+   ],
+   "expected": [
+    "work:1601"
+   ],
+   "split": "train"
+  },
+  "C7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1584",
+    "work:1544",
+    "work:1527",
+    "work:1082",
+    "work:1595"
+   ],
+   "expected": [
+    "work:1584"
+   ],
+   "split": "val"
+  },
+  "C8": {
+   "rank": 30,
+   "rr": 0.0333,
+   "top5": [
+    "work:17819",
+    "work:18075",
+    "work:1551",
+    "work:2233",
+    "work:13317"
+   ],
+   "expected": [
+    "work:1535",
+    "work:1560"
+   ],
+   "split": "val"
+  },
+  "C9": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:17821",
+    "work:2582",
+    "work:17754",
+    "work:14390",
+    "work:2908"
+   ],
+   "expected": [
+    "work:14390"
+   ],
+   "split": "train"
+  },
+  "C10": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14439",
+    "work:16146",
+    "work:2261",
+    "work:18681",
+    "work:17390"
+   ],
+   "expected": [
+    "work:14439"
+   ],
+   "split": "train"
+  },
+  "C11": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14490",
+    "work:18690",
+    "work:13604",
+    "work:17417",
+    "work:13797"
+   ],
+   "expected": [
+    "work:14490"
+   ],
+   "split": "train"
+  },
+  "C12": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14576",
+    "work:17416",
+    "work:17543",
+    "work:14566",
+    "work:17517"
+   ],
+   "expected": [
+    "work:14576"
+   ],
+   "split": "val"
+  },
+  "C13": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:18573",
+    "work:18406",
+    "work:14595",
+    "work:9283",
+    "work:18402"
+   ],
+   "expected": [
+    "work:14595"
+   ],
+   "split": "train"
+  },
+  "C14": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14586",
+    "work:14286",
+    "work:14555",
+    "work:13892",
+    "work:17544"
+   ],
+   "expected": [
+    "work:14586"
+   ],
+   "split": "val"
+  },
+  "C15": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:18569",
+    "work:18090",
+    "work:1529",
+    "work:18743",
+    "work:17828"
+   ],
+   "expected": [
+    "work:18090"
+   ],
+   "split": "val"
+  },
+  "C16": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:17537",
+    "work:16539",
+    "work:17414",
+    "work:18218",
+    "work:18497"
+   ],
+   "expected": [
+    "work:18218"
+   ],
+   "split": "val"
+  },
+  "C17": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:17975",
+    "work:17517",
+    "work:17390",
+    "work:17864",
+    "work:17416"
+   ],
+   "expected": [
+    "work:17416",
+    "work:17975"
+   ],
+   "split": "val"
+  },
+  "C18": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:18557",
+    "work:17939",
+    "work:17666",
+    "work:18237",
+    "work:17584"
+   ],
+   "expected": [
+    "work:17666"
+   ],
+   "split": "train"
+  },
+  "C19": {
+   "rank": 19,
+   "rr": 0.0526,
+   "top5": [
+    "work:16207",
+    "work:1959",
+    "work:15669",
+    "work:18887",
+    "work:15739"
+   ],
+   "expected": [
+    "work:17803"
+   ],
+   "split": "val"
+  },
+  "C20": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:1369",
+    "work:18555",
+    "work:6853",
+    "work:1687",
+    "work:12612"
+   ],
+   "expected": [
+    "work:18555"
+   ],
+   "split": "val"
+  },
+  "C21": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14777",
+    "work:8354",
+    "work:1088",
+    "work:1087",
+    "work:7017"
+   ],
+   "expected": [
+    "work:14777"
+   ],
+   "split": "train"
+  },
+  "C22": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14788",
+    "work:18549",
+    "work:18529",
+    "work:17831",
+    "work:18472"
+   ],
+   "expected": [
+    "work:14772",
+    "work:14788"
+   ],
+   "split": "val"
+  },
+  "C23": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:14775",
+    "work:13066",
+    "work:8354",
+    "work:13426",
+    "work:18719"
+   ],
+   "expected": [
+    "work:14775"
+   ],
+   "split": "train"
+  },
+  "C24": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:17518",
+    "work:1141",
+    "work:14769",
+    "work:18691",
+    "work:14431"
+   ],
+   "expected": [
+    "work:14769"
+   ],
+   "split": "train"
+  },
+  "C25": {
+   "rank": 14,
+   "rr": 0.0714,
+   "top5": [
+    "work:14913",
+    "work:18645",
+    "work:14925",
+    "work:18609",
+    "work:16758"
+   ],
+   "expected": [
+    "work:14771",
+    "work:1591"
+   ],
+   "split": "val"
+  },
+  "C26": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13260",
+    "work:1619",
+    "work:2319",
+    "work:13941",
+    "work:2517"
+   ],
+   "expected": [
+    "work:13260"
+   ],
+   "split": "val"
+  },
+  "C27": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:2250",
+    "work:1639",
+    "work:2388",
+    "work:18949",
+    "work:2242"
+   ],
+   "expected": [
+    "work:13412",
+    "work:13416",
+    "work:13417"
+   ],
+   "split": "val"
+  },
+  "C28": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13266",
+    "work:18967",
+    "work:18950",
+    "work:18949",
+    "work:18968"
+   ],
+   "expected": [
+    "work:13266"
+   ],
+   "split": "train"
+  },
+  "C29": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:13514",
+    "work:13515",
+    "work:13516",
+    "work:2407",
+    "work:13517"
+   ],
+   "expected": [
+    "work:13516"
+   ],
+   "split": "train"
+  },
+  "C30": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:1600",
+    "work:1203",
+    "work:4863",
+    "work:4864",
+    "work:1593"
+   ],
+   "expected": [
+    "work:1203"
+   ],
+   "split": "val"
+  },
+  "C31": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:1127",
+    "work:1829",
+    "work:14769",
+    "work:8255",
+    "work:1024"
+   ],
+   "expected": [
+    "work:1127"
+   ],
+   "split": "val"
+  },
+  "C32": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:1163",
+    "work:17795",
+    "work:1254",
+    "work:1125",
+    "work:1146"
+   ],
+   "expected": [
+    "work:1146"
+   ],
+   "split": "train"
+  },
+  "C33": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "work:13066",
+    "work:4949",
+    "work:4723",
+    "work:3222",
+    "work:6720"
+   ],
+   "expected": [
+    "work:3967"
+   ],
+   "split": "train"
+  },
+  "C34": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:4458",
+    "work:4494",
+    "work:4460",
+    "work:6663",
+    "work:7569"
+   ],
+   "expected": [
+    "work:4458"
+   ],
+   "split": "train"
+  },
+  "C35": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "work:17734",
+    "work:13236",
+    "work:16866",
+    "work:646",
+    "work:13078"
+   ],
+   "expected": [
+    "work:4660"
+   ],
+   "split": "train"
+  },
+  "C36": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:5254",
+    "work:8097",
+    "work:131",
+    "work:130",
+    "work:16867"
+   ],
+   "expected": [
+    "work:5254"
+   ],
+   "split": "val"
+  },
+  "C37": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:6458",
+    "work:5806",
+    "work:5810",
+    "work:5808",
+    "work:5811"
+   ],
+   "expected": [
+    "work:6458"
+   ],
+   "split": "val"
+  },
+  "C38": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:8350",
+    "work:8380",
+    "work:7961",
+    "work:3156",
+    "work:14563"
+   ],
+   "expected": [
+    "work:7961"
+   ],
+   "split": "val"
+  },
+  "C39": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:2246",
+    "work:6445",
+    "work:14729",
+    "work:2300",
+    "work:6812"
+   ],
+   "expected": [
+    "work:6812"
+   ],
+   "split": "val"
+  },
+  "C40": {
+   "rank": 11,
+   "rr": 0.0909,
+   "top5": [
+    "work:2042",
+    "work:5939",
+    "work:17391",
+    "work:5897",
+    "work:13937"
+   ],
+   "expected": [
+    "work:5946"
+   ],
+   "split": "val"
+  },
+  "C41": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:8351",
+    "work:1972",
+    "work:1581",
+    "work:8307",
+    "work:1107"
+   ],
+   "expected": [
+    "work:8351"
+   ],
+   "split": "train"
+  },
+  "C42": {
+   "rank": 41,
+   "rr": 0.0244,
+   "top5": [
+    "work:13742",
+    "work:13687",
+    "work:14539",
+    "work:14484",
+    "work:14296"
+   ],
+   "expected": [
+    "work:8364"
+   ],
+   "split": "val"
+  },
+  "C43": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:8335",
+    "work:1372",
+    "work:2110",
+    "work:8305",
+    "work:8349"
+   ],
+   "expected": [
+    "work:8335"
+   ],
+   "split": "val"
+  },
+  "C44": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:8359",
+    "work:7059",
+    "work:1083",
+    "work:2344",
+    "work:8353"
+   ],
+   "expected": [
+    "work:8359"
+   ],
+   "split": "train"
+  },
+  "C45": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:8338",
+    "work:8350",
+    "work:8371",
+    "work:8370",
+    "work:2183"
+   ],
+   "expected": [
+    "work:8338"
+   ],
+   "split": "train"
+  },
+  "C46": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "work:3146",
+    "work:1351",
+    "work:18049",
+    "work:3144",
+    "work:18280"
+   ],
+   "expected": [
+    "work:8700"
+   ],
+   "split": "val"
+  },
+  "C47": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "work:17517",
+    "work:16503",
+    "work:12417",
+    "work:12419",
+    "work:8275"
+   ],
+   "expected": [
+    "work:12417"
+   ],
+   "split": "val"
+  },
+  "C48": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "work:15319",
+    "work:14957",
+    "work:14975",
+    "work:12645",
+    "work:13802"
+   ],
+   "expected": [
+    "work:12645"
+   ],
+   "split": "val"
+  },
+  "C49": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:15792",
+    "work:16503",
+    "work:15992",
+    "work:15663",
+    "work:16276"
+   ],
+   "expected": [
+    "work:15792"
+   ],
+   "split": "train"
+  },
+  "C50": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:16364",
+    "work:16274",
+    "work:17556",
+    "work:18507",
+    "work:18735"
+   ],
+   "expected": [
+    "work:16274"
+   ],
+   "split": "val"
+  },
+  "C51": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:16416",
+    "work:18887",
+    "work:15632",
+    "work:18707",
+    "work:16392"
+   ],
+   "expected": [
+    "work:16416"
+   ],
+   "split": "val"
+  },
+  "C52": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:16381",
+    "work:17418",
+    "work:1982",
+    "work:2277",
+    "work:2278"
+   ],
+   "expected": [
+    "work:16381"
+   ],
+   "split": "train"
+  },
+  "C53": {
+   "rank": 28,
+   "rr": 0.0357,
+   "top5": [
+    "work:1295",
+    "work:18018",
+    "work:17841",
+    "work:18539",
+    "work:2355"
+   ],
+   "expected": [
+    "work:16551"
+   ],
+   "split": "train"
+  },
+  "C54": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:14926",
+    "work:16192",
+    "work:16088",
+    "work:14954",
+    "work:16089"
+   ],
+   "expected": [
+    "work:16192"
+   ],
+   "split": "train"
+  },
+  "C55": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:16634",
+    "work:15660",
+    "work:1309",
+    "work:16146",
+    "work:2772"
+   ],
+   "expected": [
+    "work:16634"
+   ],
+   "split": "val"
+  },
+  "C56": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "work:18645",
+    "work:16150",
+    "work:18650",
+    "work:14771",
+    "work:16758"
+   ],
+   "expected": [
+    "work:16758"
+   ],
+   "split": "train"
+  },
+  "C57": {
+   "rank": 10,
+   "rr": 0.1,
+   "top5": [
+    "work:1321",
+    "work:1115",
+    "work:8307",
+    "work:8303",
+    "work:1683"
+   ],
+   "expected": [
+    "work:1114"
+   ],
+   "split": "val"
+  },
+  "C58": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:316",
+    "work:4072",
+    "work:5834",
+    "work:4071",
+    "work:13132"
+   ],
+   "expected": [
+    "work:316"
+   ],
+   "split": "val"
+  },
+  "C59": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:370",
+    "work:2458",
+    "work:5250",
+    "work:5251",
+    "work:2555"
+   ],
+   "expected": [
+    "work:370"
+   ],
+   "split": "train"
+  },
+  "C60": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:17101",
+    "work:16916",
+    "work:17528",
+    "work:16783",
+    "work:17561"
+   ],
+   "expected": [
+    "work:17101"
+   ],
+   "split": "val"
+  },
+  "C61": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "work:17889",
+    "work:17116",
+    "work:17073",
+    "work:2211",
+    "work:7202"
+   ],
+   "expected": [
+    "work:17116"
+   ],
+   "split": "train"
+  },
+  "C62": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:17008",
+    "work:17308",
+    "work:17261",
+    "work:16490",
+    "work:1801"
+   ],
+   "expected": [
+    "work:17008"
+   ],
+   "split": "val"
+  },
+  "C63": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:13088",
+    "work:13317",
+    "work:2240",
+    "work:18966",
+    "work:2331"
+   ],
+   "expected": [
+    "work:13088"
+   ],
+   "split": "val"
+  },
+  "C64": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "work:18756",
+    "work:16691",
+    "work:16679",
+    "work:16755",
+    "work:16707"
+   ],
+   "expected": [
+    "work:18756"
+   ],
+   "split": "val"
+  }
+ },
+ "timing": {},
+ "provenance": {
+  "git": "f0c8a0e2",
+  "git_dirty": true,
+  "utc": "2026-09-26T15:43:12Z",
+  "host": "vm",
+  "harness": "0.2.0",
+  "python": "3.12.3",
+  "questions_file": "experiments/data/corpus_c/questions_c.json",
+  "questions_sha256": "bb69881d961b842f730e4130081df8ab05ec27a81ae0d08a3a7f90966bf3a8b7",
+  "qids_sha256": "47c4a1fe3b647c11750524bcdd0589c211f1b3631de514dc8552dd59219be97c",
+  "n_qids": 64,
+  "corpus_n_docs": 21259,
+  "corpus_ids_sha256": "e3f088150641cf89fbabf64edf20d2e52fe7fef5bbd4224c1e6728962b1fa08e",
+  "corpus_fingerprint_source": "disk",
+  "omp_threads": null,
+  "argv": "../19_canonical_hybrid/retrieve.py"
+ }
+}

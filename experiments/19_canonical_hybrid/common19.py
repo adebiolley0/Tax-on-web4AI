@@ -447,13 +447,18 @@ def split_metrics_from_ranks(ranks: dict[str, int | None], questions) -> dict:
 def paired_tests(rr_new: np.ndarray, rr_ref: np.ndarray, seed: int = 0, n_boot: int = 20000) -> dict:
     """Paired t, sign test, Wilcoxon, bootstrap CI on reciprocal-rank differences. Uses
     rag_eval.stats when present (another agent may add it), else scipy inline."""
-    try:
-        from rag_eval import stats as rs  # type: ignore
-        if hasattr(rs, "paired_tests"):
-            return rs.paired_tests(rr_new, rr_ref)
-    except Exception:
-        pass
     from scipy import stats
+    try:
+        from rag_eval import stats as rs  # type: ignore  (round-3 module: paired t, sign-flip permutation, BCa CI)
+        ps = rs.paired_stats(np.asarray(rr_ref, float), np.asarray(rr_new, float), "rr", seed=seed)
+        return {"n": ps.n, "mean_diff": ps.delta, "wins": ps.wins, "losses": ps.losses, "ties": ps.ties, "t": ps.t,
+                "p_t": ps.p_t, "p_perm": ps.p_perm, "perm_exact": ps.perm_exact, "ci95": [ps.ci_lo, ps.ci_hi], "ci_method": ps.ci_method,
+                "effect_size": ps.effect_size,
+                "p_sign": float(stats.binomtest(ps.wins, ps.wins + ps.losses, 0.5).pvalue) if ps.wins + ps.losses else None,
+                "p_wilcoxon": (float(stats.wilcoxon(rr_new, rr_ref, zero_method="wilcox").pvalue) if ps.wins + ps.losses else None),
+                "source": "rag_eval.stats"}
+    except ImportError:
+        pass
     d = rr_new - rr_ref
     n = len(d)
     wins, losses = int((d > 1e-12).sum()), int((d < -1e-12).sum())

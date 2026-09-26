@@ -134,7 +134,7 @@ POLICY_RES = [re.compile(p) for p in [
     r"\bplaidez-vous\b", r"\bsoutenez-vous\b", r"\bregrettez-vous\b", r"\bdeplorez-vous\b", r"\bvoulez-vous\b",
     r"\bcollaborat", r"\bcampagne\b", r"\bsensibilis", r"\bcommunication\b", r"\binformer\b",
     r"\bapplication informatique\b", r"\blogiciel\b", r"\bsite (?:web|internet)\b", r"\bplateforme\b",
-    r"\bpromess", r"\bpromis\b", r"\bconfirmez-vous\b", r"\bces informations\b", r"\bcette information\b", r"\bau courant\b", r"\bexpliqu", r"\braisons?\b", r"\bjustifi", r"\b[eê]tes-vous\b", r"\bseriez-vous\b",
+    r"\bpromess", r"\bpromis\b", r"\bconfirmez-vous\b", r"\bqu'en pense\b", r"\bpensent?\b", r"\bqu'en est-il exactement\b", r"\bsur quoi porter", r"\bces informations\b", r"\bcette information\b", r"\bau courant\b", r"\bexpliqu", r"\braisons?\b", r"\bjustifi", r"\b[eê]tes-vous\b", r"\bseriez-vous\b",
     r"\bsera(?:-t-(?:il|elle))?\s+(?:publi|adopt|disponible|mis|pris|pr[eê]t)", r"\bconfirmer (?:que|qu')\s*(?:le|la|les|des) (?:promesse|d[ée]claration)",
     r"\bministre (?:a-t-il|a-t-elle|est-il|est-elle) (?:effectivement|d[ée]j[àa])\b", r"\bd[ée]lai(?:s)? (?:de traitement|d'attente)\b",
 ]]
@@ -756,9 +756,9 @@ def main():
     print(json.dumps(rep["sets"], ensure_ascii=False, indent=1))
     # held-out sample for hand checking
     pool = [("B", r) for r in sets["B"]] + [("C", r) for r in sets["C"]]
-    rng = random.Random(a.seed)
-    sample = rng.sample(pool, min(a.sample, len(pool)))
-    lines = ["# 40 mined questions sampled uniformly from questions_b_mined ∪ questions_c_mined (seed 40)", "",
+    # uniform sample that is stable under small edits of the sets: the 40 smallest hashes of (seed, id)
+    sample = sorted(pool, key=lambda cr: hashlib.md5(f"{a.seed}:{cr[1]['id']}".encode()).hexdigest())[: a.sample]
+    lines = [f"# {len(sample)} mined questions sampled uniformly from questions_b_mined ∪ questions_c_mined (smallest md5(seed={a.seed}, id))", "",
              "For each: the query, the labels, the citation evidence the regex extracted, and a `check:` line for the owner", ""]
     for i, (corpus, r) in enumerate(sample, 1):
         lines += [f"## {i}. `{r['id']}` (corpus {corpus}, source {r['source']}, split {r['split']}, topic {r['topic']})", "",

@@ -14,21 +14,21 @@
   "questions": "mined__src_pq"
  },
  "metrics": {
-  "mrr": 0.2113,
-  "ndcg@5": 0.151,
-  "ndcg@10": 0.1698,
-  "hit@1": 0.1437,
-  "hit@3": 0.2313,
-  "hit@5": 0.2938,
-  "hit@10": 0.3563,
-  "recall@5": 0.1592,
-  "recall@10": 0.2089,
-  "n_questions": 160,
-  "train_mrr": 0.163,
-  "train_hit@1": 0.1081,
-  "train_hit@5": 0.2162,
-  "train_recall@10": 0.1558,
-  "train_n": 74,
+  "mrr": 0.2126,
+  "ndcg@5": 0.152,
+  "ndcg@10": 0.1709,
+  "hit@1": 0.1447,
+  "hit@3": 0.2327,
+  "hit@5": 0.2956,
+  "hit@10": 0.3585,
+  "recall@5": 0.1602,
+  "recall@10": 0.2102,
+  "n_questions": 159,
+  "train_mrr": 0.1653,
+  "train_hit@1": 0.1096,
+  "train_hit@5": 0.2192,
+  "train_recall@10": 0.1579,
+  "train_n": 73,
   "val_mrr": 0.2528,
   "val_hit@1": 0.1744,
   "val_hit@5": 0.3605,
@@ -503,21 +503,6 @@
     "cenr_wal:75"
    ],
    "split": "val"
-  },
-  "MB-PQ-6faf075c": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "artva:AR48:4",
-    "artva:AR18:4",
-    "artva:AR46:4",
-    "artva:AR1:28",
-    "cta_wal:5"
-   ],
-   "expected": [
-    "ctva:12bis"
-   ],
-   "split": "train"
   },
   "MB-PQ-ac722a4a": {
    "rank": 60,
@@ -2944,20 +2929,20 @@
   }
  },
  "timing": {
-  "rank_s": 0.5,
-  "per_query_ms": 1.5
+  "rank_s": 0.6,
+  "per_query_ms": 1.7
  },
  "provenance": {
-  "git": "a6023b3d",
+  "git": "f0c8a0e2",
   "git_dirty": true,
-  "utc": "2026-09-26T15:38:30Z",
+  "utc": "2026-09-26T15:39:55Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
   "questions_file": "experiments/data/corpus_b/questions_b.json",
   "questions_sha256": "6052247f0a079ed7eff2581cb0c2290e764d4b71e54c3a8e5e68d08d587f4097",
-  "qids_sha256": "d826ab4a7c64007b856d65cada7c965c375afd6066706318b639a6b03962d797",
-  "n_qids": 160,
+  "qids_sha256": "654bc7380b7d44317869d9db90da57f61104d3fe0107ff9c7dc5ef9af7723e7a",
+  "n_qids": 159,
   "corpus_n_docs": 9824,
   "corpus_ids_sha256": "1922643f3e52489d68e4a16b5515ba55ad4989a5bffae0ec4ed935a0021f4100",
   "corpus_fingerprint_source": "disk",

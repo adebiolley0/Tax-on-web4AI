@@ -3145,24 +3145,6 @@
   "split": "val"
  },
  {
-  "id": "MC-PQ-6faf075c",
-  "question": "En août dernier, la Direction de l'immatriculation des véhicules (DIV) et l'Administration des douanes et accises annonçaient une campagne de contrôle des véhicules immatriculés à l'étranger utilisés par des résidents belges. Enfin, on parle d'une modification de l'arrêté royal relatif à l'immatriculation des véhicules à moteur. a) Qu'en est-il exactement ? b) Sur quoi porteraient les modifications ?",
-  "topic": "ctva",
-  "source": "pq",
-  "source_doc": "questions_parlementaires/question_parlementaire_n_1066_de_monsieur_antoine_duquesne_du_01_10_1997_c2e6dc44",
-  "date": "1997-10-01",
-  "expected": [
-   "code_et_legislation/article_12bis_code_de_la_tva_25f8fa62"
-  ],
-  "secondary": [],
-  "exclude": [
-   "questions_parlementaires/question_parlementaire_n_1066_de_monsieur_antoine_duquesne_du_01_10_1997_c2e6dc44"
-  ],
-  "notes": "cites: binée des articles 12bis , 1er alinéa, et 25quater , § 1er , du Code de la TVA). | binée des articles 12bis , alinéa 2, 7°, et 25quater , § 1er , alinéa 2, du Code",
-  "label_basis": "explicit",
-  "split": "train"
- },
- {
   "id": "MC-PQ-ccadd6b6",
   "question": "Le statut fiscal de la \"sicaf immobilière\" est en grande partie identique à celui des sociétés d'investissement en général. Tout d'abord, on peut se demander quel est le statut T.V.A. de l'acquisition de biens immobiliers à l'état neuf par la sicaf immobilière, plus précisément : la sicaf peut-elle faire valoir en la matière un droit à déduction de la T.V.A. éventuellement payée ? Puis-je demander à l'honorable ministre s'il peut préciser la portée de cette exemption en ce qui concerne les activités de la sicaf immobilière ? Dans l'éventualité d'une vente avec T.V.A., la sicaf immobilière doit-elle opter explicitement pour l'application de la T.V.A. ?",
   "topic": "ctva",

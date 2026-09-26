@@ -18,21 +18,21 @@
   "questions": "mined"
  },
  "metrics": {
-  "mrr": 0.4109,
-  "ndcg@5": 0.3086,
-  "ndcg@10": 0.3316,
-  "hit@1": 0.3257,
-  "hit@3": 0.456,
-  "hit@5": 0.5049,
-  "hit@10": 0.5798,
-  "recall@5": 0.3129,
-  "recall@10": 0.3843,
-  "n_questions": 307,
-  "train_mrr": 0.3925,
-  "train_hit@1": 0.3176,
-  "train_hit@5": 0.473,
-  "train_recall@10": 0.354,
-  "train_n": 148,
+  "mrr": 0.4084,
+  "ndcg@5": 0.3075,
+  "ndcg@10": 0.3313,
+  "hit@1": 0.3224,
+  "hit@3": 0.4539,
+  "hit@5": 0.5033,
+  "hit@10": 0.5789,
+  "recall@5": 0.3131,
+  "recall@10": 0.3852,
+  "n_questions": 304,
+  "train_mrr": 0.3868,
+  "train_hit@1": 0.3103,
+  "train_hit@5": 0.469,
+  "train_recall@10": 0.3553,
+  "train_n": 145,
   "val_mrr": 0.4281,
   "val_hit@1": 0.3333,
   "val_hit@5": 0.5346,
@@ -555,21 +555,6 @@
     "cenr_wal:75"
    ],
    "split": "val"
-  },
-  "MB-PQ-6faf075c": {
-   "rank": null,
-   "rr": 0.0,
-   "top5": [
-    "artva:AR48:4",
-    "artva:AR18:4",
-    "artva:AR46:4",
-    "artva:AR1:28",
-    "vcf:2.4.2.0.1"
-   ],
-   "expected": [
-    "ctva:12bis"
-   ],
-   "split": "train"
   },
   "MB-PQ-ac722a4a": {
    "rank": 25,
@@ -3431,30 +3416,6 @@
    ],
    "split": "train"
   },
-  "MB-RULING-8f772d0c": {
-   "rank": 1,
-   "rr": 1.0,
-   "top5": [
-    "cir92:183bis",
-    "cir92:206",
-    "cir92:210",
-    "cir92:211",
-    "cir92:2"
-   ],
-   "expected": [
-    "cir92:183bis",
-    "cir92:211",
-    "ctva:11",
-    "ctva:18",
-    "cenr_bxl:117",
-    "cenr_bxl:120",
-    "cenr_vla:117",
-    "cenr_vla:120",
-    "cenr_wal:117",
-    "cenr_wal:120"
-   ],
-   "split": "train"
-  },
   "MB-RULING-b766cb0b": {
    "rank": 1,
    "rr": 1.0,
@@ -3856,23 +3817,6 @@
     "csucc_wal:8"
    ],
    "split": "val"
-  },
-  "MB-RULING-4c8f8619": {
-   "rank": 1,
-   "rr": 1.0,
-   "top5": [
-    "cenr_wal:83",
-    "cenr_bxl:83",
-    "cenr_bxl:161",
-    "cenr_bxl:51",
-    "cenr_wal:51"
-   ],
-   "expected": [
-    "cenr_bxl:83",
-    "cenr_vla:83",
-    "cenr_wal:83"
-   ],
-   "split": "train"
   },
   "MB-RULING-dcf853e7": {
    "rank": 1,
@@ -5509,20 +5453,20 @@
   }
  },
  "timing": {
-  "rank_s": 0.6,
-  "per_query_ms": 1.6
+  "rank_s": 0.5,
+  "per_query_ms": 1.5
  },
  "provenance": {
-  "git": "a6023b3d",
+  "git": "f0c8a0e2",
   "git_dirty": true,
-  "utc": "2026-09-26T15:38:32Z",
+  "utc": "2026-09-26T15:39:57Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
   "questions_file": "experiments/data/corpus_b/questions_b.json",
   "questions_sha256": "6052247f0a079ed7eff2581cb0c2290e764d4b71e54c3a8e5e68d08d587f4097",
-  "qids_sha256": "69a49318a52d6f5ee29f74032078b8de3a4716542d40264d0ce9fd61815203db",
-  "n_qids": 307,
+  "qids_sha256": "fefc789399f583585d3097368b7de9ed59aa34f86886993cd90244573a1118bb",
+  "n_qids": 304,
   "corpus_n_docs": 9824,
   "corpus_ids_sha256": "1922643f3e52489d68e4a16b5515ba55ad4989a5bffae0ec4ed935a0021f4100",
   "corpus_fingerprint_source": "disk",

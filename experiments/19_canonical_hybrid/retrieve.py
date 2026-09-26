@@ -156,13 +156,16 @@ def main():
     doc_ids = meta["doc_ids"]
     questions = load_questions_c()
     assert [q.qid for q in questions] == meta["qids"]
-    legs = {t: load_legs(t) for t in ("raw", "zoned")}
-    print(f"loaded legs ({time.perf_counter()-t0:.0f}s)", flush=True)
+    legs = {t: load_legs(t) for t in ("raw", "zoned") if (CACHE / f"dense_{t}.npz").exists()}
+    print(f"loaded legs {sorted(legs)} ({time.perf_counter()-t0:.0f}s)", flush=True)
 
     results, rankings_all, cands_all, diags = {}, {}, {}, {}
     runs = [("lex_raw", ("raw", False, None, False), "lex"), ("dense_raw", ("raw", False, None, False), "dense")]
     runs += [(name, cfg, None) for name, cfg in VARIANTS.items()]
     for name, (text, quality, canon, use_facets), leg in runs:
+        if text not in legs:
+            print(f"  {name:24s} skipped (no dense_{text}.npz yet)", flush=True)
+            continue
         rankings, cands, dg = {}, {}, []
         for qi, q in enumerate(questions):
             ranked, diag = rank_variant(legs[text], qi, facets[q.qid], metas, quality, canon, use_facets, leg=leg)
@@ -198,6 +201,8 @@ def main():
     pair_keys = set()
     for name in RERANKED:
         text = VARIANTS[name][0]
+        if name not in cands_all:
+            continue
         out[name] = {}
         for qi, q in enumerate(questions):
             lst = []
@@ -208,7 +213,7 @@ def main():
                 pair_keys.add((qi, sha1(t)))
             out[name][q.qid] = lst
     (CACHE / "candidates.json").write_text(json.dumps(out, ensure_ascii=False))
-    (CACHE / "pre_rankings.json").write_text(json.dumps({n: rankings_all[n] for n in VARIANTS}, ensure_ascii=False))
+    (CACHE / "pre_rankings.json").write_text(json.dumps({n: rankings_all[n] for n in VARIANTS if n in rankings_all}, ensure_ascii=False))
     RUNS.mkdir(exist_ok=True)
     (RUNS / "pre_summary.json").write_text(json.dumps({
         "variants": {n: {"config": VARIANTS.get(n), "metrics": r.metrics} for n, r in results.items()},

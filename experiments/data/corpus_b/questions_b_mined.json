@@ -597,24 +597,6 @@
   "split": "val"
  },
  {
-  "id": "MB-PQ-6faf075c",
-  "question": "En août dernier, la Direction de l'immatriculation des véhicules (DIV) et l'Administration des douanes et accises annonçaient une campagne de contrôle des véhicules immatriculés à l'étranger utilisés par des résidents belges. Enfin, on parle d'une modification de l'arrêté royal relatif à l'immatriculation des véhicules à moteur. a) Qu'en est-il exactement ? b) Sur quoi porteraient les modifications ?",
-  "topic": "ctva",
-  "source": "pq",
-  "source_doc": "questions_parlementaires/question_parlementaire_n_1066_de_monsieur_antoine_duquesne_du_01_10_1997_c2e6dc44",
-  "date": "1997-10-01",
-  "expected": [
-   "ctva:12bis"
-  ],
-  "secondary": [],
-  "exclude": [
-   "questions_parlementaires/question_parlementaire_n_1066_de_monsieur_antoine_duquesne_du_01_10_1997_c2e6dc44"
-  ],
-  "notes": "cites: binée des articles 12bis , 1er alinéa, et 25quater , § 1er , du Code de la TVA). | binée des articles 12bis , alinéa 2, 7°, et 25quater , § 1er , alinéa 2, du Code",
-  "label_basis": "explicit",
-  "split": "train"
- },
- {
   "id": "MB-PQ-ac722a4a",
   "question": "Conformément à l'article 931 du Code civil, toute donation doit faire l'objet d'un acte authentique. Est-il exact que les donations frappées de nullité en vertu de l'article 931 du Code civil ne doivent pas être soumises à la formalité de l'enregistrement, de sorte que les droits d'enregistrement ne peuvent être perçus que si la donation est volontairement soumise à la formalité de l'enregistrement ?",
   "topic": "cenr",
@@ -3900,31 +3882,6 @@
   "split": "train"
  },
  {
-  "id": "MB-RULING-8f772d0c",
-  "question": "La fusion par absorption de la société B par la société sœur A n’a pas comme objectif principal ou comme un de ses objectifs principaux la fraude ou l’évasion fiscale au sens de l’article 183 bis du Code des Impôts sur les Revenus de 1992 (ci-après « CIR 92 ») permettant dès lors à cette dernière de bénéficier du régime de neutralité fiscale prévu à l’article 211 CIR 92 ; 2 . le transfert d’actifs de la société fusionnée à la société fusionnante est considéré comme un transfert d’une universalité de biens au sens des articles 11 et 18, § 3 du Code de la TVA (ci-après, « CTVA ») et des articles 117 et 120 du Code des droits d’enregistrement (ci-après, « C. enr .",
-  "topic": "cir92",
-  "source": "ruling",
-  "source_doc": "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_358_du_05_07_2016_81fcc382",
-  "date": "2016-07-05",
-  "expected": [
-   "cir92:183bis",
-   "cir92:211",
-   "ctva:11",
-   "ctva:18",
-   "cenr_bxl:117",
-   "cenr_bxl:120",
-   "cenr_vla:117",
-   "cenr_vla:120",
-   "cenr_wal:117",
-   "cenr_wal:120"
-  ],
-  "secondary": [],
-  "exclude": [],
-  "notes": "cites: sens de l’article 183bis du Code des Impôts sur les Revenus de 1992 (ci-après «  | prévu à l’article 211 CIR 92 ; 2 . le transfert d’actifs de la société fusionnée |  sens des articles 11 et 18, § 3 du Code de la TVA (ci-après, « CTVA ») et des a | ») et des articles 117 et 120 du Code des droits d’enregistrement (ci-après, « C",
-  "label_basis": "explicit",
-  "split": "train"
- },
- {
   "id": "MB-RULING-b766cb0b",
   "question": "La confirmation que l’article 2 du C. Succ. ne sera pas applicable, dans le chef des tiers bénéficiaires de la stipulation, au décès du demandeur, à défaut de droits relatifs aux contrats d’assurance-vie qui seraient transmis en suite de dévolution légale, de disposition testamentaire ou d’institution contractuelle. 2 . La confirmation que l’article 8 du C. Succ. ne sera pas applicable, dans le chef des tiers bénéficiaires de la stipulation, à un transfert de droits relatifs à des contrats d’assurance en vertu d’une stipulation pour autrui, conformément à l’article 184 alinéa 2 de la loi du 4 avril 2014 relative aux assurances. 3 . La confirmation que les articles 131 et 131 bis du C.",
   "topic": "csucc",
@@ -4347,24 +4304,6 @@
   "notes": "cites: n et de l’article 8 du Code des droits de succession.",
   "label_basis": "explicit",
   "split": "val"
- },
- {
-  "id": "MB-RULING-4c8f8619",
-  "question": "La confirmation que la cession du droit d'emphytéose détenu par la Société Emphytéote portant sur l'Immeuble (tel que défini ci-après au point II.B.) au Tiers Acquéreur sera soumise au droit d'enregistrement de 2 % en vertu de l'article 83 du Code des droits d’enregistrement, d’hypothèque et de greffe applicable en Région bruxelloise (ci-après « C. enr. ») ;",
-  "topic": "cenr",
-  "source": "ruling",
-  "source_doc": "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_0094_du_06_03_2018_222bc059",
-  "date": "2018-03-06",
-  "expected": [
-   "cenr_bxl:83",
-   "cenr_vla:83",
-   "cenr_wal:83"
-  ],
-  "secondary": [],
-  "exclude": [],
-  "notes": "cites: ertu de l'article 83 du Code des droits d’enregistrement, d’hypothèque et de gre",
-  "label_basis": "explicit",
-  "split": "train"
  },
  {
   "id": "MB-RULING-dcf853e7",
