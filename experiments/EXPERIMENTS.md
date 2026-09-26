@@ -263,14 +263,18 @@ train / val / all MRR (split = md5 parity of the question id) and selects config
 
 **Did round 2 beat the round-1 validation bars?** Nominally yes on all three: A (val 0.756 lexical, 0.808
 sparse + BM25 RRF), B (val 0.610 interpolated mMARCO, 0.592 graph-expanded) and C (val 0.675–0.688 with the
-exp-13 lexical stage in front of the bge reranker, full set 0.733 vs 0.703). Honestly: with 12–35 validation questions the standard error of a validation MRR is 0.07–0.10, so
-none of these single-split wins is significant, and the one-fold numbers of exp 14 show how much a
-"win" can depend on which half is used for fitting. The gains that hold on both folds are: the lexical
-upgrades on C (+0.08 val at zero cost), fixed mid-range fusion (w = 0.5, RRF60) instead of tuned weights,
-bge-reranker interpolation at depth 20–30, and cheap metadata features (document type, year, region, title
-overlap) in a regularised linear ranker (oof A 0.732 / B 0.608 / C 0.723, all above the full-set
-round-1 bests). The measurement problem itself is now the limiting factor: `ideas/README.md` tier C (more
-mined questions, paired statistics, pre-registered validation reads) is the prerequisite for round 3.
+exp-13 lexical stage in front of the bge reranker, full set 0.733 vs 0.703). Honestly, no. The paired analysis of `18_eval_hygiene` (round 3; `rag_eval.stats`: paired t, exact
+sign-flip, BCa bootstrap, max-T over all runs) finds that **zero of ~1,000 round-2 run/split comparisons is
+positive at p < 0.05**; the only max-T-significant results are losses (RM3, one graph-expansion variant).
+The reranked systems tie on 30 of 35 C validation questions (the first stage barely matters behind bge), the
+A "0.808" is three wins out of twelve questions, and the exp-14 learned-ranker "oof" gains on B and C come
+entirely from the train fold (validation fold negative on both). The closest thing to a real effect is the
+exp-14 recipe pooled over 133 questions: +0.042 MRR [−0.009, +0.093], p ≈ 0.11, hit@1 +0.075. Minimum
+detectable delta at 80 % power is 0.10–0.27 per split and 0.05–0.10 pooled; a +0.03 gain needs 370–800
+questions. What survives as *practice* rather than as a measured gain: the lexical upgrades on C (direction-
+consistent, free), fixed mid-range fusion instead of tuned weights, bge-reranker at depth 20–30 with the
+reranker score only, and metadata fields as ranker features. Round 3 therefore starts with the measurement
+problem (`18_eval_hygiene`: statistics, provenance stamps, mined questions).
 
 ## 4. Recommendation
 
