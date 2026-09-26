@@ -309,8 +309,22 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   (34/35 ranks identical) and hurts the mined ruling slice (twin rulings, p < 0.001): keep it as an answer
   object and a source of training pairs, not as a fusion leg. Side result at n = 304/697: convex 0.5 beats
   RRF60 (C −0.044 for RRF, p < 0.001).
-* **Re-judging round 2 on the mined sets (`21_mined_eval`)** and **reception + colbert-fr on B
-  (`22_reception_colbert`)**: see their READMEs (appended here when complete).
+* **Re-judging round 2 on the mined sets (`21_mined_eval`, parts 1 and 3; part 2 = rerankers on a
+  stratified subsample, pending).** With 304 / 697 questions the round-2 first-stage claims become
+  decidable: the exp-13 lexical configuration is **confirmed** (B +0.048 [+0.025, +0.073] vs exp-01 BM25,
+  max-T p < 0.001; C +0.007 pooled, +0.014 on val; human C +0.083, p 0.015); e5-small alone is a measured
+  loss on both mined sets (B −0.054, C −0.110); convex 0.5 ties BM25 while **RRF60 is refuted** on C
+  (−0.032, max-T p < 0.001); the C PQ → statute diagnostic stays at 0.05–0.06 for every first stage. A
+  LightGBM-tiny ranker over the leg scores and cheap features, trained on the mined train split (145 / 352
+  questions), is the first system in the project to beat its own first stage at p < 0.001 on the mined
+  validation split (B +0.086, C +0.039), but on the true held-out human sets it does not beat the round-1
+  bars (B 0.427 vs 0.522, C 0.671 vs 0.696) nor exp 14's cross-encoder-feature numbers. Cause: label-domain
+  shift — the mined labels teach "answers are statute articles, not parliamentary questions" (logreg
+  coefficients +1.7 / −1.5), which is wrong for the human sets; trees on the lexical score transfer better
+  than the linear model, and source re-weighting changes ≤ 0.01. Practical reading: train rankers on mined
+  labels for statute / ruling lookups only, keep the document-type prior out of the learned model, and
+  treat the bge reranker as the quality ceiling on paraphrased questions.
+* **Reception + colbert-fr on B (`22_reception_colbert`)**: see its README (appended here when complete).
 * **Canonical-work hybrid (`19_canonical_hybrid`).** Rule-based ingestion over corpus C — quality filter
   (1,493 documents dropped: Dutch bodies, TOCs, empties; no expected document lost), boilerplate zoning
   (92,871 lines), edition canonicalisation (2,224 editions → 19,035 works), region / year / domain / type
