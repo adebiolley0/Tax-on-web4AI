@@ -248,3 +248,30 @@ Caveat on the mined slices: rulings and FAQ questions are copied from their targ
 deployment *would* contain the very entry that answers them (score 1.0, trivially rank 1) — the leak-free
 number is a pessimistic bound for those slices and the honest one for the PQ slice. Neither supports
 using the leg at w3 ≥ 0.1 as a general third leg.
+
+### 2.3 Corpus C – best fusion variant with bge-reranker-v2-m3 @20 (human questions)
+
+1,575 (question, chunk) pairs: 920 reused from exp 17, 109 from exp 14, **546 scored here** (12 min at
+1.35 s/pair — the box was shared with two other agents' jobs). Unit = the candidate document's best fused
+chunk; reranker only, and β = 0.7 (exp 17's train-selected interpolation; here too it is what train would
+select: 0.765 vs 0.696).
+
+| run | MRR train | MRR **val** | MRR all | H@1 val | H@1 all | R@10 val | R@10 all |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| ref – exp 09 BM25 + bge @30 (bar) | 0.734 | 0.665 | 0.696 | 0.543 | 0.594 | 0.886 | 0.875 |
+| ref – exp 17 lexical → bge @20 (round-2 best) | 0.757 | **0.688** | 0.719 | 0.571 | 0.625 | 0.914 | 0.891 |
+| ref – exp 17 lexical → bge @30 | 0.734 | 0.675 | 0.702 | 0.543 | 0.594 | 0.943 | 0.906 |
+| lex13 + e5 → bge @20 | 0.696 | 0.633 | 0.662 | 0.486 | 0.531 | 0.943 | 0.922 |
+| lex13 + e5 → bge @20, β 0.7 | 0.765 | **0.713** | **0.737** | 0.629 | 0.656 | 0.943 | 0.922 |
+| **lex13 + e5 + intent** (e5, γ 0.5, w3 0.1) → bge @20 | 0.697 | 0.634 | 0.663 | 0.486 | 0.531 | 0.943 | 0.922 |
+| lex13 + e5 + intent → bge @20, β 0.7 | 0.751 | 0.709 | 0.728 | 0.629 | 0.641 | 0.943 | 0.922 |
+
+Paired tests on val (n = 35): intent → bge vs fused → bge: **+0.001** (reranker only: C27 10 → 9, C47 6 →
+5, C48 10 → 9, C18 (train) 4 → 3; 34 of 35 val ranks identical) and **−0.004** with β 0.7; vs the round-2 best
+(exp 17 @20): −0.054 [−0.118, −0.003] reranker-only (2 / 6 / 27, p = 0.08), +0.021 [−0.02, +0.07] with β 0.7
+(5 / 6 / 24, p = 0.42). The +0.045 first-stage gain of the intent leg is entirely absorbed by the
+reranker — as `ideas/README.md` §1 point 2 predicts for any first-stage change on C. Side result: the
+two-leg convex fusion in front of bge with β 0.7 (val 0.713 / all 0.737) is nominally the best C number of
+the project, but it is +0.025 over exp 17 on 5 wins / 6 losses, i.e. noise, and its reranker-only form is
+−0.055; the exp-13 lexical first stage remains the honest choice (fewer candidates that mislead bge:
+C43 1 → 5, C48 4 → 10, C55 1 → 2 are fusion-induced losses).
