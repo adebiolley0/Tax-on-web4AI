@@ -27,7 +27,8 @@ from common17 import LEX_CONFIG  # noqa: E402
 
 BANK_SIMS = ("e5", "bm25", "e5+bm25")
 GAMMAS = (0.0, 0.5)
-W3 = (0.3, 0.5)
+W3 = (0.1, 0.3, 0.5)
+W3_RRF = (0.3, 0.5, 1.0)
 DEPTH = 20
 THRESHOLDS = (0.80, 0.85, 0.90)
 
@@ -57,9 +58,8 @@ def main():
     # ── leg 1: exp-13 lexical (full unit scores) ──────────────────────────────────────────────────
     t0 = time.perf_counter()
     store = tokenize_corpus(C, tok, False)
-    fields = [f for f, w in cfg["weights"].items() if w > 0]
-    index = build_index(store, fields)
-    M = bm25f_matrix(index, {f: cfg["weights"][f] for f in fields}, k1=cfg["k1"], b=cfg["b"])
+    index = build_index(store)                    # all base fields: IDF over title+heading+body as in exp 13 / 17
+    M = bm25f_matrix(index, cfg["weights"], k1=cfg["k1"], b=cfg["b"])
     lex = np.zeros((nq, n_units), dtype=np.float32)
     for i, q in enumerate(questions):
         lex[i] = scores_for(M, index.query_vector(query_weights(index, tok, q.question)))
@@ -159,11 +159,30 @@ def main():
     for sim in BANK_SIMS:
         for g in GAMMAS:
             run(f"intent_only__{sim}_g{g}", intent_doc(bank_sim[sim], g), {"stage": "intent bank alone", "bank_sim": sim, "gamma": g}, positive_only=True)
-    print("\n== intent as a third leg ==", flush=True)
+    print("\n== intent as a third leg (convex) ==", flush=True)
+    intent_cache = {}
     for sim, g, w3 in itertools.product(BANK_SIMS, GAMMAS, W3):
-        run(f"lex13+e5+intent__{sim}_g{g}_w{w3}", fused_doc + w3 * intent_doc(bank_sim[sim], g),
+        intent_cache.setdefault((sim, g), intent_doc(bank_sim[sim], g))
+        run(f"lex13+e5+intent__{sim}_g{g}_w{w3}", fused_doc + w3 * intent_cache[(sim, g)],
             {"stage": "fusion + intent", "fusion": f"0.5*mm(lex)+0.5*mm(e5) (chunk, doc max) + {w3}*mm(intent doc score)", "bank_sim": sim, "gamma": g, "w3": w3,
              "bank": "PQ questions/blocks/subjects, FAQ headings, ruling objet/tags (cache/C_bank.json)"})
+    print("\n== intent as a third leg (RRF, k = 60, doc level; the leg can add at most w3/61) ==", flush=True)
+    lex_doc = np.stack([doc_max(lex[i]) for i in range(nq)])
+    e5_doc = np.stack([doc_max(e5[i]) for i in range(nq)])
+
+    def rrf_doc(mats: list[np.ndarray], weights: list[float], k: float = 60.0, depth: int = 300) -> np.ndarray:
+        out = np.zeros((nq, n_docs))
+        for m, w in zip(mats, weights):
+            for i in range(nq):
+                top = np.argpartition(-m[i], depth)[:depth]
+                top = top[np.argsort(-m[i][top], kind="stable")]
+                top = top[m[i][top] > 0]                              # zeros = documents the leg did not reach
+                out[i, top] += w / (k + np.arange(1, len(top) + 1))
+        return out
+    run("lex13+e5__rrf", rrf_doc([lex_doc, e5_doc], [1.0, 1.0]), {"stage": "fusion", "fusion": "RRF60 of lexical and e5 document rankings (top 300 each)"})
+    for sim, g, w3 in itertools.product(BANK_SIMS, GAMMAS, W3_RRF):
+        run(f"lex13+e5+intent__rrf_{sim}_g{g}_w{w3}", rrf_doc([lex_doc, e5_doc, intent_cache[(sim, g)]], [1.0, 1.0, w3]),
+            {"stage": "fusion + intent (RRF)", "fusion": f"RRF60(lex, e5) + {w3} * RRF60 contribution of the intent doc ranking", "bank_sim": sim, "gamma": g, "w3": w3})
     grid = [k for k in results if k.startswith("lex13+e5+intent__")]
     sel = max(grid, key=lambda k: (results[k]["metrics"]["train"]["mrr"], results[k]["metrics"]["train"]["recall@10"]))
     print(f"  train-selected: {sel}", flush=True)
@@ -177,8 +196,10 @@ def main():
         v["metrics"] = split_metrics(v["ranks"], questions)
     val_q = [q.qid for q in questions if q.split == "val"]
     tests = {f"{sel} vs lex13+e5": paired_tests(rr_vector(results[sel]["ranks"], val_q), rr_vector(results["lex13+e5"]["ranks"], val_q)),
+             f"{sel} vs lex13+e5__rrf": paired_tests(rr_vector(results[sel]["ranks"], val_q), rr_vector(results["lex13+e5__rrf"]["ranks"], val_q)),
              f"{sel} vs lex13": paired_tests(rr_vector(results[sel]["ranks"], val_q), rr_vector(results["lex13"]["ranks"], val_q)),
              "lex13+e5 vs lex13": paired_tests(rr_vector(results["lex13+e5"]["ranks"], val_q), rr_vector(results["lex13"]["ranks"], val_q)),
+             "lex13+e5__rrf vs lex13": paired_tests(rr_vector(results["lex13+e5__rrf"]["ranks"], val_q), rr_vector(results["lex13"]["ranks"], val_q)),
              f"{sel} vs fusion09": paired_tests(rr_vector(results[sel]["ranks"], val_q), rr_vector(refs["fusion09"]["ranks"], val_q))}
     summary = {"corpus": "C", "selected": sel, "candidate_runs": cand_runs, "coverage": coverage,
                "runs": {k: {"metrics": v["metrics"], "config": v["config"]} for k, v in results.items()},
