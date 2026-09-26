@@ -218,3 +218,6 @@ experiments/12_sparse_colbert/cache/
 experiments/12_sparse_colbert/logs/
 experiments/*/pylate_index/
 experiments/17_lex_rerank/cache/
+experiments/19_canonical_hybrid/cache/
+experiments/20_reception_intent/cache/
+experiments/18_eval_hygiene/cache/
