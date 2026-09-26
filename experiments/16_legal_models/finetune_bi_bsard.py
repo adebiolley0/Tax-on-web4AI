@@ -50,7 +50,7 @@ def main():
     model = SentenceTransformer(a.base, device="cpu")
     model.max_seq_length = a.max_seq
     args = SentenceTransformerTrainingArguments(output_dir=str(C.SHM / "ckpt" / a.tag), num_train_epochs=a.epochs, max_steps=a.max_steps,
-                                                per_device_train_batch_size=a.batch, learning_rate=a.lr, warmup_ratio=0.1,
+                                                per_device_train_batch_size=a.batch, learning_rate=a.lr, warmup_steps=0.1,
                                                 logging_steps=10, save_strategy="no", report_to=[], seed=0, dataloader_num_workers=0,
                                                 batch_sampler="no_duplicates")
     t0 = time.perf_counter()

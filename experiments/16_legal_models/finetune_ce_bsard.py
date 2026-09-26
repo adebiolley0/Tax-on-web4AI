@@ -69,7 +69,7 @@ def main():
     if a.bsard_test:
         eval_bsard_test(model, f"{a.base.split('/')[-1]}-zeroshot", n_questions=a.bsard_test)
     args = CrossEncoderTrainingArguments(output_dir=str(C.SHM / "ckpt" / tag), num_train_epochs=a.epochs, max_steps=a.max_steps,
-                                         per_device_train_batch_size=a.batch, learning_rate=a.lr, warmup_ratio=0.1,
+                                         per_device_train_batch_size=a.batch, learning_rate=a.lr, warmup_steps=0.1,
                                          logging_steps=25, save_strategy="no", report_to=[], seed=0, dataloader_num_workers=0)
     t0 = time.perf_counter()
     trainer = CrossEncoderTrainer(model=model, args=args, train_dataset=Dataset.from_list(rows), loss=BinaryCrossEntropyLoss(model))
