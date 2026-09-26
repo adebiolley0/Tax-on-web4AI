@@ -120,7 +120,6 @@ def rank_variant(legs: Legs, qi: int, facets: dict, metas: list[dict], quality: 
         if facets.get("region_explicit"):
             r = facets["region_explicit"]
             keep = {d: v for d, v in scored.items() if metas[d]["region"] in (r, None)}
-            top_keep = sorted(keep.values(), key=lambda v: -v[1])[:MIN_AFTER_HARD_FILTER]
             if len(keep) >= MIN_AFTER_HARD_FILTER:
                 diag["hard_filter_removed"] = len(scored) - len(keep)
                 scored = keep
