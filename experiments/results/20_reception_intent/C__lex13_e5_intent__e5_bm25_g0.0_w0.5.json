@@ -10,24 +10,24 @@
   "bank": "PQ questions/blocks/subjects, FAQ headings, ruling objet/tags (cache/C_bank.json)"
  },
  "metrics": {
-  "mrr": 0.2953,
-  "ndcg@5": 0.2866,
-  "ndcg@10": 0.3305,
-  "hit@1": 0.1719,
+  "mrr": 0.3065,
+  "ndcg@5": 0.3092,
+  "ndcg@10": 0.3353,
+  "hit@1": 0.1875,
   "hit@3": 0.3281,
-  "hit@5": 0.4688,
-  "hit@10": 0.5625,
-  "recall@5": 0.4531,
-  "recall@10": 0.5625,
+  "hit@5": 0.5156,
+  "hit@10": 0.5781,
+  "recall@5": 0.5,
+  "recall@10": 0.5677,
   "n_questions": 64,
-  "train_mrr": 0.2616,
+  "train_mrr": 0.2671,
   "train_hit@1": 0.1034,
-  "train_hit@5": 0.5172,
-  "train_recall@10": 0.5862,
+  "train_hit@5": 0.5862,
+  "train_recall@10": 0.5977,
   "train_n": 29,
-  "val_mrr": 0.3232,
-  "val_hit@1": 0.2286,
-  "val_hit@5": 0.4286,
+  "val_mrr": 0.3392,
+  "val_hit@1": 0.2571,
+  "val_hit@5": 0.4571,
   "val_recall@10": 0.5429,
   "val_n": 35
  },
@@ -100,7 +100,7 @@
     "questions_parlementaires/question_parlementaire_n_633_de_madame_roppe_du_01_02_2005_b86cf1e4",
     "questions_parlementaires/question_parlementaire_n_809_de_monsieur_harmegnies_du_07_03_1997_44e5ecf9",
     "questions_parlementaires/question_parlementaire_n_270_de_madame_colen_du_19_02_2004_5e7a2f4e",
-    "questions_parlementaires/question_parlementaire_n_652_de_monsieur_dewael_du_06_12_2012_3799d50a"
+    "questions_parlementaires/question_parlementaire_n_990_de_monsieur_georges_gilkinet_du_27_05_2016_609dd7c9"
    ],
    "expected": [
     "circulaires/circulaire_2024_c_89_relative_au_transfert_des_avoirs_dormants_a_la_caisse_des_d_d5860e93"
@@ -108,14 +108,14 @@
    "split": "train"
   },
   "C6": {
-   "rank": 8,
-   "rr": 0.125,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_1371_de_madame_nathalie_muylle_du_22_02_2023_18267d40",
     "questions_parlementaires/question_parlementaire_orale_n_56009047c_de_monsieur_anthony_dufrane_du_13_01_20_81702b2a",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0200_du_13_07_2021_1e1cd6b9",
-    "questions_parlementaires/question_parlementaire_n_755_de_monsieur_a_gehlen_du_20_10_1993_38c3bfe8",
-    "questions_parlementaires/question_parlementaire_n_366_de_monsieur_christian_brotcorne_du_16_03_2009_1c67616b"
+    "questions_parlementaires/question_parlementaire_n_366_de_monsieur_christian_brotcorne_du_16_03_2009_1c67616b",
+    "circulaires/circulaire_2026_c_80_relative_a_limpot_special_sur_les_societes_pour_la_defense_7413b5c2"
    ],
    "expected": [
     "circulaires/circulaire_2026_c_80_relative_a_limpot_special_sur_les_societes_pour_la_defense_7413b5c2"
@@ -190,7 +190,7 @@
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2024_0596_du_15_10_2024_453d47c1",
     "questions_parlementaires/question_parlementaire_orale_n_56010101c_de_monsieur_benoit_piedboeuf_du_28_01_2_823b68e7",
     "questions_parlementaires/question_parlementaire_n_103_de_monsieur_serge_de_patoul_du_12_02_2016_region_de_1d998f02",
-    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2017_883_du_21_12_2017_13504b58",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_900_366_du_17_11_2009_914b4cd6",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_600_305_du_05_09_2006_ebab04fc"
    ],
    "expected": [
@@ -340,8 +340,8 @@
    "top5": [
     "questions_parlementaires/question_parlementaire_n_552_de_monsieur_vincent_palermo_du_04_12_2025_region_wa_9155d704",
     "questions_parlementaires/question_parlementaire_n_800_de_monsieur_steven_mathei_du_07_01_2026_95c88184",
-    "questions_parlementaires/question_parlementaire_n_69_de_monsieur_kemal_bilmez_du_05_03_2025_afd270a9",
     "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "questions_parlementaires/question_parlementaire_n_69_de_monsieur_kemal_bilmez_du_05_03_2025_afd270a9",
     "forfaits/fin_des_forfaits_college_le_31_12_2027_directives_relatives_a_la_tenue_dun_inven_cb1769b5"
    ],
    "expected": [
@@ -356,8 +356,8 @@
     "questions_parlementaires/question_parlementaire_n_232_de_monsieur_christophe_clersy_du_11_04_2023_region_af8387de",
     "questions_parlementaires/question_parlementaire_n_97_de_monsieur_andre_antoine_du_29_04_2022_region_wallo_99ca3066",
     "questions_parlementaires/question_parlementaire_n_95_de_monsieur_andre_antoine_du_13_03_2020_region_wallo_a4ef47e8",
-    "questions_parlementaires/question_parlementaire_n_143_de_monsieur_desquesnes_francois_du_13_05_2015_regio_28965242",
-    "questions_parlementaires/question_parlementaire_n_42_de_monsieur_christophe_clersy_du_30_11_2020_region_w_390524fc"
+    "questions_parlementaires/question_parlementaire_n_69_de_monsieur_kemal_bilmez_du_05_03_2025_afd270a9",
+    "questions_parlementaires/question_parlementaire_n_143_de_monsieur_desquesnes_francois_du_13_05_2015_regio_28965242"
    ],
    "expected": [
     "forfaits/198_exploitant_de_vergers_a_basses_tiges_de_wallonie_5d8e1c92",
@@ -414,11 +414,11 @@
    "split": "val"
   },
   "C26": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "questions_parlementaires/question_parlementaire_n_147_de_monsieur_caluwe_du_29_11_1996_84e1cb71",
     "conventions_preventives_de_la_double_imposition/accord_amiable_concernant_article_17_7_et_9_types_de_plans_de_pension_b8a9d56f",
+    "questions_parlementaires/question_parlementaire_n_147_de_monsieur_caluwe_du_29_11_1996_84e1cb71",
     "questions_parlementaires/question_parlementaire_n_215_de_madame_la_deputee_meryame_kitir_du_07_01_2011_03a78e88",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_932_du_06_07_2017_9479f00e",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0450_du_27_07_2026_0932b3fb"
@@ -429,8 +429,8 @@
    "split": "val"
   },
   "C27": {
-   "rank": 29,
-   "rr": 0.0345,
+   "rank": 25,
+   "rr": 0.04,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_960_de_monsieur_joseph_arens_du_24_10_2005_b149f2ff",
     "questions_parlementaires/question_parlementaire_n_221_de_monsieur_joseph_arens_du_12_06_2008_626195a2",
@@ -476,8 +476,8 @@
    "split": "train"
   },
   "C30": {
-   "rank": 15,
-   "rr": 0.0667,
+   "rank": 16,
+   "rr": 0.0625,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_613_de_madame_carina_van_cauter_du_04_10_2013_01a554fd",
     "questions_parlementaires/question_parlementaire_n_692_de_madame_carina_van_cauter_du_08_01_2014_bff9bc25",
@@ -506,14 +506,14 @@
    "split": "val"
   },
   "C32": {
-   "rank": null,
-   "rr": 0.0,
+   "rank": 44,
+   "rr": 0.0227,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_212_de_monsieur_julien_matagne_du_14_07_2021_region_wal_218019a3",
     "questions_parlementaires/question_parlementaire_n_280_de_monsieur_lecerf_patrick_du_09_05_2018_region_wal_0be2a57b",
     "questions_parlementaires/question_parlementaire_n_352_de_madame_dominique_dufourny_du_17_05_2021_region_d_511b60bd",
-    "questions_parlementaires/question_parlementaire_n_142_de_monsieur_francois_desquesnes_du_17_08_2020_regio_571a4baa",
-    "questions_parlementaires/question_parlementaire_n_7_1417_de_monsieur_peter_van_rompuy_du_24_11_2021_e2882095"
+    "questions_parlementaires/question_parlementaire_n_7_1417_de_monsieur_peter_van_rompuy_du_24_11_2021_e2882095",
+    "questions_parlementaires/question_parlementaire_n_142_de_monsieur_francois_desquesnes_du_17_08_2020_regio_571a4baa"
    ],
    "expected": [
     "avis/06_07_2026_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_sur_les_vehicul_a922a646"
@@ -525,8 +525,8 @@
    "rr": 0.0,
    "top5": [
     "questions_parlementaires/question_parlementaire_orale_n_13_de_monsieur_jonathan_de_patoul_du_10_06_2026_r_582e1225",
-    "questions_parlementaires/question_parlementaire_n_217_de_monsieur_paul_furlan_du_22_07_2021_region_wallon_b80b5f0e",
     "questions_parlementaires/question_parlementaire_n_352_de_madame_dominique_dufourny_du_17_05_2021_region_d_511b60bd",
+    "questions_parlementaires/question_parlementaire_n_217_de_monsieur_paul_furlan_du_22_07_2021_region_wallon_b80b5f0e",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0234_du_05_05_2026_7cff7980",
     "questions_parlementaires/question_parlementaire_n_800_de_monsieur_steven_mathei_du_07_01_2026_95c88184"
    ],
@@ -536,8 +536,8 @@
    "split": "train"
   },
   "C34": {
-   "rank": 12,
-   "rr": 0.0833,
+   "rank": 9,
+   "rr": 0.1111,
    "top5": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0674_du_09_10_2025_39f14e29",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2012_477_du_18_12_2012_6142c018",
@@ -592,8 +592,8 @@
    "top5": [
     "questions_parlementaires/question_parlementaire_n_54_de_madame_anne_catherine_goffinet_du_04_11_2022_regi_a66a489a",
     "code_et_legislation/article_445_cir_92_revenus_2026_065fdd66",
-    "questions_parlementaires/question_parlementaire_n_126_de_madame_pieters_du_23_11_1999_9bb839d8",
     "questions_parlementaires/question_parlementaire_n_1026_de_monsieur_vincent_van_quickenborne_du_04_03_2026_3c32d681",
+    "questions_parlementaires/question_parlementaire_n_126_de_madame_pieters_du_23_11_1999_9bb839d8",
     "questions_parlementaires/question_parlementaire_n_276_de_madame_caroline_cassart_mailleux_du_28_05_2026_r_48068492"
    ],
    "expected": [
@@ -650,14 +650,14 @@
    "split": "val"
   },
   "C41": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_1026_de_monsieur_jp_de_clippele_du_20_04_1994_a37e5a17",
     "questions_parlementaires/question_parlementaire_n_312_de_monsieur_jean_jacques_viseur_du_28_02_1996_d3916456",
     "questions_parlementaires/question_parlementaire_n_47_de_monsieur_carl_devlies_du_19_10_2007_6fa66d86",
     "questions_parlementaires/question_parlementaire_n_9_de_madame_florine_pary_mille_du_07_10_2009_region_wal_93dfd447",
-    "questions_parlementaires/question_parlementaire_n_1803_de_monsieur_gilles_vanden_burre_du_18_12_2023_9c006e51"
+    "commentaires_dont_rep_rj/commentaire_tva_l_imposition_de_la_marge_beneficiaire_applicable_aux_biens_d_occ_23d95f50"
    ],
    "expected": [
     "commentaires_dont_rep_rj/commentaire_tva_l_imposition_de_la_marge_beneficiaire_applicable_aux_biens_d_occ_23d95f50"
@@ -680,8 +680,8 @@
    "split": "val"
   },
   "C43": {
-   "rank": 10,
-   "rr": 0.1,
+   "rank": 11,
+   "rr": 0.0909,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_74_de_madame_christine_mauel_du_11_02_2021_region_wallo_3b1acde1",
     "questions_parlementaires/question_parlementaire_n_39_de_madame_kattrin_jadin_du_17_12_2019_394cb053",
@@ -740,14 +740,14 @@
    "split": "val"
   },
   "C47": {
-   "rank": 44,
-   "rr": 0.0227,
+   "rank": 43,
+   "rr": 0.0233,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_121_de_monsieur_paul_delva_du_27_05_2016_region_de_brux_74b3968a",
-    "questions_parlementaires/question_parlementaire_n_107_de_monsieur_serge_de_patoul_du_01_03_2016_region_de_96d87893",
     "questions_parlementaires/question_parlementaire_n_254_de_monsieur_desquesnes_francois_du_02_05_2017_regio_9cfdfa0d",
-    "questions_parlementaires/question_parlementaire_n_128_de_madame_persoons_du_06_02_2004_a8d006af",
-    "questions_parlementaires/question_parlementaire_n_103_de_monsieur_loic_jacob_du_28_11_2025_region_wallonn_3760784e"
+    "questions_parlementaires/question_parlementaire_n_103_de_monsieur_loic_jacob_du_28_11_2025_region_wallonn_3760784e",
+    "questions_parlementaires/question_parlementaire_n_107_de_monsieur_serge_de_patoul_du_01_03_2016_region_de_96d87893",
+    "questions_parlementaires/question_parlementaire_n_128_de_madame_persoons_du_06_02_2004_a8d006af"
    ],
    "expected": [
     "commentaires_dont_rep_rj/numero_s_27_br_01_01_d50ceac7"
@@ -755,12 +755,12 @@
    "split": "val"
   },
   "C48": {
-   "rank": 23,
-   "rr": 0.0435,
+   "rank": 24,
+   "rr": 0.0417,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_509_de_monsieur_damien_thiery_du_12_07_2013_442cc610",
-    "questions_parlementaires/question_parlementaire_n_87_de_monsieur_emmanuel_de_bock_du_25_11_2010_16a0b341",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2015_204_du_11_08_2015_4c01f960",
+    "questions_parlementaires/question_parlementaire_n_87_de_monsieur_emmanuel_de_bock_du_25_11_2010_16a0b341",
     "questions_parlementaires/question_parlementaire_n_128_de_monsieur_peter_logghe_du_07_03_2013_74bb118d",
     "questions_parlementaires/question_parlementaire_n_1693_de_monsieur_de_clerck_du_15_03_1999_314f3854"
    ],
@@ -805,8 +805,8 @@
    "top5": [
     "questions_parlementaires/question_parlementaire_n_185_de_monsieur_cortois_du_12_12_2003_c32ba44f",
     "questions_parlementaires/question_parlementaire_n_708_de_monsieur_olivier_chastel_du_08_01_2016_3f965e61",
-    "questions_parlementaires/question_parlementaire_orale_de_monsieur_loris_resinelli_du_27_01_2025_region_wa_8e7a9a97",
     "questions_parlementaires/question_parlementaire_n_841_de_monsieur_verlinden_du_02_09_1994_bf31a215",
+    "questions_parlementaires/question_parlementaire_orale_de_monsieur_loris_resinelli_du_27_01_2025_region_wa_8e7a9a97",
     "questions_parlementaires/question_parlementaire_n_809_de_monsieur_harmegnies_du_07_03_1997_44e5ecf9"
    ],
    "expected": [
@@ -821,8 +821,8 @@
     "questions_parlementaires/question_parlementaire_n_1042_de_monsieur_martial_lahaye_du_02_07_2002_857b071e",
     "questions_parlementaires/question_parlementaire_n_1230_de_madame_hilde_vautmans_du_19_04_2006_0ce7025d",
     "questions_parlementaires/question_parlementaire_n_38_de_madame_chantal_bertouille_du_25_03_2003_region_wa_d8870d41",
-    "questions_parlementaires/question_parlementaire_n_1122_de_monsieur_luc_goutry_du_17_11_1997_492161e7",
-    "questions_parlementaires/question_parlementaire_n_320_de_madame_leen_dierick_du_28_03_2011_f67f9051"
+    "questions_parlementaires/question_parlementaire_n_320_de_madame_leen_dierick_du_28_03_2011_f67f9051",
+    "questions_parlementaires/question_parlementaire_n_1122_de_monsieur_luc_goutry_du_17_11_1997_492161e7"
    ],
    "expected": [
     "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_liege_du_15_05_2003_f5077e76"
@@ -845,8 +845,8 @@
    "split": "train"
   },
   "C54": {
-   "rank": 19,
-   "rr": 0.0526,
+   "rank": 18,
+   "rr": 0.0556,
    "top5": [
     "questions_parlementaires/questions_parlementaires_orales_jointes_n_55020159c_et_n_55020179c_de_monsieur_w_e476975e",
     "questions_parlementaires/questions_parlementaires_orales_jointes_n_55031566c_de_monsieur_joris_vandenbrou_1d3ba867",
@@ -860,14 +860,14 @@
    "split": "train"
   },
   "C55": {
-   "rank": 41,
-   "rr": 0.0244,
+   "rank": 25,
+   "rr": 0.04,
    "top5": [
     "questions_parlementaires/question_parlementaire_orale_n_26486_de_monsieur_michel_de_lamotte_du_10_07_2018_54237ed5",
     "questions_parlementaires/question_parlementaire_n_465_de_monsieur_peter_logghe_du_21_06_2012_2d1f2e2f",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_1100_du_18_12_2018_83cbf49f",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2018_1120_du_18_12_2018_52856d1a",
-    "questions_parlementaires/question_parlementaire_n_324_de_madame_creyf_du_09_05_2000_a20e2fc8"
+    "questions_parlementaires/question_parlementaire_n_p_3068_00_de_madame_linda_mcavan_du_19_09_2000_c0e9cfb9"
    ],
    "expected": [
     "jurisprudence_europeenne/arret_de_la_cour_de_justice_de_l_union_europeenne_du_11_09_2008_n_c_11_07_40ea00b0"
@@ -894,8 +894,8 @@
    "rr": 0.1111,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_646_de_monsieur_de_clippele_du_15_05_2000_68f2a02b",
-    "circulaires/circulaire_2017_c_32_concernant_les_echantillons_et_cadeaux_commerciaux_les_arti_887f476e",
     "questions_parlementaires/question_parlementaire_n_1510_de_monsieur_delcroix_du_27_11_1998_64e4f21d",
+    "circulaires/circulaire_2017_c_32_concernant_les_echantillons_et_cadeaux_commerciaux_les_arti_887f476e",
     "arretes_royaux/tva_arrete_royal_n_59_du_28_mai_2019_relatif_au_prelevement_de_cadeaux_commercia_6a8012e2",
     "commentaires_dont_rep_rj/commentaire_tva_corrections_du_droit_a_deduction_revisions_prelevements_et_utili_8fe74b6d"
    ],
@@ -935,8 +935,8 @@
    "split": "train"
   },
   "C60": {
-   "rank": 11,
-   "rr": 0.0909,
+   "rank": 9,
+   "rr": 0.1111,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_123_de_monsieur_benjamin_dalle_du_29_09_2025_region_de_6ce4fbac",
     "questions_parlementaires/question_parlementaire_n_1338_de_monsieur_peter_vanvelthoven_du_01_12_2016_9bbb7a8e",
@@ -953,8 +953,8 @@
    "rank": null,
    "rr": 0.0,
    "top5": [
-    "questions_parlementaires/question_parlementaire_n_269_de_monsieur_michael_verbauwhede_du_18_07_2018_regio_a05269e3",
     "questions_parlementaires/question_parlementaire_n_200_de_monsieur_paul_delva_du_31_08_2017_region_de_brux_058bb4f9",
+    "questions_parlementaires/question_parlementaire_n_269_de_monsieur_michael_verbauwhede_du_18_07_2018_regio_a05269e3",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0450_du_27_07_2026_0932b3fb",
     "questions_parlementaires/question_parlementaire_orale_n_36_de_madame_angelina_chan_du_08_06_2026_region_d_3dcc7b68",
     "questions_parlementaires/question_parlementaire_n_501_de_madame_bianca_debaets_du_06_09_2022_region_de_br_b5d73a79"
@@ -995,14 +995,14 @@
    "split": "val"
   },
   "C64": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 5,
+   "rr": 0.2,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_469_de_monsieur_willy_cortois_du_09_09_2004_06a90a4b",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_600_130_du_30_05_2006_6dfad76a",
+    "questions_parlementaires/question_parlementaire_n_731_de_monsieur_gilles_vande_burre_du_19_04_2017_9683060a",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2012_477_du_18_12_2012_6142c018",
-    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_700_208_du_19_06_2007_b1f54caa",
-    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_415_du_12_07_2016_7594ad8e"
+    "reglementation_europeenne/12_02_2008_directive_2008_7_ce_du_conseil_du_12_fevrier_2008_concernant_les_impo_781bf81b"
    ],
    "expected": [
     "reglementation_europeenne/12_02_2008_directive_2008_7_ce_du_conseil_du_12_fevrier_2008_concernant_les_impo_781bf81b"
@@ -1012,9 +1012,9 @@
  },
  "timing": {},
  "provenance": {
-  "git": "cd1293fb",
+  "git": "48f4bcaf",
   "git_dirty": true,
-  "utc": "2026-09-26T15:45:50Z",
+  "utc": "2026-09-26T15:52:50Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
