@@ -19,7 +19,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import StandardScaler
 
-from common22 import (FUSIONS, HUMAN_HEAD, LEGS, MINED_HEAD, PAIRED_HEAD, REFS_HUMAN, RUNS, SLICES, evaluate_save, fmt_human,
+from common22 import (EXP14, FUSIONS, HUMAN_HEAD, LEGS, MINED_HEAD, PAIRED_HEAD, REFS_HUMAN, RUNS, SLICES, evaluate_save, fmt_human,
                       fmt_mined, fmt_paired, fuse_z, load_legs, paired, questions_human, questions_mined, rankings_from, ranks_of,
                       ranks_of_file, slice_metrics, split_metrics, zscore)
 from common14 import tokenize, ranks_of as rank_all  # noqa: E402
@@ -41,7 +41,7 @@ def build(questions, legs: dict, fused: np.ndarray, doc_ids, doc_start, meta, ti
     names += ["meta:log_doc_len", "meta:log_n_chunks", "meta:title_overlap", "meta:title_overlap_n", "meta:q_has_region",
               "meta:region_match", "meta:region_mismatch"] + [f"meta:type={t}" for t in types]
     rows_q, rows_d, X, y, tails = [], [], [], [], []
-    doc_len = np.array([len(m["_text_len"]) if False else m["_len"] for m in meta])
+    doc_len = np.array([m["_len"] for m in meta])
     n_chunks = np.diff(doc_start)
     for qi, q in enumerate(questions):
         zs = {lg: zscore(legs[lg][qi]) for lg in LEGS}
@@ -119,7 +119,7 @@ def main():
     human, mined = questions_human(), questions_mined()
     nh = len(human)
     meta = doc_meta("B")
-    docs_len = json.loads((RUNS.parent.parent / "14_ltr_fusion" / "cache" / "B_stage1.json").read_text())["doc_len"]
+    docs_len = json.loads((EXP14 / "cache" / "B_stage1.json").read_text())["doc_len"]
     for m, l in zip(meta, docs_len):
         m["_len"] = l
     title_toks = [set(tokenize(m["title"])) for m in meta]
