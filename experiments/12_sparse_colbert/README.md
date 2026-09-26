@@ -97,7 +97,7 @@ MRR at document level; `all` = 29 questions. Val bar **0.736** (experiment-01 wh
 | bge-m3 dense (cached, exp 02) | 568M | ~1 h | 4 MB | ms | 0.602 | 0.731 | 0.678 | 0.736 | 0.552 | 0.966 |
 | **`sparse-opensearch`** (doc-only SPLADE, 105k vocab) | 160M | 3,468 s | 2.1 MB (249 nnz/doc) | **no query inference** (IDF lookup), 20 nnz/query, 0.2 ms | 0.648 | 0.698 | 0.678 | **0.768** | 0.483 | **0.966** |
 | `sparse-bge-m3` (lexical head) | 568M | 3,235 s¹ | 0.8 MB (96 nnz/doc) | model forward (14 nnz/query) | 0.647 | 0.569 | 0.601 | 0.689 | 0.414 | 0.931 |
-| `sparse-splade-fr` (CamemBERT SPLADE-max, decoder re-tied) | 111M | SPLADE_FR_ENC | SPLADE_FR_IDX | model forward | SPLADE_FR_ROW |
+| `sparse-splade-fr` (CamemBERT SPLADE-max, decoder re-tied) | 111M | 1,171 s | 3.3 MB (388 nnz/doc) | model forward, 165 nnz/query | 0.619 | 0.638 | 0.630 | 0.707 | 0.483 | 0.931 |
 | **`colbert-fr`** (CamemBERT ColBERTv1, 128-d, PyLate) | 111M | 1,195 s | 162 MB fp32 (295 tok/chunk) | 0.6 s brute-force MaxSim | 0.676 | 0.676 | 0.676 | 0.768 | 0.483 | 0.931 |
 | `colbert-bge-m3` (M3 multi-vector head, 1024-d) | 568M | 3,235 s¹ | 795 MB fp16 (362 tok/chunk) | 0.5 s | 0.636 | 0.730 | 0.691 | 0.747 | 0.552 | 0.966 |
 | `colbert-jina-colbert-v2` (128-d, PyLate) | 560M | 3,734 s | 181 MB fp32 (330 tok/chunk) | 0.15 s | 0.508 | 0.617 | 0.572 | 0.674 | 0.414 | 0.897 |
@@ -127,7 +127,9 @@ OpenSearch cost is dominated by the 105,879-way MLM projection, not by the backb
 | `bge-m3-all + bm25` RRF (dense+sparse+colbert+bm25) | 0.701 | 0.612 | 0.649 | 0.761 | 0.483 | 0.931 |
 | `bge-m3-all` paper weights 1 / 0.3 / 1 | 0.614 | 0.708 | 0.669 | 0.753 | 0.517 | 0.966 |
 | `colbert-jina-colbert-v2 + bm25doc` RRF | 0.696 | 0.679 | 0.686 | 0.727 | 0.552 | 0.966 |
-| `sparse-splade-fr + bm25doc` RRF | SPLADE_FR_FUSION |
+| `sparse-splade-fr + bm25doc` RRF | 0.745 | 0.696 | 0.717 | 0.755 | 0.621 | 0.966 |
+| `sparse-splade-fr + bm25doc + e5-base` RRF | 0.766 | 0.681 | 0.716 | 0.777 | 0.586 | 0.966 |
+| `sparse-splade-fr + colbert-bge-m3 + bm25doc` RRF | 0.765 | 0.690 | 0.721 | 0.795 | 0.586 | 0.966 |
 
 ### ColBERT as a reranker (MaxSim restricted to the first stage's top-k chunks)
 
@@ -195,7 +197,7 @@ catch: the 105,879-way MLM projection makes document encoding 3× slower than a 
 offline index of 100k documents (a few CPU-days, or an hour on a GPU), and free at query time.
 `sparse-bge-m3` (14 query terms, 96 doc terms) is weaker alone (all 0.601) and only useful inside M3's own
 three-way combination; the M3 paper weights (1 / 0.3 / 1) do not transfer (0.669 all, below dense alone 0.678).
-`sparse-splade-fr` SPLADE_FR_ANALYSIS
+`sparse-splade-fr` (CamemBERT SPLADE-max trained on machine-translated mMARCO-fr) sits between the two: alone all 0.630 / val 0.619 (388 doc terms, 165 query terms – much less sparse than OpenSearch's 249/20, so a bigger posting list and a query-time model), and with whole-doc BM25 it gives val 0.745 / all 0.717 – a real gain over BM25 alone but below the OpenSearch leg on every split; the multilingual, MIRACL-trained doc-only encoder generalises better to this domain than the French mMARCO one.
 
 **Late interaction.** A *French* ColBERT (CamemBERT, 111M) is a good first stage on both corpora: A all 0.676
 (= bge-m3 dense at 1/5 of the parameters, 3× faster to index) and **B all 0.474, the best single first stage

@@ -6,9 +6,9 @@
   "n_chunks": 1072,
   "model": "antoinelouis/splade-max-camembert-base-mmarcoFR",
   "params_m": 111,
-  "doc_nnz_mean": 24873.2,
-  "query_nnz_mean": 22431.0,
-  "index_bytes": 213316676,
+  "doc_nnz_mean": 387.6,
+  "query_nnz_mean": 165.4,
+  "index_bytes": 3328556,
   "vocab": 32005,
   "fusion": "rrf",
   "legs": [
@@ -18,23 +18,23 @@
   ]
  },
  "metrics": {
-  "mrr": 0.6255,
-  "ndcg@5": 0.7376,
-  "ndcg@10": 0.7513,
-  "hit@1": 0.4483,
-  "hit@3": 0.7931,
-  "hit@5": 0.8966,
+  "mrr": 0.7246,
+  "ndcg@5": 0.7932,
+  "ndcg@10": 0.7975,
+  "hit@1": 0.5862,
+  "hit@3": 0.8276,
+  "hit@5": 0.931,
   "hit@10": 0.931,
-  "recall@5": 0.8966,
+  "recall@5": 0.931,
   "recall@10": 0.931,
   "n_questions": 29,
-  "train_mrr": 0.6541,
-  "train_hit@1": 0.4706,
-  "train_hit@5": 0.8824,
+  "train_mrr": 0.7429,
+  "train_hit@1": 0.5882,
+  "train_hit@5": 0.9412,
   "train_recall@10": 0.9412,
   "train_n": 17,
-  "val_mrr": 0.5851,
-  "val_hit@1": 0.4167,
+  "val_mrr": 0.6988,
+  "val_hit@1": 0.5833,
   "val_hit@5": 0.9167,
   "val_recall@10": 0.9167,
   "val_n": 12
@@ -46,8 +46,8 @@
    "top5": [
     "circ_2023_C99_fiscalite_automobile",
     "circ_2022_C10_frais_voiture",
-    "circ_2022_C86_frais_professionnels",
     "com_2019_art_53_cir92_frais_deductibles",
+    "circ_2022_C86_frais_professionnels",
     "com_2019_art_38_cir92_atn"
    ],
    "expected": [
@@ -60,10 +60,10 @@
    "rr": 1.0,
    "top5": [
     "circ_2018_C72_epargne_pension_duale",
-    "qp_2009_16_claes_pension_complementaire",
     "cir92_2022_art_154_revenus_remplacement",
-    "circ_2019_C74_protection_juridique",
-    "qp_2008_115_claes_assurance_groupe"
+    "qp_2009_16_claes_pension_complementaire",
+    "jp_2024_cour_const_54_pension_comp",
+    "circ_2026_C2_fiscalite_immobiliere"
    ],
    "expected": [
     "circ_2018_C72_epargne_pension_duale"
@@ -75,10 +75,10 @@
    "rr": 1.0,
    "top5": [
     "faq_revenus_immobiliers",
-    "circ_2021_C44_economie_collaborative",
     "faq_2018_economie_collaborative",
-    "circ_2004_gains_capital",
-    "circ_2025_C33_emprunts_hypo_bruxelles"
+    "circ_2021_C44_economie_collaborative",
+    "circ_2025_C33_emprunts_hypo_bruxelles",
+    "circ_2004_gains_capital"
    ],
    "expected": [
     "faq_revenus_immobiliers"
@@ -93,7 +93,7 @@
     "circ_2019_C108_handicapes",
     "circ_2025_C55_travail_etudiant",
     "circ_2023_C43_rentes_alimentaires",
-    "circ_2020_C60_garde_enfant"
+    "circ_2023_C69_coparentalite"
    ],
    "expected": [
     "circ_2026_C25_personnes_charge"
@@ -101,13 +101,13 @@
    "split": "train"
   },
   "Q5": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 2,
+   "rr": 0.5,
    "top5": [
     "circ_2019_C108_handicapes",
-    "circ_2024_C20_impot_recent",
     "circ_2020_C111_liberalites",
-    "circ_2011_travaux_renovation",
+    "circ_2024_C20_impot_recent",
+    "qp_2025_103_jacob_succession",
     "circ_2019_C74_protection_juridique"
    ],
    "expected": [
@@ -123,7 +123,7 @@
     "circ_2020_C60_garde_enfant",
     "circ_2023_C43_rentes_alimentaires",
     "circ_2023_C69_coparentalite",
-    "circ_2026_C25_personnes_charge"
+    "circ_2023_C97_faq_vehicule_electrique"
    ],
    "expected": [
     "circ_2020_C60_garde_enfant"
@@ -138,7 +138,7 @@
     "circ_2025_C33_emprunts_hypo_bruxelles",
     "faq_revenus_immobiliers",
     "circ_2026_C2_fiscalite_immobiliere",
-    "jp_2025_mons_succession"
+    "qp_2025_103_jacob_succession"
    ],
    "expected": [
     "circ_2025_C35_emprunts_hypo_flandre"
@@ -151,9 +151,9 @@
    "top5": [
     "circ_2019_C108_handicapes",
     "circ_2023_C69_coparentalite",
-    "circ_2026_C25_personnes_charge",
+    "circ_2025_C33_emprunts_hypo_bruxelles",
     "circ_2023_C43_rentes_alimentaires",
-    "circ_2020_C60_garde_enfant"
+    "circ_2026_C25_personnes_charge"
    ],
    "expected": [
     "circ_2019_C108_handicapes"
@@ -166,8 +166,8 @@
    "top5": [
     "circ_2023_C69_coparentalite",
     "circ_2019_C108_handicapes",
-    "circ_2026_C5_credit_croissance",
     "circ_2023_C43_rentes_alimentaires",
+    "circ_2026_C5_credit_croissance",
     "circ_2020_C60_garde_enfant"
    ],
    "expected": [
@@ -181,9 +181,9 @@
    "top5": [
     "circ_2026_C12_rentes_alimentaires",
     "circ_2023_C43_rentes_alimentaires",
-    "com_2019_art_53_cir92_frais_deductibles",
-    "jp_2024_cour_const_54_pension_comp",
-    "jp_2024_cour_const_79_pension"
+    "circ_2026_C2_fiscalite_immobiliere",
+    "jp_2024_cour_const_79_pension",
+    "jp_2024_cour_const_54_pension_comp"
    ],
    "expected": [
     "circ_2026_C12_rentes_alimentaires"
@@ -191,14 +191,14 @@
    "split": "train"
   },
   "Q11": {
-   "rank": 6,
-   "rr": 0.1667,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "com_2019_art_53_cir92_frais_deductibles",
-    "jp_2024_cour_const_54_pension_comp",
+    "circ_2022_C86_frais_professionnels",
     "circ_2026_C25_personnes_charge",
-    "jp_2024_cour_const_79_pension",
-    "circ_2008_frais_medicaux"
+    "jp_2024_cour_const_54_pension_comp",
+    "com_2019_art_53_cir92_frais_deductibles",
+    "jp_2024_cour_const_79_pension"
    ],
    "expected": [
     "circ_2022_C86_frais_professionnels"
@@ -206,14 +206,14 @@
    "split": "train"
   },
   "Q12": {
-   "rank": 14,
-   "rr": 0.0714,
+   "rank": 19,
+   "rr": 0.0526,
    "top5": [
     "faq_revenus_immobiliers",
-    "circ_2026_C2_fiscalite_immobiliere",
     "circ_2026_C33_cotisation_plus_values_actions",
-    "circ_2025_C33_emprunts_hypo_bruxelles",
-    "cir92_2015_art_44_plus_values_exoneration"
+    "circ_2026_C2_fiscalite_immobiliere",
+    "cir92_2015_art_44_plus_values_exoneration",
+    "circ_2025_C33_emprunts_hypo_bruxelles"
    ],
    "expected": [
     "circ_2004_gains_capital"
@@ -221,13 +221,13 @@
    "split": "val"
   },
   "Q14": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 4,
+   "rr": 0.25,
    "top5": [
     "faq_revenus_immobiliers",
     "circ_2021_C44_economie_collaborative",
-    "circ_1997_revenu_locatif",
     "faq_2018_economie_collaborative",
+    "circ_1997_revenu_locatif",
     "circ_2025_C33_emprunts_hypo_bruxelles"
    ],
    "expected": [
@@ -241,9 +241,9 @@
    "top5": [
     "circ_2025_C55_travail_etudiant",
     "circ_2026_C25_personnes_charge",
-    "circ_2024_C20_impot_recent",
-    "com_2019_art_38_cir92_atn",
-    "circ_2023_C99_fiscalite_automobile"
+    "circ_2021_C44_economie_collaborative",
+    "circ_2023_C99_fiscalite_automobile",
+    "com_2019_art_38_cir92_atn"
    ],
    "expected": [
     "circ_2025_C55_travail_etudiant"
@@ -255,10 +255,10 @@
    "rr": 1.0,
    "top5": [
     "circ_2020_C101_complement_entreprise",
+    "com_2019_art_38_cir92_atn",
     "qp_2009_16_claes_pension_complementaire",
     "jp_2024_cour_const_54_pension_comp",
-    "jp_2024_cour_const_79_pension",
-    "com_2019_art_38_cir92_atn"
+    "jp_2024_cour_const_79_pension"
    ],
    "expected": [
     "circ_2020_C101_complement_entreprise"
@@ -273,7 +273,7 @@
     "cir92_2014_art_145_38_donations",
     "circ_2026_C2_fiscalite_immobiliere",
     "faq_revenus_immobiliers",
-    "circ_2025_C33_emprunts_hypo_bruxelles"
+    "circ_2004_gains_capital"
    ],
    "expected": [
     "circ_2011_travaux_renovation"
@@ -281,14 +281,14 @@
    "split": "val"
   },
   "Q19": {
-   "rank": 3,
-   "rr": 0.3333,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "com_2019_art_53_cir92_frais_deductibles",
-    "circ_2011_travaux_renovation",
     "circ_2008_frais_medicaux",
+    "circ_2026_C12_rentes_alimentaires",
     "circ_2023_C43_rentes_alimentaires",
-    "qp_2009_16_claes_pension_complementaire"
+    "qp_2009_16_claes_pension_complementaire",
+    "circ_2022_C86_frais_professionnels"
    ],
    "expected": [
     "circ_2008_frais_medicaux"
@@ -303,7 +303,7 @@
     "jp_2024_cour_const_54_pension_comp",
     "jp_2024_cour_const_79_pension",
     "circ_1989_cotisations_sociales",
-    "da_2025_0741_avantages_nature"
+    "com_2019_art_32_cir92_remuneration"
    ],
    "expected": [
     "circ_1989_cotisations_sociales"
@@ -316,9 +316,9 @@
    "top5": [
     "circ_2026_C5_credit_croissance",
     "circ_2023_C69_coparentalite",
+    "faq_2018_economie_collaborative",
     "circ_2021_C44_economie_collaborative",
-    "circ_2018_C72_epargne_pension_duale",
-    "faq_2018_economie_collaborative"
+    "circ_2018_C72_epargne_pension_duale"
    ],
    "expected": [
     "circ_2026_C5_credit_croissance"
@@ -329,11 +329,11 @@
    "rank": 3,
    "rr": 0.3333,
    "top5": [
-    "cir92_2022_art_154_revenus_remplacement",
     "cir92_2015_art_146_revenus_remplacement",
+    "cir92_2022_art_154_revenus_remplacement",
     "cir92_2022_art_147_revenus_remplacement",
-    "cir92_2022_art_151_1_revenus_remplacement",
-    "jp_2024_cour_const_79_pension"
+    "circ_2020_C101_complement_entreprise",
+    "da_2025_0487_indemnite_licenciement"
    ],
    "expected": [
     "cir92_2022_art_147_revenus_remplacement"
@@ -348,7 +348,7 @@
     "da_2024_0682_warrants",
     "da_2013_219_stock_options",
     "cir92_2015_art_44_plus_values_exoneration",
-    "ar_2014_n19_tva_franchise"
+    "circ_2024_C77_remboursement_electricite"
    ],
    "expected": [
     "qp_2016_840_van_de_velde_stock_options"
@@ -356,14 +356,14 @@
    "split": "train"
   },
   "Q24": {
-   "rank": 28,
-   "rr": 0.0357,
+   "rank": 22,
+   "rr": 0.0455,
    "top5": [
-    "com_2019_art_38_cir92_atn",
     "circ_2023_C99_fiscalite_automobile",
     "circ_2024_C77_remboursement_electricite",
-    "circ_2008_frais_medicaux",
-    "circ_2022_C86_frais_professionnels"
+    "com_2019_art_38_cir92_atn",
+    "circ_2022_C86_frais_professionnels",
+    "circ_2025_C55_travail_etudiant"
    ],
    "expected": [
     "da_2016_335_telework_home_office"
@@ -386,13 +386,13 @@
    "split": "val"
   },
   "Q26": {
-   "rank": 2,
-   "rr": 0.5,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
-    "cir92_2004_art_283_precompte_mobilier",
     "com_2019_art_269_cir92_taux_precompte",
-    "com_2019_art_282_cir92_precompte_mobilier",
+    "cir92_2004_art_283_precompte_mobilier",
     "jp_2024_mons_dividendes_precompte",
+    "com_2019_art_282_cir92_precompte_mobilier",
     "circ_2026_C33_cotisation_plus_values_actions"
    ],
    "expected": [
@@ -401,14 +401,14 @@
    "split": "val"
   },
   "Q27": {
-   "rank": 5,
-   "rr": 0.2,
+   "rank": 1,
+   "rr": 1.0,
    "top5": [
+    "com_2019_art_117_cir92_epargne_lt",
     "circ_2026_C2_fiscalite_immobiliere",
     "circ_2025_C33_emprunts_hypo_bruxelles",
     "circ_2019_C74_protection_juridique",
-    "qp_2008_115_claes_assurance_groupe",
-    "com_2019_art_117_cir92_epargne_lt"
+    "qp_2009_16_claes_pension_complementaire"
    ],
    "expected": [
     "com_2019_art_117_cir92_epargne_lt"
@@ -422,8 +422,8 @@
     "faq_2018_economie_collaborative",
     "circ_2021_C44_economie_collaborative",
     "faq_revenus_immobiliers",
-    "circ_2025_C33_emprunts_hypo_bruxelles",
-    "circ_2011_travaux_renovation"
+    "circ_2011_travaux_renovation",
+    "circ_2025_C33_emprunts_hypo_bruxelles"
    ],
    "expected": [
     "circ_2021_C44_economie_collaborative"
@@ -435,10 +435,10 @@
    "rr": 0.3333,
    "top5": [
     "qp_2016_840_van_de_velde_stock_options",
-    "qp_2025_97_vereeck_plus_value_actions",
-    "circ_2026_C33_cotisation_plus_values_actions",
     "cir92_2015_art_44_plus_values_exoneration",
-    "da_2013_219_stock_options"
+    "circ_2026_C33_cotisation_plus_values_actions",
+    "qp_2025_97_vereeck_plus_value_actions",
+    "com_2019_art_215_cir92_isoc_taux"
    ],
    "expected": [
     "circ_2026_C33_cotisation_plus_values_actions"
@@ -450,10 +450,10 @@
    "rr": 1.0,
    "top5": [
     "circ_2019_C74_protection_juridique",
-    "circ_2011_travaux_renovation",
     "com_2019_art_53_cir92_frais_deductibles",
+    "circ_2011_travaux_renovation",
     "circ_2020_C60_garde_enfant",
-    "qp_2008_115_claes_assurance_groupe"
+    "circ_2025_C33_emprunts_hypo_bruxelles"
    ],
    "expected": [
     "circ_2019_C74_protection_juridique"
