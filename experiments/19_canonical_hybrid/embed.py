@@ -65,8 +65,16 @@ def main():
     idxs = sorted(int(k) for k in changed)
     ctexts = [changed[str(i)] for i in idxs]
 
+    from rag_eval import load_questions_mined
+    mined = load_questions_mined("C")
     enc = Encoder(MODELS["e5-small"])
     qemb = enc.queries([q.question for q in questions])
+    qemb_m = enc.queries([q.question for q in mined])
+    np.save(CACHE / "e5_queries_mined.npy", qemb_m)
+    (CACHE / "mined_qids.json").write_text(json.dumps([q.qid for q in mined]))
+    idx, sc = topk((qemb_m @ emb.T).astype(np.float32), TOP_LEG)
+    np.savez(CACHE / "mined_dense_raw.npz", idx=idx, score=sc)
+    print(f"mined questions: {len(mined)} encoded, dense raw top-{TOP_LEG} saved", flush=True)
     dense_raw = (qemb @ emb.T).astype(np.float32)
     z14 = np.load(EXP14_CACHE / "C_stage1.npz", allow_pickle=False)
     diff = float(np.abs(dense_raw - z14["leg_e5"]).max())
@@ -98,6 +106,8 @@ def main():
     dense_zoned = (qemb @ emb_z.T).astype(np.float32)
     idx, sc = topk(dense_zoned, TOP_LEG)
     np.savez(CACHE / "dense_zoned.npz", idx=idx, score=sc)
+    idx, sc = topk((qemb_m @ emb_z.T).astype(np.float32), TOP_LEG)
+    np.savez(CACHE / "mined_dense_zoned.npz", idx=idx, score=sc)
     (CACHE / "embed_timing.json").write_text(json.dumps({
         "n_changed": len(idxs), "n_encoded_this_run": n_enc, "encode_s": round(t_enc, 1),
         "s_per_chunk": round(t_enc / max(n_enc, 1), 4), "raw_vs_exp14_maxdiff": diff, "total_s": round(time.perf_counter() - t0, 1)}, indent=1))

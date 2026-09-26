@@ -120,6 +120,16 @@ def clean_sentence(text: str, a: int, b: int, mention: int) -> str:
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--exclude-mined", action="store_true",
+                    help="drop every sentence whose citing document is the source_doc of a mined question (B or C set) → cache/B_reception_nomined.json")
+    a = ap.parse_args()
+    excluded_docs: set[str] = set()
+    if a.exclude_mined:
+        from rag_eval import load_questions_mined
+        for c in ("B", "C"):
+            excluded_docs |= {q.meta["source_doc"] for q in load_questions_mined(c) if q.meta.get("source_doc")}
     docs_b = load_corpus_b(codes=default_codes_b())
     R = Resolver([d.doc_id for d in docs_b])
     for d in docs_b:
@@ -142,6 +152,9 @@ def main():
                 body = body.split("\n", 1)[1] if "\n" in body else ""
             body = normalise_body(body[:MAX_CHARS])
             did = f"{folder}/{p.stem}"
+            if did in excluded_docs:
+                st["docs_excluded_mined_source"] += 1
+                continue
             title = fm.get("title", p.stem)
             path = fm.get("path", []) if isinstance(fm.get("path"), list) else []
             dom = path[1] if len(path) > 1 else ""
@@ -244,8 +257,10 @@ def main():
     st["top_articles"] = [f"{a} ({v['n_raw']})" for a, v in sorted(out.items(), key=lambda kv: -kv[1]["n_raw"])[:12]]
     by_code = collections.Counter(a.split(":")[0] for a in out)
     st["articles_by_code"] = dict(by_code.most_common())
-    (CACHE / "B_reception.json").write_text(json.dumps({"articles": out, "stats": st, "cap_sentences": CAP_SENTENCES,
-                                                        "cap_titles": CAP_TITLES}, ensure_ascii=False))
+    out_name = "B_reception_nomined.json" if a.exclude_mined else "B_reception.json"
+    st["excluded_source_docs"] = len(excluded_docs)
+    (CACHE / out_name).write_text(json.dumps({"articles": out, "stats": st, "cap_sentences": CAP_SENTENCES,
+                                              "cap_titles": CAP_TITLES}, ensure_ascii=False))
     print(json.dumps(st, ensure_ascii=False, indent=1))
     for art in ("cir92:145/33", "cir92:14533", "ctva:44", "cir92:130", "cir92:36", "cir92:215"):
         if art in out:

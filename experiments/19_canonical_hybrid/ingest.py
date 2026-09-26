@@ -54,6 +54,40 @@ def lexical_leg(store: TokenStore, questions, tok: Tokenizer, unit_doc: np.ndarr
     return rankings
 
 
+def build_zoned_store(store: TokenStore, cd_raw: np.ndarray, cd_zoned: np.ndarray, map_to_raw: np.ndarray,
+                      zoned_chunks, tok: Tokenizer) -> TokenStore:
+    """Token store of the zoned chunks: title / heading ids copied from the document's raw units, body ids
+    copied for unchanged chunks (same text) and tokenised afresh for the chunks zoning changed."""
+    vocab = {t: i for i, t in enumerate(store.vocab)}
+    doc_first_raw = np.full(int(cd_raw.max()) + 1, -1, dtype=np.int64)
+    for i in range(len(cd_raw) - 1, -1, -1):
+        doc_first_raw[cd_raw[i]] = i
+    fields = {}
+    body_ids_raw, body_rp = store.fields["body"]
+    for fname in ("title", "heading"):
+        ids_raw, rp = store.fields[fname]
+        ids, rowptr = [], [0]
+        for u in range(len(zoned_chunks)):
+            r = doc_first_raw[cd_zoned[u]]
+            ids.append(ids_raw[rp[r]:rp[r + 1]]); rowptr.append(rowptr[-1] + rp[r + 1] - rp[r])
+        fields[fname] = (np.concatenate(ids).astype(np.int32), np.asarray(rowptr, dtype=np.int64))
+    ids, rowptr = [], [0]
+    for u, c in enumerate(zoned_chunks):
+        r = map_to_raw[u]
+        if r >= 0:
+            arr = body_ids_raw[body_rp[r]:body_rp[r + 1]]
+        else:
+            pre = f"{c.title}\n\n"
+            body = c.text[len(pre):] if c.text.startswith(pre) else c.text
+            arr = np.array([vocab.setdefault(t, len(vocab)) for t in tok(body)], dtype=np.int32)
+        ids.append(arr); rowptr.append(rowptr[-1] + len(arr))
+    fields["body"] = (np.concatenate(ids).astype(np.int32), np.asarray(rowptr, dtype=np.int64))
+    inv = [None] * len(vocab)
+    for t, i in vocab.items():
+        inv[i] = t
+    return TokenStore(inv, fields, len(zoned_chunks))
+
+
 def main():
     CACHE.mkdir(exist_ok=True)
     t0 = time.perf_counter()
@@ -128,36 +162,9 @@ def main():
     print(f"  exp-13 lexical reproduction: {same}/{len(ref)} per-question ranks identical (val MRR {res.metrics['val_mrr']:.3f})", flush=True)
 
     # ── lexical leg, zoned: reuse token ids of unchanged units, tokenise the changed ones ──
-    vocab = {t: i for i, t in enumerate(store.vocab)}
-    doc_first_raw = np.full(len(docs), -1, dtype=np.int64)
-    for i in range(len(cd_raw) - 1, -1, -1):
-        doc_first_raw[cd_raw[i]] = i
-    fields = {}
-    body_ids_raw, body_rp = store.fields["body"]
-    for fname in ("title", "heading"):
-        ids_raw, rp = store.fields[fname]
-        ids, rowptr = [], [0]
-        for u in range(len(zoned_chunks)):
-            r = doc_first_raw[cd_zoned[u]]
-            ids.append(ids_raw[rp[r]:rp[r + 1]]); rowptr.append(rowptr[-1] + rp[r + 1] - rp[r])
-        fields[fname] = (np.concatenate(ids).astype(np.int32), np.asarray(rowptr, dtype=np.int64))
-    ids, rowptr = [], [0]
     t1 = time.perf_counter()
-    for u, c in enumerate(zoned_chunks):
-        r = map_to_raw[u]
-        if r >= 0:
-            arr = body_ids_raw[body_rp[r]:body_rp[r + 1]]
-        else:
-            pre = f"{c.title}\n\n"
-            body = c.text[len(pre):] if c.text.startswith(pre) else c.text
-            arr = np.array([vocab.setdefault(t, len(vocab)) for t in tok(body)], dtype=np.int32)
-        ids.append(arr); rowptr.append(rowptr[-1] + len(arr))
-    fields["body"] = (np.concatenate(ids).astype(np.int32), np.asarray(rowptr, dtype=np.int64))
-    inv = [None] * len(vocab)
-    for t, i in vocab.items():
-        inv[i] = t
-    store_z = TokenStore(inv, fields, len(zoned_chunks))
-    print(f"  zoned tokenisation: {len(changed)} units re-tokenised, V {len(store.vocab)} → {len(vocab)} ({time.perf_counter()-t1:.0f}s)", flush=True)
+    store_z = build_zoned_store(store, cd_raw, cd_zoned, map_to_raw, zoned_chunks, tok)
+    print(f"  zoned tokenisation: {len(changed)} units re-tokenised, V {len(store.vocab)} → {len(store_z.vocab)} ({time.perf_counter()-t1:.0f}s)", flush=True)
     del store
     gc.collect()
     unit_doc_zoned = np.array([c.doc_id for c in zoned_chunks])

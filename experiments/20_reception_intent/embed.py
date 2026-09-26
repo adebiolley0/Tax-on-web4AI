@@ -44,7 +44,7 @@ def pieces_of(v: dict) -> list[str]:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--what", required=True, choices=["bank", "b"])
+    ap.add_argument("--what", required=True, choices=["bank", "b", "mined"])
     ap.add_argument("--threads", type=int, default=4)
     a = ap.parse_args()
     import torch
@@ -53,6 +53,16 @@ def main():
     from run_sweep import Encoder  # noqa: E402
     enc = Encoder(MODELS["e5-small"])
     print(f"e5-small loaded in {enc.load_s:.1f}s", flush=True)
+    if a.what == "mined":
+        from rag_eval import load_questions_mined
+        for c in ("B", "C"):
+            qs = load_questions_mined(c)
+            t0 = time.perf_counter()
+            qe = enc.queries([q.question for q in qs])
+            np.save(CACHE / f"{c}_mined_q_e5.npy", qe.astype(np.float32))
+            (CACHE / f"{c}_mined_q_e5.json").write_text(json.dumps({"qids": [q.qid for q in qs], "encode_s": round(time.perf_counter() - t0, 1)}))
+            print(f"{c}: {len(qs)} mined questions in {time.perf_counter() - t0:.0f}s", flush=True)
+        return
     if a.what == "bank":
         bank = json.loads((CACHE / "C_bank.json").read_text())["units"]
         texts = [u["q"] for u in bank]

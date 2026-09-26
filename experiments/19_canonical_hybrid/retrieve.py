@@ -53,9 +53,9 @@ class Legs:
     chunk_doc: np.ndarray
 
 
-def load_legs(text: str) -> Legs:
-    lx = np.load(CACHE / f"lex_{text}.npz")
-    dn = np.load(CACHE / f"dense_{text}.npz")
+def load_legs(text: str, prefix: str = "") -> Legs:
+    lx = np.load(CACHE / f"{prefix}lex_{text}.npz")
+    dn = np.load(CACHE / f"{prefix}dense_{text}.npz")
     ch = np.load(CACHE / "chunks.npz")
     return Legs(lx["idx"], lx["score"], dn["idx"], dn["score"], ch[f"chunk_doc_{text}"])
 
@@ -148,18 +148,43 @@ def edition_aware(questions: list[Question], rankings: dict[str, list[str]], doc
     return qs, rk
 
 
+def slice_metrics(res, questions) -> dict:
+    """MRR / H@1 / R@10 (first-hit) per mined source slice (pq / faq / ruling) and overall."""
+    out = {}
+    src = {q.qid: q.meta.get("source") or "all" for q in questions}
+    for sl in sorted({*src.values(), "all"}):
+        rows = [v for qid, v in res.per_question.items() if sl == "all" or src[qid] == sl]
+        if rows:
+            out[sl] = {"n": len(rows), "mrr": round(float(np.mean([v["rr"] for v in rows])), 4),
+                       "hit@1": round(float(np.mean([1.0 if v["rank"] == 1 else 0.0 for v in rows])), 4),
+                       "recall@10": round(float(np.mean([1.0 if v["rank"] and v["rank"] <= 10 else 0.0 for v in rows])), 4)}
+    return out
+
+
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--questions", default="human", choices=["human", "mined"])
+    a = ap.parse_args()
     t0 = time.perf_counter()
     meta = json.loads((CACHE / "meta.json").read_text())
     metas = json.loads((CACHE / "docs_meta.json").read_text())
-    facets = json.loads((CACHE / "facets.json").read_text())
     doc_ids = meta["doc_ids"]
-    questions = load_questions_c()
-    assert [q.qid for q in questions] == meta["qids"]
-    legs = {t: load_legs(t) for t in ("raw", "zoned") if (CACHE / f"dense_{t}.npz").exists()}
+    if a.questions == "mined":
+        from rag_eval import load_questions_mined
+        questions = load_questions_mined("C")
+        facets = json.loads((CACHE / "mined_facets.json").read_text())
+        assert [q.qid for q in questions] == json.loads((CACHE / "mined_meta.json").read_text())["qids"]
+        prefix, run_prefix = "mined_", "mined__pre__"
+    else:
+        questions = load_questions_c()
+        facets = json.loads((CACHE / "facets.json").read_text())
+        assert [q.qid for q in questions] == meta["qids"]
+        prefix, run_prefix = "", "pre__"
+    legs = {t: load_legs(t, prefix) for t in ("raw", "zoned") if (CACHE / f"{prefix}dense_{t}.npz").exists()}
     print(f"loaded legs {sorted(legs)} ({time.perf_counter()-t0:.0f}s)", flush=True)
 
-    results, rankings_all, cands_all, diags = {}, {}, {}, {}
+    results, rankings_all, cands_all, diags, slices = {}, {}, {}, {}, {}
     runs = [("lex_raw", ("raw", False, None, False), "lex"), ("dense_raw", ("raw", False, None, False), "dense")]
     runs += [(name, cfg, None) for name, cfg in VARIANTS.items()]
     for name, (text, quality, canon, use_facets), leg in runs:
@@ -175,13 +200,18 @@ def main():
         cfg = {"stage": "fusion only" if leg is None else f"{leg} leg only", "text": text, "quality_filter": quality,
                "canonicalisation": canon, "facet_routing": use_facets, "fusion": f"z-score convex w_dense={FUSION_W} (fixed)",
                "facet_boost": FACET_BOOST if use_facets else None}
-        res = evaluate_rankings(f"pre__{name}", "C", questions, rankings, cfg, {"query_ms": 26 + 5})
+        cfg["questions"] = a.questions
+        res = evaluate_rankings(f"{run_prefix}{name}", "C", questions, rankings, cfg, {"query_ms": 26 + 5})
         save_result(EXP, res)
         results[name] = res
         line = f"  {name:24s} train {res.metrics['train_mrr']:.3f} | val {res.metrics['val_mrr']:.3f} H@1 {res.metrics['val_hit@1']:.3f} R@10 {res.metrics['val_recall@10']:.3f} | all {res.metrics['mrr']:.3f}"
+        if a.questions == "mined":
+            sm = slice_metrics(res, questions)
+            line += " || " + " ".join(f"{sl} {m['mrr']:.3f}" for sl, m in sm.items() if sl != "all")
+            slices[name] = sm
         if canon:
             qs2, rk2 = edition_aware(questions, rankings, doc_ids, metas)
-            res2 = evaluate_rankings(f"pre__{name}__editionaware", "C", qs2, rk2, {**cfg, "eval": "edition-aware (any edition of the work accepted)"})
+            res2 = evaluate_rankings(f"{run_prefix}{name}__editionaware", "C", qs2, rk2, {**cfg, "eval": "edition-aware (any edition of the work accepted)"})
             save_result(EXP, res2)
             results[name + "__editionaware"] = res2
             line += f" || edition-aware val {res2.metrics['val_mrr']:.3f} all {res2.metrics['mrr']:.3f}"
@@ -189,6 +219,14 @@ def main():
         rankings_all[name] = rankings
         cands_all[name] = cands
         diags[name] = dg
+
+    if a.questions == "mined":
+        RUNS.mkdir(exist_ok=True)
+        (RUNS / "mined_pre_summary.json").write_text(json.dumps({
+            "n": len(questions), "variants": {n: {"config": VARIANTS.get(n), "metrics": r.metrics, "slices": slices.get(n)} for n, r in results.items()},
+            "per_question": {n: {qid: v["rank"] for qid, v in r.per_question.items()} for n, r in results.items()}}, ensure_ascii=False, indent=1))
+        print(f"done in {time.perf_counter()-t0:.0f}s", flush=True)
+        return
 
     # ── candidate texts for the reranker (5 reranked variants) ──────────────
     docs = load_corpus_c(max_chars=200_000)
