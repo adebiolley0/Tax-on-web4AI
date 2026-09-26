@@ -111,6 +111,8 @@ numbers as before):
 | reception field (exp 20): lexical first stage | 0.427 / – (R@30 0.812) | 0.531 (+0.115, p < 0.001) | – | – |
 | reception + e5 convex 0.5 → mMARCO @30 (exp 20) | 0.575 / – | – | – | – |
 | canonical-work hybrid, top-20 fused chunks → bge @20 (exp 19) | – | – | 0.648 / 0.687 | – |
+| reception + colbert-fr + e5, equal z-score weights (exp 22): first stage | 0.545 / 0.638 (R@30 0.938) | 0.494 (rec+e5 0.534 better; long queries) | – | – |
+| … → mMARCO @30, β 0.8 (exp 22): **first p < 0.05 win on a human set** (+0.092 all, 19/2/19, p 0.012) | **0.613 / 0.614** | mMARCO destructive on long queries (0.213) | – | – |
 | LightGBM-tiny ranker on mined labels (exp 21), mined-val / human held-out | 0.427 (human) | +0.086 vs fusion, p < 0.001 | 0.671 (human) | +0.039 vs fusion, p < 0.001 |
 
 Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
@@ -338,7 +340,22 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   than the linear model, and source re-weighting changes ≤ 0.01. Practical reading: train rankers on mined
   labels for statute / ruling lookups only, keep the document-type prior out of the learned model, and
   treat the bge reranker as the quality ceiling on paraphrased questions.
-* **Reception + colbert-fr on B (`22_reception_colbert`)**: see its README (appended here when complete).
+* **Reception + colbert-fr + e5 on B (`22_reception_colbert`).** A three-leg first stage with fixed
+  equal z-score weights (reception-BM25F, French ColBERT, cached e5-small; weighting pre-registered on the
+  mined train split) is the best corpus-B first stage measured on the human set: val 0.545 / all 0.638,
+  recall@30 0.938 / 0.950, +0.097 val over exp 20's reception + e5 (7/0/9, p 0.016) and +0.140 all over
+  exp 12's colbert + BM25 (p 0.012). With mMARCO @30 on each article's best three chunks and exp 14's
+  fixed β 0.8 it reaches **val 0.613 / all 0.614: +0.092 on the full set, 19 wins / 2 losses / 19 ties,
+  p 0.012** — the first bar comparison at p < 0.05 on a human set — and reranker-only val 0.651 (p 0.06);
+  bge @20 only ties the bar. The two question populations disagree: on the 304 mined questions (median 78
+  words vs 20) ColBERT's 48-token query window truncates the query, so the triple is −0.040 below
+  reception + e5 (p < 0.001), and mMARCO is destructive on long questions (bar recipe 0.359 → 0.223; ours
+  0.494 → 0.213, p < 0.001) while bge @20 is +0.22 over mMARCO but still −0.084 below the un-reranked
+  stage (p 0.011). A logistic ranker trained on mined labels learns "reception first, ColBERT negative"
+  and loses 0.10 on the human set (p 0.03–0.05), the same label-domain shift as exp 21. Recommendation is
+  population-aware: three-leg fusion + mMARCO β 0.8 for citizen-length questions; reception + e5 with a
+  length gate (no cross-encoder, or bge only) for long queries. Cost: ColBERT MaxSim 0.7 s/query with a
+  persisted fp16 token index (0.6 GB), mMARCO @30 ≈ 9 s, bge @20 ≈ 21 s.
 * **Canonical-work hybrid (`19_canonical_hybrid`).** Rule-based ingestion over corpus C — quality filter
   (1,493 documents dropped: Dutch bodies, TOCs, empties; no expected document lost), boilerplate zoning
   (92,871 lines), edition canonicalisation (2,224 editions → 19,035 works), region / year / domain / type
@@ -392,6 +409,21 @@ regularised linear ranker over them plus the leg scores once a few hundred label
 (exp 14). (6) Use the citation graph for navigation, provenance and duplicate lists, not scoring (exp 11).
 (7) Do not adopt in-domain legal models or BSARD fine-tunes (exp 16); revisit fine-tuning only with
 mined or synthetic pairs (exp 15, ideas 12/69/73/74).
+
+**Round-3 amendments (measured at n = 304 / 697 where stated).** (8) Corpus B: index every statute
+article with its *reception* (the sentences of circulars, commentary, rulings and parliamentary answers
+that cite it) as an extra BM25F field — +0.115 MRR lexical at p < 0.001 (exp 20); fuse reception-BM25F,
+French ColBERT and e5-small with fixed equal z-score weights, then mMARCO @30 interpolated at β 0.8 for
+citizen-length questions (exp 22: full-set 0.614 vs 0.522, p 0.012); gate the cross-encoder by query
+length (mMARCO destroys long queries; bge is safer but slower). (9) Fusion = convex 0.5 after z-scoring;
+RRF is refuted at p < 0.001 (exp 21). (10) Rerank the top-20 *chunks*, not one chunk per document (exp
+19). (11) Keep the rule-based ingestion layer (quality filter, boilerplate zoning, canonical works,
+region/year/type fields) for product value; do not expect ranking gains from it; gate facet boosts by
+document type (exp 19). (12) Learned rankers: LightGBM-tiny over leg scores and cheap features, trained
+on mined labels, beats its first stage at p < 0.001 on mined validation but transfers to citizen questions
+only if the document-type prior is kept out of the model (exps 21, 22); the question-to-question intent
+bank is an answer object and a training-pair source, not a fusion leg (exp 20). (13) Report every change
+with `rag_eval.stats` on the mined sets first; a human-set delta below 0.10 is undecidable (exp 18).
 
 ## 5. Reproducing
 
