@@ -14,8 +14,8 @@
    "b": 0.5,
    "human": "B_reception.json (full)",
    "mined": "B_reception_nomined.json (leak-free)",
-   "query_ms_human": 2.7,
-   "query_ms_mined": 2.59
+   "query_ms_human": 2.45,
+   "query_ms_mined": 2.67
   },
   "question_set": "mined"
  },
@@ -5456,9 +5456,9 @@
  },
  "timing": {},
  "provenance": {
-  "git": "6241a490",
+  "git": "b927df4f",
   "git_dirty": true,
-  "utc": "2026-09-26T19:12:28Z",
+  "utc": "2026-09-26T21:47:27Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

@@ -81,11 +81,11 @@ def main():
         else:
             print(f"  [{w}] {name:40s} all {m['all']['mrr']:.3f}  pq {m['pq']['mrr']:.3f}  ruling {m['ruling']['mrr']:.3f} | val {m['val']['mrr']:.3f}", flush=True)
 
-    def rerank_articles(w, pipe, depth, table, beta=1.0, pick="all"):
+    def rerank_articles(w, pipe, depth, table, beta=1.0, pick="all", qs=None):
         """Articles of the pipeline's top-`depth` reordered by the reranker (doc = max over its chunks, or its best
         dense chunk when pick == 'best'); the stage-1 order below. Returns (rankings, mean pairs per query) or None."""
         rk, npairs = {}, []
-        for q in sets[w]:
+        for q in (qs or sets[w]):
             e = cands[f"{w}:{pipe}"][q.qid]
             docs = e["docs"][:depth]
             sc = []
@@ -151,15 +151,20 @@ def main():
                              {"pairs_per_query": 20, "per_query_s": round(20 * tm_bg.get("s_per_pair", 0), 2)})
 
     # mined 100-question subsample: bge @20 on the selected pipeline, with the same-questions comparisons
+    sub_pipe = None                      # the pipeline whose bge pairs exist on the mined subsample (budget: one)
     if sub:
         subq = [q for q in sets["mined"] if q.qid in set(sub)]
-        out = rerank_articles("mined", final, 20, bg, pick="best")
-        if out is not None:
+        for pipe in pipes:
+            out = rerank_articles("mined", pipe, 20, bg, pick="best", qs=subq)
+            if out is None:
+                continue
+            sub_pipe = pipe
             rk = {q.qid: out[0][q.qid] for q in subq}
-            res = evaluate_save(f"{final}->bge@20__sub100", subq, rk, {"first_stage": final, "unit": "best dense chunk of the top-20 articles", **bg_cfg, "fusion": "reranker only", "questions": "mined subsample 100"},
+            res = evaluate_save(f"{pipe}->bge@20__sub100", subq, rk, {"first_stage": pipe, "unit": "best dense chunk of the top-20 articles", **bg_cfg, "fusion": "reranker only", "questions": "mined subsample 100"},
                                 {"pairs_per_query": 20, "per_query_s": round(20 * tm_bg.get("s_per_pair", 0), 2)}, "mined", save=not a.no_save)
-            results["mined"][f"{final}->bge@20__sub100"] = {"ranks": ranks_of(res), "metrics": slice_metrics(ranks_of(res), subq), "config": res.config, "timing": res.timing}
-            print(f"  [sub100] {final}->bge@20  all {results['mined'][f'{final}->bge@20__sub100']['metrics']['all']['mrr']:.3f}", flush=True)
+            results["mined"][f"{pipe}->bge@20__sub100"] = {"ranks": ranks_of(res), "metrics": slice_metrics(ranks_of(res), subq), "config": res.config, "timing": res.timing}
+            print(f"  [sub100] {pipe}->bge@20  all {results['mined'][f'{pipe}->bge@20__sub100']['metrics']['all']['mrr']:.3f}", flush=True)
+            break
 
     # ── references, tests ───────────────────────────────────────────────────
     refs = {k: {"label": v[1], "ranks": ranks_of_file(v[0])} for k, v in REFS_HUMAN.items() if v[0].exists()}
@@ -208,21 +213,22 @@ def main():
         if bar_m is not None:
             tests["mined"][f"bar recipe vs its first stage (e5 RRF) [{g}] (reranker gain)"] = paired(stage1_ranks[("mined", "e5_bm25__rrf03")], bar_m["ranks"], qids)
     sub_metrics = {}
-    if sub and f"{final}->bge@20__sub100" in results["mined"]:
+    if sub_pipe is not None:
+        sp = sub_pipe
         subq = [q for q in sets["mined"] if q.qid in set(sub)]
-        bge_r = results["mined"][f"{final}->bge@20__sub100"]["ranks"]
-        comp = {f"{final}->bge@20": bge_r}
-        for name in (f"{final}->mmarco@30", f"{final}->mmarco@20", "e5_bm25__rrf03->mmarco@30chunks"):
+        bge_r = results["mined"][f"{sp}->bge@20__sub100"]["ranks"]
+        comp = {f"{sp}->bge@20": bge_r}
+        for name in (f"{sp}->mmarco@30", f"{sp}->mmarco@20", f"{sp}->mmarco@30_b{BETA}", "e5_bm25__rrf03->mmarco@30chunks"):
             if name in results["mined"]:
                 comp[name] = results["mined"][name]["ranks"]
-        comp[f"{final} first stage"] = stage1_ranks[("mined", final)]
+        comp[f"{sp} first stage"] = stage1_ranks[("mined", sp)]
         comp["e5 RRF first stage"] = stage1_ranks[("mined", "e5_bm25__rrf03")]
         sub_metrics = {k: slice_metrics(v, subq) for k, v in comp.items()}
         subsets = {"all": sub, "pq": [q.qid for q in subq if q.meta["source"] == "pq"], "ruling": [q.qid for q in subq if q.meta["source"] == "ruling"],
                    "val": [q.qid for q in subq if q.split == "val"]}
-        for base in [k for k in comp if k != f"{final}->bge@20"]:
+        for base in [k for k in comp if k != f"{sp}->bge@20"]:
             for g, qids in subsets.items():
-                tests["sub100"][f"{final}->bge@20 vs {base} [{g}]"] = paired(comp[base], bge_r, qids)
+                tests["sub100"][f"{sp}->bge@20 vs {base} [{g}]"] = paired(comp[base], bge_r, qids)
 
     summary = {"selected": selected, "alt": alt, "final": final, "timing": {"mmarco": tm_mm, "bge": tm_bg}, "pairs_per_query": {f"{k[0]}:{k[1]}@{k[2]}": v for k, v in pairs_per_q.items()},
                "reproduction": repro, "runs": {w: {k: {"metrics": v["metrics"], "config": v["config"], "timing": v["timing"]} for k, v in results[w].items()} for w in sets},
@@ -241,7 +247,7 @@ def main():
         if not k.endswith("__sub100"):
             T.append(fmt_mined(k, v["metrics"]))
     if sub_metrics:
-        T += ["", f"### Mined 100-question stratified subsample (bge-reranker-v2-m3 @20 on `{final}`; every row on the same 100 questions)", "",
+        T += ["", f"### Mined 100-question stratified subsample (bge-reranker-v2-m3 @20 on `{sub_pipe}`; every row on the same 100 questions)", "",
               "| run | all (100) MRR / H@1 / R@10 / R@30 | pq | ruling | faq | train | val |", "|---|---|---|---|---|---|---|"]
         for k, v in sub_metrics.items():
             T.append(fmt_mined(k, v))

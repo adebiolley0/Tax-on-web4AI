@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import warnings
 
@@ -115,7 +116,7 @@ def main():
     z, doc_ids = L["z"], L["doc_ids"]
     doc_start = z["doc_start"]
     st = json.loads((RUNS / "stage1.json").read_text())
-    selected = st.get("final", st["selected"])          # the final pipeline (selected weights + selected colbert query length)
+    selected = os.environ.get("EXP22_LTR_PIPE") or st.get("final", st["selected"])   # default: the protocol's final pipeline
     base_w, cvar = pipe_parts(selected, colbert_variants(z))
     human, mined = questions_human(), questions_mined()
     nh = len(human)
