@@ -65,7 +65,7 @@ MAX_Q_CHARS = 700
 MAX_ARTICLES = 8
 MIN_INTERROGATIVE = 25
 FAQ_CAP = 25
-CAP_FRAC = 0.25
+CAP_FRAC = 0.30       # with only 5-6 code families present a 25 % cap would discard two thirds of corpus B
 DUP_JACCARD = 0.6
 
 
@@ -94,6 +94,10 @@ EXTRA_HINTS = [(re.compile(p, re.I), fam) for p, fam in [
     (r"^\s*[,(]?\s*(?:du|de la|de l['’]|de)?\s*(?:CIR\s?(?:92|1992)|C\.I\.R\.)", "cir92"),
     (r"^\s*[,(]?\s*(?:du|de la|de l['’]|de)?\s*(?:CDTD\b|C\.?\s?D\.?\s?T\.?\s?D\.?\b)", "cdtd"),
 ]]
+
+
+BARE_SKIP_RE = re.compile(r"^\s*,?\s*(?:pr[ée]cit|susvis|susmentionn|ci-dessus|vis[ée] ci|de la pr[ée]sente|dudit arr|de cet arr|de l['’]arr|du projet|de la proposition|"
+                          r"of the|van (?:de|het)|de la directive|du r[èe]glement|du trait[ée])", re.I)
 
 
 def classify(tail: str) -> tuple[str, str]:
@@ -127,6 +131,9 @@ POLICY_RES = [re.compile(p) for p in [
     r"\bplaidez-vous\b", r"\bsoutenez-vous\b", r"\bregrettez-vous\b", r"\bdeplorez-vous\b", r"\bvoulez-vous\b",
     r"\bcollaborat", r"\bcampagne\b", r"\bsensibilis", r"\bcommunication\b", r"\binformer\b",
     r"\bapplication informatique\b", r"\blogiciel\b", r"\bsite (?:web|internet)\b", r"\bplateforme\b",
+    r"\bpromess", r"\bpromis\b", r"\bexpliqu", r"\braisons?\b", r"\bjustifi", r"\b[eê]tes-vous\b", r"\bseriez-vous\b",
+    r"\bsera(?:-t-(?:il|elle))?\s+(?:publi|adopt|disponible|mis|pris|pr[eê]t)", r"\bconfirmer (?:que|qu')\s*(?:le|la|les|des) (?:promesse|d[ée]claration)",
+    r"\bministre (?:a-t-il|a-t-elle|est-il|est-elle) (?:effectivement|d[ée]j[àa])\b", r"\bd[ée]lai(?:s)? (?:de traitement|d'attente)\b",
 ]]
 
 
@@ -337,6 +344,8 @@ def extract_cites(text: str, default_family: str | None, region: str | None, B: 
                 continue
             if not allow_bare or default_family is None:
                 continue
+            if BARE_SKIP_RE.match(tail):                      # "article 3 précité" → refers to an earlier (external) act
+                continue
             fam = default_family
             out.bare += 1
         nums = [n for n in items if n != "à"]
@@ -397,7 +406,9 @@ def build_pq_query(block: str, stats: collections.Counter) -> tuple[str | None, 
         inter.append(s)
     if not inter:
         return None, ("policy" if dropped else "no_question")
-    ctx = next((s for s in sents if not s.endswith("?") and 30 <= len(s) <= 350), None)
+    ctx = next((s for s in sents if not s.endswith("?") and len(s) >= 30), None)
+    if ctx and len(ctx) > 350:
+        ctx = ctx[:350].rsplit(" ", 1)[0] + " …"
     q = ((ctx + " ") if ctx else "") + " ".join(inter)
     if len(q) > MAX_Q_CHARS:                       # cut at a sentence boundary, keep ≥ 1 interrogative
         parts = ([ctx] if ctx else []) + inter
@@ -513,6 +524,24 @@ OBJ_BOILER = re.compile(r"^(?:\d+(?:\.\d+)*\s*[.)]?\s*)?(?:la (?:pr[ée]sente )?
                         r"(?:le|les) demandeurs? (?:souhaitent?|demandent?|sollicitent?) [^:]{0,120}?:\s*)", re.I)
 
 
+OBJ_BOILER2 = re.compile(r"^(?:la (?:pr[ée]sente )?demande (?:vise|tend|a pour (?:but|objet))(?: [àa])? ?(?:obtenir|savoir|confirmer|ce que)?\s*"
+                         r"(?:la confirmation|une d[ée]cision anticip[ée]e|une d[ée]cision|confirmation|l['’]accord)?[^:;]{0,70}?"
+                         r"\b(?:que|si|selon laquelle|confirmant que|sur (?:la|le) (?:question|point) de savoir si|de savoir si|quant [àa] savoir si)\s+"
+                         r"|la demande (?:porte|concerne|vise|tend) [^:;]{0,60}?\b(?:la question de savoir si|le point de savoir si|de savoir si|"
+                         r"la confirmation (?:que|de ce que|des points suivants|du point suivant|selon laquelle)|les questions suivantes|les points suivants)\s*:?\s*"
+                         r"|(?:le|les|la) (?:demandeurs?|demanderesses?|requ[ée]rants?) (?:souhaitent?|demandent?|sollicitent?|d[ée]sirent?) [^:;]{0,80}?\b(?:que|si)\s+)", re.I)
+
+
+def clean_objet(objet: str) -> str:
+    objet = OBJ_BOILER.sub("", objet).strip()
+    objet = OBJ_BOILER2.sub("", objet).strip()
+    for _ in range(3):
+        objet = re.sub(r"^(?:[-–•]\s*|\(?[ivx]{1,4}\)\s*|\(?[a-e]\)\s*|\d+(?:\.\d+)*\s*[.)]\s*|si\s+(?=[a-zà-ü]))", "", objet).strip()
+    if objet and objet[0].islower():
+        objet = objet[0].upper() + objet[1:]
+    return objet
+
+
 def mine_rulings(C: CorpusC, B: CorpusB, stats: collections.Counter) -> list[dict]:
     rows = []
     for did, body in C.body.items():
@@ -527,8 +556,7 @@ def mine_rulings(C: CorpusC, B: CorpusB, stats: collections.Counter) -> list[dic
         e = OBJ_END_RE.search(rest)
         objet = rest[: e.start()] if e else rest[:3000]
         objet = re.sub(r"\s+", " ", objet).strip()
-        objet = OBJ_BOILER.sub("", objet).strip()
-        objet = re.sub(r"^(?:\d+(?:\.\d+)*\s*[.)]\s*)", "", objet)
+        objet = clean_objet(objet)
         if len(objet) < 60 or objet.count(" ") < 10:
             stats["rul:drop:short_objet"] += 1; continue
         if re.search(r"\b(?:de|het|een|van|wordt|aanvraag)\b", objet[:200]) and not re.search(r"\b(?:la|le|les|des|du)\b", objet[:200]):
@@ -667,8 +695,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sample", type=int, default=40)
     ap.add_argument("--seed", type=int, default=40)
+    ap.add_argument("--cap-frac", type=float, default=CAP_FRAC)
     a = ap.parse_args()
-    global C_META
+    global C_META, CAP_FRAC
+    CAP_FRAC = a.cap_frac
     stats: collections.Counter = collections.Counter()
     C = CorpusC(); C_META = C.meta
     B = CorpusB()
