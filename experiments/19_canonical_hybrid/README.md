@@ -64,8 +64,10 @@ the wait-for-lock chains used on the shared box; `mined_stats.py` and `diag_chun
   cache (1,024 tokens, reused only for pairs ≤ 512 tokens, as exp 17 did).
 * **Ablations**: cumulative stack `baseline` (fusion → bge@20, nothing else) → `+quality` → `+quality+zoning`
   → `+quality+zoning+canon` → `full` (+ facets), each pre-reranker and reranked (5 reranked variants, the
-  budget's maximum); single-component pre-reranker variants (`+zoning_only`, `+canon_only`, `+facets_only`,
-  `+canon_twin_only`, `full_twin`) and the two legs alone.
+  budget's maximum) plus, on the coordinator's request, two variants with the exp-17 candidate rule (`baseline_chunks`,
+  `+quality+zoning_chunks`: the top-20 fused *chunks*, several per document, document = best reranked chunk);
+  single-component pre-reranker variants (`+zoning_only`, `+canon_only`, `+facets_only`, `+canon_twin_only`, `full_twin`)
+  and the two legs alone.
 * **Statistics**: `rag_eval.stats.paired_stats` (paired t, exact / Monte-Carlo sign-flip permutation, BCa
   bootstrap CI) plus the two-sided binomial sign test and Wilcoxon, on reciprocal-rank differences on val
   (n = 35) against the round-2 best (exp 17 `lex13+bge@20`, stored per-question ranks) and between consecutive
@@ -100,6 +102,8 @@ the wait-for-lock chains used on the shared box; `mined_stats.py` and `diag_chun
 | pre +canon_twin_only (edition-aware) | 0.633 | **0.631** | 0.632 | 0.517 | 0.514 | 0.516 | 0.857 | 0.875 | ≈60 ms |
 | pre full_twin | 0.683 | **0.637** | 0.658 | 0.586 | 0.486 | 0.531 | 0.886 | 0.891 | ≈60 ms |
 | pre full_twin (edition-aware) | 0.683 | **0.637** | 0.658 | 0.586 | 0.486 | 0.531 | 0.886 | 0.891 | ≈60 ms |
+| pre baseline_chunks | 0.630 | **0.628** | 0.629 | 0.517 | 0.514 | 0.516 | 0.857 | 0.875 | ≈60 ms |
+| pre +quality+zoning_chunks | 0.681 | **0.647** | 0.663 | 0.586 | 0.543 | 0.562 | 0.857 | 0.875 | ≈60 ms |
 
 ### Reranked (bge-reranker-v2-m3 @20, max_length 512, reranker score only)
 
@@ -112,6 +116,8 @@ the wait-for-lock chains used on the shared box; `mined_stats.py` and `diag_chun
 | +quality+zoning+canon (edition-aware) | 0.669 | **0.646** | 0.656 | 0.586 | 0.514 | 0.547 | 0.943 | 0.906 |  |
 | full | 0.668 | **0.619** | 0.641 | 0.586 | 0.486 | 0.531 | 0.914 | 0.891 | 20.7 s |
 | full (edition-aware) | 0.668 | **0.619** | 0.641 | 0.586 | 0.486 | 0.531 | 0.914 | 0.891 |  |
+| baseline_chunks | 0.734 | **0.648** | 0.687 | 0.655 | 0.543 | 0.594 | 0.857 | 0.875 | 20.7 s |
+| +quality+zoning_chunks | 0.724 | **0.642** | 0.679 | 0.655 | 0.543 | 0.594 | 0.857 | 0.875 | 20.7 s |
 
 ### Paired tests on val (n = 35), reciprocal-rank differences
 
@@ -127,88 +133,101 @@ the wait-for-lock chains used on the shared box; `mined_stats.py` and `diag_chun
 | +quality+zoning+canon vs round2_best [all] | -0.063 | 11 / 17 / 36 | 0.068 | 0.345 | 0.067 | [-0.133, -0.001] |
 | full vs round2_best | -0.069 | 7 / 11 / 17 | 0.138 | 0.481 | 0.155 | [-0.170, +0.009] |
 | full vs round2_best [all] | -0.078 | 11 / 18 / 35 | 0.036 | 0.265 | 0.049 | [-0.155, -0.013] |
+| baseline_chunks vs round2_best | -0.040 | 2 / 5 / 28 | 0.263 | 0.453 | 0.271 | [-0.138, +0.012] |
+| baseline_chunks vs round2_best [all] | -0.032 | 3 / 7 / 54 | 0.160 | 0.344 | 0.185 | [-0.088, +0.003] |
+| +quality+zoning_chunks vs round2_best | -0.046 | 4 / 8 / 23 | 0.282 | 0.388 | 0.306 | [-0.139, +0.024] |
+| +quality+zoning_chunks vs round2_best [all] | -0.040 | 7 / 11 / 46 | 0.183 | 0.481 | 0.213 | [-0.106, +0.011] |
 | +quality vs baseline | +0.014 | 1 / 0 / 34 | 0.324 | 1.000 | 0.317 | [+0.000, +0.071] |
 | +quality+zoning vs +quality | +0.019 | 5 / 2 / 28 | 0.569 | 0.453 | 0.446 | [-0.031, +0.105] |
 | +quality+zoning+canon vs +quality+zoning | -0.007 | 0 / 1 / 34 | 0.324 | 1.000 | 0.317 | [-0.036, +0.000] |
 | full vs +quality+zoning+canon | -0.027 | 2 / 2 / 31 | 0.330 | 1.000 | 0.465 | [-0.162, +0.001] |
+| baseline_chunks vs full | +0.029 | 8 / 8 / 19 | 0.444 | 1.000 | 0.640 | [-0.042, +0.106] |
+| +quality+zoning_chunks vs baseline_chunks | -0.006 | 3 / 3 / 29 | 0.804 | 1.000 | 0.833 | [-0.052, +0.037] |
 | full vs baseline | -0.001 | 6 / 4 / 25 | 0.982 | 0.754 | 0.878 | [-0.054, +0.058] |
+| baseline_chunks vs baseline | +0.028 | 6 / 5 / 24 | 0.326 | 1.000 | 0.423 | [-0.018, +0.093] |
+| +quality+zoning_chunks vs +quality+zoning | -0.011 | 6 / 6 / 23 | 0.800 | 1.000 | 0.969 | [-0.108, +0.059] |
+| baseline_chunks vs baseline [all] | +0.040 | 12 / 7 / 45 | 0.145 | 0.359 | 0.136 | [-0.010, +0.097] |
+| +quality+zoning_chunks vs +quality+zoning [all] | +0.019 | 13 / 8 / 43 | 0.555 | 0.383 | 0.312 | [-0.049, +0.075] |
 | pre__baseline vs lex13 | +0.013 | 9 / 6 / 20 | 0.641 | 0.607 | 0.609 | [-0.039, +0.071] |
 | pre__full vs pre__baseline | +0.007 | 10 / 4 / 21 | 0.833 | 0.180 | 0.328 | [-0.063, +0.071] |
 
 ### Per-question ranks (val), round-2 best vs the stack
 
-| qid | question | round-2 best | baseline | +quality | +zoning | +canon | full | pre full |
-|---|---|---:|---:|---:|---:|---:|---:|---:|
-| C1 | Je suis pensionné, je vis en Belgique et je touche une rente AVS de Su | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C7 | Je fais installer une pompe à chaleur en 2026 dans ma maison construit | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C8 | Notre société belge met une voiture de société à disposition d'un sala | – | 30 | 30 | 27 | 27 | 27 | 27 |
-| C12 | J'habite en Wallonie et je veux léguer par testament une partie de mes | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
-| C14 | Mon grand-père, qui vit en France, veut faire devant notaire français  | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C15 | J'ai acheté mon logement à Bruxelles avec l'abattement sur les droits  | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C16 | Ma petite remorque de moins de 750 kg n'a pas besoin de plaque d'immat | 4 | 4 | 4 | 4 | 4 | 4 | 2 |
-| C17 | Qu'est-ce que le legs en duo et la Région wallonne compte-t-elle le su | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C19 | Ma société détient l'usufruit de mon immeuble ; si nous signons un ave | 1 | 6 | 6 | 1 | 1 | 21 | 21 |
-| C20 | J'ai été adopté par adoption simple. Au décès de mon parent adoptif en | 2 | 2 | 1 | 1 | 1 | 1 | 2 |
-| C22 | Je cultive des pommiers et des poiriers en Wallonie et je suis imposé  | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C25 | Je passe mes ordres d'achat d'actions via un courtier en ligne établi  | 16 | 7 | 7 | 7 | 7 | 7 | 15 |
-| C26 | J'ai travaillé aux États-Unis et j'ai un plan 401(k) et un Roth IRA ;  | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C27 | Je suis frontalier belge, salarié au Luxembourg, et je fais parfois du | 7 | 10 | 10 | 10 | 10 | 8 | 6 |
-| C30 | Combien coûte le droit à payer pour introduire une demande de national | 5 | 5 | 5 | 3 | 3 | 3 | 2 |
-| C31 | Je travaille dans une banque : comment devons-nous transmettre au SPF  | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
-| C36 | Notre entreprise emploie des chercheurs titulaires d'un doctorat ou d' | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C37 | Je suis prestataire de services sur crypto-actifs et je n'ai pas encor | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C38 | J'ai fait construire une maison à titre privé et je souhaite la revend | 1 | 1 | 1 | 1 | 1 | 1 | 3 |
-| C39 | Je suis gérant d'une SRL qui a plusieurs fois omis de payer le précomp | 2 | 3 | 3 | 3 | 3 | 3 | 5 |
-| C40 | Qu'est-ce que l'abus fiscal au sens du CIR 92 et sur qui repose la cha | 3 | 2 | 2 | 2 | 4 | 4 | 9 |
-| C42 | Notre club de sport géré par une ASBL fait payer l'accès à sa salle et | – | 41 | 41 | 41 | 41 | 24 | 24 |
-| C43 | Les loteries, paris et autres jeux de hasard ou d'argent que j'exploit | 1 | 2 | 2 | 2 | 2 | 2 | 1 |
-| C46 | Je suis associé d'une société établie en Wallonie et je lui rachète un | 2 | 2 | 2 | 6 | 6 | 6 | 6 |
-| C47 | Mon oncle, domicilié à Bruxelles, m'a légué par testament une somme pr | 6 | 5 | 5 | 5 | 5 | 5 | 2 |
-| C48 | Ma grand-mère par alliance (la seconde épouse de mon grand-père), domi | 4 | 9 | 9 | 7 | 7 | 9 | 2 |
-| C50 | J'ai voulu faire enregistrer en ligne via MyMinfin un don bancaire reç | 2 | 2 | 2 | 1 | 1 | 1 | 1 |
-| C51 | Nous avons hébergé pendant des années une personne âgée qui, avant son | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
-| C55 | Ma mère, qui habitait en Allemagne, possédait un appartement en Belgiq | 1 | 2 | 2 | 2 | 2 | 2 | 1 |
-| C57 | Mon entreprise offre à ses clients des petits cadeaux de fin d'année : | 6 | 8 | 8 | 8 | 8 | 8 | 9 |
-| C58 | Nous recrutons un cadre venant de l'étranger sous le régime spécial de | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C60 | En 2026, je veux régulariser auprès du Vlaamse Belastingdienst des avo | 1 | 2 | 2 | 2 | 2 | 2 | 2 |
-| C62 | Un nouveau plan d'exécution spatial fait passer ma parcelle en Flandre | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C63 | Je suis pensionné, je vis en Belgique et je touche une pension complém | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| C64 | Quelles opérations d'une société de capitaux (apports de capital, émis | 1 | 1 | 1 | 2 | 2 | 2 | 1 |
+| qid | question | round-2 best | baseline | +quality | +zoning | +canon | full | pre full | baseline (chunks) | +q+zoning (chunks) |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| C1 | Je suis pensionné, je vis en Belgique et je touche une rente AVS de Su | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C7 | Je fais installer une pompe à chaleur en 2026 dans ma maison construit | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C8 | Notre société belge met une voiture de société à disposition d'un sala | – | 30 | 30 | 27 | 27 | 27 | 27 | – | – |
+| C12 | J'habite en Wallonie et je veux léguer par testament une partie de mes | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | 1 |
+| C14 | Mon grand-père, qui vit en France, veut faire devant notaire français  | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C15 | J'ai acheté mon logement à Bruxelles avec l'abattement sur les droits  | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C16 | Ma petite remorque de moins de 750 kg n'a pas besoin de plaque d'immat | 4 | 4 | 4 | 4 | 4 | 4 | 2 | 4 | 4 |
+| C17 | Qu'est-ce que le legs en duo et la Région wallonne compte-t-elle le su | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C19 | Ma société détient l'usufruit de mon immeuble ; si nous signons un ave | 1 | 6 | 6 | 1 | 1 | 21 | 21 | 20 | 19 |
+| C20 | J'ai été adopté par adoption simple. Au décès de mon parent adoptif en | 2 | 2 | 1 | 1 | 1 | 1 | 2 | 2 | 1 |
+| C22 | Je cultive des pommiers et des poiriers en Wallonie et je suis imposé  | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C25 | Je passe mes ordres d'achat d'actions via un courtier en ligne établi  | 16 | 7 | 7 | 7 | 7 | 7 | 15 | 16 | 17 |
+| C26 | J'ai travaillé aux États-Unis et j'ai un plan 401(k) et un Roth IRA ;  | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C27 | Je suis frontalier belge, salarié au Luxembourg, et je fais parfois du | 7 | 10 | 10 | 10 | 10 | 8 | 6 | 9 | 9 |
+| C30 | Combien coûte le droit à payer pour introduire une demande de national | 5 | 5 | 5 | 3 | 3 | 3 | 2 | 5 | 3 |
+| C31 | Je travaille dans une banque : comment devons-nous transmettre au SPF  | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | 1 |
+| C36 | Notre entreprise emploie des chercheurs titulaires d'un doctorat ou d' | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C37 | Je suis prestataire de services sur crypto-actifs et je n'ai pas encor | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C38 | J'ai fait construire une maison à titre privé et je souhaite la revend | 1 | 1 | 1 | 1 | 1 | 1 | 3 | 1 | 1 |
+| C39 | Je suis gérant d'une SRL qui a plusieurs fois omis de payer le précomp | 2 | 3 | 3 | 3 | 3 | 3 | 5 | 3 | 3 |
+| C40 | Qu'est-ce que l'abus fiscal au sens du CIR 92 et sur qui repose la cha | 3 | 2 | 2 | 2 | 4 | 4 | 9 | 18 | 18 |
+| C42 | Notre club de sport géré par une ASBL fait payer l'accès à sa salle et | – | 41 | 41 | 41 | 41 | 24 | 24 | – | – |
+| C43 | Les loteries, paris et autres jeux de hasard ou d'argent que j'exploit | 1 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 |
+| C46 | Je suis associé d'une société établie en Wallonie et je lui rachète un | 2 | 2 | 2 | 6 | 6 | 6 | 6 | 2 | 6 |
+| C47 | Mon oncle, domicilié à Bruxelles, m'a légué par testament une somme pr | 6 | 5 | 5 | 5 | 5 | 5 | 2 | 5 | 5 |
+| C48 | Ma grand-mère par alliance (la seconde épouse de mon grand-père), domi | 4 | 9 | 9 | 7 | 7 | 9 | 2 | 4 | 4 |
+| C50 | J'ai voulu faire enregistrer en ligne via MyMinfin un don bancaire reç | 2 | 2 | 2 | 1 | 1 | 1 | 1 | 2 | 2 |
+| C51 | Nous avons hébergé pendant des années une personne âgée qui, avant son | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 1 | 1 |
+| C55 | Ma mère, qui habitait en Allemagne, possédait un appartement en Belgiq | 1 | 2 | 2 | 2 | 2 | 2 | 1 | 1 | 1 |
+| C57 | Mon entreprise offre à ses clients des petits cadeaux de fin d'année : | 6 | 8 | 8 | 8 | 8 | 8 | 9 | 6 | 6 |
+| C58 | Nous recrutons un cadre venant de l'étranger sous le régime spécial de | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C60 | En 2026, je veux régulariser auprès du Vlaamse Belastingdienst des avo | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 1 |
+| C62 | Un nouveau plan d'exécution spatial fait passer ma parcelle en Flandre | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C63 | Je suis pensionné, je vis en Belgique et je touche une pension complém | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| C64 | Quelles opérations d'une société de capitaux (apports de capital, émis | 1 | 1 | 1 | 2 | 2 | 2 | 1 | 1 | 2 |
 
 Cost: first stage ≈ 60 ms per query (BM25F 27 ms + e5 query encoding and 201k-chunk dot product); reranker 20 pairs × 1.03 s
-= **20.7 s per query** on 4 CPU threads (same as exp 17 @20). One-off: ingestion 4 min (works: 2 min), 52,022 zoned
-chunks re-encoded with e5-small in 75 min (0.087 s/chunk), 858 new reranker pairs in 14.8 min (957 of the 1,815 distinct
-pairs came from the exp-17 / exp-14 caches).
+= **20.7 s per query** on 4 CPU threads (same as exp 17 @20; the 1.03 s/pair comes from the 858-pair run, the 157-pair
+top-up ran at 1.5 s/pair in one-pair batches and is not representative). One-off: ingestion 4 min (works: 2 min), 52,022 zoned
+chunks re-encoded with e5-small in 75 min (0.087 s/chunk), 858 + 157 new reranker pairs in 25 min (1,553 of the 2,568
+distinct pairs came from the exp-17 / exp-14 caches).
 
 ### 2.1 Where the reranked stack stands against the round-2 best
 
-Every reranked variant is **below** the round-2 best (exp 17, val 0.688 / all 0.719): baseline val 0.620 (5 wins / 8 losses
-/ 22 ties, Δ −0.068, paired t p = 0.05), +quality 0.634, +quality+zoning **0.653** (8/9/18, Δ −0.035, p = 0.36), +canon 0.646,
-full 0.619; on the full set 0.641–0.661 vs 0.719 (p = 0.02–0.09). None is significant on 35 questions except the plain
+Every document-level variant is **below** the round-2 best (exp 17, val 0.688 / all 0.719): baseline val 0.620 (5 wins / 8
+losses / 22 ties, Δ −0.068, paired t p = 0.05), +quality 0.634, +quality+zoning **0.653** (8/9/18, Δ −0.035, p = 0.36), +canon
+0.646, full 0.619; on the full set 0.641–0.661 vs 0.719 (p = 0.02–0.09). None is significant on 35 questions except the plain
 baseline, but the direction is consistent on both splits.
 
-The losses are not caused by the ingestion components: the reranked *baseline* – the same fusion → bge@20 without any of
-them – is already 0.068 below exp 17, although its first stage is slightly *better* than exp 17's (pre-reranker val 0.629
-vs lexical 0.616, 9 wins / 6 losses). The difference is the **candidate rule**: exp 17 reranks the top-20 lexical *chunks*
-(several per document, chosen by BM25F), this experiment reranks **one chunk per document, the best fused (z-score) chunk**.
-In 8 of the 13 lost questions the expected document *was* among the 20 candidates (C43, C55, C60, C28, C45 at position 0)
-but the chunk handed to the reranker was not the one the reranker prefers. `diag_chunks.py` checks this without new
-reranking: taking, for every candidate document, the maximum reranker score over all its chunks that have a cached score
-(this run's chunk + exp 17's lexical top-50 chunks, both raw text) gives
+Two things differ from exp 17: the candidate *pool* (fused hybrid vs lexical) and the candidate *rule* (this experiment
+first reranked **one chunk per document – the best fused chunk**; exp 17 reranks the **top-20 chunks**, several per
+document). The clean sixth / seventh variants `baseline_chunks` and `+quality+zoning_chunks` apply the exp-17 rule to the
+fused list (top-20 fused chunks, document = best reranked chunk; 157 new reranker pairs, the other 2,411 came from the caches):
 
-| variant (raw text, cache-only diagnostic) | MRR val | H@1 val | MRR all | H@1 all |
-|---|---:|---:|---:|---:|
-| baseline, best fused chunk only (the run above) | 0.620 | 0.457 | 0.647 | 0.516 |
-| baseline, max over cached chunks per document | **0.683** | 0.571 | 0.708 | 0.609 |
-| +quality, max over cached chunks per document | **0.697** | 0.600 | 0.716 | 0.625 |
-| exp 17 round-2 best (top-20 lexical chunks) | 0.688 | 0.571 | 0.719 | 0.625 |
+| candidate rule (reranked, bge @20) | MRR val | H@1 val | R@10 val | MRR all | H@1 all | vs document rule (val Δ, W/L/T, p_t) | vs round-2 best (val Δ, W/L/T, p_t) |
+|---|---:|---:|---:|---:|---:|---|---|
+| baseline, best fused chunk per document | 0.620 | 0.457 | 0.943 | 0.647 | 0.516 | – | −0.068, 5/8/22, 0.05 |
+| **baseline, top-20 fused chunks** | **0.648** | 0.543 | 0.857 | **0.687** | 0.594 | +0.028, 6/5/24, 0.33 (all +0.040, 12/7/45, 0.15) | −0.040, 2/5/28, 0.26 (all −0.032, 3/7/54, 0.16) |
+| +quality+zoning, best fused chunk per document | 0.653 | 0.514 | 0.943 | 0.661 | 0.547 | – | −0.035, 8/9/18, 0.36 |
+| +quality+zoning, top-20 fused chunks | 0.642 | 0.543 | 0.857 | 0.679 | 0.594 | −0.011, 6/6/23, 0.80 (all +0.019, 13/8/43, 0.56) | −0.046, 4/8/23, 0.28 (all −0.040, 7/11/46, 0.18) |
+| exp 17 round-2 best (top-20 lexical chunks) | 0.688 | 0.571 | 0.914 | 0.719 | 0.625 | | |
 
-i.e. the hybrid first stage with the quality filter is level with the round-2 best (baseline vs exp 17: 4 / 4 / 27, Δ −0.005,
-p = 0.63) once the reranker sees the lexically best passages, and the quality filter is worth about +0.01 on top. This is a
-diagnostic that mixes chunk sets (dense-only candidates have no extra cached chunk), not a clean run; the clean fix – rerank
-the top-20 *chunks* of the fused list, or the best 2–3 chunks per document – is one more reranked variant (≈ 1,300 new
-pairs) that the 5-variant budget of this round did not allow. The zoned variants cannot be checked this way (no cached
-scores for the zoned texts).
+So the candidate rule explains **about half** of the gap, not all of it: switching to the exp-17 rule lifts the baseline by
++0.028 val / +0.040 all (H@1 0.516 → 0.594 on the full set, level with exp 17's 0.625 − 0.03) and halves the deficit to
+the round-2 best (−0.068 → −0.040 val, −0.072 → −0.032 all, no longer significant: p = 0.26 / 0.16, 2 wins / 5 losses / 28
+ties). The rest of the gap is the candidate **pool**: with the same rule, 20 *fused* chunks contain fewer chunks of the
+right documents than 20 *lexical* chunks (the dense leg's candidates displace lexical ones that bge would have ranked
+first; first-hit R@10 of the reranked list 0.857 vs 0.914), even though the fused first stage ranks documents slightly better than
+the lexical one (pre-reranker val 0.629 vs 0.616). The earlier cache-only diagnostic (`diag_chunks.py`: max reranker score
+over the candidate document's chunk + all its exp-17 cached lexical chunks → val 0.683 / 0.697) was optimistic for the
+same reason – it gave every candidate document up to 50 lexical chunks, i.e. a deeper lexical pool than any 20-chunk rule.
+Under the chunk rule the ingestion components are neutral: +quality+zoning is −0.006 val / −0.008 all vs the chunk-level
+baseline (3/3/29, p = 0.80).
 
 ### 2.2 What each component does (both question sets)
 
@@ -287,21 +306,24 @@ the FAQ / ruling slices are verbatim-text questions, the PQ slice is the hard di
 
 * **Did the canonical-work hybrid beat the round-2 best?** No. The full stack is val **0.619** (all 0.641) against 0.688
   (0.719); the best cumulative step (+quality+zoning) is 0.653 / 0.661, −0.035 on val (p = 0.36) and −0.059 on the full set
-  (p = 0.09). Against the round-1 bar (0.665 / 0.703) it is also below. None of the five ingestion components is a
+  (p = 0.09); with the exp-17 chunk rule the best rows are 0.648 / 0.687 (baseline) and 0.642 / 0.679, still −0.04 / −0.03. Against the round-1 bar (0.665 / 0.703) it is also below. None of the five ingestion components is a
   significant gain on 35 validation questions, and on 697 mined questions the pre-reranker effects are −0.013 to +0.000
   overall, with facet routing being the only large effect (+0.024 on the PQ slice, −0.026 on rulings).
 * **Which components help?** Quality filter: small positive, no risk (keep). Zoning: +0.02 on the human questions, −0.01 on
   the mined ones, driven by the dense leg's sensitivity to chunk boundaries – keep for text quality, not for MRR.
   Canonicalisation: 0 (keep for UX and index size). Facet routing: net negative as a blanket boost; positive only where the
   metadata is complete (statutes) – needs per-type gating or a learned weight.
-* **What the experiment actually found**: the −0.06 that separates this stack from exp 17 is the *candidate chunk rule*
-  (one best-fused chunk per document vs the lexical top-20 chunks), not the ingestion layer; with the reranker scoring the
-  lexically best passages the hybrid + quality first stage is level with the round-2 best (cache-only diagnostic, val
-  0.697 / all 0.716). The "boring winner" architecture's ingestion half is sound engineering (1,493 junk documents, 2,224
+* **What the experiment actually found**: the −0.07 that separates this stack from exp 17 is not the ingestion layer.
+  About half of it is the *candidate chunk rule* (one best-fused chunk per document vs the top-20 chunks: measured as a
+  clean variant, +0.028 val / +0.040 all, deficit to exp 17 down to −0.040 / −0.032, p = 0.26 / 0.16); the other half is
+  the candidate *pool* – 20 fused chunks give bge fewer passages of the right documents than 20 lexical chunks on this
+  question set, although the fused first stage ranks documents slightly better. The cache-only diagnostic that suggested
+  parity (val 0.697) was optimistic because it let every candidate document draw on up to 50 lexical chunks. The "boring winner" architecture's ingestion half is sound engineering (1,493 junk documents, 2,224
   duplicate editions, 93k boilerplate lines removed, all by rules and with no expected document lost) but its promised
   +0.05–0.10 hit@1 from "twin removal and facets" does not exist on this corpus and question set: the twins were already
   interchangeable for the harness, and the reranker, not the first stage, decides hit@1.
-* **Next**: rerank the top-20 *chunks* of the fused list (or 2–3 chunks per document) as a clean sixth variant; gate the
-  facet boosts by document type; feed region / year / type as features to the exp-14 linear ranker instead of multiplying
+* **Next**: keep the exp-17 chunk rule (measured: +0.03–0.04 over the document rule) and rerank a *union* of the lexical
+  top-20 and fused top-20 chunks (≈ 30–35 pairs, the exp-14 candidate design) rather than replacing the lexical pool by the
+  fused one; gate the facet boosts by document type; feed region / year / type as features to the exp-14 linear ranker instead of multiplying
   scores; keep quality filter, zoning and canonical works in the ingestion pipeline of the MCP server for their product
   value (clean passages, one edition per work, `year` / `region` filters), not for retrieval quality.

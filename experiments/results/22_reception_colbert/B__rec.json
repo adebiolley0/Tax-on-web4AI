@@ -640,9 +640,9 @@
  },
  "timing": {},
  "provenance": {
-  "git": "6bc920e8",
+  "git": "6241a490",
   "git_dirty": true,
-  "utc": "2026-09-26T19:00:25Z",
+  "utc": "2026-09-26T19:12:23Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

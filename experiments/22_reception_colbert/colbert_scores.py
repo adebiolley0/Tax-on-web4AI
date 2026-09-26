@@ -39,9 +39,11 @@ def main():
     ap.add_argument("--bs", type=int, default=8)
     ap.add_argument("--qblock", type=int, default=32)
     ap.add_argument("--no-persist", action="store_true", help="do not write the fp16 token matrix")
+    ap.add_argument("--query-length", type=int, default=48, help="PyLate query length (exp 12: 48; mined questions have a median of 78 words)")
     a = ap.parse_args()
     import torch
-    out_f = CACHE / "B_colbert_scores.npz"
+    suffix = "" if a.query_length == 48 else f"_q{a.query_length}"
+    out_f = CACHE / f"B_colbert_scores{suffix}.npz"
     c = load_corpus("B")
     questions = load_questions_b() + load_questions_mined("B")
     qids = [q.qid for q in questions]
@@ -50,7 +52,7 @@ def main():
     assert c.n == m14["n_chunks"] and [d.doc_id for d in c.docs] == m14["doc_ids"], "chunk universe differs from exp 14"
     print(f"corpus B: {len(c.docs)} docs / {c.n} chunks; {len(questions)} questions ({len(qids) - 304} human + 304 mined); "
           f"torch threads {torch.get_num_threads()}", flush=True)
-    spec = COLBERT_MODELS["colbert-fr"]
+    spec = {**COLBERT_MODELS["colbert-fr"], "kw": {**COLBERT_MODELS["colbert-fr"]["kw"], "query_length": a.query_length}}
     m, load_s = load_model(spec)
     print(f"model loaded in {load_s:.1f}s", flush=True)
     timing = {"model_load_s": round(load_s, 1)}
@@ -85,12 +87,13 @@ def main():
         print(f"  maxsim {min(s + a.qblock, len(questions))}/{len(questions)} ({time.perf_counter() - t0:.0f}s)", flush=True)
     ms = time.perf_counter() - t0
     timing.update({"maxsim_all_s": round(ms, 1), "maxsim_per_query_s": round(ms / len(questions), 3), "n_chunks": c.n,
-                   "threads": torch.get_num_threads()})
+                   "threads": torch.get_num_threads(), "query_length": a.query_length,
+                   "q_tokens_mean": float(np.mean([e.shape[0] for e in q_embs]))})
 
     # sanity: the 40 human rows against exp 12's cached matrix
     ref = np.load(HERE.parent / "12_sparse_colbert" / "cache" / "colbert_B_colbert-fr.npz", allow_pickle=True)["scores"]
     nh = len(qids) - 304
-    if ref.shape == (nh, c.n):
+    if ref.shape == (nh, c.n) and a.query_length == 48:
         top_agree = np.mean([np.argmax(ref[i]) == np.argmax(scores[i]) for i in range(nh)])
         corr = np.mean([np.corrcoef(ref[i], scores[i])[0, 1] for i in range(nh)])
         timing["check_vs_exp12"] = {"top1_chunk_agreement": float(top_agree), "mean_row_corr": float(corr),

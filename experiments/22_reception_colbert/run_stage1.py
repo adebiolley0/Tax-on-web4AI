@@ -14,9 +14,9 @@ import json
 
 import numpy as np
 
-from common22 import (CACHE, CANDIDATES, FUSIONS, HUMAN_HEAD, LEGS, MINED_HEAD, PAIRED_HEAD, REFS_HUMAN, REFS_MINED, RUNS, SLICES,
-                      doc_max, evaluate_save, fmt_human, fmt_mined, fmt_paired, fuse_z, load_legs, minmax, paired, questions_human,
-                      questions_mined, rankings_from, ranks_of, ranks_of_file, slice_metrics, split_metrics, zscore)
+from common22 import (CACHE, CANDIDATES, CHUNK_CAP, FUSIONS, HUMAN_HEAD, LEGS, MINED_HEAD, PAIRED_HEAD, REFS_HUMAN, REFS_MINED, RUNS, SLICES,
+                      colbert_variants, doc_max, evaluate_save, fmt_human, fmt_mined, fmt_paired, fuse_z, load_legs, minmax, paired,
+                      pipe_parts, questions_human, questions_mined, rankings_from, ranks_of, ranks_of_file, slice_metrics, split_metrics, zscore)
 
 DEPTH = 30
 
@@ -87,11 +87,30 @@ def main():
         run(w, "mm3_equal", np.stack([sum(minmax(lg[l][i]) for l in LEGS) / 3 for i in range(len(qs))]),
             {"stage": "min-max convex fusion, equal weights (fusion-rule check)", "weights": dict(zip(LEGS, (1 / 3,) * 3)), **rec_cfg})
 
+    # ── colbert query-length variants (colbert_scores.py --query-length N): the same two candidates ──────
+    variants = colbert_variants(z)
+    for v in variants[1:]:
+        ql = L.get("colbert_variants", {}).get(v, {}).get("query_length")
+        for w, qs in sets.items():
+            lg = {**legs[w], "colbert": z[f"colbert{v}_doc"][rows[w]]}
+            run(w, f"colbert{v}", lg["colbert"], {"stage": f"colbert-fr MaxSim alone, query length {ql}", "query_length": ql})
+            rr = rrf_chunk([z[f"colbert{v}_chunk"][rows[w]], chunk_legs[w]["bm25_03"]])
+            run(w, f"colbert_bm25__rrf12{v}", np.stack([doc_max(rr[i], chunk_doc, n_docs, 0.0) for i in range(len(qs))]),
+                {"stage": f"exp 12 first stage with query length {ql}: RRF60(colbert-fr, BM25 tok03)", "query_length": ql})
+            for name in CANDIDATES:
+                run(w, f"{name}{v}", fuse_z(lg, FUSIONS[name]), {"stage": "z-score convex fusion, fixed weights", "weights": dict(zip(LEGS, FUSIONS[name])),
+                                                                  "query_length": ql, **rec_cfg})
+
     # ── selection on the mined TRAIN split only ─────────────────────────────
     mt = {c: results["mined"][c]["metrics"]["train"] for c in CANDIDATES}
     selected = max(CANDIDATES, key=lambda c: (round(mt[c]["mrr"], 4), mt[c]["recall@30"]))
     alt = [c for c in CANDIDATES if c != selected][0]
     print(f"\nselected on mined train: {selected} (train MRR {mt[selected]['mrr']:.3f} vs {alt} {mt[alt]['mrr']:.3f})", flush=True)
+    # then the colbert query length, for the selected weights, on the same split
+    qsel = {v: results["mined"][f"{selected}{v}"]["metrics"]["train"] for v in variants}
+    vfinal = max(variants, key=lambda v: (round(qsel[v]["mrr"], 4), qsel[v]["recall@30"]))
+    final = f"{selected}{vfinal}"
+    print(f"colbert query length selected on mined train: {vfinal or '_q48 (exp 12)'} → final pipeline {final} (" + ", ".join(f"{v or '_q48'} {qsel[v]['mrr']:.3f}" for v in variants) + ")", flush=True)
 
     # ── references and paired tests ─────────────────────────────────────────
     refs = {"human": {k: {"label": v[1], "ranks": ranks_of_file(v[0])} for k, v in REFS_HUMAN.items() if v[0].exists()},
@@ -118,12 +137,15 @@ def main():
                      "bm25 (exp 01)": refs[w]["bm25_01"]["ranks"], "lex13 (exp 13)": refs[w]["lex13"]["ranks"],
                      "e5 RRF (exp 03)": refs[w]["e5_rrf"]["ranks"] if "e5_rrf" in refs[w] else results[w]["e5_bm25__rrf03"]["ranks"],
                      "colbert alone": results[w]["colbert"]["ranks"]}
-        for cand in (selected, alt):
+        for cand in dict.fromkeys((final, selected, alt)):
             for bl, br in base_runs.items():
                 for g, qids in groups.items():
                     tests[w][f"{cand} vs {bl} [{g}]"] = paired(br, results[w][cand]["ranks"], qids)
         for g, qids in groups.items():
             tests[w][f"{selected} vs {alt} [{g}]"] = paired(results[w][alt]["ranks"], results[w][selected]["ranks"], qids)
+            if final != selected:
+                tests[w][f"{final} vs {selected} [{g}] (colbert query length)"] = paired(results[w][selected]["ranks"], results[w][final]["ranks"], qids)
+                tests[w][f"colbert{vfinal} vs colbert [{g}] (colbert alone, query length)"] = paired(results[w]["colbert"]["ranks"], results[w][f"colbert{vfinal}"]["ranks"], qids)
             tests[w][f"z_rec_e5 vs rec_e5 (exp 20) [{g}] (z-score vs min-max, same legs)"] = paired(refs[w]["rec_e5"]["ranks"], results[w]["z_rec_e5"]["ranks"], qids)
             tests[w][f"z3_equal vs mm3_equal [{g}] (fusion rule)"] = paired(results[w]["mm3_equal"]["ranks"], results[w]["z3_equal"]["ranks"], qids)
 
@@ -131,25 +153,30 @@ def main():
     cands = {}
     for w, qs in sets.items():
         cl = chunk_legs[w]
-        for pipe in (selected, alt):
+        for pipe in dict.fromkeys((final, selected, alt)):
+            _, v = pipe_parts(pipe, variants)
+            colbert_chunk = z[f"colbert{v}_chunk"][rows[w]]
             per_q = {}
             sc = results[w][pipe]["scores"]
             for i, q in enumerate(qs):
-                zc = zscore(cl["colbert"][i]) + zscore(cl["e5"][i])            # chunk-level dense evidence → best chunk per article
+                zc = zscore(colbert_chunk[i]) + zscore(cl["e5"][i])            # chunk-level dense evidence → best chunk per article
                 top = results[w][pipe]["rankings"][q.qid][:DEPTH]
                 entry = [[d, float(sc[i][DOC_INDEX[d]])] for d in top]
-                best = {}
+                best, topc = {}, {}
                 for d, _ in entry:
                     di = DOC_INDEX[d]
                     a_, b_ = int(doc_start[di]), int(doc_start[di + 1])
-                    best[d] = int(a_ + np.argmax(zc[a_:b_]))
-                per_q[q.qid] = {"docs": entry, "best_chunk": best}
+                    order = np.argsort(-zc[a_:b_], kind="stable")[:CHUNK_CAP]
+                    topc[d] = [int(a_ + j) for j in order]
+                    best[d] = topc[d][0]
+                per_q[q.qid] = {"docs": entry, "best_chunk": best, "top_chunks": topc}
             cands[f"{w}:{pipe}"] = per_q
         cands[f"{w}:e5_bm25__rrf03"] = {q.qid: {"chunks": top_chunks[w][q.qid]} for q in qs}
     (CACHE / "B_candidates.json").write_text(json.dumps(cands))
 
     # ── summary + tables ────────────────────────────────────────────────────
-    summary = {"selected": selected, "alt": alt, "candidates": list(CANDIDATES), "mined_train_selection": mt, "reproduction": repro,
+    summary = {"selected": selected, "alt": alt, "final": final, "variants": variants, "query_length_selection": qsel,
+               "candidates": list(CANDIDATES), "mined_train_selection": mt, "reproduction": repro,
                "runs": {w: {k: {"metrics": v["metrics"], "config": v["config"]} for k, v in results[w].items()} for w in sets},
                "refs": {w: {k: {"label": v["label"], "metrics": v["metrics"]} for k, v in refs[w].items()} for w in sets},
                "tests": tests,
@@ -163,16 +190,17 @@ def main():
         if k in refs["human"]:
             L_.append(fmt_human(f"ref – {refs['human'][k]['label']}", refs["human"][k]["metrics"]))
     for k, v in results["human"].items():
-        star = " **(selected on mined train)**" if k == selected else (" *(alternative)*" if k == alt else "")
+        star = " **(selected on mined train)**" if k == selected else (" *(alternative)*" if k == alt else (" **(final: selected weights + selected query length)**" if k == final else ""))
         L_.append(fmt_human(k + star, v["metrics"]))
     L_ += ["", "### Corpus B – first stage, mined questions (304: pq 159 / ruling 142 / faq 3; leak-free reception)", "", *MINED_HEAD]
     for k in ("bm25_01", "lex13", "lex13_e5", "rec", "rec_e5", "rec_e5_w1"):
         if k in refs["mined"]:
             L_.append(fmt_mined(f"ref – {refs['mined'][k]['label']}", refs["mined"][k]["metrics"]))
     for k, v in results["mined"].items():
-        star = " **(selected on mined train)**" if k == selected else (" *(alternative)*" if k == alt else "")
+        star = " **(selected on mined train)**" if k == selected else (" *(alternative)*" if k == alt else (" **(final: selected weights + selected query length)**" if k == final else ""))
         L_.append(fmt_mined(k + star, v["metrics"]))
-    L_ += ["", f"Selection on the mined train split (145 q): " + ", ".join(f"{c} {mt[c]['mrr']:.3f} (R@30 {mt[c]['recall@30']:.3f})" for c in CANDIDATES) + f" → **{selected}**", ""]
+    L_ += ["", f"Selection on the mined train split (145 q): " + ", ".join(f"{c} {mt[c]['mrr']:.3f} (R@30 {mt[c]['recall@30']:.3f})" for c in CANDIDATES) + f" → **{selected}**; "
+           "colbert query length (same split, selected weights): " + ", ".join(f"{v or '_q48'} {qsel[v]['mrr']:.3f} (R@30 {qsel[v]['recall@30']:.3f})" for v in variants) + f" → **{final}**", ""]
     for w in sets:
         L_ += ["", f"Paired tests, {w} questions (rag_eval.stats.paired_stats; Δ = new − base, reciprocal rank; p_t paired t, p_perm sign-flip, '~' Monte-Carlo):", "", *PAIRED_HEAD]
         for k, t in tests[w].items():

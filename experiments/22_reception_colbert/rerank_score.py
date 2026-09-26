@@ -2,7 +2,7 @@
 """Cross-encoder scores for the candidate sets of cache/B_candidates.json (run_stage1.py), cached by
 (question id, exp-14 chunk index) and resumable:
 
-* mMARCO-MiniLM-L12 (512 tokens): every exp-14 chunk of the top-30 articles of the selected and the alternative
+* mMARCO-MiniLM-L12 (512 tokens): the best 3 chunks (z(colbert) + z(e5)) of each of the top-30 articles of the final / selected (and, on the human set, the alternative)
   z-score pipelines (human + mined), and the top-30 *chunks* of the reproduced exp-03 e5 RRF stage (the bar's own
   recipe) on both sets; exp 20's cache/B_mmarco.npz and exp 14's cache are reused where the pair exists.
 * bge-reranker-v2-m3 (512 tokens): the best dense chunk of each of the top-20 articles of the selected (and the
@@ -75,6 +75,7 @@ def main():
     ap.add_argument("--what", default="mmarco", choices=["mmarco", "bge"])
     ap.add_argument("--no-alt", action="store_true", help="skip the alternative pipeline's pairs")
     ap.add_argument("--alt-depth-mined", type=int, default=20, help="mMARCO depth of the alternative pipeline on the mined set (budget)")
+    ap.add_argument("--mined-alt", action="store_true", help="also score the alternative pipeline on the mined set (off: budget)")
     a = ap.parse_args()
     import torch
     torch.set_num_threads(4)
@@ -88,17 +89,20 @@ def main():
     cands = json.loads((CACHE / "B_candidates.json").read_text())
     st = json.loads((CACHE.parent / "runs" / "stage1.json").read_text())
     selected, alt = st["selected"], st["alt"]
-    pipes = [selected] if a.no_alt else [selected, alt]
+    final = st.get("final", selected)
+    pipes = list(dict.fromkeys([final, selected] + ([] if a.no_alt else [alt])))
+    main_pipes = list(dict.fromkeys([final, selected]))       # full depth on both sets; bge on the human set
 
     need: dict[tuple[str, int], None] = {}
     if a.what == "mmarco":
         for w in ("human", "mined"):
             for pipe in pipes:
-                depth = DEPTH_MMARCO if (w == "human" or pipe == selected) else a.alt_depth_mined
+                if w == "mined" and pipe not in main_pipes and not a.mined_alt:
+                    continue
+                depth = DEPTH_MMARCO if (w == "human" or pipe in main_pipes) else a.alt_depth_mined
                 for qid, e in cands[f"{w}:{pipe}"].items():
                     for d, _ in e["docs"][:depth]:
-                        di = doc_index[d]
-                        for c in range(int(doc_start[di]), int(doc_start[di + 1])):
+                        for c in e["top_chunks"][d]:                 # the article's best CHUNK_CAP chunks (budget)
                             need[(qid, c)] = None
             for qid, e in cands[f"{w}:e5_bm25__rrf03"].items():
                 for c in e["chunks"][:DEPTH_MMARCO]:
@@ -118,11 +122,11 @@ def main():
         print(f"mMARCO: {len(need)} pairs needed; reused exp 20 {n_re[2]}, exp 14 {n_re[1]}; already here {sum(1 for k in need if k in done) - sum(n_re.values())}", flush=True)
     else:
         sub = set(subsample100(mined))
-        for pipe in pipes:
+        for pipe in main_pipes:
             for qid, e in cands[f"human:{pipe}"].items():
                 for d, _ in e["docs"][:DEPTH_BGE]:
                     need[(qid, e["best_chunk"][d])] = None
-        for qid, e in cands[f"mined:{selected}"].items():
+        for qid, e in cands[f"mined:{final}"].items():
             if qid in sub:
                 for d, _ in e["docs"][:DEPTH_BGE]:
                     need[(qid, e["best_chunk"][d])] = None

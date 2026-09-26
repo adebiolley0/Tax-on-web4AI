@@ -123,6 +123,14 @@ def main():
         print("  colbert legs attached", flush=True)
     else:
         print("  no cache/B_colbert_scores.npz yet (colbert_scores.py under the torch lock) – legs saved without colbert", flush=True)
+    for f in sorted(CACHE.glob("B_colbert_scores_q*.npz")):          # query-length variants (colbert_scores.py --query-length N)
+        v = f.stem[len("B_colbert_scores"):]
+        z = np.load(f, allow_pickle=False)
+        assert list(z["qids"]) == meta["qids_human"] + meta["qids_mined"]
+        out[f"colbert{v}_chunk"] = z["scores"].astype(np.float32)
+        out[f"colbert{v}_doc"] = np.stack([doc_max(z["scores"][i], chunk_doc, n_docs, fill=-1e4) for i in range(len(z["scores"]))]).astype(np.float32)
+        meta.setdefault("colbert_variants", {})[v] = json.loads(str(z["timing"]))
+        print(f"  colbert variant {v} attached", flush=True)
     np.savez(CACHE / "B_legs.npz", **out)
     (CACHE / "B_legs.json").write_text(json.dumps(meta))
     print(f"saved cache/B_legs.npz in {time.perf_counter() - t_all:.0f}s", flush=True)

@@ -1005,14 +1005,14 @@
   }
  },
  "timing": {
-  "per_query_s": 20.7,
-  "s_per_pair": 1.032,
+  "per_query_s": 29.27,
+  "s_per_pair": 1.46,
   "first_stage_ms": 60
  },
  "provenance": {
-  "git": "46a805f5",
+  "git": "6241a490",
   "git_dirty": true,
-  "utc": "2026-09-26T18:16:03Z",
+  "utc": "2026-09-26T19:10:13Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

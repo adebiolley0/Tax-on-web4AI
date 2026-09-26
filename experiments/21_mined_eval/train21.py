@@ -35,18 +35,19 @@ class Model:
     def __init__(self, kind: str, C: float = 0.3):
         self.kind, self.C = kind, C
 
-    def fit(self, X, y, groups):
+    def fit(self, X, y, groups, w=None):
+        w = np.ones(len(y)) if w is None else np.asarray(w)
         if self.kind == "logreg":
             self.sc = StandardScaler().fit(X)
             self.m = LogisticRegression(C=self.C, max_iter=3000)
-            self.m.fit(self.sc.transform(X), (y > 0).astype(int), sample_weight=np.where(y > 0, y, 1.0))
+            self.m.fit(self.sc.transform(X), (y > 0).astype(int), sample_weight=np.where(y > 0, y, 1.0) * w)
         else:
             import lightgbm as lgb
             self.ms = []
             lab = np.rint(2 * y).astype(int)
             for seed in SEEDS:
                 m = lgb.LGBMRanker(objective="lambdarank", label_gain=[0, 1, 2], random_state=seed, verbose=-1, n_jobs=2, **LGBM_TINY)
-                m.fit(X, lab, group=groups)
+                m.fit(X, lab, group=groups, sample_weight=w)
                 self.ms.append(m)
         return self
 
@@ -69,6 +70,7 @@ def main():
     ap.add_argument("--rebuild", action="store_true")
     ap.add_argument("--no-save", action="store_true")
     ap.add_argument("--force-lgbm", action="store_true")
+    ap.add_argument("--balance", action="store_true", help="weight training questions by 1 / n(source) so the verbatim slices do not dominate")
     a = ap.parse_args()
     st = Stage1(a.corpus)
     questions = all_questions(a.corpus)
@@ -94,6 +96,9 @@ def main():
     for rk, cov in tab.rerank_cov.items():
         print(f"  reranker {rk}: convex top-20 fully scored for {int(cov[human].sum())} human / {int(cov[mined].sum())} mined questions", flush=True)
 
+    q_source = np.array([q.meta.get("source") or "human" for q in questions])
+    TAG = "__bal" if a.balance else ""
+
     def fit_model(kind, fset, qmask, C=0.3):
         qs = np.where(qmask)[0]
         rows = np.isin(tab.rows_q, qs)
@@ -101,7 +106,12 @@ def main():
         cols, names = select_features(tab, fset, rows)
         Xr, yr = tab.X[rows][order][:, cols], tab.y[rows][order]
         groups = [int(groups_all[q]) for q in sorted(qs)]
-        return Model(kind, C).fit(Xr, yr, groups), cols, names
+        w = None
+        if a.balance:
+            src = q_source[tab.rows_q[rows][order]]
+            n_src = {s: int((q_source[qs] == s).sum()) for s in set(src)}
+            w = np.array([1.0 / max(1, n_src[s]) for s in src]); w *= len(w) / w.sum()
+        return Model(kind, C).fit(Xr, yr, groups, w), cols, names
 
     def rank_all(model, cols, qmask):
         return {questions[qi].qid: tab.ranking(st, qi, model.predict(tab.X[tab.rows_of(qi)][:, cols])) for qi in np.where(qmask)[0]}
@@ -188,7 +198,8 @@ def main():
             mdl, cols, names = fit_model(meth, fset, m_tr, bestC)
             rk = rank_all(mdl, cols, elig)
             cfg = {"method": meth, "features": fset, "n_features": len(names), "C": bestC if meth == "logreg" else None, "fit": "mined train"}
-            res["fit-mtrain"] = eval_save(f"ltr__{meth}__{fset}__fit-mtrain", rk, cfg, elig)
+            cfg["balanced"] = a.balance
+            res["fit-mtrain"] = eval_save(f"ltr__{meth}__{fset}{TAG}__fit-mtrain", rk, cfg, elig)
             res["fit-mtrain"]["mined_val"] = short_metrics(evaluate_rankings("t", a.corpus, [questions[i] for i in np.where(m_va)[0]], rk))
             res["fit-mtrain"]["mined_val_by_src"] = {s: short_metrics(evaluate_rankings("t", a.corpus, qs, rk))
                                                      for s in SOURCES if (qs := [questions[i] for i in np.where(m_va)[0] if questions[i].meta.get("source") == s])}
@@ -198,15 +209,15 @@ def main():
             # swapped fold: fit on mined val → mined train (honest)
             mdl2, cols2, _ = fit_model(meth, fset, m_va, bestC)
             rk2 = rank_all(mdl2, cols2, elig)
-            res["fit-mval"] = eval_save(f"ltr__{meth}__{fset}__fit-mval", rk2, {**cfg, "fit": "mined val"}, elig)
+            res["fit-mval"] = eval_save(f"ltr__{meth}__{fset}{TAG}__fit-mval", rk2, {**cfg, "fit": "mined val"}, elig)
             res["fit-mval"]["mined_train"] = short_metrics(evaluate_rankings("t", a.corpus, [questions[i] for i in np.where(m_tr)[0]], rk2))
             # oof over the mined set (val from fit-mtrain, train from fit-mval)
             oof = {questions[i].qid: (rk if questions[i].split == "val" else rk2)[questions[i].qid] for i in np.where(m_all)[0]}
-            res["oof-mined"] = eval_save(f"ltr__{meth}__{fset}__oof-mined", oof, {**cfg, "fit": "2-fold oof over mined"}, m_all)
+            res["oof-mined"] = eval_save(f"ltr__{meth}__{fset}{TAG}__oof-mined", oof, {**cfg, "fit": "2-fold oof over mined"}, m_all)
             # fit on all mined → human
             mdl3, cols3, _ = fit_model(meth, fset, m_all, bestC)
             rk3 = rank_all(mdl3, cols3, elig)
-            res["fit-mall"] = eval_save(f"ltr__{meth}__{fset}__fit-mall", rk3, {**cfg, "fit": "all mined (mined slices are resubstitution)"}, elig)
+            res["fit-mall"] = eval_save(f"ltr__{meth}__{fset}{TAG}__fit-mall", rk3, {**cfg, "fit": "all mined (mined slices are resubstitution)"}, elig)
             res["fit-mall"]["human_val"] = short_metrics(evaluate_rankings("t", a.corpus, [questions[i] for i in np.where(m_hu)[0] if questions[i].split == "val"], rk3))
             res["seconds"] = round(time.perf_counter() - t1, 1)
             entry["methods"][meth] = res
@@ -217,7 +228,7 @@ def main():
                   f"fit-mval → train {fv['mined_train']['mrr']:.3f} | oof-mined {res['oof-mined']['mined']['mrr']:.3f} || "
                   f"fit-mall → human all {fm['human']['mrr']:.3f} val {fm['human_val']['mrr']:.3f}", flush=True)
             print("    top features: " + ", ".join(f"{n}={v:+.2f}" for n, v in imp[:8]), flush=True)
-        summary["models"][fset] = entry
+        summary["models"][fset + TAG] = entry
 
     # ── paired tests ───────────────────────────────────────────────────────────
     tests = {"human": {}, "mined_val": {}}
@@ -237,7 +248,7 @@ def main():
             continue
         for meth in entry["methods"]:
             for fit in ("fit-mtrain", "fit-mall"):
-                name = f"ltr__{meth}__{fset}__{fit}"
+                name = f"ltr__{meth}__{fset}__{fit}"          # fset already carries the __bal tag here
                 run = get_run(f"human__{name}")
                 row = {}
                 for k, ref in refs.items():
@@ -271,7 +282,7 @@ def main():
                 row[f"vs {k} (subsample ∩ val)"] = paired(ref, run, split="val")
             tests["mined_val"][name] = row
     summary["tests"] = tests
-    (RUNS / f"part3_{a.corpus}.json").write_text(json.dumps(summary, indent=1, default=float))
+    (RUNS / f"part3_{a.corpus}{TAG}.json").write_text(json.dumps(summary, indent=1, default=float))
 
     # ── markdown ────────────────────────────────────────────────────────────
     L = [f"### Part 3 – corpus {a.corpus}: learned ranker trained on mined labels", "",
@@ -301,7 +312,7 @@ def main():
     for name, row in tests["mined_val"].items():
         for k, t in row.items():
             L.append(f"| {name} | {k} (n={t['n']}) | {fmt_paired(t)} |")
-    (RUNS / f"part3_{a.corpus}.md").write_text("\n".join(L) + "\n")
+    (RUNS / f"part3_{a.corpus}{TAG}.md").write_text("\n".join(L) + "\n")
     print("\n".join(L[:12]))
 
 

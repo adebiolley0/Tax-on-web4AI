@@ -19,9 +19,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import StandardScaler
 
-from common22 import (EXP14, FUSIONS, HUMAN_HEAD, LEGS, MINED_HEAD, PAIRED_HEAD, REFS_HUMAN, RUNS, SLICES, evaluate_save, fmt_human,
-                      fmt_mined, fmt_paired, fuse_z, load_legs, paired, questions_human, questions_mined, rankings_from, ranks_of,
-                      ranks_of_file, slice_metrics, split_metrics, zscore)
+from common22 import (EXP14, FUSIONS, HUMAN_HEAD, LEGS, MINED_HEAD, PAIRED_HEAD, REFS_HUMAN, RUNS, SLICES, colbert_variants, evaluate_save,
+                      fmt_human, fmt_mined, fmt_paired, fuse_z, load_legs, paired, pipe_parts, questions_human, questions_mined, rankings_from,
+                      ranks_of, ranks_of_file, slice_metrics, split_metrics, zscore)
 from common14 import tokenize, ranks_of as rank_all  # noqa: E402
 from features import doc_meta  # noqa: E402  (14_ltr_fusion; cached B_docmeta.json)
 from cleanup import detect_region  # noqa: E402
@@ -115,7 +115,8 @@ def main():
     z, doc_ids = L["z"], L["doc_ids"]
     doc_start = z["doc_start"]
     st = json.loads((RUNS / "stage1.json").read_text())
-    selected = st["selected"]
+    selected = st.get("final", st["selected"])          # the final pipeline (selected weights + selected colbert query length)
+    base_w, cvar = pipe_parts(selected, colbert_variants(z))
     human, mined = questions_human(), questions_mined()
     nh = len(human)
     meta = doc_meta("B")
@@ -129,8 +130,8 @@ def main():
     types = sorted(t for t, c in tc.items() if c >= 5)
     tabs = {}
     for w, qs, rows in (("human", human, slice(0, nh)), ("mined", mined, slice(nh, None))):
-        legs = {"rec": z["rec_human"] if w == "human" else z["rec_mined"], "colbert": z["colbert_doc"][rows], "e5": z["e5_doc"][rows]}
-        fused = fuse_z(legs, FUSIONS[selected])
+        legs = {"rec": z["rec_human"] if w == "human" else z["rec_mined"], "colbert": z[f"colbert{cvar}_doc"][rows], "e5": z["e5_doc"][rows]}
+        fused = fuse_z(legs, FUSIONS[base_w])
         tabs[w] = Table(qs, *build(qs, legs, fused, doc_ids, doc_start, meta, title_toks, types))
         cov = np.mean([any(doc_ids[int(d)] in q.expected for d in tabs[w].rows_d[tabs[w].by_q[i]]) for i, q in enumerate(qs)])
         print(f"[{w}] {len(tabs[w].y)} rows ({len(tabs[w].y) / len(qs):.0f} docs/q), {len(tabs[w].names)} features, candidate recall {cov:.3f}", flush=True)

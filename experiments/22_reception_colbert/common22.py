@@ -48,6 +48,7 @@ FUSIONS = {                      # name → weights over LEGS (z-score convex, f
     "z_colbert_e5": (0.0, 0.5, 0.5),
 }
 CANDIDATES = ("z3_equal", "z_rec_colbert")      # the two pre-registered candidates; selection on mined TRAIN only
+CHUNK_CAP = 3                                     # reranker pairs per candidate article: its best 3 chunks by z(colbert) + z(e5)
 
 # reference runs (stored per-question ranks) -------------------------------------------------------
 REFS_HUMAN = {
@@ -255,6 +256,19 @@ def load_universe():
     doc_ids = [d.doc_id for d in docs]
     assert m14["doc_ids"] == doc_ids and len(chunks) == m14["n_chunks"]
     return docs, chunks, z14["chunk_doc"].astype(np.int64), z14["doc_start"].astype(np.int64), doc_ids
+
+
+def colbert_variants(z: dict) -> list[str]:
+    """['' (exp-12 query length 48), '_q256', …] as present in the legs file."""
+    return [""] + sorted(k[len("colbert"):-len("_doc")] for k in z if k.startswith("colbert_q") and k.endswith("_doc"))
+
+
+def pipe_parts(name: str, variants) -> tuple[str, str]:
+    """'z3_equal_q256' → ('z3_equal', '_q256'); 'z3_equal' → ('z3_equal', '')."""
+    for v in sorted(variants, key=len, reverse=True):
+        if v and name.endswith(v):
+            return name[: -len(v)], v
+    return name, ""
 
 
 def load_legs() -> dict:
