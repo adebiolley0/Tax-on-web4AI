@@ -1,0 +1,13 @@
+{
+ "runs": [
+  {
+   "pairs": 2002,
+   "seconds": 1876.7,
+   "s_per_pair": 0.937,
+   "threads": 4,
+   "max_length": 512,
+   "load_s": 3.4
+  }
+ ],
+ "n_reused_exp14": 1198
+}

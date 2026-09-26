@@ -1,0 +1,642 @@
+{
+ "name": "lex13+bge@30_beta0.5",
+ "corpus": "B",
+ "config": {
+  "first_stage": "exp-13 lexical (BM25F title boost, tok01+num, per-corpus k1/b)",
+  "reranker": "BAAI/bge-reranker-v2-m3",
+  "max_length": 512,
+  "depth": 30,
+  "beta": 0.5,
+  "fusion": "beta*minmax(reranker) + (1-beta)*minmax(bm25f) over the candidates"
+ },
+ "metrics": {
+  "mrr": 0.5044,
+  "ndcg@5": 0.4247,
+  "ndcg@10": 0.4616,
+  "hit@1": 0.425,
+  "hit@3": 0.575,
+  "hit@5": 0.625,
+  "hit@10": 0.7,
+  "recall@5": 0.625,
+  "recall@10": 0.7,
+  "n_questions": 40,
+  "train_mrr": 0.5663,
+  "train_hit@1": 0.5,
+  "train_hit@5": 0.6667,
+  "train_recall@10": 0.75,
+  "train_n": 24,
+  "val_mrr": 0.4115,
+  "val_hit@1": 0.3125,
+  "val_hit@5": 0.5625,
+  "val_recall@10": 0.625,
+  "val_n": 16
+ },
+ "per_question": {
+  "B1": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92:96/2",
+    "cir92:171",
+    "cir92:130",
+    "cir92:269",
+    "cir92:178"
+   ],
+   "expected": [
+    "cir92:130"
+   ],
+   "split": "val"
+  },
+  "B2": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92:134",
+    "cir92:133",
+    "cir92:131",
+    "cir92:136",
+    "cir92:142"
+   ],
+   "expected": [
+    "cir92:131"
+   ],
+   "split": "train"
+  },
+  "B3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:51",
+    "arcir92:258",
+    "cir92:50",
+    "cir92:102bis",
+    "cir92:275/4"
+   ],
+   "expected": [
+    "cir92:51"
+   ],
+   "split": "train"
+  },
+  "B4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:145/8",
+    "cir92:145/7",
+    "arcir92:635",
+    "cir92:145/10",
+    "arcir92:258"
+   ],
+   "expected": [
+    "cir92:145/8"
+   ],
+   "split": "train"
+  },
+  "B5": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92:203",
+    "cir92:194ter",
+    "cir92:215",
+    "cir92:216",
+    "cir92:289quater"
+   ],
+   "expected": [
+    "cir92:215"
+   ],
+   "split": "train"
+  },
+  "B6": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "arcir92:106",
+    "arcir92:117",
+    "cir92:203",
+    "cir92:282/1",
+    "cir92:2"
+   ],
+   "expected": [
+    "cir92:202"
+   ],
+   "split": "val"
+  },
+  "B7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:69",
+    "cir92:201",
+    "cir92:69/1",
+    "arcir92:48",
+    "cir92:70"
+   ],
+   "expected": [
+    "cir92:69"
+   ],
+   "split": "train"
+  },
+  "B8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:269",
+    "arcir92:178/2",
+    "arcir92:206/1",
+    "cir92:281/1",
+    "arcir92:107"
+   ],
+   "expected": [
+    "cir92:269"
+   ],
+   "split": "train"
+  },
+  "B9": {
+   "rank": 11,
+   "rr": 0.0909,
+   "top5": [
+    "ctva:22ter",
+    "artva:AR55:1",
+    "ctva:25quinquies",
+    "ctva:12bis",
+    "ctva:51"
+   ],
+   "expected": [
+    "ctva:4"
+   ],
+   "split": "train"
+  },
+  "B10": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "artva:AR20:1",
+    "artva:AR20:1quater/1",
+    "artva:AR20:3",
+    "artva:AR20:1bis",
+    "artva:AR20:1bis/1"
+   ],
+   "expected": [
+    "artva:AR20:1"
+   ],
+   "split": "train"
+  },
+  "B11": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "ctva:56decies",
+    "ctva:56ter",
+    "artva:AR2:4",
+    "artva:AR19:10",
+    "ctva:56nonies"
+   ],
+   "expected": [
+    "ctva:56ter"
+   ],
+   "split": "val"
+  },
+  "B12": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "ctva:54",
+    "artva:AR1:13",
+    "artva:AR1:9",
+    "artva:AR1:5",
+    "ctva:56"
+   ],
+   "expected": [
+    "artva:AR1:5"
+   ],
+   "split": "train"
+  },
+  "B13": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:371",
+    "cbpf:100",
+    "cir92:373",
+    "cir92:413",
+    "cbpf:32"
+   ],
+   "expected": [
+    "cir92:371"
+   ],
+   "split": "val"
+  },
+  "B14": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "arcir92:225",
+    "cir92:444",
+    "cir92:358",
+    "cir92:354",
+    "ar1927:221undecies"
+   ],
+   "expected": [
+    "cir92:354"
+   ],
+   "split": "val"
+  },
+  "B15": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "cir92:275/4",
+    "cir92:275",
+    "arcir92:88",
+    "cir92:312",
+    "cir92:275/5"
+   ],
+   "expected": [
+    "arcir92:88"
+   ],
+   "split": "val"
+  },
+  "B16": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:326/2",
+    "csucc_bxl:146septies",
+    "csucc_wal:146septies",
+    "cenr_bxl:289bis/2",
+    "cenr_wal:289bis/2"
+   ],
+   "expected": [
+    "cir92:145/33"
+   ],
+   "split": "val"
+  },
+  "B17": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:126",
+    "cir92:2",
+    "crecouv:9",
+    "cir92:198",
+    "arcir92:144/6"
+   ],
+   "expected": [
+    "cir92:104"
+   ],
+   "split": "train"
+  },
+  "B18": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:66",
+    "arcir92:258",
+    "cir92:275/1",
+    "cta_bxl:36quater",
+    "cta_wal:10"
+   ],
+   "expected": [
+    "cir92:36"
+   ],
+   "split": "train"
+  },
+  "B19": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:38/1",
+    "cir92:38",
+    "arcir92:6310",
+    "cir92:354/1",
+    "cir92:145/21"
+   ],
+   "expected": [
+    "cir92:38/1"
+   ],
+   "split": "val"
+  },
+  "B20": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:132",
+    "cta_wal:98",
+    "ar1940:4",
+    "cir92:133",
+    "cenr_bxl:135"
+   ],
+   "expected": [
+    "cir92:132"
+   ],
+   "split": "train"
+  },
+  "B21": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:7",
+    "cir92:8",
+    "cenr_bxl:46bis",
+    "cir92:262",
+    "arcir92:4"
+   ],
+   "expected": [
+    "cir92:7"
+   ],
+   "split": "val"
+  },
+  "B22": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:90",
+    "artva:AR45:1",
+    "cir92:234",
+    "vcf:2.13.3.0.1",
+    "cir92:135"
+   ],
+   "expected": [
+    "cir92:90"
+   ],
+   "split": "train"
+  },
+  "B23": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cir92:202",
+    "arcir92:182",
+    "cir92:51",
+    "cir92:206/4",
+    "cir92:185"
+   ],
+   "expected": [
+    "cir92:215"
+   ],
+   "split": "val"
+  },
+  "B24": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:66",
+    "cir92:550",
+    "arcir92:3",
+    "cir92:198",
+    "cir92:205"
+   ],
+   "expected": [
+    "cir92:66"
+   ],
+   "split": "train"
+  },
+  "B25": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "arcir92:18",
+    "arcir92:257",
+    "arcir92:258",
+    "ue282:7",
+    "cir92:64quater"
+   ],
+   "expected": [
+    "arcir92:18"
+   ],
+   "split": "train"
+  },
+  "B26": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "ctva:56",
+    "ctva:59",
+    "artva:AR20:3",
+    "ctva:61",
+    "ctva:53"
+   ],
+   "expected": [
+    "ctva:44"
+   ],
+   "split": "val"
+  },
+  "B27": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "artva:AR20:3",
+    "artva:AR20:1quater/1",
+    "ctva:64",
+    "artva:AR8:1",
+    "vcf:2.8.4.3.1"
+   ],
+   "expected": [
+    "artva:AR20:3"
+   ],
+   "split": "val"
+  },
+  "B28": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:414",
+    "crecouv:14",
+    "cir92:416",
+    "cir92:418",
+    "cir92:415/1"
+   ],
+   "expected": [
+    "cir92:414"
+   ],
+   "split": "train"
+  },
+  "B29": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cir92:316",
+    "cbpf:54",
+    "crecouv:75",
+    "csucc_bxl:146quater",
+    "csucc_wal:146quater"
+   ],
+   "expected": [
+    "cir92:316"
+   ],
+   "split": "val"
+  },
+  "B30": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "artva:AR20:3",
+    "artva:AR1:20ter",
+    "artva:AR20:1quater/1",
+    "artva:AR1:20bis",
+    "artva:AR23:1"
+   ],
+   "expected": [
+    "artva:AR1:20"
+   ],
+   "split": "train"
+  },
+  "B31": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "csucc_bxl:521",
+    "csucc_wal:521",
+    "csucc_wal:42",
+    "vcf:2.7.6.0.6",
+    "csucc_bxl:50"
+   ],
+   "expected": [
+    "csucc_wal:48"
+   ],
+   "split": "val"
+  },
+  "B32": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "csucc_wal:70@01.01.2028",
+    "csucc_bxl:70@01.01.2028",
+    "csucc_wal:70",
+    "ar1927:24014",
+    "csucc_bxl:70"
+   ],
+   "expected": [
+    "csucc_bxl:55bis"
+   ],
+   "split": "train"
+  },
+  "B33": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "vcf:1.1.0.0.2",
+    "csucc_bxl:55bis",
+    "csucc_bxl:60ter",
+    "csucc_bxl:135@01.01.2028",
+    "csucc_wal:135@01.01.2028"
+   ],
+   "expected": [
+    "vcf:2.7.4.1.1"
+   ],
+   "split": "val"
+  },
+  "B34": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "cenr_wal:161",
+    "cenr_wal:188",
+    "cenr_bxl:188",
+    "vcf:3.6.0.0.6",
+    "cenr_bxl:62"
+   ],
+   "expected": [
+    "cenr_wal:44bis"
+   ],
+   "split": "train"
+  },
+  "B35": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cenr_bxl:46bis",
+    "cenr_wal:67",
+    "cenr_bxl:67",
+    "cenr_bxl:46ter",
+    "cir92:145/45"
+   ],
+   "expected": [
+    "cenr_bxl:46bis"
+   ],
+   "split": "train"
+  },
+  "B36": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "vcf:2.9.4.2.4",
+    "avcf:3.10.3.2.5",
+    "vcf:2.9.4.2.12",
+    "cenr_bxl:612",
+    "vcf:2.9.4.2.5"
+   ],
+   "expected": [
+    "vcf:2.9.4.2.11"
+   ],
+   "split": "train"
+  },
+  "B37": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "csucc_bxl:48",
+    "csucc_wal:152",
+    "csucc_bxl:152",
+    "cenr_wal:173",
+    "cenr_bxl:173"
+   ],
+   "expected": [
+    "cenr_wal:131bis"
+   ],
+   "split": "val"
+  },
+  "B38": {
+   "rank": 8,
+   "rr": 0.125,
+   "top5": [
+    "cta_bxl:100",
+    "cta_wal:10",
+    "cta_wal:100",
+    "cta_bxl:21",
+    "cta_wal:98"
+   ],
+   "expected": [
+    "cta_bxl:98"
+   ],
+   "split": "train"
+  },
+  "B39": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "cta_wal:9",
+    "cta_wal:98",
+    "cta_wal:12",
+    "cta_bxl:9",
+    "vcf:2.2.4.0.1"
+   ],
+   "expected": [
+    "cta_wal:9"
+   ],
+   "split": "train"
+  },
+  "B40": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "agbxl2019:58",
+    "cbpf:144",
+    "cbpf:100",
+    "cir92:500",
+    "cbpf:114"
+   ],
+   "expected": [
+    "cbpf:100"
+   ],
+   "split": "train"
+  }
+ },
+ "timing": {
+  "per_query_s": 30.63,
+  "s_per_pair": 1.021,
+  "lexical_query_ms": 1.37,
+  "threads": 4
+ }
+}

@@ -1,0 +1,934 @@
+{
+ "corpus": "C",
+ "s_per_pair": 0.9374125874125875,
+ "query_ms": 26.71,
+ "timing": {
+  "runs": [
+   {
+    "pairs": 2002,
+    "seconds": 1876.7,
+    "s_per_pair": 0.937,
+    "threads": 4,
+    "max_length": 512,
+    "load_s": 3.4
+   }
+  ],
+  "n_reused_exp14": 1198
+ },
+ "refs": {
+  "first_stage": {
+   "label": "exp 09: BM25 tok03 on 1200-char chunks (old first stage)",
+   "metrics": {
+    "train": {
+     "n": 29,
+     "mrr": 0.6258379551483001,
+     "hit@1": 0.5172413793103449,
+     "recall@10": 0.8275862068965517
+    },
+    "val": {
+     "n": 35,
+     "mrr": 0.5363945578231292,
+     "hit@1": 0.4,
+     "recall@10": 0.8571428571428571
+    },
+    "all": {
+     "n": 64,
+     "mrr": 0.5769235972360972,
+     "hit@1": 0.453125,
+     "recall@10": 0.84375
+    }
+   }
+  },
+  "lex13": {
+   "label": "lex13",
+   "metrics": {
+    "train": {
+     "n": 29,
+     "mrr": 0.7638327388030122,
+     "hit@1": 0.7241379310344828,
+     "recall@10": 0.8620689655172413
+    },
+    "val": {
+     "n": 35,
+     "mrr": 0.6159250669964956,
+     "hit@1": 0.4857142857142857,
+     "recall@10": 0.8857142857142857
+    },
+    "all": {
+     "n": 64,
+     "mrr": 0.6829457307838236,
+     "hit@1": 0.59375,
+     "recall@10": 0.875
+    }
+   }
+  },
+  "bar": {
+   "label": "exp 09: BM25 (tok03, chunks) + bge-reranker-v2-m3 @30",
+   "metrics": {
+    "train": {
+     "n": 29,
+     "mrr": 0.7344827586206897,
+     "hit@1": 0.6551724137931034,
+     "recall@10": 0.8620689655172413
+    },
+    "val": {
+     "n": 35,
+     "mrr": 0.6647742733457019,
+     "hit@1": 0.5428571428571428,
+     "recall@10": 0.8857142857142857
+    },
+    "all": {
+     "n": 64,
+     "mrr": 0.6963609307359307,
+     "hit@1": 0.59375,
+     "recall@10": 0.875
+    }
+   }
+  }
+ },
+ "ours": {
+  "lex13+bge@20_beta0.5": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7856718192627824,
+    "hit@1": 0.7241379310344828,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6446768707482994,
+    "hit@1": 0.5142857142857142,
+    "recall@10": 0.9142857142857143
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7085652067939245,
+    "hit@1": 0.609375,
+    "recall@10": 0.890625
+   }
+  },
+  "lex13+bge@20_beta0.7": {
+   "train": {
+    "n": 29,
+    "mrr": 0.8029131985731273,
+    "hit@1": 0.7586206896551724,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.675187074829932,
+    "hit@1": 0.5714285714285714,
+    "recall@10": 0.9142857142857143
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7330629746510673,
+    "hit@1": 0.65625,
+    "recall@10": 0.890625
+   }
+  },
+  "lex13+bge@20": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7569361870788743,
+    "hit@1": 0.6896551724137931,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6877721088435375,
+    "hit@1": 0.5714285714285714,
+    "recall@10": 0.9142857142857143
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7191120817939245,
+    "hit@1": 0.625,
+    "recall@10": 0.890625
+   }
+  },
+  "lex13+bge@30_beta0.5": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7856718192627824,
+    "hit@1": 0.7241379310344828,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6480045351473923,
+    "hit@1": 0.5142857142857142,
+    "recall@10": 0.9428571428571428
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7103850232621784,
+    "hit@1": 0.609375,
+    "recall@10": 0.90625
+   }
+  },
+  "lex13+bge@30_beta0.7": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7856718192627824,
+    "hit@1": 0.7241379310344828,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6784013605442177,
+    "hit@1": 0.5714285714285714,
+    "recall@10": 0.9428571428571428
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7270082871510672,
+    "hit@1": 0.640625,
+    "recall@10": 0.90625
+   }
+  },
+  "lex13+bge@30": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7339476813317479,
+    "hit@1": 0.6551724137931034,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.674875283446712,
+    "hit@1": 0.5428571428571428,
+    "recall@10": 0.9428571428571428
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7016424637383689,
+    "hit@1": 0.59375,
+    "recall@10": 0.90625
+   }
+  },
+  "lex13+bge@50_beta0.5": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7856718192627824,
+    "hit@1": 0.7241379310344828,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6613832199546485,
+    "hit@1": 0.5428571428571428,
+    "recall@10": 0.9428571428571428
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7177014915161466,
+    "hit@1": 0.625,
+    "recall@10": 0.90625
+   }
+  },
+  "lex13+bge@50_beta0.7": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7856718192627824,
+    "hit@1": 0.7241379310344828,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6774273345701918,
+    "hit@1": 0.5714285714285714,
+    "recall@10": 0.9142857142857143
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.7264756166965218,
+    "hit@1": 0.640625,
+    "recall@10": 0.890625
+   }
+  },
+  "lex13+bge@50": {
+   "train": {
+    "n": 29,
+    "mrr": 0.7339476813317479,
+    "hit@1": 0.6551724137931034,
+    "recall@10": 0.8620689655172413
+   },
+   "val": {
+    "n": 35,
+    "mrr": 0.6620068027210885,
+    "hit@1": 0.5428571428571428,
+    "recall@10": 0.9142857142857143
+   },
+   "all": {
+    "n": 64,
+    "mrr": 0.6946050133415436,
+    "hit@1": 0.59375,
+    "recall@10": 0.890625
+   }
+  }
+ },
+ "selected_beta_per_depth": {
+  "20": 0.7,
+  "30": 0.7,
+  "50": 0.7
+ },
+ "selected_depth_beta": [
+  20,
+  0.7
+ ],
+ "tests_val": {
+  "lex13+bge@20_beta0.5 vs bar": {
+   "n": 35,
+   "mean_diff": -0.020097402597402603,
+   "wins": 6,
+   "losses": 9,
+   "ties": 20,
+   "t": -0.5019309204477831,
+   "p_t": 0.6189512218033394,
+   "p_wilcoxon": 0.5312177423538254,
+   "p_sign": 0.6072387695312499,
+   "ci95": [
+    -0.09952539424860854,
+    0.054490646258503334
+   ]
+  },
+  "lex13+bge@20_beta0.7 vs bar": {
+   "n": 35,
+   "mean_diff": 0.010412801484230051,
+   "wins": 6,
+   "losses": 7,
+   "ties": 22,
+   "t": 0.3103629200883102,
+   "p_t": 0.7581795804723355,
+   "p_wilcoxon": 0.8887394094968264,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.05544990723562153,
+    0.07374679189857757
+   ]
+  },
+  "lex13+bge@20 vs bar": {
+   "n": 35,
+   "mean_diff": 0.0229978354978355,
+   "wins": 4,
+   "losses": 1,
+   "ties": 30,
+   "t": 1.3283095063015957,
+   "p_t": 0.19292367587041412,
+   "p_wilcoxon": 0.22491588401596185,
+   "p_sign": 0.375,
+   "ci95": [
+    -0.0037878787878787876,
+    0.060791589363017935
+   ]
+  },
+  "lex13+bge@30_beta0.5 vs bar": {
+   "n": 35,
+   "mean_diff": -0.016769738198309632,
+   "wins": 5,
+   "losses": 8,
+   "ties": 22,
+   "t": -0.42827378090938684,
+   "p_t": 0.6711527689058431,
+   "p_wilcoxon": 0.5989498557727171,
+   "p_sign": 0.5810546875,
+   "ci95": [
+    -0.09433312719027004,
+    0.05656498660070076
+   ]
+  },
+  "lex13+bge@30_beta0.7 vs bar": {
+   "n": 35,
+   "mean_diff": 0.013627087198515766,
+   "wins": 5,
+   "losses": 5,
+   "ties": 25,
+   "t": 0.40894894862764003,
+   "p_t": 0.6851417740504205,
+   "p_wilcoxon": 0.6460335914571025,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.05206555349412492,
+    0.07623438466295603
+   ]
+  },
+  "lex13+bge@30 vs bar": {
+   "n": 35,
+   "mean_diff": 0.0101010101010101,
+   "wins": 2,
+   "losses": 0,
+   "ties": 33,
+   "t": 1.0605487754478666,
+   "p_t": 0.2963710085329015,
+   "p_wilcoxon": 0.17971249487899976,
+   "p_sign": 0.5,
+   "ci95": [
+    0.0,
+    0.02972582972582972
+   ]
+  },
+  "lex13+bge@50_beta0.5 vs bar": {
+   "n": 35,
+   "mean_diff": -0.0033910533910533956,
+   "wins": 5,
+   "losses": 7,
+   "ties": 23,
+   "t": -0.09301342030383156,
+   "p_t": 0.9264388361738125,
+   "p_wilcoxon": 0.8135931081041027,
+   "p_sign": 0.7744140625,
+   "ci95": [
+    -0.07609199134199135,
+    0.06607647907647894
+   ]
+  },
+  "lex13+bge@50_beta0.7 vs bar": {
+   "n": 35,
+   "mean_diff": 0.01265306122448979,
+   "wins": 4,
+   "losses": 5,
+   "ties": 26,
+   "t": 0.37975669084672187,
+   "p_t": 0.7064878621453077,
+   "p_wilcoxon": 0.6778684441068372,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.05306122448979592,
+    0.07530612244897958
+   ]
+  },
+  "lex13+bge@50 vs bar": {
+   "n": 35,
+   "mean_diff": -0.002767470624613482,
+   "wins": 1,
+   "losses": 5,
+   "ties": 29,
+   "t": -0.2962469357563396,
+   "p_t": 0.768843553349931,
+   "p_wilcoxon": 0.3454475304692257,
+   "p_sign": 0.21875,
+   "ci95": [
+    -0.01943413729128015,
+    0.016496598639455785
+   ]
+  },
+  "lex13+bge@20_beta0.5 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.02875180375180375,
+   "wins": 7,
+   "losses": 3,
+   "ties": 25,
+   "t": 1.644223901141377,
+   "p_t": 0.10934640748566272,
+   "p_wilcoxon": 0.09175319625596735,
+   "p_sign": 0.34375,
+   "ci95": [
+    -0.0007266542980828699,
+    0.06679035250463822
+   ]
+  },
+  "lex13+bge@20_beta0.7 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.0592620078334364,
+   "wins": 8,
+   "losses": 2,
+   "ties": 25,
+   "t": 2.097821152111477,
+   "p_t": 0.043428014455432505,
+   "p_wilcoxon": 0.041226833337163676,
+   "p_sign": 0.109375,
+   "ci95": [
+    0.010668341579055862,
+    0.11839919604205312
+   ]
+  },
+  "lex13+bge@20 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.07184704184704185,
+   "wins": 11,
+   "losses": 3,
+   "ties": 21,
+   "t": 1.7310376142491686,
+   "p_t": 0.09251216371501242,
+   "p_wilcoxon": 0.06371182276652083,
+   "p_sign": 0.057373046875,
+   "ci95": [
+    -0.004548057101628531,
+    0.15659724799010502
+   ]
+  },
+  "lex13+bge@30_beta0.5 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.03207946815089672,
+   "wins": 8,
+   "losses": 3,
+   "ties": 24,
+   "t": 1.7860520519651863,
+   "p_t": 0.08301246375955708,
+   "p_wilcoxon": 0.08220016818126463,
+   "p_sign": 0.2265625,
+   "ci95": [
+    0.0012574726860441136,
+    0.07055502731395574
+   ]
+  },
+  "lex13+bge@30_beta0.7 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.06247629354772213,
+   "wins": 10,
+   "losses": 2,
+   "ties": 23,
+   "t": 2.2104469130133846,
+   "p_t": 0.033905011110752295,
+   "p_wilcoxon": 0.03085491148942788,
+   "p_sign": 0.03857421875,
+   "ci95": [
+    0.013535121624407337,
+    0.1217846449185734
+   ]
+  },
+  "lex13+bge@30 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.058950216450216454,
+   "wins": 11,
+   "losses": 4,
+   "ties": 20,
+   "t": 1.3206586850278188,
+   "p_t": 0.1954361473219535,
+   "p_wilcoxon": 0.1547175794406997,
+   "p_sign": 0.11846923828124999,
+   "ci95": [
+    -0.02369291125541126,
+    0.14865990259740244
+   ]
+  },
+  "lex13+bge@50_beta0.5 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.04545815295815296,
+   "wins": 7,
+   "losses": 3,
+   "ties": 25,
+   "t": 1.7949513748750185,
+   "p_t": 0.08155605886958389,
+   "p_wilcoxon": 0.0829310820849621,
+   "p_sign": 0.34375,
+   "ci95": [
+    0.0028209776334776303,
+    0.09994588744588744
+   ]
+  },
+  "lex13+bge@50_beta0.7 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.061502267573696145,
+   "wins": 9,
+   "losses": 3,
+   "ties": 23,
+   "t": 2.170919549849371,
+   "p_t": 0.03701128497874553,
+   "p_wilcoxon": 0.03748592846275253,
+   "p_sign": 0.14599609375,
+   "ci95": [
+    0.012551741908884763,
+    0.12073768295196852
+   ]
+  },
+  "lex13+bge@50 vs lex13": {
+   "n": 35,
+   "mean_diff": 0.04608173572459287,
+   "wins": 10,
+   "losses": 7,
+   "ties": 18,
+   "t": 1.026296678466742,
+   "p_t": 0.31199832632226493,
+   "p_wilcoxon": 0.3427440013281223,
+   "p_sign": 0.629058837890625,
+   "ci95": [
+    -0.037159863945578235,
+    0.13624755205112338
+   ]
+  },
+  "lex13 vs first_stage": {
+   "n": 35,
+   "mean_diff": 0.0795305091733663,
+   "wins": 13,
+   "losses": 3,
+   "ties": 19,
+   "t": 1.8786259182063936,
+   "p_t": 0.06889198026353051,
+   "p_wilcoxon": 0.0199501784368676,
+   "p_sign": 0.021270751953125,
+   "ci95": [
+    -0.00031542465471037627,
+    0.1649300144300141
+   ]
+  },
+  "lex13 vs bar": {
+   "n": 35,
+   "mean_diff": -0.048849206349206344,
+   "wins": 6,
+   "losses": 10,
+   "ties": 19,
+   "t": -1.0918958086472423,
+   "p_t": 0.2825560140355194,
+   "p_wilcoxon": 0.26529004732828276,
+   "p_sign": 0.454498291015625,
+   "ci95": [
+    -0.13887247474747477,
+    0.03372139764996908
+   ]
+  }
+ },
+ "val_rows": [
+  {
+   "qid": "C1",
+   "question": "Je suis pensionné, je vis en Belgique et je touche une rente AVS de Suisse. Comm",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C7",
+   "question": "Je fais installer une pompe à chaleur en 2026 dans ma maison construite il y a 6",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C8",
+   "question": "Notre société belge met une voiture de société à disposition d'un salarié qui ha",
+   "first_stage": null,
+   "lex13": null,
+   "bar": null,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "C12",
+   "question": "J'habite en Wallonie et je veux léguer par testament une partie de mes biens à u",
+   "first_stage": 2,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C14",
+   "question": "Mon grand-père, qui vit en France, veut faire devant notaire français une donati",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C15",
+   "question": "J'ai acheté mon logement à Bruxelles avec l'abattement sur les droits d'enregist",
+   "first_stage": 2,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C16",
+   "question": "Ma petite remorque de moins de 750 kg n'a pas besoin de plaque d'immatriculation",
+   "first_stage": 7,
+   "lex13": 5,
+   "bar": 4,
+   "lex13+bge@20": 4,
+   "lex13+bge@30": 4,
+   "lex13+bge@50": 4
+  },
+  {
+   "qid": "C17",
+   "question": "Qu'est-ce que le legs en duo et la Région wallonne compte-t-elle le supprimer co",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C19",
+   "question": "Ma société détient l'usufruit de mon immeuble ; si nous signons un avenant pour ",
+   "first_stage": 15,
+   "lex13": 11,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C20",
+   "question": "J'ai été adopté par adoption simple. Au décès de mon parent adoptif en Wallonie,",
+   "first_stage": 4,
+   "lex13": 3,
+   "bar": 2,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "C22",
+   "question": "Je cultive des pommiers et des poiriers en Wallonie et je suis imposé au forfait",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C25",
+   "question": "Je passe mes ordres d'achat d'actions via un courtier en ligne établi à l'étrang",
+   "first_stage": 5,
+   "lex13": 16,
+   "bar": 6,
+   "lex13+bge@20": 16,
+   "lex13+bge@30": 6,
+   "lex13+bge@50": 7
+  },
+  {
+   "qid": "C26",
+   "question": "J'ai travaillé aux États-Unis et j'ai un plan 401(k) et un Roth IRA ; je vis mai",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C27",
+   "question": "Je suis frontalier belge, salarié au Luxembourg, et je fais parfois du télétrava",
+   "first_stage": 14,
+   "lex13": 9,
+   "bar": 11,
+   "lex13+bge@20": 7,
+   "lex13+bge@30": 9,
+   "lex13+bge@50": 12
+  },
+  {
+   "qid": "C30",
+   "question": "Combien coûte le droit à payer pour introduire une demande de nationalité belge ",
+   "first_stage": 2,
+   "lex13": 2,
+   "bar": 5,
+   "lex13+bge@20": 5,
+   "lex13+bge@30": 5,
+   "lex13+bge@50": 5
+  },
+  {
+   "qid": "C31",
+   "question": "Je travaille dans une banque : comment devons-nous transmettre au SPF Finances l",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C36",
+   "question": "Notre entreprise emploie des chercheurs titulaires d'un doctorat ou d'un master ",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C37",
+   "question": "Je suis prestataire de services sur crypto-actifs et je n'ai pas encore fait l'e",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C38",
+   "question": "J'ai fait construire une maison à titre privé et je souhaite la revendre moins d",
+   "first_stage": 7,
+   "lex13": 3,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C39",
+   "question": "Je suis gérant d'une SRL qui a plusieurs fois omis de payer le précompte profess",
+   "first_stage": 3,
+   "lex13": 2,
+   "bar": 2,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 3
+  },
+  {
+   "qid": "C40",
+   "question": "Qu'est-ce que l'abus fiscal au sens du CIR 92 et sur qui repose la charge de la ",
+   "first_stage": null,
+   "lex13": 8,
+   "bar": null,
+   "lex13+bge@20": 3,
+   "lex13+bge@30": 3,
+   "lex13+bge@50": 4
+  },
+  {
+   "qid": "C42",
+   "question": "Notre club de sport géré par une ASBL fait payer l'accès à sa salle et à ses ter",
+   "first_stage": 42,
+   "lex13": null,
+   "bar": null,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "C43",
+   "question": "Les loteries, paris et autres jeux de hasard ou d'argent que j'exploite sont-ils",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C46",
+   "question": "Je suis associé d'une société établie en Wallonie et je lui rachète un immeuble ",
+   "first_stage": 1,
+   "lex13": 3,
+   "bar": 2,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "C47",
+   "question": "Mon oncle, domicilié à Bruxelles, m'a légué par testament une somme précise (leg",
+   "first_stage": 7,
+   "lex13": 7,
+   "bar": 6,
+   "lex13+bge@20": 6,
+   "lex13+bge@30": 6,
+   "lex13+bge@50": 8
+  },
+  {
+   "qid": "C48",
+   "question": "Ma grand-mère par alliance (la seconde épouse de mon grand-père), domiciliée en ",
+   "first_stage": 8,
+   "lex13": 8,
+   "bar": 4,
+   "lex13+bge@20": 4,
+   "lex13+bge@30": 4,
+   "lex13+bge@50": 7
+  },
+  {
+   "qid": "C50",
+   "question": "J'ai voulu faire enregistrer en ligne via MyMinfin un don bancaire reçu de mon p",
+   "first_stage": 2,
+   "lex13": 2,
+   "bar": 2,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "C51",
+   "question": "Nous avons hébergé pendant des années une personne âgée qui, avant son décès, no",
+   "first_stage": 5,
+   "lex13": 1,
+   "bar": 2,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "C55",
+   "question": "Ma mère, qui habitait en Allemagne, possédait un appartement en Belgique grevé d",
+   "first_stage": 5,
+   "lex13": 2,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C57",
+   "question": "Mon entreprise offre à ses clients des petits cadeaux de fin d'année : en dessou",
+   "first_stage": 8,
+   "lex13": 5,
+   "bar": 7,
+   "lex13+bge@20": 6,
+   "lex13+bge@30": 7,
+   "lex13+bge@50": 7
+  },
+  {
+   "qid": "C58",
+   "question": "Nous recrutons un cadre venant de l'étranger sous le régime spécial des contribu",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C60",
+   "question": "En 2026, je veux régulariser auprès du Vlaamse Belastingdienst des avoirs hérité",
+   "first_stage": 2,
+   "lex13": 2,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C62",
+   "question": "Un nouveau plan d'exécution spatial fait passer ma parcelle en Flandre d'une zon",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C63",
+   "question": "Je suis pensionné, je vis en Belgique et je touche une pension complémentaire d'",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "C64",
+   "question": "Quelles opérations d'une société de capitaux (apports de capital, émission d'act",
+   "first_stage": 4,
+   "lex13": 1,
+   "bar": 2,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  }
+ ]
+}
