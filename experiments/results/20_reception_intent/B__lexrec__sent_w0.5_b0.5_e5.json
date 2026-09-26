@@ -651,9 +651,9 @@
  },
  "timing": {},
  "provenance": {
-  "git": "ae4e121e",
+  "git": "64d57c02",
   "git_dirty": true,
-  "utc": "2026-09-26T16:03:29Z",
+  "utc": "2026-09-26T18:00:59Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
@@ -665,6 +665,6 @@
   "corpus_ids_sha256": "1922643f3e52489d68e4a16b5515ba55ad4989a5bffae0ec4ed935a0021f4100",
   "corpus_fingerprint_source": "disk",
   "omp_threads": null,
-  "argv": "run_b.py"
+  "argv": "run_b.py --rerank"
  }
 }

@@ -275,3 +275,130 @@ two-leg convex fusion in front of bge with β 0.7 (val 0.713 / all 0.737) is nom
 the project, but it is +0.025 over exp 17 on 5 wins / 6 losses, i.e. noise, and its reranker-only form is
 −0.055; the exp-13 lexical first stage remains the honest choice (fewer candidates that mislead bge:
 C43 1 → 5, C48 4 → 10, C55 1 → 2 are fusion-induced losses).
+
+### 2.5 Corpus B – mMARCO-MiniLM @30 on top of each first stage (human questions)
+
+17,100 (question, chunk) pairs over the union of the candidate sets (2,619 reused from exp 14, 14,481
+scored here in 27 min at 0.11 s/pair); one run costs ≈ 30 articles × 1.9 chunks × 0.11 s ≈ 6 s/query.
+
+| run | MRR train | MRR **val** | MRR all | H@1 val | H@1 all | R@10 val | R@10 all |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| ref – exp 03 e5 RRF + mMARCO @30 (bar) | 0.490 | 0.570 | 0.522 | 0.438 | 0.350 | 0.812 | 0.825 |
+| ref – exp 14 e5 + mMARCO @20, β 0.8 (round-2 best) | 0.630 | **0.610** | 0.622 | 0.500 | 0.450 | 0.875 | 0.850 |
+| lex13 → mMARCO | 0.526 | 0.432 | 0.489 | 0.312 | 0.375 | 0.625 | 0.700 |
+| lex13 + e5 → mMARCO | 0.501 | 0.496 | 0.499 | 0.375 | 0.325 | 0.688 | 0.725 |
+| lex13 + e5 → mMARCO, β 0.8 | 0.610 | 0.465 | 0.552 | 0.312 | 0.425 | 0.688 | 0.750 |
+| **reception (`sent+title` w 0.5 b 0.5) → mMARCO** | 0.534 | **0.575** | 0.550 | 0.438 | 0.400 | 0.812 | 0.775 |
+| reception → mMARCO, β 0.8 | 0.620 | 0.576 | 0.602 | 0.438 | 0.475 | 0.812 | 0.800 |
+| **reception + e5 → mMARCO** | 0.578 | **0.573** | 0.576 | 0.438 | 0.425 | 0.812 | 0.825 |
+| reception + e5 → mMARCO, β 0.8 | 0.668 | 0.543 | 0.618 | 0.375 | 0.475 | 0.812 | 0.850 |
+| reception (w 1.0) + e5 → mMARCO / β 0.8 | 0.578 / 0.694 | 0.575 / 0.539 | 0.576 / 0.632 | 0.438 / 0.375 | 0.425 / 0.500 | 0.812 / 0.812 | 0.825 / 0.850 |
+| lex13 + e5rec → mMARCO | 0.532 | 0.516 | 0.526 | 0.375 | 0.325 | 0.750 | 0.750 |
+| reception + e5rec → mMARCO | 0.592 | 0.578 | 0.587 | 0.438 | 0.425 | 0.812 | 0.825 |
+
+Paired tests on val (n = 16):
+
+| comparison | mean Δrr | W / L / T | paired t p | sign p | Wilcoxon p | bootstrap 95 % CI |
+|---|---:|---|---:|---:|---:|---|
+| reception → mMARCO vs bar | +0.004 | 4 / 1 / 11 | 0.96 | 0.38 | 0.50 | [−0.16, +0.14] |
+| reception → mMARCO vs round-2 best | −0.036 | 3 / 4 / 9 | 0.69 | 1.00 | 0.87 | [−0.21, +0.12] |
+| reception + e5 → mMARCO vs bar | +0.002 | 4 / 1 / 11 | 0.98 | 0.38 | 0.50 | [−0.17, +0.14] |
+| reception + e5 → mMARCO vs round-2 best | −0.038 | 3 / 4 / 9 | 0.67 | 1.00 | 0.87 | [−0.21, +0.12] |
+| **reception + e5 → mMARCO vs lex13 + e5 → mMARCO** (the field's effect through the reranker) | **+0.076** | 3 / 1 / 12 | 0.24 | 0.63 | 0.14 | [−0.001, +0.208] |
+| same, β 0.8 | +0.078 | 4 / 1 / 11 | 0.09 | 0.38 | 0.08 | [+0.007, +0.167] |
+| lex13 → mMARCO vs bar (exp 17's finding, mMARCO instead of bge) | −0.138 | 1 / 3 / 12 | 0.13 | 0.63 | 0.14 | [−0.33, +0.01] |
+
+Through the reranker the reception field turns a lexical first stage that *loses* to the bar by 0.14
+(exp 17's diagnosis: B16, B26, B31 never retrieved) into one that is **level with it** (+0.004, 4 / 1 / 11):
+B16 *ONG* – → 1, B26 *cours particuliers* – → 1, B31 *Namur* – → 9, B21 3 → 2, B6 8 → 4, against B23
+(1 → not retrieved: the rate article `cir92:215` has no usable reception) and B29 (2, unchanged). It does
+not reach the round-2 best (exp 14, val 0.610: −0.036, 3 / 4 / 9) — that run is the e5-only first stage
+with an interpolation weight chosen on train, and its val advantage is B31 (5 vs 9), B21 and B11. Per-question
+ranks for every run: `runs/B_rerank_tables.md`.
+
+### 2.6 Corpus B – mined questions (304: pq 159 / ruling 142 / faq 3), first stage only
+
+Leak-free reception field (no sentence from any of the 607 mined source documents; 65,353 sentences on
+3,437 articles instead of 67,146 on 3,480), configurations as selected on the human train split, e5 leg =
+cached exp-14 chunk embeddings · mined-question embeddings. Labels are the articles cited in the PQ
+answer / ruling objet (all regional twins accepted when the region is unknown), the PQ itself excluded
+from the ranking. MRR / H@1 / R@10 / R@30 per slice (`runs/B_mined_tables.md` has the whole grid):
+
+| run | all (304) | pq (159) | ruling (142) | faq (3) |
+|---|---|---|---|---|
+| lex13 | 0.416 / 0.329 / 0.582 / 0.704 | 0.229 / 0.151 / 0.396 / 0.528 | 0.634 / 0.535 / 0.803 / 0.915 | 0 |
+| lex13 + e5 convex 0.5 | 0.440 / 0.362 / 0.589 / 0.727 | 0.243 / 0.164 / 0.403 / 0.572 | 0.670 / 0.592 / 0.810 / 0.915 | 0 |
+| **reception `sent+title` w 0.5 b 0.5** (human-train-selected, lexical only) | **0.531** / 0.444 / 0.714 / **0.832** | 0.348 / 0.270 / 0.528 / 0.711 | 0.738 / 0.641 / 0.923 / 0.972 | 0.400 |
+| reception `sent+title` w 0.3 b 0.5 | 0.542 / 0.461 / 0.717 / 0.836 | 0.353 / 0.277 / 0.535 / 0.717 | 0.758 / 0.669 / 0.930 / 0.972 | 0.353 |
+| reception `sent` w 0.5 b 0.5 | 0.538 / 0.454 / 0.737 / 0.822 | 0.353 / 0.277 / 0.560 / 0.692 | 0.746 / 0.655 / 0.937 / 0.972 | 0.500 |
+| **reception `sent+title` w 0.5 b 0.5 + e5** | **0.534** / 0.434 / 0.757 / **0.865** | 0.331 / 0.214 / 0.610 / 0.774 | 0.769 / 0.690 / 0.930 / 0.979 | 0.111 |
+| reception `sent+title` w 1.0 b 0.5 + e5 (human-train-selected fused) | 0.533 / 0.434 / 0.747 / 0.852 | 0.339 / 0.226 / 0.597 / 0.755 | 0.753 / 0.669 / 0.923 / 0.972 | 0.340 |
+
+Paired statistics (`rag_eval.stats.paired_stats`, Δ = variant − baseline, reciprocal rank):
+
+| comparison [slice] | n | MRR base → variant | Δ [95 % CI] | p_t / p_perm | W / L / T | Δ hit@10 (p_t) |
+|---|---:|---|---|---|---|---|
+| reception (w 0.5) vs lex13 [all] | 304 | 0.416 → 0.531 | **+0.115 [+0.078, +0.153]** | < 0.001 | 134 / 48 / 122 | +0.132 (< 0.001) |
+| … [pq] | 159 | 0.229 → 0.348 | +0.119 [+0.068, +0.175] | < 0.001 | 78 / 28 / 53 | +0.132 (< 0.001) |
+| … [ruling] | 142 | 0.634 → 0.738 | +0.104 [+0.053, +0.162] | < 0.001 | 54 / 20 / 68 | +0.120 (< 0.001) |
+| reception (w 0.5) + e5 vs lex13 + e5 [all] | 304 | 0.440 → 0.534 | **+0.094 [+0.065, +0.125]** | < 0.001 | 131 / 34 / 139 | +0.168 (< 0.001) |
+| … [pq] | 159 | 0.243 → 0.331 | +0.089 [+0.051, +0.132] | < 0.001 | 82 / 24 / 53 | +0.208 (< 0.001) |
+| … [ruling] | 142 | 0.670 → 0.769 | +0.099 [+0.059, +0.147] | < 0.001 | 48 / 10 / 84 | +0.120 (< 0.001) |
+| reception (w 1.0) + e5 vs lex13 + e5 [all] | 304 | 0.440 → 0.533 | +0.093 [+0.060, +0.127] | < 0.001 | 129 / 44 / 131 | +0.158 (< 0.001) |
+
+This is the result the 40 human questions could only hint at: on 304 questions the reception field lifts
+the lexical first stage by **+0.115 MRR** and its fusion with e5 by **+0.094** (both p < 0.001, effect
+size ≈ 0.4 sd, first-hit R@30 0.704 → 0.832 / 0.727 → 0.865), with the gain of the same size on the
+citizen-phrased **PQ slice** (+0.119 / +0.089 on 159 questions, R@10 0.40 → 0.53 / 0.61) as on the
+accountant-phrased ruling slice, and with the weight 0.3–0.5 points within 0.01 of each other (w 1.0 is
+again slightly worse). The mined labels are ≈ 85 % precise (`18_eval_hygiene/README_mining.md`), which
+adds noise but no bias between the two arms.
+
+## 3. Conclusion
+
+**Reception field (B): keep.** An LLM-free, one-day, zero-query-cost change to the lexical index that
+attacks exactly the failure the round-2 lexical stage had (B16 / B26 / B31 never retrieved) and is the
+first *lexical* first stage on B that is not below the e5 RRF stage: val MRR 0.341 → 0.427 alone, 0.336 →
+0.465 fused with e5 (16 val questions, p 0.1–0.3), R@30 val 0.625 → 0.812; on the 304 mined questions
++0.115 / +0.094 MRR, p < 0.001. Behind mMARCO @30 it is level with the round-1 bar (val 0.575 vs 0.570,
+4 / 1 / 11) and 0.036 below the round-2 best (exp 14's train-tuned e5-only + β interpolation, 3 / 4 / 9); it
+still does not reach the colbert-fr + BM25 first stage (val 0.539, R@30 0.938) — the two are complementary
+(colbert answers B23 / B33 / B37, the rate and regional-tariff articles nobody cites by number, which the
+reception field cannot) and fusing them is the obvious next test. The dense reception vectors add
+nothing over the lexical field (skip). Caps and round-robin over source types matter: hubs (`ctva:44`,
+3,491 citing sentences) would otherwise absorb every VAT question; `sent+title` (the citing circulars'
+titles) is the better variant at every weight.
+
+**Intent index (C): not as a fusion leg.** The bank exists cheaply (9,504 units, 12 min of e5-small once,
+< 5 ms per query) and gives +0.045 val MRR at w3 = 0.1 on the human questions (7 / 6 / 22, p = 0.26; the
+six PQ-targeted questions C15–C20 are the winners), which the bge reranker absorbs entirely (+0.001 after
+reranking, 34 / 35 val ranks identical); at any larger weight it is negative; on the 697 mined questions it
+is zero on the PQ slice (+0.001, the only citizen-phrased slice) and −0.13 on the ruling slice (other
+rulings' objets and tags lift twin rulings). Coverage is the problem idea 95 flagged: only 2 / 64 human
+questions have their expected document as the nearest bank question's answer (6 / 64 in the top 5), the
+e5 cosine is 0.89–0.93 for every question so no confidence gate exists, and the bank is dominated by
+statistics / policy PQ sentences and Dutch ruling objets. What survives: γ = 0.5 (the documents a matched
+PQ answer cites) is the useful part of the mapping, and BM25 over bank questions beats e5 for Q→Q here;
+the bank is better used as the *answer* object of the MCP server ("asked in 2023, answer cites art. 36
+CIR 92") and as training pairs (ideas 73 / 75) than as a retrieval leg.
+
+**Versus the bars.** B: val 0.575 reranked (bar 0.570, round-2 best 0.610), first stage val 0.465 /
+R@30 0.812 (best first stage 0.539 / 0.938). C: val 0.685 first stage without a reranker (lexical-only
+bar 0.616; +0.045 over our two-leg fusion), 0.634 reranker-only / 0.713 with β 0.7 behind bge @20 (bar
+0.665, round-2 best 0.688; the β 0.7 number is +0.025 on 5 / 6 / 24 and its reranker-only twin is −0.055:
+not a win). Side result on both mined sets (n = 304 / 697): convex 0.5 of the exp-13 lexical leg and
+e5-small is the right default (+0.024 / +0.004 over lexical alone), RRF60 is not (−0.044 on C, p < 0.001).
+
+**Cost.** Reception: 25 s extraction, +45 % lexical index, +0.6 ms/query; bank: 20 s + 12 min e5 once,
+< 5 ms/query; this experiment's reranking: 546 bge pairs (12 min) + 14,481 mMARCO pairs (27 min);
+e5-small encoding jobs 12 + 18 + 1 min. All runs: `results/20_reception_intent/` (173 result files, 303 leaderboard rows: the B grid was saved twice, before and after the `145 33 → 145/33` normalisation fix; the later rows are the ones in the tables),
+`leaderboard.jsonl`.
+
+## 4. Files
+
+`common20.py` (paths, reference runs, split metrics with R@30, paired tests, sentence splitter),
+`reception.py` (reception field, `--exclude-mined`), `bank.py` (intent bank), `embed.py` (e5-small jobs:
+`bank` / `b` / `mined`), `run_b.py` (grid, fusion, candidates, `--rerank`), `rerank_b.py` (mMARCO),
+`run_c.py` (fusion + intent leg, coverage, `--rerank`), `rerank_c.py` (bge), `run_mined.py` (mined sets),
+`cache/` (reception JSONs, bank, embeddings, reranker score caches, candidates), `runs/` (summaries,
+tables), `logs/`.
