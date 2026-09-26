@@ -145,7 +145,25 @@ Bars (leaderboard): val A 0.736 / B 0.570 / C 0.665; full set A 0.703 / B 0.522 
 
 ### 2.2 Learning to rank (`train_ltr.py`)
 
-_(pending)_
+Rows = (question, candidate document) with the features of §1 (A: 53 docs/q, 51 features; B: 79 docs/q, 50;
+C: 68 docs/q, 61). Methods: pointwise logistic regression (C=1, standardised), pairwise linear (RankSVM-style
+logistic on within-question pairs), LightGBM lambdarank *tiny* (15 trees, 4 leaves, min 20 rows/leaf, 5-seed
+bagging), *small* (60 trees, 8 leaves) and *medium* (150 trees, 16 leaves, min 10 rows/leaf). MRR;
+"→" separates resubstitution and honest numbers.
+
+| corpus | method / features | train → **val** | val → **train (swapped)** | **oof** (H@1, R@10) |
+|---|---|---|---|---|
+| A | logreg / cheap (no cross-encoder) | 0.814 → **0.722** | 0.847 → **0.739** | **0.732** (0.621, 0.966) |
+| A | logreg / all | 0.826 → 0.688 | 0.833 → 0.723 | 0.709 (0.586, 0.931) |
+| A | pairwise-linear / all | 0.902 → 0.607 | 0.875 → 0.776 | 0.706 (0.621, 0.966) |
+| A | lgbm-medium / all | 1.000 → 0.644 | 1.000 → 0.720 | 0.688 (0.552, 0.931) |
+| A | logreg / minimal+meta (7 features) | 0.833 → 0.680 | 0.806 → 0.680 | 0.680 (0.552, 0.931) |
+| A | lgbm-tiny / cheap | 0.961 → 0.660 | 0.847 → 0.669 | 0.665 (0.517, 0.966) |
+| A | logreg / minimal (5 features) | 0.699 → 0.659 | 0.723 → 0.649 | 0.653 (0.483, 0.931) |
+| A | _bars_ | val 0.736 | | full set 0.703 |
+| B | _(pending bge cache)_ | | | |
+| C | _(pending bge cache)_ | | | |
+
 
 ### 2.3 What the models learn
 
