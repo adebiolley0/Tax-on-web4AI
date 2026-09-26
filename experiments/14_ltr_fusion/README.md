@@ -129,7 +129,11 @@ set, comparable with the full-set bars). Resubstitution numbers are shown to siz
 | A e5 + BM25 whole-doc | first stage | w=0.0 → **0.736** (0.666) | w=0.0 → 0.666 (0.736) | **0.695** |
 | | replace | rrf100 + mMARCO@10 → 0.617 (0.719) | rrf20 + bge@10 → 0.620 (0.785) | 0.619 |
 | | interpolated | w=0.8 + bge@50 β=0.8 → 0.636 (0.727) | rrf20 + bge@10 β=0.7 → 0.620 (0.826) | 0.626 |
-| B e5 + BM25 chunk | | _(pending bge cache)_ | | |
+| B e5 + BM25 chunk | first stage | w=0.9 → 0.337 (0.532) | w=0.7 → 0.469 (0.369) | 0.416 |
+| | replace | w=1.0 + bge@50 → 0.558 (0.606) | w=0.8 + mMARCO@10 → 0.537 (0.624) | 0.545 |
+| | interpolated | w=1.0 + bge@50 β=0.5 → 0.474 (0.688) | rrf40 + mMARCO@30 β=0.9 → 0.507 (0.647) | 0.494 |
+| | mMARCO only | w=1.0 + mMARCO@20 β=0.8 → **0.610** (0.630) | rrf40 + mMARCO@30 β=0.9 → 0.507 (0.647) | **0.548** |
+| | bge only | w=1.0 + bge@50 β=0.5 → 0.474 (0.688) | w=1.0 + bge@30 β=1 → 0.580 (0.570) | 0.538 |
 | C e5 + BM25 chunk | | _(pending bge cache)_ | | |
 
 Bars (leaderboard): val A 0.736 / B 0.570 / C 0.665; full set A 0.703 / B 0.522 / C 0.703.
@@ -142,6 +146,15 @@ Bars (leaderboard): val A 0.736 / B 0.570 / C 0.665; full set A 0.703 / B 0.522 
   (β=0.5–0.9 keeps val at 0.68 and lifts all-set MRR from 0.63 to 0.69 at rrf200/20). The single honest
   improvement is bge on top of the bge-m3 dense leg (replace, rrf100@10: val 0.717 / oof 0.685) — still below
   BM25 whole-doc.
+
+* **B**: the second stage is essential (first stage alone: oof 0.416, bar 0.522) and any reranker at depth
+  20–50 on the pure-e5 leg lands at oof 0.54–0.55 (val 0.56–0.61), above both bars (val 0.570, full 0.522).
+  But the *interpolated* family, with 11 β values to choose from, picks β=0.5 on train (0.688 resub) and
+  falls to val 0.474 — the largest overfit of the grid. The β curves show why: on B the reranker score must
+  dominate (val rises from 0.33 at β=0 to 0.56–0.61 at β≥0.5 for mMARCO, β≥0.9 for bge) and the train half
+  rewards the β=0.5 bump of bge (0.688) that does not exist on val. Depth 20 is as good as 50 (bge@20 β=1:
+  val 0.567 / train 0.603). mMARCO-MiniLM (cheap) is as good as bge on B — with ~40 scored chunks per
+  question the cascade gives bge 72–82% coverage of the fused top-20/30, which caps it.
 
 ### 2.2 Learning to rank (`train_ltr.py`)
 
