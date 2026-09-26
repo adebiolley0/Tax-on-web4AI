@@ -1,19 +1,19 @@
 {
- "name": "pre__+quality",
+ "name": "pre__baseline_chunks",
  "corpus": "C",
  "config": {
   "stage": "fusion only",
   "text": "raw",
-  "quality_filter": true,
+  "quality_filter": false,
   "canonicalisation": null,
   "facet_routing": false,
   "fusion": "z-score convex w_dense=0.5 (fixed)",
   "facet_boost": null,
-  "candidates": "best fused chunk per document",
+  "candidates": "top-20 fused chunks (several per document)",
   "questions": "human"
  },
  "metrics": {
-  "mrr": 0.6304,
+  "mrr": 0.6289,
   "ndcg@5": 0.6352,
   "ndcg@10": 0.6537,
   "hit@1": 0.5156,
@@ -23,12 +23,12 @@
   "recall@5": 0.8125,
   "recall@10": 0.8646,
   "n_questions": 64,
-  "train_mrr": 0.6317,
+  "train_mrr": 0.6305,
   "train_hit@1": 0.5172,
   "train_hit@5": 0.8621,
   "train_recall@10": 0.8966,
   "train_n": 29,
-  "val_mrr": 0.6293,
+  "val_mrr": 0.6277,
   "val_hit@1": 0.5143,
   "val_hit@5": 0.7714,
   "val_recall@10": 0.8381,
@@ -55,10 +55,10 @@
    "rr": 1.0,
    "top5": [
     "circulaires/circulaire_2023_c_76_relative_aux_nouvelles_depenses_non_admises_a_lisoc_et_a_li_4d71a0ee",
+    "communications/avis_table_des_matieres_9de421ba",
     "circulaires/circulaire_agfisc_n_35_2016_n_ci_707_296_du_23_11_2016_3f9230f6",
     "code_et_legislation/article_194septies_1_cir_92_revenus_2027_793d57f1",
-    "arretes_royaux/10_07_2016_arrete_royal_relatif_aux_organismes_de_placement_collectif_alternatif_138b65c6",
-    "code_et_legislation/article_194septies_1_cir_92_revenus_2026_02d04f8d"
+    "arretes_royaux/10_07_2016_arrete_royal_relatif_aux_organismes_de_placement_collectif_alternatif_138b65c6"
    ],
    "expected": [
     "circulaires/circulaire_2023_c_76_relative_aux_nouvelles_depenses_non_admises_a_lisoc_et_a_li_4d71a0ee"
@@ -131,9 +131,7 @@
    "top5": [
     "circulaires/circulaire_2026_c_19_relative_a_la_reintroduction_du_taux_reduit_de_tva_applicab_987e62d6",
     "circulaires/circulaire_2024_c_21_relative_a_la_prolongation_du_taux_reduit_temporaire_de_tva_3e3227e9",
-    "circulaires/circulaire_2023_c_45_relative_au_taux_reduit_temporaire_de_tva_applicable_a_la_l_65884e4d",
-    "arretes_royaux/tva_arrete_royal_n_20_du_20_juillet_1970_fixant_les_taux_de_la_taxe_sur_la_valeu_b38e1cae",
-    "circulaires/circulaire_2026_c_54_relative_au_taux_reduit_de_6_de_la_tva_pour_la_livraison_de_c8cd2900"
+    "circulaires/circulaire_2023_c_45_relative_au_taux_reduit_temporaire_de_tva_applicable_a_la_l_65884e4d"
    ],
    "expected": [
     "circulaires/circulaire_2026_c_19_relative_a_la_reintroduction_du_taux_reduit_de_tva_applicab_987e62d6"
@@ -141,8 +139,8 @@
    "split": "val"
   },
   "C8": {
-   "rank": 30,
-   "rr": 0.0333,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
     "questions_parlementaires/question_parlementaire_n_225_de_madame_milquet_du_04_04_1997_8f66add8",
     "questions_parlementaires/question_parlementaire_n_3_2837_de_madame_van_dermeersch_du_03_06_2005_c979ca38",
@@ -668,8 +666,8 @@
    "split": "train"
   },
   "C42": {
-   "rank": 41,
-   "rr": 0.0244,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2014_449_du_23_09_2014_d47f2aa6",
     "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2013_449_du_12_11_2013_894b122f",
@@ -833,8 +831,8 @@
    "split": "train"
   },
   "C53": {
-   "rank": 28,
-   "rr": 0.0357,
+   "rank": null,
+   "rr": 0.0,
    "top5": [
     "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95",
     "questions_parlementaires/question_parlementaire_n_358_de_madame_carine_lecomte_du_15_06_2017_region_wallo_98fa7559",
@@ -974,8 +972,7 @@
     "legislation_et_reglementation_regionale_et_locale/15_05_2009_code_flamand_de_l_amenagement_du_territoire_extrait_taxe_sur_les_bene_beb6ad05",
     "legislation_et_reglementation_regionale_et_locale/29_05_2009_arrete_du_gouvernement_flamand_relatif_a_certains_aspects_de_la_taxe_95436fbd",
     "legislation_et_reglementation_regionale_et_locale/27_03_2009_decret_relatif_a_la_politique_fonciere_et_immobiliere_695d2d30",
-    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_mons_du_09_10_2025_ce54e9d1",
-    "circulaires/circulaire_n_14_2009_du_25_08_2009_fe7f35a1"
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_mons_du_09_10_2025_ce54e9d1"
    ],
    "expected": [
     "legislation_et_reglementation_regionale_et_locale/15_05_2009_code_flamand_de_l_amenagement_du_territoire_extrait_taxe_sur_les_bene_beb6ad05"
@@ -1019,7 +1016,7 @@
  "provenance": {
   "git": "cfa913de",
   "git_dirty": true,
-  "utc": "2026-09-26T18:21:52Z",
+  "utc": "2026-09-26T18:21:58Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",

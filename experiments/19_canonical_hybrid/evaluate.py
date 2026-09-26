@@ -15,7 +15,7 @@ from rag_eval import load_questions_c, evaluate_rankings, save_result
 
 from common19 import (CACHE, EXP, RUNS, REFS, FUSION_W, FACET_BOOST, RERANK_DEPTH, RERANK_MAX_LEN, per_question_ranks,
                       split_metrics_from_ranks, paired_tests)
-from retrieve import VARIANTS, RERANKED, edition_aware
+from retrieve import VARIANTS, RERANKED, CHUNK_LEVEL, edition_aware
 
 
 def main():
@@ -46,8 +46,10 @@ def main():
                     missing += 1
                 sc.append(scores.get(k, -1e9))
             order = np.argsort(-np.asarray(sc), kind="stable")
-            ranked = [lst[j]["doc"] for j in order]
-            seen = set(ranked)
+            ranked, seen = [], set()
+            for j in order:                                   # chunk-level lists: a document = its best reranked chunk
+                if lst[j]["doc"] not in seen:
+                    seen.add(lst[j]["doc"]); ranked.append(lst[j]["doc"])
             for d in pre[name][q.qid]:
                 if d not in seen:
                     seen.add(d); ranked.append(d)
@@ -56,7 +58,7 @@ def main():
         cfg = {"stage": f"z-score convex fusion (w_dense={FUSION_W}) → facets/canon → bge-reranker-v2-m3 @{RERANK_DEPTH}",
                "text": text, "quality_filter": quality, "canonicalisation": canon, "facet_routing": facets,
                "facet_boost": FACET_BOOST if facets else None, "reranker": "BAAI/bge-reranker-v2-m3", "max_length": RERANK_MAX_LEN,
-               "depth": RERANK_DEPTH, "candidates": "one chunk (best fused) per document / work"}
+               "depth": RERANK_DEPTH, "candidates": "top-20 fused chunks (several per document; exp-17 rule)" if name in CHUNK_LEVEL else "one chunk (best fused) per document / work"}
         tm = {"per_query_s": round(0.06 + RERANK_DEPTH * s_pair, 2), "s_per_pair": round(s_pair, 3), "first_stage_ms": 60}
         res = evaluate_rankings(f"rerank__{name}", "C", questions, rankings, cfg, tm)
         save_result(EXP, res)
@@ -97,6 +99,11 @@ def main():
     for a, b in zip(RERANKED[1:], RERANKED[:-1]):
         tests[f"{a} vs {b}"] = paired_tests(rr(ranks[a], val_q), rr(ranks[b], val_q))
     tests["full vs baseline"] = paired_tests(rr(ranks["full"], val_q), rr(ranks["baseline"], val_q))
+    tests["baseline_chunks vs baseline"] = paired_tests(rr(ranks["baseline_chunks"], val_q), rr(ranks["baseline"], val_q))
+    tests["+quality+zoning_chunks vs +quality+zoning"] = paired_tests(rr(ranks["+quality+zoning_chunks"], val_q), rr(ranks["+quality+zoning"], val_q))
+    tests["+quality+zoning_chunks vs baseline_chunks"] = paired_tests(rr(ranks["+quality+zoning_chunks"], val_q), rr(ranks["baseline_chunks"], val_q))
+    tests["baseline_chunks vs baseline [all]"] = paired_tests(rr(ranks["baseline_chunks"], all_q), rr(ranks["baseline"], all_q))
+    tests["+quality+zoning_chunks vs +quality+zoning [all]"] = paired_tests(rr(ranks["+quality+zoning_chunks"], all_q), rr(ranks["+quality+zoning"], all_q))
     tests["pre__baseline vs lex13"] = paired_tests(rr(ranks["pre__baseline"], val_q), rr(ranks["lex13"], val_q))
     tests["pre__full vs pre__baseline"] = paired_tests(rr(ranks["pre__full"], val_q), rr(ranks["pre__baseline"], val_q))
 
@@ -137,17 +144,17 @@ def main():
         p = lambda v: "–" if v is None else f"{v:.3f}"
         L.append(f"| {k} | {t['mean_diff']:+.3f} | {t['wins']} / {t['losses']} / {t['ties']} | {p(t.get('p_t'))} | {p(t.get('p_sign'))} | {p(t.get('p_wilcoxon'))} | [{t['ci95'][0]:+.3f}, {t['ci95'][1]:+.3f}] |")
     L += ["", "### Per-question ranks (val), round-2 best vs the stack", "",
-          "| qid | question | round-2 best | baseline | +quality | +zoning | +canon | full | pre full |", "|---|---|---:|---:|---:|---:|---:|---:|---:|"]
+          "| qid | question | round-2 best | baseline | +quality | +zoning | +canon | full | pre full | baseline (chunks) | +q+zoning (chunks) |", "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     f = lambda x: "–" if x is None else str(x)
     for r in rows:
         if r["split"] == "val":
             L.append(f"| {r['qid']} | {r['question']} | {f(r['round2_best'])} | {f(r['baseline'])} | {f(r['+quality'])} | {f(r['+quality+zoning'])} | "
-                     f"{f(r['+quality+zoning+canon'])} | {f(r['full'])} | {f(r['pre_full'])} |")
-    L += ["", "### Per-question ranks (train)", "", "| qid | question | round-2 best | baseline | +quality | +zoning | +canon | full | pre full |", "|---|---|---:|---:|---:|---:|---:|---:|---:|"]
+                     f"{f(r['+quality+zoning+canon'])} | {f(r['full'])} | {f(r['pre_full'])} | {f(r['baseline_chunks'])} | {f(r['+quality+zoning_chunks'])} |")
+    L += ["", "### Per-question ranks (train)", "", "| qid | question | round-2 best | baseline | +quality | +zoning | +canon | full | pre full | baseline (chunks) | +q+zoning (chunks) |", "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for r in rows:
         if r["split"] == "train":
             L.append(f"| {r['qid']} | {r['question']} | {f(r['round2_best'])} | {f(r['baseline'])} | {f(r['+quality'])} | {f(r['+quality+zoning'])} | "
-                     f"{f(r['+quality+zoning+canon'])} | {f(r['full'])} | {f(r['pre_full'])} |")
+                     f"{f(r['+quality+zoning+canon'])} | {f(r['full'])} | {f(r['pre_full'])} | {f(r['baseline_chunks'])} | {f(r['+quality+zoning_chunks'])} |")
     (RUNS / "tables.md").write_text("\n".join(L) + "\n")
     print("\n".join(L[: 8 + 2 + 14 + 4 + 2 * len(RERANKED) + 2]))
     print("\ntests (val):")

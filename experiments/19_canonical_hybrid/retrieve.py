@@ -40,8 +40,12 @@ VARIANTS = {
     "+facets_only": ("raw", False, None, True),
     "+canon_twin_only": ("raw", False, "twin", False),
     "full_twin": ("zoned", True, "twin", True),
+    # exp-17 candidate rule: the top-20 fused *chunks* (several per document) instead of one chunk per document
+    "baseline_chunks": ("raw", False, None, False),
+    "+quality+zoning_chunks": ("zoned", True, None, False),
 }
-RERANKED = ["baseline", "+quality", "+quality+zoning", "+quality+zoning+canon", "full"]
+CHUNK_LEVEL = {"baseline_chunks", "+quality+zoning_chunks"}
+RERANKED = ["baseline", "+quality", "+quality+zoning", "+quality+zoning+canon", "full", "baseline_chunks", "+quality+zoning_chunks"]
 
 
 @dataclass
@@ -87,9 +91,16 @@ def fused_chunks(legs: Legs, qi: int, w: float = FUSION_W) -> tuple[np.ndarray, 
 
 
 def rank_variant(legs: Legs, qi: int, facets: dict, metas: list[dict], quality: bool, canon: str | None,
-                 use_facets: bool, top: int = 50, leg: str | None = None) -> tuple[list[tuple[str, int, float]], dict]:
-    """Returns [(doc index, best chunk index, score)] ordered, plus diagnostics."""
+                 use_facets: bool, top: int = 50, leg: str | None = None, chunk_level: bool = False) -> tuple[list[tuple[str, int, float]], dict]:
+    """Returns [(doc index, best chunk index, score)] ordered, plus diagnostics. With ``chunk_level`` the list is
+    the fused chunk ranking itself (a document may appear several times) – the exp-17 candidate rule."""
     diag: dict = {}
+    if chunk_level:
+        union, f, diag = fused_chunks(legs, qi)
+        docs_of = legs.chunk_doc[union]
+        order = np.argsort(-f, kind="stable")
+        out = [(int(docs_of[k]), int(union[k]), float(f[k])) for k in order if not (quality and metas[int(docs_of[k])]["drop"])]
+        return out[:top], diag
     if leg == "lex":
         union, f = legs.lex_idx[qi][legs.lex_sc[qi] > 0], legs.lex_sc[qi][legs.lex_sc[qi] > 0].astype(np.float64)
     elif leg == "dense":
@@ -188,18 +199,20 @@ def main():
     runs = [("lex_raw", ("raw", False, None, False), "lex"), ("dense_raw", ("raw", False, None, False), "dense")]
     runs += [(name, cfg, None) for name, cfg in VARIANTS.items()]
     for name, (text, quality, canon, use_facets), leg in runs:
-        if text not in legs:
-            print(f"  {name:24s} skipped (no dense_{text}.npz yet)", flush=True)
+        if text not in legs or (a.questions == "mined" and name in CHUNK_LEVEL):
+            print(f"  {name:24s} skipped", flush=True)
             continue
         rankings, cands, dg = {}, {}, []
         for qi, q in enumerate(questions):
-            ranked, diag = rank_variant(legs[text], qi, facets[q.qid], metas, quality, canon, use_facets, leg=leg)
-            rankings[q.qid] = [doc_ids[d] for d, _, _ in ranked]
+            ranked, diag = rank_variant(legs[text], qi, facets[q.qid], metas, quality, canon, use_facets, leg=leg, chunk_level=name in CHUNK_LEVEL)
+            seen_d: set[str] = set()
+            rankings[q.qid] = [doc_ids[d] for d, _, _ in ranked if not (doc_ids[d] in seen_d or seen_d.add(doc_ids[d]))][:50]
             cands[q.qid] = [(doc_ids[d], c, s) for d, c, s in ranked[:RERANK_DEPTH]]
             dg.append(diag)
         cfg = {"stage": "fusion only" if leg is None else f"{leg} leg only", "text": text, "quality_filter": quality,
                "canonicalisation": canon, "facet_routing": use_facets, "fusion": f"z-score convex w_dense={FUSION_W} (fixed)",
-               "facet_boost": FACET_BOOST if use_facets else None}
+               "facet_boost": FACET_BOOST if use_facets else None,
+               "candidates": "top-20 fused chunks (several per document)" if name in CHUNK_LEVEL else "best fused chunk per document"}
         cfg["questions"] = a.questions
         res = evaluate_rankings(f"{run_prefix}{name}", "C", questions, rankings, cfg, {"query_ms": 26 + 5})
         save_result(EXP, res)
