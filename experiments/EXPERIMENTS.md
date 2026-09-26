@@ -113,6 +113,7 @@ numbers as before):
 | canonical-work hybrid, top-20 fused chunks → bge @20 (exp 19) | – | – | 0.648 / 0.687 | – |
 | reception + colbert-fr + e5, equal z-score weights (exp 22): first stage | 0.545 / 0.638 (R@30 0.938) | 0.494 (rec+e5 0.534 better; long queries) | – | – |
 | … → mMARCO @30, β 0.8 (exp 22): **first p < 0.05 win on a human set** (+0.092 all, 19/2/19, p 0.012) | **0.613 / 0.614** | mMARCO destructive on long queries (0.213) | – | – |
+| length-gated B pipeline (exp 22): mMARCO β 0.8 if ≤ 25 words else reception + e5 un-reranked | **0.613 / 0.628** (+0.106 all, p 0.011) | **0.534** (+0.311 vs bar recipe, p < 0.001) | – | – |
 | LightGBM-tiny ranker on mined labels (exp 21), mined-val / human held-out | 0.427 (human) | +0.086 vs fusion, p < 0.001 | 0.671 (human) | +0.039 vs fusion, p < 0.001 |
 
 Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
@@ -353,8 +354,10 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   0.494 → 0.213, p < 0.001) while bge @20 is +0.22 over mMARCO but still −0.084 below the un-reranked
   stage (p 0.011). A logistic ranker trained on mined labels learns "reception first, ColBERT negative"
   and loses 0.10 on the human set (p 0.03–0.05), the same label-domain shift as exp 21. Recommendation is
-  population-aware: three-leg fusion + mMARCO β 0.8 for citizen-length questions; reception + e5 with a
-  length gate (no cross-encoder, or bge only) for long queries. Cost: ColBERT MaxSim 0.7 s/query with a
+  population-aware, and the single gated pipeline (mMARCO route ≤ 25 words, reception + e5 above; T chosen
+  on train splits only) is above the bar on every slice: human all 0.628 (+0.106, p 0.011; val 0.613),
+  mined 0.534 (+0.311 vs the bar recipe, p < 0.001); routing bge to the long side is worse than no
+  cross-encoder (−0.114, p < 0.001). Cost: ColBERT MaxSim 0.7 s/query with a
   persisted fp16 token index (0.6 GB), mMARCO @30 ≈ 9 s, bge @20 ≈ 21 s.
 * **Canonical-work hybrid (`19_canonical_hybrid`).** Rule-based ingestion over corpus C — quality filter
   (1,493 documents dropped: Dutch bodies, TOCs, empties; no expected document lost), boilerplate zoning
@@ -415,7 +418,10 @@ article with its *reception* (the sentences of circulars, commentary, rulings an
 that cite it) as an extra BM25F field — +0.115 MRR lexical at p < 0.001 (exp 20); fuse reception-BM25F,
 French ColBERT and e5-small with fixed equal z-score weights, then mMARCO @30 interpolated at β 0.8 for
 citizen-length questions (exp 22: full-set 0.614 vs 0.522, p 0.012); gate the cross-encoder by query
-length (mMARCO destroys long queries; bge is safer but slower). (9) Fusion = convex 0.5 after z-scoring;
+length: a single gated pipeline (mMARCO route for queries ≤ 25 words, un-reranked reception + e5
+above) is the first corpus-B system above the bar on every slice — human full set 0.628 (+0.106
+[+0.029, +0.182], 19/3/18, p 0.011; val 0.613), all 304 mined 0.534 (+0.311 vs the bar recipe,
+p < 0.001); the gate is in practice a population switch (12 questions near the boundary). (9) Fusion = convex 0.5 after z-scoring;
 RRF is refuted at p < 0.001 (exp 21). (10) Rerank the top-20 *chunks*, not one chunk per document (exp
 19). (11) Keep the rule-based ingestion layer (quality filter, boilerplate zoning, canonical works,
 region/year/type fields) for product value; do not expect ranking gains from it; gate facet boosts by

@@ -336,6 +336,53 @@ serves both populations would need per-population features (question length is t
 training set.
 
 
+### 2.5 Length gate (coordinator's follow-up; cache-only, `gate.py`, `runs/gate_tables.md`)
+
+The population-aware policy as **one** pipeline: a question of L words goes to `z3_equal` → mMARCO @30 β 0.8 when
+L ≤ T and to the un-reranked reception + e5 fusion (`z_rec_e5`) otherwise; variant: `z3_equal` → bge @20 on the
+long side (where bge pairs are cached: human 40, mined 100-question subsample). T ∈ {25, 35, 50} words, chosen on
+the pooled MRR of the mined **train** split (145; 40 inside the subsample for the bge variant) + the human
+**train** half (24): rec_e5 variant T = 25 (pooled 0.539 / 0.525 / 0.505), bge variant T = 35 (0.527 / 0.539 /
+0.503). Questions per side (≤ T → mMARCO route / > T → long route): T = 25: human 35 / 5, mined 7 / 297
+(subsample 2 / 98); T = 35: human 40 / 0, mined 26 / 278 (8 / 92); T = 50: human 40 / 0, mined 64 / 240 (20 / 80);
+words per question: human median 20 (9–28), mined median 78 (11–133). The gate therefore routes almost every
+human question to the reranker and almost every mined question to the un-reranked fusion — the two populations
+barely overlap in length, and the five human questions above 25 words are the only ones the two routes contend for.
+No new reranker pairs were scored (`cache/B_mmarco22.npz`, `B_bge22.npz`); 15 runs saved (`gate_T*__mmarco_b0.8__*`).
+
+| run | human MRR train / **val** / all | human R@10 all | mined sub100 all / pq / ruling / val (MRR) | mined 304 all / pq / ruling / val |
+|---|---|---|---|---|
+| ref – round-1 bar / bar recipe | 0.490 / **0.570** / 0.522 | 0.825 | 0.283 / 0.260 / 0.314 / 0.312 | 0.223 / 0.184 / 0.271 / 0.242 |
+| `z3_equal` → mMARCO @30 β 0.8 (un-gated) | 0.614 / **0.613** / 0.614 | 0.925 | 0.349 / 0.335 / 0.373 / 0.396 | 0.276 / 0.236 / 0.327 / 0.303 |
+| `z_rec_e5` un-reranked (un-gated) | 0.696 / **0.478** / 0.609 | 0.825 | 0.643 / 0.467 / 0.851 / 0.675 | 0.536 / 0.335 / 0.769 / 0.547 |
+| `z3_equal` → bge @20 (un-gated) | 0.575 / **0.569** / 0.572 | 0.875 | 0.503 / 0.369 / 0.661 / 0.520 | – |
+| **gate T = 25: mMARCO β 0.8 ↔ `z_rec_e5`** (selected) | 0.639 / **0.613** / **0.628** | 0.900 | **0.643** / 0.467 / 0.851 / 0.675 | **0.534** / 0.334 / 0.769 / 0.545 |
+| gate T = 35 / 50, same routes | 0.614 / 0.613 / 0.614 (both) | 0.925 | 0.639 / 0.605 (all) | 0.528 / 0.501 (all) |
+| gate T = 35: mMARCO β 0.8 ↔ bge @20 (selected) | 0.614 / **0.613** / 0.614 | 0.925 | 0.529 / 0.378 / 0.707 / 0.552 | – |
+| gate T = 25 / 50, bge variant | 0.609 / 0.613 / 0.611 · 0.614 / 0.613 / 0.614 | 0.925 | 0.509 · 0.505 (all) | – |
+
+Paired tests (Δ = gated − base): the selected gate (T = 25, `z_rec_e5` on the long side) vs the **bar** is
++0.043 on human val [−0.146, +0.133] (7 / 1 / 8, p 0.52), **+0.149** on human train (12 / 2 / 10, p 0.006),
+**+0.106 on all 40** [+0.029, +0.182] (19 / 3 / 18, **p 0.011**); on the mined subsample **+0.360** [+0.279,
++0.440] (70 / 8 / 22, p < 0.001; PQ +0.207, ruling +0.537, val +0.363) and on all 304 mined questions **+0.311**
+[+0.266, +0.357] (221 / 26 / 57, p < 0.001; PQ +0.150, ruling +0.498). Vs the un-gated pipelines it is, by
+construction, the better of the two on each population: vs `z3_equal` → mMARCO β 0.8 +0.015 on human all (2 / 1 /
+37: the five long human questions, B21 / B11 up, B3 down; val identical) and +0.293 on the subsample / +0.258 on
+the 304 (p < 0.001); vs `z_rec_e5` un-reranked +0.136 on human val [−0.045, +0.329] (6 / 2 / 8, p 0.19), −0.057
+on human train, +0.020 on all 40 (p 0.75), and −0.002 on the 304 (1 / 2 / 301: the seven mined questions of ≤ 25
+words). The bge variant (T = 35) is identical to the un-gated mMARCO pipeline on the human set (no human question
+exceeds 35 words) and on the subsample it is +0.246 over the bar recipe (p < 0.001) but **−0.114 below the rec_e5
+gate** [−0.177, −0.058] (11 / 41 / 48, p < 0.001) — the un-reranked fusion remains the right long-side route.
+
+Reading: the gate is the first single B pipeline that is above the bar on every reported slice — human val +0.04
+(directional), human all +0.11 (p 0.01), mined +0.31 / +0.36 (p < 0.001) — but it earns that by *routing*,
+not by combining: with T = 25 the human set is 35 / 5 and the mined set 7 / 297, so the gate is a switch between
+two pipelines that were each already the best on their own population, and its only genuine test is the ten
+questions near the boundary (five human > 25 words, seven mined ≤ 25), where it is +0.015 / −0.002. The word
+count is a proxy for "citizen question vs pasted document"; a deployment would rather gate on that intent
+directly (or on the reranker's own confidence), and the selected T is a train-split choice that any threshold
+between 25 and 35 reproduces on the human set (T = 35 / 50 give the un-gated mMARCO numbers there).
+
 ## 3. Conclusion
 
 **Is there now a B pipeline that beats val 0.570 / full 0.522 with p < 0.05 on the mined set and directionally on
@@ -367,7 +414,9 @@ the human set?** Split the answer by population, because the two populations dis
   population-aware: three-leg z-score fusion + mMARCO (β 0.8) for citizen-length questions, reception + e5 with
   **no cross-encoder** (or a length gate in front of one) for long, document-like queries — and a reranker that
   has seen long legal queries (distillation on the mined pairs, ideas 13 / 76) before any reranker is trusted on
-  them.
+  them. As one pipeline (§2.5, length gate at 25 words, cache-only follow-up): human val 0.613 / all 0.628, mined
+  304 0.534 — above the bar on every slice (all 40: +0.106, p 0.011; mined: +0.311, p < 0.001; val +0.043 directional),
+  by routing rather than combining.
 
 **Cost per query** (4 threads, shared box): reception BM25F 2.3–2.8 ms; e5-small dot product ≈ 1 ms plus the
 query encoding; colbert-fr brute-force MaxSim over 10,869 chunks **0.73 s** at 48 query tokens (2.3 s trimmed /
@@ -383,7 +432,7 @@ with the mined question-file stamp, chunk universe), `colbert_scores.py` (PyLate
 `run_stage1.py` (fusions, selection on mined train, reference reproductions, tests, reranker candidates with the
 best-3-chunk cap), `rerank_score.py` (mMARCO / bge score caches, reuse of exp 20 / 14, 100-question subsample),
 `run_rerank.py` (reranked pipelines, bar recipe, tests, per-question ranks), `ltr.py` (logistic ranker;
-`EXP22_LTR_PIPE` pins the first stage), `run_chain1b.sh` / `run_chain2.sh` (the sequences actually run; `run_chain.sh`
+`EXP22_LTR_PIPE` pins the first stage), `gate.py` (length gate, cache-only; `runs/gate.json`, `runs/gate_tables.md`), `run_chain1b.sh` / `run_chain2.sh` (the sequences actually run; `run_chain.sh`
 is the first attempt without the chunk cap, abandoned at 85k pairs), `cache/` (colbert scores for 48 / 256 /
 256-trimmed queries, the fp16 token matrix, legs, candidates, reranker caches, subsample), `runs/` (`stage1`,
 `rerank`, `ltr` JSON + tables), `logs/`. Every run (65 result files, 140 leaderboard rows incl. re-saves) is in `experiments/results/22_reception_colbert/` (per-question
