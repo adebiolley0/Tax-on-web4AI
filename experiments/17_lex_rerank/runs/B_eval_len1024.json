@@ -1,0 +1,902 @@
+{
+ "corpus": "B",
+ "s_per_pair": 1.2326,
+ "query_ms": 1.37,
+ "timing": {
+  "runs": [
+   {
+    "pairs": 2000,
+    "seconds": 2465.2,
+    "s_per_pair": 1.233,
+    "threads": 4,
+    "max_length": 1024,
+    "load_s": 3.2
+   }
+  ],
+  "n_reused_exp14": 0
+ },
+ "refs": {
+  "first_stage": {
+   "label": "exp 03: e5-small + BM25 RRF (old first stage)",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.48077020202020204,
+     "hit@1": 0.2916666666666667,
+     "recall@10": 0.75
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.4203307364612512,
+     "hit@1": 0.3125,
+     "recall@10": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.45659441579662163,
+     "hit@1": 0.3,
+     "recall@10": 0.75
+    }
+   }
+  },
+  "lex13": {
+   "label": "lex13",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.45834197235513024,
+     "hit@1": 0.3333333333333333,
+     "recall@10": 0.625
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.340625,
+     "hit@1": 0.25,
+     "recall@10": 0.625
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.4112551834130781,
+     "hit@1": 0.3,
+     "recall@10": 0.625
+    }
+   }
+  },
+  "bar": {
+   "label": "exp 03: e5-small + BM25 RRF + mMARCO-MiniLM @30",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.48981481481481487,
+     "hit@1": 0.2916666666666667,
+     "recall@10": 0.8333333333333334
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.5703125,
+     "hit@1": 0.4375,
+     "recall@10": 0.8125
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5220138888888888,
+     "hit@1": 0.35,
+     "recall@10": 0.825
+    }
+   }
+  },
+  "bge_bar": {
+   "label": "bge_bar",
+   "metrics": {
+    "train": {
+     "n": 24,
+     "mrr": 0.5625,
+     "hit@1": 0.4166666666666667,
+     "recall@10": 0.875
+    },
+    "val": {
+     "n": 16,
+     "mrr": 0.45010146103896104,
+     "hit@1": 0.3125,
+     "recall@10": 0.75
+    },
+    "all": {
+     "n": 40,
+     "mrr": 0.5175405844155844,
+     "hit@1": 0.375,
+     "recall@10": 0.825
+    }
+   }
+  }
+ },
+ "ours": {
+  "lex13+bge@20_beta0.5_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5608040935672515,
+    "hit@1": 0.5,
+    "recall@10": 0.7083333333333334
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.42187499999999994,
+    "hit@1": 0.3125,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.5052324561403508,
+    "hit@1": 0.425,
+    "recall@10": 0.675
+   }
+  },
+  "lex13+bge@20_beta0.7_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5698318713450292,
+    "hit@1": 0.5,
+    "recall@10": 0.7083333333333334
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.36979166666666663,
+    "hit@1": 0.1875,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.4898157894736842,
+    "hit@1": 0.375,
+    "recall@10": 0.675
+   }
+  },
+  "lex13+bge@20_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5618953634085213,
+    "hit@1": 0.5,
+    "recall@10": 0.7083333333333334
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.4427083333333333,
+    "hit@1": 0.3125,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.5142205513784461,
+    "hit@1": 0.425,
+    "recall@10": 0.675
+   }
+  },
+  "lex13+bge@30_beta0.5_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5694128787878787,
+    "hit@1": 0.5,
+    "recall@10": 0.75
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.42187499999999994,
+    "hit@1": 0.3125,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.5103977272727273,
+    "hit@1": 0.425,
+    "recall@10": 0.7
+   }
+  },
+  "lex13+bge@30_beta0.7_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5736111111111111,
+    "hit@1": 0.5,
+    "recall@10": 0.7916666666666666
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.36979166666666663,
+    "hit@1": 0.1875,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.4920833333333333,
+    "hit@1": 0.375,
+    "recall@10": 0.725
+   }
+  },
+  "lex13+bge@30_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5437996031746032,
+    "hit@1": 0.4166666666666667,
+    "recall@10": 0.7916666666666666
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.4427083333333333,
+    "hit@1": 0.3125,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.5033630952380952,
+    "hit@1": 0.375,
+    "recall@10": 0.725
+   }
+  },
+  "lex13+bge@50_beta0.5_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5694128787878787,
+    "hit@1": 0.5,
+    "recall@10": 0.75
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.42187499999999994,
+    "hit@1": 0.3125,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.5103977272727273,
+    "hit@1": 0.425,
+    "recall@10": 0.7
+   }
+  },
+  "lex13+bge@50_beta0.7_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5709986772486774,
+    "hit@1": 0.5,
+    "recall@10": 0.7916666666666666
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.36979166666666663,
+    "hit@1": 0.1875,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.490515873015873,
+    "hit@1": 0.375,
+    "recall@10": 0.725
+   }
+  },
+  "lex13+bge@50_len1024": {
+   "train": {
+    "n": 24,
+    "mrr": 0.5284902597402598,
+    "hit@1": 0.4166666666666667,
+    "recall@10": 0.75
+   },
+   "val": {
+    "n": 16,
+    "mrr": 0.4395833333333333,
+    "hit@1": 0.3125,
+    "recall@10": 0.625
+   },
+   "all": {
+    "n": 40,
+    "mrr": 0.4929274891774892,
+    "hit@1": 0.375,
+    "recall@10": 0.7
+   }
+  }
+ },
+ "selected_beta_per_depth": {
+  "20": 0.7,
+  "30": 0.7,
+  "50": 0.7
+ },
+ "selected_depth_beta": [
+  30,
+  0.7
+ ],
+ "tests_val": {
+  "lex13+bge@20_beta0.5_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.1484375,
+   "wins": 5,
+   "losses": 6,
+   "ties": 5,
+   "t": -1.1186797659589132,
+   "p_t": 0.2808723785875831,
+   "p_wilcoxon": 0.2118632725812747,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.40364583333333337,
+    0.09635416666666667
+   ]
+  },
+  "lex13+bge@20_beta0.7_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.20052083333333331,
+   "wins": 4,
+   "losses": 6,
+   "ties": 6,
+   "t": -1.7718871697536778,
+   "p_t": 0.0967204098755882,
+   "p_wilcoxon": 0.10224680958654245,
+   "p_sign": 0.75390625,
+   "ci95": [
+    -0.42447916666666663,
+    0.0026041666666666713
+   ]
+  },
+  "lex13+bge@20_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.12760416666666666,
+   "wins": 4,
+   "losses": 5,
+   "ties": 7,
+   "t": -1.0675913347115558,
+   "p_t": 0.30258634729466277,
+   "p_wilcoxon": 0.2854738306985861,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.36197916666666663,
+    0.08593750000000001
+   ]
+  },
+  "lex13+bge@30_beta0.5_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.1484375,
+   "wins": 5,
+   "losses": 6,
+   "ties": 5,
+   "t": -1.1186797659589132,
+   "p_t": 0.2808723785875831,
+   "p_wilcoxon": 0.2118632725812747,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.40364583333333337,
+    0.09635416666666667
+   ]
+  },
+  "lex13+bge@30_beta0.7_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.20052083333333331,
+   "wins": 4,
+   "losses": 6,
+   "ties": 6,
+   "t": -1.7718871697536778,
+   "p_t": 0.0967204098755882,
+   "p_wilcoxon": 0.10224680958654245,
+   "p_sign": 0.75390625,
+   "ci95": [
+    -0.42447916666666663,
+    0.0026041666666666713
+   ]
+  },
+  "lex13+bge@30_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.12760416666666666,
+   "wins": 4,
+   "losses": 5,
+   "ties": 7,
+   "t": -1.0675913347115558,
+   "p_t": 0.30258634729466277,
+   "p_wilcoxon": 0.2854738306985861,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.36197916666666663,
+    0.08593750000000001
+   ]
+  },
+  "lex13+bge@50_beta0.5_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.1484375,
+   "wins": 5,
+   "losses": 6,
+   "ties": 5,
+   "t": -1.1186797659589132,
+   "p_t": 0.2808723785875831,
+   "p_wilcoxon": 0.2118632725812747,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.40364583333333337,
+    0.09635416666666667
+   ]
+  },
+  "lex13+bge@50_beta0.7_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.20052083333333331,
+   "wins": 4,
+   "losses": 6,
+   "ties": 6,
+   "t": -1.7718871697536778,
+   "p_t": 0.0967204098755882,
+   "p_wilcoxon": 0.10224680958654245,
+   "p_sign": 0.75390625,
+   "ci95": [
+    -0.42447916666666663,
+    0.0026041666666666713
+   ]
+  },
+  "lex13+bge@50_len1024 vs bar": {
+   "n": 16,
+   "mean_diff": -0.13072916666666667,
+   "wins": 4,
+   "losses": 5,
+   "ties": 7,
+   "t": -1.0835788705236384,
+   "p_t": 0.2956623104272597,
+   "p_wilcoxon": 0.2854738306985861,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.3677213541666667,
+    0.08593750000000001
+   ]
+  },
+  "lex13+bge@20_beta0.5_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.028226461038961044,
+   "wins": 5,
+   "losses": 7,
+   "ties": 4,
+   "t": -0.2460209658051253,
+   "p_t": 0.8090006841555635,
+   "p_wilcoxon": 0.7827542041860206,
+   "p_sign": 0.7744140625,
+   "ci95": [
+    -0.24536661255411255,
+    0.18856263528138523
+   ]
+  },
+  "lex13+bge@20_beta0.7_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.08030979437229438,
+   "wins": 4,
+   "losses": 7,
+   "ties": 5,
+   "t": -0.8638440632372567,
+   "p_t": 0.4012762718879413,
+   "p_wilcoxon": 0.421292627487755,
+   "p_sign": 0.548828125,
+   "ci95": [
+    -0.26014999323593074,
+    0.0925595238095238
+   ]
+  },
+  "lex13+bge@20_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.007393127705627708,
+   "wins": 4,
+   "losses": 5,
+   "ties": 7,
+   "t": -0.09407620691188844,
+   "p_t": 0.9262937718499304,
+   "p_wilcoxon": 0.9525986036046786,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.160178740530303,
+    0.135315882034632
+   ]
+  },
+  "lex13+bge@30_beta0.5_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.028226461038961044,
+   "wins": 5,
+   "losses": 7,
+   "ties": 4,
+   "t": -0.2460209658051253,
+   "p_t": 0.8090006841555635,
+   "p_wilcoxon": 0.7827542041860206,
+   "p_sign": 0.7744140625,
+   "ci95": [
+    -0.24536661255411255,
+    0.18856263528138523
+   ]
+  },
+  "lex13+bge@30_beta0.7_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.08030979437229438,
+   "wins": 4,
+   "losses": 7,
+   "ties": 5,
+   "t": -0.8638440632372567,
+   "p_t": 0.4012762718879413,
+   "p_wilcoxon": 0.421292627487755,
+   "p_sign": 0.548828125,
+   "ci95": [
+    -0.26014999323593074,
+    0.0925595238095238
+   ]
+  },
+  "lex13+bge@30_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.007393127705627708,
+   "wins": 4,
+   "losses": 5,
+   "ties": 7,
+   "t": -0.09407620691188844,
+   "p_t": 0.9262937718499304,
+   "p_wilcoxon": 0.9525986036046786,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.160178740530303,
+    0.135315882034632
+   ]
+  },
+  "lex13+bge@50_beta0.5_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.028226461038961044,
+   "wins": 5,
+   "losses": 7,
+   "ties": 4,
+   "t": -0.2460209658051253,
+   "p_t": 0.8090006841555635,
+   "p_wilcoxon": 0.7827542041860206,
+   "p_sign": 0.7744140625,
+   "ci95": [
+    -0.24536661255411255,
+    0.18856263528138523
+   ]
+  },
+  "lex13+bge@50_beta0.7_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.08030979437229438,
+   "wins": 4,
+   "losses": 7,
+   "ties": 5,
+   "t": -0.8638440632372567,
+   "p_t": 0.4012762718879413,
+   "p_wilcoxon": 0.421292627487755,
+   "p_sign": 0.548828125,
+   "ci95": [
+    -0.26014999323593074,
+    0.0925595238095238
+   ]
+  },
+  "lex13+bge@50_len1024 vs bge_bar": {
+   "n": 16,
+   "mean_diff": -0.010518127705627711,
+   "wins": 4,
+   "losses": 5,
+   "ties": 7,
+   "t": -0.13051115964760165,
+   "p_t": 0.8978962376306068,
+   "p_wilcoxon": 0.9525986036046786,
+   "p_sign": 1.0,
+   "ci95": [
+    -0.16830357142857144,
+    0.1349168019480519
+   ]
+  },
+  "lex13+bge@20_beta0.5_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.08125,
+   "wins": 5,
+   "losses": 0,
+   "ties": 11,
+   "t": 1.890295871236672,
+   "p_t": 0.07819833243165138,
+   "p_wilcoxon": 0.043114446783075355,
+   "p_sign": 0.0625,
+   "ci95": [
+    0.018229166666666664,
+    0.17447916666666669
+   ]
+  },
+  "lex13+bge@20_beta0.7_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.029166666666666664,
+   "wins": 5,
+   "losses": 1,
+   "ties": 10,
+   "t": 0.6532268902162528,
+   "p_t": 0.5234972798999565,
+   "p_wilcoxon": 0.3454475304692257,
+   "p_sign": 0.21875,
+   "ci95": [
+    -0.05989583333333334,
+    0.10729166666666667
+   ]
+  },
+  "lex13+bge@20_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.10208333333333333,
+   "wins": 6,
+   "losses": 1,
+   "ties": 9,
+   "t": 1.3883378325835998,
+   "p_t": 0.18530872314760047,
+   "p_wilcoxon": 0.15005569529769444,
+   "p_sign": 0.125,
+   "ci95": [
+    -0.028645833333333332,
+    0.25
+   ]
+  },
+  "lex13+bge@30_beta0.5_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.08125,
+   "wins": 5,
+   "losses": 0,
+   "ties": 11,
+   "t": 1.890295871236672,
+   "p_t": 0.07819833243165138,
+   "p_wilcoxon": 0.043114446783075355,
+   "p_sign": 0.0625,
+   "ci95": [
+    0.018229166666666664,
+    0.17447916666666669
+   ]
+  },
+  "lex13+bge@30_beta0.7_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.029166666666666664,
+   "wins": 5,
+   "losses": 1,
+   "ties": 10,
+   "t": 0.6532268902162528,
+   "p_t": 0.5234972798999565,
+   "p_wilcoxon": 0.3454475304692257,
+   "p_sign": 0.21875,
+   "ci95": [
+    -0.05989583333333334,
+    0.10729166666666667
+   ]
+  },
+  "lex13+bge@30_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.10208333333333333,
+   "wins": 6,
+   "losses": 1,
+   "ties": 9,
+   "t": 1.3883378325835998,
+   "p_t": 0.18530872314760047,
+   "p_wilcoxon": 0.15005569529769444,
+   "p_sign": 0.125,
+   "ci95": [
+    -0.028645833333333332,
+    0.25
+   ]
+  },
+  "lex13+bge@50_beta0.5_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.08125,
+   "wins": 5,
+   "losses": 0,
+   "ties": 11,
+   "t": 1.890295871236672,
+   "p_t": 0.07819833243165138,
+   "p_wilcoxon": 0.043114446783075355,
+   "p_sign": 0.0625,
+   "ci95": [
+    0.018229166666666664,
+    0.17447916666666669
+   ]
+  },
+  "lex13+bge@50_beta0.7_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.029166666666666664,
+   "wins": 5,
+   "losses": 1,
+   "ties": 10,
+   "t": 0.6532268902162528,
+   "p_t": 0.5234972798999565,
+   "p_wilcoxon": 0.3454475304692257,
+   "p_sign": 0.21875,
+   "ci95": [
+    -0.05989583333333334,
+    0.10729166666666667
+   ]
+  },
+  "lex13+bge@50_len1024 vs lex13": {
+   "n": 16,
+   "mean_diff": 0.09895833333333334,
+   "wins": 5,
+   "losses": 1,
+   "ties": 10,
+   "t": 1.3419382018851502,
+   "p_t": 0.19957746222261494,
+   "p_wilcoxon": 0.2071604489114608,
+   "p_sign": 0.21875,
+   "ci95": [
+    -0.03125,
+    0.24739583333333337
+   ]
+  },
+  "lex13 vs first_stage": {
+   "n": 16,
+   "mean_diff": -0.07970573646125119,
+   "wins": 3,
+   "losses": 9,
+   "ties": 4,
+   "t": -0.7621409983269163,
+   "p_t": 0.4577932492849312,
+   "p_wilcoxon": 0.19536693789564952,
+   "p_sign": 0.14599609375,
+   "ci95": [
+    -0.271875,
+    0.12188275049603171
+   ]
+  },
+  "lex13 vs bar": {
+   "n": 16,
+   "mean_diff": -0.2296875,
+   "wins": 4,
+   "losses": 6,
+   "ties": 6,
+   "t": -1.7863623169291067,
+   "p_t": 0.09426496805059115,
+   "p_wilcoxon": 0.11342304718600596,
+   "p_sign": 0.75390625,
+   "ci95": [
+    -0.47917968749999995,
+    0.005208333333333315
+   ]
+  }
+ },
+ "val_rows": [
+  {
+   "qid": "B1",
+   "question": "Quels sont les taux de l'impôt des personnes physiques par tranche de revenus po",
+   "first_stage": 2,
+   "lex13": 5,
+   "bar": 1,
+   "lex13+bge@20": 4,
+   "lex13+bge@30": 4,
+   "lex13+bge@50": 5
+  },
+  {
+   "qid": "B6",
+   "question": "Quelle participation minimale une société doit-elle détenir pour bénéficier de l",
+   "first_stage": 7,
+   "lex13": 6,
+   "bar": 8,
+   "lex13+bge@20": 3,
+   "lex13+bge@30": 3,
+   "lex13+bge@50": 3
+  },
+  {
+   "qid": "B11",
+   "question": "Quel est le seuil de chiffre d'affaires pour bénéficier du régime de la franchis",
+   "first_stage": 1,
+   "lex13": 2,
+   "bar": 3,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "B13",
+   "question": "Dans quel délai dois-je introduire une réclamation contre mon avertissement-extr",
+   "first_stage": 2,
+   "lex13": 1,
+   "bar": 2,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "B14",
+   "question": "Pendant combien d'années l'administration fiscale peut-elle encore établir l'imp",
+   "first_stage": 1,
+   "lex13": 8,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "B15",
+   "question": "Comment est déterminé le montant du précompte professionnel retenu à la source s",
+   "first_stage": 6,
+   "lex13": 8,
+   "bar": 1,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "B16",
+   "question": "J'ai versé 100 euros à une ONG reconnue cette année, est-ce que cela me donne dr",
+   "first_stage": 10,
+   "lex13": null,
+   "bar": 3,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "B19",
+   "question": "Les chèques-repas que me donne mon patron sont-ils imposés et quel est le montan",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "B21",
+   "question": "Je mets un appartement en location à un particulier qui y habite : sur quelle ba",
+   "first_stage": 1,
+   "lex13": 3,
+   "bar": 3,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "B23",
+   "question": "Ma petite SRL réalise 80.000 euros de bénéfice : combien va-t-elle payer d'impôt",
+   "first_stage": 8,
+   "lex13": null,
+   "bar": 1,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "B26",
+   "question": "Je donne des cours particuliers et des formations professionnelles : dois-je fac",
+   "first_stage": 9,
+   "lex13": null,
+   "bar": 1,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "B27",
+   "question": "Je fais rénover ma maison qui a plus de quinze ans : l'entrepreneur peut-il me f",
+   "first_stage": 1,
+   "lex13": 1,
+   "bar": 1,
+   "lex13+bge@20": 1,
+   "lex13+bge@30": 1,
+   "lex13+bge@50": 1
+  },
+  {
+   "qid": "B29",
+   "question": "Le fisc m'a envoyé une demande écrite de renseignements sur ma situation : combi",
+   "first_stage": 17,
+   "lex13": 1,
+   "bar": 2,
+   "lex13+bge@20": 2,
+   "lex13+bge@30": 2,
+   "lex13+bge@50": 2
+  },
+  {
+   "qid": "B31",
+   "question": "Mon père, domicilié à Namur, vient de décéder et je suis son seul enfant : quel ",
+   "first_stage": 48,
+   "lex13": null,
+   "bar": null,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "B33",
+   "question": "Ma compagne, avec qui je vivais à Gand, est décédée : la maison où nous habition",
+   "first_stage": null,
+   "lex13": null,
+   "bar": null,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  },
+  {
+   "qid": "B37",
+   "question": "Mes parents habitent Liège et veulent me donner 50.000 euros par acte notarié : ",
+   "first_stage": null,
+   "lex13": null,
+   "bar": null,
+   "lex13+bge@20": null,
+   "lex13+bge@30": null,
+   "lex13+bge@50": null
+  }
+ ]
+}
