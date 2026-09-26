@@ -136,11 +136,11 @@ no cue tokens, strict evaluation). Rankings are top-60; PQ source documents are 
 
 | question set | n | bm25_tok01 MRR / H@1 / R@10 | exp13_lex MRR / H@1 / R@10 | exp13 val MRR (n) |
 |---|---:|---|---|---|
-| human (64) | 64 | 0.601 / 0.500 / 0.836 | 0.683 / 0.594 / 0.865 | 0.683 / 0.594 / 0.865_VAL |
-| mined, all | 697 | 0.722 / 0.684 / 0.779 | 0.729 / 0.693 / 0.779 | 0.729 / 0.693 / 0.779_VAL |
-| mined · PQ | 163 | 0.050 / 0.018 / 0.072 | 0.059 / 0.031 / 0.078 | 0.059 / 0.031 / 0.078_VAL |
-| mined · ruling (verbatim) | 377 | 0.918 / 0.873 / 0.995 | 0.923 / 0.875 / 0.995 | 0.923 / 0.875 / 0.995_VAL |
-| mined · FAQ (verbatim) | 157 | 0.949 / 0.924 / 0.994 | 0.958 / 0.943 / 0.987 | 0.958 / 0.943 / 0.987_VAL |
+| human (64) | 64 | 0.601 / 0.500 / 0.836 | 0.683 / 0.594 / 0.865 | 0.617 (35) |
+| mined, all | 697 | 0.722 / 0.684 / 0.779 | 0.729 / 0.693 / 0.779 | 0.708 (345) |
+| mined · PQ | 163 | 0.050 / 0.018 / 0.072 | 0.059 / 0.031 / 0.078 | 0.050 (87) |
+| mined · ruling (verbatim) | 377 | 0.918 / 0.873 / 0.995 | 0.923 / 0.875 / 0.995 | 0.915 (174) |
+| mined · FAQ (verbatim) | 157 | 0.949 / 0.924 / 0.994 | 0.958 / 0.943 / 0.987 | 0.961 (84) |
 
 Reading. (1) On B the mined set as a whole lands where the human set does (0.36–0.41 MRR) and the
 exp-13 upgrades transfer (+0.05 on both, +0.10 on the ruling slice, with SE ≈ 0.02 on 300 questions
