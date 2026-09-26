@@ -309,9 +309,23 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   (34/35 ranks identical) and hurts the mined ruling slice (twin rulings, p < 0.001): keep it as an answer
   object and a source of training pairs, not as a fusion leg. Side result at n = 304/697: convex 0.5 beats
   RRF60 (C −0.044 for RRF, p < 0.001).
-* **Canonical-work hybrid (`19_canonical_hybrid`)**, **re-judging round 2 on the mined sets
-  (`21_mined_eval`)** and **reception + colbert-fr on B (`22_reception_colbert`)**: see their READMEs
-  (results are appended here as they complete).
+* **Re-judging round 2 on the mined sets (`21_mined_eval`)** and **reception + colbert-fr on B
+  (`22_reception_colbert`)**: see their READMEs (appended here when complete).
+* **Canonical-work hybrid (`19_canonical_hybrid`).** Rule-based ingestion over corpus C — quality filter
+  (1,493 documents dropped: Dutch bodies, TOCs, empties; no expected document lost), boilerplate zoning
+  (92,871 lines), edition canonicalisation (2,224 editions → 19,035 works), region / year / domain / type
+  metadata — in front of exp-13 lexical + e5-small at fixed convex 0.5, soft facet boosts and bge @20.
+  Honest no: every variant is below the round-2 best (val 0.62–0.65 vs 0.688; full set 0.64–0.69 vs
+  0.719) and the differences between ingestion variants are within noise on the human set (quality
+  +0.014, zoning +0.019, canonicalisation ≈ 0, facets −0.027) and mixed on the 697 mined questions (zoning
+  helps the lexical leg and hurts the dense leg on rulings, p 0.06; facet boosts hurt rulings, p < 0.001,
+  but are the only lever on the PQ → statute slice, +0.024, p < 0.001). About half of the deficit is the
+  candidate rule: reranking the top-20 fused *chunks* (exp-17 rule) instead of one chunk per document
+  recovers +0.03–0.04 and makes the gap non-significant (−0.040, p 0.26); the rest is that a hybrid
+  candidate pool hands bge fewer passages of the right documents than the lexical pool (first-hit R@10
+  0.857 vs 0.914). Keep quality filtering, zoning and canonical works at ingestion for product value
+  (clean passages, one edition per work, working year/region filters); gate facet boosts by document
+  type or move them into the linear ranker; rerank chunks, not documents.
 
 ## 4. Recommendation
 
