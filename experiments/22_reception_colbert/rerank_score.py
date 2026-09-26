@@ -76,6 +76,7 @@ def main():
     ap.add_argument("--no-alt", action="store_true", help="skip the alternative pipeline's pairs")
     ap.add_argument("--alt-depth-mined", type=int, default=20, help="mMARCO depth of the alternative pipeline on the mined set (budget)")
     ap.add_argument("--mined-alt", action="store_true", help="also score the alternative pipeline on the mined set (off: budget)")
+    ap.add_argument("--no-bge-mined", action="store_true", help="skip the bge pairs of the mined subsample (budget)")
     a = ap.parse_args()
     import torch
     torch.set_num_threads(4)
@@ -123,11 +124,13 @@ def main():
     else:
         sub = set(subsample100(mined))
         for pipe in main_pipes:
+            if pipe != final and a.no_bge_mined:      # second pass: the final pipeline only
+                continue
             for qid, e in cands[f"human:{pipe}"].items():
                 for d, _ in e["docs"][:DEPTH_BGE]:
                     need[(qid, e["best_chunk"][d])] = None
         for qid, e in cands[f"mined:{final}"].items():
-            if qid in sub:
+            if qid in sub and not a.no_bge_mined:
                 for d, _ in e["docs"][:DEPTH_BGE]:
                     need[(qid, e["best_chunk"][d])] = None
         out_f = CACHE / "B_bge22.npz"

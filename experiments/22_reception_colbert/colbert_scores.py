@@ -40,9 +40,10 @@ def main():
     ap.add_argument("--qblock", type=int, default=32)
     ap.add_argument("--no-persist", action="store_true", help="do not write the fp16 token matrix")
     ap.add_argument("--query-length", type=int, default=48, help="PyLate query length (exp 12: 48; mined questions have a median of 78 words)")
+    ap.add_argument("--trim", action="store_true", help="keep max(48, real tokens) query vectors: no [MASK] expansion beyond exp 12's 48-token budget")
     a = ap.parse_args()
     import torch
-    suffix = "" if a.query_length == 48 else f"_q{a.query_length}"
+    suffix = ("" if a.query_length == 48 else f"_q{a.query_length}") + ("t" if a.trim else "")
     out_f = CACHE / f"B_colbert_scores{suffix}.npz"
     c = load_corpus("B")
     questions = load_questions_b() + load_questions_mined("B")
@@ -77,6 +78,12 @@ def main():
     q_embs, q_s = encode(m, [q.question for q in questions], True, 16)
     timing["encode_queries_s"] = round(q_s, 1)
     print(f"queries encoded in {q_s:.1f}s; q tokens mean {np.mean([e.shape[0] for e in q_embs]):.1f}", flush=True)
+    if a.trim:
+        n_real = [len(m.tokenizer(q.question, truncation=True, max_length=a.query_length)["input_ids"]) + 1 for q in questions]   # + the <unk> marker
+        q_embs = [e[: max(48, min(a.query_length, n))] for e, n in zip(q_embs, n_real)]
+        timing["trim"] = {"kept_tokens_mean": float(np.mean([e.shape[0] for e in q_embs])), "n_real_mean": float(np.mean(n_real)),
+                          "n_over_48": int(sum(1 for n in n_real if n > 48))}
+        print("trimmed query vectors:", timing["trim"], flush=True)
     del m
 
     t0 = time.perf_counter()
