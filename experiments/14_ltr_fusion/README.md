@@ -174,7 +174,14 @@ bagging), *small* (60 trees, 8 leaves) and *medium* (150 trees, 16 leaves, min 1
 | A | lgbm-tiny / cheap | 0.961 → 0.660 | 0.847 → 0.669 | 0.665 (0.517, 0.966) |
 | A | logreg / minimal (5 features) | 0.699 → 0.659 | 0.723 → 0.649 | 0.653 (0.483, 0.931) |
 | A | _bars_ | val 0.736 | | full set 0.703 |
-| B | _(pending bge cache)_ | | | |
+| B | logreg / minimal+meta (7 features) | 0.628 → 0.519 | 0.611 → **0.667** | **0.608** (0.475, 0.825) |
+| B | logreg / all | 0.676 → 0.538 | 0.762 → 0.640 | 0.600 (0.450, 0.850) |
+| B | logreg / minimal (5 features) | 0.620 → 0.529 | 0.610 → 0.646 | 0.599 (0.450, 0.825) |
+| B | lgbm-tiny / minimal+meta | 0.802 → **0.618** | 0.747 → 0.582 | 0.596 (0.450, 0.800) |
+| B | lgbm-tiny / minimal | 0.753 → 0.614 | 0.747 → 0.568 | 0.587 (0.425, 0.800) |
+| B | lgbm-tiny / all | 0.817 → 0.505 | 0.828 → 0.599 | 0.561 (0.375, 0.850) |
+| B | logreg / cheap (no cross-encoder) | 0.607 → 0.411 | 0.503 → 0.544 | 0.491 (0.375, 0.800) |
+| B | _bars_ | val 0.570 | | full set 0.522 |
 | C | _(pending bge cache)_ | | | |
 
 
