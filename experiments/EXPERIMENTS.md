@@ -92,6 +92,7 @@ Round 2 (train/val protocol, §3.10–3.11; "val" = fitted on the train half, sc
 | learned ranker over cheap features (exp 14), oof / val | **0.732** / 0.722 | **0.608** / 0.519 | **0.723** / 0.634 |
 | mMARCO fine-tuned on our train split (exp 15), all / val | 0.613 / 0.486 | 0.562 / 0.488 | 0.669 / 0.585 |
 | monobert-legal-french rerank of BM25 top-30 (exp 16), all / val | 0.639 / 0.603 | 0.465 / 0.427 | 0.594 / 0.597 |
+| exp-13 lexical → bge-reranker @20 / @30 (exp 17), val | – | 0.440 (@30) | **0.688** / 0.675 (all 0.733 @30) |
 
 Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
 2 s with mMARCO-MiniLM. All heavy runs were executed one at a time by `experiments/run_queue.sh` (`queue.log`).
@@ -253,12 +254,16 @@ train / val / all MRR (split = md5 parity of the question id) and selects config
   5× the cost and stays below bge-reranker; dpr-legal-french is e5-class on A and poor on B; fine-tuning
   mMARCO on BSARD (+18 % on BSARD test) gives nothing on our sets and the BSARD licence (CC BY-NC-SA)
   would forbid shipping it anyway.
-* **Combination (`17_lex_rerank`).** exp-13 BM25 as first stage for bge-reranker-v2-m3 on C and B, with
-  paired tests against the bars — see its README.
+* **Combination (`17_lex_rerank`).** exp-13 lexical first stage → bge-reranker-v2-m3 (reranker score only,
+  max length 512). C: val 0.675 @30 / 0.688 @20 vs the 0.665 bar (2 wins / 0 losses / 33 ties, paired t
+  p = 0.30; R@10 0.943 vs 0.886), full set 0.733 vs 0.703. B: val 0.440 vs 0.570 — three validation
+  questions never enter the lexical top-50, the paraphrase gap only the dense leg bridges (level with the
+  exp-03 RRF + bge run, p = 0.89). β interpolation with the BM25F score is selected on train and loses on
+  val; depth 50 is worse than 20–30. Cost ≈ 19 s @20 / 28 s @30 per query on C (1 s per pair).
 
-**Did round 2 beat the round-1 validation bars?** Nominally yes on A (val 0.756 lexical, 0.808 sparse +
-BM25 RRF) and B (val 0.610 interpolated mMARCO, 0.592 graph-expanded), not on C (best val 0.658; exp 17
-pending). Honestly: with 12–35 validation questions the standard error of a validation MRR is 0.07–0.10, so
+**Did round 2 beat the round-1 validation bars?** Nominally yes on all three: A (val 0.756 lexical, 0.808
+sparse + BM25 RRF), B (val 0.610 interpolated mMARCO, 0.592 graph-expanded) and C (val 0.675–0.688 with the
+exp-13 lexical stage in front of the bge reranker, full set 0.733 vs 0.703). Honestly: with 12–35 validation questions the standard error of a validation MRR is 0.07–0.10, so
 none of these single-split wins is significant, and the one-fold numbers of exp 14 show how much a
 "win" can depend on which half is used for fitting. The gains that hold on both folds are: the lexical
 upgrades on C (+0.08 val at zero cost), fixed mid-range fusion (w = 0.5, RRF60) instead of tuned weights,
@@ -293,6 +298,17 @@ mined questions, paired statistics, pre-registered validation reads) is the prer
 
 **Not recommended**: Onyx / RAGFlow as the retrieval backbone; LlamaIndex hierarchical or sentence-window
 retrievers; MiniLM-class embeddings; running several embedding jobs concurrently on a small CPU box.
+
+**Round-2 amendments to the stack.** (1) Lexical leg = exp-13 configuration (exp-01 tokenizer, BM25F
+title/path field weight 3–8, thousand-group number normalisation, per-corpus k1/b, preamble cleanup); no
+RM3/PMI. (2) Keep the dense leg: a lexical-only first stage loses the paraphrased questions on B
+(exp 17). (3) Fuse with a fixed weight (convex 0.5 or RRF60), never a train-tuned one (exp 14). (4)
+bge-reranker-v2-m3 at depth 20–30, reranker score only, 512-token cap (exps 14, 17); mMARCO only as a
+cheap cascade stage. (5) Store document type, year, region and title as index fields and use a
+regularised linear ranker over them plus the leg scores once a few hundred labelled questions exist
+(exp 14). (6) Use the citation graph for navigation, provenance and duplicate lists, not scoring (exp 11).
+(7) Do not adopt in-domain legal models or BSARD fine-tunes (exp 16); revisit fine-tuning only with
+mined or synthetic pairs (exp 15, ideas 12/69/73/74).
 
 ## 5. Reproducing
 
