@@ -31,7 +31,7 @@ sys.path.insert(0, str(EXP_DIR / "13_lexical_upgrades"))
 import numpy as np  # noqa: E402
 
 from rag_eval import evaluate_rankings, save_result  # noqa: E402
-from rag_eval.corpora import load_questions_b, load_questions_c  # noqa: E402
+from rag_eval.corpora import load_questions_b, load_questions_c, slice_questions  # noqa: E402
 from lexical import Tokenizer, build_index, bm25f_matrix, concat_fields, scores_for, to_doc_ranking  # noqa: E402
 from run_exp13 import load_corpus, tokenize_corpus, query_weights  # noqa: E402
 
@@ -80,14 +80,7 @@ def main():
         timing = {"rank_s": round(time.perf_counter() - t1, 1), "per_query_ms": round(1000 * (time.perf_counter() - t1) / len(allq), 1)}
         config = {"tokenizer": cfg["tok"].key, "clean": cfg["clean"], "fields": cfg["fields"] or base_fields, "k1": cfg["k1"], "b": cfg["b"]}
         res = {}
-        slices = [("human", human), ("mined", mined)]
-        for src in ("pq", "faq", "ruling"):
-            slices.append((f"mined__src_{src}", [q for q in mined if q.meta.get("source") == src]))
-        for basis in ("explicit", "bare", "document"):
-            slices.append((f"mined__basis_{basis}", [q for q in mined if q.meta.get("label_basis") == basis]))
-        for sl, qs in slices:
-            if not qs:
-                continue
+        for sl, qs in slice_questions(allq).items():      # human / mined / mined__src_* / mined__basis_*
             r = evaluate_rankings(f"{sl}__{name}", a.corpus, qs, rankings, {**config, "questions": sl}, timing)
             if not a.no_save and not sl.startswith("mined__basis"):
                 save_result(EXP, r)

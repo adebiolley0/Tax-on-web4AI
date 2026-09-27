@@ -1,10 +1,10 @@
 """Paired statistics for comparing saved runs from their stored per-question ranks.
 
-Every result JSON written by :func:`rag_eval.results.save_result` stores, per question,
-the rank of the first expected document (``rank``, ``None`` on a miss) and its reciprocal
-rank (``rr``).  Two runs on the same corpus are therefore comparable *pairwise*: the
-per-question delta ``d_i = rr_B(i) - rr_A(i)`` (or the hit@k delta) is the unit of
-evidence, not the two MRR point estimates.
+Every result JSON written by :func:`rag_eval.results.save_result` stores, per question, the rank of
+the first expected document (``rank``, ``None`` on a miss) and its reciprocal rank (``rr``).  Two
+runs on the same corpus are therefore comparable *pairwise* on the questions they share: the
+per-question delta ``d_i = rr_B(i) - rr_A(i)`` (or the hit@k delta) is the unit of evidence, not the
+two MRR point estimates.
 
 What is computed (numpy + scipy only, no model needed):
 
@@ -12,18 +12,21 @@ What is computed (numpy + scipy only, no model needed):
 * exact sign-flip (randomisation) test when ``2**n`` is small, Monte-Carlo otherwise;
 * bootstrap 95 % CI of the mean delta (BCa via ``scipy.stats.bootstrap``, percentile fallback);
 * win / loss / tie counts and the standardised effect size ``mean(d) / sd(d)``;
-* a max-T (Westfall–Young, single-step) correction for comparing many runs against one
-  baseline (:func:`compare_many`), which keeps the correlation between runs that
-  Bonferroni ignores;
-* the minimum detectable paired delta at ``n`` questions (:func:`min_detectable_delta`).
+* a max-T (Westfall–Young, single-step) correction for comparing many runs against one baseline
+  (:func:`compare_many`), which keeps the correlation between runs that Bonferroni ignores;
+* the minimum detectable paired delta at ``n`` questions (:func:`min_detectable_delta`) and its
+  inverse :func:`questions_needed`.
+
+Entry points: :func:`compare_runs` (two saved runs by ``experiment`` / run name), :func:`compare_loaded`
+(two loaded run dicts), :func:`paired_stats` (two aligned metric vectors), :func:`compare_many`.
 
 CLI::
 
     python -m rag_eval.stats C 09_corpus_c/bm25__fixed1200_title__bm25+bge-reranker-v2-m3@30 \
-        17_lex_rerank/lex13+bge@20 --split val
+        17_lex_rerank/lex13+bge@20 --split val [--ks 1,5,10] [--json]
 
-Run specs are ``experiment/run-name`` (the run name as stored in the JSON, or its sanitised
-file form), or a path to a result JSON.
+Run specs are ``experiment/run-name`` (the run name as stored in the JSON, or its sanitised file
+form), or a path to a result JSON.
 """
 from __future__ import annotations
 
@@ -66,6 +69,7 @@ def find_run(experiment: str, run: str, corpus: str) -> Path:
 
 
 def load_run(experiment: str, run: str, corpus: str) -> dict:
+    """The result JSON of a saved run as a dict (see :func:`find_run`)."""
     return json.loads(find_run(experiment, run, corpus).read_text())
 
 
@@ -81,14 +85,8 @@ def parse_run_spec(spec: str) -> tuple[str, str]:
 
 
 # ── per-question arrays ─────────────────────────────────────────────────────
-def question_ids(run: dict, split: str | None = None) -> list[str]:
-    qids = sorted(run["per_question"])
-    if split in (None, "all"):
-        return qids
-    return [q for q in qids if question_split(q) == split]
-
-
 def rr_vector(run: dict, qids: Sequence[str]) -> np.ndarray:
+    """Reciprocal rank of the first expected doc per question (0 on a miss)."""
     return np.array([float(run["per_question"][q]["rr"]) for q in qids])
 
 
@@ -98,10 +96,12 @@ def rank_vector(run: dict, qids: Sequence[str]) -> np.ndarray:
 
 
 def hit_vector(run: dict, qids: Sequence[str], k: int) -> np.ndarray:
+    """1.0 when the first expected doc is within the top ``k``, else 0.0."""
     return (rank_vector(run, qids) <= k).astype(float)
 
 
 def aligned_qids(run_a: dict, run_b: dict, split: str | None = None) -> list[str]:
+    """Sorted question ids present in both runs (optionally one split)."""
     common = set(run_a["per_question"]) & set(run_b["per_question"])
     qids = sorted(common)
     if split not in (None, "all"):
@@ -257,6 +257,7 @@ class Comparison:
 
 def compare_loaded(run_a: dict, run_b: dict, split: str | None = None, ks: Iterable[int] = DEFAULT_KS,
                    seed: int = 0, n_boot: int = _BOOT, n_perm: int = _MC_PERMS) -> Comparison:
+    """Paired comparison (B minus A) of two loaded run dicts on their common questions."""
     if run_a.get("corpus") != run_b.get("corpus"):
         raise ValueError(f"runs are on different corpora: {run_a.get('corpus')} vs {run_b.get('corpus')}")
     qids = aligned_qids(run_a, run_b, split)

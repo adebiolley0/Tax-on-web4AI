@@ -1,19 +1,33 @@
 """Ranking metrics computed at *document* level.
 
-A retrieval system returns, per question, a ranked list of ``doc_id`` values
-(already deduplicated: the first occurrence of a document determines its rank).
-Use :func:`dedupe_ranked` to collapse chunk-level results.
+A retrieval system returns, per question id, a ranked list of ``doc_id`` values (chunk hits may be
+passed as-is: :func:`dedupe_ranked` keeps the first occurrence of each document, which fixes its rank).
+
+Per question, after the ids in ``Question.exclude`` are removed from the ranking:
+
+* ``rank``   – 1-based rank of the first *expected* (primary) document, ``None`` on a miss;
+* ``rr``     – its reciprocal rank (0 on a miss); **MRR** and **hit@k** (``rank <= k``) follow from it;
+* **recall@k** – fraction of the expected documents in the top-k;
+* **nDCG@k** – graded: expected = 1.0, secondary = ``secondary_weight`` (0.5 unless overridden).
+
+Set-level metrics are means over the questions; ``train_*`` / ``val_*`` (MRR, hit@1, hit@5, recall@10,
+n) are the same means over each half of the split protocol.  All floats are rounded to 4 decimals.
 """
 from __future__ import annotations
 
 import math
-from dataclasses import dataclass, field, asdict
+from dataclasses import asdict, dataclass, field
 from typing import Iterable, Sequence
 
 from rag_eval.corpora import Question
 
+HIT_KS = (1, 3, 5, 10)
+RECALL_KS = (5, 10)
+NDCG_KS = (5, 10)
+
 
 def dedupe_ranked(doc_ids: Iterable[str]) -> list[str]:
+    """Collapse a chunk-level ranking to document level (first occurrence wins)."""
     seen: set[str] = set()
     out: list[str] = []
     for d in doc_ids:
@@ -25,13 +39,15 @@ def dedupe_ranked(doc_ids: Iterable[str]) -> list[str]:
 
 @dataclass
 class RunResult:
+    """One evaluated run.  ``per_question[qid] = {"rank", "rr", "top5", "expected", "split"}`` is
+    what :mod:`rag_eval.stats` reads back; ``provenance`` is filled by :func:`rag_eval.results.save_result`."""
     name: str
     corpus: str
     config: dict
     metrics: dict
     per_question: dict
     timing: dict = field(default_factory=dict)
-    provenance: dict = field(default_factory=dict)   # filled by rag_eval.results.save_result
+    provenance: dict = field(default_factory=dict)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -45,7 +61,8 @@ class RunResult:
         return s
 
 
-def _ndcg(ranked: Sequence[str], rel: dict[str, float], k: int) -> float:
+def ndcg_at_k(ranked: Sequence[str], rel: dict[str, float], k: int) -> float:
+    """nDCG@k with graded relevance ``rel`` (log2 discount, ideal = sorted grades)."""
     dcg = sum(rel.get(d, 0.0) / math.log2(i + 2) for i, d in enumerate(ranked[:k]))
     ideal = sorted(rel.values(), reverse=True)[:k]
     idcg = sum(r / math.log2(i + 2) for i, r in enumerate(ideal))
@@ -61,23 +78,20 @@ def evaluate_rankings(
     timing: dict | None = None,
     secondary_weight: float = 0.5,
 ) -> RunResult:
-    """Compute MRR, nDCG@5/10, hit@1/3/5/10, recall@5/10.
-
-    * **MRR / hit@k** – rank of the first *expected* (primary) document.
-    * **recall@k** – fraction of expected documents found in top-k, averaged.
-    * **nDCG@k** – graded: expected=1.0, secondary=``secondary_weight``.
-    * documents listed in ``q.meta["exclude"]`` (mined questions only) are dropped from the ranking first.
-    """
+    """Score ``rankings`` (qid → ranked doc ids; a missing qid counts as an empty ranking) on
+    ``questions``; see the module docstring for the metric definitions."""
+    if not questions:
+        raise ValueError("evaluate_rankings needs at least one question")
     per_q: dict = {}
-    split_acc: dict = {"train": [], "val": []}
+    split_acc: dict[str, list[tuple[float, float, float, float]]] = {"train": [], "val": []}
     mrr = 0.0
-    hits = {1: 0, 3: 0, 5: 0, 10: 0}
-    rec = {5: 0.0, 10: 0.0}
-    ndcg = {5: 0.0, 10: 0.0}
+    hits = {k: 0 for k in HIT_KS}
+    rec = {k: 0.0 for k in RECALL_KS}
+    ndcg = {k: 0.0 for k in NDCG_KS}
     n = len(questions)
     for q in questions:
         ranked = dedupe_ranked(rankings.get(q.qid, []))
-        excl = set(q.meta.get("exclude") or [])      # mined questions: the source PQ is not a legitimate hit
+        excl = set(q.exclude)
         if excl:
             ranked = [d for d in ranked if d not in excl]
         exp = set(q.expected)
@@ -92,23 +106,16 @@ def evaluate_rankings(
         rel = {d: 1.0 for d in exp}
         rel.update({d: secondary_weight for d in q.secondary if d not in rel})
         for k in ndcg:
-            ndcg[k] += _ndcg(ranked, rel, k)
+            ndcg[k] += ndcg_at_k(ranked, rel, k)
         per_q[q.qid] = {"rank": first, "rr": round(rr, 4), "top5": ranked[:5],
                         "expected": q.expected, "split": q.split}
         split_acc[q.split].append((rr, 1.0 if first and first <= 1 else 0.0, 1.0 if first and first <= 5 else 0.0,
                                    len(exp & set(ranked[:10])) / max(1, len(exp))))
-    metrics = {
-        "mrr": mrr / n,
-        "ndcg@5": ndcg[5] / n,
-        "ndcg@10": ndcg[10] / n,
-        "hit@1": hits[1] / n,
-        "hit@3": hits[3] / n,
-        "hit@5": hits[5] / n,
-        "hit@10": hits[10] / n,
-        "recall@5": rec[5] / n,
-        "recall@10": rec[10] / n,
-        "n_questions": n,
-    }
+    metrics: dict = {"mrr": mrr / n}
+    metrics.update({f"ndcg@{k}": ndcg[k] / n for k in NDCG_KS})
+    metrics.update({f"hit@{k}": hits[k] / n for k in HIT_KS})
+    metrics.update({f"recall@{k}": rec[k] / n for k in RECALL_KS})
+    metrics["n_questions"] = n
     for sp, rows in split_acc.items():
         if rows:
             m = len(rows)

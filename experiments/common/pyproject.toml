@@ -1,12 +1,15 @@
 [project]
 name = "rag-eval"
-version = "0.2.0"
-description = "Shared evaluation harness for the Belgian-tax RAG experiments (corpora, questions, metrics, caching)."
+version = "0.3.0"
+description = "Shared evaluation harness for the Belgian-tax RAG experiments (corpora, questions, split protocol, metrics, results, paired statistics, question mining)."
 requires-python = ">=3.12"
 dependencies = ["numpy>=1.26"]
 
 [project.optional-dependencies]
 stats = ["scipy>=1.11"]  # rag_eval.stats (paired tests, bootstrap, max-T)
+
+[dependency-groups]
+dev = ["pytest>=8", "scipy>=1.11"]   # `cd experiments/common && uv run pytest -q`
 
 [build-system]
 requires = ["hatchling"]
@@ -14,3 +17,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["rag_eval"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

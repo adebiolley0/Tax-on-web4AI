@@ -1,6 +1,15 @@
 """Chunking strategies shared across experiments.
 
-All functions take a list of :class:`Doc` and return a list of :class:`Chunk`.
+All functions take a list of :class:`~rag_eval.corpora.Doc` and return a list of
+:class:`~rag_eval.corpora.Chunk` whose ids are ``<doc_id>#<i>``; every chunk keeps the document's
+title and a copy of its ``meta``.  Whitespace is normalised first (non-breaking spaces, runs of
+spaces / tabs, more than two blank lines).
+
+* :func:`whole_doc` – one chunk per document, optionally truncated;
+* :func:`fixed_chunks` – heading-aware recursive chunking (sections → paragraphs → sentences) with
+  a character budget and overlap, optional title prefix ("contextual chunk header");
+* :func:`article_chunks` – for corpus B, where a document *is* an article: prefix the code name +
+  heading path so every chunk carries its legal context, then split long articles.
 """
 from __future__ import annotations
 
@@ -18,7 +27,7 @@ def _norm(t: str) -> str:
 
 
 def whole_doc(docs: list[Doc], max_chars: int | None = None) -> list[Chunk]:
-    """One chunk per document (optionally truncated)."""
+    """One chunk per document (optionally truncated to ``max_chars``)."""
     out = []
     for d in docs:
         t = _norm(d.text)
@@ -29,7 +38,8 @@ def whole_doc(docs: list[Doc], max_chars: int | None = None) -> list[Chunk]:
 
 
 def _split_long(text: str, max_chars: int, overlap: int) -> list[str]:
-    """Split on paragraph, then sentence-ish boundaries, respecting max_chars."""
+    """Split on paragraph, then sentence-ish boundaries, respecting ``max_chars``; each piece after
+    the first starts with the last ``overlap`` characters (word-aligned) of the previous one."""
     if len(text) <= max_chars:
         return [text]
     paras = [p for p in re.split(r"\n\s*\n", text) if p.strip()]
@@ -71,14 +81,14 @@ def _split_long(text: str, max_chars: int, overlap: int) -> list[str]:
 
 def fixed_chunks(docs: list[Doc], max_chars: int = 1500, overlap: int = 200,
                  heading_split: bool = True, prefix_title: bool = False) -> list[Chunk]:
-    """Heading-aware recursive chunking (paragraph → sentence), optional title prefix
-    ("contextual chunk header")."""
+    """Heading-aware recursive chunking.  Markdown sections (``#``–``####``) are split first and tiny
+    ones merged forward, then each section is cut by :func:`_split_long`; ``prefix_title`` prepends
+    the document title to every chunk."""
     out = []
     for d in docs:
         text = _norm(d.text)
         sections = re.split(r"(?=\n#{1,4}\s)", "\n" + text) if heading_split else [text]
         sections = [s.strip() for s in sections if s.strip()]
-        # merge tiny sections forward
         merged: list[str] = []
         for s in sections:
             if merged and len(merged[-1]) + len(s) + 2 <= max_chars:
@@ -96,8 +106,8 @@ def fixed_chunks(docs: list[Doc], max_chars: int = 1500, overlap: int = 200,
 
 def article_chunks(docs: list[Doc], max_chars: int = 2000, overlap: int = 150,
                    prefix_context: bool = True) -> list[Chunk]:
-    """For corpus B: each doc *is* an article. Prefix the code name + heading path +
-    article number so every chunk carries its legal context."""
+    """Corpus B: prefix ``title`` + ``meta["heading_path"]`` (code > book > chapter …) to every piece
+    of the article so each chunk carries its legal context."""
     out = []
     for d in docs:
         text = _norm(d.text)
