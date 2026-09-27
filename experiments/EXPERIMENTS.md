@@ -116,6 +116,7 @@ numbers as before):
 | convex 0.5 → mMARCO @20 (exp 21) | +0.07 (p 0.14) | −0.183 (p < 0.001) | ±0 | −0.169 (p < 0.001) |
 | … → mMARCO @30, β 0.8 (exp 22): **first p < 0.05 win on a human set** (+0.092 all, 19/2/19, p 0.012) | **0.613 / 0.614** | mMARCO destructive on long queries (0.213) | – | – |
 | length-gated B pipeline (exp 22): mMARCO β 0.8 if ≤ 25 words else reception + e5 un-reranked | **0.613 / 0.628** (+0.106 all, p 0.011) | **0.534** (+0.311 vs bar recipe, p < 0.001) | – | – |
+| LightGBM-tiny ranker on pooled mined + human-train labels with bge feature (exp 24), human val / full oof | 0.50–0.58 / 0.58–0.62 (ties bar; +0.11 vs convex→bge, p 0.01) | −0.026 vs mined-only | 0.64–0.67 / 0.69–0.71 (ties bar) | −0.029 vs mined-only |
 | LightGBM-tiny ranker on mined labels (exp 21), mined-val / human held-out | 0.427 (human) | +0.086 vs fusion, p < 0.001 | 0.671 (human) | +0.039 vs fusion, p < 0.001 |
 
 Reranker cost on this 4-core CPU: 20–24 s per query for 30 candidates of ≤1,024 tokens (bge-reranker-v2-m3),
@@ -353,6 +354,18 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   lexical confirmed; RRF refuted; "mMARCO essential on B" refuted on long questions; bge as *score
   replacement* confirmed only on short paraphrased questions and refuted on long or verbatim ones; keep bge
   inside a learned ranker that retains the first-stage scores, or gate it by query length.
+* **Pooled-label ranker (`24_pooled_ranker`, cache-only).** Training the LightGBM-tiny ranker on the mined
+  train split plus the human *train* half (human weight 5, chosen by nested CV inside the pool), with query-
+  length and verbatim-overlap features and the bge document score kept as one feature among the first-stage
+  scores, lifts it from below the bars to the bars on the honest human validation half (B 0.50–0.58 vs
+  0.570, C 0.64–0.67 vs 0.665; ties) and directionally above on the full-set oof for B (+0.05 to +0.10,
+  best p 0.066). It beats the mined-only ranker (B +0.145, p 0.004) and convex → bge @20 on B (+0.11 to
+  +0.13, p 0.01–0.02), ties exp 17 on C and exp 22's gate on all 40 B questions, and costs 0.02–0.03 on
+  mined validation. The human labels teach the tree to use bge on B (gain share 0.03 → 0.3–0.5) while on C
+  bge stays marginal and the gain is a re-weighting of lexical features; the document-type one-hot is
+  irrelevant for trees with pooled labels but still breaks the linear model. No tree learned the length
+  gate explicitly, yet the pooled models avoid the bge collapse on long verbatim C questions (+0.25 vs
+  bge @20 above 50 words) because the first-stage scores stay next to a modestly weighted bge.
 * **Reception + colbert-fr + e5 on B (`22_reception_colbert`).** A three-leg first stage with fixed
   equal z-score weights (reception-BM25F, French ColBERT, cached e5-small; weighting pre-registered on the
   mined train split) is the best corpus-B first stage measured on the human set: val 0.545 / all 0.638,
