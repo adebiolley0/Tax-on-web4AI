@@ -1,6 +1,6 @@
 # 21 — Re-judging the round-2 systems on the mined question sets, and a learned ranker on real labels
 
-Status: Parts 1 and 3 (cheap features) complete; Part 2 (rerankers) is still scoring under the torch lock (`run_rerank_queue.sh`, log `logs/rerank_queue.log`; B mMARCO done, C mMARCO / bge jobs queued, each lock-wrapped and resumable). To finish: wait for `RERANK_QUEUE_DONE`, then `uv run python ../21_mined_eval/eval_rerank.py --corpus B|C` (→ `runs/part2_<c>.md`) and `uv run python ../21_mined_eval/train21.py --corpus B|C --balance --fsets cheap+mmarco,cheap+bge` (reranker-feature LTR on the scored questions), then paste the tables into §3 / §5 below.
+Status: complete (Parts 1–3 run; all reranker pairs of the subsample and the human sets scored; 2.6 h of bge under the torch lock). Round-3 experiment on the mined sets of `18_eval_hygiene`. Every run is in `experiments/results/21_mined_eval/` and the leaderboard; tables in `runs/`; caches in `cache/` (git-ignored).
 
 ## 1. Setup
 
@@ -187,9 +187,99 @@ Paired vs exp-01 BM25:
 | round-2 amendment "keep the dense leg (B paraphrases)" | supported on human B only (+0.10, p = 0.12); **on mined B the e5 leg is a measured loss** (−0.054) and fusions are a wash. Undecidable as a first-stage rule; the reranker tables (Part 2) are where it matters |
 | exp-12 OpenSearch sparse + BM25 RRF (A only) | not testable here (no C index, no mined A set) |
 
-## 3. Part 2 — rerankers on the stratified subsample (pending; see status line above)
+## 3. Part 2 — rerankers on the stratified subsample
 
-Design and caches are in §1; numbers land in `runs/part2_<corpus>.md` once the queue finishes.
+Full tables: `runs/part2_B.md`, `runs/part2_C.md` (every slice, val split, max-T). All 150 / 200 subsample
+questions and the 40 / 64 human questions have their convex-0.5 top-20 fully scored by both rerankers
+(B 3,800 pairs per reranker, C 6,525 incl. the lexical candidates; 1,455 human pairs copied from the exp-14 /
+exp-17 caches). Cost on the shared box: mMARCO 0.10–0.15 s/pair, bge 1.0–1.1 s/pair (2.5 h of bge in total).
+
+### 3.1 MRR per slice
+
+| corpus | slice | n | first stage (convex05) | + mMARCO@20 | + bge@20 | lex13 | lex13 + mMARCO@20 | lex13 + bge@20 |
+|---|---|--:|--:|--:|--:|--:|--:|--:|
+| B | subsample | 150 | 0.455 | 0.272 | **0.498** | – | – | – |
+| B | · pq | 78 | 0.271 | 0.234 | **0.332** | – | – | – |
+| B | · ruling | 70 | 0.673 | 0.323 | **0.697** | – | – | – |
+| B | human | 40 | 0.395 | 0.465 | **0.495** | – | – | – |
+| C | subsample | 200 | 0.711 | 0.542 | 0.587 | **0.724** | 0.546 | 0.589 |
+| C | · pq (diagnostic) | 47 | 0.056 | 0.043 | 0.061 | 0.054 | 0.050 | 0.057 |
+| C | · ruling (verbatim) | 108 | 0.880 | 0.577 | 0.644 | **0.905** | 0.581 | 0.649 |
+| C | · faq (verbatim) | 45 | 0.989 | 0.978 | **1.000** | 0.989 | 0.978 | **1.000** |
+| C | human | 64 | 0.622 | 0.615 | **0.695** | 0.683 | – | – |
+
+### 3.2 Paired tests (Δ = reranked − un-reranked, same questions; max-T over all reranked systems on the slice)
+
+| corpus | comparison | slice | n | Δ MRR [95 % CI] | p_t | p_perm | W/L/T | max-T p | Δ H@1 |
+|---|---|---|--:|:--|--:|--:|:--|--:|--:|
+| B | convex05+mMARCO@20 vs convex05 | subsample | 150 | **−0.183** [−0.246, −0.122] | 0.000 | 0.000 | 17/64/69 | 0.000 | −0.220 |
+| B | same | · ruling | 70 | **−0.350** [−0.445, −0.247] | 0.000 | 0.000 | 5/47/18 | 0.000 | −0.414 |
+| B | same | · pq | 78 | −0.037 [−0.102, +0.027] | 0.265 | 0.266 | 12/17/49 | 0.451 | −0.051 |
+| B | convex05+bge@20 vs convex05 | subsample | 150 | +0.043 [−0.001, +0.092] | 0.074 | 0.075 | 35/16/99 | 0.142 | +0.027 |
+| B | same | · pq | 78 | +0.061 [+0.006, +0.130] | 0.057 | 0.056 | 20/6/52 | 0.106 | +0.051 |
+| B | same | · ruling | 70 | +0.024 [−0.045, +0.098] | 0.524 | 0.533 | 15/10/45 | 0.768 | +0.000 |
+| B | bge@20 vs mMARCO@20 | subsample | 150 | **+0.225** [+0.166, +0.287] | 0.000 | 0.000 | 71/11/68 | – | +0.247 |
+| B | convex05+mMARCO@20 vs convex05 | human | 40 | +0.070 [−0.007, +0.173] | 0.137 | 0.149 | 9/6/25 | 0.239 | +0.075 |
+| B | convex05+bge@20 vs convex05 | human | 40 | **+0.101** [+0.024, +0.205] | 0.035 | 0.035 | 10/3/27 | 0.063 | +0.150 |
+| C | convex05+mMARCO@20 vs convex05 | subsample | 200 | **−0.169** [−0.220, −0.123] | 0.000 | 0.000 | 11/55/134 | 0.000 | −0.200 |
+| C | convex05+bge@20 vs convex05 | subsample | 200 | **−0.124** [−0.171, −0.078] | 0.000 | 0.000 | 12/49/139 | 0.000 | −0.160 |
+| C | same | · ruling | 108 | **−0.236** [−0.315, −0.158] | 0.000 | 0.000 | 7/48/53 | 0.000 | −0.306 |
+| C | same | · pq | 47 | +0.005 [−0.006, +0.017] | 0.401 | 0.375 | 4/1/42 | 0.899 | +0.000 |
+| C | same | · faq | 45 | +0.011 [+0.000, +0.067] | 0.323 | 1.000 | 1/0/44 | 1.000 | +0.022 |
+| C | lex13+bge@20 vs lex13 | subsample | 200 | **−0.135** [−0.182, −0.092] | 0.000 | 0.000 | 9/47/144 | 0.000 | −0.175 |
+| C | lex13+bge@20 vs convex05+bge@20 | subsample | 200 | +0.002 [−0.008, +0.013] | 0.748 | 0.753 | 26/17/157 | – | +0.005 |
+| C | bge@20 vs mMARCO@20 | subsample | 200 | **+0.045** [+0.002, +0.089] | 0.042 | 0.043 | 44/32/124 | – | +0.040 |
+| C | convex05+mMARCO@20 vs convex05 | human | 64 | −0.006 [−0.073, +0.056] | 0.845 | 0.845 | 14/13/37 | 0.995 | +0.000 |
+| C | convex05+bge@20 vs convex05 | human | 64 | **+0.073** [+0.012, +0.148] | 0.035 | 0.036 | 16/7/41 | 0.093 | +0.094 |
+
+Val-split-only rows (B n = 82, C n = 94) have the same signs and sizes (`runs/part2_<c>.md`).
+
+### 3.3 Where the losses come from (query length and source)
+
+| corpus | reranker | query length | n | mean Δrr | W/L/T | slices |
+|---|---|---|--:|--:|:--|---|
+| B | mMARCO | < 300 chars | 25 | −0.086 | 1/6/18 | pq 9 · ruling 14 · faq 2 |
+| B | mMARCO | 300–500 | 56 | −0.230 | 5/24/27 | pq 34 · ruling 22 |
+| B | mMARCO | > 500 | 69 | −0.179 | 11/34/24 | pq 35 · ruling 34 |
+| B | bge | < 300 / 300–500 / > 500 | 25 / 56 / 69 | +0.024 / +0.043 / +0.049 | 3/3/19 · 12/3/41 · 20/10/39 | |
+| C | mMARCO | < 300 | 67 | −0.055 | 3/8/56 | pq 12 · ruling 18 · faq 37 |
+| C | mMARCO | 300–500 | 64 | −0.149 | 4/17/43 | pq 23 · ruling 33 · faq 8 |
+| C | mMARCO | > 500 | 69 | **−0.299** | 4/30/35 | pq 12 · ruling 57 |
+| C | bge | < 300 | 67 | +0.014 | 5/3/59 | |
+| C | bge | 300–500 | 64 | −0.129 | 2/19/43 | |
+| C | bge | > 500 | 69 | **−0.252** | 5/27/37 | |
+
+Spearman(query length, Δrr): B −0.06 (mMARCO) / +0.05 (bge), n.s.; C **−0.27 / −0.28, p < 0.001**. Median query
+length: B pq 486 / ruling 496 / faq 98 chars, C pq 396 / ruling 512 / faq 109 chars, human sets 113 / 198.
+In every loss the first stage had the target at rank 1 (B 39 of 64 mMARCO losses, C 44 of 55) and the
+reranker moves it to a median rank 5–6, never below 20.
+
+### 3.4 Reading
+
+1. **mMARCO-MiniLM is destructive on the mined questions of both corpora** (B −0.183, C −0.169, max-T
+   p < 0.001; −0.35 / −0.30 on the ruling slices, 5/47 and 7/49) while it is +0.07 (p 0.14) on human B and ±0
+   on human C. This confirms exp 22's B finding and answers the coordinator's question: **the same holds on
+   C**, and it holds for bge as well on C. Exp 14's "mMARCO is essential on B" was a 40-question, 113-character
+   result.
+2. **bge-reranker-v2-m3 splits by corpus and by query length.** On B it is +0.043 on the subsample (35/16/99,
+   p 0.07; +0.061 on PQs) and +0.101 on the human set (10/3/27, p 0.035): the round-1 recipe survives on B for
+   citizen-style and deputy-style questions. On C it is +0.073 on the human set (16/7/41, p 0.035, the first
+   time a C reranker gain has a p-value) but **−0.124 on the subsample**, entirely on ruling objets
+   (−0.236, 7/48/53) with FAQ headings (+0.011, 1/0/44) and PQs (4/1/42) unharmed. The loss grows with query
+   length (ρ −0.28): a 500-character objet is ≈ 150 tokens of the 512-token window, and the corpus holds
+   dozens of near-identical rulings (emphytéose, scission partielle …) whose objets differ in a company name
+   or a date; the first stage finds the exact copy through rare tokens, the cross-encoder scores the
+   near-twins as equally relevant and the target drops to rank 5–6. This is the twin problem of
+   `ideas/README.md` §1(1) seen from the reranker side, and it is also a property of verbatim-labelled
+   questions: on a real user question the twin ruling *is* a correct answer.
+3. **Exp 17's "lexical → bge@20 ≥ fusion → bge@20"** is a tie on 200 questions (+0.002, 26/17/157): behind bge
+   the first stage does not matter, which is what `18_eval_hygiene` predicted from 30 ties out of 35. Its
+   headline "+0.023 over the bar" is therefore neither confirmed nor refuted — it is the difference between
+   two systems that rank the target identically on 79 % of questions.
+4. **Reranking depth 20 with reranker-score-only is not safe as a fixed recipe**: whether the reranker helps
+   depends on the question type (paraphrase → yes, verbatim / long → no), which is exactly the information a
+   learned ranker can use (Section 5: a LightGBM ranker over the leg scores plus the bge score is +0.167
+   over convex→bge@20 on the C subsample and +0.048 on B, because it keeps the first-stage evidence).
 
 ## 4. Part 3 — learned ranker on real labels
 
@@ -301,19 +391,65 @@ C pq +0.095, p < 0.001).
    `minimal+meta` logreg is the best *linear* model on the human set (0.395 = convex05). Metadata (region, year)
    never enters the top features on B; on C `is_yearly_edition` and `log_doc_len` do, as in exp 14.
 
-## 5. Reranker-feature learned ranker (pending Part 2 scores)
+## 5. Reranker-feature learned ranker (questions scored in Part 2)
 
-`train21.py --fsets cheap+mmarco,cheap+bge` trains only on questions whose convex top-20 was scored (subsample ∩ train, ~70–105 questions) and evaluates on the scored val / human questions; it is skipped automatically until the caches exist.
+`train21.py --balance --fsets cheap+mmarco,cheap+bge,all`: the ranker sees the doc-level mMARCO / bge score of
+the convex top-20 (max, min-max within the question, log rank, missing flag) next to the cheap features, and is
+trained / evaluated only on questions whose top-20 was scored: **B train 68 / val 82**, **C train 106 / val
+94**, human 40 / 64. Full tables and every paired test: `runs/part3_<corpus>__bal.md`.
+
+| corpus | features | method | mined val (scored) | vs convex05 (val) | vs convex05+bge@20 (val) | human all | human val | vs round-1 bar (human all) | vs exp-14 oof (human) | vs exp-14 cheap oof |
+|---|---|---|--:|:--|:--|--:|--:|:--|:--|:--|
+| B | cheap+bge (57) | logreg C=0.1 | 0.525 | | | **0.511** | 0.490 | −0.011 [−0.135, +0.100], p 0.86, 11/13/16 | −0.097, p 0.14 | +0.020, p 0.65 |
+| B | cheap+bge | lgbm-tiny | 0.550 | +0.056, p 0.08, 24/17/41 | +0.038, p 0.14, 23/17/42 | 0.472 | 0.396 | −0.050, p 0.39, 13/15/12 | **−0.135**, p 0.03 | −0.019, p 0.60 |
+| B | all (mmarco + bge) | lgbm-tiny | **0.560** | **+0.066**, p 0.045, 23/16/43 | **+0.048**, p 0.04, 22/15/45 | 0.482 | 0.395 | −0.040, p 0.50, 13/15/12 | **−0.126**, p 0.04 | −0.009, p 0.78 |
+| B | cheap+mmarco | lgbm-tiny | 0.571 | | | 0.414 | 0.300 | −0.108, p 0.09 | −0.193, p 0.003 | −0.077, p 0.08 |
+| C | cheap+bge (64) | lgbm-tiny | 0.708 | **+0.036**, p 0.003, 15/1/78 | **+0.167**, p < 0.001, 32/3/59 | **0.680** | 0.623 | −0.016 [−0.082, +0.046], p 0.62, 13/15/36 | −0.042, p 0.24, 10/18/36 | **+0.077**, p 0.03, 18/13/33 |
+| C | all | lgbm-tiny | 0.710 | **+0.038**, p 0.01, 15/2/77 | **+0.169**, p < 0.001, 32/4/58 | 0.679 | 0.621 | −0.018, p 0.59 | −0.044, p 0.23 | **+0.075**, p 0.04 |
+| C | cheap+mmarco | lgbm-tiny | 0.705 | | | 0.664 | 0.598 | −0.032, p 0.36 | −0.058, p 0.09 | +0.061, p 0.07 |
+| C | cheap+bge | logreg C=0.03 | 0.711 | | | 0.625 | 0.581 | | | |
+
+Reference: human all / val — B bar 0.522 / 0.570, convex05+bge@20 0.495 / 0.468; C bar 0.696 / 0.665,
+convex05+bge@20 0.695 / 0.649, exp-17 lex13+bge@20 0.719.
+
+* **On the scored mined questions the bge-feature tree beats the bge reranker used as a reranker** —
+  C +0.167 (32/3/59), B +0.048 (22/15/45) — because it keeps the first-stage evidence that the
+  reranker-score-only recipe throws away (Section 3.4). It also beats its own first stage on both corpora
+  (C +0.036, 15/1/78; B +0.066, p 0.045).
+* **On the human sets it lands on the round-1 bars, not above them**: C 0.680 vs 0.696 (−0.016, 13/15/36),
+  B 0.472–0.511 vs 0.522 (−0.011 to −0.050, 11–13 wins / 13–15 losses). Against the exp-14 oof runs that were
+  fitted on the human questions' other half it is −0.04 (C, p 0.24) and −0.13 (B, p 0.03); against exp-14's
+  cheap-feature ranker it is **+0.077 on C (p 0.03)** and level on B. With 68 / 106 training questions the
+  B trees are fragile (swapped fold 0.447–0.466 vs val 0.550–0.571, half-fit sd 0.009–0.019) and the B logreg
+  with bge is the better human-set model (0.511); more scored questions, not more features, is the lever.
+* mMARCO as a feature is harmless in the trees (gain share 0.11 on C) and harmful in the B logreg (0.328 on
+  human): the trees learn to ignore it where it misleads, the linear model cannot.
 
 ## 6. Which round-2 claims survive, and the recommended stack
 
-| claim | verdict on the mined sets |
+| claim | verdict on the mined sets (n = 150–697, paired, max-T) |
 |---|---|
-| exp-13 lexical upgrades (C val 0.536 → 0.616; B +0.02) | **confirmed**: B +0.048 (n=304, max-T p<0.001; rulings +0.10), C +0.007–0.014 (verbatim slices, max-T 0.02 on val), human C +0.083 (p=0.015); nil on PQ paraphrases |
-| exp-14 "fixed convex 0.5 ≈ RRF60 ≈ tuned" | convex 0.5 ties BM25 on C and is +0.018 on B (undecidable); **RRF60 refuted on C** (−0.032, max-T <0.001) |
-| "keep the dense leg" (exp 17, round-2 amendment) | undecidable: e5 alone is −0.054 on mined B (max-T 0.03) but +0.10 on human B; fusion with it is a wash as a first stage |
-| exp-14 learned ranker beats the bars (oof B 0.608 / C 0.723) | **not reproduced without cross-encoder features**: a mined-trained lgbm-tiny is −0.095 (B) / −0.025 (C) vs the round-1 bars on the human sets (both p>0.15, undecidable) and −0.180 / −0.052 vs those exp-14 oof runs; vs exp-14's own cheap-feature logreg it is −0.064 (B) / **+0.068 (C, p=0.036)** |
-| learned ranker vs its first stage | **confirmed on mined val at p<0.001** (B +0.086, C +0.039 vs convex 0.5; +0.059 / +0.034 vs exp-13 lexical), +0.03–0.05 on human (p 0.07–0.5) |
-| reranker claims (exp 17 lex13→bge@20 val 0.688; mMARCO vs bge) | pending Part 2 |
+| exp-13 lexical upgrades (C val 0.536 → 0.616; B +0.02) | **confirmed**: B +0.048 (n 304, max-T p < 0.001; rulings +0.10), C +0.007–0.014 (verbatim slices, max-T 0.02 on val), human C +0.083 (p 0.015); nil on PQ paraphrases |
+| exp-14 "fixed convex 0.5 ≈ RRF60 ≈ tuned weights" | convex 0.5 ties BM25 on C and is +0.018 on B (undecidable); **RRF60 refuted on C** (−0.032, max-T < 0.001) |
+| "keep the dense leg" (exp 17, round-2 amendment) | undecidable: e5 alone is −0.054 on mined B (max-T 0.03) but +0.10 on human B; fused it is a wash as a first stage |
+| exp-14 "mMARCO essential on B (0.416 → 0.548)" | **refuted on mined B** (−0.183, 17/64/69, max-T < 0.001; −0.35 on rulings) and on C (−0.169); +0.07 (p 0.14) on human B only |
+| round-1 bars "bge-reranker@30 is the largest measured gain" | **confirmed on the human sets** (B +0.101, p 0.035; C +0.073, p 0.035 — first p-values for the reranker) and on short questions; **refuted on long / verbatim ruling questions** (C −0.236, 7/48/53; B rulings +0.024 n.s.) |
+| exp-17 "lexical → bge@20 ≥ fusion → bge@20, val +0.023" | **tie** (+0.002, 26/17/157 on 200 questions): behind bge the first stage does not matter |
+| exp-14 learned ranker beats the bars (oof B 0.608 / C 0.723) | **not reproduced**: mined-trained rankers with the same feature families are −0.04 to −0.13 vs those oof runs and −0.02 to −0.05 vs the round-1 bars on the human sets (all undecidable except B, p 0.03–0.04); vs exp-14's cheap ranker +0.07 on C (p 0.03), level on B |
+| learned ranker beats its first stage | **confirmed on mined val at p < 0.001** (cheap: B +0.086, C +0.039 vs convex 0.5); with the bge score it also beats convex→bge@20 (C +0.167, B +0.048) |
 
-Recommended stack (first stage, from what is measured here): exp-13 lexical leg (BM25F title / article field, number normalisation) as the lexical leg; convex 0.5 with e5-small rather than RRF; a LightGBM-tiny ranker over the six leg scores (+ title overlap, doc length, yearly-edition flag) trained on mined labels for statute / ruling lookups, but with the document-type prior taken from human or pooled labels, not from the mined set (the mined-trained logreg collapses to 0.44 on human C because it learns "answers are code articles"); the bge reranker stays the quality ceiling on paraphrased questions until Part 2 says otherwise on 150 / 200 questions.
+**Recommended stack.** (1) Lexical leg = exp-13 configuration; dense leg = e5-small fused by convex 0.5 (not
+RRF). (2) bge-reranker-v2-m3 on the top-20 **only through a learned ranker that keeps the first-stage scores**
+(LightGBM tiny over the six leg scores, title overlap, document length, yearly-edition flag and the bge doc
+score), never as a score replacement: as a replacement it is +0.07–0.10 on paraphrased questions and −0.12 to
+−0.24 on long / verbatim ones, and mMARCO is dropped altogether. (3) Train that ranker on the mined labels for
+the leg-weighting, but take the document-type prior from human or pooled labels (the mined-trained linear
+ranker learns "answers are code articles" and falls to 0.44 on human C; trees are less exposed). (4) Gate the
+reranker by query length / verbatim-ness at query time until (2) is in place: a query longer than ≈ 300
+characters that already has a rank-1 lexical hit with a rare-token match should not be reranked. (5) Keep the
+PQ → statute slice as a diagnostic only; nothing in this experiment moves it (0.05–0.06), and its next step is
+pooled judging (idea 80), not another first stage.
+
+Detectability: with 150–345 paired questions the minimum detectable Δ MRR was 0.03–0.06 (sd_d 0.15–0.35),
+and every claim above that mattered was decided at max-T p < 0.05 in one direction or the other; the human
+sets remain the only IPP-balanced test and stay undecidable below Δ ≈ 0.10.

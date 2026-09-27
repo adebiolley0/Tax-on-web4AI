@@ -2,9 +2,10 @@
  "name": "human__convex05",
  "corpus": "C",
  "config": {
-  "system": "fixed convex 0.5 (e5 + chunk BM25, min-max)",
-  "stage": "first stage",
-  "questions": "human"
+  "system": "fixed convex 0.5 first stage (no reranker)",
+  "depth": 20,
+  "questions": "human",
+  "part": 2
  },
  "metrics": {
   "mrr": 0.6215,
@@ -1011,9 +1012,9 @@
  },
  "timing": {},
  "provenance": {
-  "git": "6241a490",
+  "git": "78e93e9a",
   "git_dirty": true,
-  "utc": "2026-09-26T19:03:18Z",
+  "utc": "2026-09-27T00:35:36Z",
   "host": "vm",
   "harness": "0.2.0",
   "python": "3.12.3",
@@ -1025,6 +1026,6 @@
   "corpus_ids_sha256": "e3f088150641cf89fbabf64edf20d2e52fe7fef5bbd4224c1e6728962b1fa08e",
   "corpus_fingerprint_source": "disk",
   "omp_threads": "1",
-  "argv": "../21_mined_eval/eval_stage1.py --corpus C"
+  "argv": "../21_mined_eval/eval_rerank.py --corpus C"
  }
 }

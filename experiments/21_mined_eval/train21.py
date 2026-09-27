@@ -182,8 +182,9 @@ def main():
             hm = np.zeros(nq, dtype=bool); hm[pick] = True
             mdl, cols, names = fit_model("logreg", fset, hm, bestC)
             half_mrr.append(mrr_of(rank_all(mdl, cols, m_va), m_va))
-            signs.append(np.sign(mdl.m.coef_[0]))
-        sign_agree = float(np.mean(np.abs(np.mean(signs, axis=0)) == 1.0)) if signs else 0.0
+            signs.append(dict(zip(names, np.sign(mdl.m.coef_[0]))))
+        common = set.intersection(*[set(d) for d in signs]) if signs else set()
+        sign_agree = float(np.mean([abs(np.mean([d[n] for d in signs])) == 1.0 for n in common])) if common else 0.0
         stable = float(np.std(half_mrr)) <= 0.02
         print(f"  half-fit val MRR: mean {np.mean(half_mrr):.3f} sd {np.std(half_mrr):.3f} (range {min(half_mrr):.3f}–{max(half_mrr):.3f}); "
               f"coefficient sign agreement {sign_agree:.2f} → {'stable' if stable else 'unstable'}", flush=True)

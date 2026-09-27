@@ -84,7 +84,8 @@ def main():
     if not rer:
         print("no reranker scores cached yet"); return
     common_sub = [q for q in sub if all(q.qid in systems[n] for n in rer)]
-    common_human = [q for q in human if all(q.qid in systems[n] for n in rer)]
+    rer_h = [n for n in rer if n.startswith("convex05+")]          # lexical candidates are scored on the subsample only
+    common_human = [q for q in human if rer_h and all(q.qid in systems[n] for n in rer_h)]
     print(f"corpus {a.corpus}: subsample {len(sub)} → {len(common_sub)} with all {len(rer)} reranked systems scored; "
           f"human {len(human)} → {len(common_human)}", flush=True)
     coverage = {n: {"sub": sum(q.qid in systems[n] for q in sub), "human": sum(q.qid in systems[n] for q in human)} for n in systems}
@@ -129,6 +130,8 @@ def main():
         qids = [q.qid for q in qs]
         tests[sl] = {}
         for base, n in pairs:
+            if sl not in saved[base] or sl not in saved[n]:
+                continue
             ra, rb = saved[base][sl], saved[n][sl]
             tests[sl][f"{n} vs {base}"] = paired(ra, rb, qids)
         if sl == "sub":
