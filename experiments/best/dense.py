@@ -93,24 +93,30 @@ def chunk_embeddings(uni: Universe, build: bool = False, encoder: "E5Encoder | N
 
 
 class DenseLeg:
-    def __init__(self, uni: Universe, cache_only: bool = False, threads: int = 4):
-        self.uni = uni
+    def __init__(self, uni: Universe, cache_only: bool = False, threads: int = 4, use_cache: bool = True):
+        self.uni, self.use_cache = uni, use_cache
         self.emb = chunk_embeddings(uni)
         self.qcache = QueryVectorCache()
         self.cache_only = cache_only
         self.threads = threads
         self._enc: E5Encoder | None = None
 
+    def warm(self) -> None:
+        if self._enc is None:
+            self._enc = E5Encoder(self.threads)
+        self._enc.queries(["échauffement"])
+
     def query_vector(self, question: str) -> np.ndarray:
-        v = self.qcache.get(question)
+        v = self.qcache.get(question) if self.use_cache else None
         if v is None:
             if self.cache_only:
                 raise KeyError(f"e5 query vector not cached for: {question[:60]}…")
             if self._enc is None:
                 self._enc = E5Encoder(self.threads)
             v = self._enc.queries([question])[0]
-            self.qcache.put(question, v)
-            self.qcache.save()
+            if self.use_cache:
+                self.qcache.put(question, v)
+                self.qcache.save()
         return v
 
     def chunk_scores(self, question: str) -> np.ndarray:

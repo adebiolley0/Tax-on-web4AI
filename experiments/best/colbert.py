@@ -19,6 +19,7 @@ from pathlib import Path
 
 import numpy as np
 
+from budget import NO_DEADLINE, Deadline
 from config import CACHE, COLBERT_ID, COLBERT_QUERY_LENGTH, INDEX, qkey
 from corpus import Universe
 from fusion import doc_max
@@ -62,12 +63,14 @@ def _pad_stack(embs, torch):
     return out, mask
 
 
-def maxsim(q_embs: list[np.ndarray], d_embs: list[np.ndarray], doc_batch: int = 128) -> np.ndarray:
-    """(nq, n_docs) MaxSim: Σ over query tokens of max over doc tokens of q·d (padding masked)."""
+def maxsim(q_embs: list[np.ndarray], d_embs: list[np.ndarray], doc_batch: int = 128, deadline: Deadline = NO_DEADLINE) -> np.ndarray:
+    """(nq, n_docs) MaxSim: Σ over query tokens of max over doc tokens of q·d (padding masked); rate-checked per
+    document block under an active deadline."""
     import torch
     Q, qmask = _pad_stack(q_embs, torch)
     nq, n = Q.shape[0], len(d_embs)
     out = torch.zeros((nq, n), dtype=torch.float32)
+    t0 = time.perf_counter()
     with torch.inference_mode():
         for s in range(0, n, doc_batch):
             Db, mb = _pad_stack(d_embs[s:s + doc_batch], torch)
@@ -75,6 +78,8 @@ def maxsim(q_embs: list[np.ndarray], d_embs: list[np.ndarray], doc_batch: int = 
             sim = sim.masked_fill(~mb[None, :, None, :], -1e4)
             best = sim.amax(dim=-1) * qmask[:, None, :]
             out[:, s:s + doc_batch] = best.sum(-1)
+            if deadline.active:
+                deadline.check_rate("colbert MaxSim", min(s + doc_batch, n), n, t0)
     return out.numpy()
 
 
@@ -117,12 +122,13 @@ class ColbertIndex:
             self._m, _ = load_model(self.threads)
         return encode(self._m, questions, True, 16)
 
-    def scores(self, questions: list[str], qblock: int = 32) -> np.ndarray:
+    def scores(self, questions: list[str], qblock: int = 32, deadline: Deadline = NO_DEADLINE) -> np.ndarray:
         """(nq, n_chunks) MaxSim scores, brute force."""
         q_embs = self.encode_queries(questions)
+        deadline.check("colbert query encoding")
         out = np.zeros((len(questions), self.uni.n_chunks), dtype=np.float32)
         for s in range(0, len(questions), qblock):
-            out[s:s + qblock] = maxsim(q_embs[s:s + qblock], self.d_embs)
+            out[s:s + qblock] = maxsim(q_embs[s:s + qblock], self.d_embs, deadline=deadline)
         return out
 
 
@@ -158,8 +164,8 @@ class ColbertScoreCache:
 
 
 class ColbertLeg:
-    def __init__(self, uni: Universe, cache_only: bool = False, threads: int = 4):
-        self.uni, self.cache_only, self.threads = uni, cache_only, threads
+    def __init__(self, uni: Universe, cache_only: bool = False, threads: int = 4, use_cache: bool = True):
+        self.uni, self.cache_only, self.threads, self.use_cache = uni, cache_only, threads, use_cache
         self.cache = ColbertScoreCache(uni)
         self._index: ColbertIndex | None = None
 
@@ -169,14 +175,19 @@ class ColbertLeg:
             self._index = ColbertIndex(ColbertIndex.path(self.uni.corpus), self.uni, self.threads)
         return self._index
 
-    def chunk_scores(self, question: str) -> np.ndarray:
-        row = self.cache.get(question)
+    def warm(self) -> None:
+        """Load the model and page the token index in with one full scoring (untimed start-up of a live process)."""
+        self.index.scores(["échauffement"])
+
+    def chunk_scores(self, question: str, deadline: Deadline = NO_DEADLINE) -> np.ndarray:
+        row = self.cache.get(question) if self.use_cache else None
         if row is None:
             if self.cache_only:
                 raise KeyError(f"ColBERT scores not cached for: {question[:60]}…")
-            row = self.index.scores([question])[0]
-            self.cache.put(question, row)
-            self.cache.save()
+            row = self.index.scores([question], deadline=deadline)[0]
+            if self.use_cache:
+                self.cache.put(question, row)
+                self.cache.save()
         return row
 
     def doc_scores(self, chunk_scores: np.ndarray) -> np.ndarray:

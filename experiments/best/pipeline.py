@@ -10,7 +10,10 @@
 * :func:`retrieve_a` – the 91-document validation corpus: whole-document BM25 (exp 01, val 0.736).
 
 Every function returns a :class:`Result` with ranked document ids, scores and the passages that produced them.
-Models are loaded lazily and only when a cache miss needs them (``cache_only=True`` forbids that: evaluation mode).
+Models are loaded lazily and only when a cache miss needs them (``cache_only=True`` forbids that: evaluation mode;
+``live=True`` bypasses the score caches so every stage runs for real, and ``warm()`` pays the start-up costs).
+``retrieve`` enforces the per-query latency budget (config.LATENCY_BUDGET_S, budget.py) and raises
+:class:`budget.BudgetExceeded` instead of returning a late answer; ``budget_s=None`` disables it (cache filling).
 """
 from __future__ import annotations
 
@@ -19,8 +22,9 @@ from dataclasses import dataclass, field
 
 import numpy as np
 
+from budget import Deadline
 from config import (A_TOP, B_TOP, B_WEIGHTS_LONG, B_WEIGHTS_SHORT, C_BGE_DEPTH, C_LEX_TOP_UNITS, C_TOP, CHUNK_CAP, INDEX,
-                    MMARCO_BETA, MMARCO_DEPTH)
+                    LATENCY_BUDGET_S, MMARCO_BETA, MMARCO_DEPTH)
 from corpus import Universe, lexical_units_b, universe_b, universe_c
 from fusion import fuse_z, interpolate, top_k, zscore
 from gate import SHORT, route
@@ -68,7 +72,7 @@ def _lex_path(corpus: str):
 
 # ── corpus B ─────────────────────────────────────────────────────────────────────────────────────────────────
 class RetrieverB:
-    def __init__(self, cache_only: bool = False, reception: str = "full", threads: int = 4):
+    def __init__(self, cache_only: bool = False, reception: str = "full", threads: int = 4, live: bool = False):
         from colbert import ColbertLeg
         from dense import DenseLeg
         from reception import load_reception
@@ -78,11 +82,21 @@ class RetrieverB:
         units = lexical_units_b()
         self.reception_variant = reception
         self.lex = LexicalIndex.load(_lex_path("B"), load_reception(exclude_mined=(reception == "nomined")), unit_texts=units.unit_texts)
-        self.dense = DenseLeg(self.uni, cache_only, threads)
-        self.colbert = ColbertLeg(self.uni, cache_only, threads)
-        self.mmarco = Reranker("mmarco", self.uni, cache_only, threads)
+        self.dense = DenseLeg(self.uni, cache_only, threads, use_cache=not live)
+        self.colbert = ColbertLeg(self.uni, cache_only, threads, use_cache=not live)
+        self.mmarco = Reranker("mmarco", self.uni, cache_only, threads, use_cache=not live)
         self.title = {d.doc_id: d.title for d in self.uni.docs}
         self.load_s = time.perf_counter() - t0
+
+    def warm(self) -> float:
+        """Load every model and page the indexes in (a serving process pays this once); returns seconds."""
+        t0 = time.perf_counter()
+        self.dense.warm(); self.colbert.warm(); self.mmarco.warm()
+        return time.perf_counter() - t0
+
+    @staticmethod
+    def route_of(question: str) -> str:
+        return route(question)
 
     def set_reception(self, reception: str) -> None:
         """'full' (production) or 'nomined' (leak-free, for the mined evaluation sets)."""
@@ -91,18 +105,21 @@ class RetrieverB:
             self.lex.set_reception(load_reception(exclude_mined=(reception == "nomined")))
             self.reception_variant = reception
 
-    def retrieve(self, question: str, k: int = 10, passages: bool = True) -> Result:
+    def retrieve(self, question: str, k: int = 10, passages: bool = True, budget_s: float | None = LATENCY_BUDGET_S) -> Result:
         t = {}
-        t0 = time.perf_counter()
+        dl = Deadline(budget_s)
+        t0 = dl.t0
         uni, cd, ds = self.uni, self.uni.chunk_doc, self.uni.doc_start
         rec = self.lex.doc_scores(question)
         t["rec_ms"] = round((time.perf_counter() - t0) * 1000, 1); t1 = time.perf_counter()
+        dl.check("reception BM25F")
         e5c = self.dense.chunk_scores(question)
         e5d = self.dense.doc_scores(e5c)
         t["e5_ms"] = round((time.perf_counter() - t1) * 1000, 1); t1 = time.perf_counter()
+        dl.check("e5")
         r = route(question)
         if r == SHORT:
-            cbc = self.colbert.chunk_scores(question)
+            cbc = self.colbert.chunk_scores(question, dl)
             fused = fuse_z({"rec": rec, "colbert": self.colbert.doc_scores(cbc), "e5": e5d}, B_WEIGHTS_SHORT)
             t["colbert_ms"] = round((time.perf_counter() - t1) * 1000, 1); t1 = time.perf_counter()
             chunk_evidence = zscore(cbc) + zscore(e5c)          # best chunks of an article by dense evidence
@@ -120,7 +137,7 @@ class RetrieverB:
             cands = [int(d) for d in order[:MMARCO_DEPTH]]
             s1 = fused[cands]
             flat = [c for d in cands for c in best_chunks[d]]
-            sc = self.mmarco.score(question, flat)
+            sc = self.mmarco.score(question, flat, dl)
             per_doc, pos = {}, 0
             for d in cands:
                 n = len(best_chunks[d])
@@ -144,6 +161,7 @@ class RetrieverB:
                             [Passage(c, uni.chunks[c].chunk_id, uni.chunks[c].text)] if passages else []))
         for i, h in enumerate(hits):
             h.rank = i + 1
+        dl.check("B ranking")
         t["total_ms"] = round((time.perf_counter() - t0) * 1000, 1)
         return Result("B", question, route_name, hits[:k], t)
 
@@ -153,26 +171,33 @@ class RetrieverB:
 
 # ── corpus C ─────────────────────────────────────────────────────────────────────────────────────────────────
 class RetrieverC:
-    def __init__(self, cache_only: bool = False, threads: int = 4):
+    def __init__(self, cache_only: bool = False, threads: int = 4, live: bool = False):
         from rerank import Reranker
         t0 = time.perf_counter()
         self.uni: Universe = universe_c()
         self.lex = LexicalIndex.load(_lex_path("C"), unit_texts=self.uni.texts)
         assert self.lex.store.n == self.uni.n_chunks, "lexical units must be the universe chunks (unit index == chunk index)"
-        self.bge = Reranker("bge", self.uni, cache_only, threads)
+        self.bge = Reranker("bge", self.uni, cache_only, threads, use_cache=not live)
         self.title = {d.doc_id: d.title for d in self.uni.docs}
         self.load_s = time.perf_counter() - t0
 
-    def retrieve(self, question: str, k: int = 10, passages: bool = True) -> Result:
-        t = {}
+    def warm(self) -> float:
         t0 = time.perf_counter()
+        self.bge.warm()
+        return time.perf_counter() - t0
+
+    def retrieve(self, question: str, k: int = 10, passages: bool = True, budget_s: float | None = LATENCY_BUDGET_S) -> Result:
+        t = {}
+        dl = Deadline(budget_s)
+        t0 = dl.t0
         uni = self.uni
         us = self.lex.unit_scores(question)
         units, lex = self.lex.top_units(us, C_LEX_TOP_UNITS)
         tail = self.lex.doc_ranking(us, C_TOP)
         t["lexical_ms"] = round((time.perf_counter() - t0) * 1000, 1); t1 = time.perf_counter()
+        dl.check("lexical")
         cand = [int(u) for u in units[:C_BGE_DEPTH]]
-        rr = self.bge.score(question, cand) if cand else np.zeros(0)
+        rr = self.bge.score(question, cand, dl) if cand else np.zeros(0)
         t["bge_ms"] = round((time.perf_counter() - t1) * 1000, 1)
         hits: list[Hit] = []
         seen: set[str] = set()
@@ -200,6 +225,7 @@ class RetrieverC:
                             [Passage(u, uni.chunks[u].chunk_id, uni.chunks[u].text)] if (passages and u is not None) else []))
         for i, h in enumerate(hits):
             h.rank = i + 1
+        dl.check("C ranking")
         t["total_ms"] = round((time.perf_counter() - t0) * 1000, 1)
         return Result("C", question, "lexical → bge@20", hits[:k], t)
 
@@ -218,13 +244,18 @@ class RetrieverA:
         from corpus import load_a
         self.title = {d.doc_id: d.title for d in load_a()}
 
-    def retrieve(self, question: str, k: int = 10, passages: bool = True) -> Result:
-        t0 = time.perf_counter()
+    def warm(self) -> float:
+        return 0.0
+
+    def retrieve(self, question: str, k: int = 10, passages: bool = True, budget_s: float | None = LATENCY_BUDGET_S) -> Result:
+        dl = Deadline(budget_s)
+        t0 = dl.t0
         us = self.lex.unit_scores(question)
         ranked = self.lex.doc_ranking(us, A_TOP)
         di = {d: i for i, d in enumerate(self.lex.doc_ids)}
         hits = [Hit(d, i + 1, float(us[di[d]]), False, self.title.get(d, ""), float(us[di[d]]),
                     [Passage(di[d], f"{d}#0", self.lex.unit_texts[di[d]][:self.passage_chars])] if passages else []) for i, d in enumerate(ranked)]
+        dl.check("A ranking")
         return Result("A", question, "whole-document BM25", hits[:k], {"total_ms": round((time.perf_counter() - t0) * 1000, 1)})
 
     def rank(self, question: str, top: int = A_TOP) -> list[str]:
@@ -235,22 +266,22 @@ class RetrieverA:
 _R: dict[str, object] = {}
 
 
-def retrieve_b(question: str, k: int = 10, **kw) -> Result:
+def retrieve_b(question: str, k: int = 10, budget_s: float | None = LATENCY_BUDGET_S, **kw) -> Result:
     if "B" not in _R:
         _R["B"] = RetrieverB(**kw)
-    return _R["B"].retrieve(question, k)
+    return _R["B"].retrieve(question, k, budget_s=budget_s)
 
 
-def retrieve_c(question: str, k: int = 10, **kw) -> Result:
+def retrieve_c(question: str, k: int = 10, budget_s: float | None = LATENCY_BUDGET_S, **kw) -> Result:
     if "C" not in _R:
         _R["C"] = RetrieverC(**kw)
-    return _R["C"].retrieve(question, k)
+    return _R["C"].retrieve(question, k, budget_s=budget_s)
 
 
-def retrieve_a(question: str, k: int = 10, **kw) -> Result:
+def retrieve_a(question: str, k: int = 10, budget_s: float | None = LATENCY_BUDGET_S, **kw) -> Result:
     if "A" not in _R:
         _R["A"] = RetrieverA(**kw)
-    return _R["A"].retrieve(question, k)
+    return _R["A"].retrieve(question, k, budget_s=budget_s)
 
 
 if __name__ == "__main__":
@@ -260,9 +291,10 @@ if __name__ == "__main__":
     ap.add_argument("question")
     ap.add_argument("-k", type=int, default=5)
     ap.add_argument("--cache-only", action="store_true")
+    ap.add_argument("--budget-s", type=float, default=LATENCY_BUDGET_S, help="per-query latency budget (0 = none)")
     a = ap.parse_args()
     kw = {"cache_only": a.cache_only} if a.corpus != "A" else {}
-    res = {"A": retrieve_a, "B": retrieve_b, "C": retrieve_c}[a.corpus](a.question, a.k, **kw)
+    res = {"A": retrieve_a, "B": retrieve_b, "C": retrieve_c}[a.corpus](a.question, a.k, budget_s=a.budget_s or None, **kw)
     print(f"[{res.corpus}] {res.route} | {res.timing}")
     for h in res.hits:
         print(f"{h.rank:3d} {h.score:8.3f} {'R' if h.reranked else ' '} {h.doc_id}  {h.title[:70]}")

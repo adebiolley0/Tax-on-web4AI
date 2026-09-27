@@ -68,6 +68,10 @@ C_BGE_DEPTH = 20
 C_TOP = 50
 A_TOP = 50
 
+# ── latency (hard requirement: a retrieval above the budget is a failure; budget.py, evaluate.py --live) ────
+LATENCY_BUDGET_S = 5.0                                               # per query, models loaded, 4 CPU threads
+LIVE_BATCH = {"mmarco": 8, "bge": 2}                                 # cross-encoder mini-batch under a deadline (≈ 1 s each here)
+
 
 def qkey(question: str) -> str:
     """Cache key of a question: sha1 of its stripped text (caches are keyed by text, not by question id)."""

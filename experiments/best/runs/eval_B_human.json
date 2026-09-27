@@ -47,8 +47,39 @@
  },
  "timing": {
   "eval_s": 0.2,
-  "ms_per_query_cached": 5.3,
-  "note": "cross-encoder / ColBERT scores from cache; live cost in README"
+  "latency": {
+   "mode": "cached",
+   "budget_s": null,
+   "n_timed": 40,
+   "n_over_budget": 0,
+   "all": {
+    "n": 40,
+    "mean_ms": 5.2,
+    "p50_ms": 5.0,
+    "p95_ms": 6.2,
+    "max_ms": 7.7
+   },
+   "by_route": {
+    "long": {
+     "n": 5,
+     "mean_ms": 4.6,
+     "p50_ms": 4.6,
+     "p95_ms": 4.7,
+     "max_ms": 4.7,
+     "n_over_budget": 0
+    },
+    "short": {
+     "n": 35,
+     "mean_ms": 5.3,
+     "p50_ms": 5.1,
+     "p95_ms": 6.5,
+     "max_ms": 7.7,
+     "n_over_budget": 0
+    }
+   },
+   "over_budget": [],
+   "verdict": "n/a (cached scores; run --live)"
+  }
  },
  "routes": {
   "short: rec+colbert+e5 → mMARCO@30 β0.8": 35,

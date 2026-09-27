@@ -47,8 +47,31 @@
  },
  "timing": {
   "eval_s": 0.0,
-  "ms_per_query_cached": 0.3,
-  "note": "cross-encoder / ColBERT scores from cache; live cost in README"
+  "latency": {
+   "mode": "cached",
+   "budget_s": null,
+   "n_timed": 29,
+   "n_over_budget": 0,
+   "all": {
+    "n": 29,
+    "mean_ms": 0.4,
+    "p50_ms": 0.4,
+    "p95_ms": 0.6,
+    "max_ms": 0.7
+   },
+   "by_route": {
+    "-": {
+     "n": 29,
+     "mean_ms": 0.4,
+     "p50_ms": 0.4,
+     "p95_ms": 0.6,
+     "max_ms": 0.7,
+     "n_over_budget": 0
+    }
+   },
+   "over_budget": [],
+   "verdict": "n/a (cached scores; run --live)"
+  }
  },
  "routes": {
   "whole-document BM25": 29
