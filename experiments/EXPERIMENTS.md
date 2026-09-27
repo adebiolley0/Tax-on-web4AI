@@ -112,6 +112,8 @@ numbers as before):
 | reception + e5 convex 0.5 → mMARCO @30 (exp 20) | 0.575 / – | – | – | – |
 | canonical-work hybrid, top-20 fused chunks → bge @20 (exp 19) | – | – | 0.648 / 0.687 | – |
 | reception + colbert-fr + e5, equal z-score weights (exp 22): first stage | 0.545 / 0.638 (R@30 0.938) | 0.494 (rec+e5 0.534 better; long queries) | – | – |
+| convex 0.5 → bge @20 (round-1 recipe, exp 21 re-judged) | +0.101 vs fusion (p 0.035) | +0.043 (p 0.07) | +0.073 vs fusion (p 0.035) | −0.124 (p < 0.001; long verbatim queries) |
+| convex 0.5 → mMARCO @20 (exp 21) | +0.07 (p 0.14) | −0.183 (p < 0.001) | ±0 | −0.169 (p < 0.001) |
 | … → mMARCO @30, β 0.8 (exp 22): **first p < 0.05 win on a human set** (+0.092 all, 19/2/19, p 0.012) | **0.613 / 0.614** | mMARCO destructive on long queries (0.213) | – | – |
 | length-gated B pipeline (exp 22): mMARCO β 0.8 if ≤ 25 words else reception + e5 un-reranked | **0.613 / 0.628** (+0.106 all, p 0.011) | **0.534** (+0.311 vs bar recipe, p < 0.001) | – | – |
 | LightGBM-tiny ranker on mined labels (exp 21), mined-val / human held-out | 0.427 (human) | +0.086 vs fusion, p < 0.001 | 0.671 (human) | +0.039 vs fusion, p < 0.001 |
@@ -326,8 +328,7 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   (34/35 ranks identical) and hurts the mined ruling slice (twin rulings, p < 0.001): keep it as an answer
   object and a source of training pairs, not as a fusion leg. Side result at n = 304/697: convex 0.5 beats
   RRF60 (C −0.044 for RRF, p < 0.001).
-* **Re-judging round 2 on the mined sets (`21_mined_eval`, parts 1 and 3; part 2 = rerankers on a
-  stratified subsample, pending).** With 304 / 697 questions the round-2 first-stage claims become
+* **Re-judging round 2 on the mined sets (`21_mined_eval`).** With 304 / 697 questions the round-2 first-stage claims become
   decidable: the exp-13 lexical configuration is **confirmed** (B +0.048 [+0.025, +0.073] vs exp-01 BM25,
   max-T p < 0.001; C +0.007 pooled, +0.014 on val; human C +0.083, p 0.015); e5-small alone is a measured
   loss on both mined sets (B −0.054, C −0.110); convex 0.5 ties BM25 while **RRF60 is refuted** on C
@@ -340,7 +341,18 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   coefficients +1.7 / −1.5), which is wrong for the human sets; trees on the lexical score transfer better
   than the linear model, and source re-weighting changes ≤ 0.01. Practical reading: train rankers on mined
   labels for statute / ruling lookups only, keep the document-type prior out of the learned model, and
-  treat the bge reranker as the quality ceiling on paraphrased questions.
+  treat the bge reranker as the quality ceiling on paraphrased questions. Rerankers on stratified mined
+  subsamples (B 150 / C 200): **mMARCO-MiniLM is destructive on both** (B −0.183, C −0.169, max-T
+  p < 0.001; −0.30 to −0.35 on rulings), and bge @20 is below the un-reranked stage on C (−0.124; loss
+  grows with query length, Spearman −0.28: the cross-encoder demotes a rank-1 exact-copy hit among near-twin
+  rulings) while +0.043 on B (p 0.07). On the human sets the round-1 reranker recipe gets its first
+  p-values: convex 0.5 → bge @20 is +0.101 on B (p 0.035) and +0.073 on C (p 0.035); exp 17's "lexical
+  before bge" is a tie at n = 200. A LightGBM-tiny ranker over the leg scores plus the bge document score
+  beats bge-as-reranker on the scored mined validation questions (C +0.167, B +0.048) and lands on the
+  round-1 bars on the human sets (C 0.680 vs 0.696, B 0.47–0.51 vs 0.522, n.s.). Net verdicts: exp-13
+  lexical confirmed; RRF refuted; "mMARCO essential on B" refuted on long questions; bge as *score
+  replacement* confirmed only on short paraphrased questions and refuted on long or verbatim ones; keep bge
+  inside a learned ranker that retains the first-stage scores, or gate it by query length.
 * **Reception + colbert-fr + e5 on B (`22_reception_colbert`).** A three-leg first stage with fixed
   equal z-score weights (reception-BM25F, French ColBERT, cached e5-small; weighting pre-registered on the
   mined train split) is the best corpus-B first stage measured on the human set: val 0.545 / all 0.638,
