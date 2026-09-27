@@ -23,7 +23,7 @@ from config import (A_TOP, B_TOP, B_WEIGHTS_LONG, B_WEIGHTS_SHORT, C_BGE_DEPTH, 
                     MMARCO_BETA, MMARCO_DEPTH)
 from corpus import Universe, lexical_units_b, universe_b, universe_c
 from fusion import fuse_z, interpolate, top_k, zscore
-from gate import LONG, SHORT, route
+from gate import SHORT, route
 from lexical import LexicalIndex
 
 

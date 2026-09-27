@@ -275,7 +275,9 @@ class LexicalIndex:
             b[RECEPTION["field"]] = RECEPTION["b"]
             self.reception_info = {"variant": RECEPTION["variant"], "weight": RECEPTION["weight"], "b": RECEPTION["b"],
                                    "articles": len(reception), "source": reception.get("__source__", "") if isinstance(reception, dict) else ""}
-        self.index = build_index(store, list(weights))
+        # IDF is unit frequency over ALL fields of the index (bm25s 'lucene' on the field union, as exp 13 / 17 built it):
+        # a zero-weight field (C: heading) still counts in IDF, it only drops out of the scoring sum.
+        self.index = build_index(store)
         self.M = bm25f_matrix(self.index, weights, k1=cfg["k1"], b=b)
         self.weights = weights
 

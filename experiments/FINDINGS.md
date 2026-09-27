@@ -11,7 +11,7 @@ implementation: `best/`; every deleted experiment is in git history before the c
 | corpus | pipeline | human | mined | round-1 bar |
 |---|---|---|---|---|
 | **B** statute articles | reception-BM25F + French ColBERT + e5-small, fixed equal z-score weights → if query ≤ 25 words: mMARCO @30 interpolated β 0.8, else un-reranked | **0.628** all (+0.106, 19/3/18, p 0.011); 0.613 val | **0.534** (+0.311 vs the bar recipe, p < 0.001) | 0.522 all / 0.570 val |
-| **C** Fisconet+ documents | exp-13 lexical BM25F (title ×8, k1 0.9 / b 0.4, number normalisation) → top-20 chunks → bge-reranker-v2-m3 @20 (score only, 512 tokens) | **0.733** all; 0.688 val (ties the bar: +0.023, p 0.19) | first stage 0.729 | 0.703 all / 0.665 val |
+| **C** Fisconet+ documents | exp-13 lexical BM25F (title ×8, k1 0.9 / b 0.4, number normalisation) → top-20 chunks → bge-reranker-v2-m3 @20 (score only, 512 tokens) | **0.719** all; 0.688 val (ties the bar: +0.023, p 0.19; 0.733 all with β 0.7 interpolation) | first stage 0.729 | 0.703 all / 0.665 val |
 | **A** repo docs | whole-document French-normalised BM25 | 0.736 val / 0.695 oof | – | (is the bar) |
 
 Cost on the 4-core CPU box: B ≈ 1 s (ColBERT MaxSim 0.7 s, mMARCO ≈ 9 s when the gate fires);
