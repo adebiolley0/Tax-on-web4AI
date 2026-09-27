@@ -46,8 +46,8 @@
   "val_n": 159
  },
  "timing": {
-  "eval_s": 1.4,
-  "ms_per_query_cached": 4.7,
+  "eval_s": 1.5,
+  "ms_per_query_cached": 4.8,
   "note": "cross-encoder / ColBERT scores from cache; live cost in README"
  },
  "routes": {

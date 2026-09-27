@@ -473,10 +473,11 @@ with `rag_eval.stats` on the mined sets first; a human-set delta below 0.10 is u
 ## 5. Reproducing
 
 ```bash
-cd experiments/00_pdf_parsing && uv sync && uv run python parse_pdfs.py       # corpus B
-cd ../01_bm25 && uv sync && uv run python run_bm25.py A && uv run python run_bm25.py B
-cd ../02_dense_sweep && uv sync && uv run python run_sweep.py --corpus A --models e5-base --chunkers fixed1500_title
-cd ../03_hybrid_rerank && uv sync && uv run python run_hybrid.py --corpus A --model e5-base --chunker fixed1500_title --rerankers bge-reranker-v2-m3
-cd ../09_corpus_c && uv sync && uv run python run_corpus_c.py --runs bm25_doc,bm25_chunk
-cd .. && ./run_queue.sh                                                          # everything CPU-heavy, sequentially
+cd experiments/00_pdf_parsing && uv sync && uv run python parse_pdfs.py   # corpus B articles (git-ignored)
+cd ../best && uv sync && uv run python evaluate.py --corpus all --no-save  # cache-only reproduction table
+uv run python build_indexes.py --corpus B                                   # rebuild indexes (ColBERT ≈ 40 min)
+cd ../common && uv run --with pytest pytest -q                               # harness tests
 ```
+
+`best/README.md` documents the pipelines, indexes, caches and cost per query. Every pruned experiment
+folder is restorable from commit `782375f7`.

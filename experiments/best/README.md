@@ -53,31 +53,28 @@ question's source document); production uses the full field.
 
 ## 3. Setup and running
 
-Until this folder has its own venv, run it with an existing one (round-3 rule: no new torch venv on this box):
+This folder is a standalone `uv` project (torch CPU, sentence-transformers, PyLate, bm25s, scipy, `rag_eval`
+from `../common`). The score caches and indexes live in the git-ignored `cache/` and `index/` (see §4 for how
+to rebuild them); the reproduction table above is cache-only and runs in about a minute.
 
 ```bash
-cd experiments/14_ltr_fusion                      # torch + sentence-transformers + bm25s + scipy + rag_eval  (no PyLate)
-uv run python ../best/import_caches.py            # once, while the old experiment folders still exist (26 s)
-uv run python ../best/build_indexes.py --corpus B # lexical index (4 s) [+ reception 54 s if index/B_reception.json is missing]
-uv run python ../best/build_indexes.py --corpus C # lexical index over 201k chunks (2.5 min)
-uv run python ../best/build_indexes.py --corpus A
-uv run python ../best/evaluate.py --corpus all    # cache-only; B 23 s, C 35 s, A 1 s
+cd experiments/best && uv sync
+uv run python build_indexes.py --corpus B   # lexical index (4 s) [+ reception 54 s if index/B_reception.json is missing]
+uv run python build_indexes.py --corpus C   # lexical index over 201k chunks (2.5 min)
+uv run python build_indexes.py --corpus A
+uv run python evaluate.py --corpus all      # cache-only; B 23 s, C 35 s, A 1 s
 ```
 
-Anything that has to run a model goes under the torch lock with 4 threads, and ColBERT needs PyLate
-(`../12_sparse_colbert/.venv` until `uv sync` here):
+Anything that has to run a model should be the only torch process on a small CPU box (4 threads):
 
 ```bash
-cd experiments/best
-LOCK="flock ../.torch.lock env OMP_NUM_THREADS=4 HF_HUB_OFFLINE=1"
-$LOCK ../12_sparse_colbert/.venv/bin/python pipeline.py B "Puis-je déduire les frais de garde de mes enfants ?"
-$LOCK ../14_ltr_fusion/.venv/bin/python pipeline.py C "Quel est le délai pour introduire une réclamation ?"
-$LOCK ../12_sparse_colbert/.venv/bin/python build_indexes.py --corpus B --colbert   # only if index/B_colbert is missing (38 min)
-$LOCK ../14_ltr_fusion/.venv/bin/python build_indexes.py --corpus C --encode        # only if the e5 chunk vectors left data/emb_cache (hours)
-$LOCK ../12_sparse_colbert/.venv/bin/python colbert.py --sets human,mined           # refill cache/B_colbert_scores.npz (4 min)
+RUN="env OMP_NUM_THREADS=4 HF_HUB_OFFLINE=1 uv run python"
+$RUN pipeline.py B "Puis-je déduire les frais de garde de mes enfants ?"
+$RUN pipeline.py C "Quel est le délai pour introduire une réclamation ?"
+$RUN build_indexes.py --corpus B --colbert   # only if index/B_colbert is missing (38 min)
+$RUN build_indexes.py --corpus C --encode    # only if the e5 chunk vectors left data/emb_cache (hours)
+$RUN colbert.py --sets human,mined           # refill cache/B_colbert_scores.npz (4 min)
 ```
-
-Later, as a standalone project: `cd experiments/best && uv sync && uv run python evaluate.py --corpus all`
 (`pyproject.toml`: torch CPU, sentence-transformers, PyLate, bm25s, PyStemmer, numpy, scipy, `rag_eval` from
 `../common` as a path dependency; `lightgbm` / `scikit-learn` under the optional `learned` extra). Models are read from
 the HF cache (`HF_HUB_OFFLINE=1` works).
