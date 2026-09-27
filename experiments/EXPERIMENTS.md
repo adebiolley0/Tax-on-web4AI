@@ -368,9 +368,11 @@ LLM-free architectures. Everything runs under the round-2 protocol plus `rag_eva
   bge @20 above 50 words) because the first-stage scores stay next to a modestly weighted bge.
 * **Reception field on corpus C (`23_reception_c`).** The same idea applied to Fisconet+ documents (cited
   by circular / ruling / commentary number or by the statute articles they cite) does not transfer: on the
-  human val half −0.007 (w 0.3) to −0.060 (w 1.0) vs the exp-13 lexical stage (2 wins / 6–10 losses / 22–27
-  ties), no recall gain, reranked variant therefore not run. Documents already carry their own vocabulary
-  (titles, résumés, keywords); statute articles were the special case.
+  697 mined questions +0.030 (p < 0.001), but entirely on the PQ → statute slice (0.059 → 0.191); on the human
+  val half the train-selected point loses (0.616 → 0.519, p 0.029) because only 15 of 64 human targets have any
+  reception (36.5 % of documents do; rulings 4 %, PQs 1 %, commentaries 0.1 %) and the extra field lets covered
+  hub articles outrank uncovered targets. Reranked variant not run. Verdict: reception belongs to statute
+  articles (a per-type index or a "cited by" navigation resource), not to a single document-level index.
 * **Reception + colbert-fr + e5 on B (`22_reception_colbert`).** A three-leg first stage with fixed
   equal z-score weights (reception-BM25F, French ColBERT, cached e5-small; weighting pre-registered on the
   mined train split) is the best corpus-B first stage measured on the human set: val 0.545 / all 0.638,

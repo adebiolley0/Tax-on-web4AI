@@ -30,8 +30,9 @@ corpus (the only max-T-significant results of round 2 were these losses).
 
 **Reception field (exp 20, 22, 23).** Indexing each statute article with the sentences that cite it
 (circulars, commentary, rulings, parliamentary answers) is the one LLM-free fix for the paraphrase gap:
-+0.115 lexical on mined B (p < 0.001), recall@30 0.625 → 0.812 on human val. It does **not** transfer to
-corpus C documents (−0.007 to −0.06 on human val).
++0.115 lexical on mined B (p < 0.001), recall@30 0.625 → 0.812 on human val. On corpus C it helps only where
+targets are statute articles (mined PQ → statute slice +0.13) and hurts the document-level index (human
+val −0.10, p 0.03: 49 of 64 targets have no reception), so it stays a per-type index for statutes.
 
 **Dense and multi-vector (exp 02, 12, 21, 22).** e5-small alone is a measured loss on both mined sets;
 it earns its place only inside fusion. French ColBERT (`colbertv1-camembert`) is the best single first
