@@ -214,16 +214,7 @@ experiments/*/sync.log
 experiments/*/lancedb_data/
 experiments/*/txtai_index/
 experiments/*/storage/
-experiments/12_sparse_colbert/cache/
-experiments/12_sparse_colbert/logs/
 experiments/*/pylate_index/
-experiments/17_lex_rerank/cache/
-experiments/19_canonical_hybrid/cache/
-experiments/20_reception_intent/cache/
 experiments/18_eval_hygiene/cache/
-experiments/22_reception_colbert/cache/
-experiments/21_mined_eval/cache/
-experiments/23_reception_c/cache/
-experiments/24_pooled_ranker/cache/
 experiments/best/cache/
 experiments/best/index/

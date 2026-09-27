@@ -4,6 +4,13 @@
 per-experiment folders; the machine-readable log is `experiments/results/leaderboard.jsonl`
 (`uv run python -m rag_eval.results A|B|C` prints a leaderboard from any experiment venv).*
 
+> **Close-out (2026-09-27).** The experiment folders that produced subpar results were pruned from the tree;
+> the last commit with every folder is `782375f7` (`git checkout 782375f7 -- experiments/<folder>` restores one).
+> What remains: `FINDINGS.md` (one-page verdicts), this log, `best/` (the kept pipelines with reproduction
+> tables), `common/` (the harness + tests), `data/` (question sets), `results/leaderboard.jsonl` (every run),
+> `ideas/` (research write-ups), `00_pdf_parsing` (builds corpus B), `10_alternatives_research`,
+> `18_eval_hygiene` (statistics report). Folder links below to pruned experiments refer to that commit.
+
 ## 1. Question, constraints, method
 
 **Question.** What is the best way to build (agentic) RAG on a medium-size corpus of French legal text,

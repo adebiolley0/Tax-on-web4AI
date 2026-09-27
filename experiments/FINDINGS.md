@@ -4,7 +4,7 @@ One page of verdicts. Numbers are MRR at document level unless stated; "human" =
 hand-written questions of corpora A / B / C, "mined" = the 304 (B) / 697 (C) questions mined from
 parliamentary questions, rulings and FAQ circulars; "val" = the validation half of the deterministic
 split; p-values are paired tests from `rag_eval.stats`. Detailed log: `EXPERIMENTS.md`; the kept
-implementation: `best/`; every deleted experiment is in git history before the close-out commit.
+implementation: `best/`; every pruned experiment folder is in git history at commit `782375f7`.
 
 ## The best pipeline (what `best/` implements)
 
