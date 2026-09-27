@@ -94,6 +94,8 @@
   },
   {
     "id": "Q13",
+    "skip": true,
+    "skip_reason": "invalid ground truth: circ_1984_avantages_extralegalux is Circulaire n° 1 dd. 30.01.1984 on the VAT margin scheme for second-hand goods (art. 58 §4 Code TVA), not on benefits in kind. No document in the corpus answers this question.",
     "question": "Quels avantages non-salariaux (voiture de fonction, téléphone, etc.) suis-je obligé de déclarer?",
     "topic": "non_salary_benefits",
     "expected_docs": ["circ_1984_avantages_extralegalux"],
@@ -109,6 +111,8 @@
   },
   {
     "id": "Q15",
+    "skip": true,
+    "skip_reason": "invalid ground truth: circ_1997_revenus_divers (Ci.RH.241/467.430) is a 1.3k-char fragment of a court decision preamble with no text about revenus divers. No document in the corpus answers this question.",
     "question": "Suis-je obligé de déclarer tous les revenus divers que j'ai perçus pendant l'année?",
     "topic": "various_income_declaration",
     "expected_docs": ["circ_1997_revenus_divers"],

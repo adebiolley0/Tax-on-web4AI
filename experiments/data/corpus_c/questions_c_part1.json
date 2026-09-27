@@ -1,0 +1,428 @@
+[
+  {
+    "id": "C1",
+    "question": "Je suis pensionné, je vis en Belgique et je touche une rente AVS de Suisse. Comment cette pension est-elle imposée en Belgique ?",
+    "topic": "swiss_avs_pension_taxation",
+    "difficulty": "easy",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2025_c_9_relative_aux_pensions_avs_de_source_suisse_fc1228ae"
+    ],
+    "secondary": [],
+    "notes": "Circ. 2025/C/9 'traite du régime fiscal applicable aux pensions suisses AVS octroyées à des résidents de la Belgique' (CPDI belgo-suisse 28.08.1978), sections 'Régime conventionnel' et 'Traitement fiscal des pensions AVS'."
+  },
+  {
+    "id": "C2",
+    "question": "Quelles sont les nouvelles dépenses non admises à l'impôt des sociétés (taxe bancaire annuelle, taxe sur l'embarquement dans un aéronef) et à quel code de la déclaration ISoc faut-il les mentionner ?",
+    "topic": "isoc_new_disallowed_expenses",
+    "difficulty": "easy",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2023_c_76_relative_aux_nouvelles_depenses_non_admises_a_lisoc_et_a_li_4d71a0ee"
+    ],
+    "secondary": [
+      "circulaires/circulaire_2023_c_80_relative_a_la_deductibilite_a_titre_de_frais_professionnels_6fa737f6"
+    ],
+    "notes": "Circ. 2023/C/76: 'les taxes annuelles sur les établissements de crédit... à mentionner au code 1245 ; la taxe sur l'embarquement dans un aéronef, à mentionner au code 1246' à partir de l'ex. d'imp. 2023. 2023/C/80 traite de la déductibilité de la taxe d'embarquement à l'IPP (secondaire)."
+  },
+  {
+    "id": "C3",
+    "question": "Ma société dépose des déclarations TVA trimestrielles. À partir de quel chiffre d'affaires annuel est-elle obligée de passer à des déclarations mensuelles depuis 2026 ?",
+    "topic": "vat_return_periodicity_threshold",
+    "difficulty": "easy",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2026_c_32_relative_aux_modifications_en_matiere_de_periodicite_du_dep_ec827417"
+    ],
+    "secondary": [],
+    "notes": "Circ. 2026/C/32 (AR 17.12.2025): 'seuil de chiffre d'affaires annuel, à savoir le seuil de 2.500.000 euros pour l'ensemble de l'activité économique de l'assujetti au-delà duquel il est tenu de déposer mensuellement des déclarations périodiques'."
+  },
+  {
+    "id": "C4",
+    "question": "Je suis intermédiaire de joueurs de foot professionnels : mes commissions payées par le club sont-elles des rémunérations ou des profits, et qui doit la TVA sur mes prestations lors d'un transfert ?",
+    "topic": "football_agents_fees_taxation",
+    "difficulty": "medium",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2022_c_98_relative_aux_indemnites_attribuees_aux_footballeurs_et_aux_e33f5f68"
+    ],
+    "secondary": [],
+    "notes": "Circ. 2022/C/98 'Indemnités aux footballeurs et aux agents de football. Indemnités de courtage prises en charge' ; table des matières : 'II. Impôt sur les revenus – A. Personnes physiques – 1. Agents de football', 'IV. TVA – C. L'intervention d'un agent de football dans un transfert – D. Le redevable de la TVA'."
+  },
+  {
+    "id": "C5",
+    "question": "En réglant la succession de ma tante, on a découvert un vieux compte d'épargne dont la banque dit que l'argent a été transféré à l'État car personne ne l'a réclamé. Où sont passés ces fonds et comment les héritiers peuvent-ils les récupérer ?",
+    "topic": "dormant_assets_recovery",
+    "difficulty": "medium",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2024_c_89_relative_au_transfert_des_avoirs_dormants_a_la_caisse_des_d_d5860e93"
+    ],
+    "secondary": [],
+    "notes": "Circ. 2024/C/89: 'Depuis 2008, la Caisse des Dépôts et Consignations (CDC) est responsable de la réception, de la gestion et de la restitution des avoirs dormants... comptes, contrats d'assurance et coffres dont les ayants droit n'ont pu être retrouvés' ; section 6 'Obligations dans le cadre des règlements de succession'."
+  },
+  {
+    "id": "C6",
+    "question": "Ma société belge a une filiale au Japon qui doit payer la nouvelle surtaxe japonaise finançant la défense. Cette taxe est-elle couverte par la convention fiscale avec le Japon ?",
+    "topic": "japan_defense_surtax_treaty_coverage",
+    "difficulty": "medium",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2026_c_80_relative_a_limpot_special_sur_les_societes_pour_la_defense_7413b5c2"
+    ],
+    "secondary": [],
+    "notes": "Circ. 2026/C/80: 'impôt spécial sur les sociétés pour la défense introduit par le Japon en vertu de la loi n° 69 de 2023... taux de 4 %... entre en vigueur le 1er avril 2026' ; section II 'Régime conventionnel' sur les impôts visés par la CPDI Belgique-Japon du 12.10.2016. Piège : le titre ne mentionne pas le Japon."
+  },
+  {
+    "id": "C7",
+    "question": "Je fais installer une pompe à chaleur en 2026 dans ma maison construite il y a 6 ans. Puis-je bénéficier de la TVA à 6 % et à quelles conditions ?",
+    "topic": "heat_pump_reduced_vat_2026",
+    "difficulty": "hard",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2026_c_19_relative_a_la_reintroduction_du_taux_reduit_de_tva_applicab_987e62d6"
+    ],
+    "secondary": [
+      "circulaires/circulaire_2024_c_21_relative_a_la_prolongation_du_taux_reduit_temporaire_de_tva_3e3227e9",
+      "circulaires/circulaire_2023_c_45_relative_au_taux_reduit_temporaire_de_tva_applicable_a_la_l_65884e4d"
+    ],
+    "notes": "Circ. 2026/C/19: 'réintroduction du taux réduit de TVA de 6 % applicable à la livraison avec installation de pompes à chaleur pour les bâtiments d'habitation de moins de 10 ans à partir du 01.01.2026' ; section 5 'cinq conditions de base'. Éditions antérieures (2024/C/21 prolongation, 2023/C/45) sont des quasi-doublons portant sur les périodes précédentes."
+  },
+  {
+    "id": "C8",
+    "question": "Notre société belge met une voiture de société à disposition d'un salarié qui habite aux Pays-Bas, avec une retenue sur salaire. Dans quel pays la TVA est-elle due et sur quelle base ?",
+    "topic": "cross_border_company_car_vat_place",
+    "difficulty": "hard",
+    "doc_type": "circulaires",
+    "expected": [
+      "circulaires/circulaire_2023_c_72_concernant_le_lieu_dimposition_a_la_tva_de_la_mise_a_dispos_3682dcd4",
+      "circulaires/circulaire_2024_c_85_concernant_le_lieu_dimposition_a_la_tva_de_la_mise_a_dispos_a6ef14d0"
+    ],
+    "secondary": [],
+    "notes": "Circ. 2023/C/72 'lieu d'imposition à la TVA de la mise à disposition d'un véhicule d'entreprise à un membre du personnel dans un contexte transfrontalier' ; circ. 2024/C/85 est l'addendum modifiant le point 20 (base d'imposition) : 'lorsque le lieu d'établissement de la société est situé en dehors de la Belgique et que le domicile du membre du personnel est situé en Belgique, la base d'imposition est...'."
+  },
+  {
+    "id": "C9",
+    "question": "Notre groupe veut instaurer une prime bénéficiaire pour les travailleurs de plusieurs sociétés du groupe. Comment la prime est-elle taxée chez le travailleur (7 %, cotisation de solidarité) et est-elle une dépense non admise pour la société qui l'attribue ?",
+    "topic": "profit_premium_group_ruling",
+    "difficulty": "easy",
+    "doc_type": "decisions_anticipees_l_24_12_2002",
+    "expected": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0089_du_21_03_2023_96b044c6"
+    ],
+    "secondary": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0574_du_04_10_2022_d024f970"
+    ],
+    "notes": "DA 2023.0089: 'La prime bénéficiaire sera soumise... à une taxation de 7 %... sous déduction de la cotisation de solidarité de 13,07 %... exonérée d'impôt sur les revenus (art. 38, § 1er, 15° CIR 92)... pour partie une dépense non-admise (art. 198, § 1er, 12°)... pour la quote-part versée à ses propres travailleurs'. DA 2022.0574 (NL) traite d'une prime bénéficiaire pour un établissement stable."
+  },
+  {
+    "id": "C10",
+    "question": "Mon mari est parti s'installer en France pour son travail et notre vie de famille s'organise désormais là-bas, mais moi je garde mes biens et mon patrimoine en Belgique. Sommes-nous encore résidents fiscaux belges, lui ou moi ?",
+    "topic": "tax_residence_spouse_moved_to_france",
+    "difficulty": "hard",
+    "doc_type": "decisions_anticipees_l_24_12_2002",
+    "expected": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2023_0887_du_19_12_2023_df657439"
+    ],
+    "secondary": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0711_du_13_12_2022_bc5cf69d",
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2024_1038_du_21_01_2025_a5ec7e4b",
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2020_1986_du_01_12_2020_e634c64f"
+    ],
+    "notes": "DA 2023.0887: 'le départ de Monsieur X vers la France et la nouvelle organisation familiale... ne permet pas de désigner la Belgique comme pays de résidence fiscale du couple... Madame Y maintient son statut d'habitant du Royaume... dès lors que le siège de sa fortune est clairement situé en Belgique'. Plusieurs rulings quasi-doublons 'Habitant du Royaume – Notion' (2019, 2020, 2022, 2025) concernent des personnes non-résidentes gardant un pied-à-terre."
+  },
+  {
+    "id": "C11",
+    "question": "Dans un projet de Community Land Trust à Bruxelles, une fondation achète le tréfonds et des ASBL reçoivent un droit d'emphytéose : quels droits d'enregistrement s'appliquent (0,5 % ou 12,5 %) et y a-t-il abus fiscal ?",
+    "topic": "community_land_trust_registration_duties",
+    "difficulty": "medium",
+    "doc_type": "decisions_anticipees_l_24_12_2002",
+    "expected": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2024_0596_du_15_10_2024_453d47c1"
+    ],
+    "secondary": [
+      "questions_parlementaires/question_parlementaire_orale_n_56012087c_de_madame_alexia_bertrand_du_28_01_2026_0bc13c01"
+    ],
+    "notes": "DA 2024.0596: 'Le taux de 0,5 % lors de la constitution de l'emphytéose (art. 83 et 84 C. enr.) ; le taux de 12,5 % lors de l'acquisition du tréfonds (art. 44) ; l'absence d'abus fiscal (art. 18 § 2)... Il est répondu positivement'. Une QP bruxelloise du 28.01.2026 porte aussi sur le CLT (secondaire)."
+  },
+  {
+    "id": "C12",
+    "question": "J'habite en Wallonie et je veux léguer par testament une partie de mes biens à une ASBL. Quel taux de droits de succession s'appliquera et quelles conditions l'association doit-elle remplir ?",
+    "topic": "wallonia_bequest_to_nonprofit_rate",
+    "difficulty": "medium",
+    "doc_type": "decisions_anticipees_l_24_12_2002",
+    "expected": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0001_du_10_02_2026_b9ded79a"
+    ],
+    "secondary": [
+      "questions_parlementaires/question_parlementaire_n_103_de_monsieur_loic_jacob_du_28_11_2025_region_wallonn_3760784e"
+    ],
+    "notes": "DA 2026.0001: 'Un résident fiscal wallon envisage de réaliser un legs par testament en faveur d'une ASBL belge... Afin de confirmer que le taux de 7 % prévu à l'article 59, 2°, C. succ. wallon puisse s'appliquer... il convient de vérifier que les conditions énoncées à l'article 60 sont remplies'. La QP 103 (legs en duo) cite aussi le taux de 7 % pour les ASBL (secondaire)."
+  },
+  {
+    "id": "C13",
+    "question": "Avec mon frère et ma sœur, nous possédons des biens en indivision et voulons signer une clause de tontine (accroissement) pour que le survivant récupère la part des autres. Devrons-nous payer des droits de succession ou de donation au décès de l'un de nous ?",
+    "topic": "accretion_clause_siblings_succession",
+    "difficulty": "medium",
+    "doc_type": "decisions_anticipees_l_24_12_2002",
+    "expected": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0282_du_07_07_2026_27197e30"
+    ],
+    "secondary": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_700_062_du_24_07_2007_0285c34e"
+    ],
+    "notes": "DA 2026.0282: 'Trois frères et sœur envisagent de conclure... une convention d'accroissement portant sur des biens meubles et immeubles... Elle n'entrainera pas la perception du droit de donation (art. 131 C. enr.)... ne donnera pas davantage lieu à perception du droit de succession... convention aléatoire à titre onéreux'."
+  },
+  {
+    "id": "C14",
+    "question": "Mon grand-père, qui vit en France, veut faire devant notaire français une donation-partage transgénérationnelle qui réincorpore d'anciennes donations faites à mon père pour les redonner à ses petits-enfants domiciliés en Wallonie. Faut-il enregistrer cet acte en Belgique et des droits de donation seront-ils dus ?",
+    "topic": "french_donation_partage_foreign_deed_registration",
+    "difficulty": "hard",
+    "doc_type": "decisions_anticipees_l_24_12_2002",
+    "expected": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0154_du_21_04_2026_762ccfc1"
+    ],
+    "secondary": [
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2025_0503_du_19_08_2025_3ca51e29",
+      "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2021_0727_du_09_11_2021_ad284b38"
+    ],
+    "notes": "DA 2026.0154: 'donation-partage transgénérationnelle (de droit français)... Cet acte réalisé en France n'est [pas] obligatoirement enregistrable conformément à l'article 19, 6° du C. enr. car le grand-père n'est pas un habitant du Royaume... Aucun droit de donation ne sera perçu à défaut de présentation volontaire'. Quasi-doublon DA 2025.0503 (Bruxelles, donatrice résidente : acte obligatoirement enregistrable, taux 3 %)."
+  },
+  {
+    "id": "C15",
+    "question": "J'ai acheté mon logement à Bruxelles avec l'abattement sur les droits d'enregistrement, mais je dois déménager après trois ans. Dois-je rembourser l'abattement, en totalité ou en partie ?",
+    "topic": "brussels_abatement_refund_moving_within_five_years",
+    "difficulty": "easy",
+    "doc_type": "questions_parlementaires",
+    "expected": [
+      "questions_parlementaires/question_parlementaire_n_40_de_monsieur_gilles_verstraeten_du_24_04_2026_region_ac42275f"
+    ],
+    "secondary": [],
+    "notes": "QP n° 40 (Bruxelles, 24.04.2026) 'Le remboursement de l'abattement en cas de déménagement dans les cinq ans': 'l'acheteur doit maintenir sa résidence principale dans le bien pendant une période ininterrompue de cinq ans... En cas de déménagement durant cette période, l'avantage fiscal doit être remboursé totalement ou partiellement. Depuis le 1er avril 2023, le montant à rembourser...' ; réponse avec statistiques et cas de force majeure."
+  },
+  {
+    "id": "C16",
+    "question": "Ma petite remorque de moins de 750 kg n'a pas besoin de plaque d'immatriculation en Wallonie. Dois-je quand même payer la taxe de circulation pour elle ?",
+    "topic": "wallonia_light_trailer_road_tax",
+    "difficulty": "easy",
+    "doc_type": "questions_parlementaires",
+    "expected": [
+      "questions_parlementaires/question_parlementaire_n_552_de_monsieur_vincent_palermo_du_04_12_2025_region_wa_9155d704"
+    ],
+    "secondary": [],
+    "notes": "QP n° 552 (Wallonie, 04.12.2025) 'La fiscalité applicable aux remorques légères': 'le seuil fiscal applicable à la taxe de circulation reste fixé à 500 kg... une remorque peut être non immatriculée... mais tout de même taxable' ; réponse : 'toute personne... qui utilise une remorque sur la voie publique est soumise à la taxe annuelle de circulation (art. 4 CTA)... selon leur MMA...'."
+  },
+  {
+    "id": "C17",
+    "question": "Qu'est-ce que le legs en duo et la Région wallonne compte-t-elle le supprimer comme l'a fait la Flandre ?",
+    "topic": "duo_bequest_wallonia_future",
+    "difficulty": "easy",
+    "doc_type": "questions_parlementaires",
+    "expected": [
+      "questions_parlementaires/question_parlementaire_n_103_de_monsieur_loic_jacob_du_28_11_2025_region_wallonn_3760784e",
+      "questions_parlementaires/question_parlementaire_n_329_de_monsieur_jean_jacques_cloquet_du_01_07_2026_regi_0da81d55"
+    ],
+    "secondary": [],
+    "notes": "QP n° 103 (28.11.2025): 'le legs en duo est un mécanisme par lequel, via un testament, une ASBL ou une fondation reçoit une partie de l'héritage à condition qu'elle paie les droits de succession des autres héritiers... une réflexion sera menée par le Comité d'experts'. QP n° 329 (01.07.2026): 'ce mécanisme a été supprimé en Flandre en 2021, la Wallonie a confirmé ne pas envisager sa suppression'. Deux QP wallonnes quasi-doublons."
+  },
+  {
+    "id": "C18",
+    "question": "J'ai acheté un appartement à Bruxelles et je le revends moins de deux ans après. Puis-je récupérer une partie des droits d'enregistrement de 12,5 % que j'avais payés ?",
+    "topic": "brussels_quick_resale_registration_duty_refund",
+    "difficulty": "easy",
+    "doc_type": "questions_parlementaires",
+    "expected": [
+      "questions_parlementaires/question_parlementaire_n_15_de_monsieur_jonathan_de_patoul_du_09_01_2025_region_d1725292"
+    ],
+    "secondary": [],
+    "notes": "QP n° 15 (Bruxelles, 09.01.2025): 'si ce ménage décide de revendre le bien dans les deux ans, il peut introduire une demande de restitution de 36 % des droits d'enregistrement qu'il a payés lors de l'acquisition' ; réponse avec nombre de demandes et montants remboursés."
+  },
+  {
+    "id": "C19",
+    "question": "Ma société détient l'usufruit de mon immeuble ; si nous signons un avenant pour allonger la durée de cet usufruit contre paiement, la Cour de cassation a-t-elle dit qu'aucun droit de vente n'est dû, et le fisc compte-t-il taxer ce revenu ?",
+    "topic": "usufruct_extension_agreement_tax_loophole",
+    "difficulty": "medium",
+    "doc_type": "questions_parlementaires",
+    "expected": [
+      "questions_parlementaires/question_parlementaire_n_216_de_monsieur_dieter_vanbesien_du_13_05_2025_53b452d1"
+    ],
+    "secondary": [
+      "questions_parlementaires/question_parlementaire_orale_n_2573_de_monsieur_bram_jaques_du_29_04_2025_region_38c0097d"
+    ],
+    "notes": "QP n° 216 (Chambre, 13.05.2025) 'Convention de prolongation d'usufruit – Traitement fiscal': 'Le 24 janvier 2025, la Cour de cassation a jugé qu'une convention visant à prolonger un usufruit ne peut en aucun cas être qualifiée de convention donnant lieu à la perception du droit de vente... une échappatoire fiscale très lucrative s'est ouverte' ; réponse du ministre sur les mesures envisagées. QP orale flamande du 29.04.2025 (NL) sur le même arrêt (secondaire)."
+  },
+  {
+    "id": "C20",
+    "question": "J'ai été adopté par adoption simple. Au décès de mon parent adoptif en Wallonie, est-ce que je paie les droits de succession au tarif des enfants ?",
+    "topic": "simple_adoption_succession_duties_wallonia",
+    "difficulty": "medium",
+    "doc_type": "questions_parlementaires",
+    "expected": [
+      "questions_parlementaires/question_parlementaire_orale_de_monsieur_loris_resinelli_du_27_01_2025_region_wa_8e7a9a97"
+    ],
+    "secondary": [],
+    "notes": "QP orale Resinelli (Wallonie, 27.01.2025) 'L'adoption simple dans le cadre des droits de succession': 'Lorsqu'un parent adoptif décède, l'enfant adopté peut-il... bénéficier d'un régime de droits de succession réduit, en étant assimilé à un enfant du défunt ?' ; réponse du Ministre-Président sur les art. 52/53ter C. succ. et la réforme du décret du 5.12.2024."
+  },
+  {
+    "id": "C21",
+    "question": "Je suis commerçant taxé au forfait et le régime forfaitaire disparaît fin 2027. Comment dois-je gérer mon stock et l'inventaire au 1er janvier 2028 pour passer au régime réel, tant pour l'impôt que pour la TVA ?",
+    "topic": "end_of_flat_rate_regime_inventory_transition",
+    "difficulty": "easy",
+    "doc_type": "forfaits",
+    "expected": [
+      "forfaits/fin_des_forfaits_college_le_31_12_2027_directives_relatives_a_la_tenue_dun_inven_cb1769b5"
+    ],
+    "secondary": [],
+    "notes": "Doc 'Fin des forfaits Collège le 31.12.2027 : directives relatives à la tenue d'un inventaire lors du passage... à une taxation selon le droit commun' : 'au 1er janvier 2028, lors du passage au régime normal, un inventaire initial devra être établi mais celui-ci ne pourra pas contenir les marchandises achetées au cours des années antérieures' ; volet TVA sur la présomption de l'art. 56, § 3."
+  },
+  {
+    "id": "C22",
+    "question": "Je cultive des pommiers et des poiriers en Wallonie et je suis imposé au forfait. Quel bénéfice à l'hectare retient le fisc et comment l'âge des arbres réduit-il le rendement pris en compte ?",
+    "topic": "wallonia_orchard_flat_rate_taxation",
+    "difficulty": "medium",
+    "doc_type": "forfaits",
+    "expected": [
+      "forfaits/198_exploitant_de_vergers_a_basses_tiges_de_wallonie_5d8e1c92",
+      "forfaits/numero_198_2015_fcf5fb33"
+    ],
+    "secondary": [],
+    "notes": "Forfait n° 198 'Vergers basses-tiges – Wallonie' (ex. imp. 2016): 'pourcentages de rentabilité retenus en fonction de l'âge des arbres : Arbres de 9 ans et plus : 100 %... Arbres de 4 ans : 70 %' ; 'Bénéfice semi-brut à l'hectare – pommiers : 7e année de croissance et suivantes : 2.827,01 EUR'. Édition 2015 (revenus 2014) quasi-doublon avec d'autres montants."
+  },
+  {
+    "id": "C23",
+    "question": "Je suis batelier indépendant avec un bateau de 400 tonnes pour marchandises sèches. Comment le fisc calcule-t-il forfaitairement mon bénéfice à la tonne et quels frais sont déjà déduits ?",
+    "topic": "inland_shipping_flat_rate_profit",
+    "difficulty": "hard",
+    "doc_type": "forfaits",
+    "expected": [
+      "forfaits/610_bateliers_a441d36c",
+      "forfaits/numero_610_2015_9b64d47b"
+    ],
+    "secondary": [
+      "forfaits/610_schippers_6a279ae3"
+    ],
+    "notes": "Forfait n° 610 Bateliers: 'Transporteurs motorisés de marchandises sèches... Bâtiments jusqu'à plein tonnage de 850 tonnes : 200,00 EUR' ; exemple '200,00 EUR/tonne x 400 tonnes = 80.000 EUR bénéfice semi-brut' ; 'les recettes ont été diminuées des frais suivants : commission payée aux affréteurs ; droits de navigation... carburants...'. Deux éditions FR (ex. imp. 2015 et 2016) + version NL 'Schippers'. Le mot 'batelier' n'apparaît que dans le corps des fichiers 'Numéro 610'."
+  },
+  {
+    "id": "C24",
+    "question": "Mon compte-titres a une valeur moyenne supérieure à 1 million d'euros. Quelle taxe annuelle s'applique, à quel taux, et est-ce ma banque qui la retient ?",
+    "topic": "annual_tax_securities_accounts",
+    "difficulty": "easy",
+    "doc_type": "faq",
+    "expected": [
+      "faq/faq_tact_taxe_annuelle_sur_les_comptes_titres_version_5_436e1928",
+      "faq/faq_tact_taxe_annuelle_sur_les_comptes_titres_version_4_a4ac04ea"
+    ],
+    "secondary": [
+      "faq/faq_taxe_sur_les_comptes_titres_version_2_3bef5988"
+    ],
+    "notes": "FAQ TACT v5 (28.06.2023): 'La taxe sur les comptes-titres est une taxe d'abonnement qui s'applique aux comptes-titres lorsque la valeur moyenne des instruments financiers imposables... est supérieure à 1.000.000 euros' ; sections 'Redevable – Intermédiaire belge', 'Taux de la TACT'. v4 est la version antérieure quasi-identique ; la FAQ 'taxe sur les comptes-titres' v2 concerne l'ancienne TCT annulée par la Cour constitutionnelle."
+  },
+  {
+    "id": "C25",
+    "question": "Je passe mes ordres d'achat d'actions via un courtier en ligne établi à l'étranger. Est-ce à moi de déclarer et de payer la taxe boursière belge, et dans quel délai ?",
+    "topic": "stock_exchange_tax_foreign_broker",
+    "difficulty": "medium",
+    "doc_type": "faq",
+    "expected": [
+      "faq/faq_taxe_sur_les_operations_de_bourse_e1b72c6b",
+      "circulaires/circulaire_2026_c_42_faq_tob_taxe_sur_les_operations_de_bourse_version_2_b9ee53fd"
+    ],
+    "secondary": [],
+    "notes": "FAQ TOB (faq/) et circulaire 2026/C/42 FAQ TOB v2 : redevables = '...les personnes physiques ayant leur résidence habituelle en Belgique... pour les opérations conclues ou exécutées en leur nom et pour leur compte par un intermédiaire professionnel établi à l'étranger, à moins qu'elles puissent établir que la TOB a été acquittée' ; 'Le donneur d'ordre redevable... doit effectuer le paiement au plus tard le dernier jour ouvrable du deuxième mois qui suit'. La FAQ du dossier faq/ porte la mention 'remplacée par la circulaire 2026/C/42'."
+  },
+  {
+    "id": "C26",
+    "question": "J'ai travaillé aux États-Unis et j'ai un plan 401(k) et un Roth IRA ; je vis maintenant en Belgique. Ces plans sont-ils reconnus comme plans de pension pour l'application de la convention belgo-américaine ?",
+    "topic": "us_pension_plans_recognized_treaty",
+    "difficulty": "easy",
+    "doc_type": "conventions_preventives_de_la_double_imposition",
+    "expected": [
+      "conventions_preventives_de_la_double_imposition/accord_amiable_concernant_article_17_7_et_9_types_de_plans_de_pension_b8a9d56f"
+    ],
+    "secondary": [
+      "conventions_preventives_de_la_double_imposition/etats_unis_damerique_nouvelle_convention_du_27_11_2006_bdb629ea"
+    ],
+    "notes": "Accord amiable art. 17 §7 et §9 (convention USA 27.11.2006): 'les plans de pension ci-après conclus aux Etats-Unis sont censés correspondre à un plan de pension reconnu du point de vue fiscal en Belgique : a) un plan visé à la section 401(a)... (y compris l'arrangement de la section 401(k))... une Roth IRA qui entre dans le champ d'application de la section 408A'."
+  },
+  {
+    "id": "C27",
+    "question": "Je suis frontalier belge, salarié au Luxembourg, et je fais parfois du télétravail depuis chez moi. Combien de jours par an puis-je travailler hors du Luxembourg sans que mon salaire devienne imposable en Belgique ?",
+    "topic": "luxembourg_cross_border_worker_tolerance_days",
+    "difficulty": "hard",
+    "doc_type": "conventions_preventives_de_la_double_imposition",
+    "expected": [
+      "conventions_preventives_de_la_double_imposition/luxembourg_avenant_31_08_2021_28da20bf",
+      "conventions_preventives_de_la_double_imposition/luxembourg_texte_coordonne_bbafcae0",
+      "conventions_preventives_de_la_double_imposition/luxembourg_texte_de_synthese_mli_2992f808"
+    ],
+    "secondary": [],
+    "notes": "Avenant du 31.08.2021: 'Dans le paragraphe 8, 2° du Protocole final... les mots « 24 jours ouvrables » sont remplacés par les mots « 34 jours ouvrables »... applicable... à partir du 1er janvier 2022'. Texte coordonné : 'physiquement présent dans le premier Etat et/ou dans un Etat tiers pour y exercer un emploi durant une ou des périodes n'excédant pas au total 34 jours ouvrables, est considéré comme exerçant effectivement son emploi dans l'autre Etat'. Nombreux documents Luxembourg (convention 1970, avenants 2002/2009/2017)."
+  },
+  {
+    "id": "C28",
+    "question": "Pendant le confinement Covid, je travaillais depuis mon domicile en Belgique pour mon employeur allemand. Ces jours de télétravail forcé sont-ils considérés comme prestés en Allemagne pour l'impôt ?",
+    "topic": "germany_covid_teleworking_cross_border_agreement",
+    "difficulty": "medium",
+    "doc_type": "conventions_preventives_de_la_double_imposition",
+    "expected": [
+      "conventions_preventives_de_la_double_imposition/accord_amiable_entre_les_autorites_competentes_de_lallemagne_et_de_la_belgique_c_f6d89aa2"
+    ],
+    "secondary": [],
+    "notes": "Accord amiable Allemagne-Belgique COVID-19 du 06.05.2020 (prorogé jusqu'au 30.06.2022): 'les jours de travail... pendant lesquels l'emploi a été exercé à domicile en raison uniquement des mesures prises pour lutter contre la pandémie... peuvent être considérés comme ayant été passés dans l'État contractant où le travailleur transfrontalier aurait exercé l'emploi sans les mesures'."
+  },
+  {
+    "id": "C29",
+    "question": "Ma société belge a un établissement stable en Suisse. Depuis le dernier avenant à la convention avec la Suisse, pendant combien d'années l'administration peut-elle encore rectifier les bénéfices attribués à cet établissement stable ?",
+    "topic": "switzerland_protocol_time_limit_profit_adjustment",
+    "difficulty": "hard",
+    "doc_type": "conventions_preventives_de_la_double_imposition",
+    "expected": [
+      "conventions_preventives_de_la_double_imposition/suisse_second_avenant_8d1f8d1b"
+    ],
+    "secondary": [
+      "conventions_preventives_de_la_double_imposition/suisse_texte_coordonne_2446519d",
+      "conventions_preventives_de_la_double_imposition/suisse_10_04_2014_avenant_43cfdca1"
+    ],
+    "notes": "Suisse (Second Avenant, 2025), art. II: 'Un État contractant ne peut pas ajuster les bénéfices qui sont attribuables à un établissement stable... après 6 ans à compter de la fin de la période imposable... Les dispositions de ce paragraphe ne s'appliquent pas en cas de fraude, négligence grave ou manquement délibéré' ; même règle insérée à l'art. 9 (entreprises associées). Autres docs Suisse (convention 1978, avenant 2014, texte coordonné) ne contiennent pas la règle des 6 ans."
+  },
+  {
+    "id": "C30",
+    "question": "Combien coûte le droit à payer pour introduire une demande de nationalité belge en 2026, et y a-t-il un montant réduit pour les apatrides ?",
+    "topic": "belgian_nationality_procedure_fee",
+    "difficulty": "easy",
+    "doc_type": "avis",
+    "expected": [
+      "avis/16_03_2026_administration_generale_de_la_documentation_patrimoniale_procedures_d_1d7a97aa"
+    ],
+    "secondary": [],
+    "notes": "Avis 16.03.2026 (art. 238 C. enr.): 'Le droit s'élève à 1000 euros à partir du 29 juillet 2025... rétroactivement réduit... à 150 euros pour tout étranger qui a la qualité d'apatride... le montant de 1000 euros s'élève après indexation à 1030 euros à partir du 1er janvier 2026'."
+  },
+  {
+    "id": "C31",
+    "question": "Je travaille dans une banque : comment devons-nous transmettre au SPF Finances les informations sur les conversions ou transferts de titres entre comptes dans le cadre de la taxe annuelle sur les comptes-titres, et via quelle application ?",
+    "topic": "tact_information_obligation_divtax_platform",
+    "difficulty": "medium",
+    "doc_type": "avis",
+    "expected": [
+      "avis/02_02_2026_administration_generale_expertise_et_support_strategiques_service_reg_6041a55b"
+    ],
+    "secondary": [],
+    "notes": "Avis 02.02.2026 (AR 07.12.2025, art. 201/9/6 C.DTD): 'mise à disposition d'une plateforme électronique sécurisée pour permettre la transmission de l'information en cas de conversion et/ou de transfert (partiel) d'instruments financiers dans le cadre de la taxe annuelle sur les comptes-titres. L'information peut être téléchargée dans l'application DIVTAX, accessible via MyMinfin'."
+  },
+  {
+    "id": "C32",
+    "question": "J'habite à Bruxelles et ma voiture fait 7 CV fiscaux. Quel est le montant de la taxe de circulation annuelle pour les taxes qui naissent à partir du 1er juillet 2026 ?",
+    "topic": "brussels_road_tax_rates_july_2026",
+    "difficulty": "hard",
+    "doc_type": "avis",
+    "expected": [
+      "avis/06_07_2026_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_sur_les_vehicul_a922a646"
+    ],
+    "secondary": [
+      "avis/16_06_2026_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_en_execution_de_49ab8097",
+      "avis/23_06_2025_avis_relatif_a_l_adaptation_de_la_taxe_de_circulation_sur_les_vehicul_3cf423f5"
+    ],
+    "notes": "Avis 06.07.2026 'Service public régional de Bruxelles Fiscalité': tableau 'Voitures, voitures mixtes et minibus... 7 CV : 230,28' pour 'les véhicules... pour lesquels la dette d'impôt naît à partir du 1er juillet 2026'. L'avis wallon du 16.06.2026 reprend les mêmes tarifs CTA indexés (secondaire) ; éditions annuelles 2015-2025 quasi-identiques (l'édition bruxelloise 2025 en secondaire)."
+  }
+]

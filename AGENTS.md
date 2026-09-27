@@ -16,6 +16,20 @@ Only ingest documents with **legal or substantive informational value**. See `MY
 
 Common exclusions: Fisconet+ *aperçu documentaire* index pages (body is purely a list of circulaires/jurisprudence references, `## Commentaire` section is empty or `N/A`), training materials (*cours professionnels*), portal navigation pages (*compétences et formulaires*, *guide utilisateur*), newsletters, the *Mémento fiscal*, and any table-of-contents or help page.
 
+## Retrieval experiments (`experiments/`)
+
+`experiments/FINDINGS.md` is the one-page, categorised verdict of three rounds of retrieval experiments
+(lexical, dense, fusion, reranking, structure, learned ranking, engines) with the measured numbers;
+`experiments/EXPERIMENTS.md` is the detailed log. The kept implementation of the best pipelines is
+`experiments/best/` (standalone `uv` project, README with reproduction numbers); the shared harness is
+`experiments/common` (`rag_eval`: corpora, chunking, metrics, train/val split, paired statistics,
+provenance stamps, question mining; tests in `common/tests`). Question sets live in `experiments/data`
+(human sets + mined sets), results in `experiments/results/leaderboard.jsonl`, and the 100 research-only
+idea write-ups with their ranked synthesis in `experiments/ideas/`. Experiments that produced subpar
+results were pruned at the close-out; they remain in git history. Read `FINDINGS.md` before changing the
+retrieval stack, run new comparisons on the mined sets with `rag_eval.stats`, and save runs through the
+harness. On the 4-core CPU box run one torch job at a time.
+
 ## SDKs and documentation
 
 When working with SDKs or libraries, always consult the **latest official documentation** for the version in use (for example [FastMCP](https://gofastmcp.com/) and the [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)) rather than relying only on older examples or memory.

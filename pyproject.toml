@@ -15,6 +15,8 @@ dev = [
 
 [tool.uv.workspace]
 members = ["tax_search", "mcp_server", "ingestion"]
+# RAG experiments are standalone uv projects (own venv each), not workspace members.
+exclude = ["experiments/*"]
 
 [tool.uv.sources]
 tax-search = { workspace = true }

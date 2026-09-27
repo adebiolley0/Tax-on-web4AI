@@ -1,0 +1,418 @@
+[
+  {
+    "id": "C33",
+    "question": "Je suis graphiste indépendant et je perçois des droits d'auteur : pour mes revenus de 2026, jusqu'à quel montant sont-ils encore imposés au taux distinct de 15 % ?",
+    "topic": "ipp_droits_auteur_taux_distinct_2026",
+    "difficulty": "hard",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_171_cir_92_revenus_2026_d9683eeb"
+    ],
+    "secondary": [
+      "code_et_legislation/article_171_cir_92_revenus_2025_a5b9bf88",
+      "code_et_legislation/article_171_cir_92_revenus_2027_32217074"
+    ],
+    "notes": "Art. 171, 2°bis, b) CIR 92 (revenus 2026): 'au taux de 15 % ... la première tranche correspondant au montant qui n'excède pas 30 % ou 77.220 euros (montant indexé) ... des revenus qui résultent de la cession ou l'octroi d'une licence de droits d'auteur'. The 2025 edition says 75.360 euros and the 2027 edition only gives the base amount 37.500 euros, so only the 2026 edition answers the question as asked."
+  },
+  {
+    "id": "C34",
+    "question": "Quel pourcentage des revenus tirés d'un brevet ou d'un logiciel une société peut-elle déduire de ses bénéfices au titre de la déduction pour revenus d'innovation, et que se passe-t-il si le bénéfice est insuffisant ?",
+    "topic": "isoc_deduction_revenus_innovation",
+    "difficulty": "easy",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_205_1_cir_92_revenus_2025_38dbac7a",
+      "code_et_legislation/article_205_1_cir_92_revenus_2026_aac192e4",
+      "code_et_legislation/article_205_1_cir_92_revenus_2027_a1956867"
+    ],
+    "secondary": [],
+    "notes": "Art. 205/1 §1 CIR 92: 'Les bénéfices de la période imposable sont réduits de 85 % des montants fixés conformément à l'article 205/3. Cette réduction est dénommée déduction pour revenus d'innovation. En cas d'absence ou d'insuffisance de bénéfices ... la partie qui n'a pas pu être déduite, peut être reportée sur les périodes imposables postérieures.' The three yearly editions are byte-identical (8,386 chars)."
+  },
+  {
+    "id": "C35",
+    "question": "Ma société a payé des honoraires à un consultant sans établir de fiche fiscale à son nom : quelle sanction spécifique le fisc peut-il appliquer à la société et à quel taux ?",
+    "topic": "isoc_cotisation_distincte_commissions_secretes",
+    "difficulty": "medium",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_219_cir_92_revenus_2025_698f10f2",
+      "code_et_legislation/article_219_cir_92_revenus_2026_e27970c5",
+      "code_et_legislation/article_219_cir_92_revenus_2027_e968c2dd"
+    ],
+    "secondary": [],
+    "notes": "Art. 219 CIR 92: 'Une cotisation distincte est établie à raison des dépenses visées à l'article 57, alinéa 1er ... Cette cotisation est égale à 100 % de ces dépenses ... sauf lorsqu'on peut démontrer que le bénéficiaire ...'. Query uses 'honoraires', 'fiche fiscale', 'sanction' instead of 'commissions secrètes' / 'cotisation distincte'. Yearly editions near-identical (3,461-3,463 chars)."
+  },
+  {
+    "id": "C36",
+    "question": "Notre entreprise emploie des chercheurs titulaires d'un doctorat ou d'un master sur des projets de recherche et développement : quel pourcentage de dispense de versement du précompte professionnel pouvons-nous appliquer ?",
+    "topic": "precompte_professionnel_dispense_chercheurs",
+    "difficulty": "easy",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_275_3_cir_92_revenus_2025_5aee56a0",
+      "code_et_legislation/article_275_3_cir_92_revenus_2026_30a23f46",
+      "code_et_legislation/article_275_3_cir_92_revenus_2027_50a66fe5"
+    ],
+    "secondary": [],
+    "notes": "Art. 275/3 §1 CIR 92: 'Une même dispense de versement du précompte professionnel est accordée à concurrence de 80 % de ce précompte professionnel aux entreprises qui paient ou attribuent des rémunérations à des chercheurs qui sont engagés dans des projets ou programmes de recherche ou de développement et qui ont un diplôme visé au § 2'. Three yearly editions nearly identical."
+  },
+  {
+    "id": "C37",
+    "question": "Je suis prestataire de services sur crypto-actifs et je n'ai pas encore fait l'enregistrement déclaratif prévu par le CIR 92 : quelle amende administrative est prévue pour mes revenus de 2026 ?",
+    "topic": "procedure_amende_prestataire_crypto_actifs",
+    "difficulty": "medium",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_445_cir_92_revenus_2026_065fdd66",
+      "code_et_legislation/article_445_cir_92_revenus_2027_0bbf54d2"
+    ],
+    "secondary": [
+      "code_et_legislation/article_445_cir_92_revenus_2025_607da833"
+    ],
+    "notes": "Art. 445 §6/1 CIR 92 (revenus 2026): 'inflige, au prestataire de service sur crypto-actifs déclarant, en cas de non-respect de ses obligations d'enregistrement prévues à l'article 326/13, § 1er, une amende administrative de 25.000 euros'. The 2025 edition (6,611 chars) contains no §6/1 and no occurrence of 'crypto'; 2026 and 2027 editions both contain it."
+  },
+  {
+    "id": "C38",
+    "question": "J'ai fait construire une maison à titre privé et je souhaite la revendre moins de deux ans après sa première occupation : puis-je vendre avec application de la TVA et devenir assujetti pour cette vente ?",
+    "topic": "tva_vente_batiment_neuf_particulier_option",
+    "difficulty": "medium",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_8_code_de_la_tva_361c02da"
+    ],
+    "secondary": [],
+    "notes": "Art. 8 §1 Code TVA: 'La personne qui, autrement que dans l'exercice d'une activité économique, a construit, fait construire ou acquis avec application de la taxe, un bien visé à l'article 1er, § 9, alinéa 1er, 1°, qu'elle cède à titre onéreux, au plus tard le 31 décembre de la deuxième année qui suit celle au cours de laquelle a lieu la première occupation ... a la qualité d'assujetti' (option). Everyday phrasing instead of 'assujetti occasionnel'."
+  },
+  {
+    "id": "C39",
+    "question": "Je suis gérant d'une SRL qui a plusieurs fois omis de payer le précompte professionnel et la TVA : est-ce que le fisc peut me réclamer personnellement ces dettes ?",
+    "topic": "recouvrement_responsabilite_solidaire_dirigeants",
+    "difficulty": "medium",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_51_code_recouvrement_14769b98"
+    ],
+    "secondary": [],
+    "notes": "Art. 51 Code du recouvrement: '§ 1. En cas de manquement, par une société ... à son obligation de paiement du précompte professionnel ou de la TVA ... Cette responsabilité solidaire peut être étendue aux autres dirigeants ... § 2. Le non-paiement répété par la société ... du précompte professionnel ou de la taxe sur la valeur ajoutée, est, sauf preuve du contraire, présumé résulter d'une faute'."
+  },
+  {
+    "id": "C40",
+    "question": "Qu'est-ce que l'abus fiscal au sens du CIR 92 et sur qui repose la charge de la preuve lorsque l'administration l'invoque ?",
+    "topic": "procedure_abus_fiscal_disposition_anti_abus",
+    "difficulty": "easy",
+    "doc_type": "code_et_legislation",
+    "expected": [
+      "code_et_legislation/article_344_cir_92_revenus_2025_6b01d835",
+      "code_et_legislation/article_344_cir_92_revenus_2026_1501562c",
+      "code_et_legislation/article_344_cir_92_revenus_2027_43044134"
+    ],
+    "secondary": [],
+    "notes": "Art. 344 §1 CIR 92: 'N'est pas opposable à l'administration, l'acte juridique ... lorsque l'administration démontre par présomptions ... qu'il y a abus fiscal. Il y a abus fiscal lorsque le contribuable réalise ... Il appartient au contribuable de prouver que le choix de cet acte juridique ... se justifie par d'autres motifs que la volonté d'éviter les impôts sur les revenus.' Three identical yearly editions (3,200 chars). A short Flemish-region stub (367 chars) also exists but is not relevant."
+  },
+  {
+    "id": "C41",
+    "question": "Je revends des voitures d'occasion achetées à des particuliers : comment fonctionne le régime de la marge bénéficiaire en TVA et sur quelle base la taxe est-elle calculée ?",
+    "topic": "tva_regime_marge_biens_occasion",
+    "difficulty": "easy",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/commentaire_tva_l_imposition_de_la_marge_beneficiaire_applicable_aux_biens_d_occ_23d95f50"
+    ],
+    "secondary": [],
+    "notes": "Commentaire TVA marge bénéficiaire (01.07.2018): 'Le régime de la marge bénéficiaire est visé à l'article 58, § 4, du Code de la TVA et à l'arrêté royal n° 53 ... Pour les livraisons de biens d'occasion ... la base d'imposition est constituée par la marge bénéficiaire réalisée par l'assujetti-revendeur, diminuée du montant de la taxe sur la valeur ajoutée afférente à la marge bénéficiaire elle-même.'"
+  },
+  {
+    "id": "C42",
+    "question": "Notre club de sport géré par une ASBL fait payer l'accès à sa salle et à ses terrains aux pratiquants : à quelles conditions ces recettes échappent-elles à la TVA ?",
+    "topic": "tva_exemption_installations_sportives",
+    "difficulty": "medium",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/commentaire_tva_les_services_des_etablissements_deducation_physique_et_des_insta_de800843"
+    ],
+    "secondary": [],
+    "notes": "Commentaire TVA art. 44 §2 3°: 'Cette prestation est cependant exemptée de la taxe lorsque les trois conditions suivantes sont remplies : la prestation doit concerner l'exercice même du sport et être fournie aux personnes qui le pratiquent ; l'exploitant doit être un organisme sans but lucratif ; les recettes tirées de l'exploitation doivent servir exclusivement à en couvrir les frais.'"
+  },
+  {
+    "id": "C43",
+    "question": "Les loteries, paris et autres jeux de hasard ou d'argent que j'exploite sont-ils exemptés de TVA en vertu de l'article 44 du Code, et quelles opérations accessoires restent taxées ?",
+    "topic": "tva_exemption_loteries_jeux_hasard",
+    "difficulty": "easy",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/commentaire_tva_exemptions_visees_par_larticle_44_3_13_du_code_de_la_tva_les_lot_8b2d9fc7"
+    ],
+    "secondary": [],
+    "notes": "Commentaire TVA. Exemptions visées par l'article 44, § 3, 13° - Les loteries et les autres jeux de hasard ou d'argent (15.04.2026), 47 kB: sections 'b. Jeux de hasard ou d'argent exemptés', 'C. Les autres opérations - a. Redevances payées par l'exploitant - b. Location des appareils automatiques', '5. Concours - A. Portée de l'exemption - B. Déduction', '6. Commissionnaires'. Note the body header still shows an earlier date (01.05.2025) than the title (15.04.2026)."
+  },
+  {
+    "id": "C44",
+    "question": "Je suis agriculteur sous le régime particulier agricole de la TVA : dois-je facturer la TVA à mes acheteurs et comment fonctionne la compensation forfaitaire de 2 % ou 6 % ?",
+    "topic": "tva_regime_particulier_exploitants_agricoles",
+    "difficulty": "easy",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/commentaire_tva_les_exploitants_agricoles_01_07_2018_91b3dedb"
+    ],
+    "secondary": [
+      "arretes_royaux/tva_arrete_royal_n_22_du_15_septembre_1970_relatif_au_regime_particulier_applica_dd35e6d6"
+    ],
+    "notes": "Commentaire TVA - Les exploitants agricoles (01.07.2018), 111 kB: 'lors de ces ventes, il ne doit porter aucune TVA en compte ni la verser à l'Etat ... cette récupération étant comprise dans la compensation forfaitaire' ; 'l'acheteur ... pourra ... considérer le montant de la compensation forfaitaire de 2 % ou de 6 %' ; example 'bordereau d'achat pour un prix net de 1.500 euros, majoré d'une compensation forfaitaire de 2 %, soit 30 euros'. AR n° 22 is the underlying decree."
+  },
+  {
+    "id": "C45",
+    "question": "Je suis écrivaine et je signe un contrat avec une maison d'édition pour la publication de mon roman contre rémunération : dois-je facturer la TVA sur ce que l'éditeur me verse ?",
+    "topic": "tva_exemption_contrats_edition_auteurs",
+    "difficulty": "medium",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/commentaire_tva_exemptions_visees_par_larticle_44_3_3_du_code_de_la_tva_les_cont_f0e2865d"
+    ],
+    "secondary": [],
+    "notes": "Commentaire TVA art. 44 §3 3°: 'sont exemptés de la taxe sur la valeur ajoutée « les contrats d'édition d'œuvres littéraires ou artistiques conclus par les auteurs ou compositeurs »' ; 'Le contrat d'édition ... est le contrat par lequel une personne dénommée éditeur s'engage, moyennant rémunération, envers l'auteur d'une œuvre littéraire ou artistique protégée par la législation sur les droits d'auteur, à reproduire ...' ; condition 'le contrat doit être conclu avec l'auteur ou le compositeur'."
+  },
+  {
+    "id": "C46",
+    "question": "Je suis associé d'une société établie en Wallonie et je lui rachète un immeuble sur lequel elle a réalisé des travaux pendant qu'elle en était propriétaire : puis-je encore éviter le droit de vente en invoquant les exceptions de l'article 129 du Code des droits d'enregistrement ?",
+    "topic": "enregistrement_associe_acquisition_immeuble_societe_wallonie",
+    "difficulty": "hard",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/numero_e_129_wa_02_01_e47cad7e"
+    ],
+    "secondary": [
+      "commentaires_dont_rep_rj/numero_e_129_wa_02_02_f7862286"
+    ],
+    "notes": "Rép. RJ E 129-WA/02-01 (Région wallonne): 'Acquisition par un associé d'un immeuble ... détenu par la société - Incidence des travaux réalisés' ; 'Seront donc soumis au droit de vente, les transferts en faveur de l'associé, même si celui-ci peut se prévaloir d'une des deux exceptions de l'alinéa 3, à partir du moment où des travaux tels que définis ci-avant ont été réalisés par la société' (décret wallon 01.06.2017). Many non-regional E 129 entries exist (E 129/01-01 ... 14-04) that do not contain the Walloon works rule; the region must be recognised from the question."
+  },
+  {
+    "id": "C47",
+    "question": "Mon oncle, domicilié à Bruxelles, m'a légué par testament une somme précise (legs particulier) et a laissé des dettes : puis-je déduire une partie de ces dettes de mon legs pour le calcul des droits de succession ?",
+    "topic": "succession_deduction_passif_legataire_particulier_bruxelles",
+    "difficulty": "hard",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/numero_s_27_br_01_01_d50ceac7"
+    ],
+    "secondary": [
+      "commentaires_dont_rep_rj/numero_s_27_vl_01_01_5beee7b9",
+      "commentaires_dont_rep_rj/numero_s_27bis_wa_01_01_c6b2dff4"
+    ],
+    "notes": "Rép. RJ S 27-BR/01-01 (Région de Bruxelles-Capitale): 'Puisqu'un légataire à titre particulier n'est pas tenu sur le plan civil de contribuer au passif de la succession (art. 871 C. civ.), si le défunt n'a pas dérogé à cette règle par testament, la déduction du passif prévue à l'article 27, al. 2, C. succ. Bxl.-C. ne peut s'appliquer'. The Flemish (S 27-VL) and Walloon (S 27bis-WA) entries are near-verbatim duplicates that cite the respective regional article; the Brussels domicile is the distinguishing fact."
+  },
+  {
+    "id": "C48",
+    "question": "Ma grand-mère par alliance (la seconde épouse de mon grand-père), domiciliée en Flandre, m'a laissé une part de sa succession : puis-je bénéficier du tarif en ligne directe comme un petit-enfant ?",
+    "topic": "succession_beaux_petits_enfants_flandre",
+    "difficulty": "medium",
+    "doc_type": "commentaires_dont_rep_rj",
+    "expected": [
+      "commentaires_dont_rep_rj/numero_s_50_vl_01_01_9062c7fe"
+    ],
+    "secondary": [],
+    "notes": "Rép. RJ S 50-VL/01-01 (Région flamande) 'Beaux-petits enfants': 'Les beaux-petits-enfants ne sont pas affectés de manière disproportionnée par les droits de succession plus élevés ... ne faisant en principe pas partie de la famille nucléaire du défunt' ; art. 50 C. succ. Fl. 'ne viole pas les articles 10, 11 et 172 de la Constitution en ce qu'il ne rend pas applicable aux successions entre un beau-grand-parent et un beau-petit-enfant' le tarif en ligne directe (Cour d'arbitrage n° 181/2005). Query uses everyday wording ('grand-mère par alliance')."
+  },
+  {
+    "id": "C49",
+    "question": "Un testament désigne une association comme légataire universelle à charge pour elle de verser une somme à un neveu et de payer les droits de succession de ce dernier (« legs en duo inversé ») : la Cour de cassation admet-elle que le fisc y voie un abus fiscal, et qui ne peut pas déduire la charge des droits ?",
+    "topic": "succession_legs_en_duo_inverse_abus_fiscal_cassation",
+    "difficulty": "hard",
+    "doc_type": "jurisprudence_belge",
+    "expected": [
+      "jurisprudence_belge/arret_de_la_cour_de_cassation_du_22_05_2026_n_f_22_0113_f_751c4076"
+    ],
+    "secondary": [],
+    "notes": "Cass. 22.05.2026 (F.22.0113.F), résumé: 'Legs en duo inversé - Charge de payer les droits de succession - Art. 64 et 65 C. succ. - Abus fiscal' ; 'l'abus fiscal se définit comme étant un acte juridique posé par le redevable de l'impôt. Dans le cadre des droits de succession et des testaments, le testateur n'est pas le redevable' ; 'La non-déductibilité de la charge de payer les droits de succession s'applique dans le chef de l'ASBL qui s'est vu imposer la charge, et non dans le chef du légataire universel'."
+  },
+  {
+    "id": "C50",
+    "question": "J'ai voulu faire enregistrer en ligne via MyMinfin un don bancaire reçu de mon père, mais le bureau a refusé parce que le document ne mentionnait pas son domicile fiscal ; mon père est décédé moins de trois ans plus tard : le refus était-il légal et que devient le don ?",
+    "topic": "enregistrement_don_bancaire_refus_domicile_fiscal_donateur",
+    "difficulty": "medium",
+    "doc_type": "jurisprudence_belge",
+    "expected": [
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_gand_du_28_01_2026_c2563e95"
+    ],
+    "secondary": [],
+    "notes": "Trib. Gand 28.01.2026, résumé: 'Un don manuel ou bancaire peut être soumis en ligne pour enregistrement via MyMinfin.be ... Si certaines informations sont manquantes, l'administration doit refuser' ; 'comme la donation n'a pas été enregistrée, aucun droit de donation n'est dû, mais comme la donation a eu lieu dans les trois ans précédant le décès du donateur, elle doit être ajoutée à la succession' ; 'le droit de refuser l'enregistrement d'un acte sous seing privé de donation mobilière si celui-ci ne contient aucune mention relative au domicile fiscal du donateur'. Full text is in Dutch, summary in French."
+  },
+  {
+    "id": "C51",
+    "question": "Nous avons hébergé pendant des années une personne âgée qui, avant son décès, nous a versé des sommes importantes depuis ses comptes pour nous remercier ; le fisc veut les ajouter à sa succession et nous invoquons une simple obligation morale de sa part : qu'ont décidé les juges liégeois ?",
+    "topic": "succession_donation_remuneratoire_hebergement_liege",
+    "difficulty": "hard",
+    "doc_type": "jurisprudence_belge",
+    "expected": [
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_liege_du_24_03_2016_a489e8c1"
+    ],
+    "secondary": [
+      "jurisprudence_belge/arret_de_la_cour_dappel_de_liege_du_17_04_2018_5566c38a"
+    ],
+    "notes": "Trib. Liège 24.03.2016, résumé: 'A et B ont hébergé C de ses 50 ans jusqu'à sa mort ... plusieurs opérations effectuées au profit de A et B tombant sous l'application de l'art. 7 C. succ. ... A prétend que les opérations n'étaient pas des donations mais avaient été opérées en exécution d'une obligation naturelle ... Le tribunal estime qu'il ne s'agissait pas d'une obligation naturelle mais d'une donation rémunératoire, qui reste une donation pour le tout.' Confirmed by Liège CA 17.04.2018 (secondary)."
+  },
+  {
+    "id": "C52",
+    "question": "Je conduis chaque jour mon fils handicapé à l'école avec la voiture familiale puis je repars au travail : est-ce que ces trajets font perdre l'exemption de taxe de circulation prévue pour les véhicules des personnes invalides ?",
+    "topic": "taxe_circulation_exemption_handicape_trajets_ecole",
+    "difficulty": "hard",
+    "doc_type": "jurisprudence_belge",
+    "expected": [
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_liege_du_15_05_2003_f5077e76"
+    ],
+    "secondary": [
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_liege_du_28_10_2002_2e7f5015",
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_06_01_2011_dc7cdee1"
+    ],
+    "notes": "Trib. Liège 15.05.2003, résumé: 'Les trajets effectués par une personne pour conduire son fils handicapé à l'école et se rendre ensuite au lieu d'où elle repartira pour le reprendre à l'école en fin de journée, que ce lieu soit son domicile ou son lieu de travail, correspondent à des fins liées aux déplacements personnels du handicapé.' Several near-duplicate decisions on the same art. 5 §1 3° CTA exemption exist with different fact patterns (spouse using the car alone: Liège 28.10.2002; child living in an institution: Bruxelles 06.01.2011; Mons 29.09.2010)."
+  },
+  {
+    "id": "C53",
+    "question": "Je vis en Wallonie mais je roule avec une voiture immatriculée à l'étranger au nom d'un proche : la Région peut-elle me réclamer la taxe de circulation et la taxe de mise en circulation ?",
+    "topic": "taxe_circulation_vehicule_immatricule_etranger_resident",
+    "difficulty": "medium",
+    "doc_type": "jurisprudence_belge",
+    "expected": [
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_namur_du_15_04_2025_00bf195d"
+    ],
+    "secondary": [],
+    "notes": "Trib. Namur 15.04.2025 (Région wallonne défenderesse), résumé: 'L'article 3, § 1er, de l'AR 20.07.2001 oblige les personnes résidant en Belgique à y faire immatriculer les véhicules qu'elles utilisent dans le Royaume, et ce même lorsque ces véhicules ont déjà fait l'objet d'une immatriculation dans un autre pays' ; 'le contribuable est inscrit dans les registres de la population et ... a conduit avec le véhicule litigieux ... ne produit aucune attestation ... pour bénéficier' d'une exemption."
+  },
+  {
+    "id": "C54",
+    "question": "La taxe sur les comptes-titres a été annulée par la Cour constitutionnelle mais ses effets ont été maintenus : puis-je quand même obtenir le remboursement de la taxe payée en invoquant une faute de l'Etat belge ?",
+    "topic": "taxe_comptes_titres_annulation_maintien_effets",
+    "difficulty": "easy",
+    "doc_type": "jurisprudence_belge",
+    "expected": [
+      "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_bruxelles_du_26_09_2024_6dccd369"
+    ],
+    "secondary": [],
+    "notes": "Trib. Bruxelles 26.09.2024, résumé: 'La taxe sur les comptes-titres a été annulée par la Cour constitutionnelle, mais ses effets ont été maintenus pour la période de référence en question' ; 'si faute du législateur il y a, elle a été sanctionnée par la Cour constitutionnelle ... l'Etat Belge ne pourrait répondre de cette prétendue faute puisqu'il n'est pas responsable de la Cour constitutionnelle' ; 'les arguments mettant en cause l'Etat Belge ... doivent également être rejetés'."
+  },
+  {
+    "id": "C55",
+    "question": "Ma mère, qui habitait en Allemagne, possédait un appartement en Belgique grevé d'un crédit hypothécaire : le fisc belge refuse de déduire cette dette parce qu'elle n'était pas résidente belge ; le droit européen l'autorise-t-il ?",
+    "topic": "succession_non_resident_deduction_dette_hypothecaire_cjue",
+    "difficulty": "medium",
+    "doc_type": "jurisprudence_europeenne",
+    "expected": [
+      "jurisprudence_europeenne/arret_de_la_cour_de_justice_de_l_union_europeenne_du_11_09_2008_n_c_11_07_40ea00b0"
+    ],
+    "secondary": [],
+    "notes": "CJUE 11.09.2008, C-11/07 (Eckelkamp), résumé: 'Belgique - Droit de mutation par décès - Déduction de charges hypothécaires (art. 18 C. succ.)' ; 'Les articles 56 et 58 du Traité ... s'érigeant contre une réglementation nationale ... dans lequel calcul, la déduction d'une dette afférente au bien immeuble n'est pas possible lorsque le défunt, au moment de son décès, est résidant dans un autre état membre'."
+  },
+  {
+    "id": "C56",
+    "question": "Je passe mes ordres de bourse via un courtier en ligne établi dans un autre pays de l'UE : la Belgique peut-elle quand même me soumettre à la taxe sur les opérations de bourse alors que je dois la déclarer moi-même ?",
+    "topic": "taxe_operations_bourse_intermediaire_etranger_cjue",
+    "difficulty": "easy",
+    "doc_type": "jurisprudence_europeenne",
+    "expected": [
+      "jurisprudence_europeenne/arret_de_la_cour_de_justice_europeenne_du_30_01_2020_n_c_725_18_e2d009f5"
+    ],
+    "secondary": [],
+    "notes": "CJUE 30.01.2020, C-725/18 (Anton van Zantbeek), résumé: 'Taxe sur les opérations de bourse conclues ou exécutées dans un État membre – Différence de traitement au détriment de destinataires de services faisant appel à des intermédiaires professionnels non-résidents' ; 'L'article 56 TFUE et l'article 36 de l'accord EEE ... ne s'opposent pas à une réglementation d'un État membre qui instaure une taxe sur les opérations de bourse conclues ou exécutées sur ordre d'un résident de cet État membre par un intermédiaire professionnel non-résident'."
+  },
+  {
+    "id": "C57",
+    "question": "Mon entreprise offre à ses clients des petits cadeaux de fin d'année : en dessous de quel prix d'achat n'ai-je pas à reverser la TVA déduite sur ces biens prélevés du stock ?",
+    "topic": "tva_prelevement_cadeaux_commerciaux_faible_valeur",
+    "difficulty": "medium",
+    "doc_type": "arretes_royaux",
+    "expected": [
+      "arretes_royaux/tva_arrete_royal_n_59_du_18_mai_2020_relatif_au_prelevement_de_cadeaux_commercia_86df0dc5"
+    ],
+    "secondary": [
+      "arretes_royaux/tva_arrete_royal_n_59_du_28_mai_2019_relatif_au_prelevement_de_cadeaux_commercia_6a8012e2"
+    ],
+    "notes": "AR n° 59 du 18.05.2020, art. 1: 'Ne sont pas assimilés à des livraisons de biens effectuées à titre onéreux ... les prélèvements de biens effectués par un assujetti en vue de la remise à titre gratuit de cadeaux commerciaux de faible valeur ... 3° le prix d'achat, ou, à défaut de prix d'achat, la valeur normale du bien, est inférieur à 50 euros, hors taxe.' The 2019 AR n° 59 (abrogated 01.07.2020) carries the same rule; the 2020 version is the one in force."
+  },
+  {
+    "id": "C58",
+    "question": "Nous recrutons un cadre venant de l'étranger sous le régime spécial des contribuables impatriés : dans quel délai la demande d'accord doit-elle être introduite et quel arrêté royal fixe le formulaire ?",
+    "topic": "ipp_regime_impatries_formulaire_demande_accord",
+    "difficulty": "easy",
+    "doc_type": "arretes_royaux",
+    "expected": [
+      "arretes_royaux/05_03_2022_arrete_royal_fixant_la_forme_et_le_contenu_du_formulaire_de_demande_d_47ab0660"
+    ],
+    "secondary": [],
+    "notes": "AR 05.03.2022 'fixant la forme et le contenu du formulaire de demande d'accord pour l'application du régime spécial d'imposition pour les contribuables impatriés et les chercheurs impatriés' (art. 32/1 et 32/2 CIR 92): 'l'accord relatif à l'application du régime spécial d'imposition ... doit être demandé dans un délai de trois mois à compter de la date d'entrée en service de l'assujetti ou du chercheur concerné'."
+  },
+  {
+    "id": "C59",
+    "question": "Je suis fruiticulteur et j'emploie des travailleurs occasionnels : à combien s'élève la dispense temporaire de versement du précompte professionnel par heure prestée introduite après la hausse des salaires de juillet 2023 ?",
+    "topic": "precompte_professionnel_dispense_travailleurs_occasionnels_fruiticulture",
+    "difficulty": "easy",
+    "doc_type": "arretes_royaux",
+    "expected": [
+      "arretes_royaux/08_11_2023_arrete_royal_relatif_a_la_dispense_temporaire_de_versement_du_precomp_f924a66e"
+    ],
+    "secondary": [],
+    "notes": "AR 08.11.2023 relatif à la dispense temporaire de versement du précompte professionnel (loi 08.11.2023 travailleurs occasionnels agriculture/horticulture): 'le gouvernement fédéral compense temporairement le surcoût dû à cette augmentation salariale par le biais d'une dispense de versement du précompte professionnel d'un montant de 1,23 euro par heure' ; 'applicable aux rémunérations pour les heures prestées en tant que travailleur occasionnel dans la fruiticulture et la culture maraîchère à partir du 1er juillet 2023'."
+  },
+  {
+    "id": "C60",
+    "question": "En 2026, je veux régulariser auprès du Vlaamse Belastingdienst des avoirs hérités que je n'avais pas déclarés : quel pourcentage de prélèvement de régularisation s'applique pour une succession en ligne directe, prescrite ou non ?",
+    "topic": "succession_regularisation_fiscale_flamande_2026",
+    "difficulty": "hard",
+    "doc_type": "legislation_et_reglementation_regionale_et_locale",
+    "expected": [
+      "legislation_et_reglementation_regionale_et_locale/19_12_2025_decret_programme_accompagnant_le_budget_2026_extrait_chapitre_3_secti_95e629a6"
+    ],
+    "secondary": [
+      "legislation_et_reglementation_regionale_et_locale/10_02_2017_decret_portant_une_regularisation_fiscale_flamande_temporaire_c0a51945"
+    ],
+    "notes": "Décret-programme flamand 19.12.2025 (budget 2026), section 'Introduction d'une régularisation fiscale flamande': '1° 40 % pour une acquisition en ligne directe ou entre partenaires ; 2° 75 % pour une acquisition autre' ; '§ 2. Les montants fiscalement prescrits ... sont soumis à un prélèvement de régularisation forfaitaire de 40 %'. The 2017 temporary Flemish regularisation decree is a near-duplicate with older rates (35 % / 70 % / 37 %), hence the year in the question."
+  },
+  {
+    "id": "C61",
+    "question": "Mon père, domicilié à Bruxelles, m'a transmis à son décès les parts de sa PME : quelles attestations en matière d'emploi et de capital dois-je demander à Bruxelles Fiscalité pour obtenir le tarif réduit des droits de succession ?",
+    "topic": "succession_transmission_pme_taux_reduit_bruxelles",
+    "difficulty": "hard",
+    "doc_type": "legislation_et_reglementation_regionale_et_locale",
+    "expected": [
+      "legislation_et_reglementation_regionale_et_locale/21_01_1999_arrete_du_gouvernement_de_la_region_de_bruxelles_capitale_relatif_au_e6a5e473"
+    ],
+    "secondary": [
+      "legislation_et_reglementation_regionale_et_locale/17_03_1999_arrete_du_gouvernement_wallon_relatif_au_taux_reduit_sur_les_droits_d_681b4d56"
+    ],
+    "notes": "Arrêté Gouv. Région de Bruxelles-Capitale 21.01.1999 relatif au taux réduit pour les droits de succession en cas de transmission de PME (art. 60bis C. succ.): annexes 'Formulaire de demande de l'attestation en matière d'emploi et de capital', 'Attestation annuelle en matière d'emploi et de capital' ; définitions '4° l'administration : le Service public régional de Bruxelles Fiscalité' ; '7° les titres : les actions ou parts sociales'. The Walloon AGW 17.03.1999 on the same subject (abrogated 2005) is the near-duplicate."
+  },
+  {
+    "id": "C62",
+    "question": "Un nouveau plan d'exécution spatial fait passer ma parcelle en Flandre d'une zone forestière à une zone d'habitat : comment est calculée la taxe sur les bénéfices résultant de la planification spatiale et à quels taux ?",
+    "topic": "flandre_taxe_benefices_planification_spatiale",
+    "difficulty": "easy",
+    "doc_type": "legislation_et_reglementation_regionale_et_locale",
+    "expected": [
+      "legislation_et_reglementation_regionale_et_locale/15_05_2009_code_flamand_de_l_amenagement_du_territoire_extrait_taxe_sur_les_bene_beb6ad05"
+    ],
+    "secondary": [],
+    "notes": "Code flamand de l'aménagement du territoire (extrait), art. 2.6.4: 'Une taxe sur les bénéfices résultant de la planification spatiale est due lorsque l'entrée en vigueur d'un plan d'exécution spatial entraîne ... 1° la modification de destination d'une zone ... forêt ... en une zone relevant de la catégorie d'affectation habiter' ; calcul: 'première tranche : plus-value inférieure ou égale à 250 000 euros, taxée à 25 pour cent ; deuxième tranche : plus-value supérieure à 250 000 euros, taxée à 50 pour cent'."
+  },
+  {
+    "id": "C63",
+    "question": "Je suis pensionné, je vis en Belgique et je touche une pension complémentaire d'un ancien employeur néerlandais sur laquelle les Pays-Bas ont aussi retenu de l'impôt : quel pays peut m'imposer et comment éviter la double imposition ?",
+    "topic": "pension_complementaire_neerlandaise_double_imposition",
+    "difficulty": "medium",
+    "doc_type": "communications",
+    "expected": [
+      "communications/09_02_2022_avis_imposition_d_une_pension_complementaire_2eme_pilier_de_source_ne_7b9f0acb"
+    ],
+    "secondary": [],
+    "notes": "Avis 09.02.2022 'Imposition d'une pension complémentaire (2ème pilier) de source néerlandaise - Eviter la double imposition': 'les prestations périodiques des engagements collectifs de pension complémentaire (2ème pilier) de source néerlandaise ... sont considérées sans équivoque comme des pensions complémentaires au sens de l'article 34 du CIR 92' ; 'En vertu de la convention préventive de la double imposition, la Belgique est compétente pour imposer ces prestations' ; 'vous pouvez demander le remboursement des éventuelles retenues d'impôt néerlandaises ... via une déclaration néerlandaise d'impôt sur le revenu'."
+  },
+  {
+    "id": "C64",
+    "question": "Quelles opérations d'une société de capitaux (apports de capital, émission d'actions, restructurations) la directive européenne sur les impôts indirects frappant les rassemblements de capitaux interdit-elle aux Etats membres de taxer ?",
+    "topic": "droit_apport_directive_2008_7_rassemblements_capitaux",
+    "difficulty": "easy",
+    "doc_type": "reglementation_europeenne",
+    "expected": [
+      "reglementation_europeenne/12_02_2008_directive_2008_7_ce_du_conseil_du_12_fevrier_2008_concernant_les_impo_781bf81b"
+    ],
+    "secondary": [],
+    "notes": "Directive 2008/7/CE, art. 5: '1. Les États membres exonèrent les sociétés de capitaux de toute forme d'imposition indirecte: a) sur les apports de capital; b) sur les prêts ou prestations effectués dans le cadre d'apports de capital; ... e) sur les opérations de restructuration visées à l'article 4. 2. Les États membres ne soumettent à aucune imposition indirecte ... a) la création, l'émission, l'admission en Bourse, la mise en circulation ou la négociation d'actions'."
+  }
+]

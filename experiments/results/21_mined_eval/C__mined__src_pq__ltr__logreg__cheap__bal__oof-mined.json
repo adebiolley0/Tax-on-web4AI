@@ -1,0 +1,3107 @@
+{
+ "name": "mined__src_pq__ltr__logreg__cheap__bal__oof-mined",
+ "corpus": "C",
+ "config": {
+  "method": "logreg",
+  "features": "cheap",
+  "n_features": 53,
+  "C": 1.0,
+  "fit": "2-fold oof over mined",
+  "balanced": true,
+  "questions": "mined__src_pq",
+  "part": 3
+ },
+ "metrics": {
+  "mrr": 0.1731,
+  "ndcg@5": 0.1416,
+  "ndcg@10": 0.1531,
+  "hit@1": 0.1227,
+  "hit@3": 0.2086,
+  "hit@5": 0.2577,
+  "hit@10": 0.2945,
+  "recall@5": 0.1541,
+  "recall@10": 0.189,
+  "n_questions": 163,
+  "train_mrr": 0.2113,
+  "train_hit@1": 0.1579,
+  "train_hit@5": 0.2895,
+  "train_recall@10": 0.1966,
+  "train_n": 76,
+  "val_mrr": 0.1398,
+  "val_hit@1": 0.092,
+  "val_hit@5": 0.2299,
+  "val_recall@10": 0.1824,
+  "val_n": 87,
+  "recall@30": 0.2118,
+  "hit@30": 0.3129
+ },
+ "per_question": {
+  "MC-PQ-683fc753": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_region_de_bruxelles_capitale_dd9ae315",
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_region_wallonne_bf717dc7",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_96_du_code_des_droits_de_succession_region_de_bruxelles_capitale_b2fd19b7",
+    "code_et_legislation/article_67bis_du_code_des_droits_de_succession_region_wallonne_1fbe52fe"
+   ],
+   "expected": [
+    "code_et_legislation/article_40_du_code_des_droits_de_succession_legislation_federale_580a1cf0",
+    "code_et_legislation/article_40_du_code_des_droits_de_succession_region_de_bruxelles_capitale_49d71b34",
+    "code_et_legislation/article_40_du_code_des_droits_de_succession_region_wallonne_318af179"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-129c17d5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_79_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_af2725ca",
+    "code_et_legislation/article_79_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_1347b9ac",
+    "code_et_legislation/article_80_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_6436c374",
+    "code_et_legislation/article_326_2_cir_92_revenus_2027_7785e1ee",
+    "code_et_legislation/article_326_2_cir_92_revenus_2025_c39c4ab1"
+   ],
+   "expected": [
+    "code_et_legislation/article_79_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_1347b9ac",
+    "code_et_legislation/article_79_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_e15db497",
+    "code_et_legislation/article_79_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_af2725ca",
+    "code_et_legislation/article_79_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_0fd264f8"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e444dfde": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "circulaires/circulaire_n_69_dd_26_06_1972_9aee25ca",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_c6ed0908",
+    "code_et_legislation/article_52_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_b3629db6",
+    "code_et_legislation/article_52_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_602d2e24",
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876"
+   ],
+   "expected": [
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_c6ed0908",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_3f3fcd38",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_2458a347",
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876",
+    "code_et_legislation/article_71_cir_92_revenus_2025_586b6124",
+    "code_et_legislation/article_71_cir_92_revenus_2026_0c150e31",
+    "code_et_legislation/article_71_cir_92_revenus_2027_1545a2b1"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-70661b2f": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_184ter_cir_92_revenus_2025_b0d64f14",
+    "code_et_legislation/article_184ter_cir_92_revenus_2026_96faa393",
+    "code_et_legislation/article_184ter_cir_92_revenus_2027_2386a8b2",
+    "code_et_legislation/article_102_cir_92_revenus_2027_524cb9f9",
+    "code_et_legislation/article_102_cir_92_revenus_2026_97624f90"
+   ],
+   "expected": [
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_legislation_federale_a5713fa9",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_de_bruxelles_capitale_62eafbd1",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_wallonne_31206a4c",
+    "code_et_legislation/article_111_du_code_des_droits_de_succession_legislation_federale_d8485f85",
+    "code_et_legislation/article_111_du_code_des_droits_de_succession_region_de_bruxelles_capitale_e1c2f911",
+    "code_et_legislation/article_111_du_code_des_droits_de_succession_region_wallonne_43eb411a"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-eb880724": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/chapitre_2_vehicules_version_01_07_2023_02b327c1",
+    "code_et_legislation/article_45_code_de_la_tva_fd4293cf",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_89e8e8ca",
+    "circulaires/circulaire_agfisc_n_17_2016_n_ci_706_327_du_14_06_2016_3d9cdaef",
+    "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95"
+   ],
+   "expected": [
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_d41546d7",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_de1e807e",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7",
+    "code_et_legislation/article_3_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_74f78f9e",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_729eab9e",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_95f48da0",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_bb5c7824",
+    "code_et_legislation/article_42_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_0c9f009c"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-bbde524a": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "circulaires/circulaire_n_afer_15_2004_arec_3_2004_ir_iv_4_48_165_e_t_100_223_dd_10_03_2004_d0f9a721",
+    "circulaires/circulaire_2019_c_23_relative_a_la_notion_dutilisation_comme_moyen_de_locomotion_59d9d596",
+    "circulaires/circulaire_n_2_dd_30_01_1984_f52287da",
+    "code_et_legislation/article_96_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_851c54f5"
+   ],
+   "expected": [
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_659b4401",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_bfbd9d5a",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a8c2dd73",
+    "code_et_legislation/article_96_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_851c54f5"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-461d8a1b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_300_cir_92_region_de_bruxelles_capitale_429e5da5",
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_du_06_06_2006_16644432",
+    "code_et_legislation/article_57_1_c_b_p_f_d2617870",
+    "code_et_legislation/16_03_1968_loi_relative_a_la_police_de_la_circulation_routiere_c4913f3d",
+    "code_et_legislation/article_4_c_b_p_f_179e0d05"
+   ],
+   "expected": [
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_53f43f47",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_9abece7d",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_388a4aaa",
+    "code_et_legislation/article_4_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_16dd507f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-1b7173f9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_429_cir_92_region_de_bruxelles_capitale_ea52d188",
+    "code_et_legislation/13_07_1987_loi_relative_aux_redevances_radio_et_television_be131828",
+    "circulaires/circulaire_n_ir_iv_4_91_638_arec_2_2009_afer_51_2009_dd_10_11_2009_96381c5d",
+    "circulaires/circulaire_n_5_dd_02_03_1995_b227cf98",
+    "circulaires/circulaire_n_afer_16_2004_e_t_98_234_du_23_03_2004_remplacee_0864bceb"
+   ],
+   "expected": [
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_c6ed0908",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_3f3fcd38",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_2458a347",
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876",
+    "code_et_legislation/article_53_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_a0a1842a",
+    "code_et_legislation/article_53_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_9eb3d5d4",
+    "code_et_legislation/article_53_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_506e7831",
+    "code_et_legislation/article_53_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_f18d9606"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5dff38e2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_381_cir_92_revenus_2025_ce826d60",
+    "code_et_legislation/11_08_2017_loi_portant_assentiment_a_la_convention_du_conseil_de_l_europe_pour_l_579f277c",
+    "code_et_legislation/19_03_2020_accord_de_cooperation_relatif_aux_competences_des_communautes_et_de_l_325b909d",
+    "code_et_legislation/13_12_2013_accord_de_cooperation_entre_l_etat_federal_les_communautes_les_region_8a8b88a0",
+    "code_et_legislation/article_2_cir_92_revenus_2026_8a86d077"
+   ],
+   "expected": [
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_d41546d7",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_de1e807e",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7",
+    "code_et_legislation/article_3_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_74f78f9e"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-320c16ef": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95",
+    "circulaires/circulaire_n_12_dd_24_05_1982_3ae7eec1",
+    "circulaires/circulaire_n_9_dd_30_07_1985_9f953ee5",
+    "circulaires/circulaire_n_113_dd_12_07_1971_795aa281",
+    "circulaires/circulaire_n_10_dd_01_06_1993_545f6fd7"
+   ],
+   "expected": [
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_br_0d593c85",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flama_e1f83fa4",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallo_38953508",
+    "code_et_legislation/article_100_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_re_f6e4a241"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-428a0b3d": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7",
+    "code_et_legislation/article_3_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_74f78f9e",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_d41546d7",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_de1e807e",
+    "code_et_legislation/article_4_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_16dd507f"
+   ],
+   "expected": [
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_8c79e734",
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_74e775eb",
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_5ab39cd5",
+    "code_et_legislation/article_29_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_cf3c338d",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_53f43f47",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_9abece7d",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_388a4aaa",
+    "code_et_legislation/article_4_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_16dd507f"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-270e4192": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/15_12_2004_loi_relative_aux_suretes_financieres_et_portant_des_dispositions_fisc_9b002fc5",
+    "code_et_legislation/article_145_33_cir_92_revenus_2025_4219b0a6",
+    "jurisprudence_europeenne/arret_de_la_cour_de_justice_europeenne_du_21_06_2007_n_c_366_05_8c33b223",
+    "code_et_legislation/01_04_2007_loi_relative_aux_offres_publiques_d_acquisition_e1bcab5f",
+    "code_et_legislation/19_05_2010_loi_portant_creation_de_la_banque_carrefour_des_vehicules_ce899d85"
+   ],
+   "expected": [
+    "code_et_legislation/article_145_10_cir_92_revenus_2025_cfd1c3c0",
+    "code_et_legislation/article_145_10_cir_92_revenus_2026_7fb55c58",
+    "code_et_legislation/article_145_10_cir_92_revenus_2027_fc747bf2",
+    "code_et_legislation/article_145_11_cir_92_revenus_2025_6b66ce93",
+    "code_et_legislation/article_145_11_cir_92_revenus_2026_50e54d81",
+    "code_et_legislation/article_145_11_cir_92_revenus_2027_02d38933",
+    "code_et_legislation/article_145_12_cir_92_revenus_2025_bcb6c2c3",
+    "code_et_legislation/article_145_12_cir_92_revenus_2026_498c50a0",
+    "code_et_legislation/article_145_12_cir_92_revenus_2027_a35cb005",
+    "code_et_legislation/article_145_13_cir_92_revenus_2025_79b8a34c",
+    "code_et_legislation/article_145_13_cir_92_revenus_2026_a6a8736f",
+    "code_et_legislation/article_145_13_cir_92_revenus_2027_feb83373",
+    "code_et_legislation/article_145_14_cir_92_revenus_2025_521938c1",
+    "code_et_legislation/article_145_14_cir_92_revenus_2026_866c6cf8",
+    "code_et_legislation/article_145_14_cir_92_revenus_2027_f0327e20",
+    "code_et_legislation/article_145_15_cir_92_revenus_2025_55c80855",
+    "code_et_legislation/article_145_15_cir_92_revenus_2026_24f72795",
+    "code_et_legislation/article_145_15_cir_92_revenus_2027_5e63a1da",
+    "code_et_legislation/article_145_16_cir_92_revenus_2025_bda85356",
+    "code_et_legislation/article_145_16_cir_92_revenus_2026_242ed7aa",
+    "code_et_legislation/article_145_16_cir_92_revenus_2027_586c9dfd",
+    "code_et_legislation/article_145_8_cir_92_revenus_2025_7230f4c3",
+    "code_et_legislation/article_145_8_cir_92_revenus_2026_62bf4033",
+    "code_et_legislation/article_145_8_cir_92_revenus_2027_46fc1141",
+    "code_et_legislation/article_145_9_cir_92_revenus_2025_3ce43cb0",
+    "code_et_legislation/article_145_9_cir_92_revenus_2026_985a3467",
+    "code_et_legislation/article_145_9_cir_92_revenus_2027_f4713942",
+    "code_et_legislation/article_174_cir_92_revenus_2025_5a4f9fac",
+    "code_et_legislation/article_174_cir_92_revenus_2026_93675883",
+    "code_et_legislation/article_174_cir_92_revenus_2027_b0be6c75"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-80a88416": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_5_2014_du_20_02_2014_aeb98e88",
+    "code_et_legislation/08_07_2018_loi_portant_organisation_d_un_point_de_contact_central_des_comptes_et_7eda22ca",
+    "code_et_legislation/article_375_cir_92_region_de_bruxelles_capitale_3e930a89",
+    "code_et_legislation/article_190_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_e577a71d",
+    "code_et_legislation/article_190_du_code_des_droits_d_enregistrement_region_wallonne_be3923fc"
+   ],
+   "expected": [
+    "code_et_legislation/article_131_du_code_des_droits_de_succession_legislation_federale_1d0aaa63",
+    "code_et_legislation/article_131_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2c9cc54e",
+    "code_et_legislation/article_131_du_code_des_droits_de_succession_region_wallonne_b6654304",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_legislation_federale_78474f36",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_region_de_bruxelles_capitale_c0cb8812",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_region_wallonne_aad394c3"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-79db3f64": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_7_2004_aaf_11_2004_dos_e_e_l_139_du_12_05_2004_a674e10a",
+    "code_et_legislation/livre_4_a17133a6",
+    "code_et_legislation/livre_2_d6eb432d",
+    "circulaires/circulaire_2019_c_91_concernant_lordonnance_du_21_fevrier_2019_en_matiere_de_dro_2764e21e",
+    "circulaires/circulaire_n_13_2007_aaf_10_2007_du_10_07_2007_a5d3aa39"
+   ],
+   "expected": [
+    "code_et_legislation/article_80_du_code_des_droits_de_succession_legislation_federale_e55c9d5c",
+    "code_et_legislation/article_80_du_code_des_droits_de_succession_region_de_bruxelles_capitale_c69f8ae6",
+    "code_et_legislation/article_80_du_code_des_droits_de_succession_region_wallonne_b6027194"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-378588ef": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_66_cir_92_revenus_2025_02e02931",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_e303f856",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_89e8e8ca",
+    "code_et_legislation/article_550_cir_92_revenus_2027_5e22256f",
+    "code_et_legislation/article_550_cir_92_revenus_2026_8a670bab"
+   ],
+   "expected": [
+    "code_et_legislation/article_11_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_fcade452",
+    "code_et_legislation/article_11_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_805a4567",
+    "code_et_legislation/article_11_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_3e80013f",
+    "code_et_legislation/article_11_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_bf3bbfa0"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-8fd7ef2b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "code_et_legislation/article_37_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f16b2ebf"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-22dea790": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/article_83_4_du_code_des_droits_de_succession_region_wallonne_e3b39fde",
+    "code_et_legislation/article_83_4_du_code_des_droits_de_succession_legislation_federale_5a182946",
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_region_wallonne_388775e2",
+    "code_et_legislation/article_83_4_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3a41b395",
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d39cc090"
+   ],
+   "expected": [
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_legislation_federale_ed52df59",
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d39cc090",
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_region_wallonne_388775e2"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-b9536c76": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_659b4401",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a8c2dd73",
+    "code_et_legislation/article_96_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_851c54f5",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561",
+    "code_et_legislation/article_63quinquies_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_regi_0e31988b"
+   ],
+   "expected": [
+    "code_et_legislation/article_77_code_de_la_tva_2c8f22ff",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_659b4401",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_bfbd9d5a",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a8c2dd73",
+    "code_et_legislation/article_96_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_851c54f5"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-538287aa": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_46_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d43f61cb",
+    "code_et_legislation/article_46_du_code_des_droits_de_succession_region_wallonne_9aa01d9e",
+    "code_et_legislation/article_46_du_code_des_droits_de_succession_legislation_federale_31d79cde",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "code_et_legislation/article_103_1_du_code_des_droits_de_succession_legislation_federale_a60da1a3"
+   ],
+   "expected": [
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_legislation_federale_a5713fa9",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_de_bruxelles_capitale_62eafbd1",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_wallonne_31206a4c"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-af76c64e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "legislation_et_reglementation_regionale_et_locale/16_10_1995_decret_relatif_a_la_publicite_des_documents_administratifs_a5b935f9",
+    "code_et_legislation/article_211bis_code_droits_et_taxes_divers_a21cdbdd",
+    "code_et_legislation/article_93bis_1_code_de_la_tva_7a095488",
+    "legislation_et_reglementation_regionale_et_locale/30_03_1995_decret_relatif_a_la_publicite_de_l_administration_444ad3be",
+    "legislation_et_reglementation_regionale_et_locale/22_12_1994_decret_relatif_a_la_publicite_de_l_administration_a5f2f360"
+   ],
+   "expected": [
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_legislation_federale_78474f36",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_region_de_bruxelles_capitale_c0cb8812",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_region_wallonne_aad394c3"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-d5c9ac72": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_legislation_federale_a791b32b",
+    "code_et_legislation/article_11_du_code_des_droits_de_succession_region_de_bruxelles_capitale_b541f47a",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2026_0450_du_27_07_2026_0932b3fb",
+    "code_et_legislation/article_60bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3fdeb5a2",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd"
+   ],
+   "expected": [
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_legislation_federale_a791b32b",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d0f1ddb9",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_wallonne_f43bc33b"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a3ccc85e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_108_du_code_des_droits_de_succession_legislation_federale_b8e7586c",
+    "code_et_legislation/article_108_du_code_des_droits_de_succession_region_de_bruxelles_capitale_75c1fadd",
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_region_wallonne_bf717dc7",
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_legislation_federale_c96573ed",
+    "code_et_legislation/article_108_du_code_des_droits_de_succession_region_wallonne_0ca1643d"
+   ],
+   "expected": [
+    "code_et_legislation/article_108_du_code_des_droits_de_succession_legislation_federale_b8e7586c",
+    "code_et_legislation/article_108_du_code_des_droits_de_succession_region_de_bruxelles_capitale_75c1fadd",
+    "code_et_legislation/article_108_du_code_des_droits_de_succession_region_wallonne_0ca1643d"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5bf40250": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/article_95_du_code_des_droits_de_succession_legislation_federale_a27a1bf1",
+    "code_et_legislation/article_102_3_du_code_des_droits_de_succession_legislation_federale_ad8d5cbc",
+    "code_et_legislation/article_98_du_code_des_droits_de_succession_legislation_federale_e1a5d1ed",
+    "code_et_legislation/article_102_1_du_code_des_droits_de_succession_legislation_federale_7433672d",
+    "code_et_legislation/article_102_1_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8d66e31d"
+   ],
+   "expected": [
+    "code_et_legislation/article_101_du_code_des_droits_de_succession_legislation_federale_2e16bb03",
+    "code_et_legislation/article_101_du_code_des_droits_de_succession_region_de_bruxelles_capitale_56df2719",
+    "code_et_legislation/article_101_du_code_des_droits_de_succession_region_wallonne_0efc90a2",
+    "code_et_legislation/article_98_du_code_des_droits_de_succession_legislation_federale_e1a5d1ed",
+    "code_et_legislation/article_98_du_code_des_droits_de_succession_region_de_bruxelles_capitale_c342c713",
+    "code_et_legislation/article_98_du_code_des_droits_de_succession_region_wallonne_76e8f7e3",
+    "code_et_legislation/article_3_du_code_des_droits_de_succession_legislation_federale_c69fa2b0",
+    "code_et_legislation/article_3_du_code_des_droits_de_succession_region_de_bruxelles_capitale_fd99c960",
+    "code_et_legislation/article_3_du_code_des_droits_de_succession_region_wallonne_3ea432ae"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8dc21042": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_52_cir_92_revenus_2027_06d3e791",
+    "code_et_legislation/article_52_cir_92_revenus_2026_60edb410",
+    "code_et_legislation/article_52_cir_92_revenus_2025_d27ab295",
+    "circulaires/circulaire_n_15_2004_aaf_15_2004_dos_e_e_l_t_t_91_du_22_10_2004_a94859e6",
+    "code_et_legislation/10_08_2015_loi_programme_66cd7b92"
+   ],
+   "expected": [
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_legislation_federale_3d875fd6",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7291896b",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917",
+    "code_et_legislation/article_145_cir_92_revenus_2025_24aafaf3",
+    "code_et_legislation/article_145_cir_92_revenus_2026_122041dc",
+    "code_et_legislation/article_145_cir_92_revenus_2027_0b05ff9e"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-11c9be88": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_60quinquies_du_code_des_droits_de_succession_region_de_bruxelles_capital_57bea869",
+    "code_et_legislation/article_66_du_code_des_droits_de_succession_legislation_federale_daec1427",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953",
+    "circulaires/circulaire_n_2_e_e_e_l_17_du_23_03_1998_01d37b42"
+   ],
+   "expected": [
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_legislation_federale_e239a423",
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_region_de_bruxelles_capitale_4a096327",
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_region_wallonne_c645caf1"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-1a7aa41e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_203_cir_92_revenus_2027_0fd972f0",
+    "code_et_legislation/article_203_cir_92_revenus_2025_925cc46a",
+    "code_et_legislation/article_203_cir_92_revenus_2026_ade2cc1d",
+    "circulaires/24_11_2010_taxe_de_mise_en_circulation_en_region_wallonne_introduction_dun_eco_m_c6c7254a",
+    "circulaires/circulaire_2025_c_74_autorisant_la_mise_en_circulation_dun_bordereau_de_detaxati_6af7e551"
+   ],
+   "expected": [
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_br_0d593c85",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flama_e1f83fa4",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallo_38953508",
+    "code_et_legislation/article_100_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_re_f6e4a241",
+    "code_et_legislation/article_99_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_d2b14246",
+    "code_et_legislation/article_99_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_cbe55e55",
+    "code_et_legislation/article_99_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_bf7244b8",
+    "code_et_legislation/article_99_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_653dd2d9"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ccadd6b6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/12_05_2014_loi_relative_aux_societes_immobilieres_reglementees_4c5602e1",
+    "circulaires/circulaire_n_12_2004_aaf_14_2004_e_e_l_136_du_21_09_2004_3a95597e",
+    "circulaires/circulaire_n_2_e_l_1141_du_27_03_1997_3ec2a276",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_700_221_du_10_07_2007_9c17e2d5",
+    "legislation_et_reglementation_regionale_et_locale/03_05_1995_arrete_du_gouvernement_flamand_reglant_l_exoneration_de_droits_de_suc_fb284ec3"
+   ],
+   "expected": [
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f",
+    "code_et_legislation/article_122_du_code_des_droits_d_enregistrement_legislation_federale_15405f04",
+    "code_et_legislation/article_122_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_81a28a2d",
+    "code_et_legislation/article_122_du_code_des_droits_d_enregistrement_region_wallonne_00ed0085",
+    "code_et_legislation/article_120_du_code_des_droits_d_enregistrement_legislation_federale_8d03b1cd",
+    "code_et_legislation/article_120_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_56da94b7",
+    "code_et_legislation/article_120_du_code_des_droits_d_enregistrement_region_wallonne_d17de4b6"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-255e37f5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_75_cir_92_revenus_2027_421cddd9",
+    "code_et_legislation/article_75_cir_92_revenus_2025_7cc4a159",
+    "code_et_legislation/article_75_cir_92_revenus_2026_804ca603",
+    "circulaires/circulaire_n_73_du_11_07_1972_1e3acb97",
+    "circulaires/circulaire_n_9_dd_30_07_1985_9f953ee5"
+   ],
+   "expected": [
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "code_et_legislation/article_66_cir_92_revenus_2025_02e02931",
+    "code_et_legislation/article_66_cir_92_revenus_2026_f233da76",
+    "code_et_legislation/article_66_cir_92_revenus_2027_01c1e19e"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bcb3a36f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_18_code_de_la_tva_fc5ff43e",
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f",
+    "code_et_legislation/article_53decies_code_de_la_tva_86141bb2",
+    "circulaires/circulaire_2019_c_121_relative_a_lordonnance_bruxelloise_du_13_decembre_2018_mod_1ffe737a",
+    "circulaires/circulaire_n_8_dd_31_08_1989_96ba058f"
+   ],
+   "expected": [
+    "code_et_legislation/article_18_code_de_la_tva_fc5ff43e",
+    "code_et_legislation/article_19_du_code_des_droits_d_enregistrement_legislation_federale_cc16690e",
+    "code_et_legislation/article_19_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_0deb1ec6",
+    "code_et_legislation/article_19_du_code_des_droits_d_enregistrement_region_wallonne_767bbdf6",
+    "code_et_legislation/article_4_du_code_des_droits_d_enregistrement_legislation_federale_217ed5d6",
+    "code_et_legislation/article_4_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_d7bd533f",
+    "code_et_legislation/article_4_du_code_des_droits_d_enregistrement_region_wallonne_bf43c9ae"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a550e39e": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/article_91_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_44d29e68",
+    "code_et_legislation/article_91_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_b2fa0ec4",
+    "code_et_legislation/article_77_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_578739a5",
+    "code_et_legislation/07_05_1999_loi_sur_les_jeux_de_hasard_les_paris_les_etablissements_de_jeux_de_ha_7f27acfb",
+    "code_et_legislation/19_04_2002_loi_relative_a_la_rationalisation_du_fonctionnement_et_de_la_gestion_0296caf0"
+   ],
+   "expected": [
+    "code_et_legislation/article_77_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_a92ae189",
+    "code_et_legislation/article_77_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_7070406f",
+    "code_et_legislation/article_77_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_578739a5",
+    "code_et_legislation/article_77_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_e9fb63a1"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d4920eb9": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "legislation_et_reglementation_regionale_et_locale/20_05_2020_arrete_du_gouvernement_de_la_region_de_bruxelles_capitale_de_pouvoirs_47f2d963",
+    "code_et_legislation/article_29_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_cf3c338d",
+    "code_et_legislation/article_153_du_code_des_droits_de_succession_legislation_federale_a305bc1c",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "code_et_legislation/19_12_2025_loi_de_finances_pour_l_annee_budgetaire_2026_0e7a6593"
+   ],
+   "expected": [
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_8c79e734",
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_74e775eb",
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_5ab39cd5",
+    "code_et_legislation/article_29_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_cf3c338d"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-34b10c80": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_332_loi_bancaire_78febc25",
+    "code_et_legislation/15_12_2004_loi_relative_aux_suretes_financieres_et_portant_des_dispositions_fisc_9b002fc5",
+    "code_et_legislation/21_12_2013_loi_relative_a_diverses_dispositions_concernant_le_financement_des_pe_6d0b1ed4",
+    "code_et_legislation/25_10_2016_loi_relative_a_l_acces_a_l_activite_de_prestation_de_services_d_inves_64822e24",
+    "code_et_legislation/article_185_cir_92_revenus_2025_aef4aa1e"
+   ],
+   "expected": [
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9d8b9958": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "questions_parlementaires/question_parlementaire_n_299_de_monsieur_claude_eerdekens_du_23_10_2000_ec90d13d",
+    "code_et_legislation/25_12_2016_loi_programme_titre_3_chapitre_3_ameliorer_le_recouvrement_des_dettes_4537fd45",
+    "code_et_legislation/chapitre_2_vehicules_version_01_07_2023_02b327c1",
+    "circulaires/circulaire_n_14_2003_dos_e_l_t_t_80_du_22_07_2003_f56ab1ac",
+    "code_et_legislation/08_08_1997_loi_sur_les_faillites_8491dbd2"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9840e623",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ff2adfba",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586",
+    "code_et_legislation/article_21_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_ef45da69"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8ec5e4ec": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_211bis_code_droits_et_taxes_divers_a21cdbdd",
+    "code_et_legislation/17_07_2013_loi_relative_a_la_protection_contre_le_faux_monnayage_et_au_maintien_86ab21f9",
+    "code_et_legislation/article_160bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_0e0c6692",
+    "code_et_legislation/article_160bis_du_code_des_droits_de_succession_legislation_federale_941d16bb",
+    "code_et_legislation/article_160bis_du_code_des_droits_de_succession_region_wallonne_790ffeb4"
+   ],
+   "expected": [
+    "code_et_legislation/article_12_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9bd102ac",
+    "code_et_legislation/article_12_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_d7e5a599",
+    "code_et_legislation/article_12_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_58350732",
+    "code_et_legislation/article_12_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_b8d05bdd"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-5da2d820": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_37_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f16b2ebf",
+    "code_et_legislation/article_54_ar_cir_92_revenus_2026_5f367691",
+    "code_et_legislation/article_54_ar_cir_92_revenus_2027_7c762b39",
+    "code_et_legislation/livre_4_a17133a6",
+    "code_et_legislation/article_54_ar_cir_92_revenus_2025_f525e9db"
+   ],
+   "expected": [
+    "code_et_legislation/article_66bis_du_code_des_droits_de_succession_legislation_federale_ce505dea",
+    "code_et_legislation/article_66bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_220070c6",
+    "code_et_legislation/article_66bis_du_code_des_droits_de_succession_region_wallonne_1fd36403",
+    "code_et_legislation/article_133_du_code_des_droits_d_enregistrement_legislation_federale_643cd6bf",
+    "code_et_legislation/article_133_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a360a578",
+    "code_et_legislation/article_133_du_code_des_droits_d_enregistrement_region_wallonne_d9ff97a5",
+    "code_et_legislation/article_48_du_code_des_droits_d_enregistrement_legislation_federale_05f2e9f5",
+    "code_et_legislation/article_48_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_6faae669",
+    "code_et_legislation/article_48_du_code_des_droits_d_enregistrement_region_wallonne_5e16179d"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-4a5918e4": {
+   "rank": 27,
+   "rr": 0.037,
+   "top5": [
+    "code_et_legislation/article_111_ar_cir_92_revenus_2027_a1675cb9",
+    "code_et_legislation/article_111_ar_cir_92_revenus_2026_fa4b46f6",
+    "code_et_legislation/article_111_ar_cir_92_revenus_2025_428f439f",
+    "code_et_legislation/article_412bis_cir_92_revenus_2027_f29d3537",
+    "code_et_legislation/article_412bis_cir_92_revenus_2026_d40064df"
+   ],
+   "expected": [
+    "code_et_legislation/article_301_cir_92_revenus_2025_c0ed1265",
+    "code_et_legislation/article_301_cir_92_revenus_2026_2be0c61e",
+    "code_et_legislation/article_301_cir_92_revenus_2027_8bff8353",
+    "code_et_legislation/article_177_ar_cir_92_revenus_2025_3af1098d",
+    "code_et_legislation/article_177_ar_cir_92_revenus_2026_c560da4d",
+    "code_et_legislation/article_177_ar_cir_92_revenus_2027_4dbcf672"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-aaa21533": {
+   "rank": 9,
+   "rr": 0.1111,
+   "top5": [
+    "code_et_legislation/05_03_2017_arrete_royal_portant_execution_de_la_loi_du_25_avril_2014_relative_au_c5c34adb",
+    "code_et_legislation/article_133_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a360a578",
+    "circulaires/circulaire_n_6_2009_aaf_n_3_2009_du_07_04_2009_45c5863b",
+    "code_et_legislation/20_07_2022_loi_relative_au_statut_et_au_controle_des_societes_de_bourse_et_porta_07a1ccc7",
+    "circulaires/circulaire_n_12_2004_aaf_14_2004_e_e_l_136_du_21_09_2004_3a95597e"
+   ],
+   "expected": [
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_legislation_federale_a5713fa9",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_de_bruxelles_capitale_62eafbd1",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_wallonne_31206a4c"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-36433c09": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_158_5_code_droits_et_taxes_divers_4c065d58",
+    "code_et_legislation/article_48_du_code_des_droits_d_enregistrement_region_wallonne_5e16179d",
+    "code_et_legislation/article_133_du_code_des_droits_d_enregistrement_region_wallonne_d9ff97a5",
+    "code_et_legislation/article_81bis_code_de_la_tva_d34769ff",
+    "code_et_legislation/code_des_droits_et_taxes_divers_coordination_officieuse_bd8ffa7f"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531",
+    "code_et_legislation/article_15_du_code_des_droits_de_succession_legislation_federale_084a874f",
+    "code_et_legislation/article_15_du_code_des_droits_de_succession_region_de_bruxelles_capitale_77974e6d",
+    "code_et_legislation/article_15_du_code_des_droits_de_succession_region_wallonne_83811b15",
+    "code_et_legislation/article_16_du_code_des_droits_de_succession_legislation_federale_48fb05d0",
+    "code_et_legislation/article_16_du_code_des_droits_de_succession_region_de_bruxelles_capitale_306b43ac",
+    "code_et_legislation/article_16_du_code_des_droits_de_succession_region_wallonne_c23098f9"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-07e5f0cd": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_128_du_code_des_droits_de_succession_legislation_federale_c1803c1f",
+    "code_et_legislation/article_128_du_code_des_droits_de_succession_region_wallonne_809787d9",
+    "code_et_legislation/article_128_du_code_des_droits_de_succession_region_de_bruxelles_capitale_69a2c723",
+    "code_et_legislation/article_201_9_2_code_droits_et_taxes_divers_1618469b",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd"
+   ],
+   "expected": [
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_legislation_federale_78474f36",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_region_de_bruxelles_capitale_c0cb8812",
+    "code_et_legislation/article_141_du_code_des_droits_de_succession_region_wallonne_aad394c3"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-8b579a30": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_100_du_code_des_droits_de_succession_legislation_federale_1afc3a8b",
+    "code_et_legislation/article_100_du_code_des_droits_de_succession_region_wallonne_454703e2",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f"
+   ],
+   "expected": [
+    "code_et_legislation/article_220_cir_92_revenus_2025_0d18701a",
+    "code_et_legislation/article_220_cir_92_revenus_2026_6bef940c",
+    "code_et_legislation/article_220_cir_92_revenus_2027_08de7eae"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8bc188a3": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_73_4_3_ar_cir_92_revenus_2027_ea8be892",
+    "code_et_legislation/article_73_4_3_ar_cir_92_revenus_2026_074d195c",
+    "code_et_legislation/article_73_4_3_ar_cir_92_revenus_2025_c032a244",
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_legislation_federale_ed52df59",
+    "code_et_legislation/article_83_3_du_code_des_droits_de_succession_region_wallonne_388775e2"
+   ],
+   "expected": [
+    "code_et_legislation/article_41_du_code_des_droits_de_succession_legislation_federale_bbba8efe",
+    "code_et_legislation/article_41_du_code_des_droits_de_succession_region_de_bruxelles_capitale_bd41f602",
+    "code_et_legislation/article_41_du_code_des_droits_de_succession_region_wallonne_71de9cef"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-369e32de": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_21_2010_du_23_12_2010_d9d00a69",
+    "code_et_legislation/article_177_ar_cir_92_revenus_2026_c560da4d",
+    "code_et_legislation/article_177_ar_cir_92_revenus_2027_4dbcf672",
+    "code_et_legislation/article_491_cir_92_revenus_2026_31711967",
+    "code_et_legislation/article_491_cir_92_revenus_2027_c33fd2d5"
+   ],
+   "expected": [
+    "code_et_legislation/article_61_cir_92_revenus_2025_b31a79c8",
+    "code_et_legislation/article_61_cir_92_revenus_2026_d9e179bc",
+    "code_et_legislation/article_61_cir_92_revenus_2027_77c48b94",
+    "code_et_legislation/article_346_cir_92_region_flamande_025268b1",
+    "code_et_legislation/article_346_cir_92_revenus_2025_4a884e49",
+    "code_et_legislation/article_346_cir_92_revenus_2026_1382b5d7",
+    "code_et_legislation/article_346_cir_92_revenus_2027_536f1bba",
+    "code_et_legislation/article_24_cir_92_revenus_2025_bca5ef3e",
+    "code_et_legislation/article_24_cir_92_revenus_2026_1727e3ac",
+    "code_et_legislation/article_24_cir_92_revenus_2027_75dfc421",
+    "code_et_legislation/article_361_cir_92_revenus_2025_2de02669",
+    "code_et_legislation/article_361_cir_92_revenus_2026_006db14c",
+    "code_et_legislation/article_361_cir_92_revenus_2027_5b9b9fef"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-c3d380a5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_42_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_0c9f009c",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_95f48da0",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_729eab9e",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_bb5c7824",
+    "code_et_legislation/article_107_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_re_5f7f163d"
+   ],
+   "expected": [
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_729eab9e",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_95f48da0",
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_bb5c7824",
+    "code_et_legislation/article_42_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_0c9f009c",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-7ac02ad2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_10_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_943ac8c4",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_e303f856",
+    "code_et_legislation/article_9_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_986b2080",
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_du_06_06_2006_16644432",
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_dd_06_06_2006_ef459973"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9840e623",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ff2adfba",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586",
+    "code_et_legislation/article_21_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_ef45da69"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-fe4c9a38": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_146terdecies_du_code_des_droits_de_succession_legislation_federale_323cd319",
+    "code_et_legislation/article_146terdecies_du_code_des_droits_de_succession_region_wallonne_087e4e60",
+    "code_et_legislation/article_146terdecies_du_code_des_droits_de_succession_region_de_bruxelles_capita_106808b3",
+    "code_et_legislation/article_146quater_du_code_des_droits_de_succession_legislation_federale_8f069b2a",
+    "code_et_legislation/article_146quater_du_code_des_droits_de_succession_region_wallonne_f44096e4"
+   ],
+   "expected": [
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_wallonne_e0d09ddb"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-9a594669": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876",
+    "code_et_legislation/article_66_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_40586e10",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_2458a347",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_c6ed0908",
+    "circulaires/circulaire_n_ir_iv_4_68_616_arec_2_2006_dd_26_06_2006_6e2d782e"
+   ],
+   "expected": [
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_c6ed0908",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_3f3fcd38",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_2458a347",
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-8c99b168": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_337_cir_92_revenus_2026_5ef15160",
+    "code_et_legislation/article_337_cir_92_revenus_2027_d92fd9b1",
+    "circulaires/circulaire_n_ci_rh_243_588_588_afer_25_2008_dd_13_08_2008_d1c2ceff",
+    "code_et_legislation/04_05_2018_arrete_royal_relatif_aux_jeux_de_hasard_sur_des_evenements_sportifs_v_cc1a8c6c",
+    "circulaires/circulaire_2017_c_64_relative_a_la_facture_condition_de_lexercice_du_droit_a_ded_6ecd24e3"
+   ],
+   "expected": [
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_legislation_federale_54efd8a2",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7efdba67",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-2ca98c21": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/21_06_1985_loi_relative_aux_conditions_techniques_auxquelles_doivent_repondre_to_d651891d",
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_namur_du_06_10_2022_4d83d6df",
+    "code_et_legislation/article_57_1_c_b_p_f_d2617870",
+    "code_et_legislation/16_03_1968_loi_relative_a_la_police_de_la_circulation_routiere_c4913f3d",
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_du_06_06_2006_16644432"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9840e623",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ff2adfba",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586",
+    "code_et_legislation/article_21_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_ef45da69",
+    "code_et_legislation/article_31_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_bfdf8b89",
+    "code_et_legislation/article_31_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_32c4547b",
+    "code_et_legislation/article_31_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_4a0afedc",
+    "code_et_legislation/article_31_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_02ef477a"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bcd1788c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd",
+    "circulaires/circulaire_2018_c_65_relative_a_la_taxe_sur_les_comptes_titres_avec_des_exemples_c481d2ed",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "code_et_legislation/article_40_du_code_des_droits_de_succession_legislation_federale_580a1cf0"
+   ],
+   "expected": [
+    "code_et_legislation/article_29_cir_92_revenus_2025_dae11d67",
+    "code_et_legislation/article_29_cir_92_revenus_2026_f5756df4",
+    "code_et_legislation/article_29_cir_92_revenus_2027_4bf04009",
+    "code_et_legislation/article_364_cir_92_revenus_2025_b5b8e298",
+    "code_et_legislation/article_364_cir_92_revenus_2026_13b2ab21",
+    "code_et_legislation/article_364_cir_92_revenus_2027_b09921b7",
+    "code_et_legislation/article_80_cir_92_revenus_2025_6d8b7254",
+    "code_et_legislation/article_80_cir_92_revenus_2026_75d4564d",
+    "code_et_legislation/article_80_cir_92_revenus_2027_40f49169",
+    "code_et_legislation/article_23_cir_92_revenus_2025_97a6af07",
+    "code_et_legislation/article_23_cir_92_revenus_2026_86349a7b",
+    "code_et_legislation/article_23_cir_92_revenus_2027_42419664"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-99b93e31": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953",
+    "code_et_legislation/article_140_1_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_c7c22e17",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "code_et_legislation/article_60bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3fdeb5a2",
+    "code_et_legislation/article_131_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_1f30bae2"
+   ],
+   "expected": [
+    "code_et_legislation/article_4_du_code_des_droits_de_succession_legislation_federale_2a320534",
+    "code_et_legislation/article_4_du_code_des_droits_de_succession_region_de_bruxelles_capitale_af5c9c9f",
+    "code_et_legislation/article_4_du_code_des_droits_de_succession_region_wallonne_20134c6d",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_legislation_federale_54efd8a2",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7efdba67",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-469b69c4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_5_2013_du_10_04_2013_f155e8bf",
+    "code_et_legislation/livre_2_d6eb432d",
+    "circulaires/circulaire_2018_c_38_concernant_le_decret_wallon_du_1er_juin_2017_instaurant_des_af099902",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2013_040_du_18_06_2013_9c5b3cfa",
+    "circulaires/circulaire_n_17_1992_du_22_10_1992_746d3ffd"
+   ],
+   "expected": [
+    "code_et_legislation/article_5_du_code_des_droits_de_succession_legislation_federale_7e123dab",
+    "code_et_legislation/article_5_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8a35a7b0",
+    "code_et_legislation/article_5_du_code_des_droits_de_succession_region_wallonne_91d7d892",
+    "code_et_legislation/article_29_du_code_des_droits_de_succession_legislation_federale_5ed3f668",
+    "code_et_legislation/article_29_du_code_des_droits_de_succession_region_de_bruxelles_capitale_02e54eed",
+    "code_et_legislation/article_29_du_code_des_droits_de_succession_region_wallonne_c42793dd"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-869459d8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/09_01_2012_loi_transposant_la_directive_2010_24_ue_du_conseil_du_16_mars_2010_co_5adce84e",
+    "circulaires/circulaire_2025_c_6_concernant_la_modernisation_de_la_chaine_tva_mise_a_jour_069e7cc9",
+    "code_et_legislation/article_32_1_cir_92_revenus_2026_1e7d321f",
+    "code_et_legislation/article_413_1_cir_92_revenus_2027_81e9c8bc",
+    "code_et_legislation/article_32_1_cir_92_revenus_2027_0134ed2d"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9840e623",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ff2adfba",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586",
+    "code_et_legislation/article_21_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_ef45da69",
+    "code_et_legislation/article_22_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_fd1eba36",
+    "code_et_legislation/article_22_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_601a4284",
+    "code_et_legislation/article_22_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_7fbab85c",
+    "code_et_legislation/article_22_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_9f8c7288"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5ca93afd": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_89e8e8ca",
+    "circulaires/circulaire_afer_n_59_2010_e_t_118_757_du_23_09_2010_5ec9c126",
+    "code_et_legislation/30_03_2018_loi_concernant_l_instauration_d_une_allocation_de_mobilite_d9a1c13f"
+   ],
+   "expected": [
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_b9f424a7",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9a2a4d4d": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/22_05_2001_loi_relative_a_la_participation_des_travailleurs_au_capital_des_socie_fcbb8abc",
+    "code_et_legislation/article_275_8_cir_92_revenus_2027_d99d0a4b",
+    "code_et_legislation/15_05_2014_loi_portant_execution_du_pacte_de_competitivite_d_emploi_et_de_relanc_9f364976",
+    "code_et_legislation/12_12_2021_loi_executant_l_accord_social_dans_le_cadre_des_negociations_interpro_006727b5",
+    "circulaires/circulaire_n_15_2010_du_20_10_2010_ca9dc63a"
+   ],
+   "expected": [
+    "code_et_legislation/article_229_cir_92_revenus_2025_bbe02526",
+    "code_et_legislation/article_229_cir_92_revenus_2026_8af6ad10",
+    "code_et_legislation/article_229_cir_92_revenus_2027_b536655f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-0eb3c109": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2025_c_42_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_e5657afe",
+    "circulaires/circulaire_2018_c_112_concernant_le_decret_wallon_du_13_decembre_2017_en_matiere_f268b8d4",
+    "circulaires/circulaire_n_2_1980_du_17_01_1980_efd7786b",
+    "code_et_legislation/livre_4_a17133a6",
+    "circulaires/circulaire_n_5_2003_du_18_03_2003_18e5db17"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ab189c02": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/livre_4_a17133a6",
+    "circulaires/circulaire_aced_n_4_2005_du_05_04_2005_circ_aaf_n_7_2005_7242ba3c",
+    "code_et_legislation/article_140ter_du_code_des_droits_d_enregistrement_legislation_federale_a4987d9a",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "circulaires/circulaire_n_3_2005_aaf_6_2005_dos_e_e_l_144_du_05_04_2005_bd5213f1"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_droits_de_succession_legislation_federale_76e1432c",
+    "code_et_legislation/article_21_du_code_des_droits_de_succession_region_de_bruxelles_capitale_54440823",
+    "code_et_legislation/article_21_du_code_des_droits_de_succession_region_wallonne_7ae3e430",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_legislation_federale_3d875fd6",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7291896b",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-3b08ad19": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_du_06_06_2006_16644432",
+    "code_et_legislation/article_4_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_16dd507f",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_53f43f47",
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_dd_06_06_2006_ef459973",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_6e957561"
+   ],
+   "expected": [
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_53f43f47",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_9abece7d",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_388a4aaa",
+    "code_et_legislation/article_4_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_16dd507f",
+    "code_et_legislation/article_9_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_brux_986b2080",
+    "code_et_legislation/article_9_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flamand_8e6482a8",
+    "code_et_legislation/article_9_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_8508c7a8",
+    "code_et_legislation/article_9_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_560e7e85"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-2b42c567": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_ir_iv_4_68_616_arec_2_2006_dd_26_06_2006_6e2d782e",
+    "circulaires/circulaire_n_ir_iv_4_91_638_arec_2_2009_afer_51_2009_dd_10_11_2009_96381c5d",
+    "questions_parlementaires/question_parlementaire_n_88_de_monsieur_thierry_giet_du_19_10_1999_1b26de6d",
+    "questions_parlementaires/question_parlementaire_n_644_de_monsieur_jaak_gabriels_du_19_07_1993_a4331d66",
+    "circulaires/circulaire_agfisc_n_32_2016_n_e_t_130_082_dd_30_11_2016_remplacee_7f60daa8"
+   ],
+   "expected": [
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_c6ed0908",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_3f3fcd38",
+    "code_et_legislation/article_43_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_2458a347",
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876",
+    "code_et_legislation/article_367_cir_92_region_de_bruxelles_capitale_22988ef7",
+    "code_et_legislation/article_367_cir_92_region_flamande_9fd233e2",
+    "code_et_legislation/article_367_cir_92_revenus_2025_8bfe1b92",
+    "code_et_legislation/article_367_cir_92_revenus_2026_01f1105a",
+    "code_et_legislation/article_367_cir_92_revenus_2027_c125ebdb",
+    "code_et_legislation/article_371_cir_92_region_flamande_760fcfc7",
+    "code_et_legislation/article_371_cir_92_revenus_2025_c5197de9",
+    "code_et_legislation/article_371_cir_92_revenus_2026_60900504",
+    "code_et_legislation/article_371_cir_92_revenus_2027_69b5bc97"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-b54e11a5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_43_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_4d33d876",
+    "code_et_legislation/article_74_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_cbdb613b",
+    "code_et_legislation/article_74_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_6c382e5f",
+    "code_et_legislation/article_74_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_bf5c4809",
+    "code_et_legislation/article_66_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_f841df79"
+   ],
+   "expected": [
+    "code_et_legislation/article_465_cir_92_revenus_2025_c032b260",
+    "code_et_legislation/article_465_cir_92_revenus_2026_507d7582",
+    "code_et_legislation/article_465_cir_92_revenus_2027_1b74626a"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e1062de9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_1_aaf_2001_0050_dos_258_du_29_01_2001_32eb325b",
+    "circulaires/circulaire_n_2_aaf_2002_0089_dos_282_du_15_01_2002_d0eb686d",
+    "circulaires/circulaire_n_11_2008_du_01_10_2008_afz_17_2008_e201f25a",
+    "circulaires/circulaire_2024_c_42_concernant_lordonnance_de_la_region_de_bruxelles_capitale_d_76be50f6",
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_mons_du_05_05_2011_5dd1d53d"
+   ],
+   "expected": [
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_legislation_federale_3d875fd6",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7291896b",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-bb20796a": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2025_c_43_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_1a2fb15e",
+    "circulaires/circulaire_2021_c_2_relative_a_lart_8_du_code_des_droits_de_succession_et_a_la_t_ce68c00b",
+    "code_et_legislation/article_145_38_1_cir_92_region_flamande_1d1b39ee",
+    "circulaires/circulaire_n_11_2009_du_18_08_2009_b4a30e63",
+    "circulaires/circulaire_2018_c_83_relative_au_decret_wallon_du_13_decembre_2017_en_matiere_de_0e967afc"
+   ],
+   "expected": [
+    "code_et_legislation/article_115_a_116_cir_92_revenus_2025_abroges_65bacf58",
+    "code_et_legislation/article_115_a_116_cir_92_revenus_2026_abroges_e1849eaa",
+    "code_et_legislation/article_115_a_116_cir_92_revenus_2027_abroges_54434219",
+    "code_et_legislation/article_145_4_cir_92_revenus_2025_6a7f9f96",
+    "code_et_legislation/article_145_4_cir_92_revenus_2026_29ffe126",
+    "code_et_legislation/article_145_4_cir_92_revenus_2027_c537e7d8",
+    "code_et_legislation/article_145_9_cir_92_revenus_2025_3ce43cb0",
+    "code_et_legislation/article_145_9_cir_92_revenus_2026_985a3467",
+    "code_et_legislation/article_145_9_cir_92_revenus_2027_f4713942",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_legislation_federale_3d875fd6",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7291896b",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-43821c6c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_162_du_code_des_droits_d_enregistrement_legislation_federale_e6833196",
+    "code_et_legislation/article_146ter_du_code_des_droits_de_succession_legislation_federale_c144f971",
+    "code_et_legislation/article_92_du_code_des_droits_de_succession_legislation_federale_e8ee52bd",
+    "code_et_legislation/article_23_4_code_droits_et_taxes_divers_6e0d446d",
+    "code_et_legislation/article_206_1_code_droits_et_taxes_divers_11a9fb8b"
+   ],
+   "expected": [
+    "code_et_legislation/article_422_a_424_cir_92_revenus_2025_abroges_b7a5e38b",
+    "code_et_legislation/article_422_a_424_cir_92_revenus_2026_abroges_1f8705f1",
+    "code_et_legislation/article_422_a_424_cir_92_revenus_2027_abroges_aa87aee4",
+    "code_et_legislation/article_422_cir_92_region_flamande_73093ddb",
+    "code_et_legislation/article_86_code_de_la_tva_5558e061",
+    "code_et_legislation/article_87_code_de_la_tva_795eb2a5"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d9c8af7a": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "questions_parlementaires/question_parlementaire_n_960_de_monsieur_joseph_arens_du_24_10_2005_b149f2ff",
+    "code_et_legislation/27_12_1994_loi_portant_assentiment_de_l_accord_relatif_a_la_perception_d_un_droi_be6e1101",
+    "code_et_legislation/11_06_2004_loi_relative_a_l_information_a_fournir_lors_de_la_vente_de_vehicules_9e979a45",
+    "circulaires/circulaire_n_aaf_2008_0408_aaf_17_2009_du_17_12_2009_7c4422de",
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_liege_du_02_05_2019_83138f6c"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_9840e623",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_ff2adfba",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586",
+    "code_et_legislation/article_21_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_ef45da69",
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_ba51d33b",
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_1097f8a9",
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_8bbfcb10",
+    "code_et_legislation/article_94_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_287467a5"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-3aed1dc5": {
+   "rank": 6,
+   "rr": 0.1667,
+   "top5": [
+    "code_et_legislation/article_10_du_code_des_droits_de_succession_legislation_federale_931cd029",
+    "code_et_legislation/article_133_du_code_des_droits_d_enregistrement_region_wallonne_d9ff97a5",
+    "code_et_legislation/article_10_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3e614187",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd",
+    "code_et_legislation/article_10_du_code_des_droits_de_succession_region_wallonne_a310fde0"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bb0d9d62": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_177_code_droits_et_taxes_divers_576d2982",
+    "code_et_legislation/article_183_code_droits_et_taxes_divers_c8b57db7",
+    "code_et_legislation/article_173_code_droits_et_taxes_divers_ff926725",
+    "code_et_legislation/article_183bis_code_droits_et_taxes_divers_19b20040",
+    "code_et_legislation/article_178_code_droits_et_taxes_divers_de6768ea"
+   ],
+   "expected": [
+    "code_et_legislation/article_177_code_droits_et_taxes_divers_576d2982"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f2c7c25c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_376septies_cir_92_region_de_bruxelles_capitale_c543c343",
+    "circulaires/circulaire_n_1_2008_aced_du_13_02_2008_9a1550cd",
+    "circulaires/circulaire_n_aaf_2007_0576_aaf_1_2008_du_29_01_2008_e6609438",
+    "circulaires/circulaire_2018_c_85_concernant_les_nouvelles_dispositions_relatives_au_service_30eee19e",
+    "code_et_legislation/10_07_2017_loi_renforcant_le_role_du_service_de_conciliation_fiscale_6b3d349e"
+   ],
+   "expected": [
+    "code_et_legislation/article_84_code_de_la_tva_c3267857",
+    "code_et_legislation/article_84nonies_code_de_la_tva_b5740c60",
+    "code_et_legislation/article_84undecies_code_de_la_tva_01e9ff14",
+    "code_et_legislation/article_85_code_de_la_tva_d1a51504"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6d303e77": {
+   "rank": 14,
+   "rr": 0.0714,
+   "top5": [
+    "code_et_legislation/article_35_ar_cir_92_revenus_2025_0cba3175",
+    "code_et_legislation/article_35_ar_cir_92_revenus_2027_5964dc26",
+    "code_et_legislation/article_35_ar_cir_92_revenus_2026_d6b57f0d",
+    "code_et_legislation/article_176_2_code_droits_et_taxes_divers_3155fd81",
+    "code_et_legislation/article_34_cir_92_revenus_2027_7a132c40"
+   ],
+   "expected": [
+    "code_et_legislation/article_175_1_code_droits_et_taxes_divers_b136d574",
+    "code_et_legislation/article_53_cir_92_revenus_2025_69baa615",
+    "code_et_legislation/article_53_cir_92_revenus_2026_796aa044",
+    "code_et_legislation/article_53_cir_92_revenus_2027_cafc167f",
+    "code_et_legislation/article_59_cir_92_revenus_2025_7d5c5f22",
+    "code_et_legislation/article_59_cir_92_revenus_2026_c6438c66",
+    "code_et_legislation/article_59_cir_92_revenus_2027_4a6550d0"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-621540f5": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "code_et_legislation/article_276_cir_92_revenus_2026_1077c6e1",
+    "code_et_legislation/article_276_cir_92_revenus_2025_c57499a9",
+    "code_et_legislation/article_276_cir_92_revenus_2027_377a8c9a",
+    "faq/faq_epargne_pension_02bee55b",
+    "code_et_legislation/22_06_2012_loi_programme_1ddcc6a4"
+   ],
+   "expected": [
+    "code_et_legislation/article_187_1_code_droits_et_taxes_divers_2c276c92",
+    "code_et_legislation/article_145_10_cir_92_revenus_2025_cfd1c3c0",
+    "code_et_legislation/article_145_10_cir_92_revenus_2026_7fb55c58",
+    "code_et_legislation/article_145_10_cir_92_revenus_2027_fc747bf2",
+    "code_et_legislation/article_145_11_cir_92_revenus_2025_6b66ce93",
+    "code_et_legislation/article_145_11_cir_92_revenus_2026_50e54d81",
+    "code_et_legislation/article_145_11_cir_92_revenus_2027_02d38933",
+    "code_et_legislation/article_145_12_cir_92_revenus_2025_bcb6c2c3",
+    "code_et_legislation/article_145_12_cir_92_revenus_2026_498c50a0",
+    "code_et_legislation/article_145_12_cir_92_revenus_2027_a35cb005",
+    "code_et_legislation/article_145_13_cir_92_revenus_2025_79b8a34c",
+    "code_et_legislation/article_145_13_cir_92_revenus_2026_a6a8736f",
+    "code_et_legislation/article_145_13_cir_92_revenus_2027_feb83373",
+    "code_et_legislation/article_145_14_cir_92_revenus_2025_521938c1",
+    "code_et_legislation/article_145_14_cir_92_revenus_2026_866c6cf8",
+    "code_et_legislation/article_145_14_cir_92_revenus_2027_f0327e20",
+    "code_et_legislation/article_145_15_cir_92_revenus_2025_55c80855",
+    "code_et_legislation/article_145_15_cir_92_revenus_2026_24f72795",
+    "code_et_legislation/article_145_15_cir_92_revenus_2027_5e63a1da",
+    "code_et_legislation/article_145_16_cir_92_revenus_2025_bda85356",
+    "code_et_legislation/article_145_16_cir_92_revenus_2026_242ed7aa",
+    "code_et_legislation/article_145_16_cir_92_revenus_2027_586c9dfd",
+    "code_et_legislation/article_145_8_cir_92_revenus_2025_7230f4c3",
+    "code_et_legislation/article_145_8_cir_92_revenus_2026_62bf4033",
+    "code_et_legislation/article_145_8_cir_92_revenus_2027_46fc1141",
+    "code_et_legislation/article_145_9_cir_92_revenus_2025_3ce43cb0",
+    "code_et_legislation/article_145_9_cir_92_revenus_2026_985a3467",
+    "code_et_legislation/article_145_9_cir_92_revenus_2027_f4713942"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-c85c050d": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/16_12_2015_loi_reglant_la_communication_des_renseignements_relatifs_aux_comptes_d28c1211",
+    "code_et_legislation/31_12_2003_loi_instaurant_une_declaration_liberatoire_unique_20236409",
+    "code_et_legislation/26_12_2013_loi_portant_diverses_dispositions_concernant_les_prets_citoyen_themat_7ac9f5f6",
+    "code_et_legislation/article_183_code_droits_et_taxes_divers_c8b57db7",
+    "code_et_legislation/article_438_15_loi_bancaire_5d816eeb"
+   ],
+   "expected": [
+    "code_et_legislation/article_179_3_code_droits_et_taxes_divers_4766a255"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-6b3459bf": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/23_11_2023_loi_relative_au_fonds_de_garantie_pour_les_services_financiers_6ffffeb7",
+    "code_et_legislation/article_19_cir_92_revenus_2026_f98b71f2",
+    "code_et_legislation/article_19_cir_92_revenus_2027_5eaf7835",
+    "code_et_legislation/article_19_cir_92_revenus_2025_cbdb3f7f",
+    "code_et_legislation/article_178_ar_cir_92_revenus_2027_d0943588"
+   ],
+   "expected": [
+    "code_et_legislation/article_175_3_code_droits_et_taxes_divers_d1407adc",
+    "code_et_legislation/article_21_cir_92_revenus_2025_2121eb14",
+    "code_et_legislation/article_21_cir_92_revenus_2026_77a7ba86",
+    "code_et_legislation/article_21_cir_92_revenus_2027_7b77c684"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-1f5e9b10": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "faq/faq_epargne_pension_02bee55b",
+    "code_et_legislation/23_11_2023_loi_relative_au_fonds_de_garantie_pour_les_services_financiers_6ffffeb7",
+    "code_et_legislation/article_19_cir_92_revenus_2025_cbdb3f7f",
+    "code_et_legislation/article_19_cir_92_revenus_2026_f98b71f2",
+    "code_et_legislation/article_19_cir_92_revenus_2027_5eaf7835"
+   ],
+   "expected": [
+    "code_et_legislation/article_175_3_code_droits_et_taxes_divers_d1407adc",
+    "code_et_legislation/article_21_cir_92_revenus_2025_2121eb14",
+    "code_et_legislation/article_21_cir_92_revenus_2026_77a7ba86",
+    "code_et_legislation/article_21_cir_92_revenus_2027_7b77c684"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ee9f195d": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_89e8e8ca",
+    "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95",
+    "circulaires/circulaire_agfisc_n_46_2014_n_ci_a_41_635_970_du_23_12_2014_aeffcd5e",
+    "circulaires/24_11_2010_taxe_de_mise_en_circulation_en_region_wallonne_introduction_dun_eco_m_c6c7254a",
+    "legislation_et_reglementation_regionale_et_locale/20_05_2020_arrete_du_gouvernement_de_la_region_de_bruxelles_capitale_de_pouvoirs_47f2d963"
+   ],
+   "expected": [
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_br_0d593c85",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flama_e1f83fa4",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallo_38953508",
+    "code_et_legislation/article_100_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_re_f6e4a241"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ba3da3f4": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_175_1_code_droits_et_taxes_divers_b136d574",
+    "circulaires/circulaire_n_ci_d_19_444_905_dd_08_01_1993_73661ea0",
+    "questions_parlementaires/question_parlementaire_n_581_de_monsieur_willem_frederik_schiltz_du_01_10_2012_b2ac8063",
+    "code_et_legislation/03_05_2024_loi_relatif_a_l_indemnisation_des_victimes_d_un_acte_de_terrorisme_et_47ac64aa",
+    "circulaires/circulaire_2020_c_9_relative_a_la_pension_libre_complementaire_pour_les_travaill_acf4e2f1"
+   ],
+   "expected": [
+    "code_et_legislation/article_175_1_code_droits_et_taxes_divers_b136d574"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-eb521ace": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_1_2008_aced_du_13_02_2008_9a1550cd",
+    "circulaires/circulaire_n_9_2008_aaf_15_2008_e_e_l_177_du_25_06_2008_a62ce31a",
+    "circulaires/circulaire_n_aaf_2007_0576_aaf_1_2008_du_29_01_2008_e6609438",
+    "circulaires/circulaire_n_2_2007_dos_e_p_754_81_xvii_dd_11_01_2007_a178211b",
+    "circulaires/circulaire_n_aaf_97_380_dd_15_02_2008_e27fc74b"
+   ],
+   "expected": [
+    "code_et_legislation/article_319bis_cir_92_region_flamande_75d4b6d2",
+    "code_et_legislation/article_319bis_cir_92_revenus_2025_abroge_055d53e6",
+    "code_et_legislation/article_84septies_code_de_la_tva_445aac1e",
+    "code_et_legislation/article_100_du_code_des_droits_de_succession_legislation_federale_1afc3a8b",
+    "code_et_legislation/article_100_du_code_des_droits_de_succession_region_de_bruxelles_capitale_976e1782",
+    "code_et_legislation/article_100_du_code_des_droits_de_succession_region_wallonne_454703e2",
+    "code_et_legislation/article_335_cir_92_region_de_bruxelles_capitale_a19925c8",
+    "code_et_legislation/article_335_cir_92_region_flamande_d67a4b60",
+    "code_et_legislation/article_335_cir_92_revenus_2025_a9fc49cd",
+    "code_et_legislation/article_335_cir_92_revenus_2026_417eed15",
+    "code_et_legislation/article_335_cir_92_revenus_2027_b2285f28"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-2fbf5d78": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_5_2004_aaf_9_2004_dos_e_e_l_137_du_07_04_2004_b20efe1c",
+    "circulaires/circulaire_n_4_2012_du_04_05_2012_7a156c2e",
+    "circulaires/circulaire_aced_n_4_2005_du_05_04_2005_circ_aaf_n_7_2005_7242ba3c",
+    "circulaires/circulaire_2018_c_38_concernant_le_decret_wallon_du_1er_juin_2017_instaurant_des_af099902",
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-777896b2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2018_c_70_relative_a_lordonnance_du_13_juillet_2017_instaurant_des_me_cd52f5a4",
+    "circulaires/circulaire_n_4_2012_du_04_05_2012_7a156c2e",
+    "circulaires/circulaire_n_5_2013_du_10_04_2013_f155e8bf",
+    "questions_parlementaires/question_parlementaire_n_102_de_monsieur_carl_devlies_du_08_11_2012_ac4264fb",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2022_0745_du_18_10_2022_d1d5f510"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_wallonne_333b1531"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-c0ff3805": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_wallonne_e0d09ddb",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "circulaires/circulaire_aced_n_7_2002_du_22_03_2002_circ_aaf_n_9_2002_f2ff8f85"
+   ],
+   "expected": [
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_wallonne_e0d09ddb",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_legislation_federale_6cf96491",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d54670a2",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_region_wallonne_ca2f583c"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-b0fa557c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953",
+    "circulaires/circulaire_n_12_2012_du_22_11_2012_62fb3f5b",
+    "circulaires/circulaire_n_7_2004_aaf_11_2004_dos_e_e_l_139_du_12_05_2004_a674e10a",
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "circulaires/circulaire_n_5_2004_aaf_9_2004_dos_e_e_l_137_du_07_04_2004_b20efe1c"
+   ],
+   "expected": [
+    "code_et_legislation/article_106_du_code_des_droits_de_succession_legislation_federale_1f198055",
+    "code_et_legislation/article_106_du_code_des_droits_de_succession_region_de_bruxelles_capitale_548d4212",
+    "code_et_legislation/article_106_du_code_des_droits_de_succession_region_wallonne_9ee60add",
+    "code_et_legislation/article_18_du_code_des_droits_d_enregistrement_legislation_federale_b45a5e45",
+    "code_et_legislation/article_18_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_e1a87cee",
+    "code_et_legislation/article_18_du_code_des_droits_d_enregistrement_region_wallonne_08b63468",
+    "circulaires/circulaire_n_5_2013_du_10_04_2013_f155e8bf",
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ecf863b5": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_187_1_code_droits_et_taxes_divers_2c276c92",
+    "code_et_legislation/article_176_2_code_droits_et_taxes_divers_3155fd81",
+    "code_et_legislation/article_515bis_cir_92_revenus_2026_5e4e3f58",
+    "code_et_legislation/article_201_30_code_droits_et_taxes_divers_59f0f8c9",
+    "code_et_legislation/article_186_code_droits_et_taxes_divers_823e0dcd"
+   ],
+   "expected": [
+    "code_et_legislation/article_187_5_code_droits_et_taxes_divers_3483d9be"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7a6a89ed": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/22_06_2012_loi_programme_1ddcc6a4",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_086_du_22_03_2016_7cd6e8a6",
+    "code_et_legislation/article_176_2_code_droits_et_taxes_divers_3155fd81",
+    "code_et_legislation/code_des_droits_et_taxes_divers_coordination_officieuse_bd8ffa7f",
+    "code_et_legislation/article_175_1_code_droits_et_taxes_divers_b136d574"
+   ],
+   "expected": [
+    "code_et_legislation/article_176_2_code_droits_et_taxes_divers_3155fd81",
+    "code_et_legislation/article_179_cir_92_revenus_2025_33325a6b",
+    "code_et_legislation/article_179_cir_92_revenus_2026_711b93cc",
+    "code_et_legislation/article_179_cir_92_revenus_2027_240fdd0b",
+    "code_et_legislation/article_220_cir_92_revenus_2025_0d18701a",
+    "code_et_legislation/article_220_cir_92_revenus_2026_6bef940c",
+    "code_et_legislation/article_220_cir_92_revenus_2027_08de7eae",
+    "code_et_legislation/article_227_cir_92_revenus_2025_5999c7ce",
+    "code_et_legislation/article_227_cir_92_revenus_2026_7ab14e5c",
+    "code_et_legislation/article_227_cir_92_revenus_2027_c0960ed6"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e3f2fa96": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26"
+   ],
+   "expected": [
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8ba67b7f",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-58167cb6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_143_du_code_des_droits_de_succession_legislation_federale_c678b017",
+    "code_et_legislation/article_143_du_code_des_droits_de_succession_region_wallonne_a148df50",
+    "code_et_legislation/article_143_du_code_des_droits_de_succession_region_de_bruxelles_capitale_31f89de1",
+    "code_et_legislation/article_236_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_b8e4c225",
+    "code_et_legislation/article_160_du_code_des_droits_de_succession_region_wallonne_acd46b69"
+   ],
+   "expected": [
+    "code_et_legislation/article_146_du_code_des_droits_de_succession_legislation_federale_2582b8d4",
+    "code_et_legislation/article_146_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2367c371",
+    "code_et_legislation/article_146_du_code_des_droits_de_succession_region_wallonne_20bc1734",
+    "code_et_legislation/article_146duodecies_du_code_des_droits_de_succession_legislation_federale_89cf47b1",
+    "code_et_legislation/article_146duodecies_du_code_des_droits_de_succession_region_de_bruxelles_capita_d3499f68",
+    "code_et_legislation/article_146duodecies_du_code_des_droits_de_succession_region_wallonne_52eb7f15",
+    "code_et_legislation/article_146nonies_du_code_des_droits_de_succession_legislation_federale_387a4970",
+    "code_et_legislation/article_146nonies_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8c066c6d",
+    "code_et_legislation/article_146nonies_du_code_des_droits_de_succession_region_wallonne_28f02ce7",
+    "code_et_legislation/article_146quindecies_du_code_des_droits_de_succession_legislation_federale_3c6c5c44",
+    "code_et_legislation/article_146quindecies_du_code_des_droits_de_succession_region_de_bruxelles_capit_a0424639",
+    "code_et_legislation/article_146quindecies_du_code_des_droits_de_succession_region_wallonne_c0723f46",
+    "code_et_legislation/article_146sedecies_du_code_des_droits_de_succession_legislation_federale_89ee9939",
+    "code_et_legislation/article_146sedecies_du_code_des_droits_de_succession_region_de_bruxelles_capital_b98d3ec4",
+    "code_et_legislation/article_146sedecies_du_code_des_droits_de_succession_region_wallonne_31b26168",
+    "code_et_legislation/article_146septdecies_du_code_des_droits_de_succession_legislation_federale_f4e53a02",
+    "code_et_legislation/article_146septdecies_du_code_des_droits_de_succession_region_de_bruxelles_capit_70648e58",
+    "code_et_legislation/article_146septdecies_du_code_des_droits_de_succession_region_wallonne_46bee587",
+    "code_et_legislation/article_146undecies_du_code_des_droits_de_succession_legislation_federale_0f3f3424",
+    "code_et_legislation/article_146undecies_du_code_des_droits_de_succession_region_de_bruxelles_capital_c8de8baf",
+    "code_et_legislation/article_146undecies_du_code_des_droits_de_succession_region_wallonne_a6126d98"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6e64446c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5"
+   ],
+   "expected": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e6e40e7f": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/code_des_droits_et_taxes_divers_coordination_officieuse_bd8ffa7f",
+    "code_et_legislation/article_183_code_droits_et_taxes_divers_c8b57db7",
+    "circulaires/circulaire_2024_c_43_relative_a_la_taxe_annuelle_sur_les_operations_dassurance_8c9b64d6",
+    "circulaires/circulaire_aaf_n_3_2013_aaf_97_0380_du_05_02_2013_5f0da04a",
+    "code_et_legislation/15_12_2004_loi_relative_aux_suretes_financieres_et_portant_des_dispositions_fisc_9b002fc5"
+   ],
+   "expected": [
+    "code_et_legislation/article_173_code_droits_et_taxes_divers_ff926725"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-a8b2e6c9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_339_loi_bancaire_4538dfa9",
+    "code_et_legislation/22_02_1998_loi_fixant_le_statut_organique_de_la_banque_nationale_de_belgique_ed2781b1",
+    "code_et_legislation/article_334_6_loi_bancaire_0d382a49",
+    "code_et_legislation/article_229_loi_bancaire_6033dbaf",
+    "code_et_legislation/article_335_loi_bancaire_27106e78"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_cir_92_revenus_2025_2121eb14",
+    "code_et_legislation/article_21_cir_92_revenus_2026_77a7ba86",
+    "code_et_legislation/article_21_cir_92_revenus_2027_7b77c684"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-11a9834a": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_legislation_federale_a791b32b",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d0f1ddb9",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_wallonne_f43bc33b",
+    "code_et_legislation/article_91_du_code_des_droits_de_succession_legislation_federale_d2b787ce"
+   ],
+   "expected": [
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d0f1ddb9"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-a60f4c5a": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_legislation_federale_a791b32b",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d0f1ddb9",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_wallonne_f43bc33b",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "code_et_legislation/article_11_du_code_des_droits_de_succession_region_wallonne_5fe7e4e4"
+   ],
+   "expected": [
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d0f1ddb9"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-fff5a0f9": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "circulaires/circulaire_n_12_2014_du_17_09_2014_739e4991",
+    "code_et_legislation/article_50_du_code_des_droits_de_succession_region_wallonne_3a7ec48f",
+    "code_et_legislation/article_55bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7dc4fe9a",
+    "circulaires/circulaire_2018_c_83_relative_au_decret_wallon_du_13_decembre_2017_en_matiere_de_0e967afc",
+    "code_et_legislation/article_55quinquies_du_code_des_droits_de_succession_region_wallonne_95b97081"
+   ],
+   "expected": [
+    "code_et_legislation/article_55bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7dc4fe9a"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-6d200b54": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "questions_parlementaires/question_parlementaire_n_342_de_monsieur_roel_deseyn_du_13_05_2015_8ac2c7d1"
+   ],
+   "expected": [
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8ba67b7f",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a23c3f7c": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26"
+   ],
+   "expected": [
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_de_bruxelles_capitale_8ba67b7f",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-b557981e": {
+   "rank": 11,
+   "rr": 0.0909,
+   "top5": [
+    "code_et_legislation/article_12_du_code_des_droits_de_succession_legislation_federale_b3944f5a",
+    "code_et_legislation/article_12_du_code_des_droits_de_succession_region_de_bruxelles_capitale_28eaee2a",
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_12_du_code_des_droits_de_succession_region_wallonne_936dcb2d",
+    "code_et_legislation/article_37_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f16b2ebf"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-dcaf7822": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_legislation_federale_7a0f122f",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_wallonne_e0d09ddb",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f4ba879d",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_legislation_federale_5ba67acd",
+    "code_et_legislation/article_37_du_code_des_droits_de_succession_region_de_bruxelles_capitale_f16b2ebf"
+   ],
+   "expected": [
+    "code_et_legislation/article_9_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6611de1d"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-3d87b4e4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_35_du_code_des_droits_d_enregistrement_region_wallonne_7da546cd",
+    "circulaires/circulaire_n_6_2008_du_02_06_2008_aaf_n_13_2008_316fa49f",
+    "code_et_legislation/article_35_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_292fa5ad",
+    "circulaires/circulaire_n_7_2016_du_24_08_2016_76980875",
+    "code_et_legislation/article_140quinquies_du_code_des_droits_d_enregistrement_region_wallonne_5da97a04"
+   ],
+   "expected": [
+    "code_et_legislation/article_31_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_daba1c7f"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a70c48ab": {
+   "rank": 9,
+   "rr": 0.1111,
+   "top5": [
+    "circulaires/circulaire_2022_c_16_concernant_la_reforme_des_droits_de_mise_au_role_4e035b16",
+    "circulaires/circulaire_2019_c_16_concernant_la_reforme_des_droits_de_mise_au_role_566ec513",
+    "circulaires/circulaire_2022_c_55_concernant_la_reforme_des_droits_de_mise_au_role_f2444308",
+    "code_et_legislation/article_413_cir_92_revenus_2025_6c68964d",
+    "code_et_legislation/article_413_cir_92_revenus_2026_14cc8074"
+   ],
+   "expected": [
+    "code_et_legislation/article_269_2_du_code_des_droits_d_enregistrement_legislation_federale_37c0c311",
+    "code_et_legislation/article_269_2_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_cc110d47",
+    "code_et_legislation/article_269_2_du_code_des_droits_d_enregistrement_region_wallonne_7c6271f4",
+    "code_et_legislation/article_269_4_du_code_des_droits_d_enregistrement_legislation_federale_fb7a4caa",
+    "code_et_legislation/article_269_4_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_57f1fce2",
+    "code_et_legislation/article_269_4_du_code_des_droits_d_enregistrement_region_wallonne_30e44409"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9ea029bb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f",
+    "code_et_legislation/08_07_2018_loi_portant_organisation_d_un_point_de_contact_central_des_comptes_et_7eda22ca",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39",
+    "code_et_legislation/article_96_du_code_des_droits_de_succession_region_wallonne_bb4a892f"
+   ],
+   "expected": [
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-299053ba": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_176_2_code_droits_et_taxes_divers_3155fd81",
+    "circulaires/circulaire_n_ci_r_9_f_509_317_dd_20_08_1998_5af1894d",
+    "circulaires/circulaire_n_ci_rh_241_415_068_dd_29_11_1991_5acc86cc",
+    "code_et_legislation/article_52_cir_92_revenus_2025_d27ab295",
+    "code_et_legislation/article_59_cir_92_revenus_2025_7d5c5f22"
+   ],
+   "expected": [
+    "code_et_legislation/article_173_code_droits_et_taxes_divers_ff926725"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-881c0c32": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2025_c_42_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_e5657afe",
+    "circulaires/circulaire_2026_c_19_relative_a_la_reintroduction_du_taux_reduit_de_tva_applicab_987e62d6",
+    "circulaires/circulaire_2024_c_73_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_70b9b26d",
+    "circulaires/circulaire_2022_c_45_relative_au_taux_reduit_de_la_tva_applicable_temporairement_ef282436",
+    "circulaires/circulaire_2017_c_25_concernant_les_taux_de_tva_applicables_aux_travaux_immobili_497b7db6"
+   ],
+   "expected": [
+    "code_et_legislation/article_53_du_code_des_droits_d_enregistrement_legislation_federale_2dfec362",
+    "code_et_legislation/article_53_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_de8bbe06",
+    "code_et_legislation/article_53_du_code_des_droits_d_enregistrement_region_wallonne_50a27063",
+    "code_et_legislation/article_57_du_code_des_droits_d_enregistrement_legislation_federale_2fb434d1",
+    "code_et_legislation/article_57_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_f371a86c",
+    "code_et_legislation/article_57_du_code_des_droits_d_enregistrement_region_wallonne_3739febc"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-418d99c1": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_1_dd_03_05_2000_f3e81971",
+    "circulaires/24_11_2010_taxe_de_mise_en_circulation_en_region_wallonne_introduction_dun_eco_m_c6c7254a",
+    "circulaires/circulaire_n_4_dd_22_02_1995_e98e3b43",
+    "circulaires/circulaire_n_21_2003_arec_3_2003_ir_iv_4_7_014_e_t_102_201_dd_31_07_2003_525b04d1",
+    "code_et_legislation/11_02_2019_loi_portant_des_dispositions_fiscales_de_lutte_contre_la_fraude_finan_3a5ef76f"
+   ],
+   "expected": [
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586",
+    "code_et_legislation/article_30_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_00d740b5",
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-17150acc": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_52_3_du_code_des_droits_de_succession_region_wallonne_ae229023",
+    "code_et_legislation/article_132_3_du_code_des_droits_d_enregistrement_region_wallonne_31c978a7",
+    "code_et_legislation/article_132_2_du_code_des_droits_d_enregistrement_region_wallonne_c7192fa3",
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_region_de_bruxelles_capitale_dd9ae315",
+    "code_et_legislation/article_60bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3fdeb5a2"
+   ],
+   "expected": [
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-1570cd99": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953",
+    "questions_parlementaires/question_parlementaire_orale_de_madame_veronique_jamoulle_du_25_04_2016_region_d_fe444d01",
+    "questions_parlementaires/question_parlementaire_n_103_de_monsieur_loic_jacob_du_28_11_2025_region_wallonn_3760784e",
+    "code_et_legislation/livre_2_d6eb432d",
+    "circulaires/circulaire_n_13_2006_du_22_05_2006_fc72c23d"
+   ],
+   "expected": [
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_region_wallonne_c645caf1"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-fe5bd29b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_2_2006_aaf_6_2006_dos_e_e_l_149_du_08_02_2006_233b5595",
+    "circulaires/circulaire_n_3_2005_aaf_6_2005_dos_e_e_l_144_du_05_04_2005_bd5213f1",
+    "code_et_legislation/article_131_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_1f30bae2",
+    "circulaires/circulaire_2018_c_61_relative_a_la_donation_de_terres_agricoles_et_au_decret_wal_aa303cab",
+    "circulaires/circulaire_2017_c_18_concernant_le_decret_budgetaire_wallon_du_21_decembre_2016_b9c7e87d"
+   ],
+   "expected": [
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107",
+    "code_et_legislation/article_131bis_du_code_des_droits_d_enregistrement_region_wallonne_9bac3e5f",
+    "code_et_legislation/article_140bis_du_code_des_droits_d_enregistrement_region_wallonne_e9d0423c",
+    "code_et_legislation/article_159_du_code_des_droits_d_enregistrement_region_wallonne_f78ec481",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_region_wallonne_ca2f583c"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-4442466e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_129_du_code_des_droits_d_enregistrement_region_wallonne_423ccc7f",
+    "code_et_legislation/article_129_du_code_des_droits_d_enregistrement_legislation_federale_afd771d1",
+    "code_et_legislation/article_129_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_db0107a3",
+    "code_et_legislation/article_230_cir_92_revenus_2027_749ad037",
+    "code_et_legislation/article_230_cir_92_revenus_2026_f2575ea0"
+   ],
+   "expected": [
+    "code_et_legislation/article_129_du_code_des_droits_d_enregistrement_region_wallonne_423ccc7f",
+    "code_et_legislation/article_109_du_code_des_droits_d_enregistrement_region_wallonne_b128d59f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-bc77072e": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_aaf_2005_1124_aaf_12_2006_dd_06_06_2006_ef459973",
+    "code_et_legislation/article_83_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a62babb0",
+    "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95",
+    "questions_parlementaires/question_parlementaire_n_23_de_monsieur_pierre_yves_dermagne_du_14_09_2017_regio_f4dc2d63",
+    "questions_parlementaires/question_parlementaire_n_126_de_monsieur_stoffels_edmund_du_20_04_2015_region_wa_d2db435c"
+   ],
+   "expected": [
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_8bbfcb10"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e7d844e7": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_419_cir_92_region_de_bruxelles_capitale_e896bf1c",
+    "circulaires/circulaire_n_aaf_2001_1350_aaf_1_2003_dd_23_01_2003_7d3d9173",
+    "code_et_legislation/article_56_code_de_la_tva_cd752bb1",
+    "circulaires/24_11_2010_taxe_de_mise_en_circulation_en_region_wallonne_introduction_dun_eco_m_c6c7254a",
+    "circulaires/circulaire_2019_c_46_faq_concernant_la_tva_relative_a_des_cas_pratiques_dapplica_6bcf15af"
+   ],
+   "expected": [
+    "code_et_legislation/article_99_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_bf7244b8",
+    "code_et_legislation/article_105_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallo_d3d075f3"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-0d7ca7d8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/chapitre_1_exonerations_missions_diplomatiques_et_postes_consulaires_version_01_d8ca3aa8",
+    "code_et_legislation/chapitre_1_exonerations_missions_diplomatiques_et_postes_consulaires_version_01_959297ed",
+    "questions_parlementaires/question_parlementaire_orale_n_10107_de_monsieur_michel_de_lamotte_du_20_04_2016_071616c2",
+    "code_et_legislation/article_515novies_cir_92_revenus_2025_fc1ef878",
+    "code_et_legislation/article_515novies_cir_92_revenus_2027_bbce6422"
+   ],
+   "expected": [
+    "code_et_legislation/article_173_code_droits_et_taxes_divers_ff926725"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f0ad2574": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2018_c_112_concernant_le_decret_wallon_du_13_decembre_2017_en_matiere_f268b8d4",
+    "circulaires/circulaire_2025_c_27_commentant_le_decret_wallon_du_12_juillet_2023_portant_des_c099f211",
+    "code_et_legislation/article_53_du_code_des_droits_d_enregistrement_region_wallonne_50a27063",
+    "circulaires/circulaire_2020_c_4_concernant_le_decret_budgetaire_wallon_du_19_decembre_2019_e_e607d63c",
+    "code_et_legislation/article_63_2_du_code_des_droits_d_enregistrement_region_wallonne_d9a7e975"
+   ],
+   "expected": [
+    "code_et_legislation/article_45_du_code_des_droits_d_enregistrement_region_wallonne_90c493a1",
+    "code_et_legislation/article_168_du_code_des_droits_d_enregistrement_region_wallonne_0cf605b8"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-b30f7136": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_126_cir_92_revenus_2027_4a58a63e",
+    "code_et_legislation/article_126_cir_92_revenus_2026_b7641b6b",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_legislation_federale_a791b32b",
+    "code_et_legislation/article_17_du_code_des_droits_de_succession_region_wallonne_f43bc33b",
+    "code_et_legislation/article_145_16_cir_92_revenus_2027_586c9dfd"
+   ],
+   "expected": [
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39",
+    "code_et_legislation/article_27_du_code_des_droits_de_succession_legislation_federale_5d03a7bc",
+    "code_et_legislation/article_27_du_code_des_droits_de_succession_region_de_bruxelles_capitale_1040c560",
+    "code_et_legislation/article_27_du_code_des_droits_de_succession_region_wallonne_f318b3a1"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7c78ad89": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_e303f856",
+    "code_et_legislation/article_98bis_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wal_f100ee00",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_89e8e8ca",
+    "circulaires/04_09_2019_circulaire_relative_aux_taxes_de_circulation_et_de_mise_en_circulatio_1719ab95",
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_8bbfcb10"
+   ],
+   "expected": [
+    "code_et_legislation/article_6_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_6da52b07"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-3cec1f98": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/13_12_2020_loi_speciale_modifiant_le_code_des_droits_d_enregistrement_d_hypotheq_5366477b",
+    "circulaires/circulaire_2021_c_27_relative_a_la_loi_ordinaire_du_03_12_2020_et_la_loi_special_1440d949",
+    "code_et_legislation/lois_speciales_f7fc9f37",
+    "code_et_legislation/code_des_droits_denregistrement_dhypotheque_et_de_greffe_federal_table_chronolog_daad1f17",
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_legislation_federale_12b25905"
+   ],
+   "expected": [
+    "code_et_legislation/article_131bis_du_code_des_droits_d_enregistrement_region_wallonne_9bac3e5f",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-812152f8": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/article_211_du_code_des_droits_d_enregistrement_region_wallonne_92ac072c",
+    "circulaires/circulaire_2022_c_74_relative_au_decret_wallon_du_19_juillet_2018_et_larrete_du_637ca352",
+    "code_et_legislation/article_135bis_du_code_des_droits_de_succession_region_wallonne_083c2dbe",
+    "code_et_legislation/article_55sexies_du_code_des_droits_de_succession_region_wallonne_baa5a07f",
+    "code_et_legislation/article_159_du_code_des_droits_d_enregistrement_region_wallonne_f78ec481"
+   ],
+   "expected": [
+    "code_et_legislation/article_135bis_du_code_des_droits_de_succession_region_wallonne_083c2dbe"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6181d0c6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_135_c_b_p_f_e92357ce",
+    "code_et_legislation/code_des_taxes_assimilees_aux_impots_sur_les_revenus_autre_legislation_table_des_bb893ee3",
+    "circulaires/circulaire_agfisc_n_17_2016_n_ci_706_327_du_14_06_2016_3d9cdaef",
+    "circulaires/circulaire_2022_c_31_relative_a_la_tolerance_temporaire_dans_le_cadre_du_covid_1_229ad7ef",
+    "circulaires/circulaire_2025_c_43_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_1a2fb15e"
+   ],
+   "expected": [
+    "code_et_legislation/article_42_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_729eab9e"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-03367102": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_83_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a62babb0",
+    "code_et_legislation/24_03_2016_accord_de_cooperation_entre_la_region_flamande_la_region_wallonne_et_d9d592dd",
+    "code_et_legislation/13_07_1987_loi_relative_aux_redevances_radio_et_television_be131828",
+    "questions_parlementaires/question_parlementaire_n_1193_de_madame_christine_mauel_du_30_03_2026_region_wal_db264853",
+    "circulaires/circulaire_n_27_dd_19_11_1975_5b6bf973"
+   ],
+   "expected": [
+    "code_et_legislation/article_29_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_5ab39cd5"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-cf1270b3": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_442quater_cir_92_region_flamande_af50e2a3",
+    "code_et_legislation/article_51_code_recouvrement_14769b98"
+   ],
+   "expected": [
+    "code_et_legislation/article_20_du_code_des_droits_de_succession_legislation_federale_d6a6a308",
+    "code_et_legislation/article_20_du_code_des_droits_de_succession_region_de_bruxelles_capitale_98930510",
+    "code_et_legislation/article_20_du_code_des_droits_de_succession_region_wallonne_87892588",
+    "code_et_legislation/article_158_du_code_des_droits_de_succession_legislation_federale_b463c797",
+    "code_et_legislation/article_158_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d33d3ece",
+    "code_et_legislation/article_158_du_code_des_droits_de_succession_region_wallonne_9b377876"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-e07ff453": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2025_c_42_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_e5657afe",
+    "circulaires/circulaire_n_3_2007_du_01_02_2007_premiere_circ_aaf_n_1_2007_9989b799",
+    "circulaires/circulaire_n_4_2003_du_24_02_2003_903fc639",
+    "circulaires/circulaire_2021_c_18_relative_au_taux_reduit_de_la_tva_applicable_temporairement_19c8dbf3",
+    "circulaires/circulaire_2018_c_83_relative_au_decret_wallon_du_13_decembre_2017_en_matiere_de_0e967afc"
+   ],
+   "expected": [
+    "code_et_legislation/article_60_du_code_des_droits_d_enregistrement_region_wallonne_df483c7f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-633da976": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/16_01_1989_loi_speciale_relative_au_financement_des_communautes_et_des_regions_46ffcc25",
+    "code_et_legislation/lois_ordinaires_0b9ce26e",
+    "code_et_legislation/constitution_eb11b131",
+    "code_et_legislation/19_12_2025_loi_de_finances_pour_l_annee_budgetaire_2026_0e7a6593",
+    "code_et_legislation/21_12_2018_loi_de_finances_pour_l_annee_budgetaire_2019_3d56d258"
+   ],
+   "expected": [
+    "code_et_legislation/article_253_cir_92_region_de_bruxelles_capitale_11bb8292",
+    "code_et_legislation/article_253_cir_92_region_flamande_2d6f7def",
+    "code_et_legislation/article_253_cir_92_revenus_2025_aca56a18",
+    "code_et_legislation/article_253_cir_92_revenus_2026_2758846c",
+    "code_et_legislation/article_253_cir_92_revenus_2027_fdc731c9",
+    "legislation_et_reglementation_regionale_et_locale/article_253_cir_92_region_wallonne_7cf204fa",
+    "code_et_legislation/article_255_cir_92_region_flamande_da475114",
+    "code_et_legislation/article_255_cir_92_region_wallonne_0f3d15c3",
+    "code_et_legislation/article_255_cir_92_revenus_2025_2affd8df",
+    "code_et_legislation/article_255_cir_92_revenus_2026_8fec44ce",
+    "code_et_legislation/article_255_cir_92_revenus_2027_c0a52ece",
+    "legislation_et_reglementation_regionale_et_locale/article_255_cir_92_region_de_bruxelles_capitale_28af3ca6",
+    "code_et_legislation/article_257_cir_92_region_de_bruxelles_capitale_59830774",
+    "code_et_legislation/article_257_cir_92_region_flamande_7f003c61",
+    "code_et_legislation/article_257_cir_92_region_wallonne_85bcc3b3",
+    "code_et_legislation/article_257_cir_92_revenus_2025_1562974b",
+    "code_et_legislation/article_257_cir_92_revenus_2026_3e4d8679",
+    "code_et_legislation/article_257_cir_92_revenus_2027_89bdf045"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f401dcd1": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/code_des_droits_denregistrement_dhypotheque_et_de_greffe_federale_78dc5258",
+    "circulaires/circulaire_2020_c_138_relative_aux_tolerances_administratives_complementaires_a_1f1cc3a6",
+    "code_et_legislation/code_des_droits_denregistrement_dhypotheque_et_de_greffe_federal_table_chronolog_daad1f17",
+    "code_et_legislation/code_des_droits_d_enregistrement_d_hypotheque_et_de_greffe_table_chronologique_r_88dd8bd1",
+    "circulaires/circulaire_n_14_1995_du_15_12_1995_74907434"
+   ],
+   "expected": [
+    "code_et_legislation/article_54_du_code_des_droits_d_enregistrement_region_wallonne_1fec144f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5fffd063": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/02_04_2021_loi_portant_des_mesures_de_soutien_temporaires_en_raison_de_la_pandem_e6437d20",
+    "circulaires/circulaire_2021_c_39_relative_aux_modifications_apportees_au_code_de_la_tva_par_6dd6bb54",
+    "circulaires/circulaire_2021_c_79_relative_a_la_prolongation_de_la_baisse_des_taux_dinteret_e_4825b0a0",
+    "code_et_legislation/18_07_2021_loi_portant_des_mesures_de_soutien_temporaires_en_raison_de_la_pandem_ea37ed88",
+    "code_et_legislation/20_12_2020_loi_portant_des_mesures_de_soutien_temporaires_en_raison_de_la_pandem_6a68a359"
+   ],
+   "expected": [
+    "code_et_legislation/article_418_cir_92_region_de_bruxelles_capitale_c1943837",
+    "code_et_legislation/article_418_cir_92_region_flamande_651f7c1f",
+    "code_et_legislation/article_418_cir_92_revenus_2025_89e08dca",
+    "code_et_legislation/article_418_cir_92_revenus_2026_13dd3365",
+    "code_et_legislation/article_418_cir_92_revenus_2027_fb174e22",
+    "code_et_legislation/article_419_cir_92_region_de_bruxelles_capitale_e896bf1c",
+    "code_et_legislation/article_419_cir_92_region_flamande_1600655d",
+    "code_et_legislation/article_419_cir_92_revenus_2025_89002696",
+    "code_et_legislation/article_419_cir_92_revenus_2026_f3293eb6",
+    "code_et_legislation/article_419_cir_92_revenus_2027_6c8707a3"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-071b96f3": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_146quater_du_code_des_droits_de_succession_region_wallonne_f44096e4",
+    "code_et_legislation/20_02_2017_accord_de_cooperation_entre_l_etat_federal_la_region_de_bruxelles_cap_7a46a1f1",
+    "circulaires/circulaire_2018_c_70_relative_a_lordonnance_du_13_juillet_2017_instaurant_des_me_cd52f5a4",
+    "code_et_legislation/article_289bis_du_code_des_droits_d_enregistrement_region_wallonne_ecbf1cd5",
+    "circulaires/circulaire_2018_c_38_concernant_le_decret_wallon_du_1er_juin_2017_instaurant_des_af099902"
+   ],
+   "expected": [
+    "code_et_legislation/article_4_du_code_des_droits_de_succession_region_wallonne_20134c6d",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-864dc7fb": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_wallonne_596bd898",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_legislation_federale_fc3f621a"
+   ],
+   "expected": [
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_legislation_federale_fc3f621a",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3ca8bdeb",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_wallonne_596bd898"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-20c3c945": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_wallonne_f463b6c1",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d831796d",
+    "code_et_legislation/article_147_du_code_des_droits_de_succession_legislation_federale_035682d4",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_legislation_federale_ebe1ead5",
+    "code_et_legislation/article_149_du_code_des_droits_de_succession_region_wallonne_0cd0fe26"
+   ],
+   "expected": [
+    "code_et_legislation/article_20_du_code_des_droits_de_succession_legislation_federale_d6a6a308",
+    "code_et_legislation/article_20_du_code_des_droits_de_succession_region_de_bruxelles_capitale_98930510",
+    "code_et_legislation/article_20_du_code_des_droits_de_succession_region_wallonne_87892588",
+    "code_et_legislation/article_158_du_code_des_droits_de_succession_legislation_federale_b463c797",
+    "code_et_legislation/article_158_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d33d3ece",
+    "code_et_legislation/article_158_du_code_des_droits_de_succession_region_wallonne_9b377876",
+    "code_et_legislation/article_159_du_code_des_droits_de_succession_legislation_federale_9a59224e",
+    "code_et_legislation/article_159_du_code_des_droits_de_succession_region_de_bruxelles_capitale_72698aae",
+    "code_et_legislation/article_159_du_code_des_droits_de_succession_region_wallonne_5cf7097b",
+    "code_et_legislation/article_137_du_code_des_droits_de_succession_legislation_federale_2dab87ab",
+    "code_et_legislation/article_137_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6114c41f",
+    "code_et_legislation/article_137_du_code_des_droits_de_succession_region_wallonne_4a775ed7"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-14330393": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_region_de_bruxelles_capitale_dd9ae315",
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_region_wallonne_bf717dc7",
+    "code_et_legislation/article_42_du_code_des_droits_de_succession_legislation_federale_c96573ed",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917"
+   ],
+   "expected": [
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_wallonne_709fd917",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-8c9d1d31": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "circulaires/circulaire_2019_c_115_commentant_le_decret_wallon_du_26_avril_2018_larrete_du_go_beda09cf",
+    "circulaires/circulaire_2019_c_116_commentant_le_decret_wallon_du_26_avril_2018_larrete_du_go_40e5dc23",
+    "legislation_et_reglementation_regionale_et_locale/21_12_2018_arrete_ministeriel_relatif_au_decret_du_26_04_2018_modifiant_le_code_e3a23271",
+    "circulaires/circulaire_2019_c_130_relative_a_la_r_du_18_juillet_2019_modifiant_les_a_r_du_31_50156e1c",
+    "code_et_legislation/article_55sexies_du_code_des_droits_de_succession_region_wallonne_baa5a07f"
+   ],
+   "expected": [
+    "code_et_legislation/article_55sexies_du_code_des_droits_de_succession_region_wallonne_baa5a07f"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ac7602f6": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_14_2010_du_20_10_2010_63766119",
+    "code_et_legislation/article_38_du_code_des_droits_de_succession_region_wallonne_e0d09ddb",
+    "circulaires/circulaire_n_6_2009_aaf_n_3_2009_du_07_04_2009_45c5863b",
+    "code_et_legislation/16_01_1989_loi_speciale_relative_au_financement_des_communautes_et_des_regions_46ffcc25",
+    "circulaires/circulaire_n_12_du_08_08_2002_de0600a8"
+   ],
+   "expected": [
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_region_wallonne_c645caf1"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-476b978f": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "code_et_legislation/article_109_du_code_des_droits_de_succession_region_wallonne_0469d250",
+    "code_et_legislation/article_128_du_code_des_droits_de_succession_region_wallonne_809787d9",
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_region_wallonne_ca2f583c",
+    "code_et_legislation/article_60ter_du_code_des_droits_de_succession_region_wallonne_3548095e"
+   ],
+   "expected": [
+    "code_et_legislation/article_7_du_code_des_droits_de_succession_region_wallonne_d8795107"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-adfda0fc": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/code_des_societes_et_des_associations_f5bd4f29",
+    "circulaires/circulaire_2022_c_74_relative_au_decret_wallon_du_19_juillet_2018_et_larrete_du_637ca352",
+    "circulaires/circulaire_2019_c_91_concernant_lordonnance_du_21_fevrier_2019_en_matiere_de_dro_2764e21e",
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "circulaires/circulaire_aced_n_5_2002_du_21_02_2002_aaf_2001_1028_dos_281_125daaae"
+   ],
+   "expected": [
+    "code_et_legislation/article_148bis_du_code_des_droits_de_succession_legislation_federale_e33f218b",
+    "code_et_legislation/article_148bis_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2351b39f",
+    "code_et_legislation/article_148bis_du_code_des_droits_de_succession_region_wallonne_ae6b9094",
+    "code_et_legislation/article_151_du_code_des_droits_de_succession_legislation_federale_8c37db99",
+    "code_et_legislation/article_151_du_code_des_droits_de_succession_region_de_bruxelles_capitale_1f764caa",
+    "code_et_legislation/article_151_du_code_des_droits_de_succession_region_wallonne_c25ac7cc"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-ae1268df": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/18_09_2017_loi_relative_a_la_prevention_du_blanchiment_de_capitaux_et_du_finance_5bd2789c",
+    "code_et_legislation/31_12_2003_loi_instaurant_une_declaration_liberatoire_unique_20236409",
+    "code_et_legislation/25_05_2025_loi_relative_a_la_surveillance_des_fournisseurs_de_services_de_messag_b426003c",
+    "code_et_legislation/article_347_loi_bancaire_d00fc817",
+    "code_et_legislation/22_02_1998_loi_fixant_le_statut_organique_de_la_banque_nationale_de_belgique_ed2781b1"
+   ],
+   "expected": [
+    "code_et_legislation/article_203_du_code_des_droits_d_enregistrement_legislation_federale_4e4a5efa",
+    "code_et_legislation/article_203_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_3e842a2d",
+    "code_et_legislation/article_203_du_code_des_droits_d_enregistrement_region_wallonne_43a69e27"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-23fe02de": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_27ter_du_code_des_droits_de_succession_region_wallonne_a528d22e",
+    "code_et_legislation/article_55sexies_du_code_des_droits_de_succession_region_wallonne_baa5a07f",
+    "circulaires/circulaire_n_2_e_l_1141_du_27_03_1997_3ec2a276",
+    "circulaires/circulaire_n_1_2003_dos_vi_2002_11_du_12_02_2003_6ff9853b",
+    "circulaires/circulaire_n_4_2007_aaf_2_2007_dos_ee_l_158_du_21_02_2007_1f4e2e96"
+   ],
+   "expected": [
+    "code_et_legislation/article_54_du_code_des_droits_de_succession_region_de_bruxelles_capitale_898bb3d4"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-57103b8c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_115_commentant_le_decret_wallon_du_26_avril_2018_larrete_du_go_beda09cf",
+    "circulaires/circulaire_2019_c_116_commentant_le_decret_wallon_du_26_avril_2018_larrete_du_go_40e5dc23",
+    "questions_parlementaires/question_parlementaire_orale_de_monsieur_julien_matagne_du_01_03_2021_region_wal_324a3a07",
+    "questions_parlementaires/question_parlementaire_orale_n_271_de_monsieur_david_weytsman_du_05_02_2024_regi_95eab0de",
+    "questions_parlementaires/questions_parlementaires_orales_de_madame_zoe_genot_et_monsieur_philippe_close_d_ba51a8fe"
+   ],
+   "expected": [
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a34a8291": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_98bis_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_abeab2ee",
+    "circulaires/circulaire_2023_c_80_relative_a_la_deductibilite_a_titre_de_frais_professionnels_6fa737f6",
+    "code_et_legislation/article_80_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_6436c374",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472"
+   ],
+   "expected": [
+    "code_et_legislation/article_166_code_droits_et_taxes_divers_4d29c65b"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7fa0a9aa": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16",
+    "code_et_legislation/article_10_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_943ac8c4",
+    "code_et_legislation/article_5_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_reve_c933ff6a",
+    "code_et_legislation/article_10_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_66b99492",
+    "code_et_legislation/article_96_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_rev_851c54f5"
+   ],
+   "expected": [
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-5375f269": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_flaman_1097f8a9",
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_br_0d593c85",
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_659b4401",
+    "code_et_legislation/article_94_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_8bbfcb10",
+    "code_et_legislation/article_94_cir_92_revenus_2025_a969f612"
+   ],
+   "expected": [
+    "code_et_legislation/article_3_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_408d96a7",
+    "code_et_legislation/article_4_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_388a4aaa"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-55634088": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "faq/faq_epargne_pension_02bee55b",
+    "code_et_legislation/article_265_cir_92_revenus_2026_2e18db05",
+    "code_et_legislation/article_178_ar_cir_92_revenus_2026_e5f19448",
+    "code_et_legislation/article_178_ar_cir_92_revenus_2027_d0943588",
+    "code_et_legislation/article_265_cir_92_revenus_2027_766cb7c9"
+   ],
+   "expected": [
+    "code_et_legislation/article_39_cir_92_revenus_2025_1d2c209f",
+    "code_et_legislation/article_39_cir_92_revenus_2026_4ae169e2",
+    "code_et_legislation/article_39_cir_92_revenus_2027_0fa10235"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-4a0c5f7b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_3_4_du_17_01_2002_5ea72b35",
+    "circulaires/circulaire_2018_c_112_concernant_le_decret_wallon_du_13_decembre_2017_en_matiere_f268b8d4",
+    "circulaires/22_12_2015_circulaire_de_la_region_de_bruxelles_capitale_relative_a_l_acquisitio_a0756fc4",
+    "circulaires/circulaire_n_4_2003_du_24_02_2003_903fc639",
+    "circulaires/circulaire_n_19_2003_du_03_11_2003_aaf_n_21_2003_c5baaff7"
+   ],
+   "expected": [
+    "code_et_legislation/article_53_du_code_des_droits_d_enregistrement_region_wallonne_50a27063",
+    "code_et_legislation/article_46bis_du_code_des_droits_d_enregistrement_region_wallonne_e219255f"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5d36c219": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_2_ar_cir_92_revenus_2027_608d2f6d",
+    "code_et_legislation/article_2_ar_cir_92_revenus_2025_1b66b975",
+    "code_et_legislation/article_2_ar_cir_92_revenus_2026_ff946e62",
+    "code_et_legislation/article_63_5_ar_cir_92_revenus_2025_98407074",
+    "code_et_legislation/article_63_5_ar_cir_92_revenus_2026_b8f66e7d"
+   ],
+   "expected": [
+    "code_et_legislation/article_8_code_droits_et_taxes_divers_a6bc87e1",
+    "code_et_legislation/article_21_code_droits_et_taxes_divers_c3db7e0c"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-3602ef79": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/09_03_2017_loi_portant_assentiment_a_l_accord_de_siege_entre_le_royaume_de_belgi_122fade5",
+    "code_et_legislation/13_12_2013_accord_de_cooperation_entre_l_etat_federal_les_communautes_les_region_8a8b88a0",
+    "code_et_legislation/12_01_1989_loi_speciale_relative_aux_institutions_bruxelloises_40e8a655",
+    "circulaires/circulaire_2024_c_42_concernant_lordonnance_de_la_region_de_bruxelles_capitale_d_76be50f6",
+    "circulaires/circulaire_n_10_2004_aaf_13_2004_dos_e_e_l_141_du_10_08_2004_5e672b8b"
+   ],
+   "expected": [
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_legislation_federale_e239a423",
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_region_de_bruxelles_capitale_4a096327",
+    "code_et_legislation/article_59_du_code_des_droits_de_succession_region_wallonne_c645caf1"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5f1d358c": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "code_et_legislation/article_53_1_ar_cir_92_revenus_2025_ffc393f1",
+    "code_et_legislation/article_53_1_ar_cir_92_revenus_2026_797d7598",
+    "code_et_legislation/article_53_1_ar_cir_92_revenus_2027_2651bda8",
+    "circulaires/circulaire_2018_c_10_concernant_la_loi_du_22_10_2017_portant_des_dispositions_fi_8bd94302"
+   ],
+   "expected": [
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_legislation_federale_fc3f621a",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3ca8bdeb",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_wallonne_596bd898"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-d578c4fa": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c",
+    "circulaires/circulaire_2017_c_91_concernant_des_cas_d_application_pratique_relatifs_a_l_assu_8182f607",
+    "circulaires/22_12_2015_circulaire_de_la_region_de_bruxelles_capitale_relative_a_l_acquisitio_a0756fc4",
+    "code_et_legislation/16_03_1968_loi_relative_a_la_police_de_la_circulation_routiere_c4913f3d",
+    "code_et_legislation/13_07_2021_accord_de_cooperation_entre_l_etat_federal_la_region_flamande_la_regi_024364a2"
+   ],
+   "expected": [
+    "code_et_legislation/article_96_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_a8c2dd73",
+    "code_et_legislation/article_5_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallonn_b28a5e16"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6afbafb8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_16_2009_du_30_09_2009_ce92812b",
+    "circulaires/circulaire_n_2_e_l_1141_du_27_03_1997_3ec2a276",
+    "circulaires/circulaire_n_11_2009_du_18_08_2009_b4a30e63",
+    "circulaires/circulaire_2018_c_75_concernant_le_nouveau_droit_successoral_80022703",
+    "circulaires/circulaire_2019_c_121_relative_a_lordonnance_bruxelloise_du_13_decembre_2018_mod_1ffe737a"
+   ],
+   "expected": [
+    "code_et_legislation/article_96_du_code_des_droits_de_succession_legislation_federale_a23acc5f",
+    "code_et_legislation/article_96_du_code_des_droits_de_succession_region_de_bruxelles_capitale_b2fd19b7",
+    "code_et_legislation/article_96_du_code_des_droits_de_succession_region_wallonne_bb4a892f",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_legislation_federale_0a31fb5f",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_de_bruxelles_capitale_2db66f36",
+    "code_et_legislation/article_97_du_code_des_droits_de_succession_region_wallonne_8e18df39"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-e63dcb0b": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "circulaires/circulaire_2018_c_15_concernant_la_loi_du_25_decembre_2017_portant_des_dispositi_2bec7323",
+    "code_et_legislation/article_152_du_code_des_droits_de_succession_region_de_bruxelles_capitale_a286f457",
+    "circulaires/circulaire_2018_c_10_concernant_la_loi_du_22_10_2017_portant_des_dispositions_fi_8bd94302",
+    "code_et_legislation/article_152_du_code_des_droits_de_succession_legislation_federale_b0560f3f"
+   ],
+   "expected": [
+    "code_et_legislation/article_151_1_du_code_des_droits_de_succession_legislation_federale_a7b5cd40",
+    "code_et_legislation/article_151_1_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3a7497e7",
+    "code_et_legislation/article_151_1_du_code_des_droits_de_succession_region_wallonne_637e8649",
+    "code_et_legislation/article_151_du_code_des_droits_de_succession_legislation_federale_8c37db99",
+    "code_et_legislation/article_151_du_code_des_droits_de_succession_region_de_bruxelles_capitale_1f764caa",
+    "code_et_legislation/article_151_du_code_des_droits_de_succession_region_wallonne_c25ac7cc",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_legislation_federale_fc3f621a",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_de_bruxelles_capitale_3ca8bdeb",
+    "code_et_legislation/article_150_du_code_des_droits_de_succession_region_wallonne_596bd898",
+    "code_et_legislation/article_156_du_code_des_droits_de_succession_legislation_federale_19f1e6c4",
+    "code_et_legislation/article_156_du_code_des_droits_de_succession_region_de_bruxelles_capitale_6be99e36",
+    "code_et_legislation/article_156_du_code_des_droits_de_succession_region_wallonne_c40d21dc"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-04a4c897": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_93_relative_aux_modifications_apportees_au_code_de_la_tva_par_9ec0f0d7",
+    "circulaires/circulaire_2024_c_20_commentant_la_loi_du_28_decembre_2023_portant_des_dispositi_912bb212",
+    "circulaires/circulaire_2026_c_43_relative_aux_modifications_apportees_par_la_loi_du_10_02_20_42f596ff",
+    "code_et_legislation/20_11_2022_loi_portant_des_dispositions_fiscales_et_financieres_diverses_354e4296",
+    "circulaires/circulaire_2018_c_15_concernant_la_loi_du_25_decembre_2017_portant_des_dispositi_2bec7323"
+   ],
+   "expected": [
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-6a0a0dd9": {
+   "rank": 7,
+   "rr": 0.1429,
+   "top5": [
+    "code_et_legislation/article_175_1_code_droits_et_taxes_divers_b136d574",
+    "code_et_legislation/article_173_code_droits_et_taxes_divers_ff926725",
+    "code_et_legislation/article_177_code_droits_et_taxes_divers_576d2982",
+    "code_et_legislation/article_174_code_droits_et_taxes_divers_486c6a9c",
+    "code_et_legislation/code_des_droits_et_taxes_divers_coordination_officieuse_bd8ffa7f"
+   ],
+   "expected": [
+    "code_et_legislation/article_202_code_droits_et_taxes_divers_3f9eaee1",
+    "code_et_legislation/article_38_cir_92_revenus_2025_753bc29d",
+    "code_et_legislation/article_38_cir_92_revenus_2026_24644f80",
+    "code_et_legislation/article_38_cir_92_revenus_2027_724fbf4f",
+    "legislation_et_reglementation_regionale_et_locale/article_38_cir_92_region_flamande_revenus_2025_7b5eedb9",
+    "legislation_et_reglementation_regionale_et_locale/article_38_cir_92_region_flamande_revenus_2026_785274b7"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-a5a90df4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_145_33_cir_92_revenus_2027_dd5cdb16",
+    "code_et_legislation/article_145_33_cir_92_revenus_2026_7a2e3e81",
+    "code_et_legislation/article_145_33_cir_92_revenus_2025_4219b0a6",
+    "code_et_legislation/article_140_du_code_des_droits_d_enregistrement_region_wallonne_9c55b678",
+    "code_et_legislation/code_des_societes_et_des_associations_f5bd4f29"
+   ],
+   "expected": [
+    "code_et_legislation/article_8_du_code_des_droits_de_succession_region_de_bruxelles_capitale_7291896b"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-5be632eb": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/07_02_2003_accord_de_cooperation_entre_la_region_flamande_la_region_wallonne_et_9f7eaa95",
+    "code_et_legislation/26_02_2014_accord_de_cooperation_entre_l_etat_federal_la_region_flamande_la_regi_2804437e",
+    "code_et_legislation/article_98_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_89e8e8ca",
+    "code_et_legislation/article_10_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_bru_66b99492",
+    "legislation_et_reglementation_regionale_et_locale/31_01_2014_accord_de_cooperation_du_31_janvier_2014_entre_la_region_flamande_la_ca5e4d0b"
+   ],
+   "expected": [
+    "code_et_legislation/article_100_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallo_38953508",
+    "code_et_legislation/article_21_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallon_991e1586"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-48a2f445": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/22_12_2015_circulaire_de_la_region_de_bruxelles_capitale_relative_a_l_acquisitio_a0756fc4",
+    "code_et_legislation/27_12_2021_loi_programme_463a6393",
+    "circulaires/circulaire_n_14_1994_du_25_05_1994_ababa8e0",
+    "questions_parlementaires/question_parlementaire_n_269_de_monsieur_christophe_collignon_du_02_09_2025_regi_d2aae150",
+    "questions_parlementaires/question_parlementaire_n_117_de_monsieur_christophe_collignon_du_18_12_2025_regi_c9d7a425"
+   ],
+   "expected": [
+    "code_et_legislation/article_46bis_du_code_des_droits_d_enregistrement_region_wallonne_e219255f"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-f01f79f8": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/11_07_2021_loi_visant_a_assurer_la_transposition_de_la_directive_2019_878_du_par_5c40d9df",
+    "circulaires/circulaire_2025_c_29_commentant_lordonnance_de_la_region_de_bruxelles_capitale_d_95bd3032",
+    "code_et_legislation/28_04_2020_loi_transposant_la_directive_ue_2017_828_du_parlement_europeen_et_du_fe801ffd",
+    "code_et_legislation/legislation_nationale_444d3765",
+    "questions_parlementaires/question_parlementaire_n_1909_de_monsieur_peter_de_roover_du_22_02_2024_28748d7d"
+   ],
+   "expected": [
+    "code_et_legislation/article_117_du_code_des_droits_d_enregistrement_legislation_federale_e9adac18",
+    "code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_3e83a292",
+    "code_et_legislation/article_117_du_code_des_droits_d_enregistrement_region_wallonne_44008d10"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-42602230": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/25_03_2021_protocole_de_cooperation_entre_le_spf_finances_et_la_communaute_germa_c8cc485a",
+    "code_et_legislation/07_12_2001_accord_de_cooperation_entre_l_etat_federal_et_les_regions_relatif_a_l_e2f0195b",
+    "code_et_legislation/13_07_2021_accord_de_cooperation_entre_l_etat_federal_la_region_flamande_la_regi_024364a2",
+    "code_et_legislation/article_289bis_du_code_des_droits_d_enregistrement_legislation_federale_f9806745",
+    "code_et_legislation/article_146quater_du_code_des_droits_de_succession_legislation_federale_8f069b2a"
+   ],
+   "expected": [
+    "code_et_legislation/article_236_1_du_code_des_droits_d_enregistrement_legislation_federale_d1c406fd",
+    "code_et_legislation/article_236_1_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_cb489d31",
+    "code_et_legislation/article_236_1_du_code_des_droits_d_enregistrement_region_wallonne_55afb9e7"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d849fb35": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_4_2016_du_09_05_2016_3018ae43",
+    "circulaires/circulaire_2018_c_56_concernant_lordonnance_du_12_decembre_2016_et_l_ordonnance_fe1e6508",
+    "circulaires/circulaire_n_6_2006_du_15_02_2006_ad6837c5",
+    "circulaires/circulaire_2018_c_112_concernant_le_decret_wallon_du_13_decembre_2017_en_matiere_f268b8d4",
+    "circulaires/circulaire_2018_c_66_relative_aux_deux_ordonnances_du_14_decembre_2017_en_matier_14825289"
+   ],
+   "expected": [
+    "code_et_legislation/article_46bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_12e27f29",
+    "code_et_legislation/article_46bis_du_code_des_droits_d_enregistrement_region_wallonne_e219255f"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-95d0c0c1": {
+   "rank": 5,
+   "rr": 0.2,
+   "top5": [
+    "circulaires/circulaire_n_11_2004_du_16_08_2004_54764d21",
+    "circulaires/circulaire_2020_c_106_relative_aux_mesures_de_soutien_et_aux_tolerances_administ_5703b549",
+    "circulaires/circulaire_2023_c_52_relative_a_lordonnance_de_la_region_de_bruxelles_capitale_d_05823d30",
+    "code_et_legislation/article_289bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_1393a0e8",
+    "code_et_legislation/article_212bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_ecb4fe7b"
+   ],
+   "expected": [
+    "code_et_legislation/article_212bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_ecb4fe7b"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-7413c8b4": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_161_code_droits_et_taxes_divers_f4981928",
+    "code_et_legislation/15_05_2014_loi_portant_execution_du_pacte_de_competitivite_d_emploi_et_de_relanc_9f364976",
+    "circulaires/circulaire_2023_c_80_relative_a_la_deductibilite_a_titre_de_frais_professionnels_6fa737f6",
+    "code_et_legislation/article_160_code_droits_et_taxes_divers_8af54431",
+    "legislation_et_reglementation_regionale_et_locale/03_02_2023_arrete_du_gouvernement_flamand_octroyant_une_aide_aux_entreprises_en_3a69262d"
+   ],
+   "expected": [
+    "code_et_legislation/article_162_code_droits_et_taxes_divers_3bc7cb4e"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-43b3a896": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_142_du_code_des_droits_d_enregistrement_legislation_federale_20b167f9",
+    "code_et_legislation/article_142_du_code_des_droits_d_enregistrement_region_wallonne_bcf51bc3",
+    "code_et_legislation/article_142_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_b43112d3",
+    "code_et_legislation/article_35_du_code_des_droits_d_enregistrement_region_wallonne_7da546cd",
+    "code_et_legislation/article_210_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a76a5f47"
+   ],
+   "expected": [
+    "code_et_legislation/article_150_du_code_des_droits_d_enregistrement_legislation_federale_6906f58a",
+    "code_et_legislation/article_150_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_27f3172d",
+    "code_et_legislation/article_150_du_code_des_droits_d_enregistrement_region_wallonne_9a5856df"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-d83f25c7": {
+   "rank": 4,
+   "rr": 0.25,
+   "top5": [
+    "code_et_legislation/article_1_code_droits_et_taxes_divers_a1602c44",
+    "code_et_legislation/article_21_code_droits_et_taxes_divers_c3db7e0c",
+    "code_et_legislation/article_211_code_droits_et_taxes_divers_5117e188",
+    "code_et_legislation/article_6_code_droits_et_taxes_divers_69913448",
+    "code_et_legislation/article_23_2_code_droits_et_taxes_divers_29f624a2"
+   ],
+   "expected": [
+    "code_et_legislation/article_3_code_droits_et_taxes_divers_a4ef0f98",
+    "code_et_legislation/article_4_code_droits_et_taxes_divers_dc6fc2a7",
+    "code_et_legislation/article_6_code_droits_et_taxes_divers_69913448",
+    "code_et_legislation/article_7_code_droits_et_taxes_divers_e5149aa4",
+    "code_et_legislation/article_10_code_droits_et_taxes_divers_135c5353",
+    "code_et_legislation/article_161_du_code_des_droits_d_enregistrement_legislation_federale_a464bf97",
+    "code_et_legislation/article_161_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_7520d215",
+    "code_et_legislation/article_161_du_code_des_droits_d_enregistrement_region_wallonne_d2d17064"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-86f01596": {
+   "rank": 3,
+   "rr": 0.3333,
+   "top5": [
+    "circulaires/circulaire_2026_c_48_concernant_la_loi_du_19_decembre_2025_sur_la_reduction_des_28541b17",
+    "code_et_legislation/article_21_code_droits_et_taxes_divers_c3db7e0c",
+    "code_et_legislation/article_6_code_droits_et_taxes_divers_69913448",
+    "code_et_legislation/article_39_du_code_des_droits_d_enregistrement_legislation_federale_4ebb301f",
+    "code_et_legislation/article_26_du_code_des_droits_d_enregistrement_legislation_federale_7361440d"
+   ],
+   "expected": [
+    "code_et_legislation/article_3_code_droits_et_taxes_divers_a4ef0f98",
+    "code_et_legislation/article_4_code_droits_et_taxes_divers_dc6fc2a7",
+    "code_et_legislation/article_6_code_droits_et_taxes_divers_69913448",
+    "code_et_legislation/article_7_code_droits_et_taxes_divers_e5149aa4"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-ee6b5b44": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_wallonne_31206a4c",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_legislation_federale_a5713fa9",
+    "code_et_legislation/article_19_du_code_des_droits_de_succession_region_de_bruxelles_capitale_62eafbd1",
+    "code_et_legislation/code_des_droits_de_succession_legislation_federale_coordination_officieuse_e7f616cd",
+    "jurisprudence_belge/arret_de_la_cour_d_arbitrage_du_22_07_2004_n_141_2004_9e7029cb"
+   ],
+   "expected": [
+    "code_et_legislation/article_111_du_code_des_droits_de_succession_legislation_federale_d8485f85",
+    "code_et_legislation/article_111_du_code_des_droits_de_succession_region_de_bruxelles_capitale_e1c2f911",
+    "code_et_legislation/article_111_du_code_des_droits_de_succession_region_wallonne_43eb411a",
+    "code_et_legislation/article_120_du_code_des_droits_de_succession_legislation_federale_c3e8cdd3",
+    "code_et_legislation/article_120_du_code_des_droits_de_succession_region_de_bruxelles_capitale_9ad6d1fa",
+    "code_et_legislation/article_120_du_code_des_droits_de_succession_region_wallonne_ff7782bb"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-278310db": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_5_1_cir_92_revenus_2027_b483182e",
+    "code_et_legislation/article_5_1_cir_92_revenus_2025_81b4d849",
+    "code_et_legislation/article_5_1_cir_92_revenus_2026_b7c4cd71",
+    "code_et_legislation/06_05_1999_loi_visant_a_promouvoir_la_creation_de_societes_civiles_de_groupement_43d52c11",
+    "code_et_legislation/article_159_du_code_des_droits_d_enregistrement_region_wallonne_f78ec481"
+   ],
+   "expected": [
+    "code_et_legislation/article_44_du_code_des_droits_d_enregistrement_legislation_federale_b5d6f887",
+    "code_et_legislation/article_44_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_c5cda190",
+    "code_et_legislation/article_44_du_code_des_droits_d_enregistrement_region_wallonne_1c32460b",
+    "code_et_legislation/article_45_du_code_des_droits_d_enregistrement_legislation_federale_59393cd8",
+    "code_et_legislation/article_45_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_be203693",
+    "code_et_legislation/article_45_du_code_des_droits_d_enregistrement_region_wallonne_90c493a1",
+    "code_et_legislation/article_46_du_code_des_droits_d_enregistrement_legislation_federale_d73c184e",
+    "code_et_legislation/article_46_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_bb4cb3bd",
+    "code_et_legislation/article_46_du_code_des_droits_d_enregistrement_region_wallonne_d324019c"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-0b0b5187": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/code_d_instruction_criminelle_a8e50f46",
+    "code_et_legislation/code_d_instruction_criminelle_11186493",
+    "code_et_legislation/article_198_cir_92_revenus_2025_85424fc1",
+    "code_et_legislation/article_289bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_1393a0e8",
+    "code_et_legislation/article_211bis_code_droits_et_taxes_divers_a21cdbdd"
+   ],
+   "expected": [
+    "code_et_legislation/article_161_du_code_des_droits_d_enregistrement_legislation_federale_a464bf97",
+    "code_et_legislation/article_161_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_7520d215",
+    "code_et_legislation/article_161_du_code_des_droits_d_enregistrement_region_wallonne_d2d17064"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-5005c3c0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_121_du_code_des_droits_d_enregistrement_region_wallonne_a480bfb8",
+    "code_et_legislation/article_121_du_code_des_droits_d_enregistrement_legislation_federale_c0b5aef3",
+    "code_et_legislation/article_121_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_986ea33e",
+    "code_et_legislation/article_302bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_55ae030a",
+    "code_et_legislation/article_302bis_du_code_des_droits_d_enregistrement_region_wallonne_2b944b1a"
+   ],
+   "expected": [
+    "code_et_legislation/article_121_du_code_des_droits_d_enregistrement_legislation_federale_c0b5aef3",
+    "code_et_legislation/article_121_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_986ea33e",
+    "code_et_legislation/article_121_du_code_des_droits_d_enregistrement_region_wallonne_a480bfb8",
+    "code_et_legislation/article_140_du_code_des_droits_d_enregistrement_legislation_federale_cfeac563",
+    "code_et_legislation/article_140_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_02f64d7e",
+    "code_et_legislation/article_140_du_code_des_droits_d_enregistrement_region_wallonne_9c55b678"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-4c625a02": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_8_2012_du_19_07_2012_vers_2_4eb1f953",
+    "code_et_legislation/article_52_3_du_code_des_droits_de_succession_region_wallonne_ae229023",
+    "circulaires/circulaire_2024_c_42_concernant_lordonnance_de_la_region_de_bruxelles_capitale_d_76be50f6",
+    "circulaires/circulaire_2018_c_75_concernant_le_nouveau_droit_successoral_80022703",
+    "circulaires/circulaire_2025_c_43_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_1a2fb15e"
+   ],
+   "expected": [
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_legislation_federale_6cf96491",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_region_de_bruxelles_capitale_d54670a2",
+    "code_et_legislation/article_48_du_code_des_droits_de_succession_region_wallonne_ca2f583c",
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_legislation_federale_12b25905",
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_8f4278cc",
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_region_wallonne_8f77684e",
+    "code_et_legislation/article_167_du_code_des_droits_d_enregistrement_legislation_federale_52d7b29d",
+    "code_et_legislation/article_167_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_0d6a50d4",
+    "code_et_legislation/article_167_du_code_des_droits_d_enregistrement_region_wallonne_1aec4212"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-39a0f4b6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2025_c_42_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_e5657afe",
+    "circulaires/circulaire_2025_c_43_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_1a2fb15e",
+    "circulaires/circulaire_2020_c_138_relative_aux_tolerances_administratives_complementaires_a_1f1cc3a6",
+    "circulaires/circulaire_2018_c_112_concernant_le_decret_wallon_du_13_decembre_2017_en_matiere_f268b8d4",
+    "code_et_legislation/article_44bis_du_code_des_droits_d_enregistrement_region_wallonne_29fa718a"
+   ],
+   "expected": [
+    "circulaires/circulaire_2025_c_42_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_e5657afe"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-b8721ca9": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_56ter_code_de_la_tva_2df474a0",
+    "circulaires/circulaire_n_9_2013_du_31_07_2013_e38acc08",
+    "code_et_legislation/20_02_2017_accord_de_cooperation_entre_l_etat_federal_la_region_de_bruxelles_cap_7a46a1f1",
+    "code_et_legislation/livre_2_d6eb432d",
+    "circulaires/circulaire_n_3_2005_aaf_6_2005_dos_e_e_l_144_du_05_04_2005_bd5213f1"
+   ],
+   "expected": [
+    "code_et_legislation/article_110_du_code_des_droits_d_enregistrement_region_wallonne_f1d865cd"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-f8e38ea2": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_2_2006_aaf_6_2006_dos_e_e_l_149_du_08_02_2006_233b5595",
+    "circulaires/circulaire_n_16_2014_du_19_11_2014_13539d7a",
+    "code_et_legislation/article_26_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_f38777ed",
+    "circulaires/circulaire_n_15_2014_du_19_11_2014_51f85ae4",
+    "circulaires/circulaire_n_11_2008_du_01_10_2008_afz_17_2008_e201f25a"
+   ],
+   "expected": [
+    "code_et_legislation/article_16_du_code_des_droits_d_enregistrement_legislation_federale_30c3e020",
+    "code_et_legislation/article_16_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_b8b92cbc",
+    "code_et_legislation/article_16_du_code_des_droits_d_enregistrement_region_wallonne_3c160d91",
+    "code_et_legislation/article_17_du_code_des_droits_d_enregistrement_legislation_federale_d2ec04c2",
+    "code_et_legislation/article_17_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_8000f2de",
+    "code_et_legislation/article_17_du_code_des_droits_d_enregistrement_region_wallonne_02fea17d",
+    "code_et_legislation/article_31_du_code_des_droits_d_enregistrement_legislation_federale_4f7f59a6",
+    "code_et_legislation/article_31_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_daba1c7f",
+    "code_et_legislation/article_31_du_code_des_droits_d_enregistrement_region_wallonne_6aaa906e"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-90227b52": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "code_et_legislation/article_140bis_du_code_des_droits_d_enregistrement_region_wallonne_e9d0423c",
+    "code_et_legislation/article_140_1_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_c7c22e17",
+    "code_et_legislation/article_140ter_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_9f1d32db",
+    "code_et_legislation/article_140quinquies_du_code_des_droits_d_enregistrement_legislation_federale_7cbf14c8",
+    "code_et_legislation/article_140bis_du_code_des_droits_d_enregistrement_legislation_federale_b6deff6a"
+   ],
+   "expected": [
+    "code_et_legislation/article_140bis_du_code_des_droits_d_enregistrement_region_wallonne_e9d0423c",
+    "code_et_legislation/article_60bis_du_code_des_droits_de_succession_region_wallonne_fd8034db"
+   ],
+   "split": "val"
+  },
+  "MC-PQ-9065e784": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "code_et_legislation/article_48_du_code_des_droits_d_enregistrement_region_wallonne_5e16179d",
+    "circulaires/circulaire_2025_c_42_concernant_le_decret_wallon_du_5_decembre_2024_portant_refo_e5657afe",
+    "circulaires/circulaire_n_10_2007_du_09_05_2007_aaf_6_2007_e891d531",
+    "circulaires/circulaire_2018_c_61_relative_a_la_donation_de_terres_agricoles_et_au_decret_wal_aa303cab",
+    "legislation_et_reglementation_regionale_et_locale/15_03_2018_decret_relatif_au_bail_d_habitation_e40e8087"
+   ],
+   "expected": [
+    "code_et_legislation/article_44bis_du_code_des_droits_d_enregistrement_region_wallonne_29fa718a"
+   ],
+   "split": "train"
+  },
+  "MC-PQ-9c03d4db": {
+   "rank": null,
+   "rr": 0.0,
+   "top5": [
+    "circulaires/circulaire_n_11_2004_du_16_08_2004_54764d21",
+    "code_et_legislation/article_159_du_code_des_droits_d_enregistrement_legislation_federale_3f02d8bf",
+    "code_et_legislation/article_9_code_de_la_tva_623120bb",
+    "code_et_legislation/article_10_cir_92_revenus_2026_d3caa85e",
+    "decisions_anticipees_l_24_12_2002/decision_anticipee_n_2016_005_du_23_02_2016_f73d13e3"
+   ],
+   "expected": [
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_legislation_federale_12b25905",
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_8f4278cc",
+    "code_et_legislation/article_11_du_code_des_droits_d_enregistrement_region_wallonne_8f77684e",
+    "code_et_legislation/article_83_du_code_des_droits_d_enregistrement_legislation_federale_629961a1",
+    "code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_a2d629fa",
+    "code_et_legislation/article_83_du_code_des_droits_d_enregistrement_region_wallonne_fe3fafd0",
+    "code_et_legislation/article_84_du_code_des_droits_d_enregistrement_legislation_federale_978e330b",
+    "code_et_legislation/article_84_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_0a7c0baf",
+    "code_et_legislation/article_84_du_code_des_droits_d_enregistrement_region_wallonne_d22353dd"
+   ],
+   "split": "val"
+  }
+ },
+ "timing": {},
+ "provenance": {
+  "git": "6241a490",
+  "git_dirty": true,
+  "utc": "2026-09-26T19:12:15Z",
+  "host": "vm",
+  "harness": "0.2.0",
+  "python": "3.12.3",
+  "questions_file": "experiments/data/corpus_c/questions_c_mined.json",
+  "questions_sha256": "5599998ce938c7f314ba3e672af79fbe2a5842666335527751a821a73e538f24",
+  "qids_sha256": "1c9802cbd639da41806fd637064cee4c7f4773919e297e786c32d783144be458",
+  "n_qids": 163,
+  "corpus_n_docs": 21259,
+  "corpus_ids_sha256": "e3f088150641cf89fbabf64edf20d2e52fe7fef5bbd4224c1e6728962b1fa08e",
+  "corpus_fingerprint_source": "disk",
+  "omp_threads": "2",
+  "argv": "../21_mined_eval/train21.py --corpus C --balance --fsets cheap,minimal+meta,legs-only"
+ }
+}

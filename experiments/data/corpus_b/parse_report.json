@@ -1,0 +1,286 @@
+{
+ "cir92": {
+  "preamble_lines": 46,
+  "headings": 767,
+  "dropped_empty": 1,
+  "pages": 783,
+  "articles": 766,
+  "chars": 2045673,
+  "seconds": 1.8,
+  "default_subset": true
+ },
+ "cir92_bxl": {
+  "preamble_lines": 42,
+  "headings": 875,
+  "dropped_empty": 54,
+  "duplicates": 33,
+  "pages": 803,
+  "articles": 788,
+  "chars": 2057502,
+  "seconds": 1.7,
+  "default_subset": false
+ },
+ "cir92_vla": {
+  "preamble_lines": 47,
+  "headings": 811,
+  "dropped_empty": 1,
+  "pages": 709,
+  "articles": 810,
+  "chars": 1805139,
+  "seconds": 1.5,
+  "default_subset": false
+ },
+ "cir92_wal": {
+  "preamble_lines": 47,
+  "headings": 767,
+  "dropped_empty": 1,
+  "pages": 781,
+  "articles": 766,
+  "chars": 2046160,
+  "seconds": 1.9,
+  "default_subset": false
+ },
+ "arcir92": {
+  "preamble_lines": 114,
+  "headings": 439,
+  "pages": 374,
+  "articles": 439,
+  "chars": 937774,
+  "seconds": 1.2,
+  "default_subset": true
+ },
+ "arcir92_bxl": {
+  "preamble_lines": 115,
+  "headings": 439,
+  "pages": 374,
+  "articles": 439,
+  "chars": 935700,
+  "seconds": 1.1,
+  "default_subset": false
+ },
+ "arcir92_vla": {
+  "preamble_lines": 115,
+  "headings": 439,
+  "pages": 364,
+  "articles": 439,
+  "chars": 918963,
+  "seconds": 1.0,
+  "default_subset": false
+ },
+ "arcir92_wal": {
+  "preamble_lines": 115,
+  "headings": 439,
+  "pages": 374,
+  "articles": 439,
+  "chars": 935901,
+  "seconds": 1.0,
+  "default_subset": false
+ },
+ "ctva": {
+  "preamble_lines": 153,
+  "headings": 220,
+  "dropped_empty": 25,
+  "pages": 166,
+  "articles": 195,
+  "chars": 455732,
+  "seconds": 0.5,
+  "default_subset": true
+ },
+ "artva": {
+  "preamble_lines": 638,
+  "decrees": 110,
+  "headings": 572,
+  "dropped_empty": 1,
+  "duplicates": 43,
+  "pages": 375,
+  "articles": 528,
+  "chars": 796200,
+  "seconds": 1.0,
+  "default_subset": true
+ },
+ "ue282": {
+  "preamble_lines": 557,
+  "headings": 115,
+  "dropped_empty": 11,
+  "duplicates": 7,
+  "pages": 95,
+  "articles": 97,
+  "chars": 102836,
+  "seconds": 0.1,
+  "default_subset": true
+ },
+ "csucc_wal": {
+  "preamble_lines": 27,
+  "headings": 295,
+  "pages": 182,
+  "articles": 295,
+  "chars": 418459,
+  "seconds": 0.5,
+  "default_subset": true
+ },
+ "csucc_bxl": {
+  "preamble_lines": 29,
+  "headings": 285,
+  "pages": 170,
+  "articles": 285,
+  "chars": 383407,
+  "seconds": 0.4,
+  "default_subset": true
+ },
+ "csucc_vla": {
+  "preamble_lines": 36,
+  "headings": 237,
+  "pages": 100,
+  "articles": 237,
+  "chars": 160862,
+  "seconds": 0.3,
+  "default_subset": true
+ },
+ "cenr_wal": {
+  "preamble_lines": 33,
+  "headings": 429,
+  "duplicates": 3,
+  "pages": 251,
+  "articles": 426,
+  "chars": 537039,
+  "seconds": 0.6,
+  "default_subset": true
+ },
+ "cenr_bxl": {
+  "preamble_lines": 30,
+  "headings": 421,
+  "duplicates": 2,
+  "pages": 221,
+  "articles": 419,
+  "chars": 482138,
+  "seconds": 0.6,
+  "default_subset": true
+ },
+ "cenr_vla": {
+  "preamble_lines": 41,
+  "headings": 389,
+  "duplicates": 2,
+  "pages": 142,
+  "articles": 387,
+  "chars": 238173,
+  "seconds": 0.4,
+  "default_subset": true
+ },
+ "cta_wal": {
+  "preamble_lines": 24,
+  "headings": 144,
+  "pages": 86,
+  "articles": 144,
+  "chars": 166059,
+  "seconds": 0.2,
+  "default_subset": true
+ },
+ "cta_bxl": {
+  "preamble_lines": 24,
+  "headings": 131,
+  "pages": 65,
+  "articles": 131,
+  "chars": 115796,
+  "seconds": 0.2,
+  "default_subset": true
+ },
+ "cta_vla": {
+  "preamble_lines": 31,
+  "headings": 146,
+  "pages": 55,
+  "articles": 146,
+  "chars": 97895,
+  "seconds": 0.1,
+  "default_subset": true
+ },
+ "crecouv": {
+  "preamble_lines": 34,
+  "headings": 95,
+  "pages": 41,
+  "articles": 95,
+  "chars": 108267,
+  "seconds": 0.1,
+  "default_subset": true
+ },
+ "cbpf": {
+  "preamble_lines": 44,
+  "headings": 154,
+  "pages": 97,
+  "articles": 154,
+  "chars": 185502,
+  "seconds": 0.4,
+  "default_subset": true
+ },
+ "agbxl2019": {
+  "preamble_lines": 32,
+  "headings": 59,
+  "pages": 25,
+  "articles": 59,
+  "chars": 40734,
+  "seconds": 0.1,
+  "default_subset": true
+ },
+ "vcf": {
+  "preamble_lines": 71,
+  "headings": 642,
+  "pages": 525,
+  "articles": 642,
+  "chars": 882266,
+  "seconds": 1.8,
+  "default_subset": true
+ },
+ "avcf": {
+  "preamble_lines": 42,
+  "headings": 241,
+  "pages": 110,
+  "articles": 241,
+  "chars": 105243,
+  "seconds": 0.3,
+  "default_subset": true
+ },
+ "ar1927": {
+  "preamble_lines": 24,
+  "headings": 110,
+  "pages": 54,
+  "articles": 110,
+  "chars": 92749,
+  "seconds": 0.1,
+  "default_subset": true
+ },
+ "ar1936_bxl": {
+  "preamble_lines": 34,
+  "headings": 21,
+  "pages": 12,
+  "articles": 21,
+  "chars": 13823,
+  "seconds": 0.0,
+  "default_subset": true
+ },
+ "ar1936_vla": {
+  "preamble_lines": 34,
+  "headings": 20,
+  "pages": 11,
+  "articles": 20,
+  "chars": 12700,
+  "seconds": 0.0,
+  "default_subset": true
+ },
+ "ar1940": {
+  "preamble_lines": 18,
+  "headings": 16,
+  "pages": 14,
+  "articles": 16,
+  "chars": 20452,
+  "seconds": 0.0,
+  "default_subset": true
+ },
+ "cdu": {
+  "preamble_lines": 66,
+  "headings": 290,
+  "pages": 525,
+  "articles": 290,
+  "chars": 1304973,
+  "seconds": 1.2,
+  "default_subset": false
+ }
+}

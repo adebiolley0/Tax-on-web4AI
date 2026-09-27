@@ -1,0 +1,28 @@
+[project]
+name = "best-retrieval"
+version = "0.1.0"
+description = "The best measured retrieval pipelines of the Belgian-tax RAG experiments (EXPERIMENTS.md §4): reception-BM25F + ColBERT-fr + e5-small with a length-gated mMARCO reranker on statute articles, exp-13 BM25F + bge-reranker on Fisconet+ documents."
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "sentence-transformers>=5.0",
+    "transformers>=4.51",
+    "pylate>=1.2",
+    "bm25s>=0.2",
+    "PyStemmer",
+    "numpy",
+    "scipy",
+    "rag-eval",
+]
+
+[project.optional-dependencies]
+learned = ["lightgbm", "scikit-learn"]   # for a future learned ranker over the leg scores (exp 24 recipe, not shipped here)
+
+[tool.uv.sources]
+rag-eval = { path = "../common", editable = true }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

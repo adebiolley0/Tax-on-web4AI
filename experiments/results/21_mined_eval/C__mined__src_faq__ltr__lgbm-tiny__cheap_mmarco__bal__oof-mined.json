@@ -1,0 +1,744 @@
+{
+ "name": "mined__src_faq__ltr__lgbm-tiny__cheap+mmarco__bal__oof-mined",
+ "corpus": "C",
+ "config": {
+  "method": "lgbm-tiny",
+  "features": "cheap+mmarco",
+  "n_features": 57,
+  "C": null,
+  "fit": "2-fold oof over mined",
+  "balanced": true,
+  "questions": "mined__src_faq",
+  "part": 3
+ },
+ "metrics": {
+  "mrr": 0.9889,
+  "ndcg@5": 0.9918,
+  "ndcg@10": 0.9918,
+  "hit@1": 0.9778,
+  "hit@3": 1.0,
+  "hit@5": 1.0,
+  "hit@10": 1.0,
+  "recall@5": 1.0,
+  "recall@10": 1.0,
+  "n_questions": 45,
+  "train_mrr": 1.0,
+  "train_hit@1": 1.0,
+  "train_hit@5": 1.0,
+  "train_recall@10": 1.0,
+  "train_n": 27,
+  "val_mrr": 0.9722,
+  "val_hit@1": 0.9444,
+  "val_hit@5": 1.0,
+  "val_recall@10": 1.0,
+  "val_n": 18,
+  "recall@30": 1.0,
+  "hit@30": 1.0
+ },
+ "per_question": {
+  "MC-FAQ-9be9ae55": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "faq/faq_epargne_pension_02bee55b",
+    "arretes_ministeriels/05_04_2018_arrete_ministeriel_portant_agrement_d_un_fonds_d_epargne_pension_dans_9faf102d",
+    "questions_parlementaires/question_parlementaire_n_4_517_de_monsieur_philippe_mahoux_du_03_04_2008_7ae37321",
+    "code_et_legislation/article_34_cir_92_revenus_2026_4e474aec",
+    "code_et_legislation/article_34_cir_92_revenus_2027_7a132c40"
+   ],
+   "expected": [
+    "faq/faq_epargne_pension_02bee55b"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-d3184670": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "faq/faq_epargne_pension_02bee55b",
+    "code_et_legislation/article_113_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_de_br_af8b96da",
+    "code_et_legislation/22_05_2001_loi_relative_a_la_participation_des_travailleurs_au_capital_des_socie_fcbb8abc",
+    "code_et_legislation/article_66_du_code_des_droits_de_succession_region_de_bruxelles_capitale_a9c74504",
+    "code_et_legislation/article_212bis_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_ecb4fe7b"
+   ],
+   "expected": [
+    "faq/faq_epargne_pension_02bee55b"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-40c05f1d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558",
+    "commentaires_dont_rep_rj/commentaire_tva_topics_particuliers_biens_immobiliers_prestations_de_services_01_9f0b982d",
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f",
+    "code_et_legislation/article_159_du_code_des_droits_d_enregistrement_region_de_bruxelles_capitale_8d9461fc",
+    "code_et_legislation/article_48_code_de_la_tva_0a670a33"
+   ],
+   "expected": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-c91d4127": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558",
+    "commentaires_dont_rep_rj/commentaire_tva_topics_particuliers_biens_immobiliers_prestations_de_services_01_9f0b982d",
+    "code_et_legislation/article_21bis_code_de_la_tva_20449d02",
+    "code_et_legislation/article_36_ar_cir_92_revenus_2026_794b8a17",
+    "code_et_legislation/article_7_cir_92_revenus_2025_90f0344b"
+   ],
+   "expected": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-dc7ac778": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558",
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f",
+    "commentaires_dont_rep_rj/commentaire_tva_topics_particuliers_biens_immobiliers_prestations_de_services_01_9f0b982d",
+    "code_et_legislation/06_01_2019_loi_portant_assentiment_au_protocole_modifiant_l_accord_du_9_fevrier_cfc80340",
+    "circulaires/circulaire_2019_c_134_faq_concernant_les_modifications_apportees_a_larrete_royal_0b2a4102"
+   ],
+   "expected": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-e2100f66": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558",
+    "commentaires_dont_rep_rj/commentaire_tva_exemptions_visees_par_larticle_44_3_2_du_code_de_la_tva_les_loca_9484de9f",
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f",
+    "circulaires/circulaire_2019_c_22_concernant_les_travaux_effectues_par_un_assujetti_a_la_tva_4c7d62c5",
+    "circulaires/circulaire_2026_c_43_relative_aux_modifications_apportees_par_la_loi_du_10_02_20_42f596ff"
+   ],
+   "expected": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-f1ba2060": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558",
+    "commentaires_dont_rep_rj/commentaire_tva_exemptions_visees_par_larticle_44_3_2_du_code_de_la_tva_les_loca_9484de9f",
+    "code_et_legislation/12_05_2014_loi_relative_aux_societes_immobilieres_reglementees_4c5602e1",
+    "commentaires_dont_rep_rj/commentaire_tva_topics_particuliers_biens_immobiliers_prestations_de_services_01_9f0b982d",
+    "code_et_legislation/article_7_cir_92_revenus_2025_90f0344b"
+   ],
+   "expected": [
+    "circulaires/circulaire_2019_c_25_concernant_la_loi_du_14_10_2018_modifiant_le_code_de_la_tva_0e316558"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-f9c3c2cb": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2019_c_46_faq_concernant_la_tva_relative_a_des_cas_pratiques_dapplica_6bcf15af",
+    "commentaires_dont_rep_rj/commentaire_tva_exemptions_visees_par_larticle_44_2bis_du_code_de_la_tva_prestat_cc32a1fb",
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f",
+    "commentaires_dont_rep_rj/commentaire_tva_exemptions_visees_par_larticle_44_1er_alinea_1er_1_du_code_de_la_8e0c5a17",
+    "circulaires/circulaire_2022_c_61_relative_a_lexemption_de_la_taxe_en_matiere_de_prestations_d9d2a373"
+   ],
+   "expected": [
+    "circulaires/circulaire_2019_c_46_faq_concernant_la_tva_relative_a_des_cas_pratiques_dapplica_6bcf15af"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-1ec673f3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "code_et_legislation/article_201_9_2_code_droits_et_taxes_divers_1618469b",
+    "code_et_legislation/article_201_14_code_droits_et_taxes_divers_60a9dafa",
+    "code_et_legislation/26_01_2021_loi_sur_la_dematerialisation_des_relations_entre_le_service_public_fe_6a999b07",
+    "code_et_legislation/article_201_25_code_droits_et_taxes_divers_3d2819f2"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-39f964ca": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "code_et_legislation/article_7_cir_92_revenus_2026_583b6854",
+    "code_et_legislation/article_7_cir_92_revenus_2027_4ccecfb9",
+    "code_et_legislation/article_7_cir_92_revenus_2025_90f0344b",
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-80a0bd67": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "code_et_legislation/article_110_legislation_federale_code_des_taxes_assimilees_aux_impots_sur_les_re_945085e1",
+    "code_et_legislation/article_110_du_code_des_taxes_assimilees_aux_impots_sur_les_revenus_region_wallo_4f5788e2",
+    "code_et_legislation/article_179_1_code_droits_et_taxes_divers_2ce17527",
+    "commentaires_dont_rep_rj/numero_e_110_111_13_01_3374030c"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-83de519e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c",
+    "code_et_legislation/article_7_cir_92_revenus_2027_4ccecfb9",
+    "code_et_legislation/article_7_cir_92_revenus_2026_583b6854",
+    "circulaires/circulaire_2021_c_18_relative_au_taux_reduit_de_la_tva_applicable_temporairement_19c8dbf3"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-87fb2987": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c",
+    "code_et_legislation/article_101_cir_92_revenus_2025_6b53063e",
+    "code_et_legislation/article_101_cir_92_revenus_2026_eb4eac28",
+    "code_et_legislation/article_101_cir_92_revenus_2027_f36638e2"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-bd7bf442": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c",
+    "code_et_legislation/article_17_cir_92_revenus_2025_612b87f7",
+    "code_et_legislation/article_145_38_1_cir_92_region_flamande_1d1b39ee",
+    "code_et_legislation/article_44_code_de_la_tva_5b03988f"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-d78f5ce8": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "circulaires/circulaire_2021_c_18_relative_au_taux_reduit_de_la_tva_applicable_temporairement_19c8dbf3",
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c",
+    "circulaires/circulaire_2025_c_48_concernant_le_nouveau_regime_relatif_a_lapplication_du_taux_0bbaef5b",
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-f685579a": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4",
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "circulaires/circulaire_2022_c_93_relative_a_une_tolerance_administrative_dans_le_cadre_de_la_3582ce59",
+    "code_et_legislation/25_10_2016_loi_relative_a_l_acces_a_l_activite_de_prestation_de_services_d_inves_64822e24",
+    "code_et_legislation/25_12_2016_loi_programme_70df5d9c"
+   ],
+   "expected": [
+    "circulaires/circulaire_2022_c_73_faq_relative_a_la_rubrique_xi_du_tableau_b_de_l_annexe_a_l_7ea5e9b4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-01ed20af": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2023_c_64_relative_au_taux_reduit_de_tva_pour_les_livraisons_delectri_2eb1db86",
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "circulaires/circulaire_2022_c_48_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_84db7e47",
+    "code_et_legislation/article_40_code_de_la_tva_d9e0dfbd"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-0353aa13": {
+   "rank": 2,
+   "rr": 0.5,
+   "top5": [
+    "circulaires/circulaire_2025_c_47_concernant_le_taux_de_tva_applicable_a_la_livraison_avec_in_999e5122",
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2026_c_19_relative_a_la_reintroduction_du_taux_reduit_de_tva_applicab_987e62d6",
+    "circulaires/circulaire_2023_c_45_relative_au_taux_reduit_temporaire_de_tva_applicable_a_la_l_65884e4d",
+    "circulaires/circulaire_2022_c_35_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_b1fc092f"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-0ec53872": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2023_c_64_relative_au_taux_reduit_de_tva_pour_les_livraisons_delectri_2eb1db86",
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "code_et_legislation/30_10_2022_loi_portant_des_mesures_de_soutien_temporaires_suite_a_la_crise_de_l_1343a8a9",
+    "code_et_legislation/article_15_code_de_la_tva_820d52a3"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-11888ef3": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2023_c_64_relative_au_taux_reduit_de_tva_pour_les_livraisons_delectri_2eb1db86",
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "code_et_legislation/11_12_2022_loi_relative_a_l_octroi_d_une_garantie_de_l_etat_sous_la_forme_d_un_c_a97278ae",
+    "circulaires/circulaire_2022_c_35_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_b1fc092f"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-18d5659f": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "questions_parlementaires/question_parlementaire_n_120_de_monsieur_edmund_stoffels_du_24_01_2019_region_wa_b7486a66",
+    "circulaires/circulaire_2023_c_64_relative_au_taux_reduit_de_tva_pour_les_livraisons_delectri_2eb1db86",
+    "code_et_legislation/article_14bis_code_de_la_tva_c9979da9",
+    "legislation_et_reglementation_regionale_et_locale/16_07_2021_decret_relatif_aux_vehicules_a_emissions_zero_et_aux_vehicules_alimen_dc01e706"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-3481c3b2": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2023_c_9_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_3c4fb0d3",
+    "circulaires/circulaire_2023_c_60_relative_au_taux_reduit_de_tva_pour_la_livraison_de_chaleur_7355a3a9",
+    "circulaires/circulaire_2026_c_54_relative_au_taux_reduit_de_6_de_la_tva_pour_la_livraison_de_c8cd2900",
+    "circulaires/circulaire_2023_c_45_relative_au_taux_reduit_temporaire_de_tva_applicable_a_la_l_65884e4d"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-e455472d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "code_et_legislation/11_07_2013_loi_modifiant_le_regime_de_regularisation_fiscale_et_instaurant_une_r_bb365a7b",
+    "code_et_legislation/article_211quater_code_droits_et_taxes_divers_cb6adf93",
+    "code_et_legislation/article_53_du_code_des_droits_d_enregistrement_region_wallonne_50a27063",
+    "code_et_legislation/article_60bis_2_du_code_des_droits_de_succession_region_de_bruxelles_capitale_26aabcbf"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-4c56f7a1": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2023_c_64_relative_au_taux_reduit_de_tva_pour_les_livraisons_delectri_2eb1db86",
+    "circulaires/circulaire_2023_c_9_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_3c4fb0d3",
+    "circulaires/circulaire_2022_c_48_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_84db7e47"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-e4c2c9d0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779",
+    "circulaires/circulaire_2023_c_64_relative_au_taux_reduit_de_tva_pour_les_livraisons_delectri_2eb1db86",
+    "circulaires/circulaire_2023_c_9_relative_au_taux_reduit_temporaire_de_tva_pour_la_livraison_3c4fb0d3",
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "expected": [
+    "circulaires/circulaire_2023_c_102_erratum_de_la_circulaire_2023_c_65_du_26_06_2023_faq_relat_593da78b",
+    "circulaires/circulaire_2023_c_65_faq_relative_au_taux_reduit_de_tva_de_6_pour_les_livraisons_a9611779"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-2375bed5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "circulaires/circulaire_2024_c_30_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_37f71133",
+    "circulaires/circulaire_2024_c_73_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_70b9b26d",
+    "circulaires/circulaire_2021_c_18_relative_au_taux_reduit_de_la_tva_applicable_temporairement_19c8dbf3",
+    "circulaires/circulaire_2025_c_2_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolition_e2c4f332"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-4744b3d6": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "circulaires/circulaire_2025_c_48_concernant_le_nouveau_regime_relatif_a_lapplication_du_taux_0bbaef5b",
+    "legislation_et_reglementation_regionale_et_locale/31_03_2025_arrete_du_gouvernement_wallon_instaurant_un_regime_de_soutien_tempora_0716b085",
+    "circulaires/circulaire_2021_c_104_relative_a_une_tolerance_administrative_dans_le_cadre_de_l_1a94e4a1",
+    "circulaires/circulaire_2024_c_30_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_37f71133"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-6601a79b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "circulaires/circulaire_2024_c_30_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_37f71133",
+    "circulaires/circulaire_2024_c_73_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_70b9b26d",
+    "jurisprudence_belge/jugement_du_tribunal_de_premiere_instance_de_mons_du_22_02_2024_2841ac17",
+    "commentaires_dont_rep_rj/numero_e_60_alinea_3_03_27_2074465f"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-a9c04950": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "circulaires/circulaire_2025_c_48_concernant_le_nouveau_regime_relatif_a_lapplication_du_taux_0bbaef5b",
+    "circulaires/circulaire_2024_c_73_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_70b9b26d",
+    "circulaires/circulaire_2024_c_35_erratum_2024_c_32_faq_relative_au_nouveau_regime_dapplicati_bce2524b",
+    "circulaires/circulaire_2024_c_30_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_37f71133"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-ae18c137": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83",
+    "circulaires/circulaire_2024_c_73_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_70b9b26d",
+    "circulaires/circulaire_2024_c_35_erratum_2024_c_32_faq_relative_au_nouveau_regime_dapplicati_bce2524b",
+    "code_et_legislation/20_12_2024_loi_de_finances_pour_l_annee_budgetaire_2025_8b87e83c",
+    "circulaires/circulaire_2024_c_30_relative_au_taux_reduit_de_la_tva_applicable_a_la_demolitio_37f71133"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_32_faq_relative_au_nouveau_regime_dapplication_du_taux_de_tva_4db5cb83"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-1813535b": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4",
+    "circulaires/circulaire_2024_c_75_erratum_a_la_circulaire_2024_c_53_du_12_08_2024_faq_relativ_070886ed",
+    "circulaires/circulaire_2023_c_27_concernant_le_droit_a_deduction_des_assujettis_mixtes_ayant_bae74fc1",
+    "circulaires/circulaire_2025_c_16_erratum_a_la_circulaire_2024_c_53_du_12_08_2024_faq_relativ_259cdbe5",
+    "code_et_legislation/article_46_code_de_la_tva_4ac8ed8a"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-307fe904": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4",
+    "circulaires/circulaire_2024_c_74_relative_aux_modifications_apportees_au_code_de_la_tva_et_a_214d4f8e",
+    "code_et_legislation/06_01_1989_loi_speciale_sur_la_cour_constitutionnelle_version_coordonnee_officie_e616fe59",
+    "code_et_legislation/12_01_1989_loi_speciale_relative_aux_institutions_bruxelloises_40e8a655",
+    "code_et_legislation/article_49_code_de_la_tva_86677583"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-593c47e0": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4",
+    "circulaires/circulaire_2025_c_23_relative_a_l_application_de_l_arret_biosafe_dans_le_cadre_d_e0406474",
+    "circulaires/circulaire_2024_c_74_relative_aux_modifications_apportees_au_code_de_la_tva_et_a_214d4f8e",
+    "code_et_legislation/article_53_code_de_la_tva_3295c43b",
+    "circulaires/circulaire_2024_c_75_erratum_a_la_circulaire_2024_c_53_du_12_08_2024_faq_relativ_070886ed"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-7b15d5be": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4",
+    "code_et_legislation/article_46_code_de_la_tva_4ac8ed8a",
+    "circulaires/circulaire_n_10_dd_26_07_1995_3a18d7a7",
+    "circulaires/circulaire_2023_c_63_relative_a_l_arrete_royal_du_26_10_2022_modifiant_les_arret_43afe2e1",
+    "code_et_legislation/article_145_36_cir_92_region_wallonne_revenus_2025_5aedce06"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-8fdd0bb7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4",
+    "code_et_legislation/article_183_loi_bancaire_b10d4129",
+    "code_et_legislation/article_213_loi_bancaire_9838f26d",
+    "circulaires/circulaire_2024_c_75_erratum_a_la_circulaire_2024_c_53_du_12_08_2024_faq_relativ_070886ed",
+    "circulaires/circulaire_2024_c_74_relative_aux_modifications_apportees_au_code_de_la_tva_et_a_214d4f8e"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-f3a5739e": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4",
+    "code_et_legislation/16_12_2015_loi_reglant_la_communication_des_renseignements_relatifs_aux_comptes_d28c1211",
+    "commentaires_dont_rep_rj/commentaire_tva_corrections_du_droit_a_deduction_revisions_prelevements_et_utili_8fe74b6d",
+    "circulaires/circulaire_2025_c_16_erratum_a_la_circulaire_2024_c_53_du_12_08_2024_faq_relativ_259cdbe5",
+    "commentaires_dont_rep_rj/commentaire_tva_corrections_du_droit_a_deduction_revisions_prelevements_et_utili_dda4a8e7"
+   ],
+   "expected": [
+    "circulaires/circulaire_2024_c_53_faq_relative_a_lapplication_du_droit_a_deduction_selon_le_p_966067c4"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-12d88d8d": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/article_24_code_de_la_tva_a2b62dfe",
+    "code_et_legislation/article_17_c_b_p_f_9700e594",
+    "reglementation_europeenne/article_10_c3b2ad05"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-14d3fa84": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/article_161_code_droits_et_taxes_divers_f4981928",
+    "code_et_legislation/article_159_code_droits_et_taxes_divers_71d5a200",
+    "code_et_legislation/article_166_code_droits_et_taxes_divers_4d29c65b"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-1cb54f25": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/article_321_3_cir_92_revenus_2025_603e0aec",
+    "code_et_legislation/article_46_loi_bancaire_a35f412c",
+    "code_et_legislation/article_321_3_cir_92_revenus_2027_46dd065a"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-3bb8bea7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/article_509_cir_92_revenus_2025_c0606f74",
+    "circulaires/circulaire_2023_c_76_relative_aux_nouvelles_depenses_non_admises_a_lisoc_et_a_li_4d71a0ee",
+    "code_et_legislation/article_509_cir_92_revenus_2026_b690e8d6"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-3e774738": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/18_07_2017_loi_relative_a_la_creation_du_statut_de_solidarite_nationale_a_l_octr_c34bc449",
+    "code_et_legislation/article_438_3_loi_bancaire_e9e78f43",
+    "code_et_legislation/20_07_2020_loi_portant_octroi_d_une_garantie_de_l_etat_pour_certains_credits_aux_0ca9ae44"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-46e26b6c": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "code_et_legislation/article_95_8_ar_cir_92_revenues_2025_e943147e",
+    "code_et_legislation/article_95_8_ar_cir_92_revenues_2026_0ccbfe58",
+    "code_et_legislation/article_95_8_ar_cir_92_revenues_2027_f39663b3"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-525dd6b7": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/article_161_code_droits_et_taxes_divers_f4981928",
+    "code_et_legislation/article_179_2_code_droits_et_taxes_divers_8190b3ed",
+    "code_et_legislation/code_des_droits_et_taxes_divers_coordination_officieuse_bd8ffa7f"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "val"
+  },
+  "MC-FAQ-722ddb16": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "legislation_et_reglementation_regionale_et_locale/09_06_2023_arrete_du_gouvernement_flamand_relatif_aux_conditions_d_exploitation_50d6f771",
+    "code_et_legislation/article_159_code_droits_et_taxes_divers_71d5a200",
+    "code_et_legislation/article_58sexies_code_de_la_tva_c8bd7921"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "train"
+  },
+  "MC-FAQ-81feece5": {
+   "rank": 1,
+   "rr": 1.0,
+   "top5": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0",
+    "code_et_legislation/article_161_code_droits_et_taxes_divers_f4981928",
+    "arretes_ministeriels/06_04_2022_arrete_ministeriel_portant_designation_du_fonctionnaire_qui_est_compe_e1677739",
+    "code_et_legislation/code_des_droits_et_taxes_divers_coordination_officieuse_bd8ffa7f"
+   ],
+   "expected": [
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_d259e472",
+    "circulaires/faq_tilea_taxe_sur_lembarquement_dans_un_aeronef_version_2_e89398e0"
+   ],
+   "split": "train"
+  }
+ },
+ "timing": {},
+ "provenance": {
+  "git": "78e93e9a",
+  "git_dirty": true,
+  "utc": "2026-09-27T00:36:09Z",
+  "host": "vm",
+  "harness": "0.2.0",
+  "python": "3.12.3",
+  "questions_file": "experiments/data/corpus_c/questions_c_mined.json",
+  "questions_sha256": "5599998ce938c7f314ba3e672af79fbe2a5842666335527751a821a73e538f24",
+  "qids_sha256": "dffa709dcc23e66de7e7ceb2eba584351a1792ccede4b4a8c118b646f4a8b209",
+  "n_qids": 45,
+  "corpus_n_docs": 21259,
+  "corpus_ids_sha256": "e3f088150641cf89fbabf64edf20d2e52fe7fef5bbd4224c1e6728962b1fa08e",
+  "corpus_fingerprint_source": "disk",
+  "omp_threads": "1",
+  "argv": "../21_mined_eval/train21.py --corpus C --balance --fsets cheap+mmarco,cheap+bge,all"
+ }
+}
