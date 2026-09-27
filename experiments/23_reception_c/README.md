@@ -77,3 +77,43 @@ Grid: weight **w ∈ {0.3, 0.5, 1.0}** × target scope **{all documents, statute
 (human) / top 60 (mined, as experiment 21); `evaluate_rankings` drops the mined `exclude` documents (the PQ
 a question was copied from). Paired statistics = `rag_eval.stats.paired_stats` (paired t, sign-flip
 permutation, BCa bootstrap CI, wins / losses / ties) on reciprocal ranks and hit@10, Δ = variant − exp-13.
+
+### 1.3 Coverage
+
+Extraction: 21,259 documents in 154 s. 389,096 article mentions (234,285 resolved; 186,334 bare "article N"
+resolved through the citing document's domain), 5,110 circular mentions (2,971 resolved), 726 ruling numbers
+(682), 6,353 court decisions (2,860), 1,291 PQ numbers (809), 7,171 AR numbers (7,064), 66 Rép. RJ numbers (9).
+After self / twin exclusion and the sentence filter: 515,704 (target, sentence) pairs (`cite_art` 504,921,
+`cite_ar` 6,765, `cite_circ` 2,200, `cite_jur` 1,715, `cite_da` 77, `cite_qp` 23, `cite_rj` 3), capped to
+**129,688 sentences on 7,759 documents** (median 9 per document, 1,891 at the cap; 9,548 Dutch), by source
+type: statute cross-references 40,127, case law 23,329, circulars 21,429, rulings 13,063, commentaries
+10,377, ARs 8,743, PQs 5,485, avis 4,374, CPDI 1,466, forfaits 558, FAQ 114. Leak-free variant (553 mined
+source documents skipped): 127,006 sentences on 7,705 documents.
+
+| target folder | documents | with reception | % | median sentences | at cap (40) | leak-free |
+|---|---:|---:|---:|---:|---:|---:|
+| code_et_legislation | 8,061 | 6,388 | 79.2 | 15 | 1,851 | 6,356 |
+| commentaires_dont_rep_rj | 4,774 | 3 | 0.1 | 1 | 0 | 3 |
+| jurisprudence_belge | 1,730 | 658 | 38.0 | 1 | 0 | 658 |
+| questions_parlementaires | 1,362 | 18 | 1.3 | 1 | 0 | 16 |
+| decisions_anticipees_l_24_12_2002 | 1,216 | 47 | 3.9 | 1 | 0 | 37 |
+| circulaires | 1,120 | 414 | 37.0 | 3 | 3 | 405 |
+| arretes_royaux | 870 | 117 | 13.4 | 6 | 32 | 117 |
+| legislation_et_reglementation_regionale_et_locale | 606 | 23 | 3.8 | 10 | 5 | 23 |
+| jurisprudence_europeenne | 155 | 83 | 53.5 | 2 | 0 | 82 |
+| sans_type | 19 | 8 | 42.1 | 2 | 0 | 8 |
+| CPDI 281 · communications 205 · avis 173 · AM 152 · traités 143 · règl. UE 131 · forfaits 121 · actes adm. 90 · annexes 21 · inf. & comm. 10 · faq 7 · DA (art. 345 / AR 1999) 7 · décisions 5 | 1,346 | 0 | 0 | – | – | 0 |
+| **all** | **21,259** | **7,759** | **36.5** | 9 | 1,891 | 7,705 |
+
+Reading: the reception is a **statute** phenomenon. Articles are cited by number everywhere (79 % of the
+`code_et_legislation` documents, median 15 sentences, the hubs — art. 44 C.TVA 3,693 raw sentences, art.
+183bis / art. 2 CIR 92 ≈ 2,300 — at the cap); case law (38 %: "arrêt de la Cour de cassation du …" in
+commentaries and other decisions) and circulars (37 %) are cited by identifier by a minority of documents,
+a handful of sentences each; rulings (4 %), PQs (1 %), commentaries (0.1 %: Rép. RJ numbers are almost
+never cited, Com.IR numbers resolve to nothing), CPDI, forfaits, avis and FAQ documents are never cited by
+an identifier the parser can resolve. **Question-target coverage**: human questions **15 / 64** (5 train,
+10 val: C33–C40 statute lookups, C4 / C8 / C25 circulars, C51 / C55 / C56 case law, C57 an AR; 8 of them at
+the 40-sentence cap, the others 1–15 sentences); mined PQ slice **163 / 163** (the labels are statute
+articles, at the cap), FAQ slice 95 / 157 (FAQ circulars cited by later circulars, median 8 sentences),
+ruling slice 16 / 377 (10 leak-free). The remaining 49 human questions (commentaries, PQs, rulings, CPDI,
+forfaits, avis, most circulars) can only be *hurt* by the field, never helped.
